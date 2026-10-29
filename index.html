@@ -247,22 +247,40 @@ function listenTo(loc){
 // between quarters, so detect breaks from the status name and the last play.
 const ORD = ["","1st","2nd","3rd","4th"];
 const qName = p => p>4 ? (p===5?"OT":`${p-4}OT`) : ORD[p];
+const lastSeen = {}; // game id -> last period seen with the clock running
+function lastPlayInfo(e){
+  const sum = snap(summaryHist, x=>x.id===e.id)?.s, d = sum?.drives;
+  let play = null;
+  const cur = d?.current?.plays; if(cur?.length) play = cur[cur.length-1];
+  if(!play){ const prev = d?.previous; const last = prev?.[prev.length-1]?.plays; if(last?.length) play = last[last.length-1]; }
+  const text = e.competitions?.[0]?.situation?.lastPlay?.text || play?.text || "";
+  return {text, period: play?.period?.number || null};
+}
+function breakAfter(e){
+  // Returns the quarter that just ended if the game is between quarters, else 0.
+  const st = e.status, t = st.type, p = st.period||0, name = t.name||"", sd = t.shortDetail||"";
+  if(name==="STATUS_HALFTIME" || /halftime/i.test(sd)) return 2;
+  if(name==="STATUS_END_PERIOD" || /^end of/i.test(sd) || st.displayClock==="0:00"){
+    const m = sd.match(/(1st|2nd|3rd|4th)/); return m ? ({"1st":1,"2nd":2,"3rd":3,"4th":4})[m[1]] : p;
+  }
+  if(st.displayClock!=="15:00" || p<=1) return 0;
+  // Clock reset to 15:00: a break unless a play has already happened this quarter.
+  const lp = lastPlayInfo(e);
+  if(lp.period) return lp.period < p ? lp.period : 0;
+  const txt = lp.text.match(/end of (?:the )?(1st|2nd|3rd|4th|first|second|third|fourth|half|1st half)/i);
+  if(txt){ const w = txt[1].toLowerCase(); return ({"1st":1,first:1,"2nd":2,second:2,half:2,"1st half":2,"3rd":3,third:3,"4th":4,fourth:4})[w] || p-1; }
+  if(lastSeen[e.id] && lastSeen[e.id] < p) return lastSeen[e.id];
+  return 0;
+}
 function statusText(e){
-  const st = e.status, t = st.type, p = st.period||0, name = t.name||"";
+  const st = e.status, t = st.type, p = st.period||0;
   if(t.state!=="in") return {short:t.shortDetail, long:t.shortDetail, brk:false};
-  if(name==="STATUS_HALFTIME" || /halftime/i.test(t.shortDetail||"")) return {short:"Halftime", long:"Halftime", brk:true};
-  const sum = snap(summaryHist, x=>x.id===e.id)?.s;
-  const lp = (e.competitions?.[0]?.situation?.lastPlay?.text || lastPlayFrom(sum) || "");
-  const endPlay = lp.match(/end of (?:the )?(1st|2nd|3rd|4th|first|second|third|fourth)\b/i);
-  const atBreak = name==="STATUS_END_PERIOD" || /^end of/i.test(t.shortDetail||"") ||
-    (st.displayClock==="0:00") || (st.displayClock==="15:00" && !!endPlay);
-  if(atBreak){
-    let q = p;
-    if(st.displayClock==="15:00" && endPlay){ const w = endPlay[1].toLowerCase(); q = {"1st":1,first:1,"2nd":2,second:2,"3rd":3,third:3,"4th":4,fourth:4}[w]||p; }
-    if(q===2) return {short:"Halftime", long:"Halftime", brk:true};
-    const lab = q>=4 && p>4 ? `End of ${qName(p)}` : (q>=4 ? "End of regulation" : `End of ${qName(q)}`);
+  const q = breakAfter(e);
+  if(q){
+    const lab = q===2 ? "Halftime" : (q===4 && p<=4 ? "End of regulation" : `End of ${qName(q)}`);
     return {short:lab, long:lab, brk:true};
   }
+  if(st.displayClock!=="15:00") lastSeen[e.id] = p;
   return {short:`${st.displayClock} - ${qName(p)}`, long:p>4?qName(p):`${qName(p)} Qtr`, brk:false};
 }
 function team(c, side){return c.competitors.find(t=>t.homeAway===side)}
