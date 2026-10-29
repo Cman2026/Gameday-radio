@@ -57,6 +57,15 @@ h1 span{color:var(--bulb)}
 .syncrow .lab{text-transform:uppercase;letter-spacing:.1em;font:600 11px var(--body)}
 .syncrow .val{min-width:118px;text-align:center;color:var(--chalk);font-variant-numeric:tabular-nums}
 .btn.sm{padding:5px 10px;font-size:13px}
+.filters{display:grid;gap:8px;margin-bottom:10px}
+.filters input[type=search]{width:100%;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:9px 12px;color:var(--chalk)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:5px 12px;cursor:pointer;font-size:13px}
+.chip[aria-pressed="true"]{background:var(--chalk);color:var(--night);border-color:var(--chalk)}
+.chip .n{opacity:.6;margin-left:4px;font:500 11px var(--mono)}
+.fav{flex:none;border:0;background:none;color:var(--dim);font-size:16px;line-height:1;cursor:pointer;padding:2px}
+.fav.on{color:var(--bulb)}
+.card .div{font:600 10px var(--body);letter-spacing:.08em;color:var(--dim);border:1px solid var(--line);border-radius:4px;padding:0 4px;margin-left:6px}
 .empty{color:var(--dim);background:var(--panel);border:1px dashed var(--line);border-radius:10px;padding:16px}
 
 .board{background:linear-gradient(180deg,var(--panel-2),var(--panel));border:1px solid var(--line);border-radius:14px;padding:18px;display:grid;gap:16px;min-width:0}
@@ -125,7 +134,18 @@ h1 span{color:var(--bulb)}
   </header>
   
   <div class="grid">
-    <div class="list" id="list"></div>
+    <div>
+      <div class="filters">
+        <input type="search" id="q" placeholder="Find a team" aria-label="Find a team" autocomplete="off">
+        <div class="chips" role="group" aria-label="Filter games">
+          <button class="chip" data-div="all" aria-pressed="true">All<span class="n" id="nAll"></span></button>
+          <button class="chip" data-div="FBS" aria-pressed="false">FBS<span class="n" id="nFBS"></span></button>
+          <button class="chip" data-div="FCS" aria-pressed="false">FCS<span class="n" id="nFCS"></span></button>
+          <button class="chip" data-div="fav" aria-pressed="false">★ My teams<span class="n" id="nFav"></span></button>
+        </div>
+      </div>
+      <div class="list" id="list"></div>
+    </div>
     <main id="board" class="board"><p class="note">Pick a game.</p></main>
   </div>
 </div>
@@ -152,7 +172,6 @@ h1 span{color:var(--bulb)}
 <audio id="audio" preload="none"></audio>
 
 <script>
-const CUSA = ["Delaware","FIU","Florida International","Jacksonville State","Kennesaw State","Liberty","Middle Tennessee","Missouri State","New Mexico State","Sam Houston","Western Kentucky","WKU"];
 // Radio networks. "streams" are tried in order until one plays.
 // Strings are direct audio URLs; {tunein:"sNNN"} is resolved to a direct URL through TuneIn's public tune service.
 const sn = call => [3,9,6,5,7,2,4,8,1].map(n=>`https://ice${n}.securenetsystems.net/${call}`);
@@ -167,11 +186,26 @@ let filter = "live", events = [], selected = null, history = [], summaryHist = [
 const $ = s => document.querySelector(s);
 const store = {get(k){try{return localStorage.getItem(k)}catch(e){return null}}, set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
 
-function isCusa(ev){
-  const c = ev.competitions?.[0]; if(!c) return false;
-  if (c.conferenceCompetition && c.competitors?.some(t=>CUSA.includes(t.team?.location))) return true;
-  return c.competitors?.some(t => CUSA.includes(t.team?.location) || CUSA.includes(t.team?.shortDisplayName));
+// Every Division I team's radio, built daily by the repo's "Build radio directory" job.
+let directoryBuilt = "";
+async function loadDirectory(){
+  try{
+    const d = await getJSON("radio.json");
+    directoryBuilt = d.built || "";
+    for(const t of Object.values(d.teams||{})){
+      if(!t.location || RADIO[t.location]) continue; // hand-checked entries above win
+      if(!t.tunein && !(t.streams||[]).length) continue;
+      RADIO[t.location] = {net: t.station || `${t.location} radio`, station: "Team radio network",
+        streams: [...(t.tunein?[{tunein:t.tunein}]:[]), ...(t.streams||[])],
+        listen: t.tunein ? `https://tunein.com/radio/${t.tunein}/` : ""};
+    }
+    render(); fillStations();
+  }catch(e){ /* directory not built yet: the hand-checked teams still work */ }
 }
+let divFilter = "all", query = "";
+const favs = new Set(JSON.parse(store.get("favs")||"[]"));
+function saveFavs(){ store.set("favs", JSON.stringify([...favs])); }
+const isFavGame = e => e.competitions[0].competitors.some(t=>favs.has(t.team.location));
 function fmtTime(d){return new Date(d).toLocaleString([], {weekday:"short", hour:"numeric", minute:"2-digit", hour12:true})}
 function now12(){return new Date().toLocaleTimeString([], {hour:"numeric",minute:"2-digit",second:"2-digit",hour12:true})}
 
@@ -179,18 +213,21 @@ async function getJSON(u){const r = await fetch(u,{cache:"no-store"}); if(!r.ok)
 
 async function poll(){
   try{
-    let data = await getJSON(`${base}/scoreboard?groups=12&limit=100`);
-    let evs = (data.events||[]);
-    if(!evs.length || !evs.some(isCusa)){ // fallback: all FBS, filter to CUSA teams
-      data = await getJSON(`${base}/scoreboard?groups=80&limit=300`); evs = data.events||[];
-    }
-    evs = evs.filter(isCusa);
+    const [fbs, fcs] = await Promise.all([
+      getJSON(`${base}/scoreboard?groups=80&limit=400`),
+      getJSON(`${base}/scoreboard?groups=81&limit=400`).catch(()=>({events:[]})),
+    ]);
+    const byId = new Map();
+    (fbs.events||[]).forEach(e=>{ e._div = "FBS"; byId.set(e.id, e); });
+    (fcs.events||[]).forEach(e=>{ if(!byId.has(e.id)){ e._div = "FCS"; byId.set(e.id, e); } });
+    const evs = [...byId.values()];
     history.push({t:Date.now(), evs}); history = history.filter(h => Date.now()-h.t < 180000);
     $("#dot").className = "dot ok"; $("#stat").textContent = "Live feed connected"; $("#upd").textContent = "Updated " + now12();
     const live = evs.filter(e=>e.status.type.state==="in");
-    if(!selected || !live.some(e=>e.id===selected)){ selected = live[0]?.id || null; }
-    // Preload: details for every live game, and each team's radio stream addresses.
-    live.forEach(e=>{ pollSummary(e.id); e.competitions[0].competitors.forEach(t=>prepareTeam(t.team.location)); });
+    if(!selected || !live.some(e=>e.id===selected)){ selected = (live.find(isFavGame) || live[0])?.id || null; }
+    // Preload every live game: the selected one refreshes every 9s, the rest every 30s,
+    // and each team's radio is looked up ahead of time so Listen starts right away.
+    live.forEach(e=>{ pollSummary(e.id, e.id===selected ? 9000 : 30000); e.competitions[0].competitors.forEach(t=>prepareTeam(t.team.location)); });
   }catch(e){
     $("#dot").className = "dot err";
     $("#stat").textContent = "Can't reach the ESPN feed. Open this file in a desktop browser (Safari, Chrome) and check your connection.";
@@ -198,8 +235,8 @@ async function poll(){
   render();
 }
 const sumAt = {};
-async function pollSummary(id){
-  if(Date.now() - (sumAt[id]||0) < 9000) return; sumAt[id] = Date.now();
+async function pollSummary(id, gap=9000){
+  if(Date.now() - (sumAt[id]||0) < gap) return; sumAt[id] = Date.now();
   try{ const s = await getJSON(`${base}/summary?event=${id}`); summaryHist.push({t:Date.now(), id, s}); summaryHist = summaryHist.filter(h=>Date.now()-h.t<180000); render(); }catch(e){}
 }
 function snap(arr, match){ // newest snapshot at least `delay` seconds old
@@ -212,13 +249,21 @@ function snap(arr, match){ // newest snapshot at least `delay` seconds old
 function render(){
   const s = snap(history); events = s ? s.evs : []; events.forEach(e=>{ if(e.status?.type?.state==='in') trackClock(e, s.t); });
   const order = {in:0, pre:1, post:2};
-  let shown = events.filter(e=>e.status.type.state==="in").slice().sort((a,b)=> order[a.status.type.state]-order[b.status.type.state] || new Date(a.date)-new Date(b.date));
+  const live = events.filter(e=>e.status.type.state==="in");
+  const count = f => live.filter(f).length;
+  $("#nAll").textContent = live.length; $("#nFBS").textContent = count(e=>e._div==="FBS");
+  $("#nFCS").textContent = count(e=>e._div==="FCS"); $("#nFav").textContent = count(isFavGame);
+  const q = query.trim().toLowerCase();
+  let shown = live.filter(e=> divFilter==="all" || (divFilter==="fav" ? isFavGame(e) : e._div===divFilter))
+    .filter(e=> !q || e.competitions[0].competitors.some(t=>[t.team.location,t.team.displayName,t.team.shortDisplayName,t.team.abbreviation].join(" ").toLowerCase().includes(q)))
+    .sort((a,b)=> (isFavGame(b)-isFavGame(a)) || new Date(a.date)-new Date(b.date) || a.id.localeCompare(b.id));
     const list = $("#list");
   if(!shown.length){
     const next = events.filter(e=>e.status.type.state==="pre").sort((a,b)=>new Date(a.date)-new Date(b.date))[0];
-    list.innerHTML = `<div class="empty">No CUSA games are live right now.${next ? `<br>Next up: ${next.shortName}, ${fmtTime(next.date)}.` : ""}</div>`;
+    const why = !live.length ? "No Division I games are live right now." : (q ? `No live games match “${esc(query.trim())}”.` : divFilter==="fav" ? "None of your teams are playing right now. Tap ☆ on a team to add it." : `No ${divFilter} games are live right now.`);
+    list.innerHTML = `<div class="empty">${why}${!live.length && next ? `<br>Next up: ${esc(next.shortName)}, ${fmtTime(next.date)}.` : ""}</div>`;
   } else list.innerHTML = shown.map(card).join("");
-  list.querySelectorAll(".card").forEach(b=>{ const go=()=>{selected=b.dataset.id; render();}; b.onclick=ev=>{ if(ev.target.closest(".ear")) return; go(); }; b.onkeydown=ev=>{ if(ev.key==="Enter"||ev.key===" "){ ev.preventDefault(); go(); } }; });
+  list.querySelectorAll(".card").forEach(b=>{ const go=()=>{selected=b.dataset.id; render();}; b.onclick=ev=>{ if(ev.target.closest(".ear,.fav")) return; go(); }; b.onkeydown=ev=>{ if(ev.key==="Enter"||ev.key===" "){ ev.preventDefault(); go(); } }; });
   renderBoard();
 }
 let currentTeam = null, connecting = null;
@@ -324,9 +369,9 @@ function team(c, side){return c.competitors.find(t=>t.homeAway===side)}
 function card(e){
   const c = e.competitions[0], a = team(c,"away"), h = team(c,"home"), st = e.status.type;
   const showScore = st.state!=="pre";
-  const row = t => `<div class="row"><span class="tm"><img src="${t.team.logo||""}" alt=""><span>${t.curatedRank?.current<26?`<small>${t.curatedRank.current}</small> `:""}${t.team.shortDisplayName}</span></span><span class="right">${ear(t.team.location, t.team.shortDisplayName)}<span class="sc">${showScore?t.score:""}</span></span></div>`;
+  const row = t => `<div class="row"><span class="tm"><button class="fav ${favs.has(t.team.location)?"on":""}" data-fav="${esc(t.team.location)}" aria-label="${favs.has(t.team.location)?"Remove":"Add"} ${esc(t.team.location)} ${favs.has(t.team.location)?"from":"to"} my teams">${favs.has(t.team.location)?"★":"☆"}</button><img src="${t.team.logo||""}" alt=""><span>${t.curatedRank?.current<26?`<small>${t.curatedRank.current}</small> `:""}${esc(t.team.shortDisplayName)}</span></span><span class="right">${ear(t.team.location, "Listen")}<span class="sc">${showScore?t.score:""}</span></span></div>`;
   return `<div class="card" role="button" tabindex="0" data-id="${e.id}" aria-current="${e.id===selected}">${row(a)}${row(h)}
-  <div class="meta"><span class="${st.state==="in"?"live":""}">${st.state==="pre"?fmtTime(e.date):statusText(e).short}</span><span>${(c.broadcasts||[]).flatMap(b=>b.names).join(", ")}</span></div></div>`;
+  <div class="meta"><span class="${st.state==="in"?"live":""}">${st.state==="pre"?fmtTime(e.date):statusText(e).short}</span><span>${esc((c.broadcasts||[]).flatMap(b=>b.names).join(", "))}<span class="div">${e._div||""}</span></span></div></div>`;
 }
 
 function renderBoard(){
@@ -357,7 +402,7 @@ function renderBoard(){
   html += playsView(sum);
   const r = radioFor(e);
   html += `<div class="radio-info"><p class="label">Radio for this game</p><ul>${r.map(x=>`<li><b>${x.team}:</b> ${x.net}, ${x.station}${x.stream?" · <a href='#' data-play='"+x.team+"'>play here</a>":""}${x.listen?` · <a href="${x.listen}" target="_blank" rel="noopener">official listen</a>`:""}</li>`).join("")}</ul>
-  <span class="note">If a team doesn't publish a direct stream, open its official page, copy the stream address, and paste it below. It's saved for that team.</span></div>`;
+  <span class="note">Radio comes from each school's own broadcast network. Some schools don't stream every game online; if a Listen button can't connect, try the other team's call.</span></div>`;
   B.innerHTML = html;
   B.querySelectorAll("[data-play]").forEach(l=>l.onclick=ev=>{ev.preventDefault(); $("#station").value = "team:"+l.dataset.play; startStation();});
 }
@@ -396,8 +441,9 @@ function radioFor(e){
 /* ---------- radio ---------- */
 const audio = $("#audio"); let hls = null;
 function fillStations(){
-  const sel = $("#station"), teams = new Set(Object.keys(RADIO));
-  events.forEach(e=>e.competitions[0].competitors.forEach(t=>teams.add(t.team.location)));
+  const sel = $("#station"), teams = new Set();
+  events.filter(e=>e.status.type.state==="in").forEach(e=>e.competitions[0].competitors.forEach(t=>{ if(RADIO[t.team.location] || store.get("stream:"+t.team.location)) teams.add(t.team.location); }));
+  if(currentTeam) teams.add(currentTeam);
   const cur = sel.value;
   sel.innerHTML = `<option value="">Choose a team's radio…</option>` + [...teams].sort().map(t=>{
     const has = store.get("stream:"+t) || RADIO[t]?.streams?.length;
@@ -475,10 +521,19 @@ $("#nudge").onclick = ()=>{ if(audio.paused) return; audio.pause(); $("#nudge").
 function setDelay(d){ delay = Math.max(0, Math.min(120, d)); $("#delayV").textContent = delay ? `Scores held ${delay}s` : "Scores live"; store.set("delay", delay); render(); }
 $("#scoresMore").onclick = ()=>setDelay(delay+2);
 $("#scoresLess").onclick = ()=>setDelay(delay-2);
+document.addEventListener("click", ev=>{
+  const f = ev.target.closest(".fav[data-fav]"); if(!f) return;
+  ev.stopPropagation(); const loc = f.dataset.fav;
+  favs.has(loc) ? favs.delete(loc) : favs.add(loc); saveFavs(); render();
+}, true);
+document.querySelectorAll(".chip[data-div]").forEach(c=>c.onclick=()=>{ divFilter = c.dataset.div; document.querySelectorAll(".chip[data-div]").forEach(x=>x.setAttribute("aria-pressed", String(x===c))); store.set("div", divFilter); render(); });
+$("#q").addEventListener("input", e=>{ query = e.target.value; render(); });
 $("#moreBtn").onclick = ()=>{ const m=$("#more"); m.hidden=!m.hidden; $("#moreBtn").setAttribute("aria-expanded", String(!m.hidden)); $("#moreBtn").textContent = m.hidden?"More":"Less"; };
 
 (function init(){
   setDelay(+store.get("delay")||0);
+  const dv = store.get("div"); if(dv && document.querySelector(`.chip[data-div="${dv}"]`)) document.querySelector(`.chip[data-div="${dv}"]`).click();
+  loadDirectory();
   poll().then(fillStations); setInterval(()=>{poll().then(fillStations)}, 5000);
   setInterval(()=>{ if(delay) render(); }, 1000); // step through held-back scores
 })();
