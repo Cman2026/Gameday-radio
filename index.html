@@ -186,22 +186,26 @@ let filter = "live", events = [], selected = null, history = [], summaryHist = [
 const $ = s => document.querySelector(s);
 const store = {get(k){try{return localStorage.getItem(k)}catch(e){return null}}, set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
 
-// Every Division I team's radio, built daily by the repo's "Build radio directory" job.
-let directoryBuilt = "";
+// Every Division I team's radio, from radio.json (researched per school).
+const normName = x => String(x||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")
+  .replace(/&/g," and ").replace(/\bst\.?\b/g,"state").replace(/[^a-z0-9 ]/g," ").replace(/\s+/g," ").trim();
+const dirIndex = new Map();
 async function loadDirectory(){
   try{
     const d = await getJSON("radio.json");
-    directoryBuilt = d.built || "";
-    for(const t of Object.values(d.teams||{})){
-      if(!t.location || RADIO[t.location]) continue; // hand-checked entries above win
-      if(!t.tunein && !(t.streams||[]).length) continue;
-      RADIO[t.location] = {net: t.station || `${t.location} radio`, station: "Team radio network",
-        streams: [...(t.tunein?[{tunein:t.tunein}]:[]), ...(t.streams||[])],
-        listen: t.tunein ? `https://tunein.com/radio/${t.tunein}/` : ""};
-    }
+    for(const t of d.teams||[]) for(const n of [t.school, ...(t.names||[])]) if(n && !dirIndex.has(normName(n))) dirIndex.set(normName(n), t);
+    events.forEach(e=>e.competitions[0].competitors.forEach(c=>attachRadio(c.team)));
     render(); fillStations();
-  }catch(e){ /* directory not built yet: the hand-checked teams still work */ }
+  }catch(e){ /* no directory yet: hand-checked teams still work */ }
 }
+function attachRadio(tm){
+  if(!tm || RADIO[tm.location] || !dirIndex.size) return;
+  const tries = [tm.location, tm.displayName, `${tm.location} ${tm.name||""}`, tm.shortDisplayName, tm.abbreviation];
+  let hit = null; for(const n of tries){ hit = dirIndex.get(normName(n)); if(hit) break; }
+  if(!hit || !(hit.streams||[]).length){ if(hit) RADIO_INFO[tm.location] = hit; return; }
+  RADIO[tm.location] = {net: hit.network || `${tm.location} radio`, station: hit.flagship || "", streams: hit.streams, listen: hit.listen_page || ""};
+}
+const RADIO_INFO = {}; // teams we know about but have no free stream for
 let divFilter = "all", query = "";
 const favs = new Set(JSON.parse(store.get("favs")||"[]"));
 function saveFavs(){ store.set("favs", JSON.stringify([...favs])); }
@@ -221,6 +225,7 @@ async function poll(){
     (fbs.events||[]).forEach(e=>{ e._div = "FBS"; byId.set(e.id, e); });
     (fcs.events||[]).forEach(e=>{ if(!byId.has(e.id)){ e._div = "FCS"; byId.set(e.id, e); } });
     const evs = [...byId.values()];
+    evs.forEach(e=>e.competitions[0].competitors.forEach(c=>attachRadio(c.team)));
     history.push({t:Date.now(), evs}); history = history.filter(h => Date.now()-h.t < 180000);
     $("#dot").className = "dot ok"; $("#stat").textContent = "Live feed connected"; $("#upd").textContent = "Updated " + now12();
     const live = evs.filter(e=>e.status.type.state==="in");
@@ -432,7 +437,8 @@ function playsView(sum){
 }
 function radioFor(e){
   return e.competitions[0].competitors.slice().sort((x,y)=>x.homeAway==="home"?1:-1).map(t=>{
-    const r = RADIO[t.team.location] || {net:`${t.team.location} radio network`, station:"see team site", listen:`https://tunein.com/search/?query=${encodeURIComponent(t.team.location+" "+(t.team.name||"")+" football")}`};
+    const info = RADIO_INFO[t.team.location];
+    const r = RADIO[t.team.location] || {net: info?.network || `${t.team.location} radio`, station: (info?.flagship||"") + " (no free online stream found)", listen: info?.listen_page || ""};
     const saved = store.get("stream:"+t.team.location);
     return {team:t.team.location, ...r, stream: saved || (r.streams&&r.streams.length ? "auto" : null)};
   });
