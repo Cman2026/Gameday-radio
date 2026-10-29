@@ -53,6 +53,10 @@ h1 span{color:var(--bulb)}
 .card .row .right{display:flex;align-items:center;gap:10px}
 .side .ear{justify-self:center;margin-top:4px}
 .more{display:contents} .more[hidden]{display:none!important}
+.syncrow{display:flex;align-items:center;gap:6px;flex:1 1 100%;font:500 12px var(--mono);color:var(--dim)}
+.syncrow .lab{text-transform:uppercase;letter-spacing:.1em;font:600 11px var(--body)}
+.syncrow .val{min-width:118px;text-align:center;color:var(--chalk);font-variant-numeric:tabular-nums}
+.btn.sm{padding:5px 10px;font-size:13px}
 .empty{color:var(--dim);background:var(--panel);border:1px dashed var(--line);border-radius:10px;padding:16px}
 
 .board{background:linear-gradient(180deg,var(--panel-2),var(--panel));border:1px solid var(--line);border-radius:14px;padding:18px;display:grid;gap:16px;min-width:0}
@@ -131,11 +135,17 @@ h1 span{color:var(--bulb)}
     <button class="play-btn" id="pp" aria-label="Play radio">▶</button>
     <div class="now"><b id="nowName">Radio off</b><small id="nowSub">Choose a station, then press play</small></div>
     <select id="station" aria-label="Station"></select>
+    <div class="syncrow" role="group" aria-label="Sync scores with the radio">
+      <span class="lab">Sync</span>
+      <button class="btn sm" id="scoresLess" aria-label="Show scores 2 seconds sooner">−</button>
+      <span class="val" id="delayV">Scores live</span>
+      <button class="btn sm" id="scoresMore" aria-label="Hold scores 2 seconds longer">+</button>
+      <button class="btn sm" id="nudge" title="Pause the radio 5 seconds so it falls further behind">Radio −5s</button>
+    </div>
     <button class="btn" id="moreBtn" aria-expanded="false">More</button>
     <span class="more" id="more" hidden><input type="url" id="custom" placeholder="Or paste a stream URL (.mp3, .aac, .m3u8)" aria-label="Custom stream URL">
     <button class="btn" id="useCustom">Use URL</button>
-    <button class="btn" id="nudge" title="Pause the radio 5 seconds so it falls further behind">Radio −5s</button>
-    <label class="sync" title="Hold score updates back so they match the radio">Delay scores <input type="range" id="delay" min="0" max="120" step="5" value="0"><span id="delayV">0s</span></label>
+    <input type="range" id="delay" min="0" max="120" step="1" value="0" aria-label="Score delay" hidden>
     <input type="range" id="vol" class="vol" min="0" max="1" step="0.05" value="0.9" aria-label="Volume"></span>
   </div>
 </div>
@@ -187,7 +197,9 @@ async function poll(){
   }
   render();
 }
+const sumAt = {};
 async function pollSummary(id){
+  if(Date.now() - (sumAt[id]||0) < 9000) return; sumAt[id] = Date.now();
   try{ const s = await getJSON(`${base}/summary?event=${id}`); summaryHist.push({t:Date.now(), id, s}); summaryHist = summaryHist.filter(h=>Date.now()-h.t<180000); render(); }catch(e){}
 }
 function snap(arr, match){ // newest snapshot at least `delay` seconds old
@@ -282,16 +294,18 @@ function trackClock(e, t){
   const prev = clk[e.id];
   if(prev && prev.raw === raw){
     // A newer reading that hasn't moved means the clock is stopped.
-    if(prev.running && t > prev.t){ prev.running = false; prev.at = Date.now(); }
+    // The feed can repeat a reading for a few polls, so wait 12s before calling it stopped.
+    if(prev.running && Date.now() - prev.at > 12000){ prev.sec = Math.max(0, prev.sec - 12); prev.running = false; } // freeze where it is; the next reading corrects it
     return;
   }
-  const running = !!(prev && sec!=null && prev.period===st.period && sec < prev.sec && st.type.state==="in");
+  const real = prev ? Math.max(1, (t - prev.t)/1000) : 0;
+  const running = !!(prev && sec!=null && prev.period===st.period && sec < prev.sec && (prev.sec - sec) >= 0.5*real && st.type.state==="in");
   clk[e.id] = {raw, sec, period:st.period, at:Date.now(), t, running};
 }
 function liveClock(e){
   const c = clk[e.id]; if(!c || c.sec==null) return e.status.displayClock;
   if(!c.running) return fmtSec(c.sec);
-  const gone = Math.min(40, Math.floor((Date.now()-c.at)/1000)); // never run more than 40s past the last reading
+  const gone = Math.min(12, Math.floor((Date.now()-c.at)/1000)); // never run more than 12s past the last reading
   return fmtSec(Math.max(0, c.sec - gone));
 }
 setInterval(()=>{ document.querySelectorAll("[data-clk]").forEach(el=>{ const e = events.find(x=>x.id===el.dataset.clk); if(e) el.textContent = liveClock(e); }); }, 1000);
@@ -458,13 +472,15 @@ $("#useCustom").onclick = ()=>{
   play(u, v?v.slice(5)+" (saved stream)":"Custom stream", u);
 };
 $("#nudge").onclick = ()=>{ if(audio.paused) return; audio.pause(); $("#nudge").disabled = true; setTimeout(()=>{audio.play(); $("#nudge").disabled=false}, 5000); };
-$("#delay").oninput = e=>{ delay = +e.target.value; $("#delayV").textContent = delay+"s"; store.set("delay", delay); render(); };
+function setDelay(d){ delay = Math.max(0, Math.min(120, d)); $("#delayV").textContent = delay ? `Scores held ${delay}s` : "Scores live"; store.set("delay", delay); render(); }
+$("#scoresMore").onclick = ()=>setDelay(delay+2);
+$("#scoresLess").onclick = ()=>setDelay(delay-2);
 $("#moreBtn").onclick = ()=>{ const m=$("#more"); m.hidden=!m.hidden; $("#moreBtn").setAttribute("aria-expanded", String(!m.hidden)); $("#moreBtn").textContent = m.hidden?"More":"Less"; };
 
 (function init(){
-  const d = +store.get("delay")||0; delay = d; $("#delay").value = d; $("#delayV").textContent = d+"s";
-  poll().then(fillStations); setInterval(()=>{poll().then(fillStations)}, 10000);
-  setInterval(render, 5000); // re-evaluate delayed snapshot
+  setDelay(+store.get("delay")||0);
+  poll().then(fillStations); setInterval(()=>{poll().then(fillStations)}, 5000);
+  setInterval(()=>{ if(delay) render(); }, 1000); // step through held-back scores
 })();
 </script>
 </body>
