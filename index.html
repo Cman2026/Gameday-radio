@@ -198,7 +198,7 @@ function snap(arr, match){ // newest snapshot at least `delay` seconds old
 }
 
 function render(){
-  const s = snap(history); events = s ? s.evs : [];
+  const s = snap(history); events = s ? s.evs : []; events.forEach(e=>{ if(e.status?.type?.state==='in') trackClock(e, s.t); });
   const order = {in:0, pre:1, post:2};
   let shown = events.filter(e=>e.status.type.state==="in").slice().sort((a,b)=> order[a.status.type.state]-order[b.status.type.state] || new Date(a.date)-new Date(b.date));
     const list = $("#list");
@@ -272,6 +272,29 @@ function breakAfter(e){
   if(lastSeen[e.id] && lastSeen[e.id] < p) return lastSeen[e.id];
   return 0;
 }
+// Running clock: the feed sends a new reading every few seconds; between
+// readings, count down locally when the last two readings show the clock moving.
+const clk = {};
+const toSec = c => { const m = /^(\d+):(\d\d)$/.exec(c||""); return m ? (+m[1])*60 + (+m[2]) : null; };
+const fmtSec = n => `${Math.floor(n/60)}:${String(n%60).padStart(2,"0")}`;
+function trackClock(e, t){
+  const st = e.status, raw = `${st.period}|${st.displayClock}`, sec = toSec(st.displayClock);
+  const prev = clk[e.id];
+  if(prev && prev.raw === raw){
+    // A newer reading that hasn't moved means the clock is stopped.
+    if(prev.running && t > prev.t){ prev.running = false; prev.at = Date.now(); }
+    return;
+  }
+  const running = !!(prev && sec!=null && prev.period===st.period && sec < prev.sec && st.type.state==="in");
+  clk[e.id] = {raw, sec, period:st.period, at:Date.now(), t, running};
+}
+function liveClock(e){
+  const c = clk[e.id]; if(!c || c.sec==null) return e.status.displayClock;
+  if(!c.running) return fmtSec(c.sec);
+  const gone = Math.min(40, Math.floor((Date.now()-c.at)/1000)); // never run more than 40s past the last reading
+  return fmtSec(Math.max(0, c.sec - gone));
+}
+setInterval(()=>{ document.querySelectorAll("[data-clk]").forEach(el=>{ const e = events.find(x=>x.id===el.dataset.clk); if(e) el.textContent = liveClock(e); }); }, 1000);
 function statusText(e){
   const st = e.status, t = st.type, p = st.period||0;
   if(t.state!=="in") return {short:t.shortDetail, long:t.shortDetail, brk:false};
@@ -281,7 +304,7 @@ function statusText(e){
     return {short:lab, long:lab, brk:true};
   }
   if(st.displayClock!=="15:00") lastSeen[e.id] = p;
-  return {short:`${st.displayClock} - ${qName(p)}`, long:p>4?qName(p):`${qName(p)} Qtr`, brk:false};
+  return {short:`<span data-clk="${e.id}">${liveClock(e)}</span> - ${qName(p)}`, long:p>4?qName(p):`${qName(p)} Qtr`, brk:false};
 }
 function team(c, side){return c.competitors.find(t=>t.homeAway===side)}
 function card(e){
@@ -305,7 +328,7 @@ function renderBoard(){
     ${tos!=null?`<div class="to" aria-label="${tos} timeouts left">${[0,1,2].map(i=>`<i class="${i<tos?"":"used"}"></i>`).join("")}</div>`:""}</div>`;
   };
   const stx = statusText(e), per = stx.long;
-  let html = `<div class="score">${side(a,"away")}<div class="mid"><div class="clock">${st.type.state==="in"&&!stx.brk?st.displayClock:""}</div><div class="per">${st.type.state==="pre"?fmtTime(e.date):per}</div></div>${side(h,"home")}</div>`;
+  let html = `<div class="score">${side(a,"away")}<div class="mid"><div class="clock">${st.type.state==="in"&&!stx.brk?`<span data-clk="${e.id}">${liveClock(e)}</span>`:""}</div><div class="per">${st.type.state==="pre"?fmtTime(e.date):per}</div></div>${side(h,"home")}</div>`;
   if(st.type.state==="in"){
     const pills = [];
     if(sit.downDistanceText) pills.push(`<span class="pill">${sit.downDistanceText}</span>`);
@@ -440,7 +463,7 @@ $("#moreBtn").onclick = ()=>{ const m=$("#more"); m.hidden=!m.hidden; $("#moreBt
 
 (function init(){
   const d = +store.get("delay")||0; delay = d; $("#delay").value = d; $("#delayV").textContent = d+"s";
-  poll().then(fillStations); setInterval(()=>{poll().then(fillStations)}, 15000);
+  poll().then(fillStations); setInterval(()=>{poll().then(fillStations)}, 10000);
   setInterval(render, 5000); // re-evaluate delayed snapshot
 })();
 </script>
