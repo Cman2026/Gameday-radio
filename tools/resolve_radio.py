@@ -206,8 +206,19 @@ def candidates(team):
     return out
 
 
+PREV = {}
+
 def resolve(team):
     tried, good = [], []
+    # Fast path: if the stream we found last time still plays and the station hasn't changed, keep it.
+    old = PREV.get(team.get("school"), {})
+    if old.get("streams") and old.get("calls") == team.get("calls"):
+        for u in old["streams"]:
+            ok, detail = probe(u)
+            tried.append({"url": u, "source": "remembered", "ok": ok, "detail": detail})
+            if ok: good.append(u)
+        if good:
+            return good, tried
     sn_hit = False
     for src, u in candidates(team):
         if "securenetsystems.net" in u and sn_hit:
@@ -227,7 +238,8 @@ def main():
         prev = {t["school"]: t for t in json.load(open("radio.json"))["teams"]}
     except Exception:
         prev = {}
-    with ThreadPoolExecutor(max_workers=16) as ex:
+    PREV.update(prev)
+    with ThreadPoolExecutor(max_workers=32) as ex:
         results = list(ex.map(resolve, src))
     teams, report = [], []
     for t, (good, tried) in zip(src, results):
