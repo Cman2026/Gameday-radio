@@ -32,7 +32,7 @@ with sync_playwright() as p:
     b = p.chromium.launch(args=["--autoplay-policy=no-user-gesture-required"])
     for url in dict.fromkeys(targets):
         found, media, bodies = [], [], {}
-        ctx = b.new_context(user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36")
+        ctx = b.new_context(ignore_https_errors=True, user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36")
         page = ctx.new_page()
         def on_req(r):
             if r.resource_type == "media" or (STREAMY.search(r.url) and not re.search(r"\.(js|css|png|jpg|svg|woff2?)(\?|$)", r.url)):
