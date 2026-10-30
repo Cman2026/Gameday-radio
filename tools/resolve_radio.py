@@ -190,6 +190,8 @@ def candidates(team):
         for x in extra[:6]:
             if x.startswith("http"): found += from_page(x)[0]
         groups.append(("listen-page", found))
+    if team.get("securenet"):
+        groups.append(("securenet-id", securenet(team["securenet"])))
     freqs = re.findall(r"\b(\d{2,4}(?:\.\d)?)\b", team.get("flagship") or "")
     for call in team.get("calls") or []:
         m = re.match(r"([KW][A-Z]{2,3})(?:-?(AM|FM))?$", call.upper().replace(" ", ""))

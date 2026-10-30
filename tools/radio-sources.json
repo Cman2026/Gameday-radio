@@ -223,7 +223,9 @@
   "calls": [
    "WTKW-FM"
   ],
-  "streams": []
+  "streams": [
+   "https://live.amperwave.net/manifest/galaxy-wtkwfmaac-hlsc1.m3u8?source=v7player"
+  ]
  },
  {
   "school": "University of Virginia",
@@ -239,7 +241,10 @@
   "calls": [
    "WINA-AM"
   ],
-  "streams": []
+  "streams": [
+   "https://live.amperwave.net/manifest/saga-winaammp3-hlsc.m3u8?source=uva",
+   "https://live.amperwave.net/manifest/saga-winaamaac-hlsc1.m3u8?source=v7player"
+  ]
  },
  {
   "school": "Virginia Tech",
@@ -333,7 +338,9 @@
   "calls": [
    "WZGV"
   ],
-  "streams": []
+  "streams": [
+   "https://ice64.securenetsystems.net/WZGV2"
+  ]
  },
  {
   "school": "East Carolina University",
@@ -533,7 +540,9 @@
   "calls": [
    "WKBC-FM"
   ],
-  "streams": []
+  "streams": [
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3"
+  ]
  },
  {
   "school": "Arkansas State University",
@@ -680,7 +689,9 @@
   "calls": [
    "WVSP-FM"
   ],
-  "streams": [],
+  "streams": [
+   "https://ais-sa1.streamon.fm/7851_128k.aac/playlist.m3u8"
+  ],
   "station_website": "http://www.espnradio941.com"
  },
  {
@@ -890,7 +901,8 @@
    "KMXN-FM"
   ],
   "streams": [],
-  "station_website": "https://klwn.com"
+  "station_website": "https://klwn.com",
+  "securenet": "KLWNAM"
  },
  {
   "school": "Kansas State University",
@@ -907,7 +919,9 @@
    "KMAN-AM",
    "KMKF-FM"
   ],
-  "streams": []
+  "streams": [
+   "https://stream-02.surfernetwork.com/drscz5r6naxuv"
+  ]
  },
  {
   "school": "Oklahoma State University",
@@ -3441,7 +3455,9 @@
   "calls": [
    "WHMP-AM"
   ],
-  "streams": []
+  "streams": [
+   "https://live.amperwave.net/manifest/saga-whmpamaac-hlsc1.m3u8?source=v7player"
+  ]
  },
  {
   "school": "California State University, Sacramento",
@@ -3487,7 +3503,9 @@
   "listen_page": "https://fiusports.com/listen",
   "conference": "Conference USA",
   "calls": [],
-  "streams": []
+  "streams": [
+   "https://cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8"
+  ]
  },
  {
   "school": "Jacksonville State University",
@@ -3536,7 +3554,9 @@
   "calls": [
    "WRVL-FM"
   ],
-  "streams": [],
+  "streams": [
+   "https://ic.liberty.edu:8443/WRVL"
+  ],
   "station_website": "https://myjourneyfm.com"
  },
  {
@@ -3568,7 +3588,9 @@
   "calls": [
    "KWTO-FM"
   ],
-  "streams": []
+  "streams": [
+   "https://ais-sa1.streamon.fm/7678_48k.aac/playlist.m3u8"
+  ]
  },
  {
   "school": "New Mexico State University",
@@ -4071,7 +4093,9 @@
   "calls": [
    "WKBB"
   ],
-  "streams": [],
+  "streams": [
+   "https://live.amperwave.net/manifest/telesouth-wkbbfmaac-hlsc1.m3u8?source=v7player"
+  ],
   "station_website": "https://www.supertalk.fm/stations/golden-triangle-100-9/"
  },
  {

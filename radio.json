@@ -292,7 +292,9 @@
 "calls": [
 "WTKW-FM"
 ],
-"streams": [],
+"streams": [
+"https://live.amperwave.net/manifest/galaxy-wtkwfmaac-hlsc1.m3u8?source=v7player"
+],
 "misses": 0,
 "last_ok": null
 },
@@ -310,7 +312,10 @@
 "calls": [
 "WINA-AM"
 ],
-"streams": [],
+"streams": [
+"https://live.amperwave.net/manifest/saga-winaammp3-hlsc.m3u8?source=uva",
+"https://live.amperwave.net/manifest/saga-winaamaac-hlsc1.m3u8?source=v7player"
+],
 "misses": 0,
 "last_ok": null
 },
@@ -430,7 +435,9 @@
 "calls": [
 "WZGV"
 ],
-"streams": [],
+"streams": [
+"https://ice64.securenetsystems.net/WZGV2"
+],
 "misses": 0,
 "last_ok": null
 },
@@ -686,7 +693,9 @@
 "calls": [
 "WKBC-FM"
 ],
-"streams": [],
+"streams": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3"
+],
 "misses": 0,
 "last_ok": null
 },
@@ -865,7 +874,9 @@
 "calls": [
 "WVSP-FM"
 ],
-"streams": [],
+"streams": [
+"https://ais-sa1.streamon.fm/7851_128k.aac/playlist.m3u8"
+],
 "misses": 0,
 "last_ok": null
 },
@@ -1155,7 +1166,9 @@
 "KMAN-AM",
 "KMKF-FM"
 ],
-"streams": [],
+"streams": [
+"https://stream-02.surfernetwork.com/drscz5r6naxuv"
+],
 "misses": 0,
 "last_ok": null
 },
@@ -4275,7 +4288,9 @@
 "calls": [
 "WHMP-AM"
 ],
-"streams": [],
+"streams": [
+"https://live.amperwave.net/manifest/saga-whmpamaac-hlsc1.m3u8?source=v7player"
+],
 "misses": 0,
 "last_ok": null
 },
@@ -4335,7 +4350,9 @@
 "listen_page": "https://fiusports.com/listenlive",
 "conference": "Conference USA",
 "calls": [],
-"streams": [],
+"streams": [
+"https://cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8"
+],
 "misses": 0,
 "last_ok": null
 },
@@ -4390,7 +4407,9 @@
 "calls": [
 "WRVL-FM"
 ],
-"streams": [],
+"streams": [
+"https://ic.liberty.edu:8443/WRVL"
+],
 "misses": 0,
 "last_ok": null
 },
@@ -4427,7 +4446,9 @@
 "calls": [
 "KWTO-FM"
 ],
-"streams": [],
+"streams": [
+"https://ais-sa1.streamon.fm/7678_48k.aac/playlist.m3u8"
+],
 "misses": 0,
 "last_ok": null
 },
@@ -5066,7 +5087,9 @@
 "listen_page": "",
 "conference": "SEC",
 "calls": [],
-"streams": [],
+"streams": [
+"https://live.amperwave.net/manifest/telesouth-wkbbfmaac-hlsc1.m3u8?source=v7player"
+],
 "misses": 0,
 "last_ok": null
 },
