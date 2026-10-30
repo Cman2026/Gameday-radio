@@ -5,56 +5,56 @@
    "verdict": "game",
    "title": "UNT Mean Green Football (Feed)",
    "icy_name": "Talk Radio 1190 AM",
-   "at": "2026-10-30T02:36:39Z"
+   "at": "2026-10-30T02:52:04Z"
   },
   "https://stream.revma.ihrhls.com/zc4276/hls.m3u8": {
    "school": "University of North Texas",
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-10-30T02:36:39Z"
+   "at": "2026-10-30T02:52:04Z"
   },
   "http://stream.revma.ihrhls.com/zc4276": {
    "school": "University of North Texas",
    "verdict": "game",
    "title": "UNT Mean Green Football (Feed)",
    "icy_name": "Talk Radio 1190 AM",
-   "at": "2026-10-30T02:36:39Z"
+   "at": "2026-10-30T02:52:04Z"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WMENAMAAC.aac": {
    "school": "Florida Atlantic University",
-   "verdict": "unknown",
-   "title": "",
+   "verdict": "game",
+   "title": "Jonas Pomo [STIM] - FAU Bumper 1 (2025)",
    "icy_name": "WMENAM",
-   "at": "2026-10-30T02:36:39Z"
+   "at": "2026-10-30T02:52:04Z"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WMENAM.mp3": {
    "school": "Florida Atlantic University",
-   "verdict": "unknown",
-   "title": "",
+   "verdict": "game",
+   "title": "Jonas Pomo [STIM] - FAU Bumper 1 (2025)",
    "icy_name": "WMENAM",
-   "at": "2026-10-30T02:36:39Z"
+   "at": "2026-10-30T02:52:04Z"
   },
   "https://live.amperwave.net/manifest/saga-wsvaamaac-hlsc2.m3u8?source=v7player": {
    "school": "James Madison University",
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-10-30T02:36:39Z"
+   "at": "2026-10-30T02:52:04Z"
   },
   "https://live.amperwave.net/direct/saga-wsvaammp3-ibc2": {
    "school": "James Madison University",
    "verdict": "unknown",
    "title": "",
    "icy_name": "Newsradio WSVA",
-   "at": "2026-10-30T02:36:39Z"
+   "at": "2026-10-30T02:52:04Z"
   },
   "https://ice6.securenetsystems.net/WTXK": {
    "school": "Troy University",
    "verdict": "unknown",
    "title": "",
    "icy_name": "Streaming by Securenet Systems Cirrus(R)",
-   "at": "2026-10-30T02:36:39Z"
+   "at": "2026-10-30T02:52:04Z"
   }
  },
  "log": [
@@ -145,7 +145,71 @@
    "url": "https://ice6.securenetsystems.net/WTXK",
    "verdict": "unknown",
    "title": ""
+  },
+  {
+   "at": "2026-10-30T02:52:04Z",
+   "school": "University of North Texas",
+   "game": "FAU @ UNT",
+   "url": "https://stream.revma.ihrhls.com/zc4276",
+   "verdict": "game",
+   "title": "UNT Mean Green Football (Feed)"
+  },
+  {
+   "at": "2026-10-30T02:52:04Z",
+   "school": "University of North Texas",
+   "game": "FAU @ UNT",
+   "url": "https://stream.revma.ihrhls.com/zc4276/hls.m3u8",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-30T02:52:04Z",
+   "school": "University of North Texas",
+   "game": "FAU @ UNT",
+   "url": "http://stream.revma.ihrhls.com/zc4276",
+   "verdict": "game",
+   "title": "UNT Mean Green Football (Feed)"
+  },
+  {
+   "at": "2026-10-30T02:52:04Z",
+   "school": "Florida Atlantic University",
+   "game": "FAU @ UNT",
+   "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMENAMAAC.aac",
+   "verdict": "game",
+   "title": "Jonas Pomo [STIM] - FAU Bumper 1 (2025)"
+  },
+  {
+   "at": "2026-10-30T02:52:04Z",
+   "school": "Florida Atlantic University",
+   "game": "FAU @ UNT",
+   "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMENAM.mp3",
+   "verdict": "game",
+   "title": "Jonas Pomo [STIM] - FAU Bumper 1 (2025)"
+  },
+  {
+   "at": "2026-10-30T02:52:04Z",
+   "school": "James Madison University",
+   "game": "TROY @ JMU",
+   "url": "https://live.amperwave.net/manifest/saga-wsvaamaac-hlsc2.m3u8?source=v7player",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-30T02:52:04Z",
+   "school": "James Madison University",
+   "game": "TROY @ JMU",
+   "url": "https://live.amperwave.net/direct/saga-wsvaammp3-ibc2",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-30T02:52:04Z",
+   "school": "Troy University",
+   "game": "TROY @ JMU",
+   "url": "https://ice6.securenetsystems.net/WTXK",
+   "verdict": "unknown",
+   "title": ""
   }
  ],
- "checked": "2026-10-30T02:36:39Z"
+ "checked": "2026-10-30T02:52:04Z"
 }
