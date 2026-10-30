@@ -1,5 +1,5 @@
 {
-"built": "2026-10-30T03:07:47Z",
+"built": "2026-10-30T16:03:37Z",
 "teams": [
 {
 "school": "Boston College",
@@ -335,7 +335,7 @@
 "streams": [
 "https://ice26.securenetsystems.net/WBRW"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -436,10 +436,8 @@
 "calls": [
 "WZGV"
 ],
-"streams": [
-"https://ice64.securenetsystems.net/WZGV2"
-],
-"misses": 2,
+"streams": [],
+"misses": 0,
 "last_ok": null
 },
 {
@@ -696,10 +694,8 @@
 "calls": [
 "WKBC-FM"
 ],
-"streams": [
-"https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3"
-],
-"misses": 2,
+"streams": [],
+"misses": 0,
 "last_ok": null
 },
 {
@@ -842,7 +838,7 @@
 "streams": [
 "https://ice7.securenetsystems.net/KXKZ"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -862,7 +858,7 @@
 "streams": [
 "https://ice23.securenetsystems.net/WDGG"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -924,7 +920,7 @@
 "streams": [
 "https://ice64.securenetsystems.net/WXRR"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -943,7 +939,7 @@
 "streams": [
 "https://ice6.securenetsystems.net/WTXK"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -964,7 +960,7 @@
 "streams": [
 "https://ice66.securenetsystems.net/KLIP"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -1155,7 +1151,7 @@
 "streams": [
 "https://ice23.securenetsystems.net/KLWNAM"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -1196,7 +1192,7 @@
 "streams": [
 "https://ice42.securenetsystems.net/KSPI"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -1366,7 +1362,7 @@
 "streams": [
 "https://ice25.securenetsystems.net/WBUS"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -1935,7 +1931,7 @@
 "streams": [
 "https://ice6.securenetsystems.net/WNST"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -2461,7 +2457,7 @@
 "streams": [
 "https://ice41.securenetsystems.net/WELE"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -2630,9 +2626,9 @@
 "KTSU-FM"
 ],
 "streams": [
-"http://ice6.securenetsystems.net/KTSUFM"
+"http://centova87.instainternet.com/proxy/ktsuradio?mp=/stream"
 ],
-"misses": 1,
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -2789,7 +2785,7 @@
 "streams": [
 "https://ice41.securenetsystems.net/WFLI"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -2904,7 +2900,7 @@
 "streams": [
 "https://ice5.securenetsystems.net/WQNT"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -2923,7 +2919,7 @@
 "streams": [
 "https://ice41.securenetsystems.net/WWZW"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -3080,7 +3076,7 @@
 "streams": [
 "https://ice42.securenetsystems.net/KCIL"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -3119,7 +3115,7 @@
 "streams": [
 "https://ice41.securenetsystems.net/WFPR"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -3227,7 +3223,7 @@
 "streams": [
 "https://ice6.securenetsystems.net/KCLC"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -3247,7 +3243,7 @@
 "streams": [
 "https://ice23.securenetsystems.net/KCGQ"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -3287,7 +3283,7 @@
 "streams": [
 "https://ice64.securenetsystems.net/WUTM"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -3405,7 +3401,7 @@
 "streams": [
 "https://ice5.securenetsystems.net/WIVY"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -3425,7 +3421,7 @@
 "streams": [
 "https://ice26.securenetsystems.net/WPCC"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -3887,7 +3883,7 @@
 "streams": [
 "https://ice7.securenetsystems.net/KVHT"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -3928,7 +3924,7 @@
 "streams": [
 "https://ice23.securenetsystems.net/WCIL"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -4165,7 +4161,7 @@
 "streams": [
 "https://ice41.securenetsystems.net/WFRO"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -4175,8 +4171,8 @@
 "UB",
 "Buffalo Bulls"
 ],
-"network": "UB Bulls Radio Network",
-"flagship": "",
+"network": "",
+"flagship": "WWKB 1520 AM (Buffalo, NY; Audacy)",
 "listen_page": "",
 "conference": "Mid-American Conference",
 "calls": [
@@ -4186,7 +4182,7 @@
 "https://live.amperwave.net/manifest/audacy-wwkbamaac-hlsc.m3u8?dist=Audacy&source=webA2"
 ],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "Central Michigan University",
@@ -4269,7 +4265,7 @@
 "streams": [
 "https://ice3.securenetsystems.net/WMOH"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -4288,7 +4284,7 @@
 "streams": [
 "https://ice6.securenetsystems.net/WXTQ"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -4410,10 +4406,8 @@
 "listen_page": "https://fiusports.com/listen",
 "conference": "Conference USA",
 "calls": [],
-"streams": [
-"https://cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8"
-],
-"misses": 2,
+"streams": [],
+"misses": 0,
 "last_ok": null
 },
 {
@@ -4490,7 +4484,7 @@
 "streams": [
 "https://ice3.securenetsystems.net/WGNS"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -4529,7 +4523,7 @@
 "streams": [
 "https://ice42.securenetsystems.net/KXPZ"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -4568,7 +4562,7 @@
 "streams": [
 "https://ice25.securenetsystems.net/WPTQ"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -4855,7 +4849,7 @@
 "streams": [
 "https://ice3.securenetsystems.net/KQWB"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -5029,7 +5023,7 @@
 "streams": [
 "https://ice25.securenetsystems.net/WGZZ"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -5128,7 +5122,7 @@
 "Mississippi"
 ],
 "network": "Ole Miss Radio Network (Learfield)",
-"flagship": "WOXF 105.1 FM (Oxford, MS)",
+"flagship": "Q105 (Oxford, MS) - Ole Miss Radio Network",
 "listen_page": "https://olemisssports.com/showcase?Live=1197",
 "conference": "SEC",
 "calls": [
@@ -5138,7 +5132,7 @@
 "https://live.amperwave.net/manifest/telesouth-wqljfmaac-hlsc1.m3u8?source=v7player"
 ],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "Mississippi State University",
@@ -5291,7 +5285,7 @@
 "streams": [
 "http://ice42.securenetsystems.net/WTAWAM"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
