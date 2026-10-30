@@ -1,5 +1,5 @@
 {
-"built": "2026-10-30T01:58:51Z",
+"built": "2026-10-30T02:50:55Z",
 "teams": [
 {
 "school": "Boston College",
@@ -31,7 +31,7 @@
 "California Golden Bears"
 ],
 "network": "Cal Bears Sports Network (Learfield)",
-"flagship": "KGO 810 AM 'The Spread' (San Francisco, CA)",
+"flagship": "810 AM (KGO, possibly re-called KSFO 810) - Cal Bears Sports Network",
 "listen_page": "",
 "conference": "ACC",
 "calls": [
@@ -58,7 +58,7 @@
 "streams": [
 "http://s2.radioreformation.com:8060/;stream.mp3"
 ],
-"misses": 1,
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -296,7 +296,7 @@
 "https://live.amperwave.net/manifest/galaxy-wtkwfmaac-hlsc1.m3u8?source=v7player"
 ],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "University of Virginia",
@@ -317,7 +317,7 @@
 "https://live.amperwave.net/manifest/saga-winaamaac-hlsc1.m3u8?source=v7player"
 ],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "Virginia Tech",
@@ -352,9 +352,11 @@
 "calls": [
 "WBRF-FM"
 ],
-"streams": [],
+"streams": [
+"https://live.amperwave.net/manifest/blueridgeradio-wbrffmaac-hlsc4.m3u8"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "University of Notre Dame",
@@ -429,7 +431,7 @@
 "Charlotte 49ers"
 ],
 "network": "49ers Sports Network (IMG/Learfield)",
-"flagship": "UNVERIFIED (from memory, not confirmed this run): 730 The Game ESPN Charlotte (WZGV) was flagship through 2020; current flagship not confirmed",
+"flagship": "730 The Game ESPN Charlotte (WZGV)",
 "listen_page": "",
 "conference": "American Conference",
 "calls": [
@@ -438,7 +440,7 @@
 "streams": [
 "https://ice64.securenetsystems.net/WZGV2"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": null
 },
 {
@@ -459,8 +461,8 @@
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WNCTAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WNCTAM.mp3"
 ],
-"misses": 2,
-"last_ok": null
+"misses": 0,
+"last_ok": "2026-10-30"
 },
 {
 "school": "Florida Atlantic University",
@@ -592,7 +594,7 @@
 ],
 "network": "Temple Owls Radio Network",
 "flagship": "UNVERIFIED (from memory, not confirmed this run): flagship not confirmed",
-"listen_page": "",
+"listen_page": "https://owlsports.com/listen",
 "conference": "American Conference",
 "calls": [],
 "streams": [],
@@ -633,7 +635,9 @@
 "calls": [
 "KXBL-FM"
 ],
-"streams": [],
+"streams": [
+"https://live.amperwave.net/manifest//griffin-kxblfmaac-imc2"
+],
 "misses": 0,
 "last_ok": "2026-10-30"
 },
@@ -696,7 +700,7 @@
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": null
 },
 {
@@ -713,9 +717,11 @@
 "calls": [
 "KFIN-FM"
 ],
-"streams": [],
+"streams": [
+"https://ais-sa8.cdnstream1.com/1416_64"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "Coastal Carolina University",
@@ -784,9 +790,9 @@
 "JMU",
 "James Madison Dukes"
 ],
-"network": "JMU Radio Network",
-"flagship": "WSVA 550 AM / 92.1 FM (Harrisonburg, VA)",
-"listen_page": "https://wsvaonline.com",
+"network": "JMU Sports Network (Learfield)",
+"flagship": "WSVA 550 AM / 92.1 FM (Harrisonburg, VA) - JMU Radio Network",
+"listen_page": "https://wsvaonline.com/",
 "conference": "Sun Belt Conference",
 "calls": [
 "WSVA-AM"
@@ -796,7 +802,7 @@
 "https://live.amperwave.net/direct/saga-wsvaammp3-ibc2"
 ],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "University of Louisiana at Lafayette",
@@ -878,7 +884,7 @@
 "https://ais-sa1.streamon.fm/7851_128k.aac/playlist.m3u8"
 ],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "University of South Alabama",
@@ -928,9 +934,9 @@
 "Troy",
 "Troy Trojans"
 ],
-"network": "Troy Sports Radio Network",
-"flagship": "UNVERIFIED (from memory, not confirmed this run): flagship not confirmed",
-"listen_page": "",
+"network": "Troy Trojans Sports Network",
+"flagship": "Troy Sports Radio Network (game audio from troytrojans.com, WTXK stream)",
+"listen_page": "https://troytrojans.com/showcase",
 "conference": "Sun Belt Conference",
 "calls": [
 "WTXK"
@@ -939,7 +945,7 @@
 "https://ice6.securenetsystems.net/WTXK"
 ],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "University of Louisiana Monroe",
@@ -1120,15 +1126,15 @@
 ],
 "network": "Cyclone Radio Network (Learfield)",
 "flagship": "Unverified (prior knowledge: WHO 1040 AM, Des Moines, iHeart)",
-"listen_page": "",
+"listen_page": "https://kchanews.com/onair/sports/isu/",
 "conference": "Big 12 Conference",
 "calls": [
-"WHO"
+"KCYZ"
 ],
 "streams": [
-"https://stream.revma.ihrhls.com/zc925",
-"https://stream.revma.ihrhls.com/zc925/hls.m3u8",
-"http://stream.revma.ihrhls.com/zc925"
+"https://stream.revma.ihrhls.com/zc913",
+"https://stream.revma.ihrhls.com/zc913/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc913"
 ],
 "misses": 0,
 "last_ok": "2026-10-30"
@@ -1140,16 +1146,18 @@
 "Kansas Jayhawks"
 ],
 "network": "Jayhawk Radio Network (Learfield)",
-"flagship": "KLWN 1320 AM / 101.7 FM and KMXN 92.9 FM (Lawrence, KS)",
+"flagship": "KLWN 1320 AM / 101.7 FM (Lawrence); KMXN 92.9 The Bull also listed as flagship",
 "listen_page": "",
 "conference": "Big 12 Conference",
 "calls": [
 "KLWN-AM",
 "KMXN-FM"
 ],
-"streams": [],
+"streams": [
+"https://ice23.securenetsystems.net/KLWNAM"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "Kansas State University",
@@ -1170,7 +1178,7 @@
 "https://stream-02.surfernetwork.com/drscz5r6naxuv"
 ],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "Oklahoma State University",
@@ -1226,9 +1234,12 @@
 "calls": [
 "KTTU-FM"
 ],
-"streams": [],
+"streams": [
+"https://ais-sa1.streamon.fm/7197_48k.aac",
+"https://ais-sa1.streamon.fm/7001_48k.aac"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "University of Central Florida",
@@ -1288,8 +1299,8 @@
 "streams": [
 "https://prod-100-53-217-72.amperwave.net/wvradio-wvaqfmaac-hlsc2.m3u8"
 ],
-"misses": 2,
-"last_ok": null
+"misses": 0,
+"last_ok": "2026-10-30"
 },
 {
 "school": "Ohio State University",
@@ -1388,13 +1399,15 @@
 "IU"
 ],
 "network": "IU Radio Network (Learfield)",
-"flagship": "WHCC 105.1 FM \"Hoosier Country\" (Bloomington, IN)",
+"flagship": "WHCC 105.1 FM Hoosier Country (Bloomington)",
 "listen_page": "",
 "conference": "Big Ten Conference",
 "calls": [
 "WHCC-FM"
 ],
-"streams": [],
+"streams": [
+"https://soundmanagement.streamguys1.com/WHCC"
+],
 "misses": 0,
 "last_ok": "2026-10-30"
 },
@@ -1405,8 +1418,8 @@
 "Iowa Hawkeyes"
 ],
 "network": "Hawkeye Radio Network (Learfield)",
-"flagship": "WHO 1040 AM (Des Moines) / KXIC 800 AM (Iowa City) - UNVERIFIED",
-"listen_page": "",
+"flagship": "WHO 1040 AM (Des Moines), historical originating flagship",
+"listen_page": "https://hawkeyesports.com/hawkeye-radio-network",
 "conference": "Big Ten Conference",
 "calls": [
 "WHO",
@@ -1568,8 +1581,8 @@
 "streams": [
 "https://cp9.serverse.com/proxy/neiqvqnd?mp=/stream"
 ],
-"misses": 2,
-"last_ok": null
+"misses": 0,
+"last_ok": "2026-10-30"
 },
 {
 "school": "Rutgers University",
@@ -1725,9 +1738,13 @@
 "listen_page": "https://gocamels.com",
 "conference": "Coastal Athletic Association",
 "calls": [],
-"streams": [],
+"streams": [
+"https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/campbell.sidearmsports.com/podcasts/2026/10/23/CC_Live_oct_22.mp3",
+"https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/campbell.sidearmsports.com/podcasts/2026/10/23/KINLAW_TFTC.mp3",
+"https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/campbell.sidearmsports.com/podcasts/2026/10/15/homecoming_26_camel_call_final.mp3"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "Elon University",
@@ -1845,9 +1862,12 @@
 "WBRF",
 "WEAL"
 ],
-"streams": [],
+"streams": [
+"https://live.amperwave.net/manifest/blueridgeradio-wbrffmaac-hlsc4.m3u8",
+"https://ice8.securenetsystems.net/WBFJ?playSessionID=6B002F5D-A14A-F451-0D08630F03986A34"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "University of Rhode Island",
@@ -2417,9 +2437,13 @@
 "calls": [
 "WVAS"
 ],
-"streams": [],
+"streams": [
+"https://ondemand.npr.org/anon.npr-mp3/npr/specials/2026/10/20261013_specials_two_bass_hit_christian_mcbride_and_john_clayton_on_ray_brown_at_100.mp3",
+"https://ondemand.npr.org/anon.npr-mp3/npr/me/2026/08/20260813_me_jon_batiste_pays_tribute_to_2_pianists_who_defined_their_genres_--_mozart_and_monk.mp3",
+"https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261029_atc_alaska_senate_spoiler_candidate.mp3"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "Bethune-Cookman University",
@@ -2477,9 +2501,13 @@
 "calls": [
 "WJSU"
 ],
-"streams": [],
+"streams": [
+"https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261029_atc_alaska_senate_spoiler_candidate.mp3",
+"https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261029_atc_candy_prices_got_you_scared_stiff_what_to_know_about_the_cost_of_halloween_this_year.mp3",
+"https://cpa.ds.npr.org/s460/audio/2026/09/cassandra-wilson-audio.mp3"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "Mississippi Valley State University",
@@ -2821,9 +2849,11 @@
 "calls": [
 "WNEX"
 ],
-"streams": [],
+"streams": [
+"https://live.amperwave.net/direct/creekmedia-wnexfmaac-ibc1"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "Samford University",
@@ -2968,9 +2998,11 @@
 "calls": [
 "KYST-AM"
 ],
-"streams": [],
+"streams": [
+"https://listen.radioking.com/radio/760748/stream/827744"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "University of the Incarnate Word",
@@ -3061,9 +3093,11 @@
 "calls": [
 "KZBL-FM"
 ],
-"streams": [],
+"streams": [
+"http://104.243.173.42:88/broadwave.mp3"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "Southeastern Louisiana University",
@@ -3171,8 +3205,8 @@
 "streams": [
 "https://sh.fl-us.audio-stream.com/proxy/sneisl01?mp=/stream"
 ],
-"misses": 2,
-"last_ok": null
+"misses": 0,
+"last_ok": "2026-10-30"
 },
 {
 "school": "Lindenwood University",
@@ -3227,9 +3261,11 @@
 "calls": [
 "WNSR-AM"
 ],
-"streams": [],
+"streams": [
+"http://shout.wnsr.com:8989/;"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "University of Tennessee at Martin",
@@ -3310,9 +3346,13 @@
 "calls": [
 "WHIO-AM"
 ],
-"streams": [],
+"streams": [
+"https://oom-cmg.streamguys1.com/day957/day957-sgplayer-aac?",
+"https://oom-cmg.streamguys1.com/day957/day957-sgplayer-aac",
+"https://oom-cmg.streamguys1.com/day957/day957-sgplayer-mp3"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "Drake University",
@@ -3540,9 +3580,11 @@
 "calls": [
 "KBNW"
 ],
-"streams": [],
+"streams": [
+"https://live.amperwave.net/direct/horizonbroadcasting-kbnwammp3-ibc1"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "Idaho State University",
@@ -3605,9 +3647,11 @@
 "calls": [
 "KFKA"
 ],
-"streams": [],
+"streams": [
+"https://stream.radiojar.com/38vtv55ez38uv"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "Portland State University",
@@ -3643,8 +3687,8 @@
 "streams": [
 "https://das-edge29-sa27-lax02.cdnstream.com/2284_96.aac"
 ],
-"misses": 2,
-"last_ok": null
+"misses": 0,
+"last_ok": "2026-10-30"
 },
 {
 "school": "California Polytechnic State University",
@@ -3777,9 +3821,11 @@
 "calls": [
 "WFGS-FM"
 ],
-"streams": [],
+"streams": [
+"https://live.amperwave.net/manifest/forevercomm-wfgsfmaac-hlsc4.m3u8"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "University of North Dakota",
@@ -3943,9 +3989,12 @@
 "calls": [
 "WKFN-AM"
 ],
-"streams": [],
+"streams": [
+"https://live.amperwave.net/direct/saga-wkfnamaac-ibc2",
+"https://live.amperwave.net/manifest/saga-wkfnamaac-hlsc2.m3u8"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "University of Central Arkansas",
@@ -4145,9 +4194,12 @@
 "calls": [
 "WUPS-FM"
 ],
-"streams": [],
+"streams": [
+"https://live.amperwave.net/manifest/northernstarbroadcasting-wupsfmaac-ibc2",
+"http://www.wmhw.cmich.edu:915/live.mp3"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "Eastern Michigan University",
@@ -4292,7 +4344,7 @@
 "https://live.amperwave.net/manifest/saga-whmpamaac-hlsc1.m3u8?source=v7player"
 ],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "California State University, Sacramento",
@@ -4347,13 +4399,13 @@
 ],
 "network": "FIU Panthers Radio Network",
 "flagship": "",
-"listen_page": "https://fiusports.com/listenlive",
+"listen_page": "https://fiusports.com/listen",
 "conference": "Conference USA",
 "calls": [],
 "streams": [
 "https://cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": null
 },
 {
@@ -4411,7 +4463,7 @@
 "https://ic.liberty.edu:8443/WRVL"
 ],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "Middle Tennessee State University",
@@ -4450,7 +4502,7 @@
 "https://ais-sa1.streamon.fm/7678_48k.aac/playlist.m3u8"
 ],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "New Mexico State University",
@@ -4639,8 +4691,8 @@
 "streams": [
 "https://ktswlive.txstate.edu:8102/listen"
 ],
-"misses": 2,
-"last_ok": null
+"misses": 0,
+"last_ok": "2026-10-30"
 },
 {
 "school": "Utah State University",
@@ -4717,15 +4769,18 @@
 "Rainbow Warriors"
 ],
 "network": "Rainbow Warriors radio (unverified)",
-"flagship": "Unverified (likely ESPN 1420 KKEA, Honolulu)",
-"listen_page": "",
+"flagship": "ESPN 1420 Honolulu (KKEA)",
+"listen_page": "https://www.espnhonolulu.com/",
 "conference": "Mountain West Conference",
 "calls": [
 "KKEA"
 ],
-"streams": [],
+"streams": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KKEAAM_AAC.aac",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KKEAAM_MP3.mp3"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "University of Nevada, Reno",
@@ -4936,7 +4991,7 @@
 "Razorbacks"
 ],
 "network": "Razorback Sports Network (Learfield)",
-"flagship": "Not named on athletics page (unverified: 103.7 The Buzz KABZ Little Rock); KAKS 99.5 FM Fayetteville listed as affiliate",
+"flagship": "KABZ 103.7 (Little Rock); KAKS 99.5 / KQSM 92.1 (Fayetteville)",
 "listen_page": "https://arkansasrazorbacks.app.link/launch",
 "conference": "SEC",
 "calls": [
@@ -5066,7 +5121,7 @@
 ],
 "network": "Ole Miss Radio Network (Learfield)",
 "flagship": "WOXF 105.1 FM (Oxford, MS)",
-"listen_page": "https://olemisssports.com",
+"listen_page": "https://olemisssports.com/showcase?Live=1197",
 "conference": "SEC",
 "calls": [
 "WOXF-FM"
@@ -5083,15 +5138,19 @@
 "Mississippi State Bulldogs"
 ],
 "network": "Mississippi State Sports Network / Bulldog Sports Network (Learfield)",
-"flagship": "Unverified (Starkville)",
-"listen_page": "",
+"flagship": "SuperTalk Mississippi network; Golden Triangle WKBB 100.9",
+"listen_page": "https://player.amperwave.net/8206",
 "conference": "SEC",
-"calls": [],
+"calls": [
+"WKBB"
+],
 "streams": [
-"https://live.amperwave.net/manifest/telesouth-wkbbfmaac-hlsc1.m3u8?source=v7player"
+"https://live.amperwave.net/manifest/telesouth-wkbbfmaac-hlsc1.m3u8?source=v7player",
+"https://live.amperwave.net/manifest/telesouth-wkbbfmaac-imc1",
+"https://live.amperwave.net/manifest/telesouth-wzkrfmaac-imc"
 ],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "University of Missouri",
@@ -5110,8 +5169,8 @@
 "streams": [
 "https://ais-sa1.streamon.fm/7401_48k.aac"
 ],
-"misses": 2,
-"last_ok": null
+"misses": 0,
+"last_ok": "2026-10-30"
 },
 {
 "school": "University of Oklahoma",
@@ -5121,16 +5180,16 @@
 "OU"
 ],
 "network": "Sooner Sports Radio Network (Learfield)",
-"flagship": "Unverified: WWLS-FM 98.1 The Sports Animal (Oklahoma City, Cumulus)",
+"flagship": "107.7 The Franchise KRXO-FM (OKC); also AM 1520 OKC, 97.5 FM / AM 1430 Tulsa",
 "listen_page": "",
 "conference": "SEC",
 "calls": [
-"WWLS-FM"
+"KRXO-FM"
 ],
 "streams": [
-"https://playerservices.streamtheworld.com/api/livestream-redirect/WWLSAMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/WWLSAMAAC.m3u8",
-"http://playerservices.streamtheworld.com/api/livestream-redirect/WWLSAMAAC.aac"
+"https://ais-sa1.streamon.fm/11317_96k.aac",
+"https://das-edge59-sa48-futuri-lax02.cdnstream.com/11317_96k.aac?listeningSessionId=QjdWS0FUT0tQSVFOUERONUlNRkhXSTI0NklfZGFzLWVkZ2U1OS1zYTQ4LWZ1dHVyaS1sYXgwMi5jZG5zdHJlYW0uY29tOjgxODY.&playerid=esPlayer",
+"http://ais-sa1.streamon.fm/11317_96k.aac"
 ],
 "misses": 0,
 "last_ok": "2026-10-30"
@@ -5222,8 +5281,8 @@
 "streams": [
 "http://ice42.securenetsystems.net/WTAWAM"
 ],
-"misses": 2,
-"last_ok": null
+"misses": 0,
+"last_ok": "2026-10-30"
 },
 {
 "school": "Vanderbilt University",
