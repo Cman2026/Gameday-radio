@@ -23,11 +23,11 @@
    "California Golden Bears"
   ],
   "network": "Cal Bears Sports Network (Learfield)",
-  "flagship": "KGO 810 AM 'The Spread' (San Francisco, Cumulus)",
+  "flagship": "KGO 810 AM 'The Spread' (San Francisco, CA)",
   "listen_page": "",
   "conference": "ACC",
   "calls": [
-   "KGO"
+   "KGO-AM"
   ],
   "streams": []
  },
@@ -54,14 +54,14 @@
    "Duke Blue Devils"
   ],
   "network": "Blue Devil Sports Network (Learfield)",
-  "flagship": "The Buzz WDNC 620 AM (Durham; Capitol Broadcasting); WRAL News+ 96.5/99.3 FM carries coach's show",
-  "listen_page": "",
+  "flagship": "The Buzz WDNC 620 AM / 104.5 FM (Durham, NC) + WRAL News+ 99.3/96.5 FM (Raleigh-Durham) - co-flagships",
+  "listen_page": "https://www.wralsportsfan.com",
   "conference": "ACC",
   "calls": [
-   "WDNC",
-   "WRAL"
+   "WDNC-AM"
   ],
-  "streams": []
+  "streams": [],
+  "station_website": "https://www.wralsportsfan.com"
  },
  {
   "school": "Florida State University",
@@ -136,11 +136,11 @@
    "NC State Wolfpack"
   ],
   "network": "Wolfpack Sports Network (Learfield)",
-  "flagship": "Capitol Broadcasting Raleigh station (WRAL-FM 101.5 / 99.9 The Fan) - unverified",
+  "flagship": "WCMC 99.9 FM 'The Fan' (Raleigh, NC)",
   "listen_page": "",
   "conference": "ACC",
   "calls": [
-   "WRAL-FM"
+   "WCMC-FM"
   ],
   "streams": []
  },
@@ -169,7 +169,7 @@
    "Pitt Panthers"
   ],
   "network": "Pitt Panthers Radio Network (Learfield)",
-  "flagship": "93.7 The Fan KDKA-FM (Pittsburgh, Audacy) - unverified; Audacy blackout risk",
+  "flagship": "93.7 The Fan KDKA-FM (Pittsburgh, PA)",
   "listen_page": "",
   "conference": "ACC",
   "calls": [
@@ -184,7 +184,7 @@
    "SMU Mustangs"
   ],
   "network": "SMU Mustangs Radio Network",
-  "flagship": "KTCK 96.7 FM / 1310 AM 'The Ticket' (Dallas, TX)",
+  "flagship": "The Ticket KTCK 96.7 FM / 1310 AM (Dallas, TX)",
   "listen_page": "",
   "conference": "ACC",
   "calls": [
@@ -200,12 +200,13 @@
    "Stanford Cardinal"
   ],
   "network": "Stanford Cardinal Radio Network (Learfield)",
-  "flagship": "KNBR 1050/680 (San Francisco, Cumulus) - unverified; student KZSU 90.1 FM may also carry games",
+  "flagship": "KNBR 680 AM / 104.5 FM (San Francisco, CA); KTCT 1050 AM also carries",
   "listen_page": "",
   "conference": "ACC",
   "calls": [
-   "KNBR",
-   "KZSU"
+   "KNBR-AM",
+   "KNBR-FM",
+   "KTCT-AM"
   ],
   "streams": []
  },
@@ -216,8 +217,8 @@
    "Syracuse Orange"
   ],
   "network": "Syracuse Orange Radio Network (Learfield)",
-  "flagship": "WTKW 99.5 FM 'TK99' (Syracuse, NY market)",
-  "listen_page": "",
+  "flagship": "TK99/105 WTKW 99.5 FM / 100.5 FM (Syracuse, NY); WAER 88.3 FM also carries",
+  "listen_page": "https://cuse.com",
   "conference": "ACC",
   "calls": [
    "WTKW-FM"
@@ -232,11 +233,11 @@
    "Virginia Cavaliers"
   ],
   "network": "Virginia Sports Radio Network (Learfield)",
-  "flagship": "WINA 1070 AM / 98.9 FM (Charlottesville) - unverified",
-  "listen_page": "",
+  "flagship": "Newsradio WINA 98.9 FM / 1070 AM (Charlottesville, VA)",
+  "listen_page": "https://virginiasports.com/radio",
   "conference": "ACC",
   "calls": [
-   "WINA"
+   "WINA-AM"
   ],
   "streams": []
  },
@@ -263,11 +264,11 @@
    "Wake Forest Demon Deacons"
   ],
   "network": "Wake Forest Sports Network (Learfield)",
-  "flagship": "WSJS 600 AM / 101.5 FM (Winston-Salem) - unverified",
+  "flagship": "WBRF 98.1 FM (Galax, VA)",
   "listen_page": "",
   "conference": "ACC",
   "calls": [
-   "WSJS"
+   "WBRF-FM"
   ],
   "streams": []
  },
@@ -295,11 +296,11 @@
    "Connecticut"
   ],
   "network": "UConn Huskies Sports Network (Learfield)",
-  "flagship": "WTIC 1080 AM (Hartford, Audacy) - unverified; Audacy blackout risk",
+  "flagship": "Fox Sports Radio 97.9 FM WUCS (Hartford, CT)",
   "listen_page": "",
   "conference": "FBS Independent",
   "calls": [
-   "WTIC"
+   "WUCS-FM"
   ],
   "streams": []
  },
@@ -358,11 +359,14 @@
    "FAU Owls"
   ],
   "network": "FAU Owls Radio Network",
-  "flagship": "UNVERIFIED (from memory, not confirmed this run): flagship not confirmed",
-  "listen_page": "",
+  "flagship": "FOX Sports 640 South Florida WMEN 640 AM (West Palm Beach area, FL)",
+  "listen_page": "https://live.foxsports640.com/listen",
   "conference": "American Conference",
-  "calls": [],
-  "streams": []
+  "calls": [
+   "WMEN-AM"
+  ],
+  "streams": [],
+  "station_website": "https://www.foxsports640.com"
  },
  {
   "school": "University of Memphis",
@@ -371,11 +375,11 @@
    "Memphis Tigers"
   ],
   "network": "Tiger Radio Network (Learfield)",
-  "flagship": "UNVERIFIED (from memory, not confirmed this run): 92.9 FM ESPN (WMFS, Audacy)",
+  "flagship": "News Talk 98.9 The Roar WKIM-FM (Memphis, TN)",
   "listen_page": "",
   "conference": "American Conference",
   "calls": [
-   "WMFS"
+   "WKIM-FM"
   ],
   "streams": []
  },
@@ -434,11 +438,11 @@
    "USF Bulls"
   ],
   "network": "USF Bulls Radio Network (Learfield)",
-  "flagship": "UNVERIFIED (from memory, not confirmed this run): 95.3 WDAE (Tampa, iHeart)",
+  "flagship": "Q105 WRBQ-FM 104.7 (Tampa, FL)",
   "listen_page": "",
   "conference": "American Conference",
   "calls": [
-   "WDAE"
+   "WRBQ-FM"
   ],
   "streams": []
  },
@@ -477,11 +481,11 @@
    "Tulsa Golden Hurricane"
   ],
   "network": "Golden Hurricane Radio Network",
-  "flagship": "UNVERIFIED (from memory, not confirmed this run): historically KTBZ 1430 The Buzz (Tulsa, iHeart)",
+  "flagship": "Big Country 99.5 FM KXBL (Tulsa, OK)",
   "listen_page": "",
   "conference": "American Conference",
   "calls": [
-   "KTBZ"
+   "KXBL-FM"
   ],
   "streams": []
  },
@@ -507,11 +511,11 @@
    "UTSA Roadrunners"
   ],
   "network": "UTSA Roadrunners Radio Network",
-  "flagship": "UNVERIFIED (from memory, not confirmed this run): historically KTKR 760 The Ticket (San Antonio, iHeart)",
+  "flagship": "Ticket 760 KTKR 760 AM (San Antonio, TX)",
   "listen_page": "",
   "conference": "American Conference",
   "calls": [
-   "KTKR"
+   "KTKR-AM"
   ],
   "streams": []
  },
@@ -570,10 +574,12 @@
    "Georgia Southern Eagles"
   ],
   "network": "Georgia Southern Sports Network",
-  "flagship": "UNVERIFIED (from memory, not confirmed this run): flagship not confirmed",
+  "flagship": "WHKN 94.9 FM (Statesboro, GA)",
   "listen_page": "",
   "conference": "Sun Belt Conference",
-  "calls": [],
+  "calls": [
+   "WHKN-FM"
+  ],
   "streams": []
  },
  {
@@ -615,11 +621,12 @@
    "UL Lafayette"
   ],
   "network": "Ragin' Cajuns Sports Network",
-  "flagship": "UNVERIFIED (from memory, not confirmed this run): historically KPEL 96.5 FM / 1420 AM (Lafayette, Townsquare)",
+  "flagship": "Hot 107.9 KHXT FM + 103.3 The Goat / KPEL 1420 AM (Lafayette, LA)",
   "listen_page": "",
   "conference": "Sun Belt Conference",
   "calls": [
-   "KPEL"
+   "KHXT-FM",
+   "KPEL-AM"
   ],
   "streams": []
  },
@@ -663,13 +670,14 @@
    "Old Dominion Monarchs"
   ],
   "network": "Monarch Sports Network",
-  "flagship": "UNVERIFIED (from memory, not confirmed this run): historically ESPN 94.1 FM WVSP (Norfolk area)",
+  "flagship": "ESPN Radio 94.1 WVSP-FM (Norfolk, VA)",
   "listen_page": "",
   "conference": "Sun Belt Conference",
   "calls": [
-   "WVSP"
+   "WVSP-FM"
   ],
-  "streams": []
+  "streams": [],
+  "station_website": "http://www.espnradio941.com"
  },
  {
   "school": "University of South Alabama",
@@ -678,11 +686,12 @@
    "South Alabama Jaguars"
   ],
   "network": "Jaguar Sports Network",
-  "flagship": "UNVERIFIED (from memory, not confirmed this run): historically WNSP 105.5 FM (Mobile)",
-  "listen_page": "",
+  "flagship": "Hot 94.1 WMEZ FM + JOX 660 WXQW AM (Mobile, AL)",
+  "listen_page": "https://usajaguars.com/radio",
   "conference": "Sun Belt Conference",
   "calls": [
-   "WNSP"
+   "WMEZ-FM",
+   "WXQW-AM"
   ],
   "streams": []
  },
@@ -694,11 +703,11 @@
    "Southern Miss Golden Eagles"
   ],
   "network": "Southern Miss Radio Network",
-  "flagship": "UNVERIFIED (from memory, not confirmed this run): historically WXRR 104.5 FM (Hattiesburg)",
+  "flagship": "WXRR 104.5 FM (Hattiesburg, MS)",
   "listen_page": "",
   "conference": "Sun Belt Conference",
   "calls": [
-   "WXRR"
+   "WXRR-FM"
   ],
   "streams": []
  },
@@ -771,13 +780,14 @@
    "Baylor Bears"
   ],
   "network": "Baylor IMG Sports Network",
-  "flagship": "ESPN Central Texas KRZI 1660 AM / 92.3 FM (Waco)",
-  "listen_page": "https://baylorbears.com/sports/2018/5/17/radio.aspx?id=2087",
+  "flagship": "ESPN Central Texas KRZI 1660 AM / 92.3 FM (Waco, TX)",
+  "listen_page": "https://www.centexsportsfan.com",
   "conference": "Big 12 Conference",
   "calls": [
-   "KRZI"
+   "KRZI-AM"
   ],
-  "streams": []
+  "streams": [],
+  "station_website": "https://www.centexsportsfan.com"
  },
  {
   "school": "Brigham Young University",
@@ -801,11 +811,12 @@
    "Cincinnati Bearcats"
   ],
   "network": "Bearcats Radio Network",
-  "flagship": "Unverified (prior knowledge: ESPN 1530 WCKY, Cincinnati, iHeart)",
+  "flagship": "700 WLW AM (Cincinnati, OH); 102.7 WEBN-FM for some games",
   "listen_page": "",
   "conference": "Big 12 Conference",
   "calls": [
-   "WCKY"
+   "WLW-AM",
+   "WEBN-FM"
   ],
   "streams": []
  },
@@ -816,11 +827,12 @@
    "Colorado Buffaloes"
   ],
   "network": "Buffalo Sports Network (Learfield)",
-  "flagship": "Unverified (prior knowledge: KOA 850 AM / 94.1 FM, Denver, iHeart)",
+  "flagship": "KOA 850 AM / 94.1 FM (Denver, CO)",
   "listen_page": "",
   "conference": "Big 12 Conference",
   "calls": [
-   "KOA"
+   "KOA-AM",
+   "K231AA"
   ],
   "streams": []
  },
@@ -831,11 +843,11 @@
    "Houston Cougars"
   ],
   "network": "Cougar Radio Network",
-  "flagship": "Unverified (prior knowledge: SportsTalk 790 KBME, Houston, iHeart)",
+  "flagship": "KPRC 950 AM (Houston, TX)",
   "listen_page": "",
   "conference": "Big 12 Conference",
   "calls": [
-   "KBME"
+   "KPRC-AM"
   ],
   "streams": []
  },
@@ -878,11 +890,12 @@
    "Kansas State Wildcats"
   ],
   "network": "K-State Sports Network (Learfield)",
-  "flagship": "Unverified (prior knowledge: KMAN 1350 AM / 101.5 FM, Manhattan)",
+  "flagship": "KMAN 1350 AM / 93.3 / 93.7 FM + KMKF 101.5 FM (Manhattan, KS)",
   "listen_page": "",
   "conference": "Big 12 Conference",
   "calls": [
-   "KMAN"
+   "KMAN-AM",
+   "KMKF-FM"
   ],
   "streams": []
  },
@@ -909,11 +922,11 @@
    "TCU Horned Frogs"
   ],
   "network": "TCU IMG Sports Network",
-  "flagship": "Unverified (prior knowledge: 96.7 The Ticket / 1310 KTCK, Dallas, Cumulus)",
+  "flagship": "Lone Star 92.5 KZPS FM (Dallas-Fort Worth, TX)",
   "listen_page": "",
   "conference": "Big 12 Conference",
   "calls": [
-   "KTCK"
+   "KZPS-FM"
   ],
   "streams": []
  },
@@ -924,13 +937,14 @@
    "Texas Tech Red Raiders"
   ],
   "network": "Texas Tech IMG Sports Network / Double T Sports Network",
-  "flagship": "Unverified (prior knowledge: Double T 97.3 KTTU-FM, Lubbock)",
+  "flagship": "KTTU-FM 97.3 FM \"Double T 97.3\" (Lubbock, TX)",
   "listen_page": "",
   "conference": "Big 12 Conference",
   "calls": [
    "KTTU-FM"
   ],
-  "streams": []
+  "streams": [],
+  "station_website": "https://www.doublet973.com"
  },
  {
   "school": "University of Central Florida",
@@ -939,11 +953,11 @@
    "UCF Knights"
   ],
   "network": "UCF IMG Sports Network",
-  "flagship": "Unverified (prior knowledge: 96.9 The Game WYGM, Orlando, iHeart)",
-  "listen_page": "",
+  "flagship": "WYGM 740 AM / 96.9 FM \"The Game\" (Orlando, FL)",
+  "listen_page": "https://www.iheart.com/live/969-the-game-601/",
   "conference": "Big 12 Conference",
   "calls": [
-   "WYGM"
+   "WYGM-AM"
   ],
   "streams": []
  },
@@ -954,13 +968,14 @@
    "Utah Utes"
   ],
   "network": "Utah Utes Radio Network",
-  "flagship": "Unverified (prior knowledge: ESPN 700 KALL, Salt Lake City)",
+  "flagship": "KALL 700 AM \"ESPN 700\" (Salt Lake City, UT)",
   "listen_page": "",
   "conference": "Big 12 Conference",
   "calls": [
-   "KALL"
+   "KALL-AM"
   ],
-  "streams": []
+  "streams": [],
+  "station_website": "https://espn700sports.com/"
  },
  {
   "school": "West Virginia University",
@@ -1040,11 +1055,12 @@
    "Illini"
   ],
   "network": "Fighting Illini Sports Network (Learfield)",
-  "flagship": "WDWS 1400 AM (Champaign, IL) - UNVERIFIED",
+  "flagship": "WDWS 1400 AM / WHMS 97.5 FM (Champaign, IL)",
   "listen_page": "",
   "conference": "Big Ten Conference",
   "calls": [
-   "WDWS"
+   "WDWS-AM",
+   "WHMS-FM"
   ],
   "streams": []
  },
@@ -1056,11 +1072,11 @@
    "IU"
   ],
   "network": "IU Radio Network (Learfield)",
-  "flagship": "1070 The Fan WFNI (Indianapolis) - UNVERIFIED",
+  "flagship": "WHCC 105.1 FM \"Hoosier Country\" (Bloomington, IN)",
   "listen_page": "",
   "conference": "Big Ten Conference",
   "calls": [
-   "WFNI"
+   "WHCC-FM"
   ],
   "streams": []
  },
@@ -1122,11 +1138,11 @@
    "Gophers"
   ],
   "network": "Gopher Radio Network (Learfield)",
-  "flagship": "KFAN 100.3 FM (Minneapolis; iHeart) - UNVERIFIED",
+  "flagship": "KFAN 100.3 FM (Minneapolis, MN)",
   "listen_page": "",
   "conference": "Big Ten Conference",
   "calls": [
-   "KFAN"
+   "KFXN-FM"
   ],
   "streams": []
  },
@@ -1138,13 +1154,14 @@
    "Huskers"
   ],
   "network": "Husker Sports Network (Learfield)",
-  "flagship": "KLIN 1400 AM (Lincoln) - UNVERIFIED",
-  "listen_page": "",
+  "flagship": "KLIN 1400 AM / 99.3 FM (Lincoln, NE)",
+  "listen_page": "https://huskers.com/listen",
   "conference": "Big Ten Conference",
   "calls": [
-   "KLIN"
+   "KLIN-AM"
   ],
-  "streams": []
+  "streams": [],
+  "station_website": "https://klin.com"
  },
  {
   "school": "Northwestern University",
@@ -1153,11 +1170,11 @@
    "Northwestern Wildcats"
   ],
   "network": "Northwestern Wildcats Radio Network",
-  "flagship": "WGN 720 AM (Chicago) - UNVERIFIED",
+  "flagship": "WGN 720 AM (Chicago, IL)",
   "listen_page": "",
   "conference": "Big Ten Conference",
   "calls": [
-   "WGN"
+   "WGN-AM"
   ],
   "streams": []
  },
@@ -1168,11 +1185,12 @@
    "Oregon Ducks"
   ],
   "network": "Oregon Sports Network (Learfield)",
-  "flagship": "KUGN 590 AM (Eugene) - UNVERIFIED",
-  "listen_page": "",
+  "flagship": "KUGN 590 AM / 98.1 FM and KUJZ 95.3 FM (Eugene, OR)",
+  "listen_page": "https://goducks.com/LiveAudio",
   "conference": "Big Ten Conference",
   "calls": [
-   "KUGN"
+   "KUGN-AM",
+   "KUJZ-FM"
   ],
   "streams": []
  },
@@ -1214,13 +1232,14 @@
    "UCLA Bruins"
   ],
   "network": "UCLA Bruins Radio Network (Learfield)",
-  "flagship": "AM 570 LA Sports KLAC (Los Angeles; iHeart) - UNVERIFIED",
+  "flagship": "KABC 790 AM (Los Angeles, CA)",
   "listen_page": "",
   "conference": "Big Ten Conference",
   "calls": [
-   "KLAC"
+   "KABC-AM"
   ],
-  "streams": []
+  "streams": [],
+  "station_website": "https://www.kabc.com"
  },
  {
   "school": "University of Southern California",
@@ -1262,11 +1281,11 @@
    "Wisconsin Badgers"
   ],
   "network": "Badger Sports Network (Learfield)",
-  "flagship": "WIBA 1310 AM (Madison; iHeart) - UNVERIFIED",
+  "flagship": "WIBA 1310 AM (Madison, WI)",
   "listen_page": "",
   "conference": "Big Ten Conference",
   "calls": [
-   "WIBA"
+   "WIBA-AM"
   ],
   "streams": []
  },
@@ -3292,11 +3311,11 @@
    "Central Michigan Chippewas"
   ],
   "network": "CMU Chippewas Sports Network / Chippewa Sports Radio Network",
-  "flagship": "WUPS 98.5 FM (Houghton Lake/Mount Pleasant, MI; Black Diamond Broadcast Group)",
+  "flagship": "WUPS 98.5 FM (Harrison, MI)",
   "listen_page": "https://cmuchippewas.com",
   "conference": "Mid-American Conference",
   "calls": [
-   "WUPS"
+   "WUPS-FM"
   ],
   "streams": []
  },
@@ -3404,7 +3423,7 @@
    "UMass Minutemen"
   ],
   "network": "UMass Sports Network",
-  "flagship": "WHMP 101.5 FM / 1400 AM (Northampton, MA)",
+  "flagship": "WHMP 1400 AM / 101.5 FM (Northampton, MA)",
   "listen_page": "",
   "conference": "Mid-American Conference",
   "calls": [
@@ -3485,7 +3504,7 @@
   ],
   "network": "KSU Owl Network",
   "flagship": "",
-  "listen_page": "",
+  "listen_page": "https://ksuowls.com",
   "conference": "Conference USA",
   "calls": [],
   "streams": [
@@ -3499,11 +3518,14 @@
    "Liberty Flames"
   ],
   "network": "Liberty Flames Sports Network",
-  "flagship": "LFSN Radio 88.3 FM (Lynchburg, VA)",
+  "flagship": "WRVL 88.3 FM \"The Journey\" (Lynchburg, VA)",
   "listen_page": "",
   "conference": "Conference USA",
-  "calls": [],
-  "streams": []
+  "calls": [
+   "WRVL-FM"
+  ],
+  "streams": [],
+  "station_website": "https://myjourneyfm.com"
  },
  {
   "school": "Middle Tennessee State University",
@@ -3693,11 +3715,11 @@
    "Aggies"
   ],
   "network": "Aggie Sports Network (unverified)",
-  "flagship": "Unverified (possibly KVNU 610 AM, Logan, UT)",
-  "listen_page": "",
+  "flagship": "KZNS 1280 AM / 97.5 FM \"The Zone\" (Salt Lake City, UT)",
+  "listen_page": "https://utahstateaggies.com",
   "conference": "Pac-12 Conference",
   "calls": [
-   "KVNU"
+   "KZNS-AM"
   ],
   "streams": []
  },
@@ -3776,11 +3798,12 @@
    "Lobos"
   ],
   "network": "Lobo Radio Network (unverified)",
-  "flagship": "Unverified (possibly KKOB 770 AM, Albuquerque, NM; Cumulus)",
-  "listen_page": "",
+  "flagship": "KKOB 770 AM / 96.3 FM (Albuquerque, NM)",
+  "listen_page": "https://player.listenlive.co/22401",
   "conference": "Mountain West Conference",
   "calls": [
-   "KKOB"
+   "KKOB-AM",
+   "KKOB-FM"
   ],
   "streams": []
  },
@@ -3845,11 +3868,11 @@
    "Rebels"
   ],
   "network": "UNLV Rebels radio (unverified)",
-  "flagship": "Unverified (likely ESPN Las Vegas KWWN 1100 AM / 100.9 FM)",
+  "flagship": "KWWN 1100 AM / 100.9 FM \"ESPN Las Vegas\" (Las Vegas, NV)",
   "listen_page": "",
   "conference": "Mountain West Conference",
   "calls": [
-   "KWWN"
+   "KWWN-AM"
   ],
   "streams": []
  },
@@ -3861,11 +3884,11 @@
    "Miners"
   ],
   "network": "UTEP Miners radio (unverified)",
-  "flagship": "Unverified (likely KROD 600 AM, El Paso, TX; Townsquare)",
+  "flagship": "KLAQ 95.5 FM (El Paso, TX)",
   "listen_page": "",
   "conference": "Mountain West Conference",
   "calls": [
-   "KROD"
+   "KLAQ-FM"
   ],
   "streams": []
  },
@@ -3877,14 +3900,14 @@
    "Cowboys"
   ],
   "network": "Cowboy Sports Network (unverified)",
-  "flagship": "Unverified (likely KTWO 1030 AM Casper / KOWB 1290 AM Laramie, Townsquare)",
+  "flagship": "KOWB 1290 AM (Laramie, WY)",
   "listen_page": "",
   "conference": "Mountain West Conference",
   "calls": [
-   "KTWO",
-   "KOWB"
+   "KOWB-AM"
   ],
-  "streams": []
+  "streams": [],
+  "station_website": "https://kowb1290.com"
  },
  {
   "school": "University of Alabama",
@@ -3963,13 +3986,15 @@
    "UGA"
   ],
   "network": "Bulldog Sports Network / Georgia Bulldogs Radio Network (Learfield)",
-  "flagship": "Unverified: WSB 750 AM / 95.5 FM (Atlanta, Cox)",
-  "listen_page": "",
+  "flagship": "WSB 750 AM / WSBB-FM 95.5 (Atlanta, GA)",
+  "listen_page": "https://georgiadogs.com",
   "conference": "SEC",
   "calls": [
-   "WSB"
+   "WSB-AM",
+   "WSBB-FM"
   ],
-  "streams": []
+  "streams": [],
+  "station_website": "https://www.wsbradio.com"
  },
  {
   "school": "University of Kentucky",
@@ -3995,11 +4020,11 @@
    "LSU Tigers"
   ],
   "network": "LSU Sports Radio Network",
-  "flagship": "Unverified: WDGL 98.1 The Eagle (Baton Rouge)",
-  "listen_page": "",
+  "flagship": "WDGL 98.1 FM \"Eagle 98.1\" (Baton Rouge, LA)",
+  "listen_page": "https://lsusports.net/leanstream",
   "conference": "SEC",
   "calls": [
-   "WDGL"
+   "WDGL-FM"
   ],
   "streams": []
  },
@@ -4073,11 +4098,11 @@
    "Gamecocks"
   ],
   "network": "Gamecock Sports Network (Learfield)",
-  "flagship": "Unverified: WNKT 107.5 The Game (Columbia, Cumulus)",
-  "listen_page": "",
+  "flagship": "WNKT 107.5 FM \"The Game\" (Columbia, SC)",
+  "listen_page": "https://gamecocksonline.com/stream/",
   "conference": "SEC",
   "calls": [
-   "WNKT"
+   "WNKT-FM"
   ],
   "streams": []
  },
@@ -4089,12 +4114,12 @@
    "Vols"
   ],
   "network": "Vol Network",
-  "flagship": "Unverified: WIVK 107.7 FM / WNML 99.1 FM-990 AM (Knoxville, Cumulus)",
-  "listen_page": "",
+  "flagship": "WIVK 107.7 FM (Knoxville, TN); WNML-FM 99.1 also carries",
+  "listen_page": "https://utsports.com",
   "conference": "SEC",
   "calls": [
-   "WIVK",
-   "WNML"
+   "WIVK-FM",
+   "WNML-FM"
   ],
   "streams": []
  },
@@ -4141,11 +4166,11 @@
    "Vandy"
   ],
   "network": "Vanderbilt Commodores Radio Network (Learfield)",
-  "flagship": "Unverified: WPRT 102.5 The Game (Nashville, Cumulus)",
-  "listen_page": "",
+  "flagship": "WPRT 102.5 FM \"The Game\" (Nashville, TN)",
+  "listen_page": "https://vanderbilt.leanplayer.com",
   "conference": "SEC",
   "calls": [
-   "WPRT"
+   "WPRT-FM"
   ],
   "streams": []
  }
