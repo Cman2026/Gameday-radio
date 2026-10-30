@@ -1,0 +1,52 @@
+{
+ "streams": {
+  "https://stream.revma.ihrhls.com/zc4276": {
+   "school": "University of North Texas",
+   "verdict": "game",
+   "title": "zc4276 - text=\"UNT Mean Green Football (Feed)\" song_spot=\"T\" spotInstanceId=\"-1\" length=\"08:00:00\" MediaBaseId=\"\" TAID=\"",
+   "icy_name": "Talk Radio 1190 AM",
+   "at": "2026-10-30T01:53:02Z"
+  },
+  "https://stream.revma.ihrhls.com/zc4276/hls.m3u8": {
+   "school": "University of North Texas",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-10-30T01:53:02Z"
+  },
+  "http://stream.revma.ihrhls.com/zc4276": {
+   "school": "University of North Texas",
+   "verdict": "game",
+   "title": "zc4276 - text=\"UNT Mean Green Football (Feed)\" song_spot=\"T\" spotInstanceId=\"-1\" length=\"08:00:00\" MediaBaseId=\"\" TAID=\"",
+   "icy_name": "Talk Radio 1190 AM",
+   "at": "2026-10-30T01:53:02Z"
+  }
+ },
+ "log": [
+  {
+   "at": "2026-10-30T01:53:02Z",
+   "school": "University of North Texas",
+   "game": "FAU @ UNT",
+   "url": "https://stream.revma.ihrhls.com/zc4276",
+   "verdict": "game",
+   "title": "zc4276 - text=\"UNT Mean Green Football (Feed)\" song_spot=\"T\" spotInstanceId=\"-1\" length=\"08:00:00\" MediaBaseId=\"\" TAID=\""
+  },
+  {
+   "at": "2026-10-30T01:53:02Z",
+   "school": "University of North Texas",
+   "game": "FAU @ UNT",
+   "url": "https://stream.revma.ihrhls.com/zc4276/hls.m3u8",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-30T01:53:02Z",
+   "school": "University of North Texas",
+   "game": "FAU @ UNT",
+   "url": "http://stream.revma.ihrhls.com/zc4276",
+   "verdict": "game",
+   "title": "zc4276 - text=\"UNT Mean Green Football (Feed)\" song_spot=\"T\" spotInstanceId=\"-1\" length=\"08:00:00\" MediaBaseId=\"\" TAID=\""
+  }
+ ],
+ "checked": "2026-10-30T01:53:02Z"
+}
