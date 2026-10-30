@@ -71,7 +71,8 @@ h1 span{color:var(--bulb)}
 .now small .dwarn{color:var(--bulb)}
 .conf{font:700 13px var(--display);text-transform:uppercase;letter-spacing:.1em;color:var(--bulb);margin:10px 2px 2px}
 .up{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:grid;gap:6px}
-.up .tr{display:grid;grid-template-columns:22px 22px minmax(0,1fr) auto 44px;align-items:center;gap:8px}
+.up .tr{display:grid;grid-template-columns:22px 22px minmax(0,1fr) auto auto 44px;align-items:center;gap:8px}
+.up .ear{padding:3px 9px 3px 7px;font-size:11px}
 .up .tr img{width:22px;height:22px;object-fit:contain}
 .up .at{color:var(--dim);font:600 13px var(--mono);text-align:center}
 .up .nm{font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -528,7 +529,7 @@ function upCard(e){
   const rank = t => t.curatedRank?.current && t.curatedRank.current < 26 ? `<span class="rk">${t.curatedRank.current}</span>` : "";
   const row = (t, pct, isHome) => `<div class="tr"><button class="fav ${favs.has(t.team.location)?"on":""}" data-fav="${esc(t.team.location)}" aria-label="${favs.has(t.team.location)?"Remove":"Add"} ${esc(t.team.location)} ${favs.has(t.team.location)?"from":"to"} my teams">${favs.has(t.team.location)?"★":"☆"}</button>
     <img src="${t.team.logo||""}" alt=""><span class="nm">${isHome?'<span class="at">@ </span>':""}${rank(t)}${esc(t.team.shortDisplayName)}</span>
-    <span class="rec">${esc(t.records?.[0]?.summary||"")}</span><span class="pct ${pct!=null&&pct>=50?"fav":""}">${pct==null?"":pct+"%"}</span></div>`;
+    <span class="rec">${esc(t.records?.[0]?.summary||"")}</span>${ear(t.team.location, "Listen")}<span class="pct ${pct!=null&&pct>=50?"fav":""}">${pct==null?"":pct+"%"}</span></div>`;
   const bits = [`<b>${new Date(e.date).toLocaleTimeString([], {hour:"numeric", minute:"2-digit", hour12:true})}</b>`];
   const tv = (c.broadcasts||[]).flatMap(b=>b.names).join(", "); if(tv) bits.push(esc(tv));
   if(o?.details) bits.push(esc(o.details)); if(o?.overUnder) bits.push(`O/U ${esc(o.overUnder)}`);
@@ -551,6 +552,7 @@ function renderUpcoming(){
     return;
   }
   loadPredictions(shown);
+  shown.forEach(e=>e.competitions[0].competitors.forEach(c=>{ attachRadio(c.team); prepareTeam(c.team.location); }));
   const groups = new Map();
   for(const e of shown){
     const c = e.competitions[0], h = team(c,"home"), a = team(c,"away");
