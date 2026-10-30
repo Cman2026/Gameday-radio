@@ -69,6 +69,21 @@ h1 span{color:var(--bulb)}
 .now small .dsc{display:inline;color:var(--chalk);font:600 12px var(--body);text-transform:none;letter-spacing:0;white-space:nowrap}
 .now small .drz{color:var(--red);font-weight:600}
 .now small .dwarn{color:var(--bulb)}
+.conf{font:700 13px var(--display);text-transform:uppercase;letter-spacing:.1em;color:var(--bulb);margin:10px 2px 2px}
+.up{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:grid;gap:6px}
+.up .tr{display:grid;grid-template-columns:22px 22px minmax(0,1fr) auto 44px;align-items:center;gap:8px}
+.up .tr img{width:22px;height:22px;object-fit:contain}
+.up .at{color:var(--dim);font:600 13px var(--mono);text-align:center}
+.up .nm{font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.up .rk{font:600 11px var(--mono);color:var(--dim);margin-right:4px}
+.up .rec{font:500 12px var(--mono);color:var(--dim);font-variant-numeric:tabular-nums}
+.up .pct{font:700 15px var(--display);text-align:right;font-variant-numeric:tabular-nums}
+.up .pct.fav{color:var(--bulb)}
+.up .wpbar{display:flex;height:5px;border-radius:3px;overflow:hidden;background:var(--line)}
+.up .wpbar span{display:block;height:100%}
+.up .meta{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 10px;font:500 11px var(--mono);color:var(--dim)}
+.up .meta b{color:var(--chalk);font-weight:500}
+[hidden]{display:none!important}
 .empty{color:var(--dim);background:var(--panel);border:1px dashed var(--line);border-radius:10px;padding:16px}
 
 .board{background:linear-gradient(180deg,var(--panel-2),var(--panel));border:1px solid var(--line);border-radius:14px;padding:18px;display:grid;gap:16px;min-width:0}
@@ -267,6 +282,8 @@ function render(){
   const s = snap(history); events = s ? s.evs : []; events.forEach(e=>{ if(e.status?.type?.state==='in') trackClock(e, s.t); });
   const order = {in:0, pre:1, post:2};
   const live = events.filter(e=>e.status.type.state==="in");
+  if(!live.length){ renderUpcoming(); updateDeck(); return; }
+  $("#board").hidden = false;
   const count = f => live.filter(f).length;
   $("#nAll").textContent = live.length; $("#nFBS").textContent = count(e=>e._div==="FBS");
   $("#nFCS").textContent = count(e=>e._div==="FCS"); $("#nFav").textContent = count(isFavGame);
@@ -457,6 +474,83 @@ function card(e){
   const row = t => `<div class="row"><span class="tm"><button class="fav ${favs.has(t.team.location)?"on":""}" data-fav="${esc(t.team.location)}" aria-label="${favs.has(t.team.location)?"Remove":"Add"} ${esc(t.team.location)} ${favs.has(t.team.location)?"from":"to"} my teams">${favs.has(t.team.location)?"★":"☆"}</button><img src="${t.team.logo||""}" alt=""><span>${t.curatedRank?.current<26?`<small>${t.curatedRank.current}</small> `:""}${esc(t.team.shortDisplayName)}</span></span><span class="right">${ear(t.team.location, "Listen")}<span class="sc">${showScore?t.score:""}</span></span></div>`;
   return `<div class="card" role="button" tabindex="0" data-id="${e.id}" aria-current="${e.id===selected}">${row(a)}${row(h)}
   <div class="meta"><span class="${st.state==="in"?"live":""}">${st.state==="pre"?fmtTime(e.date):statusText(e).short}</span><span>${esc((c.broadcasts||[]).flatMap(b=>b.names).join(", "))}<span class="div">${e._div||""}</span></span></div></div>`;
+}
+
+// ---------- Today's upcoming games (shown when nothing is live) ----------
+const isToday = d => new Date(d).toDateString() === new Date().toDateString();
+const confName = c => String(c||"").replace(/\s+Conference$/,"").replace(/^Mid-American$/,"MAC").trim();
+function confOf(tm){
+  for(const n of [tm.location, tm.displayName, `${tm.location} ${tm.name||""}`, tm.shortDisplayName, tm.abbreviation]){
+    const hit = dirIndex.get(normName(n)); if(hit?.conference) return confName(hit.conference);
+  }
+  return "";
+}
+const predCache = {}; // game id -> {home, away, at}
+async function loadPredictions(games){
+  const todo = games.filter(e=>!predCache[e.id] || Date.now()-predCache[e.id].at > 10*60e3).slice(0, 120);
+  let i = 0;
+  const worker = async ()=>{ while(i < todo.length){ const e = todo[i++];
+    try{
+      const s = await getJSON(`${base}/summary?event=${e.id}`);
+      const h = parseFloat(s.predictor?.homeTeam?.gameProjection), a = parseFloat(s.predictor?.awayTeam?.gameProjection);
+      predCache[e.id] = {home: isNaN(h)?null:h, away: isNaN(a)?null:a, at: Date.now()};
+    }catch(err){ predCache[e.id] = {home:null, away:null, at: Date.now()}; }
+  } };
+  await Promise.all([1,2,3,4].map(worker));
+  if(todo.length) render();
+}
+function moneyProb(ml){ ml = Number(ml); if(!ml) return null; return ml < 0 ? -ml/(-ml+100) : 100/(ml+100); }
+function winProb(e){
+  // ESPN's predictor first; else the betting line (moneyline, then spread).
+  const p = predCache[e.id];
+  if(p && p.home!=null) return {home:p.home, src:"ESPN FPI"};
+  const o = e.competitions[0].odds?.[0];
+  if(o){
+    const h = moneyProb(o.homeTeamOdds?.moneyLine), a = moneyProb(o.awayTeamOdds?.moneyLine);
+    if(h && a) return {home: 100*h/(h+a), src:"Moneyline"};
+    const sp = Number(o.spread);
+    if(!isNaN(sp) && o.spread!=null){ const z = -sp/14; return {home: 100/(1+Math.exp(-1.7*z)), src:"Spread"}; }
+  }
+  return null;
+}
+function upCard(e){
+  const c = e.competitions[0], a = team(c,"away"), h = team(c,"home"), wp = winProb(e), o = c.odds?.[0];
+  const hp = wp ? Math.round(wp.home) : null, ap = hp==null ? null : 100-hp;
+  const rank = t => t.curatedRank?.current && t.curatedRank.current < 26 ? `<span class="rk">${t.curatedRank.current}</span>` : "";
+  const row = (t, pct, isHome) => `<div class="tr"><button class="fav ${favs.has(t.team.location)?"on":""}" data-fav="${esc(t.team.location)}" aria-label="${favs.has(t.team.location)?"Remove":"Add"} ${esc(t.team.location)} ${favs.has(t.team.location)?"from":"to"} my teams">${favs.has(t.team.location)?"★":"☆"}</button>
+    <img src="${t.team.logo||""}" alt=""><span class="nm">${isHome?'<span class="at">@ </span>':""}${rank(t)}${esc(t.team.shortDisplayName)}</span>
+    <span class="rec">${esc(t.records?.[0]?.summary||"")}</span><span class="pct ${pct!=null&&pct>=50?"fav":""}">${pct==null?"":pct+"%"}</span></div>`;
+  const bits = [`<b>${new Date(e.date).toLocaleTimeString([], {hour:"numeric", minute:"2-digit", hour12:true})}</b>`];
+  const tv = (c.broadcasts||[]).flatMap(b=>b.names).join(", "); if(tv) bits.push(esc(tv));
+  if(o?.details) bits.push(esc(o.details)); if(o?.overUnder) bits.push(`O/U ${esc(o.overUnder)}`);
+  return `<div class="up">${row(a, ap, false)}${row(h, hp, true)}
+    ${hp!=null?`<div class="wpbar" aria-label="Win probability: ${esc(a.team.abbreviation)} ${ap}%, ${esc(h.team.abbreviation)} ${hp}%"><span style="width:${ap}%;background:#${a.team.color||"888"}"></span><span style="width:${hp}%;background:#${h.team.color||"ccc"}"></span></div>`:""}
+    <div class="meta"><span>${bits.join(" · ")}</span><span>${wp?esc(wp.src):"No odds yet"}</span></div></div>`;
+}
+function renderUpcoming(){
+  const list = $("#list"), q = query.trim().toLowerCase();
+  const today = events.filter(e=>e.status.type.state==="pre" && isToday(e.date));
+  const count = f => today.filter(f).length;
+  $("#nAll").textContent = today.length; $("#nFBS").textContent = count(e=>e._div==="FBS");
+  $("#nFCS").textContent = count(e=>e._div==="FCS"); $("#nFav").textContent = count(isFavGame);
+  const shown = today.filter(e=> divFilter==="all" || (divFilter==="fav" ? isFavGame(e) : e._div===divFilter))
+    .filter(e=> !q || e.competitions[0].competitors.some(t=>[t.team.location,t.team.displayName,t.team.shortDisplayName,t.team.abbreviation].join(" ").toLowerCase().includes(q)));
+  $("#board").hidden = true;
+  if(!shown.length){
+    const next = events.filter(e=>e.status.type.state==="pre").sort((a,b)=>new Date(a.date)-new Date(b.date))[0];
+    list.innerHTML = `<div class="empty">${today.length ? "No games today match that filter." : "No more games today."}${!today.length && next ? `<br>Next up: ${esc(next.shortName)}, ${fmtTime(next.date)}.` : ""}</div>`;
+    return;
+  }
+  loadPredictions(shown);
+  const groups = new Map();
+  for(const e of shown){
+    const c = e.competitions[0], h = team(c,"home"), a = team(c,"away");
+    const conf = confOf(h.team) || confOf(a.team) || (e._div==="FCS" ? "FCS" : "Other");
+    if(!groups.has(conf)) groups.set(conf, []); groups.get(conf).push(e);
+  }
+  const names = [...groups.keys()].sort((x,y)=>x.localeCompare(y));
+  list.innerHTML = `<div class="conf" style="color:var(--dim);margin-top:0">Today's games</div>` + names.map(n=>
+    `<div class="conf">${esc(n)}</div>` + groups.get(n).sort((x,y)=>new Date(x.date)-new Date(y.date) || x.id.localeCompare(y.id)).map(upCard).join("")).join("");
 }
 
 function renderBoard(){
