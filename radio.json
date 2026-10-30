@@ -1,5 +1,5 @@
 {
-"built": "2026-10-30T00:03:19Z",
+"built": "2026-10-30T00:11:43Z",
 "teams": [
 {
 "school": "Boston College",
@@ -139,10 +139,13 @@
 "North Carolina Tar Heels"
 ],
 "network": "Tar Heel Sports Network (Learfield)",
-"flagship": "unverified",
+"flagship": "WCHL 97.9 FM (Chapel Hill, NC); co-flagship WPTF 680 AM / 98.5 FM (Raleigh, NC)",
 "listen_page": "",
 "conference": "ACC",
-"streams": []
+"streams": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WPTFAMAAC.aac",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WPTFAM.mp3"
+]
 },
 {
 "school": "University of Pittsburgh",
@@ -164,10 +167,13 @@
 "SMU Mustangs"
 ],
 "network": "SMU Mustangs Radio Network",
-"flagship": "Dallas-area station - unverified",
+"flagship": "KTCK 96.7 FM / 1310 AM 'The Ticket' (Dallas, TX)",
 "listen_page": "",
 "conference": "ACC",
-"streams": []
+"streams": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.aac",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAM.mp3"
+]
 },
 {
 "school": "Stanford University",
@@ -192,7 +198,7 @@
 "Syracuse Orange"
 ],
 "network": "Syracuse Orange Radio Network (Learfield)",
-"flagship": "Syracuse-market station - unverified",
+"flagship": "WTKW 99.5 FM 'TK99' (Syracuse, NY market)",
 "listen_page": "",
 "conference": "ACC",
 "streams": []
@@ -218,10 +224,12 @@
 "Virginia Tech Hokies"
 ],
 "network": "Virginia Tech Sports Network (Learfield)",
-"flagship": "unverified",
-"listen_page": "",
+"flagship": "WBRW 105.3 FM 'The Bear' (Blacksburg, VA area)",
+"listen_page": "https://hokiesports.com/listen",
 "conference": "ACC",
-"streams": []
+"streams": [
+"https://ice26.securenetsystems.net/WBRW"
+]
 },
 {
 "school": "Wake Forest University",
@@ -242,10 +250,13 @@
 "Notre Dame Fighting Irish"
 ],
 "network": "Notre Dame Football Radio Network",
-"flagship": "unverified",
+"flagship": "WSBT 960 AM / WNSN 101.5 FM (South Bend, IN); WBBM 780 AM (Chicago)",
 "listen_page": "",
 "conference": "FBS Independent",
-"streams": []
+"streams": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WSBTAMAAC.aac",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WSBTAM.mp3"
+]
 },
 {
 "school": "University of Connecticut",
@@ -350,10 +361,12 @@
 "North Texas Mean Green"
 ],
 "network": "Mean Green Sports Network",
-"flagship": "UNVERIFIED (from memory, not confirmed this run): flagship not confirmed",
+"flagship": "KFXR 1190 AM 'Talk Radio 1190' (Dallas, TX)",
 "listen_page": "",
 "conference": "American Conference",
-"streams": []
+"streams": [
+"https://stream.revma.ihrhls.com/zc4276"
+]
 },
 {
 "school": "Rice University",
@@ -363,7 +376,7 @@
 ],
 "network": "Rice Owls Radio Network",
 "flagship": "UNVERIFIED (from memory, not confirmed this run): flagship not confirmed",
-"listen_page": "",
+"listen_page": "https://riceowls.com",
 "conference": "American Conference",
 "streams": []
 },
@@ -402,10 +415,13 @@
 "Tulane Green Wave"
 ],
 "network": "Tulane Green Wave Radio Network (Learfield)",
-"flagship": "UNVERIFIED (from memory, not confirmed this run): flagship not confirmed",
+"flagship": "KKND 106.7 FM 'The Ticket' (New Orleans, LA)",
 "listen_page": "",
 "conference": "American Conference",
-"streams": []
+"streams": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.aac",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFM.mp3"
+]
 },
 {
 "school": "University of Tulsa",
@@ -426,10 +442,14 @@
 "UAB Blazers"
 ],
 "network": "UAB Blazer Sports Network",
-"flagship": "UNVERIFIED (from memory, not confirmed this run): flagship not confirmed",
+"flagship": "WJOX 94.5 FM 'JOX' (Birmingham, AL)",
 "listen_page": "",
 "conference": "American Conference",
-"streams": []
+"streams": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WJOXFMAAC.aac",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WJOXFM.mp3",
+"http://18153.live.streamtheworld.com:3690/WJOXFM_SC"
+]
 },
 {
 "school": "University of Texas at San Antonio",
@@ -451,8 +471,8 @@
 "App State Mountaineers"
 ],
 "network": "App State Sports Network (Learfield)",
-"flagship": "UNVERIFIED (from memory, not confirmed this run): flagship not confirmed",
-"listen_page": "",
+"flagship": "WKBC 97.3 FM (North Wilkesboro, NC)",
+"listen_page": "https://appstatesports.com",
 "conference": "Sun Belt Conference",
 "streams": []
 },
@@ -464,7 +484,7 @@
 "Arkansas State Red Wolves"
 ],
 "network": "Red Wolves Sports Network",
-"flagship": "UNVERIFIED (from memory, not confirmed this run): flagship not confirmed",
+"flagship": "KFIN 107.9 FM (Jonesboro, AR)",
 "listen_page": "",
 "conference": "Sun Belt Conference",
 "streams": []
@@ -477,10 +497,12 @@
 "Coastal Carolina Chanticleers"
 ],
 "network": "Chanticleer Sports Network",
-"flagship": "UNVERIFIED (from memory, not confirmed this run): flagship not confirmed",
+"flagship": "WRXZ 107.1 FM 'Rock 107.1' (Myrtle Beach, SC)",
 "listen_page": "",
 "conference": "Sun Belt Conference",
-"streams": []
+"streams": [
+"https://stream.revma.ihrhls.com/zc6849/hls.m3u8"
+]
 },
 {
 "school": "Georgia Southern University",
@@ -501,10 +523,14 @@
 "Georgia State Panthers"
 ],
 "network": "Georgia State Panthers Radio Network",
-"flagship": "UNVERIFIED (from memory, not confirmed this run): flagship not confirmed",
+"flagship": "WRAS 88.5 FM (Atlanta, GA)",
 "listen_page": "",
 "conference": "Sun Belt Conference",
-"streams": []
+"streams": [
+"https://gpb.streamguys1.com/gpb-atlanta-aac-website",
+"https://26423.live.streamtheworld.com/WRASFM.mp3",
+"http://29312.live.streamtheworld.com/WRASFM_SC"
+]
 },
 {
 "school": "James Madison University",
@@ -514,8 +540,8 @@
 "James Madison Dukes"
 ],
 "network": "JMU Sports Network (Learfield)",
-"flagship": "UNVERIFIED (from memory, not confirmed this run): flagship not confirmed",
-"listen_page": "",
+"flagship": "WSVA 550 AM / 92.1 FM (Harrisonburg, VA)",
+"listen_page": "https://wsvaonline.com",
 "conference": "Sun Belt Conference",
 "streams": []
 },
@@ -540,10 +566,12 @@
 "Louisiana Tech Bulldogs"
 ],
 "network": "LA Tech Sports Network",
-"flagship": "UNVERIFIED (from memory, not confirmed this run): flagship not confirmed",
+"flagship": "KXKZ 107.5 FM (Ruston, LA)",
 "listen_page": "",
 "conference": "Sun Belt Conference",
-"streams": []
+"streams": [
+"https://ice7.securenetsystems.net/KXKZ"
+]
 },
 {
 "school": "Marshall University",
@@ -552,10 +580,12 @@
 "Marshall Thundering Herd"
 ],
 "network": "Thundering Herd Sports Network",
-"flagship": "UNVERIFIED (from memory, not confirmed this run): flagship not confirmed",
+"flagship": "WDGG 93.7 FM 'The Dawg' / WRVC 94.1 FM / WRVC 930 AM (Huntington, WV)",
 "listen_page": "",
 "conference": "Sun Belt Conference",
-"streams": []
+"streams": [
+"https://ice23.securenetsystems.net/WDGG"
+]
 },
 {
 "school": "Old Dominion University",
@@ -621,10 +651,12 @@
 "UL Monroe Warhawks"
 ],
 "network": "Warhawk Sports Network",
-"flagship": "UNVERIFIED (from memory, not confirmed this run): flagship not confirmed",
+"flagship": "KLIP 105.3 FM (Monroe, LA)",
 "listen_page": "",
 "conference": "Sun Belt Conference",
-"streams": []
+"streams": [
+"https://ice66.securenetsystems.net/KLIP"
+]
 },
 {
 "school": "University of Arizona",
@@ -743,7 +775,7 @@
 "Kansas Jayhawks"
 ],
 "network": "Jayhawk Radio Network (Learfield)",
-"flagship": "Unverified",
+"flagship": "KLWN 1320 AM / 101.7 FM and KMXN 92.9 FM (Lawrence, KS)",
 "listen_page": "",
 "conference": "Big 12 Conference",
 "streams": []
@@ -769,10 +801,12 @@
 "OSU"
 ],
 "network": "Cowboy Radio Network",
-"flagship": "Unverified",
+"flagship": "KSPI 93.7 FM 'HOT 93.7' (Stillwater, OK)",
 "listen_page": "",
 "conference": "Big 12 Conference",
-"streams": []
+"streams": [
+"https://ice42.securenetsystems.net/KSPI"
+]
 },
 {
 "school": "Texas Christian University",
@@ -835,10 +869,12 @@
 "WVU"
 ],
 "network": "Mountaineer Sports Network (Learfield)",
-"flagship": "Unverified",
+"flagship": "WVAQ 101.9 FM and WAJR 1440 AM / 104.5 FM (Morgantown, WV)",
 "listen_page": "",
 "conference": "Big 12 Conference",
-"streams": []
+"streams": [
+"https://prod-100-53-217-72.amperwave.net/wvradio-wvaqfmaac-hlsc2.m3u8"
+]
 },
 {
 "school": "Ohio State University",
@@ -938,7 +974,7 @@
 "Terps"
 ],
 "network": "Terrapin Sports Radio Network (Learfield)",
-"flagship": "UNVERIFIED",
+"flagship": "WJZ-FM 105.7 'The Fan' (Baltimore, MD); WTEM 980 AM 'The Team 980' (Washington, DC)",
 "listen_page": "",
 "conference": "Big Ten Conference",
 "streams": []
@@ -951,10 +987,14 @@
 "MSU"
 ],
 "network": "Spartan Sports Network (Learfield)",
-"flagship": "Lansing-area flagship - UNVERIFIED",
+"flagship": "WJIM 1240 AM / WMMQ 94.9 FM (Lansing, MI); WJR 760 AM (Detroit)",
 "listen_page": "",
 "conference": "Big Ten Conference",
-"streams": []
+"streams": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WJRAMAAC.aac",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WJRAM.mp3",
+"http://17553.live.streamtheworld.com:3690/WJRAMAAC_SC"
+]
 },
 {
 "school": "University of Minnesota",
@@ -1024,10 +1064,12 @@
 "Purdue Boilermakers"
 ],
 "network": "Purdue Sports Network (Learfield)",
-"flagship": "UNVERIFIED",
-"listen_page": "",
+"flagship": "WAZY 96.5 FM (Lafayette, IN)",
+"listen_page": "https://purduesports.com/radio",
 "conference": "Big Ten Conference",
-"streams": []
+"streams": [
+"https://cp9.serverse.com/proxy/neiqvqnd?mp=/stream"
+]
 },
 {
 "school": "Rutgers University",
@@ -1036,7 +1078,7 @@
 "Rutgers Scarlet Knights"
 ],
 "network": "Rutgers Sports Network (Learfield)",
-"flagship": "UNVERIFIED",
+"flagship": "WFAN 660 AM / 101.9 FM (New York, NY)",
 "listen_page": "",
 "conference": "Big Ten Conference",
 "streams": []
@@ -1064,8 +1106,8 @@
 "Southern California"
 ],
 "network": "Trojans Radio Network (Learfield)",
-"flagship": "UNVERIFIED",
-"listen_page": "",
+"flagship": "KSPN 710 AM 'ESPN LA 710' (Los Angeles, CA)",
+"listen_page": "https://usctrojans.com/listen",
 "conference": "Big Ten Conference",
 "streams": []
 },
@@ -1077,10 +1119,13 @@
 "UW"
 ],
 "network": "Washington Huskies Radio Network (Learfield)",
-"flagship": "Seattle flagship - UNVERIFIED",
+"flagship": "KJR-FM 93.3 / KJR 950 AM (Seattle, WA)",
 "listen_page": "",
 "conference": "Big Ten Conference",
-"streams": []
+"streams": [
+"https://stream.revma.ihrhls.com/zc7747",
+"https://stream.revma.ihrhls.com/zc2565"
+]
 },
 {
 "school": "University of Wisconsin-Madison",
@@ -1275,8 +1320,8 @@
 "Bucknell Bison"
 ],
 "network": "",
-"flagship": "",
-"listen_page": "",
+"flagship": "WKOK 1070 AM (Sunbury, PA)",
+"listen_page": "https://bucknellbison.com",
 "conference": "Patriot League",
 "streams": []
 },
@@ -1287,10 +1332,13 @@
 "Colgate Raiders"
 ],
 "network": "",
-"flagship": "",
-"listen_page": "",
+"flagship": "WRCU 90.1 FM (Hamilton, NY) - student station, home games",
+"listen_page": "https://wrcufm.org",
 "conference": "Patriot League",
-"streams": []
+"streams": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WRCUFMAAC.aac",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WRCUFM.mp3"
+]
 },
 {
 "school": "Fordham University",
@@ -1299,10 +1347,14 @@
 "Fordham Rams"
 ],
 "network": "",
-"flagship": "",
+"flagship": "WFUV 90.7 FM (Bronx, NY)",
 "listen_page": "",
 "conference": "Patriot League",
-"streams": []
+"streams": [
+"https://onair.wfuv.org/onair-aacplus",
+"http://wfuv-music.streamguys.org/music-hi",
+"http://wfuv-onair.streamguys.org/onair-hi"
+]
 },
 {
 "school": "Georgetown University",
@@ -1347,10 +1399,13 @@
 "Lehigh Mountain Hawks"
 ],
 "network": "",
-"flagship": "",
+"flagship": "Fox Sports 1230 AM / 1320 AM / 94.7 FM (Lehigh Valley, PA)",
 "listen_page": "",
 "conference": "Patriot League",
-"streams": []
+"streams": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WEEXAMAAC.aac",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WEEXAM.mp3"
+]
 },
 {
 "school": "University of Richmond",
@@ -1359,7 +1414,7 @@
 "Richmond Spiders"
 ],
 "network": "",
-"flagship": "",
+"flagship": "W291CL 106.1 FM '106.1 ESPN' (Richmond, VA)",
 "listen_page": "",
 "conference": "Patriot League",
 "streams": []
@@ -1371,10 +1426,12 @@
 "Villanova Wildcats"
 ],
 "network": "",
-"flagship": "",
+"flagship": "WDAS 1480 AM 'Fox Sports Radio Philadelphia' (Philadelphia, PA)",
 "listen_page": "",
 "conference": "Patriot League",
-"streams": []
+"streams": [
+"https://stream.revma.ihrhls.com/zc1993"
+]
 },
 {
 "school": "William & Mary",
@@ -1384,10 +1441,13 @@
 "William & Mary Tribe"
 ],
 "network": "",
-"flagship": "",
-"listen_page": "",
+"flagship": "WTYD 92.3 FM 'The Tide' (Deltaville/Williamsburg, VA) + 107.9 FM",
+"listen_page": "https://tribeathletics.com",
 "conference": "Patriot League",
-"streams": []
+"streams": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WTYDFMAAC.aac",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WTYDFM.mp3"
+]
 },
 {
 "school": "Brown University",
@@ -1408,10 +1468,13 @@
 "Columbia Lions"
 ],
 "network": "",
-"flagship": "",
+"flagship": "WKCR 89.9 FM (New York, NY) - student station",
 "listen_page": "",
 "conference": "Ivy League",
-"streams": []
+"streams": [
+"https://wkcr.streamguys1.com/live",
+"http://wkcr.streamguys1.com/live"
+]
 },
 {
 "school": "Cornell University",
@@ -1444,10 +1507,12 @@
 "Harvard Crimson"
 ],
 "network": "",
-"flagship": "",
+"flagship": "WHRB 95.3 FM (Cambridge, MA) - student station",
 "listen_page": "",
 "conference": "Ivy League",
-"streams": []
+"streams": [
+"http://stream.whrb.org:8000/whrb-mp3"
+]
 },
 {
 "school": "University of Pennsylvania",
@@ -1481,7 +1546,7 @@
 "Yale Bulldogs"
 ],
 "network": "",
-"flagship": "",
+"flagship": "WELI 960 AM (New Haven, CT)",
 "listen_page": "",
 "conference": "Ivy League",
 "streams": []
@@ -1518,7 +1583,7 @@
 "Duquesne Dukes"
 ],
 "network": "",
-"flagship": "",
+"flagship": "WBGG 970 AM 'Fox Sports Pittsburgh' (Pittsburgh, PA)",
 "listen_page": "",
 "conference": "Northeast Conference",
 "streams": []
@@ -1632,10 +1697,12 @@
 "Bethune-Cookman Wildcats"
 ],
 "network": "",
-"flagship": "",
-"listen_page": "",
+"flagship": "WELE 1380 AM (Daytona Beach, FL)",
+"listen_page": "https://bcuathletics.com/radio",
 "conference": "SWAC",
-"streams": []
+"streams": [
+"https://ice41.securenetsystems.net/WELE"
+]
 },
 {
 "school": "Florida A&M University",
@@ -1687,10 +1754,12 @@
 "Alcorn State Braves"
 ],
 "network": "",
-"flagship": "",
+"flagship": "WPRL 91.7 FM (Lorman, MS)",
 "listen_page": "",
 "conference": "SWAC",
-"streams": []
+"streams": [
+"https://ice41.securenetsystems.net/WPRL"
+]
 },
 {
 "school": "University of Arkansas at Pine Bluff",
@@ -1754,10 +1823,12 @@
 "Texas Southern Tigers"
 ],
 "network": "",
-"flagship": "",
+"flagship": "KTSU 90.9 FM (Houston, TX)",
 "listen_page": "",
 "conference": "SWAC",
-"streams": []
+"streams": [
+"http://ice6.securenetsystems.net/KTSUFM"
+]
 },
 {
 "school": "Delaware State University",
@@ -1792,10 +1863,12 @@
 "Morgan State Bears"
 ],
 "network": "",
-"flagship": "",
-"listen_page": "",
+"flagship": "WEAA 88.9 FM (Baltimore, MD)",
+"listen_page": "https://weaa.org",
 "conference": "MEAC",
-"streams": []
+"streams": [
+"http://amber.streamguys.com:4020/live"
+]
 },
 {
 "school": "Norfolk State University",
@@ -1805,10 +1878,13 @@
 "Norfolk State Spartans"
 ],
 "network": "",
-"flagship": "",
+"flagship": "WNSB 91.1 FM 'Blazin' Hot 91' (Norfolk, VA)",
 "listen_page": "",
 "conference": "MEAC",
-"streams": []
+"streams": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WNSBFMAAC.aac",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WNSBFM.mp3"
+]
 },
 {
 "school": "North Carolina Central University",
@@ -1832,8 +1908,8 @@
 "South Carolina State Bulldogs"
 ],
 "network": "",
-"flagship": "",
-"listen_page": "",
+"flagship": "WPJK 1580 AM / 92.9 FM 'ESPN Orangeburg' (Orangeburg, SC)",
+"listen_page": "https://espnorangeburg.com",
 "conference": "MEAC",
 "streams": []
 },
@@ -1900,10 +1976,14 @@
 "Furman Paladins"
 ],
 "network": "Furman Sports Network (Van Wagner)",
-"flagship": "The Fan Upstate 97.7 FM / 1330 AM (Greenville) and 97.1 FM / 950 AM (Spartanburg)",
+"flagship": "The Fan Upstate 97.7 FM / 1330 AM (Greenville, SC); 97.1 FM / 950 AM (Spartanburg)",
 "listen_page": "https://www.audacy.com/thefanupstate/sports/furman-athletics",
 "conference": "Southern Conference",
-"streams": []
+"streams": [
+"https://ice41.securenetsystems.net/KNEO",
+"https://azura.theindiebeat.fm/listen/the_indie_beat_radio_-_spoken/radio.mp3",
+"http://usa10.fastcast4u.com:2690/;?type=http&nocache=1779636223"
+]
 },
 {
 "school": "Mercer University",
