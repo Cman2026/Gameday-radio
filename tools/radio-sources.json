@@ -23,7 +23,7 @@
    "California Golden Bears"
   ],
   "network": "Cal Bears Sports Network (Learfield)",
-  "flagship": "KGO 810 AM 'The Spread' (San Francisco, CA)",
+  "flagship": "810 AM (KGO, possibly re-called KSFO 810) - Cal Bears Sports Network",
   "listen_page": "",
   "conference": "ACC",
   "calls": [
@@ -327,7 +327,7 @@
    "Charlotte 49ers"
   ],
   "network": "49ers Sports Network (IMG/Learfield)",
-  "flagship": "UNVERIFIED (from memory, not confirmed this run): 730 The Game ESPN Charlotte (WZGV) was flagship through 2020; current flagship not confirmed",
+  "flagship": "730 The Game ESPN Charlotte (WZGV)",
   "listen_page": "",
   "conference": "American Conference",
   "calls": [
@@ -454,7 +454,7 @@
   ],
   "network": "Temple Owls Radio Network",
   "flagship": "UNVERIFIED (from memory, not confirmed this run): flagship not confirmed",
-  "listen_page": "",
+  "listen_page": "https://owlsports.com/listen",
   "conference": "American Conference",
   "calls": [],
   "streams": []
@@ -859,12 +859,13 @@
   ],
   "network": "Cyclone Radio Network (Learfield)",
   "flagship": "Unverified (prior knowledge: WHO 1040 AM, Des Moines, iHeart)",
-  "listen_page": "",
+  "listen_page": "https://kchanews.com/onair/sports/isu/",
   "conference": "Big 12 Conference",
   "calls": [
-   "WHO"
+   "KCYZ"
   ],
-  "streams": []
+  "streams": [],
+  "station_website": "https://now1051.iheart.com"
  },
  {
   "school": "University of Kansas",
@@ -873,14 +874,15 @@
    "Kansas Jayhawks"
   ],
   "network": "Jayhawk Radio Network (Learfield)",
-  "flagship": "KLWN 1320 AM / 101.7 FM and KMXN 92.9 FM (Lawrence, KS)",
+  "flagship": "KLWN 1320 AM / 101.7 FM (Lawrence); KMXN 92.9 The Bull also listed as flagship",
   "listen_page": "",
   "conference": "Big 12 Conference",
   "calls": [
    "KLWN-AM",
    "KMXN-FM"
   ],
-  "streams": []
+  "streams": [],
+  "station_website": "https://klwn.com"
  },
  {
   "school": "Kansas State University",
@@ -1072,13 +1074,14 @@
    "IU"
   ],
   "network": "IU Radio Network (Learfield)",
-  "flagship": "WHCC 105.1 FM \"Hoosier Country\" (Bloomington, IN)",
+  "flagship": "WHCC 105.1 FM Hoosier Country (Bloomington)",
   "listen_page": "",
   "conference": "Big Ten Conference",
   "calls": [
    "WHCC-FM"
   ],
-  "streams": []
+  "streams": [],
+  "station_website": "https://whcc105.com"
  },
  {
   "school": "University of Iowa",
@@ -1087,14 +1090,15 @@
    "Iowa Hawkeyes"
   ],
   "network": "Hawkeye Radio Network (Learfield)",
-  "flagship": "WHO 1040 AM (Des Moines) / KXIC 800 AM (Iowa City) - UNVERIFIED",
-  "listen_page": "",
+  "flagship": "WHO 1040 AM (Des Moines), historical originating flagship",
+  "listen_page": "https://hawkeyesports.com/hawkeye-radio-network",
   "conference": "Big Ten Conference",
   "calls": [
    "WHO",
    "KXIC"
   ],
-  "streams": []
+  "streams": [],
+  "station_website": "https://whoradio.iheart.com"
  },
  {
   "school": "University of Maryland",
@@ -3472,7 +3476,7 @@
   ],
   "network": "FIU Panthers Radio Network",
   "flagship": "",
-  "listen_page": "https://fiusports.com/listenlive",
+  "listen_page": "https://fiusports.com/listen",
   "conference": "Conference USA",
   "calls": [],
   "streams": []
@@ -3765,13 +3769,14 @@
    "Rainbow Warriors"
   ],
   "network": "Rainbow Warriors radio (unverified)",
-  "flagship": "Unverified (likely ESPN 1420 KKEA, Honolulu)",
-  "listen_page": "",
+  "flagship": "ESPN 1420 Honolulu (KKEA)",
+  "listen_page": "https://www.espnhonolulu.com/",
   "conference": "Mountain West Conference",
   "calls": [
    "KKEA"
   ],
-  "streams": []
+  "streams": [],
+  "station_website": "https://www.espnhonolulu.com/"
  },
  {
   "school": "University of Nevada, Reno",
@@ -3934,7 +3939,7 @@
    "Razorbacks"
   ],
   "network": "Razorback Sports Network (Learfield)",
-  "flagship": "Not named on athletics page (unverified: 103.7 The Buzz KABZ Little Rock); KAKS 99.5 FM Fayetteville listed as affiliate",
+  "flagship": "KABZ 103.7 (Little Rock); KAKS 99.5 / KQSM 92.1 (Fayetteville)",
   "listen_page": "https://arkansasrazorbacks.app.link/launch",
   "conference": "SEC",
   "calls": [
@@ -4037,7 +4042,7 @@
   ],
   "network": "Ole Miss Radio Network (Learfield)",
   "flagship": "WOXF 105.1 FM (Oxford, MS)",
-  "listen_page": "https://olemisssports.com",
+  "listen_page": "https://olemisssports.com/showcase?Live=1197",
   "conference": "SEC",
   "calls": [
    "WOXF-FM"
@@ -4052,11 +4057,14 @@
    "Mississippi State Bulldogs"
   ],
   "network": "Mississippi State Sports Network / Bulldog Sports Network (Learfield)",
-  "flagship": "Unverified (Starkville)",
-  "listen_page": "",
+  "flagship": "SuperTalk Mississippi network; Golden Triangle WKBB 100.9",
+  "listen_page": "https://player.amperwave.net/8206",
   "conference": "SEC",
-  "calls": [],
-  "streams": []
+  "calls": [
+   "WKBB"
+  ],
+  "streams": [],
+  "station_website": "https://www.supertalk.fm/stations/golden-triangle-100-9/"
  },
  {
   "school": "University of Missouri",
@@ -4082,13 +4090,14 @@
    "OU"
   ],
   "network": "Sooner Sports Radio Network (Learfield)",
-  "flagship": "Unverified: WWLS-FM 98.1 The Sports Animal (Oklahoma City, Cumulus)",
+  "flagship": "107.7 The Franchise KRXO-FM (OKC); also AM 1520 OKC, 97.5 FM / AM 1430 Tulsa",
   "listen_page": "",
   "conference": "SEC",
   "calls": [
-   "WWLS-FM"
+   "KRXO-FM"
   ],
-  "streams": []
+  "streams": [],
+  "station_website": "https://thefranchiseok.com"
  },
  {
   "school": "University of South Carolina",

@@ -182,6 +182,12 @@ def radio_browser(call, freq):
 
 def candidates(team):
     groups = [("given", list(team.get("streams") or []))]
+    # The school's own listen page often embeds the stream (Mixlr, Stretch Internet, SIDEARM players).
+    if team.get("listen_page"):
+        found, extra = from_page(team["listen_page"])
+        for x in extra[:6]:
+            if x.startswith("http"): found += from_page(x)[0]
+        groups.append(("listen-page", found))
     freqs = re.findall(r"\b(\d{2,4}(?:\.\d)?)\b", team.get("flagship") or "")
     for call in team.get("calls") or []:
         m = re.match(r"([KW][A-Z]{2,3})(?:-?(AM|FM))?$", call.upper().replace(" ", ""))
