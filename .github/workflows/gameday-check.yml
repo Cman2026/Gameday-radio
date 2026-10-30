@@ -13,16 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with: { python-version: "3.12" }
       - run: python tools/live_showcase.py
       - run: python tools/gameday_check.py
       - name: Save results
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
-          git add radio-live.json radio.json 2>/dev/null || exit 0
-          git diff --cached --quiet && exit 0
-          git commit -q -m "Game-time radio check"
-          git pull -q --rebase origin main && git push -q origin HEAD:main
+        env: { MERGE_LIVE_ONLY: "1" }
+        run: tools/publish.sh "Game-time radio check" radio-live.json radio.json
