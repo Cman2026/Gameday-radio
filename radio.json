@@ -1,5 +1,5 @@
 {
-"built": "2026-10-30T16:24:34Z",
+"built": "2026-10-30T23:08:28Z",
 "teams": [
 {
 "school": "Boston College",
@@ -458,11 +458,10 @@
 ],
 "game_only": true,
 "streams": [
-"https://ice64.securenetsystems.net/WZGV2",
 "https://cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8"
 ],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "East Carolina University",
@@ -734,7 +733,7 @@
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3"
 ],
-"misses": 2,
+"misses": 3,
 "last_ok": null
 },
 {
@@ -926,7 +925,7 @@
 "streams": [
 "https://ais-sa1.streamon.fm/7851_128k.aac/playlist.m3u8"
 ],
-"misses": 2,
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -4639,7 +4638,7 @@
 "streams": [
 "https://cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8"
 ],
-"misses": 2,
+"misses": 3,
 "last_ok": null
 },
 {
