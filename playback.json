@@ -1,0 +1,188 @@
+{
+ "streams": {
+  "https://cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8": {
+   "ok": true,
+   "why": "playing",
+   "at": "2026-10-30T23:19:37Z",
+   "school": "University of North Carolina at Charlotte"
+  },
+  "https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.aac": {
+   "ok": true,
+   "why": "playing",
+   "at": "2026-10-30T23:19:37Z",
+   "school": "Tulane University"
+  },
+  "https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.m3u8": {
+   "ok": true,
+   "why": "playing",
+   "at": "2026-10-30T23:19:37Z",
+   "school": "Tulane University"
+  },
+  "http://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.aac": {
+   "ok": true,
+   "why": "playing",
+   "at": "2026-10-30T23:19:37Z",
+   "school": "Tulane University"
+  },
+  "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3": {
+   "ok": true,
+   "why": "playing",
+   "at": "2026-10-30T23:19:37Z",
+   "school": "Baylor University"
+  },
+  "https://ais-sa1.streamon.fm/7050_24k.aac": {
+   "ok": true,
+   "why": "playing",
+   "at": "2026-10-30T23:19:37Z",
+   "school": "Baylor University"
+  },
+  "https://stream.revma.ihrhls.com/zc601": {
+   "ok": true,
+   "why": "playing",
+   "at": "2026-10-30T23:19:37Z",
+   "school": "University of Central Florida"
+  },
+  "https://stream.revma.ihrhls.com/zc601/hls.m3u8": {
+   "ok": true,
+   "why": "playing",
+   "at": "2026-10-30T23:19:37Z",
+   "school": "University of Central Florida"
+  },
+  "http://stream.revma.ihrhls.com/zc601": {
+   "ok": true,
+   "why": "playing",
+   "at": "2026-10-30T23:19:37Z",
+   "school": "University of Central Florida"
+  },
+  "https://ice24.securenetsystems.net/WDCR": {
+   "ok": true,
+   "why": "playing",
+   "at": "2026-10-30T23:19:37Z",
+   "school": "Dartmouth College"
+  },
+  "https://cdn.jwplayer.com/live/broadcast/KKl2XbUu.m3u8": {
+   "ok": true,
+   "why": "playing",
+   "at": "2026-10-30T23:19:37Z",
+   "school": "Dartmouth College"
+  },
+  "https://stream.whrb.org:8000/whrb-mp3": {
+   "ok": false,
+   "why": "timeout",
+   "at": "2026-10-30T23:19:37Z",
+   "school": "Harvard University"
+  },
+  "https://stream.whrb.org/whrb-mp3": {
+   "ok": true,
+   "why": "playing",
+   "at": "2026-10-30T23:19:37Z",
+   "school": "Harvard University"
+  },
+  "http://stream.whrb.org:8000/whrb-mp3": {
+   "ok": false,
+   "why": "timeout",
+   "at": "2026-10-30T23:19:37Z",
+   "school": "Harvard University"
+  },
+  "https://stream.revma.ihrhls.com/zc3455": {
+   "ok": true,
+   "why": "playing",
+   "at": "2026-10-30T23:19:37Z",
+   "school": "Kent State University"
+  },
+  "https://stream.revma.ihrhls.com/zc3455/hls.m3u8": {
+   "ok": true,
+   "why": "playing",
+   "at": "2026-10-30T23:19:37Z",
+   "school": "Kent State University"
+  },
+  "http://stream.revma.ihrhls.com/zc3455": {
+   "ok": true,
+   "why": "playing",
+   "at": "2026-10-30T23:19:37Z",
+   "school": "Kent State University"
+  },
+  "https://live.amperwave.net/direct/audacy-kifmamaac-imc": {
+   "ok": true,
+   "why": "playing",
+   "at": "2026-10-30T23:19:37Z",
+   "school": "California State University, Sacramento"
+  },
+  "https://live.amperwave.net/manifest/audacy-kifmamaac-imc": {
+   "ok": false,
+   "why": "timeout",
+   "at": "2026-10-30T23:19:37Z",
+   "school": "California State University, Sacramento"
+  },
+  "http://live.amperwave.net/direct/audacy-kifmamaac-imc": {
+   "ok": true,
+   "why": "playing",
+   "at": "2026-10-30T23:19:37Z",
+   "school": "California State University, Sacramento"
+  }
+ },
+ "teams": {
+  "University of North Carolina at Charlotte": {
+   "inpage": [
+    "https://cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8"
+   ],
+   "external": null,
+   "at": "2026-10-30T23:19:37Z"
+  },
+  "Tulane University": {
+   "inpage": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.aac",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.m3u8"
+   ],
+   "external": null,
+   "at": "2026-10-30T23:19:37Z"
+  },
+  "Baylor University": {
+   "inpage": [
+    "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    "https://ais-sa1.streamon.fm/7050_24k.aac"
+   ],
+   "external": null,
+   "at": "2026-10-30T23:19:37Z"
+  },
+  "University of Central Florida": {
+   "inpage": [
+    "https://stream.revma.ihrhls.com/zc601",
+    "https://stream.revma.ihrhls.com/zc601/hls.m3u8"
+   ],
+   "external": null,
+   "at": "2026-10-30T23:19:37Z"
+  },
+  "Dartmouth College": {
+   "inpage": [
+    "https://ice24.securenetsystems.net/WDCR",
+    "https://cdn.jwplayer.com/live/broadcast/KKl2XbUu.m3u8"
+   ],
+   "external": null,
+   "at": "2026-10-30T23:19:37Z"
+  },
+  "Harvard University": {
+   "inpage": [
+    "https://stream.whrb.org/whrb-mp3"
+   ],
+   "external": null,
+   "at": "2026-10-30T23:19:37Z"
+  },
+  "Kent State University": {
+   "inpage": [
+    "https://stream.revma.ihrhls.com/zc3455",
+    "https://stream.revma.ihrhls.com/zc3455/hls.m3u8"
+   ],
+   "external": null,
+   "at": "2026-10-30T23:19:37Z"
+  },
+  "California State University, Sacramento": {
+   "inpage": [
+    "https://live.amperwave.net/direct/audacy-kifmamaac-imc"
+   ],
+   "external": null,
+   "at": "2026-10-30T23:19:37Z"
+  }
+ },
+ "tested": "2026-10-30T23:19:37Z"
+}
