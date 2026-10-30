@@ -34,7 +34,9 @@ def now_playing(url, timeout=10):
                 n = r.read(1)[0] * 16
                 meta = r.read(n).decode("utf-8", "ignore") if n else ""
                 m = re.search(r"StreamTitle='(.*?)';", meta)
-                return name, (m.group(1) if m else "")
+                t = m.group(1) if m else ""
+                tx = re.search(r'text="([^"]*)"', t)  # iHeart packs the title into text="..."
+                return name, (tx.group(1) if tx else t)
             if "mpegurl" in ct:
                 body = r.read(20000).decode("utf-8", "ignore")
                 titles = re.findall(r'#EXTINF:[^,]*,(?:.*?title="([^"]*)")?(.*)', body)
