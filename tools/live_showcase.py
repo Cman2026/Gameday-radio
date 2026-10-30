@@ -74,9 +74,12 @@ def main():
     targets = {}
     for tm in live_teams():
         t = next((index[norm(n)] for n in (tm.get("location"), tm.get("displayName"), tm.get("shortDisplayName")) if norm(n) in index), None)
-        if not t or t.get("streams"):
+        if not t:
             continue
         info = src.get(t["school"]) or {}
+        # Teams with a station stream are fine; school game feeds change every game, so refresh those.
+        if t.get("streams") and not info.get("game_only"):
+            continue
         site = info.get("athletics_site")
         if site:
             targets[site.rstrip("/") + "/showcase"] = t
@@ -89,7 +92,7 @@ def main():
     changed = False
     for url, t in targets.items():
         streams = [u for u in found.get(url, []) if "player_status" not in u and "/v5/" not in u][:3]
-        streams = list(dict.fromkeys((t.get("streams") or []) + streams))[:3]
+        streams = list(dict.fromkeys(streams + (t.get("streams") or [])))[:4]  # newest feed first
         print(t["school"], "->", streams)
         if streams:
             t["streams"] = streams; t["live_only"] = True; changed = True

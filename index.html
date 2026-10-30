@@ -203,12 +203,7 @@ h1 span{color:var(--bulb)}
 // Radio networks. "streams" are tried in order until one plays.
 // Strings are direct audio URLs; {tunein:"sNNN"} is resolved to a direct URL through TuneIn's public tune service.
 const sn = call => [3,9,6,5,7,2,4,8,1].map(n=>`https://ice${n}.securenetsystems.net/${call}`);
-const RADIO = {
-  "Jacksonville State": {net:"Gamecock Radio Network", station:"WLJS 91.9 FM (Jacksonville, AL)", streams:["https://s8.yesstreaming.net:7014/stream","http://s8.yesstreaming.net:7014/stream"], listen:"https://www.jsuchanticleer.com/wljs919/site/listen.html"},
-  "New Mexico State":  {net:"Aggie Sports Network", station:"KXPZ 99.5 FM (Las Cruces)", streams:[{tunein:"s273730"}, ...sn("KXPZ")], listen:"https://tunein.com/radio/New-Mexico-St-Football-s273730/"},
-  "Kennesaw State":    {net:"KSU Owl Network", station:"KSU Owl Network (online)", streams:["https://edge.mixlr.com/channel/iryqq"], listen:"https://ksuowls.com/coverage"},
-  "Middle Tennessee":  {net:"Blue Raider Network", station:"WGNS 1450 AM / 100.5 FM (Murfreesboro)", streams:[...sn("WGNS"), {tunein:"s273724"}], listen:"https://radio.securenetsystems.net/v5/WGNS"},
-};
+const RADIO = {}; // filled from radio.json (tested daily) + playback.json (played in a real browser)
 const base = "https://site.api.espn.com/apis/site/v2/sports/football/college-football";
 let filter = "live", events = [], selected = null, history = [], summaryHist = [], delay = 0;
 const $ = s => document.querySelector(s);
@@ -229,18 +224,30 @@ async function loadLive(){
 async function loadDirectory(){
   await loadLive(); setInterval(loadLive, 10*60*1000);
   try{
+    try{ playback = await getJSON("playback.json?t=" + Math.floor(Date.now()/300000)); }catch(e){}
     const d = await getJSON("radio.json");
     for(const t of d.teams||[]) for(const n of [t.school, ...(t.names||[])]) if(n && !dirIndex.has(normName(n))) dirIndex.set(normName(n), t);
     events.forEach(e=>e.competitions[0].competitors.forEach(c=>attachRadio(c.team)));
     render(); fillStations();
   }catch(e){ /* no directory yet: hand-checked teams still work */ }
 }
+let playback = {streams:{}, teams:{}};
+const SECURE_PAGE = location.protocol === "https:";
+function orderStreams(school, streams){
+  const pb = playback.teams?.[school] || {}, res = playback.streams || {};
+  const rank = u => (pb.inpage||[]).includes(u) ? 0 : res[u]?.ok === false ? 3 : (SECURE_PAGE && u.startsWith("http:")) ? 4 : 1;
+  const all = [...(pb.inpage||[]), ...streams];
+  const playable = [...new Set(all)].filter(u => !(SECURE_PAGE && u.startsWith("http:"))).sort((a,b)=>rank(a)-rank(b) || vRank(a)-vRank(b));
+  const external = pb.external || streams.find(u=>u.startsWith("http:")) || null;
+  return {playable, external};
+}
 function attachRadio(tm){
   if(!tm || RADIO[tm.location] || !dirIndex.size) return;
   const tries = [tm.location, tm.displayName, `${tm.location} ${tm.name||""}`, tm.shortDisplayName, tm.abbreviation];
   let hit = null; for(const n of tries){ hit = dirIndex.get(normName(n)); if(hit) break; }
   if(!hit || !(hit.streams||[]).length){ if(hit) RADIO_INFO[tm.location] = hit; return; }
-  RADIO[tm.location] = {net: hit.network || `${tm.location} radio`, station: hit.flagship || "", streams: hit.streams.slice().sort((a,b)=>vRank(a)-vRank(b)), listen: hit.listen_page || ""};
+  const {playable, external} = orderStreams(hit.school, hit.streams);
+  RADIO[tm.location] = {net: hit.network || `${tm.location} radio`, station: hit.flagship || "", streams: playable, external, listen: hit.listen_page || ""};
 }
 const RADIO_INFO = {}; // teams we know about but have no free stream for
 let divFilter = "all", query = "";
@@ -314,7 +321,7 @@ function render(){
 let currentTeam = null, connecting = null;
 const ready = {}; // team -> flat list of direct stream URLs, best first
 function ear(loc, label){
-  const has = (RADIO[loc]?.streams?.length) || store.get("stream:"+loc);
+  const has = (RADIO[loc]?.streams?.length) || RADIO[loc]?.external || store.get("stream:"+loc);
   if(!has) return `<button class="ear" disabled title="No radio stream on file">${esc(label)}</button>`;
   const on = currentTeam===loc && !audio.paused, wait = connecting===loc;
   return `<button class="ear ${on?"on":""} ${wait?"wait":""}" data-team="${esc(loc)}" aria-label="${on?"Pause":"Listen to"} ${esc(loc)} radio">${esc(label)}</button>`;
@@ -340,7 +347,7 @@ function listenTo(loc){
   const r = RADIO[loc]||{};
   currentTeam = loc; connecting = loc; deck = null;
   const sel = $("#station"); if([...sel.options].some(o=>o.value==="team:"+loc)) sel.value = "team:"+loc;
-  const list = (ready[loc] && ready[loc].length) ? ready[loc] : [store.get("stream:"+loc), ...(r.streams||[])].filter(Boolean);
+  const list = [store.get("stream:"+loc), ...(r.streams||[])].filter(Boolean);
   playList(list, r.net||loc+" radio", r.station||"", loc);
   render();
 }
@@ -680,7 +687,12 @@ async function playList(list, name, sub, loc){
     }
   }
   connecting = null; render();
-  $("#nowSub").textContent = "No stream answered. The station may not be streaming this game; try the official listen link.";
+  const ext = loc && RADIO[loc]?.external;
+  if(ext){
+    $("#nowSub").innerHTML = `This station's stream won't play inside the page. <a href="${esc(ext)}" target="_blank" rel="noopener">Open it in Safari</a>`;
+  } else {
+    $("#nowSub").textContent = "No stream answered. The station may not be on the air right now.";
+  }
 }
 function tryUrl(url){
   return new Promise(res=>{

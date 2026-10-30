@@ -19,7 +19,7 @@ new = {t["school"]: t for t in json.load(open(sys.argv[1]))["teams"]}
 cur = json.load(open("radio.json"))
 for t in cur["teams"]:
     n = new.get(t["school"])
-    if n and n.get("live_only") and not t.get("streams"):
+    if n and n.get("live_only") and (not t.get("streams") or t.get("game_only")):
         t["streams"], t["live_only"] = n["streams"], True
 json.dump(cur, open("radio.json", "w"), indent=0)
 PY

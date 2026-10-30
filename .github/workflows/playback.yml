@@ -1,0 +1,33 @@
+name: Playback test
+on:
+  workflow_dispatch:
+    inputs:
+      scope:
+        description: "today, tomorrow, live or all"
+        default: "tomorrow"
+  schedule:
+    - cron: "7 13 * * 6"    # Saturday 9 AM Eastern: today's games
+    - cron: "7 21 * * 5"    # Friday 5 PM Eastern: tomorrow's games
+    - cron: "37 21 * * 1,2,3,4"  # weekday afternoons: tonight's games
+permissions:
+  contents: write
+concurrency: playback
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with: { python-version: "3.12" }
+      - run: pip install -q playwright && python -m playwright install --with-deps chromium >/dev/null
+      - name: Test streams
+        run: |
+          scope="${{ github.event.inputs.scope }}"
+          if [ -z "$scope" ]; then
+            case "$(date -u +%u%H)" in 513|*) scope=today ;; esac
+            [ "$(date -u +%u)" = "5" ] && scope=tomorrow
+          fi
+          python tools/playback_test.py "$scope"
+      - name: Save results
+        run: tools/publish.sh "Playback test" playback.json
