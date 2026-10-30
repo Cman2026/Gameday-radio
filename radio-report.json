@@ -1,0 +1,6468 @@
+[
+ {
+  "school": "Boston College",
+  "calls": [
+   "WEEI"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEEIAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEEIAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEEI_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEEIFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEEIFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEEI_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEEIAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEEI.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of California, Berkeley",
+  "calls": [
+   "KGO"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGOAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGOAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGO_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGOFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGOFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGO_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGOAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGO.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Clemson University",
+  "calls": [
+   "WCCP-FM",
+   "WAHT"
+  ],
+  "ok": [
+   "http://s2.radioreformation.com:8060/stream.mp3"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCCPFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCCPFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCCP_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCCPAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCCPAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCCP_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCCPAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCCP.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WAHTAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WAHTAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WAHT_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WAHTFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Duke University",
+  "calls": [
+   "WDNC",
+   "WRAL"
+  ],
+  "ok": [
+   "https://ais-sa8.cdnstream1.com/2748_64.aac",
+   "https://ais-sa8.cdnstream1.com/2745_64.aac?listenerId=a1a239a4c8b9ea9da8e079414ae50037&NoPreroll=true&starttime=1&aw_0_1st.playerid=esPlayer&aw_0_1st.skey=1689391886"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDNCAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDNCAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDNC_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDNCFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDNCFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDNC_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDNCAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDNC.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRALAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRALAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRAL_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRALFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Florida State University",
+  "calls": [
+   "WTNT-FM"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WTNTFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WTNTFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WTNT_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WTNTAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WTNTAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WTNT_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WTNTAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WTNT.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Georgia Institute of Technology",
+  "calls": [
+   "WCNN"
+  ],
+  "ok": [
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/WCNNAMAAC.aac",
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/WCNNAM.mp3"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCNN_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCNNFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCNNFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCNN_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCNNAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCNN.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of Louisville",
+  "calls": [
+   "WLCL",
+   "WGTK"
+  ],
+  "ok": [
+   "https://ice25.securenetsystems.net/WGTK"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WLCLAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WLCLAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WLCL_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WLCLFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WLCLFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WLCL_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WLCLAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WLCL.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGTKAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGTKAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGTK_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGTKFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of Miami",
+  "calls": [
+   "WQAM",
+   "WMEN"
+  ],
+  "ok": [
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/WMENAMAAC.aac",
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/WMENAM.mp3"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WQAMAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WQAMAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WQAM_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WQAMFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WQAMFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WQAM_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WQAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WQAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMEN_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMENFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMENFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMEN_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "North Carolina State University",
+  "calls": [
+   "WRAL-FM"
+  ],
+  "ok": [
+   "https://ais-sa8.cdnstream1.com/2748_64.aac",
+   "https://ais-sa8.cdnstream1.com/2745_64.aac?listenerId=a1a239a4c8b9ea9da8e079414ae50037&NoPreroll=true&starttime=1&aw_0_1st.playerid=esPlayer&aw_0_1st.skey=1689391886"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRALFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRALFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRAL_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRALAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRALAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRAL_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRALAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRAL.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of North Carolina at Chapel Hill",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of Pittsburgh",
+  "calls": [
+   "KDKA-FM"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KDKAFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KDKAFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KDKA_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KDKAAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KDKAAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KDKA_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KDKAAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KDKA.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Southern Methodist University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Stanford University",
+  "calls": [
+   "KNBR",
+   "KZSU"
+  ],
+  "ok": [
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCTAMAAC.aac",
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/KNBRAMAAC.aac",
+   "http://17853.live.streamtheworld.com:3690/KNBRAM_SC"
+  ],
+  "tried": []
+ },
+ {
+  "school": "Syracuse University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of Virginia",
+  "calls": [
+   "WINA"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WINAAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WINAAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WINA_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WINAFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WINAFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WINA_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WINAAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WINA.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Virginia Tech",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Wake Forest University",
+  "calls": [
+   "WSJS"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSJSAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSJSAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSJS_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSJSFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSJSFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSJS_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSJSAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSJS.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of Notre Dame",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of Connecticut",
+  "calls": [
+   "WTIC"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WTICAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WTICAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WTIC_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WTICFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WTICFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WTIC_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WTICAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WTIC.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "United States Military Academy",
+  "calls": [
+   "WBWZ"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBWZAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBWZAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBWZ_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBWZFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBWZFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBWZ_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBWZAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBWZ.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of North Carolina at Charlotte",
+  "calls": [
+   "WZGV"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://ice10.securenetsystems.net/WZGV",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Available"
+   },
+   {
+    "url": "https://ice10.securenetsystems.net/media",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Available"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WZGVAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WZGVAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WZGV_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WZGVFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WZGVFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WZGV_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WZGVAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WZGV.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "East Carolina University",
+  "calls": [
+   "WNCT-FM"
+  ],
+  "ok": [
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/WNCTAMAAC.aac",
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/WNCTAM.mp3"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNCTFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNCTFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNCT_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNCT_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNCTAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNCT.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Florida Atlantic University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of Memphis",
+  "calls": [
+   "WMFS"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMFSAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMFSAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMFS_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMFSFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMFSFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMFS_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMFSAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMFS.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "United States Naval Academy",
+  "calls": [
+   "WBAL",
+   "WNAV"
+  ],
+  "ok": [
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/WBALAM.mp3",
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/WBALAMAAC.aac",
+   "http://26103.live.streamtheworld.com/WBALAMAAC_SC"
+  ],
+  "tried": []
+ },
+ {
+  "school": "University of North Texas",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Rice University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of South Florida",
+  "calls": [
+   "WDAE"
+  ],
+  "ok": [
+   "https://stream.revma.ihrhls.com/zc673",
+   "https://n2bb-e2.revma.ihrhls.com/zc673"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDAEAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDAEAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDAE_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDAEFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDAEFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDAE_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDAEAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDAE.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Temple University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Tulane University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of Tulsa",
+  "calls": [
+   "KTBZ"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTBZAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTBZAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTBZ_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTBZFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTBZFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTBZ_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTBZAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTBZ.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of Alabama at Birmingham",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of Texas at San Antonio",
+  "calls": [
+   "KTKR"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTKRAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTKRAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTKR_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTKRFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTKRFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTKR_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTKRAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTKR.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Appalachian State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Arkansas State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Coastal Carolina University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Georgia Southern University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Georgia State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "James Madison University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of Louisiana at Lafayette",
+  "calls": [
+   "KPEL"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KPELAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KPELAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KPEL_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KPELFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KPELFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KPEL_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KPELAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KPEL.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Louisiana Tech University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Marshall University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Old Dominion University",
+  "calls": [
+   "WVSP"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WVSPAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WVSPAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WVSP_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WVSPFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WVSPFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WVSP_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WVSPAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WVSP.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of South Alabama",
+  "calls": [
+   "WNSP"
+  ],
+  "ok": [
+   "https://centova.rockhost.com/proxy/dotcompl?mp=/wnsp",
+   "http://centova.rockhost.com:8054/wnsp"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNSPAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNSPAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNSP_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNSPFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNSPFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNSP_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNSPAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNSP.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of Southern Mississippi",
+  "calls": [
+   "WXRR"
+  ],
+  "ok": [
+   "https://ice64.securenetsystems.net/WXRR"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WXRRAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WXRRAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WXRR_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WXRRFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WXRRFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WXRR_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WXRRAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WXRR.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Troy University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of Louisiana Monroe",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of Arizona",
+  "calls": [
+   "KCUB",
+   "KFNX"
+  ],
+  "ok": [
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/KCUBAMAAC.aac",
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/KCUBAM.mp3"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KCUB_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KCUBFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KCUBFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KCUB_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KCUBAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KCUB.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFNXAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFNXAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFNX_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFNXFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFNXFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFNX_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Arizona State University",
+  "calls": [
+   "KMVP-FM"
+  ],
+  "ok": [
+   "https://bonneville.cdnstream1.com/2699_48.aac"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KMVPFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KMVPFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KMVP_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KMVPAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KMVPAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KMVP_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KMVPAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KMVP.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Baylor University",
+  "calls": [
+   "KRZI"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KRZIAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KRZIAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KRZI_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KRZIFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KRZIFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KRZI_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KRZIAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KRZI.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Brigham Young University",
+  "calls": [
+   "KSL"
+  ],
+  "ok": [
+   "https://bonneville.cdnstream1.com/2704_48.aac?aw_0_1st.playerid=Tuner",
+   "https://bonneville.cdnstream1.com/2706_48.aac",
+   "https://bonneville.cdnstream1.com/2707_48.aac"
+  ],
+  "tried": []
+ },
+ {
+  "school": "University of Cincinnati",
+  "calls": [
+   "WCKY"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCKYAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCKYAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCKY_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCKYFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCKYFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCKY_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCKYAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCKY.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of Colorado Boulder",
+  "calls": [
+   "KOA"
+  ],
+  "ok": [
+   "http://stream.revma.ihrhls.com/zc389/hls.m3u8"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KOAAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KOAAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KOA_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KOAFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KOAFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KOA_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KOAAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KOA.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of Houston",
+  "calls": [
+   "KBME"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KBMEAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KBMEAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KBME_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KBMEFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KBMEFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KBME_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KBMEAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KBME.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Iowa State University",
+  "calls": [
+   "WHO"
+  ],
+  "ok": [
+   "https://streaming.exclusive.radio/er-app/whohits/icecast.audio"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHOAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHOAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHO_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHOFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHOFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHO_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHOAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHO.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of Kansas",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Kansas State University",
+  "calls": [
+   "KMAN"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KMANAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KMANAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KMAN_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KMANFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KMANFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KMAN_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KMANAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KMAN.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Oklahoma State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Texas Christian University",
+  "calls": [
+   "KTCK"
+  ],
+  "ok": [
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.aac",
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAM.mp3"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCK_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCK_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCK.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Texas Tech University",
+  "calls": [
+   "KTTU-FM"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTTUFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTTUFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTTU_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTTUAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTTUAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTTU_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTTUAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTTU.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of Central Florida",
+  "calls": [
+   "WYGM"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WYGMAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WYGMAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WYGM_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WYGMFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WYGMFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WYGM_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WYGMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WYGM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of Utah",
+  "calls": [
+   "KALL"
+  ],
+  "ok": [
+   "https://ais-sa1.streamon.fm/7349_48k.aac"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KALLAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KALLAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KALL_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KALLFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KALLFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KALL_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KALLAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KALL.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "West Virginia University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Ohio State University",
+  "calls": [
+   "WBNS-FM",
+   "WBNS"
+  ],
+  "ok": [
+   "https://oom-radiohio.streamguys1.com/cols/wbnsfm.mp3",
+   "https://radiohio.streamguys1.com/cols/wbnsfm.mp3"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBNSFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBNSFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBNS_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBNSAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBNSAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBNS_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBNSAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBNS.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of Michigan",
+  "calls": [
+   "WCSX"
+  ],
+  "ok": [
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/WCSXFMAAC.aac",
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/WCSXFM.mp3"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCSXAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCSXAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCSX_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCSX_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCSXAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCSX.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Pennsylvania State University",
+  "calls": [
+   "WBUS",
+   "WJUN",
+   "WLGJ",
+   "WJGJ",
+   "WLEJ"
+  ],
+  "ok": [
+   "https://ice25.securenetsystems.net/WBUS"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBUSAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBUSAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBUS_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBUSFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBUSFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBUS_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBUSAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBUS.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJUNAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJUNAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJUN_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJUNFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of Illinois Urbana-Champaign",
+  "calls": [
+   "WDWS"
+  ],
+  "ok": [
+   "https://ice25.securenetsystems.net/WDWS"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDWSAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDWSAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDWS_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDWSFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDWSFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDWS_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDWSAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDWS.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Indiana University",
+  "calls": [
+   "WFNI"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFNIAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFNIAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFNI_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFNIFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFNIFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFNI_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFNIAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFNI.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of Iowa",
+  "calls": [
+   "WHO",
+   "KXIC"
+  ],
+  "ok": [
+   "https://streaming.exclusive.radio/er-app/whohits/icecast.audio",
+   "https://stream.revma.ihrhls.com/zc5262"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHOAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHOAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHO_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHOFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHOFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHO_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHOAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHO.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KXICAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KXICAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KXIC_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KXICFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of Maryland",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Michigan State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of Minnesota",
+  "calls": [
+   "KFAN"
+  ],
+  "ok": [
+   "https://stream.revma.ihrhls.com/zc1209",
+   "http://ice41.securenetsystems.net/KFAN"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFANAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFANAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFAN_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFANFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFANFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFAN_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFANAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFAN.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of Nebraska-Lincoln",
+  "calls": [
+   "KLIN"
+  ],
+  "ok": [
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/KLINAMAAC.aac",
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/KLINAM.mp3"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KLIN_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KLINFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KLINFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KLIN_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KLINAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KLIN.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Northwestern University",
+  "calls": [
+   "WGN"
+  ],
+  "ok": [
+   "https://prod-54-158-170-239.amperwave.net/wgnam-wgnamaac-imc2?session-id=f5614e5dfbe0f336648e61b5bc848ce2",
+   "http://18.204.34.32/wgnam-wgnammp3-ibc2?session-id=611cbf2ae655692204b4a6d45fef29e7"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGNAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGNAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGN_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGNFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGNFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGN_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGNAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGN.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of Oregon",
+  "calls": [
+   "KUGN"
+  ],
+  "ok": [
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAMAAC.aac"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 403: Forbidden"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KUGN_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KUGNFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KUGNFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KUGN_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KUGN.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Purdue University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Rutgers University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of California, Los Angeles",
+  "calls": [
+   "KLAC"
+  ],
+  "ok": [
+   "https://n38b-e2.revma.ihrhls.com/zc189",
+   "https://n42b-e2.revma.ihrhls.com/zc189"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KLACAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KLACAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KLAC_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KLACFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KLACFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KLAC_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KLACAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KLAC.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of Southern California",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of Washington",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of Wisconsin-Madison",
+  "calls": [
+   "WIBA"
+  ],
+  "ok": [
+   "https://stream.revma.ihrhls.com/zc3466",
+   "https://stream.revma.ihrhls.com/zc2661"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WIBAAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WIBAAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WIBA_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WIBAFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WIBAFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WIBA_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WIBAAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WIBA.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University at Albany",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Bryant University",
+  "calls": [
+   "WJMF"
+  ],
+  "ok": [
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/WJMFFMAAC.aac"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJMFAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJMFAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJMF_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJMFFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJMF_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJMFAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJMF.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Campbell University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Elon University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Hampton University",
+  "calls": [
+   "WHOV"
+  ],
+  "ok": [
+   "http://stream.revma.ihrhls.com/zc5599"
+  ],
+  "tried": [
+   {
+    "url": "https://ice1.securenetsystems.net/WHOV",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Available"
+   },
+   {
+    "url": "https://ice2.securenetsystems.net/WHOV",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Available"
+   },
+   {
+    "url": "https://ice3.securenetsystems.net/WHOV",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Available"
+   },
+   {
+    "url": "https://ice4.securenetsystems.net/WHOV",
+    "ok": false,
+    "detail": "<urlopen error [Errno -2] Name or service not known>"
+   },
+   {
+    "url": "https://ice5.securenetsystems.net/WHOV",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Available"
+   },
+   {
+    "url": "https://ice6.securenetsystems.net/WHOV",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Available"
+   },
+   {
+    "url": "https://ice7.securenetsystems.net/WHOV",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Available"
+   },
+   {
+    "url": "https://ice8.securenetsystems.net/WHOV",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Available"
+   },
+   {
+    "url": "https://ice9.securenetsystems.net/WHOV",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Available"
+   },
+   {
+    "url": "https://ice10.securenetsystems.net/WHOV",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Available"
+   },
+   {
+    "url": "https://ice11.securenetsystems.net/WHOV",
+    "ok": false,
+    "detail": "<urlopen error [Errno -2] Name or service not known>"
+   },
+   {
+    "url": "https://ice12.securenetsystems.net/WHOV",
+    "ok": false,
+    "detail": "<urlopen error [Errno -2] Name or service not known>"
+   }
+  ]
+ },
+ {
+  "school": "University of Maine",
+  "calls": [
+   "WEZQ",
+   "WWMJ",
+   "WLOB"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEZQAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEZQAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEZQ_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEZQFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEZQFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEZQ_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEZQAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEZQ.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WWMJAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WWMJAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WWMJ_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WWMJFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Monmouth University",
+  "calls": [
+   "WOBM"
+  ],
+  "ok": [
+   "https://live.amperwave.net/manifest/townsquare-wobmfmaac-ibc3"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WOBMAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WOBMAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WOBM_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WOBMFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WOBMFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WOBM_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WOBMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WOBM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of New Hampshire",
+  "calls": [
+   "WGIR",
+   "WQSO",
+   "WPKX"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGIRAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGIRAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGIR_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGIRFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGIRFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGIR_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGIRAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGIR.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WQSOAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WQSOAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WQSO_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WQSOFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "North Carolina A&T State University",
+  "calls": [
+   "WBRF",
+   "WEAL"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBRFAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBRFAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBRF_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBRFFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBRFFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBRF_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBRFAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBRF.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEALAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEALAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEAL_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEALFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of Rhode Island",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Sacred Heart University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Stony Brook University",
+  "calls": [
+   "WUSB"
+  ],
+  "ok": [
+   "http://stream.wusb.stonybrook.edu:8080/;",
+   "http://stream.wusb.stonybrook.edu:8090/;.mp3"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WUSBAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WUSBAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WUSB_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WUSBFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WUSBFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WUSB_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WUSBAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WUSB.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Towson University",
+  "calls": [
+   "WNST"
+  ],
+  "ok": [
+   "https://ice6.securenetsystems.net/WNST"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNSTAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNSTAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNST_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNSTFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNSTFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNST_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNSTAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNST.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Bucknell University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Colgate University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Fordham University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Georgetown University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "College of the Holy Cross",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Lafayette College",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Lehigh University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of Richmond",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Villanova University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "William & Mary",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Brown University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Columbia University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Cornell University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Dartmouth College",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Harvard University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of Pennsylvania",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Princeton University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Yale University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Central Connecticut State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Chicago State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Duquesne University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Long Island University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Mercyhurst University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of New Haven",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Robert Morris University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Stonehill College",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Wagner College",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Alabama A&M University",
+  "calls": [
+   "WJAB"
+  ],
+  "ok": [
+   "http://wjab.streamguys.net/live"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJABAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJABAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJAB_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJABFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJABFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJAB_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJABAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJAB.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Alabama State University",
+  "calls": [
+   "WVAS"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WVASAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WVASAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WVAS_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WVASFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WVASFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WVAS_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WVASAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WVAS.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Bethune-Cookman University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Florida A&M University",
+  "calls": [
+   "WHBX"
+  ],
+  "ok": [
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/WHBXFMAAC.aac",
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/WHBXFM.mp3"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHBXAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHBXAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHBX_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHBX_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHBXAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHBX.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Jackson State University",
+  "calls": [
+   "WJSU"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJSUAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJSUAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJSU_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJSUFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJSUFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJSU_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJSUAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJSU.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Mississippi Valley State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Alcorn State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of Arkansas at Pine Bluff",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Grambling State University",
+  "calls": [
+   "KGRM",
+   "KPCH"
+  ],
+  "ok": [
+   "https://ice41.securenetsystems.net/KGRM"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGRMAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGRMAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGRM_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGRMFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGRMFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGRM_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGRMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGRM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KPCHAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KPCHAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KPCH_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KPCHFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Prairie View A&M University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Southern University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Texas Southern University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Delaware State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Howard University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Morgan State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Norfolk State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "North Carolina Central University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "South Carolina State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Merrimack College",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Chicago State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of Tennessee at Chattanooga",
+  "calls": [
+   "WFLI"
+  ],
+  "ok": [
+   "https://ice41.securenetsystems.net/WFLI"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFLIAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFLIAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFLI_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFLIFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFLIFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFLI_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFLIAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFLI.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "East Tennessee State University",
+  "calls": [
+   "WXSM",
+   "WQUT"
+  ],
+  "ok": [
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/WXSMAMAAC.aac",
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/WXSMAM.mp3",
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/WQUTFMAAC.aac"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WXSM_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WXSMFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WXSMFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WXSM_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WXSMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WXSM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WQUTAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WQUTAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WQUT_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Furman University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Mercer University",
+  "calls": [
+   "WNEX"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNEXAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNEXAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNEX_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNEXFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNEXFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNEX_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNEXAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNEX.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Samford University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Tennessee Technological University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "The Citadel",
+  "calls": [
+   "WQNT"
+  ],
+  "ok": [
+   "https://ice5.securenetsystems.net/WQNT"
+  ],
+  "tried": [
+   {
+    "url": "https://ice9.securenetsystems.net/WQNT",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Available"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WQNTAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WQNTAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WQNT_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WQNTFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WQNTFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WQNT_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WQNTAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WQNT.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Virginia Military Institute",
+  "calls": [
+   "WWZW"
+  ],
+  "ok": [
+   "https://ice41.securenetsystems.net/WWZW"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WWZWAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WWZWAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WWZW_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WWZWFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WWZWFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WWZW_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WWZWAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WWZW.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Western Carolina University",
+  "calls": [
+   "WRGC",
+   "WFSC",
+   "WISE",
+   "WBRM"
+  ],
+  "ok": [
+   "https://ice24.securenetsystems.net/WRGC",
+   "https://ice.creacast.com/wise-radio"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRGCAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRGCAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRGC_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRGCFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRGCFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRGC_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRGCAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRGC.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFSCAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFSCAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFSC_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFSCFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Wofford College",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "East Texas A&M University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Houston Christian University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of the Incarnate Word",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Lamar University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "McNeese State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Nicholls State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Northwestern State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Southeastern Louisiana University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Stephen F. Austin State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of Texas Rio Grande Valley",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Charleston Southern University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Eastern Illinois University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Gardner-Webb University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Lindenwood University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Southeast Missouri State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Tennessee State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of Tennessee at Martin",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Western Illinois University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Butler University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Davidson College",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of Dayton",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Drake University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Marist University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Morehead State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Presbyterian College",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of St. Thomas (Minnesota)",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of San Diego",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Stetson University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Valparaiso University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of Montana",
+  "calls": [
+   "KGVO",
+   "KBLG",
+   "KXGF",
+   "KOFI"
+  ],
+  "ok": [
+   "https://desertmountainbroadcasting.streamguys1.com/KBLG"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGVOAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGVOAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGVO_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGVOFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGVOFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGVO_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGVOAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGVO.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KBLGAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KBLGAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KBLG_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KBLGFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Montana State University",
+  "calls": [
+   "KXLB",
+   "KGHL",
+   "KMPT"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KXLBAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KXLBAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KXLB_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KXLBFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KXLBFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KXLB_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KXLBAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KXLB.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGHLAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGHLAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGHL_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGHLFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Eastern Washington University",
+  "calls": [
+   "KXLX"
+  ],
+  "ok": [
+   "https://14623.live.streamtheworld.com/KXLXAMAAC.aac",
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/KXLXAMAAC.aac",
+   "http://17643.live.streamtheworld.com:3690/KXLXAMAAC_SC"
+  ],
+  "tried": []
+ },
+ {
+  "school": "University of Idaho",
+  "calls": [
+   "KBNW"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KBNWAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KBNWAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KBNW_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KBNWFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KBNWFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KBNW_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KBNWAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KBNW.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Idaho State University",
+  "calls": [
+   "KISU"
+  ],
+  "ok": [
+   "http://kisufm.isu.edu:8000/kisufm"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KISUAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KISUAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KISU_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KISUFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KISUFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KISU_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KISUAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KISU.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Northern Arizona University",
+  "calls": [
+   "KAFF",
+   "KDUS",
+   "KFFN"
+  ],
+  "ok": [
+   "https://ice25.securenetsystems.net/KAFF",
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/KDUSAMAAC.aac",
+   "http://16643.live.streamtheworld.com/KDUSAMAAC_SC"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KAFFAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KAFFAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KAFF_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KAFFFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KAFFFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KAFF_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KAFFAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KAFF.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of Northern Colorado",
+  "calls": [
+   "KFKA"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFKAAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFKAAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFKA_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFKAFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFKAFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFKA_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFKAAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFKA.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Portland State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Weber State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "California Polytechnic State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of California, Davis",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Southern Utah University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Utah Tech University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Illinois State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Indiana State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Murray State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of North Dakota",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of Northern Iowa",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of South Dakota",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "South Dakota State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Southern Illinois University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Youngstown State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Abilene Christian University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Austin Peay State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of Central Arkansas",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Eastern Kentucky University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of North Alabama",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Tarleton State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of West Florida",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of West Georgia",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of Akron",
+  "calls": [
+   "WHLO",
+   "WHK"
+  ],
+  "ok": [
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/WHKAMAAC.aac",
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/WHKAM.mp3"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHLOAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHLOAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHLO_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHLOFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHLOFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHLO_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHLOAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHLO.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHK_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHKFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHKFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHK_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Ball State University",
+  "calls": [
+   "WLBC",
+   "WMUN"
+  ],
+  "ok": [
+   "https://ice41.securenetsystems.net/WLBC"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WLBCAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WLBCAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WLBC_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WLBCFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WLBCFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WLBC_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WLBCAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WLBC.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMUNAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMUNAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMUN_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMUNFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Bowling Green State University",
+  "calls": [
+   "WFRO"
+  ],
+  "ok": [
+   "https://ice41.securenetsystems.net/WFRO"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFROAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFROAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFRO_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFROFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFROFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFRO_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFROAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFRO.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University at Buffalo",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Central Michigan University",
+  "calls": [
+   "WUPS"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WUPSAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WUPSAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WUPS_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WUPSFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WUPSFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WUPS_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WUPSAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WUPS.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Eastern Michigan University",
+  "calls": [
+   "WEMU"
+  ],
+  "ok": [
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/WEMUFM.mp3",
+   "http://playerservices.streamtheworld.com/api/livestream-redirect/WEMUFM.mp3",
+   "http://17793.live.streamtheworld.com:3690/WEMUFM_SC"
+  ],
+  "tried": []
+ },
+ {
+  "school": "Kent State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Miami University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Ohio University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of Toledo",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Western Michigan University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of Massachusetts Amherst",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "California State University, Sacramento",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of Delaware",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Florida International University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Jacksonville State University",
+  "calls": [
+   "WLJS"
+  ],
+  "ok": [
+   "http://s8.yesstreaming.net:7014/stream"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WLJSAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WLJSAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WLJS_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WLJSFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WLJSFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WLJS_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WLJSAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WLJS.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Kennesaw State University",
+  "calls": [],
+  "ok": [
+   "https://edge.mixlr.com/channel/iryqq"
+  ],
+  "tried": []
+ },
+ {
+  "school": "Liberty University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Middle Tennessee State University",
+  "calls": [
+   "WGNS"
+  ],
+  "ok": [
+   "https://ice5.securenetsystems.net/WGNSM"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGNSAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGNSAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGNS_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGNSFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGNSFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGNS_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGNSAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGNS.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Missouri State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "New Mexico State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Sam Houston State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Western Kentucky University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Boise State University",
+  "calls": [
+   "KBOI",
+   "KTIK"
+  ],
+  "ok": [
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAMAAC.aac",
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAM.mp3",
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/KBOIFMAAC.aac"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KBOI_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Colorado State University",
+  "calls": [
+   "KKFN"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKFNAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKFNAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKFN_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKFNFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKFNFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKFN_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKFNAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKFN.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "California State University, Fresno",
+  "calls": [
+   "KFIG"
+  ],
+  "ok": [
+   "https://ice5.securenetsystems.net/KFIG"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFIGAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFIGAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFIG_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFIGFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFIGFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFIG_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFIGAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFIG.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Oregon State University",
+  "calls": [
+   "KEX"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KEXAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KEXAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KEX_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KEXFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KEXFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KEX_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KEXAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KEX.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "San Diego State University",
+  "calls": [
+   "KGB"
+  ],
+  "ok": [
+   "https://stream.revma.ihrhls.com/zc237"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGBAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGBAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGB_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGBFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGBFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGB_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGBAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGB.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Texas State University",
+  "calls": [
+   "KTSW"
+  ],
+  "ok": [
+   "https://ktswlive.txstate.edu:8102/listen"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTSWAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTSWAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTSW_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTSWFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTSWFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTSW_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTSWAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTSW.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Utah State University",
+  "calls": [
+   "KVNU"
+  ],
+  "ok": [
+   "https://ice9.securenetsystems.net/KVNU"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVNUAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVNUAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVNU_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVNUFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVNUFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVNU_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVNUAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVNU.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Washington State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "United States Air Force Academy",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of Hawai'i at Manoa",
+  "calls": [
+   "KKEA"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKEAAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKEAAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKEA_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKEAFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKEAFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKEA_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKEAAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKEA.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of Nevada, Reno",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of New Mexico",
+  "calls": [
+   "KKOB"
+  ],
+  "ok": [
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/KKOBAMAAC.aac",
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/KKOBAM.mp3"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKOB_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKOBFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKOBFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKOB_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKOBAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKOB.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "North Dakota State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Northern Illinois University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "San Jos\u00e9 State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of Nevada, Las Vegas",
+  "calls": [
+   "KWWN"
+  ],
+  "ok": [
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAMAAC.aac",
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAM.mp3"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KWWN_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KWWNFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KWWNFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KWWN_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KWWN.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of Texas at El Paso",
+  "calls": [
+   "KROD"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KRODAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KRODAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KROD_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KRODFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KRODFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KROD_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KRODAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KROD.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of Wyoming",
+  "calls": [
+   "KTWO",
+   "KOWB"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTWOAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTWOAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTWO_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTWOFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTWOFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTWO_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTWOAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTWO.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KOWBAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KOWBAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KOWB_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KOWBFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of Alabama",
+  "calls": [
+   "WBPT",
+   "WFFN"
+  ],
+  "ok": [
+   "https://stream.rcs.revma.com/fyk48ahxu7uvv",
+   "https://stream.rcs.revma.com/017zh7pxu7uvv"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBPTAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBPTAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBPT_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBPTFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBPTFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBPT_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBPTAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBPT.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFFNAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFFNAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFFN_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFFNFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of Arkansas",
+  "calls": [
+   "KABZ",
+   "KAKS"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KABZAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KABZAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KABZ_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KABZFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KABZFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KABZ_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KABZAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KABZ.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KAKSAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KAKSAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KAKS_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KAKSFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Auburn University",
+  "calls": [
+   "WGZZ"
+  ],
+  "ok": [
+   "https://ice25.securenetsystems.net/WGZZ"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGZZAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGZZAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGZZ_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGZZFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGZZFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGZZ_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGZZAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGZZ.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of Florida",
+  "calls": [
+   "WRUF"
+  ],
+  "ok": [
+   "https://ais-sa1.streamon.fm/7644_64k.mp3",
+   "https://ais-sa1.streamon.fm/7644_48k.aac",
+   "http://ais-sa1.streamon.fm/7644_48k.aac/playlist.m3u8"
+  ],
+  "tried": []
+ },
+ {
+  "school": "University of Georgia",
+  "calls": [
+   "WSB"
+  ],
+  "ok": [
+   "https://ad-oom-cmg.streamguys1.com/atl750/atl750-sgplayer-aac?amsparams=playerid%3ASGplayer%3Bskey%3A1731423897754%3B&awparams=playerid%3ASGplayer%3B"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSBAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSBAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSB_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSBFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSBFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSB_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSBAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSB.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of Kentucky",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Louisiana State University",
+  "calls": [
+   "WDGL"
+  ],
+  "ok": [],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDGLAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDGLAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDGL_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDGLFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDGLFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDGL_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDGLAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDGL.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of Mississippi",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Mississippi State University",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of Missouri",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "University of Oklahoma",
+  "calls": [
+   "WWLS-FM"
+  ],
+  "ok": [
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/WWLSAMAAC.aac",
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/WWLSAM.mp3"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WWLSFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WWLSFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WWLS_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WWLS_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WWLSAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WWLS.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of South Carolina",
+  "calls": [
+   "WNKT"
+  ],
+  "ok": [
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/WNKTFMAAC.aac",
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/WNKTFM.mp3"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNKTAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNKTAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNKT_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNKT_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNKTAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNKT.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of Tennessee",
+  "calls": [
+   "WIVK",
+   "WNML"
+  ],
+  "ok": [
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/WIVKFMAAC.aac",
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/WIVKFM.mp3",
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/WNMLAMAAC.aac"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WIVKAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WIVKAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WIVK_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WIVK_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WIVKAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WIVK.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "University of Texas at Austin",
+  "calls": [],
+  "ok": [],
+  "tried": []
+ },
+ {
+  "school": "Texas A&M University",
+  "calls": [
+   "WTAW",
+   "KZNE"
+  ],
+  "ok": [
+   "http://ice42.securenetsystems.net/WTAWAM"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WTAWAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WTAWAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WTAW_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WTAWFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WTAWFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WTAW_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WTAWAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WTAW.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KZNEAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KZNEAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KZNE_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KZNEFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ },
+ {
+  "school": "Vanderbilt University",
+  "calls": [
+   "WPRT"
+  ],
+  "ok": [
+   "https://cromwell-ice.streamguys1.com/WPRTFM"
+  ],
+  "tried": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WPRTAMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WPRTAM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WPRT_AM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WPRTFMAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WPRTFM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WPRT_FM.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WPRTAAC.aac",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WPRT.mp3",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
+ }
+]
