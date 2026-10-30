@@ -1,5 +1,5 @@
 {
-"built": "2026-10-30T02:50:55Z",
+"built": "2026-10-30T03:07:47Z",
 "teams": [
 {
 "school": "Boston College",
@@ -139,7 +139,6 @@
 ],
 "streams": [
 "https://live.amperwave.net/direct/unionbroadcasting-wlclamaac-ibc2",
-"https://ice25.securenetsystems.net/WGTK",
 "http://live.amperwave.net/direct/unionbroadcasting-wlclamaac-ibc2"
 ],
 "misses": 0,
@@ -336,7 +335,7 @@
 "streams": [
 "https://ice26.securenetsystems.net/WBRW"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -440,7 +439,7 @@
 "streams": [
 "https://ice64.securenetsystems.net/WZGV2"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": null
 },
 {
@@ -700,7 +699,7 @@
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": null
 },
 {
@@ -843,7 +842,7 @@
 "streams": [
 "https://ice7.securenetsystems.net/KXKZ"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -863,7 +862,7 @@
 "streams": [
 "https://ice23.securenetsystems.net/WDGG"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -925,7 +924,7 @@
 "streams": [
 "https://ice64.securenetsystems.net/WXRR"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -944,7 +943,7 @@
 "streams": [
 "https://ice6.securenetsystems.net/WTXK"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -965,7 +964,7 @@
 "streams": [
 "https://ice66.securenetsystems.net/KLIP"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -1156,7 +1155,7 @@
 "streams": [
 "https://ice23.securenetsystems.net/KLWNAM"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -1197,7 +1196,7 @@
 "streams": [
 "https://ice42.securenetsystems.net/KSPI"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -1367,7 +1366,7 @@
 "streams": [
 "https://ice25.securenetsystems.net/WBUS"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -1386,7 +1385,8 @@
 "WHMS-FM"
 ],
 "streams": [
-"https://ice25.securenetsystems.net/WDWS"
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WSOYAM.mp3",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WSOYAMAAC.aac"
 ],
 "misses": 0,
 "last_ok": "2026-10-30"
@@ -1863,8 +1863,7 @@
 "WEAL"
 ],
 "streams": [
-"https://live.amperwave.net/manifest/blueridgeradio-wbrffmaac-hlsc4.m3u8",
-"https://ice8.securenetsystems.net/WBFJ?playSessionID=6B002F5D-A14A-F451-0D08630F03986A34"
+"https://live.amperwave.net/manifest/blueridgeradio-wbrffmaac-hlsc4.m3u8"
 ],
 "misses": 0,
 "last_ok": "2026-10-30"
@@ -1936,7 +1935,7 @@
 "streams": [
 "https://ice6.securenetsystems.net/WNST"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -2462,7 +2461,7 @@
 "streams": [
 "https://ice41.securenetsystems.net/WELE"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -2540,7 +2539,9 @@
 "WPRL-FM"
 ],
 "streams": [
-"https://ice41.securenetsystems.net/WPRL"
+"https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261029_atc_alaska_senate_spoiler_candidate.mp3",
+"https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261029_atc_patrick_stewart_a_perceptive_patriarch_in_star_trek_and_x-men_dies_at_86.mp3",
+"https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261029_atc_midterms-california_redistricting.mp3"
 ],
 "misses": 0,
 "last_ok": "2026-10-30"
@@ -2577,7 +2578,7 @@
 "KPCH"
 ],
 "streams": [
-"https://ice41.securenetsystems.net/KGRM"
+"https://cdnrf.securenetsystems.net/file_radio/stations_large/KGRM/podcasts/2898064/coverArt.heic"
 ],
 "misses": 0,
 "last_ok": "2026-10-30"
@@ -2631,7 +2632,7 @@
 "streams": [
 "http://ice6.securenetsystems.net/KTSUFM"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -2788,7 +2789,7 @@
 "streams": [
 "https://ice41.securenetsystems.net/WFLI"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -2903,7 +2904,7 @@
 "streams": [
 "https://ice5.securenetsystems.net/WQNT"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -2922,7 +2923,7 @@
 "streams": [
 "https://ice41.securenetsystems.net/WWZW"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -2943,7 +2944,9 @@
 "WBRM"
 ],
 "streams": [
-"https://ice24.securenetsystems.net/WRGC"
+"https://wvtf-ice2.streamguys1.com/radioiq-mp3-64.mp3",
+"https://wvtf-ice2.streamguys1.com/wvtfmusic-mp3-64.mp3",
+"https://cpa.ds.npr.org/s870/audio/2026/10/online-virginia-parents-caregivers-struggle-under-new-reporting-system.mp3"
 ],
 "misses": 0,
 "last_ok": "2026-10-30"
@@ -3077,7 +3080,7 @@
 "streams": [
 "https://ice42.securenetsystems.net/KCIL"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -3116,7 +3119,7 @@
 "streams": [
 "https://ice41.securenetsystems.net/WFPR"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -3224,7 +3227,7 @@
 "streams": [
 "https://ice6.securenetsystems.net/KCLC"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -3244,7 +3247,7 @@
 "streams": [
 "https://ice23.securenetsystems.net/KCGQ"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -3284,7 +3287,7 @@
 "streams": [
 "https://ice64.securenetsystems.net/WUTM"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -3402,7 +3405,7 @@
 "streams": [
 "https://ice5.securenetsystems.net/WIVY"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -3422,7 +3425,7 @@
 "streams": [
 "https://ice26.securenetsystems.net/WPCC"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -3625,7 +3628,6 @@
 "KFFN"
 ],
 "streams": [
-"https://ice25.securenetsystems.net/KAFFAM",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KDUSAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KDUSAM.mp3"
 ],
@@ -3885,7 +3887,7 @@
 "streams": [
 "https://ice7.securenetsystems.net/KVHT"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -3926,7 +3928,7 @@
 "streams": [
 "https://ice23.securenetsystems.net/WCIL"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -4139,7 +4141,9 @@
 "WMUN"
 ],
 "streams": [
-"https://ice41.securenetsystems.net/WLBC"
+"https://mcdn.podbean.com/mf/web/x7xnkkfybc84kxwq/coach_ub5zlu.mp3",
+"https://mcdn.podbean.com/mf/web/bbpqs4dqujrzda92/power_hour_oct_29b68ok.mp3",
+"https://mcdn.podbean.com/mf/web/qitz3pk3m95be67b/ThisWeekinBSU_OCT29_26.mp3"
 ],
 "misses": 0,
 "last_ok": "2026-10-30"
@@ -4161,7 +4165,7 @@
 "streams": [
 "https://ice41.securenetsystems.net/WFRO"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -4265,7 +4269,7 @@
 "streams": [
 "https://ice3.securenetsystems.net/WMOH"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -4284,7 +4288,7 @@
 "streams": [
 "https://ice6.securenetsystems.net/WXTQ"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -4409,7 +4413,7 @@
 "streams": [
 "https://cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": null
 },
 {
@@ -4486,7 +4490,7 @@
 "streams": [
 "https://ice3.securenetsystems.net/WGNS"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -4525,7 +4529,7 @@
 "streams": [
 "https://ice42.securenetsystems.net/KXPZ"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -4564,7 +4568,7 @@
 "streams": [
 "https://ice25.securenetsystems.net/WPTQ"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -4627,7 +4631,7 @@
 "KFIG"
 ],
 "streams": [
-"https://ice5.securenetsystems.net/KFIG"
+"https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
 ],
 "misses": 0,
 "last_ok": "2026-10-30"
@@ -4851,7 +4855,7 @@
 "streams": [
 "https://ice3.securenetsystems.net/KQWB"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -5025,7 +5029,7 @@
 "streams": [
 "https://ice25.securenetsystems.net/WGZZ"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -5287,7 +5291,7 @@
 "streams": [
 "http://ice42.securenetsystems.net/WTAWAM"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
