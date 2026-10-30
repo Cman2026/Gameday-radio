@@ -2225,10 +2225,12 @@
    "Tennessee Tech Golden Eagles"
   ],
   "network": "Golden Eagle Sports Network (Cookeville Communications)",
-  "flagship": "106.1 The Eagle / 780 AM (Cookeville, TN)",
+  "flagship": "WPTN 780 AM / W291CA 106.1 FM '106.1 The Eagle' (Cookeville, TN)",
   "listen_page": "https://ttusports.com",
   "conference": "Southern Conference",
-  "calls": [],
+  "calls": [
+   "WPTN-AM"
+  ],
   "streams": []
  },
  {
@@ -2303,10 +2305,12 @@
    "East Texas A&M Lions"
   ],
   "network": "",
-  "flagship": "",
-  "listen_page": "",
+  "flagship": "KETR 88.9 FM (Commerce, TX)",
+  "listen_page": "http://www.ketr.org",
   "conference": "Southland Conference",
-  "calls": [],
+  "calls": [
+   "KETR-FM"
+  ],
   "streams": []
  },
  {
@@ -2317,10 +2321,12 @@
    "Houston Christian Huskies"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "KYST 920 AM 'Patriot Talk 920' (Texas City/Houston, TX)",
   "listen_page": "",
   "conference": "Southland Conference",
-  "calls": [],
+  "calls": [
+   "KYST-AM"
+  ],
   "streams": []
  },
  {
@@ -2344,10 +2350,12 @@
    "Lamar Cardinals"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "KLVI 560 AM 'Newstalk 560' (Beaumont, TX)",
   "listen_page": "",
   "conference": "Southland Conference",
-  "calls": [],
+  "calls": [
+   "KLVI-AM"
+  ],
   "streams": []
  },
  {
@@ -2357,10 +2365,12 @@
    "McNeese Cowboys"
   ],
   "network": "",
-  "flagship": "",
-  "listen_page": "",
+  "flagship": "KHLA 92.9 FM 'The Lake' (Jennings/Lake Charles, LA)",
+  "listen_page": "https://929thelake.com",
   "conference": "Southland Conference",
-  "calls": [],
+  "calls": [
+   "KHLA-FM"
+  ],
   "streams": []
  },
  {
@@ -2370,10 +2380,12 @@
    "Nicholls Colonels"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "KCIL 96.7 FM 'C 96.7' (Gray/Houma, LA)",
   "listen_page": "",
   "conference": "Southland Conference",
-  "calls": [],
+  "calls": [
+   "KCIL-FM"
+  ],
   "streams": []
  },
  {
@@ -2383,10 +2395,12 @@
    "Northwestern State Demons"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "KZBL 100.7 FM (Natchitoches, LA)",
   "listen_page": "",
   "conference": "Southland Conference",
-  "calls": [],
+  "calls": [
+   "KZBL-FM"
+  ],
   "streams": []
  },
  {
@@ -2397,10 +2411,12 @@
    "Southeastern Louisiana Lions"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "Kajun 107.1 FM; The Boss 97.7 FM / WFPR 1400 AM (Hammond, LA)",
   "listen_page": "",
   "conference": "Southland Conference",
-  "calls": [],
+  "calls": [
+   "WFPR-AM"
+  ],
   "streams": []
  },
  {
@@ -2411,10 +2427,12 @@
    "Stephen F. Austin Lumberjacks"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "KTBQ 107.7 FM 'Q107.7' (Nacogdoches/Lufkin, TX)",
   "listen_page": "",
   "conference": "Southland Conference",
-  "calls": [],
+  "calls": [
+   "KTBQ-FM"
+  ],
   "streams": []
  },
  {
@@ -2425,7 +2443,7 @@
    "UTRGV Vaqueros"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "XHRYS 90.1 FM 'Ultra 90.1' (Rio Grande Valley)",
   "listen_page": "",
   "conference": "Southland Conference",
   "calls": [],
@@ -2453,10 +2471,12 @@
    "Eastern Illinois Panthers"
   ],
   "network": "",
-  "flagship": "",
-  "listen_page": "",
+  "flagship": "Hit Mix 88.9 FM (WEIU-FM, Charleston, IL)",
+  "listen_page": "https://www.weiu.net/hitmix/",
   "conference": "OVC-Big South Football Association",
-  "calls": [],
+  "calls": [
+   "WEIU-FM"
+  ],
   "streams": []
  },
  {
@@ -2466,10 +2486,12 @@
    "Gardner-Webb Runnin' Bulldogs"
   ],
   "network": "",
-  "flagship": "",
-  "listen_page": "",
+  "flagship": "WGNC 1450 AM / 101.1 FM (Gastonia, NC)",
+  "listen_page": "https://gwusports.com/listenlive",
   "conference": "OVC-Big South Football Association",
-  "calls": [],
+  "calls": [
+   "WGNC-AM"
+  ],
   "streams": []
  },
  {
@@ -2479,10 +2501,12 @@
    "Lindenwood Lions"
   ],
   "network": "",
-  "flagship": "",
-  "listen_page": "",
+  "flagship": "KCLC 89.1 FM 'The Wood' (St. Charles, MO)",
+  "listen_page": "https://891thewood.com",
   "conference": "OVC-Big South Football Association",
-  "calls": [],
+  "calls": [
+   "KCLC-FM"
+  ],
   "streams": []
  },
  {
@@ -2493,10 +2517,12 @@
    "Southeast Missouri State Redhawks"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "KCGQ 99.3 FM 'Real Rock' (Cape Girardeau, MO)",
   "listen_page": "",
   "conference": "OVC-Big South Football Association",
-  "calls": [],
+  "calls": [
+   "KCGQ-FM"
+  ],
   "streams": []
  },
  {
@@ -2507,10 +2533,12 @@
    "Tennessee State Tigers"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "WNSR AM (Nashville, TN)",
   "listen_page": "",
   "conference": "OVC-Big South Football Association",
-  "calls": [],
+  "calls": [
+   "WNSR-AM"
+  ],
   "streams": []
  },
  {
@@ -2521,10 +2549,12 @@
    "UT Martin Skyhawks"
   ],
   "network": "",
-  "flagship": "",
-  "listen_page": "",
+  "flagship": "WUTM 90.3 FM 'The Hawk' (Martin, TN)",
+  "listen_page": "http://www.wutmradio.com",
   "conference": "OVC-Big South Football Association",
-  "calls": [],
+  "calls": [
+   "WUTM-FM"
+  ],
   "streams": []
  },
  {
@@ -2535,8 +2565,8 @@
    "Western Illinois Leathernecks"
   ],
   "network": "",
-  "flagship": "",
-  "listen_page": "",
+  "flagship": "Q98.1 FM (Canton, IL)",
+  "listen_page": "http://www.q981fm.com",
   "conference": "OVC-Big South Football Association",
   "calls": [],
   "streams": []
@@ -2574,10 +2604,12 @@
    "Dayton Flyers"
   ],
   "network": "",
-  "flagship": "",
-  "listen_page": "",
+  "flagship": "WHIO 1290 AM / 95.7 FM (Dayton, OH)",
+  "listen_page": "https://www.whio.com/fp/listen-live-listen-whio-radio/",
   "conference": "Pioneer Football League",
-  "calls": [],
+  "calls": [
+   "WHIO-AM"
+  ],
   "streams": []
  },
  {
@@ -2587,10 +2619,12 @@
    "Drake Bulldogs"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "KRNT 1350 AM / 102.1 FM 'ESPN Des Moines' (Des Moines, IA)",
   "listen_page": "",
   "conference": "Pioneer Football League",
-  "calls": [],
+  "calls": [
+   "KRNT-AM"
+  ],
   "streams": []
  },
  {
@@ -2600,7 +2634,7 @@
    "Marist Red Foxes"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "Z-93 93.3 FM (Hudson Valley/Poughkeepsie, NY)",
   "listen_page": "",
   "conference": "Pioneer Football League",
   "calls": [],
@@ -2613,10 +2647,12 @@
    "Morehead State Eagles"
   ],
   "network": "",
-  "flagship": "",
-  "listen_page": "",
+  "flagship": "WIVY 96.3 FM (Morehead, KY)",
+  "listen_page": "https://msueagles.com",
   "conference": "Pioneer Football League",
-  "calls": [],
+  "calls": [
+   "WIVY-FM"
+  ],
   "streams": []
  },
  {
@@ -2627,10 +2663,12 @@
    "Presbyterian Blue Hose"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "WPCC 96.5 FM (Clinton, SC)",
   "listen_page": "",
   "conference": "Pioneer Football League",
-  "calls": [],
+  "calls": [
+   "WPCC-FM"
+  ],
   "streams": []
  },
  {
@@ -2641,10 +2679,12 @@
    "St. Thomas Tommies"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "KSTP 1500 AM '1500 ESPN' / 95.4 FM (St. Paul, MN)",
   "listen_page": "",
   "conference": "Pioneer Football League",
-  "calls": [],
+  "calls": [
+   "KSTP-AM"
+  ],
   "streams": []
  },
  {
@@ -2682,10 +2722,12 @@
    "Valparaiso Beacons"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "WVUR 95.1 FM (Valparaiso, IN)",
   "listen_page": "",
   "conference": "Pioneer Football League",
-  "calls": [],
+  "calls": [
+   "WVUR-FM"
+  ],
   "streams": []
  },
  {
@@ -2836,10 +2878,12 @@
    "Wildcats"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "KLO-FM 103.1 FM (Salt Lake City/Ogden, UT)",
   "listen_page": "",
   "conference": "Big Sky Conference",
-  "calls": [],
+  "calls": [
+   "KLO-FM"
+  ],
   "streams": []
  },
  {
@@ -2850,10 +2894,12 @@
    "Mustangs"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "KXTK 1280 AM 'ESPN 1280' / 101.7 FM (Arroyo Grande/San Luis Obispo, CA)",
   "listen_page": "",
   "conference": "Big Sky Conference",
-  "calls": [],
+  "calls": [
+   "KXTK-AM"
+  ],
   "streams": []
  },
  {
@@ -2864,10 +2910,12 @@
    "Aggies"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "KHTK 1140 AM 'Sactown Sports' (Sacramento, CA)",
   "listen_page": "",
   "conference": "Big Sky Conference",
-  "calls": [],
+  "calls": [
+   "KHTK-AM"
+  ],
   "streams": []
  },
  {
@@ -2879,10 +2927,12 @@
    "Thunderbirds"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "KSUB 590 AM / 107.7 FM (Cedar City, UT)",
   "listen_page": "",
   "conference": "Big Sky Conference",
-  "calls": [],
+  "calls": [
+   "KSUB-AM"
+  ],
   "streams": []
  },
  {
@@ -2893,8 +2943,8 @@
    "Trailblazers"
   ],
   "network": "",
-  "flagship": "",
-  "listen_page": "",
+  "flagship": "The Fan Sports Network 99.5 FM / 95.3 FM (St. George, UT)",
+  "listen_page": "https://www.thefansportsnetwork.com",
   "conference": "Big Sky Conference",
   "calls": [],
   "streams": []
@@ -2907,10 +2957,12 @@
    "Redbirds"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "WJBC 1230 AM (Bloomington-Normal, IL)",
   "listen_page": "",
   "conference": "Missouri Valley Football Conference",
-  "calls": [],
+  "calls": [
+   "WJBC-AM"
+  ],
   "streams": []
  },
  {
@@ -2921,10 +2973,12 @@
    "Sycamores"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "WVIG 105.5 FM 'The Legend' (West Terre Haute, IN)",
   "listen_page": "",
   "conference": "Missouri Valley Football Conference",
-  "calls": [],
+  "calls": [
+   "WVIG-FM"
+  ],
   "streams": []
  },
  {
@@ -2935,10 +2989,12 @@
    "Racers"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "WFGS 103.7 FM 'Froggy 103.7' (Murray, KY)",
   "listen_page": "",
   "conference": "Missouri Valley Football Conference",
-  "calls": [],
+  "calls": [
+   "WFGS-FM"
+  ],
   "streams": []
  },
  {
@@ -2949,10 +3005,12 @@
    "Fighting Hawks"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "KQHT 96.1 FM (Grand Forks, ND)",
   "listen_page": "",
   "conference": "Missouri Valley Football Conference",
-  "calls": [],
+  "calls": [
+   "KQHT-FM"
+  ],
   "streams": []
  },
  {
@@ -2963,10 +3021,12 @@
    "Northern Iowa Panthers"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "KCVM 93.5 FM 'The Mix' (Cedar Falls-Waterloo, IA)",
   "listen_page": "",
   "conference": "Missouri Valley Football Conference",
-  "calls": [],
+  "calls": [
+   "KCVM-FM"
+  ],
   "streams": []
  },
  {
@@ -2978,10 +3038,12 @@
    "Coyotes"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "KVHT 106.3 FM (Vermillion, SD)",
   "listen_page": "",
   "conference": "Missouri Valley Football Conference",
-  "calls": [],
+  "calls": [
+   "KVHT-FM"
+  ],
   "streams": []
  },
  {
@@ -2992,10 +3054,12 @@
    "Jackrabbits"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "WNAX 570 AM (Yankton, SD)",
   "listen_page": "",
   "conference": "Missouri Valley Football Conference",
-  "calls": [],
+  "calls": [
+   "WNAX-AM"
+  ],
   "streams": []
  },
  {
@@ -3007,10 +3071,12 @@
    "Salukis"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "WCIL-FM 101.5 FM (Carbondale, IL)",
   "listen_page": "",
   "conference": "Missouri Valley Football Conference",
-  "calls": [],
+  "calls": [
+   "WCIL-FM"
+  ],
   "streams": []
  },
  {
@@ -3022,10 +3088,12 @@
    "Penguins"
   ],
   "network": "",
-  "flagship": "",
-  "listen_page": "",
+  "flagship": "WKBN 570 AM (Youngstown, OH)",
+  "listen_page": "https://570wkbn.iheart.com",
   "conference": "Missouri Valley Football Conference",
-  "calls": [],
+  "calls": [
+   "WKBN-AM"
+  ],
   "streams": []
  },
  {
@@ -3036,10 +3104,12 @@
    "Abilene Christian Wildcats"
   ],
   "network": "",
-  "flagship": "",
-  "listen_page": "",
+  "flagship": "KHXS 102.7 FM 'The Bear' (Merkel/Abilene, TX)",
+  "listen_page": "https://102thebear.com",
   "conference": "United Athletic Conference",
-  "calls": [],
+  "calls": [
+   "KHXS-FM"
+  ],
   "streams": []
  },
  {
@@ -3051,10 +3121,12 @@
    "Govs"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "WKFN 540 AM / 104.1 FM 'ESPN Clarksville' (Clarksville, TN)",
   "listen_page": "",
   "conference": "United Athletic Conference",
-  "calls": [],
+  "calls": [
+   "WKFN-AM"
+  ],
   "streams": []
  },
  {
@@ -3081,7 +3153,7 @@
   ],
   "network": "",
   "flagship": "",
-  "listen_page": "",
+  "listen_page": "https://ekusports.com",
   "conference": "United Athletic Conference",
   "calls": [],
   "streams": []
@@ -3094,10 +3166,12 @@
    "North Alabama Lions"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "WLXA 98.3 FM 'WLX' (Florence, AL)",
   "listen_page": "",
   "conference": "United Athletic Conference",
-  "calls": [],
+  "calls": [
+   "WLXA-FM"
+  ],
   "streams": []
  },
  {
@@ -3109,10 +3183,12 @@
    "Texans"
   ],
   "network": "",
-  "flagship": "",
-  "listen_page": "",
+  "flagship": "KTRL 90.5 FM (Stephenville, TX)",
+  "listen_page": "https://www.tarletonsports.com/listenlive",
   "conference": "United Athletic Conference",
-  "calls": [],
+  "calls": [
+   "KTRL-FM"
+  ],
   "streams": []
  },
  {
@@ -3250,10 +3326,12 @@
    "Kent State Golden Flashes"
   ],
   "network": "Golden Flashes Radio Network",
-  "flagship": "",
+  "flagship": "WARF 1350 AM 'Fox Sports 1350 The Gambler' (Akron, OH)",
   "listen_page": "",
   "conference": "Mid-American Conference",
-  "calls": [],
+  "calls": [
+   "WARF-AM"
+  ],
   "streams": []
  },
  {
@@ -3264,10 +3342,12 @@
    "Miami Ohio"
   ],
   "network": "Miami RedHawks Radio Network",
-  "flagship": "",
+  "flagship": "WMOH 1450 AM (Hamilton, OH)",
   "listen_page": "",
   "conference": "Mid-American Conference",
-  "calls": [],
+  "calls": [
+   "WMOH-AM"
+  ],
   "streams": []
  },
  {
@@ -3277,10 +3357,12 @@
    "Ohio Bobcats"
   ],
   "network": "Ohio Bobcats Radio Network",
-  "flagship": "",
-  "listen_page": "",
+  "flagship": "WXTQ 105.5 FM (Athens, OH)",
+  "listen_page": "https://ohiobobcats.com",
   "conference": "Mid-American Conference",
-  "calls": [],
+  "calls": [
+   "WXTQ-FM"
+  ],
   "streams": []
  },
  {
@@ -3290,10 +3372,12 @@
    "Toledo Rockets"
   ],
   "network": "Rocket Sports Radio Network",
-  "flagship": "",
+  "flagship": "WSPD 1370 AM (Toledo, OH)",
   "listen_page": "",
   "conference": "Mid-American Conference",
-  "calls": [],
+  "calls": [
+   "WSPD-AM"
+  ],
   "streams": []
  },
  {
@@ -3304,10 +3388,12 @@
    "Western Michigan Broncos"
   ],
   "network": "Bronco Radio Network",
-  "flagship": "",
+  "flagship": "WVFM 106.5 FM 'Jack 106.5' (Kalamazoo, MI)",
   "listen_page": "",
   "conference": "Mid-American Conference",
-  "calls": [],
+  "calls": [
+   "WVFM-FM"
+  ],
   "streams": []
  },
  {
@@ -3318,10 +3404,12 @@
    "UMass Minutemen"
   ],
   "network": "UMass Sports Network",
-  "flagship": "",
+  "flagship": "WHMP 101.5 FM / 1400 AM (Northampton, MA)",
   "listen_page": "",
   "conference": "Mid-American Conference",
-  "calls": [],
+  "calls": [
+   "WHMP-AM"
+  ],
   "streams": []
  },
  {
@@ -3332,10 +3420,12 @@
    "Sacramento State Hornets"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "KIFM 1320 AM 'ESPN 1320' (Sacramento, CA)",
   "listen_page": "",
   "conference": "Mid-American Conference",
-  "calls": [],
+  "calls": [
+   "KIFM-AM"
+  ],
   "streams": []
  },
  {
@@ -3345,10 +3435,13 @@
    "Delaware Blue Hens"
   ],
   "network": "Blue Hens Radio Network",
-  "flagship": "",
+  "flagship": "WDSD 94.7 FM (Dover, DE); co-flagships WWTX 1290 AM, WDOV 1410 AM",
   "listen_page": "",
   "conference": "Conference USA",
-  "calls": [],
+  "calls": [
+   "WDSD-FM",
+   "WWTX-AM"
+  ],
   "streams": []
  },
  {
@@ -3360,7 +3453,7 @@
   ],
   "network": "FIU Panthers Radio Network",
   "flagship": "",
-  "listen_page": "",
+  "listen_page": "https://fiusports.com/listenlive",
   "conference": "Conference USA",
   "calls": [],
   "streams": []
@@ -3406,7 +3499,7 @@
    "Liberty Flames"
   ],
   "network": "Liberty Flames Sports Network",
-  "flagship": "",
+  "flagship": "LFSN Radio 88.3 FM (Lynchburg, VA)",
   "listen_page": "",
   "conference": "Conference USA",
   "calls": [],
@@ -3435,10 +3528,12 @@
    "Missouri State Bears"
   ],
   "network": "Missouri State Bears Radio Network",
-  "flagship": "",
+  "flagship": "KWTO 101.3 FM (Springfield, MO)",
   "listen_page": "",
   "conference": "Conference USA",
-  "calls": [],
+  "calls": [
+   "KWTO-FM"
+  ],
   "streams": []
  },
  {
@@ -3449,10 +3544,12 @@
    "New Mexico State Aggies"
   ],
   "network": "NM State Aggies Radio Network",
-  "flagship": "",
-  "listen_page": "",
+  "flagship": "KXPZ 99.5 FM 'Zia Country' (Las Cruces, NM)",
+  "listen_page": "https://ziacountry.com",
   "conference": "Conference USA",
-  "calls": [],
+  "calls": [
+   "KXPZ-FM"
+  ],
   "streams": []
  },
  {
@@ -3463,10 +3560,12 @@
    "Sam Houston Bearkats"
   ],
   "network": "Bearkat Sports Network",
-  "flagship": "",
-  "listen_page": "",
+  "flagship": "KSHU 90.5 FM (Huntsville, TX)",
+  "listen_page": "https://gobearkats.com",
   "conference": "Conference USA",
-  "calls": [],
+  "calls": [
+   "KSHU-FM"
+  ],
   "streams": []
  },
  {
@@ -3477,10 +3576,13 @@
    "Western Kentucky Hilltoppers"
   ],
   "network": "Hilltopper Sports Network",
-  "flagship": "",
+  "flagship": "WPTQ 105.3 FM / WWKU 1450 AM (Bowling Green, KY)",
   "listen_page": "",
   "conference": "Conference USA",
-  "calls": [],
+  "calls": [
+   "WPTQ-FM",
+   "WWKU-AM"
+  ],
   "streams": []
  },
  {
@@ -3608,10 +3710,12 @@
    "Cougars"
   ],
   "network": "Cougar Sports Network (unverified)",
-  "flagship": "Unverified (Spokane-area flagship)",
+  "flagship": "KIRO 710 AM 'Seattle Sports' (Seattle, WA)",
   "listen_page": "",
   "conference": "Pac-12 Conference",
-  "calls": [],
+  "calls": [
+   "KIRO-AM"
+  ],
   "streams": []
  },
  {
@@ -3622,10 +3726,12 @@
    "Falcons"
   ],
   "network": "Air Force Falcons radio (unverified)",
-  "flagship": "Unverified (Colorado Springs, CO flagship)",
+  "flagship": "KVOR AM (Colorado Springs, CO)",
   "listen_page": "",
   "conference": "Mountain West Conference",
-  "calls": [],
+  "calls": [
+   "KVOR-AM"
+  ],
   "streams": []
  },
  {
@@ -3653,10 +3759,12 @@
    "Wolf Pack"
   ],
   "network": "Wolf Pack Sports Network (unverified)",
-  "flagship": "Unverified (Reno, NV flagship)",
-  "listen_page": "",
+  "flagship": "KOZZ 105.7 FM (Reno, NV)",
+  "listen_page": "https://www.thevarsitynetwork.com",
   "conference": "Mountain West Conference",
-  "calls": [],
+  "calls": [
+   "KOZZ-FM"
+  ],
   "streams": []
  },
  {
@@ -3685,10 +3793,13 @@
    "Bison"
   ],
   "network": "Bison Media Network (unverified)",
-  "flagship": "Unverified (Fargo, ND flagship)",
+  "flagship": "Bison 1660 KQWB 1660 AM / 92.7 FM (West Fargo/Fargo, ND); sister KPFX listed as football flagship",
   "listen_page": "",
   "conference": "Mountain West Conference",
-  "calls": [],
+  "calls": [
+   "KQWB-AM",
+   "KPFX-FM"
+  ],
   "streams": []
  },
  {
@@ -3700,10 +3811,12 @@
    "Huskies"
   ],
   "network": "Huskie Sports Network (unverified)",
-  "flagship": "Unverified (DeKalb, IL area flagship)",
-  "listen_page": "",
+  "flagship": "WDKB 94.9 FM (DeKalb, IL)",
+  "listen_page": "https://949wdkb.com",
   "conference": "Mountain West Conference",
-  "calls": [],
+  "calls": [
+   "WDKB-FM"
+  ],
   "streams": []
  },
  {
@@ -3716,10 +3829,12 @@
    "Spartans"
   ],
   "network": "Spartan Sports Network (unverified)",
-  "flagship": "Unverified (San Jose / Bay Area flagship)",
-  "listen_page": "",
+  "flagship": "KTRB 860 AM 'The Answer' (San Francisco Bay Area, CA)",
+  "listen_page": "https://860amtheanswer.com/listenlive",
   "conference": "Mountain West Conference",
-  "calls": [],
+  "calls": [
+   "KTRB-AM"
+  ],
   "streams": []
  },
  {
@@ -3864,10 +3979,13 @@
    "UK"
   ],
   "network": "UK Sports Network (Learfield)",
-  "flagship": "Unverified (Lexington)",
+  "flagship": "WLAP 630 AM / WBUL-FM 98.1 (Lexington, KY)",
   "listen_page": "",
   "conference": "SEC",
-  "calls": [],
+  "calls": [
+   "WLAP-AM",
+   "WBUL-FM"
+  ],
   "streams": []
  },
  {
@@ -3893,10 +4011,12 @@
    "Mississippi"
   ],
   "network": "Ole Miss Radio Network (Learfield)",
-  "flagship": "Unverified (Oxford)",
-  "listen_page": "",
+  "flagship": "WOXF 105.1 FM (Oxford, MS)",
+  "listen_page": "https://olemisssports.com",
   "conference": "SEC",
-  "calls": [],
+  "calls": [
+   "WOXF-FM"
+  ],
   "streams": []
  },
  {
@@ -3921,10 +4041,12 @@
    "Missouri Tigers"
   ],
   "network": "Tiger Radio Network / Mizzou Sports Network (Learfield)",
-  "flagship": "Unverified (Columbia, MO)",
+  "flagship": "KWOS 950 AM / 104.5 FM (Columbia/Jefferson City, MO)",
   "listen_page": "",
   "conference": "SEC",
-  "calls": [],
+  "calls": [
+   "KWOS-AM"
+  ],
   "streams": []
  },
  {
@@ -3984,10 +4106,13 @@
    "UT"
   ],
   "network": "Texas Longhorns Radio Network (Learfield)",
-  "flagship": "Unverified (Austin)",
-  "listen_page": "",
+  "flagship": "KVET 1300 AM 'The Zone' / KVET-FM 98.1 (Austin, TX)",
+  "listen_page": "https://texassports.com/radio",
   "conference": "SEC",
-  "calls": [],
+  "calls": [
+   "KVET-AM",
+   "KVET-FM"
+  ],
   "streams": []
  },
  {
