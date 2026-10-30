@@ -775,14 +775,17 @@
 "JMU",
 "James Madison Dukes"
 ],
-"network": "JMU Sports Network (Learfield)",
+"network": "JMU Radio Network",
 "flagship": "WSVA 550 AM / 92.1 FM (Harrisonburg, VA)",
 "listen_page": "https://wsvaonline.com",
 "conference": "Sun Belt Conference",
 "calls": [
 "WSVA-AM"
 ],
-"streams": [],
+"streams": [
+"https://live.amperwave.net/manifest/saga-wsvaamaac-hlsc2.m3u8?source=v7player",
+"https://live.amperwave.net/direct/saga-wsvaammp3-ibc2"
+],
 "misses": 0,
 "last_ok": null
 },

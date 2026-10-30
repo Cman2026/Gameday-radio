@@ -611,7 +611,10 @@
   "calls": [
    "WSVA-AM"
   ],
-  "streams": [],
+  "streams": [
+   "https://live.amperwave.net/manifest/saga-wsvaamaac-hlsc2.m3u8?source=v7player",
+   "https://live.amperwave.net/direct/saga-wsvaammp3-ibc2"
+  ],
   "station_website": "https://wsvaonline.com/"
  },
  {

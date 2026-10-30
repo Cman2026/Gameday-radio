@@ -154,6 +154,8 @@ def amperwave(call, band):
     c = call.lower(); out = []
     for b in ([band.lower()] if band else ["am", "fm"]):
         out.append(f"https://live.amperwave.net/manifest/audacy-{c}{b}aac-imc")
+        for n in (1, 2, 3):  # Saga Communications stations
+            out.append(f"https://live.amperwave.net/manifest/saga-{c}{b}aac-hlsc{n}.m3u8")
         out.append(f"https://live.amperwave.net/direct/audacy-{c}{b}aac-imc")
         for n in (1, 2, 3, 4):
             out.append(f"https://live.amperwave.net/manifest/townsquare-{c}{b}aac-ibc{n}")
