@@ -4171,12 +4171,16 @@
 "UB",
 "Buffalo Bulls"
 ],
-"network": "",
+"network": "UB Bulls Radio Network",
 "flagship": "",
 "listen_page": "",
 "conference": "Mid-American Conference",
-"calls": [],
-"streams": [],
+"calls": [
+"WWKB-AM"
+],
+"streams": [
+"https://live.amperwave.net/manifest/audacy-wwkbamaac-hlsc.m3u8?dist=Audacy&source=webA2"
+],
 "misses": 0,
 "last_ok": null
 },

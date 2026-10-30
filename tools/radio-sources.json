@@ -3334,7 +3334,9 @@
   "calls": [
    "WWKB-AM"
   ],
-  "streams": [],
+  "streams": [
+   "https://live.amperwave.net/manifest/audacy-wwkbamaac-hlsc.m3u8?dist=Audacy&source=webA2"
+  ],
   "athletics_site": "https://ubbulls.com",
   "station_website": "https://www.audacy.com/thebetbuffalo"
  },
