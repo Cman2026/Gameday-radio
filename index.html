@@ -84,6 +84,11 @@ h1 span{color:var(--bulb)}
 .up .meta{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 10px;font:500 11px var(--mono);color:var(--dim)}
 .up .meta b{color:var(--chalk);font-weight:500}
 [hidden]{display:none!important}
+.minbtn{flex:none;width:36px;height:36px;padding:0;font-size:16px;line-height:1;align-self:flex-start}
+.deck.min{padding-top:6px}
+.deck.min .syncrow,.deck.min #moreBtn,.deck.min #more{display:none!important}
+.deck.min .play-btn{width:38px;height:38px;font-size:15px}
+.deck.min .now small{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
 .empty{color:var(--dim);background:var(--panel);border:1px dashed var(--line);border-radius:10px;padding:16px}
 
 .board{background:linear-gradient(180deg,var(--panel-2),var(--panel));border:1px solid var(--line);border-radius:14px;padding:18px;display:grid;gap:16px;min-width:0}
@@ -172,6 +177,7 @@ h1 span{color:var(--bulb)}
   <div class="deck-in">
     <button class="play-btn" id="pp" aria-label="Play radio">▶</button>
     <div class="now"><b id="nowName">Radio off</b><small id="nowSub">Tap Listen next to a team</small></div>
+    <button class="btn sm minbtn" id="deckMin" aria-expanded="true" aria-label="Minimize radio controls" title="Minimize">▾</button>
     <select id="station" aria-label="Station" hidden></select>
     <div class="syncrow" role="group" aria-label="Sync scores with the radio">
       <span class="lab">Sync</span>
@@ -711,6 +717,15 @@ document.addEventListener("click", ev=>{
 }, true);
 document.querySelectorAll(".chip[data-div]").forEach(c=>c.onclick=()=>{ divFilter = c.dataset.div; document.querySelectorAll(".chip[data-div]").forEach(x=>x.setAttribute("aria-pressed", String(x===c))); store.set("div", divFilter); render(); });
 $("#q").addEventListener("input", e=>{ query = e.target.value; render(); });
+function setDeckMin(on){
+  const d = document.querySelector(".deck"), b = $("#deckMin");
+  d.classList.toggle("min", on);
+  b.textContent = on ? "▴" : "▾"; b.title = on ? "Show controls" : "Minimize";
+  b.setAttribute("aria-expanded", String(!on)); b.setAttribute("aria-label", on ? "Show radio controls" : "Minimize radio controls");
+  store.set("deckMin", on ? "1" : "");
+}
+$("#deckMin").onclick = ()=>setDeckMin(!document.querySelector(".deck").classList.contains("min"));
+setDeckMin(store.get("deckMin")==="1");
 $("#moreBtn").onclick = ()=>{ const m=$("#more"); m.hidden=!m.hidden; $("#moreBtn").setAttribute("aria-expanded", String(!m.hidden)); $("#moreBtn").textContent = m.hidden?"More":"Less"; };
 
 (function init(){
