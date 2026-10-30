@@ -9,17 +9,27 @@ results = {}
 with sync_playwright() as p:
     b = p.chromium.launch(args=["--autoplay-policy=no-user-gesture-required"])
     for url in sys.argv[1:]:
-        found, media = [], []
+        found, media, bodies = [], [], {}
         ctx = b.new_context(user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36")
         page = ctx.new_page()
         def on_req(r):
             if r.resource_type == "media" or (STREAMY.search(r.url) and not re.search(r"\.(js|css|png|jpg|svg|woff2?)(\?|$)", r.url)):
                 found.append(r.url)
         ctx.on("request", on_req)
+        def on_resp(r):
+            try:
+                ct = r.headers.get("content-type", "")
+                if ("json" in ct or "station" in r.url) and len(bodies) < 8:
+                    t = r.text()
+                    if re.search(r"stream|mount|\.aac|\.mp3|m3u8", t, re.I) and len(t) < 60000:
+                        bodies[r.url] = t[:6000]
+            except Exception:
+                pass
+        ctx.on("response", on_resp)
         try:
             page.goto(url, wait_until="domcontentloaded", timeout=30000)
             page.wait_for_timeout(4000)
-            for sel in ["text=/listen live/i", "text=/listen now/i", "text=/^listen$/i", "[aria-label*='play' i]", "button:has-text('Play')", ".play", "#play", "[class*='play' i]"]:
+            for sel in ["text=/listen live/i", "text=/listen now/i", "text=/^listen$/i", "[aria-label*='play' i]", "button:has-text('Play')", ".play", "#play", "[class*='play' i]", "button[title*='play' i]", "[data-testid*='play' i]", "svg[class*='play' i]", "#playButton", ".play-button", "button >> nth=0"]:
                 for frame in page.frames:
                     try:
                         el = frame.locator(sel).first
@@ -36,7 +46,7 @@ with sync_playwright() as p:
         except Exception as e:
             found.append(f"error: {e}")
         results[url] = {"requests": list(dict.fromkeys(found))[:40], "media_elements": list(dict.fromkeys(media)),
-                        "pages_opened": [x.url for x in ctx.pages]}
+                        "pages_opened": [x.url for x in ctx.pages], "json_bodies": bodies}
         ctx.close()
     b.close()
 json.dump(results, open("sniff-result.json", "w"), indent=1)
