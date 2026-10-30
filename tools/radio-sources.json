@@ -719,11 +719,15 @@
    "Troy Trojans"
   ],
   "network": "Troy Trojans Sports Network",
-  "flagship": "UNVERIFIED (from memory, not confirmed this run): flagship not confirmed",
-  "listen_page": "",
+  "flagship": "Troy Sports Radio Network (game audio from troytrojans.com, WTXK stream)",
+  "listen_page": "https://troytrojans.com/showcase",
   "conference": "Sun Belt Conference",
-  "calls": [],
-  "streams": []
+  "calls": [
+   "WTXK"
+  ],
+  "streams": [
+   "https://ice6.securenetsystems.net/WTXK"
+  ]
  },
  {
   "school": "University of Louisiana Monroe",

@@ -914,12 +914,16 @@
 "Troy",
 "Troy Trojans"
 ],
-"network": "Troy Trojans Sports Network",
+"network": "Troy Sports Radio Network",
 "flagship": "UNVERIFIED (from memory, not confirmed this run): flagship not confirmed",
 "listen_page": "",
 "conference": "Sun Belt Conference",
-"calls": [],
-"streams": [],
+"calls": [
+"WTXK"
+],
+"streams": [
+"https://ice6.securenetsystems.net/WTXK"
+],
 "misses": 0,
 "last_ok": null
 },
