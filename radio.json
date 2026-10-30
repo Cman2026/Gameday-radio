@@ -436,9 +436,12 @@
 "calls": [
 "WZGV"
 ],
-"streams": [],
+"streams": [
+"https://ice64.securenetsystems.net/WZGV2"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"game_only": true
 },
 {
 "school": "East Carolina University",
@@ -694,9 +697,12 @@
 "calls": [
 "WKBC-FM"
 ],
-"streams": [],
+"streams": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"game_only": true
 },
 {
 "school": "Arkansas State University",
@@ -4406,9 +4412,12 @@
 "listen_page": "https://fiusports.com/listen",
 "conference": "Conference USA",
 "calls": [],
-"streams": [],
+"streams": [
+"https://cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"game_only": true
 },
 {
 "school": "Jacksonville State University",

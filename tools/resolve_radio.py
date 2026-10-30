@@ -255,8 +255,10 @@ def main():
             misses = old.get("misses", 0) + 1
             if misses < DROP_AFTER:
                 good = old["streams"]  # keep the last stream that worked
+        if not good and t.get("game_only") and t.get("streams"):
+            good = list(t["streams"])  # school game feeds are only on the air during games
         good = sorted(dict.fromkeys(good), key=lambda u: not u.startswith("https"))
-        teams.append({k: t.get(k) for k in ("school", "names", "network", "flagship", "listen_page", "conference", "calls")}
+        teams.append({k: t.get(k) for k in ("school", "names", "network", "flagship", "listen_page", "conference", "calls", "game_only")}
                      | {"streams": good, "misses": misses if good else 0,
                         "last_ok": time.strftime("%Y-%m-%d") if misses == 0 and good else old.get("last_ok")})
         report.append({"school": t.get("school"), "calls": t.get("calls"), "ok": [x for x in tried if x["ok"]],
