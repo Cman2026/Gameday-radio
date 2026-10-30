@@ -84,7 +84,10 @@ h1 span{color:var(--bulb)}
 .up .meta{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 10px;font:500 11px var(--mono);color:var(--dim)}
 .up .meta b{color:var(--chalk);font-weight:500}
 [hidden]{display:none!important}
-.minbtn{flex:none;width:44px;height:44px;padding:0;font-size:24px;line-height:1;align-self:flex-start;display:grid;place-items:center}
+.minbtn{flex:none;width:52px;height:52px;padding:0;line-height:1;align-self:flex-start;display:grid;place-items:center;color:var(--chalk)}
+.minbtn svg{transition:transform .2s}
+.deck.min .minbtn svg{transform:rotate(180deg)}
+.deck.min .minbtn{width:46px;height:46px}
 .deck.min{padding-top:6px}
 .deck.min .syncrow,.deck.min #moreBtn,.deck.min #more{display:none!important}
 .deck.min .play-btn{width:38px;height:38px;font-size:15px}
@@ -177,7 +180,7 @@ h1 span{color:var(--bulb)}
   <div class="deck-in">
     <button class="play-btn" id="pp" aria-label="Play radio">▶</button>
     <div class="now"><b id="nowName">Radio off</b><small id="nowSub">Tap Listen next to a team</small></div>
-    <button class="btn sm minbtn" id="deckMin" aria-expanded="true" aria-label="Minimize radio controls" title="Minimize">▾</button>
+    <button class="btn sm minbtn" id="deckMin" aria-expanded="true" aria-label="Minimize radio controls" title="Minimize"><svg viewBox="0 0 24 24" width="32" height="32" aria-hidden="true"><path d="M5 9l7 7 7-7" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
     <select id="station" aria-label="Station" hidden></select>
     <div class="syncrow" role="group" aria-label="Sync scores with the radio">
       <span class="lab">Sync</span>
@@ -720,7 +723,7 @@ $("#q").addEventListener("input", e=>{ query = e.target.value; render(); });
 function setDeckMin(on){
   const d = document.querySelector(".deck"), b = $("#deckMin");
   d.classList.toggle("min", on);
-  b.textContent = on ? "▴" : "▾"; b.title = on ? "Show controls" : "Minimize";
+  b.title = on ? "Show controls" : "Minimize";
   b.setAttribute("aria-expanded", String(!on)); b.setAttribute("aria-label", on ? "Show radio controls" : "Minimize radio controls");
   store.set("deckMin", on ? "1" : "");
 }
