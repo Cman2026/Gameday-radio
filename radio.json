@@ -1075,7 +1075,6 @@
 ],
 "game_only": null,
 "streams": [
-"https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
 "https://ais-sa1.streamon.fm/7050_24k.aac"
 ],
 "misses": 0,
@@ -1822,11 +1821,7 @@
 "conference": "Coastal Athletic Association",
 "calls": [],
 "game_only": null,
-"streams": [
-"https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/campbell.sidearmsports.com/podcasts/2026/10/23/CC_Live_oct_22.mp3",
-"https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/campbell.sidearmsports.com/podcasts/2026/10/23/KINLAW_TFTC.mp3",
-"https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/campbell.sidearmsports.com/podcasts/2026/10/15/homecoming_26_camel_call_final.mp3"
-],
+"streams": [],
 "misses": 0,
 "last_ok": "2026-10-30"
 },
@@ -2712,9 +2707,7 @@
 "KPCH"
 ],
 "game_only": null,
-"streams": [
-"https://cdnrf.securenetsystems.net/file_radio/stations_large/KGRM/podcasts/2898064/coverArt.heic"
-],
+"streams": [],
 "misses": 0,
 "last_ok": "2026-10-30"
 },
@@ -4871,9 +4864,7 @@
 "KFIG"
 ],
 "game_only": null,
-"streams": [
-"https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
-],
+"streams": [],
 "misses": 0,
 "last_ok": "2026-10-30"
 },
@@ -5332,7 +5323,6 @@
 "game_only": null,
 "streams": [
 "https://cmg.streamguys1.com/atl750/atl750-encoder.aac/playlist.m3u8?aw_0_1st.playerId=cmg_iheart",
-"https://dts.podtrac.com/redirect.mp3/od-cmg.streamguys1.com/atlanta/atl750/20261028080936_629799-promosforthurs10-29.wav?awCollectionId=atl750-16&awGenre=News&awEpisodeId=d35b2a30-d2d0-11f1-ae7f-0d1592a683ef",
 "http://cmg.streamguys1.com/atl750/atl750-encoder.aac/playlist.m3u8?aw_0_1st.playerId=cmg_iheart"
 ],
 "misses": 0,

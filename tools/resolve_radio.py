@@ -41,12 +41,15 @@ def _probe(url, timeout):
         req = urllib.request.Request(url, headers=UA | {"Icy-MetaData": "0"})
         with urllib.request.urlopen(req, timeout=timeout) as r:
             ct = (r.headers.get("content-type") or "").lower()
+            r_len = r.headers.get("content-length")
             head = r.read(4096)
             final = r.geturl()
         if "restricted" in final or "unavailable" in final:
             return False, "placeholder audio"
         if any(h in ct for h in HLS_CT) or head.lstrip().startswith(b"#EXTM3U"):
             return ("#EXT" in head.decode("latin1", "ignore")), f"hls {final}"
+        if r_len and int(r_len) < 50_000_000 and not ct.startswith("audio/aacp"):
+            return False, f"fixed-length file ({r_len} bytes), not a live stream"
         if ct.startswith(AUDIO_CT) or head[:3] == b"ID3" or (len(head) > 1 and head[0] == 0xFF and head[1] & 0xE0 == 0xE0):
             return True, f"{ct} {final}"
         return False, f"not audio ({ct})"
@@ -63,8 +66,12 @@ URL_RE = re.compile(r"""https?://[^\s"'<>()\\]+""")
 STW_MOUNT_RE = re.compile(r"""(?:livestream-redirect/|tdstation=|station=|mount=|"mount"\s*:\s*")([A-Z0-9_]{4,24})""")
 
 
+JUNK = re.compile(r"soundhelix|example|podtrac|omny\.fm|megaphone|libsyn|anchor\.fm|tunegenie|podcast|/episodes?/|/ads?/|silent\.mp3", re.I)
+
 def looks_like_stream(u):
     lu = u.lower()
+    if JUNK.search(u):
+        return False
     if any(x in lu for x in (".png", ".jpg", ".svg", ".css", ".js", "facebook", "twitter", "instagram", "google", "apple.com", "/wp-content/")):
         return False
     return (lu.split("?")[0].endswith((".mp3", ".aac", ".m3u8", ".pls", ".m3u", "/stream", "/live", "/listen"))
