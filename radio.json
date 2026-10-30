@@ -1,5 +1,5 @@
 {
-"built": "2026-10-30T23:13:58Z",
+"built": "2026-10-30T23:26:28Z",
 "teams": [
 {
 "school": "Boston College",
@@ -733,7 +733,7 @@
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3"
 ],
-"misses": 4,
+"misses": 5,
 "last_ok": null
 },
 {
@@ -2560,9 +2560,7 @@
 ],
 "game_only": null,
 "streams": [
-"https://ondemand.npr.org/anon.npr-mp3/npr/specials/2026/10/20261013_specials_two_bass_hit_christian_mcbride_and_john_clayton_on_ray_brown_at_100.mp3",
-"https://ondemand.npr.org/anon.npr-mp3/npr/me/2026/08/20260813_me_jon_batiste_pays_tribute_to_2_pianists_who_defined_their_genres_--_mozart_and_monk.mp3",
-"https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261029_atc_alaska_senate_spoiler_candidate.mp3"
+"https://ondemand.npr.org/anon.npr-mp3/npr/specials/2026/10/20261013_specials_two_bass_hit_christian_mcbride_and_john_clayton_on_ray_brown_at_100.mp3"
 ],
 "misses": 0,
 "last_ok": "2026-10-30"
@@ -2627,9 +2625,7 @@
 ],
 "game_only": null,
 "streams": [
-"https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261029_atc_alaska_senate_spoiler_candidate.mp3",
-"https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261029_atc_candy_prices_got_you_scared_stiff_what_to_know_about_the_cost_of_halloween_this_year.mp3",
-"https://cpa.ds.npr.org/s460/audio/2026/09/cassandra-wilson-audio.mp3"
+"https://streaming.live365.com/a60611"
 ],
 "misses": 0,
 "last_ok": "2026-10-30"
@@ -2667,9 +2663,7 @@
 ],
 "game_only": null,
 "streams": [
-"https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261029_atc_alaska_senate_spoiler_candidate.mp3",
-"https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261029_atc_patrick_stewart_a_perceptive_patriarch_in_star_trek_and_x-men_dies_at_86.mp3",
-"https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261029_atc_midterms-california_redistricting.mp3"
+"https://ice41.securenetsystems.net/WPRL"
 ],
 "misses": 0,
 "last_ok": "2026-10-30"
@@ -2707,7 +2701,9 @@
 "KPCH"
 ],
 "game_only": null,
-"streams": [],
+"streams": [
+"https://ice41.securenetsystems.net/KGRM?playSessionID=27007793-697E-4C07-A287049708D476F7"
+],
 "misses": 0,
 "last_ok": "2026-10-30"
 },
@@ -3093,8 +3089,7 @@
 "game_only": null,
 "streams": [
 "https://wvtf-ice2.streamguys1.com/radioiq-mp3-64.mp3",
-"https://wvtf-ice2.streamguys1.com/wvtfmusic-mp3-64.mp3",
-"https://cpa.ds.npr.org/s870/audio/2026/10/online-virginia-parents-caregivers-struggle-under-new-reporting-system.mp3"
+"https://wvtf-ice2.streamguys1.com/wvtfmusic-mp3-64.mp3"
 ],
 "misses": 0,
 "last_ok": "2026-10-30"
@@ -4351,9 +4346,7 @@
 ],
 "game_only": null,
 "streams": [
-"https://mcdn.podbean.com/mf/web/x7xnkkfybc84kxwq/coach_ub5zlu.mp3",
-"https://mcdn.podbean.com/mf/web/bbpqs4dqujrzda92/power_hour_oct_29b68ok.mp3",
-"https://mcdn.podbean.com/mf/web/qitz3pk3m95be67b/ThisWeekinBSU_OCT29_26.mp3"
+"https://mcdn.podbean.com/mf/web/bbpqs4dqujrzda92/power_hour_oct_29b68ok.mp3"
 ],
 "misses": 0,
 "last_ok": "2026-10-30"
@@ -4636,7 +4629,7 @@
 "streams": [
 "https://cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8"
 ],
-"misses": 4,
+"misses": 5,
 "last_ok": null
 },
 {
@@ -4864,7 +4857,9 @@
 "KFIG"
 ],
 "game_only": null,
-"streams": [],
+"streams": [
+"https://ice5.securenetsystems.net/KFIG"
+],
 "misses": 0,
 "last_ok": "2026-10-30"
 },

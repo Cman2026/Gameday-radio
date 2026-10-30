@@ -9,19 +9,19 @@
     "url": "https://live.amperwave.net/direct/audacy-weeiamaac-imc",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-44-203-237-138.amperwave.net/audacy-weeiamaac-imc?session-id=60fc793e5b31455e04ed522358759aeb"
+    "detail": "audio/aacp https://prod-44-203-237-138.amperwave.net/audacy-weeiamaac-imc?session-id=ae94d7e3fc01dd360f8b44df5438cd3f"
    },
    {
     "url": "https://live.amperwave.net/direct/audacy-weeifmaac-imc",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-3-231-155-68.amperwave.net/audacy-weeifmaac-imc?session-id=0019bbb808eed7939665e3be494ada36"
+    "detail": "audio/aacp https://prod-13-217-163-234.amperwave.net/audacy-weeifmaac-imc?session-id=28fa596afc7020188cce37836a3dfa94"
    },
    {
     "url": "http://live.amperwave.net/direct/audacy-weeiamaac-imc",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp http://23.20.67.51/audacy-weeiamaac-imc?session-id=2c4c4349ab6b9b130b056175d67e9eef"
+    "detail": "audio/aacp http://3.94.205.148/audacy-weeiamaac-imc?session-id=1333a84893d5e013442457a1a8e60021"
    }
   ],
   "kept_from_before": false,
@@ -57,73 +57,73 @@
     "url": "http://www.kgoradio.com/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html)"
+    "detail": "fixed-length file (24 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/search/?q=KGO",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (191761 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/search/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39696 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/pt/procurar/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39896 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/es/buscar/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39899 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/de/suche/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39879 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/it/ricerca/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39870 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/fr/cherche/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39886 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/no/sok/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39812 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/da/sog/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39826 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/fi/hae/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39854 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/sv/sok/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39811 bytes), not a live stream"
    }
   ]
  },
@@ -170,19 +170,19 @@
     "url": "https://stream.revma.ihrhls.com/zc661",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc661:alt?rj-org=n11b-e2&rj-ttl=5&rj-tok=AAABoY8cotwAv5NMQbnLzgDv4w"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc661:alt?rj-org=n0bb-e2&rj-ttl=5&rj-tok=AAABoY8nMCQAeKuyvSUPuKIT3w"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc661/hls.m3u8?hls=true",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n1fb-e2.revma.ihrhls.com/zc661:alt/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8cpA4Amon8rsfskVujCQ&hls=true"
+    "detail": "hls https://n28b-e2.revma.ihrhls.com/zc661:alt/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nMZIAghyPAjBlnM7Lyw&hls=true"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc661",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc661:alt?rj-org=n21b-e2&rj-ttl=5&rj-tok=AAABoY8cpPEAd-jKT0dPd3c3Tg"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc661:alt?rj-org=n0bb-e2&rj-ttl=5&rj-tok=AAABoY8nMy4A6X_XQPXt8WbsBw"
    }
   ],
   "kept_from_before": false,
@@ -198,7 +198,7 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCNNAMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://26313.live.streamtheworld.com:443/WCNNAMAAC.aac"
+    "detail": "audio/aac https://18303.live.streamtheworld.com:443/WCNNAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCNNAM.mp3",
@@ -221,13 +221,13 @@
     "url": "https://live.amperwave.net/direct/unionbroadcasting-wlclamaac-ibc2",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-44-201-65-65.amperwave.net/unionbroadcasting-wlclamaac-ibc2?session-id=4421ea78fb0e822e8dd668ce71520793"
+    "detail": "audio/aacp https://prod-54-158-170-239.amperwave.net/unionbroadcasting-wlclamaac-ibc2?session-id=f0b96bff705e445d0d70635e08968efe"
    },
    {
     "url": "http://live.amperwave.net/direct/unionbroadcasting-wlclamaac-ibc2",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp http://54.158.170.239/unionbroadcasting-wlclamaac-ibc2?session-id=37250fa583afddcfd48cc074a1236568"
+    "detail": "audio/aacp http://54.158.170.239/unionbroadcasting-wlclamaac-ibc2?session-id=9e11512499d668b2d99afd4fb6b47892"
    }
   ],
   "kept_from_before": false,
@@ -244,19 +244,19 @@
     "url": "https://live.amperwave.net/manifest/audacy-wqamamaac-imc",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-52-90-12-93.amperwave.net/audacy-wqamamaac-imc"
+    "detail": "audio/aacp https://prod-35-173-219-21.amperwave.net/audacy-wqamamaac-imc"
    },
    {
     "url": "https://live.amperwave.net/direct/audacy-wqamamaac-imc",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-34-201-210-99.amperwave.net/audacy-wqamamaac-imc?session-id=a4b93b0270d4111e89836317fc5da78b"
+    "detail": "audio/aacp https://prod-35-173-219-21.amperwave.net/audacy-wqamamaac-imc?session-id=28181e43f95d2350e51f73a15d24308a"
    },
    {
     "url": "https://live.amperwave.net/manifest/audacy-wqamfmaac-imc",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-52-23-151-190.amperwave.net/audacy-wqamfmaac-imc"
+    "detail": "audio/aacp https://prod-13-222-215-102.amperwave.net/audacy-wqamfmaac-imc"
    }
   ],
   "kept_from_before": false,
@@ -307,7 +307,7 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WPTFAM.mp3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg https://19263.live.streamtheworld.com:443/WPTFAM.mp3"
+    "detail": "audio/mpeg https://15723.live.streamtheworld.com:443/WPTFAM.mp3"
    }
   ],
   "kept_from_before": false,
@@ -323,19 +323,19 @@
     "url": "https://live.amperwave.net/direct/audacy-kdkafmaac-imc",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-98-87-169-7.amperwave.net/audacy-kdkafmaac-imc?session-id=fe32b71de2b11dd2f2a5bc15084980b7"
+    "detail": "audio/aacp https://prod-35-170-51-227.amperwave.net/audacy-kdkafmaac-imc?session-id=d3b26f60a4ed3a2f9c06cf7ecbc3247b"
    },
    {
     "url": "https://live.amperwave.net/manifest/audacy-kdkafmaac-imc",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-98-87-169-7.amperwave.net/audacy-kdkafmaac-imc"
+    "detail": "audio/aacp https://prod-35-170-51-227.amperwave.net/audacy-kdkafmaac-imc"
    },
    {
     "url": "http://live.amperwave.net/direct/audacy-kdkafmaac-imc",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp http://98.87.169.7/audacy-kdkafmaac-imc?session-id=28cac05ca3742dcbdb3fa8cfe4a6a6a3"
+    "detail": "audio/aacp http://35.170.51.227/audacy-kdkafmaac-imc?session-id=3581b378db6a513977c006fc24d6f36b"
    }
   ],
   "kept_from_before": false,
@@ -352,19 +352,19 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://14613.live.streamtheworld.com:443/KTCKAMAAC.aac"
+    "detail": "audio/aac https://17853.live.streamtheworld.com:443/KTCKAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://17853.live.streamtheworld.com:443/KTCKAMAAC/HLS/playlist.m3u8"
+    "detail": "hls https://14013.live.streamtheworld.com:443/KTCKAMAAC/HLS/playlist.m3u8"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://15233.live.streamtheworld.com:80/KTCKAMAAC.aac"
+    "detail": "audio/aac http://18533.live.streamtheworld.com:80/KTCKAMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -382,19 +382,19 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KNBRAMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://24153.live.streamtheworld.com:443/KNBRAMAAC.aac"
+    "detail": "audio/aac https://18533.live.streamtheworld.com:443/KNBRAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KNBRAMAAC.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://14623.live.streamtheworld.com:443/KNBRAMAAC/HLS/playlist.m3u8"
+    "detail": "hls https://18533.live.streamtheworld.com:443/KNBRAMAAC/HLS/playlist.m3u8"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KNBRAMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://17643.live.streamtheworld.com:80/KNBRAMAAC.aac"
+    "detail": "audio/aac http://14943.live.streamtheworld.com:80/KNBRAMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -410,7 +410,7 @@
     "url": "https://live.amperwave.net/manifest/galaxy-wtkwfmaac-hlsc1.m3u8?source=v7player",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://prod-100-53-217-72.amperwave.net/galaxy-wtkwfmaac-hlsc1.m3u8?source=v7player"
+    "detail": "hls https://prod-34-227-171-136.amperwave.net/galaxy-wtkwfmaac-hlsc1.m3u8?source=v7player"
    }
   ],
   "kept_from_before": false,
@@ -426,13 +426,13 @@
     "url": "https://live.amperwave.net/manifest/saga-winaammp3-hlsc.m3u8?source=uva",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://prod-44-195-61-138.amperwave.net/saga-winaammp3-hlsc.m3u8?source=uva"
+    "detail": "hls https://prod-54-227-167-196.amperwave.net/saga-winaammp3-hlsc.m3u8?source=uva"
    },
    {
     "url": "https://live.amperwave.net/manifest/saga-winaamaac-hlsc1.m3u8?source=v7player",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://prod-44-195-61-138.amperwave.net/saga-winaamaac-hlsc1.m3u8?source=v7player"
+    "detail": "hls https://prod-54-227-167-196.amperwave.net/saga-winaamaac-hlsc1.m3u8?source=v7player"
    }
   ],
   "kept_from_before": false,
@@ -464,7 +464,7 @@
     "url": "https://live.amperwave.net/manifest/blueridgeradio-wbrffmaac-hlsc4.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://prod-54-227-167-196.amperwave.net/blueridgeradio-wbrffmaac-hlsc4.m3u8"
+    "detail": "hls https://prod-44-195-61-138.amperwave.net/blueridgeradio-wbrffmaac-hlsc4.m3u8"
    }
   ],
   "kept_from_before": false,
@@ -481,19 +481,19 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSBTAMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://14223.live.streamtheworld.com:443/WSBTAMAAC.aac"
+    "detail": "audio/aac https://26313.live.streamtheworld.com:443/WSBTAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSBTAM.mp3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg https://14833.live.streamtheworld.com:443/WSBTAM.mp3"
+    "detail": "audio/mpeg https://18093.live.streamtheworld.com:443/WSBTAM.mp3"
    },
    {
     "url": "https://live.amperwave.net/direct/audacy-wbbmamaac-imc",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-3-82-152-187.amperwave.net/audacy-wbbmamaac-imc?session-id=6e30af3b2ffaa32344fc46447041e720"
+    "detail": "audio/aacp https://prod-3-231-155-68.amperwave.net/audacy-wbbmamaac-imc?session-id=bd5ce7a8c93017cdf99ded26dcb896e4"
    }
   ],
   "kept_from_before": false,
@@ -509,19 +509,19 @@
     "url": "https://stream.revma.ihrhls.com/zc5238",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc5238?rj-org=n2cb-e2&rj-ttl=5&rj-tok=AAABoY8cojQAttW3kXFpwUidHw"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc5238?rj-org=n33b-e2&rj-ttl=5&rj-tok=AAABoY8nLyIA57aLFjo4jxp-Sw"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc5238/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n42b-e2.revma.ihrhls.com/zc5238/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8cot8A0Pj-OEsM4-hAgQ"
+    "detail": "hls https://n42b-e2.revma.ihrhls.com/zc5238/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nL8YA4_oqkT1PqdVQpA"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc5238",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc5238?rj-org=n2cb-e2&rj-ttl=5&rj-tok=AAABoY8co6YAWJfhiDH028t8zg"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc5238?rj-org=n2cb-e2&rj-ttl=5&rj-tok=AAABoY8nMLUA8aneZMret_UTqA"
    }
   ],
   "kept_from_before": false,
@@ -537,19 +537,19 @@
     "url": "https://stream.revma.ihrhls.com/zc1493",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1493:alt?rj-org=n43b-e2&rj-ttl=5&rj-tok=AAABoY8co5cA_nyCy0bhoOP51A"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1493:alt?rj-org=n43b-e2&rj-ttl=5&rj-tok=AAABoY8nMCMAfasVTgJHvO9t3w"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc1493/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n0cb-e2.revma.ihrhls.com/zc1493:alt/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8cpNEA0yti056FEn2YWg"
+    "detail": "hls https://n2db-e2.revma.ihrhls.com/zc1493:alt/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nMakAj5LcjeeTJ00PFw"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc1493",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1493:alt?rj-org=n43b-e2&rj-ttl=5&rj-tok=AAABoY8cpgUAWBcYvuDbMKhqIQ"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1493:alt?rj-org=n43b-e2&rj-ttl=5&rj-tok=AAABoY8nMsAAB721LbeL3R-vTw"
    }
   ],
   "kept_from_before": false,
@@ -581,13 +581,13 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNCTAMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://17573.live.streamtheworld.com:443/WNCTAMAAC.aac"
+    "detail": "audio/aac https://29318.live.streamtheworld.com:443/WNCTAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNCTAM.mp3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg https://15693.live.streamtheworld.com:443/WNCTAM.mp3"
+    "detail": "audio/mpeg https://17563.live.streamtheworld.com:443/WNCTAM.mp3"
    }
   ],
   "kept_from_before": false,
@@ -603,13 +603,13 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMENAMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://18863.live.streamtheworld.com:443/WMENAMAAC.aac"
+    "detail": "audio/aac https://14123.live.streamtheworld.com:443/WMENAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMENAM.mp3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg https://15313.live.streamtheworld.com:443/WMENAM.mp3"
+    "detail": "audio/mpeg https://26113.live.streamtheworld.com:443/WMENAM.mp3"
    }
   ],
   "kept_from_before": false,
@@ -625,13 +625,13 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WKIMFMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://26193.live.streamtheworld.com:443/WKIMFMAAC.aac"
+    "detail": "audio/aac https://29313.live.streamtheworld.com:443/WKIMFMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WKIMFMAAC.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://26193.live.streamtheworld.com:443/WKIMFMAAC/HLS/playlist.m3u8"
+    "detail": "hls https://29313.live.streamtheworld.com:443/WKIMFMAAC/HLS/playlist.m3u8"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/WKIMFMAAC.aac",
@@ -654,7 +654,7 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBALAM.mp3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg https://29321.live.streamtheworld.com:443/WBALAM.mp3"
+    "detail": "audio/mpeg https://18853.live.streamtheworld.com:443/WBALAM.mp3"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBALAMAAC.aac",
@@ -682,19 +682,19 @@
     "url": "https://stream.revma.ihrhls.com/zc4276",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc4276?rj-org=n0ab-e2&rj-ttl=5&rj-tok=AAABoY8cojIAwVZPZZi0FAQMww"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc4276?rj-org=n40b-e2&rj-ttl=5&rj-tok=AAABoY8nLvwAlr6aSuTdNLbzNQ"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc4276/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n12b-e2.revma.ihrhls.com/zc4276/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8cov8Akl1z1eJMM_LLFw"
+    "detail": "hls https://n10b-e2.revma.ihrhls.com/zc4276/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nL6gACEdEcrpMRUTShA"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc4276",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc4276?rj-org=n2ab-e2&rj-ttl=5&rj-tok=AAABoY8co8YAJiHBi3mReJ4V1Q"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc4276?rj-org=n0ab-e2&rj-ttl=5&rj-tok=AAABoY8nMIEAbYnGqO8t_uopjg"
    }
   ],
   "kept_from_before": false,
@@ -717,13 +717,13 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRBQFMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://26183.live.streamtheworld.com:443/WRBQFMAAC.aac"
+    "detail": "audio/aac https://17813.live.streamtheworld.com:443/WRBQFMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRBQFM.mp3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg https://19263.live.streamtheworld.com:443/WRBQFM.mp3"
+    "detail": "audio/mpeg https://17553.live.streamtheworld.com:443/WRBQFM.mp3"
    }
   ],
   "kept_from_before": false,
@@ -746,19 +746,19 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://17653.live.streamtheworld.com:443/KKNDFMAAC.aac"
+    "detail": "audio/aac https://14613.live.streamtheworld.com:443/KKNDFMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://14093.live.streamtheworld.com:443/KKNDFMAAC/HLS/playlist.m3u8"
+    "detail": "hls https://17653.live.streamtheworld.com:443/KKNDFMAAC/HLS/playlist.m3u8"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://18233.live.streamtheworld.com:80/KKNDFMAAC.aac"
+    "detail": "audio/aac http://14613.live.streamtheworld.com:80/KKNDFMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -790,19 +790,19 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJOXFMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://18163.live.streamtheworld.com:443/WJOXFMAAC.aac"
+    "detail": "audio/aac https://29320.live.streamtheworld.com:443/WJOXFMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJOXFMAAC.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://17553.live.streamtheworld.com:443/WJOXFMAAC/HLS/playlist.m3u8"
+    "detail": "hls https://18163.live.streamtheworld.com:443/WJOXFMAAC/HLS/playlist.m3u8"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/WJOXFMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://18163.live.streamtheworld.com:80/WJOXFMAAC.aac"
+    "detail": "audio/aac http://17553.live.streamtheworld.com:80/WJOXFMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -818,19 +818,19 @@
     "url": "https://stream.revma.ihrhls.com/zc2353",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2353?rj-org=n04b-e2&rj-ttl=5&rj-tok=AAABoY8colYAQu5rM4VlAirHCw"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2353?rj-org=n38b-e2&rj-ttl=5&rj-tok=AAABoY8nLx4AsEoWgpR4JJvTXA"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc2353/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n2bb-e2.revma.ihrhls.com/zc2353/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8couUABMkCdkqgAlxqSQ"
+    "detail": "hls https://n29b-e2.revma.ihrhls.com/zc2353/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nMIcAJafdqCgBHY-www"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc2353",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc2353?rj-org=n04b-e2&rj-ttl=5&rj-tok=AAABoY8co5YABijzcxKQlrhqtQ"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc2353?rj-org=n04b-e2&rj-ttl=5&rj-tok=AAABoY8nMY0AoP6bkvnURvWh1w"
    }
   ],
   "kept_from_before": false,
@@ -866,7 +866,7 @@
     "url": "https://appstatesports.com/images/logos/site/site.png",
     "source": "listen-page",
     "ok": false,
-    "detail": "not audio (image/webp)"
+    "detail": "fixed-length file (5688 bytes), not a live stream"
    },
    {
     "url": "https://appstatesports.com/schedule.aspx?schedule=433",
@@ -962,19 +962,19 @@
     "url": "https://stream.revma.ihrhls.com/zc6849",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc6849?rj-org=n2db-e2&rj-ttl=5&rj-tok=AAABoY8covwAY_mGPOG4bEmg8w"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc6849?rj-org=n2db-e2&rj-ttl=5&rj-tok=AAABoY8nME4A_I9xWreu4Y3ePQ"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc6849/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n11b-e2.revma.ihrhls.com/zc6849/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8co3kAfys4nocuQ5gpzg"
+    "detail": "hls https://n43b-e2.revma.ihrhls.com/zc6849/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nMMMADJKa7pFX-7ap0w"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc6849",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc6849?rj-org=n26b-e2&rj-ttl=5&rj-tok=AAABoY8cpAMA9Y--fUI-MbnUIQ"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc6849?rj-org=n2db-e2&rj-ttl=5&rj-tok=AAABoY8nMZ4A4PF2coBXwz-PGQ"
    }
   ],
   "kept_from_before": false,
@@ -1010,7 +1010,7 @@
     "url": "https://mytuner-radio.com/search/?q=WHKN",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (193946 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/search/",
@@ -1090,13 +1090,13 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRASFMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://29321.live.streamtheworld.com:443/WRASFMAAC.aac"
+    "detail": "audio/aac https://26303.live.streamtheworld.com:443/WRASFMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRASFM.mp3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg https://29312.live.streamtheworld.com:443/WRASFM.mp3"
+    "detail": "audio/mpeg https://26423.live.streamtheworld.com:443/WRASFM.mp3"
    },
    {
     "url": "https://gpb.streamguys1.com/gpb-atlanta-aac-website",
@@ -1124,7 +1124,7 @@
     "url": "https://live.amperwave.net/direct/saga-wsvaammp3-ibc2",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg https://prod-44-204-225-175.amperwave.net/saga-wsvaammp3-ibc2?session-id=2184add0f5bd2c2b8bc1fcbe6c19fcab"
+    "detail": "audio/mpeg https://prod-44-204-225-175.amperwave.net/saga-wsvaammp3-ibc2?session-id=127c2f53969cb1f05c454d41bc5456a9"
    }
   ],
   "kept_from_before": false,
@@ -1141,13 +1141,13 @@
     "url": "https://live.amperwave.net/manifest/townsquare-khxtfmaac-ibc3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-54-158-223-248.amperwave.net/townsquare-khxtfmaac-ibc3"
+    "detail": "audio/aacp https://prod-54-172-213-63.amperwave.net/townsquare-khxtfmaac-ibc3"
    },
    {
     "url": "https://live.amperwave.net/manifest/townsquare-kpelamaac-ibc3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-54-172-213-63.amperwave.net/townsquare-kpelamaac-ibc3"
+    "detail": "audio/aacp https://prod-54-158-223-248.amperwave.net/townsquare-kpelamaac-ibc3"
    }
   ],
   "kept_from_before": false,
@@ -1213,19 +1213,19 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMEZFMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://26143.live.streamtheworld.com:443/WMEZFMAAC.aac"
+    "detail": "audio/aac https://15723.live.streamtheworld.com:443/WMEZFMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMEZFMAAC.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://15723.live.streamtheworld.com:443/WMEZFMAAC/HLS/playlist.m3u8"
+    "detail": "hls https://26143.live.streamtheworld.com:443/WMEZFMAAC/HLS/playlist.m3u8"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/WMEZFMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://15723.live.streamtheworld.com:80/WMEZFMAAC.aac"
+    "detail": "audio/aac http://19263.live.streamtheworld.com:80/WMEZFMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -1290,7 +1290,7 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KCUBAMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://14093.live.streamtheworld.com:443/KCUBAMAAC.aac"
+    "detail": "audio/aac https://18373.live.streamtheworld.com:443/KCUBAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KCUBAMAAC.m3u8",
@@ -1302,7 +1302,7 @@
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KCUBAMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://14093.live.streamtheworld.com:80/KCUBAMAAC.aac"
+    "detail": "audio/aac http://18233.live.streamtheworld.com:80/KCUBAMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -1342,12 +1342,6 @@
    "KRZI-AM"
   ],
   "ok": [
-   {
-    "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
-    "source": "remembered",
-    "ok": true,
-    "detail": "audio/mpeg https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
-   },
    {
     "url": "https://ais-sa1.streamon.fm/7050_24k.aac",
     "source": "remembered",
@@ -1397,19 +1391,19 @@
     "url": "https://stream.revma.ihrhls.com/zc1713",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1713?rj-org=n01b-e2&rj-ttl=5&rj-tok=AAABoY8cpVoAAri9b5r30oMeCg"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1713?rj-org=n0fb-e2&rj-ttl=5&rj-tok=AAABoY8nM0cAtTccF_rqcjwolQ"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc1713/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n43b-e2.revma.ihrhls.com/zc1713/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8cpdMAXM7GAPNwOjrHqA"
+    "detail": "hls https://n3bb-e2.revma.ihrhls.com/zc1713/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nNW0AxzZyw8Ol4zTfeg"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc1713",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc1713?rj-org=n11b-e2&rj-ttl=5&rj-tok=AAABoY8cposA5D8zilk_nzCtwQ"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc1713?rj-org=n18b-e2&rj-ttl=5&rj-tok=AAABoY8nNgEA8WdlEYXVkZw9Ig"
    }
   ],
   "kept_from_before": false,
@@ -1426,19 +1420,19 @@
     "url": "https://stream.revma.ihrhls.com/zc389",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc389?rj-org=n15b-e2&rj-ttl=5&rj-tok=AAABoY8cpVwALUqHMjwaC4rpdQ"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc389?rj-org=n0cb-e2&rj-ttl=5&rj-tok=AAABoY8nM1wAooQ6Hv5d_RS8Jg"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc389/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n2ab-e2.revma.ihrhls.com/zc389/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8cpcUAvRpry1a-3tNj4w"
+    "detail": "hls https://n19b-e2.revma.ihrhls.com/zc389/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nM_EA07fPNtkuwFl3GQ"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc389",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc389?rj-org=n16b-e2&rj-ttl=5&rj-tok=AAABoY8cpmUAtwLGpPftFSC9cA"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc389?rj-org=n0eb-e2&rj-ttl=5&rj-tok=AAABoY8nNLoA0z-zeIz5FSv9PA"
    }
   ],
   "kept_from_before": false,
@@ -1454,19 +1448,19 @@
     "url": "https://stream.revma.ihrhls.com/zc2277",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2277?rj-org=n0db-e2&rj-ttl=5&rj-tok=AAABoY8cpWkA1uklWgfV3tstIA"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2277?rj-org=n0db-e2&rj-ttl=5&rj-tok=AAABoY8nM10ALAXgmu0mqepStg"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc2277/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n30b-e2.revma.ihrhls.com/zc2277/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8cpc8ASuIDUQM1L8SCDw"
+    "detail": "hls https://n26b-e2.revma.ihrhls.com/zc2277/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nNHIAfZLyebBMICv8WQ"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc2277",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc2277?rj-org=n22b-e2&rj-ttl=5&rj-tok=AAABoY8cppIA7DOHvoAR-cq10g"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc2277?rj-org=n3db-e2&rj-ttl=5&rj-tok=AAABoY8nNRYAmf7Z9L0NYelcRA"
    }
   ],
   "kept_from_before": false,
@@ -1482,19 +1476,19 @@
     "url": "https://stream.revma.ihrhls.com/zc913",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc913:alt?rj-org=n2bb-e2&rj-ttl=5&rj-tok=AAABoY8cpmwApcezWoApuf8Efw"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc913:alt?rj-org=n13b-e2&rj-ttl=5&rj-tok=AAABoY8nNCEACSFGnCgCErRcKQ"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc913/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n36b-e2.revma.ihrhls.com/zc913:alt/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8cp4oAbGPuqwzoz-uGmg"
+    "detail": "hls https://n36b-e2.revma.ihrhls.com/zc913:alt/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nNdAAPWBqou5nBQb1VA"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc913",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc913:alt?rj-org=n11b-e2&rj-ttl=5&rj-tok=AAABoY8cqLYA89-MCMHZ-IaaKA"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc913:alt?rj-org=n11b-e2&rj-ttl=5&rj-tok=AAABoY8nNxUAKgfl3LjGnaTCGg"
    }
   ],
   "kept_from_before": false,
@@ -1528,7 +1522,7 @@
     "url": "https://stream-02.surfernetwork.com/drscz5r6naxuv",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg https://stream-204.surfernetwork.com/drscz5r6naxuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJkcnNjejVyNm5heHV2IiwiaG9zdCI6InN0cmVhbS0yMDQuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6Ik9ONXhjdXdWUnVtNmlibTVzd3FVVHciLCJpYXQiOjE3OTM0MDE3ODEsImV4cCI6MTc5MzQwMTg0MX0.XeuCW7ZA7ZkTiXR5OVIpWo3Eb_DZTnaXxKSyKk4HtFw"
+    "detail": "audio/mpeg https://stream-204.surfernetwork.com/drscz5r6naxuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJkcnNjejVyNm5heHV2IiwiaG9zdCI6InN0cmVhbS0yMDQuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IjV6UUNfWjlxU3B1YlF2cUp1bjNlSnciLCJpYXQiOjE3OTM0MDI0NzMsImV4cCI6MTc5MzQwMjUzM30.B2JlPeGXtCA8frDgMRdO8JsT30q5wZ038vLYY_eVfhs"
    }
   ],
   "kept_from_before": false,
@@ -1560,19 +1554,19 @@
     "url": "https://stream.revma.ihrhls.com/zc3379",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc3379?rj-org=n01b-e2&rj-ttl=5&rj-tok=AAABoY8cpvEA4ouoxUauTYBwkA"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc3379?rj-org=n11b-e2&rj-ttl=5&rj-tok=AAABoY8nNUAATNPFPZd6Wbpdmg"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc3379/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n20b-e2.revma.ihrhls.com/zc3379/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8cp04A8VrXTxYRgk3ifg"
+    "detail": "hls https://n2bb-e2.revma.ihrhls.com/zc3379/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nNbMAextjMNpcRZegkg"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc3379",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc3379?rj-org=n0eb-e2&rj-ttl=5&rj-tok=AAABoY8cp-sAeGzYs9I1Tvz7LA"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc3379?rj-org=n2cb-e2&rj-ttl=5&rj-tok=AAABoY8nNlUArhD66btUL-MKdw"
    }
   ],
   "kept_from_before": false,
@@ -1610,19 +1604,19 @@
     "url": "https://stream.revma.ihrhls.com/zc601",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc601?rj-org=n3eb-e2&rj-ttl=5&rj-tok=AAABoY8cp1cA89yIE-AdpDPa3g"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc601?rj-org=n45b-e2&rj-ttl=5&rj-tok=AAABoY8nNlYAWrQqeo2bvaqnPg"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc601/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n0db-e2.revma.ihrhls.com/zc601/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8cp70AluOiYKqTQpFz8A"
+    "detail": "hls https://n2cb-e2.revma.ihrhls.com/zc601/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nNv8ACMJ9R-_gGsHLxA"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc601",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc601?rj-org=n3eb-e2&rj-ttl=5&rj-tok=AAABoY8cqGoANiq-R2Vgu0BPmQ"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc601?rj-org=n20b-e2&rj-ttl=5&rj-tok=AAABoY8nN2wAwV5VqIKdLx77Vw"
    }
   ],
   "kept_from_before": false,
@@ -1700,13 +1694,13 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCSXFMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://26733.live.streamtheworld.com:443/WCSXFMAAC.aac"
+    "detail": "audio/aac https://26183.live.streamtheworld.com:443/WCSXFMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCSXFM.mp3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg https://27053.live.streamtheworld.com:443/WCSXFM.mp3"
+    "detail": "audio/mpeg https://18513.live.streamtheworld.com:443/WCSXFM.mp3"
    }
   ],
   "kept_from_before": false,
@@ -1743,7 +1737,7 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSOYAM.mp3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg https://26223.live.streamtheworld.com:443/WSOYAM.mp3"
+    "detail": "audio/mpeg https://29312.live.streamtheworld.com:443/WSOYAM.mp3"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSOYAMAAC.aac",
@@ -1765,7 +1759,7 @@
     "url": "https://soundmanagement.streamguys1.com/WHCC",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg https://soundmanagement.streamguys1.com/WHCC?_ic2=1793401782643"
+    "detail": "audio/mpeg https://soundmanagement.streamguys1.com/WHCC?_ic2=1793402474551"
    }
   ],
   "kept_from_before": false,
@@ -1782,19 +1776,19 @@
     "url": "https://stream.revma.ihrhls.com/zc925",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc925?rj-org=n3ab-e2&rj-ttl=5&rj-tok=AAABoY8cqNAAnnQWpiv0aiYyDw"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc925?rj-org=n44b-e2&rj-ttl=5&rj-tok=AAABoY8nNzUAAwyyswzjL1mceg"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc925/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n2bb-e2.revma.ihrhls.com/zc925/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8cqTYAoU1HsIBmTiVTvQ"
+    "detail": "hls https://n15b-e2.revma.ihrhls.com/zc925/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nOVMAhwwATdzRZ2H3ZQ"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc925",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc925?rj-org=n07b-e2&rj-ttl=5&rj-tok=AAABoY8cqZsAbxOzmIrPZtuezQ"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc925?rj-org=n44b-e2&rj-ttl=5&rj-tok=AAABoY8nOeIAzzzQerAUIj1agQ"
    }
   ],
   "kept_from_before": false,
@@ -1811,19 +1805,19 @@
     "url": "https://live.amperwave.net/direct/audacy-wjzfmaac-imc",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-35-173-219-21.amperwave.net/audacy-wjzfmaac-imc?session-id=ae0e998ca8066bec3609bf51b08de160"
+    "detail": "audio/aacp https://prod-34-201-210-99.amperwave.net/audacy-wjzfmaac-imc?session-id=d723bced71360bc2ee025f0b43c03229"
    },
    {
     "url": "https://live.amperwave.net/manifest/audacy-wjzfmaac-imc",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-52-90-12-93.amperwave.net/audacy-wjzfmaac-imc"
+    "detail": "audio/aacp https://prod-35-173-219-21.amperwave.net/audacy-wjzfmaac-imc"
    },
    {
     "url": "http://live.amperwave.net/direct/audacy-wjzfmaac-imc",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp http://34.201.210.99/audacy-wjzfmaac-imc?session-id=cbb6873937d73e59a1e08f827050dab0"
+    "detail": "audio/aacp http://34.201.210.99/audacy-wjzfmaac-imc?session-id=b3e9f1758baec6bde58ffd6d2ed4228b"
    }
   ],
   "kept_from_before": false,
@@ -1840,7 +1834,7 @@
     "url": "https://live.amperwave.net/manifest/townsquare-wjimamaac-ibc3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-54-224-105-89.amperwave.net/townsquare-wjimamaac-ibc3"
+    "detail": "audio/aacp https://prod-3-85-29-251.amperwave.net/townsquare-wjimamaac-ibc3"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJRAMAAC.aac",
@@ -1868,19 +1862,19 @@
     "url": "https://stream.revma.ihrhls.com/zc1209",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1209?rj-org=n1cb-e2&rj-ttl=5&rj-tok=AAABoY8cqSAAMC2WnezQzppq5g"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1209?rj-org=n09b-e2&rj-ttl=5&rj-tok=AAABoY8nN14AXXPHXE5THLGboA"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc1209/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n41b-e2.revma.ihrhls.com/zc1209/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8cqZUAF-8o53FidzymyQ"
+    "detail": "hls https://n1fb-e2.revma.ihrhls.com/zc1209/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nN9cAZFo9k4hV1i267Q"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc1209",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc1209?rj-org=n0bb-e2&rj-ttl=5&rj-tok=AAABoY8cqksA7sK3XsCAkriTXw"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc1209?rj-org=n32b-e2&rj-ttl=5&rj-tok=AAABoY8nOHAAC3BOT3m_AzK3vg"
    }
   ],
   "kept_from_before": false,
@@ -1918,13 +1912,13 @@
     "url": "https://live.amperwave.net/direct/wgnam-wgnamaac-imc2",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-54-158-170-239.amperwave.net/wgnam-wgnamaac-imc2?session-id=7737a5cc36b4801d735bcc21e8c7bbff"
+    "detail": "audio/aacp https://prod-54-158-170-239.amperwave.net/wgnam-wgnamaac-imc2?session-id=a5dcfb1d117e7ef55055d7469dea4a03"
    },
    {
     "url": "http://live.amperwave.net/direct/wgnam-wgnamaac-imc2",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp http://44.201.65.65/wgnam-wgnamaac-imc2?session-id=fada053a6fc7e2038ee89fec62c3895e"
+    "detail": "audio/aacp http://44.201.65.65/wgnam-wgnamaac-imc2?session-id=b5a55c54e36a9af5ae7d47f14043b23a"
    },
    {
     "url": "http://18.204.34.32/wgnam-wgnammp3-ibc2?session-id=611cbf2ae655692204b4a6d45fef29e7",
@@ -1947,19 +1941,19 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://14553.live.streamtheworld.com:443/KUGNAMAAC.aac"
+    "detail": "audio/aac https://17633.live.streamtheworld.com:443/KUGNAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAMAAC.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://26113.live.streamtheworld.com:443/KUGNAMAAC/HLS/playlist.m3u8"
+    "detail": "hls https://17633.live.streamtheworld.com:443/KUGNAMAAC/HLS/playlist.m3u8"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://17853.live.streamtheworld.com:80/KUGNAMAAC.aac"
+    "detail": "audio/aac http://14013.live.streamtheworld.com:80/KUGNAMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -1992,19 +1986,19 @@
     "url": "https://live.amperwave.net/direct/audacy-wfanamaac-imc",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-18-213-193-109.amperwave.net/audacy-wfanamaac-imc?session-id=877c819f784533cf6ad9c9de91f1253c"
+    "detail": "audio/aacp https://prod-13-222-215-102.amperwave.net/audacy-wfanamaac-imc?session-id=5ee08af4e2ade65117bb64004ff9605f"
    },
    {
     "url": "https://live.amperwave.net/manifest/audacy-wfanamaac-imc",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-18-213-193-109.amperwave.net/audacy-wfanamaac-imc"
+    "detail": "audio/aacp https://prod-13-222-215-102.amperwave.net/audacy-wfanamaac-imc"
    },
    {
     "url": "http://live.amperwave.net/direct/audacy-wfanamaac-imc",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp http://52.23.151.190/audacy-wfanamaac-imc?session-id=06b599962c7fd9d01488f8656c68d603"
+    "detail": "audio/aacp http://52.23.151.190/audacy-wfanamaac-imc?session-id=4cb687b49f1ded52012d9c64f7a7438d"
    }
   ],
   "kept_from_before": false,
@@ -2020,19 +2014,19 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KABCAMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://18363.live.streamtheworld.com:443/KABCAMAAC.aac"
+    "detail": "audio/aac https://15233.live.streamtheworld.com:443/KABCAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KABCAMAAC.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://14923.live.streamtheworld.com:443/KABCAMAAC/HLS/playlist.m3u8"
+    "detail": "hls https://18243.live.streamtheworld.com:443/KABCAMAAC/HLS/playlist.m3u8"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KABCAMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://18363.live.streamtheworld.com:80/KABCAMAAC.aac"
+    "detail": "audio/aac http://19253.live.streamtheworld.com:80/KABCAMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -2048,13 +2042,13 @@
     "url": "https://live.amperwave.net/direct/goodkarma-kspnamaac-ibc",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-98-84-167-231.amperwave.net/goodkarma-kspnamaac-ibc?session-id=83d36bc4714cd8eb4b4dc3b29cad90bc"
+    "detail": "audio/aacp https://prod-98-84-167-231.amperwave.net/goodkarma-kspnamaac-ibc?session-id=ab0dad25be4d781c00f479bfcea20c73"
    },
    {
     "url": "http://live.amperwave.net/direct/goodkarma-kspnamaac-ibc",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp http://98.84.167.231/goodkarma-kspnamaac-ibc?session-id=c7894bc406b0ef23aa2998012755175b"
+    "detail": "audio/aacp http://98.84.167.231/goodkarma-kspnamaac-ibc?session-id=c76774f60afd7c4a37e64222ab67c960"
    }
   ],
   "kept_from_before": false,
@@ -2071,19 +2065,19 @@
     "url": "https://stream.revma.ihrhls.com/zc2577",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2577?rj-org=n08b-e2&rj-ttl=5&rj-tok=AAABoY8cqmsAh5G5pWo79i3gkg"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2577?rj-org=n2cb-e2&rj-ttl=5&rj-tok=AAABoY8nOWcABD3f8cgzI1Aidg"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc2577/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n1db-e2.revma.ihrhls.com/zc2577/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8cq1MAck4obJrIIwfYDw"
+    "detail": "hls https://n2bb-e2.revma.ihrhls.com/zc2577/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nOhUAttbqew4CW6SmDA"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc2577",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc2577?rj-org=n02b-e2&rj-ttl=5&rj-tok=AAABoY8cq98AKYyAvyBcLMIcpg"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc2577?rj-org=n1bb-e2&rj-ttl=5&rj-tok=AAABoY8nOqkAPGUUA_37vujRXA"
    }
   ],
   "kept_from_before": false,
@@ -2099,19 +2093,19 @@
     "url": "https://stream.revma.ihrhls.com/zc2661",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2661:alt?rj-org=n01b-e2&rj-ttl=5&rj-tok=AAABoY8cqxkAiXOPl-12xGI0Ew"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2661:alt?rj-org=n39b-e2&rj-ttl=5&rj-tok=AAABoY8nOmoAWDZzqwkrJf8g1A"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc2661/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n0bb-e2.revma.ihrhls.com/zc2661:alt/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8crBwApPPSS8Jc6dHcKw"
+    "detail": "hls https://n36b-e2.revma.ihrhls.com/zc2661:alt/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nO9wA6SH_3lJxkZa1RA"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc2661",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2661:alt?rj-org=n45b-e2&rj-ttl=5&rj-tok=AAABoY8crV0AnaVW4Tna06pmig"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2661:alt?rj-org=n04b-e2&rj-ttl=5&rj-tok=AAABoY8nPOIA32JR20e3RTDi8A"
    }
   ],
   "kept_from_before": false,
@@ -2143,28 +2137,100 @@
  {
   "school": "Campbell University",
   "calls": [],
-  "ok": [
-   {
-    "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/campbell.sidearmsports.com/podcasts/2026/10/23/CC_Live_oct_22.mp3",
-    "source": "remembered",
-    "ok": true,
-    "detail": "audio/mpeg https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/campbell.sidearmsports.com/podcasts/2026/10/23/CC_Live_oct_22.mp3"
-   },
-   {
-    "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/campbell.sidearmsports.com/podcasts/2026/10/23/KINLAW_TFTC.mp3",
-    "source": "remembered",
-    "ok": true,
-    "detail": "audio/mpeg https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/campbell.sidearmsports.com/podcasts/2026/10/23/KINLAW_TFTC.mp3"
-   },
-   {
-    "url": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/campbell.sidearmsports.com/podcasts/2026/10/15/homecoming_26_camel_call_final.mp3",
-    "source": "remembered",
-    "ok": true,
-    "detail": "audio/mpeg https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/campbell.sidearmsports.com/podcasts/2026/10/15/homecoming_26_camel_call_final.mp3"
-   }
-  ],
+  "ok": [],
   "kept_from_before": false,
-  "failed": []
+  "failed": [
+   {
+    "url": "https://gocamels.com",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "not audio (text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://gocamels.com/images/logos/site/site.png",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "fixed-length file (7626 bytes), not a live stream"
+   },
+   {
+    "url": "https://www.facebook.com/GoCamelsBSB",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "not audio (text/html; charset=\"utf-8\")"
+   },
+   {
+    "url": "https://gocamels.com/tickets",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "not audio (text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://www.facebook.com/GoCamelsMBB",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "not audio (text/html; charset=\"utf-8\")"
+   },
+   {
+    "url": "https://www.facebook.com/CampbellUniversityCheerleading",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "not audio (text/html; charset=\"utf-8\")"
+   },
+   {
+    "url": "https://www.facebook.com/gocamelsrun/",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "not audio (text/html; charset=\"utf-8\")"
+   },
+   {
+    "url": "https://www.facebook.com/gocamelsfootball",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "not audio (text/html; charset=\"utf-8\")"
+   },
+   {
+    "url": "https://www.facebook.com/CampbellGolf",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "not audio (text/html; charset=\"utf-8\")"
+   },
+   {
+    "url": "https://gocamels.com/documents/2026/9/22/Campbell_26-27_MGstats.pdf",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "not audio (text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://www.facebook.com/GoCamelsMSOC/",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "not audio (text/html; charset=\"utf-8\")"
+   },
+   {
+    "url": "https://www.facebook.com/cutennis",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "not audio (text/html; charset=\"utf-8\")"
+   },
+   {
+    "url": "https://www.facebook.com/GoCamelsWrestle/",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "fixed-length file (1007 bytes), not a live stream"
+   },
+   {
+    "url": "https://www.facebook.com/GoCamelsWBB",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "fixed-length file (988 bytes), not a live stream"
+   },
+   {
+    "url": "https://gocamels.com/documents/2026/9/10/2026-27_Campbell_WGolf_stats.pdf",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "not audio (text/html; charset=utf-8)"
+   }
+  ]
  },
  {
   "school": "Elon University",
@@ -2183,19 +2249,19 @@
     "url": "https://stream.revma.ihrhls.com/zc5599",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc5599?rj-org=n14b-e2&rj-ttl=5&rj-tok=AAABoY8cq2UAYoPgwdkDfleS8A"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc5599?rj-org=n42b-e2&rj-ttl=5&rj-tok=AAABoY8nOiAAI9hCNzKRm_dISg"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc5599/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n3cb-e2.revma.ihrhls.com/zc5599/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8cq84AIuiBhIVuKn8VWg"
+    "detail": "hls https://n3eb-e2.revma.ihrhls.com/zc5599/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nOsUAJFqYQPT5WwKLNg"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc5599",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc5599?rj-org=n23b-e2&rj-ttl=5&rj-tok=AAABoY8crIAAuUEw6gesrmmuVg"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc5599?rj-org=n23b-e2&rj-ttl=5&rj-tok=AAABoY8nO40AcgnuWwQxdoJxDA"
    }
   ],
   "kept_from_before": false,
@@ -2219,7 +2285,7 @@
     "url": "https://live.amperwave.net/manifest/townsquare-wwmjfmaac-ibc3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-3-85-29-251.amperwave.net/townsquare-wwmjfmaac-ibc3"
+    "detail": "audio/aacp https://prod-54-224-105-89.amperwave.net/townsquare-wwmjfmaac-ibc3"
    }
   ],
   "kept_from_before": false,
@@ -2235,7 +2301,7 @@
     "url": "https://live.amperwave.net/manifest/townsquare-wobmfmaac-ibc3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-54-224-105-89.amperwave.net/townsquare-wobmfmaac-ibc3"
+    "detail": "audio/aacp https://prod-3-85-29-251.amperwave.net/townsquare-wobmfmaac-ibc3"
    }
   ],
   "kept_from_before": false,
@@ -2253,19 +2319,19 @@
     "url": "https://stream.revma.ihrhls.com/zc2752",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2752?rj-org=n29b-e2&rj-ttl=5&rj-tok=AAABoY8cq7QAIiK_Lap15LgQSA"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2752?rj-org=n3cb-e2&rj-ttl=5&rj-tok=AAABoY8nOtQAxHar9NlLDSA38w"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc2752/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n46b-e2.revma.ihrhls.com/zc2752/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8crDsAzUVOHpWsg_Mmcw"
+    "detail": "hls https://n0bb-e2.revma.ihrhls.com/zc2752/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nO08ApaLLCMVWHc6MEw"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc2752",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc2752?rj-org=n45b-e2&rj-ttl=5&rj-tok=AAABoY8crO4AnTuOQdX8kFcWfQ"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc2752?rj-org=n3cb-e2&rj-ttl=5&rj-tok=AAABoY8nO_IApup7UL6-SER3wQ"
    }
   ],
   "kept_from_before": false,
@@ -2372,13 +2438,13 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRCUFMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://26383.live.streamtheworld.com:443/WRCUFMAAC.aac"
+    "detail": "audio/aac https://18103.live.streamtheworld.com:443/WRCUFMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRCUFM.mp3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg https://26443.live.streamtheworld.com:443/WRCUFM.mp3"
+    "detail": "audio/mpeg https://18323.live.streamtheworld.com:443/WRCUFM.mp3"
    }
   ],
   "kept_from_before": false,
@@ -2444,19 +2510,19 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEEXAMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://26383.live.streamtheworld.com:443/WEEXAMAAC.aac"
+    "detail": "audio/aac https://18103.live.streamtheworld.com:443/WEEXAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEEXAMAAC.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://26383.live.streamtheworld.com:443/WEEXAMAAC/HLS/playlist.m3u8"
+    "detail": "hls https://18103.live.streamtheworld.com:443/WEEXAMAAC/HLS/playlist.m3u8"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/WEEXAMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://18103.live.streamtheworld.com:80/WEEXAMAAC.aac"
+    "detail": "audio/aac http://18503.live.streamtheworld.com:80/WEEXAMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -2479,19 +2545,19 @@
     "url": "https://stream.revma.ihrhls.com/zc3405",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc3405?rj-org=n11b-e2&rj-ttl=5&rj-tok=AAABoY8crKgAfpyd9ufAXJ2cow"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc3405?rj-org=n11b-e2&rj-ttl=5&rj-tok=AAABoY8nPCUAqq5T2dTZYSIxUA"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc3405/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n22b-e2.revma.ihrhls.com/zc3405/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8cri8Ao829HTZn_XifHQ"
+    "detail": "hls https://n22b-e2.revma.ihrhls.com/zc3405/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nPXUAAQ2MpnnJXni3PA"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc3405",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc3405?rj-org=n24b-e2&rj-ttl=5&rj-tok=AAABoY8crroAonRhc7LA6jHMOA"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc3405?rj-org=n11b-e2&rj-ttl=5&rj-tok=AAABoY8nPm4AzQpV4wRy_xhgGQ"
    }
   ],
   "kept_from_before": false,
@@ -2507,13 +2573,13 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WTYDFMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://15693.live.streamtheworld.com:443/WTYDFMAAC.aac"
+    "detail": "audio/aac https://17563.live.streamtheworld.com:443/WTYDFMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WTYDFM.mp3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg https://26283.live.streamtheworld.com:443/WTYDFM.mp3"
+    "detail": "audio/mpeg https://29306.live.streamtheworld.com:443/WTYDFM.mp3"
    }
   ],
   "kept_from_before": false,
@@ -2536,13 +2602,13 @@
     "url": "https://wkcr.streamguys1.com/live",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg https://wkcr.streamguys1.com/live?_ic2=1793401783987"
+    "detail": "audio/mpeg https://wkcr.streamguys1.com/live?_ic2=1793402476043"
    },
    {
     "url": "http://wkcr.streamguys1.com/live",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg http://wkcr.streamguys1.com/live?_ic2=1793401784241"
+    "detail": "audio/mpeg http://wkcr.streamguys1.com/live?_ic2=1793402476404"
    }
   ],
   "kept_from_before": false,
@@ -2563,110 +2629,19 @@
   "ok": [
    {
     "url": "https://ice24.securenetsystems.net/WDCR",
-    "source": "given",
+    "source": "remembered",
     "ok": true,
     "detail": "audio/aac https://ice24.securenetsystems.net/WDCR"
    },
    {
     "url": "https://cdn.jwplayer.com/live/broadcast/KKl2XbUu.m3u8",
-    "source": "given",
+    "source": "remembered",
     "ok": true,
     "detail": "hls https://livecdn.use1-0009.jwplive.com/live/sites/fVLaPodx/media/KKl2XbUu/live.isml/.m3u8"
    }
   ],
   "kept_from_before": false,
-  "failed": [
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDCRAMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDCRAM.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDCR_AMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://wdcrradio.com/xmlrpc.php",
-    "source": "website",
-    "ok": false,
-    "detail": "HTTP Error 503: Service Temporarily Unavailable"
-   },
-   {
-    "url": "https://wdcrradio.com/feed/",
-    "source": "website",
-    "ok": false,
-    "detail": "not audio (application/rss+xml; charset=utf-8)"
-   },
-   {
-    "url": "https://wdcrradio.com/comments/feed/",
-    "source": "website",
-    "ok": false,
-    "detail": "not audio (application/rss+xml; charset=utf-8)"
-   },
-   {
-    "url": "https://wdcrradio.com/events/?ical=1",
-    "source": "website",
-    "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
-   },
-   {
-    "url": "https://wdcrradio.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwdcrradio.com%2F",
-    "source": "website",
-    "ok": false,
-    "detail": "not audio (application/json; charset=utf-8)"
-   },
-   {
-    "url": "https://wdcrradio.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwdcrradio.com%2F&format=xml",
-    "source": "website",
-    "ok": false,
-    "detail": "not audio (text/xml; charset=utf-8)"
-   },
-   {
-    "url": "https://wdcrradio.com/wp-json/",
-    "source": "website",
-    "ok": false,
-    "detail": "not audio (application/json; charset=utf-8)"
-   },
-   {
-    "url": "https://wdcrradio.com/wp-json/wp/v2/pages/21",
-    "source": "website",
-    "ok": false,
-    "detail": "not audio (application/json; charset=utf-8)"
-   },
-   {
-    "url": "https://wdcrradio.com/xmlrpc.php?rsd",
-    "source": "website",
-    "ok": false,
-    "detail": "HTTP Error 503: Service Temporarily Unavailable"
-   },
-   {
-    "url": "https://wdcrradio.com/",
-    "source": "website",
-    "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
-   },
-   {
-    "url": "https://wdcrradio.com/feed/podcast",
-    "source": "website",
-    "ok": false,
-    "detail": "not audio (text/xml; charset=utf-8)"
-   },
-   {
-    "url": "https://wdcrradio.com",
-    "source": "website",
-    "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
-   }
-  ]
+  "failed": []
  },
  {
   "school": "Harvard University",
@@ -2708,19 +2683,19 @@
     "url": "https://stream.revma.ihrhls.com/zc453",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc453?rj-org=n07b-e2&rj-ttl=5&rj-tok=AAABoY8crVYApMumBSPKsfeoxQ"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc453?rj-org=n07b-e2&rj-ttl=5&rj-tok=AAABoY8nPIQA0QP-oAjvIvz5Qg"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc453/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n13b-e2.revma.ihrhls.com/zc453/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8crbwAcYUqcz9lRMz6mg"
+    "detail": "hls https://n40b-e2.revma.ihrhls.com/zc453/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nPU0Ai1WGIGC5XlzvWA"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc453",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc453?rj-org=n2db-e2&rj-ttl=5&rj-tok=AAABoY8crmsAgE5b_s9XbLqEpA"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc453?rj-org=n38b-e2&rj-ttl=5&rj-tok=AAABoY8nPhwANLZYT56ERWQDqw"
    }
   ],
   "kept_from_before": false,
@@ -2750,19 +2725,19 @@
     "url": "https://stream.revma.ihrhls.com/zc2013",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2013?rj-org=n03b-e2&rj-ttl=5&rj-tok=AAABoY8crZYA1T0rC0E7qC7gew"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2013?rj-org=n03b-e2&rj-ttl=5&rj-tok=AAABoY8nPMEADfplk4F5PcjkLg"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc2013/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n3eb-e2.revma.ihrhls.com/zc2013/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8crf4ANtHU3CEEI439ew"
+    "detail": "hls https://n3eb-e2.revma.ihrhls.com/zc2013/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nPgoAjC5xOrz46C-smw"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc2013",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc2013?rj-org=n07b-e2&rj-ttl=5&rj-tok=AAABoY8crqcA_RAhWUNilvNZcQ"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc2013?rj-org=n03b-e2&rj-ttl=5&rj-tok=AAABoY8nPm4AzQpV4wRy_xhgGQ"
    }
   ],
   "kept_from_before": false,
@@ -2820,7 +2795,7 @@
     "url": "http://wjab.streamguys.net/live",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg http://wjab.streamguys.net/live?_ic2=1793401783843"
+    "detail": "audio/mpeg http://wjab.streamguys.net/live?_ic2=1793402475916"
    }
   ],
   "kept_from_before": false,
@@ -2837,22 +2812,23 @@
     "source": "remembered",
     "ok": true,
     "detail": "audio/mpeg https://ondemand.npr.org/anon.npr-mp3/npr/specials/2026/10/20261013_specials_two_bass_hit_christian_mcbride_and_john_clayton_on_ray_brown_at_100.mp3"
-   },
+   }
+  ],
+  "kept_from_before": false,
+  "failed": [
    {
     "url": "https://ondemand.npr.org/anon.npr-mp3/npr/me/2026/08/20260813_me_jon_batiste_pays_tribute_to_2_pianists_who_defined_their_genres_--_mozart_and_monk.mp3",
     "source": "remembered",
-    "ok": true,
-    "detail": "audio/mpeg https://ondemand.npr.org/anon.npr-mp3/npr/me/2026/08/20260813_me_jon_batiste_pays_tribute_to_2_pianists_who_defined_their_genres_--_mozart_and_monk.mp3"
+    "ok": false,
+    "detail": "fixed-length file (6719574 bytes), not a live stream"
    },
    {
     "url": "https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261029_atc_alaska_senate_spoiler_candidate.mp3",
     "source": "remembered",
-    "ok": true,
-    "detail": "audio/mpeg https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261029_atc_alaska_senate_spoiler_candidate.mp3"
+    "ok": false,
+    "detail": "fixed-length file (3805145 bytes), not a live stream"
    }
-  ],
-  "kept_from_before": false,
-  "failed": []
+  ]
  },
  {
   "school": "Bethune-Cookman University",
@@ -2886,13 +2862,13 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHBXFMAAC.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://26193.live.streamtheworld.com:443/WHBXFMAAC/HLS/playlist.m3u8"
+    "detail": "hls https://18153.live.streamtheworld.com:443/WHBXFMAAC/HLS/playlist.m3u8"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/WHBXFMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://18153.live.streamtheworld.com:80/WHBXFMAAC.aac"
+    "detail": "audio/aac http://26193.live.streamtheworld.com:80/WHBXFMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -2905,26 +2881,105 @@
   ],
   "ok": [
    {
+    "url": "https://streaming.live365.com/a60611",
+    "source": "directories",
+    "ok": true,
+    "detail": "audio/mpeg https://das-edge11-live365-dal03.cdnstream.com/a60611"
+   }
+  ],
+  "kept_from_before": false,
+  "failed": [
+   {
     "url": "https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261029_atc_alaska_senate_spoiler_candidate.mp3",
     "source": "remembered",
-    "ok": true,
-    "detail": "audio/mpeg https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261029_atc_alaska_senate_spoiler_candidate.mp3"
+    "ok": false,
+    "detail": "fixed-length file (3805145 bytes), not a live stream"
    },
    {
     "url": "https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261029_atc_candy_prices_got_you_scared_stiff_what_to_know_about_the_cost_of_halloween_this_year.mp3",
     "source": "remembered",
-    "ok": true,
-    "detail": "audio/mpeg https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261029_atc_candy_prices_got_you_scared_stiff_what_to_know_about_the_cost_of_halloween_this_year.mp3"
+    "ok": false,
+    "detail": "fixed-length file (4858401 bytes), not a live stream"
    },
    {
     "url": "https://cpa.ds.npr.org/s460/audio/2026/09/cassandra-wilson-audio.mp3",
     "source": "remembered",
-    "ok": true,
-    "detail": "audio/mpeg https://cpa.ds.npr.org/s460/audio/2026/09/cassandra-wilson-audio.mp3"
+    "ok": false,
+    "detail": "fixed-length file (3786377 bytes), not a live stream"
+   },
+   {
+    "url": "https://ondemand.npr.org/anon.npr-mp3/npr/specials/2026/10/20261030_specials_npr_special_5_takeaways_from_a_year_of_listening_to_swing_voters.mp3",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "fixed-length file (48349980 bytes), not a live stream"
+   },
+   {
+    "url": "https://cpa.ds.npr.org/s460/audio/2026/09/cassandra-wilson-audio.mp3",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "fixed-length file (3786377 bytes), not a live stream"
+   },
+   {
+    "url": "https://cpa.ds.npr.org/s460/audio/2026/07/ms-folk-festival-interview-2026-full.mp3",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "fixed-length file (31890229 bytes), not a live stream"
+   },
+   {
+    "url": "https://cpa.ds.npr.org/s460/audio/2025/07/inauguration.mp3",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "fixed-length file (3900166 bytes), not a live stream"
+   },
+   {
+    "url": "https://npr.brightspotcdn.com/legacy/sites/wjsu/files/201507/logo_fid.png",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "fixed-length file (26051 bytes), not a live stream"
+   },
+   {
+    "url": "https://www.wjsu.org/",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "not audio (text/html;charset=utf-8)"
+   },
+   {
+    "url": "https://www.wjsu.org/people/mara-liasson",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "not audio (text/html;charset=utf-8)"
+   },
+   {
+    "url": "https://www.wjsu.org/people/miles-parks",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "not audio (text/html;charset=utf-8)"
+   },
+   {
+    "url": "https://www.wjsu.org/people/domenico-montanaro",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "not audio (text/html;charset=utf-8)"
+   },
+   {
+    "url": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x2000+0+0/resize/3000x2000!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F34%2F31%2Fe7754b44405cb3fcde4b584d54f3%2Fgettyimages-2301268276.jpg",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "fixed-length file (389170 bytes), not a live stream"
+   },
+   {
+    "url": "https://npr.brightspotcdn.com/dims4/default/79a8035/2147483647/resize/x60/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fwjsu%2Ffiles%2F201507%2Flogo_fid.png",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "fixed-length file (18249 bytes), not a live stream"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJSUAMAAC.aac",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
    }
-  ],
-  "kept_from_before": false,
-  "failed": []
+  ]
  },
  {
   "school": "Mississippi Valley State University",
@@ -2940,26 +2995,105 @@
   ],
   "ok": [
    {
+    "url": "https://ice41.securenetsystems.net/WPRL",
+    "source": "securenet",
+    "ok": true,
+    "detail": "audio/aac https://ice41.securenetsystems.net/WPRL"
+   }
+  ],
+  "kept_from_before": false,
+  "failed": [
+   {
     "url": "https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261029_atc_alaska_senate_spoiler_candidate.mp3",
     "source": "remembered",
-    "ok": true,
-    "detail": "audio/mpeg https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261029_atc_alaska_senate_spoiler_candidate.mp3"
+    "ok": false,
+    "detail": "fixed-length file (3805145 bytes), not a live stream"
    },
    {
     "url": "https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261029_atc_patrick_stewart_a_perceptive_patriarch_in_star_trek_and_x-men_dies_at_86.mp3",
     "source": "remembered",
-    "ok": true,
-    "detail": "audio/mpeg https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261029_atc_patrick_stewart_a_perceptive_patriarch_in_star_trek_and_x-men_dies_at_86.mp3"
+    "ok": false,
+    "detail": "fixed-length file (3684355 bytes), not a live stream"
    },
    {
     "url": "https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261029_atc_midterms-california_redistricting.mp3",
     "source": "remembered",
-    "ok": true,
-    "detail": "audio/mpeg https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261029_atc_midterms-california_redistricting.mp3"
+    "ok": false,
+    "detail": "fixed-length file (10605340 bytes), not a live stream"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WPRLFMAAC.aac",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WPRLFM.mp3",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WPRL_FMAAC.aac",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://ondemand.npr.org/anon.npr-mp3/npr/specials/2026/10/20261030_specials_npr_special_5_takeaways_from_a_year_of_listening_to_swing_voters.mp3",
+    "source": "website",
+    "ok": false,
+    "detail": "fixed-length file (48349980 bytes), not a live stream"
+   },
+   {
+    "url": "https://ondemand.npr.org/anon.npr-mp3/npr/wesun/2026/10/20261025_wesun_democrats_see_an_opportunity_to_tilt_pennsylvania_s_state_legislature_their_way.mp3",
+    "source": "website",
+    "ok": false,
+    "detail": "fixed-length file (4016213 bytes), not a live stream"
+   },
+   {
+    "url": "https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261028_atc_tweens_and_teens_on_ai.mp3",
+    "source": "website",
+    "ok": false,
+    "detail": "fixed-length file (3204119 bytes), not a live stream"
+   },
+   {
+    "url": "https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261029_atc_candy_prices_got_you_scared_stiff_what_to_know_about_the_cost_of_halloween_this_year.mp3",
+    "source": "website",
+    "ok": false,
+    "detail": "fixed-length file (4858401 bytes), not a live stream"
+   },
+   {
+    "url": "https://ondemand.npr.org/anon.npr-mp3/npr/me/2026/10/20261029_me_for_voters_from_immigrant_families_the_needs_of_others_is_a_priority_at_the_polls.mp3",
+    "source": "website",
+    "ok": false,
+    "detail": "fixed-length file (3100884 bytes), not a live stream"
+   },
+   {
+    "url": "https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261030_atc_how_powerful_is_elon_musk_how_his_political_influence_compares_to_past_u.s._moguls.mp3",
+    "source": "website",
+    "ok": false,
+    "detail": "fixed-length file (4089357 bytes), not a live stream"
+   },
+   {
+    "url": "https://ondemand.npr.org/anon.npr-mp3/npr/me/2026/10/20261030_me_morning_news_brief.mp3",
+    "source": "website",
+    "ok": false,
+    "detail": "fixed-length file (11475949 bytes), not a live stream"
+   },
+   {
+    "url": "https://npr.brightspotcdn.com/legacy/sites/wprl/files/201508/logo_fid.png",
+    "source": "website",
+    "ok": false,
+    "detail": "fixed-length file (22073 bytes), not a live stream"
+   },
+   {
+    "url": "https://www.wprl.org/",
+    "source": "website",
+    "ok": false,
+    "detail": "not audio (text/html;charset=utf-8)"
    }
-  ],
-  "kept_from_before": false,
-  "failed": []
+  ]
  },
  {
   "school": "University of Arkansas at Pine Bluff",
@@ -2976,14 +3110,105 @@
   ],
   "ok": [
    {
-    "url": "https://cdnrf.securenetsystems.net/file_radio/stations_large/KGRM/podcasts/2898064/coverArt.heic",
-    "source": "remembered",
+    "url": "https://ice41.securenetsystems.net/KGRM?playSessionID=27007793-697E-4C07-A287049708D476F7",
+    "source": "listen-page",
     "ok": true,
-    "detail": "application/octet-stream https://cdnrf.securenetsystems.net/file_radio/stations_large/KGRM/podcasts/2898064/coverArt.heic"
+    "detail": "audio/aac https://ice41.securenetsystems.net/KGRM?playSessionID=27007793-697E-4C07-A287049708D476F7"
    }
   ],
   "kept_from_before": false,
-  "failed": []
+  "failed": [
+   {
+    "url": "https://radio.securenetsystems.net/",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "HTTP Error 404: "
+   },
+   {
+    "url": "https://ssiadnweb.securenetsystems.net/",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "HTTP Error 404: "
+   },
+   {
+    "url": "https://cdnrf.securenetsystems.net/file_radio/",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGRMAMAAC.aac",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGRMAM.mp3",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGRM_AMAAC.aac",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGRMFMAAC.aac",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGRMFM.mp3",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGRM_FMAAC.aac",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGRMAAC.aac",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGRM.mp3",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://mytuner-radio.com/search/?q=KGRM",
+    "source": "directories",
+    "ok": false,
+    "detail": "fixed-length file (194058 bytes), not a live stream"
+   },
+   {
+    "url": "https://mytuner-radio.com/search/",
+    "source": "directories",
+    "ok": false,
+    "detail": "fixed-length file (39696 bytes), not a live stream"
+   },
+   {
+    "url": "https://mytuner-radio.com/pt/procurar/",
+    "source": "directories",
+    "ok": false,
+    "detail": "fixed-length file (39896 bytes), not a live stream"
+   },
+   {
+    "url": "https://mytuner-radio.com/es/buscar/",
+    "source": "directories",
+    "ok": false,
+    "detail": "fixed-length file (39899 bytes), not a live stream"
+   }
+  ]
  },
  {
   "school": "Prairie View A&M University",
@@ -3055,13 +3280,13 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNSBFMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://26113.live.streamtheworld.com:443/WNSBFMAAC.aac"
+    "detail": "audio/aac https://26413.live.streamtheworld.com:443/WNSBFMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNSBFM.mp3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg https://17803.live.streamtheworld.com:443/WNSBFM.mp3"
+    "detail": "audio/mpeg https://26353.live.streamtheworld.com:443/WNSBFM.mp3"
    }
   ],
   "kept_from_before": false,
@@ -3086,7 +3311,7 @@
     "url": "https://www.zeno.fm/player/WPJKAM",
     "source": "listen-page",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (13922 bytes), not a live stream"
    },
    {
     "url": "https://espnpackaging-vh.akamaihd.net/i/motion/2021/1109/dm_211109_justin_moore_3_pointer/dm_211109_justin_moore_3_pointer.smil/master.m3u8",
@@ -3215,7 +3440,7 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WXSMAMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://29308.live.streamtheworld.com:443/WXSMAMAAC.aac"
+    "detail": "audio/aac https://18853.live.streamtheworld.com:443/WXSMAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WXSMAMAAC.m3u8",
@@ -3244,19 +3469,19 @@
     "url": "https://live.amperwave.net/manifest/audacy-wordamaac-hlsc.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://prod-18-234-58-253.amperwave.net/audacy-wordamaac-hlsc.m3u8"
+    "detail": "hls https://prod-3-89-238-41.amperwave.net/audacy-wordamaac-hlsc.m3u8"
    },
    {
     "url": "https://live.amperwave.net/manifest/audacy-wordamaac-imc",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-13-222-215-102.amperwave.net/audacy-wordamaac-imc"
+    "detail": "audio/aacp https://prod-54-147-184-97.amperwave.net/audacy-wordamaac-imc"
    },
    {
     "url": "http://live.amperwave.net/manifest/audacy-wordamaac-hlsc.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://prod-54-174-185-17.amperwave.net/audacy-wordamaac-hlsc.m3u8"
+    "detail": "hls https://prod-3-89-238-41.amperwave.net/audacy-wordamaac-hlsc.m3u8"
    }
   ],
   "kept_from_before": false,
@@ -3272,7 +3497,7 @@
     "url": "https://live.amperwave.net/direct/creekmedia-wnexfmaac-ibc1",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-3-238-92-150.amperwave.net/creekmedia-wnexfmaac-ibc1?session-id=46bca11ad27a466df1c73a044f768478"
+    "detail": "audio/aacp https://prod-3-238-92-150.amperwave.net/creekmedia-wnexfmaac-ibc1?session-id=f01039b9c36854b36a6dd50b7db64474"
    }
   ],
   "kept_from_before": false,
@@ -3315,73 +3540,73 @@
     "url": "http://streamdb8web.securenetsystems.net/v5/WPTNAM",
     "source": "website",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (51657 bytes), not a live stream"
    },
    {
     "url": "http://www.1061theeagle.com/",
     "source": "website",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (56616 bytes), not a live stream"
    },
    {
     "url": "https://streamdb5web.securenetsystems.net/cirrusencore/WPTNAM",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (43636 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/search/?q=WPTN",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (195369 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/search/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39696 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/pt/procurar/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39896 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/es/buscar/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39899 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/de/suche/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39879 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/it/ricerca/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39870 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/fr/cherche/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39886 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/no/sok/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39812 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/da/sog/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39826 bytes), not a live stream"
    }
   ]
  },
@@ -3430,23 +3655,24 @@
     "url": "https://wvtf-ice2.streamguys1.com/radioiq-mp3-64.mp3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg https://wvtf-ice2.streamguys1.com/radioiq-mp3-64.mp3?_ic2=1793401784394"
+    "detail": "audio/mpeg https://wvtf-ice2.streamguys1.com/radioiq-mp3-64.mp3?_ic2=1793402476729"
    },
    {
     "url": "https://wvtf-ice2.streamguys1.com/wvtfmusic-mp3-64.mp3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg https://wvtf-ice2.streamguys1.com/wvtfmusic-mp3-64.mp3?_ic2=1793401784733"
-   },
-   {
-    "url": "https://cpa.ds.npr.org/s870/audio/2026/10/online-virginia-parents-caregivers-struggle-under-new-reporting-system.mp3",
-    "source": "remembered",
-    "ok": true,
-    "detail": "audio/mpeg https://cpa.ds.npr.org/s870/audio/2026/10/online-virginia-parents-caregivers-struggle-under-new-reporting-system.mp3"
+    "detail": "audio/mpeg https://wvtf-ice2.streamguys1.com/wvtfmusic-mp3-64.mp3?_ic2=1793402477118"
    }
   ],
   "kept_from_before": false,
-  "failed": []
+  "failed": [
+   {
+    "url": "https://cpa.ds.npr.org/s870/audio/2026/10/online-virginia-parents-caregivers-struggle-under-new-reporting-system.mp3",
+    "source": "remembered",
+    "ok": false,
+    "detail": "fixed-length file (2798490 bytes), not a live stream"
+   }
+  ]
  },
  {
   "school": "Wofford College",
@@ -3476,13 +3702,13 @@
     "url": "https://www.tfrrs.org/teams/xc/SC_college_m_Wofford.html",
     "source": "listen-page",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (63459 bytes), not a live stream"
    },
    {
     "url": "https://www.facebook.com/WoffordFootball/",
     "source": "listen-page",
     "ok": false,
-    "detail": "not audio (text/html; charset=\"utf-8\")"
+    "detail": "fixed-length file (1007 bytes), not a live stream"
    },
    {
     "url": "https://woffordterriers.com/sports/football/stats",
@@ -3494,7 +3720,7 @@
     "url": "https://www.facebook.com/WoffordMGolf/",
     "source": "listen-page",
     "ok": false,
-    "detail": "not audio (text/html; charset=\"utf-8\")"
+    "detail": "fixed-length file (1001 bytes), not a live stream"
    },
    {
     "url": "https://scorereporting.sportssystems.com/views/default/report.cfm?conferenceID=10&sportID=3&seasonID=152&g=M&schoolID=97",
@@ -3512,7 +3738,7 @@
     "url": "https://www.tfrrs.org/teams/tf/SC_college_m_Wofford.html",
     "source": "listen-page",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (78502 bytes), not a live stream"
    },
    {
     "url": "https://woffordterriers.com/sports/mens-tennis/stats/",
@@ -3524,7 +3750,7 @@
     "url": "https://www.facebook.com/WoffordWBB/",
     "source": "listen-page",
     "ok": false,
-    "detail": "not audio (text/html;charset=utf-8)"
+    "detail": "fixed-length file (997 bytes), not a live stream"
    },
    {
     "url": "https://woffordterriers.com/sports/wbball/stats/",
@@ -3536,7 +3762,7 @@
     "url": "https://www.tfrrs.org/teams/xc/SC_college_f_Wofford.html",
     "source": "listen-page",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (64093 bytes), not a live stream"
    },
    {
     "url": "https://scorereporting.sportssystems.com/views/default/report.cfm?sportID=3&g=W&seasonID=168",
@@ -3556,13 +3782,13 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KETRFMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://18323.live.streamtheworld.com:443/KETRFMAAC.aac"
+    "detail": "audio/aac https://26273.live.streamtheworld.com:443/KETRFMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KETRFM.mp3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg https://17793.live.streamtheworld.com:443/KETRFM.mp3"
+    "detail": "audio/mpeg https://26443.live.streamtheworld.com:443/KETRFM.mp3"
    }
   ],
   "kept_from_before": false,
@@ -3601,19 +3827,19 @@
     "url": "https://stream.revma.ihrhls.com/zc2197",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2197?rj-org=n19b-e2&rj-ttl=5&rj-tok=AAABoY8csOEASSGmD85mBLAZhw"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2197?rj-org=n43b-e2&rj-ttl=5&rj-tok=AAABoY8nQeYAexWrlXXSdpybyA"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc2197/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n31b-e2.revma.ihrhls.com/zc2197/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8csVgAqUF_cEJZu7mPhg"
+    "detail": "hls https://n23b-e2.revma.ihrhls.com/zc2197/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nQnUAZhtsZScqAgs4Mg"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc2197",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc2197?rj-org=n0bb-e2&rj-ttl=5&rj-tok=AAABoY8csfQAKl8zRNXCxGIMxw"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc2197?rj-org=n01b-e2&rj-ttl=5&rj-tok=AAABoY8nQwIAiOXlTOpMsYeyKA"
    }
   ],
   "kept_from_before": false,
@@ -3629,7 +3855,7 @@
     "url": "https://live.amperwave.net/manifest/townsquare-khlafmaac-ibc3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-52-91-27-46.amperwave.net/townsquare-khlafmaac-ibc3"
+    "detail": "audio/aacp https://prod-98-86-150-170.amperwave.net/townsquare-khlafmaac-ibc3"
    },
    {
     "url": "http://98.86.150.170/townsquare-khlafmaac-ibc3?session-id=328b0e51282a130ff6a42131e0bba125",
@@ -3755,67 +3981,67 @@
     "url": "https://mytuner-radio.com/search/?q=WEIU",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (197368 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/search/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39696 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/pt/procurar/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39896 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/es/buscar/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39899 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/de/suche/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39879 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/it/ricerca/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39870 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/fr/cherche/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39886 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/no/sok/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39812 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/da/sog/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39826 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/fi/hae/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39854 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/sv/sok/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39811 bytes), not a live stream"
    }
   ]
  },
@@ -3984,67 +4210,67 @@
     "url": "https://mytuner-radio.com/search/?q=KRNT",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (193460 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/search/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39696 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/pt/procurar/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39896 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/es/buscar/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39899 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/de/suche/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39879 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/it/ricerca/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39870 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/fr/cherche/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39886 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/no/sok/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39812 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/da/sog/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39826 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/fi/hae/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39854 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/sv/sok/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39811 bytes), not a live stream"
    }
   ]
  },
@@ -4097,13 +4323,13 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KSTPAMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://15263.live.streamtheworld.com:443/KSTPAMAAC.aac"
+    "detail": "audio/aac https://14943.live.streamtheworld.com:443/KSTPAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KSTPAM.mp3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg https://24153.live.streamtheworld.com:443/KSTPAM.mp3"
+    "detail": "audio/mpeg https://14933.live.streamtheworld.com:443/KSTPAM.mp3"
    }
   ],
   "kept_from_before": false,
@@ -4159,67 +4385,67 @@
     "url": "https://mytuner-radio.com/search/?q=WVUR",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (181116 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/search/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39696 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/pt/procurar/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39896 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/es/buscar/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39899 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/de/suche/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39879 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/it/ricerca/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39870 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/fr/cherche/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39886 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/no/sok/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39812 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/da/sog/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39826 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/fi/hae/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39854 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/sv/sok/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39811 bytes), not a live stream"
    }
   ]
  },
@@ -4260,7 +4486,7 @@
     "url": "https://live.amperwave.net/manifest/townsquare-kmptamaac-ibc3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-54-166-183-83.amperwave.net/townsquare-kmptamaac-ibc3"
+    "detail": "audio/aacp https://prod-3-231-216-177.amperwave.net/townsquare-kmptamaac-ibc3"
    }
   ],
   "kept_from_before": false,
@@ -4276,7 +4502,7 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KXLXAMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://14623.live.streamtheworld.com:443/KXLXAMAAC.aac"
+    "detail": "audio/aac https://17643.live.streamtheworld.com:443/KXLXAMAAC.aac"
    },
    {
     "url": "https://14623.live.streamtheworld.com/KXLXAMAAC.aac",
@@ -4304,7 +4530,7 @@
     "url": "https://live.amperwave.net/direct/horizonbroadcasting-kbnwammp3-ibc1",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg https://prod-54-196-95-124.amperwave.net/horizonbroadcasting-kbnwammp3-ibc1?session-id=766e4ba75b09f272b0abd32292c9fdba"
+    "detail": "audio/mpeg https://prod-44-213-133-1.amperwave.net/horizonbroadcasting-kbnwammp3-ibc1?session-id=75ce3fb075f7b2496fe8bbd30e9b8e3c"
    }
   ],
   "kept_from_before": false,
@@ -4360,7 +4586,7 @@
     "url": "https://stream.radiojar.com/38vtv55ez38uv",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg http://n0d.radiojar.com/38vtv55ez38uv?rj-ttl=5&rj-tok=AAABoY8ctzIASAAcy0SxdE5QoQ"
+    "detail": "audio/mpeg http://n0e.radiojar.com/38vtv55ez38uv?rj-ttl=5&rj-tok=AAABoY8nSQ0AY-56Ar3ZSTH7Ow"
    }
   ],
   "kept_from_before": false,
@@ -4425,67 +4651,67 @@
     "url": "https://mytuner-radio.com/search/?q=KXTK",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (161693 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/search/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39696 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/pt/procurar/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39896 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/es/buscar/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39899 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/de/suche/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39879 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/it/ricerca/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39870 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/fr/cherche/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39886 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/no/sok/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39812 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/da/sog/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39826 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/fi/hae/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39854 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/sv/sok/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39811 bytes), not a live stream"
    }
   ]
  },
@@ -4527,7 +4753,7 @@
     "url": "https://live.amperwave.net/manifest/townsquare-ksubamaac-ibc3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-98-86-150-170.amperwave.net/townsquare-ksubamaac-ibc3"
+    "detail": "audio/aacp https://prod-52-91-27-46.amperwave.net/townsquare-ksubamaac-ibc3"
    }
   ],
   "kept_from_before": false,
@@ -4549,7 +4775,7 @@
     "url": "https://thefansportsnetwork.com/wp-content/uploads/2022/11/THE-FAN-STREAMING-PAGE.png",
     "source": "listen-page",
     "ok": false,
-    "detail": "not audio (image/png)"
+    "detail": "fixed-length file (551266 bytes), not a live stream"
    },
    {
     "url": "https://thefansportsnetwork.com/listen-live/",
@@ -4569,19 +4795,19 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJBCAMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://17573.live.streamtheworld.com:443/WJBCAMAAC.aac"
+    "detail": "audio/aac https://26433.live.streamtheworld.com:443/WJBCAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJBCAMAAC.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://26433.live.streamtheworld.com:443/WJBCAMAAC/HLS/playlist.m3u8"
+    "detail": "hls https://17573.live.streamtheworld.com:443/WJBCAMAAC/HLS/playlist.m3u8"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/WJBCAMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://29318.live.streamtheworld.com:80/WJBCAMAAC.aac"
+    "detail": "audio/aac http://17573.live.streamtheworld.com:80/WJBCAMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -4617,73 +4843,73 @@
     "url": "https://player.amperwave.net/13985",
     "source": "website",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (1497 bytes), not a live stream"
    },
    {
     "url": "https://sync.amperwave.net/sync/sync-cookies-lib.umd.cjs",
     "source": "website",
     "ok": false,
-    "detail": "not audio (text/plain; charset=utf-8)"
+    "detail": "fixed-length file (6590 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/search/?q=WVIG",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (198588 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/search/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39696 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/pt/procurar/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39896 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/es/buscar/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39899 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/de/suche/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39879 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/it/ricerca/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39870 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/fr/cherche/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39886 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/no/sok/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39812 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/da/sog/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39826 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/fi/hae/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39854 bytes), not a live stream"
    }
   ]
  },
@@ -4697,7 +4923,7 @@
     "url": "https://live.amperwave.net/manifest/forevercomm-wfgsfmaac-hlsc4.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://prod-3-239-109-218.amperwave.net/forevercomm-wfgsfmaac-hlsc4.m3u8"
+    "detail": "hls https://prod-54-208-35-82.amperwave.net/forevercomm-wfgsfmaac-hlsc4.m3u8"
    }
   ],
   "kept_from_before": false,
@@ -4713,19 +4939,19 @@
     "url": "https://stream.revma.ihrhls.com/zc1681",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1681?rj-org=n0eb-e2&rj-ttl=5&rj-tok=AAABoY8cuBAA6-RyuJt-L35Avw"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1681?rj-org=n27b-e2&rj-ttl=5&rj-tok=AAABoY8nSVwAywbDn2KggSEyDA"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc1681/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n0fb-e2.revma.ihrhls.com/zc1681/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8cuG0Awn9Bh8x2drNMsQ"
+    "detail": "hls https://n3bb-e2.revma.ihrhls.com/zc1681/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nSgcAwzarIH8qCtG9Yg"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc1681",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc1681?rj-org=n0eb-e2&rj-ttl=5&rj-tok=AAABoY8cuOMAK8ybbKRjgCY26g"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc1681?rj-org=n11b-e2&rj-ttl=5&rj-tok=AAABoY8nSooAcdEh0tj4zarsOg"
    }
   ],
   "kept_from_before": false,
@@ -4761,73 +4987,73 @@
     "url": "https://mytuner-radio.com/search/?q=KCVM",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (164352 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/search/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39696 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/pt/procurar/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39896 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/es/buscar/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39899 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/de/suche/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39879 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/it/ricerca/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39870 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/fr/cherche/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39886 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/no/sok/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39812 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/da/sog/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39826 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/fi/hae/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39854 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/sv/sok/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39811 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/nl/zoeken/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39781 bytes), not a live stream"
    }
   ]
  },
@@ -4857,7 +5083,7 @@
     "url": "https://live.amperwave.net/manifest/saga-wnaxamaac-hlsc1.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://prod-54-227-167-196.amperwave.net/saga-wnaxamaac-hlsc1.m3u8"
+    "detail": "hls https://prod-44-195-61-138.amperwave.net/saga-wnaxamaac-hlsc1.m3u8"
    }
   ],
   "kept_from_before": false,
@@ -4889,19 +5115,19 @@
     "url": "https://stream.revma.ihrhls.com/zc1869",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1869?rj-org=n40b-e2&rj-ttl=5&rj-tok=AAABoY8cuUUAbcHvDQX6JKH-ww"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1869?rj-org=n04b-e2&rj-ttl=5&rj-tok=AAABoY8nSosA_0gBR-gFvESymg"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc1869/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n15b-e2.revma.ihrhls.com/zc1869/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8cubQAqmfUipLP35k0rw"
+    "detail": "hls https://n16b-e2.revma.ihrhls.com/zc1869/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nS-EALLmkDIDxzSZ9SA"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc1869",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc1869?rj-org=n18b-e2&rj-ttl=5&rj-tok=AAABoY8cumIAzAJU0QnqNJj0SQ"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc1869?rj-org=n14b-e2&rj-ttl=5&rj-tok=AAABoY8nTK0ApbWHnmMQHhai3g"
    }
   ],
   "kept_from_before": false,
@@ -4917,19 +5143,19 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KHXSFMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://15263.live.streamtheworld.com:443/KHXSFMAAC.aac"
+    "detail": "audio/aac https://18253.live.streamtheworld.com:443/KHXSFMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KHXSFMAAC.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://18253.live.streamtheworld.com:443/KHXSFMAAC/HLS/playlist.m3u8"
+    "detail": "hls https://14093.live.streamtheworld.com:443/KHXSFMAAC/HLS/playlist.m3u8"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KHXSFMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://14093.live.streamtheworld.com:80/KHXSFMAAC.aac"
+    "detail": "audio/aac http://14943.live.streamtheworld.com:80/KHXSFMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -4945,13 +5171,13 @@
     "url": "https://live.amperwave.net/direct/saga-wkfnamaac-ibc2",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-44-204-225-175.amperwave.net/saga-wkfnamaac-ibc2?session-id=0307ada0f956ed21e55668c77d057534"
+    "detail": "audio/aacp https://prod-3-95-213-196.amperwave.net/saga-wkfnamaac-ibc2?session-id=5c0419b813787b57a6fca0a7590ac66b"
    },
    {
     "url": "https://live.amperwave.net/manifest/saga-wkfnamaac-hlsc2.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://prod-44-195-61-138.amperwave.net/saga-wkfnamaac-hlsc2.m3u8"
+    "detail": "hls https://prod-54-227-167-196.amperwave.net/saga-wkfnamaac-hlsc2.m3u8"
    }
   ],
   "kept_from_before": false,
@@ -4980,79 +5206,79 @@
     "url": "https://ekusports.com/images/logos/site/site.png",
     "source": "listen-page",
     "ok": false,
-    "detail": "not audio (image/webp)"
+    "detail": "fixed-length file (2118 bytes), not a live stream"
    },
    {
     "url": "https://www.facebook.com/ekubase",
     "source": "listen-page",
     "ok": false,
-    "detail": "not audio (text/html;charset=utf-8)"
+    "detail": "fixed-length file (980 bytes), not a live stream"
    },
    {
     "url": "https://www.facebook.com/ekuhoops",
     "source": "listen-page",
     "ok": false,
-    "detail": "not audio (text/html;charset=utf-8)"
+    "detail": "fixed-length file (982 bytes), not a live stream"
    },
    {
     "url": "https://www.facebook.com/profile.php?id=100095353965710&mibextid=LQQJ4d",
     "source": "listen-page",
     "ok": false,
-    "detail": "not audio (text/html;charset=utf-8)"
+    "detail": "fixed-length file (974 bytes), not a live stream"
    },
    {
     "url": "https://www.facebook.com/EKUFootball",
     "source": "listen-page",
     "ok": false,
-    "detail": "not audio (text/html; charset=\"utf-8\")"
+    "detail": "fixed-length file (988 bytes), not a live stream"
    },
    {
     "url": "https://www.facebook.com/ekucolonels",
     "source": "listen-page",
     "ok": false,
-    "detail": "not audio (text/html; charset=\"utf-8\")"
+    "detail": "fixed-length file (988 bytes), not a live stream"
    },
    {
     "url": "https://www.facebook.com/profile.php?id=100095380664691",
     "source": "listen-page",
     "ok": false,
-    "detail": "not audio (text/html;charset=utf-8)"
+    "detail": "fixed-length file (936 bytes), not a live stream"
    },
    {
     "url": "https://www.facebook.com/EKUWBB",
     "source": "listen-page",
     "ok": false,
-    "detail": "not audio (text/html; charset=\"utf-8\")"
+    "detail": "fixed-length file (978 bytes), not a live stream"
    },
    {
     "url": "https://www.facebook.com/ekusoccer/",
     "source": "listen-page",
     "ok": false,
-    "detail": "not audio (text/html;charset=utf-8)"
+    "detail": "fixed-length file (995 bytes), not a live stream"
    },
    {
     "url": "https://www.facebook.com/pages/EKU-Softball/190600310952952",
     "source": "listen-page",
     "ok": false,
-    "detail": "not audio (text/html;charset=utf-8)"
+    "detail": "fixed-length file (888 bytes), not a live stream"
    },
    {
     "url": "https://www.facebook.com/profile.php?id=61580275024934",
     "source": "listen-page",
     "ok": false,
-    "detail": "not audio (text/html;charset=utf-8)"
+    "detail": "fixed-length file (938 bytes), not a live stream"
    },
    {
     "url": "https://www.facebook.com/EkuVolleyball",
     "source": "listen-page",
     "ok": false,
-    "detail": "not audio (text/html; charset=\"utf-8\")"
+    "detail": "fixed-length file (992 bytes), not a live stream"
    },
    {
     "url": "https://www.eku.edu/bratzke-student-athlete-academic-success-center/",
     "source": "listen-page",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (159886 bytes), not a live stream"
    },
    {
     "url": "https://ekusports.com/sports/2026/2/18/united-athletic-conference.aspx",
@@ -5092,73 +5318,73 @@
     "url": "https://mytuner-radio.com/search/?q=WLXA",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (150643 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/search/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39696 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/pt/procurar/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39896 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/es/buscar/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39899 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/de/suche/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39879 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/it/ricerca/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39870 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/fr/cherche/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39886 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/no/sok/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39812 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/da/sog/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39826 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/fi/hae/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39854 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/sv/sok/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39811 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/nl/zoeken/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39781 bytes), not a live stream"
    }
   ]
  },
@@ -5172,13 +5398,13 @@
     "url": "https://kxtr.streamguys1.com/live2-aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://kxtr.streamguys1.com/live2-aac?_ic2=1793401787383"
+    "detail": "audio/aac https://kxtr.streamguys1.com/live2-aac?_ic2=1793402480093"
    },
    {
     "url": "http://kxtr.streamguys1.com/live2-aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://kxtr.streamguys1.com/live2-aac?_ic2=1793401787653"
+    "detail": "audio/aac http://kxtr.streamguys1.com/live2-aac?_ic2=1793402480372"
    }
   ],
   "kept_from_before": false,
@@ -5209,19 +5435,19 @@
     "url": "https://stream.revma.ihrhls.com/zc3520",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc3520?rj-org=n23b-e2&rj-ttl=5&rj-tok=AAABoY8cuqsAXUDGjNNlA0Wq9g"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc3520?rj-org=n01b-e2&rj-ttl=5&rj-tok=AAABoY8nTbMADBhStHArvDGEiA"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc3520/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n38b-e2.revma.ihrhls.com/zc3520/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8cuxEAYqrsutipkkpwsQ"
+    "detail": "hls https://n25b-e2.revma.ihrhls.com/zc3520/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nTxcA1rx2kdlG0FkggQ"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc3520",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc3520?rj-org=n33b-e2&rj-ttl=5&rj-tok=AAABoY8cu4kArBrmPd573s4_oQ"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc3520?rj-org=n27b-e2&rj-ttl=5&rj-tok=AAABoY8nT-cAkfd34Qumy1Fzxw"
    }
   ],
   "kept_from_before": false,
@@ -5235,26 +5461,27 @@
   ],
   "ok": [
    {
-    "url": "https://mcdn.podbean.com/mf/web/x7xnkkfybc84kxwq/coach_ub5zlu.mp3",
-    "source": "remembered",
-    "ok": true,
-    "detail": "audio/mpeg https://s332.podbean.com/pb/82bbd338ebabbae7cb1129363ae13c7f/6ae495ba/data1/fs126/15726300/uploads/coach_ub5zlu.mp3?pbss=af43bad2-ded6-52ae-9606-3458a08abb51"
-   },
-   {
     "url": "https://mcdn.podbean.com/mf/web/bbpqs4dqujrzda92/power_hour_oct_29b68ok.mp3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg https://s314.podbean.com/pb/20297efe372e10de12debe7029c8c615/6ae495bb/data1/fs126/15726300/uploads/power_hour_oct_29b68ok.mp3?pbss=3f85413d-b51a-5025-bc81-8dae7597ed42"
+    "detail": "audio/mpeg https://s314.podbean.com/pb/20297efe372e10de12debe7029c8c615/6ae495bb/data1/fs126/15726300/uploads/power_hour_oct_29b68ok.mp3?pbss=77635c3c-366c-509b-9676-66cb0611c139"
+   }
+  ],
+  "kept_from_before": false,
+  "failed": [
+   {
+    "url": "https://mcdn.podbean.com/mf/web/x7xnkkfybc84kxwq/coach_ub5zlu.mp3",
+    "source": "remembered",
+    "ok": false,
+    "detail": "fixed-length file (17408443 bytes), not a live stream"
    },
    {
     "url": "https://mcdn.podbean.com/mf/web/qitz3pk3m95be67b/ThisWeekinBSU_OCT29_26.mp3",
     "source": "remembered",
-    "ok": true,
-    "detail": "audio/mpeg https://s378.podbean.com/pb/7407478245e0259edc18b8c69de0c476/6ae495bb/data1/fs126/15726300/uploads/ThisWeekinBSU_OCT29_26.mp3?pbss=9f46dbaf-ceb8-5218-b7b5-50021dc6f13d"
+    "ok": false,
+    "detail": "fixed-length file (29851088 bytes), not a live stream"
    }
-  ],
-  "kept_from_before": false,
-  "failed": []
+  ]
  },
  {
   "school": "Bowling Green State University",
@@ -5282,7 +5509,7 @@
     "url": "https://live.amperwave.net/manifest/audacy-wwkbamaac-hlsc.m3u8?dist=Audacy&source=webA2",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://prod-3-80-202-25.amperwave.net/audacy-wwkbamaac-hlsc.m3u8?dist=Audacy&source=webA2"
+    "detail": "hls https://prod-100-54-247-170.amperwave.net/audacy-wwkbamaac-hlsc.m3u8?dist=Audacy&source=webA2"
    }
   ],
   "kept_from_before": false,
@@ -5320,7 +5547,7 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEMUFM.mp3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg https://18323.live.streamtheworld.com:443/WEMUFM.mp3"
+    "detail": "audio/mpeg https://26233.live.streamtheworld.com:443/WEMUFM.mp3"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEMUFMAAC.aac",
@@ -5332,7 +5559,7 @@
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/WEMUFM.mp3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg http://18323.live.streamtheworld.com:80/WEMUFM.mp3"
+    "detail": "audio/mpeg http://26273.live.streamtheworld.com:80/WEMUFM.mp3"
    }
   ],
   "kept_from_before": false,
@@ -5348,19 +5575,19 @@
     "url": "https://stream.revma.ihrhls.com/zc3455",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc3455?rj-org=n2cb-e2&rj-ttl=5&rj-tok=AAABoY8cvMMAoxMMdwbjBIoyzQ"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc3455?rj-org=n2cb-e2&rj-ttl=5&rj-tok=AAABoY8nT7cA0tE0XG7BYydO5A"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc3455/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n04b-e2.revma.ihrhls.com/zc3455/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8cvTEA6zHJwHr5TNnhLw"
+    "detail": "hls https://n04b-e2.revma.ihrhls.com/zc3455/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nUF8Af_BQ1S0K5XXbVg"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc3455",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc3455?rj-org=n2cb-e2&rj-ttl=5&rj-tok=AAABoY8cvcAAtzCydCW33bIcOg"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc3455?rj-org=n2cb-e2&rj-ttl=5&rj-tok=AAABoY8nUSkArr4BAbYSqHqRQg"
    }
   ],
   "kept_from_before": false,
@@ -5408,19 +5635,19 @@
     "url": "https://stream.revma.ihrhls.com/zc1857",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1857:alt?rj-org=n44b-e2&rj-ttl=5&rj-tok=AAABoY8cvgAAu-2vD77WEZFA5Q"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1857:alt?rj-org=n44b-e2&rj-ttl=5&rj-tok=AAABoY8nUQ8AW7eW99iCOfAmVg"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc1857/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n06b-e2.revma.ihrhls.com/zc1857:alt/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8cvwcAMfUP9Xvap6-sug"
+    "detail": "hls https://n3fb-e2.revma.ihrhls.com/zc1857:alt/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nUkQAePcQLvPVkmRFtA"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc1857",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1857:alt?rj-org=n2eb-e2&rj-ttl=5&rj-tok=AAABoY8cv9gAM8vRqU9YzF5EHg"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1857:alt?rj-org=n28b-e2&rj-ttl=5&rj-tok=AAABoY8nU0oAKMEQSqoSExKNiA"
    }
   ],
   "kept_from_before": false,
@@ -5442,7 +5669,7 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WVFMFM.mp3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg https://15313.live.streamtheworld.com:443/WVFMFM.mp3"
+    "detail": "audio/mpeg https://18853.live.streamtheworld.com:443/WVFMFM.mp3"
    },
    {
     "url": "http://18493.live.streamtheworld.com/WVFMFMAAC_SC",
@@ -5464,7 +5691,7 @@
     "url": "https://live.amperwave.net/manifest/saga-whmpamaac-hlsc1.m3u8?source=v7player",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://prod-54-227-167-196.amperwave.net/saga-whmpamaac-hlsc1.m3u8?source=v7player"
+    "detail": "hls https://prod-44-195-61-138.amperwave.net/saga-whmpamaac-hlsc1.m3u8?source=v7player"
    }
   ],
   "kept_from_before": false,
@@ -5480,19 +5707,19 @@
     "url": "https://live.amperwave.net/direct/audacy-kifmamaac-imc",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-3-82-152-187.amperwave.net/audacy-kifmamaac-imc?session-id=28d906a072cb011e2fdd6f9f633016ea"
+    "detail": "audio/aacp https://prod-44-202-78-32.amperwave.net/audacy-kifmamaac-imc?session-id=de6f7824e1e049e43709e652f589d7f2"
    },
    {
     "url": "https://live.amperwave.net/manifest/audacy-kifmamaac-imc",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-44-203-237-138.amperwave.net/audacy-kifmamaac-imc"
+    "detail": "audio/aacp https://prod-3-94-205-148.amperwave.net/audacy-kifmamaac-imc"
    },
    {
     "url": "http://live.amperwave.net/direct/audacy-kifmamaac-imc",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp http://23.20.67.51/audacy-kifmamaac-imc?session-id=0f78db990177c7e151d7a700afbddfcc"
+    "detail": "audio/aacp http://44.203.237.138/audacy-kifmamaac-imc?session-id=5d8a5ea5a0dbb4e6fc536dc1723ecd6b"
    }
   ],
   "kept_from_before": false,
@@ -5509,19 +5736,19 @@
     "url": "https://stream.revma.ihrhls.com/zc461",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc461?rj-org=n3fb-e2&rj-ttl=5&rj-tok=AAABoY8cvmsAzg6a4xDWAEfIOw"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc461?rj-org=n1fb-e2&rj-ttl=5&rj-tok=AAABoY8nUc4AgsDM5TIydvaDPA"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc461/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n0cb-e2.revma.ihrhls.com/zc461/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8cvtEA8xGntUNj0ywsHg"
+    "detail": "hls https://n16b-e2.revma.ihrhls.com/zc461/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nUnQAFYKE4gC0hBampw"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc461",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc461?rj-org=n12b-e2&rj-ttl=5&rj-tok=AAABoY8cvzwArKiz8MvED_gazg"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc461?rj-org=n1fb-e2&rj-ttl=5&rj-tok=AAABoY8nUwwAkYJdNeU4TCKGnA"
    }
   ],
   "kept_from_before": false,
@@ -5557,7 +5784,7 @@
     "url": "http://s8.yesstreaming.net:7014/stream",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg http://s8.yesstreaming.net:7014/stream?_ic2=1793401788338"
+    "detail": "audio/mpeg http://s8.yesstreaming.net:7014/stream?_ic2=1793402481467"
    }
   ],
   "kept_from_before": false,
@@ -5677,67 +5904,67 @@
     "url": "https://mytuner-radio.com/search/?q=KSHU",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (193333 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/search/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39696 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/pt/procurar/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39896 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/es/buscar/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39899 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/de/suche/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39879 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/it/ricerca/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39870 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/fr/cherche/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39886 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/no/sok/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39812 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/da/sog/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39826 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/fi/hae/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39854 bytes), not a live stream"
    },
    {
     "url": "https://mytuner-radio.com/sv/sok/",
     "source": "directories",
     "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
+    "detail": "fixed-length file (39811 bytes), not a live stream"
    }
   ]
  },
@@ -5769,13 +5996,13 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://27163.live.streamtheworld.com:443/KBOIAMAAC.aac"
+    "detail": "audio/aac https://14933.live.streamtheworld.com:443/KBOIAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAMAAC.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://27163.live.streamtheworld.com:443/KBOIAMAAC/HLS/playlist.m3u8"
+    "detail": "hls https://14933.live.streamtheworld.com:443/KBOIAMAAC/HLS/playlist.m3u8"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAMAAC.aac",
@@ -5822,14 +6049,105 @@
   ],
   "ok": [
    {
-    "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
-    "source": "remembered",
+    "url": "https://ice5.securenetsystems.net/KFIG",
+    "source": "listen-page",
     "ok": true,
-    "detail": "audio/mpeg https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+    "detail": "audio/aac https://ice5.securenetsystems.net/KFIG"
    }
   ],
   "kept_from_before": false,
-  "failed": []
+  "failed": [
+   {
+    "url": "https://radio.securenetsystems.net/cirruscontent/KFIG",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "fixed-length file (60134 bytes), not a live stream"
+   },
+   {
+    "url": "http://www.kswvradio.com/events/",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "fixed-length file (210598 bytes), not a live stream"
+   },
+   {
+    "url": "http://classicalking.streamguys1.com/evergreen-aac-96k",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Available"
+   },
+   {
+    "url": "http://classicalking.streamguys1.com/king-fm-aac-96k",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Available"
+   },
+   {
+    "url": "https://www.1430espnfresno.com/",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "fixed-length file (562839 bytes), not a live stream"
+   },
+   {
+    "url": "https://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/1668/2026/07/08160745/cropped-social-media-profile-picture-white.webp",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "fixed-length file (18858 bytes), not a live stream"
+   },
+   {
+    "url": "https://www.1430espnfresno.com",
+    "source": "listen-page",
+    "ok": false,
+    "detail": "fixed-length file (562839 bytes), not a live stream"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFIGAMAAC.aac",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFIGAM.mp3",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFIG_AMAAC.aac",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFIGFMAAC.aac",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFIGFM.mp3",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFIG_FMAAC.aac",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFIGAAC.aac",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFIG.mp3",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
  },
  {
   "school": "Oregon State University",
@@ -5841,19 +6159,19 @@
     "url": "https://stream.revma.ihrhls.com/zc1949",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1949?rj-org=n17b-e2&rj-ttl=5&rj-tok=AAABoY8cwrAAxfxajIwtlFA45w"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1949?rj-org=n46b-e2&rj-ttl=5&rj-tok=AAABoY8nVa8AW1zASIxnGVAM4A"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc1949/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n43b-e2.revma.ihrhls.com/zc1949/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8cwx8ADxlnPTsurKNP3A"
+    "detail": "hls https://n07b-e2.revma.ihrhls.com/zc1949/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nVnUAwETN3_Z_mLXq9Q"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc1949",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc1949?rj-org=n3bb-e2&rj-ttl=5&rj-tok=AAABoY8cw4gARrrL2N6sem1F4Q"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc1949?rj-org=n12b-e2&rj-ttl=5&rj-tok=AAABoY8nV18AJpbi0ukd73-Teg"
    }
   ],
   "kept_from_before": false,
@@ -5869,19 +6187,19 @@
     "url": "https://stream.revma.ihrhls.com/zc8528",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc8528?rj-org=n40b-e2&rj-ttl=5&rj-tok=AAABoY8cwsEA_UsVN8R-lgqcgQ"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc8528?rj-org=n40b-e2&rj-ttl=5&rj-tok=AAABoY8nVjYAbiG1Pi94r5mtdA"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc8528/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n0eb-e2.revma.ihrhls.com/zc8528/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8cwyYA4jtGe2g3f2HGgA"
+    "detail": "hls https://n22b-e2.revma.ihrhls.com/zc8528/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nVvYAqBrYoISytcmyUA"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc8528",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc8528?rj-org=n31b-e2&rj-ttl=5&rj-tok=AAABoY8cw9QA3eZAZR-1HLdQZQ"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc8528?rj-org=n3eb-e2&rj-ttl=5&rj-tok=AAABoY8nV7wANkda0aZoFUEWHg"
    }
   ],
   "kept_from_before": false,
@@ -5957,19 +6275,19 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVORAMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://18233.live.streamtheworld.com:443/KVORAMAAC.aac"
+    "detail": "audio/aac https://16613.live.streamtheworld.com:443/KVORAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVORAMAAC.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://14613.live.streamtheworld.com:443/KVORAMAAC/HLS/playlist.m3u8"
+    "detail": "hls https://16613.live.streamtheworld.com:443/KVORAMAAC/HLS/playlist.m3u8"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KVORAMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://17653.live.streamtheworld.com:80/KVORAMAAC.aac"
+    "detail": "audio/aac http://23263.live.streamtheworld.com:80/KVORAMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -5985,13 +6303,13 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKEAAM_AAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://24153.live.streamtheworld.com:443/KKEAAM_AAC.aac"
+    "detail": "audio/aac https://14933.live.streamtheworld.com:443/KKEAAM_AAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKEAAM_MP3.mp3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg https://27163.live.streamtheworld.com:443/KKEAAM_MP3.mp3"
+    "detail": "audio/mpeg https://14133.live.streamtheworld.com:443/KKEAAM_MP3.mp3"
    }
   ],
   "kept_from_before": false,
@@ -6013,13 +6331,13 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KOZZFM.mp3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg https://16603.live.streamtheworld.com:443/KOZZFM.mp3"
+    "detail": "audio/mpeg https://14103.live.streamtheworld.com:443/KOZZFM.mp3"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KOZZFMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://15053.live.streamtheworld.com:80/KOZZFMAAC.aac"
+    "detail": "audio/aac http://16603.live.streamtheworld.com:80/KOZZFMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -6042,13 +6360,13 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKOBAMAAC.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://14943.live.streamtheworld.com:443/KKOBAMAAC/HLS/playlist.m3u8"
+    "detail": "hls https://18253.live.streamtheworld.com:443/KKOBAMAAC/HLS/playlist.m3u8"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KKOBAMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://18253.live.streamtheworld.com:80/KKOBAMAAC.aac"
+    "detail": "audio/aac http://14943.live.streamtheworld.com:80/KKOBAMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -6081,7 +6399,7 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDKBFMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://17563.live.streamtheworld.com:443/WDKBFMAAC.aac"
+    "detail": "audio/aac https://15693.live.streamtheworld.com:443/WDKBFMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDKBFM.mp3",
@@ -6103,19 +6421,19 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTRBAMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://14013.live.streamtheworld.com:443/KTRBAMAAC.aac"
+    "detail": "audio/aac https://14553.live.streamtheworld.com:443/KTRBAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTRBAM.mp3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/mpeg https://18433.live.streamtheworld.com:443/KTRBAM.mp3"
+    "detail": "audio/mpeg https://14013.live.streamtheworld.com:443/KTRBAM.mp3"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KTRBAMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://13743.live.streamtheworld.com:80/KTRBAMAAC.aac"
+    "detail": "audio/aac http://14013.live.streamtheworld.com:80/KTRBAMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -6131,7 +6449,7 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://17643.live.streamtheworld.com:443/KWWNAMAAC.aac"
+    "detail": "audio/aac https://18533.live.streamtheworld.com:443/KWWNAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAM.mp3",
@@ -6143,7 +6461,7 @@
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://17643.live.streamtheworld.com:80/KWWNAMAAC.aac"
+    "detail": "audio/aac http://14623.live.streamtheworld.com:80/KWWNAMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -6159,13 +6477,13 @@
     "url": "https://live.amperwave.net/manifest/townsquare-klaqfmaac-ibc3",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-54-172-213-63.amperwave.net/townsquare-klaqfmaac-ibc3"
+    "detail": "audio/aacp https://prod-54-158-223-248.amperwave.net/townsquare-klaqfmaac-ibc3"
    },
    {
     "url": "https://live.amperwave.net/manifest/townsquare-klaqfmaac-hlsc3.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://prod-3-89-124-117.amperwave.net/townsquare-klaqfmaac-hlsc3.m3u8"
+    "detail": "hls https://prod-13-222-197-5.amperwave.net/townsquare-klaqfmaac-hlsc3.m3u8"
    },
    {
     "url": "https://live.amperwave.net/manifest/townsquare-klaqhd2fmaac-hlsc3.m3u8",
@@ -6204,19 +6522,19 @@
     "url": "https://stream.rcs.revma.com/fyk48ahxu7uvv",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://n04-us2.rcs.revma.com/fyk48ahxu7uvv?rj-ttl=5&rj-tok=AAABoY8cyYwAcFJf3textCpA3g"
+    "detail": "audio/aac https://n02-us2.rcs.revma.com/fyk48ahxu7uvv?rj-ttl=5&rj-tok=AAABoY8nYDwAYjX3efXsqdFgpQ"
    },
    {
     "url": "https://stream.rcs.revma.com/fyk48ahxu7uvv/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n02-us2.rcs.revma.com/fyk48ahxu7uvv/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8cyi4ArvA49wwW_aQm0w"
+    "detail": "hls https://n03-us2.rcs.revma.com/fyk48ahxu7uvv/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nYpgAka8dDYzJz-LtNQ"
    },
    {
     "url": "http://stream.rcs.revma.com/fyk48ahxu7uvv",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://n03-us2.rcs.revma.com/fyk48ahxu7uvv?rj-ttl=5&rj-tok=AAABoY8cyqkAPSrxV-AZ4iD7Yw"
+    "detail": "audio/aac http://n03-us2.rcs.revma.com/fyk48ahxu7uvv?rj-ttl=5&rj-tok=AAABoY8nY60Al2G3mbpka3PVJA"
    }
   ],
   "kept_from_before": false,
@@ -6233,13 +6551,13 @@
     "url": "https://oom-signalmedia.streamguys1.com/signalmedia/kabz-aac?aw_0_req.gdpr=true",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://oom-signalmedia.streamguys1.com/signalmedia/kabz-aac?aw_0_req.gdpr=true&_ic2=1793401791224"
+    "detail": "audio/aac http://oom-signalmedia.streamguys1.com/signalmedia/kabz-aac?aw_0_req.gdpr=true&_ic2=1793402485079"
    },
    {
     "url": "http://oom-signalmedia.streamguys1.com/signalmedia/kabz-aac?aw_0_req.gdpr=true",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://oom-signalmedia.streamguys1.com/signalmedia/kabz-aac?aw_0_req.gdpr=true&_ic2=1793401792072"
+    "detail": "audio/aac http://oom-signalmedia.streamguys1.com/signalmedia/kabz-aac?aw_0_req.gdpr=true&_ic2=1793402486131"
    }
   ],
   "kept_from_before": false,
@@ -6303,12 +6621,6 @@
     "detail": "hls https://ad-oom-cmg.streamguys1.com/atl750/atl750-encoder.aac/playlist.m3u8?aw_0_1st.playerId=cmg_iheart"
    },
    {
-    "url": "https://dts.podtrac.com/redirect.mp3/od-cmg.streamguys1.com/atlanta/atl750/20261028080936_629799-promosforthurs10-29.wav?awCollectionId=atl750-16&awGenre=News&awEpisodeId=d35b2a30-d2d0-11f1-ae7f-0d1592a683ef",
-    "source": "remembered",
-    "ok": true,
-    "detail": "application/octet-stream https://od-cmg.streamguys1.com/atlanta/atl750/20261028080936_629799-promosforthurs10-29.wav?awCollectionId=atl750-16&awGenre=News&awEpisodeId=d35b2a30-d2d0-11f1-ae7f-0d1592a683ef"
-   },
-   {
     "url": "http://cmg.streamguys1.com/atl750/atl750-encoder.aac/playlist.m3u8?aw_0_1st.playerId=cmg_iheart",
     "source": "remembered",
     "ok": true,
@@ -6329,19 +6641,19 @@
     "url": "https://stream.revma.ihrhls.com/zc965",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc965?rj-org=n1bb-e2&rj-ttl=5&rj-tok=AAABoY8cy44AXqcjBDLAh1au4g"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc965?rj-org=n43b-e2&rj-ttl=5&rj-tok=AAABoY8nYk8APsoFema5EOpGQw"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc965/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n09b-e2.revma.ihrhls.com/zc965/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8cy_kAT_QLS7COfEWhyw"
+    "detail": "hls https://n46b-e2.revma.ihrhls.com/zc965/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nYuoAzgcfGBQ28mooAQ"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc965",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc965?rj-org=n0db-e2&rj-ttl=5&rj-tok=AAABoY8czKAAr9iiJ5Lo-xCcow"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc965?rj-org=n0db-e2&rj-ttl=5&rj-tok=AAABoY8nY60ABunlSwVH47wHGA"
    }
   ],
   "kept_from_before": false,
@@ -6357,13 +6669,13 @@
     "url": "https://live.amperwave.net/direct/guaranty-wdglfmaac-ibc1",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-44-203-50-103.amperwave.net/guaranty-wdglfmaac-ibc1?session-id=4bc90644ae74dec56e93b5bf9f79cb1a"
+    "detail": "audio/aacp https://prod-44-203-50-103.amperwave.net/guaranty-wdglfmaac-ibc1?session-id=7de7c0adde83b21dd9e1d29341cd47eb"
    },
    {
     "url": "http://live.amperwave.net/direct/guaranty-wdglfmaac-ibc1",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp http://54.158.170.239/guaranty-wdglfmaac-ibc1?session-id=216bcd9242095632de4680a8698f6b78"
+    "detail": "audio/aacp http://44.203.50.103/guaranty-wdglfmaac-ibc1?session-id=d916e9f96a092faa34113c0a380f18f0"
    }
   ],
   "kept_from_before": false,
@@ -6401,13 +6713,13 @@
     "url": "https://live.amperwave.net/manifest/telesouth-wkbbfmaac-imc1",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-52-91-75-207.amperwave.net/telesouth-wkbbfmaac-imc1"
+    "detail": "audio/aacp https://prod-3-238-92-150.amperwave.net/telesouth-wkbbfmaac-imc1"
    },
    {
     "url": "https://live.amperwave.net/manifest/telesouth-wzkrfmaac-imc",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aacp https://prod-34-201-56-215.amperwave.net/telesouth-wzkrfmaac-imc"
+    "detail": "audio/aacp https://prod-54-86-8-179.amperwave.net/telesouth-wzkrfmaac-imc"
    }
   ],
   "kept_from_before": false,
@@ -6467,19 +6779,19 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNKTFMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://15313.live.streamtheworld.com:443/WNKTFMAAC.aac"
+    "detail": "audio/aac https://29308.live.streamtheworld.com:443/WNKTFMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNKTFMAAC.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://29308.live.streamtheworld.com:443/WNKTFMAAC/HLS/playlist.m3u8"
+    "detail": "hls https://15313.live.streamtheworld.com:443/WNKTFMAAC/HLS/playlist.m3u8"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/WNKTFMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://18853.live.streamtheworld.com:80/WNKTFMAAC.aac"
+    "detail": "audio/aac http://15313.live.streamtheworld.com:80/WNKTFMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -6496,19 +6808,19 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WIVKFMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://29312.live.streamtheworld.com:443/WIVKFMAAC.aac"
+    "detail": "audio/aac https://26423.live.streamtheworld.com:443/WIVKFMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WIVKFMAAC.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://17553.live.streamtheworld.com:443/WIVKFMAAC/HLS/playlist.m3u8"
+    "detail": "hls https://26223.live.streamtheworld.com:443/WIVKFMAAC/HLS/playlist.m3u8"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/WIVKFMAAC.aac",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://26223.live.streamtheworld.com:80/WIVKFMAAC.aac"
+    "detail": "audio/aac http://29320.live.streamtheworld.com:80/WIVKFMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -6525,19 +6837,19 @@
     "url": "https://stream.revma.ihrhls.com/zc2181",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2181?rj-org=n10b-e2&rj-ttl=5&rj-tok=AAABoY8czasAZSO2nPqhqeaYlg"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2181?rj-org=n18b-e2&rj-ttl=5&rj-tok=AAABoY8nZZQAfbVD4qkAbqMfSw"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc2181/hls.m3u8",
     "source": "remembered",
     "ok": true,
-    "detail": "hls https://n13b-e2.revma.ihrhls.com/zc2181/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8czhMAFtqH9AbSp27PKw"
+    "detail": "hls https://n1ab-e2.revma.ihrhls.com/zc2181/hls.m3u8?rj-ttl=5&rj-tok=AAABoY8nZiYA2Qc24kVHwcTIsA"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc2181",
     "source": "remembered",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc2181?rj-org=n10b-e2&rj-ttl=5&rj-tok=AAABoY8cznsAQS2a4kS90laWgw"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc2181?rj-org=n43b-e2&rj-ttl=5&rj-tok=AAABoY8nZuAAJSFh92Gi9HGeKw"
    }
   ],
   "kept_from_before": false,
