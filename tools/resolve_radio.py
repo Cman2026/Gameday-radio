@@ -208,7 +208,8 @@ def main():
     teams, report = [], []
     for t, (good, tried) in zip(src, results):
         old = prev.get(t.get("school"), {})
-        same_station = "calls" not in old or (old.get("calls") or []) == (t.get("calls") or [])
+        base = lambda cs: sorted({re.sub(r"-?(AM|FM)$", "", c.upper()) for c in (cs or [])})
+        same_station = "calls" not in old or base(old.get("calls")) == base(t.get("calls"))
         misses = 0
         if not good and same_station and old.get("streams"):
             misses = old.get("misses", 0) + 1

@@ -66,6 +66,9 @@ h1 span{color:var(--bulb)}
 .fav{flex:none;border:0;background:none;color:var(--dim);font-size:16px;line-height:1;cursor:pointer;padding:2px}
 .fav.on{color:var(--bulb)}
 .card .div{font:600 10px var(--body);letter-spacing:.08em;color:var(--dim);border:1px solid var(--line);border-radius:4px;padding:0 4px;margin-left:6px}
+.now small .dsc{display:inline;color:var(--chalk);font:600 12px var(--body);text-transform:none;letter-spacing:0;white-space:nowrap}
+.now small .drz{color:var(--red);font-weight:600}
+.now small .dwarn{color:var(--bulb)}
 .empty{color:var(--dim);background:var(--panel);border:1px dashed var(--line);border-radius:10px;padding:16px}
 
 .board{background:linear-gradient(180deg,var(--panel-2),var(--panel));border:1px solid var(--line);border-radius:14px;padding:18px;display:grid;gap:16px;min-width:0}
@@ -279,6 +282,7 @@ function render(){
   } else list.innerHTML = shown.map(card).join("");
   list.querySelectorAll(".card").forEach(b=>{ const go=()=>{selected=b.dataset.id; render();}; b.onclick=ev=>{ if(ev.target.closest(".ear,.fav")) return; go(); }; b.onkeydown=ev=>{ if(ev.key==="Enter"||ev.key===" "){ ev.preventDefault(); go(); } }; });
   renderBoard();
+  updateDeck();
 }
 let currentTeam = null, connecting = null;
 const ready = {}; // team -> flat list of direct stream URLs, best first
@@ -307,7 +311,7 @@ document.addEventListener("click", ev=>{
 });
 function listenTo(loc){
   const r = RADIO[loc]||{};
-  currentTeam = loc; connecting = loc;
+  currentTeam = loc; connecting = loc; deck = null;
   const sel = $("#station"); if([...sel.options].some(o=>o.value==="team:"+loc)) sel.value = "team:"+loc;
   const list = (ready[loc] && ready[loc].length) ? ready[loc] : [store.get("stream:"+loc), ...(r.streams||[])].filter(Boolean);
   playList(list, r.net||loc+" radio", r.station||"", loc);
@@ -378,6 +382,32 @@ function statusText(e){
   }
   if(st.displayClock!=="15:00") lastSeen[e.id] = p;
   return {short:`<span data-clk="${e.id}">${liveClock(e)}</span> - ${qName(p)}`, long:p>4?qName(p):`${qName(p)} Qtr`, brk:false};
+}
+// Radio bar: while a team's radio is on, show its game's score and situation.
+let deck = null;
+function gameLine(loc){
+  const e = events.find(x=>x.status.type.state==="in" && x.competitions[0].competitors.some(c=>c.team.location===loc));
+  if(!e) return null;
+  const c = e.competitions[0], a = team(c,"away"), h = team(c,"home"), sit = c.situation || {}, stx = statusText(e);
+  const ab = t => esc(t.team.abbreviation || t.team.shortDisplayName);
+  const score = `<b class="dsc">${ab(a)} ${esc(a.score)} · ${ab(h)} ${esc(h.score)}</b>`;
+  const clock = stx.brk ? esc(stx.short) : `<span data-clk="${e.id}">${liveClock(e)}</span> ${esc(qName(e.status.period))}`;
+  const pos = [a,h].find(t=>t.team.id===sit.possession);
+  const parts = [score, clock];
+  if(!stx.brk){
+    if(pos) parts.push(`🏈 ${ab(pos)} ball`);
+    if(sit.downDistanceText) parts.push(esc(sit.downDistanceText));
+    else if(sit.possessionText) parts.push(`at ${esc(sit.possessionText)}`);
+    if(sit.isRedZone) parts.push(`<span class="drz">Red zone</span>`);
+  }
+  const lv = deck && liveVerdict(deck.url);
+  if(lv?.verdict==="music") parts.push(`<span class="dwarn">Station may not be carrying the game</span>`);
+  return parts.join(" · ");
+}
+function updateDeck(){
+  if(!deck || connecting) return;
+  const line = gameLine(deck.loc);
+  if(line) $("#nowSub").innerHTML = line; else $("#nowSub").textContent = deck.sub;
 }
 function team(c, side){return c.competitors.find(t=>t.homeAway===side)}
 function card(e){
@@ -498,8 +528,8 @@ async function playList(list, name, sub, loc){
       const ok = await tryUrl(url);
       if(token !== tryToken) return;
       if(ok){
-        const lv = liveVerdict(url), at = lv ? new Date(lv.at).toLocaleTimeString([], {hour:"numeric", minute:"2-digit", hour12:true}) : "";
-        $("#nowSub").textContent = lv?.verdict==="music" ? `Heads up: at ${at} this station was playing music, not the game.` : (lv?.verdict==="game" && lv.title ? `On air at ${at}: ${lv.title}` : sub);
+        deck = {loc, url, sub};
+        $("#nowSub").textContent = sub;
         if(loc){ store.set("ok:"+loc, url); } connecting = null; render(); return; }
     }
   }
