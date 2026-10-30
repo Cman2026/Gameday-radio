@@ -1711,11 +1711,18 @@
    "Dartmouth Big Green"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "WDCR 1340 AM (Hanover, NH; Dartmouth student station)",
   "listen_page": "",
   "conference": "Ivy League",
-  "calls": [],
-  "streams": []
+  "calls": [
+   "WDCR-AM"
+  ],
+  "streams": [
+   "https://ice24.securenetsystems.net/WDCR",
+   "https://cdn.jwplayer.com/live/broadcast/KKl2XbUu.m3u8"
+  ],
+  "athletics_site": "https://dartmouthsports.com",
+  "game_only": true
  },
  {
   "school": "Harvard University",

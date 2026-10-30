@@ -690,7 +690,14 @@ function tryUrl(url){
     play(url, $("#nowName").textContent, "Connecting…");
   });
 }
+// SecureNet streams expect a per-listener session id during live events.
+function withSession(url){
+  if(!/securenetsystems\.net\//.test(url) || /playSessionID=/.test(url)) return url;
+  const id = (crypto.randomUUID ? crypto.randomUUID() : String(Math.random()).slice(2)).toUpperCase();
+  return url + (url.includes("?") ? "&" : "?") + "playSessionID=" + id;
+}
 function play(url, name, sub){
+  url = withSession(url);
   if(hls){hls.destroy(); hls=null}
   if(/\.m3u8(\?|$)/i.test(url) && window.Hls && Hls.isSupported() && !audio.canPlayType("application/vnd.apple.mpegurl")){
     hls = new Hls(); hls.loadSource(url); hls.attachMedia(audio);

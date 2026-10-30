@@ -2286,13 +2286,16 @@
 "Dartmouth",
 "Dartmouth Big Green"
 ],
-"network": "",
+"network": "Dartmouth Broadcasting (WDCR)",
 "flagship": "",
 "listen_page": "",
 "conference": "Ivy League",
 "calls": [],
 "game_only": null,
-"streams": [],
+"streams": [
+"https://ice24.securenetsystems.net/WDCR",
+"https://cdn.jwplayer.com/live/broadcast/KKl2XbUu.m3u8"
+],
 "misses": 0,
 "last_ok": null
 },
