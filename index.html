@@ -711,10 +711,12 @@ function withSession(url){
 function play(url, name, sub){
   url = withSession(url);
   if(hls){hls.destroy(); hls=null}
-  if(/\.m3u8(\?|$)/i.test(url) && window.Hls && Hls.isSupported() && !audio.canPlayType("application/vnd.apple.mpegurl")){
+  // Safari (iPhone/iPad/Mac) plays HLS itself and keeps lock-screen controls; other browsers need hls.js.
+  const SAFARI = /Safari/.test(navigator.userAgent) && !/Chrome|CriOS|Chromium|Edg|Android|FxiOS/.test(navigator.userAgent);
+  if(/\.m3u8(\?|$)/i.test(url) && !SAFARI && window.Hls && Hls.isSupported()){
     hls = new Hls(); hls.loadSource(url); hls.attachMedia(audio);
   } else audio.src = url;
-  audio.play().catch(err=>{ $("#nowSub").textContent = "This stream wouldn't start. If it's an http:// link, open this file directly from your computer rather than an https page."; });
+  audio.play().catch(()=>{});
   $("#nowName").textContent = name; $("#nowSub").textContent = sub;
 }
 $("#station").onchange = startStation;

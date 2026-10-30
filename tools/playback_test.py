@@ -63,7 +63,7 @@ PLAY_JS = """async (url) => {
     const t = setTimeout(() => done(false, 'timeout'), 15000);
     a.addEventListener('playing', () => done(true, 'playing'));
     a.addEventListener('error', () => done(false, 'media error ' + (a.error && a.error.code)));
-    if (/\\.m3u8(\\?|$)/i.test(u) && !a.canPlayType('application/vnd.apple.mpegurl') && window.Hls && Hls.isSupported()) {
+    if (/\\.m3u8(\\?|$)/i.test(u) && window.Hls && Hls.isSupported()) {
       hls = new Hls(); hls.on(Hls.Events.ERROR, (e, d) => { if (d.fatal) done(false, 'hls ' + d.details); });
       hls.loadSource(u); hls.attachMedia(a); a.play().catch(() => {});
     } else { a.src = u; a.play().catch(err => { if (!/interrupted|pause/i.test(String(err))) done(false, String(err).slice(0, 80)); }); }
