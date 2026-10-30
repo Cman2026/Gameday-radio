@@ -1,5 +1,5 @@
 {
-"built": "2026-10-30T16:03:37Z",
+"built": "2026-10-30T16:18:48Z",
 "teams": [
 {
 "school": "Boston College",
@@ -15,6 +15,7 @@
 "calls": [
 "WEEI"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/direct/audacy-weeiamaac-imc",
 "https://live.amperwave.net/direct/audacy-weeifmaac-imc",
@@ -37,6 +38,7 @@
 "calls": [
 "KGO-AM"
 ],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -55,6 +57,7 @@
 "WCCP-FM",
 "WAHT"
 ],
+"game_only": null,
 "streams": [
 "http://s2.radioreformation.com:8060/;stream.mp3"
 ],
@@ -74,6 +77,7 @@
 "calls": [
 "WDNC-AM"
 ],
+"game_only": null,
 "streams": [
 "https://media-hls.wral.com/vodhttporigins3/_definst_/smil:amazons3/cbcnm-static-web-content/home/web/wral/public/asset/news/state/nccapitol/2023/05/25/20879545/3185796-gop-DMID1-5z0xt25hf.smil/playlist.m3u8"
 ],
@@ -94,6 +98,7 @@
 "calls": [
 "WTNT-FM"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc661",
 "https://stream.revma.ihrhls.com/zc661/hls.m3u8?hls=true",
@@ -116,6 +121,7 @@
 "calls": [
 "WCNN"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WCNNAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WCNNAM.mp3"
@@ -137,6 +143,7 @@
 "WLCL",
 "WGTK"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/direct/unionbroadcasting-wlclamaac-ibc2",
 "http://live.amperwave.net/direct/unionbroadcasting-wlclamaac-ibc2"
@@ -159,6 +166,7 @@
 "WQAM",
 "WMEN"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/manifest/audacy-wqamamaac-imc",
 "https://live.amperwave.net/direct/audacy-wqamamaac-imc",
@@ -181,6 +189,7 @@
 "calls": [
 "WCMC-FM"
 ],
+"game_only": null,
 "streams": [
 "https://ais-sa8.cdnstream1.com/2750_64.aac?aw_0_1st.playerid=iHeart",
 "https://media-hls.wral.com/vodhttporigins3/_definst_/smil:amazons3/cbcnm-static-web-content/home/web/wral/public/asset/news/state/nccapitol/2023/05/25/20879545/3185796-gop-DMID1-5z0xt25hf.smil/playlist.m3u8",
@@ -204,6 +213,7 @@
 "WCHL-AM",
 "WPTF-AM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WPTFAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WPTFAM.mp3"
@@ -225,6 +235,7 @@
 "calls": [
 "KDKA-FM"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/direct/audacy-kdkafmaac-imc",
 "https://live.amperwave.net/manifest/audacy-kdkafmaac-imc",
@@ -247,6 +258,7 @@
 "KTCK-AM",
 "KTCK-FM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.m3u8",
@@ -270,6 +282,7 @@
 "KNBR-FM",
 "KTCT-AM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KNBRAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KNBRAMAAC.m3u8",
@@ -291,6 +304,7 @@
 "calls": [
 "WTKW-FM"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/manifest/galaxy-wtkwfmaac-hlsc1.m3u8?source=v7player"
 ],
@@ -311,6 +325,7 @@
 "calls": [
 "WINA-AM"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/manifest/saga-winaammp3-hlsc.m3u8?source=uva",
 "https://live.amperwave.net/manifest/saga-winaamaac-hlsc1.m3u8?source=v7player"
@@ -332,10 +347,9 @@
 "calls": [
 "WBRW-FM"
 ],
-"streams": [
-"https://ice26.securenetsystems.net/WBRW"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -351,6 +365,7 @@
 "calls": [
 "WBRF-FM"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/manifest/blueridgeradio-wbrffmaac-hlsc4.m3u8"
 ],
@@ -371,6 +386,7 @@
 "WSBT-AM",
 "WBBM-AM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WSBTAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WSBTAM.mp3",
@@ -393,6 +409,7 @@
 "calls": [
 "WUCS-FM"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc5238",
 "https://stream.revma.ihrhls.com/zc5238/hls.m3u8",
@@ -415,6 +432,7 @@
 "calls": [
 "WBWZ"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc1493",
 "https://stream.revma.ihrhls.com/zc1493/hls.m3u8",
@@ -436,12 +454,12 @@
 "calls": [
 "WZGV"
 ],
+"game_only": true,
 "streams": [
 "https://ice64.securenetsystems.net/WZGV2"
 ],
-"misses": 0,
-"last_ok": null,
-"game_only": true
+"misses": 1,
+"last_ok": null
 },
 {
 "school": "East Carolina University",
@@ -457,6 +475,7 @@
 "calls": [
 "WNCT-FM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WNCTAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WNCTAM.mp3"
@@ -478,6 +497,7 @@
 "calls": [
 "WMEN-AM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WMENAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WMENAM.mp3"
@@ -498,6 +518,7 @@
 "calls": [
 "WKIM-FM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WKIMFMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WKIMFMAAC.m3u8",
@@ -520,6 +541,7 @@
 "WBAL",
 "WNAV"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WBALAM.mp3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WBALAMAAC.aac",
@@ -542,6 +564,7 @@
 "calls": [
 "KFXR-AM"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc4276",
 "https://stream.revma.ihrhls.com/zc4276/hls.m3u8",
@@ -561,6 +584,7 @@
 "listen_page": "https://riceowls.com",
 "conference": "American Conference",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -579,6 +603,7 @@
 "calls": [
 "WRBQ-FM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WRBQFMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WRBQFM.mp3"
@@ -597,6 +622,7 @@
 "listen_page": "https://owlsports.com/listen",
 "conference": "American Conference",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -614,6 +640,7 @@
 "calls": [
 "KKND-FM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.m3u8",
@@ -635,6 +662,7 @@
 "calls": [
 "KXBL-FM"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/manifest//griffin-kxblfmaac-imc2"
 ],
@@ -654,6 +682,7 @@
 "calls": [
 "WJOX-FM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WJOXFMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WJOXFMAAC.m3u8",
@@ -675,6 +704,7 @@
 "calls": [
 "KTKR-AM"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc2353",
 "https://stream.revma.ihrhls.com/zc2353/hls.m3u8",
@@ -697,12 +727,12 @@
 "calls": [
 "WKBC-FM"
 ],
+"game_only": true,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3"
 ],
-"misses": 0,
-"last_ok": null,
-"game_only": true
+"misses": 1,
+"last_ok": null
 },
 {
 "school": "Arkansas State University",
@@ -718,6 +748,7 @@
 "calls": [
 "KFIN-FM"
 ],
+"game_only": null,
 "streams": [
 "https://ais-sa8.cdnstream1.com/1416_64"
 ],
@@ -738,6 +769,7 @@
 "calls": [
 "WRXZ-FM"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc6849",
 "https://stream.revma.ihrhls.com/zc6849/hls.m3u8",
@@ -759,6 +791,7 @@
 "calls": [
 "WHKN-FM"
 ],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -776,6 +809,7 @@
 "calls": [
 "WRAS-FM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WRASFMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WRASFM.mp3",
@@ -798,6 +832,7 @@
 "calls": [
 "WSVA-AM"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/manifest/saga-wsvaamaac-hlsc2.m3u8?source=v7player",
 "https://live.amperwave.net/direct/saga-wsvaammp3-ibc2"
@@ -820,6 +855,7 @@
 "KHXT-FM",
 "KPEL-AM"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/manifest/townsquare-khxtfmaac-ibc3",
 "https://live.amperwave.net/manifest/townsquare-kpelamaac-ibc3"
@@ -841,10 +877,9 @@
 "calls": [
 "KXKZ-FM"
 ],
-"streams": [
-"https://ice7.securenetsystems.net/KXKZ"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -861,10 +896,9 @@
 "WDGG-FM",
 "WRVC-AM"
 ],
-"streams": [
-"https://ice23.securenetsystems.net/WDGG"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -881,10 +915,11 @@
 "calls": [
 "WVSP-FM"
 ],
+"game_only": null,
 "streams": [
 "https://ais-sa1.streamon.fm/7851_128k.aac/playlist.m3u8"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -901,6 +936,7 @@
 "WMEZ-FM",
 "WXQW-AM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WMEZFMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WMEZFMAAC.m3u8",
@@ -923,10 +959,9 @@
 "calls": [
 "WXRR-FM"
 ],
-"streams": [
-"https://ice64.securenetsystems.net/WXRR"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -942,10 +977,11 @@
 "calls": [
 "WTXK"
 ],
+"game_only": true,
 "streams": [
 "https://ice6.securenetsystems.net/WTXK"
 ],
-"misses": 2,
+"misses": 3,
 "last_ok": "2026-10-30"
 },
 {
@@ -963,10 +999,9 @@
 "calls": [
 "KLIP-FM"
 ],
-"streams": [
-"https://ice66.securenetsystems.net/KLIP"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -983,6 +1018,7 @@
 "KCUB",
 "KFNX"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KCUBAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KCUBAMAAC.m3u8",
@@ -1005,6 +1041,7 @@
 "calls": [
 "KMVP-FM"
 ],
+"game_only": null,
 "streams": [
 "https://bonneville.cdnstream1.com/2699_48.aac?aw_0_1st.playerid=IHM",
 "https://bonneville.cdnstream1.com/2699_48.aac/playlist.m3u8?aw_0_1st.playerid=IHM",
@@ -1026,6 +1063,7 @@
 "calls": [
 "KRZI-AM"
 ],
+"game_only": null,
 "streams": [
 "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
 "https://ais-sa1.streamon.fm/7050_24k.aac"
@@ -1046,6 +1084,7 @@
 "calls": [
 "KSL"
 ],
+"game_only": null,
 "streams": [
 "https://bonneville.cdnstream1.com/2704_48.aac?aw_0_1st.playerid=IHM",
 "https://bonneville.cdnstream1.com/2704_48.aac/playlist.m3u8?aw_0_1st.playerid=IHM",
@@ -1068,6 +1107,7 @@
 "WLW-AM",
 "WEBN-FM"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc1713",
 "https://stream.revma.ihrhls.com/zc1713/hls.m3u8",
@@ -1090,6 +1130,7 @@
 "KOA-AM",
 "K231AA"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc389",
 "https://stream.revma.ihrhls.com/zc389/hls.m3u8",
@@ -1111,6 +1152,7 @@
 "calls": [
 "KPRC-AM"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc2277",
 "https://stream.revma.ihrhls.com/zc2277/hls.m3u8",
@@ -1132,6 +1174,7 @@
 "calls": [
 "KCYZ"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc913",
 "https://stream.revma.ihrhls.com/zc913/hls.m3u8",
@@ -1154,10 +1197,9 @@
 "KLWN-AM",
 "KMXN-FM"
 ],
-"streams": [
-"https://ice23.securenetsystems.net/KLWNAM"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -1175,6 +1217,7 @@
 "KMAN-AM",
 "KMKF-FM"
 ],
+"game_only": null,
 "streams": [
 "https://stream-02.surfernetwork.com/drscz5r6naxuv"
 ],
@@ -1195,10 +1238,9 @@
 "calls": [
 "KSPI-FM"
 ],
-"streams": [
-"https://ice42.securenetsystems.net/KSPI"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -1214,6 +1256,7 @@
 "calls": [
 "KZPS-FM"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc3379",
 "https://stream.revma.ihrhls.com/zc3379/hls.m3u8",
@@ -1235,6 +1278,7 @@
 "calls": [
 "KTTU-FM"
 ],
+"game_only": null,
 "streams": [
 "https://ais-sa1.streamon.fm/7197_48k.aac",
 "https://ais-sa1.streamon.fm/7001_48k.aac"
@@ -1255,6 +1299,7 @@
 "calls": [
 "WYGM-AM"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc601",
 "https://stream.revma.ihrhls.com/zc601/hls.m3u8",
@@ -1276,6 +1321,7 @@
 "calls": [
 "KALL-AM"
 ],
+"game_only": null,
 "streams": [
 "https://ais-sa1.streamon.fm/7349_48k.aac"
 ],
@@ -1297,6 +1343,7 @@
 "WVAQ-FM",
 "WAJR-AM"
 ],
+"game_only": null,
 "streams": [
 "https://prod-100-53-217-72.amperwave.net/wvradio-wvaqfmaac-hlsc2.m3u8"
 ],
@@ -1318,6 +1365,7 @@
 "WBNS-FM",
 "WBNS"
 ],
+"game_only": null,
 "streams": [
 "https://radiohio.streamguys1.com/cols/wbnsfm-iheart.m4a",
 "https://oom-radiohio.streamguys1.com/cols/wbnsfm.mp3",
@@ -1340,6 +1388,7 @@
 "calls": [
 "WCSX"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WCSXFMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WCSXFM.mp3"
@@ -1365,10 +1414,9 @@
 "WJGJ",
 "WLEJ"
 ],
-"streams": [
-"https://ice25.securenetsystems.net/WBUS"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -1386,6 +1434,7 @@
 "WDWS-AM",
 "WHMS-FM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WSOYAM.mp3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WSOYAMAAC.aac"
@@ -1407,6 +1456,7 @@
 "calls": [
 "WHCC-FM"
 ],
+"game_only": null,
 "streams": [
 "https://soundmanagement.streamguys1.com/WHCC"
 ],
@@ -1427,6 +1477,7 @@
 "WHO",
 "KXIC"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc925",
 "https://stream.revma.ihrhls.com/zc925/hls.m3u8",
@@ -1450,6 +1501,7 @@
 "WJZ-FM",
 "WTEM-AM"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/direct/audacy-wjzfmaac-imc",
 "https://live.amperwave.net/manifest/audacy-wjzfmaac-imc",
@@ -1473,6 +1525,7 @@
 "WJIM-AM",
 "WJR-AM"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/manifest/townsquare-wjimamaac-ibc3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WJRAMAAC.aac",
@@ -1495,6 +1548,7 @@
 "calls": [
 "KFXN-FM"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc1209",
 "https://stream.revma.ihrhls.com/zc1209/hls.m3u8",
@@ -1517,6 +1571,7 @@
 "calls": [
 "KLIN-AM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KLINAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KLINAM.mp3"
@@ -1537,6 +1592,7 @@
 "calls": [
 "WGN-AM"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/direct/wgnam-wgnamaac-imc2",
 "http://live.amperwave.net/direct/wgnam-wgnamaac-imc2",
@@ -1559,6 +1615,7 @@
 "KUGN-AM",
 "KUJZ-FM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAMAAC.m3u8",
@@ -1580,6 +1637,7 @@
 "calls": [
 "WAZY-FM"
 ],
+"game_only": null,
 "streams": [
 "https://cp9.serverse.com/proxy/neiqvqnd?mp=/stream"
 ],
@@ -1600,6 +1658,7 @@
 "WFAN-AM",
 "WFAN-FM"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/direct/audacy-wfanamaac-imc",
 "https://live.amperwave.net/manifest/audacy-wfanamaac-imc",
@@ -1621,6 +1680,7 @@
 "calls": [
 "KABC-AM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KABCAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KABCAMAAC.m3u8",
@@ -1643,6 +1703,7 @@
 "calls": [
 "KSPN-AM"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/direct/goodkarma-kspnamaac-ibc",
 "http://live.amperwave.net/direct/goodkarma-kspnamaac-ibc"
@@ -1665,6 +1726,7 @@
 "KJR-FM",
 "KJR-AM"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc2577",
 "https://stream.revma.ihrhls.com/zc2577/hls.m3u8",
@@ -1686,6 +1748,7 @@
 "calls": [
 "WIBA-AM"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc2661",
 "https://stream.revma.ihrhls.com/zc2661/hls.m3u8",
@@ -1706,6 +1769,7 @@
 "listen_page": "",
 "conference": "Coastal Athletic Association",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -1723,6 +1787,7 @@
 "calls": [
 "WJMF"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WJMFFMAAC.aac"
 ],
@@ -1740,6 +1805,7 @@
 "listen_page": "https://gocamels.com",
 "conference": "Coastal Athletic Association",
 "calls": [],
+"game_only": null,
 "streams": [
 "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/campbell.sidearmsports.com/podcasts/2026/10/23/CC_Live_oct_22.mp3",
 "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/campbell.sidearmsports.com/podcasts/2026/10/23/KINLAW_TFTC.mp3",
@@ -1759,6 +1825,7 @@
 "listen_page": "https://thevarsitynetwork.com",
 "conference": "Coastal Athletic Association",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -1776,6 +1843,7 @@
 "calls": [
 "WHOV"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc5599",
 "https://stream.revma.ihrhls.com/zc5599/hls.m3u8",
@@ -1799,6 +1867,7 @@
 "WWMJ",
 "WLOB"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/manifest/townsquare-wezqfmaac-ibc3",
 "https://live.amperwave.net/manifest/townsquare-wwmjfmaac-ibc3"
@@ -1819,6 +1888,7 @@
 "calls": [
 "WOBM"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/manifest/townsquare-wobmfmaac-ibc3"
 ],
@@ -1841,6 +1911,7 @@
 "WQSO",
 "WPKX"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc2752",
 "https://stream.revma.ihrhls.com/zc2752/hls.m3u8",
@@ -1864,6 +1935,7 @@
 "WBRF",
 "WEAL"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/manifest/blueridgeradio-wbrffmaac-hlsc4.m3u8"
 ],
@@ -1882,6 +1954,7 @@
 "listen_page": "https://thevarsitynetwork.com",
 "conference": "Coastal Athletic Association",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -1897,6 +1970,7 @@
 "listen_page": "",
 "conference": "Coastal Athletic Association",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -1914,6 +1988,7 @@
 "calls": [
 "WUSB"
 ],
+"game_only": null,
 "streams": [
 "http://stream.wusb.stonybrook.edu:8080/;",
 "http://stream.wusb.stonybrook.edu:8090/;.mp3"
@@ -1934,10 +2009,9 @@
 "calls": [
 "WNST"
 ],
-"streams": [
-"https://ice6.securenetsystems.net/WNST"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -1953,6 +2027,7 @@
 "calls": [
 "WKOK-AM"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/playlist/sunbury-wkokamaac-ibc1.pls?source=airkast",
 "http://live.amperwave.net/playlist/sunbury-wkokamaac-ibc1.pls?source=airkast"
@@ -1973,6 +2048,7 @@
 "calls": [
 "WRCU-FM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WRCUFMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WRCUFM.mp3"
@@ -1993,6 +2069,7 @@
 "calls": [
 "WFUV-FM"
 ],
+"game_only": null,
 "streams": [
 "https://onair.wfuv.org/onair-aacplus",
 "http://onair.wfuv.org/onair-aacplus",
@@ -2012,6 +2089,7 @@
 "listen_page": "",
 "conference": "Patriot League",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2027,6 +2105,7 @@
 "listen_page": "",
 "conference": "Patriot League",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2042,6 +2121,7 @@
 "listen_page": "",
 "conference": "Patriot League",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2060,6 +2140,7 @@
 "WEEX-AM",
 "WTKZ-AM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WEEXAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WEEXAMAAC.m3u8",
@@ -2079,6 +2160,7 @@
 "listen_page": "",
 "conference": "Patriot League",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2096,6 +2178,7 @@
 "calls": [
 "WDAS-AM"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc3405",
 "https://stream.revma.ihrhls.com/zc3405/hls.m3u8",
@@ -2118,6 +2201,7 @@
 "calls": [
 "WTYD-FM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WTYDFMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WTYDFM.mp3"
@@ -2136,6 +2220,7 @@
 "listen_page": "",
 "conference": "Ivy League",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2153,6 +2238,7 @@
 "calls": [
 "WKCR-FM"
 ],
+"game_only": null,
 "streams": [
 "https://wkcr.streamguys1.com/live",
 "http://wkcr.streamguys1.com/live"
@@ -2171,6 +2257,7 @@
 "listen_page": "",
 "conference": "Ivy League",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2186,6 +2273,7 @@
 "listen_page": "",
 "conference": "Ivy League",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2203,6 +2291,7 @@
 "calls": [
 "WHRB-FM"
 ],
+"game_only": null,
 "streams": [
 "http://stream.whrb.org:8000/whrb-mp3"
 ],
@@ -2221,6 +2310,7 @@
 "listen_page": "",
 "conference": "Ivy League",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2236,6 +2326,7 @@
 "listen_page": "",
 "conference": "Ivy League",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2253,6 +2344,7 @@
 "calls": [
 "WELI-AM"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc453",
 "https://stream.revma.ihrhls.com/zc453/hls.m3u8",
@@ -2273,6 +2365,7 @@
 "listen_page": "",
 "conference": "Northeast Conference",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2288,6 +2381,7 @@
 "listen_page": "",
 "conference": "Northeast Conference",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2305,6 +2399,7 @@
 "calls": [
 "WBGG-AM"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc2013",
 "https://stream.revma.ihrhls.com/zc2013/hls.m3u8",
@@ -2325,6 +2420,7 @@
 "listen_page": "",
 "conference": "Northeast Conference",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2340,6 +2436,7 @@
 "listen_page": "",
 "conference": "Northeast Conference",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2355,6 +2452,7 @@
 "listen_page": "",
 "conference": "Northeast Conference",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2370,6 +2468,7 @@
 "listen_page": "",
 "conference": "Northeast Conference",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2385,6 +2484,7 @@
 "listen_page": "",
 "conference": "Northeast Conference",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2400,6 +2500,7 @@
 "listen_page": "",
 "conference": "Northeast Conference",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2418,6 +2519,7 @@
 "calls": [
 "WJAB"
 ],
+"game_only": null,
 "streams": [
 "http://wjab.streamguys.net/live"
 ],
@@ -2438,6 +2540,7 @@
 "calls": [
 "WVAS"
 ],
+"game_only": null,
 "streams": [
 "https://ondemand.npr.org/anon.npr-mp3/npr/specials/2026/10/20261013_specials_two_bass_hit_christian_mcbride_and_john_clayton_on_ray_brown_at_100.mp3",
 "https://ondemand.npr.org/anon.npr-mp3/npr/me/2026/08/20260813_me_jon_batiste_pays_tribute_to_2_pianists_who_defined_their_genres_--_mozart_and_monk.mp3",
@@ -2460,10 +2563,9 @@
 "calls": [
 "WELE-AM"
 ],
-"streams": [
-"https://ice41.securenetsystems.net/WELE"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -2480,6 +2582,7 @@
 "calls": [
 "WHBX"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WHBXFMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WHBXFMAAC.m3u8",
@@ -2502,6 +2605,7 @@
 "calls": [
 "WJSU"
 ],
+"game_only": null,
 "streams": [
 "https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261029_atc_alaska_senate_spoiler_candidate.mp3",
 "https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261029_atc_candy_prices_got_you_scared_stiff_what_to_know_about_the_cost_of_halloween_this_year.mp3",
@@ -2522,6 +2626,7 @@
 "listen_page": "",
 "conference": "SWAC",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2540,6 +2645,7 @@
 "calls": [
 "WPRL-FM"
 ],
+"game_only": null,
 "streams": [
 "https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261029_atc_alaska_senate_spoiler_candidate.mp3",
 "https://ondemand.npr.org/anon.npr-mp3/npr/atc/2026/10/20261029_atc_patrick_stewart_a_perceptive_patriarch_in_star_trek_and_x-men_dies_at_86.mp3",
@@ -2560,6 +2666,7 @@
 "listen_page": "",
 "conference": "SWAC",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2579,6 +2686,7 @@
 "KGRM",
 "KPCH"
 ],
+"game_only": null,
 "streams": [
 "https://cdnrf.securenetsystems.net/file_radio/stations_large/KGRM/podcasts/2898064/coverArt.heic"
 ],
@@ -2597,6 +2705,7 @@
 "listen_page": "",
 "conference": "SWAC",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2613,6 +2722,7 @@
 "listen_page": "",
 "conference": "SWAC",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2631,6 +2741,7 @@
 "calls": [
 "KTSU-FM"
 ],
+"game_only": null,
 "streams": [
 "http://centova87.instainternet.com/proxy/ktsuradio?mp=/stream"
 ],
@@ -2649,6 +2760,7 @@
 "listen_page": "",
 "conference": "MEAC",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2664,6 +2776,7 @@
 "listen_page": "",
 "conference": "MEAC",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2682,6 +2795,7 @@
 "calls": [
 "WEAA-FM"
 ],
+"game_only": null,
 "streams": [
 "http://amber.streamguys.com:4020/live"
 ],
@@ -2702,6 +2816,7 @@
 "calls": [
 "WNSB-FM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WNSBFMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WNSBFM.mp3"
@@ -2722,6 +2837,7 @@
 "listen_page": "",
 "conference": "MEAC",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2740,6 +2856,7 @@
 "calls": [
 "WPJK-AM"
 ],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2755,6 +2872,7 @@
 "listen_page": "",
 "conference": "FCS Independent",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2770,6 +2888,7 @@
 "listen_page": "",
 "conference": "FCS Independent",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2788,10 +2907,9 @@
 "calls": [
 "WFLI"
 ],
-"streams": [
-"https://ice41.securenetsystems.net/WFLI"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -2809,6 +2927,7 @@
 "WXSM",
 "WQUT"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WXSMAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WXSMAMAAC.m3u8",
@@ -2831,6 +2950,7 @@
 "WYRD-AM",
 "WORD-AM"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/manifest/audacy-wordamaac-hlsc.m3u8",
 "https://live.amperwave.net/manifest/audacy-wordamaac-imc",
@@ -2852,6 +2972,7 @@
 "calls": [
 "WNEX"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/direct/creekmedia-wnexfmaac-ibc1"
 ],
@@ -2869,6 +2990,7 @@
 "listen_page": "https://samfordsports.com",
 "conference": "Southern Conference",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2886,6 +3008,7 @@
 "calls": [
 "WPTN-AM"
 ],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2903,10 +3026,9 @@
 "calls": [
 "WQNT"
 ],
-"streams": [
-"https://ice5.securenetsystems.net/WQNT"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -2922,10 +3044,9 @@
 "calls": [
 "WWZW"
 ],
-"streams": [
-"https://ice41.securenetsystems.net/WWZW"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -2945,6 +3066,7 @@
 "WISE",
 "WBRM"
 ],
+"game_only": null,
 "streams": [
 "https://wvtf-ice2.streamguys1.com/radioiq-mp3-64.mp3",
 "https://wvtf-ice2.streamguys1.com/wvtfmusic-mp3-64.mp3",
@@ -2964,6 +3086,7 @@
 "listen_page": "https://woffordterriers.com/radio",
 "conference": "Southern Conference",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2982,6 +3105,7 @@
 "calls": [
 "KETR-FM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KETRFMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KETRFM.mp3"
@@ -3003,6 +3127,7 @@
 "calls": [
 "KYST-AM"
 ],
+"game_only": null,
 "streams": [
 "https://listen.radioking.com/radio/760748/stream/827744"
 ],
@@ -3021,6 +3146,7 @@
 "listen_page": "",
 "conference": "Southland Conference",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -3038,6 +3164,7 @@
 "calls": [
 "KLVI-AM"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc2197",
 "https://stream.revma.ihrhls.com/zc2197/hls.m3u8",
@@ -3059,6 +3186,7 @@
 "calls": [
 "KHLA-FM"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/manifest/townsquare-khlafmaac-ibc3",
 "http://98.86.150.170/townsquare-khlafmaac-ibc3?session-id=328b0e51282a130ff6a42131e0bba125"
@@ -3079,10 +3207,9 @@
 "calls": [
 "KCIL-FM"
 ],
-"streams": [
-"https://ice42.securenetsystems.net/KCIL"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -3098,6 +3225,7 @@
 "calls": [
 "KZBL-FM"
 ],
+"game_only": null,
 "streams": [
 "http://104.243.173.42:88/broadwave.mp3"
 ],
@@ -3118,10 +3246,9 @@
 "calls": [
 "WFPR-AM"
 ],
-"streams": [
-"https://ice41.securenetsystems.net/WFPR"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -3138,6 +3265,7 @@
 "calls": [
 "KTBQ-FM"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/manifest/townsquare-ktbqfmaac-ibc3"
 ],
@@ -3156,6 +3284,7 @@
 "listen_page": "",
 "conference": "Southland Conference",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -3172,6 +3301,7 @@
 "listen_page": "",
 "conference": "OVC-Big South Football Association",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -3190,6 +3320,7 @@
 "calls": [
 "WEIU-FM"
 ],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -3207,6 +3338,7 @@
 "calls": [
 "WGNC-AM"
 ],
+"game_only": null,
 "streams": [
 "https://sh.fl-us.audio-stream.com/proxy/sneisl01?mp=/stream"
 ],
@@ -3226,10 +3358,9 @@
 "calls": [
 "KCLC-FM"
 ],
-"streams": [
-"https://ice6.securenetsystems.net/KCLC"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -3246,10 +3377,9 @@
 "calls": [
 "KCGQ-FM"
 ],
-"streams": [
-"https://ice23.securenetsystems.net/KCGQ"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -3266,6 +3396,7 @@
 "calls": [
 "WNSR-AM"
 ],
+"game_only": null,
 "streams": [
 "http://shout.wnsr.com:8989/;"
 ],
@@ -3286,10 +3417,9 @@
 "calls": [
 "WUTM-FM"
 ],
-"streams": [
-"https://ice64.securenetsystems.net/WUTM"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -3304,6 +3434,7 @@
 "listen_page": "http://www.q981fm.com",
 "conference": "OVC-Big South Football Association",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -3319,6 +3450,7 @@
 "listen_page": "",
 "conference": "Pioneer Football League",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -3334,6 +3466,7 @@
 "listen_page": "",
 "conference": "Pioneer Football League",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -3351,6 +3484,7 @@
 "calls": [
 "WHIO-AM"
 ],
+"game_only": null,
 "streams": [
 "https://oom-cmg.streamguys1.com/day957/day957-sgplayer-aac?",
 "https://oom-cmg.streamguys1.com/day957/day957-sgplayer-aac",
@@ -3372,6 +3506,7 @@
 "calls": [
 "KRNT-AM"
 ],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -3387,6 +3522,7 @@
 "listen_page": "",
 "conference": "Pioneer Football League",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -3404,10 +3540,9 @@
 "calls": [
 "WIVY-FM"
 ],
-"streams": [
-"https://ice5.securenetsystems.net/WIVY"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -3424,10 +3559,9 @@
 "calls": [
 "WPCC-FM"
 ],
-"streams": [
-"https://ice26.securenetsystems.net/WPCC"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -3444,6 +3578,7 @@
 "calls": [
 "KSTP-AM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KSTPAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KSTPAM.mp3"
@@ -3463,6 +3598,7 @@
 "listen_page": "",
 "conference": "Pioneer Football League",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -3478,6 +3614,7 @@
 "listen_page": "",
 "conference": "Pioneer Football League",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -3496,6 +3633,7 @@
 "calls": [
 "WVUR-FM"
 ],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -3518,6 +3656,7 @@
 "KXGF",
 "KOFI"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/manifest/townsquare-kgvoamaac-ibc3"
 ],
@@ -3541,6 +3680,7 @@
 "KGHL",
 "KMPT"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/manifest/townsquare-kxlbfmaac-ibc3",
 "https://live.amperwave.net/manifest/townsquare-kmptamaac-ibc3"
@@ -3563,6 +3703,7 @@
 "calls": [
 "KXLX"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KXLXAMAAC.aac",
 "https://14623.live.streamtheworld.com/KXLXAMAAC.aac",
@@ -3585,6 +3726,7 @@
 "calls": [
 "KBNW"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/direct/horizonbroadcasting-kbnwammp3-ibc1"
 ],
@@ -3606,6 +3748,7 @@
 "calls": [
 "KISU"
 ],
+"game_only": null,
 "streams": [
 "http://kisufm.isu.edu:8000/kisufm"
 ],
@@ -3629,6 +3772,7 @@
 "KDUS",
 "KFFN"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KDUSAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KDUSAM.mp3"
@@ -3651,6 +3795,7 @@
 "calls": [
 "KFKA"
 ],
+"game_only": null,
 "streams": [
 "https://stream.radiojar.com/38vtv55ez38uv"
 ],
@@ -3670,6 +3815,7 @@
 "listen_page": "",
 "conference": "Big Sky Conference",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -3688,6 +3834,7 @@
 "calls": [
 "KLO-FM"
 ],
+"game_only": null,
 "streams": [
 "https://das-edge29-sa27-lax02.cdnstream.com/2284_96.aac"
 ],
@@ -3708,6 +3855,7 @@
 "calls": [
 "KXTK-AM"
 ],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -3726,6 +3874,7 @@
 "calls": [
 "KHTK-AM"
 ],
+"game_only": null,
 "streams": [
 "https://bonneville.cdnstream1.com/2616_48.aac?aw_0_1st.playerid=IHM",
 "https://bonneville.cdnstream1.com/2616_48.aac/playlist.m3u8?aw_0_1st.playerid=IHM",
@@ -3749,6 +3898,7 @@
 "calls": [
 "KSUB-AM"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/manifest/townsquare-ksubamaac-ibc3"
 ],
@@ -3767,6 +3917,7 @@
 "listen_page": "https://www.thefansportsnetwork.com",
 "conference": "Big Sky Conference",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -3785,6 +3936,7 @@
 "calls": [
 "WJBC-AM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WJBCAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WJBCAMAAC.m3u8",
@@ -3807,6 +3959,7 @@
 "calls": [
 "WVIG-FM"
 ],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -3825,6 +3978,7 @@
 "calls": [
 "WFGS-FM"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/manifest/forevercomm-wfgsfmaac-hlsc4.m3u8"
 ],
@@ -3845,6 +3999,7 @@
 "calls": [
 "KQHT-FM"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc1681",
 "https://stream.revma.ihrhls.com/zc1681/hls.m3u8",
@@ -3867,6 +4022,7 @@
 "calls": [
 "KCVM-FM"
 ],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -3886,10 +4042,9 @@
 "calls": [
 "KVHT-FM"
 ],
-"streams": [
-"https://ice7.securenetsystems.net/KVHT"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -3906,6 +4061,7 @@
 "calls": [
 "WNAX-AM"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/manifest/saga-wnaxamaac-hlsc1.m3u8"
 ],
@@ -3927,10 +4083,9 @@
 "calls": [
 "WCIL-FM"
 ],
-"streams": [
-"https://ice23.securenetsystems.net/WCIL"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -3948,6 +4103,7 @@
 "calls": [
 "WKBN-AM"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc1869",
 "https://stream.revma.ihrhls.com/zc1869/hls.m3u8",
@@ -3970,6 +4126,7 @@
 "calls": [
 "KHXS-FM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KHXSFMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KHXSFMAAC.m3u8",
@@ -3993,6 +4150,7 @@
 "calls": [
 "WKFN-AM"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/direct/saga-wkfnamaac-ibc2",
 "https://live.amperwave.net/manifest/saga-wkfnamaac-hlsc2.m3u8"
@@ -4012,6 +4170,7 @@
 "listen_page": "",
 "conference": "United Athletic Conference",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -4029,6 +4188,7 @@
 "listen_page": "https://ekusports.com",
 "conference": "United Athletic Conference",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -4047,6 +4207,7 @@
 "calls": [
 "WLXA-FM"
 ],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -4066,6 +4227,7 @@
 "calls": [
 "KTRL-FM"
 ],
+"game_only": null,
 "streams": [
 "https://kxtr.streamguys1.com/live2-aac",
 "http://kxtr.streamguys1.com/live2-aac"
@@ -4086,6 +4248,7 @@
 "listen_page": "",
 "conference": "United Athletic Conference",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -4102,6 +4265,7 @@
 "listen_page": "",
 "conference": "United Athletic Conference",
 "calls": [],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -4120,6 +4284,7 @@
 "WHLO",
 "WHK"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc3520",
 "https://stream.revma.ihrhls.com/zc3520/hls.m3u8",
@@ -4142,6 +4307,7 @@
 "WLBC",
 "WMUN"
 ],
+"game_only": null,
 "streams": [
 "https://mcdn.podbean.com/mf/web/x7xnkkfybc84kxwq/coach_ub5zlu.mp3",
 "https://mcdn.podbean.com/mf/web/bbpqs4dqujrzda92/power_hour_oct_29b68ok.mp3",
@@ -4164,10 +4330,9 @@
 "calls": [
 "WFRO"
 ],
-"streams": [
-"https://ice41.securenetsystems.net/WFRO"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -4184,6 +4349,7 @@
 "calls": [
 "WWKB-AM"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/manifest/audacy-wwkbamaac-hlsc.m3u8?dist=Audacy&source=webA2"
 ],
@@ -4204,6 +4370,7 @@
 "calls": [
 "WUPS-FM"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/manifest/northernstarbroadcasting-wupsfmaac-ibc2",
 "http://www.wmhw.cmich.edu:915/live.mp3"
@@ -4225,6 +4392,7 @@
 "calls": [
 "WEMU"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WEMUFM.mp3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WEMUFMAAC.aac",
@@ -4246,6 +4414,7 @@
 "calls": [
 "WARF-AM"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc3455",
 "https://stream.revma.ihrhls.com/zc3455/hls.m3u8",
@@ -4268,10 +4437,9 @@
 "calls": [
 "WMOH-AM"
 ],
-"streams": [
-"https://ice3.securenetsystems.net/WMOH"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -4287,10 +4455,9 @@
 "calls": [
 "WXTQ-FM"
 ],
-"streams": [
-"https://ice6.securenetsystems.net/WXTQ"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -4306,6 +4473,7 @@
 "calls": [
 "WSPD-AM"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc1857",
 "https://stream.revma.ihrhls.com/zc1857/hls.m3u8",
@@ -4328,6 +4496,7 @@
 "calls": [
 "WVFM-FM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WVFMFMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WVFMFM.mp3",
@@ -4350,6 +4519,7 @@
 "calls": [
 "WHMP-AM"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/manifest/saga-whmpamaac-hlsc1.m3u8?source=v7player"
 ],
@@ -4370,6 +4540,7 @@
 "calls": [
 "KIFM-AM"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/direct/audacy-kifmamaac-imc",
 "https://live.amperwave.net/manifest/audacy-kifmamaac-imc",
@@ -4392,6 +4563,7 @@
 "WDSD-FM",
 "WWTX-AM"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc461",
 "https://stream.revma.ihrhls.com/zc461/hls.m3u8",
@@ -4412,12 +4584,12 @@
 "listen_page": "https://fiusports.com/listen",
 "conference": "Conference USA",
 "calls": [],
+"game_only": true,
 "streams": [
 "https://cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8"
 ],
-"misses": 0,
-"last_ok": null,
-"game_only": true
+"misses": 1,
+"last_ok": null
 },
 {
 "school": "Jacksonville State University",
@@ -4433,6 +4605,7 @@
 "calls": [
 "WLJS"
 ],
+"game_only": null,
 "streams": [
 "http://s8.yesstreaming.net:7014/stream"
 ],
@@ -4451,6 +4624,7 @@
 "listen_page": "https://ksuowls.com",
 "conference": "Conference USA",
 "calls": [],
+"game_only": null,
 "streams": [
 "https://edge.mixlr.com/channel/iryqq"
 ],
@@ -4470,6 +4644,7 @@
 "calls": [
 "WRVL-FM"
 ],
+"game_only": null,
 "streams": [
 "https://ic.liberty.edu:8443/WRVL"
 ],
@@ -4490,10 +4665,9 @@
 "calls": [
 "WGNS"
 ],
-"streams": [
-"https://ice3.securenetsystems.net/WGNS"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -4509,6 +4683,7 @@
 "calls": [
 "KWTO-FM"
 ],
+"game_only": null,
 "streams": [
 "https://ais-sa1.streamon.fm/7678_48k.aac/playlist.m3u8"
 ],
@@ -4529,10 +4704,9 @@
 "calls": [
 "KXPZ-FM"
 ],
-"streams": [
-"https://ice42.securenetsystems.net/KXPZ"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -4549,6 +4723,7 @@
 "calls": [
 "KSHU-FM"
 ],
+"game_only": null,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -4568,10 +4743,9 @@
 "WPTQ-FM",
 "WWKU-AM"
 ],
-"streams": [
-"https://ice25.securenetsystems.net/WPTQ"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -4589,6 +4763,7 @@
 "KBOI",
 "KTIK"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAMAAC.m3u8",
@@ -4611,6 +4786,7 @@
 "calls": [
 "KKFN"
 ],
+"game_only": null,
 "streams": [
 "https://bonneville.cdnstream1.com/2612_48.aac?aw_0_1st.playerid=IHM",
 "https://bonneville.cdnstream1.com/2612_48.aac/playlist.m3u8?aw_0_1st.playerid=IHM",
@@ -4633,6 +4809,7 @@
 "calls": [
 "KFIG"
 ],
+"game_only": null,
 "streams": [
 "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
 ],
@@ -4653,6 +4830,7 @@
 "calls": [
 "KEX"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc1949",
 "https://stream.revma.ihrhls.com/zc1949/hls.m3u8",
@@ -4676,6 +4854,7 @@
 "calls": [
 "KGB"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc8528",
 "https://stream.revma.ihrhls.com/zc8528/hls.m3u8",
@@ -4699,6 +4878,7 @@
 "calls": [
 "KTSW"
 ],
+"game_only": null,
 "streams": [
 "https://ktswlive.txstate.edu:8102/listen"
 ],
@@ -4720,6 +4900,7 @@
 "calls": [
 "KZNS-AM"
 ],
+"game_only": null,
 "streams": [
 "https://bonneville.cdnstream1.com/2706_48.aac"
 ],
@@ -4741,6 +4922,7 @@
 "calls": [
 "KIRO-AM"
 ],
+"game_only": null,
 "streams": [
 "https://bonneville.cdnstream1.com/2642_48.aac?aw_0_1st.playerid=IHM",
 "https://bonneville.cdnstream1.com/2642_48.aac/playlist.m3u8?aw_0_1st.playerid=IHM",
@@ -4763,6 +4945,7 @@
 "calls": [
 "KVOR-AM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KVORAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KVORAMAAC.m3u8",
@@ -4786,6 +4969,7 @@
 "calls": [
 "KKEA"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KKEAAM_AAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KKEAAM_MP3.mp3"
@@ -4807,6 +4991,7 @@
 "calls": [
 "KOZZ-FM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KOZZFMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KOZZFM.mp3",
@@ -4831,6 +5016,7 @@
 "KKOB-AM",
 "KKOB-FM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KKOBAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KKOBAMAAC.m3u8",
@@ -4855,10 +5041,9 @@
 "KQWB-AM",
 "KPFX-FM"
 ],
-"streams": [
-"https://ice3.securenetsystems.net/KQWB"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -4876,6 +5061,7 @@
 "calls": [
 "WDKB-FM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WDKBFMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WDKBFM.mp3"
@@ -4899,6 +5085,7 @@
 "calls": [
 "KTRB-AM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KTRBAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KTRBAM.mp3",
@@ -4921,6 +5108,7 @@
 "calls": [
 "KWWN-AM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAM.mp3",
@@ -4943,6 +5131,7 @@
 "calls": [
 "KLAQ-FM"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/manifest/townsquare-klaqfmaac-ibc3",
 "https://live.amperwave.net/manifest/townsquare-klaqfmaac-hlsc3.m3u8",
@@ -4965,6 +5154,7 @@
 "calls": [
 "KOWB-AM"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/manifest/townsquare-kowbamaac-ibc3"
 ],
@@ -4986,6 +5176,7 @@
 "WBPT",
 "WFFN"
 ],
+"game_only": null,
 "streams": [
 "https://stream.rcs.revma.com/fyk48ahxu7uvv",
 "https://stream.rcs.revma.com/fyk48ahxu7uvv/hls.m3u8",
@@ -5009,6 +5200,7 @@
 "KABZ",
 "KAKS"
 ],
+"game_only": null,
 "streams": [
 "https://oom-signalmedia.streamguys1.com/signalmedia/kabz-aac?aw_0_req.gdpr=true",
 "http://oom-signalmedia.streamguys1.com/signalmedia/kabz-aac?aw_0_req.gdpr=true"
@@ -5029,10 +5221,9 @@
 "calls": [
 "WGZZ"
 ],
-"streams": [
-"https://ice25.securenetsystems.net/WGZZ"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -5049,6 +5240,7 @@
 "calls": [
 "WRUF"
 ],
+"game_only": null,
 "streams": [
 "https://ais-sa1.streamon.fm/7644_64k.mp3",
 "https://ais-sa1.streamon.fm/7644_48k.aac",
@@ -5072,6 +5264,7 @@
 "WSB-AM",
 "WSBB-FM"
 ],
+"game_only": null,
 "streams": [
 "https://cmg.streamguys1.com/atl750/atl750-encoder.aac/playlist.m3u8?aw_0_1st.playerId=cmg_iheart",
 "https://dts.podtrac.com/redirect.mp3/od-cmg.streamguys1.com/atlanta/atl750/20261028080936_629799-promosforthurs10-29.wav?awCollectionId=atl750-16&awGenre=News&awEpisodeId=d35b2a30-d2d0-11f1-ae7f-0d1592a683ef",
@@ -5095,6 +5288,7 @@
 "WLAP-AM",
 "WBUL-FM"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc965",
 "https://stream.revma.ihrhls.com/zc965/hls.m3u8",
@@ -5116,6 +5310,7 @@
 "calls": [
 "WDGL-FM"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/direct/guaranty-wdglfmaac-ibc1",
 "http://live.amperwave.net/direct/guaranty-wdglfmaac-ibc1"
@@ -5137,6 +5332,7 @@
 "calls": [
 "WOXF-FM"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/manifest/telesouth-wqljfmaac-hlsc1.m3u8?source=v7player"
 ],
@@ -5157,6 +5353,7 @@
 "calls": [
 "WKBB"
 ],
+"game_only": null,
 "streams": [
 "https://live.amperwave.net/manifest/telesouth-wkbbfmaac-hlsc1.m3u8?source=v7player",
 "https://live.amperwave.net/manifest/telesouth-wkbbfmaac-imc1",
@@ -5179,6 +5376,7 @@
 "calls": [
 "KWOS-AM"
 ],
+"game_only": null,
 "streams": [
 "https://ais-sa1.streamon.fm/7401_48k.aac"
 ],
@@ -5199,6 +5397,7 @@
 "calls": [
 "KRXO-FM"
 ],
+"game_only": null,
 "streams": [
 "https://ais-sa1.streamon.fm/11317_96k.aac",
 "https://das-edge59-sa48-futuri-lax02.cdnstream.com/11317_96k.aac?listeningSessionId=QjdWS0FUT0tQSVFOUERONUlNRkhXSTI0NklfZGFzLWVkZ2U1OS1zYTQ4LWZ1dHVyaS1sYXgwMi5jZG5zdHJlYW0uY29tOjgxODY.&playerid=esPlayer",
@@ -5221,6 +5420,7 @@
 "calls": [
 "WNKT-FM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WNKTFMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WNKTFMAAC.m3u8",
@@ -5244,6 +5444,7 @@
 "WIVK-FM",
 "WNML-FM"
 ],
+"game_only": null,
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WIVKFMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WIVKFMAAC.m3u8",
@@ -5267,6 +5468,7 @@
 "KVET-AM",
 "KVET-FM"
 ],
+"game_only": null,
 "streams": [
 "https://stream.revma.ihrhls.com/zc2181",
 "https://stream.revma.ihrhls.com/zc2181/hls.m3u8",
@@ -5291,10 +5493,9 @@
 "WTAW",
 "KZNE"
 ],
-"streams": [
-"http://ice42.securenetsystems.net/WTAWAM"
-],
-"misses": 2,
+"game_only": null,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -5311,6 +5512,7 @@
 "calls": [
 "WPRT-FM"
 ],
+"game_only": null,
 "streams": [
 "https://cromwell-ice.streamguys1.com/WPRTFM"
 ],
