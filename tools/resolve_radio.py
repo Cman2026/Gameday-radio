@@ -8,7 +8,7 @@ Runs on GitHub Actions, which has open internet access. Streams found once are
 remembered: a team keeps its last working stream until it fails three runs in a
 row, or until its station changes.
 """
-import html as htmlmod, json, re, time, urllib.parse, urllib.request
+import html as htmlmod, json, re, threading, time, urllib.parse, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"}
@@ -25,8 +25,18 @@ def fetch(url, timeout=12, limit=600_000):
         return r.read(limit).decode("utf-8", "ignore"), r.geturl()
 
 
+HOST_LIMIT = {"securenetsystems.net": threading.Semaphore(3)}  # hosts that throttle cloud servers
+
 def probe(url, timeout=8):
     """(ok, detail): ok means the URL is answering with audio right now."""
+    sem = next((v for k, v in HOST_LIMIT.items() if k in url), None)
+    if sem:
+        with sem:
+            return _probe(url, timeout + 7)
+    return _probe(url, timeout)
+
+
+def _probe(url, timeout):
     try:
         req = urllib.request.Request(url, headers=UA | {"Icy-MetaData": "0"})
         with urllib.request.urlopen(req, timeout=timeout) as r:
@@ -137,7 +147,7 @@ def securenet(call):
     except Exception:
         return []
     found = re.findall(r"https?://ice\d+\.securenetsystems\.net/[A-Za-z0-9_]+", text)
-    return list(dict.fromkeys(found)) or [f"https://ice{n}.securenetsystems.net/{call}" for n in range(1, 70)]
+    return list(dict.fromkeys(found)) or [f"https://ice{n}.securenetsystems.net/{call}" for n in (1, 2, 3, 5, 6, 7, 8, 9, 10, 24, 25, 41, 64)]
 
 
 def streamtheworld(call, band):
@@ -251,7 +261,11 @@ def main():
         base = lambda cs: sorted({re.sub(r"-?(AM|FM)$", "", c.upper()) for c in (cs or [])})
         same_station = "calls" not in old or base(old.get("calls")) == base(t.get("calls"))
         misses = 0
-        if not good and same_station and old.get("streams"):
+        remembered = [x for x in tried if x["source"] == "remembered"]
+        only_timeouts = bool(remembered) and all("timed out" in x["detail"] or "timeout" in x["detail"].lower() for x in remembered)
+        if not good and same_station and old.get("streams") and only_timeouts:
+            good, misses = old["streams"], old.get("misses", 0)  # couldn't reach it from here; not proof it's dead
+        elif not good and same_station and old.get("streams"):
             misses = old.get("misses", 0) + 1
             if misses < DROP_AFTER:
                 good = old["streams"]  # keep the last stream that worked
