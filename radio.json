@@ -1,5 +1,5 @@
 {
-"built": "2026-10-30T00:21:38Z",
+"built": "2026-10-30T00:23:21Z",
 "teams": [
 {
 "school": "Boston College",
@@ -12,7 +12,11 @@
 "flagship": "WEEI 850 AM (Boston); select games 93.7 FM",
 "listen_page": "https://bceagles.com",
 "conference": "ACC",
-"streams": []
+"streams": [
+"https://live.amperwave.net/direct/audacy-weeiamaac-imc",
+"https://live.amperwave.net/direct/audacy-weeifmaac-imc",
+"http://live.amperwave.net/direct/audacy-weeiamaac-imc"
+]
 },
 {
 "school": "University of California, Berkeley",
@@ -53,7 +57,8 @@
 "conference": "ACC",
 "streams": [
 "https://ais-sa8.cdnstream1.com/2748_64.aac",
-"https://ais-sa8.cdnstream1.com/2745_64.aac?listenerId=a1a239a4c8b9ea9da8e079414ae50037&NoPreroll=true&starttime=1&aw_0_1st.playerid=esPlayer&aw_0_1st.skey=1689391886"
+"https://ais-sa8.cdnstream1.com/2745_64.aac?listenerId=a1a239a4c8b9ea9da8e079414ae50037&NoPreroll=true&starttime=1&aw_0_1st.playerid=esPlayer&aw_0_1st.skey=1689391886",
+"https://ais-sa8.cdnstream1.com/2748_64.aac?aw_0_1st.playerid=iHeart"
 ]
 },
 {
@@ -67,7 +72,11 @@
 "flagship": "WTNT-FM 94.9 (Tallahassee, iHeartMedia)",
 "listen_page": "https://seminoles.com",
 "conference": "ACC",
-"streams": []
+"streams": [
+"https://stream.revma.ihrhls.com/zc661",
+"https://stream.revma.ihrhls.com/zc661/hls.m3u8?hls=true",
+"http://stream.revma.ihrhls.com/zc661"
+]
 },
 {
 "school": "Georgia Institute of Technology",
@@ -96,7 +105,9 @@
 "listen_page": "",
 "conference": "ACC",
 "streams": [
-"https://ice25.securenetsystems.net/WGTK"
+"https://live.amperwave.net/direct/unionbroadcasting-wlclamaac-ibc2",
+"https://ice25.securenetsystems.net/WGTK",
+"http://live.amperwave.net/direct/unionbroadcasting-wlclamaac-ibc2"
 ]
 },
 {
@@ -128,7 +139,8 @@
 "conference": "ACC",
 "streams": [
 "https://ais-sa8.cdnstream1.com/2748_64.aac",
-"https://ais-sa8.cdnstream1.com/2745_64.aac?listenerId=a1a239a4c8b9ea9da8e079414ae50037&NoPreroll=true&starttime=1&aw_0_1st.playerid=esPlayer&aw_0_1st.skey=1689391886"
+"https://ais-sa8.cdnstream1.com/2745_64.aac?listenerId=a1a239a4c8b9ea9da8e079414ae50037&NoPreroll=true&starttime=1&aw_0_1st.playerid=esPlayer&aw_0_1st.skey=1689391886",
+"https://ais-sa8.cdnstream1.com/2748_64.aac?aw_0_1st.playerid=iHeart"
 ]
 },
 {
@@ -158,7 +170,10 @@
 "flagship": "93.7 The Fan KDKA-FM (Pittsburgh, Audacy) - unverified; Audacy blackout risk",
 "listen_page": "",
 "conference": "ACC",
-"streams": []
+"streams": [
+"https://live.amperwave.net/direct/audacy-kdkafmaac-imc",
+"http://live.amperwave.net/direct/audacy-kdkafmaac-imc"
+]
 },
 {
 "school": "Southern Methodist University",
@@ -172,7 +187,8 @@
 "conference": "ACC",
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAM.mp3"
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.m3u8",
+"http://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.aac"
 ]
 },
 {
@@ -255,7 +271,8 @@
 "conference": "FBS Independent",
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WSBTAMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/WSBTAM.mp3"
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WSBTAM.mp3",
+"https://live.amperwave.net/direct/audacy-wbbmamaac-imc"
 ]
 },
 {
@@ -269,7 +286,11 @@
 "flagship": "WTIC 1080 AM (Hartford, Audacy) - unverified; Audacy blackout risk",
 "listen_page": "",
 "conference": "FBS Independent",
-"streams": []
+"streams": [
+"https://live.amperwave.net/direct/audacy-wticamaac-imc",
+"https://live.amperwave.net/direct/audacy-wticfmaac-imc",
+"http://live.amperwave.net/direct/audacy-wticamaac-imc"
+]
 },
 {
 "school": "United States Military Academy",
@@ -282,7 +303,11 @@
 "flagship": "WBWZ 93.3 FM (Poughkeepsie, NY) per 2024 coverage note",
 "listen_page": "https://thevarsitynetwork.com/feed/source/oas-1047?audioPlayer=goarmy%3Aallaccess-Live-2997",
 "conference": "American Conference",
-"streams": []
+"streams": [
+"https://stream.revma.ihrhls.com/zc1493",
+"https://stream.revma.ihrhls.com/zc1493/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc1493"
+]
 },
 {
 "school": "University of North Carolina at Charlotte",
@@ -335,7 +360,10 @@
 "flagship": "UNVERIFIED (from memory, not confirmed this run): 92.9 FM ESPN (WMFS, Audacy)",
 "listen_page": "",
 "conference": "American Conference",
-"streams": []
+"streams": [
+"https://live.amperwave.net/direct/audacy-wmfsfmaac-imc",
+"http://live.amperwave.net/direct/audacy-wmfsfmaac-imc"
+]
 },
 {
 "school": "United States Naval Academy",
@@ -365,7 +393,9 @@
 "listen_page": "",
 "conference": "American Conference",
 "streams": [
-"https://stream.revma.ihrhls.com/zc4276"
+"https://stream.revma.ihrhls.com/zc4276",
+"https://stream.revma.ihrhls.com/zc4276/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc4276"
 ]
 },
 {
@@ -393,7 +423,8 @@
 "conference": "American Conference",
 "streams": [
 "https://stream.revma.ihrhls.com/zc673",
-"https://n2bb-e2.revma.ihrhls.com/zc673"
+"https://n2bb-e2.revma.ihrhls.com/zc673",
+"https://stream.revma.ihrhls.com/zc673/hls.m3u8"
 ]
 },
 {
@@ -420,7 +451,8 @@
 "conference": "American Conference",
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFM.mp3"
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.m3u8",
+"http://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.aac"
 ]
 },
 {
@@ -433,7 +465,11 @@
 "flagship": "UNVERIFIED (from memory, not confirmed this run): historically KTBZ 1430 The Buzz (Tulsa, iHeart)",
 "listen_page": "",
 "conference": "American Conference",
-"streams": []
+"streams": [
+"https://stream.revma.ihrhls.com/zc1941",
+"https://stream.revma.ihrhls.com/zc1941/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc1941"
+]
 },
 {
 "school": "University of Alabama at Birmingham",
@@ -447,7 +483,7 @@
 "conference": "American Conference",
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WJOXFMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/WJOXFM.mp3",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WJOXFMAAC.m3u8",
 "http://18153.live.streamtheworld.com:3690/WJOXFM_SC"
 ]
 },
@@ -461,7 +497,11 @@
 "flagship": "UNVERIFIED (from memory, not confirmed this run): historically KTKR 760 The Ticket (San Antonio, iHeart)",
 "listen_page": "",
 "conference": "American Conference",
-"streams": []
+"streams": [
+"https://stream.revma.ihrhls.com/zc2353",
+"https://stream.revma.ihrhls.com/zc2353/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc2353"
+]
 },
 {
 "school": "Appalachian State University",
@@ -501,7 +541,9 @@
 "listen_page": "",
 "conference": "Sun Belt Conference",
 "streams": [
-"https://stream.revma.ihrhls.com/zc6849/hls.m3u8"
+"https://stream.revma.ihrhls.com/zc6849/hls.m3u8",
+"https://stream.revma.ihrhls.com/zc6849",
+"http://stream.revma.ihrhls.com/zc6849"
 ]
 },
 {
@@ -670,7 +712,8 @@
 "conference": "Big 12 Conference",
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KCUBAMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/KCUBAM.mp3"
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KCUBAMAAC.m3u8",
+"http://playerservices.streamtheworld.com/api/livestream-redirect/KCUBAMAAC.aac"
 ]
 },
 {
@@ -685,7 +728,9 @@
 "listen_page": "http://arizonasports.com/the-arizona-sports-98-7-fm-app/",
 "conference": "Big 12 Conference",
 "streams": [
-"https://bonneville.cdnstream1.com/2699_48.aac"
+"https://bonneville.cdnstream1.com/2699_48.aac",
+"https://bonneville.cdnstream1.com/2699_48.aac?aw_0_1st.playerid=IHM",
+"https://bonneville.cdnstream1.com/2699_48.aac/playlist.m3u8?aw_0_1st.playerid=IHM"
 ]
 },
 {
@@ -726,7 +771,11 @@
 "flagship": "Unverified (prior knowledge: ESPN 1530 WCKY, Cincinnati, iHeart)",
 "listen_page": "",
 "conference": "Big 12 Conference",
-"streams": []
+"streams": [
+"https://stream.revma.ihrhls.com/zc1697",
+"https://stream.revma.ihrhls.com/zc1697/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc1697"
+]
 },
 {
 "school": "University of Colorado Boulder",
@@ -739,6 +788,8 @@
 "listen_page": "",
 "conference": "Big 12 Conference",
 "streams": [
+"https://stream.revma.ihrhls.com/zc389",
+"https://stream.revma.ihrhls.com/zc389/hls.m3u8",
 "http://stream.revma.ihrhls.com/zc389/hls.m3u8"
 ]
 },
@@ -752,7 +803,11 @@
 "flagship": "Unverified (prior knowledge: SportsTalk 790 KBME, Houston, iHeart)",
 "listen_page": "",
 "conference": "Big 12 Conference",
-"streams": []
+"streams": [
+"https://stream.revma.ihrhls.com/zc2257",
+"https://stream.revma.ihrhls.com/zc2257/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc2257"
+]
 },
 {
 "school": "Iowa State University",
@@ -765,7 +820,9 @@
 "listen_page": "",
 "conference": "Big 12 Conference",
 "streams": [
-"https://streaming.exclusive.radio/er-app/whohits/icecast.audio"
+"https://streaming.exclusive.radio/er-app/whohits/icecast.audio",
+"https://stream.revma.ihrhls.com/zc925",
+"https://stream.revma.ihrhls.com/zc925/hls.m3u8"
 ]
 },
 {
@@ -820,7 +877,8 @@
 "conference": "Big 12 Conference",
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAM.mp3"
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.m3u8",
+"http://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.aac"
 ]
 },
 {
@@ -845,7 +903,11 @@
 "flagship": "Unverified (prior knowledge: 96.9 The Game WYGM, Orlando, iHeart)",
 "listen_page": "",
 "conference": "Big 12 Conference",
-"streams": []
+"streams": [
+"https://stream.revma.ihrhls.com/zc601",
+"https://stream.revma.ihrhls.com/zc601/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc601"
+]
 },
 {
 "school": "University of Utah",
@@ -889,7 +951,8 @@
 "conference": "Big Ten Conference",
 "streams": [
 "https://oom-radiohio.streamguys1.com/cols/wbnsfm.mp3",
-"https://radiohio.streamguys1.com/cols/wbnsfm.mp3"
+"https://radiohio.streamguys1.com/cols/wbnsfm.mp3",
+"https://radiohio.streamguys1.com/cols/wbnsfm-iheart.m4a"
 ]
 },
 {
@@ -904,6 +967,7 @@
 "listen_page": "https://mgoblue.com/sports/2017/6/16/football-broadcast-information",
 "conference": "Big Ten Conference",
 "streams": [
+"https://playerservices.streamtheworld.com/pls/WCSXFMAACIHR.pls",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WCSXFMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WCSXFM.mp3"
 ]
@@ -949,7 +1013,10 @@
 "flagship": "1070 The Fan WFNI (Indianapolis) - UNVERIFIED",
 "listen_page": "",
 "conference": "Big Ten Conference",
-"streams": []
+"streams": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WIBCHD2AAC.aac",
+"http://playerservices.streamtheworld.com/api/livestream-redirect/WIBCHD2AAC.aac"
+]
 },
 {
 "school": "University of Iowa",
@@ -963,7 +1030,8 @@
 "conference": "Big Ten Conference",
 "streams": [
 "https://streaming.exclusive.radio/er-app/whohits/icecast.audio",
-"https://stream.revma.ihrhls.com/zc5262"
+"https://stream.revma.ihrhls.com/zc925",
+"https://stream.revma.ihrhls.com/zc925/hls.m3u8"
 ]
 },
 {
@@ -977,7 +1045,11 @@
 "flagship": "WJZ-FM 105.7 'The Fan' (Baltimore, MD); WTEM 980 AM 'The Team 980' (Washington, DC)",
 "listen_page": "",
 "conference": "Big Ten Conference",
-"streams": []
+"streams": [
+"https://live.amperwave.net/direct/audacy-wjzfmaac-imc",
+"https://live.amperwave.net/direct/audacy-wtemamaac-imc",
+"http://live.amperwave.net/direct/audacy-wjzfmaac-imc"
+]
 },
 {
 "school": "Michigan State University",
@@ -992,7 +1064,7 @@
 "conference": "Big Ten Conference",
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WJRAMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/WJRAM.mp3",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WJRAMAAC.m3u8",
 "http://17553.live.streamtheworld.com:3690/WJRAMAAC_SC"
 ]
 },
@@ -1040,6 +1112,7 @@
 "conference": "Big Ten Conference",
 "streams": [
 "https://prod-54-158-170-239.amperwave.net/wgnam-wgnamaac-imc2?session-id=f5614e5dfbe0f336648e61b5bc848ce2",
+"https://live.amperwave.net/direct/wgnam-wgnamaac-imc2",
 "http://18.204.34.32/wgnam-wgnammp3-ibc2?session-id=611cbf2ae655692204b4a6d45fef29e7"
 ]
 },
@@ -1054,7 +1127,9 @@
 "listen_page": "",
 "conference": "Big Ten Conference",
 "streams": [
-"https://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAMAAC.aac"
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAMAAC.aac",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAMAAC.m3u8",
+"http://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAMAAC.aac"
 ]
 },
 {
@@ -1081,7 +1156,10 @@
 "flagship": "WFAN 660 AM / 101.9 FM (New York, NY)",
 "listen_page": "",
 "conference": "Big Ten Conference",
-"streams": []
+"streams": [
+"https://live.amperwave.net/direct/audacy-wfanamaac-imc",
+"http://live.amperwave.net/direct/audacy-wfanamaac-imc"
+]
 },
 {
 "school": "University of California, Los Angeles",
@@ -1095,7 +1173,8 @@
 "conference": "Big Ten Conference",
 "streams": [
 "https://n38b-e2.revma.ihrhls.com/zc189",
-"https://n42b-e2.revma.ihrhls.com/zc189"
+"https://n42b-e2.revma.ihrhls.com/zc189",
+"https://stream.revma.ihrhls.com/zc189"
 ]
 },
 {
@@ -1109,7 +1188,10 @@
 "flagship": "KSPN 710 AM 'ESPN LA 710' (Los Angeles, CA)",
 "listen_page": "https://usctrojans.com/listen",
 "conference": "Big Ten Conference",
-"streams": []
+"streams": [
+"https://live.amperwave.net/direct/goodkarma-kspnamaac-ibc",
+"http://live.amperwave.net/direct/goodkarma-kspnamaac-ibc"
+]
 },
 {
 "school": "University of Washington",
@@ -1124,7 +1206,8 @@
 "conference": "Big Ten Conference",
 "streams": [
 "https://stream.revma.ihrhls.com/zc7747",
-"https://stream.revma.ihrhls.com/zc2565"
+"https://stream.revma.ihrhls.com/zc2565",
+"https://stream.revma.ihrhls.com/zc2577"
 ]
 },
 {
@@ -1139,7 +1222,8 @@
 "conference": "Big Ten Conference",
 "streams": [
 "https://stream.revma.ihrhls.com/zc3466",
-"https://stream.revma.ihrhls.com/zc2661"
+"https://stream.revma.ihrhls.com/zc2661",
+"https://stream.revma.ihrhls.com/zc2661/hls.m3u8"
 ]
 },
 {
@@ -1204,6 +1288,8 @@
 "listen_page": "",
 "conference": "Coastal Athletic Association",
 "streams": [
+"https://stream.revma.ihrhls.com/zc5599",
+"https://stream.revma.ihrhls.com/zc5599/hls.m3u8",
 "http://stream.revma.ihrhls.com/zc5599"
 ]
 },
@@ -1244,7 +1330,11 @@
 "flagship": "Network includes WGIR 610 AM (Manchester; iHeart), WQSO 96.7 / WPKX 930 (Rochester); flagship not confirmed",
 "listen_page": "https://thevarsitynetwork.com/audioapplink/source/oas-1064/content/unh:allaccess-Live-798",
 "conference": "Coastal Athletic Association",
-"streams": []
+"streams": [
+"https://stream.revma.ihrhls.com/zc2752",
+"https://stream.revma.ihrhls.com/zc2752/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc2752"
+]
 },
 {
 "school": "North Carolina A&T State University",
@@ -1323,7 +1413,10 @@
 "flagship": "WKOK 1070 AM (Sunbury, PA)",
 "listen_page": "https://bucknellbison.com",
 "conference": "Patriot League",
-"streams": []
+"streams": [
+"https://live.amperwave.net/playlist/sunbury-wkokamaac-ibc1.pls?source=airkast",
+"http://live.amperwave.net/playlist/sunbury-wkokamaac-ibc1.pls?source=airkast"
+]
 },
 {
 "school": "Colgate University",
@@ -1404,7 +1497,8 @@
 "conference": "Patriot League",
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WEEXAMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/WEEXAM.mp3"
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WEEXAMAAC.m3u8",
+"http://playerservices.streamtheworld.com/api/livestream-redirect/WEEXAMAAC.aac"
 ]
 },
 {
@@ -1430,7 +1524,9 @@
 "listen_page": "",
 "conference": "Patriot League",
 "streams": [
-"https://stream.revma.ihrhls.com/zc1993"
+"https://stream.revma.ihrhls.com/zc1993",
+"https://stream.revma.ihrhls.com/zc3405",
+"https://stream.revma.ihrhls.com/zc3405/hls.m3u8"
 ]
 },
 {
@@ -1549,7 +1645,11 @@
 "flagship": "WELI 960 AM (New Haven, CT)",
 "listen_page": "",
 "conference": "Ivy League",
-"streams": []
+"streams": [
+"https://stream.revma.ihrhls.com/zc453",
+"https://stream.revma.ihrhls.com/zc453/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc453"
+]
 },
 {
 "school": "Central Connecticut State University",
@@ -1586,7 +1686,11 @@
 "flagship": "WBGG 970 AM 'Fox Sports Pittsburgh' (Pittsburgh, PA)",
 "listen_page": "",
 "conference": "Northeast Conference",
-"streams": []
+"streams": [
+"https://stream.revma.ihrhls.com/zc2013",
+"https://stream.revma.ihrhls.com/zc2013/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc2013"
+]
 },
 {
 "school": "Long Island University",
@@ -1717,7 +1821,8 @@
 "conference": "SWAC",
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WHBXFMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/WHBXFM.mp3"
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WHBXFMAAC.m3u8",
+"http://playerservices.streamtheworld.com/api/livestream-redirect/WHBXFMAAC.aac"
 ]
 },
 {
@@ -1965,8 +2070,8 @@
 "conference": "Southern Conference",
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WXSMAMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/WXSMAM.mp3",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/WQUTFMAAC.aac"
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WXSMAMAAC.m3u8",
+"http://playerservices.streamtheworld.com/api/livestream-redirect/WXSMAMAAC.aac"
 ]
 },
 {
@@ -2089,6 +2194,7 @@
 "listen_page": "http://www.ketr.org",
 "conference": "Southland Conference",
 "streams": [
+"https://playerservices.streamtheworld.com/pls/KETRFMAAC.pls",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KETRFMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KETRFM.mp3"
 ]
@@ -2130,7 +2236,9 @@
 "listen_page": "",
 "conference": "Southland Conference",
 "streams": [
-"https://stream.revma.ihrhls.com/zc2197"
+"https://stream.revma.ihrhls.com/zc2197",
+"https://stream.revma.ihrhls.com/zc2197/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc2197"
 ]
 },
 {
@@ -2558,7 +2666,7 @@
 "listen_page": "https://nauathletics.com/watch",
 "conference": "Big Sky Conference",
 "streams": [
-"https://ice25.securenetsystems.net/KAFF",
+"https://ice25.securenetsystems.net/KAFFAM",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KDUSAMAAC.aac",
 "http://16643.live.streamtheworld.com/KDUSAMAAC_SC"
 ]
@@ -2631,7 +2739,9 @@
 "listen_page": "",
 "conference": "Big Sky Conference",
 "streams": [
-"https://bonneville.cdnstream1.com/2616_48.aac"
+"https://bonneville.cdnstream1.com/2616_48.aac",
+"https://bonneville.cdnstream1.com/2616_48.aac?aw_0_1st.playerid=IHM",
+"https://bonneville.cdnstream1.com/2616_48.aac/playlist.m3u8?aw_0_1st.playerid=IHM"
 ]
 },
 {
@@ -2674,7 +2784,8 @@
 "conference": "Missouri Valley Football Conference",
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WJBCAMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/WJBCAM.mp3"
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WJBCAMAAC.m3u8",
+"http://playerservices.streamtheworld.com/api/livestream-redirect/WJBCAMAAC.aac"
 ]
 },
 {
@@ -2714,7 +2825,11 @@
 "flagship": "KQHT 96.1 FM (Grand Forks, ND)",
 "listen_page": "",
 "conference": "Missouri Valley Football Conference",
-"streams": []
+"streams": [
+"https://stream.revma.ihrhls.com/zc1681",
+"https://stream.revma.ihrhls.com/zc1681/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc1681"
+]
 },
 {
 "school": "University of Northern Iowa",
@@ -2788,7 +2903,11 @@
 "flagship": "WKBN 570 AM (Youngstown, OH)",
 "listen_page": "https://570wkbn.iheart.com",
 "conference": "Missouri Valley Football Conference",
-"streams": []
+"streams": [
+"https://stream.revma.ihrhls.com/zc1869",
+"https://stream.revma.ihrhls.com/zc1869/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc1869"
+]
 },
 {
 "school": "Abilene Christian University",
@@ -2803,7 +2922,8 @@
 "conference": "United Athletic Conference",
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KHXSFMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/KHXSFM.mp3"
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KHXSFMAAC.m3u8",
+"http://playerservices.streamtheworld.com/api/livestream-redirect/KHXSFMAAC.aac"
 ]
 },
 {
@@ -2872,7 +2992,10 @@
 "flagship": "KTRL 90.5 FM (Stephenville, TX)",
 "listen_page": "https://www.tarletonsports.com/listenlive",
 "conference": "United Athletic Conference",
-"streams": []
+"streams": [
+"https://kxtr.streamguys1.com/live2-aac",
+"http://kxtr.streamguys1.com/live2-aac"
+]
 },
 {
 "school": "University of West Florida",
@@ -2912,8 +3035,9 @@
 "listen_page": "",
 "conference": "Mid-American Conference",
 "streams": [
-"https://playerservices.streamtheworld.com/api/livestream-redirect/WHKAMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/WHKAM.mp3"
+"https://stream.revma.ihrhls.com/zc3520",
+"https://stream.revma.ihrhls.com/zc3520/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc3520"
 ]
 },
 {
@@ -2998,7 +3122,11 @@
 "flagship": "WARF 1350 AM 'Fox Sports 1350 The Gambler' (Akron, OH)",
 "listen_page": "",
 "conference": "Mid-American Conference",
-"streams": []
+"streams": [
+"https://stream.revma.ihrhls.com/zc3455",
+"https://stream.revma.ihrhls.com/zc3455/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc3455"
+]
 },
 {
 "school": "Miami University",
@@ -3039,7 +3167,11 @@
 "flagship": "WSPD 1370 AM (Toledo, OH)",
 "listen_page": "",
 "conference": "Mid-American Conference",
-"streams": []
+"streams": [
+"https://stream.revma.ihrhls.com/zc1857",
+"https://stream.revma.ihrhls.com/zc1857/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc1857"
+]
 },
 {
 "school": "Western Michigan University",
@@ -3053,8 +3185,8 @@
 "listen_page": "",
 "conference": "Mid-American Conference",
 "streams": [
+"https://playerservices.streamtheworld.com/pls/WVFMFMAAC.pls",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WVFMFMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/WVFMFM.mp3",
 "http://18493.live.streamtheworld.com/WVFMFMAAC_SC"
 ]
 },
@@ -3082,7 +3214,10 @@
 "flagship": "KIFM 1320 AM 'ESPN 1320' (Sacramento, CA)",
 "listen_page": "",
 "conference": "Mid-American Conference",
-"streams": []
+"streams": [
+"https://live.amperwave.net/direct/audacy-kifmamaac-imc",
+"http://live.amperwave.net/direct/audacy-kifmamaac-imc"
+]
 },
 {
 "school": "University of Delaware",
@@ -3094,7 +3229,11 @@
 "flagship": "WDSD 94.7 FM (Dover, DE); co-flagships WWTX 1290 AM, WDOV 1410 AM",
 "listen_page": "",
 "conference": "Conference USA",
-"streams": []
+"streams": [
+"https://stream.revma.ihrhls.com/zc461",
+"https://stream.revma.ihrhls.com/zc461/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc461"
+]
 },
 {
 "school": "Florida International University",
@@ -3234,8 +3373,8 @@
 "conference": "Pac-12 Conference",
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAM.mp3",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/KBOIFMAAC.aac"
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAMAAC.m3u8",
+"http://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAMAAC.aac"
 ]
 },
 {
@@ -3249,7 +3388,11 @@
 "flagship": "KKFN 104.3 The Fan (Denver, CO), Bonneville; earlier K99 / ESPN Denver 1600",
 "listen_page": "",
 "conference": "Pac-12 Conference",
-"streams": []
+"streams": [
+"https://bonneville.cdnstream1.com/2612_48.aac?aw_0_1st.playerid=IHM",
+"https://bonneville.cdnstream1.com/2612_48.aac/playlist.m3u8?aw_0_1st.playerid=IHM",
+"http://bonneville.cdnstream1.com/2612_48.aac?aw_0_1st.playerid=IHM"
+]
 },
 {
 "school": "California State University, Fresno",
@@ -3277,7 +3420,11 @@
 "flagship": "Historically KEX 1190 AM / Rip City Radio 620 AM (Portland, OR); 2026 flagship not verified",
 "listen_page": "",
 "conference": "Pac-12 Conference",
-"streams": []
+"streams": [
+"https://stream.revma.ihrhls.com/zc1949",
+"https://stream.revma.ihrhls.com/zc1949/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc1949"
+]
 },
 {
 "school": "San Diego State University",
@@ -3292,7 +3439,9 @@
 "listen_page": "https://goaztecs.com",
 "conference": "Pac-12 Conference",
 "streams": [
-"https://stream.revma.ihrhls.com/zc237"
+"https://stream.revma.ihrhls.com/zc237",
+"https://stream.revma.ihrhls.com/zc8528",
+"https://stream.revma.ihrhls.com/zc8528/hls.m3u8"
 ]
 },
 {
@@ -3341,7 +3490,8 @@
 "conference": "Pac-12 Conference",
 "streams": [
 "https://bonneville.cdnstream1.com/2643_48.aac",
-"https://bonneville.cdnstream1.com/2642_48.aac"
+"https://bonneville.cdnstream1.com/2642_48.aac",
+"https://bonneville.cdnstream1.com/2642_48.aac?aw_0_1st.playerid=IHM"
 ]
 },
 {
@@ -3357,7 +3507,8 @@
 "conference": "Mountain West Conference",
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KVORAMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/KVORAM.mp3"
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KVORAMAAC.m3u8",
+"http://playerservices.streamtheworld.com/api/livestream-redirect/KVORAMAAC.aac"
 ]
 },
 {
@@ -3387,7 +3538,8 @@
 "conference": "Mountain West Conference",
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KOZZFMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/KOZZFM.mp3"
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KOZZFM.mp3",
+"http://playerservices.streamtheworld.com/api/livestream-redirect/KOZZFMAAC.aac"
 ]
 },
 {
@@ -3404,7 +3556,8 @@
 "conference": "Mountain West Conference",
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KKOBAMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/KKOBAM.mp3"
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KKOBAMAAC.m3u8",
+"http://playerservices.streamtheworld.com/api/livestream-redirect/KKOBAMAAC.aac"
 ]
 },
 {
@@ -3455,7 +3608,8 @@
 "conference": "Mountain West Conference",
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KTRBAMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/KTRBAM.mp3"
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KTRBAM.mp3",
+"http://playerservices.streamtheworld.com/api/livestream-redirect/KTRBAMAAC.aac"
 ]
 },
 {
@@ -3471,7 +3625,8 @@
 "conference": "Mountain West Conference",
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAM.mp3"
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAM.mp3",
+"http://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAMAAC.aac"
 ]
 },
 {
@@ -3513,7 +3668,8 @@
 "conference": "SEC",
 "streams": [
 "https://stream.rcs.revma.com/fyk48ahxu7uvv",
-"https://stream.rcs.revma.com/017zh7pxu7uvv"
+"https://stream.rcs.revma.com/017zh7pxu7uvv",
+"https://stream.rcs.revma.com/fyk48ahxu7uvv/hls.m3u8"
 ]
 },
 {
@@ -3527,7 +3683,10 @@
 "flagship": "Not named on athletics page (unverified: 103.7 The Buzz KABZ Little Rock); KAKS 99.5 FM Fayetteville listed as affiliate",
 "listen_page": "https://arkansasrazorbacks.app.link/launch",
 "conference": "SEC",
-"streams": []
+"streams": [
+"https://oom-signalmedia.streamguys1.com/signalmedia/kabz-aac?aw_0_req.gdpr=true",
+"http://oom-signalmedia.streamguys1.com/signalmedia/kabz-aac?aw_0_req.gdpr=true"
+]
 },
 {
 "school": "Auburn University",
@@ -3572,7 +3731,9 @@
 "listen_page": "",
 "conference": "SEC",
 "streams": [
-"https://ad-oom-cmg.streamguys1.com/atl750/atl750-sgplayer-aac?amsparams=playerid%3ASGplayer%3Bskey%3A1731423897754%3B&awparams=playerid%3ASGplayer%3B"
+"https://ad-oom-cmg.streamguys1.com/atl750/atl750-sgplayer-aac?amsparams=playerid%3ASGplayer%3Bskey%3A1731423897754%3B&awparams=playerid%3ASGplayer%3B",
+"https://cmg.streamguys1.com/atl750/atl750-encoder.aac/playlist.m3u8?aw_0_1st.playerId=cmg_iheart",
+"http://cmg.streamguys1.com/atl750/atl750-encoder.aac/playlist.m3u8?aw_0_1st.playerId=cmg_iheart"
 ]
 },
 {
@@ -3587,7 +3748,9 @@
 "listen_page": "",
 "conference": "SEC",
 "streams": [
-"https://stream.revma.ihrhls.com/zc965"
+"https://stream.revma.ihrhls.com/zc965",
+"https://stream.revma.ihrhls.com/zc965/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc965"
 ]
 },
 {
@@ -3600,7 +3763,10 @@
 "flagship": "Unverified: WDGL 98.1 The Eagle (Baton Rouge)",
 "listen_page": "",
 "conference": "SEC",
-"streams": []
+"streams": [
+"https://live.amperwave.net/direct/guaranty-wdglfmaac-ibc1",
+"http://live.amperwave.net/direct/guaranty-wdglfmaac-ibc1"
+]
 },
 {
 "school": "University of Mississippi",
@@ -3656,7 +3822,8 @@
 "conference": "SEC",
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WWLSAMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/WWLSAM.mp3"
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WWLSAMAAC.m3u8",
+"http://playerservices.streamtheworld.com/api/livestream-redirect/WWLSAMAAC.aac"
 ]
 },
 {
@@ -3672,7 +3839,8 @@
 "conference": "SEC",
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WNKTFMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/WNKTFM.mp3"
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WNKTFMAAC.m3u8",
+"http://playerservices.streamtheworld.com/api/livestream-redirect/WNKTFMAAC.aac"
 ]
 },
 {
@@ -3688,8 +3856,8 @@
 "conference": "SEC",
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WIVKFMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/WIVKFM.mp3",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/WNMLAMAAC.aac"
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WIVKFMAAC.m3u8",
+"http://playerservices.streamtheworld.com/api/livestream-redirect/WIVKFMAAC.aac"
 ]
 },
 {
