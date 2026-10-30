@@ -408,7 +408,47 @@ function updateDeck(){
   if(!deck || connecting) return;
   const line = gameLine(deck.loc);
   if(line) $("#nowSub").innerHTML = line; else $("#nowSub").textContent = deck.sub;
+  updateLockScreen();
 }
+// Lock screen / Control Center "Now Playing" card (Media Session API).
+let lastMeta = "";
+function updateLockScreen(){
+  if(!("mediaSession" in navigator) || !deck) return;
+  const e = events.find(x=>x.status.type.state==="in" && x.competitions[0].competitors.some(c=>c.team.location===deck.loc));
+  const net = (RADIO[deck.loc]?.net) || `${deck.loc} radio`;
+  let title = `${deck.loc} radio`, artist = net, logo = "";
+  if(e){
+    const c = e.competitions[0], a = team(c,"away"), h = team(c,"home"), sit = c.situation||{}, stx = statusText(e);
+    const ab = t => t.team.abbreviation || t.team.shortDisplayName;
+    const pos = [a,h].find(t=>t.team.id===sit.possession);
+    title = `${ab(a)} ${a.score}  ·  ${ab(h)} ${h.score}`;
+    const bits = [stx.brk ? stx.short : `${qName(e.status.period)} ${liveClock(e)}`];
+    if(!stx.brk){
+      if(sit.downDistanceText) bits.push(sit.downDistanceText);
+      if(pos) bits.push(`${ab(pos)} ball`);
+    }
+    artist = bits.join("  ·  ");
+    logo = (c.competitors.find(x=>x.team.location===deck.loc)?.team.logo) || "";
+  }
+  const key = title + artist + net + logo;
+  if(key === lastMeta) return; lastMeta = key;
+  try{
+    navigator.mediaSession.metadata = new MediaMetadata({ title, artist, album: net,
+      artwork: logo ? [96,192,512].map(n=>({src: logo, sizes: `${n}x${n}`, type: "image/png"})) : [] });
+  }catch(err){}
+}
+// Lock screen buttons: play/pause, and the skip buttons switch between the two teams' broadcasts.
+(function(){
+  if(!("mediaSession" in navigator)) return;
+  const ms = navigator.mediaSession, set = (a,f)=>{ try{ ms.setActionHandler(a,f); }catch(e){} };
+  set("play", ()=>audio.play()); set("pause", ()=>audio.pause());
+  set("seekbackward", null); set("seekforward", null); set("seekto", null);
+  const other = ()=>{ if(!deck) return;
+    const e = events.find(x=>x.status.type.state==="in" && x.competitions[0].competitors.some(c=>c.team.location===deck.loc));
+    const o = e?.competitions[0].competitors.find(c=>c.team.location!==deck.loc)?.team.location;
+    if(o && (RADIO[o] || store.get("stream:"+o))) listenTo(o); };
+  set("nexttrack", other); set("previoustrack", other);
+})();
 function team(c, side){return c.competitors.find(t=>t.homeAway===side)}
 function card(e){
   const c = e.competitions[0], a = team(c,"away"), h = team(c,"home"), st = e.status.type;

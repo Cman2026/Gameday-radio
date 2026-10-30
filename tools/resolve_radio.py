@@ -17,8 +17,10 @@ HLS_CT = ("mpegurl", "application/vnd.apple")
 DROP_AFTER = 3  # failed runs before a remembered stream is dropped
 
 
+BOT_UA = {"User-Agent": "GamedayRadio/1.0 (https://cman2026.github.io/Gameday-radio/; stream finder)"}
+
 def fetch(url, timeout=12, limit=600_000):
-    req = urllib.request.Request(url, headers=UA)
+    req = urllib.request.Request(url, headers=BOT_UA if "wikipedia.org" in url else UA)
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read(limit).decode("utf-8", "ignore"), r.geturl()
 
@@ -67,6 +69,7 @@ def from_page(url):
         return [], []
     text = htmlmod.unescape(text).replace("\\/", "/")
     streams = [u.rstrip(".,;") for u in URL_RE.findall(text) if looks_like_stream(u)]
+    streams += re.findall(r"""(?:data-stream|stream|streamUrl|"url")\s*[=:]\s*["'](https?://[^"']+)""", text)
     mounts = STW_MOUNT_RE.findall(text)
     links = [urllib.parse.urljoin(final, m) for m in re.findall(r"""href=["']([^"']*(?:listen|player|stream|live)[^"']*)["']""", text, re.I)]
     return streams, mounts + links
@@ -93,6 +96,20 @@ def station_site(team, call, band):
             else:
                 mounts.append(x)
     out += [f"https://playerservices.streamtheworld.com/api/livestream-redirect/{m}{'' if m.endswith(('AAC','.mp3')) else 'AAC'}.aac" for m in dict.fromkeys(mounts) if call in m]
+    return out
+
+
+def directories(call, band):
+    """Public station directories whose pages carry the raw stream URL."""
+    c, b = call.lower(), band.lower()
+    pages = [f"https://onlineradiobox.com/us/{c}/", f"https://onlineradiobox.com/us/{c}{b}/" if b else "",
+             f"https://www.radio.net/s/{c}", f"https://www.radio.net/s/{c}{b}" if b else "",
+             f"https://streema.com/radios/{call}", f"https://mytuner-radio.com/search/?q={call}"]
+    out = []
+    for pg in pages:
+        if not pg: continue
+        s_, _ = from_page(pg)
+        out += [u for u in s_ if "onlineradiobox" not in u and "radio.net" not in u and "streema" not in u]
     return out
 
 
@@ -173,7 +190,8 @@ def candidates(team):
         base, band = m.group(1), m.group(2) or ""
         groups += [("iheart", iheart(base, band)), ("securenet", securenet(base)),
                    ("streamtheworld", streamtheworld(base, band)), ("website", station_site(team, base, band)),
-                   ("amperwave", amperwave(base, band)), ("radio-browser", radio_browser(base, freqs[0] if freqs else ""))]
+                   ("directories", directories(base, band)), ("amperwave", amperwave(base, band)),
+                   ("radio-browser", radio_browser(base, freqs[0] if freqs else ""))]
     seen = set(); out = []
     for src, urls in groups:
         for u in urls:
