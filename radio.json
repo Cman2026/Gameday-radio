@@ -458,10 +458,13 @@
 ],
 "game_only": true,
 "streams": [
-"https://cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8"
+"https://cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8",
+"https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8?exp=1793403600&sig=1150a8cc05d8126760a95f82115b613e",
+"https://livecdn.use1-0009.jwplive.com/live/sites/52ztEVMl/media/ncAcaXBq/live.isml/.m3u8"
 ],
 "misses": 0,
-"last_ok": "2026-10-30"
+"last_ok": "2026-10-30",
+"live_only": true
 },
 {
 "school": "East Carolina University",
@@ -2290,11 +2293,14 @@
 ],
 "game_only": true,
 "streams": [
-"https://ice24.securenetsystems.net/WDCR",
-"https://cdn.jwplayer.com/live/broadcast/KKl2XbUu.m3u8"
+"https://cdn.jwplayer.com/live/broadcast/KKl2XbUu.m3u8",
+"https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/KKl2XbUu.m3u8?exp=1793403600&sig=e11e66e41505efc1291e174a29d28575",
+"https://livecdn.use1-0009.jwplive.com/live/sites/fVLaPodx/media/KKl2XbUu/live.isml/.m3u8",
+"https://ice24.securenetsystems.net/WDCR"
 ],
 "misses": 0,
-"last_ok": "2026-10-30"
+"last_ok": "2026-10-30",
+"live_only": true
 },
 {
 "school": "Harvard University",

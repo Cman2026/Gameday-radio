@@ -55,6 +55,48 @@
    "title": "",
    "icy_name": "Streaming by Securenet Systems Cirrus(R)",
    "at": "2026-10-30T03:21:59Z"
+  },
+  "https://cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8": {
+   "school": "University of North Carolina at Charlotte",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-10-30T23:26:45Z"
+  },
+  "https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8?exp=1793403600&sig=1150a8cc05d8126760a95f82115b613e": {
+   "school": "University of North Carolina at Charlotte",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-10-30T23:26:45Z"
+  },
+  "https://livecdn.use1-0009.jwplive.com/live/sites/52ztEVMl/media/ncAcaXBq/live.isml/.m3u8": {
+   "school": "University of North Carolina at Charlotte",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-10-30T23:26:45Z"
+  },
+  "https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.aac": {
+   "school": "Tulane University",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "The Ticket 106.7",
+   "at": "2026-10-30T23:26:45Z"
+  },
+  "https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.m3u8": {
+   "school": "Tulane University",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-10-30T23:26:45Z"
+  },
+  "http://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.aac": {
+   "school": "Tulane University",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "The Ticket 106.7",
+   "at": "2026-10-30T23:26:45Z"
   }
  },
  "log": [
@@ -273,7 +315,55 @@
    "url": "https://ice6.securenetsystems.net/WTXK",
    "verdict": "unknown",
    "title": ""
+  },
+  {
+   "at": "2026-10-30T23:26:45Z",
+   "school": "University of North Carolina at Charlotte",
+   "game": "TULN @ CLT",
+   "url": "https://cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-30T23:26:45Z",
+   "school": "University of North Carolina at Charlotte",
+   "game": "TULN @ CLT",
+   "url": "https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8?exp=1793403600&sig=1150a8cc05d8126760a95f82115b613e",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-30T23:26:45Z",
+   "school": "University of North Carolina at Charlotte",
+   "game": "TULN @ CLT",
+   "url": "https://livecdn.use1-0009.jwplive.com/live/sites/52ztEVMl/media/ncAcaXBq/live.isml/.m3u8",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-30T23:26:45Z",
+   "school": "Tulane University",
+   "game": "TULN @ CLT",
+   "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.aac",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-30T23:26:45Z",
+   "school": "Tulane University",
+   "game": "TULN @ CLT",
+   "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.m3u8",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-30T23:26:45Z",
+   "school": "Tulane University",
+   "game": "TULN @ CLT",
+   "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.aac",
+   "verdict": "unknown",
+   "title": ""
   }
  ],
- "checked": "2026-10-30T03:21:59Z"
+ "checked": "2026-10-30T23:26:45Z"
 }
