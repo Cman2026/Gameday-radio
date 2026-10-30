@@ -44,6 +44,20 @@ def radio_browser(call):
             continue
     return out
 
+def iheart(call, band):
+    out = []
+    for cl in ([f"{call}-{band}"] if band else [f"{call}-AM", f"{call}-FM"]):
+        try:
+            url = "https://us.api.iheart.com/api/v2/content/liveStations?" + urllib.parse.urlencode({"callLetters": cl, "limit": 3})
+            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=12) as r:
+                for h in json.loads(r.read()).get("hits", []):
+                    st = h.get("streams") or {}
+                    for k in ("secure_shoutcast_stream", "secure_hls_stream", "shoutcast_stream", "hls_stream", "secure_pls_stream"):
+                        if st.get(k): out.append(st[k])
+        except Exception:
+            continue
+    return out
+
 def securenet(call):
     # The station player page exists only for SecureNet customers; then find the live ice server.
     try:
@@ -72,6 +86,7 @@ def candidates(team):
         if not m: continue
         base, band = m.group(1), m.group(2) or ""
         c += radio_browser(base)
+        c += iheart(base, band)
         c += securenet(base)
         c += streamtheworld(base, band)
     seen = set(); return [u for u in c if not (u in seen or seen.add(u))]
