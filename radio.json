@@ -5126,7 +5126,9 @@
 "calls": [
 "WOXF-FM"
 ],
-"streams": [],
+"streams": [
+"https://live.amperwave.net/manifest/telesouth-wqljfmaac-hlsc1.m3u8?source=v7player"
+],
 "misses": 0,
 "last_ok": null
 },

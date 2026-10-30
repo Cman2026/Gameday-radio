@@ -30,7 +30,8 @@
    "KGO-AM"
   ],
   "streams": [],
-  "athletics_site": "https://calbears.com"
+  "athletics_site": "https://calbears.com",
+  "station_website": "https://www.kgoradio.com/"
  },
  {
   "school": "Clemson University",
@@ -3327,12 +3328,15 @@
    "Buffalo Bulls"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "WWKB 1520 AM (Buffalo, NY; Audacy)",
   "listen_page": "",
   "conference": "Mid-American Conference",
-  "calls": [],
+  "calls": [
+   "WWKB-AM"
+  ],
   "streams": [],
-  "athletics_site": "https://ubbulls.com"
+  "athletics_site": "https://ubbulls.com",
+  "station_website": "https://www.audacy.com/thebetbuffalo"
  },
  {
   "school": "Central Michigan University",
@@ -3628,7 +3632,8 @@
    "KSHU-FM"
   ],
   "streams": [],
-  "athletics_site": "https://gobearkats.com"
+  "athletics_site": "https://gobearkats.com",
+  "station_website": "https://ch7.shsu.edu/"
  },
  {
   "school": "Western Kentucky University",
@@ -4077,14 +4082,17 @@
    "Mississippi"
   ],
   "network": "Ole Miss Radio Network (Learfield)",
-  "flagship": "WOXF 105.1 FM (Oxford, MS)",
+  "flagship": "Q105 (Oxford, MS) - Ole Miss Radio Network",
   "listen_page": "https://olemisssports.com/showcase?Live=1197",
   "conference": "SEC",
   "calls": [
    "WOXF-FM"
   ],
-  "streams": [],
-  "athletics_site": "https://olemisssports.com"
+  "streams": [
+   "https://live.amperwave.net/manifest/telesouth-wqljfmaac-hlsc1.m3u8?source=v7player"
+  ],
+  "athletics_site": "https://olemisssports.com",
+  "station_website": "http://theq105.com"
  },
  {
   "school": "Mississippi State University",

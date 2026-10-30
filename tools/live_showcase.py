@@ -76,15 +76,20 @@ def main():
         t = next((index[norm(n)] for n in (tm.get("location"), tm.get("displayName"), tm.get("shortDisplayName")) if norm(n) in index), None)
         if not t or t.get("streams"):
             continue
-        site = (src.get(t["school"]) or {}).get("athletics_site")
+        info = src.get(t["school"]) or {}
+        site = info.get("athletics_site")
         if site:
             targets[site.rstrip("/") + "/showcase"] = t
+        lp = info.get("listen_page")
+        if lp and lp.startswith("http") and "app.link" not in lp:
+            targets[lp] = t
     if not targets:
         print("no live teams without radio that have an athletics site on file"); return
     found = sniff(list(targets))
     changed = False
     for url, t in targets.items():
         streams = [u for u in found.get(url, []) if "player_status" not in u and "/v5/" not in u][:3]
+        streams = list(dict.fromkeys((t.get("streams") or []) + streams))[:3]
         print(t["school"], "->", streams)
         if streams:
             t["streams"] = streams; t["live_only"] = True; changed = True
