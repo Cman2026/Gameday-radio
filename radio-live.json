@@ -3,23 +3,58 @@
   "https://stream.revma.ihrhls.com/zc4276": {
    "school": "University of North Texas",
    "verdict": "game",
-   "title": "zc4276 - text=\"UNT Mean Green Football (Feed)\" song_spot=\"T\" spotInstanceId=\"-1\" length=\"08:00:00\" MediaBaseId=\"\" TAID=\"",
+   "title": "UNT Mean Green Football (Feed)",
    "icy_name": "Talk Radio 1190 AM",
-   "at": "2026-10-30T01:53:02Z"
+   "at": "2026-10-30T02:36:39Z"
   },
   "https://stream.revma.ihrhls.com/zc4276/hls.m3u8": {
    "school": "University of North Texas",
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-10-30T01:53:02Z"
+   "at": "2026-10-30T02:36:39Z"
   },
   "http://stream.revma.ihrhls.com/zc4276": {
    "school": "University of North Texas",
    "verdict": "game",
-   "title": "zc4276 - text=\"UNT Mean Green Football (Feed)\" song_spot=\"T\" spotInstanceId=\"-1\" length=\"08:00:00\" MediaBaseId=\"\" TAID=\"",
+   "title": "UNT Mean Green Football (Feed)",
    "icy_name": "Talk Radio 1190 AM",
-   "at": "2026-10-30T01:53:02Z"
+   "at": "2026-10-30T02:36:39Z"
+  },
+  "https://playerservices.streamtheworld.com/api/livestream-redirect/WMENAMAAC.aac": {
+   "school": "Florida Atlantic University",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "WMENAM",
+   "at": "2026-10-30T02:36:39Z"
+  },
+  "https://playerservices.streamtheworld.com/api/livestream-redirect/WMENAM.mp3": {
+   "school": "Florida Atlantic University",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "WMENAM",
+   "at": "2026-10-30T02:36:39Z"
+  },
+  "https://live.amperwave.net/manifest/saga-wsvaamaac-hlsc2.m3u8?source=v7player": {
+   "school": "James Madison University",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-10-30T02:36:39Z"
+  },
+  "https://live.amperwave.net/direct/saga-wsvaammp3-ibc2": {
+   "school": "James Madison University",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "Newsradio WSVA",
+   "at": "2026-10-30T02:36:39Z"
+  },
+  "https://ice6.securenetsystems.net/WTXK": {
+   "school": "Troy University",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "Streaming by Securenet Systems Cirrus(R)",
+   "at": "2026-10-30T02:36:39Z"
   }
  },
  "log": [
@@ -46,7 +81,71 @@
    "url": "http://stream.revma.ihrhls.com/zc4276",
    "verdict": "game",
    "title": "zc4276 - text=\"UNT Mean Green Football (Feed)\" song_spot=\"T\" spotInstanceId=\"-1\" length=\"08:00:00\" MediaBaseId=\"\" TAID=\""
+  },
+  {
+   "at": "2026-10-30T02:36:39Z",
+   "school": "University of North Texas",
+   "game": "FAU @ UNT",
+   "url": "https://stream.revma.ihrhls.com/zc4276",
+   "verdict": "game",
+   "title": "UNT Mean Green Football (Feed)"
+  },
+  {
+   "at": "2026-10-30T02:36:39Z",
+   "school": "University of North Texas",
+   "game": "FAU @ UNT",
+   "url": "https://stream.revma.ihrhls.com/zc4276/hls.m3u8",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-30T02:36:39Z",
+   "school": "University of North Texas",
+   "game": "FAU @ UNT",
+   "url": "http://stream.revma.ihrhls.com/zc4276",
+   "verdict": "game",
+   "title": "UNT Mean Green Football (Feed)"
+  },
+  {
+   "at": "2026-10-30T02:36:39Z",
+   "school": "Florida Atlantic University",
+   "game": "FAU @ UNT",
+   "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMENAMAAC.aac",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-30T02:36:39Z",
+   "school": "Florida Atlantic University",
+   "game": "FAU @ UNT",
+   "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMENAM.mp3",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-30T02:36:39Z",
+   "school": "James Madison University",
+   "game": "TROY @ JMU",
+   "url": "https://live.amperwave.net/manifest/saga-wsvaamaac-hlsc2.m3u8?source=v7player",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-30T02:36:39Z",
+   "school": "James Madison University",
+   "game": "TROY @ JMU",
+   "url": "https://live.amperwave.net/direct/saga-wsvaammp3-ibc2",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-30T02:36:39Z",
+   "school": "Troy University",
+   "game": "TROY @ JMU",
+   "url": "https://ice6.securenetsystems.net/WTXK",
+   "verdict": "unknown",
+   "title": ""
   }
  ],
- "checked": "2026-10-30T01:53:02Z"
+ "checked": "2026-10-30T02:36:39Z"
 }
