@@ -428,7 +428,8 @@ function updateLockScreen(){
       if(pos) bits.push(`${ab(pos)} ball`);
     }
     artist = bits.join("  ·  ");
-    logo = (c.competitors.find(x=>x.team.location===deck.loc)?.team.logo) || "";
+    // Artwork shows whoever has the ball; between possessions, the team you're listening to.
+    logo = (!stx.brk && pos?.team.logo) || (c.competitors.find(x=>x.team.location===deck.loc)?.team.logo) || "";
   }
   const key = title + artist + net + logo;
   if(key === lastMeta) return; lastMeta = key;
