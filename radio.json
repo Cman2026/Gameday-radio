@@ -1,5 +1,5 @@
 {
-"built": "2026-10-30T23:08:28Z",
+"built": "2026-10-30T23:13:58Z",
 "teams": [
 {
 "school": "Boston College",
@@ -733,7 +733,7 @@
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3"
 ],
-"misses": 3,
+"misses": 4,
 "last_ok": null
 },
 {
@@ -2286,18 +2286,20 @@
 "Dartmouth",
 "Dartmouth Big Green"
 ],
-"network": "Dartmouth Broadcasting (WDCR)",
-"flagship": "",
+"network": "",
+"flagship": "WDCR 1340 AM (Hanover, NH; Dartmouth student station)",
 "listen_page": "",
 "conference": "Ivy League",
-"calls": [],
-"game_only": null,
+"calls": [
+"WDCR-AM"
+],
+"game_only": true,
 "streams": [
 "https://ice24.securenetsystems.net/WDCR",
 "https://cdn.jwplayer.com/live/broadcast/KKl2XbUu.m3u8"
 ],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "Harvard University",
@@ -4641,7 +4643,7 @@
 "streams": [
 "https://cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8"
 ],
-"misses": 3,
+"misses": 4,
 "last_ok": null
 },
 {
