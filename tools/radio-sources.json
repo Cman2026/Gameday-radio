@@ -1916,7 +1916,10 @@
   "calls": [
    "WJAB"
   ],
-  "streams": []
+  "streams": [
+   "https://wjab.streamguys1.com/live",
+   "https://wjab.streamguys1.com/?uuid=vm1k8lr5&dist=nprgrove"
+  ]
  },
  {
   "school": "Alabama State University",
@@ -2879,7 +2882,9 @@
   "calls": [
    "KISU"
   ],
-  "streams": []
+  "streams": [
+   "https://kisufm.isu.edu:8443/kisufm"
+  ]
  },
  {
   "school": "Northern Arizona University",
