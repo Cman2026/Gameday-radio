@@ -190,7 +190,16 @@ const store = {get(k){try{return localStorage.getItem(k)}catch(e){return null}},
 const normName = x => String(x||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")
   .replace(/&/g," and ").replace(/\bst\.?\b/g,"state").replace(/[^a-z0-9 ]/g," ").replace(/\s+/g," ").trim();
 const dirIndex = new Map();
+// Game-time checks (radio-live.json): what each stream was playing during recent games.
+let liveInfo = {};
+const RECENT_MS = 3*3600e3;
+function liveVerdict(u){ const x = liveInfo[u]; return x && (Date.now() - Date.parse(x.at) < RECENT_MS) ? x : null; }
+const vRank = u => ({game:0, unknown:1, music:2})[liveVerdict(u)?.verdict] ?? 1;
+async function loadLive(){
+  try{ const d = await getJSON("radio-live.json?t=" + Math.floor(Date.now()/300000)); liveInfo = d.streams || {}; }catch(e){}
+}
 async function loadDirectory(){
+  await loadLive(); setInterval(loadLive, 10*60*1000);
   try{
     const d = await getJSON("radio.json");
     for(const t of d.teams||[]) for(const n of [t.school, ...(t.names||[])]) if(n && !dirIndex.has(normName(n))) dirIndex.set(normName(n), t);
@@ -203,7 +212,7 @@ function attachRadio(tm){
   const tries = [tm.location, tm.displayName, `${tm.location} ${tm.name||""}`, tm.shortDisplayName, tm.abbreviation];
   let hit = null; for(const n of tries){ hit = dirIndex.get(normName(n)); if(hit) break; }
   if(!hit || !(hit.streams||[]).length){ if(hit) RADIO_INFO[tm.location] = hit; return; }
-  RADIO[tm.location] = {net: hit.network || `${tm.location} radio`, station: hit.flagship || "", streams: hit.streams, listen: hit.listen_page || ""};
+  RADIO[tm.location] = {net: hit.network || `${tm.location} radio`, station: hit.flagship || "", streams: hit.streams.slice().sort((a,b)=>vRank(a)-vRank(b)), listen: hit.listen_page || ""};
 }
 const RADIO_INFO = {}; // teams we know about but have no free stream for
 let divFilter = "all", query = "";
@@ -488,7 +497,10 @@ async function playList(list, name, sub, loc){
       if(token !== tryToken) return;
       const ok = await tryUrl(url);
       if(token !== tryToken) return;
-      if(ok){ $("#nowSub").textContent = sub; if(loc){ store.set("ok:"+loc, url); } connecting = null; render(); return; }
+      if(ok){
+        const lv = liveVerdict(url), at = lv ? new Date(lv.at).toLocaleTimeString([], {hour:"numeric", minute:"2-digit", hour12:true}) : "";
+        $("#nowSub").textContent = lv?.verdict==="music" ? `Heads up: at ${at} this station was playing music, not the game.` : (lv?.verdict==="game" && lv.title ? `On air at ${at}: ${lv.title}` : sub);
+        if(loc){ store.set("ok:"+loc, url); } connecting = null; render(); return; }
     }
   }
   connecting = null; render();
