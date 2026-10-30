@@ -9,19 +9,19 @@
     "url": "https://live.amperwave.net/direct/audacy-weeiamaac-imc",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aacp https://prod-13-217-163-234.amperwave.net/audacy-weeiamaac-imc?session-id=81505071ff26a3937a58d57f0b8e2355"
+    "detail": "audio/aacp https://prod-3-94-205-148.amperwave.net/audacy-weeiamaac-imc?session-id=442d5130c3919f06fa60c63f55620614"
    },
    {
     "url": "http://live.amperwave.net/direct/audacy-weeiamaac-imc",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aacp http://44.202.70.162/audacy-weeiamaac-imc?session-id=4d557794221e64014b3ceeb054c642cc"
+    "detail": "audio/aacp http://44.202.78.32/audacy-weeiamaac-imc?session-id=69e811246cad5ee02a3c2d070937a31d"
    },
    {
     "url": "https://live.amperwave.net/direct/audacy-weeifmaac-imc",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aacp https://prod-3-82-152-187.amperwave.net/audacy-weeifmaac-imc?session-id=c624e82c8a9377fae6a4007ed40e4f87"
+    "detail": "audio/aacp https://prod-44-202-78-32.amperwave.net/audacy-weeifmaac-imc?session-id=5f1b2aba8b56141bb2e7f45b0ed571c5"
    }
   ],
   "kept_from_before": false,
@@ -30,7 +30,7 @@
  {
   "school": "University of California, Berkeley",
   "calls": [
-   "KGO"
+   "KGO-AM"
   ],
   "ok": [],
   "kept_from_before": false,
@@ -49,36 +49,6 @@
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGO_AMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGOFMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGOFM.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGO_FMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGOAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGO.mp3",
     "source": "streamtheworld",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
@@ -118,12 +88,6 @@
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/audacy-kgofmaac-imc",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
    }
   ]
  },
@@ -133,15 +97,8 @@
    "WCCP-FM",
    "WAHT"
   ],
-  "ok": [
-   {
-    "url": "http://s2.radioreformation.com:8060/;stream.mp3",
-    "source": "website",
-    "ok": true,
-    "detail": "audio/mpeg http://s2.radioreformation.com:8060/;stream.mp3"
-   }
-  ],
-  "kept_from_before": false,
+  "ok": [],
+  "kept_from_before": true,
   "failed": [
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCCPFMAAC.aac",
@@ -238,21 +195,14 @@
  {
   "school": "Duke University",
   "calls": [
-   "WDNC",
-   "WRAL"
+   "WDNC-AM"
   ],
   "ok": [
    {
-    "url": "https://ais-sa8.cdnstream1.com/2748_64.aac?aw_0_1st.playerid=iHeart",
-    "source": "iheart",
+    "url": "https://media-hls.wral.com/vodhttporigins3/_definst_/smil:amazons3/cbcnm-static-web-content/home/web/wral/public/asset/news/state/nccapitol/2023/05/25/20879545/3185796-gop-DMID1-5z0xt25hf.smil/playlist.m3u8",
+    "source": "website",
     "ok": true,
-    "detail": "audio/aacp https://ais-sa8.cdnstream1.com/2748_64.aac?aw_0_1st.playerid=iHeart"
-   },
-   {
-    "url": "http://ais-sa8.cdnstream1.com/2748_64.aac?aw_0_1st.playerid=iHeart",
-    "source": "iheart",
-    "ok": true,
-    "detail": "audio/aacp http://ais-sa8.cdnstream1.com/2748_64.aac?aw_0_1st.playerid=iHeart"
+    "detail": "hls https://media-hls.wral.com/vodhttporigins3/_definst_/smil:amazons3/cbcnm-static-web-content/home/web/wral/public/asset/news/state/nccapitol/2023/05/25/20879545/3185796-gop-DMID1-5z0xt25hf.smil/playlist.m3u8"
    }
   ],
   "kept_from_before": false,
@@ -271,36 +221,6 @@
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDNC_AMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDNCFMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDNCFM.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDNC_FMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDNCAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDNC.mp3",
     "source": "streamtheworld",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
@@ -340,12 +260,6 @@
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/audacy-wdncfmaac-imc",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
    }
   ]
  },
@@ -359,19 +273,19 @@
     "url": "https://stream.revma.ihrhls.com/zc661",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc661:alt?rj-org=n11b-e2&rj-ttl=5&rj-tok=AAABoYqLwFQAAMX5UtFkers_kg"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc661:alt?rj-org=n08b-e2&rj-ttl=5&rj-tok=AAABoYqQacwAHRuXd3lT9UKhzQ"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc661/hls.m3u8?hls=true",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n33b-e2.revma.ihrhls.com/zc661:alt/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqLwYsAwrUhda9qrwHk5Q&hls=true"
+    "detail": "hls https://n45b-e2.revma.ihrhls.com/zc661:alt/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqQasgA2dopaiUt6hnQYQ&hls=true"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc661",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc661:alt?rj-org=n0bb-e2&rj-ttl=5&rj-tok=AAABoYqLwvkAvV5ek6xCsZ0Bjg"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc661:alt?rj-org=n21b-e2&rj-ttl=5&rj-tok=AAABoYqQa60AXOoNukAXgpe6TA"
    }
   ],
   "kept_from_before": false,
@@ -393,7 +307,7 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCNNAM.mp3",
     "source": "streamtheworld",
     "ok": true,
-    "detail": "audio/mpeg https://18103.live.streamtheworld.com:443/WCNNAM.mp3"
+    "detail": "audio/mpeg https://26383.live.streamtheworld.com:443/WCNNAM.mp3"
    }
   ],
   "kept_from_before": false,
@@ -501,13 +415,13 @@
     "url": "https://live.amperwave.net/direct/unionbroadcasting-wlclamaac-ibc2",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aacp https://prod-44-203-50-103.amperwave.net/unionbroadcasting-wlclamaac-ibc2?session-id=068cf9ee78f01ef2a8bf67b5929f31b2"
+    "detail": "audio/aacp https://prod-54-158-170-239.amperwave.net/unionbroadcasting-wlclamaac-ibc2?session-id=60843bc378e108c375b5c0d3ea0773ca"
    },
    {
     "url": "http://live.amperwave.net/direct/unionbroadcasting-wlclamaac-ibc2",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aacp http://54.158.170.239/unionbroadcasting-wlclamaac-ibc2?session-id=2beef90e6f5264c14ba9617ef0d3eeb9"
+    "detail": "audio/aacp http://44.201.65.65/unionbroadcasting-wlclamaac-ibc2?session-id=4988ff0700c0e652cf6006822cb22b2c"
    },
    {
     "url": "https://ice25.securenetsystems.net/WGTK",
@@ -567,6 +481,18 @@
     "detail": "HTTP Error 404: Not Found"
    },
    {
+    "url": "https://player.amperwave.net/8861",
+    "source": "website",
+    "ok": false,
+    "detail": "not audio (text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://sync.amperwave.net/sync/sync-cookies-lib.umd.cjs",
+    "source": "website",
+    "ok": false,
+    "detail": "not audio (text/plain; charset=utf-8)"
+   },
+   {
     "url": "https://live.amperwave.net/manifest/audacy-wlclamaac-imc",
     "source": "amperwave",
     "ok": false,
@@ -595,18 +521,6 @@
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-wlclamaac-ibc4",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/audacy-wlclfmaac-imc",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
    }
   ]
  },
@@ -627,13 +541,13 @@
     "url": "https://live.amperwave.net/direct/audacy-wqamamaac-imc",
     "source": "amperwave",
     "ok": true,
-    "detail": "audio/aacp https://prod-34-201-210-99.amperwave.net/audacy-wqamamaac-imc?session-id=b3b32dadae939003d269634b75a8a6e6"
+    "detail": "audio/aacp https://prod-35-173-219-21.amperwave.net/audacy-wqamamaac-imc?session-id=9669590b83c9c3d725ed3d24f8b9bd8e"
    },
    {
     "url": "https://live.amperwave.net/manifest/audacy-wqamfmaac-imc",
     "source": "amperwave",
     "ok": true,
-    "detail": "audio/aacp https://prod-32-195-42-49.amperwave.net/audacy-wqamfmaac-imc"
+    "detail": "audio/aacp https://prod-18-213-193-109.amperwave.net/audacy-wqamfmaac-imc"
    }
   ],
   "kept_from_before": false,
@@ -699,24 +613,6 @@
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://player.amperwavepodcasting.com",
-    "source": "website",
-    "ok": false,
-    "detail": "not audio (text/html)"
-   },
-   {
-    "url": "https://player.amperwavepodcasting.com?&feed-link=https%3A%2F%2Frss.amperwave.net%2Fv2%2Fepisode%2F8645232_2026-09-08-164932&withPlaylist=false&theme=dark&playerDisplay-description=false&playerDisplay-download=false&playerDisplay-logoType=Audacy",
-    "source": "website",
-    "ok": false,
-    "detail": "not audio (text/html)"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/mailto:?subject=Jeff%20Hafley%20%26%20Malik%20Willis%20DELIVER%20Dolphins%27%201st%20Win%20vs.%20Jets%20%7C%20WQAM&body=https://www.audacy.com/wqam/video/jeff-hafley-malik-willis-deliver-dolphins-1st-win-vs-jets-wqam-xbr7bvaAAC.aac",
-    "source": "website",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
     "url": "https://live.amperwave.net/manifest/townsquare-wqamamaac-ibc1",
     "source": "amperwave",
     "ok": false,
@@ -727,87 +623,63 @@
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-wqamamaac-ibc3",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-wqamamaac-ibc4",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
    }
   ]
  },
  {
   "school": "North Carolina State University",
   "calls": [
-   "WRAL-FM"
+   "WCMC-FM"
   ],
   "ok": [
    {
-    "url": "https://ais-sa8.cdnstream1.com/2748_64.aac?aw_0_1st.playerid=iHeart",
+    "url": "https://ais-sa8.cdnstream1.com/2750_64.aac?aw_0_1st.playerid=iHeart",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aacp https://ais-sa8.cdnstream1.com/2748_64.aac?aw_0_1st.playerid=iHeart"
+    "detail": "audio/aacp https://ais-sa8.cdnstream1.com/2750_64.aac?aw_0_1st.playerid=iHeart"
    },
    {
-    "url": "http://ais-sa8.cdnstream1.com/2748_64.aac?aw_0_1st.playerid=iHeart",
+    "url": "http://ais-sa8.cdnstream1.com/2750_64.aac?aw_0_1st.playerid=iHeart",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aacp http://ais-sa8.cdnstream1.com/2748_64.aac?aw_0_1st.playerid=iHeart"
+    "detail": "audio/aacp http://ais-sa8.cdnstream1.com/2750_64.aac?aw_0_1st.playerid=iHeart"
    },
    {
-    "url": "https://ais-sa8.cdnstream1.com/2748_64.aac",
-    "source": "radio-browser",
+    "url": "https://media-hls.wral.com/vodhttporigins3/_definst_/smil:amazons3/cbcnm-static-web-content/home/web/wral/public/asset/news/state/nccapitol/2023/05/25/20879545/3185796-gop-DMID1-5z0xt25hf.smil/playlist.m3u8",
+    "source": "website",
     "ok": true,
-    "detail": "audio/aacp https://ais-sa8.cdnstream1.com/2748_64.aac"
+    "detail": "hls https://media-hls.wral.com/vodhttporigins3/_definst_/smil:amazons3/cbcnm-static-web-content/home/web/wral/public/asset/news/state/nccapitol/2023/05/25/20879545/3185796-gop-DMID1-5z0xt25hf.smil/playlist.m3u8"
    }
   ],
   "kept_from_before": false,
   "failed": [
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRALFMAAC.aac",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCMCFMAAC.aac",
     "source": "streamtheworld",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRALFM.mp3",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCMCFM.mp3",
     "source": "streamtheworld",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRAL_FMAAC.aac",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCMC_FMAAC.aac",
     "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/audacy-wralfmaac-imc",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/direct/audacy-wralfmaac-imc",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-wralfmaac-ibc1",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-wralfmaac-ibc2",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-wralfmaac-ibc3",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-wralfmaac-ibc4",
-    "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    }
@@ -824,13 +696,13 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WPTFAMAAC.aac",
     "source": "streamtheworld",
     "ok": true,
-    "detail": "audio/aac https://26423.live.streamtheworld.com:443/WPTFAMAAC.aac"
+    "detail": "audio/aac https://29312.live.streamtheworld.com:443/WPTFAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WPTFAM.mp3",
     "source": "streamtheworld",
     "ok": true,
-    "detail": "audio/mpeg https://15723.live.streamtheworld.com:443/WPTFAM.mp3"
+    "detail": "audio/mpeg https://19263.live.streamtheworld.com:443/WPTFAM.mp3"
    }
   ],
   "kept_from_before": false,
@@ -937,13 +809,13 @@
     "url": "https://live.amperwave.net/direct/audacy-kdkafmaac-imc",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aacp https://prod-35-170-51-227.amperwave.net/audacy-kdkafmaac-imc?session-id=82ee9c76d56d25d96f852b8cf0139fb6"
+    "detail": "audio/aacp https://prod-35-170-51-227.amperwave.net/audacy-kdkafmaac-imc?session-id=89cdaf831809eab4f918d840dd92a7be"
    },
    {
     "url": "http://live.amperwave.net/direct/audacy-kdkafmaac-imc",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aacp http://35.170.51.227/audacy-kdkafmaac-imc?session-id=eacac477cf2f313a38681a7966ccdc18"
+    "detail": "audio/aacp http://98.87.169.7/audacy-kdkafmaac-imc?session-id=fd9220cfbda2407d3dcb97127052eba1"
    },
    {
     "url": "https://live.amperwave.net/manifest/audacy-kdkafmaac-imc",
@@ -971,30 +843,6 @@
     "source": "streamtheworld",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://www.youtube.com/@937TheFanPittsburgh/live",
-    "source": "website",
-    "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
-   },
-   {
-    "url": "https://player.amperwavepodcasting.com",
-    "source": "website",
-    "ok": false,
-    "detail": "not audio (text/html)"
-   },
-   {
-    "url": "https://www.youtube.com/@937TheFanPittsburgh/live?referring_app=com.apple.mobilesafari-smartbanner",
-    "source": "website",
-    "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
-   },
-   {
-    "url": "https://player.amperwavepodcasting.com?&feed-link=https%3A%2F%2Frss.amperwave.net%2Fv2%2Fepisode%2F8702544_2026-09-29-141844&withPlaylist=false&theme=blurred&playerDisplay-logoType=Audacy",
-    "source": "website",
-    "ok": false,
-    "detail": "not audio (text/html)"
    }
   ]
  },
@@ -1009,13 +857,13 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://18373.live.streamtheworld.com:443/KTCKAMAAC.aac"
+    "detail": "audio/aac https://14923.live.streamtheworld.com:443/KTCKAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://18533.live.streamtheworld.com:443/KTCKAMAAC/HLS/playlist.m3u8"
+    "detail": "hls https://18243.live.streamtheworld.com:443/KTCKAMAAC/HLS/playlist.m3u8"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.aac",
@@ -1030,27 +878,28 @@
  {
   "school": "Stanford University",
   "calls": [
-   "KNBR",
-   "KZSU"
+   "KNBR-AM",
+   "KNBR-FM",
+   "KTCT-AM"
   ],
   "ok": [
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KNBRAMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://17643.live.streamtheworld.com:443/KNBRAMAAC.aac"
+    "detail": "audio/aac https://14933.live.streamtheworld.com:443/KNBRAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KNBRAMAAC.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://18253.live.streamtheworld.com:443/KNBRAMAAC/HLS/playlist.m3u8"
+    "detail": "hls https://18533.live.streamtheworld.com:443/KNBRAMAAC/HLS/playlist.m3u8"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KNBRAMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://18533.live.streamtheworld.com:80/KNBRAMAAC.aac"
+    "detail": "audio/aac http://18253.live.streamtheworld.com:80/KNBRAMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -1123,7 +972,7 @@
  {
   "school": "University of Virginia",
   "calls": [
-   "WINA"
+   "WINA-AM"
   ],
   "ok": [],
   "kept_from_before": false,
@@ -1147,66 +996,6 @@
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WINAFMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WINAFM.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WINA_FMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WINAAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WINA.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://player.amperwave.net/7881",
-    "source": "website",
-    "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
-   },
-   {
-    "url": "https://player.amperwave.net/7879",
-    "source": "website",
-    "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
-   },
-   {
-    "url": "https://player.amperwave.net/7883",
-    "source": "website",
-    "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
-   },
-   {
-    "url": "https://player.amperwave.net/7880",
-    "source": "website",
-    "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
-   },
-   {
-    "url": "https://player.amperwave.net/7882",
-    "source": "website",
-    "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
-   },
-   {
     "url": "https://live.amperwave.net/manifest/audacy-winaamaac-imc",
     "source": "amperwave",
     "ok": false,
@@ -1214,6 +1003,30 @@
    },
    {
     "url": "https://live.amperwave.net/direct/audacy-winaamaac-imc",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-winaamaac-ibc1",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-winaamaac-ibc2",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-winaamaac-ibc3",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-winaamaac-ibc4",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
@@ -1294,97 +1107,61 @@
  {
   "school": "Wake Forest University",
   "calls": [
-   "WSJS"
+   "WBRF-FM"
   ],
   "ok": [],
   "kept_from_before": false,
   "failed": [
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSJSAMAAC.aac",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBRFFMAAC.aac",
     "source": "streamtheworld",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSJSAM.mp3",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBRFFM.mp3",
     "source": "streamtheworld",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSJS_AMAAC.aac",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBRF_FMAAC.aac",
     "source": "streamtheworld",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSJSFMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSJSFM.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSJS_FMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSJSAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSJS.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/audacy-wsjsamaac-imc",
+    "url": "https://live.amperwave.net/manifest/audacy-wbrffmaac-imc",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/direct/audacy-wsjsamaac-imc",
+    "url": "https://live.amperwave.net/direct/audacy-wbrffmaac-imc",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-wsjsamaac-ibc1",
+    "url": "https://live.amperwave.net/manifest/townsquare-wbrffmaac-ibc1",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-wsjsamaac-ibc2",
+    "url": "https://live.amperwave.net/manifest/townsquare-wbrffmaac-ibc2",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-wsjsamaac-ibc3",
+    "url": "https://live.amperwave.net/manifest/townsquare-wbrffmaac-ibc3",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-wsjsamaac-ibc4",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/audacy-wsjsfmaac-imc",
+    "url": "https://live.amperwave.net/manifest/townsquare-wbrffmaac-ibc4",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
@@ -1408,13 +1185,13 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSBTAM.mp3",
     "source": "streamtheworld",
     "ok": true,
-    "detail": "audio/mpeg https://14833.live.streamtheworld.com:443/WSBTAM.mp3"
+    "detail": "audio/mpeg https://18093.live.streamtheworld.com:443/WSBTAM.mp3"
    },
    {
     "url": "https://live.amperwave.net/direct/audacy-wbbmamaac-imc",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aacp https://prod-44-203-237-138.amperwave.net/audacy-wbbmamaac-imc?session-id=e5714ce312136370c281b8db62965b3b"
+    "detail": "audio/aacp https://prod-44-202-70-162.amperwave.net/audacy-wbbmamaac-imc?session-id=1c6bb04b668d633cf8db2a3363fd29b3"
    }
   ],
   "kept_from_before": false,
@@ -1466,26 +1243,26 @@
  {
   "school": "University of Connecticut",
   "calls": [
-   "WTIC"
+   "WUCS-FM"
   ],
   "ok": [
    {
-    "url": "https://live.amperwave.net/direct/audacy-wticamaac-imc",
+    "url": "https://stream.revma.ihrhls.com/zc5238",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aacp https://prod-34-201-210-99.amperwave.net/audacy-wticamaac-imc?session-id=24d7528e787aa938352303a04acd23f6"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc5238?rj-org=n2cb-e2&rj-ttl=5&rj-tok=AAABoYqQckYA9yzx3cr_rOaSww"
    },
    {
-    "url": "http://live.amperwave.net/direct/audacy-wticamaac-imc",
+    "url": "https://stream.revma.ihrhls.com/zc5238/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aacp http://34.201.210.99/audacy-wticamaac-imc?session-id=7613fb122700ebd6230adb6b3e76fa7c"
+    "detail": "hls https://n3eb-e2.revma.ihrhls.com/zc5238/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqQcsMAFbn1ODYr-NXNHg"
    },
    {
-    "url": "https://live.amperwave.net/direct/audacy-wticfmaac-imc",
+    "url": "http://stream.revma.ihrhls.com/zc5238",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aacp https://prod-44-204-172-47.amperwave.net/audacy-wticfmaac-imc?session-id=3d4220736ae469b4526c23e21063a8b5"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc5238?rj-org=n33b-e2&rj-ttl=5&rj-tok=AAABoYqQc1AA9BohXLoXJHyUTg"
    }
   ],
   "kept_from_before": false,
@@ -1501,19 +1278,19 @@
     "url": "https://stream.revma.ihrhls.com/zc1493",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1493:alt?rj-org=n43b-e2&rj-ttl=5&rj-tok=AAABoYqLyEQADJumhakXgJKM_w"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1493:alt?rj-org=n43b-e2&rj-ttl=5&rj-tok=AAABoYqQccgA5nU1732aMcXgmQ"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc1493/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n10b-e2.revma.ihrhls.com/zc1493:alt/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqLycwAlEggtvNo1_9NPg"
+    "detail": "hls https://n2db-e2.revma.ihrhls.com/zc1493:alt/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqQcqMAgnc0__XVYV3d8g"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc1493",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1493:alt?rj-org=n43b-e2&rj-ttl=5&rj-tok=AAABoYqLy24AcRSf54mOXkytTA"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1493:alt?rj-org=n43b-e2&rj-ttl=5&rj-tok=AAABoYqQc-kAokeVGb2dTPUN6A"
    }
   ],
   "kept_from_before": false,
@@ -1685,123 +1462,132 @@
  },
  {
   "school": "Florida Atlantic University",
-  "calls": [],
-  "ok": [],
-  "kept_from_before": false,
-  "failed": []
- },
- {
-  "school": "University of Memphis",
   "calls": [
-   "WMFS"
+   "WMEN-AM"
   ],
   "ok": [
    {
-    "url": "https://live.amperwave.net/direct/audacy-wmfsfmaac-imc",
-    "source": "iheart",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMENAMAAC.aac",
+    "source": "streamtheworld",
     "ok": true,
-    "detail": "audio/aacp https://prod-98-87-169-7.amperwave.net/audacy-wmfsfmaac-imc?session-id=146512c814283d30f3b7a1e0d0ef4f2f"
+    "detail": "audio/aac https://18493.live.streamtheworld.com:443/WMENAMAAC.aac"
    },
    {
-    "url": "http://live.amperwave.net/direct/audacy-wmfsfmaac-imc",
-    "source": "iheart",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMENAM.mp3",
+    "source": "streamtheworld",
     "ok": true,
-    "detail": "audio/aacp http://35.170.51.227/audacy-wmfsfmaac-imc?session-id=99ef3996142baeef0374d2253c605959"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/audacy-wmfsfmaac-imc",
-    "source": "amperwave",
-    "ok": true,
-    "detail": "audio/aacp https://prod-98-87-169-7.amperwave.net/audacy-wmfsfmaac-imc"
+    "detail": "audio/mpeg https://15313.live.streamtheworld.com:443/WMENAM.mp3"
    }
   ],
   "kept_from_before": false,
   "failed": [
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMFSAMAAC.aac",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMEN_AMAAC.aac",
     "source": "streamtheworld",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMFSAM.mp3",
-    "source": "streamtheworld",
+    "url": "https://corporate.hubbardradio.com/privacy-policy/",
+    "source": "website",
     "ok": false,
-    "detail": "HTTP Error 404: Not Found"
+    "detail": "not audio (text/html; charset=utf-8)"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMFS_AMAAC.aac",
-    "source": "streamtheworld",
+    "url": "https://corporate.hubbardradio.com/terms-of-use/",
+    "source": "website",
     "ok": false,
-    "detail": "HTTP Error 404: Not Found"
+    "detail": "not audio (text/html; charset=utf-8)"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMFSFMAAC.aac",
-    "source": "streamtheworld",
+    "url": "https://corporate.hubbardradio.com/dmca-notice/",
+    "source": "website",
     "ok": false,
-    "detail": "HTTP Error 404: Not Found"
+    "detail": "not audio (text/html; charset=utf-8)"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMFSFM.mp3",
-    "source": "streamtheworld",
+    "url": "https://corporate.hubbardradio.com/data-request/?site=kupdfm",
+    "source": "website",
     "ok": false,
-    "detail": "HTTP Error 404: Not Found"
+    "detail": "not audio (text/html; charset=utf-8)"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMFS_FMAAC.aac",
-    "source": "streamtheworld",
+    "url": "https://corporate.hubbardradio.com/data-request?site=wmenam",
+    "source": "website",
     "ok": false,
-    "detail": "HTTP Error 404: Not Found"
+    "detail": "not audio (text/html; charset=utf-8)"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMFSAAC.aac",
-    "source": "streamtheworld",
+    "url": "https://hubbardradio.com",
+    "source": "website",
     "ok": false,
-    "detail": "HTTP Error 404: Not Found"
+    "detail": "not audio (text/html; charset=utf-8)"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMFS.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/audacy-wmfsamaac-imc",
+    "url": "https://live.amperwave.net/manifest/audacy-wmenamaac-imc",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/direct/audacy-wmfsamaac-imc",
+    "url": "https://live.amperwave.net/direct/audacy-wmenamaac-imc",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-wmfsamaac-ibc1",
+    "url": "https://live.amperwave.net/manifest/townsquare-wmenamaac-ibc1",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-wmfsamaac-ibc2",
+    "url": "https://live.amperwave.net/manifest/townsquare-wmenamaac-ibc2",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-wmfsamaac-ibc3",
+    "url": "https://live.amperwave.net/manifest/townsquare-wmenamaac-ibc3",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-wmfsamaac-ibc4",
+    "url": "https://live.amperwave.net/manifest/townsquare-wmenamaac-ibc4",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    }
   ]
+ },
+ {
+  "school": "University of Memphis",
+  "calls": [
+   "WKIM-FM"
+  ],
+  "ok": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WKIMFMAAC.aac",
+    "source": "iheart",
+    "ok": true,
+    "detail": "audio/aac https://18153.live.streamtheworld.com:443/WKIMFMAAC.aac"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WKIMFMAAC.m3u8",
+    "source": "iheart",
+    "ok": true,
+    "detail": "hls https://18153.live.streamtheworld.com:443/WKIMFMAAC/HLS/playlist.m3u8"
+   },
+   {
+    "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/WKIMFMAAC.aac",
+    "source": "iheart",
+    "ok": true,
+    "detail": "audio/aac http://29313.live.streamtheworld.com:80/WKIMFMAAC.aac"
+   }
+  ],
+  "kept_from_before": false,
+  "failed": []
  },
  {
   "school": "United States Naval Academy",
@@ -1814,7 +1600,7 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBALAM.mp3",
     "source": "given",
     "ok": true,
-    "detail": "audio/mpeg https://29308.live.streamtheworld.com:443/WBALAM.mp3"
+    "detail": "audio/mpeg https://18853.live.streamtheworld.com:443/WBALAM.mp3"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WBALAMAAC.aac",
@@ -1933,19 +1719,19 @@
     "url": "https://stream.revma.ihrhls.com/zc4276",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc4276?rj-org=n2ab-e2&rj-ttl=5&rj-tok=AAABoYqLzhoAis8BTomcl3HcqQ"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc4276?rj-org=n0ab-e2&rj-ttl=5&rj-tok=AAABoYqQeDEA01Ee3G-Yzmx5sg"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc4276/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n10b-e2.revma.ihrhls.com/zc4276/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqLzqAAZZWf6IQ7J60nOA"
+    "detail": "hls https://n12b-e2.revma.ihrhls.com/zc4276/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqQeKgAcKphh8EVx0kVuA"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc4276",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc4276?rj-org=n0ab-e2&rj-ttl=5&rj-tok=AAABoYqLz0kAkXY9GjszvlCEiw"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc4276?rj-org=n2ab-e2&rj-ttl=5&rj-tok=AAABoYqQeTwAdrsPtbM6aTSWRA"
    }
   ],
   "kept_from_before": false,
@@ -1961,30 +1747,67 @@
  {
   "school": "University of South Florida",
   "calls": [
-   "WDAE"
+   "WRBQ-FM"
   ],
   "ok": [
    {
-    "url": "https://stream.revma.ihrhls.com/zc673",
-    "source": "iheart",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRBQFMAAC.aac",
+    "source": "streamtheworld",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc673?rj-org=n45b-e2&rj-ttl=5&rj-tok=AAABoYqLzt8ANrZTIxyJ5YKlCg"
+    "detail": "audio/aac https://17813.live.streamtheworld.com:443/WRBQFMAAC.aac"
    },
    {
-    "url": "https://stream.revma.ihrhls.com/zc673/hls.m3u8",
-    "source": "iheart",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRBQFM.mp3",
+    "source": "streamtheworld",
     "ok": true,
-    "detail": "hls https://n39b-e2.revma.ihrhls.com/zc673/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqLz2gAyOfLjp_QxHP10g"
-   },
-   {
-    "url": "http://stream.revma.ihrhls.com/zc673",
-    "source": "iheart",
-    "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc673?rj-org=n1eb-e2&rj-ttl=5&rj-tok=AAABoYqL0DMAeAL4HWFq6Tf9Dw"
+    "detail": "audio/mpeg https://29320.live.streamtheworld.com:443/WRBQFM.mp3"
    }
   ],
   "kept_from_before": false,
-  "failed": []
+  "failed": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRBQ_FMAAC.aac",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/audacy-wrbqfmaac-imc",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/direct/audacy-wrbqfmaac-imc",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-wrbqfmaac-ibc1",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-wrbqfmaac-ibc2",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-wrbqfmaac-ibc3",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-wrbqfmaac-ibc4",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
  },
  {
   "school": "Temple University",
@@ -2003,19 +1826,19 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://18233.live.streamtheworld.com:443/KKNDFMAAC.aac"
+    "detail": "audio/aac https://14093.live.streamtheworld.com:443/KKNDFMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://14093.live.streamtheworld.com:443/KKNDFMAAC/HLS/playlist.m3u8"
+    "detail": "hls https://16613.live.streamtheworld.com:443/KKNDFMAAC/HLS/playlist.m3u8"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://17653.live.streamtheworld.com:80/KKNDFMAAC.aac"
+    "detail": "audio/aac http://18373.live.streamtheworld.com:80/KKNDFMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -2024,30 +1847,66 @@
  {
   "school": "University of Tulsa",
   "calls": [
-   "KTBZ"
+   "KXBL-FM"
   ],
-  "ok": [
-   {
-    "url": "https://stream.revma.ihrhls.com/zc1941",
-    "source": "iheart",
-    "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1941?rj-org=n19b-e2&rj-ttl=5&rj-tok=AAABoYqLz7IAfG991KN2VJaYhw"
-   },
-   {
-    "url": "https://stream.revma.ihrhls.com/zc1941/hls.m3u8",
-    "source": "iheart",
-    "ok": true,
-    "detail": "hls https://n0fb-e2.revma.ihrhls.com/zc1941/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqL0EwAJP-1zEswWnCrCA"
-   },
-   {
-    "url": "http://stream.revma.ihrhls.com/zc1941",
-    "source": "iheart",
-    "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc1941?rj-org=n19b-e2&rj-ttl=5&rj-tok=AAABoYqL0WcAouLE5fXCnLrE2w"
-   }
-  ],
+  "ok": [],
   "kept_from_before": false,
-  "failed": []
+  "failed": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KXBLFMAAC.aac",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KXBLFM.mp3",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KXBL_FMAAC.aac",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/audacy-kxblfmaac-imc",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/direct/audacy-kxblfmaac-imc",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-kxblfmaac-ibc1",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-kxblfmaac-ibc2",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-kxblfmaac-ibc3",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-kxblfmaac-ibc4",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
  },
  {
   "school": "University of Alabama at Birmingham",
@@ -2071,7 +1930,7 @@
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/WJOXFMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://18163.live.streamtheworld.com:80/WJOXFMAAC.aac"
+    "detail": "audio/aac http://17553.live.streamtheworld.com:80/WJOXFMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -2080,26 +1939,26 @@
  {
   "school": "University of Texas at San Antonio",
   "calls": [
-   "KTKR"
+   "KTKR-AM"
   ],
   "ok": [
    {
     "url": "https://stream.revma.ihrhls.com/zc2353",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2353?rj-org=n38b-e2&rj-ttl=5&rj-tok=AAABoYqL0EAAZdWNLCcvdYAs1Q"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2353?rj-org=n42b-e2&rj-ttl=5&rj-tok=AAABoYqQgB8AY3kyoIfLEra0TQ"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc2353/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n1fb-e2.revma.ihrhls.com/zc2353/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqL0LoAGib_AThxqWfLUQ"
+    "detail": "hls https://n18b-e2.revma.ihrhls.com/zc2353/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqQgJkAoCakzIXjnmPCZQ"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc2353",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc2353?rj-org=n09b-e2&rj-ttl=5&rj-tok=AAABoYqL0WsAynbqGZfSZzanuA"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc2353?rj-org=n38b-e2&rj-ttl=5&rj-tok=AAABoYqQgRkA3Av3h3yWMgn-mg"
    }
   ],
   "kept_from_before": false,
@@ -2243,19 +2102,19 @@
     "url": "https://stream.revma.ihrhls.com/zc6849",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc6849?rj-org=n2db-e2&rj-ttl=5&rj-tok=AAABoYqL0e4AGGMGHgipF7SuGg"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc6849?rj-org=n2db-e2&rj-ttl=5&rj-tok=AAABoYqQg-YALXxwgVCkkbIo4g"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc6849/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n43b-e2.revma.ihrhls.com/zc6849/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqL0nEAdGz2ZfFPWRVJlw"
+    "detail": "hls https://n2eb-e2.revma.ihrhls.com/zc6849/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqQhE8Aed88hfwNBGm3xA"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc6849",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc6849?rj-org=n2db-e2&rj-ttl=5&rj-tok=AAABoYqL010A1-CzQr63cK3-aQ"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc6849?rj-org=n2db-e2&rj-ttl=5&rj-tok=AAABoYqQhNIAOS6LOiC6kOsI-A"
    }
   ],
   "kept_from_before": false,
@@ -2263,10 +2122,67 @@
  },
  {
   "school": "Georgia Southern University",
-  "calls": [],
+  "calls": [
+   "WHKN-FM"
+  ],
   "ok": [],
   "kept_from_before": false,
-  "failed": []
+  "failed": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHKNFMAAC.aac",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHKNFM.mp3",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHKN_FMAAC.aac",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/audacy-whknfmaac-imc",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/direct/audacy-whknfmaac-imc",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-whknfmaac-ibc1",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-whknfmaac-ibc2",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-whknfmaac-ibc3",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-whknfmaac-ibc4",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
  },
  {
   "school": "Georgia State University",
@@ -2278,7 +2194,7 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRASFMAAC.aac",
     "source": "streamtheworld",
     "ok": true,
-    "detail": "audio/aac https://29321.live.streamtheworld.com:443/WRASFMAAC.aac"
+    "detail": "audio/aac https://26113.live.streamtheworld.com:443/WRASFMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRASFM.mp3",
@@ -2406,24 +2322,73 @@
  {
   "school": "University of Louisiana at Lafayette",
   "calls": [
-   "KPEL"
+   "KHXT-FM",
+   "KPEL-AM"
   ],
   "ok": [
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-khxtfmaac-ibc3",
+    "source": "amperwave",
+    "ok": true,
+    "detail": "audio/aacp https://prod-54-172-213-63.amperwave.net/townsquare-khxtfmaac-ibc3"
+   },
    {
     "url": "https://live.amperwave.net/manifest/townsquare-kpelamaac-ibc3",
     "source": "amperwave",
     "ok": true,
-    "detail": "audio/aacp https://prod-54-172-213-63.amperwave.net/townsquare-kpelamaac-ibc3"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-kpelfmaac-ibc3",
-    "source": "amperwave",
-    "ok": true,
-    "detail": "audio/aacp https://prod-54-158-223-248.amperwave.net/townsquare-kpelfmaac-ibc3"
+    "detail": "audio/aacp https://prod-54-158-223-248.amperwave.net/townsquare-kpelamaac-ibc3"
    }
   ],
   "kept_from_before": false,
   "failed": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KHXTFMAAC.aac",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KHXTFM.mp3",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KHXT_FMAAC.aac",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/audacy-khxtfmaac-imc",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/direct/audacy-khxtfmaac-imc",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-khxtfmaac-ibc1",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-khxtfmaac-ibc2",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-khxtfmaac-ibc4",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KPELAMAAC.aac",
     "source": "streamtheworld",
@@ -2438,36 +2403,6 @@
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KPEL_AMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KPELFMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KPELFM.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KPEL_FMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KPELAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KPEL.mp3",
     "source": "streamtheworld",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
@@ -2492,24 +2427,6 @@
    },
    {
     "url": "https://live.amperwave.net/manifest/townsquare-kpelamaac-ibc2",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-kpelamaac-ibc4",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/audacy-kpelfmaac-imc",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/direct/audacy-kpelfmaac-imc",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
@@ -2698,29 +2615,11 @@
  {
   "school": "Old Dominion University",
   "calls": [
-   "WVSP"
+   "WVSP-FM"
   ],
   "ok": [],
   "kept_from_before": false,
   "failed": [
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WVSPAMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WVSPAM.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WVSP_AMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WVSPFMAAC.aac",
     "source": "streamtheworld",
@@ -2740,55 +2639,43 @@
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WVSPAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WVSP.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
     "url": "https://listen.streamon.fm/wvsp",
     "source": "website",
     "ok": false,
     "detail": "not audio (text/html; charset=utf-8)"
    },
    {
-    "url": "https://live.amperwave.net/manifest/audacy-wvspamaac-imc",
+    "url": "https://live.amperwave.net/manifest/audacy-wvspfmaac-imc",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/direct/audacy-wvspamaac-imc",
+    "url": "https://live.amperwave.net/direct/audacy-wvspfmaac-imc",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-wvspamaac-ibc1",
+    "url": "https://live.amperwave.net/manifest/townsquare-wvspfmaac-ibc1",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-wvspamaac-ibc2",
+    "url": "https://live.amperwave.net/manifest/townsquare-wvspfmaac-ibc2",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-wvspamaac-ibc3",
+    "url": "https://live.amperwave.net/manifest/townsquare-wvspfmaac-ibc3",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-wvspamaac-ibc4",
+    "url": "https://live.amperwave.net/manifest/townsquare-wvspfmaac-ibc4",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
@@ -2798,114 +2685,36 @@
  {
   "school": "University of South Alabama",
   "calls": [
-   "WNSP"
+   "WMEZ-FM",
+   "WXQW-AM"
   ],
   "ok": [
    {
-    "url": "http://centova.rockhost.com:8054/wnsp",
-    "source": "radio-browser",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMEZFMAAC.aac",
+    "source": "iheart",
     "ok": true,
-    "detail": "audio/mpeg http://centova.rockhost.com:8054/wnsp"
+    "detail": "audio/aac https://15723.live.streamtheworld.com:443/WMEZFMAAC.aac"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMEZFMAAC.m3u8",
+    "source": "iheart",
+    "ok": true,
+    "detail": "hls https://15723.live.streamtheworld.com:443/WMEZFMAAC/HLS/playlist.m3u8"
+   },
+   {
+    "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/WMEZFMAAC.aac",
+    "source": "iheart",
+    "ok": true,
+    "detail": "audio/aac http://15723.live.streamtheworld.com:80/WMEZFMAAC.aac"
    }
   ],
   "kept_from_before": false,
-  "failed": [
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNSPAMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNSPAM.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNSP_AMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNSPFMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNSPFM.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNSP_FMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNSPAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNSP.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/audacy-wnspamaac-imc",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/direct/audacy-wnspamaac-imc",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-wnspamaac-ibc1",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-wnspamaac-ibc2",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-wnspamaac-ibc3",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-wnspamaac-ibc4",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/audacy-wnspfmaac-imc",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   }
-  ]
+  "failed": []
  },
  {
   "school": "University of Southern Mississippi",
   "calls": [
-   "WXRR"
+   "WXRR-FM"
   ],
   "ok": [
    {
@@ -2917,24 +2726,6 @@
   ],
   "kept_from_before": false,
   "failed": [
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WXRRAMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WXRRAM.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WXRR_AMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WXRRFMAAC.aac",
     "source": "streamtheworld",
@@ -2954,55 +2745,37 @@
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WXRRAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WXRR.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "http://www.pinebeltradio.com/",
-    "source": "website",
-    "ok": false,
-    "detail": "not audio (text/html)"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/audacy-wxrramaac-imc",
+    "url": "https://live.amperwave.net/manifest/audacy-wxrrfmaac-imc",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/direct/audacy-wxrramaac-imc",
+    "url": "https://live.amperwave.net/direct/audacy-wxrrfmaac-imc",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-wxrramaac-ibc1",
+    "url": "https://live.amperwave.net/manifest/townsquare-wxrrfmaac-ibc1",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-wxrramaac-ibc2",
+    "url": "https://live.amperwave.net/manifest/townsquare-wxrrfmaac-ibc2",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-wxrramaac-ibc3",
+    "url": "https://live.amperwave.net/manifest/townsquare-wxrrfmaac-ibc3",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-wxrramaac-ibc4",
+    "url": "https://live.amperwave.net/manifest/townsquare-wxrrfmaac-ibc4",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
@@ -3098,19 +2871,19 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KCUBAMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://14093.live.streamtheworld.com:443/KCUBAMAAC.aac"
+    "detail": "audio/aac https://18373.live.streamtheworld.com:443/KCUBAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KCUBAMAAC.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://14093.live.streamtheworld.com:443/KCUBAMAAC/HLS/playlist.m3u8"
+    "detail": "hls https://18233.live.streamtheworld.com:443/KCUBAMAAC/HLS/playlist.m3u8"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KCUBAMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://14093.live.streamtheworld.com:80/KCUBAMAAC.aac"
+    "detail": "audio/aac http://18233.live.streamtheworld.com:80/KCUBAMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -3147,9 +2920,22 @@
  {
   "school": "Baylor University",
   "calls": [
-   "KRZI"
+   "KRZI-AM"
   ],
-  "ok": [],
+  "ok": [
+   {
+    "url": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    "source": "website",
+    "ok": true,
+    "detail": "audio/mpeg https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+   },
+   {
+    "url": "https://ais-sa1.streamon.fm/7050_24k.aac",
+    "source": "website",
+    "ok": true,
+    "detail": "audio/aac https://ais-sa1.streamon.fm/7050_24k.aac"
+   }
+  ],
   "kept_from_before": false,
   "failed": [
    {
@@ -3171,34 +2957,34 @@
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KRZIFMAAC.aac",
-    "source": "streamtheworld",
+    "url": "https://listen.streamon.fm/krzi",
+    "source": "website",
     "ok": false,
-    "detail": "HTTP Error 404: Not Found"
+    "detail": "not audio (text/html; charset=utf-8)"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KRZIFM.mp3",
-    "source": "streamtheworld",
+    "url": "https://listen.streamon.fm/ktonam",
+    "source": "website",
     "ok": false,
-    "detail": "HTTP Error 404: Not Found"
+    "detail": "not audio (text/html; charset=utf-8)"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KRZI_FMAAC.aac",
-    "source": "streamtheworld",
+    "url": "https://listen.streamon.fm/kbht",
+    "source": "website",
     "ok": false,
-    "detail": "HTTP Error 404: Not Found"
+    "detail": "not audio (text/html; charset=utf-8)"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KRZIAAC.aac",
-    "source": "streamtheworld",
+    "url": "https://listen.streamon.fm/baylor",
+    "source": "website",
     "ok": false,
-    "detail": "HTTP Error 404: Not Found"
+    "detail": "not audio (text/html; charset=utf-8)"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KRZI.mp3",
-    "source": "streamtheworld",
+    "url": "http://classicalking.streamguys1.com/king-fm-aac-96k",
+    "source": "website",
     "ok": false,
-    "detail": "HTTP Error 404: Not Found"
+    "detail": "HTTP Error 404: Not Available"
    },
    {
     "url": "https://live.amperwave.net/manifest/audacy-krziamaac-imc",
@@ -3232,12 +3018,6 @@
    },
    {
     "url": "https://live.amperwave.net/manifest/townsquare-krziamaac-ibc4",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/audacy-krzifmaac-imc",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
@@ -3275,26 +3055,27 @@
  {
   "school": "University of Cincinnati",
   "calls": [
-   "WCKY"
+   "WLW-AM",
+   "WEBN-FM"
   ],
   "ok": [
    {
-    "url": "https://stream.revma.ihrhls.com/zc1697",
+    "url": "https://stream.revma.ihrhls.com/zc1713",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1697?rj-org=n11b-e2&rj-ttl=5&rj-tok=AAABoYqL3tcAupMsyd3cM9kwbg"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1713?rj-org=n16b-e2&rj-ttl=5&rj-tok=AAABoYqQkJcAOHMM3gjm6ocFDw"
    },
    {
-    "url": "https://stream.revma.ihrhls.com/zc1697/hls.m3u8",
+    "url": "https://stream.revma.ihrhls.com/zc1713/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n22b-e2.revma.ihrhls.com/zc1697/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqL30cA_1Aiv7pPVRy_sw"
+    "detail": "hls https://n22b-e2.revma.ihrhls.com/zc1713/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqQkZgAA0AOiqUGKHxASA"
    },
    {
-    "url": "http://stream.revma.ihrhls.com/zc1697",
+    "url": "http://stream.revma.ihrhls.com/zc1713",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc1697?rj-org=n33b-e2&rj-ttl=5&rj-tok=AAABoYqL4BIANei5S71AcitnSg"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc1713?rj-org=n05b-e2&rj-ttl=5&rj-tok=AAABoYqQkg4AdvREE6MzsQbvdg"
    }
   ],
   "kept_from_before": false,
@@ -3303,26 +3084,27 @@
  {
   "school": "University of Colorado Boulder",
   "calls": [
-   "KOA"
+   "KOA-AM",
+   "K231AA"
   ],
   "ok": [
    {
     "url": "https://stream.revma.ihrhls.com/zc389",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc389?rj-org=n0cb-e2&rj-ttl=5&rj-tok=AAABoYqL3zMANY1CqOCiIPpCCA"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc389?rj-org=n0fb-e2&rj-ttl=5&rj-tok=AAABoYqQjPkAqX1tJr7fxNjoSg"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc389/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n2fb-e2.revma.ihrhls.com/zc389/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqL3-kAWKbMGTACi647Ng"
+    "detail": "hls https://n3eb-e2.revma.ihrhls.com/zc389/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqQjtYAu1q49pfHbGTAhQ"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc389",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc389?rj-org=n2eb-e2&rj-ttl=5&rj-tok=AAABoYqL4MEAz6h08rdhWQZJ-w"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc389?rj-org=n3eb-e2&rj-ttl=5&rj-tok=AAABoYqQjzMAO0kVpffnLKRZDg"
    }
   ],
   "kept_from_before": false,
@@ -3331,26 +3113,26 @@
  {
   "school": "University of Houston",
   "calls": [
-   "KBME"
+   "KPRC-AM"
   ],
   "ok": [
    {
-    "url": "https://stream.revma.ihrhls.com/zc2257",
+    "url": "https://stream.revma.ihrhls.com/zc2277",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2257?rj-org=n17b-e2&rj-ttl=5&rj-tok=AAABoYqL4F0AbpL0chQWCBqXVA"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2277?rj-org=n3eb-e2&rj-ttl=5&rj-tok=AAABoYqQjeMAbiclOknmp3kweQ"
    },
    {
-    "url": "https://stream.revma.ihrhls.com/zc2257/hls.m3u8",
+    "url": "https://stream.revma.ihrhls.com/zc2277/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n1fb-e2.revma.ihrhls.com/zc2257/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqL4O4AcqP91vFb3lcfYQ"
+    "detail": "hls https://n18b-e2.revma.ihrhls.com/zc2277/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqQjlMAN9xNLIBUlck2gQ"
    },
    {
-    "url": "http://stream.revma.ihrhls.com/zc2257",
+    "url": "http://stream.revma.ihrhls.com/zc2277",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc2257?rj-org=n0fb-e2&rj-ttl=5&rj-tok=AAABoYqL4XMAaEsKHS1eq7yz0w"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc2277?rj-org=n40b-e2&rj-ttl=5&rj-tok=AAABoYqQjrEAX5d7A3RwGLp_pQ"
    }
   ],
   "kept_from_before": false,
@@ -3366,19 +3148,19 @@
     "url": "https://stream.revma.ihrhls.com/zc925",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/69ec53g4w0hvv?rj-org=n38b-e2&rj-ttl=5&rj-tok=AAABoYqL4uoAwXofwcokIpglvA"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/69ec53g4w0hvv?rj-org=n21b-e2&rj-ttl=5&rj-tok=AAABoYqQkSgAAA8X6wAME0r6zw"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc925/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n3ab-e2.revma.ihrhls.com/69ec53g4w0hvv/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqL5DAAYs8Sdzfij2cVIA"
+    "detail": "hls https://n30b-e2.revma.ihrhls.com/69ec53g4w0hvv/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqQkgQA1hAmUF0AOj_Aaw"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc925",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/69ec53g4w0hvv?rj-org=n25b-e2&rj-ttl=5&rj-tok=AAABoYqL5U4AcHJUiEUS0ovGpg"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/69ec53g4w0hvv?rj-org=n1db-e2&rj-ttl=5&rj-tok=AAABoYqQkuAAKd0-lsjbcwdYtA"
    }
   ],
   "kept_from_before": false,
@@ -3488,7 +3270,8 @@
  {
   "school": "Kansas State University",
   "calls": [
-   "KMAN"
+   "KMAN-AM",
+   "KMKF-FM"
   ],
   "ok": [],
   "kept_from_before": false,
@@ -3510,48 +3293,6 @@
     "source": "streamtheworld",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KMANFMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KMANFM.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KMAN_FMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KMANAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KMAN.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://lightningstream.com/player.aspx?call=KMAN",
-    "source": "website",
-    "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
-   },
-   {
-    "url": "https://www.lightningstream.com/Player.aspx?call=KMAN&title=",
-    "source": "website",
-    "ok": false,
-    "detail": "not audio (text/html; charset=utf-8)"
    },
    {
     "url": "https://live.amperwave.net/manifest/audacy-kmanamaac-imc",
@@ -3579,6 +3320,48 @@
    },
    {
     "url": "https://live.amperwave.net/manifest/townsquare-kmanamaac-ibc3",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-kmanamaac-ibc4",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KMKFFMAAC.aac",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KMKFFM.mp3",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KMKF_FMAAC.aac",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/audacy-kmkffmaac-imc",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/direct/audacy-kmkffmaac-imc",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-kmkffmaac-ibc1",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
@@ -3659,26 +3442,26 @@
  {
   "school": "Texas Christian University",
   "calls": [
-   "KTCK"
+   "KZPS-FM"
   ],
   "ok": [
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.aac",
+    "url": "https://stream.revma.ihrhls.com/zc3379",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://14093.live.streamtheworld.com:443/KTCKAMAAC.aac"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc3379?rj-org=n0ab-e2&rj-ttl=5&rj-tok=AAABoYqQlRUAhASBa-2vb5K-Ng"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.m3u8",
+    "url": "https://stream.revma.ihrhls.com/zc3379/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://18243.live.streamtheworld.com:443/KTCKAMAAC/HLS/playlist.m3u8"
+    "detail": "hls https://n2eb-e2.revma.ihrhls.com/zc3379/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqQlZAAe0lCFx7cNznElA"
    },
    {
-    "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.aac",
+    "url": "http://stream.revma.ihrhls.com/zc3379",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://14013.live.streamtheworld.com:80/KTCKAMAAC.aac"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc3379?rj-org=n3cb-e2&rj-ttl=5&rj-tok=AAABoYqQlewAD_SA7ga7qjXWEw"
    }
   ],
   "kept_from_before": false,
@@ -3711,6 +3494,54 @@
     "detail": "HTTP Error 404: Not Found"
    },
    {
+    "url": "https://listen.streamon.fm/kttufm",
+    "source": "website",
+    "ok": false,
+    "detail": "not audio (text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://listen.streamon.fm/kttuam",
+    "source": "website",
+    "ok": false,
+    "detail": "not audio (text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://x.com/intent/tweet?url=https%3A%2F%2Flisten.streamon.fm%2Fkttufm&text=Listening+to+:track+Double+T+97.3+via+%40DoubleT973",
+    "source": "website",
+    "ok": false,
+    "detail": "not audio (text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://bsky.app/intent/compose?text=Listening+to+Double+T+97.3+https%3A%2F%2Flisten.streamon.fm%2Fkttufm",
+    "source": "website",
+    "ok": false,
+    "detail": "not audio (text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://source.streamon.fm/hls/",
+    "source": "website",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://x.com/intent/tweet?url=https%3A%2F%2Flisten.streamon.fm%2Fkttuam&text=Listening+to+:track+100.7+The+Score+via+%401007TheScore",
+    "source": "website",
+    "ok": false,
+    "detail": "not audio (text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://bsky.app/intent/compose?text=Listening+to+100.7+The+Score+https%3A%2F%2Flisten.streamon.fm%2Fkttuam",
+    "source": "website",
+    "ok": false,
+    "detail": "not audio (text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://listen.streamon.fm/kjtvam",
+    "source": "website",
+    "ok": false,
+    "detail": "HTTP Error 404: "
+   },
+   {
     "url": "https://live.amperwave.net/manifest/audacy-kttufmaac-imc",
     "source": "amperwave",
     "ok": false,
@@ -3733,44 +3564,32 @@
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-kttufmaac-ibc3",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-kttufmaac-ibc4",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
    }
   ]
  },
  {
   "school": "University of Central Florida",
   "calls": [
-   "WYGM"
+   "WYGM-AM"
   ],
   "ok": [
    {
     "url": "https://stream.revma.ihrhls.com/zc601",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc601?rj-org=n17b-e2&rj-ttl=5&rj-tok=AAABoYqL5zsAOqylRuyOpx_Spg"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc601?rj-org=n16b-e2&rj-ttl=5&rj-tok=AAABoYqQlYMAQ71WoQpyFgf_ZA"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc601/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n2bb-e2.revma.ihrhls.com/zc601/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqL6FcA9A8q2hJkpfvDZA"
+    "detail": "hls https://n23b-e2.revma.ihrhls.com/zc601/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqQlfEAvzH1PrlhcIIivw"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc601",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc601?rj-org=n20b-e2&rj-ttl=5&rj-tok=AAABoYqL6ScAULxqkYu3pA5vLA"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc601?rj-org=n17b-e2&rj-ttl=5&rj-tok=AAABoYqQlpMAwiTIpXsIbRuiJg"
    }
   ],
   "kept_from_before": false,
@@ -3779,7 +3598,7 @@
  {
   "school": "University of Utah",
   "calls": [
-   "KALL"
+   "KALL-AM"
   ],
   "ok": [
    {
@@ -3810,32 +3629,26 @@
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KALLFMAAC.aac",
-    "source": "streamtheworld",
+    "url": "https://listen.streamon.fm/kallam",
+    "source": "website",
     "ok": false,
-    "detail": "HTTP Error 404: Not Found"
+    "detail": "not audio (text/html; charset=utf-8)"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KALLFM.mp3",
-    "source": "streamtheworld",
+    "url": "https://x.com/intent/tweet?url=https%3A%2F%2Flisten.streamon.fm%2Fkallam&text=Listening+to+:track+ESPN700+via+%40ESPN700",
+    "source": "website",
     "ok": false,
-    "detail": "HTTP Error 404: Not Found"
+    "detail": "not audio (text/html; charset=utf-8)"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KALL_FMAAC.aac",
-    "source": "streamtheworld",
+    "url": "https://bsky.app/intent/compose?text=Listening+to+ESPN700+https%3A%2F%2Flisten.streamon.fm%2Fkallam",
+    "source": "website",
     "ok": false,
-    "detail": "HTTP Error 404: Not Found"
+    "detail": "not audio (text/html; charset=utf-8)"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KALLAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KALL.mp3",
-    "source": "streamtheworld",
+    "url": "https://source.streamon.fm/hls/",
+    "source": "website",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
@@ -3871,12 +3684,6 @@
    },
    {
     "url": "https://live.amperwave.net/manifest/townsquare-kallamaac-ibc4",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/audacy-kallfmaac-imc",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
@@ -4084,7 +3891,7 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCSXFM.mp3",
     "source": "streamtheworld",
     "ok": true,
-    "detail": "audio/mpeg https://18513.live.streamtheworld.com:443/WCSXFM.mp3"
+    "detail": "audio/mpeg https://26293.live.streamtheworld.com:443/WCSXFM.mp3"
    }
   ],
   "kept_from_before": false,
@@ -4295,7 +4102,8 @@
  {
   "school": "University of Illinois Urbana-Champaign",
   "calls": [
-   "WDWS"
+   "WDWS-AM",
+   "WHMS-FM"
   ],
   "ok": [
    {
@@ -4321,36 +4129,6 @@
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDWS_AMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDWSFMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDWSFM.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDWS_FMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDWSAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDWS.mp3",
     "source": "streamtheworld",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
@@ -4392,7 +4170,37 @@
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/audacy-wdwsfmaac-imc",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHMSFMAAC.aac",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHMSFM.mp3",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHMS_FMAAC.aac",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/audacy-whmsfmaac-imc",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/direct/audacy-whmsfmaac-imc",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-whmsfmaac-ibc1",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
@@ -4402,110 +4210,61 @@
  {
   "school": "Indiana University",
   "calls": [
-   "WFNI"
+   "WHCC-FM"
   ],
-  "ok": [
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WIBCHD2AAC.aac",
-    "source": "iheart",
-    "ok": true,
-    "detail": "audio/aac https://26443.live.streamtheworld.com:443/WIBCHD2AAC.aac"
-   },
-   {
-    "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/WIBCHD2AAC.aac",
-    "source": "iheart",
-    "ok": true,
-    "detail": "audio/aac http://26273.live.streamtheworld.com:80/WIBCHD2AAC.aac"
-   }
-  ],
+  "ok": [],
   "kept_from_before": false,
   "failed": [
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFNIAMAAC.aac",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHCCFMAAC.aac",
     "source": "streamtheworld",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFNIAM.mp3",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHCCFM.mp3",
     "source": "streamtheworld",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFNI_AMAAC.aac",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHCC_FMAAC.aac",
     "source": "streamtheworld",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFNIFMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFNIFM.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFNI_FMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFNIAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WFNI.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/audacy-wfniamaac-imc",
+    "url": "https://live.amperwave.net/manifest/audacy-whccfmaac-imc",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/direct/audacy-wfniamaac-imc",
+    "url": "https://live.amperwave.net/direct/audacy-whccfmaac-imc",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-wfniamaac-ibc1",
+    "url": "https://live.amperwave.net/manifest/townsquare-whccfmaac-ibc1",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-wfniamaac-ibc2",
+    "url": "https://live.amperwave.net/manifest/townsquare-whccfmaac-ibc2",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-wfniamaac-ibc3",
+    "url": "https://live.amperwave.net/manifest/townsquare-whccfmaac-ibc3",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-wfniamaac-ibc4",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/audacy-wfnifmaac-imc",
+    "url": "https://live.amperwave.net/manifest/townsquare-whccfmaac-ibc4",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
@@ -4523,19 +4282,19 @@
     "url": "https://stream.revma.ihrhls.com/zc925",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/69ec53g4w0hvv?rj-org=n2ab-e2&rj-ttl=5&rj-tok=AAABoYqL81cAajCsEGazTmIeQw"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/69ec53g4w0hvv?rj-org=n1cb-e2&rj-ttl=5&rj-tok=AAABoYqQnqoA_DOWrrn2Q9V6Uw"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc925/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n36b-e2.revma.ihrhls.com/69ec53g4w0hvv/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqL9H0Ay7YbXKeThV2F6A"
+    "detail": "hls https://n30b-e2.revma.ihrhls.com/69ec53g4w0hvv/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqQn7sAJapj3VtzLiUcgQ"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc925",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/69ec53g4w0hvv?rj-org=n1cb-e2&rj-ttl=5&rj-tok=AAABoYqL9agAWG0_7MjGZmdCEA"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/69ec53g4w0hvv?rj-org=n06b-e2&rj-ttl=5&rj-tok=AAABoYqQoHQAYa32cNyeJdVvWA"
    }
   ],
   "kept_from_before": false,
@@ -4552,19 +4311,19 @@
     "url": "https://live.amperwave.net/direct/audacy-wjzfmaac-imc",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aacp https://prod-34-201-210-99.amperwave.net/audacy-wjzfmaac-imc?session-id=b14a503ac81dceff313d1f2fb557a20d"
+    "detail": "audio/aacp https://prod-35-173-219-21.amperwave.net/audacy-wjzfmaac-imc?session-id=dc35b6e5cfeafb6836e714e3b76ac22c"
    },
    {
     "url": "http://live.amperwave.net/direct/audacy-wjzfmaac-imc",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aacp http://52.90.12.93/audacy-wjzfmaac-imc?session-id=a70087c23891bf557f9b63c2b7880891"
+    "detail": "audio/aacp http://34.201.210.99/audacy-wjzfmaac-imc?session-id=3057e1951e8c996158f1a71382ea5842"
    },
    {
     "url": "https://live.amperwave.net/manifest/audacy-wjzfmaac-imc",
     "source": "amperwave",
     "ok": true,
-    "detail": "audio/aacp https://prod-35-173-219-21.amperwave.net/audacy-wjzfmaac-imc"
+    "detail": "audio/aacp https://prod-34-201-210-99.amperwave.net/audacy-wjzfmaac-imc"
    }
   ],
   "kept_from_before": false,
@@ -4600,19 +4359,19 @@
     "url": "https://live.amperwave.net/manifest/townsquare-wjimamaac-ibc3",
     "source": "amperwave",
     "ok": true,
-    "detail": "audio/aacp https://prod-54-224-105-89.amperwave.net/townsquare-wjimamaac-ibc3"
+    "detail": "audio/aacp https://prod-3-85-29-251.amperwave.net/townsquare-wjimamaac-ibc3"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJRAMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://29320.live.streamtheworld.com:443/WJRAMAAC.aac"
+    "detail": "audio/aac https://17553.live.streamtheworld.com:443/WJRAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJRAMAAC.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://26383.live.streamtheworld.com:443/WJRAMAAC/HLS/playlist.m3u8"
+    "detail": "hls https://18163.live.streamtheworld.com:443/WJRAMAAC/HLS/playlist.m3u8"
    }
   ],
   "kept_from_before": false,
@@ -4670,163 +4429,54 @@
  {
   "school": "University of Minnesota",
   "calls": [
-   "KFAN"
+   "KFXN-FM"
   ],
   "ok": [
    {
-    "url": "https://ice41.securenetsystems.net/KFAN",
-    "source": "securenet",
+    "url": "https://stream.revma.ihrhls.com/zc1209",
+    "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://ice41.securenetsystems.net/KFAN"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1209?rj-org=n39b-e2&rj-ttl=5&rj-tok=AAABoYqQoSYAN7tpzFJA_xY1zA"
+   },
+   {
+    "url": "https://stream.revma.ihrhls.com/zc1209/hls.m3u8",
+    "source": "iheart",
+    "ok": true,
+    "detail": "hls https://n25b-e2.revma.ihrhls.com/zc1209/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqQoaEAaL8PFolauDwM7g"
+   },
+   {
+    "url": "http://stream.revma.ihrhls.com/zc1209",
+    "source": "iheart",
+    "ok": true,
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc1209?rj-org=n3bb-e2&rj-ttl=5&rj-tok=AAABoYqQolIA52WDA1XNpkSrXw"
    }
   ],
   "kept_from_before": false,
-  "failed": [
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFANAMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFANAM.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFAN_AMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFANFMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFANFM.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFAN_FMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFANAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFAN.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/audacy-kfanamaac-imc",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/direct/audacy-kfanamaac-imc",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-kfanamaac-ibc1",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-kfanamaac-ibc2",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-kfanamaac-ibc3",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-kfanamaac-ibc4",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/audacy-kfanfmaac-imc",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   }
-  ]
+  "failed": []
  },
  {
   "school": "University of Nebraska-Lincoln",
   "calls": [
-   "KLIN"
+   "KLIN-AM"
   ],
   "ok": [
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KLINAMAAC.aac",
     "source": "streamtheworld",
     "ok": true,
-    "detail": "audio/aac https://29319.live.streamtheworld.com:443/KLINAMAAC.aac"
+    "detail": "audio/aac https://18063.live.streamtheworld.com:443/KLINAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KLINAM.mp3",
     "source": "streamtheworld",
     "ok": true,
-    "detail": "audio/mpeg https://19263.live.streamtheworld.com:443/KLINAM.mp3"
+    "detail": "audio/mpeg https://18163.live.streamtheworld.com:443/KLINAM.mp3"
    }
   ],
   "kept_from_before": false,
   "failed": [
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KLIN_AMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KLINFMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KLINFM.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KLIN_FMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KLINAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KLIN.mp3",
     "source": "streamtheworld",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
@@ -4866,44 +4516,26 @@
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/audacy-klinfmaac-imc",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/direct/audacy-klinfmaac-imc",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-klinfmaac-ibc1",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
    }
   ]
  },
  {
   "school": "Northwestern University",
   "calls": [
-   "WGN"
+   "WGN-AM"
   ],
   "ok": [
    {
     "url": "https://live.amperwave.net/direct/wgnam-wgnamaac-imc2",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aacp https://prod-44-203-50-103.amperwave.net/wgnam-wgnamaac-imc2?session-id=09db01f8dba80d1ff0f14c48ce1b8149"
+    "detail": "audio/aacp https://prod-44-203-50-103.amperwave.net/wgnam-wgnamaac-imc2?session-id=401e058ae8679668e04bf01a9a279b40"
    },
    {
     "url": "http://live.amperwave.net/direct/wgnam-wgnamaac-imc2",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aacp http://54.158.170.239/wgnam-wgnamaac-imc2?session-id=af3c05e3940638f252eaac38b80b4803"
+    "detail": "audio/aacp http://54.158.170.239/wgnam-wgnamaac-imc2?session-id=fc26e3096add8c31718eef37ff588a02"
    },
    {
     "url": "http://18.204.34.32/wgnam-wgnammp3-ibc2?session-id=611cbf2ae655692204b4a6d45fef29e7",
@@ -4928,36 +4560,6 @@
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGN_AMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGNFMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGNFM.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGN_FMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGNAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGN.mp3",
     "source": "streamtheworld",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
@@ -4997,26 +4599,21 @@
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/audacy-wgnfmaac-imc",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
    }
   ]
  },
  {
   "school": "University of Oregon",
   "calls": [
-   "KUGN"
+   "KUGN-AM",
+   "KUJZ-FM"
   ],
   "ok": [
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://29321.live.streamtheworld.com:443/KUGNAMAAC.aac"
+    "detail": "audio/aac https://14013.live.streamtheworld.com:443/KUGNAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAMAAC.m3u8",
@@ -5028,7 +4625,7 @@
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://17633.live.streamtheworld.com:80/KUGNAMAAC.aac"
+    "detail": "audio/aac http://14553.live.streamtheworld.com:80/KUGNAMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -5109,19 +4706,19 @@
     "url": "https://live.amperwave.net/direct/audacy-wfanamaac-imc",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aacp https://prod-18-213-193-109.amperwave.net/audacy-wfanamaac-imc?session-id=563f4e87a301fb67c5b98105bfd72277"
+    "detail": "audio/aacp https://prod-18-206-40-143.amperwave.net/audacy-wfanamaac-imc?session-id=31c787c6e5435d9d14b13c8e1a1db54c"
    },
    {
     "url": "http://live.amperwave.net/direct/audacy-wfanamaac-imc",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aacp http://13.222.215.102/audacy-wfanamaac-imc?session-id=86134ab045c843679627c8e25af20e3b"
+    "detail": "audio/aacp http://52.23.151.190/audacy-wfanamaac-imc?session-id=2d6b790eb21184c56f6bcb8ba937d2bc"
    },
    {
     "url": "https://live.amperwave.net/manifest/audacy-wfanamaac-imc",
     "source": "amperwave",
     "ok": true,
-    "detail": "audio/aacp https://prod-13-222-215-102.amperwave.net/audacy-wfanamaac-imc"
+    "detail": "audio/aacp https://prod-18-206-40-143.amperwave.net/audacy-wfanamaac-imc"
    }
   ],
   "kept_from_before": false,
@@ -5149,26 +4746,26 @@
  {
   "school": "University of California, Los Angeles",
   "calls": [
-   "KLAC"
+   "KABC-AM"
   ],
   "ok": [
    {
-    "url": "https://stream.revma.ihrhls.com/zc189",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KABCAMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc189?rj-org=n1bb-e2&rj-ttl=5&rj-tok=AAABoYqL-wAAX5R-SLHv_ghdKA"
+    "detail": "audio/aac https://18363.live.streamtheworld.com:443/KABCAMAAC.aac"
    },
    {
-    "url": "https://stream.revma.ihrhls.com/zc189/hls.m3u8",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KABCAMAAC.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n1cb-e2.revma.ihrhls.com/zc189/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqL-54Ao8w0s79TC7331Q"
+    "detail": "hls https://18443.live.streamtheworld.com:443/KABCAMAAC/HLS/playlist.m3u8"
    },
    {
-    "url": "http://stream.revma.ihrhls.com/zc189",
+    "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KABCAMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc189?rj-org=n14b-e2&rj-ttl=5&rj-tok=AAABoYqL_IoAK7uXKSMpasp5JQ"
+    "detail": "audio/aac http://14923.live.streamtheworld.com:80/KABCAMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -5184,13 +4781,13 @@
     "url": "https://live.amperwave.net/direct/goodkarma-kspnamaac-ibc",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aacp https://prod-34-201-216-127.amperwave.net/goodkarma-kspnamaac-ibc?session-id=dc3486149ad2976069e3f7c468392b2a"
+    "detail": "audio/aacp https://prod-34-201-216-127.amperwave.net/goodkarma-kspnamaac-ibc?session-id=be44f60fab699211766d3816fe04367a"
    },
    {
     "url": "http://live.amperwave.net/direct/goodkarma-kspnamaac-ibc",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aacp http://34.201.216.127/goodkarma-kspnamaac-ibc?session-id=dc6a6e66ad87d5cd2a5c48adaf730d60"
+    "detail": "audio/aacp http://98.84.167.231/goodkarma-kspnamaac-ibc?session-id=f0bf6f004785edf69c7efeffb0ab9a8a"
    }
   ],
   "kept_from_before": false,
@@ -5262,19 +4859,19 @@
     "url": "https://stream.revma.ihrhls.com/zc2577",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2577?rj-org=n02b-e2&rj-ttl=5&rj-tok=AAABoYqMAaYAljJCePVn7fOzww"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2577?rj-org=n37b-e2&rj-ttl=5&rj-tok=AAABoYqQqOsA-H6swBK5vBGasQ"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc2577/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n1bb-e2.revma.ihrhls.com/zc2577/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqMAiYA05ysLSQomgNGyg"
+    "detail": "hls https://n1ab-e2.revma.ihrhls.com/zc2577/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqQqVQA7-kxz4oTUMj8gA"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc2577",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc2577?rj-org=n3db-e2&rj-ttl=5&rj-tok=AAABoYqMApgAhkX_-pr-gGxCDA"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc2577?rj-org=n02b-e2&rj-ttl=5&rj-tok=AAABoYqQqcwA08_Vb5Q9zAGYzg"
    }
   ],
   "kept_from_before": false,
@@ -5283,26 +4880,26 @@
  {
   "school": "University of Wisconsin-Madison",
   "calls": [
-   "WIBA"
+   "WIBA-AM"
   ],
   "ok": [
    {
     "url": "https://stream.revma.ihrhls.com/zc2661",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2661:alt?rj-org=n2db-e2&rj-ttl=5&rj-tok=AAABoYqMAIUAJjtQzOhiSGAyDg"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2661:alt?rj-org=n3db-e2&rj-ttl=5&rj-tok=AAABoYqQphMAwanM6KYz6wMwFA"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc2661/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n1bb-e2.revma.ihrhls.com/zc2661:alt/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqMAcEAnvbr0kmAaqmj3Q"
+    "detail": "hls https://n36b-e2.revma.ihrhls.com/zc2661:alt/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqQpykA4_2mwsGLY-PibQ"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc2661",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2661:alt?rj-org=n06b-e2&rj-ttl=5&rj-tok=AAABoYqMAsEA7f5bmBHj9pkAUg"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2661:alt?rj-org=n01b-e2&rj-ttl=5&rj-tok=AAABoYqQqAkApiK3N-K31GoMeQ"
    }
   ],
   "kept_from_before": false,
@@ -5325,7 +4922,7 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJMFFMAAC.aac",
     "source": "streamtheworld",
     "ok": true,
-    "detail": "audio/aac https://29321.live.streamtheworld.com:443/WJMFFMAAC.aac"
+    "detail": "audio/aac https://26303.live.streamtheworld.com:443/WJMFFMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -5446,19 +5043,19 @@
     "url": "https://stream.revma.ihrhls.com/zc5599",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc5599?rj-org=n14b-e2&rj-ttl=5&rj-tok=AAABoYqMAUYA6QtxG59JyOLtwQ"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc5599?rj-org=n23b-e2&rj-ttl=5&rj-tok=AAABoYqQqEMAx2PFF7Of5kh5KQ"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc5599/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n12b-e2.revma.ihrhls.com/zc5599/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqMAekAPDEWARjdsU4pKg"
+    "detail": "hls https://n32b-e2.revma.ihrhls.com/zc5599/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqQqLYAQjM9t0vPzhR5mw"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc5599",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc5599?rj-org=n29b-e2&rj-ttl=5&rj-tok=AAABoYqMAo0Ab5Azhuv9Qz5c0A"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc5599?rj-org=n03b-e2&rj-ttl=5&rj-tok=AAABoYqQqT0AfIrl7IRTRYDdTA"
    }
   ],
   "kept_from_before": false,
@@ -5698,19 +5295,19 @@
     "url": "https://stream.revma.ihrhls.com/zc2752",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2752?rj-org=n3cb-e2&rj-ttl=5&rj-tok=AAABoYqMDK0ABVHpOiS_ie6VBw"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2752?rj-org=n29b-e2&rj-ttl=5&rj-tok=AAABoYqQsfcAyItIBaQzARI0QQ"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc2752/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n17b-e2.revma.ihrhls.com/zc2752/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqMDSsAif2vu4R3I1LqVw"
+    "detail": "hls https://n2db-e2.revma.ihrhls.com/zc2752/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqQsnAAqPktJrELmfC3tQ"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc2752",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc2752?rj-org=n45b-e2&rj-ttl=5&rj-tok=AAABoYqMDdkAJ9hSkFNlDLP3CA"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc2752?rj-org=n45b-e2&rj-ttl=5&rj-tok=AAABoYqQss8AB7qulwp4ouyHWA"
    }
   ],
   "kept_from_before": false,
@@ -6138,13 +5735,13 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRCUFMAAC.aac",
     "source": "streamtheworld",
     "ok": true,
-    "detail": "audio/aac https://18503.live.streamtheworld.com:443/WRCUFMAAC.aac"
+    "detail": "audio/aac https://18103.live.streamtheworld.com:443/WRCUFMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRCUFM.mp3",
     "source": "streamtheworld",
     "ok": true,
-    "detail": "audio/mpeg https://26443.live.streamtheworld.com:443/WRCUFM.mp3"
+    "detail": "audio/mpeg https://26233.live.streamtheworld.com:443/WRCUFM.mp3"
    }
   ],
   "kept_from_before": false,
@@ -6308,13 +5905,13 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEEXAMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://18103.live.streamtheworld.com:443/WEEXAMAAC.aac"
+    "detail": "audio/aac https://26383.live.streamtheworld.com:443/WEEXAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEEXAMAAC.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://26383.live.streamtheworld.com:443/WEEXAMAAC/HLS/playlist.m3u8"
+    "detail": "hls https://18503.live.streamtheworld.com:443/WEEXAMAAC/HLS/playlist.m3u8"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/WEEXAMAAC.aac",
@@ -6343,19 +5940,19 @@
     "url": "https://stream.revma.ihrhls.com/zc3405",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc3405?rj-org=n11b-e2&rj-ttl=5&rj-tok=AAABoYqMBsMAoI6pQxRP8O7GVw"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc3405?rj-org=n11b-e2&rj-ttl=5&rj-tok=AAABoYqQsx0Ad2Hnv8aExBnUKA"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc3405/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n22b-e2.revma.ihrhls.com/zc3405/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqMB24A57wpTYqPEY1pXg"
+    "detail": "hls https://n22b-e2.revma.ihrhls.com/zc3405/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqQtEwARLdECBEWmwRp5w"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc3405",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc3405?rj-org=n11b-e2&rj-ttl=5&rj-tok=AAABoYqMCCEA_5gme33VbQtZpA"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc3405?rj-org=n02b-e2&rj-ttl=5&rj-tok=AAABoYqQtKoA21NL2Hlbk54ymg"
    }
   ],
   "kept_from_before": false,
@@ -6371,13 +5968,13 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WTYDFMAAC.aac",
     "source": "streamtheworld",
     "ok": true,
-    "detail": "audio/aac https://17563.live.streamtheworld.com:443/WTYDFMAAC.aac"
+    "detail": "audio/aac https://29319.live.streamtheworld.com:443/WTYDFMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WTYDFM.mp3",
     "source": "streamtheworld",
     "ok": true,
-    "detail": "audio/mpeg https://26283.live.streamtheworld.com:443/WTYDFM.mp3"
+    "detail": "audio/mpeg https://29306.live.streamtheworld.com:443/WTYDFM.mp3"
    }
   ],
   "kept_from_before": false,
@@ -6443,13 +6040,13 @@
     "url": "https://wkcr.streamguys1.com/live",
     "source": "radio-browser",
     "ok": true,
-    "detail": "audio/mpeg https://wkcr.streamguys1.com/live?_ic2=1793325196755"
+    "detail": "audio/mpeg https://wkcr.streamguys1.com/live?_ic2=1793325502957"
    },
    {
     "url": "http://wkcr.streamguys1.com/live",
     "source": "radio-browser",
     "ok": true,
-    "detail": "audio/mpeg http://wkcr.streamguys1.com/live?_ic2=1793325197206"
+    "detail": "audio/mpeg http://wkcr.streamguys1.com/live?_ic2=1793325503203"
    }
   ],
   "kept_from_before": false,
@@ -6619,19 +6216,19 @@
     "url": "https://stream.revma.ihrhls.com/zc453",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc453?rj-org=n36b-e2&rj-ttl=5&rj-tok=AAABoYqMDK0ABVHpOiS_ie6VBw"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc453?rj-org=n30b-e2&rj-ttl=5&rj-tok=AAABoYqQtJkArG4o3IK_y0711Q"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc453/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n02b-e2.revma.ihrhls.com/zc453/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqMDW8AbDrKMaBcU_OiAQ"
+    "detail": "hls https://n0db-e2.revma.ihrhls.com/zc453/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqQtQgABNgX5va6l80K4g"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc453",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc453?rj-org=n07b-e2&rj-ttl=5&rj-tok=AAABoYqMDhUA7HiqiB634tmU9g"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc453?rj-org=n36b-e2&rj-ttl=5&rj-tok=AAABoYqQtX0AXm65ANjbkjifUA"
    }
   ],
   "kept_from_before": false,
@@ -6661,19 +6258,19 @@
     "url": "https://stream.revma.ihrhls.com/zc2013",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2013?rj-org=n07b-e2&rj-ttl=5&rj-tok=AAABoYqMDtIAdF_hQxTT_0M_1A"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2013?rj-org=n07b-e2&rj-ttl=5&rj-tok=AAABoYqQtrIAS1u_LaugoqWJ6w"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc2013/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n10b-e2.revma.ihrhls.com/zc2013/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqMD1UA3I9FdNO4XlbBcQ"
+    "detail": "hls https://n10b-e2.revma.ihrhls.com/zc2013/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqQuAkAAfyacAkfll2lVQ"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc2013",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc2013?rj-org=n07b-e2&rj-ttl=5&rj-tok=AAABoYqMD9kA--CENQLsXSMQjA"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc2013?rj-org=n07b-e2&rj-ttl=5&rj-tok=AAABoYqQuJQAEaGq-NDkRxDy1w"
    }
   ],
   "kept_from_before": false,
@@ -6731,7 +6328,7 @@
     "url": "http://wjab.streamguys.net/live",
     "source": "radio-browser",
     "ok": true,
-    "detail": "audio/mpeg http://wjab.streamguys.net/live?_ic2=1793325200556"
+    "detail": "audio/mpeg http://wjab.streamguys.net/live?_ic2=1793325504403"
    }
   ],
   "kept_from_before": false,
@@ -7015,13 +6612,13 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WHBXFMAAC.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://26193.live.streamtheworld.com:443/WHBXFMAAC/HLS/playlist.m3u8"
+    "detail": "hls https://29313.live.streamtheworld.com:443/WHBXFMAAC/HLS/playlist.m3u8"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/WHBXFMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://18153.live.streamtheworld.com:80/WHBXFMAAC.aac"
+    "detail": "audio/aac http://26193.live.streamtheworld.com:80/WHBXFMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -7500,13 +7097,13 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNSBFMAAC.aac",
     "source": "streamtheworld",
     "ok": true,
-    "detail": "audio/aac https://26113.live.streamtheworld.com:443/WNSBFMAAC.aac"
+    "detail": "audio/aac https://26413.live.streamtheworld.com:443/WNSBFMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNSBFM.mp3",
     "source": "streamtheworld",
     "ok": true,
-    "detail": "audio/mpeg https://26353.live.streamtheworld.com:443/WNSBFM.mp3"
+    "detail": "audio/mpeg https://17803.live.streamtheworld.com:443/WNSBFM.mp3"
    }
   ],
   "kept_from_before": false,
@@ -7770,7 +7367,7 @@
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/WXSMAMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://18853.live.streamtheworld.com:80/WXSMAMAAC.aac"
+    "detail": "audio/aac http://29308.live.streamtheworld.com:80/WXSMAMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -7787,19 +7384,19 @@
     "url": "https://live.amperwave.net/manifest/audacy-wordamaac-hlsc.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://prod-3-89-238-41.amperwave.net/audacy-wordamaac-hlsc.m3u8"
+    "detail": "hls https://prod-54-174-185-17.amperwave.net/audacy-wordamaac-hlsc.m3u8"
    },
    {
     "url": "http://live.amperwave.net/manifest/audacy-wordamaac-hlsc.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://prod-3-89-238-41.amperwave.net/audacy-wordamaac-hlsc.m3u8"
+    "detail": "hls https://prod-98-80-186-99.amperwave.net/audacy-wordamaac-hlsc.m3u8"
    },
    {
     "url": "https://live.amperwave.net/manifest/audacy-wordamaac-imc",
     "source": "amperwave",
     "ok": true,
-    "detail": "audio/aacp https://prod-18-206-40-143.amperwave.net/audacy-wordamaac-imc"
+    "detail": "audio/aacp https://prod-18-213-193-109.amperwave.net/audacy-wordamaac-imc"
    }
   ],
   "kept_from_before": false,
@@ -8402,13 +7999,13 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KETRFMAAC.aac",
     "source": "streamtheworld",
     "ok": true,
-    "detail": "audio/aac https://18123.live.streamtheworld.com:443/KETRFMAAC.aac"
+    "detail": "audio/aac https://17793.live.streamtheworld.com:443/KETRFMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KETRFM.mp3",
     "source": "streamtheworld",
     "ok": true,
-    "detail": "audio/mpeg https://18323.live.streamtheworld.com:443/KETRFM.mp3"
+    "detail": "audio/mpeg https://26443.live.streamtheworld.com:443/KETRFM.mp3"
    }
   ],
   "kept_from_before": false,
@@ -8538,19 +8135,19 @@
     "url": "https://stream.revma.ihrhls.com/zc2197",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2197?rj-org=n43b-e2&rj-ttl=5&rj-tok=AAABoYqMJdMAkR8RlSVel-FPpQ"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2197?rj-org=n19b-e2&rj-ttl=5&rj-tok=AAABoYqQyKYAdEc4u6TrjF6y4w"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc2197/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n2db-e2.revma.ihrhls.com/zc2197/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqMJlEAb4AsEXd1dBQeCg"
+    "detail": "hls https://n41b-e2.revma.ihrhls.com/zc2197/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqQyRgAjvJnk37gDcKUPg"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc2197",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc2197?rj-org=n43b-e2&rj-ttl=5&rj-tok=AAABoYqMJvAAvwTTG-ILCMu-mw"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc2197?rj-org=n01b-e2&rj-ttl=5&rj-tok=AAABoYqQyYwARUDBQg7OUsYaTg"
    }
   ],
   "kept_from_before": false,
@@ -8843,7 +8440,7 @@
     "url": "https://live.amperwave.net/manifest/townsquare-ktbqfmaac-ibc3",
     "source": "amperwave",
     "ok": true,
-    "detail": "audio/aacp https://prod-54-158-223-248.amperwave.net/townsquare-ktbqfmaac-ibc3"
+    "detail": "audio/aacp https://prod-54-172-213-63.amperwave.net/townsquare-ktbqfmaac-ibc3"
    }
   ],
   "kept_from_before": false,
@@ -9625,7 +9222,7 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KSTPAMAAC.aac",
     "source": "streamtheworld",
     "ok": true,
-    "detail": "audio/aac https://18253.live.streamtheworld.com:443/KSTPAMAAC.aac"
+    "detail": "audio/aac https://15263.live.streamtheworld.com:443/KSTPAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KSTPAM.mp3",
@@ -9771,7 +9368,7 @@
     "url": "https://live.amperwave.net/manifest/townsquare-kgvoamaac-ibc3",
     "source": "amperwave",
     "ok": true,
-    "detail": "audio/aacp https://prod-54-166-183-83.amperwave.net/townsquare-kgvoamaac-ibc3"
+    "detail": "audio/aacp https://prod-3-231-216-177.amperwave.net/townsquare-kgvoamaac-ibc3"
    }
   ],
   "kept_from_before": false,
@@ -9880,13 +9477,13 @@
     "url": "https://live.amperwave.net/manifest/townsquare-kxlbfmaac-ibc3",
     "source": "amperwave",
     "ok": true,
-    "detail": "audio/aacp https://prod-3-231-216-177.amperwave.net/townsquare-kxlbfmaac-ibc3"
+    "detail": "audio/aacp https://prod-54-166-183-83.amperwave.net/townsquare-kxlbfmaac-ibc3"
    },
    {
     "url": "https://live.amperwave.net/manifest/townsquare-kmptamaac-ibc3",
     "source": "amperwave",
     "ok": true,
-    "detail": "audio/aacp https://prod-3-231-216-177.amperwave.net/townsquare-kmptamaac-ibc3"
+    "detail": "audio/aacp https://prod-54-166-183-83.amperwave.net/townsquare-kmptamaac-ibc3"
    }
   ],
   "kept_from_before": false,
@@ -9993,7 +9590,7 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KXLXAMAAC.aac",
     "source": "streamtheworld",
     "ok": true,
-    "detail": "audio/aac https://14623.live.streamtheworld.com:443/KXLXAMAAC.aac"
+    "detail": "audio/aac https://17643.live.streamtheworld.com:443/KXLXAMAAC.aac"
    },
    {
     "url": "http://17643.live.streamtheworld.com:3690/KXLXAMAAC_SC",
@@ -10333,7 +9930,7 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KDUSAM.mp3",
     "source": "streamtheworld",
     "ok": true,
-    "detail": "audio/mpeg https://17993.live.streamtheworld.com:443/KDUSAM.mp3"
+    "detail": "audio/mpeg https://18543.live.streamtheworld.com:443/KDUSAM.mp3"
    }
   ],
   "kept_from_before": false,
@@ -10703,7 +10300,7 @@
     "url": "https://live.amperwave.net/manifest/townsquare-ksubamaac-ibc3",
     "source": "amperwave",
     "ok": true,
-    "detail": "audio/aacp https://prod-98-86-150-170.amperwave.net/townsquare-ksubamaac-ibc3"
+    "detail": "audio/aacp https://prod-52-91-27-46.amperwave.net/townsquare-ksubamaac-ibc3"
    }
   ],
   "kept_from_before": false,
@@ -10775,7 +10372,7 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJBCAMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://26433.live.streamtheworld.com:443/WJBCAMAAC.aac"
+    "detail": "audio/aac https://17573.live.streamtheworld.com:443/WJBCAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJBCAMAAC.m3u8",
@@ -10787,7 +10384,7 @@
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/WJBCAMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://26433.live.streamtheworld.com:80/WJBCAMAAC.aac"
+    "detail": "audio/aac http://17573.live.streamtheworld.com:80/WJBCAMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -10931,19 +10528,19 @@
     "url": "https://stream.revma.ihrhls.com/zc1681",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1681?rj-org=n11b-e2&rj-ttl=5&rj-tok=AAABoYqMRTAA1AXAc9F4h7pmeg"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1681?rj-org=n02b-e2&rj-ttl=5&rj-tok=AAABoYqQ5HMAlU1o2VKPHASSrQ"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc1681/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n3bb-e2.revma.ihrhls.com/zc1681/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqMRakAz_bNaWDjOZgCuw"
+    "detail": "hls https://n0db-e2.revma.ihrhls.com/zc1681/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqQ5OEAvVRpeslWP3KNTQ"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc1681",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc1681?rj-org=n11b-e2&rj-ttl=5&rj-tok=AAABoYqMRiIA-d67gcV11setGw"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc1681?rj-org=n20b-e2&rj-ttl=5&rj-tok=AAABoYqQ5TsASzUf32OpCoVb1Q"
    }
   ],
   "kept_from_before": false,
@@ -11236,19 +10833,19 @@
     "url": "https://stream.revma.ihrhls.com/zc1869",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1869?rj-org=n15b-e2&rj-ttl=5&rj-tok=AAABoYqMSl8A_5SPQcIK32YNIQ"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1869?rj-org=n39b-e2&rj-ttl=5&rj-tok=AAABoYqQ5PkAOoojKlKUq0HfGw"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc1869/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n44b-e2.revma.ihrhls.com/zc1869/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqMStMArwPeJFlL4tRtKg"
+    "detail": "hls https://n32b-e2.revma.ihrhls.com/zc1869/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqQ5WUAm_w62PJqVn97Ww"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc1869",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc1869?rj-org=n15b-e2&rj-ttl=5&rj-tok=AAABoYqMS5UAIDaYUK5TTpyt0A"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc1869?rj-org=n01b-e2&rj-ttl=5&rj-tok=AAABoYqQ5cYAehJvsFchsHfrSA"
    }
   ],
   "kept_from_before": false,
@@ -11264,19 +10861,19 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KHXSFMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://14093.live.streamtheworld.com:443/KHXSFMAAC.aac"
+    "detail": "audio/aac https://18373.live.streamtheworld.com:443/KHXSFMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KHXSFMAAC.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://18233.live.streamtheworld.com:443/KHXSFMAAC/HLS/playlist.m3u8"
+    "detail": "hls https://18373.live.streamtheworld.com:443/KHXSFMAAC/HLS/playlist.m3u8"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KHXSFMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://14093.live.streamtheworld.com:80/KHXSFMAAC.aac"
+    "detail": "audio/aac http://15263.live.streamtheworld.com:80/KHXSFMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -11434,13 +11031,13 @@
     "url": "https://kxtr.streamguys1.com/live2-aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://kxtr.streamguys1.com/live2-aac?_ic2=1793325213441"
+    "detail": "audio/aac https://kxtr.streamguys1.com/live2-aac?_ic2=1793325515420"
    },
    {
     "url": "http://kxtr.streamguys1.com/live2-aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://kxtr.streamguys1.com/live2-aac?_ic2=1793325213757"
+    "detail": "audio/aac http://kxtr.streamguys1.com/live2-aac?_ic2=1793325515719"
    }
   ],
   "kept_from_before": false,
@@ -11526,19 +11123,19 @@
     "url": "https://stream.revma.ihrhls.com/zc3520",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc3520?rj-org=n33b-e2&rj-ttl=5&rj-tok=AAABoYqMVsYATJHkWCxOe1e65w"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc3520?rj-org=n14b-e2&rj-ttl=5&rj-tok=AAABoYqQ7VIAEV-oS5zVw-TwFA"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc3520/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n17b-e2.revma.ihrhls.com/zc3520/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqMV28ARJdz-h4twNRX7A"
+    "detail": "hls https://n38b-e2.revma.ihrhls.com/zc3520/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqQ7bwAbxt1Pfm0_zie1Q"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc3520",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc3520?rj-org=n28b-e2&rj-ttl=5&rj-tok=AAABoYqMWAgAJHsYsBG_fcpwDQ"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc3520?rj-org=n33b-e2&rj-ttl=5&rj-tok=AAABoYqQ7hwAOAQ1fkOpHRo64w"
    }
   ],
   "kept_from_before": false,
@@ -11769,29 +11366,11 @@
  {
   "school": "Central Michigan University",
   "calls": [
-   "WUPS"
+   "WUPS-FM"
   ],
   "ok": [],
   "kept_from_before": false,
   "failed": [
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WUPSAMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WUPSAM.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WUPS_AMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WUPSFMAAC.aac",
     "source": "streamtheworld",
@@ -11811,55 +11390,37 @@
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WUPSAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WUPS.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/audacy-wupsamaac-imc",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/direct/audacy-wupsamaac-imc",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-wupsamaac-ibc1",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-wupsamaac-ibc2",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-wupsamaac-ibc3",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-wupsamaac-ibc4",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
     "url": "https://live.amperwave.net/manifest/audacy-wupsfmaac-imc",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/direct/audacy-wupsfmaac-imc",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-wupsfmaac-ibc1",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-wupsfmaac-ibc2",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-wupsfmaac-ibc3",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-wupsfmaac-ibc4",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
@@ -11876,19 +11437,19 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEMUFM.mp3",
     "source": "given",
     "ok": true,
-    "detail": "audio/mpeg https://15313.live.streamtheworld.com:443/WEMUFM.mp3"
+    "detail": "audio/mpeg https://26443.live.streamtheworld.com:443/WEMUFM.mp3"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/WEMUFM.mp3",
     "source": "given",
     "ok": true,
-    "detail": "audio/mpeg http://26233.live.streamtheworld.com:80/WEMUFM.mp3"
+    "detail": "audio/mpeg http://18123.live.streamtheworld.com:80/WEMUFM.mp3"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEMUFMAAC.aac",
     "source": "streamtheworld",
     "ok": true,
-    "detail": "audio/aac https://26273.live.streamtheworld.com:443/WEMUFMAAC.aac"
+    "detail": "audio/aac https://26233.live.streamtheworld.com:443/WEMUFMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -11923,19 +11484,19 @@
     "url": "https://stream.revma.ihrhls.com/zc3455",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc3455?rj-org=n2cb-e2&rj-ttl=5&rj-tok=AAABoYqMU4cAQeB7p6tntK7LsQ"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc3455?rj-org=n2cb-e2&rj-ttl=5&rj-tok=AAABoYqQ678A_k_Hf0KfdgTwbw"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc3455/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n20b-e2.revma.ihrhls.com/zc3455/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqMVBYABCK5shAutIvbGA"
+    "detail": "hls https://n04b-e2.revma.ihrhls.com/zc3455/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqQ7LQAQkjPeFCP3gpEjQ"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc3455",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc3455?rj-org=n2cb-e2&rj-ttl=5&rj-tok=AAABoYqMVIwAPwf3wZL_yfiVdg"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc3455?rj-org=n2cb-e2&rj-ttl=5&rj-tok=AAABoYqQ7VEAgRPE0otKZ5uJfw"
    }
   ],
   "kept_from_before": false,
@@ -12093,19 +11654,19 @@
     "url": "https://stream.revma.ihrhls.com/zc1857",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1857:alt?rj-org=n21b-e2&rj-ttl=5&rj-tok=AAABoYqMVogAV_K5zJVxEKs8uA"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1857:alt?rj-org=n44b-e2&rj-ttl=5&rj-tok=AAABoYqQ7oEAaqT-REZvdRxsBg"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc1857/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n1db-e2.revma.ihrhls.com/zc1857:alt/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqMV9QAPTWfEL4z212YiQ"
+    "detail": "hls https://n04b-e2.revma.ihrhls.com/zc1857:alt/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqQ72YAo2YgmlLjp9cUjg"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc1857",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1857:alt?rj-org=n3eb-e2&rj-ttl=5&rj-tok=AAABoYqMWPoAPzxotLQ-U_3t0A"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1857:alt?rj-org=n3eb-e2&rj-ttl=5&rj-tok=AAABoYqQ8C4ALfOcSgRBkRLD_Q"
    }
   ],
   "kept_from_before": false,
@@ -12127,7 +11688,7 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WVFMFM.mp3",
     "source": "streamtheworld",
     "ok": true,
-    "detail": "audio/mpeg https://18853.live.streamtheworld.com:443/WVFMFM.mp3"
+    "detail": "audio/mpeg https://15313.live.streamtheworld.com:443/WVFMFM.mp3"
    },
    {
     "url": "http://18493.live.streamtheworld.com/WVFMFMAAC_SC",
@@ -12256,19 +11817,19 @@
     "url": "https://live.amperwave.net/direct/audacy-kifmamaac-imc",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aacp https://prod-23-20-67-51.amperwave.net/audacy-kifmamaac-imc?session-id=eebe6059025fb9e9177c74b926fb9798"
+    "detail": "audio/aacp https://prod-44-202-70-162.amperwave.net/audacy-kifmamaac-imc?session-id=d1a8fc36750d2362eb1145ea873125f9"
    },
    {
     "url": "http://live.amperwave.net/direct/audacy-kifmamaac-imc",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aacp http://23.20.67.51/audacy-kifmamaac-imc?session-id=68d482a10f464c4ce1ba06e7c8e0ad9e"
+    "detail": "audio/aacp http://13.217.163.234/audacy-kifmamaac-imc?session-id=f983e958e1c448ec036e68157127212f"
    },
    {
     "url": "https://live.amperwave.net/manifest/audacy-kifmamaac-imc",
     "source": "amperwave",
     "ok": true,
-    "detail": "audio/aacp https://prod-44-202-70-162.amperwave.net/audacy-kifmamaac-imc"
+    "detail": "audio/aacp https://prod-23-20-67-51.amperwave.net/audacy-kifmamaac-imc"
    }
   ],
   "kept_from_before": false,
@@ -12304,19 +11865,19 @@
     "url": "https://stream.revma.ihrhls.com/zc461",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc461?rj-org=n10b-e2&rj-ttl=5&rj-tok=AAABoYqMYV8A-lQVFQBrpRp6XA"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc461?rj-org=n12b-e2&rj-ttl=5&rj-tok=AAABoYqQ9dYADNoU7smNPwKgWA"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc461/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n31b-e2.revma.ihrhls.com/zc461/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqMYfEAAmmX5mZhJMKHYg"
+    "detail": "hls https://n2fb-e2.revma.ihrhls.com/zc461/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqQ9kMA5C-Rm2s3KtJaXQ"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc461",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc461?rj-org=n12b-e2&rj-ttl=5&rj-tok=AAABoYqMYpIAYK9hiQHdvVbfFA"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc461?rj-org=n3fb-e2&rj-ttl=5&rj-tok=AAABoYqQ9tsABGnhr_5dh_6d7w"
    }
   ],
   "kept_from_before": false,
@@ -12339,7 +11900,7 @@
     "url": "http://s8.yesstreaming.net:7014/stream",
     "source": "given",
     "ok": true,
-    "detail": "audio/mpeg http://s8.yesstreaming.net:7014/stream?_ic2=1793325217365"
+    "detail": "audio/mpeg http://s8.yesstreaming.net:7014/stream?_ic2=1793325517469"
    }
   ],
   "kept_from_before": false,
@@ -12452,10 +12013,67 @@
  },
  {
   "school": "Liberty University",
-  "calls": [],
+  "calls": [
+   "WRVL-FM"
+  ],
   "ok": [],
   "kept_from_before": false,
-  "failed": []
+  "failed": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRVLFMAAC.aac",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRVLFM.mp3",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRVL_FMAAC.aac",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/audacy-wrvlfmaac-imc",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/direct/audacy-wrvlfmaac-imc",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-wrvlfmaac-ibc1",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-wrvlfmaac-ibc2",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-wrvlfmaac-ibc3",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-wrvlfmaac-ibc4",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   }
+  ]
  },
  {
   "school": "Middle Tennessee State University",
@@ -12888,13 +12506,13 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAMAAC.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://24153.live.streamtheworld.com:443/KBOIAMAAC/HLS/playlist.m3u8"
+    "detail": "hls https://27163.live.streamtheworld.com:443/KBOIAMAAC/HLS/playlist.m3u8"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://24153.live.streamtheworld.com:80/KBOIAMAAC.aac"
+    "detail": "audio/aac http://27163.live.streamtheworld.com:80/KBOIAMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -13045,19 +12663,19 @@
     "url": "https://stream.revma.ihrhls.com/zc1949",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1949?rj-org=n12b-e2&rj-ttl=5&rj-tok=AAABoYqMZyEA7KV96tdh2e1OCA"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc1949?rj-org=n3cb-e2&rj-ttl=5&rj-tok=AAABoYqQ-HMAhf02X7L4X5t_3g"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc1949/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n2bb-e2.revma.ihrhls.com/zc1949/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqMZ7EAEmQFwAc2i_BCjQ"
+    "detail": "hls https://n2cb-e2.revma.ihrhls.com/zc1949/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqQ-PYASDmBfh2q0PU46w"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc1949",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc1949?rj-org=n12b-e2&rj-ttl=5&rj-tok=AAABoYqMaFsAhbWzx2L2DZvnVg"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc1949?rj-org=n0eb-e2&rj-ttl=5&rj-tok=AAABoYqQ-U4Aaed5NYeHNAF-sQ"
    }
   ],
   "kept_from_before": false,
@@ -13073,19 +12691,19 @@
     "url": "https://stream.revma.ihrhls.com/zc8528",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc8528?rj-org=n33b-e2&rj-ttl=5&rj-tok=AAABoYqMZ_gAtnIjp8o331PNuw"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc8528?rj-org=n26b-e2&rj-ttl=5&rj-tok=AAABoYqQ-YEAIku9zXoXYQ6r5A"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc8528/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n33b-e2.revma.ihrhls.com/zc8528/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqMaI8A6lqCElzrHPxCeQ"
+    "detail": "hls https://n25b-e2.revma.ihrhls.com/zc8528/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqQ-esA18EX1rXSJLJNLw"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc8528",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc8528?rj-org=n40b-e2&rj-ttl=5&rj-tok=AAABoYqMaQoA3e3WyA0vD1fDKA"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc8528?rj-org=n33b-e2&rj-ttl=5&rj-tok=AAABoYqQ-kYAyJ7FAky8th0-aQ"
    }
   ],
   "kept_from_before": false,
@@ -13194,104 +12812,68 @@
  {
   "school": "Utah State University",
   "calls": [
-   "KVNU"
+   "KZNS-AM"
   ],
   "ok": [
    {
-    "url": "https://ice9.securenetsystems.net/KVNU",
-    "source": "securenet",
+    "url": "https://bonneville.cdnstream1.com/2706_48.aac",
+    "source": "radio-browser",
     "ok": true,
-    "detail": "audio/aac https://ice9.securenetsystems.net/KVNU"
+    "detail": "audio/aacp https://bonneville.cdnstream1.com/2706_48.aac"
    }
   ],
   "kept_from_before": false,
   "failed": [
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVNUAMAAC.aac",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KZNSAMAAC.aac",
     "source": "streamtheworld",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVNUAM.mp3",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KZNSAM.mp3",
     "source": "streamtheworld",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVNU_AMAAC.aac",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KZNS_AMAAC.aac",
     "source": "streamtheworld",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVNUFMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVNUFM.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVNU_FMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVNUAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVNU.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/audacy-kvnuamaac-imc",
+    "url": "https://live.amperwave.net/manifest/audacy-kznsamaac-imc",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/direct/audacy-kvnuamaac-imc",
+    "url": "https://live.amperwave.net/direct/audacy-kznsamaac-imc",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-kvnuamaac-ibc1",
+    "url": "https://live.amperwave.net/manifest/townsquare-kznsamaac-ibc1",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-kvnuamaac-ibc2",
+    "url": "https://live.amperwave.net/manifest/townsquare-kznsamaac-ibc2",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-kvnuamaac-ibc3",
+    "url": "https://live.amperwave.net/manifest/townsquare-kznsamaac-ibc3",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-kvnuamaac-ibc4",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/audacy-kvnufmaac-imc",
+    "url": "https://live.amperwave.net/manifest/townsquare-kznsamaac-ibc4",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
@@ -13336,19 +12918,19 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVORAMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://17993.live.streamtheworld.com:443/KVORAMAAC.aac"
+    "detail": "audio/aac https://23263.live.streamtheworld.com:443/KVORAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVORAMAAC.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://17653.live.streamtheworld.com:443/KVORAMAAC/HLS/playlist.m3u8"
+    "detail": "hls https://14613.live.streamtheworld.com:443/KVORAMAAC/HLS/playlist.m3u8"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KVORAMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://23263.live.streamtheworld.com:80/KVORAMAAC.aac"
+    "detail": "audio/aac http://18233.live.streamtheworld.com:80/KVORAMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -13485,14 +13067,15 @@
  {
   "school": "University of New Mexico",
   "calls": [
-   "KKOB"
+   "KKOB-AM",
+   "KKOB-FM"
   ],
   "ok": [
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKOBAMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://18253.live.streamtheworld.com:443/KKOBAMAAC.aac"
+    "detail": "audio/aac https://15263.live.streamtheworld.com:443/KKOBAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKOBAMAAC.m3u8",
@@ -13504,7 +13087,7 @@
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KKOBAMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://18253.live.streamtheworld.com:80/KKOBAMAAC.aac"
+    "detail": "audio/aac http://14943.live.streamtheworld.com:80/KKOBAMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -13628,13 +13211,13 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDKBFMAAC.aac",
     "source": "streamtheworld",
     "ok": true,
-    "detail": "audio/aac https://18063.live.streamtheworld.com:443/WDKBFMAAC.aac"
+    "detail": "audio/aac https://17563.live.streamtheworld.com:443/WDKBFMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDKBFM.mp3",
     "source": "streamtheworld",
     "ok": true,
-    "detail": "audio/mpeg https://26143.live.streamtheworld.com:443/WDKBFM.mp3"
+    "detail": "audio/mpeg https://19263.live.streamtheworld.com:443/WDKBFM.mp3"
    }
   ],
   "kept_from_before": false,
@@ -13699,13 +13282,13 @@
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KTRBAMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://13743.live.streamtheworld.com:80/KTRBAMAAC.aac"
+    "detail": "audio/aac http://14553.live.streamtheworld.com:80/KTRBAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTRBAM.mp3",
     "source": "streamtheworld",
     "ok": true,
-    "detail": "audio/mpeg https://17853.live.streamtheworld.com:443/KTRBAM.mp3"
+    "detail": "audio/mpeg https://18433.live.streamtheworld.com:443/KTRBAM.mp3"
    }
   ],
   "kept_from_before": false,
@@ -13714,14 +13297,14 @@
  {
   "school": "University of Nevada, Las Vegas",
   "calls": [
-   "KWWN"
+   "KWWN-AM"
   ],
   "ok": [
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://17653.live.streamtheworld.com:443/KWWNAMAAC.aac"
+    "detail": "audio/aac https://18533.live.streamtheworld.com:443/KWWNAMAAC.aac"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAMAAC.aac",
@@ -13733,7 +13316,7 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAM.mp3",
     "source": "streamtheworld",
     "ok": true,
-    "detail": "audio/mpeg https://15263.live.streamtheworld.com:443/KWWNAM.mp3"
+    "detail": "audio/mpeg https://14943.live.streamtheworld.com:443/KWWNAM.mp3"
    }
   ],
   "kept_from_before": false,
@@ -13742,104 +13325,74 @@
  {
   "school": "University of Texas at El Paso",
   "calls": [
-   "KROD"
+   "KLAQ-FM"
   ],
   "ok": [
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-krodamaac-ibc3",
+    "url": "https://live.amperwave.net/manifest/townsquare-klaqfmaac-ibc3",
     "source": "amperwave",
     "ok": true,
-    "detail": "audio/aacp https://prod-54-158-223-248.amperwave.net/townsquare-krodamaac-ibc3"
+    "detail": "audio/aacp https://prod-54-172-213-63.amperwave.net/townsquare-klaqfmaac-ibc3"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-klaqfmaac-hlsc3.m3u8",
+    "source": "radio-browser",
+    "ok": true,
+    "detail": "hls https://prod-3-89-124-117.amperwave.net/townsquare-klaqfmaac-hlsc3.m3u8"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-klaqhd2fmaac-hlsc3.m3u8",
+    "source": "radio-browser",
+    "ok": true,
+    "detail": "hls https://prod-52-55-242-202.amperwave.net/townsquare-klaqhd2fmaac-hlsc3.m3u8"
    }
   ],
   "kept_from_before": false,
   "failed": [
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KRODAMAAC.aac",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KLAQFMAAC.aac",
     "source": "streamtheworld",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KRODAM.mp3",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KLAQFM.mp3",
     "source": "streamtheworld",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KROD_AMAAC.aac",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KLAQ_FMAAC.aac",
     "source": "streamtheworld",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KRODFMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KRODFM.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KROD_FMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KRODAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KROD.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/audacy-krodamaac-imc",
+    "url": "https://live.amperwave.net/manifest/audacy-klaqfmaac-imc",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/direct/audacy-krodamaac-imc",
+    "url": "https://live.amperwave.net/direct/audacy-klaqfmaac-imc",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-krodamaac-ibc1",
+    "url": "https://live.amperwave.net/manifest/townsquare-klaqfmaac-ibc1",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-krodamaac-ibc2",
+    "url": "https://live.amperwave.net/manifest/townsquare-klaqfmaac-ibc2",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-krodamaac-ibc4",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/audacy-krodfmaac-imc",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/direct/audacy-krodfmaac-imc",
+    "url": "https://live.amperwave.net/manifest/townsquare-klaqfmaac-ibc4",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
@@ -13849,16 +13402,9 @@
  {
   "school": "University of Wyoming",
   "calls": [
-   "KTWO",
-   "KOWB"
+   "KOWB-AM"
   ],
   "ok": [
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-ktwoamaac-ibc3",
-    "source": "amperwave",
-    "ok": true,
-    "detail": "audio/aacp https://prod-3-231-216-177.amperwave.net/townsquare-ktwoamaac-ibc3"
-   },
    {
     "url": "https://live.amperwave.net/manifest/townsquare-kowbamaac-ibc3",
     "source": "amperwave",
@@ -13869,91 +13415,49 @@
   "kept_from_before": false,
   "failed": [
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTWOAMAAC.aac",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KOWBAMAAC.aac",
     "source": "streamtheworld",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTWOAM.mp3",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KOWBAM.mp3",
     "source": "streamtheworld",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTWO_AMAAC.aac",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KOWB_AMAAC.aac",
     "source": "streamtheworld",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTWOFMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTWOFM.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTWO_FMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTWOAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTWO.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/audacy-ktwoamaac-imc",
+    "url": "https://live.amperwave.net/manifest/audacy-kowbamaac-imc",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/direct/audacy-ktwoamaac-imc",
+    "url": "https://live.amperwave.net/direct/audacy-kowbamaac-imc",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-ktwoamaac-ibc1",
+    "url": "https://live.amperwave.net/manifest/townsquare-kowbamaac-ibc1",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-ktwoamaac-ibc2",
+    "url": "https://live.amperwave.net/manifest/townsquare-kowbamaac-ibc2",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://live.amperwave.net/manifest/townsquare-ktwoamaac-ibc4",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/audacy-ktwofmaac-imc",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/direct/audacy-ktwofmaac-imc",
+    "url": "https://live.amperwave.net/manifest/townsquare-kowbamaac-ibc4",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
@@ -13971,19 +13475,19 @@
     "url": "https://stream.rcs.revma.com/fyk48ahxu7uvv",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://n04-us2.rcs.revma.com/fyk48ahxu7uvv?rj-ttl=5&rj-tok=AAABoYqMgl0AvECkPnbHN09vbA"
+    "detail": "audio/aac https://n01-us1.rcs.revma.com/fyk48ahxu7uvv?rj-ttl=5&rj-tok=AAABoYqRBZIArVB_PYKnP67yxA"
    },
    {
     "url": "https://stream.rcs.revma.com/fyk48ahxu7uvv/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n02-us2.rcs.revma.com/fyk48ahxu7uvv/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqMg_QA6LrxTunrKLBAwg"
+    "detail": "hls https://n02-us1.rcs.revma.com/fyk48ahxu7uvv/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqRCG4AnXpvurTGabfgTw"
    },
    {
     "url": "http://stream.rcs.revma.com/fyk48ahxu7uvv",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://n02-us2.rcs.revma.com/fyk48ahxu7uvv?rj-ttl=5&rj-tok=AAABoYqMhO4AU3Cq6urgp3K9-Q"
+    "detail": "audio/aac http://n03-us1.rcs.revma.com/fyk48ahxu7uvv?rj-ttl=5&rj-tok=AAABoYqRCl0AyeV1hcr34bMMZw"
    }
   ],
   "kept_from_before": false,
@@ -14000,13 +13504,13 @@
     "url": "https://oom-signalmedia.streamguys1.com/signalmedia/kabz-aac?aw_0_req.gdpr=true",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://oom-signalmedia.streamguys1.com/signalmedia/kabz-aac?aw_0_req.gdpr=true&_ic2=1793325226937"
+    "detail": "audio/aac http://oom-signalmedia.streamguys1.com/signalmedia/kabz-aac?aw_0_req.gdpr=true&_ic2=1793325523143"
    },
    {
     "url": "http://oom-signalmedia.streamguys1.com/signalmedia/kabz-aac?aw_0_req.gdpr=true",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://oom-signalmedia.streamguys1.com/signalmedia/kabz-aac?aw_0_req.gdpr=true&_ic2=1793325227861"
+    "detail": "audio/aac http://oom-signalmedia.streamguys1.com/signalmedia/kabz-aac?aw_0_req.gdpr=true&_ic2=1793325525760"
    }
   ],
   "kept_from_before": false,
@@ -14241,7 +13745,8 @@
  {
   "school": "University of Georgia",
   "calls": [
-   "WSB"
+   "WSB-AM",
+   "WSBB-FM"
   ],
   "ok": [
    {
@@ -14257,14 +13762,99 @@
     "detail": "hls http://ad-oom-cmg.streamguys1.com/atl750/atl750-encoder.aac/playlist.m3u8?aw_0_1st.playerId=cmg_iheart"
    },
    {
-    "url": "https://cmg.streamguys1.com/atl985/atl985-encoder.aac/playlist.m3u8?aw_0_1st.playerId=cmg_iheart",
-    "source": "iheart",
+    "url": "https://dts.podtrac.com/redirect.mp3/od-cmg.streamguys1.com/atlanta/atl750/20261028080936_629799-promosforthurs10-29.wav?awCollectionId=atl750-16&awGenre=News&awEpisodeId=d35b2a30-d2d0-11f1-ae7f-0d1592a683ef",
+    "source": "website",
     "ok": true,
-    "detail": "hls https://ad-oom-cmg.streamguys1.com/atl985/atl985-encoder.aac/playlist.m3u8?aw_0_1st.playerId=cmg_iheart"
+    "detail": "application/octet-stream https://od-cmg.streamguys1.com/atlanta/atl750/20261028080936_629799-promosforthurs10-29.wav?awCollectionId=atl750-16&awGenre=News&awEpisodeId=d35b2a30-d2d0-11f1-ae7f-0d1592a683ef"
    }
   ],
   "kept_from_before": false,
-  "failed": []
+  "failed": [
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSBAMAAC.aac",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSBAM.mp3",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSB_AMAAC.aac",
+    "source": "streamtheworld",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://www.wsbradio.com/homepage",
+    "source": "website",
+    "ok": false,
+    "detail": "not audio (text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://www.wsbradio.com/resizer/_wglPira4yltTNLCSbmfhPQal7M=/arc-anglerfish-arc2-prod-cmg/public/W2TLZM5UKVHE3GH37MPPI76TS4.jpeg",
+    "source": "website",
+    "ok": false,
+    "detail": "not audio (image/jpeg)"
+   },
+   {
+    "url": "https://www.wsbradio.com/fp/come-back-everyday-new-word/",
+    "source": "website",
+    "ok": false,
+    "detail": "not audio (text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://membercenter.wsbradio.com/newsletters",
+    "source": "website",
+    "ok": false,
+    "detail": "not audio (text/html)"
+   },
+   {
+    "url": "https://www.wsbradio.com/on-air/green-and-growing-content/",
+    "source": "website",
+    "ok": false,
+    "detail": "not audio (text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://www.wsbradio.com/homefixitshowmore/",
+    "source": "website",
+    "ok": false,
+    "detail": "not audio (text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://www.wsbradio.com/dog/",
+    "source": "website",
+    "ok": false,
+    "detail": "not audio (text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://www.wsbradio.com/fp/download-wsb-radio-or-triple-team-traffic-app/",
+    "source": "website",
+    "ok": false,
+    "detail": "not audio (text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://www.wsbradio.com/fp/fcc-applications/",
+    "source": "website",
+    "ok": false,
+    "detail": "not audio (text/html; charset=utf-8)"
+   },
+   {
+    "url": "https://rss-cmg.streamguys1.com/atlanta/atl750/wsb-on-demand-audio.xml",
+    "source": "website",
+    "ok": false,
+    "detail": "not audio (text/xml)"
+   },
+   {
+    "url": "http://www.wsbradio.com",
+    "source": "website",
+    "ok": false,
+    "detail": "not audio (text/html; charset=utf-8)"
+   }
+  ]
  },
  {
   "school": "University of Kentucky",
@@ -14277,19 +13867,19 @@
     "url": "https://stream.revma.ihrhls.com/zc965",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc965?rj-org=n41b-e2&rj-ttl=5&rj-tok=AAABoYqMgQgAJnnz4RnUwr311g"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc965?rj-org=n42b-e2&rj-ttl=5&rj-tok=AAABoYqRCmYAYj-ccIeJ_7fL7Q"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc965/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n40b-e2.revma.ihrhls.com/zc965/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqMgikA-PObSRruPf21vQ"
+    "detail": "hls https://n16b-e2.revma.ihrhls.com/zc965/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqRC2UArxXMWVxE5xXpkA"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc965",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc965?rj-org=n23b-e2&rj-ttl=5&rj-tok=AAABoYqMguoAha6GTbDV5T68dA"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc965?rj-org=n42b-e2&rj-ttl=5&rj-tok=AAABoYqRC8EAreYNawn7zjXGPA"
    }
   ],
   "kept_from_before": false,
@@ -14298,42 +13888,24 @@
  {
   "school": "Louisiana State University",
   "calls": [
-   "WDGL"
+   "WDGL-FM"
   ],
   "ok": [
    {
     "url": "https://live.amperwave.net/direct/guaranty-wdglfmaac-ibc1",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aacp https://prod-54-158-170-239.amperwave.net/guaranty-wdglfmaac-ibc1?session-id=ce07d780249ec4f5f6ea418b8cc6fc09"
+    "detail": "audio/aacp https://prod-44-201-65-65.amperwave.net/guaranty-wdglfmaac-ibc1?session-id=d7a35bc4050f17f136ce32d9c4a15e83"
    },
    {
     "url": "http://live.amperwave.net/direct/guaranty-wdglfmaac-ibc1",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aacp http://54.158.170.239/guaranty-wdglfmaac-ibc1?session-id=b594257ccf05c5c757f77b91e05120fe"
+    "detail": "audio/aacp http://44.201.65.65/guaranty-wdglfmaac-ibc1?session-id=aa02d246fd479d88a6a1890e62758bf1"
    }
   ],
   "kept_from_before": false,
   "failed": [
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDGLAMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDGLAM.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDGL_AMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDGLFMAAC.aac",
     "source": "streamtheworld",
@@ -14353,55 +13925,37 @@
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDGLAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WDGL.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/audacy-wdglamaac-imc",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/direct/audacy-wdglamaac-imc",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-wdglamaac-ibc1",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-wdglamaac-ibc2",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-wdglamaac-ibc3",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-wdglamaac-ibc4",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
     "url": "https://live.amperwave.net/manifest/audacy-wdglfmaac-imc",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/direct/audacy-wdglfmaac-imc",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-wdglfmaac-ibc1",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-wdglfmaac-ibc2",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-wdglfmaac-ibc3",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-wdglfmaac-ibc4",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"
@@ -14553,19 +14107,19 @@
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WWLSAMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://17563.live.streamtheworld.com:443/WWLSAMAAC.aac"
+    "detail": "audio/aac https://26353.live.streamtheworld.com:443/WWLSAMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WWLSAMAAC.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://17563.live.streamtheworld.com:443/WWLSAMAAC/HLS/playlist.m3u8"
+    "detail": "hls https://17573.live.streamtheworld.com:443/WWLSAMAAC/HLS/playlist.m3u8"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/WWLSAMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://29319.live.streamtheworld.com:80/WWLSAMAAC.aac"
+    "detail": "audio/aac http://17563.live.streamtheworld.com:80/WWLSAMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -14574,14 +14128,14 @@
  {
   "school": "University of South Carolina",
   "calls": [
-   "WNKT"
+   "WNKT-FM"
   ],
   "ok": [
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNKTFMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://18853.live.streamtheworld.com:443/WNKTFMAAC.aac"
+    "detail": "audio/aac https://15313.live.streamtheworld.com:443/WNKTFMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNKTFMAAC.m3u8",
@@ -14593,7 +14147,7 @@
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/WNKTFMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://29308.live.streamtheworld.com:80/WNKTFMAAC.aac"
+    "detail": "audio/aac http://15313.live.streamtheworld.com:80/WNKTFMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -14602,27 +14156,27 @@
  {
   "school": "University of Tennessee",
   "calls": [
-   "WIVK",
-   "WNML"
+   "WIVK-FM",
+   "WNML-FM"
   ],
   "ok": [
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WIVKFMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://26423.live.streamtheworld.com:443/WIVKFMAAC.aac"
+    "detail": "audio/aac https://18163.live.streamtheworld.com:443/WIVKFMAAC.aac"
    },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WIVKFMAAC.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://29312.live.streamtheworld.com:443/WIVKFMAAC/HLS/playlist.m3u8"
+    "detail": "hls https://17553.live.streamtheworld.com:443/WIVKFMAAC/HLS/playlist.m3u8"
    },
    {
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/WIVKFMAAC.aac",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://26223.live.streamtheworld.com:80/WIVKFMAAC.aac"
+    "detail": "audio/aac http://29312.live.streamtheworld.com:80/WIVKFMAAC.aac"
    }
   ],
   "kept_from_before": false,
@@ -14639,19 +14193,19 @@
     "url": "https://stream.revma.ihrhls.com/zc2181",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2181?rj-org=n43b-e2&rj-ttl=5&rj-tok=AAABoYqMhq4Asxm7LN-K65c3Qw"
+    "detail": "audio/aac https://cloud.revma.ihrhls.com/zc2181?rj-org=n3eb-e2&rj-ttl=5&rj-tok=AAABoYqREKYAXc8HpHwqxCXd4g"
    },
    {
     "url": "https://stream.revma.ihrhls.com/zc2181/hls.m3u8",
     "source": "iheart",
     "ok": true,
-    "detail": "hls https://n1ab-e2.revma.ihrhls.com/zc2181/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqMh0gA5QQwzAvCYTLMbg"
+    "detail": "hls https://n3ab-e2.revma.ihrhls.com/zc2181/hls.m3u8?rj-ttl=5&rj-tok=AAABoYqRERYA5tKkVHFQqeO4Iw"
    },
    {
     "url": "http://stream.revma.ihrhls.com/zc2181",
     "source": "iheart",
     "ok": true,
-    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc2181?rj-org=n3eb-e2&rj-ttl=5&rj-tok=AAABoYqMiBEA2U2RiVbuoB2RCA"
+    "detail": "audio/aac http://cloud.revma.ihrhls.com/zc2181?rj-org=n3eb-e2&rj-ttl=5&rj-tok=AAABoYqREXsATyjbPywAU0f94w"
    }
   ],
   "kept_from_before": false,
@@ -14761,7 +14315,7 @@
  {
   "school": "Vanderbilt University",
   "calls": [
-   "WPRT"
+   "WPRT-FM"
   ],
   "ok": [
    {
@@ -14773,24 +14327,6 @@
   ],
   "kept_from_before": false,
   "failed": [
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WPRTAMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WPRTAM.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WPRT_AMAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
    {
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WPRTFMAAC.aac",
     "source": "streamtheworld",
@@ -14810,55 +14346,37 @@
     "detail": "HTTP Error 404: Not Found"
    },
    {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WPRTAAC.aac",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WPRT.mp3",
-    "source": "streamtheworld",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/audacy-wprtamaac-imc",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/direct/audacy-wprtamaac-imc",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-wprtamaac-ibc1",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-wprtamaac-ibc2",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-wprtamaac-ibc3",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
-    "url": "https://live.amperwave.net/manifest/townsquare-wprtamaac-ibc4",
-    "source": "amperwave",
-    "ok": false,
-    "detail": "HTTP Error 404: Not Found"
-   },
-   {
     "url": "https://live.amperwave.net/manifest/audacy-wprtfmaac-imc",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/direct/audacy-wprtfmaac-imc",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-wprtfmaac-ibc1",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-wprtfmaac-ibc2",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-wprtfmaac-ibc3",
+    "source": "amperwave",
+    "ok": false,
+    "detail": "HTTP Error 404: Not Found"
+   },
+   {
+    "url": "https://live.amperwave.net/manifest/townsquare-wprtfmaac-ibc4",
     "source": "amperwave",
     "ok": false,
     "detail": "HTTP Error 404: Not Found"

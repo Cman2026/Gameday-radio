@@ -1,5 +1,5 @@
 {
-"built": "2026-10-30T01:53:53Z",
+"built": "2026-10-30T01:58:51Z",
 "teams": [
 {
 "school": "Boston College",
@@ -31,11 +31,11 @@
 "California Golden Bears"
 ],
 "network": "Cal Bears Sports Network (Learfield)",
-"flagship": "KGO 810 AM 'The Spread' (San Francisco, Cumulus)",
+"flagship": "KGO 810 AM 'The Spread' (San Francisco, CA)",
 "listen_page": "",
 "conference": "ACC",
 "calls": [
-"KGO"
+"KGO-AM"
 ],
 "streams": [],
 "misses": 0,
@@ -58,7 +58,7 @@
 "streams": [
 "http://s2.radioreformation.com:8060/;stream.mp3"
 ],
-"misses": 0,
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -68,16 +68,14 @@
 "Duke Blue Devils"
 ],
 "network": "Blue Devil Sports Network (Learfield)",
-"flagship": "The Buzz WDNC 620 AM (Durham; Capitol Broadcasting); WRAL News+ 96.5/99.3 FM carries coach's show",
-"listen_page": "",
+"flagship": "The Buzz WDNC 620 AM / 104.5 FM (Durham, NC) + WRAL News+ 99.3/96.5 FM (Raleigh-Durham) - co-flagships",
+"listen_page": "https://www.wralsportsfan.com",
 "conference": "ACC",
 "calls": [
-"WDNC",
-"WRAL"
+"WDNC-AM"
 ],
 "streams": [
-"https://ais-sa8.cdnstream1.com/2748_64.aac?aw_0_1st.playerid=iHeart",
-"http://ais-sa8.cdnstream1.com/2748_64.aac?aw_0_1st.playerid=iHeart"
+"https://media-hls.wral.com/vodhttporigins3/_definst_/smil:amazons3/cbcnm-static-web-content/home/web/wral/public/asset/news/state/nccapitol/2023/05/25/20879545/3185796-gop-DMID1-5z0xt25hf.smil/playlist.m3u8"
 ],
 "misses": 0,
 "last_ok": "2026-10-30"
@@ -178,16 +176,16 @@
 "NC State Wolfpack"
 ],
 "network": "Wolfpack Sports Network (Learfield)",
-"flagship": "Capitol Broadcasting Raleigh station (WRAL-FM 101.5 / 99.9 The Fan) - unverified",
+"flagship": "WCMC 99.9 FM 'The Fan' (Raleigh, NC)",
 "listen_page": "",
 "conference": "ACC",
 "calls": [
-"WRAL-FM"
+"WCMC-FM"
 ],
 "streams": [
-"https://ais-sa8.cdnstream1.com/2748_64.aac?aw_0_1st.playerid=iHeart",
-"https://ais-sa8.cdnstream1.com/2748_64.aac",
-"http://ais-sa8.cdnstream1.com/2748_64.aac?aw_0_1st.playerid=iHeart"
+"https://ais-sa8.cdnstream1.com/2750_64.aac?aw_0_1st.playerid=iHeart",
+"https://media-hls.wral.com/vodhttporigins3/_definst_/smil:amazons3/cbcnm-static-web-content/home/web/wral/public/asset/news/state/nccapitol/2023/05/25/20879545/3185796-gop-DMID1-5z0xt25hf.smil/playlist.m3u8",
+"http://ais-sa8.cdnstream1.com/2750_64.aac?aw_0_1st.playerid=iHeart"
 ],
 "misses": 0,
 "last_ok": "2026-10-30"
@@ -222,7 +220,7 @@
 "Pitt Panthers"
 ],
 "network": "Pitt Panthers Radio Network (Learfield)",
-"flagship": "93.7 The Fan KDKA-FM (Pittsburgh, Audacy) - unverified; Audacy blackout risk",
+"flagship": "93.7 The Fan KDKA-FM (Pittsburgh, PA)",
 "listen_page": "",
 "conference": "ACC",
 "calls": [
@@ -243,7 +241,7 @@
 "SMU Mustangs"
 ],
 "network": "SMU Mustangs Radio Network",
-"flagship": "KTCK 96.7 FM / 1310 AM 'The Ticket' (Dallas, TX)",
+"flagship": "The Ticket KTCK 96.7 FM / 1310 AM (Dallas, TX)",
 "listen_page": "",
 "conference": "ACC",
 "calls": [
@@ -265,12 +263,13 @@
 "Stanford Cardinal"
 ],
 "network": "Stanford Cardinal Radio Network (Learfield)",
-"flagship": "KNBR 1050/680 (San Francisco, Cumulus) - unverified; student KZSU 90.1 FM may also carry games",
+"flagship": "KNBR 680 AM / 104.5 FM (San Francisco, CA); KTCT 1050 AM also carries",
 "listen_page": "",
 "conference": "ACC",
 "calls": [
-"KNBR",
-"KZSU"
+"KNBR-AM",
+"KNBR-FM",
+"KTCT-AM"
 ],
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KNBRAMAAC.aac",
@@ -287,8 +286,8 @@
 "Syracuse Orange"
 ],
 "network": "Syracuse Orange Radio Network (Learfield)",
-"flagship": "WTKW 99.5 FM 'TK99' (Syracuse, NY market)",
-"listen_page": "",
+"flagship": "TK99/105 WTKW 99.5 FM / 100.5 FM (Syracuse, NY); WAER 88.3 FM also carries",
+"listen_page": "https://cuse.com",
 "conference": "ACC",
 "calls": [
 "WTKW-FM"
@@ -305,11 +304,11 @@
 "Virginia Cavaliers"
 ],
 "network": "Virginia Sports Radio Network (Learfield)",
-"flagship": "WINA 1070 AM / 98.9 FM (Charlottesville) - unverified",
-"listen_page": "",
+"flagship": "Newsradio WINA 98.9 FM / 1070 AM (Charlottesville, VA)",
+"listen_page": "https://virginiasports.com/radio",
 "conference": "ACC",
 "calls": [
-"WINA"
+"WINA-AM"
 ],
 "streams": [],
 "misses": 0,
@@ -342,11 +341,11 @@
 "Wake Forest Demon Deacons"
 ],
 "network": "Wake Forest Sports Network (Learfield)",
-"flagship": "WSJS 600 AM / 101.5 FM (Winston-Salem) - unverified",
+"flagship": "WBRF 98.1 FM (Galax, VA)",
 "listen_page": "",
 "conference": "ACC",
 "calls": [
-"WSJS"
+"WBRF-FM"
 ],
 "streams": [],
 "misses": 0,
@@ -382,16 +381,16 @@
 "Connecticut"
 ],
 "network": "UConn Huskies Sports Network (Learfield)",
-"flagship": "WTIC 1080 AM (Hartford, Audacy) - unverified; Audacy blackout risk",
+"flagship": "Fox Sports Radio 97.9 FM WUCS (Hartford, CT)",
 "listen_page": "",
 "conference": "FBS Independent",
 "calls": [
-"WTIC"
+"WUCS-FM"
 ],
 "streams": [
-"https://live.amperwave.net/direct/audacy-wticamaac-imc",
-"https://live.amperwave.net/direct/audacy-wticfmaac-imc",
-"http://live.amperwave.net/direct/audacy-wticamaac-imc"
+"https://stream.revma.ihrhls.com/zc5238",
+"https://stream.revma.ihrhls.com/zc5238/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc5238"
 ],
 "misses": 0,
 "last_ok": "2026-10-30"
@@ -453,7 +452,7 @@
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WNCTAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WNCTAM.mp3"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": null
 },
 {
@@ -464,13 +463,18 @@
 "FAU Owls"
 ],
 "network": "FAU Owls Radio Network",
-"flagship": "UNVERIFIED (from memory, not confirmed this run): flagship not confirmed",
-"listen_page": "",
+"flagship": "FOX Sports 640 South Florida WMEN 640 AM (West Palm Beach area, FL)",
+"listen_page": "https://live.foxsports640.com/listen",
 "conference": "American Conference",
-"calls": [],
-"streams": [],
+"calls": [
+"WMEN-AM"
+],
+"streams": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WMENAMAAC.aac",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WMENAM.mp3"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "University of Memphis",
@@ -479,16 +483,16 @@
 "Memphis Tigers"
 ],
 "network": "Tiger Radio Network (Learfield)",
-"flagship": "UNVERIFIED (from memory, not confirmed this run): 92.9 FM ESPN (WMFS, Audacy)",
+"flagship": "News Talk 98.9 The Roar WKIM-FM (Memphis, TN)",
 "listen_page": "",
 "conference": "American Conference",
 "calls": [
-"WMFS"
+"WKIM-FM"
 ],
 "streams": [
-"https://live.amperwave.net/direct/audacy-wmfsfmaac-imc",
-"https://live.amperwave.net/manifest/audacy-wmfsfmaac-imc",
-"http://live.amperwave.net/direct/audacy-wmfsfmaac-imc"
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WKIMFMAAC.aac",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WKIMFMAAC.m3u8",
+"http://playerservices.streamtheworld.com/api/livestream-redirect/WKIMFMAAC.aac"
 ],
 "misses": 0,
 "last_ok": "2026-10-30"
@@ -560,16 +564,15 @@
 "USF Bulls"
 ],
 "network": "USF Bulls Radio Network (Learfield)",
-"flagship": "UNVERIFIED (from memory, not confirmed this run): 95.3 WDAE (Tampa, iHeart)",
+"flagship": "Q105 WRBQ-FM 104.7 (Tampa, FL)",
 "listen_page": "",
 "conference": "American Conference",
 "calls": [
-"WDAE"
+"WRBQ-FM"
 ],
 "streams": [
-"https://stream.revma.ihrhls.com/zc673",
-"https://stream.revma.ihrhls.com/zc673/hls.m3u8",
-"http://stream.revma.ihrhls.com/zc673"
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WRBQFMAAC.aac",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WRBQFM.mp3"
 ],
 "misses": 0,
 "last_ok": "2026-10-30"
@@ -617,17 +620,13 @@
 "Tulsa Golden Hurricane"
 ],
 "network": "Golden Hurricane Radio Network",
-"flagship": "UNVERIFIED (from memory, not confirmed this run): historically KTBZ 1430 The Buzz (Tulsa, iHeart)",
+"flagship": "Big Country 99.5 FM KXBL (Tulsa, OK)",
 "listen_page": "",
 "conference": "American Conference",
 "calls": [
-"KTBZ"
+"KXBL-FM"
 ],
-"streams": [
-"https://stream.revma.ihrhls.com/zc1941",
-"https://stream.revma.ihrhls.com/zc1941/hls.m3u8",
-"http://stream.revma.ihrhls.com/zc1941"
-],
+"streams": [],
 "misses": 0,
 "last_ok": "2026-10-30"
 },
@@ -659,11 +658,11 @@
 "UTSA Roadrunners"
 ],
 "network": "UTSA Roadrunners Radio Network",
-"flagship": "UNVERIFIED (from memory, not confirmed this run): historically KTKR 760 The Ticket (San Antonio, iHeart)",
+"flagship": "Ticket 760 KTKR 760 AM (San Antonio, TX)",
 "listen_page": "",
 "conference": "American Conference",
 "calls": [
-"KTKR"
+"KTKR-AM"
 ],
 "streams": [
 "https://stream.revma.ihrhls.com/zc2353",
@@ -738,10 +737,12 @@
 "Georgia Southern Eagles"
 ],
 "network": "Georgia Southern Sports Network",
-"flagship": "UNVERIFIED (from memory, not confirmed this run): flagship not confirmed",
+"flagship": "WHKN 94.9 FM (Statesboro, GA)",
 "listen_page": "",
 "conference": "Sun Belt Conference",
-"calls": [],
+"calls": [
+"WHKN-FM"
+],
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -793,15 +794,16 @@
 "UL Lafayette"
 ],
 "network": "Ragin' Cajuns Sports Network",
-"flagship": "UNVERIFIED (from memory, not confirmed this run): historically KPEL 96.5 FM / 1420 AM (Lafayette, Townsquare)",
+"flagship": "Hot 107.9 KHXT FM + 103.3 The Goat / KPEL 1420 AM (Lafayette, LA)",
 "listen_page": "",
 "conference": "Sun Belt Conference",
 "calls": [
-"KPEL"
+"KHXT-FM",
+"KPEL-AM"
 ],
 "streams": [
-"https://live.amperwave.net/manifest/townsquare-kpelamaac-ibc3",
-"https://live.amperwave.net/manifest/townsquare-kpelfmaac-ibc3"
+"https://live.amperwave.net/manifest/townsquare-khxtfmaac-ibc3",
+"https://live.amperwave.net/manifest/townsquare-kpelamaac-ibc3"
 ],
 "misses": 0,
 "last_ok": "2026-10-30"
@@ -854,11 +856,11 @@
 "Old Dominion Monarchs"
 ],
 "network": "Monarch Sports Network",
-"flagship": "UNVERIFIED (from memory, not confirmed this run): historically ESPN 94.1 FM WVSP (Norfolk area)",
+"flagship": "ESPN Radio 94.1 WVSP-FM (Norfolk, VA)",
 "listen_page": "",
 "conference": "Sun Belt Conference",
 "calls": [
-"WVSP"
+"WVSP-FM"
 ],
 "streams": [],
 "misses": 0,
@@ -871,14 +873,17 @@
 "South Alabama Jaguars"
 ],
 "network": "Jaguar Sports Network",
-"flagship": "UNVERIFIED (from memory, not confirmed this run): historically WNSP 105.5 FM (Mobile)",
-"listen_page": "",
+"flagship": "Hot 94.1 WMEZ FM + JOX 660 WXQW AM (Mobile, AL)",
+"listen_page": "https://usajaguars.com/radio",
 "conference": "Sun Belt Conference",
 "calls": [
-"WNSP"
+"WMEZ-FM",
+"WXQW-AM"
 ],
 "streams": [
-"http://centova.rockhost.com:8054/wnsp"
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WMEZFMAAC.aac",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WMEZFMAAC.m3u8",
+"http://playerservices.streamtheworld.com/api/livestream-redirect/WMEZFMAAC.aac"
 ],
 "misses": 0,
 "last_ok": "2026-10-30"
@@ -891,11 +896,11 @@
 "Southern Miss Golden Eagles"
 ],
 "network": "Southern Miss Radio Network",
-"flagship": "UNVERIFIED (from memory, not confirmed this run): historically WXRR 104.5 FM (Hattiesburg)",
+"flagship": "WXRR 104.5 FM (Hattiesburg, MS)",
 "listen_page": "",
 "conference": "Sun Belt Conference",
 "calls": [
-"WXRR"
+"WXRR-FM"
 ],
 "streams": [
 "https://ice64.securenetsystems.net/WXRR"
@@ -990,15 +995,18 @@
 "Baylor Bears"
 ],
 "network": "Baylor IMG Sports Network",
-"flagship": "ESPN Central Texas KRZI 1660 AM / 92.3 FM (Waco)",
-"listen_page": "https://baylorbears.com/sports/2018/5/17/radio.aspx?id=2087",
+"flagship": "ESPN Central Texas KRZI 1660 AM / 92.3 FM (Waco, TX)",
+"listen_page": "https://www.centexsportsfan.com",
 "conference": "Big 12 Conference",
 "calls": [
-"KRZI"
+"KRZI-AM"
 ],
-"streams": [],
+"streams": [
+"https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+"https://ais-sa1.streamon.fm/7050_24k.aac"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-30"
 },
 {
 "school": "Brigham Young University",
@@ -1028,16 +1036,17 @@
 "Cincinnati Bearcats"
 ],
 "network": "Bearcats Radio Network",
-"flagship": "Unverified (prior knowledge: ESPN 1530 WCKY, Cincinnati, iHeart)",
+"flagship": "700 WLW AM (Cincinnati, OH); 102.7 WEBN-FM for some games",
 "listen_page": "",
 "conference": "Big 12 Conference",
 "calls": [
-"WCKY"
+"WLW-AM",
+"WEBN-FM"
 ],
 "streams": [
-"https://stream.revma.ihrhls.com/zc1697",
-"https://stream.revma.ihrhls.com/zc1697/hls.m3u8",
-"http://stream.revma.ihrhls.com/zc1697"
+"https://stream.revma.ihrhls.com/zc1713",
+"https://stream.revma.ihrhls.com/zc1713/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc1713"
 ],
 "misses": 0,
 "last_ok": "2026-10-30"
@@ -1049,11 +1058,12 @@
 "Colorado Buffaloes"
 ],
 "network": "Buffalo Sports Network (Learfield)",
-"flagship": "Unverified (prior knowledge: KOA 850 AM / 94.1 FM, Denver, iHeart)",
+"flagship": "KOA 850 AM / 94.1 FM (Denver, CO)",
 "listen_page": "",
 "conference": "Big 12 Conference",
 "calls": [
-"KOA"
+"KOA-AM",
+"K231AA"
 ],
 "streams": [
 "https://stream.revma.ihrhls.com/zc389",
@@ -1070,16 +1080,16 @@
 "Houston Cougars"
 ],
 "network": "Cougar Radio Network",
-"flagship": "Unverified (prior knowledge: SportsTalk 790 KBME, Houston, iHeart)",
+"flagship": "KPRC 950 AM (Houston, TX)",
 "listen_page": "",
 "conference": "Big 12 Conference",
 "calls": [
-"KBME"
+"KPRC-AM"
 ],
 "streams": [
-"https://stream.revma.ihrhls.com/zc2257",
-"https://stream.revma.ihrhls.com/zc2257/hls.m3u8",
-"http://stream.revma.ihrhls.com/zc2257"
+"https://stream.revma.ihrhls.com/zc2277",
+"https://stream.revma.ihrhls.com/zc2277/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc2277"
 ],
 "misses": 0,
 "last_ok": "2026-10-30"
@@ -1131,11 +1141,12 @@
 "Kansas State Wildcats"
 ],
 "network": "K-State Sports Network (Learfield)",
-"flagship": "Unverified (prior knowledge: KMAN 1350 AM / 101.5 FM, Manhattan)",
+"flagship": "KMAN 1350 AM / 93.3 / 93.7 FM + KMKF 101.5 FM (Manhattan, KS)",
 "listen_page": "",
 "conference": "Big 12 Conference",
 "calls": [
-"KMAN"
+"KMAN-AM",
+"KMKF-FM"
 ],
 "streams": [],
 "misses": 0,
@@ -1168,16 +1179,16 @@
 "TCU Horned Frogs"
 ],
 "network": "TCU IMG Sports Network",
-"flagship": "Unverified (prior knowledge: 96.7 The Ticket / 1310 KTCK, Dallas, Cumulus)",
+"flagship": "Lone Star 92.5 KZPS FM (Dallas-Fort Worth, TX)",
 "listen_page": "",
 "conference": "Big 12 Conference",
 "calls": [
-"KTCK"
+"KZPS-FM"
 ],
 "streams": [
-"https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.m3u8",
-"http://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.aac"
+"https://stream.revma.ihrhls.com/zc3379",
+"https://stream.revma.ihrhls.com/zc3379/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc3379"
 ],
 "misses": 0,
 "last_ok": "2026-10-30"
@@ -1189,7 +1200,7 @@
 "Texas Tech Red Raiders"
 ],
 "network": "Texas Tech IMG Sports Network / Double T Sports Network",
-"flagship": "Unverified (prior knowledge: Double T 97.3 KTTU-FM, Lubbock)",
+"flagship": "KTTU-FM 97.3 FM \"Double T 97.3\" (Lubbock, TX)",
 "listen_page": "",
 "conference": "Big 12 Conference",
 "calls": [
@@ -1206,11 +1217,11 @@
 "UCF Knights"
 ],
 "network": "UCF IMG Sports Network",
-"flagship": "Unverified (prior knowledge: 96.9 The Game WYGM, Orlando, iHeart)",
-"listen_page": "",
+"flagship": "WYGM 740 AM / 96.9 FM \"The Game\" (Orlando, FL)",
+"listen_page": "https://www.iheart.com/live/969-the-game-601/",
 "conference": "Big 12 Conference",
 "calls": [
-"WYGM"
+"WYGM-AM"
 ],
 "streams": [
 "https://stream.revma.ihrhls.com/zc601",
@@ -1227,11 +1238,11 @@
 "Utah Utes"
 ],
 "network": "Utah Utes Radio Network",
-"flagship": "Unverified (prior knowledge: ESPN 700 KALL, Salt Lake City)",
+"flagship": "KALL 700 AM \"ESPN 700\" (Salt Lake City, UT)",
 "listen_page": "",
 "conference": "Big 12 Conference",
 "calls": [
-"KALL"
+"KALL-AM"
 ],
 "streams": [
 "https://ais-sa1.streamon.fm/7349_48k.aac"
@@ -1257,7 +1268,7 @@
 "streams": [
 "https://prod-100-53-217-72.amperwave.net/wvradio-wvaqfmaac-hlsc2.m3u8"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": null
 },
 {
@@ -1336,11 +1347,12 @@
 "Illini"
 ],
 "network": "Fighting Illini Sports Network (Learfield)",
-"flagship": "WDWS 1400 AM (Champaign, IL) - UNVERIFIED",
+"flagship": "WDWS 1400 AM / WHMS 97.5 FM (Champaign, IL)",
 "listen_page": "",
 "conference": "Big Ten Conference",
 "calls": [
-"WDWS"
+"WDWS-AM",
+"WHMS-FM"
 ],
 "streams": [
 "https://ice25.securenetsystems.net/WDWS"
@@ -1356,16 +1368,13 @@
 "IU"
 ],
 "network": "IU Radio Network (Learfield)",
-"flagship": "1070 The Fan WFNI (Indianapolis) - UNVERIFIED",
+"flagship": "WHCC 105.1 FM \"Hoosier Country\" (Bloomington, IN)",
 "listen_page": "",
 "conference": "Big Ten Conference",
 "calls": [
-"WFNI"
+"WHCC-FM"
 ],
-"streams": [
-"https://playerservices.streamtheworld.com/api/livestream-redirect/WIBCHD2AAC.aac",
-"http://playerservices.streamtheworld.com/api/livestream-redirect/WIBCHD2AAC.aac"
-],
+"streams": [],
 "misses": 0,
 "last_ok": "2026-10-30"
 },
@@ -1445,14 +1454,16 @@
 "Gophers"
 ],
 "network": "Gopher Radio Network (Learfield)",
-"flagship": "KFAN 100.3 FM (Minneapolis; iHeart) - UNVERIFIED",
+"flagship": "KFAN 100.3 FM (Minneapolis, MN)",
 "listen_page": "",
 "conference": "Big Ten Conference",
 "calls": [
-"KFAN"
+"KFXN-FM"
 ],
 "streams": [
-"https://ice41.securenetsystems.net/KFAN"
+"https://stream.revma.ihrhls.com/zc1209",
+"https://stream.revma.ihrhls.com/zc1209/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc1209"
 ],
 "misses": 0,
 "last_ok": "2026-10-30"
@@ -1465,11 +1476,11 @@
 "Huskers"
 ],
 "network": "Husker Sports Network (Learfield)",
-"flagship": "KLIN 1400 AM (Lincoln) - UNVERIFIED",
-"listen_page": "",
+"flagship": "KLIN 1400 AM / 99.3 FM (Lincoln, NE)",
+"listen_page": "https://huskers.com/listen",
 "conference": "Big Ten Conference",
 "calls": [
-"KLIN"
+"KLIN-AM"
 ],
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KLINAMAAC.aac",
@@ -1485,11 +1496,11 @@
 "Northwestern Wildcats"
 ],
 "network": "Northwestern Wildcats Radio Network",
-"flagship": "WGN 720 AM (Chicago) - UNVERIFIED",
+"flagship": "WGN 720 AM (Chicago, IL)",
 "listen_page": "",
 "conference": "Big Ten Conference",
 "calls": [
-"WGN"
+"WGN-AM"
 ],
 "streams": [
 "https://live.amperwave.net/direct/wgnam-wgnamaac-imc2",
@@ -1506,11 +1517,12 @@
 "Oregon Ducks"
 ],
 "network": "Oregon Sports Network (Learfield)",
-"flagship": "KUGN 590 AM (Eugene) - UNVERIFIED",
-"listen_page": "",
+"flagship": "KUGN 590 AM / 98.1 FM and KUJZ 95.3 FM (Eugene, OR)",
+"listen_page": "https://goducks.com/LiveAudio",
 "conference": "Big Ten Conference",
 "calls": [
-"KUGN"
+"KUGN-AM",
+"KUJZ-FM"
 ],
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAMAAC.aac",
@@ -1536,7 +1548,7 @@
 "streams": [
 "https://cp9.serverse.com/proxy/neiqvqnd?mp=/stream"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": null
 },
 {
@@ -1568,16 +1580,16 @@
 "UCLA Bruins"
 ],
 "network": "UCLA Bruins Radio Network (Learfield)",
-"flagship": "AM 570 LA Sports KLAC (Los Angeles; iHeart) - UNVERIFIED",
+"flagship": "KABC 790 AM (Los Angeles, CA)",
 "listen_page": "",
 "conference": "Big Ten Conference",
 "calls": [
-"KLAC"
+"KABC-AM"
 ],
 "streams": [
-"https://stream.revma.ihrhls.com/zc189",
-"https://stream.revma.ihrhls.com/zc189/hls.m3u8",
-"http://stream.revma.ihrhls.com/zc189"
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KABCAMAAC.aac",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KABCAMAAC.m3u8",
+"http://playerservices.streamtheworld.com/api/livestream-redirect/KABCAMAAC.aac"
 ],
 "misses": 0,
 "last_ok": "2026-10-30"
@@ -1633,11 +1645,11 @@
 "Wisconsin Badgers"
 ],
 "network": "Badger Sports Network (Learfield)",
-"flagship": "WIBA 1310 AM (Madison; iHeart) - UNVERIFIED",
+"flagship": "WIBA 1310 AM (Madison, WI)",
 "listen_page": "",
 "conference": "Big Ten Conference",
 "calls": [
-"WIBA"
+"WIBA-AM"
 ],
 "streams": [
 "https://stream.revma.ihrhls.com/zc2661",
@@ -3139,7 +3151,7 @@
 "streams": [
 "https://sh.fl-us.audio-stream.com/proxy/sneisl01?mp=/stream"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": null
 },
 {
@@ -3611,7 +3623,7 @@
 "streams": [
 "https://das-edge29-sa27-lax02.cdnstream.com/2284_96.aac"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": null
 },
 {
@@ -4107,11 +4119,11 @@
 "Central Michigan Chippewas"
 ],
 "network": "CMU Chippewas Sports Network / Chippewa Sports Radio Network",
-"flagship": "WUPS 98.5 FM (Houghton Lake/Mount Pleasant, MI; Black Diamond Broadcast Group)",
+"flagship": "WUPS 98.5 FM (Harrison, MI)",
 "listen_page": "https://cmuchippewas.com",
 "conference": "Mid-American Conference",
 "calls": [
-"WUPS"
+"WUPS-FM"
 ],
 "streams": [],
 "misses": 0,
@@ -4250,7 +4262,7 @@
 "UMass Minutemen"
 ],
 "network": "UMass Sports Network",
-"flagship": "WHMP 101.5 FM / 1400 AM (Northampton, MA)",
+"flagship": "WHMP 1400 AM / 101.5 FM (Northampton, MA)",
 "listen_page": "",
 "conference": "Mid-American Conference",
 "calls": [
@@ -4349,7 +4361,7 @@
 ],
 "network": "KSU Owl Network",
 "flagship": "",
-"listen_page": "",
+"listen_page": "https://ksuowls.com",
 "conference": "Conference USA",
 "calls": [],
 "streams": [
@@ -4365,10 +4377,12 @@
 "Liberty Flames"
 ],
 "network": "Liberty Flames Sports Network",
-"flagship": "LFSN Radio 88.3 FM (Lynchburg, VA)",
+"flagship": "WRVL 88.3 FM \"The Journey\" (Lynchburg, VA)",
 "listen_page": "",
 "conference": "Conference USA",
-"calls": [],
+"calls": [
+"WRVL-FM"
+],
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -4597,7 +4611,7 @@
 "streams": [
 "https://ktswlive.txstate.edu:8102/listen"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": null
 },
 {
@@ -4609,14 +4623,14 @@
 "Aggies"
 ],
 "network": "Aggie Sports Network (unverified)",
-"flagship": "Unverified (possibly KVNU 610 AM, Logan, UT)",
-"listen_page": "",
+"flagship": "KZNS 1280 AM / 97.5 FM \"The Zone\" (Salt Lake City, UT)",
+"listen_page": "https://utahstateaggies.com",
 "conference": "Pac-12 Conference",
 "calls": [
-"KVNU"
+"KZNS-AM"
 ],
 "streams": [
-"https://ice9.securenetsystems.net/KVNU"
+"https://bonneville.cdnstream1.com/2706_48.aac"
 ],
 "misses": 0,
 "last_ok": "2026-10-30"
@@ -4716,11 +4730,12 @@
 "Lobos"
 ],
 "network": "Lobo Radio Network (unverified)",
-"flagship": "Unverified (possibly KKOB 770 AM, Albuquerque, NM; Cumulus)",
-"listen_page": "",
+"flagship": "KKOB 770 AM / 96.3 FM (Albuquerque, NM)",
+"listen_page": "https://player.listenlive.co/22401",
 "conference": "Mountain West Conference",
 "calls": [
-"KKOB"
+"KKOB-AM",
+"KKOB-FM"
 ],
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KKOBAMAAC.aac",
@@ -4806,11 +4821,11 @@
 "Rebels"
 ],
 "network": "UNLV Rebels radio (unverified)",
-"flagship": "Unverified (likely ESPN Las Vegas KWWN 1100 AM / 100.9 FM)",
+"flagship": "KWWN 1100 AM / 100.9 FM \"ESPN Las Vegas\" (Las Vegas, NV)",
 "listen_page": "",
 "conference": "Mountain West Conference",
 "calls": [
-"KWWN"
+"KWWN-AM"
 ],
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAMAAC.aac",
@@ -4828,14 +4843,16 @@
 "Miners"
 ],
 "network": "UTEP Miners radio (unverified)",
-"flagship": "Unverified (likely KROD 600 AM, El Paso, TX; Townsquare)",
+"flagship": "KLAQ 95.5 FM (El Paso, TX)",
 "listen_page": "",
 "conference": "Mountain West Conference",
 "calls": [
-"KROD"
+"KLAQ-FM"
 ],
 "streams": [
-"https://live.amperwave.net/manifest/townsquare-krodamaac-ibc3"
+"https://live.amperwave.net/manifest/townsquare-klaqfmaac-ibc3",
+"https://live.amperwave.net/manifest/townsquare-klaqfmaac-hlsc3.m3u8",
+"https://live.amperwave.net/manifest/townsquare-klaqhd2fmaac-hlsc3.m3u8"
 ],
 "misses": 0,
 "last_ok": "2026-10-30"
@@ -4848,15 +4865,13 @@
 "Cowboys"
 ],
 "network": "Cowboy Sports Network (unverified)",
-"flagship": "Unverified (likely KTWO 1030 AM Casper / KOWB 1290 AM Laramie, Townsquare)",
+"flagship": "KOWB 1290 AM (Laramie, WY)",
 "listen_page": "",
 "conference": "Mountain West Conference",
 "calls": [
-"KTWO",
-"KOWB"
+"KOWB-AM"
 ],
 "streams": [
-"https://live.amperwave.net/manifest/townsquare-ktwoamaac-ibc3",
 "https://live.amperwave.net/manifest/townsquare-kowbamaac-ibc3"
 ],
 "misses": 0,
@@ -4956,15 +4971,16 @@
 "UGA"
 ],
 "network": "Bulldog Sports Network / Georgia Bulldogs Radio Network (Learfield)",
-"flagship": "Unverified: WSB 750 AM / 95.5 FM (Atlanta, Cox)",
-"listen_page": "",
+"flagship": "WSB 750 AM / WSBB-FM 95.5 (Atlanta, GA)",
+"listen_page": "https://georgiadogs.com",
 "conference": "SEC",
 "calls": [
-"WSB"
+"WSB-AM",
+"WSBB-FM"
 ],
 "streams": [
 "https://cmg.streamguys1.com/atl750/atl750-encoder.aac/playlist.m3u8?aw_0_1st.playerId=cmg_iheart",
-"https://cmg.streamguys1.com/atl985/atl985-encoder.aac/playlist.m3u8?aw_0_1st.playerId=cmg_iheart",
+"https://dts.podtrac.com/redirect.mp3/od-cmg.streamguys1.com/atlanta/atl750/20261028080936_629799-promosforthurs10-29.wav?awCollectionId=atl750-16&awGenre=News&awEpisodeId=d35b2a30-d2d0-11f1-ae7f-0d1592a683ef",
 "http://cmg.streamguys1.com/atl750/atl750-encoder.aac/playlist.m3u8?aw_0_1st.playerId=cmg_iheart"
 ],
 "misses": 0,
@@ -5000,11 +5016,11 @@
 "LSU Tigers"
 ],
 "network": "LSU Sports Radio Network",
-"flagship": "Unverified: WDGL 98.1 The Eagle (Baton Rouge)",
-"listen_page": "",
+"flagship": "WDGL 98.1 FM \"Eagle 98.1\" (Baton Rouge, LA)",
+"listen_page": "https://lsusports.net/leanstream",
 "conference": "SEC",
 "calls": [
-"WDGL"
+"WDGL-FM"
 ],
 "streams": [
 "https://live.amperwave.net/direct/guaranty-wdglfmaac-ibc1",
@@ -5064,7 +5080,7 @@
 "streams": [
 "https://ais-sa1.streamon.fm/7401_48k.aac"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": null
 },
 {
@@ -5097,11 +5113,11 @@
 "Gamecocks"
 ],
 "network": "Gamecock Sports Network (Learfield)",
-"flagship": "Unverified: WNKT 107.5 The Game (Columbia, Cumulus)",
-"listen_page": "",
+"flagship": "WNKT 107.5 FM \"The Game\" (Columbia, SC)",
+"listen_page": "https://gamecocksonline.com/stream/",
 "conference": "SEC",
 "calls": [
-"WNKT"
+"WNKT-FM"
 ],
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WNKTFMAAC.aac",
@@ -5119,12 +5135,12 @@
 "Vols"
 ],
 "network": "Vol Network",
-"flagship": "Unverified: WIVK 107.7 FM / WNML 99.1 FM-990 AM (Knoxville, Cumulus)",
-"listen_page": "",
+"flagship": "WIVK 107.7 FM (Knoxville, TN); WNML-FM 99.1 also carries",
+"listen_page": "https://utsports.com",
 "conference": "SEC",
 "calls": [
-"WIVK",
-"WNML"
+"WIVK-FM",
+"WNML-FM"
 ],
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WIVKFMAAC.aac",
@@ -5176,7 +5192,7 @@
 "streams": [
 "http://ice42.securenetsystems.net/WTAWAM"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": null
 },
 {
@@ -5187,11 +5203,11 @@
 "Vandy"
 ],
 "network": "Vanderbilt Commodores Radio Network (Learfield)",
-"flagship": "Unverified: WPRT 102.5 The Game (Nashville, Cumulus)",
-"listen_page": "",
+"flagship": "WPRT 102.5 FM \"The Game\" (Nashville, TN)",
+"listen_page": "https://vanderbilt.leanplayer.com",
 "conference": "SEC",
 "calls": [
-"WPRT"
+"WPRT-FM"
 ],
 "streams": [
 "https://cromwell-ice.streamguys1.com/WPRTFM"
