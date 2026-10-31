@@ -60,7 +60,7 @@ PLAY_JS = """async (url) => {
     let finished = false;
     const done = (ok, why) => { if (finished) return; finished = true; clearTimeout(t);
       try { a.pause(); if (hls) hls.destroy(); a.removeAttribute('src'); a.load(); } catch (e) {} res({ok, why}); };
-    const t = setTimeout(() => done(false, 'timeout'), 15000);
+    const t = setTimeout(() => done(false, 'timeout'), window.__to || 15000);
     a.addEventListener('playing', () => done(true, 'playing'));
     a.addEventListener('error', () => done(false, 'media error ' + (a.error && a.error.code)));
     if (/\\.m3u8(\\?|$)/i.test(u) && window.Hls && Hls.isSupported()) {
@@ -108,6 +108,18 @@ def main():
                 results[u] = r
                 state["streams"][u] = r | {"at": stamp, "school": t["school"]}
             i += len(pages)
+        # SecureNet throttles cloud servers when hit in parallel; retry its timeouts one at a time.
+        retry = [(t, u) for t, u in jobs if "securenetsystems" in u and results.get(u, {}).get("why") in ("timeout", "no result")]
+        pg = pages[0]
+        for t, u in retry:
+            pg.evaluate(f"(url) => {{ window.__to = 25000; window.__r = null; ({PLAY_JS})(url).then(r => window.__r = r); }}", u)
+            deadline, r = time.time() + 30, None
+            while r is None and time.time() < deadline:
+                r = pg.evaluate("window.__r")
+                if r is None: pg.wait_for_timeout(300)
+            r = r or {"ok": False, "why": "no result"}
+            results[u] = r
+            state["streams"][u] = r | {"at": stamp, "school": t["school"], "retried": True}
         b.close()
     for t in teams:
         inpage = [u for s in t["streams"] for u in variants(s) if u.startswith("https") and results.get(u, {}).get("ok")]
