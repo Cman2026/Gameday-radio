@@ -37,13 +37,16 @@ def live_games():
     return out
 
 
-def record(url, secs=15):
+def record(url, secs=15, skip=None):
+    # Many official school feeds play an ad to every new listener; listen past it.
+    if skip is None:
+        skip = 35 if re.search(r"leanstream|jwplayer|revma|ihrhls|amperwave", url) else 8
     if "securenetsystems.net/" in url and "playSessionID" not in url:
         url += ("&" if "?" in url else "?") + "playSessionID=" + str(uuid.uuid4()).upper()
     f = tempfile.mktemp(suffix=".wav")
     try:
         subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-rw_timeout", "15000000", "-user_agent", UA["User-Agent"],
-                        "-i", url, "-t", str(secs), "-ac", "1", "-ar", "16000", "-y", f], timeout=secs + 30, check=True)
+                        "-i", url, "-ss", str(skip), "-t", str(secs), "-ac", "1", "-ar", "16000", "-y", f], timeout=secs + skip + 40, check=True)
         return f if os.path.getsize(f) > 32000 else None
     except Exception:
         return None
