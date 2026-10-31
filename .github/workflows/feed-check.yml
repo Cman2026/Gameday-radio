@@ -1,0 +1,15 @@
+name: School audio feed check
+on:
+  workflow_dispatch:
+    inputs:
+      schools: { description: "School names", required: true }
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: python tools/feed_check.py $SCHOOLS
+        env: { SCHOOLS: "${{ github.event.inputs.schools }}" }
+      - run: tools/publish.sh "School audio feed check" feed-check.json

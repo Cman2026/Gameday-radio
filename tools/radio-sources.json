@@ -1060,9 +1060,11 @@
   "listen_page": "https://mgoblue.com/sports/2017/6/16/football-broadcast-information",
   "conference": "Big Ten Conference",
   "calls": [
-   "WCSX"
+   "WCSX",
+   "WTKA-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://mgoblue.com"
  },
  {
   "school": "Pennsylvania State University",
