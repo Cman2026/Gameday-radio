@@ -93,6 +93,13 @@ h1 span{color:var(--bulb)}
 .deck.min .syncrow,.deck.min #moreBtn,.deck.min #more{display:none!important}
 .deck.min .play-btn{width:38px;height:38px;font-size:15px}
 .deck.min .now small{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
+.fin{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px 12px;display:grid;gap:4px}
+.fin .tr{display:grid;grid-template-columns:22px minmax(0,1fr) auto 34px;align-items:center;gap:8px;color:var(--dim)}
+.fin .tr img{width:22px;height:22px;object-fit:contain}
+.fin .tr.win{color:var(--chalk);font-weight:600}
+.fin .sc{font:700 18px var(--display);text-align:right;font-variant-numeric:tabular-nums}
+.fin .rec{font:500 12px var(--mono)}
+.fin .meta{font:500 11px var(--mono);color:var(--dim)}
 .empty{color:var(--dim);background:var(--panel);border:1px dashed var(--line);border-radius:10px;padding:16px}
 
 .board{background:linear-gradient(180deg,var(--panel-2),var(--panel));border:1px solid var(--line);border-radius:14px;padding:18px;display:grid;gap:16px;min-width:0}
@@ -313,7 +320,7 @@ function render(){
     const next = events.filter(e=>e.status.type.state==="pre").sort((a,b)=>new Date(a.date)-new Date(b.date))[0];
     const why = !live.length ? "No Division I games are live right now." : (q ? `No live games match “${esc(query.trim())}”.` : divFilter==="fav" ? "None of your teams are playing right now. Tap ☆ on a team to add it." : `No ${divFilter} games are live right now.`);
     list.innerHTML = `<div class="empty">${why}${!live.length && next ? `<br>Next up: ${esc(next.shortName)}, ${fmtTime(next.date)}.` : ""}</div>`;
-  } else list.innerHTML = shown.map(card).join("");
+  } else list.innerHTML = shown.map(card).join("") + finalsToday();
   list.querySelectorAll(".card").forEach(b=>{ const go=()=>{selected=b.dataset.id; render();}; b.onclick=ev=>{ if(ev.target.closest(".ear,.fav")) return; go(); }; b.onkeydown=ev=>{ if(ev.key==="Enter"||ev.key===" "){ ev.preventDefault(); go(); } }; });
   renderBoard();
   updateDeck();
@@ -544,6 +551,20 @@ function upCard(e){
     ${hp!=null?`<div class="wpbar" aria-label="Win probability: ${esc(a.team.abbreviation)} ${ap}%, ${esc(h.team.abbreviation)} ${hp}%"><span style="width:${ap}%;background:#${a.team.color||"888"}"></span><span style="width:${hp}%;background:#${h.team.color||"ccc"}"></span></div>`:""}
     <div class="meta"><span>${bits.join(" · ")}</span><span>${wp?esc(wp.src):"No odds yet"}</span></div></div>`;
 }
+function finCard(e){
+  const c = e.competitions[0], a = team(c,"away"), h = team(c,"home");
+  const win = t => Number(t.score) > Number((t===a?h:a).score);
+  const row = (t, home) => `<div class="tr ${win(t)?"win":""}"><img src="${t.team.logo||""}" alt=""><span>${home?'<span class="at">@ </span>':""}${esc(t.team.shortDisplayName)}</span><span class="rec">${esc(t.records?.[0]?.summary||"")}</span><span class="sc">${esc(t.score)}</span></div>`;
+  return `<div class="fin">${row(a,false)}${row(h,true)}<div class="meta">${esc(e.status.type.shortDetail||"Final")}</div></div>`;
+}
+function finalsToday(){
+  const q = query.trim().toLowerCase();
+  const fin = events.filter(e=>e.status.type.state==="post" && isToday(e.date))
+    .filter(e=> divFilter==="all" || (divFilter==="fav" ? isFavGame(e) : e._div===divFilter))
+    .filter(e=> !q || e.competitions[0].competitors.some(t=>[t.team.location,t.team.displayName,t.team.shortDisplayName,t.team.abbreviation].join(" ").toLowerCase().includes(q)))
+    .sort((x,y)=>new Date(y.date)-new Date(x.date));
+  return fin.length ? `<div class="conf" style="color:var(--dim)">Final</div>` + fin.map(finCard).join("") : "";
+}
 function renderUpcoming(){
   const list = $("#list"), q = query.trim().toLowerCase();
   const today = events.filter(e=>e.status.type.state==="pre" && isToday(e.date));
@@ -555,7 +576,7 @@ function renderUpcoming(){
   $("#board").hidden = true;
   if(!shown.length){
     const next = events.filter(e=>e.status.type.state==="pre").sort((a,b)=>new Date(a.date)-new Date(b.date))[0];
-    list.innerHTML = `<div class="empty">${today.length ? "No games today match that filter." : "No more games today."}${!today.length && next ? `<br>Next up: ${esc(next.shortName)}, ${fmtTime(next.date)}.` : ""}</div>`;
+    list.innerHTML = `<div class="empty">${today.length ? "No games today match that filter." : "No more games today."}${!today.length && next ? `<br>Next up: ${esc(next.shortName)}, ${fmtTime(next.date)}.` : ""}</div>` + finalsToday();
     return;
   }
   loadPredictions(shown);
@@ -568,7 +589,7 @@ function renderUpcoming(){
   }
   const names = [...groups.keys()].sort((x,y)=>x.localeCompare(y));
   list.innerHTML = `<div class="conf" style="color:var(--dim);margin-top:0">Today's games</div>` + names.map(n=>
-    `<div class="conf">${esc(n)}</div>` + groups.get(n).sort((x,y)=>new Date(x.date)-new Date(y.date) || x.id.localeCompare(y.id)).map(upCard).join("")).join("");
+    `<div class="conf">${esc(n)}</div>` + groups.get(n).sort((x,y)=>new Date(x.date)-new Date(y.date) || x.id.localeCompare(y.id)).map(upCard).join("")).join("") + finalsToday();
 }
 
 function renderBoard(){
