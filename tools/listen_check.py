@@ -17,7 +17,10 @@ FOOTBALL = re.compile(r"\b(yard|yards|yard line|first down|second down|third dow
                       r"end zone|red zone|line of scrimmage|timeout|offense|defense|drive|huddle|shotgun|pass(ed|es)?|rush(ed|es)?|"
                       r"penalty|holding|scrimmage|quarter|halftime|football|first and ten|and goal|at the \d+|the \d+ yard|"
                       r"offsides|false start|pass interference|touchback|fair catch|two.point|onside|hail mary|play.action|"
-                      r"stadium|scoreboard|the kick|leads? \d+|trails? \d+|\d{1,2} ?(?:to|-) ?\d{1,2})\b", re.I)
+                      r"stadium|scoreboard|the kick|leads? \d+|trails? \d+|\d{1,2} ?(?:to|-) ?\d{1,2}|"
+                      r"yard line|goal line|boundary|sideline|receiver|running back|linebacker|cornerback|safety|safeties|"
+                      r"goes down|brought down|out of bounds|inside the \d+|the \d+|\d+ yard|carries|carry|catch|caught|"
+                      r"throws?|threw|runs? (?:it|left|right|up)|hand ?off|first and|second and|third and|fourth and)\b", re.I)
 
 
 def norm(x):
@@ -71,7 +74,9 @@ def main():
             if not t:
                 continue
             # mascot and abbreviation only: place words like "state" or "carolina" show up in news too
-            words = {w for w in norm(" ".join([tm.get("name") or "", tm.get("abbreviation") or ""])).split() if len(w) > 2} - {"state", "university", "college"}
+            GENERIC = {"state", "university", "college", "north", "south", "east", "west", "central", "carolina", "texas", "florida",
+                       "georgia", "virginia", "new", "san", "the", "of", "southern", "northern", "eastern", "western", "miami", "saint"}
+            words = {w for w in norm(" ".join([tm.get("location") or "", tm.get("name") or "", tm.get("abbreviation") or ""])).split() if len(w) > 2} - GENERIC
             for u in [u for u in (t.get("streams") or []) if u.startswith("http")][:3]:
                 jobs.append((t["school"], u, words))
     print(f"listening to {len(jobs)} streams in {len(games)} live games")
