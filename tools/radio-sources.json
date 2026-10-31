@@ -1332,11 +1332,13 @@
    "Albany",
    "UAlbany Great Danes"
   ],
-  "network": "",
-  "flagship": "",
+  "network": "UAlbany Great Danes Radio",
+  "flagship": "104.5 The Team ESPN Radio (WTMM-FM, Albany)",
   "listen_page": "",
   "conference": "Coastal Athletic Association",
-  "calls": [],
+  "calls": [
+   "WTMM-FM"
+  ],
   "streams": [],
   "athletics_site": "https://ualbanysports.com"
  },
@@ -1367,7 +1369,9 @@
   "conference": "Coastal Athletic Association",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://gocamels.com"
+  "athletics_site": "https://gocamels.com",
+  "game_only": true,
+  "notes": "School audio on GoCamels.com, game days only"
  },
  {
   "school": "Elon University",
@@ -1381,7 +1385,9 @@
   "conference": "Coastal Athletic Association",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://elonphoenix.com"
+  "athletics_site": "https://elonphoenix.com",
+  "notes": "Audio only on the Varsity Network app",
+  "no_radio": true
  },
  {
   "school": "Hampton University",
@@ -1478,7 +1484,9 @@
   "conference": "Coastal Athletic Association",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://gorhody.com"
+  "athletics_site": "https://gorhody.com",
+  "notes": "Audio only on the Varsity Network app",
+  "no_radio": true
  },
  {
   "school": "Sacred Heart University",
@@ -1492,7 +1500,9 @@
   "conference": "Coastal Athletic Association",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://sacredheartpioneers.com"
+  "athletics_site": "https://sacredheartpioneers.com",
+  "notes": "TV only (ESPN+)",
+  "no_radio": true
  },
  {
   "school": "Stony Brook University",
@@ -1581,7 +1591,9 @@
   "conference": "Patriot League",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://guhoyas.com"
+  "athletics_site": "https://guhoyas.com",
+  "notes": "TV only (ESPN+)",
+  "no_radio": true
  },
  {
   "school": "College of the Holy Cross",
@@ -1595,7 +1607,9 @@
   "conference": "Patriot League",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://goholycross.com"
+  "athletics_site": "https://goholycross.com",
+  "notes": "No radio found",
+  "no_radio": true
  },
  {
   "school": "Lafayette College",
@@ -1609,7 +1623,9 @@
   "conference": "Patriot League",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://goleopards.com"
+  "athletics_site": "https://goleopards.com",
+  "notes": "TV only (Lafayette Sports Network)",
+  "no_radio": true
  },
  {
   "school": "Lehigh University",
@@ -1680,11 +1696,13 @@
   ],
   "network": "",
   "flagship": "",
-  "listen_page": "",
+  "listen_page": "https://brownbears.com/Audio",
   "conference": "Ivy League",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://brownbears.com"
+  "athletics_site": "https://brownbears.com",
+  "game_only": true,
+  "notes": "Brown Audio Network: free school audio stream, game days only"
  },
  {
   "school": "Columbia University",
@@ -1713,7 +1731,9 @@
   "conference": "Ivy League",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://cornellbigred.com"
+  "athletics_site": "https://cornellbigred.com",
+  "notes": "No radio since 2025-26 (Cornell dropped commercial radio)",
+  "no_radio": true
  },
  {
   "school": "Dartmouth College",
@@ -1763,7 +1783,9 @@
   "conference": "Ivy League",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://pennathletics.com"
+  "athletics_site": "https://pennathletics.com",
+  "notes": "No radio found for 2025-26",
+  "no_radio": true
  },
  {
   "school": "Princeton University",
@@ -1777,7 +1799,9 @@
   "conference": "Ivy League",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://goprincetontigers.com"
+  "athletics_site": "https://goprincetontigers.com",
+  "notes": "Audio only on the Varsity Network app",
+  "no_radio": true
  },
  {
   "school": "Yale University",
@@ -1807,7 +1831,9 @@
   "conference": "Northeast Conference",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://ccsubluedevils.com"
+  "athletics_site": "https://ccsubluedevils.com",
+  "notes": "No radio found",
+  "no_radio": true
  },
  {
   "school": "Chicago State University",
@@ -1851,7 +1877,9 @@
   "conference": "Northeast Conference",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://liuathletics.com"
+  "athletics_site": "https://liuathletics.com",
+  "notes": "TV only (ESPN+)",
+  "no_radio": true
  },
  {
   "school": "Mercyhurst University",
@@ -1865,7 +1893,9 @@
   "conference": "Northeast Conference",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://hurstathletics.com"
+  "athletics_site": "https://hurstathletics.com",
+  "notes": "TV only (ESPN+)",
+  "no_radio": true
  },
  {
   "school": "University of New Haven",
@@ -1879,7 +1909,9 @@
   "conference": "Northeast Conference",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://newhavenchargers.com"
+  "athletics_site": "https://newhavenchargers.com",
+  "notes": "TV only (ESPN+/NESN)",
+  "no_radio": true
  },
  {
   "school": "Robert Morris University",
@@ -1893,7 +1925,9 @@
   "conference": "Northeast Conference",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://rmucolonials.com"
+  "athletics_site": "https://rmucolonials.com",
+  "notes": "Audio only in the RMU Athletics app",
+  "no_radio": true
  },
  {
   "school": "Stonehill College",
@@ -1907,7 +1941,9 @@
   "conference": "Northeast Conference",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://stonehillskyhawks.com"
+  "athletics_site": "https://stonehillskyhawks.com",
+  "notes": "TV only (NEC Front Row)",
+  "no_radio": true
  },
  {
   "school": "Wagner College",
@@ -1921,7 +1957,9 @@
   "conference": "Northeast Conference",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://wagnerathletics.com"
+  "athletics_site": "https://wagnerathletics.com",
+  "notes": "No radio found",
+  "no_radio": true
  },
  {
   "school": "Alabama A&M University",
@@ -2221,7 +2259,9 @@
   "conference": "FCS Independent",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://merrimackathletics.com"
+  "athletics_site": "https://merrimackathletics.com",
+  "notes": "TV only (ESPN+/FloSports)",
+  "no_radio": true
  },
  {
   "school": "Chicago State University",
@@ -2235,7 +2275,9 @@
   "conference": "FCS Independent",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://gocsucougars.com"
+  "athletics_site": "https://gocsucougars.com",
+  "notes": "First season; no radio found",
+  "no_radio": true
  },
  {
   "school": "University of Tennessee at Chattanooga",
