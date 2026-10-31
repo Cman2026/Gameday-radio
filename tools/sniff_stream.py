@@ -67,7 +67,12 @@ with sync_playwright() as p:
                         pass
         except Exception as e:
             found.append(f"error: {e}")
-        results[url] = {"requests": list(dict.fromkeys(found))[:40], "media_elements": list(dict.fromkeys(media)),
+        try:
+            html = page.content()
+            hints = sorted(set(re.findall(r"""https?://[^"'\s<>]+?(?:\.m3u8|\.mp3|\.aac|leanstream[^"'\s<>]*|/live[^"'\s<>]*|stream[^"'\s<>]*)""", html, re.I)))[:40]
+        except Exception:
+            hints = []
+        results[url] = {"requests": list(dict.fromkeys(found))[:40], "media_elements": list(dict.fromkeys(media)), "html_hints": hints,
                         "pages_opened": [x.url for x in ctx.pages], "json_bodies": bodies}
         ctx.close()
     b.close()
