@@ -392,6 +392,20 @@ function oddsFor(e){
   return ODDS.find(g=>oddsKey(g.home)===H && oddsKey(g.away)===A)
       || ODDS.find(g=>Math.abs(Date.parse(g.start)-t0) < 3600e3 && (oddsKey(g.home)===H || oddsKey(g.away)===A));
 }
+// Pick up stream fixes and game-day feeds without a page refresh (the team you're listening to keeps playing).
+async function refreshDirectory(){
+  try{
+    try{ playback = await getJSON("playback.json?t=" + Math.floor(Date.now()/120000)); }catch(e){}
+    const d = await getJSON("radio.json?t=" + Math.floor(Date.now()/120000));
+    dirIndex.clear();
+    for(const t of d.teams||[]) for(const n of [t.school, ...(t.names||[])]) if(n && !dirIndex.has(normName(n))) dirIndex.set(normName(n), t);
+    for(const k of Object.keys(RADIO)) delete RADIO[k];
+    for(const k of Object.keys(RADIO_INFO)) delete RADIO_INFO[k];
+    for(const k of Object.keys(ready)) delete ready[k];
+    events.forEach(e=>e.competitions[0].competitors.forEach(c=>attachRadio(c.team)));
+    render();
+  }catch(e){}
+}
 async function loadDirectory(){
   await loadLive(); setInterval(loadLive, 10*60*1000);
   loadOdds(); setInterval(loadOdds, 15*60*1000);
@@ -399,6 +413,7 @@ async function loadDirectory(){
     try{ playback = await getJSON("playback.json?t=" + Math.floor(Date.now()/300000)); }catch(e){}
     const d = await getJSON("radio.json?t=" + Math.floor(Date.now()/120000));
     for(const t of d.teams||[]) for(const n of [t.school, ...(t.names||[])]) if(n && !dirIndex.has(normName(n))) dirIndex.set(normName(n), t);
+    if(!loadDirectory.timer) loadDirectory.timer = setInterval(refreshDirectory, 3*60*1000);
     events.forEach(e=>e.competitions[0].competitors.forEach(c=>attachRadio(c.team)));
     render(); fillStations();
   }catch(e){ /* no directory yet: hand-checked teams still work */ }
