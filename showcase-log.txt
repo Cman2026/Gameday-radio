@@ -27,14 +27,17 @@ allaccess error https://purduesports.com HTTP Error 404: Not Found
 allaccess error https://gocolgateraiders.com <urlopen error [Errno 104] Connection reset by peer>
 allaccess error https://gosoutheast.com HTTP Error 404: Not Found
 allaccess error https://ttusports.com HTTP Error 405: Not Allowed
-official feeds added for: Texas Tech University, Syracuse University, Southern Methodist University, University of Wisconsin-Madison, North Carolina State University, University of California, Berkeley, Duke University, University of Illinois Urbana-Champaign, University of Alabama at Birmingham, Rutgers University, University of Michigan, University of Mississippi, Marshall University, University of Colorado Boulder, Kansas State University, United States Air Force Academy, University of Connecticut, University of South Alabama, Louisiana Tech University, University of Louisville, University of Georgia, University of Florida, Indiana University, University of Minnesota, University of Oregon, Texas Christian University, Utah State University, Colorado State University, North Dakota State University, University of Texas at El Paso, Liberty University, University of Southern Mississippi, Wake Forest University, University of Maine, Bucknell University, North Carolina A&T State University, Morehead State University, Illinois State University, Murray State University, University of Northern Iowa, Indiana State University, University of St. Thomas (Minnesota), Montana State University, Northern Arizona University, Stephen F. Austin State University, South Dakota State University, University of South Dakota, University of Montana, University of Idaho, University of North Alabama
+official feeds added for: Texas Tech University, Syracuse University, Southern Methodist University, University of Wisconsin-Madison, North Carolina State University, University of California, Berkeley, Duke University, University of Illinois Urbana-Champaign, University of Alabama at Birmingham, Rutgers University, University of Michigan, University of Mississippi, Marshall University, University of Colorado Boulder, Kansas State University, United States Air Force Academy, University of Connecticut, University of South Alabama, Louisiana Tech University, University of Louisville, University of Georgia, University of Florida, Indiana University, University of Minnesota, University of Oregon, Texas Christian University, Utah State University, Colorado State University, North Dakota State University, University of Texas at El Paso, Liberty University, University of Southern Mississippi, Wake Forest University, Bucknell University, North Carolina A&T State University, Morehead State University, Illinois State University, Murray State University, University of Northern Iowa, Indiana State University, University of St. Thomas (Minnesota), Montana State University, Northern Arizona University, Stephen F. Austin State University, South Dakota State University, University of South Dakota, University of Montana, University of Idaho, University of North Alabama
 Temple University -> (feed) ['https://cdn.jwplayer.com/live/broadcast/3j2GACVG.m3u8']
 Campbell University -> (feed) ['https://cdn.jwplayer.com/live/broadcast/8eUvetd9.m3u8']
-allaccess error https://ccsubluedevils.com HTTP Error 405: Not Allowed
 University of Richmond -> (feed) ['https://stream.rcs.revma.com/x4q6k4dw57uvv']
 Marist University -> (feed) ['https://cdn.jwplayer.com/live/broadcast/3TH9Dtwc.m3u8']
-leanplayer xml https://rhody.leanplayer.com/ <?xml version="1.0"?> <main><sports><sport><id>1579</id><name>Rhode Island Football Coachs Show</name><is_show>1</is_show></sport><sport><id>1</id><name>Football</name><is_show>0</is_show></sport><sport><id>1597</id><name>The Archie Miller + Tammi Reiss Show</name><is_show>1</is_show></sport><sport><id>888</id><name>Rhode Island Football Coach's Show</name><is_show>1</is_show></sport><sport><id>441</id><name>Archie Miller Show</name><is_show>1</is_show></sport><sport><id>3</id><name>Women&#x2019;s Basketball</name><is_show>0</is_show></sport><sport><id>2</id><name>Men&#x2019;s Basketball</name
-University of Rhode Island -> (leanplayer) ['https://learfield-gd.leanstream.co/LF4901-MP3?sport=FB', 'https://learfield-gd.leanstream.co/LF4901-MP3?sport=MBB', 'https://learfield-gd.leanstream.co/LF4902-MP3?sport=WBB']
+open error https://shoresportsnetwork.com Page.goto: net::ERR_NAME_NOT_RESOLVED at https://shoresportsnetwork.com/
+Call log:
+  - navigating to "https://shoresportsnetwork.com/", waiting until "domcontentloaded"
+
+Florida International University -> []
+Florida International University -> ['https://cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8', 'https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8?exp=1793474160&sig=18c21c8e490a452f93d755294aafb74e']
 Sacred Heart University -> []
 Brown University -> []
 Brown University -> []
@@ -43,15 +46,14 @@ University of Pennsylvania -> []
 Princeton University -> []
 Princeton University -> []
 Cornell University -> []
-Central Connecticut State University -> []
-Robert Morris University -> []
-Robert Morris University -> []
 Stonehill College -> []
 Mercyhurst University -> []
 Merrimack College -> []
 Wagner College -> []
 University of New Haven -> []
 Lafayette College -> []
+Monmouth University -> []
+Monmouth University -> []
 Hampton University -> []
 College of the Holy Cross -> []
 Butler University -> []
@@ -67,9 +69,7 @@ University of the Incarnate Word -> []
 Chicago State University -> []
 Delaware State University -> []
 California Polytechnic State University -> []
-Utah Tech University -> []
-Utah Tech University -> ['https://radio.securenetsystems.net/cirrusencore/embed/stationSettings.cfm?stationCallSign=KAZZ&_=1793471648014', 'https://ssiadnweb.securenetsystems.net/advertising/ad_campaign_get.cfm?randStr=0.5219262828888327&stationCallSign=KAZZ&playerAdvertisingMode=ADN&cType=PRA&adTypePos=1%7C1&externalProvider=&geoCTCode=US&geoDMACode=759&cGeoLocationLevel=1&sGenre=S40&cClassRunning=&cClassExclusion=&playSessionID=8E130700-0497-45BB-8176202536F7F629&adCallId=&adCallSeq=&adCallIdn=&adCallStCode=&requestAssetType=&isPlayerVisible=true&getAdModeFromSEQonly=false&sslmode=true', 'https://ice6.securenetsystems.net/KAZZ?playSessionID=8E130700-0497-45BB-8176202536F7F629']
-Eastern Illinois University -> []
+Eastern Illinois University -> ['https://widgets.cloud.caster.fm/player/?token=3c7b4fe8-7d0a-45ce-87e5-9848426f9634&frameId=wfz5&theme=light&color=6C2BDD', 'https://widgets.cloud.caster.fm/cdn-cgi/rum?']
 Eastern Illinois University -> []
 Mississippi Valley State University -> []
 University of Arkansas at Pine Bluff -> []
