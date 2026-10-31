@@ -166,6 +166,22 @@ h1 span{color:inherit}
 .empty{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:18px 16px;color:var(--muted);line-height:1.5}
 
 /* ---------- Scoreboard ---------- */
+.field{position:relative;height:66px;border-radius:12px;overflow:hidden;background:#1E6B34;box-shadow:inset 0 0 0 1px rgba(255,255,255,.08)}
+.field .turf{position:absolute;inset:0 8%;background:repeating-linear-gradient(90deg,#2A7A3E 0 5%,#236F37 5% 10%)}
+.field .ez{position:absolute;top:0;bottom:0;width:8%;display:grid;place-items:center;background:repeating-linear-gradient(135deg,var(--ez) 0 6px,color-mix(in srgb,var(--ez) 82%,#000) 6px 12px);z-index:1}
+.field .ez.l{left:0;box-shadow:inset -2px 0 0 #fff} .field .ez.r{right:0;box-shadow:inset 2px 0 0 #fff}
+.field .ez img{width:88%;max-width:30px;max-height:30px;object-fit:contain;filter:drop-shadow(0 0 1.5px rgba(255,255,255,.9)) drop-shadow(0 1px 2px rgba(0,0,0,.4))}
+.field .ez span{font:700 10px var(--num);color:#fff;writing-mode:vertical-rl;letter-spacing:.06em}
+.field .yl{position:absolute;top:0;bottom:0;width:1px;background:rgba(255,255,255,.18)}
+.field .yl.ten{background:rgba(255,255,255,.42)} .field .yl.fifty{background:rgba(255,255,255,.7);width:2px}
+.field .yn{position:absolute;bottom:3px;transform:translateX(-50%);font:700 9px/1 var(--num);color:rgba(255,255,255,.75);letter-spacing:.02em}
+.field .rz{position:absolute;top:0;bottom:0;background:rgba(255,77,71,.18)}
+.field .togo{position:absolute;top:0;bottom:0;background:rgba(245,197,66,.18);transition:left .6s,width .6s}
+.field .fd{position:absolute;top:0;bottom:0;width:3px;margin-left:-1.5px;background:#F5C542;box-shadow:0 0 6px rgba(245,197,66,.8);transition:left .6s;z-index:2}
+.field .ls{position:absolute;top:0;bottom:0;width:3px;margin-left:-1.5px;background:#4DA3FF;box-shadow:0 0 6px rgba(77,163,255,.8);transition:left .6s;z-index:2}
+.field .ball{position:absolute;top:50%;width:30px;height:18px;margin:-12px 0 0 -13px;transition:left .6s;z-index:3;filter:drop-shadow(0 2px 2px rgba(0,0,0,.45))}
+.field .ball.rev{transform:scaleX(-1)}
+.field .ball svg{width:100%;height:100%;display:block}
 .board{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:0 0 18px;display:grid;gap:16px;min-width:0;overflow:hidden;position:sticky;top:96px}
 @media (max-width:860px){.board{position:static}}
 .list > .board{margin:10px 0}
@@ -187,14 +203,6 @@ h1 span{color:inherit}
 .sit{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
 .pill{font:600 14px var(--ui);padding:5px 12px;border-radius:999px;background:var(--surface-2);border:1px solid var(--line)}
 .pill.rz{background:var(--live);border-color:var(--live);color:#fff}
-.field{position:relative;height:40px;border-radius:var(--r-sm);overflow:hidden;
-  background:repeating-linear-gradient(90deg,var(--field-a) 0 10%,var(--field-b) 10% 20%)}
-.field .ez{position:absolute;top:0;bottom:0;width:8%;display:flex;align-items:center;justify-content:center;font:700 10px var(--num);color:#fff;letter-spacing:.06em;writing-mode:vertical-rl;opacity:.95}
-.field .ez img{width:86%;max-width:30px;height:auto;max-height:30px;object-fit:contain;transform:none!important;filter:drop-shadow(0 0 1.5px rgba(255,255,255,.85)) drop-shadow(0 1px 2px rgba(0,0,0,.35))}
-.field .ez.l{left:0} .field .ez.r{right:0}
-.field .ball{position:absolute;top:50%;width:12px;height:12px;margin:-6px 0 0 -6px;border-radius:50%;background:#fff;box-shadow:0 0 0 3px rgba(0,0,0,.18);transition:left .6s}
-.field .fd{position:absolute;top:0;bottom:0;width:2px;background:#F5C542;transition:left .6s}
-.field .ls{position:absolute;top:0;bottom:0;width:2px;background:#6FB4FF;transition:left .6s}
 .label{font:600 13px var(--ui);color:var(--muted);margin:0 0 6px}
 .last{padding:12px 14px;border-radius:var(--r-md);background:var(--surface-2);line-height:1.45}
 .wp{display:grid;gap:6px}
@@ -954,8 +962,18 @@ function fieldView(sit, a, h, pid){
   else if(sit.yardsToEndzone!=null && pid) pos = homePoss ? sit.yardsToEndzone : 100 - sit.yardsToEndzone;
   const toPct = y => 8 + (y/100)*84;
   const fdY = sit.distance && pid ? (homePoss ? pos - sit.distance : pos + sit.distance) : null;
-  return `<div class="field" aria-label="Ball on the ${sit.possessionText||""}">${(([ca,ch])=>`<div class="ez l" style="background:${ca}" title="${esc(a.team.abbreviation||"")}">${a.team.logo?`<img src="${a.team.logo}" alt="${esc(a.team.abbreviation||"")}">`:esc(a.team.abbreviation||"")}</div><div class="ez r" style="background:${ch}" title="${esc(h.team.abbreviation||"")}">${h.team.logo?`<img src="${h.team.logo}" alt="${esc(h.team.abbreviation||"")}">`:esc(h.team.abbreviation||"")}</div>`)(barColors(a,h))}
-  <div class="ls" style="left:${toPct(pos)}%"></div>${fdY!=null&&fdY>0&&fdY<100?`<div class="fd" style="left:${toPct(fdY)}%"></div>`:""}<div class="ball" style="left:${toPct(pos)}%"></div></div>`;
+  const [ca, ch] = barColors(a, h);
+  const ez = (t, c, side) => `<div class="ez ${side}" style="--ez:${c}" title="${esc(t.team.abbreviation||"")}">${t.team.logo?`<img src="${t.team.logo}" alt="${esc(t.team.abbreviation||"")}">`:`<span>${esc(t.team.abbreviation||"")}</span>`}</div>`;
+  // Yard lines every 5 yards (bolder every 10) and numbers 10-50-10.
+  let marks = "";
+  for(let y=5; y<100; y+=5) marks += `<i class="yl ${y%10?"":"ten"} ${y===50?"fifty":""}" style="left:${toPct(y)}%"></i>`;
+  for(let y=10; y<100; y+=10) marks += `<b class="yn" style="left:${toPct(y)}%">${y<=50?y:100-y}</b>`;
+  const dir = pid ? (homePoss ? -1 : 1) : 0; // away team drives right
+  const togo = fdY!=null && fdY>0 && fdY<100 ? `<div class="togo" style="left:${toPct(Math.min(pos,fdY))}%;width:${Math.abs(fdY-pos)*0.84}%"></div><div class="fd" style="left:${toPct(fdY)}%"></div>` : "";
+  const rz = sit.isRedZone && dir ? `<div class="rz" style="left:${toPct(dir>0?80:0)}%;width:${20*0.84}%"></div>` : "";
+  return `<div class="field" aria-label="Ball on the ${esc(sit.possessionText||"")}">${ez(a,ca,"l")}${ez(h,ch,"r")}<div class="turf"></div>${rz}${marks}${togo}
+  <div class="ls" style="left:${toPct(pos)}%"></div>
+  <div class="ball ${dir<0?"rev":""}" style="left:${toPct(pos)}%"><svg viewBox="0 0 28 16" aria-hidden="true"><ellipse cx="13" cy="8" rx="11" ry="6.5" fill="#8B4A1F" stroke="#5A2C0E" stroke-width="1"/><path d="M6.5 8h13M10 6v4M12.2 6v4M14.4 6v4M16.6 6v4" stroke="#fff" stroke-width="1.2" stroke-linecap="round"/>${dir?'<path d="M25 4.5l3 3.5-3 3.5" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>':""}</svg></div></div>`;
 }
 function playsView(sum){
   const d = sum?.drives; if(!d) return "";
