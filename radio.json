@@ -1,5 +1,5 @@
 {
-"built": "2026-10-31T21:59:47Z",
+"built": "2026-10-31T22:15:26Z",
 "teams": [
 {
 "school": "Boston College",
@@ -73,16 +73,18 @@
 "conference": "ACC",
 "calls": [
 "WCCP-FM",
-"WAHT"
+"WAHT",
+"WQSC",
+"WRHI",
+"WKDK"
 ],
 "game_only": null,
 "no_radio": null,
 "notes": null,
 "streams": [
 "https://ice5.securenetsystems.net/WQSC",
-"https://ice7.securenetsystems.net/WRHI",
-"https://ice24.securenetsystems.net/WKDK",
-"http://s2.radioreformation.com:8060/;stream.mp3"
+"http://s2.radioreformation.com:8060/;stream.mp3",
+"http://s2.radioreformation.com:8060/stream"
 ],
 "misses": 0,
 "miss_day": null,
