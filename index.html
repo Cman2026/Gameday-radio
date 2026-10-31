@@ -119,6 +119,9 @@ h1 span{color:inherit}
 .ear.on svg{display:none} .ear.on .bars{display:inline-flex}
 .ear.wait{opacity:.7}
 .ear[disabled]{opacity:.35;cursor:default}
+.ear.soon[disabled]{opacity:.8;border-style:dashed;border-color:var(--accent);color:var(--accent)}
+.soon-note{display:flex;align-items:flex-start;gap:8px;margin-top:10px;padding:8px 10px;border-radius:10px;background:var(--accent-soft);color:var(--text);font-size:13px;line-height:1.35}
+.soon-note svg{width:16px;height:16px;flex:none;margin-top:1px;color:var(--accent)}
 .ear:not([disabled]):hover{border-color:var(--accent)}
 
 /* Upcoming */
@@ -366,6 +369,15 @@ function attachRadio(tm){
   RADIO[tm.location] = {net: hit.network || `${tm.location} radio`, station: hit.flagship || "", streams: playable, external, listen: hit.listen_page || ""};
 }
 const RADIO_INFO = {}; // teams we know about but have no free stream for
+// School-run feeds that only exist around game time (picked up ~20 minutes before kickoff).
+function gameTimeOnly(loc){ const i = RADIO_INFO[loc]; return !!(i && i.game_only && !(i.streams||[]).length); }
+function soonNote(e){
+  const ts = e.competitions[0].competitors.map(c=>c.team).filter(t=>!(RADIO[t.location]?.streams?.length) && gameTimeOnly(t.location));
+  if(!ts.length) return "";
+  const names = ts.map(t=>esc(nameOf(t))).join(" and ");
+  const live = e.status.type.state==="in";
+  return `<div class="soon-note"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>${names} radio ${live?"comes from the school's own feed and should appear within a few minutes":"goes live about 20 minutes before kickoff"}.</span></div>`;
+}
 let divFilter = "all", query = "";
 const favs = new Set(JSON.parse(store.get("favs")||"[]"));
 function saveFavs(){ store.set("favs", JSON.stringify([...favs])); }
@@ -440,6 +452,7 @@ function ear(loc, label){
   const has = (RADIO[loc]?.streams?.length) || RADIO[loc]?.external || store.get("stream:"+loc);
   const icon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="5" height="7" rx="2"/><rect x="16" y="14" width="5" height="7" rx="2"/></svg><span class="bars" aria-hidden="true"><i></i><i></i><i></i></span>`;
   const text = label ? `<span>${esc(label)}</span>` : "";
+  if(!has && gameTimeOnly(loc)) return `<button class="ear soon" disabled title="${esc(loc)} radio comes from the school's own feed, available about 20 minutes before kickoff" aria-label="${esc(loc)} radio available about 20 minutes before kickoff">${icon}${text}</button>`;
   if(!has) return `<button class="ear" disabled title="No free radio stream found for ${esc(loc)}" aria-label="No radio for ${esc(loc)}">${icon}${text}</button>`;
   const on = currentTeam===loc && !audio.paused, wait = connecting===loc;
   return `<button class="ear ${on?"on":""} ${wait?"wait":""}" data-team="${esc(loc)}" title="${on?"Pause":"Listen to"} ${esc(loc)} radio" aria-label="${on?"Pause":"Listen to"} ${esc(loc)} radio">${icon}${text}</button>`;
@@ -610,7 +623,7 @@ function card(e){
   const showScore = st.state!=="pre";
   const row = t => `<div class="row"><span class="tm"><button class="fav ${favs.has(t.team.location)?"on":""}" data-fav="${esc(t.team.location)}" aria-label="${favs.has(t.team.location)?"Remove":"Add"} ${esc(t.team.location)} ${favs.has(t.team.location)?"from":"to"} my teams">${favs.has(t.team.location)?'<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>':'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>'}</button>${logoImg(t.team)}<span>${t.curatedRank?.current<26?`<small>${t.curatedRank.current}</small> `:""}${esc(nameOf(t.team))}</span></span><span class="right">${ear(t.team.location, "")}<span class="sc">${showScore?t.score:""}</span></span></div>`;
   return `<div class="card" role="button" tabindex="0" data-id="${e.id}" aria-current="${e.id===selected}">${row(a)}${row(h)}
-  <div class="meta"><span class="${st.state==="in"?"live":""}">${st.state==="pre"?fmtTime(e.date):statusText(e).short}</span><span>${esc((c.broadcasts||[]).flatMap(b=>b.names).join(", "))}<span class="div">${e._div||""}</span></span></div></div>`;
+  <div class="meta"><span class="${st.state==="in"?"live":""}">${st.state==="pre"?fmtTime(e.date):statusText(e).short}</span><span>${esc((c.broadcasts||[]).flatMap(b=>b.names).join(", "))}<span class="div">${e._div||""}</span></span></div>${soonNote(e)}</div>`;
 }
 
 // ---------- Today's upcoming games (shown when nothing is live) ----------
@@ -662,7 +675,7 @@ function upCard(e){
   if(o?.details) bits.push(esc(o.details)); if(o?.overUnder) bits.push(`O/U ${esc(o.overUnder)}`);
   return `<div class="up">${row(a, ap, false)}${row(h, hp, true)}
     ${hp!=null?(([ca,ch])=>`<div class="wpbar" aria-label="Win probability: ${esc(a.team.abbreviation)} ${ap}%, ${esc(h.team.abbreviation)} ${hp}%"><span style="width:${ap}%;background:${ca}"></span><span style="width:${hp}%;background:${ch}"></span></div>`)(barColors(a,h)):""}
-    <div class="meta"><span class="bits">${bits.map(b=>`<span>${b}</span>`).join("")}</span><span class="src">${wp?esc(wp.src):"No odds yet"}</span></div></div>`;
+    <div class="meta"><span class="bits">${bits.map(b=>`<span>${b}</span>`).join("")}</span><span class="src">${wp?esc(wp.src):"No odds yet"}</span></div>${soonNote(e)}</div>`;
 }
 function finCard(e){
   const c = e.competitions[0], a = team(c,"away"), h = team(c,"home");
