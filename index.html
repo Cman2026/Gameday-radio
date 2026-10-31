@@ -458,6 +458,8 @@ function soonNote(e){
 }
 // School feeds that still haven't shown up 25 minutes after kickoff probably aren't coming.
 function lateFor(loc){ const e = events.find(x=>x.competitions[0].competitors.some(c=>c.team.location===loc)); return !!(e && feedLate(e)); }
+// Only show a real down-and-distance ("3rd & 4 at HC 30"); around scores and kickoffs ESPN sometimes sends fragments like "& Goal at HC 3".
+function goodDD(t){ return /^(1st|2nd|3rd|4th)\b/i.test((t||"").trim()); }
 function feedLate(e){ return e.status.type.state==="in" && Date.now() - Date.parse(e.date) > 25*60e3; }
 function note(text, kind){
   const icon = kind==="off"
@@ -729,7 +731,7 @@ function gameLine(loc){
   const parts = [score, clock];
   if(!stx.brk){
     if(pos) parts.push(`${ab(pos)} ball`);
-    if(sit.downDistanceText) parts.push(esc(sit.downDistanceText));
+    if(goodDD(sit.downDistanceText)) parts.push(esc(sit.downDistanceText));
     else if(sit.possessionText) parts.push(`at ${esc(sit.possessionText)}`);
     if(sit.isRedZone) parts.push(`<span class="drz">Red zone</span>`);
   }
@@ -759,7 +761,7 @@ function updateLockScreen(){
     title = `${ab(a)} ${a.score}  ·  ${ab(h)} ${h.score}`;
     const bits = [stx.brk ? stx.short : `${qName(e.status.period)} ${liveClock(e)}`];
     if(!stx.brk){
-      if(sit.downDistanceText) bits.push(sit.downDistanceText);
+      if(goodDD(sit.downDistanceText)) bits.push(sit.downDistanceText);
       if(pos) bits.push(`${ab(pos)} ball`);
     }
     artist = bits.join("  ·  ");
@@ -962,7 +964,7 @@ function renderBoard(){
   let html = `<div class="score" style="--away:${bc[0]};--home:${bc[1]}">${side(a,"away")}<div class="mid"><div class="clock">${st.type.state==="in"&&!stx.brk?`<span data-clk="${e.id}">${liveClock(e)}</span>`:""}</div><div class="per">${st.type.state==="pre"?fmtTime(e.date):per}</div></div>${side(h,"home")}</div>`;
   if(st.type.state==="in"){
     const pills = [];
-    if(sit.downDistanceText) pills.push(`<span class="pill">${sit.downDistanceText}</span>`);
+    if(goodDD(sit.downDistanceText)) pills.push(`<span class="pill">${esc(sit.downDistanceText)}</span>`);
     if(sit.isRedZone) pills.push(`<span class="pill rz">Red zone</span>`);
     if(pills.length) html += `<div class="sit">${pills.join("")}</div>`;
     html += fieldView(sit, a, h, pid, e.id);
