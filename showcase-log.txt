@@ -13,14 +13,20 @@ allaccess error https://hawkeyesports.com HTTP Error 404: Not Found
 allaccess error https://auburntigers.com HTTP Error 404: Not Found
 allaccess error https://odusports.com HTTP Error 404: Not Found
 allaccess error https://gostanford.com HTTP Error 404: Not Found
+allaccess error https://byucougars.com HTTP Error 404: Not Found
+allaccess error https://thesundevils.com HTTP Error 404: Not Found
+allaccess error https://nusports.com HTTP Error 404: Not Found
 allaccess error https://gocolgateraiders.com <urlopen error [Errno 104] Connection reset by peer>
 allaccess error https://gosoutheast.com HTTP Error 404: Not Found
-official feeds added for: Texas Tech University, Syracuse University, Southern Methodist University, North Carolina State University, University of California, Berkeley, Duke University, University of Illinois Urbana-Champaign, University of Alabama at Birmingham, University of Wisconsin-Madison, Rutgers University, University of Michigan, University of Mississippi, Marshall University, University of Colorado Boulder, Kansas State University, United States Air Force Academy, University of Connecticut, University of South Alabama, Louisiana Tech University, University of Louisville, University of Maine, Bucknell University, North Carolina A&T State University, Morehead State University, Illinois State University, Murray State University, University of Northern Iowa, Indiana State University, University of St. Thomas (Minnesota), Montana State University, Northern Arizona University, Stephen F. Austin State University
-allaccess error https://ccsubluedevils.com HTTP Error 405: Not Allowed
+allaccess error https://ttusports.com HTTP Error 405: Not Allowed
+official feeds added for: Texas Tech University, Syracuse University, Southern Methodist University, University of Wisconsin-Madison, North Carolina State University, University of California, Berkeley, Duke University, University of Illinois Urbana-Champaign, University of Alabama at Birmingham, Rutgers University, University of Michigan, University of Mississippi, Marshall University, University of Colorado Boulder, Kansas State University, United States Air Force Academy, University of Connecticut, University of South Alabama, Louisiana Tech University, University of Louisville, University of Georgia, University of Florida, Indiana University, University of Minnesota, University of Oregon, Texas Christian University, Utah State University, Colorado State University, North Dakota State University, University of Texas at El Paso, Liberty University, University of Southern Mississippi, University of Maine, Bucknell University, North Carolina A&T State University, Morehead State University, Illinois State University, Murray State University, University of Northern Iowa, Indiana State University, University of St. Thomas (Minnesota), Montana State University, Northern Arizona University, Stephen F. Austin State University
+Temple University -> (feed) ['https://cdn.jwplayer.com/live/broadcast/3j2GACVG.m3u8']
 Campbell University -> (feed) ['https://cdn.jwplayer.com/live/broadcast/8eUvetd9.m3u8']
+allaccess error https://ccsubluedevils.com HTTP Error 405: Not Allowed
 University of Richmond -> (feed) ['https://stream.rcs.revma.com/x4q6k4dw57uvv']
-University of Rhode Island -> []
-University of Rhode Island -> []
+leanplayer xml https://rhody.leanplayer.com/ <?xml version="1.0"?> <main><sports><sport><id>1579</id><name>Rhode Island Football Coachs Show</name><is_show>1</is_show></sport><sport><id>1</id><name>Football</name><is_show>0</is_show></sport><sport><id>1597</id><name>The Archie Miller + Tammi Reiss Show</name><is_show>1</is_show></sport><sport><id>888</id><name>Rhode Island Football Coach's Show</name><is_show>1</is_show></sport><sport><id>441</id><name>Archie Miller Show</name><is_show>1</is_show></sport><sport><id>3</id><name>Women&#x2019;s Basketball</name><is_show>0</is_show></sport><sport><id>2</id><name>Men&#x2019;s Basketball</name
+University of Rhode Island -> (leanplayer) ['https://learfield-gd.leanstream.co/LF4901-MP3?sport=FB', 'https://learfield-gd.leanstream.co/LF4901-MP3?sport=MBB', 'https://learfield-gd.leanstream.co/LF4902-MP3?sport=WBB']
+Sacred Heart University -> []
 Brown University -> []
 Brown University -> []
 University of Pennsylvania -> []
@@ -33,13 +39,10 @@ Robert Morris University -> ['https://stream.radio.co/s521a8e223/listen']
 Robert Morris University -> ['https://stream.radio.co/s521a8e223/listen']
 Stonehill College -> []
 Mercyhurst University -> []
-University of New Haven -> []
-Sacred Heart University -> []
 Merrimack College -> []
 Wagner College -> []
+University of New Haven -> []
 Lafayette College -> []
-Elon University -> []
-Elon University -> ['https://img.leanstream.co/IM7401-MP3']
 College of the Holy Cross -> []
 Butler University -> []
 Stetson University -> []

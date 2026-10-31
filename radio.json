@@ -729,10 +729,13 @@
 "game_only": true,
 "no_radio": null,
 "notes": "Free school audio on OwlSports.com",
-"streams": [],
+"streams": [
+"https://cdn.jwplayer.com/live/broadcast/3j2GACVG.m3u8"
+],
 "misses": 0,
 "miss_day": null,
-"last_ok": null
+"last_ok": null,
+"live_only": true
 },
 {
 "school": "Tulane University",
@@ -1129,11 +1132,13 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM1801-MP3",
 "https://ice64.securenetsystems.net/WXRR"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Troy University",
@@ -1479,13 +1484,15 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM4901-MP3",
 "https://stream.revma.ihrhls.com/zc3379",
 "https://stream.revma.ihrhls.com/zc3379/hls.m3u8",
 "http://stream.revma.ihrhls.com/zc3379"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Texas Tech University",
@@ -1713,11 +1720,13 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM7301-MP3",
 "https://soundmanagement.streamguys1.com/WHCC"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "University of Iowa",
@@ -1815,13 +1824,15 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM8401-MP3",
 "https://stream.revma.ihrhls.com/zc1209",
 "https://stream.revma.ihrhls.com/zc1209/hls.m3u8",
 "http://stream.revma.ihrhls.com/zc1209"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "University of Nebraska-Lincoln",
@@ -1891,13 +1902,15 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM0801-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAMAAC.m3u8",
 "http://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAMAAC.aac"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Purdue University",
@@ -2291,10 +2304,15 @@
 "game_only": true,
 "no_radio": null,
 "notes": "Free school audio (LEANplayer)",
-"streams": [],
+"streams": [
+"https://learfield-gd.leanstream.co/LF4901-MP3?sport=FB",
+"https://learfield-gd.leanstream.co/LF4901-MP3?sport=MBB",
+"https://learfield-gd.leanstream.co/LF4902-MP3?sport=WBB"
+],
 "misses": 0,
 "miss_day": null,
-"last_ok": null
+"last_ok": null,
+"live_only": true
 },
 {
 "school": "Sacred Heart University",
@@ -5478,11 +5496,13 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://cdn.jwplayer.com/live/broadcast/HbKj5OE5.m3u8",
 "https://ic.liberty.edu:8443/WRVL"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Middle Tennessee State University",
@@ -5647,13 +5667,15 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF1701-MP3",
 "https://bonneville.cdnstream1.com/2612_48.aac?aw_0_1st.playerid=IHM",
 "https://bonneville.cdnstream1.com/2612_48.aac/playlist.m3u8?aw_0_1st.playerid=IHM",
 "http://bonneville.cdnstream1.com/2612_48.aac?aw_0_1st.playerid=IHM"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "California State University, Fresno",
@@ -5776,11 +5798,13 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF6301-MP3",
 "https://bonneville.cdnstream1.com/2706_48.aac"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Washington State University",
@@ -5937,11 +5961,13 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF7501-MP3",
 "https://ice3.securenetsystems.net/KQWB"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Northern Illinois University",
@@ -6041,13 +6067,15 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://cdn.jwplayer.com/live/broadcast/hjufVnQl.m3u8",
 "https://live.amperwave.net/manifest/townsquare-klaqfmaac-ibc3",
 "https://live.amperwave.net/manifest/townsquare-klaqfmaac-hlsc3.m3u8",
 "https://live.amperwave.net/manifest/townsquare-klaqhd2fmaac-hlsc3.m3u8"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "University of Wyoming",
@@ -6167,13 +6195,15 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM3601-MP3",
 "https://ais-sa1.streamon.fm/7644_64k.mp3",
 "https://ais-sa1.streamon.fm/7644_48k.aac",
 "http://ais-sa1.streamon.fm/7644_48k.aac/playlist.m3u8"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "University of Georgia",
@@ -6194,12 +6224,14 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM5001-MP3",
 "https://cmg.streamguys1.com/atl750/atl750-encoder.aac/playlist.m3u8?aw_0_1st.playerId=cmg_iheart",
 "http://cmg.streamguys1.com/atl750/atl750-encoder.aac/playlist.m3u8?aw_0_1st.playerId=cmg_iheart"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "University of Kentucky",
