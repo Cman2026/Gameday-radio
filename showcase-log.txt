@@ -10,10 +10,8 @@ No user sessions are running outdated binaries.
 No VM guests are running outdated hypervisor (qemu) binaries on this host.
 allaccess error https://fightingirish.com HTTP Error 404: Not Found
 allaccess error https://hawkeyesports.com HTTP Error 404: Not Found
-allaccess error https://fightingillini.com The read operation timed out
 allaccess error https://auburntigers.com HTTP Error 404: Not Found
 allaccess error https://odusports.com HTTP Error 404: Not Found
-allaccess error https://kstatesports.com Remote end closed connection without response
 allaccess error https://gostanford.com HTTP Error 404: Not Found
 allaccess error https://byucougars.com HTTP Error 404: Not Found
 allaccess error https://thesundevils.com HTTP Error 404: Not Found
@@ -29,7 +27,7 @@ allaccess error https://purduesports.com HTTP Error 404: Not Found
 allaccess error https://gocolgateraiders.com <urlopen error [Errno 104] Connection reset by peer>
 allaccess error https://gosoutheast.com HTTP Error 404: Not Found
 allaccess error https://ttusports.com HTTP Error 405: Not Allowed
-official feeds added for: Texas Tech University, Syracuse University, Southern Methodist University, University of Wisconsin-Madison, North Carolina State University, University of California, Berkeley, Duke University, University of Alabama at Birmingham, Rutgers University, University of Michigan, University of Mississippi, Marshall University, University of Colorado Boulder, United States Air Force Academy, University of Connecticut, University of South Alabama, Louisiana Tech University, University of Louisville, University of Georgia, University of Florida, Indiana University, University of Minnesota, University of Oregon, Texas Christian University, Utah State University, Colorado State University, North Dakota State University, University of Texas at El Paso, Liberty University, University of Southern Mississippi, Wake Forest University, University of Maine, Bucknell University, North Carolina A&T State University, Morehead State University, Illinois State University, Murray State University, University of Northern Iowa, Indiana State University, University of St. Thomas (Minnesota), Montana State University, Northern Arizona University, Stephen F. Austin State University, South Dakota State University, University of South Dakota, University of Montana, University of Idaho, University of North Alabama
+official feeds added for: Texas Tech University, Syracuse University, Southern Methodist University, University of Wisconsin-Madison, North Carolina State University, University of California, Berkeley, Duke University, University of Illinois Urbana-Champaign, University of Alabama at Birmingham, Rutgers University, University of Michigan, University of Mississippi, Marshall University, University of Colorado Boulder, Kansas State University, United States Air Force Academy, University of Connecticut, University of South Alabama, Louisiana Tech University, University of Louisville, University of Georgia, University of Florida, Indiana University, University of Minnesota, University of Oregon, Texas Christian University, Utah State University, Colorado State University, North Dakota State University, University of Texas at El Paso, Liberty University, University of Southern Mississippi, Wake Forest University, University of Maine, Bucknell University, North Carolina A&T State University, Morehead State University, Illinois State University, Murray State University, University of Northern Iowa, Indiana State University, University of St. Thomas (Minnesota), Montana State University, Northern Arizona University, Stephen F. Austin State University, South Dakota State University, University of South Dakota, University of Montana, University of Idaho, University of North Alabama
 Temple University -> (feed) ['https://cdn.jwplayer.com/live/broadcast/3j2GACVG.m3u8']
 Campbell University -> (feed) ['https://cdn.jwplayer.com/live/broadcast/8eUvetd9.m3u8']
 allaccess error https://ccsubluedevils.com HTTP Error 405: Not Allowed
@@ -46,14 +44,15 @@ Princeton University -> []
 Princeton University -> []
 Cornell University -> []
 Central Connecticut State University -> []
-Robert Morris University -> ['https://stream.radio.co/s521a8e223/listen']
-Robert Morris University -> ['https://stream.radio.co/s521a8e223/listen']
+Robert Morris University -> []
+Robert Morris University -> []
 Stonehill College -> []
 Mercyhurst University -> []
 Merrimack College -> []
 Wagner College -> []
 University of New Haven -> []
 Lafayette College -> []
+Hampton University -> []
 College of the Holy Cross -> []
 Butler University -> []
 Stetson University -> []
@@ -62,6 +61,16 @@ North Carolina Central University -> []
 North Carolina Central University -> []
 Howard University -> []
 Charleston Southern University -> []
+Davidson College -> []
+Davidson College -> []
 University of the Incarnate Word -> []
-Davidson College -> []
-Davidson College -> []
+Chicago State University -> []
+Delaware State University -> []
+California Polytechnic State University -> []
+Utah Tech University -> []
+Utah Tech University -> ['https://radio.securenetsystems.net/cirrusencore/embed/stationSettings.cfm?stationCallSign=KAZZ&_=1793471648014', 'https://ssiadnweb.securenetsystems.net/advertising/ad_campaign_get.cfm?randStr=0.5219262828888327&stationCallSign=KAZZ&playerAdvertisingMode=ADN&cType=PRA&adTypePos=1%7C1&externalProvider=&geoCTCode=US&geoDMACode=759&cGeoLocationLevel=1&sGenre=S40&cClassRunning=&cClassExclusion=&playSessionID=8E130700-0497-45BB-8176202536F7F629&adCallId=&adCallSeq=&adCallIdn=&adCallStCode=&requestAssetType=&isPlayerVisible=true&getAdModeFromSEQonly=false&sslmode=true', 'https://ice6.securenetsystems.net/KAZZ?playSessionID=8E130700-0497-45BB-8176202536F7F629']
+Eastern Illinois University -> []
+Eastern Illinois University -> []
+Mississippi Valley State University -> []
+University of Arkansas at Pine Bluff -> []
+Southern University -> []
