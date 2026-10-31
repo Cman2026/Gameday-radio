@@ -921,8 +921,14 @@ function renderBoard(){
   const e = events.find(x=>x.id===selected); const B = $("#board");
   if(!e || !boardOpen){B.innerHTML = ""; B.hidden = true; return;}
   B.hidden = false;
-  const c = e.competitions[0], a = team(c,"away"), h = team(c,"home"), st = e.status, sit = c.situation||{};
+  const c = e.competitions[0], a = team(c,"away"), h = team(c,"home"), st = e.status, sit0 = c.situation||{};
   const ss = snap(summaryHist, x=>x.id===selected); const sum = ss?.s; const pid = possId(e);
+  // During timeouts and reviews the scoreboard drops down-and-distance and the spot;
+  // the play-by-play still has them, so fill the gaps from the latest play.
+  const lastP = (sum?.drives?.current?.plays||[]).slice(-1)[0];
+  const sit = {...sit0};
+  if(!sit.downDistanceText && st.type.state==="in") sit.downDistanceText = lastP?.end?.downDistanceText || lastP?.start?.downDistanceText || "";
+  if(!sit.possessionText && st.type.state==="in") sit.possessionText = lastP?.end?.possessionText || lastP?.start?.possessionText || "";
   const side = (t, cls) => {
     const tos = cls==="home"?sit.homeTimeouts:sit.awayTimeouts;
     return `<div class="side ${pid===t.team.id?"poss":""}">${logoImg(t.team)}
