@@ -26,15 +26,16 @@ def live_teams():
             with urllib.request.urlopen(urllib.request.Request(SCOREBOARD.format(g), headers=UA), timeout=20) as r:
                 for e in json.loads(r.read()).get("events", []):
                     st = e.get("status", {}).get("type", {}).get("state")
-                    soon = False
+                    soon, mins = False, 0
                     if st == "pre":  # pregame shows start before kickoff
                         try:
                             ko = datetime.datetime.fromisoformat(e["date"].replace("Z", "+00:00"))
-                            soon = (ko - datetime.datetime.now(datetime.timezone.utc)).total_seconds() < 90 * 60
+                            mins = (ko - datetime.datetime.now(datetime.timezone.utc)).total_seconds() / 60
+                            soon = mins < 180
                         except Exception:
                             pass
                     if st == "in" or soon:
-                        out += [c["team"] for c in e["competitions"][0]["competitors"]]
+                        out += [dict(c["team"], _mins=mins) for c in e["competitions"][0]["competitors"]]
         except Exception as ex:
             print("scoreboard error", g, ex)
     return out
@@ -118,6 +119,7 @@ def main():
         if t.get("streams") and not info.get("game_only"):
             continue
         site = info.get("athletics_site")
+        t["_mins"] = min(t.get("_mins", 999), tm.get("_mins", 0))
         if site:
             targets[site.rstrip("/") + "/showcase"] = t
         lp = info.get("listen_page")
@@ -136,6 +138,8 @@ def main():
             print(t["school"], "-> (feed)", got)
             t["streams"] = list(dict.fromkeys(got + (t.get("streams") or [])))[:4]; t["live_only"] = True; changed = True
             targets = {u: x for u, x in targets.items() if x is not t}
+    # Opening pages in a browser is slow, so only do it close to kickoff.
+    targets = {u: x for u, x in targets.items() if x.get("_mins", 0) < 45}
     found = sniff(list(targets)) if targets else {}
     for url, t in targets.items():
         streams = [u for u in found.get(url, []) if "player_status" not in u and "/v5/" not in u][:3]
@@ -143,6 +147,8 @@ def main():
         print(t["school"], "->", streams)
         if streams:
             t["streams"] = streams; t["live_only"] = True; changed = True
+    for t in radio["teams"]:
+        t.pop("_mins", None)
     if changed:
         json.dump(radio, open("radio.json", "w"), indent=0)
 
