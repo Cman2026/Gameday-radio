@@ -433,8 +433,9 @@ async function loadDirectory(){
 }
 let playback = {streams:{}, teams:{}};
 const SECURE_PAGE = location.protocol === "https:";
-function orderStreams(school, streams){
+function orderStreams(school, streams, feeds){
   const pb = playback.teams?.[school] || {}, res = playback.streams || {};
+  const isFeed = u => (feeds||[]).includes(u); // school game feeds only exist during games, so a failed test outside one means nothing
   const key = u => u.replace(/^https?:\/\//,"").replace(/:\d+\//,"/");
   // Keep the directory's order (official game feeds first). The playback test may have found a
   // secure (https) version of a stream: use it in that stream's place. Streams the test knows
@@ -444,7 +445,7 @@ function orderStreams(school, streams){
     const variants = (pb.inpage||[]).filter(v => key(v) === key(u) && v !== u);
     [...variants, u].forEach(v => { if(!all.some(x=>x.u===v)) all.push({u: v, i}); });
   });
-  const hard = u => res[u]?.ok === false ? 3 : (SECURE_PAGE && u.startsWith("http:")) ? 4 : 0;
+  const hard = u => (res[u]?.ok === false && !isFeed(u)) ? 3 : (SECURE_PAGE && u.startsWith("http:")) ? 4 : 0;
   const playable = all
     .filter(x => !(SECURE_PAGE && x.u.startsWith("http:")) && liveVerdict(x.u)?.verdict !== "blocked" && !["blocked","not_game"].includes(heard(x.u)))
     .sort((a,b) => hard(a.u)-hard(b.u) || vRank(a.u)-vRank(b.u) || a.i-b.i)
@@ -457,7 +458,7 @@ function attachRadio(tm){
   const tries = [tm.location, tm.displayName, `${tm.location} ${tm.name||""}`, tm.shortDisplayName, tm.abbreviation];
   let hit = null; for(const n of tries){ hit = dirIndex.get(normName(n)); if(hit) break; }
   if(!hit || !(hit.streams||[]).length){ if(hit) RADIO_INFO[tm.location] = hit; return; }
-  const {playable, external} = orderStreams(hit.school, hit.streams);
+  const {playable, external} = orderStreams(hit.school, hit.streams, hit.game_feeds);
   RADIO[tm.location] = {net: hit.network || `${tm.location} radio`, station: hit.flagship || "", streams: playable, external, listen: hit.listen_page || ""};
 }
 const RADIO_INFO = {}; // teams we know about but have no free stream for

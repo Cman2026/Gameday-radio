@@ -76,6 +76,11 @@ def main():
     want = teams_in_games(scope)
     radio = json.load(open("radio.json"))["teams"]
     teams = [t for t in radio if t.get("streams") and (want is None or any(norm(n) in want for n in [t["school"]] + (t.get("names") or [])))]
+    # School game feeds are only on the air during a game; testing them any other time just records a failure.
+    if scope != "live":
+        for t in teams:
+            t["streams"] = [u for u in t["streams"] if u not in (t.get("game_feeds") or [])]
+        teams = [t for t in teams if t["streams"]]
     print(f"testing {len(teams)} teams ({scope})")
     try:
         state = json.load(open("playback.json"))
