@@ -2263,7 +2263,9 @@
   "calls": [
    "WPJK-AM"
   ],
-  "streams": [],
+  "streams": [
+   "https://stream.zeno.fm/71u92uesqp8uv"
+  ],
   "athletics_site": "https://scsuathletics.com",
   "station_website": "https://espnorangeburg.com"
  },
@@ -2394,7 +2396,8 @@
   ],
   "streams": [],
   "athletics_site": "https://ttusports.com",
-  "station_website": "https://1061theeagle.com"
+  "station_website": "https://1061theeagle.com",
+  "securenet": "WPTNAM"
  },
  {
   "school": "The Citadel",
@@ -3232,9 +3235,12 @@
   "calls": [
    "KCVM-FM"
   ],
-  "streams": [],
+  "streams": [
+   "https://ice7.securenetsystems.net/THEMIX"
+  ],
   "athletics_site": "https://unipanthers.com",
-  "station_website": "https://935themix.com"
+  "station_website": "https://935themix.com",
+  "securenet": "THEMIX"
  },
  {
   "school": "University of South Dakota",
@@ -3350,7 +3356,9 @@
   "calls": [
    "KUCA-FM"
   ],
-  "streams": [],
+  "streams": [
+   "https://us2.maindigitalstream.com/ssl/KUCA"
+  ],
   "athletics_site": "https://ucasports.com",
   "station_website": "https://uca.edu/kuca/"
  },
@@ -3387,7 +3395,9 @@
   "calls": [
    "WLXA-FM"
   ],
-  "streams": [],
+  "streams": [
+   "https://ice64.securenetsystems.net/WLLX"
+  ],
   "athletics_site": "https://roarlions.com"
  },
  {
@@ -3439,7 +3449,9 @@
   "calls": [
    "WCKS-FM"
   ],
-  "streams": [],
+  "streams": [
+   "https://ice66.securenetsystems.net/WCKS"
+  ],
   "athletics_site": "https://uwgathletics.com",
   "securenet": "WCKS"
  },
