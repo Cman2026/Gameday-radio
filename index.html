@@ -171,6 +171,8 @@ h1 span{color:inherit}
 .legal{margin:6px 0 0;font-size:12px;line-height:1.5;color:var(--faint)}
 .foot{max-width:1120px;margin:8px auto 0;padding:18px max(16px,env(safe-area-inset-right,0px)) calc(28px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));border-top:1px solid var(--line);font-size:12px;line-height:1.55;color:var(--faint);display:grid;gap:6px}
 .foot p{margin:0;max-width:72ch}
+.foot .bugs{color:var(--muted);padding-top:6px;border-top:1px dashed var(--line)}
+.foot .bugs a{color:var(--accent);font-weight:600}
 .empty{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:18px 16px;color:var(--muted);line-height:1.5}
 
 /* ---------- Scoreboard ---------- */
@@ -357,6 +359,7 @@ h1 span{color:inherit}
 <footer class="foot">
   <p>Gameday Radio Live is an independent fan project. It is not affiliated with or endorsed by any school, conference, network, radio station or ESPN.</p>
   <p>Radio broadcasts play directly from each station's own stream and remain the property of their owners. Team names and logos are trademarks of their respective owners. Scores and game data from ESPN. No copyright infringement is intended; rights holders can <a href="https://github.com/Cman2026/Gameday-radio/issues" target="_blank" rel="noopener">request removal</a> and we'll take it down.</p>
+  <p class="bugs">Spotted a bug, or a station that isn't carrying its game? <a href="https://github.com/Cman2026/Gameday-radio/issues/new?title=Bug%3A%20&body=What%20happened%3F%0A%0AWhich%20game%20or%20team%3F%0A%0APhone%20or%20computer%3F%0A" target="_blank" rel="noopener">Report it here</a> and it gets looked at before the next game day.</p>
 </footer>
 <audio id="audio" preload="none"></audio>
 

@@ -90,7 +90,10 @@ def leanplayer_audio(page_url):
         xml = urllib.request.urlopen(urllib.request.Request(xu, headers=UA), timeout=15).read().decode("utf-8", "ignore")
         print("leanplayer xml", page_url, xml[:600].replace("\n", " "))
         urls = re.findall(r"""https?://[^"'\s<>\]]+""", xml)
-        return [u for u in dict.fromkeys(urls) if re.search(r"leanstream|\.m3u8|\.mp3|\.aac|/live", u, re.I) and not NOT_LIVE.search(u)][:3]
+        urls = [u for u in dict.fromkeys(urls) if re.search(r"leanstream|\.m3u8|\.mp3|\.aac|/live", u, re.I) and not NOT_LIVE.search(u)
+                and not re.search(r"sport=(MBB|WBB|VB|SOC|MSOC|WSOC|BSB|SB|HOC|MHOC|WHOC|LAX|MLAX|WLAX)\b", u, re.I)]  # football only
+        fb = [u for u in urls if re.search(r"sport=FB\b", u, re.I)]
+        return (fb or urls)[:3]
     except Exception as ex:
         print("leanplayer error", page_url, str(ex)[:100]); return []
 
