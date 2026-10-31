@@ -1,0 +1,23 @@
+name: Save today's schedule
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: |
+          d=$(TZ=America/New_York date +%Y%m%d)
+          for g in 80 81; do curl -sS "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?groups=$g&limit=400&dates=$d" -o sb-$g.json; done
+          python3 -c "
+          import json
+          out=[]
+          for g,div in ((80,'FBS'),(81,'FCS')):
+            for e in json.load(open(f'sb-{g}.json')).get('events',[]):
+              c=e['competitions'][0]
+              out.append({'id':e['id'],'name':e['shortName'],'date':e['date'],'state':e['status']['type']['state'],'div':div,
+                'teams':[{'location':t['team'].get('location'),'display':t['team'].get('displayName'),'short':t['team'].get('shortDisplayName'),'home':t['homeAway']=='home'} for t in c['competitors']]})
+          json.dump(out,open('today-games.json','w'),indent=0)
+          "
+      - run: tools/publish.sh "Today's schedule" today-games.json
