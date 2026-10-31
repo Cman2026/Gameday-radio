@@ -1,0 +1,36 @@
+== plain 1
+cache-control: max-age=3
+date: Sat, 31 Oct 2026 16:58:10 GMT
+== buster 1
+cache-control: max-age=3
+date: Sat, 31 Oct 2026 16:58:10 GMT
+== summary
+cache-control: max-age=4
+date: Sat, 31 Oct 2026 16:58:10 GMT
+== cdn core
+cache-control: max-age=300
+date: Sat, 31 Oct 2026 16:58:11 GMT
+== plain 2
+cache-control: max-age=2
+date: Sat, 31 Oct 2026 16:58:21 GMT
+== buster 2
+cache-control: max-age=2
+date: Sat, 31 Oct 2026 16:58:21 GMT
+== summary
+cache-control: max-age=3
+date: Sat, 31 Oct 2026 16:58:21 GMT
+== cdn core
+cache-control: max-age=290
+date: Sat, 31 Oct 2026 16:58:21 GMT
+== plain 3
+cache-control: max-age=2
+date: Sat, 31 Oct 2026 16:58:31 GMT
+== buster 3
+cache-control: max-age=2
+date: Sat, 31 Oct 2026 16:58:31 GMT
+== summary
+cache-control: max-age=2
+date: Sat, 31 Oct 2026 16:58:32 GMT
+== cdn core
+cache-control: max-age=279
+date: Sat, 31 Oct 2026 16:58:32 GMT
