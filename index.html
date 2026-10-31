@@ -130,7 +130,11 @@ h1 span{color:inherit}
 .up .pct.fav{color:var(--text);font-weight:700}
 .wpbar{display:flex;height:4px;border-radius:2px;overflow:hidden;background:var(--line);gap:2px}
 .wpbar span{display:block;height:100%}
-.up .meta{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:4px 12px;font-size:13px;color:var(--muted)}
+.up .meta{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:13px;color:var(--muted);min-width:0}
+.up .meta .bits{display:flex;flex-wrap:nowrap;gap:12px;min-width:0;overflow:hidden}
+.up .meta .bits>span{white-space:nowrap;flex:none}
+.up .meta .bits>span:nth-child(2){flex:0 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis}
+.up .meta .src{flex:none;white-space:nowrap}
 .up .meta b{color:var(--text);font-weight:600}
 .meta .bits{display:flex;flex-wrap:wrap;gap:4px 12px}
 .meta .src{color:var(--faint);font-size:12px}
@@ -604,7 +608,7 @@ function team(c, side){return c.competitors.find(t=>t.homeAway===side)}
 function card(e){
   const c = e.competitions[0], a = team(c,"away"), h = team(c,"home"), st = e.status.type;
   const showScore = st.state!=="pre";
-  const row = t => `<div class="row"><span class="tm"><button class="fav ${favs.has(t.team.location)?"on":""}" data-fav="${esc(t.team.location)}" aria-label="${favs.has(t.team.location)?"Remove":"Add"} ${esc(t.team.location)} ${favs.has(t.team.location)?"from":"to"} my teams">${favs.has(t.team.location)?'<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>':'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>'}</button><img src="${t.team.logo||""}" alt=""><span>${t.curatedRank?.current<26?`<small>${t.curatedRank.current}</small> `:""}${esc(t.team.shortDisplayName)}</span></span><span class="right">${ear(t.team.location, "")}<span class="sc">${showScore?t.score:""}</span></span></div>`;
+  const row = t => `<div class="row"><span class="tm"><button class="fav ${favs.has(t.team.location)?"on":""}" data-fav="${esc(t.team.location)}" aria-label="${favs.has(t.team.location)?"Remove":"Add"} ${esc(t.team.location)} ${favs.has(t.team.location)?"from":"to"} my teams">${favs.has(t.team.location)?'<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>':'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>'}</button>${logoImg(t.team)}<span>${t.curatedRank?.current<26?`<small>${t.curatedRank.current}</small> `:""}${esc(nameOf(t.team))}</span></span><span class="right">${ear(t.team.location, "")}<span class="sc">${showScore?t.score:""}</span></span></div>`;
   return `<div class="card" role="button" tabindex="0" data-id="${e.id}" aria-current="${e.id===selected}">${row(a)}${row(h)}
   <div class="meta"><span class="${st.state==="in"?"live":""}">${st.state==="pre"?fmtTime(e.date):statusText(e).short}</span><span>${esc((c.broadcasts||[]).flatMap(b=>b.names).join(", "))}<span class="div">${e._div||""}</span></span></div></div>`;
 }
@@ -651,19 +655,19 @@ function upCard(e){
   const hp = wp ? Math.round(wp.home) : null, ap = hp==null ? null : 100-hp;
   const rank = t => t.curatedRank?.current && t.curatedRank.current < 26 ? `<span class="rk">${t.curatedRank.current}</span>` : "";
   const row = (t, pct, isHome) => `<div class="tr"><button class="fav ${favs.has(t.team.location)?"on":""}" data-fav="${esc(t.team.location)}" aria-label="${favs.has(t.team.location)?"Remove":"Add"} ${esc(t.team.location)} ${favs.has(t.team.location)?"from":"to"} my teams">${favs.has(t.team.location)?'<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>':'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>'}</button>
-    <img src="${t.team.logo||""}" alt=""><span class="nm">${isHome?'<span class="at">@ </span>':""}${rank(t)}${esc(t.team.shortDisplayName)}</span>
+    ${logoImg(t.team)}<span class="nm">${isHome?'<span class="at">@ </span>':""}${rank(t)}${esc(nameOf(t.team))}</span>
     <span class="rec">${esc(t.records?.[0]?.summary||"")}</span>${ear(t.team.location, "")}<span class="pct ${pct!=null&&pct>=50?"fav":""}">${pct==null?"":pct+"%"}</span></div>`;
   const bits = [`<b>${new Date(e.date).toLocaleTimeString([], {hour:"numeric", minute:"2-digit", hour12:true})}</b>`];
-  const tv = (c.broadcasts||[]).flatMap(b=>b.names).join(", "); if(tv) bits.push(esc(tv));
+  const tvs = (c.broadcasts||[]).flatMap(b=>b.names), tv = tvs.slice(0,2).join(", ") + (tvs.length>2?` +${tvs.length-2}`:""); if(tvs.length) bits.push(esc(tv));
   if(o?.details) bits.push(esc(o.details)); if(o?.overUnder) bits.push(`O/U ${esc(o.overUnder)}`);
   return `<div class="up">${row(a, ap, false)}${row(h, hp, true)}
-    ${hp!=null?`<div class="wpbar" aria-label="Win probability: ${esc(a.team.abbreviation)} ${ap}%, ${esc(h.team.abbreviation)} ${hp}%"><span style="width:${ap}%;background:#${a.team.color||"888"}"></span><span style="width:${hp}%;background:#${h.team.color||"ccc"}"></span></div>`:""}
+    ${hp!=null?(([ca,ch])=>`<div class="wpbar" aria-label="Win probability: ${esc(a.team.abbreviation)} ${ap}%, ${esc(h.team.abbreviation)} ${hp}%"><span style="width:${ap}%;background:${ca}"></span><span style="width:${hp}%;background:${ch}"></span></div>`)(barColors(a,h)):""}
     <div class="meta"><span class="bits">${bits.map(b=>`<span>${b}</span>`).join("")}</span><span class="src">${wp?esc(wp.src):"No odds yet"}</span></div></div>`;
 }
 function finCard(e){
   const c = e.competitions[0], a = team(c,"away"), h = team(c,"home");
   const win = t => Number(t.score) > Number((t===a?h:a).score);
-  const row = (t, home) => `<div class="tr ${win(t)?"win":""}"><img src="${t.team.logo||""}" alt=""><span>${home?'<span class="at">@ </span>':""}${esc(t.team.shortDisplayName)}</span><span class="rec">${esc(t.records?.[0]?.summary||"")}</span><span class="sc">${esc(t.score)}</span></div>`;
+  const row = (t, home) => `<div class="tr ${win(t)?"win":""}">${logoImg(t.team)}<span>${home?'<span class="at">@ </span>':""}${esc(nameOf(t.team))}</span><span class="rec">${esc(t.records?.[0]?.summary||"")}</span><span class="sc">${esc(t.score)}</span></div>`;
   return `<div class="fin">${row(a,false)}${row(h,true)}<div class="meta">${/^final$/i.test(e.status.type.shortDetail||"Final") ? "" : esc(e.status.type.shortDetail)}</div></div>`;
 }
 function finalsToday(){
@@ -724,13 +728,14 @@ function renderBoard(){
   const ss = snap(summaryHist, x=>x.id===selected); const sum = ss?.s; const pid = possId(e);
   const side = (t, cls) => {
     const tos = cls==="home"?sit.homeTimeouts:sit.awayTimeouts;
-    return `<div class="side ${pid===t.team.id?"poss":""}"><img src="${t.team.logo||""}" alt="">
+    return `<div class="side ${pid===t.team.id?"poss":""}">${logoImg(t.team)}
     <div class="nm">${t.team.location}</div><div class="rec">${t.records?.[0]?.summary||""}${cls==="home"?" · Home":""}</div>
     <div class="big">${st.type.state==="pre"?"–":t.score}</div>${ear(t.team.location, "Listen")}
     ${tos!=null?`<div class="to" aria-label="${tos} timeouts left">${[0,1,2].map(i=>`<i class="${i<tos?"":"used"}"></i>`).join("")}</div>`:""}</div>`;
   };
   const stx = statusText(e), per = stx.long;
-  let html = `<div class="score" style="--away:#${esc(a.team.color||"8A95A3")};--home:#${esc(h.team.color||"5F6B7A")}">${side(a,"away")}<div class="mid"><div class="clock">${st.type.state==="in"&&!stx.brk?`<span data-clk="${e.id}">${liveClock(e)}</span>`:""}</div><div class="per">${st.type.state==="pre"?fmtTime(e.date):per}</div></div>${side(h,"home")}</div>`;
+  const bc = barColors(a,h);
+  let html = `<div class="score" style="--away:${bc[0]};--home:${bc[1]}">${side(a,"away")}<div class="mid"><div class="clock">${st.type.state==="in"&&!stx.brk?`<span data-clk="${e.id}">${liveClock(e)}</span>`:""}</div><div class="per">${st.type.state==="pre"?fmtTime(e.date):per}</div></div>${side(h,"home")}</div>`;
   if(st.type.state==="in"){
     const pills = [];
     if(sit.downDistanceText) pills.push(`<span class="pill">${sit.downDistanceText}</span>`);
@@ -741,7 +746,7 @@ function renderBoard(){
   const lp = sit.lastPlay?.text || lastPlayFrom(sum);
   if(lp) html += `<div class="last"><p class="label">Last play</p>${esc(lp)}</div>`;
   const wp = sum?.winprobability; if(wp?.length){ const hp = wp[wp.length-1].homeWinPercentage*100;
-    html += `<div class="wp"><p class="label">Win probability</p><div class="wpbar"><span style="width:${100-hp}%;background:#${a.team.color||"888"}"></span><span style="width:${hp}%;background:#${h.team.color||"ccc"}"></span></div><div class="wpl"><span>${a.team.abbreviation} ${(100-hp).toFixed(1)}%</span><span>${h.team.abbreviation} ${hp.toFixed(1)}%</span></div></div>`; }
+    html += `<div class="wp"><p class="label">Win probability</p><div class="wpbar"><span style="width:${100-hp}%;background:${bc[0]}"></span><span style="width:${hp}%;background:${bc[1]}"></span></div><div class="wpl"><span>${a.team.abbreviation} ${(100-hp).toFixed(1)}%</span><span>${h.team.abbreviation} ${hp.toFixed(1)}%</span></div></div>`; }
   html += playsView(sum);
   const r = radioFor(e);
   html += `<div class="radio-info"><p class="label">Radio for this game</p><ul>${r.map(x=>`<li><b>${esc(x.team)}</b> ${esc(x.net||"")}${x.station && !/radio$/i.test(x.net||"") ? `, ${esc(String(x.station).replace(/\s*\(no free online stream found\)/,""))}` : ""}${x.stream ? "" : ` <span class="note">(no free stream)</span>`}</li>`).join("")}</ul>
@@ -751,6 +756,24 @@ function renderBoard(){
   B.querySelectorAll("[data-play]").forEach(l=>l.onclick=ev=>{ev.preventDefault(); $("#station").value = "team:"+l.dataset.play; startStation();});
 }
 function esc(s){return String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]))}
+const DARK = matchMedia("(prefers-color-scheme: dark)");
+// ESPN has a dark-background version of most logos; fall back to the normal one if it's missing.
+function logoSrc(tm){ const u = tm.logo||""; return DARK.matches && /\/500\//.test(u) ? u.replace("/500/","/500-dark/") : u; }
+function logoImg(tm){ const u = tm.logo||"", d = logoSrc(tm); return `<img src="${d}" alt=""${d!==u?` data-f="${u}" onerror="this.onerror=null;this.src=this.dataset.f"`:""}>`; }
+// Names ESPN sends in all caps ("FT LAUDERDALE") read better in title case.
+function nameOf(tm){ const n = tm.shortDisplayName||tm.location||""; return /[a-z]/.test(n) || n.length<5 ? n : n.toLowerCase().replace(/\b[a-z]/g,c=>c.toUpperCase()); }
+function lum(hex){ const m=/^#?([0-9a-f]{6})$/i.exec(hex||""); if(!m) return null; const v=[0,2,4].map(i=>{const c=parseInt(m[1].slice(i,i+2),16)/255; return c<=.03928?c/12.92:((c+.055)/1.055)**2.4}); return .2126*v[0]+.7152*v[1]+.0722*v[2]; }
+function cdist(x,y){ const p=h=>[0,2,4].map(i=>parseInt(h.slice(i,i+2),16)); try{ const a=p(x),b=p(y); return Math.hypot(a[0]-b[0],a[1]-b[1],a[2]-b[2]); }catch(e){ return 999; } }
+// Team colors for bars, swapped for the alternate color when the main one would vanish
+// into the background (black on dark, white on light) or match the other team.
+function barColors(a, h){
+  const ok = c => { const L = lum(c); return L!=null && (DARK.matches ? L>0.035 : L<0.8); };
+  const pick = (tm, avoid) => [tm.color, tm.alternateColor].find(c => ok(c) && (!avoid || cdist(c,avoid)>90)) || (ok(tm.color)?tm.color:null);
+  let ac = pick(a.team), hc = pick(h.team, ac);
+  ac = ac || (DARK.matches?"8A94A3":"5B6573"); hc = hc || (DARK.matches?"C9D1DB":"AAB3BF");
+  if(cdist(ac,hc) < 60) hc = DARK.matches?"C9D1DB":"AAB3BF";
+  return ["#"+ac, "#"+hc];
+}
 function lastPlayFrom(sum){const p = sum?.drives?.current?.plays; return p?.length ? p[p.length-1].text : null}
 // Who has the ball. ESPN often leaves situation.possession empty (common right after
 // kickoffs and in some games all night), so fall back to the current drive, then the last play.
