@@ -2760,13 +2760,19 @@
    "UTRGV",
    "UTRGV Vaqueros"
   ],
-  "network": "",
-  "flagship": "Ultra 90.1 (Vaqueros Sports Network)",
+  "network": "Vaqueros Sports Network (Radio United)",
+  "flagship": "Ultra 90.1 FM XHRYS (Rio Grande Valley); Pure Country 95.7 XHBK (Laredo)",
   "listen_page": "",
   "conference": "Southland Conference",
-  "calls": [],
-  "streams": [],
-  "athletics_site": "https://goutrgv.com"
+  "calls": [
+   "XHRYS-FM"
+  ],
+  "streams": [
+   "https://live.amperwave.net/manifest/rcomm-xhrysfmaac-hlsc4.m3u8?source=v7player",
+   "https://live.amperwave.net/direct/rcomm-xhrysfmaac-imc4"
+  ],
+  "athletics_site": "https://goutrgv.com",
+  "station_website": "https://www.ultra901.com"
  },
  {
   "school": "Charleston Southern University",
