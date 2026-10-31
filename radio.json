@@ -1,5 +1,5 @@
 {
-"built": "2026-10-31T14:27:31Z",
+"built": "2026-10-31T14:45:34Z",
 "teams": [
 {
 "school": "Boston College",
@@ -463,12 +463,10 @@
 ],
 "game_only": true,
 "streams": [
-"https://cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8",
-"https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8?exp=1793414160&sig=a13827bfd9c3ce8257be00c20817144b",
-"https://livecdn.use1-0009.jwplive.com/live/sites/52ztEVMl/media/ncAcaXBq/live.isml/.m3u8",
-"https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8?exp=1793411280&sig=93efabbfc2fa5e2718fbba2a13937ed1"
+"https://ice64.securenetsystems.net/WZGV2",
+"https://cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8"
 ],
-"misses": 2,
+"misses": 3,
 "last_ok": "2026-10-30"
 },
 {
@@ -741,7 +739,7 @@
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3"
 ],
-"misses": 8,
+"misses": 9,
 "last_ok": null
 },
 {
@@ -1410,11 +1408,8 @@
 "WCSX"
 ],
 "game_only": null,
-"streams": [
-"https://playerservices.streamtheworld.com/api/livestream-redirect/WCSXFMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/WCSXFM.mp3"
-],
-"misses": 2,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -1833,8 +1828,10 @@
 "conference": "Coastal Athletic Association",
 "calls": [],
 "game_only": true,
-"streams": [],
-"misses": 0,
+"streams": [
+"https://cdn.jwplayer.com/live/broadcast/8eUvetd9.m3u8"
+],
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {
@@ -2189,6 +2186,7 @@
 ],
 "game_only": true,
 "streams": [
+"https://stream.rcs.revma.com/x4q6k4dw57uvv",
 "https://stream.rcs.revma.com/uupm8cdw57uvv",
 "https://stream.rcs.revma.com/uupm8cdw57uvv/hls.m3u8",
 "http://stream.rcs.revma.com/uupm8cdw57uvv"
@@ -2807,18 +2805,12 @@
 "Howard Bison"
 ],
 "network": "",
-"flagship": "WHBC (WHUR 96.3 HD3, Washington DC)",
+"flagship": "WHBC student station (WHUR 96.3 HD3, Washington DC)",
 "listen_page": "",
 "conference": "MEAC",
-"calls": [
-"WHBC"
-],
+"calls": [],
 "game_only": null,
-"streams": [
-"https://live.amperwave.net/direct/alphacorporate-whbcamaac-ibc4",
-"https://live.amperwave.net/direct/alphacorporate-whbcfmaac-ibc4",
-"http://live.amperwave.net/direct/alphacorporate-whbcamaac-ibc4"
-],
+"streams": [],
 "misses": 0,
 "last_ok": "2026-10-31"
 },
@@ -2898,9 +2890,7 @@
 "WPJK-AM"
 ],
 "game_only": null,
-"streams": [
-"https://stream.zeno.fm/71u92uesqp8uv"
-],
+"streams": [],
 "misses": 0,
 "last_ok": null
 },
@@ -4085,9 +4075,7 @@
 "KCVM-FM"
 ],
 "game_only": null,
-"streams": [
-"https://ice7.securenetsystems.net/THEMIX"
-],
+"streams": [],
 "misses": 0,
 "last_ok": null
 },
@@ -4241,9 +4229,7 @@
 "KUCA-FM"
 ],
 "game_only": null,
-"streams": [
-"https://us2.maindigitalstream.com/ssl/KUCA"
-],
+"streams": [],
 "misses": 0,
 "last_ok": null
 },
@@ -4264,7 +4250,6 @@
 ],
 "game_only": null,
 "streams": [
-"https://ice64.securenetsystems.net/WCYO",
 "https://streams.radio.co/sd1bcd1376/listen#.mp3"
 ],
 "misses": 0,
@@ -4285,9 +4270,7 @@
 "WLXA-FM"
 ],
 "game_only": null,
-"streams": [
-"https://ice64.securenetsystems.net/WLLX"
-],
+"streams": [],
 "misses": 0,
 "last_ok": null
 },
@@ -4347,11 +4330,9 @@
 "WCKS-FM"
 ],
 "game_only": null,
-"streams": [
-"https://ice66.securenetsystems.net/WCKS"
-],
+"streams": [],
 "misses": 0,
-"last_ok": "2026-10-31"
+"last_ok": null
 },
 {
 "school": "University of Akron",
@@ -4675,7 +4656,7 @@
 "streams": [
 "https://cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8"
 ],
-"misses": 8,
+"misses": 9,
 "last_ok": null
 },
 {
