@@ -75,7 +75,13 @@ h1 span{color:inherit}
 
 /* ---------- Grouped game list ---------- */
 .list{display:flex;flex-direction:column}
-.conf{font:600 14px var(--ui);color:var(--muted);margin:18px 4px 6px}
+.conf{font:600 14px var(--ui);color:var(--muted);margin:18px 0 6px;padding:6px 4px;display:flex;align-items:center;gap:8px;width:100%;background:none;border:0;text-align:left;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.conf .cn{font:500 12px var(--num);color:var(--dim);background:var(--line);border-radius:999px;padding:2px 8px}
+.conf .chev{width:20px;height:20px;margin-left:auto;color:var(--dim);transition:transform .2s}
+.conf[aria-expanded="false"] .chev{transform:rotate(-90deg)}
+.conf[aria-expanded="false"]{margin-bottom:0}
+.sect{display:flex;align-items:baseline;justify-content:space-between}
+.sect .lnk{font:600 14px var(--ui);color:var(--accent);background:none;border:0;padding:4px;cursor:pointer}
 .list > .conf:first-child{margin-top:4px}
 .card,.up,.fin{background:var(--surface);border:1px solid var(--line);border-top:0;padding:11px 14px;display:grid;gap:6px;min-width:0}
 .list > :is(.card,.up,.fin):first-child, .conf + :is(.card,.up,.fin){border-top:1px solid var(--line);border-top-left-radius:var(--r-lg);border-top-right-radius:var(--r-lg)}
@@ -312,6 +318,7 @@ const base = "https://site.api.espn.com/apis/site/v2/sports/football/college-foo
 let filter = "live", events = [], selected = null, history = [], summaryHist = [], delay = 0;
 const $ = s => document.querySelector(s);
 const store = {get(k){try{return localStorage.getItem(k)}catch(e){return null}}, set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+const shut = new Set((()=>{try{return JSON.parse(store.get("shutConf")||"[]")}catch(e){return []}})());
 
 // Every Division I team's radio, from radio.json (researched per school).
 const normName = x => String(x||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")
@@ -664,8 +671,20 @@ function finalsToday(){
     .filter(e=> divFilter==="all" || (divFilter==="fav" ? isFavGame(e) : e._div===divFilter))
     .filter(e=> !q || e.competitions[0].competitors.some(t=>[t.team.location,t.team.displayName,t.team.shortDisplayName,t.team.abbreviation].join(" ").toLowerCase().includes(q)))
     .sort((x,y)=>new Date(y.date)-new Date(x.date));
-  return fin.length ? `<div class="conf" style="color:var(--dim)">Final</div>` + fin.map(finCard).join("") : "";
+  const closed = !q && shut.has("Final");
+  return fin.length ? confHead("Final", fin.length, closed) + fin.map(e=>closed ? finCard(e).replace(/^<div /,"<div hidden ") : finCard(e)).join("") : "";
 }
+// Conference headers fold their games away; which ones are folded is remembered on this device.
+function confHead(name, n, closed){
+  return `<button class="conf" data-conf="${esc(name)}" aria-expanded="${!closed}"><span>${esc(name)}</span><span class="cn">${n}</span><svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>`;
+}
+document.addEventListener("click", ev=>{
+  const b = ev.target.closest("[data-conf],[data-confall]"); if(!b) return;
+  if(b.dataset.conf){ const n = b.dataset.conf; shut.has(n) ? shut.delete(n) : shut.add(n); }
+  else { const names = [...document.querySelectorAll("#list [data-conf]")].map(x=>x.dataset.conf).filter(n=>n!=="Final");
+    names.forEach(n=> b.dataset.confall==="shut" ? shut.add(n) : shut.delete(n)); }
+  store.set("shutConf", JSON.stringify([...shut])); render();
+});
 function renderUpcoming(){
   const list = $("#list"), q = query.trim().toLowerCase();
   const today = events.filter(e=>e.status.type.state==="pre" && isToday(e.date));
@@ -689,8 +708,11 @@ function renderUpcoming(){
     if(!groups.has(conf)) groups.set(conf, []); groups.get(conf).push(e);
   }
   const names = [...groups.keys()].sort((x,y)=>x.localeCompare(y));
-  list.innerHTML = `<div class="sect">Later today</div>` + names.map(n=>
-    `<div class="conf">${esc(n)}</div>` + groups.get(n).sort((x,y)=>new Date(x.date)-new Date(y.date) || x.id.localeCompare(y.id)).map(upCard).join("")).join("") + finalsToday();
+  const allShut = names.every(n=>shut.has(n));
+  list.innerHTML = `<div class="sect">Later today${names.length>1 && !q ? `<button class="lnk" data-confall="${allShut?"open":"shut"}">${allShut?"Expand all":"Collapse all"}</button>` : ""}</div>` + names.map(n=>{
+    const gs = groups.get(n), closed = !q && shut.has(n);
+    return confHead(n, gs.length, closed) + gs.sort((x,y)=>new Date(x.date)-new Date(y.date) || x.id.localeCompare(y.id)).map(e=>closed ? upCard(e).replace(/^<div /,"<div hidden ") : upCard(e)).join("");
+  }).join("") + finalsToday();
 }
 
 function renderBoard(){
