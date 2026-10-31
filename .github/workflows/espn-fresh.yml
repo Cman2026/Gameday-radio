@@ -1,0 +1,21 @@
+name: ESPN freshness check
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: |
+          exec > espn-fresh.txt 2>&1
+          B=https://site.api.espn.com/apis/site/v2/sports/football/college-football
+          for i in 1 2 3; do
+            echo "== plain $i"; curl -sS -D - -o /dev/null "$B/scoreboard?groups=80&limit=400" | grep -iE "^(age|cache-control|x-cache|date|last-modified|expires)"
+            echo "== buster $i"; curl -sS -D - -o /dev/null "$B/scoreboard?groups=80&limit=400&_=$(date +%s%N)" | grep -iE "^(age|cache-control|x-cache|date|last-modified|expires)"
+            echo "== summary"; id=$(curl -sS "$B/scoreboard?groups=80&limit=400" | python3 -c "import json,sys;e=[x for x in json.load(sys.stdin)['events'] if x['status']['type']['state']=='in'];print(e[0]['id'] if e else '')")
+            curl -sS -D - -o /dev/null "$B/summary?event=$id" | grep -iE "^(age|cache-control|x-cache|date)"
+            echo "== cdn core"; curl -sS -D - -o /dev/null "https://cdn.espn.com/core/college-football/scoreboard?xhr=1&limit=400" | grep -iE "^(age|cache-control|x-cache|date)"
+            sleep 10
+          done
+      - run: tools/publish.sh "ESPN freshness check" espn-fresh.txt
