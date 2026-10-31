@@ -66,7 +66,8 @@ def main():
             t = next((index[norm(n)] for n in (tm.get("location"), tm.get("displayName"), tm.get("shortDisplayName")) if norm(n) in index), None)
             if not t:
                 continue
-            words = {w for w in norm(" ".join([tm.get("location") or "", tm.get("name") or "", tm.get("abbreviation") or ""])).split() if len(w) > 3}
+            # mascot and abbreviation only: place words like "state" or "carolina" show up in news too
+            words = {w for w in norm(" ".join([tm.get("name") or "", tm.get("abbreviation") or ""])).split() if len(w) > 2} - {"state", "university", "college"}
             for u in [u for u in (t.get("streams") or []) if u.startswith("http")][:3]:
                 jobs.append((t["school"], u, words))
     print(f"listening to {len(jobs)} streams in {len(games)} live games")
@@ -89,7 +90,9 @@ def main():
         text = " ".join(s.text for s in segs).strip()
         os.remove(clip)
         hits = len(FOOTBALL.findall(text)) + sum(2 for w in words if re.search(rf"\b{re.escape(w)}\b", text, re.I))
-        if hits >= 2:
+        if re.search(r"right access to future sporting events|geofence|not available in your (area|market)|outside of the (broadcast )?area", text, re.I):
+            v = "blocked"
+        elif hits >= 2:
             v = "game"
         elif len(text.split()) >= 12:
             v = "not_game" if rec.get("heard_raw") == "not_game" else "maybe_not"  # need two misses in a row
@@ -98,9 +101,9 @@ def main():
             v = "quiet"
         if v != "maybe_not" and v != "not_game":
             rec["heard_raw"] = v
-        rec.update({"heard": "not_game" if v == "not_game" else ("unknown" if v == "maybe_not" else v),
+        rec.update({"heard": v if v in ("not_game", "blocked") else ("unknown" if v == "maybe_not" else v),
                     "heard_text": text[:160], "heard_at": stamp})
-        summary["not_game" if v in ("not_game", "maybe_not") else v].append(school)
+        summary.setdefault(v, []).append(school)
         print(f"{v:10} {school[:34]:34} {text[:90]!r}")
     state["listened"] = stamp
     json.dump(state, open("radio-heard.json", "w"), indent=1)

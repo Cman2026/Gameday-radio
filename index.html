@@ -429,7 +429,7 @@ function orderStreams(school, streams){
   const rank = u => (pb.inpage||[]).includes(u) ? 0 : res[u]?.ok === false ? 3 : (SECURE_PAGE && u.startsWith("http:")) ? 4 : 1;
   const all = [...(pb.inpage||[]), ...streams];
   // Drop streams that play an "out of market" message instead of the game.
-  const playable = [...new Set(all)].filter(u => !(SECURE_PAGE && u.startsWith("http:")) && liveVerdict(u)?.verdict !== "blocked").sort((a,b)=>rank(a)-rank(b) || vRank(a)-vRank(b));
+  const playable = [...new Set(all)].filter(u => !(SECURE_PAGE && u.startsWith("http:")) && liveVerdict(u)?.verdict !== "blocked" && !["blocked","not_game"].includes(heard(u))).sort((a,b)=>rank(a)-rank(b) || vRank(a)-vRank(b));
   const external = pb.external || streams.find(u=>u.startsWith("http:")) || null;
   return {playable, external};
 }
