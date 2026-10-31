@@ -428,7 +428,7 @@ async function poll(){
     if(!selected || !live.some(e=>e.id===selected)){ selected = (live.find(isFavGame) || live[0])?.id || null; }
     // Preload every live game: the selected one refreshes every 9s, the rest every 30s,
     // and each team's radio is looked up ahead of time so Listen starts right away.
-    live.forEach(e=>{ pollSummary(e.id, e.id===selected ? 9000 : 30000); e.competitions[0].competitors.forEach(t=>prepareTeam(t.team.location)); });
+    live.forEach(e=>{ pollSummary(e.id, (e.id===selected || (deck && e.competitions[0].competitors.some(c=>c.team.location===deck.loc))) ? 6000 : 30000); e.competitions[0].competitors.forEach(t=>prepareTeam(t.team.location)); });
   }catch(e){
     $("#dot").className = "dot err";
     $("#stat").textContent = "Can't reach the ESPN feed. Open this file in a desktop browser (Safari, Chrome) and check your connection.";
@@ -438,8 +438,49 @@ async function poll(){
 const sumAt = {};
 async function pollSummary(id, gap=9000){
   if(Date.now() - (sumAt[id]||0) < gap) return; sumAt[id] = Date.now();
-  try{ const s = await getJSON(`${base}/summary?event=${id}`); summaryHist.push({t:Date.now(), id, s}); summaryHist = summaryHist.filter(h=>Date.now()-h.t<180000); render(); }catch(e){}
+  try{ const s = await getJSON(`${base}/summary?event=${id}`); notePlays(id, s); summaryHist.push({t:Date.now(), id, s}); summaryHist = summaryHist.filter(h=>Date.now()-h.t<180000); render(); }catch(e){}
 }
+/* ---------- automatic score/radio sync ----------
+   How far behind real time the radio is: HLS streams carry the wall-clock time of the audio
+   (EXT-X-PROGRAM-DATE-TIME), so lag = now - time of what you're hearing.
+   How far behind ESPN is: each play has the time it happened (wallclock); when a play first
+   shows up in the feed, lag = now - that time.
+   Scores are held by the difference. Streams without timestamps fall back to whatever you
+   set by hand for that station last time. */
+const espnLag = {}; const seenPlays = new Set();
+function notePlays(id, s){
+  const plays = (s.drives?.current?.plays||[]).concat((s.drives?.previous||[]).slice(-1).flatMap(d=>d.plays||[]));
+  for(const p of plays){
+    if(!p.id || seenPlays.has(p.id)) continue; seenPlays.add(p.id);
+    const w = Date.parse(p.wallclock||""); if(isNaN(w)) continue;
+    const lag = (Date.now() - w)/1000;
+    if(lag < 0 || lag > 180) continue;
+    if(!espnLag[id]){ espnLag[id] = {v: lag, n: 1, primed: false}; continue; }
+    if(!espnLag[id].primed){ espnLag[id].primed = true; espnLag[id].v = lag; espnLag[id].n = 1; continue; } // first batch is old plays
+    espnLag[id].v = espnLag[id].v*0.7 + lag*0.3; espnLag[id].n++;
+  }
+}
+function radioLag(){
+  try{
+    if(hls && hls.playingDate) return (Date.now() - hls.playingDate.getTime())/1000;
+    const sd = audio.getStartDate ? audio.getStartDate() : null;
+    if(sd && !isNaN(sd.getTime()) && sd.getTime() > 0) return (Date.now() - sd.getTime())/1000 - audio.currentTime;
+  }catch(e){}
+  return null;
+}
+const streamKey = u => { try{ const x = new URL(u); return x.host + x.pathname; }catch(e){ return u; } };
+let syncMode = "manual";
+function autoSync(){
+  if(!deck || audio.paused || syncMode==="manual") return;
+  const saved = store.get("delay@" + streamKey(deck.url));
+  const g = events.find(x=>x.status.type.state==="in" && x.competitions[0].competitors.some(c=>c.team.location===deck.loc));
+  const rl = radioLag(), el = g && espnLag[g.id];
+  if(rl!=null && el && el.n >= 2 && rl > 0 && rl < 150){
+    const d = Math.round(Math.max(0, rl - el.v));
+    if(Math.abs(d - delay) >= 2 || syncMode!=="auto"){ syncMode = "auto"; setDelay(d, true); }
+  } else if(saved!=null && syncMode==="manual-pending"){ syncMode = "saved"; setDelay(+saved, true); }
+}
+setInterval(autoSync, 5000);
 function snap(arr, match){ // newest snapshot at least `delay` seconds old
   const cut = Date.now() - delay*1000; let pick = null;
   for(const h of arr){ if(match && !match(h)) continue; if(h.t <= cut) pick = h; }
@@ -984,6 +1025,7 @@ async function playList(list, name, sub, loc){
       if(token !== tryToken) return;
       if(ok){
         deck = {loc, url, sub};
+        syncMode = "manual-pending"; setTimeout(autoSync, 4000);
         $("#nowSub").textContent = sub;
         // Some streams play an ad to every new listener before the broadcast picks up.
         if(liveInfo[url]?.preroll || /leanstream|ihrhls|revma/.test(url)) toast("The broadcast will start after a short ad.");
@@ -1037,9 +1079,16 @@ $("#useCustom").onclick = ()=>{
   play(u, v?v.slice(5)+" (saved stream)":"Custom stream", u);
 };
 $("#nudge").onclick = ()=>{ if(audio.paused) return; audio.pause(); $("#nudge").disabled = true; setTimeout(()=>{audio.play(); $("#nudge").disabled=false}, 5000); };
-function setDelay(d){ delay = Math.max(0, Math.min(120, d)); $("#delayV").textContent = delay ? `Scores held ${delay}s` : "Scores live"; store.set("delay", delay); render(); }
-$("#scoresMore").onclick = ()=>setDelay(delay+2);
-$("#scoresLess").onclick = ()=>setDelay(delay-2);
+function setDelay(d, auto){
+  delay = Math.max(0, Math.min(120, d));
+  const tag = syncMode==="auto" ? " · auto" : syncMode==="saved" ? " · saved" : "";
+  $("#delayV").textContent = (delay ? `Scores held ${delay}s` : "Scores live") + tag;
+  store.set("delay", delay); render();
+}
+// Adjusting by hand turns off auto for this stream and remembers your setting for it.
+function manualDelay(d){ syncMode = "manual"; setDelay(d); if(deck) store.set("delay@" + streamKey(deck.url), delay); }
+$("#scoresMore").onclick = ()=>manualDelay(delay+2);
+$("#scoresLess").onclick = ()=>manualDelay(delay-2);
 document.addEventListener("click", ev=>{
   const f = ev.target.closest(".fav[data-fav]"); if(!f) return;
   ev.stopPropagation(); const loc = f.dataset.fav;
