@@ -200,7 +200,8 @@ h1 span{color:inherit}
 .now{min-width:0;flex:1 1 160px}
 .now b{display:block;font:600 16px/1.2 var(--ui);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .now small{display:block;color:var(--muted);font-size:13px;line-height:1.35;margin-top:1px}
-.now small .dsc{color:var(--text);font-weight:600;white-space:nowrap}
+.now small .dsc{color:var(--text);font-weight:600;white-space:nowrap;display:block}
+.now small .dsc + .dsep{display:none}
 .now small .dsep{display:inline-block;width:1px;height:10px;background:var(--line-2);margin:0 7px;vertical-align:-1px}
 .now small .drz{color:var(--live);font-weight:600}
 .now small .dwarn{color:var(--accent);font-weight:600}
@@ -531,7 +532,7 @@ function gameLine(loc){
   const ab = t => esc(t.team.abbreviation || t.team.shortDisplayName);
   const score = `<b class="dsc">${ab(a)} ${esc(a.score)} · ${ab(h)} ${esc(h.score)}</b>`;
   const clock = stx.brk ? esc(stx.short) : `<span data-clk="${e.id}">${liveClock(e)}</span> ${esc(qName(e.status.period))}`;
-  const pos = [a,h].find(t=>t.team.id===sit.possession);
+  const pid = possId(e), pos = [a,h].find(t=>t.team.id===pid);
   const parts = [score, clock];
   if(!stx.brk){
     if(pos) parts.push(`${ab(pos)} ball`);
@@ -561,7 +562,7 @@ function updateLockScreen(){
   if(e){
     const c = e.competitions[0], a = team(c,"away"), h = team(c,"home"), sit = c.situation||{}, stx = statusText(e);
     const ab = t => t.team.abbreviation || t.team.shortDisplayName;
-    const pos = [a,h].find(t=>t.team.id===sit.possession);
+    const pid = possId(e), pos = [a,h].find(t=>t.team.id===pid);
     title = `${ab(a)} ${a.score}  ·  ${ab(h)} ${h.score}`;
     const bits = [stx.brk ? stx.short : `${qName(e.status.period)} ${liveClock(e)}`];
     if(!stx.brk){
@@ -697,10 +698,10 @@ function renderBoard(){
   if(!e){B.innerHTML = ""; B.hidden = true; return;}
   B.hidden = false;
   const c = e.competitions[0], a = team(c,"away"), h = team(c,"home"), st = e.status, sit = c.situation||{};
-  const ss = snap(summaryHist, x=>x.id===selected); const sum = ss?.s;
+  const ss = snap(summaryHist, x=>x.id===selected); const sum = ss?.s; const pid = possId(e);
   const side = (t, cls) => {
     const tos = cls==="home"?sit.homeTimeouts:sit.awayTimeouts;
-    return `<div class="side ${sit.possession===t.team.id?"poss":""}"><img src="${t.team.logo||""}" alt="">
+    return `<div class="side ${pid===t.team.id?"poss":""}"><img src="${t.team.logo||""}" alt="">
     <div class="nm">${t.team.location}</div><div class="rec">${t.records?.[0]?.summary||""}${cls==="home"?" · Home":""}</div>
     <div class="big">${st.type.state==="pre"?"–":t.score}</div>${ear(t.team.location, "Listen")}
     ${tos!=null?`<div class="to" aria-label="${tos} timeouts left">${[0,1,2].map(i=>`<i class="${i<tos?"":"used"}"></i>`).join("")}</div>`:""}</div>`;
@@ -712,7 +713,7 @@ function renderBoard(){
     if(sit.downDistanceText) pills.push(`<span class="pill">${sit.downDistanceText}</span>`);
     if(sit.isRedZone) pills.push(`<span class="pill rz">Red zone</span>`);
     if(pills.length) html += `<div class="sit">${pills.join("")}</div>`;
-    html += fieldView(sit, a, h);
+    html += fieldView(sit, a, h, pid);
   }
   const lp = sit.lastPlay?.text || lastPlayFrom(sum);
   if(lp) html += `<div class="last"><p class="label">Last play</p>${esc(lp)}</div>`;
@@ -728,15 +729,32 @@ function renderBoard(){
 }
 function esc(s){return String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]))}
 function lastPlayFrom(sum){const p = sum?.drives?.current?.plays; return p?.length ? p[p.length-1].text : null}
-function fieldView(sit, a, h){
+// Who has the ball. ESPN often leaves situation.possession empty (common right after
+// kickoffs and in some games all night), so fall back to the current drive, then the last play.
+function possId(e){
+  const c = e.competitions[0], sit = c.situation||{}, ids = c.competitors.map(x=>x.team.id);
+  if(sit.possession && ids.includes(sit.possession)) return sit.possession;
+  const sum = snap(summaryHist, x=>x.id===e.id)?.s, cur = sum?.drives?.current;
+  const dt = cur?.team?.id || cur?.team;
+  if(cur && !cur.end?.text && dt && ids.includes(String(dt))) return String(dt);
+  const lp = sit.lastPlay, lt = lp?.team?.id;
+  if(lt && ids.includes(lt)){
+    const kick = /kickoff|punt|kick\b|field goal|extra point|\bpat\b/i.test((lp.type?.text||"")+" "+(lp.text||""));
+    return kick ? ids.find(i=>i!==lt) : lt;
+  }
+  return null;
+}
+function fieldView(sit, a, h, pid){
   // ESPN yardLine: 0-100 from home end zone? Use yardsToEndzone + possession for direction.
   if(sit.yardLine==null) return "";
-  const homePoss = sit.possession===h.team.id;
+  const homePoss = pid===h.team.id;
   // Place line of scrimmage: away goal on left (0), home goal on right (100). Away drives right.
   let pos = sit.yardLine; // ESPN: distance from home team's goal is 100 - yardLine in most feeds
-  if(sit.yardsToEndzone!=null) pos = homePoss ? sit.yardsToEndzone : 100 - sit.yardsToEndzone;
+  const m = /^(\S+)\s+(\d+)$/.exec((sit.possessionText||"").trim()), side = m && [a,h].find(t=>(t.team.abbreviation||"").toUpperCase()===m[1].toUpperCase());
+  if(side) pos = side===a ? +m[2] : 100 - +m[2]; // "KENT 21" = 21 yards from Kent's goal
+  else if(sit.yardsToEndzone!=null && pid) pos = homePoss ? sit.yardsToEndzone : 100 - sit.yardsToEndzone;
   const toPct = y => 8 + (y/100)*84;
-  const fdY = sit.distance ? (homePoss ? pos - sit.distance : pos + sit.distance) : null;
+  const fdY = sit.distance && pid ? (homePoss ? pos - sit.distance : pos + sit.distance) : null;
   return `<div class="field" aria-label="Ball on the ${sit.possessionText||""}"><div class="ez l" style="background:#${a.team.color||"333"}">${a.team.abbreviation}</div><div class="ez r" style="background:#${h.team.color||"333"}">${h.team.abbreviation}</div>
   <div class="ls" style="left:${toPct(pos)}%"></div>${fdY!=null&&fdY>0&&fdY<100?`<div class="fd" style="left:${toPct(fdY)}%"></div>`:""}<div class="ball" style="left:${toPct(pos)}%"></div></div>`;
 }
