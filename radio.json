@@ -1,5 +1,5 @@
 {
-"built": "2026-10-31T17:35:05Z",
+"built": "2026-10-31T18:27:11Z",
 "teams": [
 {
 "school": "Boston College",
@@ -3342,8 +3342,8 @@
 "streams": [
 "https://ice41.securenetsystems.net/WPRL"
 ],
-"misses": 0,
-"miss_day": null,
+"misses": 1,
+"miss_day": "2026-10-31",
 "last_ok": "2026-10-31",
 "game_feeds": null
 },
@@ -4429,8 +4429,8 @@
 "streams": [
 "https://cdn.jwplayer.com/live/broadcast/3TH9Dtwc.m3u8"
 ],
-"misses": 0,
-"miss_day": null,
+"misses": 1,
+"miss_day": "2026-10-31",
 "last_ok": null,
 "live_only": true,
 "game_feeds": [
@@ -4753,9 +4753,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://img.leanstream.co/LF4401-MP3",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/KDUSAMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/KDUSAM.mp3"
+"https://img.leanstream.co/LF4401-MP3"
 ],
 "misses": 0,
 "miss_day": null,
