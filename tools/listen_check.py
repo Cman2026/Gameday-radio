@@ -82,7 +82,10 @@ def main():
         rec = state["streams"].setdefault(url, {"school": school})
         if not clip:
             rec.update({"heard": "no_audio", "heard_at": stamp}); summary["no_audio"].append(school); continue
-        segs, _ = model.transcribe(clip, beam_size=1, vad_filter=True)
+        import wave, numpy as np
+        with wave.open(clip) as w:
+            pcm = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).astype(np.float32) / 32768.0
+        segs, _ = model.transcribe(pcm, beam_size=1, vad_filter=True)
         text = " ".join(s.text for s in segs).strip()
         os.remove(clip)
         hits = len(FOOTBALL.findall(text)) + sum(2 for w in words if re.search(rf"\b{re.escape(w)}\b", text, re.I))
