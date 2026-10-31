@@ -1487,6 +1487,7 @@
 "notes": null,
 "streams": [
 "https://img.leanstream.co/IM4901-MP3",
+"https://img.leanstream.co/IM4903-MP3",
 "https://stream.revma.ihrhls.com/zc3379",
 "https://stream.revma.ihrhls.com/zc3379/hls.m3u8",
 "http://stream.revma.ihrhls.com/zc3379"
@@ -4333,11 +4334,13 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM7701-MP3",
 "https://live.amperwave.net/manifest/townsquare-kgvoamaac-ibc3"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Montana State University",
@@ -4414,11 +4417,13 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF2501-MP3",
 "https://live.amperwave.net/direct/horizonbroadcasting-kbnwammp3-ibc1"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Idaho State University",
@@ -4787,11 +4792,13 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF5201-MP3",
 "https://ice7.securenetsystems.net/KVHT"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "South Dakota State University",
@@ -4811,11 +4818,13 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF6801-MP3",
 "https://live.amperwave.net/manifest/saga-wnaxamaac-hlsc1.m3u8"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Southern Illinois University",
