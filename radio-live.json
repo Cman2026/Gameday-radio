@@ -159,42 +159,42 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "ESPN 1320",
-   "at": "2026-10-31T04:20:30Z"
+   "at": "2026-10-31T05:17:19Z"
   },
   "https://live.amperwave.net/manifest/audacy-kifmamaac-imc": {
    "school": "California State University, Sacramento",
    "verdict": "unknown",
    "title": "",
    "icy_name": "ESPN 1320",
-   "at": "2026-10-31T04:20:30Z"
+   "at": "2026-10-31T05:17:19Z"
   },
   "http://live.amperwave.net/direct/audacy-kifmamaac-imc": {
    "school": "California State University, Sacramento",
    "verdict": "unknown",
    "title": "",
    "icy_name": "ESPN 1320",
-   "at": "2026-10-31T04:20:30Z"
+   "at": "2026-10-31T05:17:19Z"
   },
   "https://stream.revma.ihrhls.com/zc3455": {
    "school": "Kent State University",
-   "verdict": "game",
-   "title": "KSUFB - HALFTIME REJOIN  26",
+   "verdict": "music",
+   "title": "KSUFB - :10 BUMPERS 26",
    "icy_name": "",
-   "at": "2026-10-31T04:20:30Z"
+   "at": "2026-10-31T05:17:19Z"
   },
   "https://stream.revma.ihrhls.com/zc3455/hls.m3u8": {
    "school": "Kent State University",
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-10-31T04:20:30Z"
+   "at": "2026-10-31T05:17:19Z"
   },
   "http://stream.revma.ihrhls.com/zc3455": {
    "school": "Kent State University",
-   "verdict": "game",
-   "title": "KSUFB - HALFTIME REJOIN  26",
+   "verdict": "music",
+   "title": "KSUFB - :10 BUMPERS 26",
    "icy_name": "",
-   "at": "2026-10-31T04:20:30Z"
+   "at": "2026-10-31T05:17:19Z"
   }
  },
  "log": [
@@ -909,7 +909,55 @@
    "url": "http://stream.revma.ihrhls.com/zc3455",
    "verdict": "game",
    "title": "KSUFB - HALFTIME REJOIN  26"
+  },
+  {
+   "at": "2026-10-31T05:17:19Z",
+   "school": "California State University, Sacramento",
+   "game": "KENT @ SAC",
+   "url": "https://live.amperwave.net/direct/audacy-kifmamaac-imc",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-31T05:17:19Z",
+   "school": "California State University, Sacramento",
+   "game": "KENT @ SAC",
+   "url": "https://live.amperwave.net/manifest/audacy-kifmamaac-imc",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-31T05:17:19Z",
+   "school": "California State University, Sacramento",
+   "game": "KENT @ SAC",
+   "url": "http://live.amperwave.net/direct/audacy-kifmamaac-imc",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-31T05:17:19Z",
+   "school": "Kent State University",
+   "game": "KENT @ SAC",
+   "url": "https://stream.revma.ihrhls.com/zc3455",
+   "verdict": "music",
+   "title": "KSUFB - :10 BUMPERS 26"
+  },
+  {
+   "at": "2026-10-31T05:17:19Z",
+   "school": "Kent State University",
+   "game": "KENT @ SAC",
+   "url": "https://stream.revma.ihrhls.com/zc3455/hls.m3u8",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-31T05:17:19Z",
+   "school": "Kent State University",
+   "game": "KENT @ SAC",
+   "url": "http://stream.revma.ihrhls.com/zc3455",
+   "verdict": "music",
+   "title": "KSUFB - :10 BUMPERS 26"
   }
  ],
- "checked": "2026-10-31T04:20:30Z"
+ "checked": "2026-10-31T05:17:19Z"
 }
