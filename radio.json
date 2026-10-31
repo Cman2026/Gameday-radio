@@ -1833,9 +1833,12 @@
 "conference": "Coastal Athletic Association",
 "calls": [],
 "game_only": true,
-"streams": [],
+"streams": [
+"https://cdn.jwplayer.com/live/broadcast/8eUvetd9.m3u8"
+],
 "misses": 0,
-"last_ok": "2026-10-30"
+"last_ok": "2026-10-30",
+"live_only": true
 },
 {
 "school": "Elon University",
@@ -2189,12 +2192,14 @@
 ],
 "game_only": true,
 "streams": [
+"https://stream.rcs.revma.com/x4q6k4dw57uvv",
 "https://stream.rcs.revma.com/uupm8cdw57uvv",
 "https://stream.rcs.revma.com/uupm8cdw57uvv/hls.m3u8",
 "http://stream.rcs.revma.com/uupm8cdw57uvv"
 ],
 "misses": 0,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Villanova University",
