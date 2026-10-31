@@ -10,8 +10,10 @@ No user sessions are running outdated binaries.
 No VM guests are running outdated hypervisor (qemu) binaries on this host.
 allaccess error https://fightingirish.com HTTP Error 404: Not Found
 allaccess error https://hawkeyesports.com HTTP Error 404: Not Found
+allaccess error https://fightingillini.com The read operation timed out
 allaccess error https://auburntigers.com HTTP Error 404: Not Found
 allaccess error https://odusports.com HTTP Error 404: Not Found
+allaccess error https://kstatesports.com Remote end closed connection without response
 allaccess error https://gostanford.com HTTP Error 404: Not Found
 allaccess error https://byucougars.com HTTP Error 404: Not Found
 allaccess error https://thesundevils.com HTTP Error 404: Not Found
@@ -27,11 +29,12 @@ allaccess error https://purduesports.com HTTP Error 404: Not Found
 allaccess error https://gocolgateraiders.com <urlopen error [Errno 104] Connection reset by peer>
 allaccess error https://gosoutheast.com HTTP Error 404: Not Found
 allaccess error https://ttusports.com HTTP Error 405: Not Allowed
-official feeds added for: Texas Tech University, Syracuse University, Southern Methodist University, University of Wisconsin-Madison, North Carolina State University, University of California, Berkeley, Duke University, University of Illinois Urbana-Champaign, University of Alabama at Birmingham, Rutgers University, University of Michigan, University of Mississippi, Marshall University, University of Colorado Boulder, Kansas State University, United States Air Force Academy, University of Connecticut, University of South Alabama, Louisiana Tech University, University of Louisville, University of Georgia, University of Florida, Indiana University, University of Minnesota, University of Oregon, Texas Christian University, Utah State University, Colorado State University, North Dakota State University, University of Texas at El Paso, Liberty University, University of Southern Mississippi, Wake Forest University, University of Maine, Bucknell University, North Carolina A&T State University, Morehead State University, Illinois State University, Murray State University, University of Northern Iowa, Indiana State University, University of St. Thomas (Minnesota), Montana State University, Northern Arizona University, Stephen F. Austin State University, South Dakota State University, University of South Dakota, University of Montana, University of Idaho
+official feeds added for: Texas Tech University, Syracuse University, Southern Methodist University, University of Wisconsin-Madison, North Carolina State University, University of California, Berkeley, Duke University, University of Alabama at Birmingham, Rutgers University, University of Michigan, University of Mississippi, Marshall University, University of Colorado Boulder, United States Air Force Academy, University of Connecticut, University of South Alabama, Louisiana Tech University, University of Louisville, University of Georgia, University of Florida, Indiana University, University of Minnesota, University of Oregon, Texas Christian University, Utah State University, Colorado State University, North Dakota State University, University of Texas at El Paso, Liberty University, University of Southern Mississippi, Wake Forest University, University of Maine, Bucknell University, North Carolina A&T State University, Morehead State University, Illinois State University, Murray State University, University of Northern Iowa, Indiana State University, University of St. Thomas (Minnesota), Montana State University, Northern Arizona University, Stephen F. Austin State University, South Dakota State University, University of South Dakota, University of Montana, University of Idaho, University of North Alabama
 Temple University -> (feed) ['https://cdn.jwplayer.com/live/broadcast/3j2GACVG.m3u8']
 Campbell University -> (feed) ['https://cdn.jwplayer.com/live/broadcast/8eUvetd9.m3u8']
 allaccess error https://ccsubluedevils.com HTTP Error 405: Not Allowed
 University of Richmond -> (feed) ['https://stream.rcs.revma.com/x4q6k4dw57uvv']
+Marist University -> (feed) ['https://cdn.jwplayer.com/live/broadcast/3TH9Dtwc.m3u8']
 leanplayer xml https://rhody.leanplayer.com/ <?xml version="1.0"?> <main><sports><sport><id>1579</id><name>Rhode Island Football Coachs Show</name><is_show>1</is_show></sport><sport><id>1</id><name>Football</name><is_show>0</is_show></sport><sport><id>1597</id><name>The Archie Miller + Tammi Reiss Show</name><is_show>1</is_show></sport><sport><id>888</id><name>Rhode Island Football Coach's Show</name><is_show>1</is_show></sport><sport><id>441</id><name>Archie Miller Show</name><is_show>1</is_show></sport><sport><id>3</id><name>Women&#x2019;s Basketball</name><is_show>0</is_show></sport><sport><id>2</id><name>Men&#x2019;s Basketball</name
 University of Rhode Island -> (leanplayer) ['https://learfield-gd.leanstream.co/LF4901-MP3?sport=FB', 'https://learfield-gd.leanstream.co/LF4901-MP3?sport=MBB', 'https://learfield-gd.leanstream.co/LF4902-MP3?sport=WBB']
 Sacred Heart University -> []
@@ -59,6 +62,6 @@ North Carolina Central University -> []
 North Carolina Central University -> []
 Howard University -> []
 Charleston Southern University -> []
-Davidson College -> []
-Davidson College -> []
 University of the Incarnate Word -> []
+Davidson College -> []
+Davidson College -> []
