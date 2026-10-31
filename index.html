@@ -938,7 +938,7 @@ function renderBoard(){
     if(sit.downDistanceText) pills.push(`<span class="pill">${sit.downDistanceText}</span>`);
     if(sit.isRedZone) pills.push(`<span class="pill rz">Red zone</span>`);
     if(pills.length) html += `<div class="sit">${pills.join("")}</div>`;
-    html += fieldView(sit, a, h, pid);
+    html += fieldView(sit, a, h, pid, e.id);
   }
   const lp = sit.lastPlay?.text || lastPlayFrom(sum);
   if(lp) html += `<div class="last"><p class="label">Last play</p>${esc(lp)}</div>`;
@@ -986,15 +986,25 @@ function possId(e){
   }
   return null;
 }
-function fieldView(sit, a, h, pid){
+const lastSpot = {};
+function fieldView(sit, a, h, pid, gid){
   // ESPN yardLine: 0-100 from home end zone? Use yardsToEndzone + possession for direction.
-  if(sit.yardLine==null) return "";
+  if(!sit || (sit.yardLine==null && !sit.possessionText && !sit.downDistanceText && lastSpot[gid]==null)) return "";
   const homePoss = pid===h.team.id;
   // Place line of scrimmage: away goal on left (0), home goal on right (100). Away drives right.
-  let pos = sit.yardLine; // ESPN: distance from home team's goal is 100 - yardLine in most feeds
-  const m = /^(\S+)\s+(\d+)$/.exec((sit.possessionText||"").trim()), side = m && [a,h].find(t=>(t.team.abbreviation||"").toUpperCase()===m[1].toUpperCase());
-  if(side) pos = side===a ? +m[2] : 100 - +m[2]; // "KENT 21" = 21 yards from Kent's goal
-  else if(sit.yardsToEndzone!=null && pid) pos = homePoss ? sit.yardsToEndzone : 100 - sit.yardsToEndzone;
+  // Work out the spot from the clearest source available: "TTU 5" style text first (possession
+  // text, then down-and-distance, then the last play), then yards-to-goal; during timeouts and
+  // reviews ESPN often drops these, so keep the last good spot for the game.
+  const abbr = t => (t.team.abbreviation||"").toUpperCase();
+  const spot = txt => { const m = /(?:^|\bat\s+|\bthe\s+)([A-Z][A-Z&]{1,5})\s?0?(\d{1,2})\b/i.exec(txt||""); if(!m) return null;
+    const side = [a,h].find(t=>abbr(t)===m[1].toUpperCase()); if(!side) return null; const n = +m[2]; if(n>50) return null;
+    return side===a ? n : 100 - n; }; // "KENT 21" = 21 yards from Kent's (left) goal
+  let pos = spot((sit.possessionText||"").trim()) ?? spot(sit.downDistanceText);
+  if(pos==null && sit.yardsToEndzone!=null && pid) pos = homePoss ? sit.yardsToEndzone : 100 - sit.yardsToEndzone;
+  if(pos==null){ const lp = sit.lastPlay?.text || ""; const all = [...lp.matchAll(/\bto the ([A-Z&]{2,6})\s?0?(\d{1,2})\b/gi)]; if(all.length) pos = spot(`at ${all[all.length-1][1]} ${all[all.length-1][2]}`); }
+  if(pos==null) pos = lastSpot[gid] ?? null;
+  if(pos==null) return "";
+  if(gid) lastSpot[gid] = pos;
   const toPct = y => 8 + (y/100)*84;
   const fdY = sit.distance && pid ? (homePoss ? pos - sit.distance : pos + sit.distance) : null;
   const [ca, ch] = barColors(a, h);
