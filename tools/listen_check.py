@@ -15,8 +15,9 @@ SB = "https://site.api.espn.com/apis/site/v2/sports/football/college-football/sc
 FOOTBALL = re.compile(r"\b(yard|yards|yard line|first down|second down|third down|fourth down|down and|touchdown|field goal|"
                       r"kickoff|punt|quarterback|snap|handoff|tackle[ds]?|sack(ed)?|interception|fumble|incomplete|complete[ds]?|"
                       r"end zone|red zone|line of scrimmage|timeout|offense|defense|drive|huddle|shotgun|pass(ed|es)?|rush(ed|es)?|"
-                      r"carry|carries|flag|penalty|holding|scrimmage|quarter|halftime|score[sd]?|ball|coach|football|wildcats|tigers|"
-                      r"bulldogs|eagles|first and ten|and goal|at the \d+|the \d+ yard)\b", re.I)
+                      r"penalty|holding|scrimmage|quarter|halftime|football|first and ten|and goal|at the \d+|the \d+ yard|"
+                      r"offsides|false start|pass interference|touchback|fair catch|two.point|onside|hail mary|play.action|"
+                      r"stadium|scoreboard|the kick|leads? \d+|trails? \d+|\d{1,2} ?(?:to|-) ?\d{1,2})\b", re.I)
 
 
 def norm(x):
@@ -71,38 +72,62 @@ def main():
             for u in [u for u in (t.get("streams") or []) if u.startswith("http")][:3]:
                 jobs.append((t["school"], u, words))
     print(f"listening to {len(jobs)} streams in {len(games)} live games")
+    def transcribe(clip):
+        import wave, numpy as np
+        with wave.open(clip) as w:
+            pcm = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).astype(np.float32) / 32768.0
+        segs, _ = model.transcribe(pcm, beam_size=1, vad_filter=True)
+        os.remove(clip)
+        return " ".join(sg.text for sg in segs).strip()
+
+    def judge(text, words):
+        """game / blocked / speech (talk or lyrics with no football in it) / quiet"""
+        if re.search(r"right access to future sporting events|geofence|not available in your (area|market)|outside of the (broadcast )?area", text, re.I):
+            return "blocked"
+        terms = {m.group(0).lower() for m in FOOTBALL.finditer(text)}
+        hits = len(terms) + sum(2 for w in words if re.search(rf"\b{re.escape(w)}\b", text, re.I))
+        if hits >= 2:
+            return "game"
+        return "speech" if len(text.split()) >= 12 else "quiet"
+
+    def listen(job):
+        clip = record(job[1])
+        return (None, None) if not clip else (lambda t: (t, judge(t, job[2])))(transcribe(clip))
+
     with ThreadPoolExecutor(max_workers=8) as ex:
-        clips = list(ex.map(lambda j: record(j[1]), jobs))
+        first = list(ex.map(listen, jobs))
+    # Anything that sounded like plain talk may just have been a commercial break: listen again
+    # about a minute later before counting it against the station.
+    again = [i for i, (t, v) in enumerate(first) if v == "speech"]
+    if again:
+        time.sleep(50)
+        with ThreadPoolExecutor(max_workers=8) as ex:
+            second = dict(zip(again, ex.map(lambda i: listen(jobs[i]), again)))
+    else:
+        second = {}
     try:
         state = json.load(open("radio-heard.json"))
     except Exception:
         state = {"streams": {}}
     stamp = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
-    summary = {"game": [], "not_game": [], "quiet": [], "no_audio": []}
-    for (school, url, words), clip in zip(jobs, clips):
+    summary = {}
+    for i, ((school, url, words), (text, v)) in enumerate(zip(jobs, first)):
         rec = state["streams"].setdefault(url, {"school": school})
-        if not clip:
-            rec.update({"heard": "no_audio", "heard_at": stamp}); summary["no_audio"].append(school); continue
-        import wave, numpy as np
-        with wave.open(clip) as w:
-            pcm = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).astype(np.float32) / 32768.0
-        segs, _ = model.transcribe(pcm, beam_size=1, vad_filter=True)
-        text = " ".join(s.text for s in segs).strip()
-        os.remove(clip)
-        hits = len(FOOTBALL.findall(text)) + sum(2 for w in words if re.search(rf"\b{re.escape(w)}\b", text, re.I))
-        if re.search(r"right access to future sporting events|geofence|not available in your (area|market)|outside of the (broadcast )?area", text, re.I):
-            v = "blocked"
-        elif hits >= 2:
-            v = "game"
-        elif len(text.split()) >= 12:
-            v = "not_game" if rec.get("heard_raw") == "not_game" else "maybe_not"  # need two misses in a row
+        if v is None:
+            rec.update({"heard": "no_audio", "heard_at": stamp}); summary.setdefault("no_audio", []).append(school); continue
+        if i in second and second[i][1] is not None:
+            t2, v2 = second[i]
+            if v2 != "speech":
+                text, v = t2, v2   # the second listen settled it
+            else:
+                text = f"{text} || {t2}"
+        if v == "speech":
+            v = "not_game" if rec.get("heard_raw") == "not_game" else "maybe_not"  # two runs in a row with no football
             rec["heard_raw"] = "not_game"
         else:
-            v = "quiet"
-        if v != "maybe_not" and v != "not_game":
             rec["heard_raw"] = v
-        rec.update({"heard": v if v in ("not_game", "blocked") else ("unknown" if v == "maybe_not" else v),
-                    "heard_text": text[:160], "heard_at": stamp})
+        rec.update({"heard": v if v in ("not_game", "blocked", "game", "quiet") else "unknown",
+                    "heard_text": text[:200], "heard_at": stamp})
         summary.setdefault(v, []).append(school)
         print(f"{v:10} {school[:34]:34} {text[:90]!r}")
     state["listened"] = stamp
