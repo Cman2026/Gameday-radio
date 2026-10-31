@@ -633,7 +633,8 @@
 "game_only": true,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"notes": "Free school audio on OwlSports.com"
 },
 {
 "school": "Tulane University",
@@ -1830,7 +1831,8 @@
 "game_only": true,
 "streams": [],
 "misses": 0,
-"last_ok": "2026-10-30"
+"last_ok": "2026-10-30",
+"notes": "School audio on GoCamels.com, game days only"
 },
 {
 "school": "Elon University",
@@ -1846,7 +1848,9 @@
 "game_only": null,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"no_radio": true,
+"notes": "Audio only on the Varsity Network app"
 },
 {
 "school": "Hampton University",
@@ -1975,7 +1979,8 @@
 "game_only": true,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"notes": "Free school audio (LEANplayer)"
 },
 {
 "school": "Sacred Heart University",
@@ -1991,7 +1996,9 @@
 "game_only": null,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"no_radio": true,
+"notes": "TV only (ESPN+)"
 },
 {
 "school": "Stony Brook University",
@@ -2112,7 +2119,9 @@
 "game_only": null,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"no_radio": true,
+"notes": "TV only (ESPN+)"
 },
 {
 "school": "College of the Holy Cross",
@@ -2128,7 +2137,9 @@
 "game_only": null,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"no_radio": true,
+"notes": "No radio found"
 },
 {
 "school": "Lafayette College",
@@ -2144,7 +2155,9 @@
 "game_only": null,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"no_radio": true,
+"notes": "TV only (Lafayette Sports Network)"
 },
 {
 "school": "Lehigh University",
@@ -2249,7 +2262,8 @@
 "game_only": true,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"notes": "Brown Audio Network: free school audio stream, game days only"
 },
 {
 "school": "Columbia University",
@@ -2286,7 +2300,9 @@
 "game_only": null,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"no_radio": true,
+"notes": "No radio since 2025-26 (Cornell dropped commercial radio)"
 },
 {
 "school": "Dartmouth College",
@@ -2343,7 +2359,8 @@
 "game_only": true,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"notes": "Free school audio (Stretch Internet)"
 },
 {
 "school": "Princeton University",
@@ -2359,7 +2376,8 @@
 "game_only": true,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"notes": "Stretch Internet feed; also Varsity Network app"
 },
 {
 "school": "Yale University",
@@ -2398,7 +2416,9 @@
 "game_only": null,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"no_radio": true,
+"notes": "No radio found"
 },
 {
 "school": "Chicago State University",
@@ -2414,7 +2434,9 @@
 "game_only": null,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"no_radio": true,
+"notes": "First season; no radio found"
 },
 {
 "school": "Duquesne University",
@@ -2453,7 +2475,8 @@
 "game_only": true,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"notes": "LIU Sharks Audio Network (school stream)"
 },
 {
 "school": "Mercyhurst University",
@@ -2469,7 +2492,8 @@
 "game_only": true,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"notes": "Audio for some games (e.g. Fox Sports 970 Pittsburgh vs Duquesne)"
 },
 {
 "school": "University of New Haven",
@@ -2485,7 +2509,9 @@
 "game_only": null,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"no_radio": true,
+"notes": "TV only (ESPN+/NESN)"
 },
 {
 "school": "Robert Morris University",
@@ -2503,7 +2529,8 @@
 "https://stream.radio.co/s521a8e223/listen"
 ],
 "misses": 0,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"notes": "School audio stream (radio.co)"
 },
 {
 "school": "Stonehill College",
@@ -2519,7 +2546,9 @@
 "game_only": null,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"no_radio": true,
+"notes": "TV only (NEC Front Row)"
 },
 {
 "school": "Wagner College",
@@ -2535,7 +2564,9 @@
 "game_only": null,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"no_radio": true,
+"notes": "No radio found"
 },
 {
 "school": "Alabama A&M University",
@@ -2661,7 +2692,8 @@
 "game_only": true,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"notes": "G-Line Radio (school)"
 },
 {
 "school": "Alcorn State University",
@@ -2738,7 +2770,9 @@
 "game_only": null,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"no_radio": true,
+"notes": "No radio found"
 },
 {
 "school": "Southern University",
@@ -2793,7 +2827,9 @@
 "game_only": null,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"no_radio": true,
+"notes": "No radio found"
 },
 {
 "school": "Howard University",
@@ -2870,7 +2906,8 @@
 "game_only": true,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"notes": "Live audio/video on school site"
 },
 {
 "school": "South Carolina State University",
@@ -2907,7 +2944,8 @@
 "game_only": true,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"notes": "Audio listed for some games (opponent feeds)"
 },
 {
 "school": "Chicago State University",
@@ -2923,7 +2961,9 @@
 "game_only": null,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"no_radio": true,
+"notes": "First season; no radio found"
 },
 {
 "school": "University of Tennessee at Chattanooga",
@@ -3027,7 +3067,9 @@
 "game_only": null,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"no_radio": true,
+"notes": "No radio found"
 },
 {
 "school": "Tennessee Technological University",
@@ -3188,7 +3230,9 @@
 "game_only": null,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"no_radio": true,
+"notes": "TV only (ESPN+)"
 },
 {
 "school": "Lamar University",
@@ -3347,7 +3391,9 @@
 "game_only": null,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"no_radio": true,
+"notes": "No radio found"
 },
 {
 "school": "Eastern Illinois University",
@@ -3502,7 +3548,9 @@
 "game_only": null,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"no_radio": true,
+"notes": "Varsity Network app only"
 },
 {
 "school": "Davidson College",
@@ -3518,7 +3566,8 @@
 "game_only": true,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"notes": "School audio showcase; also Varsity Network"
 },
 {
 "school": "University of Dayton",
@@ -3574,7 +3623,8 @@
 "game_only": true,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"notes": "School audio on GoRedFoxes.com"
 },
 {
 "school": "Morehead State University",
@@ -3654,7 +3704,8 @@
 "game_only": true,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"notes": "Radio: USDToreros (school audio)"
 },
 {
 "school": "Stetson University",
@@ -3670,7 +3721,9 @@
 "game_only": null,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"no_radio": true,
+"notes": "Video only (YouTube)"
 },
 {
 "school": "Valparaiso University",
@@ -3871,7 +3924,9 @@
 "game_only": null,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"no_radio": true,
+"notes": "TV only (ESPN+)"
 },
 {
 "school": "Weber State University",
@@ -4321,7 +4376,9 @@
 "game_only": null,
 "streams": [],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"no_radio": true,
+"notes": "TV only (ESPN+)"
 },
 {
 "school": "University of West Georgia",
