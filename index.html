@@ -75,11 +75,12 @@ h1 span{color:inherit}
 
 /* ---------- Grouped game list ---------- */
 .list{display:flex;flex-direction:column}
-.conf{font:600 14px var(--ui);color:var(--muted);margin:18px 0 6px;padding:6px 4px;display:flex;align-items:center;gap:8px;width:100%;background:none;border:0;text-align:left;cursor:pointer;-webkit-tap-highlight-color:transparent}
-.conf .cn{font:500 12px var(--num);color:var(--dim);background:var(--line);border-radius:999px;padding:2px 8px}
-.conf .chev{width:20px;height:20px;margin-left:auto;color:var(--dim);transition:transform .2s}
+.conf{font:600 16px var(--ui);color:var(--text);margin:14px 0 8px;padding:12px 14px;display:flex;align-items:center;gap:10px;width:100%;background:var(--surface);border:1px solid var(--line-2);border-radius:var(--r-lg);text-align:left;cursor:pointer;-webkit-tap-highlight-color:transparent;box-shadow:0 1px 2px rgba(0,0,0,.06)}
+.conf:active{background:var(--surface-2)}
+.conf .cn{font:600 12px var(--num);color:var(--accent-ink);background:var(--accent);border-radius:999px;padding:2px 8px}
+.conf .chev{width:20px;height:20px;margin-left:auto;color:var(--muted);transition:transform .2s}
 .conf[aria-expanded="false"] .chev{transform:rotate(-90deg)}
-.conf[aria-expanded="false"]{margin-bottom:0}
+.conf[aria-expanded="false"]{margin:8px 0 0}
 .sect{display:flex;align-items:baseline;justify-content:space-between}
 .sect .lnk{font:600 14px var(--ui);color:var(--accent);background:none;border:0;padding:4px;cursor:pointer}
 .list > .conf:first-child{margin-top:4px}
