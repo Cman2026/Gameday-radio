@@ -1,5 +1,5 @@
 {
-"built": "2026-10-31T18:27:11Z",
+"built": "2026-10-31T18:53:56Z",
 "teams": [
 {
 "school": "Boston College",
@@ -786,9 +786,9 @@
 "streams": [
 "https://cdn.jwplayer.com/live/broadcast/3j2GACVG.m3u8"
 ],
-"misses": 1,
-"miss_day": "2026-10-31",
-"last_ok": null,
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-10-31",
 "live_only": true,
 "game_feeds": [
 "https://cdn.jwplayer.com/live/broadcast/3j2GACVG.m3u8"
@@ -2393,7 +2393,7 @@
 ],
 "game_only": null,
 "no_radio": null,
-"notes": null,
+"notes": "WOBM plays music during games (heard 2026-10-31); since Oct 2025 Monmouth media partners are WFSB / The WAX, no confirmed 2026 radio outlet",
 "streams": [],
 "misses": 0,
 "miss_day": null,
@@ -3341,8 +3341,8 @@
 "streams": [
 "https://ice41.securenetsystems.net/WPRL"
 ],
-"misses": 1,
-"miss_day": "2026-10-31",
+"misses": 0,
+"miss_day": null,
 "last_ok": "2026-10-31",
 "game_feeds": null
 },
@@ -4932,14 +4932,15 @@
 "calls": [],
 "game_only": null,
 "no_radio": null,
-"notes": null,
+"notes": "KAZZ stream from The Fan Sports Network listen page (captured 2026-10-31)",
 "streams": [
 "https://ice6.securenetsystems.net/KAZZ"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": null,
-"live_only": false
+"last_ok": "2026-10-31",
+"live_only": false,
+"game_feeds": null
 },
 {
 "school": "Illinois State University",
