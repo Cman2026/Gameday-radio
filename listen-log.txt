@@ -1,148 +1,154 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-[https @ 0x556dd54f8700] Cannot reuse HTTP connection for different host: prod-34-227-171-136.amperwave.net:-1 != d25j5qm9y8ulag.cloudfront.net:-1
-[tcp @ 0x55b31e5f7f40] Connection to tcp://ice41.securenetsystems.net:443 failed: Connection timed out
-[in#0 @ 0x55b31e636e80] Error opening input: Connection timed out
-Error opening input file https://ice41.securenetsystems.net/WFRO?playSessionID=37CC2305-7F08-457D-928B-3FC82D6081FC.
-Error opening input files: Connection timed out
-[tcp @ 0x55e7d837df40] Connection to tcp://ice25.securenetsystems.net:443 failed: Connection timed out
-[in#0 @ 0x55e7d83bce80] Error opening input: Connection timed out
-Error opening input file https://ice25.securenetsystems.net/WGZZ?playSessionID=65E9837E-8DC8-4318-AEDD-4B287BE0BDDE.
-Error opening input files: Connection timed out
-[tcp @ 0x55abe14ddf40] Connection to tcp://ice23.securenetsystems.net:443 failed: Connection timed out
-[in#0 @ 0x55abe151ce80] Error opening input: Connection timed out
-Error opening input file https://ice23.securenetsystems.net/WDGG?playSessionID=FDEE260E-6F1B-4D1F-8932-4972CC0A2934.
-Error opening input files: Connection timed out
-[out#0/wav @ 0x5583f4021b00] Output file does not contain any stream
-Error opening output file /tmp/tmpup4o8qnk.wav.
+[https @ 0x55e0a9fc93c0] Cannot reuse HTTP connection for different host: prod-100-53-217-72.amperwave.net:-1 != d25j5qm9y8ulag.cloudfront.net:-1
+[in#0 @ 0x557ef79efe80] Error opening input: Server returned 5XX Server Error reply
+Error opening input file https://learfield-gd.leanstream.co/LF4901-MP3?sport=FB.
+Error opening input files: Server returned 5XX Server Error reply
+[in#0 @ 0x55753cd6ee80] Error opening input: Server returned 5XX Server Error reply
+Error opening input file https://learfield-gd.leanstream.co/LF4901-MP3?sport=MBB.
+Error opening input files: Server returned 5XX Server Error reply
+[out#0/wav @ 0x562700ed7640] Output file does not contain any stream
+Error opening output file /tmp/tmpx6tekuay.wav.
 Error opening output files: Invalid argument
-[out#0/wav @ 0x55d9f2e35240] Output file does not contain any stream
-Error opening output file /tmp/tmp2szl_x3i.wav.
+[out#0/wav @ 0x555611ab6a40] Output file does not contain any stream
+Error opening output file /tmp/tmpa2ng03qq.wav.
 Error opening output files: Invalid argument
-[tcp @ 0x56357a77bf40] Connection to tcp://ice6.securenetsystems.net:443 failed: Connection timed out
-[in#0 @ 0x56357a7bae80] Error opening input: Connection timed out
-Error opening input file https://ice6.securenetsystems.net/WNST?playSessionID=A4293604-2E00-4AA1-B441-4CB18C638E29.
-Error opening input files: Connection timed out
-[tcp @ 0x55a038a3af40] Connection to tcp://ice26.securenetsystems.net:443 failed: Connection timed out
-[in#0 @ 0x55a038a79e80] Error opening input: Connection timed out
-Error opening input file https://ice26.securenetsystems.net/WPCC?playSessionID=98E74A97-80E1-46BB-BB95-FC778B1A9343.
-Error opening input files: Connection timed out
-[tcp @ 0x55d8565c2f40] Connection to tcp://ice5.securenetsystems.net:443 failed: Connection timed out
-[in#0 @ 0x55d856601e80] Error opening input: Connection timed out
-Error opening input file https://ice5.securenetsystems.net/WIVY?playSessionID=51AF9CE1-65EC-4B0A-9C01-11157358C688.
-Error opening input files: Connection timed out
-[tcp @ 0x555d1746cf40] Connection to tcp://ice5.securenetsystems.net:443 failed: Connection timed out
-[in#0 @ 0x555d174abe80] Error opening input: Connection timed out
-Error opening input file https://ice5.securenetsystems.net/WIVY?playSessionID=CAD94437-8A97-4B89-A64B6786D95C079F.
-Error opening input files: Connection timed out
-[tcp @ 0x562553145f40] Connection to tcp://ice41.securenetsystems.net:443 failed: Connection timed out
-[in#0 @ 0x562553184e80] Error opening input: Connection timed out
-Error opening input file https://ice41.securenetsystems.net/WFLI?playSessionID=5421DB5F-A49B-4818-AA93-FBE8F681C3DD.
-Error opening input files: Connection timed out
-[tcp @ 0x55e5c9038f40] Connection to tcp://ice41.securenetsystems.net:443 failed: Connection timed out
-[in#0 @ 0x55e5c9077e80] Error opening input: Connection timed out
-Error opening input file https://ice41.securenetsystems.net/WWZW?playSessionID=43763100-1C99-488E-9192-103C504F50B3.
-Error opening input files: Connection timed out
-[0;93m2026-10-31 17:42:37.561892692 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-listening to 112 streams in 34 live games
-game       United States Naval Academy        'the 99th meeting between Navy and Notre Dame. Notre Dame leads Navy 14 to 13. Notre Dame w'
-game       United States Naval Academy        '99th meeting between Navy and Notre Dame. Notre Dame leads Navy 14 to 13. Notre Dame will '
-game       United States Naval Academy        "It's time, the 99th meeting between Navy and Notre Dame. Notre Dame leads Navy 14 to 13. N"
+[0;93m2026-10-31 18:07:17.628891897 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+listening to 141 streams in 44 live games
+maybe_not  United States Naval Academy        'Your 60 is equipping defense and national security leaders with mission critical signals i'
+maybe_not  United States Naval Academy        'Hawkeye 360 is equipping defense and national security leaders with mission critical signa'
+maybe_not  United States Naval Academy        'Hawkeye 360 is equipping defense and national security leaders with mission critical signa'
 quiet      University of Notre Dame           ''
 quiet      University of Notre Dame           ''
-maybe_not  University of Notre Dame           "Attention all new and existing members of the WDNC.  I'm Melanie Sanders and this is The W"
-maybe_not  Texas Tech University              'With LinkedIn hiring pro, every small business gets a scout in its corner,  because just l'
-quiet      Texas Tech University              ''
-game       Texas Tech University              'His hey touchdown on a foot return at his career. This is Texas Tech football from the fie'
-game       University of Arizona              'Wildcats took the lead with 10-02 to go.  Second quarter, 94 yard pass play, the longest o'
-game       University of Arizona              'lead with 10-02 to go, second quarter, 94 yard pass play, the longest of no  fafitas caree'
-game       University of Arizona              'lead with 10-02 to go, second quarter, 94 yard pass play, the longest of no  fafitas caree'
-maybe_not  Syracuse University                'With LinkedIn hiring pro, every small business gets a scout in its corner,  because just l'
+not_game   University of Notre Dame           "Hey football fans, it's Von Miller, Dallas Cowboys, Law & Backer and host of the free  ran"
+not_game   Texas Tech University              'With LinkedIn hiring pro, every small business gets a scout in its corner,  because just l'
+maybe_not  Texas Tech University              'I think things we hear about, who are they to judge us  Certainly calls are heavy and stro'
+maybe_not  Texas Tech University              'receivers looking over to the sideline getting the signals from the sideline as Castellano'
+game       University of Arizona              'Jacob Pontin, their right tackle,  going to get whistled here if the officials agree.  Aft'
+game       University of Arizona              'onto their right tackle.  Going to get whistled here if the officials agree.  After the pl'
+maybe_not  University of Arizona              'gonna get whistled here if the officials agree.  After the play was over, personal foul, u'
+not_game   Syracuse University                'With LinkedIn hiring pro, every small business gets a scout in its corner,  because just l'
 quiet      Syracuse University                ''
-maybe_not  Southern Methodist University      'With LinkedIn hiring pro, every small business gets a scout in its corner,  because just l'
-maybe_not  Southern Methodist University      'Introducing a better way to save on energy.  TXU Energy, 3 Nights in Cool Summer is a firs'
-maybe_not  Southern Methodist University      'Introducing a better way to save on energy.  TXU Energy, 3 Nights in Cool Summer is a firs'
-maybe_not  University of Iowa                 'IHeart.com. Thanks again for listening to The IHeart Radio app. For all your music, radio,'
-maybe_not  University of Iowa                 'Play-by Play event. To ensure you have the right access to future sporting events,  please'
-maybe_not  University of Iowa                 'for all your music, radio, and podcasts.  Thanks for listening to The I Heart Radio app.  '
-game       University of Wisconsin-Madison    'Back with you at Kinix Stadium, the scoreboard update is presented by Ho-Chunk Gaming Madi'
-maybe_not  University of Wisconsin-Madison    "and ready for whatever you're in the mood for.  Even better, when you plug your phone into"
-maybe_not  University of Wisconsin-Madison    'All of these are all even at three games.  The piece and head back to the Bay Area tonight'
-game       North Carolina State University    "They're being paid by my SND X and see what it is.  And then go in and talk to their healt"
-game       North Carolina State University    'The shake-up in Republican leadership in the state house.  Two Republicans who made news l'
-maybe_not  University of California, Berkeley "with Notre Dame. They're playing in Foxborough today.  And at the half, the Irish have jus"
-maybe_not  University of California, Berkeley 'About a year ago, I upgraded my grilling game when I switched to the sole air infrared gri'
-maybe_not  University of California, Berkeley "I've had my solar infrared grill for over a year and I use it all the time to do the best "
-game       Duke University                    'backwards pass when he got hit by the way.  Yeah, it was pressure off the right side that '
-maybe_not  Duke University                    'The shake-up in Republican leadership in the state house.  Two Republicans who made news l'
-maybe_not  Boston College                     "Hey there, I'm Kendra Adachi and my show The Lazy Genius Podcast helps you be  a genius ab"
-game       Boston College                     'Man, that was ugly. Second down in 22 at the 18 now for Duke.  The rugby is play of the ha'
-maybe_not  Boston College                     'Hi, this is Jill Schlesinger, CBS News Business Analyst, Certified Financial Planner, and '
-maybe_not  University of Maryland             "What if the thing you're listening to right now never got interrupted?  What if it could p"
-game       University of Illinois Urbana-Cham 'Severs to the right one to left.  Now two to the left,  Law-Fring in motion back to throw '
-game       University of Illinois Urbana-Cham 'Thanks for listening to WSIY on NowDicator.com.  This stream is presented by Hickory Point'
-maybe_not  University of Illinois Urbana-Cham 'Thanks for listening to WSOY on NowDicator.com.  This stream is presented by Hickory Point'
-game       University of South Florida        'Van Buren back in for what would be his last play. They try a pass. It just did not work o'
-game       University of South Florida        'It was the last play to try a pass.  It just did not work out and it was a really kind of '
-game       University of Alabama at Birmingha 'hard field goal.  An 11 play 64-yard drive, seven minutes, 11 seconds off the clock with 5'
-maybe_not  University of Alabama at Birmingha "Hello.  Hi, Jim.  This is David.  You're just a insurance company.  I'm calling the check-"
-maybe_not  University of Alabama at Birmingha "Hello.  Hi, Jim.  This is David.  You're just a insurance company.  I'm calling the check-"
-game       Western Michigan University        'And, empty backfield, but sat on either side.  Roxanna Gun and drops back to throw, lookin'
-game       Western Michigan University        'But, sad on either side.  Roxanna Gunn and drops back to throw, looking into the end zone,'
-game       Western Michigan University        'But sad on either side.  Roxanne the gun and drops back to throw looking into the end zone'
-maybe_not  Rutgers University                 'I mean avoiding the contact in the tackle,  making a positive play out of it.  The co-chan'
-game       Rutgers University                 "He breaks the first tackle.  He bursts it left and Raymond's gonna be close to a first dow"
-game       Rutgers University                 "He breaks the first tackle.  He bursts it left and Raymond's gonna be close to a first dow"
-game       University of Michigan             'This is gonna be a 32 yard field goal attempt for  Pazora  Snap is good. Hold is good. The'
-game       University of Mississippi          'Touchback has been doing that pretty regularly for the Auburn Tigers.  Well, they had to a'
-maybe_not  University of Mississippi          'Mr. Sippy transfer from Bama and Colorado John had a field level view of it.  Had a good p'
-game       Old Dominion University            'Time for our food for thought brought to you by food lion and James with him how big a dea'
-game       Marshall University                'Monarchs gaining some confidence now here on that drive.  Five plays 77 yards to make it 1'
+not_game   Southern Methodist University      'With LinkedIn hiring pro, every small business gets a scout in its corner,  because just l'
+not_game   Southern Methodist University      'Introducing a better way to save on energy.  TXU Energy, 3 Nights in Cool Summer is a firs'
+not_game   Southern Methodist University      'Introducing a better way to save on energy.  TXU Energy, 3 Nights in Cool Summer is a firs'
+blocked    University of Iowa                 'To ensure you have the right access to future sporting events,  please ensure your locatio'
+not_game   University of Iowa                 'Help.ihark.com. Thanks again for listening to The I Heart Radio app. For all your music, r'
+blocked    University of Iowa                 'Of the right access to future sporting events,  please ensure your location services  are '
+maybe_not  University of Wisconsin-Madison    'With LinkedIn hiring pro, every small business gets a scout in its corner,  because just l'
+not_game   University of Wisconsin-Madison    'restraining order late Friday and ordered the Justice Department not to threaten,  intimid'
+not_game   University of Wisconsin-Madison    'The ballot will travel from Vatican City to Joliet, Illinois, where Leo born Robert Franci'
+game       North Carolina State University    "Well covered, Rob's and only had a step, but that was just enough space to make the big to"
+not_game   North Carolina State University    'The shake-up in Republican leadership in the state house.  Two Republicans who made news l'
+not_game   University of California, Berkeley 'Play on that post route.  So great play design, good protection up front  for CJ Bailey in'
+not_game   University of California, Berkeley "I've had my solar infrared grill for over a year and I use it all the time to do the best "
+not_game   University of California, Berkeley 'About a year ago, I upgraded my grilling game when I switched to the sole air infrared gri'
+game       Duke University                    'of those stone leading tackler with five.  Kendall Johnson has four.  Five tackles for los'
+not_game   Duke University                    'The shake-up in Republican leadership in the state house.  Two Republicans who made news l'
+not_game   Boston College                     'Your sports live anytime anywhere catch the NFL in CW March Madness and much more plus  24'
+game       Boston College                     'E-E-I-F-M and HD-1, Lawrence Boston, and Odyssey Sport Station.  Welcome back to Duke, whe'
+not_game   Boston College                     'My name is PJ Bo, and our podcast search engine recently got this question from a listener'
+not_game   University of Maryland             "Hey y'all, I'm Maddie, and I'm Poodle, and together we host the podcast reality games.  We"
+game       University of Illinois Urbana-Cham 'Turn around catch for Clement inside the 25 of Maryland,  nearing the Carl Red Zone.  The '
+maybe_not  University of Illinois Urbana-Cham 'Thanks for listening to WSIY on NowDicator.com.  This stream is presented by Hickory Point'
+not_game   University of Illinois Urbana-Cham 'Thanks for listening to WSOY on NowDicator.com.  This stream is presented by Hickory Point'
+game       University of South Florida        "This season we're proud to partner with USF Athletics, because it football and in the cour"
+game       University of South Florida        "and we're proud to partner with USF Athletics because in football and in the  courtroom, t"
+maybe_not  University of Alabama at Birmingha 'for USF, when we come back.  A time out on the field with 10 minutes  to play in the third'
+not_game   University of Alabama at Birmingha "Hello.  Hi, Jim.  This is David.  You're just a insurance company.  I'm calling the check-"
+not_game   University of Alabama at Birmingha "Hello.  Hi, Jim.  This is David.  You're just a insurance company.  I'm calling the check-"
+game       Western Michigan University        "Here's the snap and a quick out to the wide receiver.  Ridley's got a first down and is fo"
+game       Western Michigan University        "That quick out to the wide receiver, Ridley.  He's got a first down and is forced out of b"
+game       Western Michigan University        "out to the wide receiver.  Ridley's got a first down and is forced out of bounce by  Deima"
+maybe_not  Bowling Green State University     'I was really excited, nice run by Ridley, they actually spot him at the 32.  I really want'
+not_game   Rutgers University                 "Within four in this game with the extra point at 14 to 10.  Once again, we're at the half."
+game       Rutgers University                 "I'm thinking that their halftime adjustments offensively will be to kind of open it up  An"
+game       Rutgers University                 "I'm thinking that their halftime adjustments offensively will be to kind of open it up  An"
+game       University of Michigan             "We killed the Michigan Drive, Rutgers 10.  Can't take advantage of the final 90 seconds,  "
+maybe_not  University of Mississippi          'They converted a bunch of big third downs in motion to the far side goes Neptune to give  '
+game       University of Mississippi          'it downfield incomplete out of bounds around the 22 to pass.  Even if Nimrod could have pu'
+maybe_not  Auburn University                  'out of bounds of the 15th team.  And I love that play call by this Auburn offense.  You sh'
+game       Old Dominion University            "the transfer from Florida Atlantic  been doing the kickoff duties rather well.  He's every"
+maybe_not  Marshall University                'With LinkedIn hiring pro, every small business gets a scout in its corner,  because just l'
+maybe_not  Marshall University                'Players and Tigers. Enjoy competitive pay. Great benefits. Pay vacation and career growth.'
+game       University of Colorado Boulder     'the right side. He runs into  Travis Bates, the big defensive  tackle of the 19 yard line.'
+game       University of Colorado Boulder     "He runs into Travis Bates, the big defensive tackle of the 19 yard line.  It's a game of t"
+game       University of Colorado Boulder     "The country is just amazing what they've, you know, and punt, punt returns, kick off retur"
+game       Kansas State University            "going straight ahead and that is  again to about the 1942 and  that's going to be about it"
+game       Kansas State University            "the first man who carried the ball for Colorado today.  He's kind of fourth on the depth c"
+game       Georgia State University           "Forces him to get rid of that ball quickly throws it out of bounds, but it didn't go past "
+game       Georgia State University           "So snap coming up here to do spaley on second down and in motion that's  Colin Hitton one "
+maybe_not  Georgia State University           "existence. The Valkyries hope to get an edge from an enthusiastic home crowd that's alread"
+game       Coastal Carolina University        "I've earned line dominant.  Tuts his ahead to the 36 and that'll be enough for the initial"
+maybe_not  Coastal Carolina University        'You see him before he got to the linebacker  mashing and they got him down to the ground q'
+game       Coastal Carolina University        'trudges ahead to the 36th and now will be enough for the initial first down of the ballgam'
 quiet      University at Albany               ''
-maybe_not  Campbell University                'for the past 10 years.  Their belief in commitment to me to have a help  our student athle'
-game       University of Rhode Island         'Over a mile to get it back, they brought both safeties  from about 10 yards.  Deep to try '
-game       University of Rhode Island         'Back, they brought both safeties from about 10 yards.  Deep to try to get home, put pressu'
-game       University of Maine                'ran seven plays, five of them were passes.  Time out on the field, seven nothing Rhode Isl'
-game       University of Maine                'But he was well-combered.  And they gave up on the run.  You know, that worked very well f'
+game       Campbell University                'In the 1960s they used to be called the Pettigogues and they had a penguin-like  mascot th'
+game       University of Maine                "Marshall, he's got the first down and more inside the 35.  Powers his way to the 31, first"
+game       University of Maine                'All then, just shy of the first down at the 40.  Looks like Connor Hepburn in a 6-4-270-po'
 quiet      University of Maine                ''
-maybe_not  Stony Brook University             'Pick three. By the way, we do of course transmit on W297BM at 107.3 to cover where the gla'
-maybe_not  Stony Brook University             'By the way, we do of course transmit on W297BM at 107.3 to cover where the glaciers left o'
-maybe_not  Columbia University                'Why not we use self-appressors?  To set the same thing right by balloon.'
-maybe_not  Columbia University                'Why not we use it for breakfast?  We can say the same thing right back for new.'
-maybe_not  Yale University                    "significant possibility out there. And it's a reason to vote by itself because it's a deci"
-maybe_not  Yale University                    'likely scenario that could apply. We know Judge Alito Buck talked about the possibility  o'
-maybe_not  Yale University                    "possibility out there. It's a reason to vote by itself because it's a decision for the  ne"
-maybe_not  Youngstown State University        'on the field with the fighting hot leading twenty one seven we began with sunny  and fifty'
-maybe_not  Youngstown State University        "Friends, right then, to talk about it, then, someone started calling me hands.  Let's try "
-maybe_not  Youngstown State University        "getting hot, leading.  21 7, we began with Sunny and 55.  Let's get a game condition repor"
-maybe_not  University of North Dakota         'Options available from luxurious to affordable with styles and colors for your home or com'
-maybe_not  University of North Dakota         "Today we're visiting West Stephanie from Sterling Carvin 1 to learn more about  flooring. "
-maybe_not  University of North Dakota         'available from luxurious to affordable with styles and colors for your home or commercial '
-maybe_not  Robert Morris University           'And also dropping back in the past  coverage was state and along with  Darren Omerrego did'
-maybe_not  Lehigh University                  "It's radio 94 7 FM and 1230 AM in Eastern.  Historic Hotel Bethlehem is the nation's six t"
-maybe_not  Lehigh University                  "1230 AM in Houston.  The story, Hotel Bethlehem is the nation's six-time national champion"
-maybe_not  Lehigh University                  "Historic Hotel Bethlehem is the nation's six-time national champion best historic hotel.  "
-game       Bucknell University                'for Bucknell. Now you got to watch it. Gomez is trying to shield the system from his eyes.'
-game       Duquesne University                'feel-go range and then you guys took over after they missed the field goal came right back'
-maybe_not  Duquesne University                'Depth chart can take care of business. Oh, yes, sir. Most definitely. I feel like every da'
-game       Duquesne University                'field goal range and then you guys took over after they missed the field goal came right  '
-game       Villanova University               "It's gonna be a pens a run and he is gonna be knocked out of bounds running towards the Vi"
-game       Villanova University               "24 seven Villanova with the lead and now the officials say we're ready to resume play two "
-game       Villanova University               'He depends on run and he is gonna be knocked out of bounds running towards the Villanova b'
-maybe_not  Monmouth University                "I'm ready to fight  I'm moving wings, we fled the snow  I'm stuck up to no man"
-maybe_not  Bryant University                  "But it's your birthday  That's act like it is  And just go crazy  You want me one with no "
-maybe_not  North Carolina A&T State Universit "High enough for him to catch it and just couldn't couldn't hold on to it out  That's one h"
-maybe_not  Elon University                    'Hooray just for you. The loyal Illinois supporter, Chris,  refreshing and rude with the sp'
+not_game   Stony Brook University             "Opposition 25 and that's what they did on the has to play yeah, look at a punch it in now "
+not_game   Stony Brook University             "That's what they did on that has to play.  Looking to punch it in now.  Third and six.  On"
+quiet      Columbia University                ''
+quiet      Columbia University                ''
+not_game   Yale University                    "The hardest part was figuring out where to go.  I didn't want to explain military life bef"
+not_game   Yale University                    "The hardest part was figuring out where to go.  I didn't want to explain military life bef"
+not_game   Yale University                    "The hardest part was figuring out where to go.  I didn't want to explain military life bef"
+game       Youngstown State University        'I thought Antoine Gardner would easily get the first down. That was a tremendous play by t'
+game       Youngstown State University        "Made a nice one-on-one tackle and you don't see that often against bow.  Single tail back,"
+game       Youngstown State University        'It would easily get the first down. That was a tremendous play by the fighting box.  There'
+not_game   University of North Dakota         'He is the playing player of the year.  He has made plays today as well,  but this is a lit'
+not_game   University of North Dakota         "was really perfectly played by Ben Kamara.  I mean, you just tell him, hey, man, that's a "
+not_game   University of North Dakota         'player of the year. He has made plays  today as well, but this is a little bit of what Nor'
+not_game   Robert Morris University           'Trying to run that football and  Robert Morris comes up big with Asher Wilson making the s'
+game       Lehigh University                  "And at the Holiday Inn Express in Sweet's Bethelaham on Cherry Lane,  proud sponsor of the"
+game       Lehigh University                  "Press and Suites Bethelaham on Cherry Lane, proud sponsor of the Mountain Hocks.  You'll f"
+game       Lehigh University                  "The sponsor of the Mountain Hawks. You'll find only the best in amenities and service when"
+game       Bucknell University                'and moves definitely down the field after the kickoff.  14 plays and the bison able to get'
+maybe_not  Duquesne University                "Davis I think the third time is gonna be the charm. I didn't even see can't take it pitch "
+not_game   Duquesne University                "officially part i mean you know there's a guy that's been around a while  took a block and"
+maybe_not  Duquesne University                "Davis I think the third time is going to be the charm.  I didn't even see Cam take it and "
+maybe_not  Villanova University               'You got to love it, Michael.  A big six just a few plays later.  Cats go up 17 to seven.  '
+game       Villanova University               'Lenovo goes up 10 to 7 there.  But not long after that, Villanova now on defense.  Third d'
+maybe_not  Villanova University               'You got to love it, Michael.  A big six just a few plays later.  Cats go up 17 to seven.  '
+not_game   Monmouth University                "The 2.7 WOBM hits the 80s, 90s and more.  It's Courtland.  Just thinking about how many gr"
+quiet      Bryant University                  ''
+not_game   North Carolina A&T State Universit 'Gee-ho!  An Aggie football on the Aggie Sports Radio Network.  Teammates are everything in'
+maybe_not  Elon University                    'third Maryland leads Illinois 14 to seven.  Neither team with an offensive.  Masterpiece i'
+maybe_not  Towson University                  'because doing I really used to forest flying and I look up, I got some points and now  the'
 quiet      Hampton University                 ''
-quiet      Hampton University                 "I would dream and I'm the spinner of it all"
 quiet      Hampton University                 ''
-maybe_not  Colgate University                 'sitting there waiting. But they look at him for help, you know, because he helped him with'
-maybe_not  Colgate University                 'them into. And like in theory, they could stand up and walk out, but doing that would just'
-game       William & Mary                     'Rake a huddle and get a first down, a rather break a tackle and get a first down inside th'
-game       William & Mary                     "They'll break a huddle and get a first now,  a rather break a tackle and get a first down "
-game       University of Richmond             "holding call as Richmond's first penalty today,  and it will back the spiders up inside.  "
-maybe_not  University of Richmond             "This is how you're talking to me.  You trusted them with your life.  They failed you, prev"
-maybe_not  University of Richmond             "This is how you're talking to me.  You trusted them with your life.  They failed you, prev"
-maybe_not  University of Dayton               "I'm Gomri County, it's time for a change.  The same old same old just isn't working.  I've"
-maybe_not  University of Dayton               "A vacation rental should come with support, not surprises.  That's why Verbo comes with th"
-maybe_not  University of Dayton               "A vacation rental should come with support, not surprises.  That's why Verbo comes with th"
-{'game': 39, 'not_game': 53, 'quiet': 9, 'no_audio': 11}
+quiet      Hampton University                 ''
+not_game   Colgate University                 'Father, Son, and Holy Spirit, descend upon you and remain in your heart. Always, amen.  Oh'
+not_game   Colgate University                 "He RX, this is reveal.  I'm Elletton.  Our father and God, Lord of heaven and earth,  we p"
+game       William & Mary                     'You seen a lot more playing time this year and taking advantage.  Second down in nine for '
+game       William & Mary                     'this year and taking advantage. Second down in nine for Colgate, back to pass, right side,'
+game       University of Richmond             'as well. 312 to go here. 1413 is the Spider-leap and a very entertaining game. The  spider'
+quiet      University of Richmond             ''
+not_game   University of Richmond             'From Short Pump to Sandstand.  Welcome to your new home for Hip Music.  The new hot one-o-'
+quiet      Presbyterian College               ''
+game       University of Dayton               "Support is available 24-7 with VerboCare. We're here day or night, ready whenever you need"
+not_game   University of Dayton               "I'm Gomri County, it's time for a change.  The same old same old just isn't working.  I've"
+not_game   University of Dayton               "Montgomery County, it's time for a change.  The same old, same old, just isn't working.  I"
+game       Morehead State University          'Everybody found freshmen from Olave, Kansas.  Give him the 26 yard line, pick up a four,  '
+game       Morehead State University          'on freshman from Olave, Kansas.  Give him the 26 yard line, pick up a four,  and move the '
+game       University of Tennessee at Chattan "So much. I can't keep on probably. If it was right, I probably didn't say it.  But I'm kin"
+game       Virginia Military Institute        "They were never lined up. They were in the huddle, but I'm not sure what was going on ther"
+maybe_not  Illinois State University          'With LinkedIn hiring pro, every small business gets a scout in its corner,  because just l'
+maybe_not  Illinois State University          'WJBC and Biernuts. Present the Scott Miller Show and this is an embroidered baseball cap. '
+maybe_not  Illinois State University          'WJBC and Biernuts. Present the Scott Miller Show and this is an embroidered baseball cap. '
+maybe_not  Murray State University            "And that's where Illinois State and their quarterback, who's in his third start, back in  "
+game       Murray State University            "36 yard line and that's going to bring up third and six for the racers.  You hear that sir"
+maybe_not  University of Northern Iowa        'With LinkedIn hiring pro, every small business gets a scout in its corner,  because just l'
+game       Indiana State University           'Schallopen and Collar will take another fair catch at the Northern Iowa 47 yard line with '
+quiet      Western Illinois University        "I'm not sure"
+game       Southeast Missouri State Universit "I roll fair catch called for at the 13.  And that's where the offense will go to work here"
+quiet      Gardner-Webb University            ''
+game       Lindenwood University              '3 receiver set on second and six Lee in the shotgun  headway to his right snap hand off up'
+game       Tennessee State University         '20 for 200 yards not a lot of incomplete passes not a lot of stopping of the clock and I w'
+maybe_not  Furman University                  "From everywhere USA, it's Fox across America with Jimmy Fallon.  Oh, hot damage, sure is. "
+maybe_not  Furman University                  'The Virginia Lottery is a symphony of play.  Some like to play fast, like our online games'
+quiet      Furman University                  "Everywhere USA, it's Fox across America with Jimmy Falo."
+maybe_not  Western Carolina University        "unlock.  I'll introduce our first story by saying a sentence that never fails to blow my c"
+quiet      Western Carolina University        ''
+game       Northwestern State University      'Punch by Hurley  And the U.I.W. offense will take over with decent field position 1249 to '
+{'game': 50, 'not_game': 38, 'quiet': 17, 'no_audio': 4, 'maybe_not': 30, 'blocked': 2}
