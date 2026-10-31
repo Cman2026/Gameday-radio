@@ -91,7 +91,7 @@ h1 span{color:inherit}
 .card[aria-current="true"]{background:var(--surface-2)}
 .card .meta .gchev{width:16px;height:16px;margin-left:8px;vertical-align:-3px;color:var(--muted);transition:transform .2s}
 .card[aria-expanded="true"] .meta .gchev{transform:rotate(180deg)}
-.hide-board{justify-self:center;display:inline-flex;align-items:center;gap:6px;background:none;border:1px solid var(--line-2);color:var(--muted);border-radius:999px;padding:8px 14px;font:600 14px var(--ui);cursor:pointer}
+.hide-board{grid-column:1/-1;justify-self:end;margin:-12px -2px 2px 0;padding:6px 12px;font-size:13px!important;display:inline-flex;align-items:center;gap:6px;background:none;border:1px solid var(--line-2);color:var(--muted);border-radius:999px;padding:8px 14px;font:600 14px var(--ui);cursor:pointer}
 .hide-board svg{width:16px;height:16px}
 .card[aria-current="true"]::before{content:"";position:absolute;left:0;top:10px;bottom:10px;width:3px;border-radius:0 3px 3px 0;background:var(--accent)}
 .card .row{display:flex;justify-content:space-between;align-items:center;gap:10px;min-height:30px}
@@ -865,7 +865,8 @@ function renderBoard(){
   html += `<div class="radio-info"><p class="label">Radio for this game</p><ul>${r.map(x=>`<li><b>${esc(x.team)}</b> ${esc(x.net||"")}${x.station && !/radio$/i.test(x.net||"") ? `, ${esc(String(x.station).replace(/\s*\(no free online stream found\)/,""))}` : ""}${x.stream ? "" : ` <span class="note">(no free stream)</span>`}</li>`).join("")}</ul>
   <span class="note">Each team's own radio broadcast. If one won't connect, try the other team's call.</span>
   <p class="legal">Broadcasts play directly from each station's own stream and belong to their respective owners. No copyright infringement is intended. Gameday Radio Live is an independent fan project and is not affiliated with or endorsed by any school, conference, network or station. Rights holders can <a href="https://github.com/Cman2026/Gameday-radio/issues" target="_blank" rel="noopener">request removal</a>.</p></div>`;
-  B.innerHTML = html + `<button class="hide-board" id="hideBoard">Hide game details<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 15l6-6 6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>`;
+  // "Hide game details" sits at the top of the score panel, under the team-color stripe.
+  B.innerHTML = html.replace(/(<div class="score"[^>]*>)/, `$1<button class="hide-board" id="hideBoard">Hide game details<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 15l6-6 6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>`);
   $("#hideBoard").onclick = ()=>{ const c = $(`#list .card[data-id="${CSS.escape(selected)}"]`); boardOpen = false; render(); c && $(`#list .card[data-id="${CSS.escape(selected)}"]`)?.scrollIntoView({block:"nearest"}); };
   B.querySelectorAll("[data-play]").forEach(l=>l.onclick=ev=>{ev.preventDefault(); $("#station").value = "team:"+l.dataset.play; startStation();});
 }
