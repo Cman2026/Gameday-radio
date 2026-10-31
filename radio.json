@@ -1,5 +1,5 @@
 {
-"built": "2026-10-31T15:20:12Z",
+"built": "2026-10-31T15:52:56Z",
 "teams": [
 {
 "school": "Boston College",
@@ -53,8 +53,7 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31",
-"live_only": true
+"last_ok": "2026-10-31"
 },
 {
 "school": "Clemson University",
@@ -224,9 +223,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://ais-sa8.cdnstream1.com/2750_64.aac?aw_0_1st.playerid=iHeart",
-"https://media-hls.wral.com/vodhttporigins3/_definst_/smil:amazons3/cbcnm-static-web-content/home/web/wral/public/asset/news/state/nccapitol/2023/05/25/20879545/3185796-gop-DMID1-5z0xt25hf.smil/playlist.m3u8",
-"http://ais-sa8.cdnstream1.com/2750_64.aac?aw_0_1st.playerid=iHeart"
+"https://media-hls.wral.com/vodhttporigins3/_definst_/smil:amazons3/cbcnm-static-web-content/home/web/wral/public/asset/news/state/nccapitol/2023/05/25/20879545/3185796-gop-DMID1-5z0xt25hf.smil/playlist.m3u8"
 ],
 "misses": 0,
 "miss_day": null,
@@ -1608,15 +1605,11 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://img.leanstream.co/IM4001-MP3",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/WTKAAMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/WTKAAMAAC.m3u8",
-"http://playerservices.streamtheworld.com/api/livestream-redirect/WTKAAMAAC.aac"
+"https://img.leanstream.co/IM4001-MP3"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31",
-"live_only": true
+"last_ok": "2026-10-31"
 },
 {
 "school": "Pennsylvania State University",
@@ -2093,8 +2086,7 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-30",
-"live_only": true
+"last_ok": "2026-10-31"
 },
 {
 "school": "Elon University",
@@ -2260,10 +2252,9 @@
 "streams": [
 "https://rhody.leanplayer.com/gfx/LeanStream_logo.png"
 ],
-"misses": 0,
-"miss_day": null,
-"last_ok": null,
-"live_only": true
+"misses": 1,
+"miss_day": "2026-10-31",
+"last_ok": null
 },
 {
 "school": "Sacred Heart University",
@@ -2511,8 +2502,7 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31",
-"live_only": true
+"last_ok": "2026-10-31"
 },
 {
 "school": "Villanova University",
@@ -2585,8 +2575,7 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": null,
-"live_only": true
+"last_ok": "2026-10-31"
 },
 {
 "school": "Columbia University",
@@ -2633,8 +2622,7 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": null,
-"live_only": true
+"last_ok": "2026-10-31"
 },
 {
 "school": "Dartmouth College",
@@ -2701,10 +2689,9 @@
 "https://portal.stretchinternet.com/pennaudio/",
 "blob:https://portal.stretchinternet.com/216fcc5d-f47c-41de-b51e-fd3967d6f003"
 ],
-"misses": 0,
-"miss_day": null,
-"last_ok": null,
-"live_only": true
+"misses": 1,
+"miss_day": "2026-10-31",
+"last_ok": null
 },
 {
 "school": "Princeton University",
@@ -2721,15 +2708,12 @@
 "no_radio": null,
 "notes": "Stretch Internet feed; also Varsity Network app",
 "streams": [
-"https://portal.stretchinternet.com/princeton/",
-"blob:https://portal.stretchinternet.com/500bb425-e87d-4fb4-a383-c8ac23155d25",
 "https://cdn.jwplayer.com/manifests/NYKdgXy1.m3u8",
 "https://videos-cloudfront-usp.jwpsrv.com/6ae6b353_b7960af4902b75bf71865340424b86771888d05c/sites/m1NXTqrD/media/NYKdgXy1/versions/UFHg5hoN/manifest.ism/manifest-audio_0_pEAylqin_NluTUL41=112025-video_0_pEAylqin_aFky9h0Q=826058.m3u8"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": null,
-"live_only": true
+"last_ok": "2026-10-31"
 },
 {
 "school": "Yale University",
@@ -2897,8 +2881,7 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31",
-"live_only": true
+"last_ok": "2026-10-31"
 },
 {
 "school": "Stonehill College",
@@ -3368,8 +3351,7 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": null,
-"live_only": true
+"last_ok": "2026-10-31"
 },
 {
 "school": "Chicago State University",
@@ -4025,17 +4007,21 @@
 "Western Illinois Leathernecks"
 ],
 "network": "",
-"flagship": "Q98.1 FM, Canton IL",
+"flagship": "Q98.1 FM / WBYS 1560 AM, Canton IL",
 "listen_page": "http://www.q981fm.com",
 "conference": "OVC-Big South Football Association",
-"calls": [],
+"calls": [
+"WBYS-AM"
+],
 "game_only": null,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://ice64.securenetsystems.net/WBYSAM"
+],
 "misses": 0,
 "miss_day": null,
-"last_ok": null
+"last_ok": "2026-10-31"
 },
 {
 "school": "Butler University",
@@ -4718,8 +4704,7 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31",
-"live_only": true
+"last_ok": "2026-10-31"
 },
 {
 "school": "University of South Dakota",
@@ -6246,8 +6231,7 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31",
-"live_only": true
+"last_ok": "2026-10-31"
 },
 {
 "school": "Mississippi State University",
