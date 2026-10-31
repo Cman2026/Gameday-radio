@@ -223,6 +223,11 @@ h1 span{color:inherit}
 .deck.min .now small{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .deck.min .minbtn{width:34px;height:34px}
 
+/* minimize button: beat the generic .btn/.btn.sm padding so the chevron sits dead center */
+.deck .btn.minbtn{width:40px;height:40px;padding:0;border-radius:50%;display:grid;place-items:center;align-self:center;line-height:0}
+.deck .btn.minbtn svg{display:block;width:22px;height:22px}
+.deck.min .btn.minbtn{width:34px;height:34px}
+.deck.min .btn.minbtn svg{width:20px;height:20px}
 @media (prefers-reduced-motion:reduce){.field .ball,.field .fd,.field .ls,.minbtn svg{transition:none}.ear .bars i{animation:none;height:10px}}
 </style>
 </head>
