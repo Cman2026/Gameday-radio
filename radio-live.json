@@ -195,6 +195,118 @@
    "title": "KSUFB - :10 BUMPERS 26",
    "icy_name": "",
    "at": "2026-10-31T05:57:01Z"
+  },
+  "https://live.amperwave.net/manifest/galaxy-wtkwfmaac-hlsc1.m3u8?source=v7player": {
+   "school": "Syracuse University",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-10-31T16:07:18Z"
+  },
+  "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.aac": {
+   "school": "Southern Methodist University",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "The Ticket",
+   "at": "2026-10-31T16:07:18Z"
+  },
+  "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.m3u8": {
+   "school": "Southern Methodist University",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-10-31T16:07:18Z"
+  },
+  "http://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.aac": {
+   "school": "Southern Methodist University",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "The Ticket",
+   "at": "2026-10-31T16:07:18Z"
+  },
+  "https://media-hls.wral.com/vodhttporigins3/_definst_/smil:amazons3/cbcnm-static-web-content/home/web/wral/public/asset/news/state/nccapitol/2023/05/25/20879545/3185796-gop-DMID1-5z0xt25hf.smil/playlist.m3u8": {
+   "school": "North Carolina State University",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-10-31T16:07:18Z"
+  },
+  "https://img.leanstream.co/LF1001-MP3": {
+   "school": "University of California, Berkeley",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-10-31T16:07:18Z"
+  },
+  "https://playerservices.streamtheworld.com/api/livestream-redirect/KSFOAMAAC.aac": {
+   "school": "University of California, Berkeley",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "KSFOAM",
+   "at": "2026-10-31T16:07:18Z"
+  },
+  "https://playerservices.streamtheworld.com/api/livestream-redirect/KSFOAMAAC.m3u8": {
+   "school": "University of California, Berkeley",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-10-31T16:07:18Z"
+  },
+  "http://playerservices.streamtheworld.com/api/livestream-redirect/KSFOAMAAC.aac": {
+   "school": "University of California, Berkeley",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "KSFOAM",
+   "at": "2026-10-31T16:07:18Z"
+  },
+  "http://live.amperwave.net/direct/audacy-wjzfmaac-imc": {
+   "school": "University of Maryland",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "105.7 The Fan",
+   "at": "2026-10-31T16:07:18Z"
+  },
+  "https://playerservices.streamtheworld.com/api/livestream-redirect/WSOYAM.mp3": {
+   "school": "University of Illinois Urbana-Champaign",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "WSOYAM",
+   "at": "2026-10-31T16:07:18Z"
+  },
+  "https://playerservices.streamtheworld.com/api/livestream-redirect/WSOYAMAAC.aac": {
+   "school": "University of Illinois Urbana-Champaign",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "WSOYAM",
+   "at": "2026-10-31T16:07:18Z"
+  },
+  "https://playerservices.streamtheworld.com/api/livestream-redirect/WVFMFMAAC.aac": {
+   "school": "Western Michigan University",
+   "verdict": "music",
+   "title": "U2 - I Still Haven't Found What I",
+   "icy_name": "WVFMFM",
+   "at": "2026-10-31T16:07:18Z"
+  },
+  "https://playerservices.streamtheworld.com/api/livestream-redirect/WVFMFM.mp3": {
+   "school": "Western Michigan University",
+   "verdict": "music",
+   "title": "U2 - I Still Haven't Found What I",
+   "icy_name": "WVFMFM",
+   "at": "2026-10-31T16:07:18Z"
+  },
+  "http://18493.live.streamtheworld.com/WVFMFMAAC_SC": {
+   "school": "Western Michigan University",
+   "verdict": "music",
+   "title": "U2 - I Still Haven't Found What I",
+   "icy_name": "WVFMFM",
+   "at": "2026-10-31T16:07:18Z"
+  },
+  "https://ice41.securenetsystems.net/WFRO": {
+   "school": "Bowling Green State University",
+   "verdict": "music",
+   "title": "Avicii - Wake Me Up",
+   "icy_name": "WFRO",
+   "at": "2026-10-31T16:07:18Z"
   }
  },
  "log": [
@@ -1005,7 +1117,135 @@
    "url": "http://stream.revma.ihrhls.com/zc3455",
    "verdict": "music",
    "title": "KSUFB - :10 BUMPERS 26"
+  },
+  {
+   "at": "2026-10-31T16:07:18Z",
+   "school": "Syracuse University",
+   "game": "SMU @ SYR",
+   "url": "https://live.amperwave.net/manifest/galaxy-wtkwfmaac-hlsc1.m3u8?source=v7player",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-31T16:07:18Z",
+   "school": "Southern Methodist University",
+   "game": "SMU @ SYR",
+   "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.aac",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-31T16:07:18Z",
+   "school": "Southern Methodist University",
+   "game": "SMU @ SYR",
+   "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.m3u8",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-31T16:07:18Z",
+   "school": "Southern Methodist University",
+   "game": "SMU @ SYR",
+   "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.aac",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-31T16:07:18Z",
+   "school": "North Carolina State University",
+   "game": "CAL @ NCSU",
+   "url": "https://media-hls.wral.com/vodhttporigins3/_definst_/smil:amazons3/cbcnm-static-web-content/home/web/wral/public/asset/news/state/nccapitol/2023/05/25/20879545/3185796-gop-DMID1-5z0xt25hf.smil/playlist.m3u8",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-31T16:07:18Z",
+   "school": "University of California, Berkeley",
+   "game": "CAL @ NCSU",
+   "url": "https://img.leanstream.co/LF1001-MP3",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-31T16:07:18Z",
+   "school": "University of California, Berkeley",
+   "game": "CAL @ NCSU",
+   "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KSFOAMAAC.aac",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-31T16:07:18Z",
+   "school": "University of California, Berkeley",
+   "game": "CAL @ NCSU",
+   "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KSFOAMAAC.m3u8",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-31T16:07:18Z",
+   "school": "University of California, Berkeley",
+   "game": "CAL @ NCSU",
+   "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KSFOAMAAC.aac",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-31T16:07:18Z",
+   "school": "University of Maryland",
+   "game": "ILL @ MD",
+   "url": "http://live.amperwave.net/direct/audacy-wjzfmaac-imc",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-31T16:07:18Z",
+   "school": "University of Illinois Urbana-Champaign",
+   "game": "ILL @ MD",
+   "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSOYAM.mp3",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-31T16:07:18Z",
+   "school": "University of Illinois Urbana-Champaign",
+   "game": "ILL @ MD",
+   "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSOYAMAAC.aac",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-31T16:07:18Z",
+   "school": "Western Michigan University",
+   "game": "BGSU @ WMU",
+   "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WVFMFMAAC.aac",
+   "verdict": "music",
+   "title": "U2 - I Still Haven't Found What I"
+  },
+  {
+   "at": "2026-10-31T16:07:18Z",
+   "school": "Western Michigan University",
+   "game": "BGSU @ WMU",
+   "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WVFMFM.mp3",
+   "verdict": "music",
+   "title": "U2 - I Still Haven't Found What I"
+  },
+  {
+   "at": "2026-10-31T16:07:18Z",
+   "school": "Western Michigan University",
+   "game": "BGSU @ WMU",
+   "url": "http://18493.live.streamtheworld.com/WVFMFMAAC_SC",
+   "verdict": "music",
+   "title": "U2 - I Still Haven't Found What I"
+  },
+  {
+   "at": "2026-10-31T16:07:18Z",
+   "school": "Bowling Green State University",
+   "game": "BGSU @ WMU",
+   "url": "https://ice41.securenetsystems.net/WFRO",
+   "verdict": "music",
+   "title": "Avicii - Wake Me Up"
   }
  ],
- "checked": "2026-10-31T05:57:01Z"
+ "checked": "2026-10-31T16:07:18Z"
 }
