@@ -190,6 +190,7 @@ h1 span{color:inherit}
 .field{position:relative;height:40px;border-radius:var(--r-sm);overflow:hidden;
   background:repeating-linear-gradient(90deg,var(--field-a) 0 10%,var(--field-b) 10% 20%)}
 .field .ez{position:absolute;top:0;bottom:0;width:8%;display:flex;align-items:center;justify-content:center;font:700 10px var(--num);color:#fff;letter-spacing:.06em;writing-mode:vertical-rl;opacity:.95}
+.field .ez img{width:86%;max-width:30px;height:auto;max-height:30px;object-fit:contain;transform:none!important;filter:drop-shadow(0 0 1.5px rgba(255,255,255,.85)) drop-shadow(0 1px 2px rgba(0,0,0,.35))}
 .field .ez.l{left:0} .field .ez.r{right:0}
 .field .ball{position:absolute;top:50%;width:12px;height:12px;margin:-6px 0 0 -6px;border-radius:50%;background:#fff;box-shadow:0 0 0 3px rgba(0,0,0,.18);transition:left .6s}
 .field .fd{position:absolute;top:0;bottom:0;width:2px;background:#F5C542;transition:left .6s}
@@ -953,7 +954,7 @@ function fieldView(sit, a, h, pid){
   else if(sit.yardsToEndzone!=null && pid) pos = homePoss ? sit.yardsToEndzone : 100 - sit.yardsToEndzone;
   const toPct = y => 8 + (y/100)*84;
   const fdY = sit.distance && pid ? (homePoss ? pos - sit.distance : pos + sit.distance) : null;
-  return `<div class="field" aria-label="Ball on the ${sit.possessionText||""}">${(([ca,ch])=>`<div class="ez l" style="background:${ca}">${a.team.abbreviation}</div><div class="ez r" style="background:${ch}">${h.team.abbreviation}</div>`)(barColors(a,h))}
+  return `<div class="field" aria-label="Ball on the ${sit.possessionText||""}">${(([ca,ch])=>`<div class="ez l" style="background:${ca}" title="${esc(a.team.abbreviation||"")}">${a.team.logo?`<img src="${a.team.logo}" alt="${esc(a.team.abbreviation||"")}">`:esc(a.team.abbreviation||"")}</div><div class="ez r" style="background:${ch}" title="${esc(h.team.abbreviation||"")}">${h.team.logo?`<img src="${h.team.logo}" alt="${esc(h.team.abbreviation||"")}">`:esc(h.team.abbreviation||"")}</div>`)(barColors(a,h))}
   <div class="ls" style="left:${toPct(pos)}%"></div>${fdY!=null&&fdY>0&&fdY<100?`<div class="fd" style="left:${toPct(fdY)}%"></div>`:""}<div class="ball" style="left:${toPct(pos)}%"></div></div>`;
 }
 function playsView(sum){
