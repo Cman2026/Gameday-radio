@@ -53,7 +53,8 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Clemson University",
@@ -1607,13 +1608,15 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM4001-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WTKAAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WTKAAMAAC.m3u8",
 "http://playerservices.streamtheworld.com/api/livestream-redirect/WTKAAMAAC.aac"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Pennsylvania State University",
@@ -2085,10 +2088,13 @@
 "game_only": true,
 "no_radio": null,
 "notes": "School audio on GoCamels.com, game days only",
-"streams": [],
+"streams": [
+"https://cdn.jwplayer.com/live/broadcast/8eUvetd9.m3u8"
+],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-30"
+"last_ok": "2026-10-30",
+"live_only": true
 },
 {
 "school": "Elon University",
@@ -2251,10 +2257,13 @@
 "game_only": true,
 "no_radio": null,
 "notes": "Free school audio (LEANplayer)",
-"streams": [],
+"streams": [
+"https://rhody.leanplayer.com/gfx/LeanStream_logo.png"
+],
 "misses": 0,
 "miss_day": null,
-"last_ok": null
+"last_ok": null,
+"live_only": true
 },
 {
 "school": "Sacred Heart University",
@@ -2495,13 +2504,15 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://stream.rcs.revma.com/x4q6k4dw57uvv",
 "https://stream.rcs.revma.com/uupm8cdw57uvv",
 "https://stream.rcs.revma.com/uupm8cdw57uvv/hls.m3u8",
 "http://stream.rcs.revma.com/uupm8cdw57uvv"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Villanova University",
@@ -2567,10 +2578,15 @@
 "game_only": true,
 "no_radio": null,
 "notes": "Brown Audio Network: free school audio stream, game days only",
-"streams": [],
+"streams": [
+"https://cdn.jwplayer.com/manifests/MJEac70S.m3u8",
+"https://videos-cloudfront-usp.jwpsrv.com/6ae6b210_8b2e23b2c30aa19cacf7a3269e7e42095ed7de82/sites/lphOD5OI/media/MJEac70S/versions/5vmdGwAO/manifest.ism/manifest-audio_0_c4zj6sLK_mlUtIwVa=112000-video_0_c4zj6sLK_mBBUWGYd=562801.m3u8",
+"https://videos-cloudfront-usp.jwpsrv.com/6ae6b210_8b2e23b2c30aa19cacf7a3269e7e42095ed7de82/sites/lphOD5OI/media/MJEac70S/versions/5vmdGwAO/manifest.ism/manifest-audio_0_c4zj6sLK_mlUtIwVa=112000-video_0_c4zj6sLK_mBBUWGYd=1023542.m3u8"
+],
 "misses": 0,
 "miss_day": null,
-"last_ok": null
+"last_ok": null,
+"live_only": true
 },
 {
 "school": "Columbia University",
@@ -2610,10 +2626,15 @@
 "game_only": null,
 "no_radio": true,
 "notes": "No radio since 2025-26 (Cornell dropped commercial radio)",
-"streams": [],
+"streams": [
+"https://d18xs1q9171pj4.cloudfront.net/c6920133-b398-4dd3-9636-a2e09d3a0c75-hls/master/c6920133-b398-4dd3-9636-a2e09d3a0c75-hls.m3u8",
+"https://d18xs1q9171pj4.cloudfront.net/c6920133-b398-4dd3-9636-a2e09d3a0c75-hls/master/c6920133-b398-4dd3-9636-a2e09d3a0c75-hls_1.m3u8",
+"https://d18xs1q9171pj4.cloudfront.net/c6920133-b398-4dd3-9636-a2e09d3a0c75-hls/master/c6920133-b398-4dd3-9636-a2e09d3a0c75-hls_4.m3u8"
+],
 "misses": 0,
 "miss_day": null,
-"last_ok": null
+"last_ok": null,
+"live_only": true
 },
 {
 "school": "Dartmouth College",
@@ -2676,10 +2697,14 @@
 "game_only": true,
 "no_radio": null,
 "notes": "Free school audio (Stretch Internet)",
-"streams": [],
+"streams": [
+"https://portal.stretchinternet.com/pennaudio/",
+"blob:https://portal.stretchinternet.com/216fcc5d-f47c-41de-b51e-fd3967d6f003"
+],
 "misses": 0,
 "miss_day": null,
-"last_ok": null
+"last_ok": null,
+"live_only": true
 },
 {
 "school": "Princeton University",
@@ -2695,10 +2720,16 @@
 "game_only": true,
 "no_radio": null,
 "notes": "Stretch Internet feed; also Varsity Network app",
-"streams": [],
+"streams": [
+"https://portal.stretchinternet.com/princeton/",
+"blob:https://portal.stretchinternet.com/500bb425-e87d-4fb4-a383-c8ac23155d25",
+"https://cdn.jwplayer.com/manifests/NYKdgXy1.m3u8",
+"https://videos-cloudfront-usp.jwpsrv.com/6ae6b353_b7960af4902b75bf71865340424b86771888d05c/sites/m1NXTqrD/media/NYKdgXy1/versions/UFHg5hoN/manifest.ism/manifest-audio_0_pEAylqin_NluTUL41=112025-video_0_pEAylqin_aFky9h0Q=826058.m3u8"
+],
 "misses": 0,
 "miss_day": null,
-"last_ok": null
+"last_ok": null,
+"live_only": true
 },
 {
 "school": "Yale University",
@@ -2866,7 +2897,8 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Stonehill College",
@@ -3330,10 +3362,14 @@
 "game_only": true,
 "no_radio": null,
 "notes": "Audio listed for some games (opponent feeds)",
-"streams": [],
+"streams": [
+"https://cdn.jwplayer.com/manifests/vFbYR2LA.m3u8",
+"https://videos-cloudfront-usp.jwpsrv.com/6ae6b48e_dc2f4d90d4f6b33bb53fab3084137732aea592dd/sites/oRun4juu/media/vFbYR2LA/versions/Fc190Snl/manifest.ism/manifest-audio_0_c9L08c5w_0uxnLF3C=111999-video_0_c9L08c5w_BPtmfEfQ=11782.m3u8"
+],
 "misses": 0,
 "miss_day": null,
-"last_ok": null
+"last_ok": null,
+"live_only": true
 },
 {
 "school": "Chicago State University",
@@ -4682,7 +4718,8 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "University of South Dakota",
@@ -6209,7 +6246,8 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Mississippi State University",
