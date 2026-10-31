@@ -53,7 +53,8 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Clemson University",
@@ -96,11 +97,13 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM3501-MP3",
 "https://media-hls.wral.com/vodhttporigins3/_definst_/smil:amazons3/cbcnm-static-web-content/home/web/wral/public/asset/news/state/nccapitol/2023/05/25/20879545/3185796-gop-DMID1-5z0xt25hf.smil/playlist.m3u8"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Florida State University",
@@ -171,12 +174,14 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM7501-MP3",
 "https://live.amperwave.net/direct/unionbroadcasting-wlclamaac-ibc2",
 "http://live.amperwave.net/direct/unionbroadcasting-wlclamaac-ibc2"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "University of Miami",
@@ -223,11 +228,13 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM9301-MP3",
 "https://media-hls.wral.com/vodhttporigins3/_definst_/smil:amazons3/cbcnm-static-web-content/home/web/wral/public/asset/news/state/nccapitol/2023/05/25/20879545/3185796-gop-DMID1-5z0xt25hf.smil/playlist.m3u8"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "University of North Carolina at Chapel Hill",
@@ -299,13 +306,15 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF5401-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.m3u8",
 "http://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.aac"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Stanford University",
@@ -351,11 +360,13 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM4801-MP3",
 "https://live.amperwave.net/manifest/galaxy-wtkwfmaac-hlsc1.m3u8?source=v7player"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "University of Virginia",
@@ -473,13 +484,15 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM3401-MP3",
 "https://stream.revma.ihrhls.com/zc5238",
 "https://stream.revma.ihrhls.com/zc5238/hls.m3u8",
 "http://stream.revma.ihrhls.com/zc5238"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "United States Military Academy",
@@ -786,13 +799,15 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM2001-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WJOXFMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WJOXFMAAC.m3u8",
 "http://playerservices.streamtheworld.com/api/livestream-redirect/WJOXFMAAC.aac"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "University of Texas at San Antonio",
@@ -1010,11 +1025,13 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF2701-MP3",
 "https://ice7.securenetsystems.net/KXKZ"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Marshall University",
@@ -1034,11 +1051,13 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM1601-MP3",
 "https://ice23.securenetsystems.net/WDGG"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Old Dominion University",
@@ -1082,13 +1101,15 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://cdn.jwplayer.com/live/broadcast/v8UDwPON.m3u8",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WMEZFMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WMEZFMAAC.m3u8",
 "http://playerservices.streamtheworld.com/api/livestream-redirect/WMEZFMAAC.aac"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "University of Southern Mississippi",
@@ -1306,13 +1327,15 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM7101-MP3",
 "https://stream.revma.ihrhls.com/zc389",
 "https://stream.revma.ihrhls.com/zc389/hls.m3u8",
 "http://stream.revma.ihrhls.com/zc389"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "University of Houston",
@@ -1407,11 +1430,13 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM8001-MP3",
 "https://stream-02.surfernetwork.com/drscz5r6naxuv"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Oklahoma State University",
@@ -1479,12 +1504,14 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM8101-MP3",
 "https://ais-sa1.streamon.fm/7197_48k.aac",
 "https://ais-sa1.streamon.fm/7001_48k.aac"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "University of Central Florida",
@@ -1609,7 +1636,8 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Pennsylvania State University",
@@ -1658,12 +1686,14 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM7401-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WSOYAM.mp3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WSOYAMAAC.aac"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Indiana University",
@@ -1910,13 +1940,15 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM4601-MP3",
 "https://live.amperwave.net/direct/audacy-wfanamaac-imc",
 "https://live.amperwave.net/manifest/audacy-wfanamaac-imc",
 "http://live.amperwave.net/direct/audacy-wfanamaac-imc"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "University of California, Los Angeles",
@@ -2012,13 +2044,15 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM8501-MP3",
 "https://stream.revma.ihrhls.com/zc2661",
 "https://stream.revma.ihrhls.com/zc2661/hls.m3u8",
 "http://stream.revma.ihrhls.com/zc2661"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "University at Albany",
@@ -2086,7 +2120,8 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Elon University",
@@ -2102,10 +2137,13 @@
 "game_only": null,
 "no_radio": true,
 "notes": "Audio only on the Varsity Network app",
-"streams": [],
+"streams": [
+"https://img.leanstream.co/IM7401-MP3"
+],
 "misses": 0,
 "miss_day": null,
-"last_ok": null
+"last_ok": null,
+"live_only": true
 },
 {
 "school": "Hampton University",
@@ -2151,12 +2189,14 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://cdn.jwplayer.com/live/broadcast/8DLZJmVU.m3u8",
 "https://live.amperwave.net/manifest/townsquare-wezqfmaac-ibc3",
 "https://live.amperwave.net/manifest/townsquare-wwmjfmaac-ibc3"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Monmouth University",
@@ -2228,11 +2268,13 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://cdn.jwplayer.com/live/broadcast/KtfQesje.m3u8",
 "https://live.amperwave.net/manifest/blueridgeradio-wbrffmaac-hlsc4.m3u8"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "University of Rhode Island",
@@ -2337,12 +2379,14 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://live.amperwave.net/manifest/sunbury-wkokamaac-hlsc2.m3u8?source=sidearm",
 "https://live.amperwave.net/playlist/sunbury-wkokamaac-ibc1.pls?source=airkast",
 "http://live.amperwave.net/playlist/sunbury-wkokamaac-ibc1.pls?source=airkast"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Colgate University",
@@ -2500,7 +2544,8 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Villanova University",
@@ -2865,7 +2910,8 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Stonehill College",
@@ -3794,11 +3840,13 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF8101-MP3",
 "https://live.amperwave.net/manifest/townsquare-ktbqfmaac-ibc3"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "University of Texas Rio Grande Valley",
@@ -4124,11 +4172,13 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://ice5.securenetsystems.net/WIVY?playSessionID=CAD94437-8A97-4B89-A64B6786D95C079F",
 "https://ice5.securenetsystems.net/WIVY"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Presbyterian College",
@@ -4172,12 +4222,13 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://playerservices.streamtheworld.com/api/livestream-redirect/KSTPAMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/KSTPAM.mp3"
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KSTPAM.mp3",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KSTPAMAAC.aac"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "University of San Diego",
@@ -4289,12 +4340,14 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF3701-MP3",
 "https://live.amperwave.net/manifest/townsquare-kxlbfmaac-ibc3",
 "https://live.amperwave.net/manifest/townsquare-kmptamaac-ibc3"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Eastern Washington University",
@@ -4393,12 +4446,14 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF4401-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KDUSAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KDUSAM.mp3"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "University of Northern Colorado",
@@ -4581,13 +4636,15 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF2601-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WJBCAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WJBCAMAAC.m3u8",
 "http://playerservices.streamtheworld.com/api/livestream-redirect/WJBCAMAAC.aac"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Indiana State University",
@@ -4611,7 +4668,8 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Murray State University",
@@ -4631,11 +4689,13 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF8301-MP3",
 "https://live.amperwave.net/manifest/forevercomm-wfgsfmaac-hlsc4.m3u8"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "University of North Dakota",
@@ -4685,7 +4745,8 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "University of South Dakota",
@@ -5766,13 +5827,15 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM2601-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KVORAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KVORAMAAC.m3u8",
 "http://playerservices.streamtheworld.com/api/livestream-redirect/KVORAMAAC.aac"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "University of Hawai'i at Manoa",
@@ -6212,7 +6275,8 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Mississippi State University",
