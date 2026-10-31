@@ -2249,9 +2249,7 @@
 "game_only": true,
 "no_radio": null,
 "notes": "Free school audio (LEANplayer)",
-"streams": [
-"https://rhody.leanplayer.com/gfx/LeanStream_logo.png"
-],
+"streams": [],
 "misses": 1,
 "miss_day": "2026-10-31",
 "last_ok": null
@@ -2568,11 +2566,7 @@
 "game_only": true,
 "no_radio": null,
 "notes": "Brown Audio Network: free school audio stream, game days only",
-"streams": [
-"https://cdn.jwplayer.com/manifests/MJEac70S.m3u8",
-"https://videos-cloudfront-usp.jwpsrv.com/6ae6b210_8b2e23b2c30aa19cacf7a3269e7e42095ed7de82/sites/lphOD5OI/media/MJEac70S/versions/5vmdGwAO/manifest.ism/manifest-audio_0_c4zj6sLK_mlUtIwVa=112000-video_0_c4zj6sLK_mBBUWGYd=562801.m3u8",
-"https://videos-cloudfront-usp.jwpsrv.com/6ae6b210_8b2e23b2c30aa19cacf7a3269e7e42095ed7de82/sites/lphOD5OI/media/MJEac70S/versions/5vmdGwAO/manifest.ism/manifest-audio_0_c4zj6sLK_mlUtIwVa=112000-video_0_c4zj6sLK_mBBUWGYd=1023542.m3u8"
-],
+"streams": [],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-10-31"
@@ -2615,11 +2609,7 @@
 "game_only": null,
 "no_radio": true,
 "notes": "No radio since 2025-26 (Cornell dropped commercial radio)",
-"streams": [
-"https://d18xs1q9171pj4.cloudfront.net/c6920133-b398-4dd3-9636-a2e09d3a0c75-hls/master/c6920133-b398-4dd3-9636-a2e09d3a0c75-hls.m3u8",
-"https://d18xs1q9171pj4.cloudfront.net/c6920133-b398-4dd3-9636-a2e09d3a0c75-hls/master/c6920133-b398-4dd3-9636-a2e09d3a0c75-hls_1.m3u8",
-"https://d18xs1q9171pj4.cloudfront.net/c6920133-b398-4dd3-9636-a2e09d3a0c75-hls/master/c6920133-b398-4dd3-9636-a2e09d3a0c75-hls_4.m3u8"
-],
+"streams": [],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-10-31"
@@ -2685,10 +2675,7 @@
 "game_only": true,
 "no_radio": null,
 "notes": "Free school audio (Stretch Internet)",
-"streams": [
-"https://portal.stretchinternet.com/pennaudio/",
-"blob:https://portal.stretchinternet.com/216fcc5d-f47c-41de-b51e-fd3967d6f003"
-],
+"streams": [],
 "misses": 1,
 "miss_day": "2026-10-31",
 "last_ok": null
@@ -2707,10 +2694,7 @@
 "game_only": true,
 "no_radio": null,
 "notes": "Stretch Internet feed; also Varsity Network app",
-"streams": [
-"https://cdn.jwplayer.com/manifests/NYKdgXy1.m3u8",
-"https://videos-cloudfront-usp.jwpsrv.com/6ae6b353_b7960af4902b75bf71865340424b86771888d05c/sites/m1NXTqrD/media/NYKdgXy1/versions/UFHg5hoN/manifest.ism/manifest-audio_0_pEAylqin_NluTUL41=112025-video_0_pEAylqin_aFky9h0Q=826058.m3u8"
-],
+"streams": [],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-10-31"
@@ -3345,10 +3329,7 @@
 "game_only": true,
 "no_radio": null,
 "notes": "Audio listed for some games (opponent feeds)",
-"streams": [
-"https://cdn.jwplayer.com/manifests/vFbYR2LA.m3u8",
-"https://videos-cloudfront-usp.jwpsrv.com/6ae6b48e_dc2f4d90d4f6b33bb53fab3084137732aea592dd/sites/oRun4juu/media/vFbYR2LA/versions/Fc190Snl/manifest.ism/manifest-audio_0_c9L08c5w_0uxnLF3C=111999-video_0_c9L08c5w_BPtmfEfQ=11782.m3u8"
-],
+"streams": [],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-10-31"

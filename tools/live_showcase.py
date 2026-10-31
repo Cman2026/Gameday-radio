@@ -13,6 +13,12 @@ STREAM = re.compile(r"\.(mp3|aac|m3u8)(\?|$)|streamtheworld|amperwave\.net/(mani
 BAD = re.compile(r"google|adsrvr|doubleclick|2mdn|\.js(\?|$)|\.css|favicon|assets|fonts|analytics|silent\.mp3|podtrac|omny|/ads/", re.I)
 
 
+# Things a page loads that aren't a live audio stream: images, video-on-demand manifests,
+# archived recordings, blob: URLs and the player page itself.
+NOT_LIVE = re.compile(r"\.(png|jpe?g|gif|svg|webp|ico)(\?|$)|^blob:|jwplayer\.com/manifests/|jwpsrv\.com|"
+                      r"portal\.stretchinternet\.com/[^/]+/?$|cloudfront\.net/.*-hls/master|/gfx/|thumbnail|poster", re.I)
+
+
 def norm(x):
     x = (x or "").lower().replace("&", " and ")
     x = re.sub(r"\bst\.?\b", "state", x)
@@ -153,7 +159,7 @@ def main():
     targets = {u: x for u, x in targets.items() if x.get("_mins", 0) < 45}
     found = sniff(list(targets)) if targets else {}
     for url, t in targets.items():
-        streams = [u for u in found.get(url, []) if "player_status" not in u and "/v5/" not in u][:3]
+        streams = [u for u in found.get(url, []) if "player_status" not in u and "/v5/" not in u and not NOT_LIVE.search(u)][:3]
         streams = list(dict.fromkeys(streams + (t.get("streams") or [])))[:4]  # newest feed first
         print(t["school"], "->", streams)
         if streams:
