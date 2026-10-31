@@ -61,42 +61,77 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-10-30T23:26:45Z"
+   "at": "2026-10-31T00:10:46Z"
   },
   "https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8?exp=1793403600&sig=1150a8cc05d8126760a95f82115b613e": {
    "school": "University of North Carolina at Charlotte",
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-10-30T23:26:45Z"
+   "at": "2026-10-31T00:10:46Z"
   },
   "https://livecdn.use1-0009.jwplive.com/live/sites/52ztEVMl/media/ncAcaXBq/live.isml/.m3u8": {
    "school": "University of North Carolina at Charlotte",
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-10-30T23:26:45Z"
+   "at": "2026-10-31T00:10:46Z"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.aac": {
    "school": "Tulane University",
    "verdict": "unknown",
    "title": "",
    "icy_name": "The Ticket 106.7",
-   "at": "2026-10-30T23:26:45Z"
+   "at": "2026-10-31T00:10:46Z"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.m3u8": {
    "school": "Tulane University",
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-10-30T23:26:45Z"
+   "at": "2026-10-31T00:10:46Z"
   },
   "http://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.aac": {
    "school": "Tulane University",
    "verdict": "unknown",
    "title": "",
    "icy_name": "The Ticket 106.7",
-   "at": "2026-10-30T23:26:45Z"
+   "at": "2026-10-31T00:10:46Z"
+  },
+  "https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8?exp=1793406240&sig=1283dbc57c76119b4da10ff60ed51a16": {
+   "school": "University of North Carolina at Charlotte",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-10-31T00:10:46Z"
+  },
+  "https://stream.revma.ihrhls.com/zc601": {
+   "school": "University of Central Florida",
+   "verdict": "unknown",
+   "title": "Spot Block End",
+   "icy_name": "96.9 The Game",
+   "at": "2026-10-31T00:10:46Z"
+  },
+  "https://stream.revma.ihrhls.com/zc601/hls.m3u8": {
+   "school": "University of Central Florida",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-10-31T00:10:46Z"
+  },
+  "http://stream.revma.ihrhls.com/zc601": {
+   "school": "University of Central Florida",
+   "verdict": "unknown",
+   "title": "Spot Block End",
+   "icy_name": "96.9 The Game",
+   "at": "2026-10-31T00:10:46Z"
+  },
+  "https://ais-sa1.streamon.fm/7050_24k.aac": {
+   "school": "Baylor University",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-10-31T00:10:46Z"
   }
  },
  "log": [
@@ -363,7 +398,95 @@
    "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.aac",
    "verdict": "unknown",
    "title": ""
+  },
+  {
+   "at": "2026-10-31T00:10:46Z",
+   "school": "University of North Carolina at Charlotte",
+   "game": "TULN @ CLT",
+   "url": "https://cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-31T00:10:46Z",
+   "school": "University of North Carolina at Charlotte",
+   "game": "TULN @ CLT",
+   "url": "https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8?exp=1793406240&sig=1283dbc57c76119b4da10ff60ed51a16",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-31T00:10:46Z",
+   "school": "University of North Carolina at Charlotte",
+   "game": "TULN @ CLT",
+   "url": "https://livecdn.use1-0009.jwplive.com/live/sites/52ztEVMl/media/ncAcaXBq/live.isml/.m3u8",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-31T00:10:46Z",
+   "school": "University of North Carolina at Charlotte",
+   "game": "TULN @ CLT",
+   "url": "https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8?exp=1793403600&sig=1150a8cc05d8126760a95f82115b613e",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-31T00:10:46Z",
+   "school": "Tulane University",
+   "game": "TULN @ CLT",
+   "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.aac",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-31T00:10:46Z",
+   "school": "Tulane University",
+   "game": "TULN @ CLT",
+   "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.m3u8",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-31T00:10:46Z",
+   "school": "Tulane University",
+   "game": "TULN @ CLT",
+   "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.aac",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-31T00:10:46Z",
+   "school": "University of Central Florida",
+   "game": "BAY @ UCF",
+   "url": "https://stream.revma.ihrhls.com/zc601",
+   "verdict": "unknown",
+   "title": "Spot Block End"
+  },
+  {
+   "at": "2026-10-31T00:10:46Z",
+   "school": "University of Central Florida",
+   "game": "BAY @ UCF",
+   "url": "https://stream.revma.ihrhls.com/zc601/hls.m3u8",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-10-31T00:10:46Z",
+   "school": "University of Central Florida",
+   "game": "BAY @ UCF",
+   "url": "http://stream.revma.ihrhls.com/zc601",
+   "verdict": "unknown",
+   "title": "Spot Block End"
+  },
+  {
+   "at": "2026-10-31T00:10:46Z",
+   "school": "Baylor University",
+   "game": "BAY @ UCF",
+   "url": "https://ais-sa1.streamon.fm/7050_24k.aac",
+   "verdict": "unknown",
+   "title": ""
   }
  ],
- "checked": "2026-10-30T23:26:45Z"
+ "checked": "2026-10-31T00:10:46Z"
 }
