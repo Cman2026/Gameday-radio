@@ -363,7 +363,6 @@ h1 span{color:inherit}
 <script>
 // Radio networks. "streams" are tried in order until one plays.
 // Strings are direct audio URLs; {tunein:"sNNN"} is resolved to a direct URL through TuneIn's public tune service.
-const sn = call => [3,9,6,5,7,2,4,8,1].map(n=>`https://ice${n}.securenetsystems.net/${call}`);
 const RADIO = {}; // filled from radio.json (tested daily) + playback.json (played in a real browser)
 const base = "https://site.api.espn.com/apis/site/v2/sports/football/college-football";
 const store = {get(k){try{return localStorage.getItem(k)}catch(e){return null}}, set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
@@ -433,10 +432,20 @@ let playback = {streams:{}, teams:{}};
 const SECURE_PAGE = location.protocol === "https:";
 function orderStreams(school, streams){
   const pb = playback.teams?.[school] || {}, res = playback.streams || {};
-  const rank = u => (pb.inpage||[]).includes(u) ? 0 : res[u]?.ok === false ? 3 : (SECURE_PAGE && u.startsWith("http:")) ? 4 : 1;
-  const all = [...(pb.inpage||[]), ...streams];
-  // Drop streams that play an "out of market" message instead of the game.
-  const playable = [...new Set(all)].filter(u => !(SECURE_PAGE && u.startsWith("http:")) && liveVerdict(u)?.verdict !== "blocked" && !["blocked","not_game"].includes(heard(u))).sort((a,b)=>rank(a)-rank(b) || vRank(a)-vRank(b));
+  const key = u => u.replace(/^https?:\/\//,"").replace(/:\d+\//,"/");
+  // Keep the directory's order (official game feeds first). The playback test may have found a
+  // secure (https) version of a stream: use it in that stream's place. Streams the test knows
+  // failed in a page, or that would be blocked as plain http, go last.
+  const all = [];
+  streams.forEach((u, i) => {
+    const variants = (pb.inpage||[]).filter(v => key(v) === key(u) && v !== u);
+    [...variants, u].forEach(v => { if(!all.some(x=>x.u===v)) all.push({u: v, i}); });
+  });
+  const hard = u => res[u]?.ok === false ? 3 : (SECURE_PAGE && u.startsWith("http:")) ? 4 : 0;
+  const playable = all
+    .filter(x => !(SECURE_PAGE && x.u.startsWith("http:")) && liveVerdict(x.u)?.verdict !== "blocked" && !["blocked","not_game"].includes(heard(x.u)))
+    .sort((a,b) => hard(a.u)-hard(b.u) || vRank(a.u)-vRank(b.u) || a.i-b.i)
+    .map(x => x.u);
   const external = pb.external || streams.find(u=>u.startsWith("http:")) || null;
   return {playable, external};
 }
@@ -506,7 +515,7 @@ async function poll(){
     live.forEach(e=>{ pollSummary(e.id, (e.id===selected || (deck && e.competitions[0].competitors.some(c=>c.team.location===deck.loc))) ? 6000 : 30000); e.competitions[0].competitors.forEach(t=>prepareTeam(t.team.location)); });
   }catch(e){
     $("#dot").className = "dot err";
-    $("#stat").textContent = "Can't reach the ESPN feed. Open this file in a desktop browser (Safari, Chrome) and check your connection.";
+    $("#stat").textContent = "Can't reach the scores feed right now. Retrying…";
   }
   render();
 }
@@ -525,14 +534,18 @@ async function pollSummary(id, gap=9000){
 const espnLag = {}; const seenPlays = new Set();
 function notePlays(id, s){
   const plays = (s.drives?.current?.plays||[]).concat((s.drives?.previous||[]).slice(-1).flatMap(d=>d.plays||[]));
+  if(!espnLag[id]){ // first look at a game: everything in it already happened, so just note what we've seen
+    espnLag[id] = {v: 0, n: 0};
+    plays.forEach(p=>{ if(p.id) seenPlays.add(p.id); });
+    return;
+  }
   for(const p of plays){
     if(!p.id || seenPlays.has(p.id)) continue; seenPlays.add(p.id);
     const w = Date.parse(p.wallclock||""); if(isNaN(w)) continue;
     const lag = (Date.now() - w)/1000;
-    if(lag < 0 || lag > 180) continue;
-    if(!espnLag[id]){ espnLag[id] = {v: lag, n: 1, primed: false}; continue; }
-    if(!espnLag[id].primed){ espnLag[id].primed = true; espnLag[id].v = lag; espnLag[id].n = 1; continue; } // first batch is old plays
-    espnLag[id].v = espnLag[id].v*0.7 + lag*0.3; espnLag[id].n++;
+    if(lag < 0 || lag > 120) continue;
+    const L = espnLag[id];
+    L.v = L.n ? L.v*0.7 + lag*0.3 : lag; L.n++;
   }
 }
 function radioLag(){
@@ -549,11 +562,12 @@ function autoSync(){
   if(!deck || audio.paused || syncMode==="manual") return;
   const saved = store.get("delay@" + streamKey(deck.url));
   const g = events.find(x=>x.status.type.state==="in" && x.competitions[0].competitors.some(c=>c.team.location===deck.loc));
+  if(saved!=null){ if(syncMode!=="saved"){ syncMode = "saved"; setDelay(+saved, true); } return; }
   const rl = radioLag(), el = g && espnLag[g.id];
   if(rl!=null && el && el.n >= 2 && rl > 0 && rl < 150){
     const d = Math.round(Math.max(0, rl - el.v));
     if(Math.abs(d - delay) >= 2 || syncMode!=="auto"){ syncMode = "auto"; setDelay(d, true); }
-  } else if(saved!=null && syncMode==="manual-pending"){ syncMode = "saved"; setDelay(+saved, true); }
+  }
 }
 setInterval(autoSync, 5000);
 function snap(arr, match){ // newest snapshot at least `delay` seconds old
@@ -602,7 +616,10 @@ const boardHome = (()=>{ const b = document.getElementById("board"); return {par
 function placeBoard(){
   const B = $("#board"), card = selected && $(`#list .card[data-id="${CSS.escape(selected)}"]`);
   if(NARROW.matches && card && boardOpen){ if(card.nextSibling !== B) card.after(B); }
-  else if(B.parentNode !== boardHome.parent) boardHome.parent.insertBefore(B, boardHome.next);
+  else {
+    if(B.parentNode !== boardHome.parent) boardHome.parent.insertBefore(B, boardHome.next);
+    if(NARROW.matches) B.hidden = true;
+  }
 }
 NARROW.addEventListener?.("change", placeBoard);
 let currentTeam = null, connecting = null;
@@ -704,7 +721,7 @@ function trackClock(e, t){
   if(prev && prev.raw === raw){
     // A newer reading that hasn't moved means the clock is stopped.
     // The feed can repeat a reading for a few polls, so wait 12s before calling it stopped.
-    if(prev.running && Date.now() - prev.at > 12000){ prev.sec = Math.max(0, prev.sec - 12); prev.running = false; } // freeze where it is; the next reading corrects it
+    if(prev.running && Date.now() - prev.at > 12000){ prev.shown = Math.max(0, prev.sec - 12); prev.running = false; } // freeze where it is; the next reading corrects it
     return;
   }
   const real = prev ? Math.max(1, (t - prev.t)/1000) : 0;
@@ -713,7 +730,7 @@ function trackClock(e, t){
 }
 function liveClock(e){
   const c = clk[e.id]; if(!c || c.sec==null) return e.status.displayClock;
-  if(!c.running) return fmtSec(c.sec);
+  if(!c.running) return fmtSec(c.shown ?? c.sec);
   const gone = Math.min(12, Math.floor((Date.now()-c.at)/1000)); // never run more than 12s past the last reading
   return fmtSec(Math.max(0, c.sec - gone));
 }
@@ -746,8 +763,8 @@ function gameLine(loc){
     else if(sit.possessionText) parts.push(`at ${esc(sit.possessionText)}`);
     if(sit.isRedZone) parts.push(`<span class="drz">Red zone</span>`);
   }
-  const lv = deck && liveVerdict(deck.url);
-  if(lv?.verdict==="music") parts.push(`<span class="dwarn">Station may not be carrying the game</span>`);
+  const lv = deck && liveVerdict(deck.url), hv = deck && heard(deck.url);
+  if(lv?.verdict==="music" || hv==="not_game") parts.push(`<span class="dwarn">Station may not be carrying the game</span>`);
   return parts.join('<span class="dsep"></span>');
 }
 function setIdle(){ document.querySelector(".deck").classList.toggle("idle", !currentTeam); }
@@ -992,7 +1009,7 @@ function renderBoard(){
   const pt = $("#pbpToggle"); if(pt) pt.onclick = ()=>{ const open = pt.getAttribute("aria-expanded")!=="true"; store.set("pbp", open?"1":"0"); pt.setAttribute("aria-expanded", String(open)); pt.nextElementSibling.hidden = !open; };
   B.querySelectorAll("[data-play]").forEach(l=>l.onclick=ev=>{ev.preventDefault(); $("#station").value = "team:"+l.dataset.play; startStation();});
 }
-function esc(s){return String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]))}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
 const DARK = matchMedia("(prefers-color-scheme: dark)");
 // ESPN has a dark-background version of most logos; fall back to the normal one if it's missing.
 function logoSrc(tm){ const u = tm.logo||""; return DARK.matches && /\/500\//.test(u) ? u.replace("/500/","/500-dark/") : u; }
@@ -1127,7 +1144,8 @@ async function playList(list, name, sub, loc){
       if(token !== tryToken) return;
       if(ok){
         deck = {loc, url, sub};
-        syncMode = "manual-pending"; setTimeout(autoSync, 4000);
+        // Each station keeps its own score delay: start from its saved value, or live, then let auto-sync refine it.
+        syncMode = "manual-pending"; setDelay(+(store.get("delay@" + streamKey(url)) || 0)); setTimeout(autoSync, 4000);
         $("#nowSub").textContent = sub;
         // Some streams play an ad to every new listener before the broadcast picks up.
         if(liveInfo[url]?.preroll || /leanstream|ihrhls|revma/.test(url)) toast("The broadcast will start after a short ad.");
@@ -1162,17 +1180,22 @@ function play(url, name, sub){
   // Safari (iPhone/iPad/Mac) plays HLS itself and keeps lock-screen controls; other browsers need hls.js.
   const SAFARI = /Safari/.test(navigator.userAgent) && !/Chrome|CriOS|Chromium|Edg|Android|FxiOS/.test(navigator.userAgent);
   if(/\.m3u8(\?|$)/i.test(url) && !SAFARI && window.Hls && Hls.isSupported()){
-    hls = new Hls(); hls.loadSource(url); hls.attachMedia(audio);
+    hls = new Hls(); hls.on(Hls.Events.ERROR, (ev, d)=>{ if(d.fatal) audio.dispatchEvent(new Event("error")); }); hls.loadSource(url); hls.attachMedia(audio);
   } else audio.src = url;
   audio.play().catch(()=>{});
   $("#nowName").textContent = name; $("#nowSub").textContent = sub;
 }
 $("#station").onchange = startStation;
-$("#pp").onclick = ()=>{ if(audio.src || hls){ audio.paused ? audio.play() : audio.pause(); } else startStation(); };
+$("#pp").onclick = ()=>{
+  if(audio.src || hls){ audio.paused ? audio.play() : audio.pause(); return; }
+  const e = events.find(x=>x.id===selected) || events.find(x=>x.status.type.state==="in");
+  const t = e && e.competitions[0].competitors.map(c=>c.team.location).find(l=>RADIO[l]?.streams?.length || store.get("stream:"+l));
+  if(t) listenTo(t); else toast("Tap Listen next to a team to start its radio.");
+};
 audio.addEventListener("play", ()=>render()); audio.addEventListener("pause", ()=>render());
 audio.onplay = ()=>{$("#pp").innerHTML='<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4.2" height="14" rx="1.2"/><rect x="13.8" y="5" width="4.2" height="14" rx="1.2"/></svg>'; $("#pp").setAttribute("aria-label","Pause radio")};
 audio.onpause = ()=>{$("#pp").innerHTML='<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.4-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg>'; $("#pp").setAttribute("aria-label","Play radio")};
-audio.onerror = ()=>{$("#nowSub").textContent="Stream unavailable right now. Try the official listen link or another URL.";};
+audio.onerror = ()=>{ if(!connecting) $("#nowSub").textContent="Stream dropped. Tap Listen to reconnect."; };
 $("#vol").oninput = e=> audio.volume = e.target.value;
 $("#useCustom").onclick = ()=>{
   const u = $("#custom").value.trim(); if(!u) return;
@@ -1210,7 +1233,7 @@ setDeckMin(store.get("deckMin")==="1");
 $("#moreBtn").onclick = ()=>{ const m=$("#more"); m.hidden=!m.hidden; $("#moreBtn").setAttribute("aria-expanded", String(!m.hidden)); $("#moreBtn").textContent = m.hidden?"More":"Less"; };
 
 (function init(){
-  setDelay(+store.get("delay")||0);
+  setDelay(0);
   const dv = store.get("div"); if(dv && document.querySelector(`.chip[data-div="${dv}"]`)) document.querySelector(`.chip[data-div="${dv}"]`).click();
   loadDirectory();
   poll().then(fillStations); setInterval(()=>{poll().then(fillStations)}, 5000);

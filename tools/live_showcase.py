@@ -3,7 +3,8 @@ athletics site live-audio page in a headless browser, capture the game audio
 stream, and add it to radio.json. Many schools only stream games on their own
 site, and those streams exist only while the game is on.
 """
-import datetime, json, re, subprocess, sys, urllib.request
+import datetime, json, re, subprocess, sys, time, urllib.request
+from radio_common import is_bad, set_feeds, clean
 
 UA = {"User-Agent": "Mozilla/5.0 (GamedayRadio live audio finder)"}
 SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?groups={}&limit=400"
@@ -126,9 +127,14 @@ def sniff(urls):
     return found
 
 
+STAMP = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+
+
 def main():
     radio = json.load(open("radio.json"))
     src = {s["school"]: s for s in json.load(open("tools/radio-sources.json"))}
+    for t in radio["teams"]:
+        clean(t, src)  # drop bad streams and yesterday's game feeds
     index = {}
     for t in radio["teams"]:
         for n in [t.get("school")] + (t.get("names") or []):
@@ -144,9 +150,9 @@ def main():
         # actual broadcast and isn't blocked outside the station's area); no browser needed for them.
         if t.get("streams") and not info.get("game_only"):
             if site:
-                got = sidearm_audio(site)
+                got = [u for u in sidearm_audio(site) if not is_bad(t["school"], u, src)]
                 if got:
-                    t["streams"] = list(dict.fromkeys(got + t["streams"]))[:5]; t["live_only"] = True
+                    set_feeds(t, got, STAMP)
                     feed_changed.append(t["school"])
             continue
         t["_mins"] = min(t.get("_mins", 999), tm.get("_mins", 0))
@@ -158,9 +164,8 @@ def main():
     print("official feeds added for:", ", ".join(feed_changed) or "none")
     if not targets:
         print("no live teams without radio that have an athletics site on file")
-        if feed_changed:
-            for t in radio["teams"]: t.pop("_mins", None)
-            json.dump(radio, open("radio.json", "w"), indent=0)
+        for t in radio["teams"]: t.pop("_mins", None)
+        json.dump(radio, open("radio.json", "w"), indent=0)
         return
     # Fast path: the SIDEARM live-events feed names the audio stream outright.
     changed = bool(feed_changed)
@@ -169,30 +174,29 @@ def main():
             continue
         site = (src.get(t["school"]) or {}).get("athletics_site")
         got = sidearm_audio(site) if site and url.endswith("/showcase") else []
+        got = [u for u in got if not is_bad(t["school"], u, src)]
         if got:
             print(t["school"], "-> (feed)", got)
-            t["streams"] = list(dict.fromkeys(got + (t.get("streams") or [])))[:4]; t["live_only"] = True; changed = True
+            set_feeds(t, got, STAMP); changed = True
             targets = {u: x for u, x in targets.items() if x is not t}
     for url, t in list(targets.items()):
         if "leanplayer.com" in url:
-            got = leanplayer_audio(url)
+            got = [u for u in leanplayer_audio(url) if not is_bad(t["school"], u, src)]
             if got:
                 print(t["school"], "-> (leanplayer)", got)
-                t["streams"] = list(dict.fromkeys(got + (t.get("streams") or [])))[:4]; t["live_only"] = True; changed = True
+                set_feeds(t, got, STAMP); changed = True
                 targets = {u: x for u, x in targets.items() if x is not t}
     # Opening pages in a browser is slow, so only do it close to kickoff.
     targets = {u: x for u, x in targets.items() if x.get("_mins", 0) < 45}
     found = sniff(list(targets)) if targets else {}
     for url, t in targets.items():
-        streams = [u for u in found.get(url, []) if "player_status" not in u and "/v5/" not in u and not NOT_LIVE.search(u)][:3]
-        streams = list(dict.fromkeys(streams + (t.get("streams") or [])))[:4]  # newest feed first
+        streams = [u for u in found.get(url, []) if "player_status" not in u and "/v5/" not in u and not NOT_LIVE.search(u) and not is_bad(t["school"], u, src)][:3]
         print(t["school"], "->", streams)
         if streams:
-            t["streams"] = streams; t["live_only"] = True; changed = True
+            set_feeds(t, streams, STAMP); changed = True
     for t in radio["teams"]:
         t.pop("_mins", None)
-    if changed:
-        json.dump(radio, open("radio.json", "w"), indent=0)
+    json.dump(radio, open("radio.json", "w"), indent=0)
 
 
 if __name__ == "__main__":

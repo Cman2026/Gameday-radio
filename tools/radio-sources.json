@@ -1484,7 +1484,10 @@
    "WHOV"
   ],
   "streams": [],
-  "athletics_site": "https://hamptonpirates.com"
+  "athletics_site": "https://hamptonpirates.com",
+  "bad_streams": [
+   "revma.ihrhls.com/zc5599"
+  ]
  },
  {
   "school": "University of Maine",
@@ -1552,7 +1555,10 @@
   "conference": "Coastal Athletic Association",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://ncataggies.com"
+  "athletics_site": "https://ncataggies.com",
+  "bad_streams": [
+   "wbrf"
+  ]
  },
  {
   "school": "University of Rhode Island",
@@ -2300,7 +2306,10 @@
   "calls": [],
   "streams": [],
   "athletics_site": "https://hubison.com",
-  "station_website": "http://www.whbc963hd3.com/welcomehome/"
+  "station_website": "http://www.whbc963hd3.com/welcomehome/",
+  "bad_streams": [
+   "alphacorporate-whbc"
+  ]
  },
  {
   "school": "Morgan State University",

@@ -11,18 +11,20 @@ for attempt in 1 2 3 4 5; do
   git fetch -q origin main && git reset -q --hard origin/main
   for f in "$@"; do
     [ -f "$tmp/$(basename "$f")" ] || continue
-    if [ "$f" = "radio.json" ] && [ -n "${MERGE_LIVE_ONLY:-}" ]; then
-      # game-time job: carry over the game feeds it found
-      python3 - "$tmp/radio.json" <<'PY'
+    if [ "$f" = "radio.json" ]; then
+      # Merge the job's radio.json onto whatever is on main now, so two jobs (or a hand edit)
+      # can't wipe out each other's changes. Game-time jobs only carry over the game feeds they
+      # found; the resolver replaces the tested station streams but keeps today's feeds in front.
+      python3 - "$tmp/radio.json" "${MERGE_LIVE_ONLY:-}" <<'PY'
 import json, sys
-new = {t["school"]: t for t in json.load(open(sys.argv[1]))["teams"]}
+sys.path.insert(0, "tools")
+from radio_common import merge_into, load_sources
+new = json.load(open(sys.argv[1]))
 cur = json.load(open("radio.json"))
-for t in cur["teams"]:
-    n = new.get(t["school"])
-    if n and n.get("live_only"):
-        # official school feeds go first; keep whatever station streams are already there
-        t["streams"], t["live_only"] = list(dict.fromkeys(n["streams"] + (t.get("streams") or [])))[:5], True
-json.dump(cur, open("radio.json", "w"), indent=0)
+out = merge_into(cur, new, load_sources(), feeds_only=bool(sys.argv[2]))
+if not sys.argv[2]:
+    out["built"] = new.get("built", out.get("built"))
+json.dump(out, open("radio.json", "w"), indent=0)
 PY
     else
       cp "$tmp/$(basename "$f")" "$f"

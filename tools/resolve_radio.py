@@ -9,6 +9,7 @@ remembered: a team keeps its last working stream until it fails three runs in a
 row, or until its station changes.
 """
 import html as htmlmod, json, re, threading, time, urllib.parse, urllib.request
+from radio_common import is_bad, feeds_fresh, set_feeds, clean, load_sources
 from concurrent.futures import ThreadPoolExecutor
 
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"}
@@ -235,6 +236,8 @@ def resolve(team):
     old = PREV.get(team.get("school"), {})
     if old.get("streams") and old.get("calls") == team.get("calls"):
         for u in old["streams"]:
+            if is_bad(team.get("school", ""), u, SOURCES):
+                continue
             ok, detail = probe(u)
             tried.append({"url": u, "source": "remembered", "ok": ok, "detail": detail})
             if ok: good.append(u)
@@ -253,6 +256,9 @@ def resolve(team):
     return good, tried
 
 
+SOURCES = {}
+
+
 def main():
     src = json.load(open("tools/radio-sources.json"))
     try:
@@ -260,6 +266,7 @@ def main():
     except Exception:
         prev = {}
     PREV.update(prev)
+    SOURCES.update({x["school"]: x for x in src})
     with ThreadPoolExecutor(max_workers=32) as ex:
         results = list(ex.map(resolve, src))
     teams, report = [], []
@@ -282,10 +289,16 @@ def main():
         if not good and t.get("game_only") and t.get("streams"):
             good = list(t["streams"])  # school game feeds are only on the air during games
         good = sorted(dict.fromkeys(good), key=lambda u: not u.startswith("https"))
-        teams.append({k: t.get(k) for k in ("school", "names", "network", "flagship", "listen_page", "conference", "calls", "game_only", "no_radio", "notes")}
-                     | {"streams": good, "misses": misses if good else 0,
-                        "miss_day": time.strftime("%Y-%m-%d") if misses else None,
-                        "last_ok": time.strftime("%Y-%m-%d") if misses == 0 and good else old.get("last_ok")})
+        good = [u for u in good if not is_bad(t.get("school", ""), u, SOURCES)]
+        entry = {k: t.get(k) for k in ("school", "names", "network", "flagship", "listen_page", "conference", "calls", "game_only", "no_radio", "notes")} \
+                | {"streams": good, "misses": misses if good else 0,
+                   "miss_day": time.strftime("%Y-%m-%d") if misses else None,
+                   "last_ok": time.strftime("%Y-%m-%d") if misses == 0 and good else old.get("last_ok")}
+        if feeds_fresh(old):  # today's game feeds stay in front of the station streams
+            feeds = [u for u in old["game_feeds"] if not is_bad(t.get("school", ""), u, SOURCES)]
+            set_feeds(entry, feeds, old["game_feeds_at"])
+            entry["streams"] = list(dict.fromkeys(feeds + good))[:6]
+        teams.append(entry)
         report.append({"school": t.get("school"), "calls": t.get("calls"), "ok": [x for x in tried if x["ok"]],
                        "kept_from_before": bool(misses), "failed": [x for x in tried if not x["ok"]][:15]})
     json.dump({"built": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "teams": teams}, open("radio.json", "w"), indent=0)

@@ -67,11 +67,16 @@ def verdict(title, team_words):
 
 
 def main():
-    with urllib.request.urlopen(urllib.request.Request(ESPN, headers=UA), timeout=20) as r:
-        events = json.loads(r.read()).get("events", [])
+    events = []
+    for g in (80, 81):  # FBS and FCS
+        try:
+            with urllib.request.urlopen(urllib.request.Request(ESPN.replace("groups=80", f"groups={g}"), headers=UA), timeout=20) as r:
+                events += json.loads(r.read()).get("events", [])
+        except Exception as ex:
+            print("scoreboard error", g, ex)
     live = [e for e in events if e.get("status", {}).get("type", {}).get("state") == "in"]
     if not live:
-        print("no live FBS games"); return
+        print("no live games"); return
     teams = json.load(open("radio.json"))["teams"]
     index = {}
     for t in teams:

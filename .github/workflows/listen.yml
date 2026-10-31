@@ -4,6 +4,7 @@ on:
   schedule:
     - cron: "10,40 15-23 * * 6"     # Saturdays 11 AM - 8 PM Eastern, twice an hour
     - cron: "10,40 0-4 * * 0,3,4,5,6"  # evenings
+    - cron: "10,40 23 * * 2,3,4,5"      # weeknight kickoffs
 permissions:
   contents: write
 concurrency: listen
