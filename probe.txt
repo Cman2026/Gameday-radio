@@ -1,15 +1,221 @@
-===== https://core.stretchlive.com/v2/users/princeton/page-settings
-curl: (6) Could not resolve host: core.stretchlive.com
+===== https://player.streamguys.com/sportsmicradionetwork/sgplayer/config.json
+HTTP/2 200 
+date: Sat, 31 Oct 2026 21:48:59 GMT
+content-type: application/json
+content-length: 16371
+vary: Accept-Encoding
+x-cff: B
+last-modified: Tue, 31 Mar 2026 17:17:30 GMT
+etag: "69cc01aa-3ff3"
+strict-transport-security: max-age=31536000; includeSubDomains
+x-frame-options: *
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+access-control-allow-origin: *
+x-cf3: M
+cf4age: 0
+x-cf-tsc: 1793483339
+cf4ttl: 43200.000
+x-cf2: M
+accept-ranges: bytes
+server: CFS 1124
+x-cf1: 29364:fA.iad2:co:1791550353:cacheN.iad2-01:M
+x-cf-reqid: 89bea8bea04a127d0704bafa857d06e4
 
-===== https://core.stretchlive.com/v2/users/princeton/events
-curl: (6) Could not resolve host: core.stretchlive.com
+{
+    "debug":false,
+    "version":"2.6.3",
+    "contextMenu":true,
+    "autoPlay":false,
+    "pageTitle":"Sportsmic Radio Network",
+    "theme":"sg-gray",
+    "layout":"layout-standard",
+    "skins":{
+        "global": [],
+        "desktop": [],
+        "mobile": [],
+        "inline": [],
+        "viewDesktop":"",
+        "viewMobile":""
+    },
+    "mobileEnabled":true,
+    "mobileTheme":"a",
+    "mobilePrevPlayedTheme":"c",
+    "hls":{
+        "enabled":false
+    },
+    "amazonAssociateId":"strea000-20",
+    "amazonRetryInterval":0,
+    "autoHideControls":true,
+    "volume":1.0,
+    "streamSelectorLabel":"Station: ",
+    "fallbackOrder":["html5", "flash"],
+    "hybrid": {
+        "enabled":false,
+        "session":"/var/www/html/sgplayer/hybrid/protect.php",
+        "logout":"../logout.php",
+        "api":[
+            "../api.php"
+        ]
+    },
+    "nielsen":{
+        "enabled":false,
+        "sdk":"//secure-drm.imrworldwide.com/novms/js/2/ggcmb400.js",
+        "requestInterval":6,
+        "apid":"nielsen_provided_key",
+        "apn":"SGplayer_clientname",
+        "sfcode":"drm",
+        "nol_sdkDebug":"false"
+    },
+    "rss":{
+        "enabled":false,
+        "sources":[
+            {"type":"XML", "mediaType":"video", "url":"//domain.com/itunes-video-podcast.xml"},
+            {"type":"XML", "mediaType":"audio", "url":"//domain.com/itunes-audio-podcast.xml"},
+            {"type":"JSON", "url":"//domain.com/sg-streams-array.json"}
+        ]
+    },
+    "googleIMA":{
+        "enabled":false,
+        "sdk":"//imasdk.googleapis.com/js/sdkloader/ima3.js"
+    },
+    "clammr":{
+        "enabled":false,
+        "cropUrl":"//www.clammr.com/app/clammr/crop",
+        "buttonImage":"//www.clammr.com/cropplugin/clammr_red",
+        "referallName":"StreamGuys"
+    },
+    "streams":[
+            {
+            "name":"SMic Live Talk",
+            "geoRedirect":false,
+            "fallbackArt":"include/assets/img/album_art.png",
+            "type":"audio",
+            "source":[
+		{"title":"MP3", "type":"audio/mp3", "src":"//sportsmic.streamguys1.com/live-SMGeneral-mp3"},
+                {"title":"AAC", "type":"audio/aac", "src":"//sportsmic.streamguys1.com/live-SMGeneral"},
+                {"title":"Flash", "type":"audio/rtmp", "src":"//sportsmic.streamguys1.com/live-SMGeneral?type=.flv"}
+            ],
+            "metaData":{
+                "enabled":false,
+                "autoScrollSong":true,
+                "autoScrollPrev":false,
+                "songArraySize":6,
+                "source":"//player.streamguys.com/sportsmicradionetwork/sgplayer/metadata.json",
+                "type":"json",
+                "location": "instream",
+                "pollingType":"short",
+                "pollingInterval":10,
+                "delimiter":" - ",
+                "albumOrder":1,
+                "artistOrder":2,
+                "trackOrder":3
+            }
+        },
+        {
+            "name":"Houston County",
+            "geoRedirect":false,
+            "fallbackArt":"include/assets/img/album_art.png",
+            "type":"audio",
+            "source":[
+                {"title":"MP3", "type":"audio/mp3", "src":"//sportsmic.streamguys1.com/live-HCBears-mp3"},
+                {"title":"AAC", "type":"audio/aac", "src":"//sportsmic.streamguys1.com/live-HCBears"},
+                {"title":"Flash", "type":"audio/rtmp", "src":"//sportsmic.streamguys1.
+===== https://player.streamguys.com/sportsmicradionetwork/sgplayer/mobile.php?s=2
+HTTP/2 200 
+date: Sat, 31 Oct 2026 21:48:59 GMT
+content-type: text/html; charset=UTF-8
+content-length: 6213
+vary: Accept-Encoding
+x-cff: B
+x-cf3: M
+cf4age: 0
+x-cf-tsc: 1793483339
+cf4ttl: 43200.000
+x-cf2: M
+accept-ranges: bytes
+server: CFS 1124
+x-cf1: 29364:fO.iad2:co:1791550353:cacheN.iad2-01:M
+x-cf-reqid: 1847e822b098911c1bece3f42831bc6c
 
-===== https://core.stretchlive.com/v2/users/princeton/events/live
-curl: (6) Could not resolve host: core.stretchlive.com
+<!DOCTYPE html>
+<html>
+<head>
+<!-- SGplayer v2.6.3 by StreamGuys Inc. https://www.streamguys.com -->
+<meta charset="utf-8" />
+<meta name="description" content="SGplayer (http://www.streamguys.com)" />
+<meta name="robots" content="noindex, follow">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta property="og:title" content="Listening to a live broadcast of The Sportsmic Radio Network" />
+<meta property="og:url" content="//www.sportsmic.com" />
+<meta property="og:image" content="//player.streamguys.com/sportsmicradionetwork/sgplayer/include/assets/img/album_art.png" />
+<meta property="og:description" content="Sportsmic Radio Network" />
+<title>Sportsmic Radio Network</title>
+<link rel="icon" type="image/png" href="include/assets/img/favicon.png" />
+<link rel="stylesheet" href="include/css/jquery.mobile-1.3.2.min.css?v=2.6.3" />
+<link rel="stylesheet" href="include/css/video-js.min.css?v=2.6.3" />
+<link rel="stylesheet" href="include/css/videojs.ads.css?v=2.6.3" />
+<link rel="stylesheet" href="include/css/videojs.ima.css?v=2.6.3" />
+<link rel="stylesheet" href="include/css/font-awesome.min.css?v=2.6.3" />
+<link rel="stylesheet" href="include/css/m.sgplayer.css?v=2.6.3" />
+<script type="text/javascript" src="include/js/addthis_widget.js?v=2.6.3"></script>
+<script type="text/javascript" src="//cdn.adswizz.com/adswizz/js/SynchroClient2.js"></script>
+<script type="text/javascript" src="//synchrobox.adswizz.com/register2.php"></script>
+<script type="text/javascript" src="include/js/m.sgplayer.min.js?v=2.6.3"></script>
+<script type="text/javascript" src="https://jetio.streamguys.com/socket.io/socket.io.js"></script>
+<script type="text/javascript">
+window._sgplayer = new SGPlayer({
+    query: {"s":2},
+    activeStreamIndex: "2",
+    mode: "standard",
+    sourceOverride: null,
+    noVideoPreroll: false,
+    playerIsMobile: false,
+    ip: "216.246.118.63",
+    targetspotUid: null,
+    config: "config.json"
+});
+</script>
+</head>
+<body>
+<div id="player" data-role="page" class="layout-standard">    <div id="player-header" data-theme="a" data-role="header">
+        <h3>Sportsmic Radio Network</h3>
+    </div>
+    <noscript>
+        <div id="js-disabled-message">
+            <h3>JavaScript Disabled</h3>
+            <p>JavaScript must be enabled and unblocked for this page to function properly. If you are seeing this message, please enable JavaScript and refresh the page.</p>
+        </div>
+    </noscript>
+    <div id="player-content" data-role="content">
+        <div id="streamSelector" data-role="fieldcontain center" data-theme="a" data-mini="true" data-native-menu="true"></div>
+        <div id="player-wigit">
+            <div id="controlDisplayArea" class="ui-bar-a ui-corner-top">
+                <div id="playerControls" class="ui-grid-b ui-mobile-breakpoint">
+                    <div class="control-col-1 col-20 ui-block-a">
+                        <div id="playPauseButton" class="icon-play"></div>
+                    </div>
+                    <div class="control-col-2 col-80 ui-block-b">
+                        <div class="inline-label"><label for="time">Playtime:</label><h4 id="time">00:00:00</h4></div>
+                        <div class="icon-volume"><img src="include/assets/img/audio-white.png" alt="audio icon"/></div>
+                        <input id="vol-slider" type="range" name="slider" min="0" max="100" value="50" data-highlight="true" data-mini="true">
+                    </div>
+                </div>
+           
+===== https://us-central1-lyrical-amulet-150218.cloudfunctions.net/wmt-leanstream-proxy-v2
+HTTP/2 400 
+content-type: application/json
+access-control-allow-origin: *
+cache-control: max-age=120, public, stale-while-revalidate=900
+function-execution-id: dejwqtytuj48
+x-cloud-trace-context: f0fc7edb258d7cdc573f8fb959ac6e90
+date: Sat, 31 Oct 2026 21:48:59 GMT
+server: Google Frontend
+content-length: 70
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
 
-===== https://core.stretchlive.com/v2/users/princeton/live
-curl: (6) Could not resolve host: core.stretchlive.com
-
-===== https://core.stretchlive.com/v2/users/pennaudio/events
-curl: (6) Could not resolve host: core.stretchlive.com
-
+{
+    "message": "Malformed URL. Either URL or ID must be provided."
+}
