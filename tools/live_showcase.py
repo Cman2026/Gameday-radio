@@ -109,26 +109,37 @@ def main():
     for t in radio["teams"]:
         for n in [t.get("school")] + (t.get("names") or []):
             if n: index.setdefault(norm(n), t)
-    targets = {}
+    targets, feed_changed = {}, []
     for tm in live_teams():
         t = next((index[norm(n)] for n in (tm.get("location"), tm.get("displayName"), tm.get("shortDisplayName")) if norm(n) in index), None)
         if not t:
             continue
         info = src.get(t["school"]) or {}
-        # Teams with a station stream are fine; school game feeds change every game, so refresh those.
-        if t.get("streams") and not info.get("game_only"):
-            continue
         site = info.get("athletics_site")
+        # Teams with a station stream still get the school's official audio feed added (it's the
+        # actual broadcast and isn't blocked outside the station's area); no browser needed for them.
+        if t.get("streams") and not info.get("game_only"):
+            if site:
+                got = sidearm_audio(site)
+                if got:
+                    t["streams"] = list(dict.fromkeys(got + t["streams"]))[:5]; t["live_only"] = True
+                    feed_changed.append(t["school"])
+            continue
         t["_mins"] = min(t.get("_mins", 999), tm.get("_mins", 0))
         if site:
             targets[site.rstrip("/") + "/showcase"] = t
         lp = info.get("listen_page")
         if lp and lp.startswith("http") and "app.link" not in lp:
             targets[lp] = t
+    print("official feeds added for:", ", ".join(feed_changed) or "none")
     if not targets:
-        print("no live teams without radio that have an athletics site on file"); return
+        print("no live teams without radio that have an athletics site on file")
+        if feed_changed:
+            for t in radio["teams"]: t.pop("_mins", None)
+            json.dump(radio, open("radio.json", "w"), indent=0)
+        return
     # Fast path: the SIDEARM live-events feed names the audio stream outright.
-    changed = False
+    changed = bool(feed_changed)
     for url, t in list(targets.items()):
         if url not in targets:
             continue

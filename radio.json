@@ -45,12 +45,14 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF1001-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KSFOAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KSFOAMAAC.m3u8",
 "http://playerservices.streamtheworld.com/api/livestream-redirect/KSFOAMAAC.aac"
 ],
 "misses": 0,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Clemson University",
@@ -874,9 +876,12 @@
 "game_only": null,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://img.leanstream.co/LF2401-MP3"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"live_only": true
 },
 {
 "school": "Georgia State University",
@@ -1538,9 +1543,12 @@
 "game_only": null,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://img.leanstream.co/IM4001-MP3"
+],
 "misses": 0,
-"last_ok": "2026-10-30"
+"last_ok": "2026-10-30",
+"live_only": true
 },
 {
 "school": "Pennsylvania State University",
@@ -4401,9 +4409,12 @@
 "game_only": null,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://live.amperwave.net/manifest/jdl-wvigfmaac-hlsc.m3u8"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": null,
+"live_only": true
 },
 {
 "school": "Murray State University",
@@ -4471,10 +4482,12 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF4601-MP3",
 "https://ice7.securenetsystems.net/THEMIX"
 ],
 "misses": 0,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "University of South Dakota",
@@ -5937,10 +5950,12 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM4101-MP3",
 "https://live.amperwave.net/manifest/telesouth-wqljfmaac-hlsc1.m3u8?source=v7player"
 ],
 "misses": 0,
-"last_ok": "2026-10-31"
+"last_ok": "2026-10-31",
+"live_only": true
 },
 {
 "school": "Mississippi State University",

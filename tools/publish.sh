@@ -12,15 +12,16 @@ for attempt in 1 2 3 4 5; do
   for f in "$@"; do
     [ -f "$tmp/$(basename "$f")" ] || continue
     if [ "$f" = "radio.json" ] && [ -n "${MERGE_LIVE_ONLY:-}" ]; then
-      # game-time job: only carry over streams it found for teams that had none
+      # game-time job: carry over the game feeds it found
       python3 - "$tmp/radio.json" <<'PY'
 import json, sys
 new = {t["school"]: t for t in json.load(open(sys.argv[1]))["teams"]}
 cur = json.load(open("radio.json"))
 for t in cur["teams"]:
     n = new.get(t["school"])
-    if n and n.get("live_only") and (not t.get("streams") or t.get("game_only")):
-        t["streams"], t["live_only"] = n["streams"], True
+    if n and n.get("live_only"):
+        # official school feeds go first; keep whatever station streams are already there
+        t["streams"], t["live_only"] = list(dict.fromkeys(n["streams"] + (t.get("streams") or [])))[:5], True
 json.dump(cur, open("radio.json", "w"), indent=0)
 PY
     else

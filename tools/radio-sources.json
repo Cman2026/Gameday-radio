@@ -3187,7 +3187,9 @@
   "calls": [
    "WVIG-FM"
   ],
-  "streams": [],
+  "streams": [
+   "https://live.amperwave.net/manifest/jdl-wvigfmaac-hlsc.m3u8"
+  ],
   "athletics_site": "https://gosycamores.com",
   "station_website": "https://www.wvigthelegend.com"
  },
