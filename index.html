@@ -1175,14 +1175,14 @@ async function playList(list, name, sub, loc){
   // next 20 seconds, treat that as success instead of leaving it playing behind an error message.
   const late = ()=>{ audio.removeEventListener("playing", late); if(token===tryToken){ const u = lastTried; connected(loc, u, sub); } };
   audio.addEventListener("playing", late);
-  setTimeout(()=>{ audio.removeEventListener("playing", late); if(token===tryToken && !deck){ try{ audio.pause(); audio.removeAttribute("src"); audio.load(); }catch(e){} currentTeam = null; render(); } }, 20000);
+  const giveUp = ()=>{
+    const ext = loc && RADIO[loc]?.external;
+    if(ext) $("#nowSub").innerHTML = `This station's stream won't play inside the page. <a href="${esc(ext)}" target="_blank" rel="noopener">Open it in Safari</a>`;
+    else $("#nowSub").textContent = "No stream answered. The station may not be on the air right now.";
+  };
+  setTimeout(()=>{ audio.removeEventListener("playing", late); if(token===tryToken && !deck){ try{ audio.pause(); audio.removeAttribute("src"); audio.load(); }catch(e){} currentTeam = null; giveUp(); render(); } }, 20000);
   connecting = null; render();
-  const ext = loc && RADIO[loc]?.external;
-  if(ext){
-    $("#nowSub").innerHTML = `This station's stream won't play inside the page. <a href="${esc(ext)}" target="_blank" rel="noopener">Open it in Safari</a>`;
-  } else {
-    $("#nowSub").textContent = "No stream answered. The station may not be on the air right now.";
-  }
+  $("#nowSub").textContent = "Slow to connect… still trying.";
 }
 let lastTried = null;
 function connected(loc, url, sub){
