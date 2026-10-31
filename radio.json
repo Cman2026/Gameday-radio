@@ -1,5 +1,5 @@
 {
-"built": "2026-10-31T14:45:34Z",
+"built": "2026-10-31T14:48:38Z",
 "teams": [
 {
 "school": "Boston College",
@@ -1828,10 +1828,8 @@
 "conference": "Coastal Athletic Association",
 "calls": [],
 "game_only": true,
-"streams": [
-"https://cdn.jwplayer.com/live/broadcast/8eUvetd9.m3u8"
-],
-"misses": 1,
+"streams": [],
+"misses": 0,
 "last_ok": "2026-10-30"
 },
 {
@@ -2186,7 +2184,6 @@
 ],
 "game_only": true,
 "streams": [
-"https://stream.rcs.revma.com/x4q6k4dw57uvv",
 "https://stream.rcs.revma.com/uupm8cdw57uvv",
 "https://stream.rcs.revma.com/uupm8cdw57uvv/hls.m3u8",
 "http://stream.rcs.revma.com/uupm8cdw57uvv"
@@ -2890,9 +2887,11 @@
 "WPJK-AM"
 ],
 "game_only": null,
-"streams": [],
+"streams": [
+"https://stream.zeno.fm/71u92uesqp8uv"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-31"
 },
 {
 "school": "Merrimack College",
@@ -3044,9 +3043,11 @@
 "WPTN-AM"
 ],
 "game_only": null,
-"streams": [],
+"streams": [
+"https://ice42.securenetsystems.net/WPTNAM"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-31"
 },
 {
 "school": "The Citadel",
@@ -4075,9 +4076,11 @@
 "KCVM-FM"
 ],
 "game_only": null,
-"streams": [],
+"streams": [
+"https://ice7.securenetsystems.net/THEMIX"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-31"
 },
 {
 "school": "University of South Dakota",
@@ -4229,9 +4232,11 @@
 "KUCA-FM"
 ],
 "game_only": null,
-"streams": [],
+"streams": [
+"https://us2.maindigitalstream.com/ssl/KUCA"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-31"
 },
 {
 "school": "Eastern Kentucky University",
@@ -4250,6 +4255,7 @@
 ],
 "game_only": null,
 "streams": [
+"https://ice64.securenetsystems.net/WCYO",
 "https://streams.radio.co/sd1bcd1376/listen#.mp3"
 ],
 "misses": 0,
@@ -4270,9 +4276,11 @@
 "WLXA-FM"
 ],
 "game_only": null,
-"streams": [],
+"streams": [
+"https://ice64.securenetsystems.net/WLLX"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-31"
 },
 {
 "school": "Tarleton State University",
@@ -4330,9 +4338,11 @@
 "WCKS-FM"
 ],
 "game_only": null,
-"streams": [],
+"streams": [
+"https://ice66.securenetsystems.net/WCKS"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-31"
 },
 {
 "school": "University of Akron",
