@@ -1,5 +1,5 @@
 {
-"built": "2026-10-31T19:01:10Z",
+"built": "2026-10-31T21:59:47Z",
 "teams": [
 {
 "school": "Boston College",
@@ -947,9 +947,9 @@
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3"
 ],
-"misses": 11,
-"miss_day": "2026-10-31",
-"last_ok": null,
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-10-31",
 "game_feeds": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3"
 ],
@@ -2354,8 +2354,8 @@
 "streams": [
 "https://cdn.jwplayer.com/live/broadcast/8eUvetd9.m3u8"
 ],
-"misses": 0,
-"miss_day": null,
+"misses": 1,
+"miss_day": "2026-10-31",
 "last_ok": "2026-10-31",
 "live_only": true,
 "game_feeds": [
@@ -2508,8 +2508,8 @@
 "streams": [
 "https://cdn.jwplayer.com/live/broadcast/KtfQesje.m3u8"
 ],
-"misses": 0,
-"miss_day": null,
+"misses": 1,
+"miss_day": "2026-10-31",
 "last_ok": "2026-10-31",
 "live_only": true,
 "game_feeds": [
@@ -2535,8 +2535,8 @@
 "streams": [
 "https://learfield-gd.leanstream.co/LF4901-MP3?sport=FB"
 ],
-"misses": 0,
-"miss_day": null,
+"misses": 1,
+"miss_day": "2026-10-31",
 "last_ok": "2026-10-31",
 "live_only": true,
 "game_feeds": [
@@ -3250,9 +3250,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://wjab.streamguys1.com/live",
-"https://wjab.streamguys1.com/?uuid=vm1k8lr5&dist=nprgrove",
-"http://wjab.streamguys.net/live"
+"http://wjab.streamguys.net/listen.pls"
 ],
 "misses": 0,
 "miss_day": null,
@@ -3797,8 +3795,6 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://sportsmic.streamguys1.com/MercerBears-mp3",
-"https://sportsmic.streamguys1.com/MercerBears",
 "https://live.amperwave.net/direct/creekmedia-wnexfmaac-ibc1"
 ],
 "misses": 0,
@@ -3946,7 +3942,7 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": null,
+"last_ok": "2026-10-31",
 "game_feeds": [
 "https://peaksports.leanstream.co/PS0101-MP3"
 ],
@@ -4505,9 +4501,9 @@
 "streams": [
 "https://cdn.jwplayer.com/live/broadcast/3TH9Dtwc.m3u8"
 ],
-"misses": 1,
-"miss_day": "2026-10-31",
-"last_ok": null,
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-10-31",
 "live_only": true,
 "game_feeds": [
 "https://cdn.jwplayer.com/live/broadcast/3TH9Dtwc.m3u8"
@@ -6880,8 +6876,8 @@
 "streams": [
 "https://ais-sa1.streamon.fm/7401_48k.aac"
 ],
-"misses": 0,
-"miss_day": null,
+"misses": 1,
+"miss_day": "2026-10-31",
 "last_ok": "2026-10-31",
 "game_feeds": null
 },
