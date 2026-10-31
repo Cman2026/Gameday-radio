@@ -190,8 +190,9 @@ h1 span{color:inherit}
 .field .ball{position:absolute;top:50%;width:30px;height:18px;margin:-12px 0 0 -13px;transition:left .6s;z-index:3;filter:drop-shadow(0 2px 2px rgba(0,0,0,.45))}
 .field .ball.rev{transform:scaleX(-1)}
 .field .ball svg{width:100%;height:100%;display:block}
-.pbp-toggle{display:flex;align-items:center;justify-content:space-between;width:100%;background:none;border:0;padding:0;cursor:pointer;text-align:left;font:inherit;color:inherit}
-.pbp-toggle svg{width:26px;height:26px;padding:4px;box-sizing:border-box;color:var(--text);background:var(--surface);border:1px solid var(--line-2);border-radius:7px;transition:transform .2s}
+.pbp-toggle{display:flex;align-items:center;justify-content:space-between;width:100%;margin:0 0 8px!important;padding:12px 14px;background:var(--surface-2);border:1px solid var(--line-2);border-radius:var(--r-lg);cursor:pointer;text-align:left;font:600 15px var(--ui)!important;color:var(--text)!important;-webkit-tap-highlight-color:transparent}
+.pbp-toggle:active{background:var(--surface)}
+.pbp-toggle svg{width:20px;height:20px;color:var(--muted);transition:transform .2s}
 .pbp-toggle[aria-expanded="false"] svg{transform:rotate(-90deg)}
 .board{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:0 0 18px;display:grid;gap:16px;min-width:0;overflow:hidden;position:sticky;top:96px}
 @media (max-width:860px){.board{position:static}}
