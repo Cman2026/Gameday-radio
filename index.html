@@ -190,6 +190,9 @@ h1 span{color:inherit}
 .field .ball{position:absolute;top:50%;width:30px;height:18px;margin:-12px 0 0 -13px;transition:left .6s;z-index:3;filter:drop-shadow(0 2px 2px rgba(0,0,0,.45))}
 .field .ball.rev{transform:scaleX(-1)}
 .field .ball svg{width:100%;height:100%;display:block}
+.pbp-toggle{display:flex;align-items:center;justify-content:space-between;width:100%;background:none;border:0;padding:0;cursor:pointer;text-align:left;font:inherit;color:inherit}
+.pbp-toggle svg{width:26px;height:26px;padding:4px;box-sizing:border-box;color:var(--text);background:var(--surface);border:1px solid var(--line-2);border-radius:7px;transition:transform .2s}
+.pbp-toggle[aria-expanded="false"] svg{transform:rotate(-90deg)}
 .board{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:0 0 18px;display:grid;gap:16px;min-width:0;overflow:hidden;position:sticky;top:96px}
 @media (max-width:860px){.board{position:static}}
 .list > .board{margin:10px 0}
@@ -978,6 +981,7 @@ function renderBoard(){
   html += `<div class="radio-info"><p class="label">Radio for this game</p><ul>${r.map(x=>`<li><b>${esc(x.team)}</b> ${esc(x.net||"")}${x.station && !/radio$/i.test(x.net||"") ? `, ${esc(String(x.station).replace(/\s*\(no free online stream found\)/,""))}` : ""}${x.stream ? "" : ` <span class="note">(no free stream)</span>`}</li>`).join("")}</ul>
   <span class="note">Each team's own radio broadcast. If one won't connect, try the other team's call.</span></div>`;
   B.innerHTML = html;
+  const pt = $("#pbpToggle"); if(pt) pt.onclick = ()=>{ const open = pt.getAttribute("aria-expanded")!=="true"; store.set("pbp", open?"1":"0"); pt.setAttribute("aria-expanded", String(open)); pt.nextElementSibling.hidden = !open; };
   B.querySelectorAll("[data-play]").forEach(l=>l.onclick=ev=>{ev.preventDefault(); $("#station").value = "team:"+l.dataset.play; startStation();});
 }
 function esc(s){return String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]))}
@@ -1057,7 +1061,8 @@ function playsView(sum){
     const plays = (dr.plays||[]).slice().reverse().map(p=>`<div class="play ${p.scoringPlay?"scoring":""}"><span class="t">Q${p.period?.number||""} ${p.clock?.displayValue||""}</span><span class="tx">${esc(p.text||"")}${p.start?.downDistanceText?`<span class="dd">${p.start.downDistanceText}</span>`:""}</span></div>`).join("");
     return `<div class="drive"><span>${dr.team?.shortDisplayName||dr.team?.abbreviation||""} drive${dr.displayResult?` · ${dr.displayResult}`:""}</span><span class="note">${dr.description||""}</span></div>${plays}`;
   }).join("");
-  return `<div><p class="label">Play by play</p><div class="plays">${out}</div></div>`;
+  const open = store.get("pbp") !== "0";
+  return `<div><button class="label pbp-toggle" id="pbpToggle" aria-expanded="${open}">Play by play<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="plays" ${open?"":"hidden"}>${out}</div></div>`;
 }
 function radioFor(e){
   return e.competitions[0].competitors.slice().sort((x,y)=>x.homeAway==="home"?1:-1).map(t=>{
