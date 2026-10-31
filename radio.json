@@ -1,5 +1,5 @@
 {
-"built": "2026-10-31T14:22:26Z",
+"built": "2026-10-31T14:27:31Z",
 "teams": [
 {
 "school": "Boston College",
@@ -629,10 +629,10 @@
 ],
 "network": "Temple Owls Radio Network",
 "flagship": "UNVERIFIED (from memory, not confirmed this run): flagship not confirmed",
-"listen_page": "https://owlsports.com/listen",
+"listen_page": "https://owlsports.com/showcase?Live=1670",
 "conference": "American Conference",
 "calls": [],
-"game_only": null,
+"game_only": true,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -1833,12 +1833,9 @@
 "conference": "Coastal Athletic Association",
 "calls": [],
 "game_only": true,
-"streams": [
-"https://cdn.jwplayer.com/live/broadcast/8eUvetd9.m3u8"
-],
+"streams": [],
 "misses": 0,
-"last_ok": "2026-10-30",
-"live_only": true
+"last_ok": "2026-10-30"
 },
 {
 "school": "Elon University",
@@ -1977,10 +1974,10 @@
 ],
 "network": "Rhody audio on The Varsity Network",
 "flagship": "",
-"listen_page": "https://thevarsitynetwork.com",
+"listen_page": "https://rhody.leanplayer.com/",
 "conference": "Coastal Athletic Association",
 "calls": [],
-"game_only": null,
+"game_only": true,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2192,14 +2189,12 @@
 ],
 "game_only": true,
 "streams": [
-"https://stream.rcs.revma.com/x4q6k4dw57uvv",
 "https://stream.rcs.revma.com/uupm8cdw57uvv",
 "https://stream.rcs.revma.com/uupm8cdw57uvv/hls.m3u8",
 "http://stream.rcs.revma.com/uupm8cdw57uvv"
 ],
 "misses": 0,
-"last_ok": "2026-10-31",
-"live_only": true
+"last_ok": "2026-10-31"
 },
 {
 "school": "Villanova University",
@@ -2347,10 +2342,10 @@
 ],
 "network": "",
 "flagship": "",
-"listen_page": "",
+"listen_page": "https://portal.stretchinternet.com/pennaudio/",
 "conference": "Ivy League",
 "calls": [],
-"game_only": null,
+"game_only": true,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2363,10 +2358,10 @@
 ],
 "network": "",
 "flagship": "",
-"listen_page": "",
+"listen_page": "https://portal.stretchinternet.com/princeton/",
 "conference": "Ivy League",
 "calls": [],
-"game_only": null,
+"game_only": true,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2457,10 +2452,10 @@
 ],
 "network": "",
 "flagship": "",
-"listen_page": "",
+"listen_page": "https://www.liuathletics.com/watch/?Live=4&type=Live",
 "conference": "Northeast Conference",
 "calls": [],
-"game_only": null,
+"game_only": true,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2476,7 +2471,7 @@
 "listen_page": "",
 "conference": "Northeast Conference",
 "calls": [],
-"game_only": null,
+"game_only": true,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2505,13 +2500,15 @@
 ],
 "network": "",
 "flagship": "",
-"listen_page": "",
+"listen_page": "https://rmucolonials.com/sports/football/schedule",
 "conference": "Northeast Conference",
 "calls": [],
-"game_only": null,
-"streams": [],
+"game_only": true,
+"streams": [
+"https://stream.radio.co/s521a8e223/listen"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-31"
 },
 {
 "school": "Stonehill College",
@@ -2666,7 +2663,7 @@
 "listen_page": "",
 "conference": "SWAC",
 "calls": [],
-"game_only": null,
+"game_only": true,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2817,7 +2814,11 @@
 "WHBC"
 ],
 "game_only": null,
-"streams": [],
+"streams": [
+"https://live.amperwave.net/direct/alphacorporate-whbcamaac-ibc4",
+"https://live.amperwave.net/direct/alphacorporate-whbcfmaac-ibc4",
+"http://live.amperwave.net/direct/alphacorporate-whbcamaac-ibc4"
+],
 "misses": 0,
 "last_ok": "2026-10-31"
 },
@@ -2874,10 +2875,10 @@
 ],
 "network": "",
 "flagship": "",
-"listen_page": "",
+"listen_page": "https://nccueaglepride.com/watch",
 "conference": "MEAC",
 "calls": [],
-"game_only": null,
+"game_only": true,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2912,7 +2913,7 @@
 "listen_page": "",
 "conference": "FCS Independent",
 "calls": [],
-"game_only": null,
+"game_only": true,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -3518,10 +3519,10 @@
 ],
 "network": "",
 "flagship": "",
-"listen_page": "",
+"listen_page": "https://davidsonwildcats.com/showcase/",
 "conference": "Pioneer Football League",
 "calls": [],
-"game_only": null,
+"game_only": true,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -3574,10 +3575,10 @@
 ],
 "network": "",
 "flagship": "Z-93 93.3 FM (Hudson Valley/Poughkeepsie, NY)",
-"listen_page": "",
+"listen_page": "https://goredfoxes.com/showcase?Live=882",
 "conference": "Pioneer Football League",
 "calls": [],
-"game_only": null,
+"game_only": true,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -3654,10 +3655,10 @@
 ],
 "network": "",
 "flagship": "",
-"listen_page": "",
+"listen_page": "https://usdtoreros.com/showcase",
 "conference": "Pioneer Football League",
 "calls": [],
-"game_only": null,
+"game_only": true,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -4257,6 +4258,7 @@
 ],
 "game_only": null,
 "streams": [
+"https://ice64.securenetsystems.net/WCYO",
 "https://streams.radio.co/sd1bcd1376/listen#.mp3"
 ],
 "misses": 0,
@@ -4337,9 +4339,11 @@
 "WCKS-FM"
 ],
 "game_only": null,
-"streams": [],
+"streams": [
+"https://ice66.securenetsystems.net/WCKS"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-31"
 },
 {
 "school": "University of Akron",
