@@ -141,6 +141,7 @@ h1 span{color:inherit}
 .up .meta .bits>span{white-space:nowrap;flex:none}
 .up .meta .bits>span:nth-child(2){flex:0 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis}
 .up .meta .src{flex:none;white-space:nowrap}
+.up .meta button.src{background:none;border:0;padding:0;font:inherit;color:inherit;text-decoration:underline dotted;text-underline-offset:3px;cursor:pointer}
 .up .meta b{color:var(--text);font-weight:600}
 .meta .bits{display:flex;flex-wrap:wrap;gap:4px 12px}
 .meta .src{color:var(--faint);font-size:12px}
@@ -478,6 +479,10 @@ function toast(msg){
   clearTimeout(toast._h); toast._h = setTimeout(()=>t.classList.remove("show"), 3500);
 }
 document.addEventListener("click", ev=>{
+  const w = ev.target.closest("[data-wp]"); if(!w) return;
+  ev.stopPropagation(); toast(w.dataset.wp);
+}, true);
+document.addEventListener("click", ev=>{
   const b = ev.target.closest(".ear[data-off]"); if(!b) return;
   ev.stopPropagation();
   const loc = b.dataset.off, i = RADIO_INFO[loc] || {};
@@ -659,25 +664,40 @@ async function loadPredictions(games){
     try{
       const s = await getJSON(`${base}/summary?event=${e.id}`);
       const h = parseFloat(s.predictor?.homeTeam?.gameProjection), a = parseFloat(s.predictor?.awayTeam?.gameProjection);
-      predCache[e.id] = {home: isNaN(h)?null:h, away: isNaN(a)?null:a, at: Date.now()};
-    }catch(err){ predCache[e.id] = {home:null, away:null, at: Date.now()}; }
+      // Every sportsbook ESPN lists for the game (DraftKings, ESPN BET, ...), as home-win chances.
+      const books = (s.pickcenter||[]).map(pc=>({name: pc.provider?.name||"Book", p: lineProb(pc)})).filter(b=>b.p!=null);
+      predCache[e.id] = {home: isNaN(h)?null:h, away: isNaN(a)?null:a, books, at: Date.now()};
+    }catch(err){ predCache[e.id] = {home:null, away:null, books:[], at: Date.now()}; }
   } };
   await Promise.all([1,2,3,4].map(worker));
   if(todo.length) render();
 }
 function moneyProb(ml){ ml = Number(ml); if(!ml) return null; return ml < 0 ? -ml/(-ml+100) : 100/(ml+100); }
-function winProb(e){
-  // ESPN's predictor first; else the betting line (moneyline, then spread).
-  const p = predCache[e.id];
-  if(p && p.home!=null) return {home:p.home, src:"ESPN FPI"};
-  const o = e.competitions[0].odds?.[0];
-  if(o){
-    const h = moneyProb(o.homeTeamOdds?.moneyLine), a = moneyProb(o.awayTeamOdds?.moneyLine);
-    if(h && a) return {home: 100*h/(h+a), src:"Moneyline"};
-    const sp = Number(o.spread);
-    if(!isNaN(sp) && o.spread!=null){ const z = -sp/14; return {home: 100/(1+Math.exp(-1.7*z)), src:"Spread"}; }
-  }
+// Home team's chance from one betting line: the moneyline with the bookmaker's cut removed,
+// else the point spread (about a 14-point standard deviation in college football).
+function lineProb(o){
+  if(!o) return null;
+  const h = moneyProb(o.homeTeamOdds?.moneyLine), a = moneyProb(o.awayTeamOdds?.moneyLine);
+  if(h && a) return 100*h/(h+a);
+  const sp = Number(o.spread);
+  if(o.spread!=null && o.spread!=="" && !isNaN(sp)){ const z = -sp/14; return 100/(1+Math.exp(-1.7*z)); }
   return null;
+}
+// Our own number: the average of ESPN's FPI model and the betting market (all listed
+// sportsbooks averaged into one market figure), so neither a single book nor one model dominates.
+function winProb(e){
+  const p = predCache[e.id] || {};
+  const books = (p.books||[]).map(b=>b.p);
+  const sb = lineProb(e.competitions[0].odds?.[0]);
+  if(!books.length && sb!=null) books.push(sb);
+  const market = books.length ? books.reduce((x,y)=>x+y,0)/books.length : null;
+  const parts = [];
+  if(p.home!=null) parts.push(["ESPN FPI", p.home]);
+  if(market!=null) parts.push([books.length>1 ? `${books.length} sportsbooks` : "Betting line", market]);
+  if(!parts.length) return null;
+  const home = parts.reduce((x,[,v])=>x+v,0)/parts.length;
+  const detail = parts.map(([n,v])=>`${n}: ${Math.round(v)}%`).join(" · ");
+  return {home, src: parts.length>1 ? "Consensus" : parts[0][0], detail};
 }
 function upCard(e){
   const c = e.competitions[0], a = team(c,"away"), h = team(c,"home"), wp = winProb(e), o = c.odds?.[0];
@@ -691,7 +711,7 @@ function upCard(e){
   if(o?.details) bits.push(esc(o.details)); if(o?.overUnder) bits.push(`O/U ${esc(o.overUnder)}`);
   return `<div class="up">${row(a, ap, false)}${row(h, hp, true)}
     ${hp!=null?(([ca,ch])=>`<div class="wpbar" aria-label="Win probability: ${esc(a.team.abbreviation)} ${ap}%, ${esc(h.team.abbreviation)} ${hp}%"><span style="width:${ap}%;background:${ca}"></span><span style="width:${hp}%;background:${ch}"></span></div>`)(barColors(a,h)):""}
-    <div class="meta"><span class="bits">${bits.map(b=>`<span>${b}</span>`).join("")}</span><span class="src">${wp?esc(wp.src):"No odds yet"}</span></div>${soonNote(e)}</div>`;
+    <div class="meta"><span class="bits">${bits.map(b=>`<span>${b}</span>`).join("")}</span>${wp?.detail?`<button class="src" data-wp="${esc(wp.detail)}">${esc(wp.src)}</button>`:`<span class="src">${wp?esc(wp.src):"No odds yet"}</span>`}</div>${soonNote(e)}</div>`;
 }
 function finCard(e){
   const c = e.competitions[0], a = team(c,"away"), h = team(c,"home");
