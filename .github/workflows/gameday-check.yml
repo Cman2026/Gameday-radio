@@ -16,8 +16,8 @@ jobs:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
         with: { python-version: "3.12" }
-      - run: python tools/live_showcase.py
+      - run: python tools/live_showcase.py 2>&1 | tee showcase-log.txt
       - run: python tools/gameday_check.py
       - name: Save results
         env: { MERGE_LIVE_ONLY: "1" }
-        run: tools/publish.sh "Game-time radio check" radio-live.json radio.json
+        run: tools/publish.sh "Game-time radio check" radio-live.json radio.json showcase-log.txt
