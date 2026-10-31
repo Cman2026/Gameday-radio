@@ -366,10 +366,13 @@ h1 span{color:inherit}
 const sn = call => [3,9,6,5,7,2,4,8,1].map(n=>`https://ice${n}.securenetsystems.net/${call}`);
 const RADIO = {}; // filled from radio.json (tested daily) + playback.json (played in a real browser)
 const base = "https://site.api.espn.com/apis/site/v2/sports/football/college-football";
-let boardOpen = true;
-let filter = "live", events = [], selected = null, history = [], summaryHist = [], delay = 0;
-const $ = s => document.querySelector(s);
 const store = {get(k){try{return localStorage.getItem(k)}catch(e){return null}}, set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+// Phones open with every game folded, unless a game was open when the page was last left.
+// Wide screens always show a game beside the list.
+const savedOpen = store.get("openGame") || null;
+let boardOpen = !matchMedia("(max-width: 860px)").matches || !!savedOpen;
+let filter = "live", events = [], selected = savedOpen, history = [], summaryHist = [], delay = 0;
+const $ = s => document.querySelector(s);
 const shut = new Set((()=>{try{return JSON.parse(store.get("shutConf")||"[]")}catch(e){return []}})());
 
 // Every Division I team's radio, from radio.json (researched per school).
@@ -494,7 +497,10 @@ async function poll(){
     history.push({t:Date.now(), evs}); history = history.filter(h => Date.now()-h.t < 180000);
     $("#dot").className = "dot ok"; $("#stat").textContent = "Updated " + new Date().toLocaleTimeString([], {hour:"numeric", minute:"2-digit", hour12:true}); $("#upd").textContent = "";
     const live = evs.filter(e=>e.status.type.state==="in");
-    if(!selected || !live.some(e=>e.id===selected)){ selected = (live.find(isFavGame) || live[0])?.id || null; }
+    if(!selected || !live.some(e=>e.id===selected)){
+      if(selected && matchMedia("(max-width: 860px)").matches){ boardOpen = false; store.set("openGame", ""); } // the open game ended
+      selected = (live.find(isFavGame) || live[0])?.id || null;
+    }
     // Preload every live game: the selected one refreshes every 9s, the rest every 30s,
     // and each team's radio is looked up ahead of time so Listen starts right away.
     live.forEach(e=>{ pollSummary(e.id, (e.id===selected || (deck && e.competitions[0].competitors.some(c=>c.team.location===deck.loc))) ? 6000 : 30000); e.competitions[0].competitors.forEach(t=>prepareTeam(t.team.location)); });
@@ -581,6 +587,7 @@ function render(){
       // Tapping the open game folds its details away; tapping another opens it, keeping that game where it was on screen.
       const id = b.dataset.id, y0 = b.getBoundingClientRect().top;
       if(id===selected && NARROW.matches){ boardOpen = !boardOpen; } else { selected = id; boardOpen = true; }
+      store.set("openGame", boardOpen ? selected : "");
       render();
       const nb = $(`#list .card[data-id="${CSS.escape(id)}"]`);
       if(nb) window.scrollBy(0, nb.getBoundingClientRect().top - y0);
@@ -796,7 +803,7 @@ function card(e){
   const c = e.competitions[0], a = team(c,"away"), h = team(c,"home"), st = e.status.type;
   const showScore = st.state!=="pre";
   const row = t => `<div class="row"><span class="tm"><button class="fav ${favs.has(t.team.location)?"on":""}" data-fav="${esc(t.team.location)}" aria-label="${favs.has(t.team.location)?"Remove":"Add"} ${esc(t.team.location)} ${favs.has(t.team.location)?"from":"to"} saved teams">${favs.has(t.team.location)?'<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>':'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>'}</button>${logoImg(t.team)}<span>${t.curatedRank?.current<26?`<small>${t.curatedRank.current}</small> `:""}${esc(nameOf(t.team))}</span></span><span class="right">${ear(t.team.location, "")}<span class="sc">${showScore?t.score:""}</span></span></div>`;
-  return `<div class="card" role="button" tabindex="0" data-id="${e.id}" aria-current="${e.id===selected}" aria-expanded="${e.id===selected && boardOpen}">${row(a)}${row(h)}
+  return `<div class="card" role="button" tabindex="0" data-id="${e.id}" aria-current="${e.id===selected && boardOpen}" aria-expanded="${e.id===selected && boardOpen}">${row(a)}${row(h)}
   <div class="meta"><span class="${st.state==="in"?"live":""}">${st.state==="pre"?fmtTime(e.date):statusText(e).short}</span><span>${esc((c.broadcasts||[]).flatMap(b=>b.names).join(", "))}<span class="div">${e._div||""}</span><svg class="gchev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>${soonNote(e)}</div>`;
 }
 
