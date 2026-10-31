@@ -1,0 +1,23 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[https @ 0x56240d1613c0] Cannot reuse HTTP connection for different host: prod-34-227-171-136.amperwave.net:-1 != d25j5qm9y8ulag.cloudfront.net:-1
+[out#0/wav @ 0x55b378098640] Output file does not contain any stream
+Error opening output file /tmp/tmpayyahsz5.wav.
+Error opening output files: Invalid argument
+[out#0/wav @ 0x560c6ae41a40] Output file does not contain any stream
+Error opening output file /tmp/tmph8wq2t2c.wav.
+Error opening output files: Invalid argument
+listening to 112 streams in 34 live games
+Traceback (most recent call last):
+  File "/home/runner/work/Gameday-radio/Gameday-radio/tools/listen_check.py", line 108, in <module>
+    main()
+  File "/home/runner/work/Gameday-radio/Gameday-radio/tools/listen_check.py", line 85, in main
+    segs, _ = model.transcribe(clip, beam_size=1, vad_filter=True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/faster_whisper/transcribe.py", line 876, in transcribe
+    audio = decode_audio(audio, sampling_rate=sampling_rate)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/faster_whisper/audio.py", line 46, in decode_audio
+    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "av/container/core.py", line 479, in av.container.core.open
+TypeError: open() got an unexpected keyword argument 'metadata_errors'
