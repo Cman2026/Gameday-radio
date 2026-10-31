@@ -1,257 +1,202 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-[0;93m2026-10-31 20:40:04.844633651 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-[tcp @ 0x55dac19f6f40] Connection to tcp://ice7.securenetsystems.net:443 failed: Connection timed out
-[in#0 @ 0x55dac1a35ec0] Error opening input: Connection timed out
-Error opening input file https://ice7.securenetsystems.net/KXKZ?playSessionID=5753AEF8-5FB1-4F7E-A50F-A23B332C6D8A.
-Error opening input files: Connection timed out
-[tcp @ 0x55571abe5f40] Connection to tcp://ice23.securenetsystems.net:443 failed: Connection timed out
-[in#0 @ 0x55571ac24ec0] Error opening input: Connection timed out
-Error opening input file https://ice23.securenetsystems.net/KLWNAM?playSessionID=47583D7C-1E42-4443-8EBF-65BA9A2D1387.
-Error opening input files: Connection timed out
-[tcp @ 0x55f6de3b0f40] Connection to tcp://ice3.securenetsystems.net:443 failed: Connection timed out
-[in#0 @ 0x55f6de3efec0] Error opening input: Connection timed out
-Error opening input file https://ice3.securenetsystems.net/KQWB?playSessionID=CBBA8673-9AF5-4733-9912-4DE7834B4A9E.
-Error opening input files: Connection timed out
-[in#0 @ 0x55f160c59ec0] Error opening input: Server returned 404 Not Found
+[0;93m2026-10-31 21:13:26.993643377 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[aac @ 0x557f89d17540] border_position non monotone.
+[aac @ 0x557f89d17540] illegal icc
+[https @ 0x564ab5035900] Cannot reuse HTTP connection for different host: cdn-ac-cmg.streamguys1.com:-1 != cdn-cmg.streamguys1.com:-1
+[https @ 0x564ab4d2af00] Cannot reuse HTTP connection for different host: cdn-ac-cmg.streamguys1.com:-1 != cdn-cmg.streamguys1.com:-1
+[in#0 @ 0x55f70a868ec0] Error opening input: Server returned 404 Not Found
 Error opening input file https://cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8.
 Error opening input files: Server returned 404 Not Found
-[in#0 @ 0x558e6bcbbec0] Error opening input: Server returned 404 Not Found
-Error opening input file https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8?exp=1793478240&sig=7b67f53ce00d0fd67983f6d556c450e8.
+[in#0 @ 0x56161a898ec0] Error opening input: Server returned 404 Not Found
+Error opening input file https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8?exp=1793480880&sig=2247879e26727b5ecce9fa1f774e784c.
 Error opening input files: Server returned 404 Not Found
-[tcp @ 0x555afea07f40] Connection to tcp://ice66.securenetsystems.net:443 failed: Connection timed out
-[in#0 @ 0x555afea46ec0] Error opening input: Connection timed out
-Error opening input file https://ice66.securenetsystems.net/KLIP?playSessionID=99B2FD6E-90D6-4F11-9930-B4E9E4DF9235.
-Error opening input files: Connection timed out
-[tcp @ 0x5652fde95f40] Connection to tcp://ice64.securenetsystems.net:443 failed: Connection timed out
-[in#0 @ 0x5652fded4ec0] Error opening input: Connection timed out
-Error opening input file https://ice64.securenetsystems.net/WXRR?playSessionID=869D465A-1CE9-4B6E-BA26-953416DA0E74.
-Error opening input files: Connection timed out
-[tcp @ 0x560213b16f40] Connection to tcp://ice25.securenetsystems.net:443 failed: Connection timed out
-[in#0 @ 0x560213b55ec0] Error opening input: Connection timed out
-Error opening input file https://ice25.securenetsystems.net/WBUS?playSessionID=D0FE8C84-DF0A-4754-9CC0-0B1743A25397.
-Error opening input files: Connection timed out
-[tcp @ 0x56458aef5f40] Connection to tcp://ice64.securenetsystems.net:443 failed: Connection timed out
-[in#0 @ 0x56458af34ec0] Error opening input: Connection timed out
-Error opening input file https://ice64.securenetsystems.net/WBYSAM?playSessionID=37D6B1DF-F400-4C51-8F25-F7056025F727.
-Error opening input files: Connection timed out
-[tcp @ 0x562252925f40] Connection to tcp://ice23.securenetsystems.net:443 failed: Connection timed out
-[in#0 @ 0x562252964ec0] Error opening input: Connection timed out
-Error opening input file https://ice23.securenetsystems.net/KCGQ?playSessionID=CB1A42AC-3DB7-4948-A0C8-4C805C63FFFE.
-Error opening input files: Connection timed out
-[tcp @ 0x55d6c701bf40] Connection to tcp://ice6.securenetsystems.net:443 failed: Connection timed out
-[in#0 @ 0x55d6c705aec0] Error opening input: Connection timed out
-Error opening input file https://ice6.securenetsystems.net/KCLC?playSessionID=6D27DE58-8FF7-4148-9B9E-4188EA3FF606.
-Error opening input files: Connection timed out
-[tcp @ 0x561b080e4f40] Connection to tcp://ice6.securenetsystems.net:443 failed: Connection timed out
-[in#0 @ 0x561b08123ec0] Error opening input: Connection timed out
-Error opening input file https://ice6.securenetsystems.net/KAZZ?playSessionID=42300A93-9361-4DF0-85D0-AC2F25C69243.
-Error opening input files: Connection timed out
-[tcp @ 0x55d65c2d6f40] Connection to tcp://ice64.securenetsystems.net:443 failed: Connection timed out
-[in#0 @ 0x55d65c315ec0] Error opening input: Connection timed out
-Error opening input file https://ice64.securenetsystems.net/WUTM?playSessionID=8AF20FBB-1BDB-4667-9771-3E02E6CBE6A3.
-Error opening input files: Connection timed out
-[in#0 @ 0x55e59f907ec0] Error opening input: Invalid data found when processing input
-Error opening input file https://widgets.cloud.caster.fm/player/?token=3c7b4fe8-7d0a-45ce-87e5-9848426f9634&frameId=4tkpw&theme=light&color=6C2BDD.
+[https @ 0x560e11450640] Cannot reuse HTTP connection for different host: d25j5qm9y8ulag.cloudfront.net:-1 != prod-3-239-102-165.amperwave.net:-1
+[in#0 @ 0x5611715e5ec0] Error opening input: Server returned 403 Forbidden (access denied)
+Error opening input file https://ice64.securenetsystems.net/WBYSAM?playSessionID=B90E508F-DA55-4375-86DF-D906C081CC3D.
+Error opening input files: Server returned 403 Forbidden (access denied)
+[in#0 @ 0x5567c6260ec0] Error opening input: Invalid data found when processing input
+Error opening input file https://widgets.cloud.caster.fm/player/?token=3c7b4fe8-7d0a-45ce-87e5-9848426f9634&frameId=2gdoo&theme=light&color=6C2BDD.
 Error opening input files: Invalid data found when processing input
-[in#0 @ 0x562e08928ec0] Error opening input: Server returned 404 Not Found
+[in#0 @ 0x55edfe58bec0] Error opening input: Server returned 404 Not Found
 Error opening input file https://widgets.cloud.caster.fm/cdn-cgi/rum?.
 Error opening input files: Server returned 404 Not Found
-[tcp @ 0x55a298ea6f40] Connection to tcp://ice41.securenetsystems.net:443 failed: Connection timed out
-[in#0 @ 0x55a298ee5ec0] Error opening input: Connection timed out
-Error opening input file https://ice41.securenetsystems.net/WPRL?playSessionID=1D1AE738-BDDE-4C92-BFA3-36B291F86289.
-Error opening input files: Connection timed out
-[tcp @ 0x5609670e9f40] Connection to tcp://ice5.securenetsystems.net:443 failed: Connection timed out
-[in#0 @ 0x560967128ec0] Error opening input: Connection timed out
-Error opening input file https://ice5.securenetsystems.net/WQNT?playSessionID=0C685B9D-43A7-4C59-AB22-A83CB78781C0.
-Error opening input files: Connection timed out
-[tcp @ 0x55b81a490f40] Connection to tcp://ice41.securenetsystems.net:443 failed: Connection timed out
-[in#0 @ 0x55b81a4cfec0] Error opening input: Connection timed out
-Error opening input file https://ice41.securenetsystems.net/WELE?playSessionID=7A313C36-7228-466E-8FD3-1A7A1B175493.
-Error opening input files: Connection timed out
-[in#0 @ 0x55fcddeeaec0] Error opening input: End of file
+[in#0 @ 0x55fa4090bec0] Error opening input: End of file
 Error opening input file https://wjab.streamguys1.com/live.
 Error opening input files: End of file
-[in#0 @ 0x55b6e4a49ec0] Error opening input: End of file
+[in#0 @ 0x55d1a8609ec0] Error opening input: End of file
 Error opening input file https://wjab.streamguys1.com/?uuid=vm1k8lr5&dist=nprgrove.
 Error opening input files: End of file
-[in#0 @ 0x563e2bb08ec0] Error opening input: End of file
+[in#0 @ 0x563032046ec0] Error opening input: End of file
 Error opening input file http://wjab.streamguys.net/live.
 Error opening input files: End of file
-[tcp @ 0x55c4b5db4f40] Connection to tcp://ice42.securenetsystems.net:443 failed: Connection timed out
-[in#0 @ 0x55c4b5df3ec0] Error opening input: Connection timed out
-Error opening input file https://ice42.securenetsystems.net/KCIL?playSessionID=289E7E69-C3BE-44AF-BF1D-916C9768E258.
-Error opening input files: Connection timed out
-[tcp @ 0x559fb7b11f40] Connection to tcp://ice42.securenetsystems.net:443 failed: Connection timed out
-[in#0 @ 0x559fb7b50ec0] Error opening input: Connection timed out
-Error opening input file https://ice42.securenetsystems.net/WPTNAM?playSessionID=E2653E2B-C04C-487D-9C69-6139415C9F39.
-Error opening input files: Connection timed out
-[tcp @ 0x55d953a46f40] Connection to tcp://ice7.securenetsystems.net:443 failed: Connection timed out
-[in#0 @ 0x55d953a85ec0] Error opening input: Connection timed out
-Error opening input file https://ice7.securenetsystems.net/KVHT?playSessionID=4F804DC6-7BF2-41FF-A36C-FFFE2981D3DE.
-Error opening input files: Connection timed out
-[tcp @ 0x556c0bc2ef40] Connection to tcp://ice66.securenetsystems.net:443 failed: Connection timed out
-[in#0 @ 0x556c0bc6dec0] Error opening input: Connection timed out
-Error opening input file https://ice66.securenetsystems.net/WCKS?playSessionID=51178944-CCB1-42C9-92B1-2D144E821FD2.
-Error opening input files: Connection timed out
-[tcp @ 0x55c3f85faf40] Connection to tcp://ice41.securenetsystems.net:443 failed: Connection timed out
-[in#0 @ 0x55c3f8639ec0] Error opening input: Connection timed out
-Error opening input file https://ice41.securenetsystems.net/WFPR?playSessionID=8DECD6CB-025B-4B99-8978-1DA5DE9142D5.
-Error opening input files: Connection timed out
-[tcp @ 0x563c6bbe6180] Connection to tcp://ic.liberty.edu:8443 failed: Connection timed out
-[in#0 @ 0x563c6bbe2ec0] Error opening input: Connection timed out
-Error opening input file https://ic.liberty.edu:8443/WRVL.
-Error opening input files: Connection timed out
-listening to 179 streams in 51 live games
-quiet      University of Colorado Boulder     ''
-quiet      University of Colorado Boulder     'for what you need at Libertymutual.com.'
-maybe_not  University of Colorado Boulder     "$5,000.  Let's see how much color I do.  Horrible call.  Hey Rad, open your eyes!  Ralph, "
-game       Kansas State University            'While cats miss handling a 43 yard field goal try from Luis Rodriguez were told that  the '
-game       Kansas State University            'field workforce in our region.  Help build the future of Kansas and beyond.  Get started t'
-game       Georgia State University           'and he gets up ended right at the 20 yard line.  That was Azerald Justy, normally their ni'
-game       Georgia State University           'this after another what they did is they basically just every play win the play  not the s'
-game       Georgia State University           'a losing record until I got to Cleveland in my football career.  That winning attitude ema'
-game       Coastal Carolina University        "get in your spots and make sure you're ready to make the play.  Aidan Pereira, obviously n"
-game       Coastal Carolina University        'pass left side to DJ Riles.  Panthers picking up the tempo to  rejoice trailing 31 to six '
-game       Coastal Carolina University        "get in your spots and make sure you're ready to make the play.  Aidan Pereira, obviously n"
-game       United States Air Force Academy    'for Colorado House and Home Realty.  Your home, your future, your team.  Welcome back to t'
-quiet      United States Air Force Academy    'MarketSolutions.net'
-quiet      United States Air Force Academy    'MarketSolutions.net'
-game       University of Connecticut          'on Osborne because he got hot there, completed 10-11 passes toward the back into the first'
-game       University of Connecticut          "We're going to have to put pressure on Osborne because he got hot there complete a 10 of 1"
-maybe_not  University of Connecticut          'My game is here.  Uh, sync my game?  Yes.  Sync my game.  If you have a DVR and streaming '
+[in#0 @ 0x55c81b116ec0] Error opening input: Server returned 5XX Server Error reply
+Error opening input file https://das-edge29-sa27-lax02.cdnstream.com/2284_96.aac.
+Error opening input files: Server returned 5XX Server Error reply
+listening to 175 streams in 50 live games
+game       University of Colorado Boulder     'two thousand the defense two thousand the defense number 17 those fouls are declined  touc'
+game       University of Colorado Boulder     'the touchdown. Our two fouls on the defense.  2,000 the defense.  Pass it up for you.  Def'
+game       University of Colorado Boulder     "Kid body's all around him and somehow got rid of that football  Card pickers  There's a fl"
+game       Kansas State University            "They're two fouls on the defense.  They finally call off sides against them.  Yeah, they'v"
+game       Kansas State University            "into the end zone.  So we're rolling on the field as a touchdown.  There are 2,000 beef fe"
+maybe_not  Georgia State University           'the bookstore offering a selection of Panther gifts and apparel locations in the downtown '
+game       Georgia State University           'which is three minutes and 12 seconds away.  Panthers trying to get that elusive fifth win'
+maybe_not  Georgia State University           'economy is pointing in the right direction.  But a lot of GDP growth is being driven by th'
+quiet      Coastal Carolina University        ''
+quiet      Coastal Carolina University        ''
+quiet      Coastal Carolina University        'See?'
+game       United States Air Force Academy    'ball will throw, cut and breaking it and running down to the 20 to the 15 to the 10 and go'
+game       United States Air Force Academy    'The ball will throw, cut and breaking it and running down to the 20 to the 15 to the 10 an'
+game       United States Air Force Academy    'Marguib solutions dot net.  One to the right, Osborne gets the ball will throw, cut,  and '
+game       University of Connecticut          "eight nine minutes for Air Force to score.  You can't go 75 yards in two plays in 30 secon"
+game       University of Connecticut          "for Air Force to score.  You can't go 75 yards in two plays in 30 seconds.  Good of attorn"
+game       University of Connecticut          "to throw late rush coming. He throws up the middle. It's caught at the 30 foot race. The 2"
 quiet      East Carolina University           ''
-quiet      East Carolina University           'Check 100 pounds'
-game       Temple University                  'kick offs has been really good and East Carolina right before the half got that great  ret'
-game       University of South Alabama        'Shull, Rainbow Package Store has you covered.  Rainbow Package, a proud supporter of South'
-game       University of South Alabama        "again here's Bradley Moore.  It's something really Alabama power scoreboard is part of our"
-game       University of South Alabama        "again here's Bradley Moore.  It's something really Alabama power scoreboard is part of our"
-game       Louisiana Tech University          'and shoulder replacement, spine care as well as rehabilitation services or  the Petac and '
-game       University of Louisville           'those two wins were at home.  Here comes the kickoff.  And this will go in the end zone.  '
-game       University of Louisville           "So I don't think you're gonna get it, but we've all been long.  Head sets off, there we go"
-game       University of Louisville           "We're at home. Here comes the kickoff and this will go with the end zone no run back.  Tha"
+quiet      East Carolina University           "And with a beach, bogein' blues radio network."
+maybe_not  Temple University                  "Hopefully this isn't anything serious  And hopefully they'll figure out what it is and no "
+game       University of South Alabama        "Force another three in out by Louisiana Tech's offense.  The Bulldogs punt 42 yards called"
+game       University of South Alabama        "to eight.  Matt's not to have the football again here in this third quarter.  They still l"
+game       University of South Alabama        "Matt's taking out the football again here in this third quarter. They still lead 2827 11 l"
+game       Louisiana Tech University          'The Bulldogs force a three an hour  With they went backwards six yards  28 to 20 timeout o'
+game       Louisiana Tech University          'longs for say three an hour. With it went backwards six yards 28 to 20. Time out on  the f'
+game       University of Louisville           "on.  He sees we're got to live for a huge sack.  Tommy Z.  Ismar the Eastern Kentucky tran"
+game       University of Louisville           "We're going to do it for a huge sack.  Tommy Z's Mayor of the Eastern Kentucky  transfer p"
+game       University of Louisville           'Cardinals lead Stanford 24 to 17 after the first half we  McDermott here on our U of L hea'
+not_game   Stanford University                'all in one place. Listen live on the Westwood One Sports app or online at westwoodonesport'
+not_game   Stanford University                'all in one place. Listen live on the Westwood One Sports app or online at westwoodonesport'
 not_game   Stanford University                'all in one place. Listen live on the Westwood One Sports app or online at westwood1sports.'
-not_game   Stanford University                'all in one place. Listen live on the Westwood One Sports app or online at westwood1sports.'
-not_game   Stanford University                'all in one place. Listen live on the Westwood One Sports app or online at westwood1sports.'
-game       University of Georgia              'and they have put the ball back on the 19 yard line gunner and in an off it  gets P-9 acro'
-quiet      University of Georgia              'and talk.'
-quiet      University of Georgia              'and talk.'
-game       University of Florida              'first intent of his own 19 yard line.  Running back is Dwight Phillips Jr. now.  Take the '
-game       University of Florida              'offensively because they are on the football again with 109 yards of offense in the first '
-game       University of Florida              '855 to go in the second quarter.  Welcome back to Florida, Georgia.  The dogs lead the Gat'
-game       Indiana University                 "aggressive here all  mentally.  I'd be interested to see if  they do.  Darius Taylor is ru"
-game       Indiana University                 'Taylor is running back alongside  Lindsey in the backfield in their shot  gun formation. T'
-game       University of Minnesota            'back next to Lindsey wide side of the  right a tight in that way.  Along with a receiver w'
-game       University of Minnesota            'the receiver way out there in motion  Tracy now comes set in the back field to make it a t'
-game       University of Minnesota            "Still a 13 yard field, two plays into the Enzo Nick Marsh to touch down that's good in Min"
-game       Brigham Young University           "experience. They've been moving people to and from Utah and beyond since 1952. They even  "
-game       Brigham Young University           "be second down in 13.  So, Jaylin finds himself over Kyle of Safari Chuck.  Kyle's actuall"
-game       Brigham Young University           "Brock Myers and Gun again with Moa.  Believe you see only back we've seen today.  Throw's "
-game       Arizona State University           "It'll be second down in 13.  Reggie Frischnek, the receiver in motion.  As on second down,"
-game       Arizona State University           "to the left and Thompson's a recipient of a great play by 99 C.J. Fight.  That'll be the f"
-game       Arizona State University           'receiver in motion. As on second-down,  Bockmeyer throws to Frischneck in the near side of'
-quiet      University of Oregon               'brought to you by Common Ground Alliance.'
-maybe_not  University of Oregon               "Isn't it time you partner with Pacific Office Automation?  Pacific Office has been providi"
-maybe_not  University of Oregon               'Office has been providing Office technology solutions for over 50 years.  Every business i'
-game       Northwestern University            "first down from the 29. Check that. They'll empty the backfield. Riola will swing it out. "
-game       Northwestern University            "first down from the 29. Check that. They'll empty the backfield. Riola will swing it out. "
-not_game   Northwestern University            "Lakeside banker forever. Joanna's been my lakeside banker forever.  Joanna handles all my "
+maybe_not  University of Georgia              'has the sauce and just an explosive close to the first half for Georgia tremendous complim'
+maybe_not  University of Georgia              "Make sense?  It's great.  Book with support, not surprises.  Verbo Care in 247 Live Suppor"
+maybe_not  University of Georgia              "I've been in the car with my dad.  Well, I grew up here in Kuaana.  And I remember getting"
+game       University of Florida              '9-11 for 14, so good, completion percentage, but two of those incompletions, at least, tha'
+game       University of Florida              'Jones in an empty in the  shotgun motion Abrams left  turn hand off the ball running  righ'
+game       University of Florida              'the three seconds on the game clock.  Jones in an empty in the shotgun.  Ocean Abrams left'
+game       Indiana University                 'And with Sling, you can catch the college football action, starting at just $19.99 a month'
+game       Indiana University                 'This copyrighted broadcast is an exclusive presentation of Learfield,  under the broadcast'
+game       University of Minnesota            "That football man, you wouldn't want to be anywhere else.  Hey, I feel good.  Y'all did th"
+game       University of Minnesota            "Big 10 football man. You wouldn't want to be anywhere else. Hey, I feel good. He yelled at"
+game       University of Minnesota            'rather than great defense a few times.  But our guys are swarming to the ball, playing tog'
+game       Brigham Young University           'High and short, fair catch called for by Canada at the 12, makes the catch there.  And the'
+game       Brigham Young University           'Already the fifth punch of the day for Arizona State.  McClearty to hook it away to degree'
+game       Brigham Young University           'a 10 to 1 BYU 3 of 6 on 3rd downs Arizona who struggles on 3rd down was only 2 for 9 BYU 5'
+game       Arizona State University           'you know, it was tough in a situation if you are, if you look at it from a BYU perspective'
+game       Arizona State University           "You're online awaiting McClearty's pun.  You know the enemy of good is great.  Yes, nothin"
+game       Arizona State University           'the offense line and they ran  somebody out late but they got  him out plenty of time.  No'
+game       University of Oregon               'Time for another check of scores from around the Big 10 and the rest of college football. '
+quiet      University of Oregon               'For instance, on November 1st, see store or polls.com for details.'
+quiet      University of Oregon               'For instance, on November 1st, see store or polls.com for details.'
+game       Northwestern University            'Here in the first quarter, the caps take it 63 yards in 11 plays and they take a 3-0 lead '
+game       Northwestern University            'Here in the first quarter, the caps take it 63 yards in 11 plays and they take a 3-0 lead '
+game       Northwestern University            'They get down to the Oregon 19. Yeah, they got to go for a field goal.  37 yard field goal'
+game       Texas Christian University         'the pun on their opening drive, but the frogs made the first key mistake of the game  afte'
 quiet      Texas Christian University         ''
-quiet      Texas Christian University         ''
-game       Texas Christian University         'really low effort. You got to blow the guy up. And then on top of that you got  Jordan les'
-game       Utah State University              'Throw to the inside.  Nice completion on the slant.  To the 40, to about the 41 yard line,'
-game       Utah State University              "Hillstead find a seam here with either his arm or his legs. He's been so good running  the"
-game       Colorado State University          'the time to get a reset on the  right side.  Shocking staff to Haas  Haney on the  slant. '
-not_game   Colorado State University          'as well has a 13 to six lead right now for Northwestern and they are driving at the end  o'
-game       Colorado State University          '64 yard touchdown reception from Aidan Childs.  He did drop a couple of balls as well toda'
-game       North Dakota State University      'trap their right guard once again.  He came in way late and charged into  Kelton McAslin t'
-game       University of Texas at El Paso     "up field surges to about the 44 yard line for a pickup of five. It'll be  second down and "
+game       Texas Christian University         'Dialed in on that first half.  Dave Shook is all the highlights right now  on our halftime'
+maybe_not  University of Kansas               'and your game into overtime every time.  So no matter if you win or lose on the field, kee'
+maybe_not  Utah State University              "turn in two passes. By the way, Vick is their home run threat. And I guarantee you, they'r"
+game       Utah State University              'when McCabe went on the quarterback run for the touchdown.  Yeah, I think he has heard a d'
+game       Colorado State University          'after this, Colorado State Sports Network from the airfield.'
+game       Colorado State University          "I mean, Indiana's first drive, they punted the ball with the punter standing in his own  e"
+quiet      Colorado State University          ''
+game       North Dakota State University      "the ball.  You're going to make up a third  down and long here.  And that was supposed to "
+quiet      North Dakota State University      ''
+game       University of Texas at El Paso     'League of League of League of  Salt and  Constitution offense five yard  penalty.  Where d'
 quiet      University of Texas at El Paso     ''
 quiet      University of Texas at El Paso     ''
-game       Liberty University                 "on the year and just through his ninth huge change of possession here.  It's first takeawa"
-maybe_not  Liberty University                 'that intercept. We talked about coal being susceptible to that came into the game with eig'
-game       University of Southern Mississippi 'winning roster today. Post your job for free at LinkedIn.com slash game time.  Terms and c'
-game       University of Cincinnati           "ball security attention to detail needs to be better than what we've seen so far.  Cawfous"
-game       University of Cincinnati           'track snap. Trying to get about 10 yards back.  First and goal from the 22.  French runs a'
-game       University of Cincinnati           "He's taken and goal from the 22.  12 minutes left in the half since it had a trailing 21 t"
-game       University of Utah                 "Let's see the call.  Holding offense number 71 10 yard  building first out.  Yeah, they're"
-game       Wake Forest University             'the amount of bounds up field will check that.  Debonne Patterson makes the tackle.  The s'
+game       Liberty University                 "And so job well done first half.  Here comes the run up and the kick off.  Now it's going "
+game       Liberty University                 'already plays away, including  sacks.  That obviously go against the  rushing stats on the'
+game       University of Louisiana Monroe     'Booming Line Drive kick that sails through the back of the end zone for a touchback a big '
+game       University of Southern Mississippi 'So put long enough along to you, L.M. and see if they can get something going as Lee told '
+game       University of Southern Mississippi 'leading lead for the Eagles again 180 or 161 yards in the first half to 155 from U.L.M.  i'
+game       University of Cincinnati           "So seven seconds left one timeout to work. I'm sorry two timeouts to work with meaning the"
+game       University of Cincinnati           'Elijah Davis to the house.  Red that sideline route stepped in front of the intended recei'
+game       University of Cincinnati           "So seven seconds left one timeout to work. I'm sorry two timeouts to work with meaning the"
+game       University of Utah                 'down and 10 Bear cats from their own 25  yard line 53 seconds to play.  A four wide receiv'
+game       Wake Forest University             'com slash game time, terms and conditions apply.  Saturdays are better with college footba'
 quiet      Wake Forest University             ''
-game       University of Virginia             "and then I'll cook the night.  Just a linebacker, triggering late  and seeing if we can de"
-game       University of Virginia             'second in five for UVA from a 22 Gibson  splits out slot left for Bula takes  the handoff '
-not_game   San José State University          'a long with a free personal consultation.  Start your journey to independence today  and b'
-not_game   San José State University          "The urgency is manageable, the stream's not great, but it's fine.  That's the problem.  Fi"
-not_game   San José State University          'Personal consultation. Start your journey to independence today and be your own boss.  Tex'
-game       University of New Mexico           "That one lands just out of bounds near the 31 yard line of Damex.  So let's see where they"
-game       University of New Mexico           "near the 31 yard line of Damex,  go to see where they officially market.  They're gonna pu"
-game       University of New Mexico           "31 yard line of Damex, go and see where they officially market.  They're going to put it a"
-maybe_not  University of California, Los Ange 'new news.  What?  NTD Evening News.  It just launched on TV here in LA.  Is it local news?'
-game       University of California, Los Ange "he knew he's going to take a big hit and Bianco was looking up the other way then came bac"
-game       University of California, Los Ange 'Big hit and Bianco was looking at the other way,  then came back to Brown to pick up that '
-game       University of Nevada, Reno         'quarterback the transfer from UCLA has been intercepted three times in a first quarter tha'
-game       University of Nevada, Reno         'from the UCLA has been intercepted three times in a first quarter that is  on half-over. 2'
-game       University of Nevada, Reno         'From UCLA has been intercepted three times  in a first quarter that is not half over.  26 '
-game       University of Oklahoma             'that quarterback zone regame and pulling it down on pass has led to three real chunk  play'
-game       University of Oklahoma             'that quarterback zone regame and pulling it down on pass has led to three real chunk  play'
-game       University of Oklahoma             'that quarterback zone regame and pulling it down on pass has led to three real chunk  play'
-game       University of South Carolina       "that's all for the first.  It's been raining all afternoon.  The gate guys get the ball ba"
-game       University of South Carolina       'defense have been spot in  the start this.  GBD is out at one defensive  tackle.  Blalox t'
-game       University of South Carolina       "run through this quarter with 626 to go.  And I'll see Julian Walker out and one defensive"
-quiet      Purdue University                  ''
-game       Illinois State University          'Calinkets the offensive line down.  Takes a shotgun snap,  gives Lofton, has a whole off-r'
-game       Illinois State University          'Burt and no hurry to snap this football cross under three minutes still a two-minute  time'
-game       Illinois State University          'Burt and no hurry to snap this football cross under three minutes still a two-minute  time'
-game       Murray State University            "out there. There's the run out to almost the 50 art line for Lofton. He's listed as a  wid"
-game       Murray State University            'got to throw it hit as he throws it balls in the air and it was incomplete.  Redbirds say '
-game       University of Northern Iowa        "kickin out.  Couple of the old lineman didn't need everybody to block.  They were coming u"
-game       Indiana State University           'in Cedar Falls Iowa. We return to the Toyota RAV 4th quarter with your score  Northern Iow'
-not_game   Gardner-Webb University            "that every animal deserves. I want you to go to their website. Take a look at what I'm tal"
-quiet      Tennessee State University         ''
-not_game   University of St. Thomas (Minnesot 'that play. Like Christian Lions is the biggest problem right there is you just  turn his h'
-not_game   University of St. Thomas (Minnesot 'is probably right there as you just turn his head.  Right.  You know, again, when you hear'
-not_game   Furman University                  "to be there. And some of the people that he's talking to do not seem like they are comfort"
-not_game   Furman University                  "Let's talk about lobbying.  And then the weirdest thing about it, and I'll try to describe"
-not_game   Furman University                  "that it's so odd is he's not talking like a normal human being to them about their lives. "
-not_game   Western Carolina University        "in the NASA podcast, Houston, we have a podcast from May of this year.  It's been awesome "
-quiet      Western Carolina University        ''
-maybe_not  Northwestern State University      'This seems I spent endless hours carpooling kids to and from sporting events, movies  and '
-maybe_not  Norfolk State University           'Theta Company  And to nationally acclaimed award-winning NSU Theatre Company, under the di'
-maybe_not  Norfolk State University           'award-winning NSU theater company under the direction of Professor Anthony  Markstalkert p'
-game       Montana State University           "back to half with Montana  St. leading 48 to seven over Cal  Poly. All right, let's get in"
-game       Montana State University           "You're ready for this?  We got Utah Tech leading Idaho State 1713 to open up that fourth q"
-game       Montana State University           'to save card Montana agriculture and cultivating a prosperous network that  invigorates ru'
-maybe_not  Idaho State University             "He's going deep down the field and he was looking for  Juice right no that was Chating Jam"
-not_game   Southern Utah University           'conversation. Nothing moves without connection. So if you think you know AT&T, it  might b'
-game       Northern Arizona University        'They marched down the field in seven plays, 75 yards,  just over three minutes of time,  t'
-game       Weber State University             "and because the ball's sitting at the 25, that tells me that there, and there was a flag  "
-blocked    University of California, Davis    "Please enable location services on your device and try again.  We're sorry, due to content"
-blocked    University of California, Davis    "and try again.  We're sorry, due to content restrictions, this stream is not available in "
-game       Stephen F. Austin State University 'zone for the first time this season on a punt return.  The official still discussing it.  '
-game       Stephen F. Austin State University 'What would have been a two yard loss into what you just said?  What a nine yard gain.  So '
-game       Houston Christian University       'can be. He almost had a return earlier in the game back in the second quarter.  Has one no'
-game       Mercer University                  "It's a shame because Solomon had broke free in the middle of the field and Pickles never h"
-game       Florida A&M University             'on our 96.1 app.  And on Alexa,  get along the 96.1 Jams app today  and listen to us live '
-game       Florida A&M University             'on our 96.1 app.  And on Alexa,  get along the 96.1 Jams app today  and listen to us live '
-game       Florida A&M University             'on our 96.1 app.  And on Alexa,  get along the 96.1 Jams app today  and listen to us live '
-game       McNeese State University           "So, Lutley, no doubt about it.  And there he is.  He'll keep it and he will get it.  He di"
-quiet      McNeese State University           'get your official Magniz fanware today.'
+maybe_not  University of Virginia             "We've got your team covered anywhere you go.  You just did a few!  Oh, it's cool!  Get a f"
+game       University of Virginia             'at quarterback. A little bit of a change right there from Joey Beguier. But it pays off wi'
+not_game   San José State University          'wanting to be their parent or friend or whoever it is alone when they pass. And then when '
+not_game   San José State University          "want to be there that a moment when someone takes their last breath. But sometimes  that's"
+not_game   San José State University          "when they pass and then when they leave the room they pass and they come back and  they're"
+maybe_not  University of New Mexico           'Chris Taste of Bud Light turns a win into a win win, a win is in a win without the  clean '
+maybe_not  University of New Mexico           'Bud Light turns a win into a win, a win is in a win without the queen.  Chris takes the Bu'
+maybe_not  University of New Mexico           "win, win, a win isn't a win without the queen.  Chris takes the butt like, and there's not"
+not_game   University of California, Los Ange "But you didn't know that Amko's technicians are specially trained to diagnose what's causi"
+maybe_not  University of California, Los Ange 'MCO, Exclusions of climbing up in combined with any other offer, limited time offer partic'
+maybe_not  University of California, Los Ange 'Or a professional wrestler to be your massage therapist.  So why would you trust anyone bu'
+game       University of Nevada, Reno         "play opportunity is there. It's just going to be the timing that is right for the offense."
+game       University of Nevada, Reno         "It's just gonna be the time that is right for the offense.  Yeah, it feels weird to say, b"
+game       University of Nevada, Reno         'that is right for the offense.  Yeah, it feels weird to say, but Nevada has probably  weat'
+game       University of Oklahoma             'defense got 11.  Right at turn your turn your mic on.  Or you say something to your regret'
+game       University of Oklahoma             "for the first three.  Fourteen seven Carolina from the 35.  Trips right.  Now they'll brin"
+game       University of Oklahoma             "for the first three.  Fourteen seven Carolina from the 35.  Trips right.  Now they'll brin"
+game       University of South Carolina       'then toclusively as they rolled around with it until the one.  Yeah, and that this big tai'
+game       University of South Carolina       'So it should be first and goal for the one yard line.  The all-sput on the right has.  And'
+game       University of South Carolina       "It was not brought intoclusively as they rolled around  whether they'd tilt the one.  And "
+game       Pennsylvania State University      "One more way to stay connected. We'll keep that mini line pride going strong. Visit pseu.c"
+quiet      Purdue University                  'We shall...'
+game       University of Northern Iowa        'right let the other media take extra  well will take Christian  count there you know decid'
+game       Indiana State University           'So gain of 11 first down in the end of state on a rush by Elijah Owens  Page calling out t'
+maybe_not  Southeast Missouri State Universit 'defense you better be on your game and today the red hox just fell short  and when you go '
+not_game   Gardner-Webb University            'money comes in, money goes out, money comes in, money goes out.  And only send it out when'
+game       University of St. Thomas (Minnesot "sites. And with the most home matches of their division 1 era this season, you've got more"
+game       University of St. Thomas (Minnesot "Those toe matches of their division 1 era this season, you've got more chances than ever  "
+not_game   Furman University                  'last year. No tax on tips. Seniors got a benefit. All of those things every Democrat voted'
+not_game   Furman University                  'We secure the border. Democrats want to go back to open borders if they get power.  And if'
+not_game   Furman University                  'the next year. No tax on tip seniors got a benefit. All of those things every  Democrat vo'
+not_game   Western Carolina University        'more at Holy Trinity Lynchburg.org.  The cost of living is hitting people from all size  i'
+quiet      Western Carolina University        "WON'T YOU COME?"
+not_game   Northwestern State University      'cosmetics, Greg Baker State Farm.  Cross Bonantial, speaking in state bank,  Southern Clas'
+not_game   Norfolk State University           'You ask that question a little bit more about what we expect you to have that legs.  Yeah,'
+not_game   Norfolk State University           "I'm sure with Coach Jackson had to say to him,  it's not appropriate for a W-U-R-D or NSP."
+game       Montana State University           'through MSU career services.  Go cats go.  Montana State has their third interception to t'
+game       Montana State University           'Montana State has their third interception to the day.  Bobcats up 55 to seven over the Mu'
+game       Montana State University           'with 3.28 to go in the third quarter.  Dan Davies are man down to the field right now.  An'
+game       Utah Tech University               'most of the work today. You look at the rushing statistics. Curtis now eight  carries 40 y'
+game       Idaho State University             'everything be held back and he almost had the sack and if you would have had it if it wasn'
+not_game   Southern Utah University           "We are people of action.  We're over 1 million members.  We know what people can do when t"
+game       Northern Arizona University        "enjoy it. It's easier than ever to listen to live and keep up with your favorite teams.  D"
+maybe_not  Weber State University             "I mean I'm not sure about you, Carl, but it kind of looks like UC Davis defensively is ver"
+blocked    University of California, Davis    'Due to content restrictions, this stream is not available in your area right now.  Please '
+blocked    University of California, Davis    'in your area right now. Please try again later. If you feel this is an error, please enabl'
+game       University of Tennessee at Martin  "a 1310 but you're going to have to convert an avoid a 3 and out.  3rd and 5 on the 22 year"
+maybe_not  Stephen F. Austin State University 'but check out the YouTube as well because you can hop on behind the mic also and come hang'
+maybe_not  Stephen F. Austin State University 'can hop on behind the mic also and come hang out with this is a lot of fun  but wherever y'
+game       Houston Christian University       'three total yards, not a big gap in the offensive production for each team.  But you look '
+game       Alcorn State University            'for all corn.  Valley the most penalized team in the Southwestern Athletic Conference.  Th'
+game       Mercer University                  'all sorts of activities. Still got a quarter to go. Billy gives you a better stats.  Alrig'
+game       The Citadel                        "fan of the citadel who has yet to join let's talk about the benefits of joining citadel at"
+maybe_not  Bethune-Cookman University         'piece of use to get a receive the second half kick off is Arkansas Poblows  gonna kick off'
+game       Florida A&M University             'on our 96.1 app.  And on Alexa,  get along the 96.1 Jambs app today.  And listen to us liv'
+game       Florida A&M University             'on our 96.1 app.  And on Alexa,  get along the 96.1 Jambs app today.  And listen to us liv'
+game       Florida A&M University             'on our 96.1 app.  And on Alexa,  get along the 96.1 Jambs app today.  And listen to us liv'
+game       McNeese State University           'rain coming down pretty hard.  Snap, always some fun with snap.  And now the ball is loose'
+maybe_not  McNeese State University           "They will try the field goal.  Yeah, they got the field goal kicker fan out there.  He's o"
+quiet      Nicholls State University          "You're listening to 96.7 K-C-I-L"
 not_game   Alabama State University           'Every time I touch a base, I think of one man, Mr. Ray Brown.  For those unfamiliar with h'
-game       East Tennessee State University    'look out a lot of room 40. Could be big trouble 45 cut back midfield and you and Johnson h'
-game       East Tennessee State University    'trouble 45 cut back midfield and you and Johnson has to make the tackle inside  ETSU terri'
-game       East Tennessee State University    'come back midfield and you and Johnson has to make the tackle inside.  ETSU territory at t'
-game       South Dakota State University      "that cover six, type of concept that the soft zone.  That's acceptable, low type of pass i"
-maybe_not  South Dakota State University      "and it feels great down there, doesn't it, scooter?  Absolutely.  It's a perfect temperatu"
-game       University of South Dakota         'the  team.  The team will be  coming back on it, about a  13-yard gain on it to  move the '
-quiet      Abilene Christian University       ''
-quiet      Abilene Christian University       ''
-quiet      Abilene Christian University       'in the way!'
-game       Eastern Washington University      "They're gonna be good.  Some Montana with a 14-3 lead now here in this ballgame.  They'll "
-game       Eastern Washington University      "Some Montana with a 14 to 3 lead now here in this ballgame. They'll kick off here  Can't t"
-game       Eastern Washington University      "some Montana with a 14 to 3 lead now here in this ballgame they'll kick off  here. Can't t"
-game       University of Montana              "time a better touchback rate at home this year.  And we'll see what Baronowski has in stor"
-game       University of Montana              "back rate at home this year and we'll see what  Baronowski has in store.  Booming kick fro"
-game       University of Idaho                'Looking after your daily balance, go Vandals.  Start of the second quarter, Vandals lead a'
-quiet      University of Idaho                'Stories that matter most to you right now!'
-game       Marist University                  "field. Yeah, that's holding. I thought it was holding. That's going to be an automatic  fi"
-game       East Texas A&M University          'a good job of just snatching it out of the air and never hit the ground.  Well, at Reese M'
-maybe_not  East Texas A&M University          "our 19 calling Douglas the one that got right over a couple of  place back oh that's a mea"
-{'quiet': 22, 'maybe_not': 12, 'game': 99, 'no_audio': 27, 'not_game': 17, 'blocked': 2}
+game       East Tennessee State University    "less than a minute left in the half at the 20 though they couldn't hold on and the half wo"
+game       East Tennessee State University    "left in the half at the 20, though they couldn't hold on and the half would end.  ETSU wil"
+game       East Tennessee State University    'and the half would end. ETSU will get the ball back in the second half and all  this would'
+quiet      Tennessee Technological University ''
+game       South Dakota State University      "The O'Shitting left to right, Sammy Dressey.  Give the Johnson, Stretz play left, cuts alo"
+game       South Dakota State University      "Second in 10 from SDSU's 038, Mason a good pocket over the middle in traffic.  And did he "
+game       University of South Dakota         "that a powerful offensive line.  Just bulldozes the pile for two  more yards and here's a "
+game       University of South Dakota         'Johnson runs into traffic at the 31  stood up and then that powerful  offensive line just '
+maybe_not  Abilene Christian University       'Bobby Boris, pick it with Monster Mash, maybe the most famous Halloween song from 1962. ||'
+maybe_not  Abilene Christian University       'Bobby Boris, pick it with Monster Mash, maybe the most famous Halloween song from 1962. ||'
+maybe_not  Abilene Christian University       'Bobby Boris pick it with monster mash. Maybe the most famous Halloween song from 1962  And'
+quiet      University of West Georgia         ''
+game       Eastern Washington University      "in an eight takes the snap fades back six man rush he's pressured in a sack for the six ti"
+game       Eastern Washington University      "second in eight takes the snap fades back six man rush he's pressured in his sack for the "
+game       Eastern Washington University      "man rush he's pressured in his sack for the six time in the ball game he goes  back to the"
+maybe_not  University of Montana              'that that sack their best case scenario makes me use the time out they got one  left  uh..'
+game       University of Montana              'One left.  We wanna leave, hold them to a field goal there  because their success on their'
+maybe_not  University of Idaho                "Kinsman will kick it.  Crew Newman is back deep.  They're gonna kick it short to Newman at"
+maybe_not  University of Idaho                "longest job she's ever held in his 60 years old. Somebody who's never held a job for more "
+game       Marist University                  'But Williamson wraps him up and brings him down at the four yard line not food by the play'
+game       East Texas A&M University          'Remember when that went up.  Oh yeah.  That kept us from going to Big Town anymore.  Yep. '
+game       East Texas A&M University          "they work at Target. I got the red shirts in the cash you can't and I know that  because I"
+game       Southeastern Louisiana University  'rushing yards on 12 attempts averaging 5.3 yards per carry. 111 yards through the air, Kyl'
+game       University of Central Arkansas     'Oh my goodness, he absolutely just big brody.  He threw him to the ground after he won arm'
+game       University of North Alabama        'next. This is your name, Bookball, for more Alliance Productions.  Renaissance Eye Care is'
+quiet      University of North Alabama        'Number 7, one little kiss'
+{'game': 102, 'maybe_not': 26, 'quiet': 19, 'not_game': 17, 'no_audio': 9, 'blocked': 2}
