@@ -3,7 +3,7 @@ athletics site live-audio page in a headless browser, capture the game audio
 stream, and add it to radio.json. Many schools only stream games on their own
 site, and those streams exist only while the game is on.
 """
-import json, re, subprocess, sys, urllib.request
+import datetime, json, re, subprocess, sys, urllib.request
 
 UA = {"User-Agent": "Mozilla/5.0 (GamedayRadio live audio finder)"}
 SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?groups={}&limit=400"
@@ -25,7 +25,15 @@ def live_teams():
         try:
             with urllib.request.urlopen(urllib.request.Request(SCOREBOARD.format(g), headers=UA), timeout=20) as r:
                 for e in json.loads(r.read()).get("events", []):
-                    if e.get("status", {}).get("type", {}).get("state") == "in":
+                    st = e.get("status", {}).get("type", {}).get("state")
+                    soon = False
+                    if st == "pre":  # pregame shows start before kickoff
+                        try:
+                            ko = datetime.datetime.fromisoformat(e["date"].replace("Z", "+00:00"))
+                            soon = (ko - datetime.datetime.now(datetime.timezone.utc)).total_seconds() < 45 * 60
+                        except Exception:
+                            pass
+                    if st == "in" or soon:
                         out += [c["team"] for c in e["competitions"][0]["competitors"]]
         except Exception as ex:
             print("scoreboard error", g, ex)
