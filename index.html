@@ -947,7 +947,7 @@ function renderBoard(){
   html += playsView(sum);
   const r = radioFor(e);
   html += `<div class="radio-info"><p class="label">Radio for this game</p><ul>${r.map(x=>`<li><b>${esc(x.team)}</b> ${esc(x.net||"")}${x.station && !/radio$/i.test(x.net||"") ? `, ${esc(String(x.station).replace(/\s*\(no free online stream found\)/,""))}` : ""}${x.stream ? "" : ` <span class="note">(no free stream)</span>`}</li>`).join("")}</ul>
-  <span class="note">Each team's own radio broadcast. If one won't connect, try the other team's call.</span>
+  <span class="note">Each team's own radio broadcast. If one won't connect, try the other team's call.</span></div>`;
   B.innerHTML = html;
   B.querySelectorAll("[data-play]").forEach(l=>l.onclick=ev=>{ev.preventDefault(); $("#station").value = "team:"+l.dataset.play; startStation();});
 }
