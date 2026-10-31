@@ -13,7 +13,8 @@
   "calls": [
    "WEEI"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://bceagles.com"
  },
  {
   "school": "University of California, Berkeley",
@@ -48,7 +49,8 @@
    "WCCP-FM",
    "WAHT"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://clemsontigers.com"
  },
  {
   "school": "Duke University",
@@ -64,7 +66,8 @@
    "WDNC-AM"
   ],
   "streams": [],
-  "station_website": "https://www.wralsportsfan.com"
+  "station_website": "https://www.wralsportsfan.com",
+  "athletics_site": "https://goduke.com"
  },
  {
   "school": "Florida State University",
@@ -80,7 +83,8 @@
   "calls": [
    "WTNT-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://seminoles.com"
  },
  {
   "school": "Georgia Institute of Technology",
@@ -96,7 +100,8 @@
   "calls": [
    "WCNN"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://ramblinwreck.com"
  },
  {
   "school": "University of Louisville",
@@ -112,7 +117,8 @@
    "WLCL",
    "WGTK"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://gocards.com"
  },
  {
   "school": "University of Miami",
@@ -129,7 +135,8 @@
    "WQAM",
    "WMEN"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://miamihurricanes.com"
  },
  {
   "school": "North Carolina State University",
@@ -145,7 +152,8 @@
   "calls": [
    "WCMC-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://gopack.com"
  },
  {
   "school": "University of North Carolina at Chapel Hill",
@@ -162,7 +170,8 @@
    "WCHL-AM",
    "WPTF-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://goheels.com"
  },
  {
   "school": "University of Pittsburgh",
@@ -178,7 +187,8 @@
   "calls": [
    "KDKA-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://pittsburghpanthers.com"
  },
  {
   "school": "Southern Methodist University",
@@ -194,7 +204,8 @@
    "KTCK-AM",
    "KTCK-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://smumustangs.com"
  },
  {
   "school": "Stanford University",
@@ -211,7 +222,8 @@
    "KNBR-FM",
    "KTCT-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://gostanford.com"
  },
  {
   "school": "Syracuse University",
@@ -228,7 +240,8 @@
   ],
   "streams": [
    "https://live.amperwave.net/manifest/galaxy-wtkwfmaac-hlsc1.m3u8?source=v7player"
-  ]
+  ],
+  "athletics_site": "https://cuse.com"
  },
  {
   "school": "University of Virginia",
@@ -247,7 +260,8 @@
   "streams": [
    "https://live.amperwave.net/manifest/saga-winaammp3-hlsc.m3u8?source=uva",
    "https://live.amperwave.net/manifest/saga-winaamaac-hlsc1.m3u8?source=v7player"
-  ]
+  ],
+  "athletics_site": "https://virginiasports.com"
  },
  {
   "school": "Virginia Tech",
@@ -263,7 +277,8 @@
   "calls": [
    "WBRW-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://hokiesports.com"
  },
  {
   "school": "Wake Forest University",
@@ -278,7 +293,8 @@
   "calls": [
    "WBRF-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://godeacs.com"
  },
  {
   "school": "University of Notre Dame",
@@ -294,7 +310,8 @@
    "WSBT-AM",
    "WBBM-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://fightingirish.com"
  },
  {
   "school": "University of Connecticut",
@@ -310,7 +327,8 @@
   "calls": [
    "WUCS-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://uconnhuskies.com"
  },
  {
   "school": "United States Military Academy",
@@ -326,7 +344,8 @@
   "calls": [
    "WBWZ"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://goarmywestpoint.com"
  },
  {
   "school": "University of North Carolina at Charlotte",
@@ -362,7 +381,8 @@
   "calls": [
    "WNCT-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://ecupirates.com"
  },
  {
   "school": "Florida Atlantic University",
@@ -379,7 +399,8 @@
    "WMEN-AM"
   ],
   "streams": [],
-  "station_website": "https://www.foxsports640.com"
+  "station_website": "https://www.foxsports640.com",
+  "athletics_site": "https://fausports.com"
  },
  {
   "school": "University of Memphis",
@@ -394,7 +415,8 @@
   "calls": [
    "WKIM-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://gotigersgo.com"
  },
  {
   "school": "United States Naval Academy",
@@ -412,7 +434,8 @@
   ],
   "streams": [
    "https://playerservices.streamtheworld.com/api/livestream-redirect/WBALAM.mp3"
-  ]
+  ],
+  "athletics_site": "https://navysports.com"
  },
  {
   "school": "University of North Texas",
@@ -428,7 +451,8 @@
   "calls": [
    "KFXR-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://meangreensports.com"
  },
  {
   "school": "Rice University",
@@ -458,7 +482,8 @@
   "calls": [
    "WRBQ-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://gousfbulls.com"
  },
  {
   "school": "Temple University",
@@ -489,7 +514,8 @@
   "calls": [
    "KKND-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://tulanegreenwave.com"
  },
  {
   "school": "University of Tulsa",
@@ -504,7 +530,8 @@
   "calls": [
    "KXBL-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://tulsahurricane.com"
  },
  {
   "school": "University of Alabama at Birmingham",
@@ -519,7 +546,8 @@
   "calls": [
    "WJOX-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://uabsports.com"
  },
  {
   "school": "University of Texas at San Antonio",
@@ -534,7 +562,8 @@
   "calls": [
    "KTKR-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://goutsa.com"
  },
  {
   "school": "Appalachian State University",
@@ -553,7 +582,8 @@
   "streams": [
    "https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3"
   ],
-  "game_only": true
+  "game_only": true,
+  "athletics_site": "https://appstatesports.com"
  },
  {
   "school": "Arkansas State University",
@@ -569,7 +599,8 @@
   "calls": [
    "KFIN-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://astateredwolves.com"
  },
  {
   "school": "Coastal Carolina University",
@@ -585,7 +616,8 @@
   "calls": [
    "WRXZ-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://goccusports.com"
  },
  {
   "school": "Georgia Southern University",
@@ -616,7 +648,8 @@
   "calls": [
    "WRAS-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://georgiastatesports.com"
  },
  {
   "school": "James Madison University",
@@ -636,7 +669,8 @@
    "https://live.amperwave.net/manifest/saga-wsvaamaac-hlsc2.m3u8?source=v7player",
    "https://live.amperwave.net/direct/saga-wsvaammp3-ibc2"
   ],
-  "station_website": "https://wsvaonline.com/"
+  "station_website": "https://wsvaonline.com/",
+  "athletics_site": "https://jmusports.com"
  },
  {
   "school": "University of Louisiana at Lafayette",
@@ -653,7 +687,8 @@
    "KHXT-FM",
    "KPEL-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://ragincajuns.com"
  },
  {
   "school": "Louisiana Tech University",
@@ -669,7 +704,8 @@
   "calls": [
    "KXKZ-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://latechsports.com"
  },
  {
   "school": "Marshall University",
@@ -685,7 +721,8 @@
    "WDGG-FM",
    "WRVC-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://herdzone.com"
  },
  {
   "school": "Old Dominion University",
@@ -704,7 +741,8 @@
   "streams": [
    "https://ais-sa1.streamon.fm/7851_128k.aac/playlist.m3u8"
   ],
-  "station_website": "http://www.espnradio941.com"
+  "station_website": "http://www.espnradio941.com",
+  "athletics_site": "https://odusports.com"
  },
  {
   "school": "University of South Alabama",
@@ -720,7 +758,8 @@
    "WMEZ-FM",
    "WXQW-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://usajaguars.com"
  },
  {
   "school": "University of Southern Mississippi",
@@ -736,7 +775,8 @@
   "calls": [
    "WXRR-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://southernmiss.com"
  },
  {
   "school": "Troy University",
@@ -754,7 +794,8 @@
   "streams": [
    "https://ice6.securenetsystems.net/WTXK"
   ],
-  "game_only": true
+  "game_only": true,
+  "athletics_site": "https://troytrojans.com"
  },
  {
   "school": "University of Louisiana Monroe",
@@ -771,7 +812,8 @@
   "calls": [
    "KLIP-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://ulmwarhawks.com"
  },
  {
   "school": "University of Arizona",
@@ -787,7 +829,8 @@
    "KCUB",
    "KFNX"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://arizonawildcats.com"
  },
  {
   "school": "Arizona State University",
@@ -803,7 +846,8 @@
   "calls": [
    "KMVP-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://thesundevils.com"
  },
  {
   "school": "Baylor University",
@@ -819,7 +863,8 @@
    "KRZI-AM"
   ],
   "streams": [],
-  "station_website": "https://www.centexsportsfan.com"
+  "station_website": "https://www.centexsportsfan.com",
+  "athletics_site": "https://baylorbears.com"
  },
  {
   "school": "Brigham Young University",
@@ -834,7 +879,8 @@
   "calls": [
    "KSL"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://byucougars.com"
  },
  {
   "school": "University of Cincinnati",
@@ -850,7 +896,8 @@
    "WLW-AM",
    "WEBN-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://gobearcats.com"
  },
  {
   "school": "University of Colorado Boulder",
@@ -866,7 +913,8 @@
    "KOA-AM",
    "K231AA"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://cubuffs.com"
  },
  {
   "school": "University of Houston",
@@ -881,7 +929,8 @@
   "calls": [
    "KPRC-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://uhcougars.com"
  },
  {
   "school": "Iowa State University",
@@ -897,7 +946,8 @@
    "KCYZ"
   ],
   "streams": [],
-  "station_website": "https://now1051.iheart.com"
+  "station_website": "https://now1051.iheart.com",
+  "athletics_site": "https://cyclones.com"
  },
  {
   "school": "University of Kansas",
@@ -915,7 +965,8 @@
   ],
   "streams": [],
   "station_website": "https://klwn.com",
-  "securenet": "KLWNAM"
+  "securenet": "KLWNAM",
+  "athletics_site": "https://kuathletics.com"
  },
  {
   "school": "Kansas State University",
@@ -934,7 +985,8 @@
   ],
   "streams": [
    "https://stream-02.surfernetwork.com/drscz5r6naxuv"
-  ]
+  ],
+  "athletics_site": "https://kstatesports.com"
  },
  {
   "school": "Oklahoma State University",
@@ -950,7 +1002,8 @@
   "calls": [
    "KSPI-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://okstate.com"
  },
  {
   "school": "Texas Christian University",
@@ -965,7 +1018,8 @@
   "calls": [
    "KZPS-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://gofrogs.com"
  },
  {
   "school": "Texas Tech University",
@@ -981,7 +1035,8 @@
    "KTTU-FM"
   ],
   "streams": [],
-  "station_website": "https://www.doublet973.com"
+  "station_website": "https://www.doublet973.com",
+  "athletics_site": "https://texastech.com"
  },
  {
   "school": "University of Central Florida",
@@ -996,7 +1051,8 @@
   "calls": [
    "WYGM-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://ucfknights.com"
  },
  {
   "school": "University of Utah",
@@ -1012,7 +1068,8 @@
    "KALL-AM"
   ],
   "streams": [],
-  "station_website": "https://espn700sports.com/"
+  "station_website": "https://espn700sports.com/",
+  "athletics_site": "https://utahutes.com"
  },
  {
   "school": "West Virginia University",
@@ -1029,7 +1086,8 @@
    "WVAQ-FM",
    "WAJR-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://wvusports.com"
  },
  {
   "school": "Ohio State University",
@@ -1046,7 +1104,8 @@
    "WBNS-FM",
    "WBNS"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://ohiostatebuckeyes.com"
  },
  {
   "school": "University of Michigan",
@@ -1084,7 +1143,8 @@
    "WJGJ",
    "WLEJ"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://gopsusports.com"
  },
  {
   "school": "University of Illinois Urbana-Champaign",
@@ -1101,7 +1161,8 @@
    "WDWS-AM",
    "WHMS-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://fightingillini.com"
  },
  {
   "school": "Indiana University",
@@ -1118,7 +1179,8 @@
    "WHCC-FM"
   ],
   "streams": [],
-  "station_website": "https://whcc105.com"
+  "station_website": "https://whcc105.com",
+  "athletics_site": "https://iuhoosiers.com"
  },
  {
   "school": "University of Iowa",
@@ -1135,7 +1197,8 @@
    "KXIC"
   ],
   "streams": [],
-  "station_website": "https://whoradio.iheart.com"
+  "station_website": "https://whoradio.iheart.com",
+  "athletics_site": "https://hawkeyesports.com"
  },
  {
   "school": "University of Maryland",
@@ -1152,7 +1215,8 @@
    "WJZ-FM",
    "WTEM-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://umterps.com"
  },
  {
   "school": "Michigan State University",
@@ -1169,7 +1233,8 @@
    "WJIM-AM",
    "WJR-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://msuspartans.com"
  },
  {
   "school": "University of Minnesota",
@@ -1185,7 +1250,8 @@
   "calls": [
    "KFXN-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://gophersports.com"
  },
  {
   "school": "University of Nebraska-Lincoln",
@@ -1202,7 +1268,8 @@
    "KLIN-AM"
   ],
   "streams": [],
-  "station_website": "https://klin.com"
+  "station_website": "https://klin.com",
+  "athletics_site": "https://huskers.com"
  },
  {
   "school": "Northwestern University",
@@ -1217,7 +1284,8 @@
   "calls": [
    "WGN-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://nusports.com"
  },
  {
   "school": "University of Oregon",
@@ -1233,7 +1301,8 @@
    "KUGN-AM",
    "KUJZ-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://goducks.com"
  },
  {
   "school": "Purdue University",
@@ -1248,7 +1317,8 @@
   "calls": [
    "WAZY-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://purduesports.com"
  },
  {
   "school": "Rutgers University",
@@ -1264,7 +1334,8 @@
    "WFAN-AM",
    "WFAN-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://scarletknights.com"
  },
  {
   "school": "University of California, Los Angeles",
@@ -1280,7 +1351,8 @@
    "KABC-AM"
   ],
   "streams": [],
-  "station_website": "https://www.kabc.com"
+  "station_website": "https://www.kabc.com",
+  "athletics_site": "https://uclabruins.com"
  },
  {
   "school": "University of Southern California",
@@ -1296,7 +1368,8 @@
   "calls": [
    "KSPN-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://usctrojans.com"
  },
  {
   "school": "University of Washington",
@@ -1313,7 +1386,8 @@
    "KJR-FM",
    "KJR-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://gohuskies.com"
  },
  {
   "school": "University of Wisconsin-Madison",
@@ -1328,7 +1402,8 @@
   "calls": [
    "WIBA-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://uwbadgers.com"
  },
  {
   "school": "University at Albany",
@@ -1360,7 +1435,8 @@
   "calls": [
    "WJMF"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://bryantbulldogs.com"
  },
  {
   "school": "Campbell University",
@@ -1407,7 +1483,8 @@
   "calls": [
    "WHOV"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://hamptonpirates.com"
  },
  {
   "school": "University of Maine",
@@ -1424,7 +1501,8 @@
    "WWMJ",
    "WLOB"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://goblackbears.com"
  },
  {
   "school": "Monmouth University",
@@ -1439,7 +1517,8 @@
   "calls": [
    "WOBM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://monmouthhawks.com"
  },
  {
   "school": "University of New Hampshire",
@@ -1457,7 +1536,8 @@
    "WQSO",
    "WPKX"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://unhwildcats.com"
  },
  {
   "school": "North Carolina A&T State University",
@@ -1474,7 +1554,8 @@
    "WBRF",
    "WEAL"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://ncataggies.com"
  },
  {
   "school": "University of Rhode Island",
@@ -1522,7 +1603,8 @@
   "calls": [
    "WUSB"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://stonybrookathletics.com"
  },
  {
   "school": "Towson University",
@@ -1537,7 +1619,8 @@
   "calls": [
    "WNST"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://towsontigers.com"
  },
  {
   "school": "Bucknell University",
@@ -1555,7 +1638,8 @@
   "streams": [
    "https://live.amperwave.net/direct/sunbury-wkokamaac-ibc1",
    "https://live.amperwave.net/manifest/sunbury-wkokamaac-ibc1"
-  ]
+  ],
+  "athletics_site": "https://bucknellbison.com"
  },
  {
   "school": "Colgate University",
@@ -1570,7 +1654,8 @@
   "calls": [
    "WRCU-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://gocolgateraiders.com"
  },
  {
   "school": "Fordham University",
@@ -1585,7 +1670,8 @@
   "calls": [
    "WFUV-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://fordhamsports.com"
  },
  {
   "school": "Georgetown University",
@@ -1649,7 +1735,8 @@
    "WEEX-AM",
    "WTKZ-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://lehighsports.com"
  },
  {
   "school": "University of Richmond",
@@ -1682,7 +1769,8 @@
   "calls": [
    "WDAS-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://villanova.com"
  },
  {
   "school": "William & Mary",
@@ -1698,7 +1786,8 @@
   "calls": [
    "WTYD-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://tribeathletics.com"
  },
  {
   "school": "Brown University",
@@ -1729,7 +1818,8 @@
   "calls": [
    "WKCR-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://gocolumbialions.com"
  },
  {
   "school": "Cornell University",
@@ -1780,7 +1870,8 @@
   "calls": [
    "WHRB-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://gocrimson.com"
  },
  {
   "school": "University of Pennsylvania",
@@ -1828,7 +1919,8 @@
   "calls": [
    "WELI-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://yalebulldogs.com"
  },
  {
   "school": "Central Connecticut State University",
@@ -1874,7 +1966,8 @@
   "calls": [
    "WBGG-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://goduquesne.com"
  },
  {
   "school": "Long Island University",
@@ -1992,7 +2085,8 @@
   "streams": [
    "https://wjab.streamguys1.com/live",
    "https://wjab.streamguys1.com/?uuid=vm1k8lr5&dist=nprgrove"
-  ]
+  ],
+  "athletics_site": "https://aamusports.com"
  },
  {
   "school": "Alabama State University",
@@ -2008,7 +2102,8 @@
   "calls": [
    "WVAS"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://bamastatesports.com"
  },
  {
   "school": "Bethune-Cookman University",
@@ -2024,7 +2119,8 @@
   "calls": [
    "WELE-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://bcuathletics.com"
  },
  {
   "school": "Florida A&M University",
@@ -2040,7 +2136,8 @@
   "calls": [
    "WHBX"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://famuathletics.com"
  },
  {
   "school": "Jackson State University",
@@ -2056,7 +2153,8 @@
   "calls": [
    "WJSU"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://gojsutigers.com"
  },
  {
   "school": "Mississippi Valley State University",
@@ -2090,7 +2188,8 @@
   "calls": [
    "WPRL-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://alcornsports.com"
  },
  {
   "school": "University of Arkansas at Pine Bluff",
@@ -2122,7 +2221,8 @@
    "KGRM",
    "KPCH"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://gsutigers.com"
  },
  {
   "school": "Prairie View A&M University",
@@ -2170,7 +2270,8 @@
   "calls": [
    "KTSU-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://tsusports.com"
  },
  {
   "school": "Delaware State University",
@@ -2218,7 +2319,8 @@
   "calls": [
    "WEAA-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://morganstatebears.com"
  },
  {
   "school": "Norfolk State University",
@@ -2234,7 +2336,8 @@
   "calls": [
    "WNSB-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://nsuspartans.com"
  },
  {
   "school": "North Carolina Central University",
@@ -2320,7 +2423,8 @@
   "calls": [
    "WFLI"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://gomocs.com"
  },
  {
   "school": "East Tennessee State University",
@@ -2337,7 +2441,8 @@
    "WXSM",
    "WQUT"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://etsubucs.com"
  },
  {
   "school": "Furman University",
@@ -2353,7 +2458,8 @@
    "WYRD-AM",
    "WORD-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://furmanpaladins.com"
  },
  {
   "school": "Mercer University",
@@ -2368,7 +2474,8 @@
   "calls": [
    "WNEX"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://mercerbears.com"
  },
  {
   "school": "Samford University",
@@ -2419,7 +2526,8 @@
   ],
   "streams": [
    "https://ice9.securenetsystems.net/WQNT"
-  ]
+  ],
+  "athletics_site": "https://citadelsports.com"
  },
  {
   "school": "Virginia Military Institute",
@@ -2434,7 +2542,8 @@
   "calls": [
    "WWZW"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://vmikeydets.com"
  },
  {
   "school": "Western Carolina University",
@@ -2453,7 +2562,8 @@
    "WISE",
    "WBRM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://catamountsports.com"
  },
  {
   "school": "Wofford College",
@@ -2484,7 +2594,8 @@
   "calls": [
    "KETR-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://lionathletics.com"
  },
  {
   "school": "Houston Christian University",
@@ -2500,7 +2611,8 @@
   "calls": [
    "KYST-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://hcuhuskies.com"
  },
  {
   "school": "University of the Incarnate Word",
@@ -2532,7 +2644,8 @@
   "calls": [
    "KLVI-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://lamarcardinals.com"
  },
  {
   "school": "McNeese State University",
@@ -2547,7 +2660,8 @@
   "calls": [
    "KHLA-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://mcneesesports.com"
  },
  {
   "school": "Nicholls State University",
@@ -2562,7 +2676,8 @@
   "calls": [
    "KCIL-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://geauxcolonels.com"
  },
  {
   "school": "Northwestern State University",
@@ -2577,7 +2692,8 @@
   "calls": [
    "KZBL-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://nsudemons.com"
  },
  {
   "school": "Southeastern Louisiana University",
@@ -2593,7 +2709,8 @@
   "calls": [
    "WFPR-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://lionsports.net"
  },
  {
   "school": "Stephen F. Austin State University",
@@ -2609,7 +2726,8 @@
   "calls": [
    "KTBQ-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://sfajacks.com"
  },
  {
   "school": "University of Texas Rio Grande Valley",
@@ -2674,7 +2792,8 @@
   "calls": [
    "WGNC-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://gwusports.com"
  },
  {
   "school": "Lindenwood University",
@@ -2689,7 +2808,8 @@
   "calls": [
    "KCLC-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://lindenwoodlions.com"
  },
  {
   "school": "Southeast Missouri State University",
@@ -2705,7 +2825,8 @@
   "calls": [
    "KCGQ-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://gosoutheast.com"
  },
  {
   "school": "Tennessee State University",
@@ -2721,7 +2842,8 @@
   "calls": [
    "WNSR-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://tsutigers.com"
  },
  {
   "school": "University of Tennessee at Martin",
@@ -2737,7 +2859,8 @@
   "calls": [
    "WUTM-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://utmsports.com"
  },
  {
   "school": "Western Illinois University",
@@ -2804,7 +2927,8 @@
   "calls": [
    "WHIO-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://daytonflyers.com"
  },
  {
   "school": "Drake University",
@@ -2852,7 +2976,8 @@
   "calls": [
    "WIVY-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://msueagles.com"
  },
  {
   "school": "Presbyterian College",
@@ -2868,7 +2993,8 @@
   "calls": [
    "WPCC-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://gobluehose.com"
  },
  {
   "school": "University of St. Thomas (Minnesota)",
@@ -2884,7 +3010,8 @@
   "calls": [
    "KSTP-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://tommiesports.com"
  },
  {
   "school": "University of San Diego",
@@ -2955,7 +3082,8 @@
    "KXGF",
    "KOFI"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://gogriz.com"
  },
  {
   "school": "Montana State University",
@@ -2974,7 +3102,8 @@
    "KGHL",
    "KMPT"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://msubobcats.com"
  },
  {
   "school": "Eastern Washington University",
@@ -2991,7 +3120,8 @@
   "calls": [
    "KXLX"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://goeags.com"
  },
  {
   "school": "University of Idaho",
@@ -3007,7 +3137,8 @@
   "calls": [
    "KBNW"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://govandals.com"
  },
  {
   "school": "Idaho State University",
@@ -3026,7 +3157,8 @@
   ],
   "streams": [
    "https://kisufm.isu.edu:8443/kisufm"
-  ]
+  ],
+  "athletics_site": "https://isubengals.com"
  },
  {
   "school": "Northern Arizona University",
@@ -3045,7 +3177,8 @@
    "KDUS",
    "KFFN"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://nauathletics.com"
  },
  {
   "school": "University of Northern Colorado",
@@ -3062,7 +3195,8 @@
   "calls": [
    "KFKA"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://uncbears.com"
  },
  {
   "school": "Portland State University",
@@ -3096,7 +3230,8 @@
   "calls": [
    "KLO-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://weberstatesports.com"
  },
  {
   "school": "California Polytechnic State University",
@@ -3130,7 +3265,8 @@
   "calls": [
    "KHTK-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://ucdavisaggies.com"
  },
  {
   "school": "Southern Utah University",
@@ -3147,7 +3283,8 @@
   "calls": [
    "KSUB-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://suutbirds.com"
  },
  {
   "school": "Utah Tech University",
@@ -3178,7 +3315,8 @@
   "calls": [
    "WJBC-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://goredbirds.com"
  },
  {
   "school": "Indiana State University",
@@ -3214,7 +3352,8 @@
   "calls": [
    "WFGS-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://goracers.com"
  },
  {
   "school": "University of North Dakota",
@@ -3230,7 +3369,8 @@
   "calls": [
    "KQHT-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://fightinghawks.com"
  },
  {
   "school": "University of Northern Iowa",
@@ -3268,7 +3408,8 @@
   "calls": [
    "KVHT-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://goyotes.com"
  },
  {
   "school": "South Dakota State University",
@@ -3284,7 +3425,8 @@
   "calls": [
    "WNAX-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://gojacks.com"
  },
  {
   "school": "Southern Illinois University",
@@ -3301,7 +3443,8 @@
   "calls": [
    "WCIL-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://siusalukis.com"
  },
  {
   "school": "Youngstown State University",
@@ -3318,7 +3461,8 @@
   "calls": [
    "WKBN-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://ysusports.com"
  },
  {
   "school": "Abilene Christian University",
@@ -3334,7 +3478,8 @@
   "calls": [
    "KHXS-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://acusports.com"
  },
  {
   "school": "Austin Peay State University",
@@ -3351,7 +3496,8 @@
   "calls": [
    "WKFN-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://letsgopeay.com"
  },
  {
   "school": "University of Central Arkansas",
@@ -3426,7 +3572,8 @@
   "calls": [
    "KTRL-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://tarletonsports.com"
  },
  {
   "school": "University of West Florida",
@@ -3480,7 +3627,8 @@
    "WHLO",
    "WHK"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://gozips.com"
  },
  {
   "school": "Ball State University",
@@ -3498,7 +3646,8 @@
   ],
   "streams": [
    "https://ice41.securenetsystems.net/WLBC"
-  ]
+  ],
+  "athletics_site": "https://ballstatesports.com"
  },
  {
   "school": "Bowling Green State University",
@@ -3514,7 +3663,8 @@
   "calls": [
    "WFRO"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://bgsufalcons.com"
  },
  {
   "school": "University at Buffalo",
@@ -3550,7 +3700,8 @@
   "calls": [
    "WUPS-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://cmuchippewas.com"
  },
  {
   "school": "Eastern Michigan University",
@@ -3569,7 +3720,8 @@
   "streams": [
    "https://playerservices.streamtheworld.com/api/livestream-redirect/WEMUFM.mp3",
    "http://playerservices.streamtheworld.com/api/livestream-redirect/WEMUFM.mp3"
-  ]
+  ],
+  "athletics_site": "https://emueagles.com"
  },
  {
   "school": "Kent State University",
@@ -3584,7 +3736,8 @@
   "calls": [
    "WARF-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://kentstatesports.com"
  },
  {
   "school": "Miami University",
@@ -3600,7 +3753,8 @@
   "calls": [
    "WMOH-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://miamiredhawks.com"
  },
  {
   "school": "Ohio University",
@@ -3615,7 +3769,8 @@
   "calls": [
    "WXTQ-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://ohiobobcats.com"
  },
  {
   "school": "University of Toledo",
@@ -3630,7 +3785,8 @@
   "calls": [
    "WSPD-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://utrockets.com"
  },
  {
   "school": "Western Michigan University",
@@ -3646,7 +3802,8 @@
   "calls": [
    "WVFM-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://wmubroncos.com"
  },
  {
   "school": "University of Massachusetts Amherst",
@@ -3664,7 +3821,8 @@
   ],
   "streams": [
    "https://live.amperwave.net/manifest/saga-whmpamaac-hlsc1.m3u8?source=v7player"
-  ]
+  ],
+  "athletics_site": "https://umassathletics.com"
  },
  {
   "school": "California State University, Sacramento",
@@ -3680,7 +3838,8 @@
   "calls": [
    "KIFM-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://hornetsports.com"
  },
  {
   "school": "University of Delaware",
@@ -3696,7 +3855,8 @@
    "WDSD-FM",
    "WWTX-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://bluehens.com"
  },
  {
   "school": "Florida International University",
@@ -3713,7 +3873,8 @@
   "streams": [
    "https://cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8"
   ],
-  "game_only": true
+  "game_only": true,
+  "athletics_site": "https://fiusports.com"
  },
  {
   "school": "Jacksonville State University",
@@ -3731,7 +3892,8 @@
   ],
   "streams": [
    "http://s8.yesstreaming.net:7014/stream"
-  ]
+  ],
+  "athletics_site": "https://jsugamecocksports.com"
  },
  {
   "school": "Kennesaw State University",
@@ -3747,7 +3909,8 @@
   "calls": [],
   "streams": [
    "https://edge.mixlr.com/channel/iryqq"
-  ]
+  ],
+  "athletics_site": "https://ksuowls.com"
  },
  {
   "school": "Liberty University",
@@ -3765,7 +3928,8 @@
   "streams": [
    "https://ic.liberty.edu:8443/WRVL"
   ],
-  "station_website": "https://myjourneyfm.com"
+  "station_website": "https://myjourneyfm.com",
+  "athletics_site": "https://libertyflames.com"
  },
  {
   "school": "Middle Tennessee State University",
@@ -3781,7 +3945,8 @@
   "calls": [
    "WGNS"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://goblueraiders.com"
  },
  {
   "school": "Missouri State University",
@@ -3798,7 +3963,8 @@
   ],
   "streams": [
    "https://ais-sa1.streamon.fm/7678_48k.aac/playlist.m3u8"
-  ]
+  ],
+  "athletics_site": "https://missouristatebears.com"
  },
  {
   "school": "New Mexico State University",
@@ -3814,7 +3980,8 @@
   "calls": [
    "KXPZ-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://nmstatesports.com"
  },
  {
   "school": "Sam Houston State University",
@@ -3850,7 +4017,8 @@
    "WPTQ-FM",
    "WWKU-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://wkusports.com"
  },
  {
   "school": "Boise State University",
@@ -3867,7 +4035,8 @@
    "KBOI",
    "KTIK"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://broncosports.com"
  },
  {
   "school": "Colorado State University",
@@ -3883,7 +4052,8 @@
   "calls": [
    "KKFN"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://csurams.com"
  },
  {
   "school": "California State University, Fresno",
@@ -3899,7 +4069,8 @@
   "calls": [
    "KFIG"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://gobulldogs.com"
  },
  {
   "school": "Oregon State University",
@@ -3915,7 +4086,8 @@
   "calls": [
    "KEX"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://osubeavers.com"
  },
  {
   "school": "San Diego State University",
@@ -3932,7 +4104,8 @@
   "calls": [
    "KGB"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://goaztecs.com"
  },
  {
   "school": "Texas State University",
@@ -3949,7 +4122,8 @@
   "calls": [
    "KTSW"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://txst.com"
  },
  {
   "school": "Utah State University",
@@ -3966,7 +4140,8 @@
   "calls": [
    "KZNS-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://utahstateaggies.com"
  },
  {
   "school": "Washington State University",
@@ -3983,7 +4158,8 @@
   "calls": [
    "KIRO-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://wsucougars.com"
  },
  {
   "school": "United States Air Force Academy",
@@ -3999,7 +4175,8 @@
   "calls": [
    "KVOR-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://goairforcefalcons.com"
  },
  {
   "school": "University of Hawai'i at Manoa",
@@ -4017,7 +4194,8 @@
    "KKEA"
   ],
   "streams": [],
-  "station_website": "https://www.espnhonolulu.com/"
+  "station_website": "https://www.espnhonolulu.com/",
+  "athletics_site": "https://hawaiiathletics.com"
  },
  {
   "school": "University of Nevada, Reno",
@@ -4033,7 +4211,8 @@
   "calls": [
    "KOZZ-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://nevadawolfpack.com"
  },
  {
   "school": "University of New Mexico",
@@ -4051,7 +4230,8 @@
    "KKOB-AM",
    "KKOB-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://golobos.com"
  },
  {
   "school": "North Dakota State University",
@@ -4069,7 +4249,8 @@
    "KQWB-AM",
    "KPFX-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://gobison.com"
  },
  {
   "school": "Northern Illinois University",
@@ -4086,7 +4267,8 @@
   "calls": [
    "WDKB-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://niuhuskies.com"
  },
  {
   "school": "San Jos\u00e9 State University",
@@ -4104,7 +4286,8 @@
   "calls": [
    "KTRB-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://sjsuspartans.com"
  },
  {
   "school": "University of Nevada, Las Vegas",
@@ -4120,7 +4303,8 @@
   "calls": [
    "KWWN-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://unlvrebels.com"
  },
  {
   "school": "University of Texas at El Paso",
@@ -4136,7 +4320,8 @@
   "calls": [
    "KLAQ-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://utepminers.com"
  },
  {
   "school": "University of Wyoming",
@@ -4153,7 +4338,8 @@
    "KOWB-AM"
   ],
   "streams": [],
-  "station_website": "https://kowb1290.com"
+  "station_website": "https://kowb1290.com",
+  "athletics_site": "https://gowyo.com"
  },
  {
   "school": "University of Alabama",
@@ -4170,7 +4356,8 @@
    "WBPT",
    "WFFN"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://rolltide.com"
  },
  {
   "school": "University of Arkansas",
@@ -4187,7 +4374,8 @@
    "KABZ",
    "KAKS"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://arkansasrazorbacks.com"
  },
  {
   "school": "Auburn University",
@@ -4202,7 +4390,8 @@
   "calls": [
    "WGZZ"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://auburntigers.com"
  },
  {
   "school": "University of Florida",
@@ -4222,7 +4411,8 @@
    "https://ais-sa1.streamon.fm/7644_64k.mp3",
    "https://ais-sa1.streamon.fm/7644_48k.aac",
    "http://ais-sa1.streamon.fm/7644_48k.aac/playlist.m3u8"
-  ]
+  ],
+  "athletics_site": "https://floridagators.com"
  },
  {
   "school": "University of Georgia",
@@ -4240,7 +4430,8 @@
    "WSBB-FM"
   ],
   "streams": [],
-  "station_website": "https://www.wsbradio.com"
+  "station_website": "https://www.wsbradio.com",
+  "athletics_site": "https://georgiadogs.com"
  },
  {
   "school": "University of Kentucky",
@@ -4257,7 +4448,8 @@
    "WLAP-AM",
    "WBUL-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://ukathletics.com"
  },
  {
   "school": "Louisiana State University",
@@ -4272,7 +4464,8 @@
   "calls": [
    "WDGL-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://lsusports.net"
  },
  {
   "school": "University of Mississippi",
@@ -4311,7 +4504,8 @@
   "streams": [
    "https://live.amperwave.net/manifest/telesouth-wkbbfmaac-hlsc1.m3u8?source=v7player"
   ],
-  "station_website": "https://www.supertalk.fm/stations/golden-triangle-100-9/"
+  "station_website": "https://www.supertalk.fm/stations/golden-triangle-100-9/",
+  "athletics_site": "https://hailstate.com"
  },
  {
   "school": "University of Missouri",
@@ -4327,7 +4521,8 @@
   "calls": [
    "KWOS-AM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://mutigers.com"
  },
  {
   "school": "University of Oklahoma",
@@ -4344,7 +4539,8 @@
    "KRXO-FM"
   ],
   "streams": [],
-  "station_website": "https://thefranchiseok.com"
+  "station_website": "https://thefranchiseok.com",
+  "athletics_site": "https://soonersports.com"
  },
  {
   "school": "University of South Carolina",
@@ -4360,7 +4556,8 @@
   "calls": [
    "WNKT-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://gamecocksonline.com"
  },
  {
   "school": "University of Tennessee",
@@ -4377,7 +4574,8 @@
    "WIVK-FM",
    "WNML-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://utsports.com"
  },
  {
   "school": "University of Texas at Austin",
@@ -4394,7 +4592,8 @@
    "KVET-AM",
    "KVET-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://texassports.com"
  },
  {
   "school": "Texas A&M University",
@@ -4412,7 +4611,8 @@
    "WTAW",
    "KZNE"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://12thman.com"
  },
  {
   "school": "Vanderbilt University",
@@ -4428,6 +4628,7 @@
   "calls": [
    "WPRT-FM"
   ],
-  "streams": []
+  "streams": [],
+  "athletics_site": "https://vucommodores.com"
  }
 ]
