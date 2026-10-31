@@ -2273,19 +2273,15 @@
 "N.C. A&T Aggies"
 ],
 "network": "Aggie Sports Network",
-"flagship": "Historically WBRF 98.1 / WEAL 1510 AM (2015); 2026 flagship unconfirmed",
+"flagship": "Aggie Sports Network (official feed on NCATAggies.com)",
 "listen_page": "https://www.wnaafmhd.com/listen-to-us/",
 "conference": "Coastal Athletic Association",
-"calls": [
-"WBRF",
-"WEAL"
-],
+"calls": [],
 "game_only": null,
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://cdn.jwplayer.com/live/broadcast/KtfQesje.m3u8",
-"https://live.amperwave.net/manifest/blueridgeradio-wbrffmaac-hlsc4.m3u8"
+"https://cdn.jwplayer.com/live/broadcast/KtfQesje.m3u8"
 ],
 "misses": 0,
 "miss_day": null,

@@ -397,7 +397,7 @@ async function loadDirectory(){
   loadOdds(); setInterval(loadOdds, 15*60*1000);
   try{
     try{ playback = await getJSON("playback.json?t=" + Math.floor(Date.now()/300000)); }catch(e){}
-    const d = await getJSON("radio.json");
+    const d = await getJSON("radio.json?t=" + Math.floor(Date.now()/120000));
     for(const t of d.teams||[]) for(const n of [t.school, ...(t.names||[])]) if(n && !dirIndex.has(normName(n))) dirIndex.set(normName(n), t);
     events.forEach(e=>e.competitions[0].competitors.forEach(c=>attachRadio(c.team)));
     render(); fillStations();
@@ -589,7 +589,8 @@ async function prepareTeam(loc){
   const r = RADIO[loc]; if(!r?.streams) return;
   ready[loc] = [];
   const urls = [];
-  const good = store.get("ok:"+loc); if(good) urls.push(good);
+  // Follow the directory's order (official feeds first, music/blocked streams last) rather than
+  // whichever stream happened to work last time, so fixes reach phones right away.
   const saved = store.get("stream:"+loc); if(saved) urls.push(saved);
   for(const c of r.streams){ for(const u of await resolveCandidate(c)) urls.push(u); }
   ready[loc] = [...new Set(urls)];
@@ -964,7 +965,7 @@ const DARK = matchMedia("(prefers-color-scheme: dark)");
 function logoSrc(tm){ const u = tm.logo||""; return DARK.matches && /\/500\//.test(u) ? u.replace("/500/","/500-dark/") : u; }
 function logoImg(tm){ const u = tm.logo||"", d = logoSrc(tm); return `<img src="${d}" alt=""${d!==u?` data-f="${u}" onerror="this.onerror=null;this.src=this.dataset.f"`:""}>`; }
 // Names ESPN sends in all caps ("FT LAUDERDALE") read better in title case.
-function nameOf(tm){ const n = tm.shortDisplayName||tm.location||""; return /[a-z]/.test(n) || n.length<5 ? n : n.toLowerCase().replace(/\b[a-z]/g,c=>c.toUpperCase()); }
+function nameOf(tm){ const n = tm.shortDisplayName||tm.location||""; return /[a-z]/.test(n) || n.length<5 ? n : n.replace(/[A-Z]{4,}/g, w=>w[0]+w.slice(1).toLowerCase()); }
 function lum(hex){ const m=/^#?([0-9a-f]{6})$/i.exec(hex||""); if(!m) return null; const v=[0,2,4].map(i=>{const c=parseInt(m[1].slice(i,i+2),16)/255; return c<=.03928?c/12.92:((c+.055)/1.055)**2.4}); return .2126*v[0]+.7152*v[1]+.0722*v[2]; }
 function cdist(x,y){ const p=h=>[0,2,4].map(i=>parseInt(h.slice(i,i+2),16)); try{ const a=p(x),b=p(y); return Math.hypot(a[0]-b[0],a[1]-b[1],a[2]-b[2]); }catch(e){ return 999; } }
 // Team colors for bars, swapped for the alternate color when the main one would vanish
