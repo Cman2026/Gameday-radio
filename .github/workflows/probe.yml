@@ -1,0 +1,17 @@
+name: Probe URLs
+on:
+  workflow_dispatch:
+    inputs:
+      urls: { description: "Space-separated URLs", required: true }
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: |
+          exec > probe.txt 2>&1
+          for u in $URLS; do echo "===== $u"; curl -sS -L -m 20 -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36" -H "Origin: https://portal.stretchinternet.com" -H "Referer: https://portal.stretchinternet.com/" -D - "$u" | head -c 4000; echo; done
+        env: { URLS: "${{ github.event.inputs.urls }}" }
+      - run: tools/publish.sh "Probe URLs" probe.txt
