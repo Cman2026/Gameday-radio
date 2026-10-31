@@ -197,7 +197,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM7501-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "University of Miami",
@@ -341,7 +341,7 @@
 "game_feeds": [
 "https://img.leanstream.co/LF5401-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "Stanford University",
@@ -398,7 +398,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM4801-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "University of Virginia",
@@ -478,7 +478,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM2401-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "University of Notre Dame",
@@ -537,7 +537,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM3401-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "United States Military Academy",
@@ -793,7 +793,7 @@
 "game_feeds": [
 "https://cdn.jwplayer.com/live/broadcast/3j2GACVG.m3u8"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "Tulane University",
@@ -925,7 +925,11 @@
 "misses": 11,
 "miss_day": "2026-10-31",
 "last_ok": null,
-"game_feeds": null
+"game_feeds": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3"
+],
+"game_feeds_at": "2026-10-31T19:36:18Z",
+"live_only": true
 },
 {
 "school": "Arkansas State University",
@@ -1001,7 +1005,11 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-10-31",
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/LF2401-MP3"
+],
+"game_feeds_at": "2026-10-31T19:36:18Z",
+"live_only": true
 },
 {
 "school": "Georgia State University",
@@ -1110,7 +1118,7 @@
 "game_feeds": [
 "https://img.leanstream.co/LF2701-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "Marshall University",
@@ -1140,7 +1148,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM1601-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "Old Dominion University",
@@ -1197,7 +1205,7 @@
 "game_feeds": [
 "https://cdn.jwplayer.com/live/broadcast/v8UDwPON.m3u8"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "University of Southern Mississippi",
@@ -1227,7 +1235,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM1801-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "Troy University",
@@ -1440,7 +1448,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM7101-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "University of Houston",
@@ -1547,7 +1555,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM8001-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z",
+"game_feeds_at": "2026-10-31T19:36:18Z",
 "live_only": true
 },
 {
@@ -1606,7 +1614,7 @@
 "https://img.leanstream.co/IM4901-MP3",
 "https://img.leanstream.co/IM4903-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "Texas Tech University",
@@ -1636,7 +1644,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM8101-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "University of Central Florida",
@@ -1770,7 +1778,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM4001-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "Pennsylvania State University",
@@ -1861,7 +1869,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM7301-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "University of Iowa",
@@ -1975,7 +1983,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM8401-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "University of Nebraska-Lincoln",
@@ -2059,7 +2067,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM0801-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "Purdue University",
@@ -2115,7 +2123,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM4601-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "University of California, Los Angeles",
@@ -2455,7 +2463,7 @@
 "game_feeds": [
 "https://cdn.jwplayer.com/live/broadcast/KtfQesje.m3u8"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "University of Rhode Island",
@@ -2747,7 +2755,7 @@
 "game_feeds": [
 "https://stream.rcs.revma.com/x4q6k4dw57uvv"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "Villanova University",
@@ -4109,7 +4117,7 @@
 "game_feeds": [
 "https://img.leanstream.co/LF8101-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "University of Texas Rio Grande Valley",
@@ -4171,17 +4179,17 @@
 "no_radio": null,
 "notes": "WEIU Hit-Mix stream is token-signed (caster.fm); re-captured from the listen page each game",
 "streams": [
-"https://widgets.cloud.caster.fm/player/?token=3c7b4fe8-7d0a-45ce-87e5-9848426f9634&frameId=wfz5&theme=light&color=6C2BDD",
+"https://widgets.cloud.caster.fm/player/?token=3c7b4fe8-7d0a-45ce-87e5-9848426f9634&frameId=2xbpp&theme=light&color=6C2BDD",
 "https://widgets.cloud.caster.fm/cdn-cgi/rum?"
 ],
 "misses": 1,
 "miss_day": "2026-10-31",
 "last_ok": null,
 "game_feeds": [
-"https://widgets.cloud.caster.fm/player/?token=3c7b4fe8-7d0a-45ce-87e5-9848426f9634&frameId=wfz5&theme=light&color=6C2BDD",
+"https://widgets.cloud.caster.fm/player/?token=3c7b4fe8-7d0a-45ce-87e5-9848426f9634&frameId=2xbpp&theme=light&color=6C2BDD",
 "https://widgets.cloud.caster.fm/cdn-cgi/rum?"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z",
+"game_feeds_at": "2026-10-31T19:36:18Z",
 "live_only": true
 },
 {
@@ -4444,7 +4452,7 @@
 "game_feeds": [
 "https://cdn.jwplayer.com/live/broadcast/3TH9Dtwc.m3u8"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "Morehead State University",
@@ -4473,7 +4481,7 @@
 "game_feeds": [
 "https://ice5.securenetsystems.net/WIVY?playSessionID=CAD94437-8A97-4B89-A64B6786D95C079F"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "Presbyterian College",
@@ -4528,7 +4536,7 @@
 "game_feeds": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KSTPAM.mp3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "University of San Diego",
@@ -4626,7 +4634,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM7701-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "Montana State University",
@@ -4660,7 +4668,7 @@
 "game_feeds": [
 "https://img.leanstream.co/LF3701-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "Eastern Washington University",
@@ -4718,7 +4726,7 @@
 "game_feeds": [
 "https://img.leanstream.co/LF2501-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "Idaho State University",
@@ -4776,7 +4784,7 @@
 "game_feeds": [
 "https://img.leanstream.co/LF4401-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "University of Northern Colorado",
@@ -4981,7 +4989,7 @@
 "game_feeds": [
 "https://img.leanstream.co/LF2601-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "Indiana State University",
@@ -5010,7 +5018,7 @@
 "game_feeds": [
 "https://live.amperwave.net/manifest/jdl-wvigfmaac-hlsc.m3u8"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "Murray State University",
@@ -5040,7 +5048,7 @@
 "game_feeds": [
 "https://img.leanstream.co/LF8301-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "University of North Dakota",
@@ -5096,7 +5104,7 @@
 "game_feeds": [
 "https://img.leanstream.co/LF4601-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "University of South Dakota",
@@ -5127,7 +5135,7 @@
 "game_feeds": [
 "https://img.leanstream.co/LF5201-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "South Dakota State University",
@@ -5157,7 +5165,7 @@
 "game_feeds": [
 "https://img.leanstream.co/LF6801-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "Southern Illinois University",
@@ -5346,7 +5354,7 @@
 "game_feeds": [
 "https://cdn.jwplayer.com/live/broadcast/lCnCjo63.m3u8"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "Tarleton State University",
@@ -5801,16 +5809,16 @@
 "notes": null,
 "streams": [
 "https://cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8",
-"https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8?exp=1793474160&sig=18c21c8e490a452f93d755294aafb74e"
+"https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8?exp=1793476080&sig=9e569bef4b20e2fc47d1d8ca3afbe97f"
 ],
 "misses": 11,
 "miss_day": "2026-10-31",
 "last_ok": null,
 "game_feeds": [
 "https://cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8",
-"https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8?exp=1793474160&sig=18c21c8e490a452f93d755294aafb74e"
+"https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8?exp=1793476080&sig=9e569bef4b20e2fc47d1d8ca3afbe97f"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z",
+"game_feeds_at": "2026-10-31T19:36:18Z",
 "live_only": true
 },
 {
@@ -5888,7 +5896,7 @@
 "game_feeds": [
 "https://cdn.jwplayer.com/live/broadcast/HbKj5OE5.m3u8"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "Middle Tennessee State University",
@@ -6070,7 +6078,7 @@
 "game_feeds": [
 "https://img.leanstream.co/LF1701-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "California State University, Fresno",
@@ -6207,7 +6215,7 @@
 "game_feeds": [
 "https://img.leanstream.co/LF6301-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "Washington State University",
@@ -6267,7 +6275,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM2601-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "University of Hawai'i at Manoa",
@@ -6382,7 +6390,7 @@
 "game_feeds": [
 "https://img.leanstream.co/LF7501-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "Northern Illinois University",
@@ -6497,7 +6505,7 @@
 "game_feeds": [
 "https://cdn.jwplayer.com/live/broadcast/hjufVnQl.m3u8"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "University of Wyoming",
@@ -6633,7 +6641,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM3601-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "University of Georgia",
@@ -6665,7 +6673,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM5001-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "University of Kentucky",
@@ -6748,7 +6756,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM4101-MP3"
 ],
-"game_feeds_at": "2026-10-31T18:59:44Z"
+"game_feeds_at": "2026-10-31T19:36:18Z"
 },
 {
 "school": "Mississippi State University",
