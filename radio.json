@@ -1,5 +1,5 @@
 {
-"built": "2026-10-31T14:04:17Z",
+"built": "2026-10-31T14:22:26Z",
 "teams": [
 {
 "school": "Boston College",
@@ -32,16 +32,21 @@
 "California Golden Bears"
 ],
 "network": "Cal Bears Sports Network (Learfield)",
-"flagship": "810 AM (KGO, possibly re-called KSFO 810) - Cal Bears Sports Network",
+"flagship": "810 AM KSFO (formerly KGO), San Francisco",
 "listen_page": "",
 "conference": "ACC",
 "calls": [
+"KSFO-AM",
 "KGO-AM"
 ],
 "game_only": null,
-"streams": [],
+"streams": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KSFOAMAAC.aac",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KSFOAMAAC.m3u8",
+"http://playerservices.streamtheworld.com/api/livestream-redirect/KSFOAMAAC.aac"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-31"
 },
 {
 "school": "Clemson University",
@@ -463,7 +468,7 @@
 "https://livecdn.use1-0009.jwplive.com/live/sites/52ztEVMl/media/ncAcaXBq/live.isml/.m3u8",
 "https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8?exp=1793411280&sig=93efabbfc2fa5e2718fbba2a13937ed1"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -736,7 +741,7 @@
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3"
 ],
-"misses": 7,
+"misses": 8,
 "last_ok": null
 },
 {
@@ -790,7 +795,7 @@
 "Georgia Southern Eagles"
 ],
 "network": "Georgia Southern Sports Network",
-"flagship": "WHKN 94.9 FM (Statesboro, GA)",
+"flagship": "94.9 FM Statesboro",
 "listen_page": "",
 "conference": "Sun Belt Conference",
 "calls": [
@@ -1409,7 +1414,7 @@
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WCSXFMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WCSXFM.mp3"
 ],
-"misses": 1,
+"misses": 2,
 "last_ok": "2026-10-30"
 },
 {
@@ -1782,15 +1787,19 @@
 "Albany",
 "UAlbany Great Danes"
 ],
-"network": "",
-"flagship": "",
+"network": "UAlbany Great Danes Radio",
+"flagship": "104.5 The Team ESPN Radio (WTMM-FM, Albany)",
 "listen_page": "",
 "conference": "Coastal Athletic Association",
-"calls": [],
+"calls": [
+"WTMM-FM"
+],
 "game_only": null,
-"streams": [],
+"streams": [
+"https://live.amperwave.net/manifest/townsquare-wtmmfmaac-ibc3"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-31"
 },
 {
 "school": "Bryant University",
@@ -1823,7 +1832,7 @@
 "listen_page": "https://gocamels.com",
 "conference": "Coastal Athletic Association",
 "calls": [],
-"game_only": null,
+"game_only": true,
 "streams": [],
 "misses": 0,
 "last_ok": "2026-10-30"
@@ -2172,14 +2181,20 @@
 "Richmond Spiders"
 ],
 "network": "",
-"flagship": "W291CL 106.1 FM '106.1 ESPN' (Richmond, VA)",
+"flagship": "106.1 ESPN Richmond (WURV-HD2)",
 "listen_page": "",
 "conference": "Patriot League",
-"calls": [],
-"game_only": null,
-"streams": [],
+"calls": [
+"WURV-FM"
+],
+"game_only": true,
+"streams": [
+"https://stream.rcs.revma.com/uupm8cdw57uvv",
+"https://stream.rcs.revma.com/uupm8cdw57uvv/hls.m3u8",
+"http://stream.rcs.revma.com/uupm8cdw57uvv"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-31"
 },
 {
 "school": "Villanova University",
@@ -2233,10 +2248,10 @@
 ],
 "network": "",
 "flagship": "",
-"listen_page": "",
+"listen_page": "https://brownbears.com/Audio",
 "conference": "Ivy League",
 "calls": [],
-"game_only": null,
+"game_only": true,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -2790,14 +2805,20 @@
 "Howard Bison"
 ],
 "network": "",
-"flagship": "",
+"flagship": "WHBC (WHUR 96.3 HD3, Washington DC)",
 "listen_page": "",
 "conference": "MEAC",
-"calls": [],
+"calls": [
+"WHBC"
+],
 "game_only": null,
-"streams": [],
+"streams": [
+"https://live.amperwave.net/direct/alphacorporate-whbcamaac-ibc4",
+"https://live.amperwave.net/direct/alphacorporate-whbcfmaac-ibc4",
+"http://live.amperwave.net/direct/alphacorporate-whbcamaac-ibc4"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-31"
 },
 {
 "school": "Morgan State University",
@@ -2868,7 +2889,7 @@
 "South Carolina State Bulldogs"
 ],
 "network": "",
-"flagship": "WPJK 1580 AM / 92.9 FM 'ESPN Orangeburg' (Orangeburg, SC)",
+"flagship": "ESPN Orangeburg 1580 AM / 92.9 FM",
 "listen_page": "https://espnorangeburg.com",
 "conference": "MEAC",
 "calls": [
@@ -3022,7 +3043,7 @@
 "Tennessee Tech Golden Eagles"
 ],
 "network": "Golden Eagle Sports Network (Cookeville Communications)",
-"flagship": "WPTN 780 AM / W291CA 106.1 FM '106.1 The Eagle' (Cookeville, TN)",
+"flagship": "106.1 The Eagle / 780 AM, Cookeville",
 "listen_page": "https://ttusports.com",
 "conference": "Southern Conference",
 "calls": [
@@ -3105,11 +3126,11 @@
 "Wofford Terriers"
 ],
 "network": "Wofford Digital Network (Learfield)",
-"flagship": "No terrestrial flagship named (digital network)",
-"listen_page": "https://woffordterriers.com/radio",
+"flagship": "Wofford Digital Network (school stream)",
+"listen_page": "https://wofford.leanplayer.com/",
 "conference": "Southern Conference",
 "calls": [],
-"game_only": null,
+"game_only": true,
 "streams": [],
 "misses": 0,
 "last_ok": null
@@ -3307,7 +3328,7 @@
 "UTRGV Vaqueros"
 ],
 "network": "",
-"flagship": "XHRYS 90.1 FM 'Ultra 90.1' (Rio Grande Valley)",
+"flagship": "Ultra 90.1 (Vaqueros Sports Network)",
 "listen_page": "",
 "conference": "Southland Conference",
 "calls": [],
@@ -3341,7 +3362,7 @@
 "Eastern Illinois Panthers"
 ],
 "network": "",
-"flagship": "Hit Mix 88.9 FM (WEIU-FM, Charleston, IL)",
+"flagship": "WEIU 88.9 Hit-Mix, Charleston",
 "listen_page": "https://www.weiu.net/hitmix/",
 "conference": "OVC-Big South Football Association",
 "calls": [
@@ -3463,7 +3484,7 @@
 "Western Illinois Leathernecks"
 ],
 "network": "",
-"flagship": "Q98.1 FM (Canton, IL)",
+"flagship": "Q98.1 FM, Canton IL",
 "listen_page": "http://www.q981fm.com",
 "conference": "OVC-Big South Football Association",
 "calls": [],
@@ -3533,7 +3554,7 @@
 "Drake Bulldogs"
 ],
 "network": "",
-"flagship": "KRNT 1350 AM / 102.1 FM 'ESPN Des Moines' (Des Moines, IA)",
+"flagship": "ESPN Des Moines 1350 AM / 102.1 FM",
 "listen_page": "",
 "conference": "Pioneer Football League",
 "calls": [
@@ -3664,7 +3685,7 @@
 "Valparaiso Beacons"
 ],
 "network": "",
-"flagship": "WVUR 95.1 FM (Valparaiso, IN)",
+"flagship": "WVUR 95.1, Valparaiso",
 "listen_page": "",
 "conference": "Pioneer Football League",
 "calls": [
@@ -4207,10 +4228,12 @@
 "Central Arkansas Bears"
 ],
 "network": "",
-"flagship": "",
+"flagship": "KUCA 91.3 The Bear, Conway",
 "listen_page": "",
 "conference": "United Athletic Conference",
-"calls": [],
+"calls": [
+"KUCA-FM"
+],
 "game_only": null,
 "streams": [],
 "misses": 0,
@@ -4225,14 +4248,18 @@
 "Colonels"
 ],
 "network": "",
-"flagship": "",
+"flagship": "100.7 The Coyote",
 "listen_page": "https://ekusports.com",
 "conference": "United Athletic Conference",
-"calls": [],
+"calls": [
+"WCYO-FM"
+],
 "game_only": null,
-"streams": [],
+"streams": [
+"https://streams.radio.co/sd1bcd1376/listen#.mp3"
+],
 "misses": 0,
-"last_ok": null
+"last_ok": "2026-10-31"
 },
 {
 "school": "University of North Alabama",
@@ -4242,7 +4269,7 @@
 "North Alabama Lions"
 ],
 "network": "",
-"flagship": "WLXA 98.3 FM 'WLX' (Florence, AL)",
+"flagship": "98.3 WLX, Florence",
 "listen_page": "",
 "conference": "United Athletic Conference",
 "calls": [
@@ -4302,10 +4329,12 @@
 "West Georgia Wolves"
 ],
 "network": "",
-"flagship": "",
+"flagship": "KISS 102.7, Carrollton",
 "listen_page": "",
 "conference": "United Athletic Conference",
-"calls": [],
+"calls": [
+"WCKS-FM"
+],
 "game_only": null,
 "streams": [],
 "misses": 0,
@@ -4633,7 +4662,7 @@
 "streams": [
 "https://cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8"
 ],
-"misses": 7,
+"misses": 8,
 "last_ok": null
 },
 {
@@ -4766,13 +4795,13 @@
 "Sam Houston Bearkats"
 ],
 "network": "Bearkat Sports Network",
-"flagship": "KSHU 90.5 FM (Huntsville, TX)",
-"listen_page": "https://gobearkats.com",
+"flagship": "KSHU 90.5, Huntsville (Bearkat Sports Network)",
+"listen_page": "https://gobearkats.com/showcase",
 "conference": "Conference USA",
 "calls": [
 "KSHU-FM"
 ],
-"game_only": null,
+"game_only": true,
 "streams": [],
 "misses": 0,
 "last_ok": null
