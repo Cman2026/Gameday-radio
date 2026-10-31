@@ -1,0 +1,11 @@
+name: Domain check
+on: workflow_dispatch
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "== DNS"; dig +short gamedayradiolive.com A; dig +short www.gamedayradiolive.com CNAME
+          echo "== HTTPS"; curl -sS -o /dev/null -w "https status %{http_code}, ssl verify %{ssl_verify_result}\n" https://gamedayradiolive.com/ || echo "https failed"
+          echo "== HTTP"; curl -sS -o /dev/null -w "http status %{http_code} -> %{redirect_url}\n" http://gamedayradiolive.com/
+          echo "== cert"; echo | openssl s_client -connect gamedayradiolive.com:443 -servername gamedayradiolive.com 2>/dev/null | openssl x509 -noout -subject -issuer -dates || true
