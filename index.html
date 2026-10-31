@@ -948,7 +948,6 @@ function renderBoard(){
   const r = radioFor(e);
   html += `<div class="radio-info"><p class="label">Radio for this game</p><ul>${r.map(x=>`<li><b>${esc(x.team)}</b> ${esc(x.net||"")}${x.station && !/radio$/i.test(x.net||"") ? `, ${esc(String(x.station).replace(/\s*\(no free online stream found\)/,""))}` : ""}${x.stream ? "" : ` <span class="note">(no free stream)</span>`}</li>`).join("")}</ul>
   <span class="note">Each team's own radio broadcast. If one won't connect, try the other team's call.</span>
-  <p class="legal">Broadcasts play directly from each station's own stream and belong to their respective owners. No copyright infringement is intended. Gameday Radio Live is an independent fan project and is not affiliated with or endorsed by any school, conference, network or station. Rights holders can <a href="https://github.com/Cman2026/Gameday-radio/issues" target="_blank" rel="noopener">request removal</a>.</p></div>`;
   B.innerHTML = html;
   B.querySelectorAll("[data-play]").forEach(l=>l.onclick=ev=>{ev.preventDefault(); $("#station").value = "team:"+l.dataset.play; startStation();});
 }
