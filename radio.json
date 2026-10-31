@@ -1881,6 +1881,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://ice23.securenetsystems.net/KUOO",
 "https://stream.revma.ihrhls.com/zc925",
 "https://stream.revma.ihrhls.com/zc925/hls.m3u8",
 "http://stream.revma.ihrhls.com/zc925"
@@ -4160,20 +4161,26 @@
 "Eastern Illinois Panthers"
 ],
 "network": "",
-"flagship": "WEIU 88.9 Hit-Mix, Charleston",
+"flagship": "WEIU Hit-Mix 88.9 FM (Charleston, IL)",
 "listen_page": "https://www.weiu.net/hitmix/",
 "conference": "OVC-Big South Football Association",
 "calls": [
 "WEIU-FM"
 ],
-"game_only": null,
+"game_only": true,
 "no_radio": null,
-"notes": null,
-"streams": [],
+"notes": "WEIU Hit-Mix stream is token-signed (caster.fm); re-captured from the listen page each game",
+"streams": [
+"https://sapircast.caster.fm:16202/P2Ofj?token=1a4249977845536b323340e810366391"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
-"game_feeds": null
+"game_feeds": [
+"https://sapircast.caster.fm:16202/P2Ofj?token=1a4249977845536b323340e810366391"
+],
+"game_feeds_at": "2026-10-31T18:58:00Z",
+"live_only": true
 },
 {
 "school": "Gardner-Webb University",

@@ -1196,9 +1196,12 @@
    "WHO",
    "KXIC"
   ],
-  "streams": [],
+  "streams": [
+   "https://ice23.securenetsystems.net/KUOO"
+  ],
   "station_website": "https://whoradio.iheart.com",
-  "athletics_site": "https://hawkeyesports.com"
+  "athletics_site": "https://hawkeyesports.com",
+  "notes": " KUOO 103.9 Spirit Lake (Community First Broadcasting, non-iHeart Hawkeye affiliate) added because iHeart streams are geofenced."
  },
  {
   "school": "University of Maryland",
@@ -2779,7 +2782,7 @@
    "Eastern Illinois Panthers"
   ],
   "network": "",
-  "flagship": "WEIU 88.9 Hit-Mix, Charleston",
+  "flagship": "WEIU Hit-Mix 88.9 FM (Charleston, IL)",
   "listen_page": "https://www.weiu.net/hitmix/",
   "conference": "OVC-Big South Football Association",
   "calls": [
@@ -2787,7 +2790,9 @@
   ],
   "streams": [],
   "athletics_site": "https://eiupanthers.com",
-  "station_website": "https://www.weiu.net/hitmix/streaming.php"
+  "station_website": "https://www.weiu.net/hitmix/streaming.php",
+  "game_only": true,
+  "notes": "WEIU Hit-Mix stream is token-signed (caster.fm); re-captured from the listen page each game"
  },
  {
   "school": "Gardner-Webb University",
