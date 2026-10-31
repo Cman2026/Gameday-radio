@@ -5,165 +5,218 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Gameday Radio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@500;600;700&display=swap">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/1.5.13/hls.min.js"></script>
 <style>
-/* Layout: stadium-night scoreboard. Game list on the left, selected game + radio deck on the right; stacks on phones. */
+/* Gameday Radio — broadcast-graphics look. Neutral surfaces; team colors and logos carry the color.
+   Amber = audio controls, red = live. Barlow for text, Barlow Condensed for scores and clocks. */
 :root{
-  --night:#0d1218; --panel:#151c25; --panel-2:#1c2531; --line:#2a3644;
-  --chalk:#e9eef3; --dim:#8d9cab; --turf:#3fb36b; --bulb:#ffc23d; --red:#ff5d5d;
-  --display:"Saira Condensed","Arial Narrow",system-ui,sans-serif;
-  --body:"IBM Plex Sans",system-ui,-apple-system,sans-serif;
-  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
-  color-scheme:dark;
+  --bg:#F2F3F5; --surface:#FFFFFF; --surface-2:#F6F7F9; --line:#E2E5EA; --line-2:#D3D8DF;
+  --text:#11161D; --muted:#5F6B7A; --faint:#8A95A3;
+  --accent:#C77700; --accent-ink:#FFFFFF; --accent-soft:#FFF3DF;
+  --live:#D6303A; --win:#11161D;
+  --field-a:#2E7A47; --field-b:#33854E;
+  --ui:"Barlow",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --num:"Barlow Condensed","Barlow",system-ui,sans-serif;
+  --r-lg:14px; --r-md:10px; --r-sm:8px;
+  color-scheme:light;
 }
+@media (prefers-color-scheme:dark){:root{
+  --bg:#0F141A; --surface:#171D25; --surface-2:#1D242D; --line:#29313B; --line-2:#36404C;
+  --text:#ECEFF3; --muted:#9AA5B2; --faint:#6F7A87;
+  --accent:#F2A93B; --accent-ink:#1A1206; --accent-soft:#2A2110;
+  --live:#FF5C63; --win:#FFFFFF; --field-a:#24603A; --field-b:#286A40;
+  color-scheme:dark;
+}}
 *{box-sizing:border-box}
-html,body{margin:0;background:var(--night);color:var(--chalk);font:15px/1.45 var(--body)}
-a{color:var(--bulb)}
+html,body{margin:0;background:var(--bg);color:var(--text);font:400 16px/1.4 var(--ui);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+a{color:var(--accent);text-underline-offset:2px}
 button,input,select{font:inherit;color:inherit}
-:focus-visible{outline:2px solid var(--bulb);outline-offset:2px}
-.wrap{max-width:1180px;margin:0 auto;padding-block:16px 40px;
-  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
-header{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 16px;margin-bottom:16px}
-h1{font:800 34px/1 var(--display);letter-spacing:.02em;text-transform:uppercase;margin:0}
-h1 span{color:var(--bulb)}
-.status{font:500 12px var(--mono);color:var(--dim);display:flex;gap:12px;align-items:center;flex-wrap:wrap}
-.dot{width:8px;height:8px;border-radius:50%;background:var(--dim);display:inline-block;margin-right:6px}
-.dot.ok{background:var(--turf)} .dot.err{background:var(--red)}
-.toolbar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
-.chip{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:6px 14px;cursor:pointer;font-size:13px}
-.chip[aria-pressed="true"]{background:var(--chalk);color:var(--night);border-color:var(--chalk)}
-.grid{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:20px}
-@media (max-width:820px){.grid{grid-template-columns:minmax(0,1fr)}}
-.list{display:flex;flex-direction:column;gap:8px}
-.card{cursor:pointer;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px;cursor:pointer;text-align:left;width:100%;display:grid;gap:4px}
-.card[aria-current="true"]{border-color:var(--bulb);box-shadow:0 0 0 1px var(--bulb) inset}
-.card .row{display:flex;justify-content:space-between;align-items:center;gap:8px}
-.card .tm{display:flex;align-items:center;gap:8px;min-width:0;font-weight:500}
-.card .tm img{width:22px;height:22px;object-fit:contain}
-.card .tm span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.card .sc{font:700 22px/1 var(--display);font-variant-numeric:tabular-nums}
-.card .meta{font:500 11px var(--mono);color:var(--dim);display:flex;justify-content:space-between;gap:8px}
-.live{color:var(--red)} .live::before{content:"● ";}
-.ear{flex:none;display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--panel-2);color:var(--chalk);border-radius:999px;padding:5px 10px 5px 8px;font:600 12px var(--body);cursor:pointer}
-.ear::before{content:"▶";font-size:10px;color:var(--bulb)}
-.ear.on{background:var(--bulb);color:var(--night);border-color:var(--bulb)} .ear.on::before{content:"❚❚";color:var(--night)}
-.ear.wait::before{content:"…"}
-.ear[disabled]{opacity:.45;cursor:default}
-.card .row .right{display:flex;align-items:center;gap:10px}
-.side .ear{justify-self:center;margin-top:4px}
-.more{display:contents} .more[hidden]{display:none!important}
-.syncrow{display:flex;align-items:center;gap:6px;flex:1 1 100%;font:500 12px var(--mono);color:var(--dim)}
-.syncrow .lab{text-transform:uppercase;letter-spacing:.1em;font:600 11px var(--body)}
-.syncrow .val{min-width:118px;text-align:center;color:var(--chalk);font-variant-numeric:tabular-nums}
-.btn.sm{padding:5px 10px;font-size:13px}
-.filters{display:grid;gap:8px;margin-bottom:10px}
-.filters input[type=search]{width:100%;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:9px 12px;color:var(--chalk)}
-.chips{display:flex;flex-wrap:wrap;gap:6px}
-.chip{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:5px 12px;cursor:pointer;font-size:13px}
-.chip[aria-pressed="true"]{background:var(--chalk);color:var(--night);border-color:var(--chalk)}
-.chip .n{opacity:.6;margin-left:4px;font:500 11px var(--mono)}
-.fav{flex:none;border:0;background:none;color:var(--dim);font-size:16px;line-height:1;cursor:pointer;padding:2px}
-.fav.on{color:var(--bulb)}
-.card .div{font:600 10px var(--body);letter-spacing:.08em;color:var(--dim);border:1px solid var(--line);border-radius:4px;padding:0 4px;margin-left:6px}
-.now small .dsc{display:inline;color:var(--chalk);font:600 12px var(--body);text-transform:none;letter-spacing:0;white-space:nowrap}
-.now small .drz{color:var(--red);font-weight:600}
-.now small .dwarn{color:var(--bulb)}
-.conf{font:700 13px var(--display);text-transform:uppercase;letter-spacing:.1em;color:var(--bulb);margin:10px 2px 2px}
-.up{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:grid;gap:6px}
-.up .tr{display:grid;grid-template-columns:22px 22px minmax(0,1fr) auto auto 44px;align-items:center;gap:8px}
-.up .ear{padding:3px 9px 3px 7px;font-size:11px}
-.up .tr img{width:22px;height:22px;object-fit:contain}
-.up .at{color:var(--dim);font:600 13px var(--mono);text-align:center}
-.up .nm{font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.up .rk{font:600 11px var(--mono);color:var(--dim);margin-right:4px}
-.up .rec{font:500 12px var(--mono);color:var(--dim);font-variant-numeric:tabular-nums}
-.up .pct{font:700 15px var(--display);text-align:right;font-variant-numeric:tabular-nums}
-.up .pct.fav{color:var(--bulb)}
-.up .wpbar{display:flex;height:5px;border-radius:3px;overflow:hidden;background:var(--line)}
-.up .wpbar span{display:block;height:100%}
-.up .meta{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 10px;font:500 11px var(--mono);color:var(--dim)}
-.up .meta b{color:var(--chalk);font-weight:500}
+button{-webkit-tap-highlight-color:transparent}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
 [hidden]{display:none!important}
-.minbtn{flex:none;width:52px;height:52px;padding:0;line-height:1;align-self:flex-start;display:grid;place-items:center;color:var(--chalk)}
-.minbtn svg{transition:transform .2s;transform:rotate(180deg)}
-.deck.min .minbtn svg{transform:none}
-.deck.min .minbtn{width:46px;height:46px}
-.deck.min{padding-top:6px}
-.deck.min .syncrow,.deck.min #moreBtn,.deck.min #more{display:none!important}
-.deck.min .play-btn{width:38px;height:38px;font-size:15px}
-.deck.min .now small{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
-.fin{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px 12px;display:grid;gap:4px}
-.fin .tr{display:grid;grid-template-columns:22px minmax(0,1fr) auto 34px;align-items:center;gap:8px;color:var(--dim)}
-.fin .tr img{width:22px;height:22px;object-fit:contain}
-.fin .tr.win{color:var(--chalk);font-weight:600}
-.fin .sc{font:700 18px var(--display);text-align:right;font-variant-numeric:tabular-nums}
-.fin .rec{font:500 12px var(--mono)}
-.fin .meta{font:500 11px var(--mono);color:var(--dim)}
-.empty{color:var(--dim);background:var(--panel);border:1px dashed var(--line);border-radius:10px;padding:16px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 
-.board{background:linear-gradient(180deg,var(--panel-2),var(--panel));border:1px solid var(--line);border-radius:14px;padding:18px;display:grid;gap:16px;min-width:0}
-.score{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:12px}
-.side{display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center;min-width:0}
-.side img{width:64px;height:64px;object-fit:contain}
-.side .nm{font:700 20px/1.05 var(--display);text-transform:uppercase;letter-spacing:.02em;text-wrap:balance}
-.side .rec{font:500 11px var(--mono);color:var(--dim)}
-.side .big{font:800 64px/1 var(--display);font-variant-numeric:tabular-nums;color:var(--bulb);text-shadow:0 0 18px rgba(255,194,61,.25)}
-.side.poss .nm::after{content:" 🏈";font-size:.8em}
-.to{display:flex;gap:4px;justify-content:center}
-.to i{width:14px;height:4px;border-radius:2px;background:var(--bulb)} .to i.used{background:var(--line)}
-.mid{text-align:center;display:grid;gap:4px}
-.clock{font:500 26px var(--mono);font-variant-numeric:tabular-nums}
-.per{font:700 14px var(--display);text-transform:uppercase;letter-spacing:.08em;color:var(--dim)}
-.sit{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
-.pill{font:600 12px var(--body);padding:4px 10px;border-radius:999px;background:var(--panel-2);border:1px solid var(--line)}
-.pill.rz{background:var(--red);border-color:var(--red);color:#fff}
-.field{position:relative;height:46px;border-radius:6px;overflow:hidden;
-  background:repeating-linear-gradient(90deg,#24703f 0 10%,#2a7c47 10% 20%);border:2px solid #e9eef3}
-.field .ez{position:absolute;top:0;bottom:0;width:8%;display:flex;align-items:center;justify-content:center;font:700 10px var(--display);color:#fff;letter-spacing:.1em;writing-mode:vertical-rl}
-.field .ez.l{left:0} .field .ez.r{right:0}
-.field .ball{position:absolute;top:50%;width:14px;height:14px;margin:-7px 0 0 -7px;border-radius:50%;background:var(--bulb);box-shadow:0 0 10px var(--bulb);transition:left .6s}
-.field .fd{position:absolute;top:0;bottom:0;width:2px;background:var(--bulb);opacity:.85;transition:left .6s}
-.field .ls{position:absolute;top:0;bottom:0;width:2px;background:#4da3ff;transition:left .6s}
-.last{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--bulb);border-radius:8px;padding:10px 12px}
-.label{font:600 11px var(--body);text-transform:uppercase;letter-spacing:.1em;color:var(--dim);margin:0 0 4px}
-.wp{display:grid;gap:4px}
-.wpbar{display:flex;height:8px;border-radius:4px;overflow:hidden;background:var(--line)}
-.wpbar span{display:block;height:100%}
-.wpl{display:flex;justify-content:space-between;font:500 11px var(--mono);color:var(--dim)}
-.plays{max-height:360px;overflow:auto;display:flex;flex-direction:column;gap:2px;border:1px solid var(--line);border-radius:8px}
-.drive{padding:8px 12px;background:var(--panel-2);font:600 12px var(--body);display:flex;justify-content:space-between;gap:8px;position:sticky;top:0}
-.play{padding:6px 12px;display:grid;grid-template-columns:auto minmax(0,1fr);gap:10px;font-size:13px;border-top:1px solid var(--line)}
-.play .t{font:500 11px var(--mono);color:var(--dim);white-space:nowrap;padding-top:2px}
-.play.scoring{background:rgba(255,194,61,.08)} .play.scoring .tx{font-weight:600}
-.play .dd{display:block;font:500 11px var(--mono);color:var(--dim)}
-
-/* radio deck fixed to bottom */
-.deck{position:sticky;top:0;z-index:20;background:#0a0e13f2;backdrop-filter:blur(8px);border-bottom:1px solid var(--line);
-  padding-bottom:10px;padding-top:calc(10px + env(safe-area-inset-top,0px));
+/* ---------- Page ---------- */
+.wrap{max-width:1120px;margin:0 auto;padding-block:14px 48px;
   padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
-.deck-in{max-width:1180px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px}
-.play-btn{width:46px;height:46px;border-radius:50%;border:0;background:var(--bulb);color:var(--night);font-size:18px;cursor:pointer;flex:none}
-.now{min-width:0;flex:1 1 180px}
-.now b{display:block;font:700 16px var(--display);text-transform:uppercase;letter-spacing:.03em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.now small{color:var(--dim);font-size:12px}
-.deck select,.deck input[type=url]{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px 10px;min-width:0}
-.deck select{flex:0 1 230px}
-.deck input[type=url]{flex:1 1 220px}
-.btn{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px 12px;cursor:pointer;white-space:nowrap}
-.sync{display:flex;align-items:center;gap:8px;font:500 12px var(--mono);color:var(--dim)}
-.sync input{width:110px;accent-color:var(--bulb)}
-.vol{width:90px;accent-color:var(--bulb)}
-.radio-info{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px;font-size:13px;display:grid;gap:6px}
-.radio-info ul{margin:0;padding-left:18px}
-.note{color:var(--dim);font-size:12px}
-@media (prefers-reduced-motion:reduce){.field .ball,.field .fd,.field .ls{transition:none}}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:2px 2px 14px}
+h1{display:flex;align-items:center;gap:8px;margin:0;font:700 22px/1 var(--num);letter-spacing:.01em}
+h1 .mark{width:22px;height:22px;color:var(--accent);flex:none}
+h1 span{color:inherit}
+.status{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums;text-align:right}
+.status #upd:empty{display:none}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--faint);display:inline-block;margin-right:6px;flex:none}
+.dot.ok{background:#2FA35A} .dot.warn{background:var(--accent)} .dot.err{background:var(--live)}
+.grid{display:grid;grid-template-columns:minmax(0,380px) minmax(0,1fr);gap:24px;align-items:start}
+@media (max-width:860px){.grid{grid-template-columns:minmax(0,1fr)}}
+
+/* ---------- Search + segmented filter ---------- */
+.filters{display:grid;gap:10px;margin-bottom:14px}
+.filters input[type=search]{width:100%;height:42px;border:1px solid var(--line);border-radius:var(--r-md);background:var(--surface);padding:0 12px 0 36px;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238A95A3' stroke-width='2' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='m20 20-3.5-3.5'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:11px 50%;background-size:17px}
+.filters input[type=search]::placeholder{color:var(--faint)}
+.chips{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:2px;padding:3px;background:var(--surface-2);border:1px solid var(--line);border-radius:var(--r-md)}
+.chip{border:0;background:transparent;border-radius:7px;height:34px;padding:0 6px;font-size:14px;font-weight:500;color:var(--muted);cursor:pointer;white-space:nowrap;display:flex;align-items:center;justify-content:center;gap:5px}
+.chip[aria-pressed="true"]{background:var(--surface);color:var(--text);font-weight:600;box-shadow:0 1px 2px rgba(15,20,26,.08),0 0 0 1px var(--line)}
+.chip .n{font:600 12px var(--num);color:var(--faint);font-variant-numeric:tabular-nums}
+.chip .n:empty{display:none}
+
+/* ---------- Grouped game list ---------- */
+.list{display:flex;flex-direction:column}
+.conf{font:600 14px var(--ui);color:var(--muted);margin:18px 4px 6px}
+.list > .conf:first-child{margin-top:4px}
+.card,.up,.fin{background:var(--surface);border:1px solid var(--line);border-top:0;padding:11px 14px;display:grid;gap:6px;min-width:0}
+.list > :is(.card,.up,.fin):first-child, .conf + :is(.card,.up,.fin){border-top:1px solid var(--line);border-top-left-radius:var(--r-lg);border-top-right-radius:var(--r-lg)}
+.list > :is(.card,.up,.fin):last-child, :is(.card,.up,.fin):has(+ .conf){border-bottom-left-radius:var(--r-lg);border-bottom-right-radius:var(--r-lg)}
+.card{cursor:pointer;position:relative}
+.card[aria-current="true"]{background:var(--surface-2)}
+.card[aria-current="true"]::before{content:"";position:absolute;left:0;top:10px;bottom:10px;width:3px;border-radius:0 3px 3px 0;background:var(--accent)}
+.card .row{display:flex;justify-content:space-between;align-items:center;gap:10px;min-height:30px}
+.card .tm{display:flex;align-items:center;gap:9px;min-width:0;font-weight:500;font-size:16px}
+.card .tm img,.up .tr img,.fin .tr img{width:24px;height:24px;object-fit:contain;flex:none}
+.card .tm span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.card .tm small,.up .rk{font:600 13px var(--num);color:var(--faint);margin-right:3px}
+.card .right{display:flex;align-items:center;gap:12px}
+.card .sc{font:700 26px/1 var(--num);font-variant-numeric:tabular-nums;min-width:30px;text-align:right}
+.card .meta{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:13px;color:var(--muted)}
+.card .meta > span:last-child{display:flex;align-items:center;gap:8px;text-align:right}
+.live{color:var(--live);font-weight:600;display:inline-flex;align-items:center;gap:6px;font-variant-numeric:tabular-nums}
+.live::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--live);flex:none}
+.card .div{font:600 11px var(--ui);color:var(--faint);border:1px solid var(--line);border-radius:5px;padding:0 5px;letter-spacing:.02em}
+.fav{flex:none;border:0;background:none;color:var(--line-2);padding:2px;cursor:pointer;line-height:0;display:grid;place-items:center}
+.fav svg{width:18px;height:18px}
+.fav.on{color:var(--accent)}
+.fav:hover{color:var(--faint)} .fav.on:hover{color:var(--accent)}
+
+/* Listen button: headphones icon; filled amber with moving bars while playing */
+.ear{flex:none;display:inline-flex;align-items:center;justify-content:center;gap:6px;height:32px;min-width:32px;padding:0 8px;border-radius:999px;
+  border:1px solid var(--line-2);background:var(--surface);color:var(--text);font:600 13px var(--ui);cursor:pointer}
+.ear svg{width:17px;height:17px}
+.ear .bars{display:none;align-items:flex-end;gap:2px;height:14px}
+.ear .bars i{width:3px;background:currentColor;border-radius:1px;animation:eq 1s ease-in-out infinite}
+.ear .bars i:nth-child(2){animation-delay:-.4s} .ear .bars i:nth-child(3){animation-delay:-.7s}
+@keyframes eq{0%,100%{height:4px}50%{height:14px}}
+.ear.on{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.ear.on svg{display:none} .ear.on .bars{display:inline-flex}
+.ear.wait{opacity:.7}
+.ear[disabled]{opacity:.35;cursor:default}
+.ear:not([disabled]):hover{border-color:var(--accent)}
+
+/* Upcoming */
+.up .tr{display:grid;grid-template-columns:20px 24px minmax(0,1fr) auto auto 46px;align-items:center;gap:9px;min-height:30px}
+.up .nm{font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.up .at,.fin .at{color:var(--faint);font-weight:500}
+.up .rec,.fin .rec{font:500 14px var(--num);color:var(--muted);font-variant-numeric:tabular-nums}
+.up .pct{font:600 18px var(--num);text-align:right;color:var(--muted);font-variant-numeric:tabular-nums}
+.up .pct.fav{color:var(--text);font-weight:700}
+.wpbar{display:flex;height:4px;border-radius:2px;overflow:hidden;background:var(--line);gap:2px}
+.wpbar span{display:block;height:100%}
+.up .meta{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:4px 12px;font-size:13px;color:var(--muted)}
+.up .meta b{color:var(--text);font-weight:600}
+.meta .bits{display:flex;flex-wrap:wrap;gap:4px 12px}
+.meta .src{color:var(--faint);font-size:12px}
+
+/* Finals */
+.fin .tr{display:grid;grid-template-columns:24px minmax(0,1fr) auto 36px;align-items:center;gap:9px;color:var(--muted);min-height:28px}
+.fin .tr.win{color:var(--win);font-weight:600}
+.fin .sc{font:700 22px/1 var(--num);text-align:right;font-variant-numeric:tabular-nums}
+.fin .meta{font-size:12px;color:var(--faint)}
+
+.sect{font:700 20px var(--num);margin:6px 4px 0}
+.fin .meta:empty{display:none}
+.chip .n{opacity:.9}
+.deck.idle .syncrow,.deck.idle #moreBtn,.deck.idle #more,.deck.idle .minbtn{display:none!important}
+.deck.idle{padding-bottom:10px}
+.empty{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:18px 16px;color:var(--muted);line-height:1.5}
+
+/* ---------- Scoreboard ---------- */
+.board{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:0 0 18px;display:grid;gap:16px;min-width:0;overflow:hidden;position:sticky;top:96px}
+@media (max-width:860px){.board{position:static}}
+.board > *:not(.score){margin-inline:18px}
+.score{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:start;gap:8px;padding:22px 14px 4px;border-top:4px solid transparent;
+  border-image:linear-gradient(90deg,var(--away,#888) 0 50%,var(--home,#aaa) 50% 100%) 1}
+.side{display:flex;flex-direction:column;align-items:center;gap:4px;text-align:center;min-width:0}
+.side img{width:56px;height:56px;object-fit:contain;margin-bottom:4px}
+.side .nm{font:600 18px/1.15 var(--ui);text-wrap:balance;display:flex;align-items:center;gap:6px;justify-content:center}
+.side.poss .nm::after{content:"";width:8px;height:8px;border-radius:50%;background:var(--accent);flex:none}
+.side .rec{font-size:13px;color:var(--muted)}
+.side .big{font:700 64px/1 var(--num);font-variant-numeric:tabular-nums;color:var(--text);margin:6px 0 4px;letter-spacing:-.01em}
+.side .ear{margin-top:2px}
+.to{display:flex;gap:4px;justify-content:center;margin-top:6px}
+.to i{width:12px;height:3px;border-radius:2px;background:var(--text);opacity:.85} .to i.used{background:var(--line-2);opacity:1}
+.mid{text-align:center;display:grid;gap:2px;padding-top:30px;min-width:76px}
+.clock{font:600 28px/1 var(--num);font-variant-numeric:tabular-nums}
+.per{font:500 14px var(--ui);color:var(--muted)}
+.sit{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.pill{font:600 14px var(--ui);padding:5px 12px;border-radius:999px;background:var(--surface-2);border:1px solid var(--line)}
+.pill.rz{background:var(--live);border-color:var(--live);color:#fff}
+.field{position:relative;height:40px;border-radius:var(--r-sm);overflow:hidden;
+  background:repeating-linear-gradient(90deg,var(--field-a) 0 10%,var(--field-b) 10% 20%)}
+.field .ez{position:absolute;top:0;bottom:0;width:8%;display:flex;align-items:center;justify-content:center;font:700 10px var(--num);color:#fff;letter-spacing:.06em;writing-mode:vertical-rl;opacity:.95}
+.field .ez.l{left:0} .field .ez.r{right:0}
+.field .ball{position:absolute;top:50%;width:12px;height:12px;margin:-6px 0 0 -6px;border-radius:50%;background:#fff;box-shadow:0 0 0 3px rgba(0,0,0,.18);transition:left .6s}
+.field .fd{position:absolute;top:0;bottom:0;width:2px;background:#F5C542;transition:left .6s}
+.field .ls{position:absolute;top:0;bottom:0;width:2px;background:#6FB4FF;transition:left .6s}
+.label{font:600 13px var(--ui);color:var(--muted);margin:0 0 6px}
+.last{padding:12px 14px;border-radius:var(--r-md);background:var(--surface-2);line-height:1.45}
+.wp{display:grid;gap:6px}
+.wp .wpbar{height:6px;border-radius:3px}
+.wpl{display:flex;justify-content:space-between;font:600 14px var(--num);color:var(--muted);font-variant-numeric:tabular-nums}
+.plays{max-height:380px;overflow:auto;border:1px solid var(--line);border-radius:var(--r-md)}
+.drive{padding:9px 12px;background:var(--surface-2);font:600 13px var(--ui);display:flex;justify-content:space-between;gap:10px;position:sticky;top:0;border-bottom:1px solid var(--line)}
+.drive .note{font-weight:400}
+.play{padding:8px 12px;display:grid;grid-template-columns:62px minmax(0,1fr);gap:10px;font-size:14px;line-height:1.4;border-bottom:1px solid var(--line)}
+.play:last-child{border-bottom:0}
+.play .t{font:500 13px var(--num);color:var(--faint);white-space:nowrap;padding-top:1px;font-variant-numeric:tabular-nums}
+.play.scoring{background:var(--accent-soft)} .play.scoring .tx{font-weight:600}
+.play .dd{display:block;font-size:12px;color:var(--faint);margin-top:2px}
+.radio-info{font-size:14px;color:var(--muted);display:grid;gap:6px;border-top:1px solid var(--line);padding-top:14px}
+.radio-info ul{margin:0;padding-left:18px;color:var(--text)}
+.radio-info li{margin:2px 0}
+.note{color:var(--faint);font-size:13px}
+
+/* ---------- Radio bar (top, pinned) ---------- */
+.deck{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--surface) 88%,transparent);backdrop-filter:saturate(1.6) blur(14px);-webkit-backdrop-filter:saturate(1.6) blur(14px);
+  border-bottom:1px solid var(--line);padding-top:calc(10px + env(safe-area-inset-top,0px));padding-bottom:10px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.deck-in{max-width:1120px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+.play-btn{width:44px;height:44px;border-radius:50%;border:0;background:var(--accent);color:var(--accent-ink);cursor:pointer;flex:none;display:grid;place-items:center;box-shadow:0 1px 2px rgba(0,0,0,.12)}
+.play-btn svg{width:20px;height:20px}
+.now{min-width:0;flex:1 1 160px}
+.now b{display:block;font:600 16px/1.2 var(--ui);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.now small{display:block;color:var(--muted);font-size:13px;line-height:1.35;margin-top:1px}
+.now small .dsc{color:var(--text);font-weight:600;white-space:nowrap}
+.now small .dsep{display:inline-block;width:1px;height:10px;background:var(--line-2);margin:0 7px;vertical-align:-1px}
+.now small .drz{color:var(--live);font-weight:600}
+.now small .dwarn{color:var(--accent);font-weight:600}
+.now small a{font-weight:600}
+.minbtn{flex:none;width:40px;height:40px;padding:0;display:grid;place-items:center;border-radius:50%;border:1px solid var(--line);background:var(--surface);color:var(--muted);cursor:pointer}
+.minbtn svg{width:22px;height:22px;transition:transform .2s;transform:rotate(180deg)}
+.deck.min .minbtn svg{transform:none}
+.syncrow{display:flex;align-items:center;gap:6px;flex:1 1 auto;font-size:13px;color:var(--muted)}
+.syncrow .lab{font-weight:600;color:var(--muted);margin-right:2px}
+.syncrow .val{min-width:112px;text-align:center;color:var(--text);font-variant-numeric:tabular-nums}
+.btn{height:34px;padding:0 12px;border:1px solid var(--line);border-radius:var(--r-sm);background:var(--surface);color:var(--text);font-size:14px;font-weight:500;cursor:pointer;white-space:nowrap}
+.btn.sm{height:30px;padding:0 10px;font-size:13px}
+.btn:hover{border-color:var(--line-2)}
+.more{display:contents}
+.deck input[type=url]{flex:1 1 220px;height:34px;border:1px solid var(--line);border-radius:var(--r-sm);background:var(--surface);padding:0 10px;min-width:0}
+.vol{width:96px;accent-color:var(--accent)}
+.deck.min{padding-top:calc(6px + env(safe-area-inset-top,0px));padding-bottom:6px}
+.deck.min .syncrow,.deck.min #moreBtn,.deck.min #more{display:none!important}
+.deck.min .play-btn{width:36px;height:36px} .deck.min .play-btn svg{width:16px;height:16px}
+.deck.min .now small{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.deck.min .minbtn{width:34px;height:34px}
+
+@media (prefers-reduced-motion:reduce){.field .ball,.field .fd,.field .ls,.minbtn svg{transition:none}.ear .bars i{animation:none;height:10px}}
 </style>
 </head>
 <body>
-<div class="deck">
+<div class="deck idle">
   <div class="deck-in">
-    <button class="play-btn" id="pp" aria-label="Play radio">▶</button>
+    <button class="play-btn" id="pp" aria-label="Play radio"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.4-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg></button>
     <div class="now"><b id="nowName">Radio off</b><small id="nowSub">Tap Listen next to a team</small></div>
     <button class="btn sm minbtn" id="deckMin" aria-expanded="true" aria-label="Minimize radio controls" title="Minimize"><svg viewBox="0 0 24 24" width="32" height="32" aria-hidden="true"><path d="M5 9l7 7 7-7" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
     <select id="station" aria-label="Station" hidden></select>
@@ -183,7 +236,7 @@ h1 span{color:var(--bulb)}
 </div>
 <div class="wrap">
   <header>
-    <h1><span>Gameday</span> Radio</h1>
+    <h1><svg class="mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="2.2" fill="currentColor" stroke="none"/><path d="M8.2 8.2a5.4 5.4 0 0 0 0 7.6M15.8 8.2a5.4 5.4 0 0 1 0 7.6M5.3 5.3a9.5 9.5 0 0 0 0 13.4M18.7 5.3a9.5 9.5 0 0 1 0 13.4"/></svg>Gameday Radio</h1>
     <div class="status"><span><i class="dot" id="dot"></i><span id="stat">Loading scores…</span></span><span id="upd"></span></div>
   </header>
   
@@ -195,12 +248,12 @@ h1 span{color:var(--bulb)}
           <button class="chip" data-div="all" aria-pressed="true">All<span class="n" id="nAll"></span></button>
           <button class="chip" data-div="FBS" aria-pressed="false">FBS<span class="n" id="nFBS"></span></button>
           <button class="chip" data-div="FCS" aria-pressed="false">FCS<span class="n" id="nFCS"></span></button>
-          <button class="chip" data-div="fav" aria-pressed="false">★ My teams<span class="n" id="nFav"></span></button>
+          <button class="chip" data-div="fav" aria-pressed="false" aria-label="My teams">★ Mine<span class="n" id="nFav"></span></button>
         </div>
       </div>
       <div class="list" id="list"></div>
     </div>
-    <main id="board" class="board"><p class="note">Pick a game.</p></main>
+    <main id="board" class="board" hidden></main>
   </div>
 </div>
 
@@ -278,7 +331,7 @@ async function poll(){
     const evs = [...byId.values()];
     evs.forEach(e=>e.competitions[0].competitors.forEach(c=>attachRadio(c.team)));
     history.push({t:Date.now(), evs}); history = history.filter(h => Date.now()-h.t < 180000);
-    $("#dot").className = "dot ok"; $("#stat").textContent = "Live feed connected"; $("#upd").textContent = "Updated " + now12();
+    $("#dot").className = "dot ok"; $("#stat").textContent = "Updated " + new Date().toLocaleTimeString([], {hour:"numeric", minute:"2-digit", hour12:true}); $("#upd").textContent = "";
     const live = evs.filter(e=>e.status.type.state==="in");
     if(!selected || !live.some(e=>e.id===selected)){ selected = (live.find(isFavGame) || live[0])?.id || null; }
     // Preload every live game: the selected one refreshes every 9s, the rest every 30s,
@@ -329,9 +382,11 @@ let currentTeam = null, connecting = null;
 const ready = {}; // team -> flat list of direct stream URLs, best first
 function ear(loc, label){
   const has = (RADIO[loc]?.streams?.length) || RADIO[loc]?.external || store.get("stream:"+loc);
-  if(!has) return `<button class="ear" disabled title="No radio stream on file">${esc(label)}</button>`;
+  const icon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="5" height="7" rx="2"/><rect x="16" y="14" width="5" height="7" rx="2"/></svg><span class="bars" aria-hidden="true"><i></i><i></i><i></i></span>`;
+  const text = label ? `<span>${esc(label)}</span>` : "";
+  if(!has) return `<button class="ear" disabled title="No free radio stream found for ${esc(loc)}" aria-label="No radio for ${esc(loc)}">${icon}${text}</button>`;
   const on = currentTeam===loc && !audio.paused, wait = connecting===loc;
-  return `<button class="ear ${on?"on":""} ${wait?"wait":""}" data-team="${esc(loc)}" aria-label="${on?"Pause":"Listen to"} ${esc(loc)} radio">${esc(label)}</button>`;
+  return `<button class="ear ${on?"on":""} ${wait?"wait":""}" data-team="${esc(loc)}" title="${on?"Pause":"Listen to"} ${esc(loc)} radio" aria-label="${on?"Pause":"Listen to"} ${esc(loc)} radio">${icon}${text}</button>`;
 }
 async function prepareTeam(loc){
   if(ready[loc]) return;
@@ -422,7 +477,7 @@ function statusText(e){
     return {short:lab, long:lab, brk:true};
   }
   if(st.displayClock!=="15:00") lastSeen[e.id] = p;
-  return {short:`<span data-clk="${e.id}">${liveClock(e)}</span> - ${qName(p)}`, long:p>4?qName(p):`${qName(p)} Qtr`, brk:false};
+  return {short:`${qName(p)} <span data-clk="${e.id}">${liveClock(e)}</span>`, long:p>4?qName(p):`${qName(p)} Qtr`, brk:false};
 }
 // Radio bar: while a team's radio is on, show its game's score and situation.
 let deck = null;
@@ -436,16 +491,18 @@ function gameLine(loc){
   const pos = [a,h].find(t=>t.team.id===sit.possession);
   const parts = [score, clock];
   if(!stx.brk){
-    if(pos) parts.push(`🏈 ${ab(pos)} ball`);
+    if(pos) parts.push(`${ab(pos)} ball`);
     if(sit.downDistanceText) parts.push(esc(sit.downDistanceText));
     else if(sit.possessionText) parts.push(`at ${esc(sit.possessionText)}`);
     if(sit.isRedZone) parts.push(`<span class="drz">Red zone</span>`);
   }
   const lv = deck && liveVerdict(deck.url);
   if(lv?.verdict==="music") parts.push(`<span class="dwarn">Station may not be carrying the game</span>`);
-  return parts.join(" · ");
+  return parts.join('<span class="dsep"></span>');
 }
+function setIdle(){ document.querySelector(".deck").classList.toggle("idle", !currentTeam); }
 function updateDeck(){
+  setIdle();
   if(!deck || connecting) return;
   const line = gameLine(deck.loc);
   if(line) $("#nowSub").innerHTML = line; else $("#nowSub").textContent = deck.sub;
@@ -495,7 +552,7 @@ function team(c, side){return c.competitors.find(t=>t.homeAway===side)}
 function card(e){
   const c = e.competitions[0], a = team(c,"away"), h = team(c,"home"), st = e.status.type;
   const showScore = st.state!=="pre";
-  const row = t => `<div class="row"><span class="tm"><button class="fav ${favs.has(t.team.location)?"on":""}" data-fav="${esc(t.team.location)}" aria-label="${favs.has(t.team.location)?"Remove":"Add"} ${esc(t.team.location)} ${favs.has(t.team.location)?"from":"to"} my teams">${favs.has(t.team.location)?"★":"☆"}</button><img src="${t.team.logo||""}" alt=""><span>${t.curatedRank?.current<26?`<small>${t.curatedRank.current}</small> `:""}${esc(t.team.shortDisplayName)}</span></span><span class="right">${ear(t.team.location, "Listen")}<span class="sc">${showScore?t.score:""}</span></span></div>`;
+  const row = t => `<div class="row"><span class="tm"><button class="fav ${favs.has(t.team.location)?"on":""}" data-fav="${esc(t.team.location)}" aria-label="${favs.has(t.team.location)?"Remove":"Add"} ${esc(t.team.location)} ${favs.has(t.team.location)?"from":"to"} my teams">${favs.has(t.team.location)?'<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>':'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>'}</button><img src="${t.team.logo||""}" alt=""><span>${t.curatedRank?.current<26?`<small>${t.curatedRank.current}</small> `:""}${esc(t.team.shortDisplayName)}</span></span><span class="right">${ear(t.team.location, "")}<span class="sc">${showScore?t.score:""}</span></span></div>`;
   return `<div class="card" role="button" tabindex="0" data-id="${e.id}" aria-current="${e.id===selected}">${row(a)}${row(h)}
   <div class="meta"><span class="${st.state==="in"?"live":""}">${st.state==="pre"?fmtTime(e.date):statusText(e).short}</span><span>${esc((c.broadcasts||[]).flatMap(b=>b.names).join(", "))}<span class="div">${e._div||""}</span></span></div></div>`;
 }
@@ -541,21 +598,21 @@ function upCard(e){
   const c = e.competitions[0], a = team(c,"away"), h = team(c,"home"), wp = winProb(e), o = c.odds?.[0];
   const hp = wp ? Math.round(wp.home) : null, ap = hp==null ? null : 100-hp;
   const rank = t => t.curatedRank?.current && t.curatedRank.current < 26 ? `<span class="rk">${t.curatedRank.current}</span>` : "";
-  const row = (t, pct, isHome) => `<div class="tr"><button class="fav ${favs.has(t.team.location)?"on":""}" data-fav="${esc(t.team.location)}" aria-label="${favs.has(t.team.location)?"Remove":"Add"} ${esc(t.team.location)} ${favs.has(t.team.location)?"from":"to"} my teams">${favs.has(t.team.location)?"★":"☆"}</button>
+  const row = (t, pct, isHome) => `<div class="tr"><button class="fav ${favs.has(t.team.location)?"on":""}" data-fav="${esc(t.team.location)}" aria-label="${favs.has(t.team.location)?"Remove":"Add"} ${esc(t.team.location)} ${favs.has(t.team.location)?"from":"to"} my teams">${favs.has(t.team.location)?'<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>':'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>'}</button>
     <img src="${t.team.logo||""}" alt=""><span class="nm">${isHome?'<span class="at">@ </span>':""}${rank(t)}${esc(t.team.shortDisplayName)}</span>
-    <span class="rec">${esc(t.records?.[0]?.summary||"")}</span>${ear(t.team.location, "Listen")}<span class="pct ${pct!=null&&pct>=50?"fav":""}">${pct==null?"":pct+"%"}</span></div>`;
+    <span class="rec">${esc(t.records?.[0]?.summary||"")}</span>${ear(t.team.location, "")}<span class="pct ${pct!=null&&pct>=50?"fav":""}">${pct==null?"":pct+"%"}</span></div>`;
   const bits = [`<b>${new Date(e.date).toLocaleTimeString([], {hour:"numeric", minute:"2-digit", hour12:true})}</b>`];
   const tv = (c.broadcasts||[]).flatMap(b=>b.names).join(", "); if(tv) bits.push(esc(tv));
   if(o?.details) bits.push(esc(o.details)); if(o?.overUnder) bits.push(`O/U ${esc(o.overUnder)}`);
   return `<div class="up">${row(a, ap, false)}${row(h, hp, true)}
     ${hp!=null?`<div class="wpbar" aria-label="Win probability: ${esc(a.team.abbreviation)} ${ap}%, ${esc(h.team.abbreviation)} ${hp}%"><span style="width:${ap}%;background:#${a.team.color||"888"}"></span><span style="width:${hp}%;background:#${h.team.color||"ccc"}"></span></div>`:""}
-    <div class="meta"><span>${bits.join(" · ")}</span><span>${wp?esc(wp.src):"No odds yet"}</span></div></div>`;
+    <div class="meta"><span class="bits">${bits.map(b=>`<span>${b}</span>`).join("")}</span><span class="src">${wp?esc(wp.src):"No odds yet"}</span></div></div>`;
 }
 function finCard(e){
   const c = e.competitions[0], a = team(c,"away"), h = team(c,"home");
   const win = t => Number(t.score) > Number((t===a?h:a).score);
   const row = (t, home) => `<div class="tr ${win(t)?"win":""}"><img src="${t.team.logo||""}" alt=""><span>${home?'<span class="at">@ </span>':""}${esc(t.team.shortDisplayName)}</span><span class="rec">${esc(t.records?.[0]?.summary||"")}</span><span class="sc">${esc(t.score)}</span></div>`;
-  return `<div class="fin">${row(a,false)}${row(h,true)}<div class="meta">${esc(e.status.type.shortDetail||"Final")}</div></div>`;
+  return `<div class="fin">${row(a,false)}${row(h,true)}<div class="meta">${/^final$/i.test(e.status.type.shortDetail||"Final") ? "" : esc(e.status.type.shortDetail)}</div></div>`;
 }
 function finalsToday(){
   const q = query.trim().toLowerCase();
@@ -588,13 +645,14 @@ function renderUpcoming(){
     if(!groups.has(conf)) groups.set(conf, []); groups.get(conf).push(e);
   }
   const names = [...groups.keys()].sort((x,y)=>x.localeCompare(y));
-  list.innerHTML = `<div class="conf" style="color:var(--dim);margin-top:0">Today's games</div>` + names.map(n=>
+  list.innerHTML = `<div class="sect">Later today</div>` + names.map(n=>
     `<div class="conf">${esc(n)}</div>` + groups.get(n).sort((x,y)=>new Date(x.date)-new Date(y.date) || x.id.localeCompare(y.id)).map(upCard).join("")).join("") + finalsToday();
 }
 
 function renderBoard(){
   const e = events.find(x=>x.id===selected); const B = $("#board");
-  if(!e){B.innerHTML = `<p class="note">Pick a game.</p>`; return;}
+  if(!e){B.innerHTML = ""; B.hidden = true; return;}
+  B.hidden = false;
   const c = e.competitions[0], a = team(c,"away"), h = team(c,"home"), st = e.status, sit = c.situation||{};
   const ss = snap(summaryHist, x=>x.id===selected); const sum = ss?.s;
   const side = (t, cls) => {
@@ -605,7 +663,7 @@ function renderBoard(){
     ${tos!=null?`<div class="to" aria-label="${tos} timeouts left">${[0,1,2].map(i=>`<i class="${i<tos?"":"used"}"></i>`).join("")}</div>`:""}</div>`;
   };
   const stx = statusText(e), per = stx.long;
-  let html = `<div class="score">${side(a,"away")}<div class="mid"><div class="clock">${st.type.state==="in"&&!stx.brk?`<span data-clk="${e.id}">${liveClock(e)}</span>`:""}</div><div class="per">${st.type.state==="pre"?fmtTime(e.date):per}</div></div>${side(h,"home")}</div>`;
+  let html = `<div class="score" style="--away:#${esc(a.team.color||"8A95A3")};--home:#${esc(h.team.color||"5F6B7A")}">${side(a,"away")}<div class="mid"><div class="clock">${st.type.state==="in"&&!stx.brk?`<span data-clk="${e.id}">${liveClock(e)}</span>`:""}</div><div class="per">${st.type.state==="pre"?fmtTime(e.date):per}</div></div>${side(h,"home")}</div>`;
   if(st.type.state==="in"){
     const pills = [];
     if(sit.downDistanceText) pills.push(`<span class="pill">${sit.downDistanceText}</span>`);
@@ -619,8 +677,8 @@ function renderBoard(){
     html += `<div class="wp"><p class="label">Win probability</p><div class="wpbar"><span style="width:${100-hp}%;background:#${a.team.color||"888"}"></span><span style="width:${hp}%;background:#${h.team.color||"ccc"}"></span></div><div class="wpl"><span>${a.team.abbreviation} ${(100-hp).toFixed(1)}%</span><span>${h.team.abbreviation} ${hp.toFixed(1)}%</span></div></div>`; }
   html += playsView(sum);
   const r = radioFor(e);
-  html += `<div class="radio-info"><p class="label">Radio for this game</p><ul>${r.map(x=>`<li><b>${x.team}:</b> ${x.net}, ${x.station}${x.stream?" · <a href='#' data-play='"+x.team+"'>play here</a>":""}${x.listen?` · <a href="${x.listen}" target="_blank" rel="noopener">official listen</a>`:""}</li>`).join("")}</ul>
-  <span class="note">Radio comes from each school's own broadcast network. Some schools don't stream every game online; if a Listen button can't connect, try the other team's call.</span></div>`;
+  html += `<div class="radio-info"><p class="label">Radio for this game</p><ul>${r.map(x=>`<li><b>${esc(x.team)}</b> ${esc(x.net||"")}${x.station && !/radio$/i.test(x.net||"") ? `, ${esc(String(x.station).replace(/\s*\(no free online stream found\)/,""))}` : ""}${x.stream ? "" : ` <span class="note">(no free stream)</span>`}</li>`).join("")}</ul>
+  <span class="note">Each team's own radio broadcast. If one won't connect, try the other team's call.</span></div>`;
   B.innerHTML = html;
   B.querySelectorAll("[data-play]").forEach(l=>l.onclick=ev=>{ev.preventDefault(); $("#station").value = "team:"+l.dataset.play; startStation();});
 }
@@ -743,8 +801,8 @@ function play(url, name, sub){
 $("#station").onchange = startStation;
 $("#pp").onclick = ()=>{ if(audio.src || hls){ audio.paused ? audio.play() : audio.pause(); } else startStation(); };
 audio.addEventListener("play", ()=>render()); audio.addEventListener("pause", ()=>render());
-audio.onplay = ()=>{$("#pp").textContent="❚❚"; $("#pp").setAttribute("aria-label","Pause radio")};
-audio.onpause = ()=>{$("#pp").textContent="▶"; $("#pp").setAttribute("aria-label","Play radio")};
+audio.onplay = ()=>{$("#pp").innerHTML='<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4.2" height="14" rx="1.2"/><rect x="13.8" y="5" width="4.2" height="14" rx="1.2"/></svg>'; $("#pp").setAttribute("aria-label","Pause radio")};
+audio.onpause = ()=>{$("#pp").innerHTML='<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.4-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg>'; $("#pp").setAttribute("aria-label","Play radio")};
 audio.onerror = ()=>{$("#nowSub").textContent="Stream unavailable right now. Try the official listen link or another URL.";};
 $("#vol").oninput = e=> audio.volume = e.target.value;
 $("#useCustom").onclick = ()=>{
