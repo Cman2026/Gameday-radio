@@ -60,6 +60,12 @@ h1 span{color:inherit}
 .dot.ok{background:#2FA35A} .dot.warn{background:var(--accent)} .dot.err{background:var(--live)}
 .grid{display:grid;grid-template-columns:minmax(0,380px) minmax(0,1fr);gap:24px;align-items:start}
 @media (max-width:860px){.grid{grid-template-columns:minmax(0,1fr)}}
+/* Wide screens: the game list scrolls on its own so the page stays put. */
+@media (min-width:861px){
+  .grid > div:first-child{position:sticky;top:96px;display:flex;flex-direction:column;max-height:calc(100vh - 112px)}
+  .grid > div:first-child .list{flex:1 1 auto;min-height:0;overflow-y:auto;overscroll-behavior:contain;padding-right:6px;scrollbar-width:thin;scrollbar-color:var(--line-2) transparent}
+  .grid > div:first-child .list::-webkit-scrollbar{width:8px} .grid > div:first-child .list::-webkit-scrollbar-thumb{background:var(--line-2);border-radius:4px}
+}
 
 /* ---------- Search + segmented filter ---------- */
 .filters{display:grid;gap:10px;margin-bottom:14px}
@@ -257,6 +263,20 @@ h1 span{color:inherit}
 .deck.min .now small{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .deck.min .minbtn{width:34px;height:34px}
 
+
+/* Wide screens: one tidy row across the full width (play · now playing · sync · volume),
+   and no expand arrows on game cards since details always sit beside the list. */
+@media (min-width:861px){
+  .deck-in{flex-wrap:nowrap;gap:16px}
+  .deck .now{flex:1 1 auto;min-width:0}
+  .deck .syncrow{flex:0 0 auto}
+  .deck .minbtn,.deck #moreBtn,.deck #custom,.deck #useCustom{display:none!important}
+  .deck #more{display:flex!important;align-items:center;gap:8px;flex:0 0 auto}
+  .deck #more::before{content:"";width:18px;height:18px;flex:none;background:var(--muted);-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M4 9v6h4l5 4V5L8 9H4zm12.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4z'/%3E%3C/svg%3E") center/contain no-repeat;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M4 9v6h4l5 4V5L8 9H4zm12.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4z'/%3E%3C/svg%3E") center/contain no-repeat}
+  .deck #more .vol{width:120px}
+  .deck.idle #more{display:none!important}
+  .card .meta .gchev{display:none}
+}
 /* minimize button: beat the generic .btn/.btn.sm padding so the chevron sits dead center */
 .deck .btn.minbtn{width:40px;height:40px;padding:0;border-radius:50%;display:grid;place-items:center;align-self:center;line-height:0}
 .deck .btn.minbtn svg{display:block;width:22px;height:22px}
@@ -534,7 +554,7 @@ function render(){
   list.querySelectorAll(".card").forEach(b=>{ const go=()=>{
       // Tapping the open game folds its details away; tapping another opens it, keeping that game where it was on screen.
       const id = b.dataset.id, y0 = b.getBoundingClientRect().top;
-      if(id===selected){ boardOpen = !boardOpen; } else { selected = id; boardOpen = true; }
+      if(id===selected && NARROW.matches){ boardOpen = !boardOpen; } else { selected = id; boardOpen = true; }
       render();
       const nb = $(`#list .card[data-id="${CSS.escape(id)}"]`);
       if(nb) window.scrollBy(0, nb.getBoundingClientRect().top - y0);
