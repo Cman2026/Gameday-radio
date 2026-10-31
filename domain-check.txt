@@ -1,0 +1,15 @@
+== DNS
+185.199.110.153
+185.199.108.153
+185.199.111.153
+185.199.109.153
+cman2026.github.io.
+== HTTPS
+https status 200, ssl verify 0
+== HTTP
+http status 301 -> https://gamedayradiolive.com/
+== cert
+subject=CN = gamedayradiolive.com
+issuer=C = US, O = Let's Encrypt, CN = YR2
+notBefore=Oct 31 03:32:37 2026 GMT
+notAfter=Jan 29 03:32:36 2027 GMT
