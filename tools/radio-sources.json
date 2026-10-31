@@ -47,9 +47,17 @@
   "conference": "ACC",
   "calls": [
    "WCCP-FM",
-   "WAHT"
+   "WAHT",
+   "WQSC",
+   "WRHI",
+   "WKDK"
   ],
-  "streams": [],
+  "streams": [
+   "https://ice5.securenetsystems.net/WQSC",
+   "https://ice7.securenetsystems.net/WRHI",
+   "https://ice24.securenetsystems.net/WKDK",
+   "http://s2.radioreformation.com:8060/;stream.mp3"
+  ],
   "athletics_site": "https://clemsontigers.com"
  },
  {
