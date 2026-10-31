@@ -1,0 +1,17 @@
+name: Sportsbook odds
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 14,17,20,23 * * 6"   # Saturdays about 10 AM, 1, 4 and 7 PM Eastern
+    - cron: "5 21 * * 2,3,4,5"       # Tue-Fri about 5 PM Eastern (weeknight games, Saturday preview)
+permissions:
+  contents: write
+concurrency: odds
+jobs:
+  odds:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: python tools/fetch_odds.py
+        env: { ODDS_API_KEY: "${{ secrets.ODDS_API_KEY }}" }
+      - run: tools/publish.sh "Sportsbook odds" odds.json
