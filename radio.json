@@ -2394,9 +2394,7 @@
 "game_only": null,
 "no_radio": null,
 "notes": null,
-"streams": [
-"https://live.amperwave.net/manifest/townsquare-wobmfmaac-ibc3"
-],
+"streams": [],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-10-31",
@@ -4936,20 +4934,12 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://radio.securenetsystems.net/cirrusencore/embed/stationSettings.cfm?stationCallSign=KAZZ&_=1793471648014",
-"https://ssiadnweb.securenetsystems.net/advertising/ad_campaign_get.cfm?randStr=0.5219262828888327&stationCallSign=KAZZ&playerAdvertisingMode=ADN&cType=PRA&adTypePos=1%7C1&externalProvider=&geoCTCode=US&geoDMACode=759&cGeoLocationLevel=1&sGenre=S40&cClassRunning=&cClassExclusion=&playSessionID=8E130700-0497-45BB-8176202536F7F629&adCallId=&adCallSeq=&adCallIdn=&adCallStCode=&requestAssetType=&isPlayerVisible=true&getAdModeFromSEQonly=false&sslmode=true",
-"https://ice6.securenetsystems.net/KAZZ?playSessionID=8E130700-0497-45BB-8176202536F7F629"
+"https://ice6.securenetsystems.net/KAZZ"
 ],
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
-"game_feeds": [
-"https://radio.securenetsystems.net/cirrusencore/embed/stationSettings.cfm?stationCallSign=KAZZ&_=1793471648014",
-"https://ssiadnweb.securenetsystems.net/advertising/ad_campaign_get.cfm?randStr=0.5219262828888327&stationCallSign=KAZZ&playerAdvertisingMode=ADN&cType=PRA&adTypePos=1%7C1&externalProvider=&geoCTCode=US&geoDMACode=759&cGeoLocationLevel=1&sGenre=S40&cClassRunning=&cClassExclusion=&playSessionID=8E130700-0497-45BB-8176202536F7F629&adCallId=&adCallSeq=&adCallIdn=&adCallStCode=&requestAssetType=&isPlayerVisible=true&getAdModeFromSEQonly=false&sslmode=true",
-"https://ice6.securenetsystems.net/KAZZ?playSessionID=8E130700-0497-45BB-8176202536F7F629"
-],
-"game_feeds_at": "2026-10-31T18:24:43Z",
-"live_only": true
+"live_only": false
 },
 {
 "school": "Illinois State University",

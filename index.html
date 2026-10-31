@@ -785,7 +785,7 @@ function gameLine(loc){
     if(sit.isRedZone) parts.push(`<span class="drz">Red zone</span>`);
   }
   const lv = deck && liveVerdict(deck.url), hv = deck && heard(deck.url);
-  if(lv?.verdict==="music" || hv==="not_game") parts.push(`<span class="dwarn">Station may not be carrying the game</span>`);
+  if((lv?.verdict==="music" && hv!=="game") || hv==="not_game") parts.push(`<span class="dwarn">Station may not be carrying the game</span>`);
   return parts.join('<span class="dsep"></span>');
 }
 function setIdle(){ document.querySelector(".deck").classList.toggle("idle", !currentTeam); }

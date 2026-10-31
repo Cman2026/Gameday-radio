@@ -1521,7 +1521,11 @@
    "WOBM"
   ],
   "streams": [],
-  "athletics_site": "https://monmouthhawks.com"
+  "athletics_site": "https://monmouthhawks.com",
+  "bad_streams": [
+   "townsquare-wobm"
+  ],
+  "notes": "WOBM plays music during games (heard 2026-10-31); since Oct 2025 Monmouth media partners are WFSB / The WAX, no confirmed 2026 radio outlet"
  },
  {
   "school": "University of New Hampshire",
@@ -3304,8 +3308,11 @@
   "listen_page": "https://www.thefansportsnetwork.com",
   "conference": "Big Sky Conference",
   "calls": [],
-  "streams": [],
-  "athletics_site": "https://utahtechtrailblazers.com"
+  "streams": [
+   "https://ice6.securenetsystems.net/KAZZ"
+  ],
+  "athletics_site": "https://utahtechtrailblazers.com",
+  "notes": "KAZZ stream from The Fan Sports Network listen page (captured 2026-10-31)"
  },
  {
   "school": "Illinois State University",

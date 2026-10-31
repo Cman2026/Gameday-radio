@@ -8,7 +8,7 @@ from radio_common import is_bad, set_feeds, clean
 
 UA = {"User-Agent": "Mozilla/5.0 (GamedayRadio live audio finder)"}
 SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?groups={}&limit=400"
-STREAM = re.compile(r"\.(mp3|aac|m3u8)(\?|$)|streamtheworld|amperwave\.net/(manifest|direct|playlist)|securenetsystems\.net/[A-Z]|"
+STREAM = re.compile(r"\.(mp3|aac|m3u8)(\?|$)|streamtheworld|amperwave\.net/(manifest|direct|playlist)|ice\d*\.securenetsystems\.net/|"
                     r"ihrhls|streamguys1?\.com|cdnstream1|streamon\.fm|radio\.co|zeno\.fm|mixlr|lightningstream|liveradio|"
                     r"stretchinternet|surfernetwork|jwplayer\.com/live|leanstream|leanplayer\.com/.*(stream|live)|streamon|cloudfront\.net/.*\.(m3u8|aac|mp3)", re.I)
 BAD = re.compile(r"google|adsrvr|doubleclick|2mdn|\.js(\?|$)|\.css|favicon|assets|fonts|analytics|silent\.mp3|podtrac|omny|/ads/", re.I)
@@ -17,7 +17,8 @@ BAD = re.compile(r"google|adsrvr|doubleclick|2mdn|\.js(\?|$)|\.css|favicon|asset
 # Things a page loads that aren't a live audio stream: images, video-on-demand manifests,
 # archived recordings, blob: URLs and the player page itself.
 NOT_LIVE = re.compile(r"\.(png|jpe?g|gif|svg|webp|ico)(\?|$)|^blob:|jwplayer\.com/manifests/|jwpsrv\.com|"
-                      r"portal\.stretchinternet\.com/[^/]+/?$|cloudfront\.net/.*-hls/master|/gfx/|thumbnail|poster", re.I)
+                      r"portal\.stretchinternet\.com/[^/]+/?$|cloudfront\.net/.*-hls/master|/gfx/|thumbnail|poster|"
+                      r"\.(cfm|php|aspx?|json|xml|html?)(\?|$)|/advertising/|ad_campaign|stationSettings", re.I)
 
 
 def norm(x):
