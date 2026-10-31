@@ -1,5 +1,5 @@
 {
-"built": "2026-10-31T18:53:56Z",
+"built": "2026-10-31T19:01:10Z",
 "teams": [
 {
 "school": "Boston College",
@@ -1879,7 +1879,7 @@
 ],
 "game_only": null,
 "no_radio": null,
-"notes": null,
+"notes": " KUOO 103.9 Spirit Lake (Community First Broadcasting, non-iHeart Hawkeye affiliate) added because iHeart streams are geofenced.",
 "streams": [
 "https://ice23.securenetsystems.net/KUOO",
 "https://stream.revma.ihrhls.com/zc925",
@@ -4173,8 +4173,8 @@
 "streams": [
 "https://sapircast.caster.fm:16202/P2Ofj?token=1a4249977845536b323340e810366391"
 ],
-"misses": 0,
-"miss_day": null,
+"misses": 1,
+"miss_day": "2026-10-31",
 "last_ok": null,
 "game_feeds": [
 "https://sapircast.caster.fm:16202/P2Ofj?token=1a4249977845536b323340e810366391"
