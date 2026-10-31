@@ -23,15 +23,16 @@
    "California Golden Bears"
   ],
   "network": "Cal Bears Sports Network (Learfield)",
-  "flagship": "810 AM (KGO, possibly re-called KSFO 810) - Cal Bears Sports Network",
+  "flagship": "810 AM KSFO (formerly KGO), San Francisco",
   "listen_page": "",
   "conference": "ACC",
   "calls": [
+   "KSFO-AM",
    "KGO-AM"
   ],
   "streams": [],
   "athletics_site": "https://calbears.com",
-  "station_website": "https://www.kgoradio.com/"
+  "station_website": "https://www.ksfo.com"
  },
  {
   "school": "Clemson University",
@@ -471,7 +472,9 @@
   "conference": "American Conference",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://owlsports.com"
+  "athletics_site": "https://owlsports.com",
+  "notes": "No radio found since 2023",
+  "no_radio": true
  },
  {
   "school": "Tulane University",
@@ -591,7 +594,7 @@
    "Georgia Southern Eagles"
   ],
   "network": "Georgia Southern Sports Network",
-  "flagship": "WHKN 94.9 FM (Statesboro, GA)",
+  "flagship": "94.9 FM Statesboro",
   "listen_page": "",
   "conference": "Sun Belt Conference",
   "calls": [
@@ -1650,12 +1653,16 @@
    "Richmond Spiders"
   ],
   "network": "",
-  "flagship": "W291CL 106.1 FM '106.1 ESPN' (Richmond, VA)",
+  "flagship": "106.1 ESPN Richmond (WURV-HD2)",
   "listen_page": "",
   "conference": "Patriot League",
-  "calls": [],
+  "calls": [
+   "WURV-FM"
+  ],
   "streams": [],
-  "athletics_site": "https://richmondspiders.com"
+  "athletics_site": "https://richmondspiders.com",
+  "station_website": "https://espnrichmond.com",
+  "game_only": true
  },
  {
   "school": "Villanova University",
@@ -2057,7 +2064,9 @@
   "conference": "SWAC",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://mvsusports.com"
+  "athletics_site": "https://mvsusports.com",
+  "notes": "TV only (ESPN+)",
+  "no_radio": true
  },
  {
   "school": "Alcorn State University",
@@ -2120,7 +2129,9 @@
   "conference": "SWAC",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://pvpanthers.com"
+  "athletics_site": "https://pvpanthers.com",
+  "notes": "No radio found",
+  "no_radio": true
  },
  {
   "school": "Southern University",
@@ -2166,7 +2177,9 @@
   "conference": "MEAC",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://dsuhornets.com"
+  "athletics_site": "https://dsuhornets.com",
+  "notes": "No radio found",
+  "no_radio": true
  },
  {
   "school": "Howard University",
@@ -2175,10 +2188,12 @@
    "Howard Bison"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "WHBC (WHUR 96.3 HD3, Washington DC)",
   "listen_page": "",
   "conference": "MEAC",
-  "calls": [],
+  "calls": [
+   "WHBC"
+  ],
   "streams": [],
   "athletics_site": "https://hubison.com"
  },
@@ -2228,7 +2243,9 @@
   "conference": "MEAC",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://nccueaglepride.com"
+  "athletics_site": "https://nccueaglepride.com",
+  "notes": "TV only (ESPN)",
+  "no_radio": true
  },
  {
   "school": "South Carolina State University",
@@ -2238,14 +2255,15 @@
    "South Carolina State Bulldogs"
   ],
   "network": "",
-  "flagship": "WPJK 1580 AM / 92.9 FM 'ESPN Orangeburg' (Orangeburg, SC)",
+  "flagship": "ESPN Orangeburg 1580 AM / 92.9 FM",
   "listen_page": "https://espnorangeburg.com",
   "conference": "MEAC",
   "calls": [
    "WPJK-AM"
   ],
   "streams": [],
-  "athletics_site": "https://scsuathletics.com"
+  "athletics_site": "https://scsuathletics.com",
+  "station_website": "https://espnorangeburg.com"
  },
  {
   "school": "Merrimack College",
@@ -2355,7 +2373,9 @@
   "conference": "Southern Conference",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://samfordsports.com"
+  "athletics_site": "https://samfordsports.com",
+  "notes": "No radio found",
+  "no_radio": true
  },
  {
   "school": "Tennessee Technological University",
@@ -2364,14 +2384,15 @@
    "Tennessee Tech Golden Eagles"
   ],
   "network": "Golden Eagle Sports Network (Cookeville Communications)",
-  "flagship": "WPTN 780 AM / W291CA 106.1 FM '106.1 The Eagle' (Cookeville, TN)",
+  "flagship": "106.1 The Eagle / 780 AM, Cookeville",
   "listen_page": "https://ttusports.com",
   "conference": "Southern Conference",
   "calls": [
    "WPTN-AM"
   ],
   "streams": [],
-  "athletics_site": "https://ttusports.com"
+  "athletics_site": "https://ttusports.com",
+  "station_website": "https://1061theeagle.com"
  },
  {
   "school": "The Citadel",
@@ -2431,12 +2452,13 @@
    "Wofford Terriers"
   ],
   "network": "Wofford Digital Network (Learfield)",
-  "flagship": "No terrestrial flagship named (digital network)",
-  "listen_page": "https://woffordterriers.com/radio",
+  "flagship": "Wofford Digital Network (school stream)",
+  "listen_page": "https://wofford.leanplayer.com/",
   "conference": "Southern Conference",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://woffordterriers.com"
+  "athletics_site": "https://woffordterriers.com",
+  "game_only": true
  },
  {
   "school": "East Texas A&M University",
@@ -2483,7 +2505,9 @@
   "conference": "Southland Conference",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://uiwcardinals.com"
+  "athletics_site": "https://uiwcardinals.com",
+  "notes": "TV only (ESPN+)",
+  "no_radio": true
  },
  {
   "school": "Lamar University",
@@ -2585,7 +2609,7 @@
    "UTRGV Vaqueros"
   ],
   "network": "",
-  "flagship": "XHRYS 90.1 FM 'Ultra 90.1' (Rio Grande Valley)",
+  "flagship": "Ultra 90.1 (Vaqueros Sports Network)",
   "listen_page": "",
   "conference": "Southland Conference",
   "calls": [],
@@ -2605,7 +2629,9 @@
   "conference": "OVC-Big South Football Association",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://csusports.com"
+  "athletics_site": "https://csusports.com",
+  "notes": "No radio found",
+  "no_radio": true
  },
  {
   "school": "Eastern Illinois University",
@@ -2615,14 +2641,15 @@
    "Eastern Illinois Panthers"
   ],
   "network": "",
-  "flagship": "Hit Mix 88.9 FM (WEIU-FM, Charleston, IL)",
+  "flagship": "WEIU 88.9 Hit-Mix, Charleston",
   "listen_page": "https://www.weiu.net/hitmix/",
   "conference": "OVC-Big South Football Association",
   "calls": [
    "WEIU-FM"
   ],
   "streams": [],
-  "athletics_site": "https://eiupanthers.com"
+  "athletics_site": "https://eiupanthers.com",
+  "station_website": "https://www.weiu.net/hitmix/streaming.php"
  },
  {
   "school": "Gardner-Webb University",
@@ -2710,12 +2737,13 @@
    "Western Illinois Leathernecks"
   ],
   "network": "",
-  "flagship": "Q98.1 FM (Canton, IL)",
+  "flagship": "Q98.1 FM, Canton IL",
   "listen_page": "http://www.q981fm.com",
   "conference": "OVC-Big South Football Association",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://goleathernecks.com"
+  "athletics_site": "https://goleathernecks.com",
+  "station_website": "http://www.q981fm.com"
  },
  {
   "school": "Butler University",
@@ -2729,7 +2757,9 @@
   "conference": "Pioneer Football League",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://butlersports.com"
+  "athletics_site": "https://butlersports.com",
+  "notes": "Varsity Network app only",
+  "no_radio": true
  },
  {
   "school": "Davidson College",
@@ -2743,7 +2773,9 @@
   "conference": "Pioneer Football League",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://davidsonwildcats.com"
+  "athletics_site": "https://davidsonwildcats.com",
+  "notes": "TV only (ESPN+)",
+  "no_radio": true
  },
  {
   "school": "University of Dayton",
@@ -2767,14 +2799,15 @@
    "Drake Bulldogs"
   ],
   "network": "",
-  "flagship": "KRNT 1350 AM / 102.1 FM 'ESPN Des Moines' (Des Moines, IA)",
+  "flagship": "ESPN Des Moines 1350 AM / 102.1 FM",
   "listen_page": "",
   "conference": "Pioneer Football League",
   "calls": [
    "KRNT-AM"
   ],
   "streams": [],
-  "athletics_site": "https://godrakebulldogs.com"
+  "athletics_site": "https://godrakebulldogs.com",
+  "station_website": "https://espndesmoines.com"
  },
  {
   "school": "Marist University",
@@ -2788,7 +2821,9 @@
   "conference": "Pioneer Football League",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://goredfoxes.com"
+  "athletics_site": "https://goredfoxes.com",
+  "notes": "Varsity Network app only",
+  "no_radio": true
  },
  {
   "school": "Morehead State University",
@@ -2850,7 +2885,9 @@
   "conference": "Pioneer Football League",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://usdtoreros.com"
+  "athletics_site": "https://usdtoreros.com",
+  "notes": "TV only (ESPN+)",
+  "no_radio": true
  },
  {
   "school": "Stetson University",
@@ -2864,7 +2901,9 @@
   "conference": "Pioneer Football League",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://gohatters.com"
+  "athletics_site": "https://gohatters.com",
+  "notes": "Video only (YouTube)",
+  "no_radio": true
  },
  {
   "school": "Valparaiso University",
@@ -2874,14 +2913,15 @@
    "Valparaiso Beacons"
   ],
   "network": "",
-  "flagship": "WVUR 95.1 FM (Valparaiso, IN)",
+  "flagship": "WVUR 95.1, Valparaiso",
   "listen_page": "",
   "conference": "Pioneer Football League",
   "calls": [
    "WVUR-FM"
   ],
   "streams": [],
-  "athletics_site": "https://valpoathletics.com"
+  "athletics_site": "https://valpoathletics.com",
+  "station_website": "https://wvurthesource.com"
  },
  {
   "school": "University of Montana",
@@ -3024,7 +3064,9 @@
   "conference": "Big Sky Conference",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://goviks.com"
+  "athletics_site": "https://goviks.com",
+  "notes": "TV only (ESPN+)",
+  "no_radio": true
  },
  {
   "school": "Weber State University",
@@ -3057,7 +3099,8 @@
    "KXTK-AM"
   ],
   "streams": [],
-  "athletics_site": "https://gopoly.com"
+  "athletics_site": "https://gopoly.com",
+  "station_website": "https://espnradio1280.com"
  },
  {
   "school": "University of California, Davis",
@@ -3138,7 +3181,8 @@
    "WVIG-FM"
   ],
   "streams": [],
-  "athletics_site": "https://gosycamores.com"
+  "athletics_site": "https://gosycamores.com",
+  "station_website": "https://www.wvigthelegend.com"
  },
  {
   "school": "Murray State University",
@@ -3187,7 +3231,8 @@
    "KCVM-FM"
   ],
   "streams": [],
-  "athletics_site": "https://unipanthers.com"
+  "athletics_site": "https://unipanthers.com",
+  "station_website": "https://935themix.com"
  },
  {
   "school": "University of South Dakota",
@@ -3297,12 +3342,15 @@
    "Central Arkansas Bears"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "KUCA 91.3 The Bear, Conway",
   "listen_page": "",
   "conference": "United Athletic Conference",
-  "calls": [],
+  "calls": [
+   "KUCA-FM"
+  ],
   "streams": [],
-  "athletics_site": "https://ucasports.com"
+  "athletics_site": "https://ucasports.com",
+  "station_website": "https://uca.edu/kuca/"
  },
  {
   "school": "Eastern Kentucky University",
@@ -3313,12 +3361,15 @@
    "Colonels"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "100.7 The Coyote",
   "listen_page": "https://ekusports.com",
   "conference": "United Athletic Conference",
-  "calls": [],
+  "calls": [
+   "WCYO-FM"
+  ],
   "streams": [],
-  "athletics_site": "https://ekusports.com"
+  "athletics_site": "https://ekusports.com",
+  "station_website": "https://wcyofm.com"
  },
  {
   "school": "University of North Alabama",
@@ -3328,7 +3379,7 @@
    "North Alabama Lions"
   ],
   "network": "",
-  "flagship": "WLXA 98.3 FM 'WLX' (Florence, AL)",
+  "flagship": "98.3 WLX, Florence",
   "listen_page": "",
   "conference": "United Athletic Conference",
   "calls": [
@@ -3368,7 +3419,9 @@
   "conference": "United Athletic Conference",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://goargos.com"
+  "athletics_site": "https://goargos.com",
+  "notes": "TV only (ESPN+)",
+  "no_radio": true
  },
  {
   "school": "University of West Georgia",
@@ -3378,12 +3431,15 @@
    "West Georgia Wolves"
   ],
   "network": "",
-  "flagship": "",
+  "flagship": "KISS 102.7, Carrollton",
   "listen_page": "",
   "conference": "United Athletic Conference",
-  "calls": [],
+  "calls": [
+   "WCKS-FM"
+  ],
   "streams": [],
-  "athletics_site": "https://uwgathletics.com"
+  "athletics_site": "https://uwgathletics.com",
+  "securenet": "WCKS"
  },
  {
   "school": "University of Akron",
@@ -3743,15 +3799,16 @@
    "Sam Houston Bearkats"
   ],
   "network": "Bearkat Sports Network",
-  "flagship": "KSHU 90.5 FM (Huntsville, TX)",
-  "listen_page": "https://gobearkats.com",
+  "flagship": "KSHU 90.5, Huntsville (Bearkat Sports Network)",
+  "listen_page": "https://gobearkats.com/showcase",
   "conference": "Conference USA",
   "calls": [
    "KSHU-FM"
   ],
   "streams": [],
   "athletics_site": "https://gobearkats.com",
-  "station_website": "https://ch7.shsu.edu/"
+  "station_website": "https://ch7.shsu.edu/",
+  "game_only": true
  },
  {
   "school": "Western Kentucky University",
