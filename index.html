@@ -412,8 +412,8 @@ async function getJSON(u){const r = await fetch(u,{cache:"no-store"}); if(!r.ok)
 async function poll(){
   try{
     const [fbs, fcs] = await Promise.all([
-      getJSON(`${base}/scoreboard?groups=80&limit=400&_=${Math.floor(Date.now()/5000)}`),
-      getJSON(`${base}/scoreboard?groups=81&limit=400&_=${Math.floor(Date.now()/5000)}`).catch(()=>({events:[]})),
+      getJSON(`${base}/scoreboard?groups=80&limit=400`),
+      getJSON(`${base}/scoreboard?groups=81&limit=400`).catch(()=>({events:[]})),
     ]);
     const byId = new Map();
     (fbs.events||[]).forEach(e=>{ e._div = "FBS"; byId.set(e.id, e); });
