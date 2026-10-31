@@ -47,9 +47,14 @@ def now_playing(url, timeout=10):
         return "", f"error: {str(e)[:80]}"
 
 
+AD = re.compile(r"spot ?block|\bspots?\b|commercial|advert|preroll|pre-roll|adw_ad|\bads?\b|sponsor", re.I)
+
+
 def verdict(title, team_words):
     if not title or title.startswith("error"):
         return "unknown"
+    if AD.search(title):
+        return "ad"
     if any(w and w in norm(title) for w in team_words) or SPORTS.search(title):
         return "game"
     if " - " in title:  # "Artist - Song"
@@ -86,7 +91,12 @@ def main():
     stamp = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
     for (school, game, url, words), (name, title) in zip(jobs, res):
         v = verdict(title, words)
-        state["streams"][url] = {"school": school, "verdict": v, "title": title[:120], "icy_name": name[:80], "at": stamp}
+        prev = state["streams"].get(url, {})
+        # A stream that was in an ad the moment we connected probably plays one to every new listener.
+        ads = (prev.get("ad_hits", 0) + (1 if v == "ad" else 0))
+        checks = prev.get("checks", 0) + 1
+        state["streams"][url] = {"school": school, "verdict": v, "title": title[:120], "icy_name": name[:80], "at": stamp,
+                                 "ad_hits": ads, "checks": checks, "preroll": checks >= 2 and ads / checks >= 0.5}
         state["log"].append({"at": stamp, "school": school, "game": game, "url": url, "verdict": v, "title": title[:120]})
     state["log"] = state["log"][-600:]
     state["checked"] = stamp

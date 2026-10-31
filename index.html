@@ -342,7 +342,7 @@ const dirIndex = new Map();
 let liveInfo = {};
 const RECENT_MS = 3*3600e3;
 function liveVerdict(u){ const x = liveInfo[u]; return x && (Date.now() - Date.parse(x.at) < RECENT_MS) ? x : null; }
-const vRank = u => ({game:0, unknown:1, music:2})[liveVerdict(u)?.verdict] ?? 1;
+const vRank = u => ({game:0, ad:0, unknown:1, music:2})[liveVerdict(u)?.verdict] ?? 1;
 async function loadLive(){
   try{ const d = await getJSON("radio-live.json?t=" + Math.floor(Date.now()/300000)); liveInfo = d.streams || {}; }catch(e){}
 }
@@ -971,6 +971,8 @@ async function playList(list, name, sub, loc){
       if(ok){
         deck = {loc, url, sub};
         $("#nowSub").textContent = sub;
+        // Some streams play an ad to every new listener before the broadcast picks up.
+        if(liveInfo[url]?.preroll || /leanstream|ihrhls|revma/.test(url)) toast("The broadcast will start after a short ad.");
         if(loc){ store.set("ok:"+loc, url); } connecting = null; render(); return; }
     }
   }
