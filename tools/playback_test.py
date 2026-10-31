@@ -9,7 +9,7 @@ Usage: python tools/playback_test.py [today|tomorrow|live|all]
 import datetime, json, re, sys, time, urllib.parse, urllib.request
 from playwright.sync_api import sync_playwright
 
-SITE = "https://cman2026.github.io/Gameday-radio/"
+SITE = "https://gamedayradiolive.com/"
 UA = {"User-Agent": "Mozilla/5.0 (GamedayRadio playback test)"}
 SB = "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?groups={g}&limit=400{d}"
 ET = datetime.timezone(datetime.timedelta(hours=-4))
