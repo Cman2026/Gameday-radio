@@ -1,0 +1,20 @@
+name: Listen to live streams
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "10,40 15-23 * * 6"     # Saturdays 11 AM - 8 PM Eastern, twice an hour
+    - cron: "10,40 0-4 * * 0,3,4,5,6"  # evenings
+permissions:
+  contents: write
+concurrency: listen
+jobs:
+  listen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with: { python-version: "3.12" }
+      - run: sudo apt-get install -y -qq ffmpeg >/dev/null && pip install -q faster-whisper
+      - run: python tools/listen_check.py 2>&1 | tee listen-log.txt
+      - run: tools/publish.sh "Listen to live streams" radio-heard.json listen-log.txt

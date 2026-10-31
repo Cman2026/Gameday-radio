@@ -376,10 +376,14 @@ const dirIndex = new Map();
 let liveInfo = {};
 const RECENT_MS = 3*3600e3;
 function liveVerdict(u){ const x = liveInfo[u]; return x && (Date.now() - Date.parse(x.at) < RECENT_MS) ? x : null; }
-const vRank = u => ({game:0, ad:0, unknown:1, music:2, blocked:3})[liveVerdict(u)?.verdict] ?? 1;
+const vRank = u => heard(u)==='game' ? 0 : heard(u)==='not_game' ? 2.5 : (({game:0, ad:0, unknown:1, music:2, blocked:3})[liveVerdict(u)?.verdict] ?? 1);
+// What the listening check actually heard on each stream (speech-to-text): game / not_game / quiet.
+let heardInfo = {};
 async function loadLive(){
   try{ const d = await getJSON("radio-live.json?t=" + Math.floor(Date.now()/300000)); liveInfo = d.streams || {}; }catch(e){}
+  try{ const d = await getJSON("radio-heard.json?t=" + Math.floor(Date.now()/300000)); heardInfo = d.streams || {}; }catch(e){}
 }
+function heard(u){ const x = heardInfo[u]; return x && (Date.now() - Date.parse(x.heard_at) < RECENT_MS) ? x.heard : null; }
 // Moneylines from the major sportsbooks (saved by a background job a few times on game days).
 let ODDS = [];
 const oddsKey = n => (n||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]/g,"");
