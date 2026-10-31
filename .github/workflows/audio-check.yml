@@ -17,5 +17,6 @@ jobs:
       - uses: actions/setup-python@v6
         with: { python-version: "3.12" }
       - run: pip install -q playwright && python -m playwright install --with-deps chromium >/dev/null
-      - run: python tools/check_audio.py ${{ github.event.inputs.schools }}
+      - run: python tools/check_audio.py $SCHOOLS
+        env: { SCHOOLS: "${{ github.event.inputs.schools }}" }
       - run: tools/publish.sh "Audio double-check" audio-check.json
