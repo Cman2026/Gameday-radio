@@ -468,13 +468,13 @@
   ],
   "network": "Temple Owls Radio Network",
   "flagship": "UNVERIFIED (from memory, not confirmed this run): flagship not confirmed",
-  "listen_page": "https://owlsports.com/listen",
+  "listen_page": "https://owlsports.com/showcase?Live=1670",
   "conference": "American Conference",
   "calls": [],
   "streams": [],
   "athletics_site": "https://owlsports.com",
-  "notes": "No radio found since 2023",
-  "no_radio": true
+  "notes": "Free school audio on OwlSports.com",
+  "game_only": true
  },
  {
   "school": "Tulane University",
@@ -1483,13 +1483,13 @@
   ],
   "network": "Rhody audio on The Varsity Network",
   "flagship": "",
-  "listen_page": "https://thevarsitynetwork.com",
+  "listen_page": "https://rhody.leanplayer.com/",
   "conference": "Coastal Athletic Association",
   "calls": [],
   "streams": [],
   "athletics_site": "https://gorhody.com",
-  "notes": "Audio only on the Varsity Network app",
-  "no_radio": true
+  "notes": "Free school audio (LEANplayer)",
+  "game_only": true
  },
  {
   "school": "Sacred Heart University",
@@ -1786,13 +1786,13 @@
   ],
   "network": "",
   "flagship": "",
-  "listen_page": "",
+  "listen_page": "https://portal.stretchinternet.com/pennaudio/",
   "conference": "Ivy League",
   "calls": [],
   "streams": [],
   "athletics_site": "https://pennathletics.com",
-  "notes": "No radio found for 2025-26",
-  "no_radio": true
+  "notes": "Free school audio (Stretch Internet)",
+  "game_only": true
  },
  {
   "school": "Princeton University",
@@ -1802,13 +1802,13 @@
   ],
   "network": "",
   "flagship": "",
-  "listen_page": "",
+  "listen_page": "https://portal.stretchinternet.com/princeton/",
   "conference": "Ivy League",
   "calls": [],
   "streams": [],
   "athletics_site": "https://goprincetontigers.com",
-  "notes": "Audio only on the Varsity Network app",
-  "no_radio": true
+  "notes": "Stretch Internet feed; also Varsity Network app",
+  "game_only": true
  },
  {
   "school": "Yale University",
@@ -1880,13 +1880,13 @@
   ],
   "network": "",
   "flagship": "",
-  "listen_page": "",
+  "listen_page": "https://www.liuathletics.com/watch/?Live=4&type=Live",
   "conference": "Northeast Conference",
   "calls": [],
   "streams": [],
   "athletics_site": "https://liuathletics.com",
-  "notes": "TV only (ESPN+)",
-  "no_radio": true
+  "notes": "LIU Sharks Audio Network (school stream)",
+  "game_only": true
  },
  {
   "school": "Mercyhurst University",
@@ -1901,8 +1901,8 @@
   "calls": [],
   "streams": [],
   "athletics_site": "https://hurstathletics.com",
-  "notes": "TV only (ESPN+)",
-  "no_radio": true
+  "notes": "Audio for some games (e.g. Fox Sports 970 Pittsburgh vs Duquesne)",
+  "game_only": true
  },
  {
   "school": "University of New Haven",
@@ -1928,13 +1928,15 @@
   ],
   "network": "",
   "flagship": "",
-  "listen_page": "",
+  "listen_page": "https://rmucolonials.com/sports/football/schedule",
   "conference": "Northeast Conference",
   "calls": [],
-  "streams": [],
+  "streams": [
+   "https://stream.radio.co/s521a8e223/listen"
+  ],
   "athletics_site": "https://rmucolonials.com",
-  "notes": "Audio only in the RMU Athletics app",
-  "no_radio": true
+  "notes": "School audio stream (radio.co)",
+  "game_only": true
  },
  {
   "school": "Stonehill College",
@@ -2065,8 +2067,9 @@
   "calls": [],
   "streams": [],
   "athletics_site": "https://mvsusports.com",
-  "notes": "TV only (ESPN+)",
-  "no_radio": true
+  "notes": "G-Line Radio (school)",
+  "station_website": "http://www.glineradio.com/",
+  "game_only": true
  },
  {
   "school": "Alcorn State University",
@@ -2239,13 +2242,13 @@
   ],
   "network": "",
   "flagship": "",
-  "listen_page": "",
+  "listen_page": "https://nccueaglepride.com/watch",
   "conference": "MEAC",
   "calls": [],
   "streams": [],
   "athletics_site": "https://nccueaglepride.com",
-  "notes": "TV only (ESPN)",
-  "no_radio": true
+  "notes": "Live audio/video on school site",
+  "game_only": true
  },
  {
   "school": "South Carolina State University",
@@ -2278,8 +2281,8 @@
   "calls": [],
   "streams": [],
   "athletics_site": "https://merrimackathletics.com",
-  "notes": "TV only (ESPN+/FloSports)",
-  "no_radio": true
+  "notes": "Audio listed for some games (opponent feeds)",
+  "game_only": true
  },
  {
   "school": "Chicago State University",
@@ -2769,13 +2772,13 @@
   ],
   "network": "",
   "flagship": "",
-  "listen_page": "",
+  "listen_page": "https://davidsonwildcats.com/showcase/",
   "conference": "Pioneer Football League",
   "calls": [],
   "streams": [],
   "athletics_site": "https://davidsonwildcats.com",
-  "notes": "TV only (ESPN+)",
-  "no_radio": true
+  "notes": "School audio showcase; also Varsity Network",
+  "game_only": true
  },
  {
   "school": "University of Dayton",
@@ -2817,13 +2820,13 @@
   ],
   "network": "",
   "flagship": "Z-93 93.3 FM (Hudson Valley/Poughkeepsie, NY)",
-  "listen_page": "",
+  "listen_page": "https://goredfoxes.com/showcase?Live=882",
   "conference": "Pioneer Football League",
   "calls": [],
   "streams": [],
   "athletics_site": "https://goredfoxes.com",
-  "notes": "Varsity Network app only",
-  "no_radio": true
+  "notes": "School audio on GoRedFoxes.com",
+  "game_only": true
  },
  {
   "school": "Morehead State University",
@@ -2881,13 +2884,13 @@
   ],
   "network": "",
   "flagship": "",
-  "listen_page": "",
+  "listen_page": "https://usdtoreros.com/showcase",
   "conference": "Pioneer Football League",
   "calls": [],
   "streams": [],
   "athletics_site": "https://usdtoreros.com",
-  "notes": "TV only (ESPN+)",
-  "no_radio": true
+  "notes": "Radio: USDToreros (school audio)",
+  "game_only": true
  },
  {
   "school": "Stetson University",
