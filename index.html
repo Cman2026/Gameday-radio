@@ -89,6 +89,10 @@ h1 span{color:inherit}
 .list > :is(.card,.up,.fin):last-child, :is(.card,.up,.fin):has(+ .conf), :is(.card,.up,.fin):has(+ .board){border-bottom-left-radius:var(--r-lg);border-bottom-right-radius:var(--r-lg)}
 .card{cursor:pointer;position:relative}
 .card[aria-current="true"]{background:var(--surface-2)}
+.card .meta .gchev{width:16px;height:16px;margin-left:8px;vertical-align:-3px;color:var(--muted);transition:transform .2s}
+.card[aria-expanded="true"] .meta .gchev{transform:rotate(180deg)}
+.hide-board{justify-self:center;display:inline-flex;align-items:center;gap:6px;background:none;border:1px solid var(--line-2);color:var(--muted);border-radius:999px;padding:8px 14px;font:600 14px var(--ui);cursor:pointer}
+.hide-board svg{width:16px;height:16px}
 .card[aria-current="true"]::before{content:"";position:absolute;left:0;top:10px;bottom:10px;width:3px;border-radius:0 3px 3px 0;background:var(--accent)}
 .card .row{display:flex;justify-content:space-between;align-items:center;gap:10px;min-height:30px}
 .card .tm{display:flex;align-items:center;gap:9px;min-width:0;font-weight:500;font-size:16px}
@@ -329,6 +333,7 @@ h1 span{color:inherit}
 const sn = call => [3,9,6,5,7,2,4,8,1].map(n=>`https://ice${n}.securenetsystems.net/${call}`);
 const RADIO = {}; // filled from radio.json (tested daily) + playback.json (played in a real browser)
 const base = "https://site.api.espn.com/apis/site/v2/sports/football/college-football";
+let boardOpen = true;
 let filter = "live", events = [], selected = null, history = [], summaryHist = [], delay = 0;
 const $ = s => document.querySelector(s);
 const store = {get(k){try{return localStorage.getItem(k)}catch(e){return null}}, set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
@@ -462,7 +467,14 @@ function render(){
     const why = !live.length ? "No Division I games are live right now." : (q ? `No live games match “${esc(query.trim())}”.` : divFilter==="fav" ? "None of your teams are playing right now. Tap ☆ on a team to add it." : `No ${divFilter} games are live right now.`);
     list.innerHTML = `<div class="empty">${why}${!live.length && next ? `<br>Next up: ${esc(next.shortName)}, ${fmtTime(next.date)}.` : ""}</div>`;
   } else list.innerHTML = shown.map(card).join("") + finalsToday();
-  list.querySelectorAll(".card").forEach(b=>{ const go=()=>{selected=b.dataset.id; render();}; b.onclick=ev=>{ if(ev.target.closest(".ear,.fav")) return; go(); }; b.onkeydown=ev=>{ if(ev.key==="Enter"||ev.key===" "){ ev.preventDefault(); go(); } }; });
+  list.querySelectorAll(".card").forEach(b=>{ const go=()=>{
+      // Tapping the open game folds its details away; tapping another opens it, keeping that game where it was on screen.
+      const id = b.dataset.id, y0 = b.getBoundingClientRect().top;
+      if(id===selected){ boardOpen = !boardOpen; } else { selected = id; boardOpen = true; }
+      render();
+      const nb = $(`#list .card[data-id="${CSS.escape(id)}"]`);
+      if(nb) window.scrollBy(0, nb.getBoundingClientRect().top - y0);
+    }; b.onclick=ev=>{ if(ev.target.closest(".ear,.fav")) return; go(); }; b.onkeydown=ev=>{ if(ev.key==="Enter"||ev.key===" "){ ev.preventDefault(); go(); } }; });
   renderBoard();
   placeBoard();
   updateDeck();
@@ -472,7 +484,7 @@ const NARROW = matchMedia("(max-width: 860px)");
 const boardHome = (()=>{ const b = document.getElementById("board"); return {parent: b.parentNode, next: b.nextSibling}; })();
 function placeBoard(){
   const B = $("#board"), card = selected && $(`#list .card[data-id="${CSS.escape(selected)}"]`);
-  if(NARROW.matches && card){ if(card.nextSibling !== B) card.after(B); }
+  if(NARROW.matches && card && boardOpen){ if(card.nextSibling !== B) card.after(B); }
   else if(B.parentNode !== boardHome.parent) boardHome.parent.insertBefore(B, boardHome.next);
 }
 NARROW.addEventListener?.("change", placeBoard);
@@ -673,8 +685,8 @@ function card(e){
   const c = e.competitions[0], a = team(c,"away"), h = team(c,"home"), st = e.status.type;
   const showScore = st.state!=="pre";
   const row = t => `<div class="row"><span class="tm"><button class="fav ${favs.has(t.team.location)?"on":""}" data-fav="${esc(t.team.location)}" aria-label="${favs.has(t.team.location)?"Remove":"Add"} ${esc(t.team.location)} ${favs.has(t.team.location)?"from":"to"} saved teams">${favs.has(t.team.location)?'<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>':'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>'}</button>${logoImg(t.team)}<span>${t.curatedRank?.current<26?`<small>${t.curatedRank.current}</small> `:""}${esc(nameOf(t.team))}</span></span><span class="right">${ear(t.team.location, "")}<span class="sc">${showScore?t.score:""}</span></span></div>`;
-  return `<div class="card" role="button" tabindex="0" data-id="${e.id}" aria-current="${e.id===selected}">${row(a)}${row(h)}
-  <div class="meta"><span class="${st.state==="in"?"live":""}">${st.state==="pre"?fmtTime(e.date):statusText(e).short}</span><span>${esc((c.broadcasts||[]).flatMap(b=>b.names).join(", "))}<span class="div">${e._div||""}</span></span></div>${soonNote(e)}</div>`;
+  return `<div class="card" role="button" tabindex="0" data-id="${e.id}" aria-current="${e.id===selected}" aria-expanded="${e.id===selected && boardOpen}">${row(a)}${row(h)}
+  <div class="meta"><span class="${st.state==="in"?"live":""}">${st.state==="pre"?fmtTime(e.date):statusText(e).short}</span><span>${esc((c.broadcasts||[]).flatMap(b=>b.names).join(", "))}<span class="div">${e._div||""}</span><svg class="gchev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>${soonNote(e)}</div>`;
 }
 
 // ---------- Today's upcoming games (shown when nothing is live) ----------
@@ -823,7 +835,7 @@ function renderUpcoming(){
 
 function renderBoard(){
   const e = events.find(x=>x.id===selected); const B = $("#board");
-  if(!e){B.innerHTML = ""; B.hidden = true; return;}
+  if(!e || !boardOpen){B.innerHTML = ""; B.hidden = true; return;}
   B.hidden = false;
   const c = e.competitions[0], a = team(c,"away"), h = team(c,"home"), st = e.status, sit = c.situation||{};
   const ss = snap(summaryHist, x=>x.id===selected); const sum = ss?.s; const pid = possId(e);
@@ -853,7 +865,8 @@ function renderBoard(){
   html += `<div class="radio-info"><p class="label">Radio for this game</p><ul>${r.map(x=>`<li><b>${esc(x.team)}</b> ${esc(x.net||"")}${x.station && !/radio$/i.test(x.net||"") ? `, ${esc(String(x.station).replace(/\s*\(no free online stream found\)/,""))}` : ""}${x.stream ? "" : ` <span class="note">(no free stream)</span>`}</li>`).join("")}</ul>
   <span class="note">Each team's own radio broadcast. If one won't connect, try the other team's call.</span>
   <p class="legal">Broadcasts play directly from each station's own stream and belong to their respective owners. No copyright infringement is intended. Gameday Radio Live is an independent fan project and is not affiliated with or endorsed by any school, conference, network or station. Rights holders can <a href="https://github.com/Cman2026/Gameday-radio/issues" target="_blank" rel="noopener">request removal</a>.</p></div>`;
-  B.innerHTML = html;
+  B.innerHTML = html + `<button class="hide-board" id="hideBoard">Hide game details<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 15l6-6 6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>`;
+  $("#hideBoard").onclick = ()=>{ const c = $(`#list .card[data-id="${CSS.escape(selected)}"]`); boardOpen = false; render(); c && $(`#list .card[data-id="${CSS.escape(selected)}"]`)?.scrollIntoView({block:"nearest"}); };
   B.querySelectorAll("[data-play]").forEach(l=>l.onclick=ev=>{ev.preventDefault(); $("#station").value = "team:"+l.dataset.play; startStation();});
 }
 function esc(s){return String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]))}
