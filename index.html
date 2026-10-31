@@ -1080,8 +1080,15 @@ function fieldView(sit, a, h, pid, gid){
   // text, then down-and-distance, then the last play), then yards-to-goal; during timeouts and
   // reviews ESPN often drops these, so keep the last good spot for the game.
   const abbr = t => (t.team.abbreviation||"").toUpperCase();
+  // Play text doesn't always use ESPN's abbreviation ("UALB 28" for Albany, whose abbreviation is ALB),
+  // so also match the start of the school or nickname, or one abbreviation inside the other.
+  const flat = x => String(x||"").toUpperCase().replace(/[^A-Z&]/g,"");
+  const whichSide = tok => { tok = tok.toUpperCase();
+    const exact = [a,h].find(t=>abbr(t)===tok); if(exact) return exact;
+    const loose = [a,h].filter(t=>[t.team.location,t.team.shortDisplayName,t.team.displayName,t.team.name].some(n=>flat(n).startsWith(tok)) || (abbr(t) && (tok.includes(abbr(t)) || abbr(t).includes(tok))));
+    return loose.length===1 ? loose[0] : null; };
   const spot = txt => { const m = /(?:^|\bat\s+|\bthe\s+)([A-Z][A-Z&]{1,5})\s?0?(\d{1,2})\b/i.exec(txt||""); if(!m) return null;
-    const side = [a,h].find(t=>abbr(t)===m[1].toUpperCase()); if(!side) return null; const n = +m[2]; if(n>50) return null;
+    const side = whichSide(m[1]); if(!side) return null; const n = +m[2]; if(n>50) return null;
     return side===a ? n : 100 - n; }; // "KENT 21" = 21 yards from Kent's (left) goal
   let pos = spot((sit.possessionText||"").trim()) ?? spot(sit.downDistanceText);
   if(pos==null && sit.yardsToEndzone!=null && pid) pos = homePoss ? sit.yardsToEndzone : 100 - sit.yardsToEndzone;
