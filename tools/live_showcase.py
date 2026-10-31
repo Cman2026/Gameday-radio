@@ -76,6 +76,24 @@ def sidearm_audio(site):
     return list(dict.fromkeys(out))
 
 
+def leanplayer_audio(page_url):
+    """LEANplayer pages (school audio players) list today's events in a signed XML file."""
+    try:
+        html = urllib.request.urlopen(urllib.request.Request(page_url, headers=UA), timeout=15).read().decode("utf-8", "ignore")
+        m = re.search(r"""https?://[^"'\s<>]+live_events[^"'\s<>]+\.xml[^"'\s<>]*""", html) or re.search(r"""/uploads/xml/[^"'\s<>]+\.xml[^"'\s<>]*""", html)
+        if not m:
+            return []
+        xu = m.group(0).replace("&amp;", "&")
+        if xu.startswith("/"):
+            xu = page_url.rstrip("/") + xu
+        xml = urllib.request.urlopen(urllib.request.Request(xu, headers=UA), timeout=15).read().decode("utf-8", "ignore")
+        print("leanplayer xml", page_url, xml[:600].replace("\n", " "))
+        urls = re.findall(r"""https?://[^"'\s<>\]]+""", xml)
+        return [u for u in dict.fromkeys(urls) if re.search(r"leanstream|\.m3u8|\.mp3|\.aac|/live", u, re.I) and not NOT_LIVE.search(u)][:3]
+    except Exception as ex:
+        print("leanplayer error", page_url, str(ex)[:100]); return []
+
+
 def sniff(urls):
     subprocess.run([sys.executable, "-m", "pip", "install", "-q", "playwright"], check=True)
     subprocess.run([sys.executable, "-m", "playwright", "install", "--with-deps", "chromium"], check=True, stdout=subprocess.DEVNULL)
@@ -155,6 +173,13 @@ def main():
             print(t["school"], "-> (feed)", got)
             t["streams"] = list(dict.fromkeys(got + (t.get("streams") or [])))[:4]; t["live_only"] = True; changed = True
             targets = {u: x for u, x in targets.items() if x is not t}
+    for url, t in list(targets.items()):
+        if "leanplayer.com" in url:
+            got = leanplayer_audio(url)
+            if got:
+                print(t["school"], "-> (leanplayer)", got)
+                t["streams"] = list(dict.fromkeys(got + (t.get("streams") or [])))[:4]; t["live_only"] = True; changed = True
+                targets = {u: x for u, x in targets.items() if x is not t}
     # Opening pages in a browser is slow, so only do it close to kickoff.
     targets = {u: x for u, x in targets.items() if x.get("_mins", 0) < 45}
     found = sniff(list(targets)) if targets else {}
