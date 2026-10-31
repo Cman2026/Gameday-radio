@@ -19,7 +19,7 @@
   --bg:#F2F3F5; --surface:#FFFFFF; --surface-2:#F6F7F9; --line:#E2E5EA; --line-2:#D3D8DF;
   --text:#11161D; --muted:#5F6B7A; --faint:#8A95A3;
   --accent:#C77700; --ball:#E8B400; --accent-ink:#FFFFFF; --accent-soft:#FFF3DF;
-  --live:#D6303A; --win:#11161D;
+  --live:#D6303A; --win:#11161D; --input:#FFFFFF; --input-line:#B9C2CC;
   --field-a:#2E7A47; --field-b:#33854E;
   --ui:"Barlow",system-ui,-apple-system,"Segoe UI",sans-serif;
   --num:"Barlow Condensed","Barlow",system-ui,sans-serif;
@@ -30,7 +30,7 @@
   --bg:#0F141A; --surface:#171D25; --surface-2:#1D242D; --line:#29313B; --line-2:#36404C;
   --text:#ECEFF3; --muted:#9AA5B2; --faint:#6F7A87;
   --accent:#F2A93B; --ball:#FFD23F; --accent-ink:#1A1206; --accent-soft:#2A2110;
-  --live:#FF5C63; --win:#FFFFFF; --field-a:#24603A; --field-b:#286A40;
+  --live:#FF5C63; --win:#FFFFFF; --field-a:#24603A; --field-b:#286A40; --input:#2A3441; --input-line:#5A6775;
   color-scheme:dark;
 }}
 *{box-sizing:border-box}
@@ -69,10 +69,10 @@ h1 span{color:inherit}
 
 /* ---------- Search + segmented filter ---------- */
 .filters{display:grid;gap:10px;margin-bottom:14px}
-.filters input[type=search]{width:100%;height:44px;border:1px solid var(--line-2);border-radius:var(--r-md);background:var(--surface-2);padding:0 12px 0 38px;font:500 16px var(--ui);color:var(--text);box-shadow:0 1px 2px rgba(0,0,0,.08);
-  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23AEB7C2' stroke-width='2.2' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='m20 20-3.5-3.5'/%3E%3C/svg%3E");
+.filters input[type=search]{width:100%;height:46px;border:1.5px solid var(--input-line);border-radius:var(--r-md);background:var(--input);padding:0 12px 0 40px;font:500 16px var(--ui);color:var(--text);box-shadow:0 1px 3px rgba(0,0,0,.12);
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23C5CDD6' stroke-width='2.4' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='m20 20-3.5-3.5'/%3E%3C/svg%3E");
   background-repeat:no-repeat;background-position:11px 50%;background-size:17px}
-.filters input[type=search]::placeholder{color:var(--muted)}
+.filters input[type=search]::placeholder{color:var(--muted);opacity:1}
 .filters input[type=search]:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
 .chips{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:2px;padding:3px;background:var(--surface-2);border:1px solid var(--line);border-radius:var(--r-md)}
 .chip{border:0;background:transparent;border-radius:7px;height:34px;padding:0 6px;font-size:14px;font-weight:500;color:var(--muted);cursor:pointer;white-space:nowrap;display:flex;align-items:center;justify-content:center;gap:5px}
@@ -145,7 +145,7 @@ h1 span{color:inherit}
 .up .at,.fin .at{color:var(--faint);font-weight:500}
 .up .rec,.fin .rec{font:500 14px var(--num);color:var(--muted);font-variant-numeric:tabular-nums}
 .up .pct{font:600 18px var(--num);text-align:right;color:var(--muted);font-variant-numeric:tabular-nums}
-.up .pct.fav{color:var(--text);font-weight:700}
+.up .pct.lead{color:var(--text);font-weight:700}
 .wpbar{display:flex;height:4px;border-radius:2px;overflow:hidden;background:var(--line);gap:2px}
 .wpbar span{display:block;height:100%}
 .up .meta{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:13px;color:var(--muted);min-width:0}
@@ -255,20 +255,23 @@ h1 span{color:inherit}
 .minbtn{flex:none;width:40px;height:40px;padding:0;display:grid;place-items:center;border-radius:50%;border:1px solid var(--line);background:var(--surface);color:var(--muted);cursor:pointer}
 .minbtn svg{width:22px;height:22px;transition:transform .2s;transform:rotate(180deg)}
 .deck.min .minbtn svg{transform:none}
-.syncrow{display:flex;align-items:center;gap:6px;flex:1 1 auto;font-size:13px;color:var(--muted)}
+.syncrow{display:flex;flex-wrap:wrap;align-items:center;gap:6px;flex:1 1 auto;font-size:13px;color:var(--muted)}
 .syncrow .lab{font-weight:600;color:var(--muted);margin-right:2px}
 .syncrow .val{min-width:112px;text-align:center;color:var(--text);font-variant-numeric:tabular-nums}
+@media (max-width:360px){.syncrow .val{min-width:0}}
 .btn{height:34px;padding:0 12px;border:1px solid var(--line);border-radius:var(--r-sm);background:var(--surface);color:var(--text);font-size:14px;font-weight:500;cursor:pointer;white-space:nowrap}
 .btn.sm{height:30px;padding:0 10px;font-size:13px}
 .btn:hover{border-color:var(--line-2)}
 .more{display:contents}
 .deck input[type=url]{flex:1 1 220px;height:34px;border:1px solid var(--line);border-radius:var(--r-sm);background:var(--surface);padding:0 10px;min-width:0}
 .vol{width:96px;accent-color:var(--accent)}
+@media (max-width:860px){
 .deck.min{padding-top:calc(6px + env(safe-area-inset-top,0px));padding-bottom:6px}
 .deck.min .syncrow,.deck.min #moreBtn,.deck.min #more{display:none!important}
 .deck.min .play-btn{width:36px;height:36px} .deck.min .play-btn svg{width:16px;height:16px}
 .deck.min .now small{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .deck.min .minbtn{width:34px;height:34px}
+}
 
 
 /* Wide screens: one tidy row across the full width (play · now playing · sync · volume),
@@ -287,8 +290,10 @@ h1 span{color:inherit}
 /* minimize button: beat the generic .btn/.btn.sm padding so the chevron sits dead center */
 .deck .btn.minbtn{width:40px;height:40px;padding:0;border-radius:50%;display:grid;place-items:center;align-self:center;line-height:0}
 .deck .btn.minbtn svg{display:block;width:22px;height:22px}
+@media (max-width:860px){
 .deck.min .btn.minbtn{width:34px;height:34px}
 .deck.min .btn.minbtn svg{width:20px;height:20px}
+}
 @media (prefers-reduced-motion:reduce){.field .ball,.field .fd,.field .ls,.minbtn svg{transition:none}.ear .bars i{animation:none;height:10px}}
 </style>
 </head>
@@ -489,7 +494,7 @@ function note(text, kind){
   return `<div class="soon-note ${kind||""}">${icon}<span>${text}</span></div>`;
 }
 let divFilter = "all", query = "";
-const favs = new Set(JSON.parse(store.get("favs")||"[]"));
+const favs = new Set((()=>{try{return JSON.parse(store.get("favs")||"[]")}catch(e){return []}})());
 function saveFavs(){ store.set("favs", JSON.stringify([...favs])); }
 const isFavGame = e => e.competitions[0].competitors.some(t=>favs.has(t.team.location));
 function fmtTime(d){return new Date(d).toLocaleString([], {weekday:"short", hour:"numeric", minute:"2-digit", hour12:true})}
@@ -508,26 +513,25 @@ async function poll(){
     (fcs.events||[]).forEach(e=>{ if(!byId.has(e.id)){ e._div = "FCS"; byId.set(e.id, e); } });
     const evs = [...byId.values()];
     evs.forEach(e=>e.competitions[0].competitors.forEach(c=>attachRadio(c.team)));
-    history.push({t:Date.now(), evs}); history = history.filter(h => Date.now()-h.t < 180000);
+    history.push({t:Date.now(), evs}); history = history.filter(h => Date.now()-h.t < (delay+20)*1000);
     $("#dot").className = "dot ok"; $("#stat").textContent = "Updated " + new Date().toLocaleTimeString([], {hour:"numeric", minute:"2-digit", hour12:true}); $("#upd").textContent = "";
     const live = evs.filter(e=>e.status.type.state==="in");
-    if(!selected || !live.some(e=>e.id===selected)){
-      if(selected && matchMedia("(max-width: 860px)").matches){ boardOpen = false; store.set("openGame", ""); } // the open game ended
-      selected = (live.find(isFavGame) || live[0])?.id || null;
-    }
     // Preload every live game: the selected one refreshes every 9s, the rest every 30s,
     // and each team's radio is looked up ahead of time so Listen starts right away.
     live.forEach(e=>{ pollSummary(e.id, (e.id===selected || (deck && e.competitions[0].competitors.some(c=>c.team.location===deck.loc))) ? 6000 : 30000); e.competitions[0].competitors.forEach(t=>prepareTeam(t.team.location)); });
   }catch(e){
     $("#dot").className = "dot err";
     $("#stat").textContent = "Can't reach the scores feed right now. Retrying…";
+    if(!history.length) $("#list").innerHTML = `<div class="empty">Can't reach the scores feed right now. Retrying…</div>`;
   }
   render();
 }
 const sumAt = {};
 async function pollSummary(id, gap=9000){
   if(Date.now() - (sumAt[id]||0) < gap) return; sumAt[id] = Date.now();
-  try{ const s = await getJSON(`${base}/summary?event=${id}`); notePlays(id, s); summaryHist.push({t:Date.now(), id, s}); summaryHist = summaryHist.filter(h=>Date.now()-h.t<180000); render(); }catch(e){}
+  try{ const s = await getJSON(`${base}/summary?event=${id}`); notePlays(id, s); summaryHist.push({t:Date.now(), id, s}); summaryHist = summaryHist.filter(h=>Date.now()-h.t<(delay+20)*1000);
+    // Only redraw for the game on screen or the one on the radio; the rest are just being kept warm.
+    if(id===selected || (deck && events.find(x=>x.id===id)?.competitions[0].competitors.some(c=>c.team.location===deck.loc))) render(); }catch(e){}
 }
 /* ---------- automatic score/radio sync ----------
    How far behind real time the radio is: HLS streams carry the wall-clock time of the audio
@@ -587,7 +591,12 @@ function render(){
   const s = snap(history); events = s ? s.evs : []; events.forEach(e=>{ if(e.status?.type?.state==='in') trackClock(e, s.t); });
   const order = {in:0, pre:1, post:2};
   const live = events.filter(e=>e.status.type.state==="in");
+  if(!live.length && !history.length){ $("#list").innerHTML = `<div class="empty">Loading today's games…</div>`; $("#board").hidden = true; updateDeck(); return; }
   if(!live.length){ renderUpcoming(); updateDeck(); return; }
+  if(!selected || !live.some(e=>e.id===selected)){
+    if(selected && NARROW.matches){ boardOpen = false; store.set("openGame", ""); } // the open game ended
+    selected = (live.find(isFavGame) || live[0])?.id || null;
+  }
   $("#board").hidden = false;
   const count = f => live.filter(f).length;
   $("#nAll").textContent = live.length; $("#nFBS").textContent = count(e=>e._div==="FBS");
@@ -610,7 +619,7 @@ function render(){
       render();
       const nb = $(`#list .card[data-id="${CSS.escape(id)}"]`);
       if(nb) window.scrollBy(0, nb.getBoundingClientRect().top - y0);
-    }; b.onclick=ev=>{ if(ev.target.closest(".ear,.fav")) return; go(); }; b.onkeydown=ev=>{ if(ev.key==="Enter"||ev.key===" "){ ev.preventDefault(); go(); } }; });
+    }; b.onclick=ev=>{ if(ev.target.closest(".ear,.fav")) return; go(); }; b.onkeydown=ev=>{ if(ev.target!==b) return; if(ev.key==="Enter"||ev.key===" "){ ev.preventDefault(); go(); } }; });
   renderBoard();
   placeBoard();
   updateDeck();
@@ -626,7 +635,7 @@ function placeBoard(){
     if(NARROW.matches) B.hidden = true;
   }
 }
-NARROW.addEventListener?.("change", placeBoard);
+NARROW.addEventListener?.("change", ()=>{ if(!NARROW.matches && selected){ boardOpen = true; } render(); });
 let currentTeam = null, connecting = null;
 const ready = {}; // team -> flat list of direct stream URLs, best first
 function ear(loc, label){
@@ -674,9 +683,16 @@ document.addEventListener("click", ev=>{
   const b = ev.target.closest(".ear[data-team]"); if(!b) return;
   ev.stopPropagation();
   const loc = b.dataset.team;
+  if(connecting===loc){ stopRadio(); return; }               // tapped again while connecting: cancel
   if(currentTeam===loc && !audio.paused){ audio.pause(); return; }
   listenTo(loc);
 });
+function stopRadio(){
+  tryToken++; connecting = null; currentTeam = null; deck = null;
+  try{ audio.pause(); if(hls){hls.destroy(); hls=null} audio.removeAttribute("src"); audio.load(); }catch(e){}
+  $("#nowName").textContent = "Radio off"; $("#nowSub").textContent = "Tap Listen next to a team";
+  render();
+}
 function listenTo(loc){
   const r = RADIO[loc]||{};
   currentTeam = loc; connecting = loc; deck = null;
@@ -703,7 +719,7 @@ function breakAfter(e){
   // Returns the quarter that just ended if the game is between quarters, else 0.
   const st = e.status, t = st.type, p = st.period||0, name = t.name||"", sd = t.shortDetail||"";
   if(name==="STATUS_HALFTIME" || /halftime/i.test(sd)) return 2;
-  if(name==="STATUS_END_PERIOD" || /^end of/i.test(sd) || st.displayClock==="0:00"){
+  if(name==="STATUS_END_PERIOD" || /^end of/i.test(sd) || (st.displayClock==="0:00" && p<=4)){
     const m = sd.match(/(1st|2nd|3rd|4th)/); return m ? ({"1st":1,"2nd":2,"3rd":3,"4th":4})[m[1]] : p;
   }
   if(st.displayClock!=="15:00" || p<=1) return 0;
@@ -726,7 +742,7 @@ function trackClock(e, t){
   if(prev && prev.raw === raw){
     // A newer reading that hasn't moved means the clock is stopped.
     // The feed can repeat a reading for a few polls, so wait 12s before calling it stopped.
-    if(prev.running && Date.now() - prev.at > 12000){ prev.shown = Math.max(0, prev.sec - 12); prev.running = false; } // freeze where it is; the next reading corrects it
+    if(prev.running && Date.now() - prev.at > 12000){ prev.shown = prev.sec; prev.running = false; } // the feed reports a stoppage with the clock's real value, so show that
     return;
   }
   const real = prev ? Math.max(1, (t - prev.t)/1000) : 0;
@@ -909,7 +925,7 @@ function upCard(e){
   const rank = t => t.curatedRank?.current && t.curatedRank.current < 26 ? `<span class="rk">${t.curatedRank.current}</span>` : "";
   const row = (t, pct, isHome) => `<div class="tr"><button class="fav ${favs.has(t.team.location)?"on":""}" data-fav="${esc(t.team.location)}" aria-label="${favs.has(t.team.location)?"Remove":"Add"} ${esc(t.team.location)} ${favs.has(t.team.location)?"from":"to"} saved teams">${favs.has(t.team.location)?'<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>':'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>'}</button>
     ${logoImg(t.team)}<span class="nm">${isHome?'<span class="at">@ </span>':""}${rank(t)}${esc(nameOf(t.team))}</span>
-    <span class="rec">${esc(t.records?.[0]?.summary||"")}</span>${ear(t.team.location, "")}<span class="pct ${pct!=null&&pct>=50?"fav":""}">${pct==null?"":pct+"%"}</span></div>`;
+    <span class="rec">${esc(t.records?.[0]?.summary||"")}</span>${ear(t.team.location, "")}<span class="pct ${pct!=null&&pct>=50?"lead":""}">${pct==null?"":pct+"%"}</span></div>`;
   const bits = [`<b>${new Date(e.date).toLocaleTimeString([], {hour:"numeric", minute:"2-digit", hour12:true})}</b>`];
   const tvs = (c.broadcasts||[]).flatMap(b=>b.names), tv = tvs.slice(0,2).join(", ") + (tvs.length>2?` +${tvs.length-2}`:""); if(tvs.length) bits.push(esc(tv));
   if(o?.details) bits.push(esc(o.details)); if(o?.overUnder) bits.push(`O/U ${esc(o.overUnder)}`);
@@ -975,7 +991,7 @@ function renderUpcoming(){
 
 function renderBoard(){
   const e = events.find(x=>x.id===selected); const B = $("#board");
-  if(!e || !boardOpen){B.innerHTML = ""; B.hidden = true; return;}
+  if(!e || !boardOpen){B.innerHTML = ""; renderBoard.last = ""; B.hidden = true; return;}
   B.hidden = false;
   const c = e.competitions[0], a = team(c,"away"), h = team(c,"home"), st = e.status, sit0 = c.situation||{};
   const ss = snap(summaryHist, x=>x.id===selected); const sum = ss?.s; const pid = possId(e);
@@ -1010,7 +1026,12 @@ function renderBoard(){
   const r = radioFor(e);
   html += `<div class="radio-info"><p class="label">Radio for this game</p><ul>${r.map(x=>`<li><b>${esc(x.team)}</b> ${esc(x.net||"")}${x.station && !/radio$/i.test(x.net||"") ? `, ${esc(String(x.station).replace(/\s*\(no free online stream found\)/,""))}` : ""}${x.stream ? "" : ` <span class="note">(no free stream)</span>`}</li>`).join("")}</ul>
   <span class="note">Each team's own radio broadcast. If one won't connect, try the other team's call.</span></div>`;
+  const same = html.replace(/(<span data-clk="[^"]*">)[^<]*/g, "$1") === (renderBoard.last||"");
+  renderBoard.last = html.replace(/(<span data-clk="[^"]*">)[^<]*/g, "$1");
+  if(same && B.innerHTML){ B.querySelectorAll("[data-clk]").forEach(el=>{ const g = events.find(x=>x.id===el.dataset.clk); if(g) el.textContent = liveClock(g); }); return; }
+  const keep = B.querySelector(".plays")?.scrollTop || 0;
   B.innerHTML = html;
+  const pl = B.querySelector(".plays"); if(pl && keep) pl.scrollTop = keep;
   const pt = $("#pbpToggle"); if(pt) pt.onclick = ()=>{ const open = pt.getAttribute("aria-expanded")!=="true"; store.set("pbp", open?"1":"0"); pt.setAttribute("aria-expanded", String(open)); pt.nextElementSibling.hidden = !open; };
   B.querySelectorAll("[data-play]").forEach(l=>l.onclick=ev=>{ev.preventDefault(); $("#station").value = "team:"+l.dataset.play; startStation();});
 }
@@ -1147,16 +1168,14 @@ async function playList(list, name, sub, loc){
       if(token !== tryToken) return;
       const ok = await tryUrl(url);
       if(token !== tryToken) return;
-      if(ok){
-        deck = {loc, url, sub};
-        // Each station keeps its own score delay: start from its saved value, or live, then let auto-sync refine it.
-        syncMode = "manual-pending"; setDelay(+(store.get("delay@" + streamKey(url)) || 0)); setTimeout(autoSync, 4000);
-        $("#nowSub").textContent = sub;
-        // Some streams play an ad to every new listener before the broadcast picks up.
-        if(liveInfo[url]?.preroll || /leanstream|ihrhls|revma/.test(url)) toast("The broadcast will start after a short ad.");
-        if(loc){ store.set("ok:"+loc, url); } connecting = null; render(); return; }
+      if(ok){ connected(loc, url, sub); return; }
     }
   }
+  // Nothing answered within the timer, but the last stream is still loading: if it starts in the
+  // next 20 seconds, treat that as success instead of leaving it playing behind an error message.
+  const late = ()=>{ audio.removeEventListener("playing", late); if(token===tryToken){ const u = lastTried; connected(loc, u, sub); } };
+  audio.addEventListener("playing", late);
+  setTimeout(()=>{ audio.removeEventListener("playing", late); if(token===tryToken && !deck){ try{ audio.pause(); audio.removeAttribute("src"); audio.load(); }catch(e){} currentTeam = null; render(); } }, 20000);
   connecting = null; render();
   const ext = loc && RADIO[loc]?.external;
   if(ext){
@@ -1165,7 +1184,18 @@ async function playList(list, name, sub, loc){
     $("#nowSub").textContent = "No stream answered. The station may not be on the air right now.";
   }
 }
+let lastTried = null;
+function connected(loc, url, sub){
+  deck = {loc, url, sub};
+  // Each station keeps its own score delay: start from its saved value, or live, then let auto-sync refine it.
+  syncMode = "manual-pending"; setDelay(+(store.get("delay@" + streamKey(url)) || 0)); setTimeout(autoSync, 4000);
+  $("#nowSub").textContent = sub;
+  // Some streams play an ad to every new listener before the broadcast picks up.
+  if(liveInfo[url]?.preroll || /leanstream|ihrhls|revma/.test(url)) toast("The broadcast will start after a short ad.");
+  connecting = null; render();
+}
 function tryUrl(url){
+  lastTried = url;
   return new Promise(res=>{
     let done = false; const fin = v=>{ if(done) return; done = true; clearTimeout(tm); audio.removeEventListener("playing", onOk); audio.removeEventListener("error", onErr); res(v); };
     const onOk = ()=>fin(true), onErr = ()=>fin(false), tm = setTimeout(()=>fin(false), 8000);
@@ -1205,10 +1235,13 @@ $("#vol").oninput = e=> audio.volume = e.target.value;
 $("#useCustom").onclick = ()=>{
   const u = $("#custom").value.trim(); if(!u) return;
   const v = $("#station").value;
-  if(v){ store.set("stream:"+v.slice(5), u); fillStations(); $("#station").value = v; render(); }
-  play(u, v?v.slice(5)+" (saved stream)":"Custom stream", u);
+  if(v){ store.set("stream:"+v.slice(5), u); fillStations(); $("#station").value = v; listenTo(v.slice(5)); return; }
+  tryToken++; currentTeam = null; connecting = null; deck = null;
+  playList([u], "Custom stream", u, null);
 };
-$("#nudge").onclick = ()=>{ if(audio.paused) return; audio.pause(); $("#nudge").disabled = true; setTimeout(()=>{audio.play(); $("#nudge").disabled=false}, 5000); };
+$("#nudge").onclick = ()=>{ if(audio.paused) return; const tok = ++nudgeTok, was = deck; audio.pause(); $("#nudge").disabled = true;
+  setTimeout(()=>{ $("#nudge").disabled = false; if(tok===nudgeTok && deck===was && audio.paused && !connecting) audio.play(); }, 5000); };
+let nudgeTok = 0;
 function setDelay(d, auto){
   delay = Math.max(0, Math.min(120, d));
   const tag = syncMode==="auto" ? " · auto" : syncMode==="saved" ? " · saved" : "";
