@@ -27,27 +27,20 @@ allaccess error https://miamihurricanes.com HTTP Error 404: Not Found
 allaccess error https://ramblinwreck.com HTTP Error 404: Not Found
 allaccess error https://arkansasrazorbacks.com HTTP Error 404: Not Found
 allaccess error https://mutigers.com HTTP Error 404: Not Found
-allaccess error https://gosoutheast.com HTTP Error 404: Not Found
+allaccess error https://huskers.com HTTP Error 404: Not Found
 allaccess error https://ttusports.com HTTP Error 405: Not Allowed
-official feeds added for: University of Colorado Boulder, Kansas State University, United States Air Force Academy, University of Connecticut, University of South Alabama, Louisiana Tech University, University of Louisville, University of Georgia, University of Florida, Indiana University, University of Minnesota, University of Oregon, Texas Christian University, Utah State University, Colorado State University, North Dakota State University, University of Texas at El Paso, Liberty University, University of Southern Mississippi, Wake Forest University, Georgia Southern University, Iowa State University, Oklahoma State University, Florida State University, University of North Carolina at Chapel Hill, University of Southern California, Ohio State University, Mississippi State University, Illinois State University, Murray State University, University of Northern Iowa, Indiana State University, University of St. Thomas (Minnesota), Montana State University, Northern Arizona University, Stephen F. Austin State University, South Dakota State University, University of South Dakota, University of Montana, University of Idaho, University of North Alabama, Tarleton State University, Eastern Kentucky University
+official feeds added for: University of Colorado Boulder, Kansas State University, United States Air Force Academy, University of Connecticut, University of South Alabama, Louisiana Tech University, University of Louisville, University of Georgia, University of Florida, Indiana University, University of Minnesota, University of Oregon, Texas Christian University, Utah State University, Colorado State University, North Dakota State University, University of Texas at El Paso, Liberty University, University of Southern Mississippi, Wake Forest University, Georgia Southern University, Iowa State University, Oklahoma State University, Florida State University, University of North Carolina at Chapel Hill, University of Southern California, Ohio State University, Mississippi State University, University of Pittsburgh, University of Washington, University of Memphis, United States Military Academy, University of Northern Iowa, Indiana State University, Montana State University, Northern Arizona University, Stephen F. Austin State University, South Dakota State University, University of South Dakota, University of Montana, University of Idaho, University of North Alabama, Tarleton State University, Eastern Kentucky University
 Temple University -> (feed) ['https://cdn.jwplayer.com/live/broadcast/3j2GACVG.m3u8']
 Appalachian State University -> (feed) ['https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3']
 Marist University -> (feed) ['https://cdn.jwplayer.com/live/broadcast/3TH9Dtwc.m3u8']
 leanplayer xml https://wofford.leanplayer.com/ <?xml version="1.0"?> <main><sports><sport><id>1</id><name>Football</name><is_show>0</is_show></sport><sport><id>2</id><name>Men&#x2019;s Basketball</name><is_show>0</is_show></sport><sport><id>3</id><name>Women&#x2019;s Basketball</name><is_show>0</is_show></sport></sports><events><current_ev/><upcoming_ev><event><id>111253</id><start_timestamp>1793485800</start_timestamp><start>2026-10-31 22:30:00</start><end>2026-11-01 03:30:00</end><sport_id>1</sport_id><opponent>Samford</opponent><url>https://peaksports.leanstream.co/PS0101-MP3</url></event><event><id>116706</id><start_timestamp>179374590
 Wofford College -> (leanplayer) ['https://peaksports.leanstream.co/PS0101-MP3']
 Florida International University -> []
-Florida International University -> ['https://cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8', 'https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8?exp=1793480880&sig=2247879e26727b5ecce9fa1f774e784c']
-North Carolina Central University -> []
-North Carolina Central University -> []
-Howard University -> []
-Charleston Southern University -> []
-Davidson College -> []
-Davidson College -> []
-University of the Incarnate Word -> []
+Florida International University -> ['https://cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8', 'https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8?exp=1793482800&sig=4d8d5a4060a59531380c4abc0e794b79']
 Chicago State University -> []
 Delaware State University -> []
 California Polytechnic State University -> []
-Eastern Illinois University -> ['https://widgets.cloud.caster.fm/player/?token=3c7b4fe8-7d0a-45ce-87e5-9848426f9634&frameId=2gdoo&theme=light&color=6C2BDD', 'https://widgets.cloud.caster.fm/cdn-cgi/rum?']
+Eastern Illinois University -> ['https://widgets.cloud.caster.fm/player/?token=3c7b4fe8-7d0a-45ce-87e5-9848426f9634&frameId=32k20&theme=light&color=6C2BDD', 'https://widgets.cloud.caster.fm/cdn-cgi/rum?']
 Eastern Illinois University -> []
 Mississippi Valley State University -> []
 University of Arkansas at Pine Bluff -> []
