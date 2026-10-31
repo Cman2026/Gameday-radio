@@ -28,7 +28,7 @@ PY
       cp "$tmp/$(basename "$f")" "$f"
     fi
   done
-  git add "$@" 2>/dev/null
+  for f in "$@"; do [ -f "$f" ] && git add "$f"; done
   if git diff --cached --quiet; then echo "nothing to publish"; exit 0; fi
   git commit -q -m "$msg"
   if git push -q origin HEAD:main; then echo "published on attempt $attempt"; exit 0; fi
