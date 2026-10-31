@@ -376,7 +376,7 @@ const dirIndex = new Map();
 let liveInfo = {};
 const RECENT_MS = 3*3600e3;
 function liveVerdict(u){ const x = liveInfo[u]; return x && (Date.now() - Date.parse(x.at) < RECENT_MS) ? x : null; }
-const vRank = u => ({game:0, ad:0, unknown:1, music:2})[liveVerdict(u)?.verdict] ?? 1;
+const vRank = u => ({game:0, ad:0, unknown:1, music:2, blocked:3})[liveVerdict(u)?.verdict] ?? 1;
 async function loadLive(){
   try{ const d = await getJSON("radio-live.json?t=" + Math.floor(Date.now()/300000)); liveInfo = d.streams || {}; }catch(e){}
 }
@@ -409,7 +409,8 @@ function orderStreams(school, streams){
   const pb = playback.teams?.[school] || {}, res = playback.streams || {};
   const rank = u => (pb.inpage||[]).includes(u) ? 0 : res[u]?.ok === false ? 3 : (SECURE_PAGE && u.startsWith("http:")) ? 4 : 1;
   const all = [...(pb.inpage||[]), ...streams];
-  const playable = [...new Set(all)].filter(u => !(SECURE_PAGE && u.startsWith("http:"))).sort((a,b)=>rank(a)-rank(b) || vRank(a)-vRank(b));
+  // Drop streams that play an "out of market" message instead of the game.
+  const playable = [...new Set(all)].filter(u => !(SECURE_PAGE && u.startsWith("http:")) && liveVerdict(u)?.verdict !== "blocked").sort((a,b)=>rank(a)-rank(b) || vRank(a)-vRank(b));
   const external = pb.external || streams.find(u=>u.startsWith("http:")) || null;
   return {playable, external};
 }

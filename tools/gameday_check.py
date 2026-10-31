@@ -47,12 +47,16 @@ def now_playing(url, timeout=10):
         return "", f"error: {str(e)[:80]}"
 
 
+# Out-of-market listeners get a loop message instead of the game (iHeart "Default Geofence Loop Audio").
+BLOCKED = re.compile(r"geofence|geo-?block|blackout|not available in your (area|region)|outside (of )?the (market|area)", re.I)
 AD = re.compile(r"spot ?block|\bspots?\b|commercial|advert|preroll|pre-roll|adw_ad|\bads?\b|sponsor", re.I)
 
 
 def verdict(title, team_words):
     if not title or title.startswith("error"):
         return "unknown"
+    if BLOCKED.search(title):
+        return "blocked"
     if AD.search(title):
         return "ad"
     if any(w and w in norm(title) for w in team_words) or SPORTS.search(title):
