@@ -85,8 +85,8 @@ h1 span{color:inherit}
 .sect .lnk{font:600 14px var(--ui);color:var(--accent);background:none;border:0;padding:4px;cursor:pointer}
 .list > .conf:first-child{margin-top:4px}
 .card,.up,.fin{background:var(--surface);border:1px solid var(--line);border-top:0;padding:11px 14px;display:grid;gap:6px;min-width:0}
-.list > :is(.card,.up,.fin):first-child, .conf + :is(.card,.up,.fin){border-top:1px solid var(--line);border-top-left-radius:var(--r-lg);border-top-right-radius:var(--r-lg)}
-.list > :is(.card,.up,.fin):last-child, :is(.card,.up,.fin):has(+ .conf){border-bottom-left-radius:var(--r-lg);border-bottom-right-radius:var(--r-lg)}
+.list > :is(.card,.up,.fin):first-child, .conf + :is(.card,.up,.fin), .list > .board + :is(.card,.up,.fin){border-top:1px solid var(--line);border-top-left-radius:var(--r-lg);border-top-right-radius:var(--r-lg)}
+.list > :is(.card,.up,.fin):last-child, :is(.card,.up,.fin):has(+ .conf), :is(.card,.up,.fin):has(+ .board){border-bottom-left-radius:var(--r-lg);border-bottom-right-radius:var(--r-lg)}
 .card{cursor:pointer;position:relative}
 .card[aria-current="true"]{background:var(--surface-2)}
 .card[aria-current="true"]::before{content:"";position:absolute;left:0;top:10px;bottom:10px;width:3px;border-radius:0 3px 3px 0;background:var(--accent)}
@@ -166,6 +166,7 @@ h1 span{color:inherit}
 /* ---------- Scoreboard ---------- */
 .board{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:0 0 18px;display:grid;gap:16px;min-width:0;overflow:hidden;position:sticky;top:96px}
 @media (max-width:860px){.board{position:static}}
+.list > .board{margin:10px 0}
 .board > *:not(.score){margin-inline:18px}
 .score{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:start;gap:8px;padding:22px 14px 4px;border-top:4px solid transparent;
   border-image:linear-gradient(90deg,var(--away,#888) 0 50%,var(--home,#aaa) 50% 100%) 1}
@@ -442,6 +443,7 @@ function snap(arr, match){ // newest snapshot at least `delay` seconds old
 }
 
 function render(){
+  if(typeof boardHome!=="undefined" && $("#board").parentNode === $("#list")) boardHome.parent.insertBefore($("#board"), boardHome.next);
   const s = snap(history); events = s ? s.evs : []; events.forEach(e=>{ if(e.status?.type?.state==='in') trackClock(e, s.t); });
   const order = {in:0, pre:1, post:2};
   const live = events.filter(e=>e.status.type.state==="in");
@@ -462,8 +464,18 @@ function render(){
   } else list.innerHTML = shown.map(card).join("") + finalsToday();
   list.querySelectorAll(".card").forEach(b=>{ const go=()=>{selected=b.dataset.id; render();}; b.onclick=ev=>{ if(ev.target.closest(".ear,.fav")) return; go(); }; b.onkeydown=ev=>{ if(ev.key==="Enter"||ev.key===" "){ ev.preventDefault(); go(); } }; });
   renderBoard();
+  placeBoard();
   updateDeck();
 }
+// On phones the game details open right under the game you tapped; on wide screens they sit beside the list.
+const NARROW = matchMedia("(max-width: 860px)");
+const boardHome = (()=>{ const b = document.getElementById("board"); return {parent: b.parentNode, next: b.nextSibling}; })();
+function placeBoard(){
+  const B = $("#board"), card = selected && $(`#list .card[data-id="${CSS.escape(selected)}"]`);
+  if(NARROW.matches && card){ if(card.nextSibling !== B) card.after(B); }
+  else if(B.parentNode !== boardHome.parent) boardHome.parent.insertBefore(B, boardHome.next);
+}
+NARROW.addEventListener?.("change", placeBoard);
 let currentTeam = null, connecting = null;
 const ready = {}; // team -> flat list of direct stream URLs, best first
 function ear(loc, label){
