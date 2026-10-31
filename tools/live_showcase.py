@@ -30,7 +30,7 @@ def live_teams():
                     if st == "pre":  # pregame shows start before kickoff
                         try:
                             ko = datetime.datetime.fromisoformat(e["date"].replace("Z", "+00:00"))
-                            soon = (ko - datetime.datetime.now(datetime.timezone.utc)).total_seconds() < 45 * 60
+                            soon = (ko - datetime.datetime.now(datetime.timezone.utc)).total_seconds() < 90 * 60
                         except Exception:
                             pass
                     if st == "in" or soon:
@@ -38,6 +38,35 @@ def live_teams():
         except Exception as ex:
             print("scoreboard error", g, ex)
     return out
+
+
+def sidearm_audio(site):
+    """SIDEARM athletics sites list their live events in a JSON feed; free audio events
+    carry the stream URL directly (often a Leanstream or StreamGuys mount)."""
+    out = []
+    url = site.rstrip("/") + "/services/allaccess.ashx/media/get?type=Live&count=12&tab=1&pageSize=12"
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url, headers=UA | {"Accept": "application/json"}), timeout=15) as r:
+            data = json.loads(r.read())
+        if isinstance(data, str):
+            data = json.loads(data)
+    except Exception as ex:
+        print("allaccess error", site, str(ex)[:80]); return out
+    now = datetime.datetime.now(datetime.timezone.utc)
+    for ev in data if isinstance(data, list) else []:
+        if (ev.get("sport_shortname") or "").lower() != "football" or (ev.get("format") or "").lower() != "audio":
+            continue
+        if ev.get("premium") or ev.get("app_exclusive") or ev.get("free") is False:
+            continue
+        try:
+            start = datetime.datetime.fromisoformat(ev["date_utc"].replace("Z", "+00:00"))
+            end = datetime.datetime.fromisoformat((ev.get("dateend_utc") or ev["date_utc"]).replace("Z", "+00:00"))
+            if not (start - datetime.timedelta(hours=2) <= now <= end + datetime.timedelta(hours=1)):
+                continue
+        except Exception:
+            continue
+        out += [u for u in (ev.get("formats") or {}).values() if isinstance(u, str) and u.startswith("http")]
+    return list(dict.fromkeys(out))
 
 
 def sniff(urls):
@@ -96,8 +125,18 @@ def main():
             targets[lp] = t
     if not targets:
         print("no live teams without radio that have an athletics site on file"); return
-    found = sniff(list(targets))
+    # Fast path: the SIDEARM live-events feed names the audio stream outright.
     changed = False
+    for url, t in list(targets.items()):
+        if url not in targets:
+            continue
+        site = (src.get(t["school"]) or {}).get("athletics_site")
+        got = sidearm_audio(site) if site and url.endswith("/showcase") else []
+        if got:
+            print(t["school"], "-> (feed)", got)
+            t["streams"] = list(dict.fromkeys(got + (t.get("streams") or [])))[:4]; t["live_only"] = True; changed = True
+            targets = {u: x for u, x in targets.items() if x is not t}
+    found = sniff(list(targets)) if targets else {}
     for url, t in targets.items():
         streams = [u for u in found.get(url, []) if "player_status" not in u and "/v5/" not in u][:3]
         streams = list(dict.fromkeys(streams + (t.get("streams") or [])))[:4]  # newest feed first
