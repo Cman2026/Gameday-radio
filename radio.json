@@ -1409,8 +1409,11 @@
 "WCSX"
 ],
 "game_only": null,
-"streams": [],
-"misses": 0,
+"streams": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WCSXFMAAC.aac",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WCSXFM.mp3"
+],
+"misses": 1,
 "last_ok": "2026-10-30"
 },
 {

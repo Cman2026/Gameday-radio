@@ -269,11 +269,14 @@ def main():
         same_station = "calls" not in old or base(old.get("calls")) == base(t.get("calls"))
         misses = 0
         remembered = [x for x in tried if x["source"] == "remembered"]
-        only_timeouts = bool(remembered) and all("timed out" in x["detail"] or "timeout" in x["detail"].lower() for x in remembered)
+        # Timeouts and 403s usually mean the host is blocking cloud servers, not that the stream is gone.
+        only_timeouts = bool(remembered) and all(re.search(r"timed out|timeout|403", x["detail"], re.I) for x in remembered)
         if not good and same_station and old.get("streams") and only_timeouts:
             good, misses = old["streams"], old.get("misses", 0)  # couldn't reach it from here; not proof it's dead
         elif not good and same_station and old.get("streams"):
-            misses = old.get("misses", 0) + 1
+            # Count at most one miss per day, so several runs in one day can't drop a stream.
+            today = time.strftime("%Y-%m-%d")
+            misses = old.get("misses", 0) + (0 if old.get("miss_day") == today else 1)
             if misses < DROP_AFTER:
                 good = old["streams"]  # keep the last stream that worked
         if not good and t.get("game_only") and t.get("streams"):
@@ -281,6 +284,7 @@ def main():
         good = sorted(dict.fromkeys(good), key=lambda u: not u.startswith("https"))
         teams.append({k: t.get(k) for k in ("school", "names", "network", "flagship", "listen_page", "conference", "calls", "game_only", "no_radio", "notes")}
                      | {"streams": good, "misses": misses if good else 0,
+                        "miss_day": time.strftime("%Y-%m-%d") if misses else None,
                         "last_ok": time.strftime("%Y-%m-%d") if misses == 0 and good else old.get("last_ok")})
         report.append({"school": t.get("school"), "calls": t.get("calls"), "ok": [x for x in tried if x["ok"]],
                        "kept_from_before": bool(misses), "failed": [x for x in tried if not x["ok"]][:15]})
