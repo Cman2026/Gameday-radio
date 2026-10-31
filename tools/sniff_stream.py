@@ -34,7 +34,9 @@ with sync_playwright() as p:
         found, media, bodies = [], [], {}
         ctx = b.new_context(ignore_https_errors=True, user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36")
         page = ctx.new_page()
+        allreq = []
         def on_req(r):
+            if not re.search(r"google|doubleclick|adsrvr|rlcdn|liveramp|pubmatic|\.(css|png|jpg|svg|gif|woff2?)(\?|$)", r.url): allreq.append(r.resource_type + " " + r.url[:200])
             if r.resource_type == "media" or (STREAMY.search(r.url) and not re.search(r"\.(js|css|png|jpg|svg|woff2?)(\?|$)", r.url)):
                 found.append(r.url)
         ctx.on("request", on_req)
@@ -51,12 +53,12 @@ with sync_playwright() as p:
         try:
             page.goto(url, wait_until="domcontentloaded", timeout=30000)
             page.wait_for_timeout(4000)
-            for sel in ["text=/listen live/i", "text=/listen now/i", "text=/^listen$/i", "[aria-label*='play' i]", "button:has-text('Play')", ".play", "#play", "[class*='play' i]", "button[title*='play' i]", "[data-testid*='play' i]", "svg[class*='play' i]", "#playButton", ".play-button", "button >> nth=0"]:
+            for sel in ["text=/football/i >> nth=0", "text=/listen live/i", "text=/listen now/i", "text=/^listen$/i", "[aria-label*='play' i]", "button:has-text('Play')", ".play", "#play", "[class*='play' i]", "button[title*='play' i]", "[data-testid*='play' i]", "svg[class*='play' i]", "#playButton", ".play-button", "button >> nth=0"]:
                 for frame in page.frames:
                     try:
                         el = frame.locator(sel).first
                         if el.count() and el.is_visible():
-                            el.click(timeout=3000); page.wait_for_timeout(4000)
+                            el.click(timeout=3000); page.wait_for_timeout(6000)
                     except Exception:
                         pass
             for pg in ctx.pages:
@@ -72,7 +74,7 @@ with sync_playwright() as p:
             hints = sorted(set(re.findall(r"""https?://[^"'\s<>]+?(?:\.m3u8|\.mp3|\.aac|leanstream[^"'\s<>]*|/live[^"'\s<>]*|stream[^"'\s<>]*)""", html, re.I)))[:40]
         except Exception:
             hints = []
-        results[url] = {"requests": list(dict.fromkeys(found))[:40], "media_elements": list(dict.fromkeys(media)), "html_hints": hints,
+        results[url] = {"requests": list(dict.fromkeys(found))[:40], "media_elements": list(dict.fromkeys(media)), "html_hints": hints, "all_requests": allreq[:150],
                         "pages_opened": [x.url for x in ctx.pages], "json_bodies": bodies}
         ctx.close()
     b.close()
