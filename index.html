@@ -89,6 +89,12 @@ h1 span{color:inherit}
 .conf[aria-expanded="false"] .chev{transform:rotate(-90deg)}
 .conf[aria-expanded="false"]{margin:8px 0 0}
 .sect{display:flex;align-items:baseline;justify-content:space-between}
+.daytabs{display:flex;gap:6px;overflow-x:auto;padding:2px 2px 8px;margin:0 0 4px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.daytabs::-webkit-scrollbar{display:none}
+.daytab{flex:none;display:flex;align-items:center;gap:6px;height:36px;padding:0 14px;border-radius:999px;border:1px solid var(--line-2);background:var(--surface);color:var(--text);font:600 14px var(--ui);cursor:pointer;white-space:nowrap}
+.daytab .n{font:600 12px var(--num);color:var(--muted)}
+.daytab[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.daytab[aria-selected="true"] .n{color:var(--accent-ink);opacity:.8}
 .sect .lnk{font:600 14px var(--ui);color:var(--accent);background:none;border:0;padding:4px;cursor:pointer}
 .list > .conf:first-child{margin-top:4px}
 .card,.up,.fin{background:var(--surface);border:1px solid var(--line);border-top:0;padding:11px 14px;display:grid;gap:6px;min-width:0}
@@ -511,9 +517,9 @@ async function poll(){
     const byId = new Map();
     (fbs.events||[]).forEach(e=>{ e._div = "FBS"; byId.set(e.id, e); });
     (fcs.events||[]).forEach(e=>{ if(!byId.has(e.id)){ e._div = "FCS"; byId.set(e.id, e); } });
-    // Between game weeks (Sunday, Monday) ESPN's default scoreboard still shows last week's finished
-    // games, so also look ahead at the next week's schedule (refreshed every 15 minutes).
-    if(![...byId.values()].some(e=>e.status.type.state!=="post")){
+    // The default scoreboard only covers the current game week (and on Sundays/Mondays still shows
+    // last week), so also load the next 8 days of the schedule for the upcoming list (every 15 minutes).
+    {
       if(!poll.ahead || Date.now()-poll.ahead.t > 15*60e3){
         const ymd = d => d.toISOString().slice(0,10).replace(/-/g,"");
         const range = `${ymd(new Date())}-${ymd(new Date(Date.now()+8*864e5))}`;
@@ -938,7 +944,8 @@ function upCard(e){
   const row = (t, pct, isHome) => `<div class="tr"><button class="fav ${favs.has(t.team.location)?"on":""}" data-fav="${esc(t.team.location)}" aria-label="${favs.has(t.team.location)?"Remove":"Add"} ${esc(t.team.location)} ${favs.has(t.team.location)?"from":"to"} saved teams">${favs.has(t.team.location)?'<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>':'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>'}</button>
     ${logoImg(t.team)}<span class="nm">${isHome?'<span class="at">@ </span>':""}${rank(t)}${esc(nameOf(t.team))}</span>
     <span class="rec">${esc(t.records?.[0]?.summary||"")}</span>${ear(t.team.location, "")}<span class="pct ${pct!=null&&pct>=50?"lead":""}">${pct==null?"":pct+"%"}</span></div>`;
-  const bits = [`<b>${new Date(e.date).toLocaleTimeString([], {hour:"numeric", minute:"2-digit", hour12:true})}</b>`];
+  const sameDay = new Date(e.date).toDateString()===new Date().toDateString() || (!query.trim() && new Date(e.date).toDateString()===upDay);
+  const bits = [`<b>${sameDay ? "" : new Date(e.date).toLocaleDateString([], {weekday:"short"})+" "}${new Date(e.date).toLocaleTimeString([], {hour:"numeric", minute:"2-digit", hour12:true})}</b>`];
   const tvs = (c.broadcasts||[]).flatMap(b=>b.names), tv = tvs.slice(0,2).join(", ") + (tvs.length>2?` +${tvs.length-2}`:""); if(tvs.length) bits.push(esc(tv));
   if(o?.details) bits.push(esc(o.details)); if(o?.overUnder) bits.push(`O/U ${esc(o.overUnder)}`);
   return `<div class="up">${row(a, ap, false)}${row(h, hp, true)}
@@ -971,27 +978,30 @@ document.addEventListener("click", ev=>{
     names.forEach(n=> b.dataset.confall==="shut" ? shut.add(n) : shut.delete(n)); }
   store.set("shutConf", JSON.stringify([...shut])); render();
 });
+let upDay = "";
+document.addEventListener("click", ev=>{ const t = ev.target.closest(".daytab[data-day]"); if(!t) return; upDay = t.dataset.day; render(); t.scrollIntoView?.({inline:"nearest", block:"nearest"}); });
 function renderUpcoming(){
   const list = $("#list"), q = query.trim().toLowerCase();
-  // Today's games; on a day with none (Sundays, Mondays), the next day that has games.
-  let today = events.filter(e=>e.status.type.state==="pre" && isToday(e.date)), dayLabel = "Later today";
-  if(!today.length){
-    const next = events.filter(e=>e.status.type.state==="pre").sort((a,b)=>new Date(a.date)-new Date(b.date))[0];
-    if(next){
-      const day = new Date(next.date).toDateString();
-      today = events.filter(e=>e.status.type.state==="pre" && new Date(e.date).toDateString()===day);
-      dayLabel = new Date(next.date).toLocaleDateString([], {weekday:"long", month:"short", day:"numeric"});
-    }
-  }
+  // Upcoming games are organized by day: a row of day tabs (Today, Tue 3, Sat 7, ...), each with its
+  // games grouped by conference. Opens on today, or the next day with games.
+  const pre = events.filter(e=>e.status.type.state==="pre" && new Date(e.date) - Date.now() < 8*864e5);
+  const dayKey = d => new Date(d).toDateString();
+  const days = [...new Set(pre.sort((a,b)=>new Date(a.date)-new Date(b.date)).map(e=>dayKey(e.date)))];
+  if(!days.includes(upDay)) upDay = days[0] || "";
+  const today = pre.filter(e=>dayKey(e.date)===upDay);
+  const dayName = k => { const d = new Date(k), t = new Date(); const tm = new Date(Date.now()+864e5);
+    return d.toDateString()===t.toDateString() ? "Today" : d.toDateString()===tm.toDateString() ? "Tomorrow" : d.toLocaleDateString([], {weekday:"short", month:"short", day:"numeric"}); };
+  const tabs = days.length > 1 ? `<div class="daytabs" role="tablist">${days.map(k=>`<button class="daytab" role="tab" data-day="${esc(k)}" aria-selected="${k===upDay}">${esc(dayName(k))}<span class="n">${pre.filter(e=>dayKey(e.date)===k).length}</span></button>`).join("")}</div>` : "";
+  const dayLabel = days.length ? (dayName(upDay)==="Today" ? "Later today" : new Date(upDay).toLocaleDateString([], {weekday:"long", month:"short", day:"numeric"})) : "Later today";
   const count = f => today.filter(f).length;
   $("#nAll").textContent = today.length; $("#nFBS").textContent = count(e=>e._div==="FBS");
   $("#nFCS").textContent = count(e=>e._div==="FCS"); $("#nFav").textContent = count(isFavGame);
-  const shown = today.filter(e=> divFilter==="all" || (divFilter==="fav" ? isFavGame(e) : e._div===divFilter))
+  // Searching for a team looks across the whole week, not just the selected day.
+  const shown = (q ? pre : today).filter(e=> divFilter==="all" || (divFilter==="fav" ? isFavGame(e) : e._div===divFilter))
     .filter(e=> !q || e.competitions[0].competitors.some(t=>[t.team.location,t.team.displayName,t.team.shortDisplayName,t.team.abbreviation].join(" ").toLowerCase().includes(q)));
   $("#board").hidden = true;
   if(!shown.length){
-    const next = events.filter(e=>e.status.type.state==="pre").sort((a,b)=>new Date(a.date)-new Date(b.date))[0];
-    list.innerHTML = `<div class="empty">${today.length ? "No games today match that filter." : "No more games today."}${!today.length && next ? `<br>Next up: ${esc(next.shortName)}, ${fmtTime(next.date)}.` : ""}</div>` + finalsToday();
+    list.innerHTML = (q ? "" : tabs) + `<div class="empty">${q ? `No upcoming games this week match “${esc(query.trim())}”.` : today.length ? "No games that day match that filter." : "No games scheduled in the next week."}</div>` + finalsToday();
     return;
   }
   loadPredictions(shown);
@@ -1004,7 +1014,7 @@ function renderUpcoming(){
   }
   const names = [...groups.keys()].sort((x,y)=>x.localeCompare(y));
   const allShut = names.every(n=>shut.has(n));
-  list.innerHTML = `<div class="sect">${dayLabel}${names.length>1 && !q ? `<button class="lnk" data-confall="${allShut?"open":"shut"}">${allShut?"Expand all":"Collapse all"}</button>` : ""}</div>` + names.map(n=>{
+  list.innerHTML = (q ? "" : tabs) + `<div class="sect">${q ? "This week" : dayLabel}${names.length>1 && !q ? `<button class="lnk" data-confall="${allShut?"open":"shut"}">${allShut?"Expand all":"Collapse all"}</button>` : ""}</div>` + names.map(n=>{
     const gs = groups.get(n), closed = !q && shut.has(n);
     return confHead(n, gs.length, closed) + gs.sort((x,y)=>new Date(x.date)-new Date(y.date) || x.id.localeCompare(y.id)).map(e=>closed ? upCard(e).replace(/^<div /,"<div hidden ") : upCard(e)).join("");
   }).join("") + finalsToday();

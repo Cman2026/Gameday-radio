@@ -3,7 +3,8 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "15 14,17,20,23 * * 6"   # Saturdays about 10 AM, 1, 4 and 7 PM Eastern
-    - cron: "5 21 * * 2,3,4,5"       # Tue-Fri about 5 PM Eastern (weeknight games, Saturday preview)
+    - cron: "5 21 * * 2,3,4,5"       # Tue-Fri about 4-5 PM Eastern (weeknight games, Saturday preview)
+    - cron: "5 17 * * 0,1"           # Sun-Mon midday: early lines for the coming week
 permissions:
   contents: write
 concurrency: odds
