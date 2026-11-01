@@ -44,6 +44,18 @@ BASEBALL = re.compile(r"\b(" + _COMMON + r"baseball|softball|pitch(es|er|ed)?|st
                       r"line drive|double play|bunt|stolen base|steal|walk(ed)?|hit by (a |the )?pitch|batter|at bat|"
                       r"dugout|bullpen|mound|catcher|shortstop|infield|outfield|left field|center field|right field|"
                       r"foul ball|fouled|swing(ing)?|swung|called strike|rbi|left on base|extra innings)\b", re.I)
+# Words that only a call of that sport would use, for deciding that a station carries it
+# (a sports-talk show can mention a team and a score; it won't say "side out" and "set point").
+STRICT = {
+    "wvb": re.compile(r"\b(volleyball|kills?|aces?|service errors?|digs?|set point|match point|side.?out|outside hitter|"
+                      r"setter|libero|net violation|antenna|first set|second set|third set|fourth set|fifth set|"
+                      r"roll shot|overpass|joust|free ball|block assist|solo block|attack error|hitting percentage|rotation)\b", re.I),
+    "bsb": re.compile(r"\b(pitch(es|er)?|strike (one|two|three)|struck out|strikeout|ball (one|two|three|four)|full count|"
+                      r"the count|inning|top of the|bottom of the|on first|on second|on third|home plate|base hit|home run|"
+                      r"fly ball|fly out|pop(ped)? up|ground(ed)? (ball|out|into)|line drive|double play|bunt|stolen base|"
+                      r"batter|at bat|dugout|bullpen|mound|shortstop|left field|center field|right field|foul ball|called strike|rbi)\b", re.I),
+}
+STRICT["sb"] = STRICT["bsb"]
 VOCAB = {"fb": FOOTBALL, "mbb": BASKETBALL, "wbb": BASKETBALL, "mhk": HOCKEY, "whk": HOCKEY,
          "wvb": VOLLEYBALL, "bsb": BASEBALL, "sb": BASEBALL}
 MAX_STREAMS = 140  # what fits in one run: football first, then the other sports, least recently heard first
@@ -85,7 +97,7 @@ def main():
     # mascot and abbreviation only: place words like "state" or "carolina" show up in news too
     GENERIC = {"state", "university", "college", "north", "south", "east", "west", "central", "carolina", "texas", "florida",
                "georgia", "virginia", "new", "san", "the", "of", "southern", "northern", "eastern", "western", "miami", "saint"}
-    jobs, seen = [], set()
+    jobs, seen, station_urls = [], set(), {}
     for sid, e in games:
         for c in e["competitions"][0]["competitors"]:
             tm = c["team"]
@@ -93,6 +105,7 @@ def main():
             if not t:
                 continue
             words = {w for w in norm(" ".join([tm.get("location") or "", tm.get("name") or "", tm.get("abbreviation") or ""])).split() if len(w) > 2} - GENERIC
+            station_urls[(t["school"], sid)] = set(SP.station_streams(t, sid))
             for u in [u for u in SP.streams_for(t, sid) if u.startswith("http")][:3]:
                 if (sid, u) in seen: continue
                 seen.add((sid, u))
@@ -160,9 +173,18 @@ def main():
                     "heard_text": text[:200], "heard_at": stamp})
         summary.setdefault(v, []).append(school)
         print(f"{v:10} {sid:4} {school[:30]:30} {text[:90]!r}")
+        # A main station heard calling a volleyball/baseball/softball game: remember that it carries the sport.
+        strict = STRICT.get(sid)
+        if strict and v == "game" and url in station_urls.get((school, sid), ()):
+            terms = {m.group(0).lower() for m in strict.finditer(text)}
+            if len(terms) >= 3:
+                state.setdefault("carries", {})[f"{sid}|{school}"] = {"at": stamp, "url": url, "heard": text[:200]}
+                print(f"CARRIES   {sid:4} {school[:30]:30} {sorted(terms)}")
     state["listened"] = stamp
     cut = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime(time.time() - 2 * 86400))
     state["streams"] = {k: v for k, v in state["streams"].items() if v.get("heard_at", "") >= cut}
+    keep = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime(time.time() - 400 * 86400))  # about a season and a bit
+    state["carries"] = {k: v for k, v in (state.get("carries") or {}).items() if v.get("at", "") >= keep}
     json.dump(state, open("radio-heard.json", "w"), indent=1)
     print({k: len(v) for k, v in summary.items()})
 

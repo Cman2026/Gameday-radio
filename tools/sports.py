@@ -94,3 +94,29 @@ def streams_for(team, sport):
     feeds = team.get("game_feeds") or []
     mine = (team.get("game_feeds_sport") or "fb") == sport
     return [u for u in (team.get("streams") or []) if mine or u not in feeds]
+
+
+# Main sports stations carry football and basketball (and usually hockey) but rarely volleyball,
+# baseball or softball. For these sports a station counts only once we know it carries the sport:
+# station_sports in radio-sources.json, or the listening check heard it calling a game ("carries"
+# in radio-heard.json). Until then the school's own game feed is what the page offers.
+OPT_IN = {"wvb", "bsb", "sb"}
+
+
+def load_carries():
+    try:
+        return json.load(open("radio-heard.json")).get("carries") or {}
+    except Exception:
+        return {}
+
+
+def station_carries(team, sport, carries=None):
+    if sport not in OPT_IN or sport in (team.get("station_sports") or []):
+        return True
+    return f"{sport}|{team.get('school')}" in (carries if carries is not None else load_carries())
+
+
+def station_streams(team, sport):
+    """Streams that aren't today's school game feeds."""
+    feeds = team.get("game_feeds") or []
+    return [u for u in (team.get("streams") or []) if u not in feeds]

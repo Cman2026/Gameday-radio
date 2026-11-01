@@ -138,6 +138,7 @@ def sniff(urls, labels=None):
     return found
 
 
+CARRIES = SP.load_carries()
 STAMP = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
 
 
@@ -162,6 +163,10 @@ def main():
         info = src.get(t["school"]) or {}
         site = info.get("athletics_site")
         have = SP.streams_for(t, sid) if sid != "fb" else t.get("streams")
+        # Volleyball, baseball, softball: the main station doesn't count until it's known to carry the sport,
+        # so these teams always get the full school-site search (browser included).
+        if not SP.station_carries(t, sid, CARRIES):
+            have = [u for u in have if u in (t.get("game_feeds") or [])]
         # Teams with a station stream still get the school's official audio feed added (it's the
         # actual broadcast and isn't blocked outside the station's area); no browser needed for them.
         if have and not info.get("game_only"):
