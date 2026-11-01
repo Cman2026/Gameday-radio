@@ -36,7 +36,7 @@ HOCKEY = re.compile(r"\b(" + _COMMON + r"hockey|puck|goal(ie|tender)?|save[ds]?|
 VOLLEYBALL = re.compile(r"\b(" + _COMMON + r"volleyball|kill|ace|serve[sd]?|serving|service error|dig|block(ed|s)?|set point|"
                         r"match point|side.?out|rally|attack(er|ing)?|hitter|outside hitter|middle|setter|libero|"
                         r"the net|net violation|out of bounds|in the antenna|first set|second set|third set|fourth set|"
-                        r"fifth set|the set|sets|swing|tip|roll shot|pass(ed)?|overpass|joust|rotation|challenge|point)\b", re.I)
+                        r"fifth set|the set|swing|roll shot|overpass|joust|rotation|free ball|block assist|solo block|attack error|hitting percentage)\b", re.I)
 BASEBALL = re.compile(r"\b(" + _COMMON + r"baseball|softball|pitch(es|er|ed)?|strike(s|out)?|struck out|ball (one|two|three|four)|"
                       r"one ball|two balls|three balls|full count|the count|inning|top of the|bottom of the|outs?|"
                       r"runners?|on (first|second|third)|first base|second base|third base|home plate|base hit|single|"

@@ -26,11 +26,11 @@ NAMES = {"fb": "Football", "mbb": "Men's Basketball", "wbb": "Women's Basketball
 # SIDEARM "sport_shortname" values (fball, mbball, wbball, wvball, mhockey, ...).
 SIDEARM = {
     "fb":  re.compile(r"^(football|fball|fb)$", re.I),
-    "mbb": re.compile(r"^(mbball|mbb|mbask|mbasketball|m-?basketball|mens-?basketball|basketball)$", re.I),
-    "wbb": re.compile(r"^(wbball|wbb|wbask|wbasketball|w-?basketball|womens-?basketball)$", re.I),
-    "mhk": re.compile(r"^(mhockey|mhock|mih|m-?hockey|mens-?ice-?hockey|ice-?hockey|hockey)$", re.I),
-    "whk": re.compile(r"^(whockey|whock|wih|w-?hockey|womens-?ice-?hockey)$", re.I),
-    "wvb": re.compile(r"^(wvball|vball|wvb|vb|volleyball|w-?volleyball|womens-?volleyball)$", re.I),
+    "mbb": re.compile(r"^(mbball|mbb|mbask|mbasket|mbasketball|basketball-?men|men-?s-?basketball|m-?basketball|mens-?basketball|basketball)$", re.I),
+    "wbb": re.compile(r"^(wbball|wbb|wbask|wbasket|wbasketball|basketball-?women|women-?s-?basketball|w-?basketball|womens-?basketball)$", re.I),
+    "mhk": re.compile(r"^(mhockey|mhock|mih|hockey-?men|m-?hockey|mens-?ice-?hockey|ice-?hockey|hockey)$", re.I),
+    "whk": re.compile(r"^(whockey|whock|wih|hockey-?women|w-?hockey|womens-?ice-?hockey)$", re.I),
+    "wvb": re.compile(r"^(wvball|vball|wvb|vb|volleyball|volleyball-?women|wvolley|w-?volleyball|womens-?volleyball)$", re.I),
     "bsb": re.compile(r"^(baseball|bsb|base)$", re.I),
     "sb":  re.compile(r"^(softball|sball|sb)$", re.I),
 }
