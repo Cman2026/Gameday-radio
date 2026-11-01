@@ -3,9 +3,9 @@ on:
   workflow_dispatch:
   schedule:
     # Every sport (football, basketball, hockey, volleyball, baseball, softball): every 20 minutes
-    # from about 10 AM to midnight Eastern, every day. It exits in seconds when nothing is live.
+    # from about 10 AM to 1:40 AM Eastern (standard time; late West Coast games), every day. It exits in seconds when nothing is live.
     - cron: "*/20 15-23 * * *"
-    - cron: "*/20 0-5 * * *"
+    - cron: "*/20 0-6 * * *"
 permissions:
   contents: write
 concurrency: gameday-check

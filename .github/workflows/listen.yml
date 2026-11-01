@@ -2,9 +2,9 @@ name: Listen to live streams (all sports)
 on:
   workflow_dispatch:
   schedule:
-    # Every sport, twice an hour from about 11 AM to 11:30 PM Eastern, every day (exits fast when nothing is live).
+    # Every sport, twice an hour from about 11 AM to 1:40 AM Eastern (standard time), every day (exits fast when nothing is live).
     - cron: "10,40 16-23 * * *"
-    - cron: "10,40 0-4 * * *"
+    - cron: "10,40 0-6 * * *"   # into the small hours Eastern for late West Coast games
     - cron: "10,40 15 * * 6"     # Saturday 10 AM Eastern: early football
 permissions:
   contents: write
