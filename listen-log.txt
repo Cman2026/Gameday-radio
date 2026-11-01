@@ -1,27 +1,26 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-[in#0 @ 0x55676fd69ec0] Error opening input: Server returned 404 Not Found
+[in#0 @ 0x55f90621dec0] Error opening input: Server returned 404 Not Found
 Error opening input file https://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAMAAC.aac.
 Error opening input files: Server returned 404 Not Found
-[in#0 @ 0x5606354efec0] Error opening input: Server returned 404 Not Found
+[in#0 @ 0x55eecde3cec0] Error opening input: Server returned 404 Not Found
 Error opening input file http://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAMAAC.aac.
 Error opening input files: Server returned 404 Not Found
-[in#0 @ 0x5568dbac8ec0] Error opening input: Server returned 404 Not Found
+[in#0 @ 0x55bb14e64ec0] Error opening input: Server returned 404 Not Found
 Error opening input file https://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAM.mp3.
 Error opening input files: Server returned 404 Not Found
-[0;93m2026-11-01 03:54:33.617233816 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-[AVFormatContext @ 0x55d6c4eec1c0] Invalid HLS ID3 audio timestamp 10601774080
-listening to 16 streams in 4 live games
-game       Boise State University             '81 yards through the air on the ground.  Burgess contained as well.  Only six carries for '
-game       Boise State University             'Watch down, getting Matt Wagner involved with five catches, Roshan Jones with five catches'
-game       Boise State University             'That Wagner involved with five catches, Rashan Jones with five catches and an exceptional '
-maybe_not  Texas State University             'the band members are illuminated so  really makes for a really cool  aesthetic as a part o'
-game       Texas State University             'rain Atkinson, one of the top young quarterbacks in the patch. Well, just five of 10 passi'
-maybe_not  Northern Illinois University       'Husky 17. The good game so far in IU will have it first drive coming out of the half.  His'
-maybe_not  Northern Illinois University       "team. It's been a good game so far. N.I.U. will have it first drive coming out of the half"
-game       California State University, Fresn "They're one of the best in the country.  Number three in the country for fewest penalty ya"
-game       Oregon State University            'in the yardage and so forth. But penalties, beavers three and Fresno none. Three for 15 ya'
-game       Oregon State University            "three. And Fresno Num, three for 15 yards, three of the biggest five yard penalties. I've "
-game       Oregon State University            'A team mobile? You can get iPhone 18 Pro or nothing up front. Pass it on.  A team mobile c'
-game       Texas Southern University          'Fry serving a little bit of movement no call  Quamner State trying to get on the board swi'
-not_game   Grambling State University         'with frustration he is in locked in motives.  As the fries back in formation right  back n'
-{'game': 9, 'maybe_not': 3, 'no_audio': 3, 'not_game': 1}
+[0;93m2026-11-01 04:55:14.118633022 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[AVFormatContext @ 0x558a780ea5c0] Invalid HLS ID3 audio timestamp 10928849920
+[AVFormatContext @ 0x560904a3e5c0] Invalid HLS ID3 audio timestamp 10936936960
+listening to 14 streams in 3 live games
+game       Boise State University             "that would be a massive loss for the Broncos if he's not able to get back in this game.  H"
+game       Boise State University             'fourth quarter. They just have to get up there and go. They need people to get up and make'
+game       Boise State University             'fourth quarter. They just have to get up there and go. They need people to get up and make'
+game       Texas State University             'holding. Number seven defense.  Tanya Artenili automatic first down.  No hold call against'
+game       Texas State University             'Markable third quarter, four Texas State.  You look at the numbers in the third, four of t'
+game       Northern Illinois University       'up men on the coverage.  And the Rebels keep the drive alive on a fake  punt. They went fa'
+game       Northern Illinois University       'on the coverage.  And the Rebels keep the drive alive on a fake punt.  They went fake kick'
+game       California State University, Fresn "Right after we went to the halftime break and started pouring here at Valley Children's St"
+maybe_not  Oregon State University            "ball, winning comes down to finding the right player for the right spot.  But you can't sc"
+maybe_not  Oregon State University            "to book all your home game weekends today and don't miss a beat of Beaver Football  Fun! V"
+game       Oregon State University            'of touchdown drives before the Bulldogs needed out to end the second quarter. The  fevers '
+{'game': 9, 'no_audio': 3, 'maybe_not': 2}
