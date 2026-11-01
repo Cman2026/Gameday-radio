@@ -1,86 +1,82 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-[0;93m2026-11-01 00:06:09.996018695 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-[AVFormatContext @ 0x55570bb78700] Invalid HLS ID3 audio timestamp 9368051200
-[AVFormatContext @ 0x5621eb276000] Invalid HLS ID3 audio timestamp 9366254080
-[AVFormatContext @ 0x564fd22c5540] Invalid HLS ID3 audio timestamp 9371645440
-[AVFormatContext @ 0x560d2a9035c0] Invalid HLS ID3 audio timestamp 9377036800
-[in#0 @ 0x55e982533ec0] Error opening input: Server returned 401 Unauthorized (authorization failed)
-Error opening input file https://ais-sa1.streamon.fm/7401_48k.aac.
-Error opening input files: Server returned 401 Unauthorized (authorization failed)
-[AVFormatContext @ 0x55a49f0c55c0] Invalid HLS ID3 audio timestamp 9381529600
-[AVFormatContext @ 0x55f1ae810c40] Invalid HLS ID3 audio timestamp 9383326720
-[AVFormatContext @ 0x5644763885c0] Invalid HLS ID3 audio timestamp 9386920960
-[aac @ 0x561089a56400] decode_band_types: Input buffer exhausted before END element found
-[aist#0:0/aac @ 0x561089a587c0] Error submitting packet to decoder: Invalid data found when processing input
-[AVFormatContext @ 0x55e5accd5540] Invalid HLS ID3 audio timestamp 9397703680
-listening to 71 streams in 15 live games
-game       University of Oklahoma             'They shift beers and Jordan to the left.  Tears got it. Looking right. Now throws right.  '
-maybe_not  University of Oklahoma             "little Jake Jordan from the six fifty seconds five o'clock to play. They shift  beers and "
-game       University of Oklahoma             'They shift beers and Jordan to the left.  Tears got it. Looking right. Now throws right.  '
-maybe_not  University of South Carolina       '44 total now. Excuse me, just passing yards.  K-1 over 500 yards until the wall fence 521.'
-game       University of South Carolina       "Carlon over 500 yards until Lopez 521.  We're from a very good defense top, mentioned that"
-maybe_not  University of South Carolina       '44 total now. Excuse me, just passing yards.  K-1 over 500 yards until the wall fence 521.'
-game       Georgia Southern University        'as soon as one becomes available.  Lance Williams will now snap the football  with the ent'
-game       Appalachian State University       'State first intent at the  Georgia Southern 32 with twenty  seven seconds to go until  hal'
-maybe_not  Iowa State University              'a fake ponter of a fake field goal or anything  a war goes line jet.  After a view, really'
-quiet      Iowa State University              ''
-quiet      Iowa State University              'As soon as that number...'
-game       Oklahoma State University          'just threw it up there. Now it came up a little short to where Hammers could close  the ga'
-game       Florida State University           'numbers out near the 47 yard line.  Gain of about three yards for Gideon  Davidson.  Frank'
-game       Florida State University           "second down at seven for the 47 of that past you.  David Sin, motion's out to the right si"
-game       Florida State University           'down and seven for the 47 of that  pass you.  Davidson motions out to the right  side.  Ro'
-game       Clemson University                 "will go out. Third penalty against Clemson for 30 yards.  It's like two steps forward one "
-game       Clemson University                 "for 30 yards.  It's like two steps forward one step back.  Yeah, hard to sustain drives wi"
-game       San Diego State University         'of 12, caps off the scoring drive with the Aztecs do settle as they come up  short on thir'
-game       San Diego State University         'it almost in my mind I thought is he about to throw the ball at first but there  were no r'
-game       San Diego State University         "it is not a downpour but it's wet everywhere you look.  Panchos are coming out in the crow"
-game       Washington State University        "in state to the left of Ashleman.  Snap back out of the shotgun.  Ashleman, he's it up, Da"
-maybe_not  Washington State University        'good game for San Diego State pregame.  Derek DICE was talking to Brad Lorando.  One of th'
-game       Washington State University        "in state to the left of Ashleman.  Snap back out of the shotgun.  Ashleman, he's it up, Da"
-game       University of North Carolina at Ch "We've seen all year obviously they have some freak athletes but we have to do a better  jo"
-game       University of North Carolina at Ch "brought it from the boundary, which is a blitz.  They brought it on film.  It's really tou"
-game       University of North Carolina at Ch 'As Keckahuna makes the fair catch, that flag came from the Toriel sideline and from well b'
-game       University of Miami                "That's the amateur in Levine scoreboard here in Chapel Hill,  Darien Mensa, two-yard touch"
-game       University of Miami                "the  747-3, that's 1-800-747-3733, USC,  these Ohio State in the first quarter,  7-3, Geor"
-game       University of Miami                "Everybody's covered up which allows North Carolina continue to rush the path.  Here they c"
-game       University of Southern California  "game 31 of 31 he's made one  today he has made two today.  Troaches drive very short.  Fou"
-quiet      University of Southern California  ''
-game       University of Southern California  'I Trent Mosley drive took one minute and 43 seconds and the Trojans are leading Ohio State'
-game       Ohio State University              'is up and that kick is good for USC who now has a 14-3 lead overall higher  state with 225'
-game       Ohio State University              'at 51 on the first quarter clock.  Ohio State trailing 14 to three.  McEwen and Smith go w'
-game       Ohio State University              'more of Oregon with a vicious hit and he served a one-game suspension for the hit and  his'
-game       University of Texas at Austin      "He lowered the show and talked about with a tough runner.  He is.  It looked like he'd be "
-game       University of Texas at Austin      'the ball. Sam West the tight end is on split wide right.  Ball in the center of the tee. O'
-game       University of Texas at Austin      "But that's a game of seven in the first half.  Biles was coming, but Swann was able to cha"
-game       Mississippi State University       "They're put that tape on there a fluff,  bothwell.  He takes on two guys and orange jersey"
-maybe_not  Mississippi State University       "about what's confirmed versus what speculation  because those families that are grieving t"
-maybe_not  Mississippi State University       'in the Department of America respond.  And in those three minutes, three kids,  and a 25-y'
-game       University of Pittsburgh           'One is for the first down. Thank you, Lavelle, right?  Uses that power of the senior from '
-game       University of Pittsburgh           'a fake and straight ahead and that is another good pickup this one for  Damon Ferguson ins'
-game       University of Pittsburgh           'a fake and straight ahead and that is another good pickup this one for  Damon Ferguson ins'
-maybe_not  Georgia Institute of Technology    'and run with financing available, call A1 driveway replacement to rehab that cracked up dr'
-game       Georgia Institute of Technology    "I take all the peanut butter and chocolate so it's only fair.  Smart man.  You don't want "
-game       University of Arkansas             "We're going to go down to $41.  Santana Badder came up from this  quarterback spot to make"
-game       University of Arkansas             'eight twenty to play. Simmons gets the snap. Here comes the pressure. They throw short cau'
-game       University of Nebraska-Lincoln     "This is Burnham Black and you're listening to Nebraska football on the Huskers radio netwo"
-game       University of Nebraska-Lincoln     "This is Burnham Black and you're listening to Nebraska football on the Huskers radio netwo"
-quiet      University of Washington           'Gulfstream Brewing. Let the current take you and by Pacifico.'
-game       University of Washington           'Clemby put it in a great spot. Jones is in track mode.  He was trying to catch up.  Maybe '
-maybe_not  University of Washington           'closer to the excitement and no long trips required.  Proud sponsor of UW Athletics,  wher'
-game       University of Memphis              'and they had gotten, how were he made the catch,  but stepped right out of bounds.  There '
-game       University of Memphis              'system and identify potential problems early before they turn into costly repairs.  Mitch '
-game       University of Memphis              'the life of your water heater. Improves performance and keeps the hot water  flowing.  Mit'
-game       United States Military Academy     'from the person pushing him out of  bounds Ellis Ellis and able to pick up  about seven ei'
+[AVFormatContext @ 0x5603d7caf700] Invalid HLS ID3 audio timestamp 9567531520
+[0;93m2026-11-01 00:43:19.146950868 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[AVFormatContext @ 0x55fa0a8bd000] Invalid HLS ID3 audio timestamp 9565734400
+[AVFormatContext @ 0x5631e45445c0] Invalid HLS ID3 audio timestamp 9571125760
+[AVFormatContext @ 0x559e548ef540] Invalid HLS ID3 audio timestamp 9576517120
+[AVFormatContext @ 0x55c8ca6315c0] Invalid HLS ID3 audio timestamp 9580111360
+[AVFormatContext @ 0x55e2cd1e2c40] Invalid HLS ID3 audio timestamp 9582807040
+[aac @ 0x5604c957b400] decode_band_types: Input buffer exhausted before END element found
+[aist#0:0/aac @ 0x5604c957d7c0] Error submitting packet to decoder: Invalid data found when processing input
+[AVFormatContext @ 0x55ae25ee15c0] Invalid HLS ID3 audio timestamp 9586401280
+[AVFormatContext @ 0x564140c5ff40] Invalid HLS ID3 audio timestamp 9595386880
+[AVFormatContext @ 0x562087ff45c0] Invalid HLS ID3 audio timestamp 9596285440
+listening to 68 streams in 15 live games
+game       Georgia Southern University        "you want that down. That's important down here. Second down in 10, first down in 15. Give "
+game       Appalachian State University       'play Hilton decides to decline the penalties.  So results in what it would have before,  j'
+game       Iowa State University              'Looking forward to our halftime interview with Ryan Hart-Laugh and Jimmy Rogers.  This has'
+maybe_not  Iowa State University              "improved iHeartRadio app.  Oh yeah, that's my favorite news thing.  But did you know you c"
+maybe_not  Iowa State University              "that you're not maybe getting in your relationship  and are you hiding this?  I don't know"
+game       Oklahoma State University          'by to the final whistle, bring great taste to your game day. Food deserves Pepsi. Keep  in'
+game       Florida State University           '13 to 10, Clemson, fourth and one for the FSU nine yard line.  Dabble sweetie called the t'
+game       Florida State University           'He was going to hand him all up the middle,  fixed the hand off, the linebacker loses,  wh'
+game       Florida State University           'had a member of the sweetie family for over a decade.  The sweetie boys have been holding.'
+game       Clemson University                 'hold and the kick is good.  So 20 to 10 in paper.  Our Clemson Tigers with a minute 38 sti'
+game       Clemson University                 'the kick is good. So 20 to 10 in  paper. Our Clemson Tigers with a  minute 38 still left h'
+game       San Diego State University         'And this kick is heading towards Hawkins and  returnable from the six at the numbers with '
+game       San Diego State University         'from left to right there in white helmets, white tops, maroon pants, San Diego State  in b'
+game       San Diego State University         'as the second half opening drive has brought to you by Volkswagen.  And a chippy game so f'
+game       Washington State University        "He has four he's in the flat he gets it to Kirby Kirby lowers his shoulders and the moment"
+game       Washington State University        'off at any point at wide receiver how to ball stripped away by jaleel tucker that would ha'
+game       Washington State University        "he has four he's in the flat he gets a  to Kirby Kirby lowers his shoulders  and the momen"
+game       University of North Carolina at Ch "and then once again I really think it's so important.  You don't get anything on first dow"
+game       University of North Carolina at Ch "this time out concludes. Yeah, this is huge.  My only up 14 seven. Yeah, there's only  thr"
+game       University of North Carolina at Ch 'that nothing negative happened on the  plate. Yeah, there was absolutely  nothing there. A'
+game       University of Miami                'that is offensive.  Well, that was covered up.  A lot of voting.  The key to the success o'
+game       University of Miami                'yards in a first down for Kekehuna, transfer from Wisconsin. 14-7 Miami, Carolina  trying '
+game       University of Miami                'That one into the dirt.  4-57 to go.  Second quarter.  Caroline with two time outs.  Randy'
+game       University of Southern California  'yard second and ten.  Yeah.  I look like Fehi just tried to put as much as he could on tha'
+maybe_not  University of Southern California  "He didn't know that he was a leader.  But he didn't know that he was a leader.  He was the"
+game       University of Southern California  "that a little much to ask for a rookie quarterback.  I mean you're going to take a shot ri"
+game       Ohio State University              'that hex being a higher state is not scored a touchdown in the  Coliseum against USC since'
+game       Ohio State University              "third one. Oh, inches.  Check that spot. I know if DRL is back,  thinks it's the first dow"
+game       Ohio State University              'but a decent game on first down.  As a Christian Pierce Force, that key fumble  late in th'
+game       University of Texas at Austin      'to look to the side for the play car.  The two receivers on the short side of the field,  '
+game       University of Texas at Austin      "the four yard line. So it's a four yard penalty for the illegal formation.  Now, Jermaine "
+game       University of Texas at Austin      "What a fish hole made the safety signal.  They're going to say it's not.  It's on the one "
+game       Mississippi State University       "down at midfield but couldn't pull it in.  An incomplete pass makes it fourth and 10.  Zio"
+not_game   Mississippi State University       "there to join and stand up for your rights because it is your rights. What you're  seeing "
+not_game   Mississippi State University       'vcdl.org. Join us today.  The fight for our gun rights has moved to the state. Now we need'
+game       University of Pittsburgh           'So did Kevin Roach, who weighs 270 and at still in work, the Panthers, Alex Sanford  gets '
+game       University of Pittsburgh           'five plays later to take a 16-nothing lead point pending.  And he ties his teammate Fergus'
+game       University of Pittsburgh           'five plays later to take a 16-nothing lead point pending.  And he ties his teammate Fergus'
+not_game   Georgia Institute of Technology    'As provider, with great options fit for every home,  Ms. Ganah gives Mama Baron I peace of'
+game       Georgia Institute of Technology    "It's a four-pound decision and failed four-pound conversion by Georgia Tech.  Pittsburgh a"
+game       University of Arkansas             "always be in second and five, second and six.  That's going to be the indicator in regards"
+game       University of Arkansas             "Hey Arkansas fans, it's time for Football.  And when it's time for Football, there's only "
+game       University of Missouri             'dollars to special Olympics of Missouri from  multiply credit union. He kicked 250  orders'
+game       University of Missouri             'the score of 13 to nothing is Missouri.  Uses 16 plays to cover 48 yards at eight minutes '
+game       University of Nebraska-Lincoln     "the game.  Yeah that was great execution and that's why as a part returner he's going to h"
+game       University of Nebraska-Lincoln     "the end of the game.  Yeah, that was great execution.  And that's why as a part returner, "
+game       University of Washington           'starts all those little details and hopefully this offense can bounce back.  So at the thr'
+game       University of Washington           'They poured Nebraska but a nice gain on first down when they started at the 3 cam.  Yeah i'
+game       University of Washington           "in the descent of the landria.  We're three men front, four of the Huskies.  Shotgun snap,"
+game       University of Memphis              "until he's four yards down the field.  Boy, we hey, now his seven carries,  67 yards while"
+game       University of Memphis              "up. Mitch Wright plumbing, eating an air. You call and like family. We're there.  Thank yo"
+game       University of Memphis              'system and identify potential problems early.  Before they turn into costly repairs,  Mitc'
+game       United States Military Academy     'Army trailing Memphis 14 to 7.  Though the Black Knights live a second and six from their '
 quiet      United States Military Academy     ''
-quiet      United States Military Academy     "It's hot!"
-maybe_not  Tarleton State University          'coming. Yeah, a really nice job off that left side though. They have just the counters,  t'
-game       Tarleton State University          "they're off his line and it  movement has really caused the  curls some problems along the"
-game       Tarleton State University          "center that's where they had the  success last time as this time.  Nothing doing.  Hinsley"
-game       Eastern Kentucky University        "really big loss for EKU that'll bring a third down in 14 now.  That'll lose the kernel six"
+quiet      United States Military Academy     ''
+not_game   Tarleton State University          "I'm not going to be able to play in that game.  Also, it was just meant everything to me  "
+maybe_not  Tarleton State University          'that game of finally being able to play in that game also was just meant everything to me '
+maybe_not  Tarleton State University          'always remember and to top it off we got the win so of course nothing beats that.  But tal'
+game       Eastern Kentucky University        'the final score in that game.  Abilene Christian, who EKU will play in the final game of t'
 quiet      Eastern Kentucky University        ''
-maybe_not  Wofford College                    "to be a 44 yard attempt.  A 54 inch new one.  Yeah.  He's come out alone too.  So let's se"
-game       University of Texas Rio Grande Val "of Lamar Cardinals pass play and that's going to be out of range.  Look to go with the up "
-game       Lamar University                   '35 you gotta get just inside the 30 or that first down.'
-game       Lamar University                   '10. Ranger. Late hand off the dim and he finds a gap inside the 35 down to about a 33  yar'
-quiet      Lamar University                   'down. Card no football here in Edinburgh.'
-{'game': 50, 'maybe_not': 11, 'quiet': 8, 'no_audio': 2}
+quiet      Wofford College                    ''
+maybe_not  University of Texas Rio Grande Val 'forward those two players made sure once they made contact he went backwards.  I talked ab'
+game       Lamar University                   "UT RGB  Here's the kickaway  Unbo coming over calls for the fair catch up balls in a bounc"
+game       Lamar University                   'Blake, uh, kept towards the sideline was open, but the pass led them too far.  I like the '
+game       Lamar University                   'coming over calls with a fair catch up ball  in a bounce into the end zone for a touchdown'
+game       Texas Southern University          'the Tigers opening driver the game no  score here from throwing stadium but the  Tigers em'
+game       Grambling State University         "I'm a hundred and seventy one year Russian yards per game that's sixty in this whack but  "
+{'game': 53, 'maybe_not': 6, 'not_game': 4, 'quiet': 4, 'no_audio': 1}
