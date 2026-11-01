@@ -1797,9 +1797,13 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
-"live_only": false,
+"live_only": true,
 "athletics_site": "https://mgoblue.com",
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM4001-MP3"
+],
+"game_feeds_at": "2026-11-01T22:10:31Z",
+"game_feeds_sport": "mhk"
 },
 {
 "school": "Pennsylvania State University",
@@ -2934,7 +2938,7 @@
 "game_feeds": [
 "https://cdn.jwplayer.com/live/broadcast/pOu2p9Uo.m3u8"
 ],
-"game_feeds_at": "2026-11-01T21:24:00Z",
+"game_feeds_at": "2026-11-01T22:10:31Z",
 "game_feeds_sport": "mhk",
 "live_only": true,
 "athletics_site": "https://dartmouthsports.com"
