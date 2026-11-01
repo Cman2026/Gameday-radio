@@ -107,8 +107,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://img.leanstream.co/IM3501-MP3",
-"https://media-hls.wral.com/vodhttporigins3/_definst_/smil:amazons3/cbcnm-static-web-content/home/web/wral/public/asset/news/state/nccapitol/2023/05/25/20879545/3185796-gop-DMID1-5z0xt25hf.smil/playlist.m3u8"
+"https://img.leanstream.co/IM3501-MP3"
 ],
 "misses": 0,
 "miss_day": null,
@@ -1761,6 +1760,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM5802-MP3",
 "https://img.leanstream.co/IM5801-MP3",
 "https://radiohio.streamguys1.com/cols/wbnsfm-iheart.m4a",
 "https://oom-radiohio.streamguys1.com/cols/wbnsfm.mp3",
@@ -1771,7 +1771,11 @@
 "last_ok": "2026-11-01",
 "live_only": true,
 "athletics_site": "https://ohiostatebuckeyes.com",
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM5802-MP3"
+],
+"game_feeds_at": "2026-11-01T22:47:33Z",
+"game_feeds_sport": "mhk"
 },
 {
 "school": "University of Michigan",
@@ -1802,7 +1806,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM4001-MP3"
 ],
-"game_feeds_at": "2026-11-01T22:10:31Z",
+"game_feeds_at": "2026-11-01T22:47:33Z",
 "game_feeds_sport": "mhk"
 },
 {
@@ -4275,10 +4279,7 @@
 "game_only": true,
 "no_radio": null,
 "notes": "WEIU Hit-Mix stream is token-signed (caster.fm); re-captured from the listen page each game",
-"streams": [
-"https://widgets.cloud.caster.fm/player/?token=3c7b4fe8-7d0a-45ce-87e5-9848426f9634&frameId=4ebjj&theme=light&color=6C2BDD",
-"https://widgets.cloud.caster.fm/cdn-cgi/rum?"
-],
+"streams": [],
 "misses": 2,
 "miss_day": "2026-11-01",
 "last_ok": null,
@@ -6238,7 +6239,6 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://img.leanstream.co/IM7201-MP3",
 "https://stream.revma.ihrhls.com/zc1949",
 "https://stream.revma.ihrhls.com/zc1949/hls.m3u8",
 "http://stream.revma.ihrhls.com/zc1949"
@@ -6246,13 +6246,9 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
-"game_feeds": [
-"https://img.leanstream.co/IM7201-MP3"
-],
-"game_feeds_at": "2026-11-01T06:19:26Z",
 "live_only": true,
-"game_feeds_sport": "fb",
-"athletics_site": "https://osubeavers.com"
+"athletics_site": "https://osubeavers.com",
+"game_feeds": null
 },
 {
 "school": "San Diego State University",
