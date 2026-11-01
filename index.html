@@ -85,6 +85,53 @@ h1 span{color:inherit}
 .card[aria-current="true"]{box-shadow:inset 0 0 0 1.5px color-mix(in srgb,var(--accent) 70%,transparent)}
 .chip .n{font:600 12px var(--num);color:var(--faint);font-variant-numeric:tabular-nums}
 .chip .n:empty{display:none}
+.chip[hidden]{display:none}
+.chips.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+/* Sport tiles: only sports in season (or starting within a week) are shown. */
+.sports{display:flex;gap:8px;overflow-x:auto;padding:2px 2px 10px;margin:0 0 2px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.sports::-webkit-scrollbar{display:none}
+.sport{flex:1 0 88px;max-width:132px;height:72px;border-radius:var(--r-lg);border:1px solid var(--line-2);background:var(--surface);color:var(--muted);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;cursor:pointer;font:600 13px var(--ui);-webkit-tap-highlight-color:transparent;padding:0 6px}
+.sport svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.sport .nm{color:var(--text)}
+.sport .sub{font:600 11px var(--num);color:var(--faint);white-space:nowrap}
+.sport .sub.lv{color:var(--live)}
+.sport[aria-selected="true"]{border:1.5px solid var(--accent);background:var(--surface-2);box-shadow:0 0 12px color-mix(in srgb,var(--accent) 35%,transparent)}
+.sport[aria-selected="true"] svg{color:var(--accent)}
+.sport.soon{border-style:dashed}
+.seg{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2px;padding:3px;margin:0 0 10px;background:var(--surface-2);border:1px solid var(--line);border-radius:var(--r-md)}
+.seg[hidden]{display:none}
+.seg button{border:0;background:transparent;border-radius:7px;height:34px;font:500 14px var(--ui);color:var(--muted);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--surface);color:var(--text);font-weight:600;box-shadow:0 0 0 1.5px var(--accent),0 0 10px color-mix(in srgb,var(--accent) 35%,transparent)}
+:is(.sport,.seg button):focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+:is(.sport,.seg button):active{box-shadow:0 0 0 1.5px var(--accent),0 0 10px color-mix(in srgb,var(--accent) 35%,transparent)}
+.card .div:empty{display:none}
+/* Other sports' game details */
+.lines{border:1px solid var(--line);border-radius:var(--r-md);overflow-x:auto}
+.lines table{width:100%;border-collapse:collapse;font:600 14px var(--num);font-variant-numeric:tabular-nums;text-align:center}
+.lines th{font-weight:600;color:var(--muted);background:var(--surface-2);padding:6px 4px}
+.lines td{padding:7px 4px;border-top:1px solid var(--line)}
+.lines :is(th,td):first-child{text-align:left;padding-left:10px;white-space:nowrap}
+.lines .tot{font-weight:700}
+.lines .cur{background:color-mix(in srgb,var(--accent) 16%,transparent)}
+.stats{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:8px 10px;align-items:center;font:600 15px var(--num);font-variant-numeric:tabular-nums}
+.stats .sl{display:flex;flex-direction:column;align-items:center;gap:4px;font:500 12px var(--ui);color:var(--muted)}
+.stats .sb{width:100%;height:5px;border-radius:3px;display:flex;gap:2px;overflow:hidden}
+.stats .r{text-align:right}
+.diamond{display:flex;align-items:center;justify-content:center;gap:22px}
+.diamond .bases{position:relative;width:74px;height:74px;flex:none}
+.diamond .bases i{position:absolute;width:18px;height:18px;transform:rotate(45deg);background:var(--surface-2);border:2px solid var(--line-2);box-sizing:border-box}
+.diamond .bases i.on{background:var(--accent);border-color:var(--accent);box-shadow:0 0 10px color-mix(in srgb,var(--accent) 60%,transparent)}
+.diamond .cnt{display:flex;flex-direction:column;gap:5px;font:600 12px var(--num);color:var(--muted);letter-spacing:.05em}
+.diamond .cnt span{display:flex;align-items:center;gap:4px}
+.diamond .cnt b{width:9px;height:9px;border-radius:50%;background:var(--line-2)}
+.diamond .cnt b.on{background:var(--accent)}
+.diamond .who{display:flex;flex-direction:column;gap:6px;font-size:13px;color:var(--muted);min-width:0}
+.diamond .who b{color:var(--text);font-weight:600}
+.court{position:relative;height:150px;border-radius:var(--r-md);overflow:hidden;background:repeating-linear-gradient(90deg,#9B6633 0 18px,#8F5E2E 18px 36px)}
+.court i.ln{position:absolute;border:2px solid rgba(255,255,255,.75)}
+.court .shot{position:absolute;width:13px;height:13px;margin:-6.5px 0 0 -6.5px;border-radius:50%;box-sizing:border-box;border:2.5px solid var(--c)}
+.court .shot.made{background:var(--c)}
+.court .key{position:absolute;left:10px;bottom:8px;font:600 11px var(--num);color:#fff;letter-spacing:.04em;text-shadow:0 1px 2px rgba(0,0,0,.5)}
 
 /* ---------- Grouped game list ---------- */
 .list{display:flex;flex-direction:column}
@@ -106,6 +153,9 @@ h1 span{color:inherit}
 .card,.up,.fin{background:var(--surface);border:1px solid var(--line);border-top:0;padding:11px 14px;display:grid;gap:6px;min-width:0}
 .list > :is(.card,.up,.fin):first-child, .conf + :is(.card,.up,.fin), .list > .board + :is(.card,.up,.fin){border-top:1px solid var(--line);border-top-left-radius:var(--r-lg);border-top-right-radius:var(--r-lg)}
 .list > :is(.card,.up,.fin):last-child, :is(.card,.up,.fin):has(+ .conf), :is(.card,.up,.fin):has(+ .board){border-bottom-left-radius:var(--r-lg);border-bottom-right-radius:var(--r-lg)}
+.flat{margin:6px 0 4px}
+.flat > .up:first-child{border-top:1px solid var(--line);border-top-left-radius:var(--r-lg);border-top-right-radius:var(--r-lg)}
+.flat > .up:last-child{border-bottom-left-radius:var(--r-lg);border-bottom-right-radius:var(--r-lg)}
 .card{cursor:pointer;position:relative}
 .card[aria-current="true"]{background:var(--surface-2)}
 .card .meta .gchev{width:26px;height:26px;padding:4px;margin-left:4px;flex:none;box-sizing:border-box;color:var(--text);background:var(--surface);border:1px solid var(--line-2);border-radius:7px;transition:transform .2s}
@@ -361,6 +411,8 @@ h1 span{color:inherit}
   
   <div class="grid">
     <div>
+      <div class="sports" id="sports" role="tablist" aria-label="Sport" hidden></div>
+      <div class="seg" id="gender" role="group" aria-label="Men's or women's" hidden></div>
       <div class="filters">
         <input type="search" id="q" placeholder="Find a team" aria-label="Find a team" autocomplete="off">
         <div class="chips" role="group" aria-label="Filter games">
@@ -387,8 +439,143 @@ h1 span{color:inherit}
 // Radio networks. "streams" are tried in order until one plays.
 // Strings are direct audio URLs; {tunein:"sNNN"} is resolved to a direct URL through TuneIn's public tune service.
 const RADIO = {}; // filled from radio.json (tested daily) + playback.json (played in a real browser)
-const base = "https://site.api.espn.com/apis/site/v2/sports/football/college-football";
 const store = {get(k){try{return localStorage.getItem(k)}catch(e){return null}}, set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+/* ---------- sports ----------
+   Each sport shows up as a tile only while it's in season: ESPN's season calendar has a game day
+   within the next week (a tile that hasn't started yet says "Starts Feb 13"), or games were played
+   in the last 3 days (so a title game stays up for a few days afterwards). */
+const ESPN = "https://site.api.espn.com/apis/site/v2/sports/";
+const LEAGUES = {
+  fb:  {tile:"fb", name:"Football", path:"football/college-football", start:"kickoff", sigma:14, model:"ESPN FPI model"},
+  mbb: {tile:"bb", name:"Basketball", g:"Men's", path:"basketball/mens-college-basketball", groups:50, start:"tip-off", sigma:11, model:"ESPN BPI model", per:"H", clock:true, court:true},
+  wbb: {tile:"bb", name:"Basketball", g:"Women's", path:"basketball/womens-college-basketball", groups:50, start:"tip-off", sigma:11, model:"ESPN BPI model", per:"Q", clock:true, court:true},
+  mhk: {tile:"hk", name:"Hockey", g:"Men's", path:"hockey/mens-college-hockey", start:"puck drop", per:"P", clock:true},
+  whk: {tile:"hk", name:"Hockey", g:"Women's", path:"hockey/womens-college-hockey", start:"puck drop", per:"P", clock:true},
+  wvb: {tile:"vb", name:"Volleyball", path:"volleyball/womens-college-volleyball", start:"first serve", sets:true},
+  bsb: {tile:"bs", name:"Baseball", path:"baseball/college-baseball", start:"first pitch", diamond:true},
+  sb:  {tile:"sb", name:"Softball", path:"baseball/college-softball", start:"first pitch", diamond:true},
+};
+for(const [id, L] of Object.entries(LEAGUES)) L.id = id;
+const TILES = [
+  {id:"fb", name:"Football", icon:'<ellipse cx="12" cy="12" rx="9.5" ry="6" transform="rotate(-35 12 12)"/><path d="M9.5 14.5l5-5M10.5 11.5l2 2M12 10l2 2"/>'},
+  {id:"bb", name:"Basketball", icon:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3v18M5.6 5.6c3 2.6 3 10.2 0 12.8M18.4 5.6c-3 2.6-3 10.2 0 12.8"/>'},
+  {id:"hk", name:"Hockey", icon:'<path d="M5 3l6 14h7M19 3l-6 14"/><ellipse cx="7" cy="19.5" rx="3" ry="1.3"/>'},
+  {id:"vb", name:"Volleyball", icon:'<circle cx="12" cy="12" r="9"/><path d="M12 3c-1 4 0 8 4 10.5M3.6 9.5c4-1 8 .5 10.5 4.5M7 19.5c3-3 7-4 13.6-2.5"/>'},
+  {id:"bs", name:"Baseball", icon:'<circle cx="12" cy="12" r="9"/><path d="M7 4.5c2 2 2.6 4.5 2.6 7.5S9 17.5 7 19.5M17 4.5c-2 2-2.6 4.5-2.6 7.5s.6 5.5 2.6 7.5"/>'},
+  {id:"sb", name:"Softball", icon:'<circle cx="12" cy="12" r="9"/><path d="M6 5c2.5 2 3.4 4.4 3.4 7S8.5 17 6 19M18 5c-2.5 2-3.4 4.4-3.4 7s.9 5 3.4 7"/>'},
+];
+let SPORT = LEAGUES.fb;
+let base = ESPN + SPORT.path;
+const isFB = () => SPORT.id === "fb";
+const SEASON = {}; // league id -> {on, starts, live, today, at}
+const ymd = d => { const x = new Date(d); return `${x.getFullYear()}${String(x.getMonth()+1).padStart(2,"0")}${String(x.getDate()).padStart(2,"0")}`; };
+// ESPN's calendar is a list of game days ("2026-11-02T08:00Z") for most sports, and a list of weeks for football.
+function gameDays(L){
+  const out = [];
+  const add = (s, e) => { const a = Date.parse(s), b = Date.parse(e||s); if(!isNaN(a)) out.push([a, isNaN(b)?a:b]); };
+  for(const c of L?.calendar||[]){
+    if(typeof c === "string") add(c);
+    else for(const w of c.entries||[c]) add(w.startDate, w.endDate);
+  }
+  return out;
+}
+async function checkSeason(id){
+  const L = LEAGUES[id];
+  try{
+    const d = await getJSON(`${ESPN}${L.path}/scoreboard?${L.groups?`groups=${L.groups}&`:""}${id==="fb"?"groups=80&":""}limit=900`);
+    const lg = (d.leagues||[])[0] || {}, now = Date.now(), day = 864e5;
+    const days = gameDays(lg);
+    const evDays = (d.events||[]).map(e=>Date.parse(e.date)).filter(t=>!isNaN(t));
+    const soon = [...days.map(r=>r[0]), ...evDays].filter(t => t >= now - day/2).sort((a,b)=>a-b)[0];
+    const recent = [...days.map(r=>r[1]), ...evDays].some(t => t <= now + day/2 && t >= now - 3*day);
+    const within = days.some(([a,b]) => b >= now - 3*day && a <= now + 7*day) || evDays.some(t => t >= now - 3*day && t <= now + 7*day);
+    // Not started yet: nothing in the last month, first game day is coming up within the week.
+    const played = [...days.map(r=>r[0]), ...evDays].some(t => t < now - day/2 && t > now - 30*day);
+    const starts = within && !played && !recent && soon ? soon : null;
+    SEASON[id] = {on: within, starts, live: (d.events||[]).filter(e=>e.status?.type?.state==="in").length,
+      today: (d.events||[]).filter(e=>new Date(e.date).toDateString()===new Date().toDateString()).length, at: now};
+  }catch(e){ if(!SEASON[id]) SEASON[id] = {on: id==="fb", live:0, today:0, at: Date.now(), failed:true}; }
+}
+async function checkSeasons(){
+  await Promise.all(Object.keys(LEAGUES).map(checkSeason));
+  // Keep the sport you picked last time if it's still in season; otherwise football, then whatever's on.
+  if(!checkSeasons.done){
+    checkSeasons.done = true;
+    const want = store.get("sport");
+    const on = id => SEASON[id]?.on;
+    const pick = (want && LEAGUES[want] && on(want)) ? want
+      : on("fb") ? "fb"
+      : Object.keys(LEAGUES).filter(on).sort((a,b)=>(SEASON[b].live-SEASON[a].live) || (SEASON[b].today-SEASON[a].today))[0] || "fb";
+    if(pick !== SPORT.id) setSport(pick, true);
+  }
+  renderSports();
+}
+function tileLeagues(tid){ return Object.values(LEAGUES).filter(L=>L.tile===tid && (SEASON[L.id]?.on || L.id===SPORT.id)); }
+function renderSports(){
+  const box = $("#sports"), seg = $("#gender");
+  const tiles = TILES.map(t=>({...t, leagues: tileLeagues(t.id)})).filter(t=>t.leagues.length);
+  // Only one sport in season: no tile row at all, the page looks like it always did.
+  box.hidden = tiles.length < 2;
+  const x = box.scrollLeft;
+  box.innerHTML = tiles.map(t=>{
+    const sel = t.id === SPORT.tile;
+    const live = t.leagues.reduce((n,L)=>n + (SEASON[L.id]?.live||0), 0);
+    const today = t.leagues.reduce((n,L)=>n + (SEASON[L.id]?.today||0), 0);
+    const st = t.leagues.map(L=>SEASON[L.id]?.starts).filter(Boolean).sort()[0];
+    const sub = live ? `● ${live} live` : st && !today ? `Starts ${new Date(st).toLocaleDateString([], {month:"short", day:"numeric"})}` : today ? `${today} today` : "";
+    return `<button class="sport ${st && !live && !today ? "soon" : ""}" role="tab" data-tile="${t.id}" aria-selected="${sel}"><svg viewBox="0 0 24 24" aria-hidden="true">${t.icon}</svg><span class="nm">${t.name}</span><span class="sub ${live?"lv":""}">${sub}</span></button>`;
+  }).join("");
+  box.scrollLeft = x;
+  // Men's / women's, for sports that have both in season.
+  const both = tileLeagues(SPORT.tile).filter(L=>L.g);
+  seg.hidden = both.length < 2;
+  seg.innerHTML = both.map(L=>`<button data-league="${L.id}" aria-pressed="${L.id===SPORT.id}">${L.g}</button>`).join("");
+}
+document.addEventListener("click", ev=>{
+  const t = ev.target.closest(".sport[data-tile]");
+  if(t){ if(t.dataset.tile === SPORT.tile) return;
+    const ls = tileLeagues(t.dataset.tile), last = store.get("league:"+t.dataset.tile);
+    const L = ls.find(x=>x.id===last) || ls.find(x=>SEASON[x.id]?.live) || ls[0];
+    if(L) setSport(L.id); return; }
+  const g = ev.target.closest("#gender [data-league]");
+  if(g && g.dataset.league !== SPORT.id) setSport(g.dataset.league);
+});
+const confMaps = {}; // league -> team id -> conference
+async function loadConfs(id){
+  if(confMaps[id]) return; confMaps[id] = new Map();
+  try{
+    const g = await getJSON(`${ESPN}${LEAGUES[id].path}/groups`);
+    const walk = (n, name) => { for(const t of n.teams||[]) confMaps[id].set(String(t.id), confName(name||n.name)); for(const c of n.children||[]) walk(c, /division i$|^ncaa/i.test(c.name||"") ? null : c.name); };
+    for(const top of g.groups||[]) walk(top, /division i$|^ncaa|non-ncaa/i.test(top.name||"") ? null : top.name);
+    if(SPORT.id===id) render();
+  }catch(e){}
+}
+function setSport(id, quiet){
+  if(!LEAGUES[id] || id===SPORT.id) return;
+  SPORT = LEAGUES[id]; base = ESPN + SPORT.path;
+  store.set("sport", id); store.set("league:"+SPORT.tile, id);
+  sportTok++;
+  history = []; summaryHist = []; events = []; poll.ahead = null; poll.loading = false; upDay = "";
+  selected = null; boardOpen = !NARROW.matches; renderBoard.last = "";
+  for(const k of Object.keys(RADIO)) delete RADIO[k];
+  for(const k of Object.keys(RADIO_INFO)) delete RADIO_INFO[k];
+  for(const k of Object.keys(ready)) delete ready[k];
+  // Football filters by FBS/FCS; the other sports by Top 25.
+  const c1 = document.querySelector('.chip[data-div="FBS"], .chip[data-div="T25"]'), c2 = document.querySelector('.chip[data-div="FCS"]');
+  if(isFB()){ c1.dataset.div = "FBS"; c1.firstChild.textContent = "FBS"; c2.hidden = false; }
+  else { c1.dataset.div = "T25"; c1.firstChild.textContent = "Top 25"; c2.hidden = true; }
+  c1.parentNode.classList.toggle("three", !isFB());
+  if(!["all","fav"].includes(divFilter) && !(isFB() && ["FBS","FCS"].includes(divFilter)) && !(!isFB() && divFilter==="T25")){
+    divFilter = "all"; document.querySelectorAll(".chip[data-div]").forEach(x=>x.setAttribute("aria-pressed", String(x.dataset.div==="all")));
+  }
+  if(!isFB()) loadConfs(id);
+  homeBoard();
+  $("#list").innerHTML = `<div class="empty">Loading ${SPORT.g ? SPORT.g.toLowerCase()+" " : ""}${SPORT.name.toLowerCase()}…</div>`;
+  $("#board").hidden = true;
+  renderSports(); void quiet;
+  poll().then(fillStations);
+}
+let sportTok = 0;
 // Phones open with every game folded, unless a game was open when the page was last left.
 // Wide screens always show a game beside the list.
 const savedOpen = store.get("openGame") || null;
@@ -426,6 +613,7 @@ async function loadOdds(){
   try{ const d = await getJSON("odds.json?t=" + Math.floor(Date.now()/600000)); ODDS = d.games || []; render(); }catch(e){}
 }
 function oddsFor(e){
+  if(!isFB()) return null; // odds.json only has football lines
   const c = e.competitions[0], h = team(c,"home").team, a = team(c,"away").team, t0 = Date.parse(e.date);
   const H = oddsKey(h.displayName), A = oddsKey(a.displayName);
   return ODDS.find(g=>oddsKey(g.home)===H && oddsKey(g.away)===A)
@@ -472,9 +660,11 @@ function orderStreams(school, streams, feeds){
     [...variants, u].forEach(v => { if(!all.some(x=>x.u===v)) all.push({u: v, i}); });
   });
   const hard = u => (res[u]?.ok === false && !isFeed(u)) ? 3 : (SECURE_PAGE && u.startsWith("http:")) ? 4 : 0;
+  // The game-time listening checks listen for football, so their "not the game" verdicts only count for football.
+  const fb = isFB();
   const playable = all
-    .filter(x => !(SECURE_PAGE && x.u.startsWith("http:")) && liveVerdict(x.u)?.verdict !== "blocked" && !["blocked","not_game"].includes(heard(x.u)))
-    .sort((a,b) => hard(a.u)-hard(b.u) || vRank(a.u)-vRank(b.u) || a.i-b.i)
+    .filter(x => !(SECURE_PAGE && x.u.startsWith("http:")) && liveVerdict(x.u)?.verdict !== "blocked" && heard(x.u) !== "blocked" && !(fb && heard(x.u)==="not_game"))
+    .sort((a,b) => hard(a.u)-hard(b.u) || (fb ? vRank(a.u)-vRank(b.u) : 0) || a.i-b.i)
     .map(x => x.u);
   const external = pb.external || streams.find(u=>u.startsWith("http:")) || null;
   return {playable, external};
@@ -483,13 +673,15 @@ function attachRadio(tm){
   if(!tm || RADIO[tm.location] || !dirIndex.size) return;
   const tries = [tm.location, tm.displayName, `${tm.location} ${tm.name||""}`, tm.shortDisplayName, tm.abbreviation];
   let hit = null; for(const n of tries){ hit = dirIndex.get(normName(n)); if(hit) break; }
-  if(!hit || !(hit.streams||[]).length){ if(hit) RADIO_INFO[tm.location] = hit; return; }
-  const {playable, external} = orderStreams(hit.school, hit.streams, hit.game_feeds);
+  // School game feeds in the directory are football broadcasts; other sports use the school's regular stations.
+  const streams = isFB() ? (hit?.streams||[]) : (hit?.streams||[]).filter(u=>!(hit.game_feeds||[]).includes(u));
+  if(!hit || !streams.length){ if(hit) RADIO_INFO[tm.location] = hit; return; }
+  const {playable, external} = orderStreams(hit.school, streams, isFB() ? hit.game_feeds : []);
   RADIO[tm.location] = {net: hit.network || `${tm.location} radio`, station: hit.flagship || "", streams: playable, external, listen: hit.listen_page || ""};
 }
 const RADIO_INFO = {}; // teams we know about but have no free stream for
 // School-run feeds that only exist around game time (picked up ~20 minutes before kickoff).
-function gameTimeOnly(loc){ const i = RADIO_INFO[loc]; return !!(i && i.game_only && !(i.streams||[]).length); }
+function gameTimeOnly(loc){ const i = RADIO_INFO[loc]; return !!(isFB() && i && i.game_only && !(i.streams||[]).length); }
 function soonNote(e){
   const ts = e.competitions[0].competitors.map(c=>c.team);
   const has = t => !!(RADIO[t.location]?.streams?.length || RADIO[t.location]?.external || store.get("stream:"+t.location));
@@ -517,12 +709,16 @@ let divFilter = "all", query = "";
 const favs = new Set((()=>{try{return JSON.parse(store.get("favs")||"[]")}catch(e){return []}})());
 function saveFavs(){ store.set("favs", JSON.stringify([...favs])); }
 const isFavGame = e => e.competitions[0].competitors.some(t=>favs.has(t.team.location));
+const isTop25 = e => e.competitions[0].competitors.some(t=>t.curatedRank?.current && t.curatedRank.current < 26);
+const divOK = e => divFilter==="all" || (divFilter==="fav" ? isFavGame(e) : divFilter==="T25" ? isTop25(e) : e._div===divFilter);
 function fmtTime(d){return new Date(d).toLocaleString([], {weekday:"short", hour:"numeric", minute:"2-digit", hour12:true})}
 function now12(){return new Date().toLocaleTimeString([], {hour:"numeric",minute:"2-digit",second:"2-digit",hour12:true})}
 
 async function getJSON(u){const r = await fetch(u,{cache:"no-store"}); if(!r.ok) throw new Error(r.status); return r.json();}
 
 async function poll(){
+  if(!isFB()) return pollOther();
+  const tok = sportTok;
   try{
     const [fbs, fcs] = await Promise.all([
       getJSON(`${base}/scoreboard?groups=80&limit=400`),
@@ -544,6 +740,7 @@ async function poll(){
       poll.ahead.f.forEach(e=>{ if(!byId.has(e.id)){ e._div = "FBS"; byId.set(e.id, e); } });
       poll.ahead.c.forEach(e=>{ if(!byId.has(e.id)){ e._div = "FCS"; byId.set(e.id, e); } });
     }
+    if(tok !== sportTok) return; // switched sports while this was loading
     const evs = [...byId.values()];
     evs.forEach(e=>e.competitions[0].competitors.forEach(c=>attachRadio(c.team)));
     history.push({t:Date.now(), evs}); history = history.filter(h => Date.now()-h.t < (delay+20)*1000);
@@ -555,14 +752,54 @@ async function poll(){
   }catch(e){
     $("#dot").className = "dot err";
     $("#stat").textContent = "Can't reach the scores feed right now. Retrying…";
-    if(!history.length) $("#list").innerHTML = `<div class="empty">Can't reach the scores feed right now. Retrying…</div>`;
+    if(!history.length){ homeBoard(); $("#list").innerHTML = `<div class="empty">Can't reach the scores feed right now. Retrying…</div>`; }
+  }
+  render();
+}
+// Basketball, hockey, volleyball, baseball, softball: today's scoreboard every few seconds, plus each
+// upcoming game day in the next week (from ESPN's calendar) every 15 minutes. ESPN won't take date ranges.
+async function pollOther(){
+  const tok = sportTok, L = SPORT, g = L.groups ? `groups=${L.groups}&` : "";
+  try{
+    const d = await getJSON(`${base}/scoreboard?${g}limit=900`);
+    if(tok !== sportTok) return;
+    const byId = new Map();
+    (d.events||[]).forEach(e=>{ e._div = ""; byId.set(e.id, e); });
+    // The rest of the week loads in the background so today's games show right away.
+    if(!poll.loading && (!poll.ahead || Date.now()-poll.ahead.t > 15*60e3)){
+      const now = Date.now(), have = new Set((d.events||[]).map(e=>ymd(e.date)));
+      const days = [...new Set(gameDays((d.leagues||[])[0]).map(r=>r[0]).filter(t=>t > now - 864e5/2 && t < now + 8*864e5).map(t=>new Date(t).toISOString().slice(0,10).replace(/-/g,"")))]
+        .filter(k=>!have.has(k)).slice(0, 8);
+      poll.loading = true;
+      Promise.all(days.map(k=>getJSON(`${base}/scoreboard?${g}dates=${k}&limit=900`).then(x=>x.events||[]).catch(()=>[])))
+        .then(more=>{ if(tok === sportTok) poll.ahead = {t: Date.now(), f: more.flat(), c: []}; })
+        .finally(()=>{ poll.loading = false; });
+    }
+    (poll.ahead?.f||[]).forEach(e=>{ if(!byId.has(e.id)){ e._div = ""; byId.set(e.id, e); } });
+    const evs = [...byId.values()];
+    evs.forEach(e=>e.competitions[0].competitors.forEach(c=>attachRadio(c.team)));
+    history.push({t:Date.now(), evs}); history = history.filter(h => Date.now()-h.t < (delay+20)*1000);
+    $("#dot").className = "dot ok"; $("#stat").textContent = "Updated " + new Date().toLocaleTimeString([], {hour:"numeric", minute:"2-digit", hour12:true}); $("#upd").textContent = "";
+    // Only the open game and the one on the radio get play-by-play (a basketball night can have 150 games).
+    evs.filter(e=>e.status.type.state==="in").forEach(e=>{
+      const onAir = deck && e.competitions[0].competitors.some(c=>c.team.location===deck.loc);
+      if(e.id===selected || onAir) pollSummary(e.id, 6000);
+      e.competitions[0].competitors.forEach(t=>prepareTeam(t.team.location));
+    });
+    const s = SEASON[L.id]; if(s){ const live = evs.filter(e=>e.status.type.state==="in").length; if(s.live !== live){ s.live = live; renderSports(); } }
+  }catch(e){
+    if(tok !== sportTok) return;
+    $("#dot").className = "dot err";
+    $("#stat").textContent = "Can't reach the scores feed right now. Retrying…";
+    if(!history.length){ homeBoard(); $("#list").innerHTML = `<div class="empty">Can't reach the scores feed right now. Retrying…</div>`; }
   }
   render();
 }
 const sumAt = {};
 async function pollSummary(id, gap=9000){
   if(Date.now() - (sumAt[id]||0) < gap) return; sumAt[id] = Date.now();
-  try{ const s = await getJSON(`${base}/summary?event=${id}`); notePlays(id, s); summaryHist.push({t:Date.now(), id, s}); summaryHist = summaryHist.filter(h=>Date.now()-h.t<(delay+20)*1000);
+  const tok = sportTok;
+  try{ const s = await getJSON(`${base}/summary?event=${id}`); if(tok !== sportTok) return; notePlays(id, s); summaryHist.push({t:Date.now(), id, s}); summaryHist = summaryHist.filter(h=>Date.now()-h.t<(delay+20)*1000);
     // Only redraw for the game on screen or the one on the radio; the rest are just being kept warm.
     if(id===selected || (deck && events.find(x=>x.id===id)?.competitions[0].competitors.some(c=>c.team.location===deck.loc))) render(); }catch(e){}
 }
@@ -575,7 +812,7 @@ async function pollSummary(id, gap=9000){
    set by hand for that station last time. */
 const espnLag = {}; const seenPlays = new Set();
 function notePlays(id, s){
-  const plays = (s.drives?.current?.plays||[]).concat((s.drives?.previous||[]).slice(-1).flatMap(d=>d.plays||[]));
+  const plays = s.drives ? (s.drives?.current?.plays||[]).concat((s.drives?.previous||[]).slice(-1).flatMap(d=>d.plays||[])) : (s.plays||[]).slice(-15);
   if(!espnLag[id]){ // first look at a game: everything in it already happened, so just note what we've seen
     espnLag[id] = {v: 0, n: 0};
     plays.forEach(p=>{ if(p.id) seenPlays.add(p.id); });
@@ -632,16 +869,16 @@ function render(){
   }
   $("#board").hidden = false;
   const count = f => live.filter(f).length;
-  $("#nAll").textContent = live.length; $("#nFBS").textContent = count(e=>e._div==="FBS");
+  $("#nAll").textContent = live.length; $("#nFBS").textContent = count(isFB() ? e=>e._div==="FBS" : isTop25);
   $("#nFCS").textContent = count(e=>e._div==="FCS"); $("#nFav").textContent = count(isFavGame);
   const q = query.trim().toLowerCase();
-  let shown = live.filter(e=> divFilter==="all" || (divFilter==="fav" ? isFavGame(e) : e._div===divFilter))
+  let shown = live.filter(e=> divOK(e))
     .filter(e=> !q || e.competitions[0].competitors.some(t=>[t.team.location,t.team.displayName,t.team.shortDisplayName,t.team.abbreviation].join(" ").toLowerCase().includes(q)))
     .sort((a,b)=> (isFavGame(b)-isFavGame(a)) || new Date(a.date)-new Date(b.date) || a.id.localeCompare(b.id));
     const list = $("#list");
   if(!shown.length){
     const next = events.filter(e=>e.status.type.state==="pre").sort((a,b)=>new Date(a.date)-new Date(b.date))[0];
-    const why = !live.length ? "No Division I games are live right now." : (q ? `No live games match “${esc(query.trim())}”.` : divFilter==="fav" ? "None of your teams are playing right now. Tap ☆ on a team to add it." : `No ${divFilter} games are live right now.`);
+    const why = !live.length ? "No Division I games are live right now." : (q ? `No live games match “${esc(query.trim())}”.` : divFilter==="fav" ? "None of your teams are playing right now. Tap ☆ on a team to add it." : `No ${divFilter==="T25" ? "Top 25" : divFilter} games are live right now.`);
     list.innerHTML = `<div class="empty">${why}${!live.length && next ? `<br>Next up: ${esc(next.shortName)}, ${fmtTime(next.date)}.` : ""}</div>`;
   } else list.innerHTML = shown.map(card).join("") + finalsToday();
   list.querySelectorAll(".card").forEach(b=>{ const go=()=>{
@@ -660,6 +897,8 @@ function render(){
 // On phones the game details open right under the game you tapped; on wide screens they sit beside the list.
 const NARROW = matchMedia("(max-width: 860px)");
 const boardHome = (()=>{ const b = document.getElementById("board"); return {parent: b.parentNode, next: b.nextSibling}; })();
+// The game details live inside the list on phones; put them back before the list is replaced.
+function homeBoard(){ const B = $("#board"); if(B && B.parentNode === $("#list")) boardHome.parent.insertBefore(B, boardHome.next); }
 function placeBoard(){
   const B = $("#board"), card = selected && $(`#list .card[data-id="${CSS.escape(selected)}"]`);
   if(NARROW.matches && card && boardOpen){ if(card.nextSibling !== B) card.after(B); }
@@ -792,6 +1031,12 @@ setInterval(()=>{ document.querySelectorAll("[data-clk]").forEach(el=>{ const e 
 function statusText(e){
   const st = e.status, t = st.type, p = st.period||0;
   if(t.state!=="in") return {short:t.shortDetail, long:t.shortDetail, brk:false};
+  if(!isFB()){
+    // ESPN sends "4:12 - 2nd Half" / "12:30 - 2nd" / "Top 5th" / "3rd Set". Clocked sports get a ticking clock.
+    const m = /^(\d+:\d\d)\s*-\s*(.+)$/.exec(t.shortDetail||""), md = /^(\d+:\d\d)\s*-\s*(.+)$/.exec(t.detail||"");
+    if(SPORT.clock && m) return {short:`${esc(m[2])} <span data-clk="${e.id}">${liveClock(e)}</span>`, long: md ? md[2] : m[2], brk:false, per:m[2]};
+    return {short:esc(t.shortDetail||""), long:t.detail||t.shortDetail||"", brk: !m && /half|end|intermission|break/i.test(t.shortDetail||""), per:""};
+  }
   const q = breakAfter(e);
   if(q){
     const lab = q===2 ? "Halftime" : (q===4 && p<=4 ? "End of regulation" : `End of ${qName(q)}`);
@@ -808,6 +1053,12 @@ function gameLine(loc){
   const c = e.competitions[0], a = team(c,"away"), h = team(c,"home"), sit = c.situation || {}, stx = statusText(e);
   const ab = t => esc(t.team.abbreviation || t.team.shortDisplayName);
   const score = `<b class="dsc">${ab(a)} ${esc(a.score)} · ${ab(h)} ${esc(h.score)}</b>`;
+  if(!isFB()){
+    const parts = [score, stx.short];
+    if(SPORT.sets){ const s = setPoints(e); if(s) parts.push(`Set ${s.n}: ${s.a}–${s.h}`); }
+    if(SPORT.diamond && sit.outs!=null) parts.push(`${sit.outs} out${sit.outs==1?"":"s"}`);
+    return parts.join('<span class="dsep"></span>');
+  }
   const clock = stx.brk ? esc(stx.short) : `<span data-clk="${e.id}">${liveClock(e)}</span> ${esc(qName(e.status.period))}`;
   const pid = possId(e), pos = [a,h].find(t=>t.team.id===pid);
   const parts = [score, clock];
@@ -841,7 +1092,7 @@ function updateLockScreen(){
     const ab = t => t.team.abbreviation || t.team.shortDisplayName;
     const pid = possId(e), pos = [a,h].find(t=>t.team.id===pid);
     title = `${ab(a)} ${a.score}  ·  ${ab(h)} ${h.score}`;
-    const bits = [stx.brk ? stx.short : `${qName(e.status.period)} ${liveClock(e)}`];
+    const bits = !isFB() ? [stx.per ? `${stx.per} ${liveClock(e)}` : (e.status.type.shortDetail||"")] : [stx.brk ? stx.short : `${qName(e.status.period)} ${liveClock(e)}`];
     if(!stx.brk){
       if(goodDD(sit.downDistanceText)) bits.push(sit.downDistanceText);
       if(pos) bits.push(`${ab(pos)} ball`);
@@ -880,10 +1131,15 @@ function card(e){
 
 // ---------- Today's upcoming games (shown when nothing is live) ----------
 const isToday = d => new Date(d).toDateString() === new Date().toDateString();
-const confName = c => String(c||"").replace(/\s+Conference$/,"").replace(/^Mid-American$/,"MAC").trim();
+const CONF_SHORT = {"Mid-American":"MAC","Atlantic Coast":"ACC","Southeastern":"SEC","Mid-Eastern Athletic":"MEAC","Southwestern Athletic":"SWAC","Western Athletic":"WAC","Colonial Athletic Association":"Coastal Athletic Association","National Collegiate Hockey":"NCHC","Central Collegiate Hockey Association":"CCHA","Eastern College Athletic":"ECAC Hockey","East Coast Athletic":"ECAC Hockey"};
+const confName = c => { const n = String(c||"").replace(/\s+Conference$/,"").trim(); return CONF_SHORT[n] || n; };
 function confOf(tm){
+  if(!isFB()){ const c = confMaps[SPORT.id]?.get(String(tm.id)); if(c) return c; if(SPORT.tile==="hk") return ""; }
   for(const n of [tm.location, tm.displayName, `${tm.location} ${tm.name||""}`, tm.shortDisplayName, tm.abbreviation]){
-    const hit = dirIndex.get(normName(n)); if(hit?.conference) return confName(hit.conference);
+    const hit = dirIndex.get(normName(n));
+    // Football-only leagues (Pioneer, MVFC, ...) don't apply to other sports.
+    if(hit?.conference && !isFB() && /football|pioneer|independent|united athletic/i.test(hit.conference)) return "";
+    if(hit?.conference) return confName(hit.conference);
   }
   return "";
 }
@@ -911,7 +1167,8 @@ function lineProb(o){
   const h = moneyProb(o.homeTeamOdds?.moneyLine), a = moneyProb(o.awayTeamOdds?.moneyLine);
   if(h && a) return 100*h/(h+a);
   const sp = Number(o.spread);
-  if(o.spread!=null && o.spread!=="" && !isNaN(sp)){ const z = -sp/14; return 100/(1+Math.exp(-1.7*z)); }
+  // Run lines and puck lines (±1.5) say little about who wins, so only football and basketball use spreads.
+  if(SPORT.sigma && o.spread!=null && o.spread!=="" && !isNaN(sp)){ const z = -sp/SPORT.sigma; return 100/(1+Math.exp(-1.7*z)); }
   return null;
 }
 // Our own number: the average of ESPN's FPI model and the betting market (all listed
@@ -944,13 +1201,13 @@ function winProb(e){
   };
   const out = [`${short(fav)} ${pct(home)}% to win`];
   if(fpi!=null && market!=null) out.push(`Average of ESPN's model and the betting odds:`);
-  if(fpi!=null) out.push(`• ESPN FPI model: ${pct(fpi)}%`);
+  if(fpi!=null) out.push(`• ${SPORT.model || "ESPN model"}: ${pct(fpi)}%`);
   if(market!=null){
     out.push(`• Betting odds: ${pct(market)}%${books.length>1 ? ` (average of ${books.length} sportsbooks)` : ""}`);
     books.forEach(b=>out.push(bookLine(b)));
     out.push(`*Odds are converted to win chances with the bookmaker's cut removed.`);
   }
-  return {home, src: fpi!=null && market!=null ? "Consensus" : (fpi!=null ? "ESPN FPI" : "Betting odds"), detail: out.join("\n")};
+  return {home, src: fpi!=null && market!=null ? "Consensus" : (fpi!=null ? (SPORT.model||"ESPN model").replace(/ model$/,"") : "Betting odds"), detail: out.join("\n")};
 }
 function upCard(e){
   const c = e.competitions[0], a = team(c,"away"), h = team(c,"home"), wp = winProb(e), o = c.odds?.[0];
@@ -976,7 +1233,7 @@ function finCard(e){
 function finalsToday(){
   const q = query.trim().toLowerCase();
   const fin = events.filter(e=>e.status.type.state==="post" && isToday(e.date))
-    .filter(e=> divFilter==="all" || (divFilter==="fav" ? isFavGame(e) : e._div===divFilter))
+    .filter(e=> divOK(e))
     .filter(e=> !q || e.competitions[0].competitors.some(t=>[t.team.location,t.team.displayName,t.team.shortDisplayName,t.team.abbreviation].join(" ").toLowerCase().includes(q)))
     .sort((x,y)=>new Date(y.date)-new Date(x.date));
   const closed = !q && isShut("Final", "");
@@ -1015,17 +1272,17 @@ function renderUpcoming(){
     return d.toDateString()===t.toDateString() ? "Today" : d.toDateString()===tm.toDateString() ? "Tomorrow" : d.toLocaleDateString([], {weekday:"short", month:"short", day:"numeric"}); };
   const tabs = days.length > 1 ? `<div class="daytabs" role="tablist" aria-label="Pick a day (tap it again to see the whole week)">${days.map(k=>`<button class="daytab" role="tab" data-day="${esc(k)}" aria-selected="${k===upDay}">${esc(dayName(k))}<span class="n">${pre.filter(e=>dayKey(e.date)===k).length}</span></button>`).join("")}</div>` : "";
   const count = f => today.filter(f).length;
-  $("#nAll").textContent = today.length; $("#nFBS").textContent = count(e=>e._div==="FBS");
+  $("#nAll").textContent = today.length; $("#nFBS").textContent = count(isFB() ? e=>e._div==="FBS" : isTop25);
   $("#nFCS").textContent = count(e=>e._div==="FCS"); $("#nFav").textContent = count(isFavGame);
   // Searching for a team looks across the whole week, not just the selected day.
-  const shown = (q ? pre : today).filter(e=> divFilter==="all" || (divFilter==="fav" ? isFavGame(e) : e._div===divFilter))
+  const shown = (q ? pre : today).filter(e=> divOK(e))
     .filter(e=> !q || e.competitions[0].competitors.some(t=>[t.team.location,t.team.displayName,t.team.shortDisplayName,t.team.abbreviation].join(" ").toLowerCase().includes(q)));
   $("#board").hidden = true;
   if(!shown.length){
     list.innerHTML = (q ? "" : tabs) + `<div class="empty">${q ? `No upcoming games this week match “${esc(query.trim())}”.` : today.length ? "No games that day match that filter." : "No games scheduled in the next week."}</div>` + finalsToday();
     return;
   }
-  loadPredictions(shown);
+  const vis = []; // games in open conference bars (other sports only look up odds for these)
   shown.forEach(e=>e.competitions[0].competitors.forEach(c=>{ attachRadio(c.team); prepareTeam(c.team.location); }));
   // One section per day (just one unless the whole week is showing), conferences A-Z inside each.
   const sections = (q ? [...new Set(shown.map(e=>dayKey(e.date)))] : viewDays).map(day=>{
@@ -1033,18 +1290,27 @@ function renderUpcoming(){
     const groups = new Map();
     for(const e of dayGames){
       const c = e.competitions[0], h = team(c,"home"), a = team(c,"away");
-      const conf = confOf(h.team) || confOf(a.team) || (e._div==="FCS" ? "FCS" : "Other");
+      const conf = confOf(h.team) || confOf(a.team) || (e._div==="FCS" ? "FCS" : isFB() ? "Other" : "Other games");
       if(!groups.has(conf)) groups.set(conf, []); groups.get(conf).push(e);
     }
-    const names = [...groups.keys()].sort((x,y)=>x.localeCompare(y));
+    const names = [...groups.keys()].sort((x,y)=>(x==="Other games")-(y==="Other games") || x.localeCompare(y));
+    // No conference info at all (some hockey days): just list the games by time, no bars.
+    if(names.length===1 && names[0]==="Other games"){
+      const gs = groups.get(names[0]).sort((x,y)=>new Date(x.date)-new Date(y.date) || x.id.localeCompare(y.id)); vis.push(...gs);
+      const label = dayName(day)==="Today" ? "Later today" : new Date(day).toLocaleDateString([], {weekday:"long", month:"short", day:"numeric"});
+      return `<div class="sect">${esc(label)}</div><div class="flat">${gs.map(upCard).join("")}</div>`;
+    }
     const allShut = names.every(n=>isShut(n, day));
     const label = dayName(day)==="Today" ? "Later today" : new Date(day).toLocaleDateString([], {weekday:"long", month:"short", day:"numeric"});
     return `<div class="sect">${esc(label)}${names.length>1 && !q ? `<button class="lnk" data-confall="${allShut?"open":"shut"}" data-cday="${esc(day)}">${allShut?"Expand all":"Collapse all"}</button>` : ""}</div>` + names.map(n=>{
       const gs = groups.get(n), closed = !q && isShut(n, day);
+      if(!closed) vis.push(...gs);
       return confHead(n, gs.length, closed, day) + gs.sort((x,y)=>new Date(x.date)-new Date(y.date) || x.id.localeCompare(y.id)).map(e=>closed ? upCard(e).replace(/^<div /,"<div hidden ") : upCard(e)).join("");
     }).join("");
   }).join("");
   list.innerHTML = (q ? "" : tabs) + sections + finalsToday();
+  // Football looks up every game's odds; a basketball night has far more games, so only the ones you've opened.
+  loadPredictions(isFB() ? shown : vis.slice(0, 40));
 }
 
 function renderBoard(){
@@ -1066,24 +1332,26 @@ function renderBoard(){
     <div class="big">${st.type.state==="pre"?"–":t.score}</div>${ear(t.team.location, "Listen")}
     ${tos!=null?`<div class="to" aria-label="${tos} timeouts left">${[0,1,2].map(i=>`<i class="${i<tos?"":"used"}"></i>`).join("")}</div>`:""}</div>`;
   };
-  const stx = statusText(e), per = stx.long;
+  const stx = statusText(e), per = isFB() ? stx.long : (stx.per ? stx.long : (st.type.detail || st.type.shortDetail || ""));
   const bc = barColors(a,h);
-  let html = `<div class="score" style="--away:${bc[0]};--home:${bc[1]}">${side(a,"away")}<div class="mid"><div class="clock">${st.type.state==="in"&&!stx.brk?`<span data-clk="${e.id}">${liveClock(e)}</span>`:""}</div><div class="per">${st.type.state==="pre"?fmtTime(e.date):per}</div></div>${side(h,"home")}</div>`;
-  if(st.type.state==="in"){
+  const ticking = st.type.state==="in" && !stx.brk && (isFB() || !!stx.per);
+  let html = `<div class="score" style="--away:${bc[0]};--home:${bc[1]}">${side(a,"away")}<div class="mid"><div class="clock">${ticking?`<span data-clk="${e.id}">${liveClock(e)}</span>`:""}</div><div class="per">${st.type.state==="pre"?fmtTime(e.date):esc(per)}</div></div>${side(h,"home")}</div>`;
+  if(!isFB()) html += otherDetails(e, sum, a, h, bc);
+  else if(st.type.state==="in"){
     const pills = [];
     if(goodDD(sit.downDistanceText)) pills.push(`<span class="pill">${esc(sit.downDistanceText)}</span>`);
     if(sit.isRedZone) pills.push(`<span class="pill rz">Red zone</span>`);
     if(pills.length) html += `<div class="sit">${pills.join("")}</div>`;
     html += fieldView(sit, a, h, pid, e.id);
   }
-  const lp = sit.lastPlay?.text || lastPlayFrom(sum);
+  const lp = isFB() ? (sit.lastPlay?.text || lastPlayFrom(sum)) : (st.type.state==="in" ? (lastPlayFrom(sum) || sit.lastPlay?.text) : null);
   if(lp) html += `<div class="last"><p class="label">Last play</p>${esc(lp)}</div>`;
   const wp = sum?.winprobability; if(wp?.length){ const hp = wp[wp.length-1].homeWinPercentage*100;
     html += `<div class="wp"><p class="label">Win probability</p><div class="wpbar"><span style="width:${100-hp}%;background:${bc[0]}"></span><span style="width:${hp}%;background:${bc[1]}"></span></div><div class="wpl"><span>${a.team.abbreviation} ${(100-hp).toFixed(1)}%</span><span>${h.team.abbreviation} ${hp.toFixed(1)}%</span></div></div>`; }
-  html += playsView(sum);
+  html += isFB() ? playsView(sum) : otherPlays(sum);
   const r = radioFor(e);
   html += `<div class="radio-info"><p class="label">Radio for this game</p><ul>${r.map(x=>`<li><b>${esc(x.team)}</b> ${esc(x.net||"")}${x.station && !/radio$/i.test(x.net||"") ? `, ${esc(String(x.station).replace(/\s*\(no free online stream found\)/,""))}` : ""}${x.stream ? "" : ` <span class="note">(no free stream)</span>`}</li>`).join("")}</ul>
-  <span class="note">Each team's own radio broadcast. If one won't connect, try the other team's call.</span></div>`;
+  <span class="note">${isFB() ? "Each team's own radio broadcast. If one won't connect, try the other team's call." : SPORT.tile==="bb" ? "Each school's sports radio station, which carries basketball for most teams. If one isn't on the game, try the other team's." : `Each school's main sports radio station. Many carry ${SPORT.name.toLowerCase()}, but some are on a different game or show, so try the other team's if one isn't.`}</span></div>`;
   const same = html.replace(/(<span data-clk="[^"]*">)[^<]*/g, "$1") === (renderBoard.last||"");
   renderBoard.last = html.replace(/(<span data-clk="[^"]*">)[^<]*/g, "$1");
   if(same && B.innerHTML){ B.querySelectorAll("[data-clk]").forEach(el=>{ const g = events.find(x=>x.id===el.dataset.clk); if(g) el.textContent = liveClock(g); }); return; }
@@ -1112,12 +1380,23 @@ function barColors(a, h){
   if(cdist(ac,hc) < 60) hc = DARK.matches?"C9D1DB":"AAB3BF";
   return ["#"+ac, "#"+hc];
 }
-function lastPlayFrom(sum){const p = sum?.drives?.current?.plays; return p?.length ? p[p.length-1].text : null}
+function lastPlayFrom(sum){const p = sum?.drives ? sum.drives.current?.plays : realPlays(sum); return p?.length ? p[p.length-1].text : null}
+// Baseball and softball log every pitch as a play; keep the ones that tell the story.
+function realPlays(sum){
+  return (sum?.plays||[]).filter(p=>p.text && !(SPORT.diamond && /^(ball|strike|foul|pitch|pickoff attempt|mound visit)\b/i.test(p.text)) && !/^(official tv timeout|end of game)$/i.test(p.text));
+}
+// Current set's points (volleyball): the last set in the line score.
+function setPoints(e){
+  const c = e.competitions[0], a = team(c,"away"), h = team(c,"home");
+  const n = Math.max(a.linescores?.length||0, h.linescores?.length||0); if(!n) return null;
+  return {n, a: a.linescores?.[n-1]?.value ?? 0, h: h.linescores?.[n-1]?.value ?? 0};
+}
 // Who has the ball. ESPN often leaves situation.possession empty (common right after
 // kickoffs and in some games all night), so fall back to the current drive, then the last play.
 function possId(e){
   const c = e.competitions[0], sit = c.situation||{}, ids = c.competitors.map(x=>x.team.id);
   if(sit.possession && ids.includes(sit.possession)) return sit.possession;
+  if(!isFB()) return null;
   const sum = snap(summaryHist, x=>x.id===e.id)?.s, cur = sum?.drives?.current;
   const dt = cur?.team?.id || cur?.team;
   if(cur && !cur.end?.text && dt && ids.includes(String(dt))) return String(dt);
@@ -1177,6 +1456,76 @@ function playsView(sum){
     const plays = (dr.plays||[]).slice().reverse().map(p=>`<div class="play ${p.scoringPlay?"scoring":""}"><span class="t">Q${p.period?.number||""} ${p.clock?.displayValue||""}</span><span class="tx">${esc(p.text||"")}${p.start?.downDistanceText?`<span class="dd">${p.start.downDistanceText}</span>`:""}</span></div>`).join("");
     return `<div class="drive"><span>${dr.team?.shortDisplayName||dr.team?.abbreviation||""} drive${dr.displayResult?` · ${dr.displayResult}`:""}</span><span class="note">${dr.description||""}</span></div>${plays}`;
   }).join("");
+  const open = store.get("pbp") !== "0";
+  return `<div><button class="label pbp-toggle" id="pbpToggle" aria-expanded="${open}">Play by play<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="plays" ${open?"":"hidden"}>${out}</div></div>`;
+}
+/* ---------- other sports' game details ---------- */
+const ordN = n => n + ((n%100>=11 && n%100<=13) ? "th" : ({1:"st",2:"nd",3:"rd"})[n%10] || "th");
+function otherDetails(e, sum, a, h, bc){
+  const c = e.competitions[0], sit = c.situation || {}, live = e.status.type.state === "in";
+  let html = "";
+  // Volleyball: the current set's score.
+  if(SPORT.sets && live){ const s = setPoints(e); if(s) html += `<div class="sit"><span class="pill">Set ${s.n}: ${esc(a.team.abbreviation||"")} ${s.a} – ${esc(h.team.abbreviation||"")} ${s.h}</span></div>`; }
+  // Baseball / softball: runners, count and who's up.
+  if(SPORT.diamond && live && (sit.outs!=null || sit.balls!=null)){
+    const b = (on, x, y) => `<i class="${on?"on":""}" style="left:${x}px;top:${y}px"></i>`;
+    const dots = (n, max) => Array.from({length:max}, (_, i)=>`<b class="${i<n?"on":""}"></b>`).join("");
+    const who = [sit.batter?.athlete && `<span>At bat<br><b>${esc(sit.batter.athlete.shortName||sit.batter.athlete.displayName||"")}</b></span>`, sit.pitcher?.athlete && `<span>Pitching<br><b>${esc(sit.pitcher.athlete.shortName||sit.pitcher.athlete.displayName||"")}</b></span>`].filter(Boolean).join("");
+    html += `<div class="diamond"><div class="bases" role="img" aria-label="Runners: ${[sit.onFirst&&"first",sit.onSecond&&"second",sit.onThird&&"third"].filter(Boolean).join(", ")||"none"}">${b(sit.onSecond,28,4)}${b(sit.onThird,5,27)}${b(sit.onFirst,51,27)}</div>
+      <div class="cnt"><span>B ${dots(sit.balls||0, 3)}</span><span>S ${dots(sit.strikes||0, 2)}</span><span>O ${dots(sit.outs||0, 2)}</span></div>${who?`<div class="who">${who}</div>`:""}</div>`;
+  }
+  // Basketball: the last few shots on a half court (filled = made, ring = missed).
+  if(SPORT.court && live && sum){
+    const shots = realPlays(sum).filter(p=>p.shootingPlay && !/free throw/i.test((p.type?.text||"")+" "+(p.text||"")) && p.coordinate && p.coordinate.x>=0 && p.coordinate.x<=50 && p.coordinate.y>=0 && p.coordinate.y<=94).slice(-6);
+    if(shots.length){
+      const dots = shots.map(p=>{ const y = p.coordinate.y > 47 ? 94 - p.coordinate.y : p.coordinate.y; const col = String(p.team?.id)===String(h.team.id) ? bc[1] : bc[0];
+        return `<span class="shot ${p.scoringPlay?"made":""}" style="--c:${col};left:${(p.coordinate.x/50*100).toFixed(1)}%;top:${Math.min(97, y/47*100).toFixed(1)}%" title="${esc(p.text||"")}"></span>`; }).join("");
+      html += `<div class="court" role="img" aria-label="Last ${shots.length} shots">
+        <i class="ln" style="left:38%;width:24%;top:-2px;height:40%"></i>
+        <i class="ln" style="left:5.7%;width:88.6%;top:-54px;height:141px;border-radius:50%"></i>
+        <i class="ln" style="left:38%;width:24%;top:131px;height:38px;border-radius:50%"></i>
+        <i class="ln" style="left:calc(50% - 5px);top:12px;width:10px;height:10px;border-radius:50%;border-color:#FF8A3D"></i>
+        ${dots}<span class="key">LAST ${shots.length} SHOTS · ● MADE ○ MISSED</span></div>`;
+    }
+  }
+  html += lineScore(e, a, h);
+  html += statBars(sum, a, h, bc);
+  return html;
+}
+// Points per half / quarter / period / set / inning, with the total.
+function lineScore(e, a, h){
+  const n = Math.max(a.linescores?.length||0, h.linescores?.length||0);
+  if(!n || e.status.type.state==="pre") return "";
+  const reg = SPORT.diamond ? 9 : SPORT.sets ? 0 : SPORT.per==="H" ? 2 : SPORT.per==="Q" ? 4 : 3;
+  const cols = Math.max(n, reg), cur = e.status.type.state==="in" ? n-1 : -1;
+  const head = i => SPORT.sets ? `S${i+1}` : SPORT.diamond || i < reg ? String(i+1) : i === reg ? "OT" : `${i-reg+1}OT`;
+  const val = (t, i) => { const v = t.linescores?.[i]?.value; return v==null ? (i < n ? "0" : "–") : (Number.isInteger(+v) ? String(+v) : esc(v)); };
+  const extra = SPORT.diamond ? ["H","E"] : [];
+  const ex = (t, k) => k==="H" ? (t.hits ?? "") : (t.errors ?? "");
+  const row = t => `<tr><td>${esc(t.team.abbreviation||nameOf(t.team))}</td>${Array.from({length:cols},(_,i)=>`<td class="${i===cur?"cur":""}">${val(t,i)}</td>`).join("")}<td class="tot">${esc(t.score??"")}</td>${extra.map(k=>`<td>${esc(ex(t,k))}</td>`).join("")}</tr>`;
+  return `<div class="lines"><table><thead><tr><th></th>${Array.from({length:cols},(_,i)=>`<th class="${i===cur?"cur":""}">${head(i)}</th>`).join("")}<th>${SPORT.sets?"Sets":SPORT.diamond?"R":"T"}</th>${extra.map(k=>`<th>${k}</th>`).join("")}</tr></thead><tbody>${row(a)}${row(h)}</tbody></table></div>`;
+}
+// Team stats from the box score, as side-by-side bars.
+const STAT_ROWS = {
+  bb: [["fieldGoalPct","Field goal %"],["threePointFieldGoalsMade-threePointFieldGoalsAttempted","3-pointers"],["totalRebounds","Rebounds"],["assists","Assists"],["turnovers","Turnovers"]],
+  hk: [["shotsTotal","Shots on goal"],["saves","Saves"],["powerPlayGoals","Power-play goals"],["penaltyMinutes","Penalty minutes"],["faceoffsWon","Faceoffs won"]],
+  vb: [["kills","Kills"],["aces","Aces"],["blocks","Blocks"],["digs","Digs"]],
+};
+function statBars(sum, a, h, bc){
+  const want = STAT_ROWS[SPORT.tile]; const teams = sum?.boxscore?.teams; if(!want || !teams?.length) return "";
+  const of = t => teams.find(x=>String(x.team?.id)===String(t.team.id))?.statistics || [];
+  const sa = of(a), sh = of(h);
+  const num = v => parseFloat(String(v||"").split("-")[0]) || 0;
+  const rows = want.map(([k, label])=>{ const x = sa.find(s=>s.name===k), y = sh.find(s=>s.name===k); if(!x || !y) return "";
+    const p = num(x.displayValue), q = num(y.displayValue);
+    return `<span>${esc(x.displayValue)}</span><span class="sl">${label}<span class="sb"><span style="flex:${p||0.01};background:${bc[0]}"></span><span style="flex:${q||0.01};background:${bc[1]}"></span></span></span><span class="r">${esc(y.displayValue)}</span>`; }).join("");
+  return rows ? `<div><p class="label">Team stats</p><div class="stats">${rows}</div></div>` : "";
+}
+function otherPlays(sum){
+  const plays = realPlays(sum).slice(-40).reverse(); if(!plays.length) return "";
+  const when = p => SPORT.diamond ? `${(p.period?.type||"").slice(0,3)} ${p.period?.number ? ordN(p.period.number) : ""}`.trim()
+    : `${SPORT.per||""}${p.period?.number||""} ${p.clock?.displayValue||""}`.trim();
+  const out = plays.map(p=>`<div class="play ${p.scoringPlay?"scoring":""}"><span class="t">${esc(when(p))}</span><span class="tx">${esc(p.text||"")}${p.awayScore!=null && p.scoringPlay?`<span class="dd">${p.awayScore}–${p.homeScore}</span>`:""}</span></div>`).join("");
   const open = store.get("pbp") !== "0";
   return `<div><button class="label pbp-toggle" id="pbpToggle" aria-expanded="${open}">Play by play<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="plays" ${open?"":"hidden"}>${out}</div></div>`;
 }
@@ -1354,6 +1703,8 @@ $("#moreBtn").onclick = ()=>{ const m=$("#more"); m.hidden=!m.hidden; $("#moreBt
   setDelay(0);
   const dv = store.get("div"); if(dv && document.querySelector(`.chip[data-div="${dv}"]`)) document.querySelector(`.chip[data-div="${dv}"]`).click();
   loadDirectory();
+  // Which sports are in season (and how many games each has live), every 5 minutes.
+  checkSeasons(); setInterval(checkSeasons, 5*60*1000);
   poll().then(fillStations); setInterval(()=>{poll().then(fillStations)}, 5000);
   setInterval(()=>{ if(delay) render(); }, 1000); // step through held-back scores
 })();
