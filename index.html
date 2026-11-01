@@ -981,9 +981,12 @@ document.addEventListener("click", ev=>{
   store.set("shutConf", JSON.stringify([...shut])); render();
 });
 let upDay = "";
-document.addEventListener("click", ev=>{ const t = ev.target.closest(".daytab[data-day]"); if(!t) return; upDay = t.dataset.day; render(); t.scrollIntoView?.({inline:"nearest", block:"nearest"}); });
+document.addEventListener("click", ev=>{ const t = ev.target.closest(".daytab[data-day]"); if(!t) return; upDay = t.dataset.day; render(); });
 function renderUpcoming(){
   const list = $("#list"), q = query.trim().toLowerCase();
+  // The list is redrawn every few seconds; keep the day tabs scrolled where you left them.
+  const tabX = list.querySelector(".daytabs")?.scrollLeft;
+  queueMicrotask(()=>{ const dt = list.querySelector(".daytabs"); if(dt && tabX!=null) dt.scrollLeft = tabX; });
   // Upcoming games are organized by day: a row of day tabs (Today, Tue 3, Sat 7, ...), each with its
   // games grouped by conference. Opens on today, or the next day with games.
   const pre = events.filter(e=>e.status.type.state==="pre" && new Date(e.date) - Date.now() < 8*864e5);
