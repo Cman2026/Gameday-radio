@@ -49,7 +49,8 @@ def now_playing(url, timeout=10):
 
 # Out-of-market listeners get a loop message instead of the game (iHeart "Default Geofence Loop Audio").
 BLOCKED = re.compile(r"geofence|geo-?block|blackout|not available in your (area|region)|outside (of )?the (market|area)", re.I)
-AD = re.compile(r"spot ?block|\bspots?\b|commercial|advert|preroll|pre-roll|adw_ad|\bads?\b|sponsor", re.I)
+# Automation log titles like "SPONSOR NAME - AD_BREAK" or "--60 PSA - ..." are breaks inside the broadcast, not songs.
+AD = re.compile(r"spot ?block|\bspots?\b|commercial|advert|preroll|pre-roll|adw_ad|\bads?\b|ad[_ ]?break|\bpsa\b|\d+ ?psa\b|legal (id|voice)|sponsor", re.I)
 
 
 def verdict(title, team_words):
