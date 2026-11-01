@@ -688,16 +688,24 @@ function attachRadio(tm){
 const RADIO_INFO = {}; // teams we know about but have no free stream for
 // School-run feeds that only exist around game time (picked up ~20 minutes before the game starts).
 function gameTimeOnly(loc){ const i = RADIO_INFO[loc]; return !!(i && i.game_only && !(i.streams||[]).filter(u=>!(i.game_feeds||[]).includes(u)).length); }
+// No station known, but the school has an athletics site: the game-time finder checks it from 3 hours before the start.
+function feedMaybe(loc){ const i = RADIO_INFO[loc]; return !!(i && !i.game_only && !i.no_radio && !(i.calls||[]).length && i.athletics_site); }
+const waitsForFeed = loc => gameTimeOnly(loc) || feedMaybe(loc);
+const feedText = (loc, live) => gameTimeOnly(loc)
+  ? (live ? "comes from the school's own feed and should appear within a few minutes" : `goes live about 20 minutes before ${SPORT.start}`)
+  : (live ? "may come from the school's own feed; still looking" : `may come from the school's own feed near ${SPORT.start}`);
 function soonNote(e){
   const ts = e.competitions[0].competitors.map(c=>c.team);
   const has = t => !!(RADIO[t.location]?.streams?.length || RADIO[t.location]?.external || store.get("stream:"+t.location));
   if(ts.some(has)) {
     // one side has radio; still mention a school feed that's on its way
+    // (a school that only might have a feed isn't worth a note when the other side has radio)
     const soon = ts.filter(t=>!has(t) && gameTimeOnly(t.location) && !feedLate(e));
-    return soon.length ? note(`${soon.map(t=>esc(nameOf(t))).join(" and ")} radio ${e.status.type.state==="in" ? "comes from the school's own feed and should appear within a few minutes" : `goes live about 20 minutes before ${SPORT.start}`}.`) : "";
+    return soon.length ? note(`${soon.map(t=>esc(nameOf(t))).join(" and ")} radio ${feedText(soon[0].location, e.status.type.state==="in")}.`) : "";
   }
-  const soon = ts.filter(t=>gameTimeOnly(t.location) && !feedLate(e));
-  if(soon.length) return note(`${soon.map(t=>esc(nameOf(t))).join(" and ")} radio ${e.status.type.state==="in" ? "comes from the school's own feed and should appear within a few minutes" : `goes live about 20 minutes before ${SPORT.start}`}.`);
+  const soon = ts.filter(t=>waitsForFeed(t.location) && !feedLate(e));
+  if(soon.length){ const live = e.status.type.state==="in", txt = [...new Set(soon.map(t=>feedText(t.location, live)))];
+    return note(txt.length===1 ? `${soon.map(t=>esc(nameOf(t))).join(" and ")} radio ${txt[0]}.` : soon.map(t=>`${esc(nameOf(t))} radio ${feedText(t.location, live)}.`).join(" "), gameTimeOnly(soon[0].location) ? "" : "maybe"); }
   return note("Radio unavailable for this game. Neither school has a free broadcast we can play.", "off");
 }
 // School feeds that still haven't shown up 25 minutes after kickoff probably aren't coming.
@@ -920,7 +928,7 @@ function ear(loc, label){
   const has = (RADIO[loc]?.streams?.length) || RADIO[loc]?.external || store.get("stream:"+loc);
   const icon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="5" height="7" rx="2"/><rect x="16" y="14" width="5" height="7" rx="2"/></svg><span class="bars" aria-hidden="true"><i></i><i></i><i></i></span>`;
   const text = label ? `<span>${esc(label)}</span>` : "";
-  if(!has && gameTimeOnly(loc) && !lateFor(loc)) return `<button class="ear soon" data-off="${esc(loc)}" aria-disabled="true" title="${esc(loc)} radio goes live about 20 minutes before ${SPORT.start}" aria-label="${esc(loc)} radio available about 20 minutes before ${SPORT.start}">${icon}${text}</button>`;
+  if(!has && waitsForFeed(loc) && !lateFor(loc)) return `<button class="ear soon" data-off="${esc(loc)}" aria-disabled="true" title="${esc(loc)} radio ${feedText(loc, false)}" aria-label="${esc(loc)} radio ${feedText(loc, false)}">${icon}${text}</button>`;
   if(!has) return `<button class="ear off" data-off="${esc(loc)}" aria-disabled="true" title="${esc(loc)} radio unavailable" aria-label="${esc(loc)} radio unavailable">${icon}${text}</button>`;
   const on = currentTeam===loc && !audio.paused, wait = connecting===loc;
   return `<button class="ear ${on?"on":""} ${wait?"wait":""}" data-team="${esc(loc)}" title="${on?"Pause":"Listen to"} ${esc(loc)} radio" aria-label="${on?"Pause":"Listen to"} ${esc(loc)} radio">${icon}${text}</button>`;
@@ -955,7 +963,7 @@ document.addEventListener("click", ev=>{
   const b = ev.target.closest(".ear[data-off]"); if(!b) return;
   ev.stopPropagation();
   const loc = b.dataset.off, i = RADIO_INFO[loc] || {};
-  toast(gameTimeOnly(loc) && !lateFor(loc) ? `${loc} radio goes live about 20 minutes before ${SPORT.start}.` : `${loc} radio unavailable${i.notes ? ` · ${i.notes}` : ""}`);
+  toast(waitsForFeed(loc) && !lateFor(loc) ? `${loc} radio ${feedText(loc, false)}.` : `${loc} radio unavailable${i.notes ? ` · ${i.notes}` : ""}`);
 }, true);
 document.addEventListener("click", ev=>{
   const b = ev.target.closest(".ear[data-team]"); if(!b) return;
