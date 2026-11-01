@@ -5965,11 +5965,8 @@
   "conference": "Horizon League",
   "calls": [],
   "athletics_site": "https://goldengrizzlies.com",
-  "notes": "2025-26 (Nov 2025 preview): 'Neal Ruhl will be on the radio call on 97.1HD-3/1270am or the Audacy App online.' Calls left empty on purpose: WXYT must not resolve to the main 97.1 The Ticket stream. 1270 AM is now 'The Bet Detroit' with its own Audacy stream. No direct stream URL found. Stream given directly: Audacy WXYT-AM (1270 The Bet).",
-  "streams": [
-   "https://live.amperwave.net/direct/audacy-wxytamaac-imc",
-   "https://live.amperwave.net/manifest/audacy-wxytamaac-imc"
-  ],
+  "notes": "2025-26 (Nov 2025 preview): 'Neal Ruhl will be on the radio call on 97.1HD-3/1270am or the Audacy App online.' Calls left empty on purpose: WXYT must not resolve to the main 97.1 The Ticket stream. 1270 AM is now 'The Bet Detroit' with its own Audacy stream. No direct stream URL found. Guessed Audacy names audacy-wxytamaac-imc 404 (Nov 2026); 1270 may now carry another format.",
+  "streams": [],
   "sports": [
    "mbb"
   ],
