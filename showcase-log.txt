@@ -1,24 +1,8 @@
-
-Running kernel seems to be up-to-date.
-
-No services need to be restarted.
-
-No containers need to be restarted.
-
-No user sessions are running outdated binaries.
-
-No VM guests are running outdated hypervisor (qemu) binaries on this host.
 allaccess error https://clemsontigers.com HTTP Error 404: Not Found
-allaccess error https://goaztecs.com HTTP Error 404: Not Found
-allaccess error https://wsucougars.com HTTP Error 404: Not Found
 allaccess error https://miamihurricanes.com HTTP Error 404: Not Found
 allaccess error https://ramblinwreck.com HTTP Error 404: Not Found
 allaccess error https://arkansasrazorbacks.com HTTP Error 404: Not Found
 allaccess error https://mutigers.com HTTP Error 404: Not Found
 allaccess error https://huskers.com HTTP Error 404: Not Found
-official feeds added for: Georgia Southern University, Iowa State University, Oklahoma State University, Florida State University, University of North Carolina at Chapel Hill, University of Southern California, Ohio State University, Mississippi State University, University of Pittsburgh, University of Washington, University of Memphis, United States Military Academy, Boise State University, Texas State University, Oregon State University, Tarleton State University, Eastern Kentucky University
-Appalachian State University -> (feed) ['https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3']
-leanplayer xml https://wofford.leanplayer.com/ <?xml version="1.0"?> <main><sports><sport><id>1</id><name>Football</name><is_show>0</is_show></sport><sport><id>2</id><name>Men&#x2019;s Basketball</name><is_show>0</is_show></sport><sport><id>3</id><name>Women&#x2019;s Basketball</name><is_show>0</is_show></sport></sports><events><current_ev><event><id>111253</id><start_timestamp>1793485800</start_timestamp><start>2026-10-31 22:30:00</start><end>2026-11-01 03:30:00</end><sport_id>1</sport_id><opponent>Samford</opponent><url>https://peaksports.leanstream.co/PS0101-MP3</url></event></current_ev><upcoming_ev><event><id>116706</id><start_timesta
-Wofford College -> (leanplayer) ['https://peaksports.leanstream.co/PS0101-MP3']
-Samford University -> []
-Samford University -> []
+official feeds added for: Iowa State University, Oklahoma State University, Florida State University, University of North Carolina at Chapel Hill, University of Southern California, Ohio State University, Mississippi State University, University of Pittsburgh, University of Washington, University of Memphis, United States Military Academy, Boise State University, Texas State University, Oregon State University
+no live teams without radio that have an athletics site on file
