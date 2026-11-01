@@ -1,69 +1,27 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-[AVFormatContext @ 0x556188db9700] Invalid HLS ID3 audio timestamp 10297162240
-[0;93m2026-11-01 02:58:26.312492973 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-[AVFormatContext @ 0x564cb18b4540] Invalid HLS ID3 audio timestamp 10304350720
-[AVFormatContext @ 0x55eb6a512c40] Invalid HLS ID3 audio timestamp 10306147840
-[in#0 @ 0x56080d557ec0] Error opening input: Server returned 404 Not Found
+[in#0 @ 0x55676fd69ec0] Error opening input: Server returned 404 Not Found
 Error opening input file https://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAMAAC.aac.
 Error opening input files: Server returned 404 Not Found
-[in#0 @ 0x556d781d1ec0] Error opening input: Server returned 404 Not Found
-Error opening input file https://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAM.mp3.
-Error opening input files: Server returned 404 Not Found
-[in#0 @ 0x55ab0e59aec0] Error opening input: Server returned 404 Not Found
+[in#0 @ 0x5606354efec0] Error opening input: Server returned 404 Not Found
 Error opening input file http://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAMAAC.aac.
 Error opening input files: Server returned 404 Not Found
-[aac @ 0x55fe28324400] decode_band_types: Input buffer exhausted before END element found
-[aist#0:0/aac @ 0x55fe283267c0] Error submitting packet to decoder: Invalid data found when processing input
-[AVFormatContext @ 0x56548df3a5c0] Invalid HLS ID3 audio timestamp 10308843520
-[AVFormatContext @ 0x55ed550115c0] Invalid HLS ID3 audio timestamp 10322321920
-listening to 53 streams in 11 live games
-game       Iowa State University              'the  Florida one more time up the  middle he goes and Florida  moves the pile to the 16 ya'
-quiet      Iowa State University              ''
-quiet      Iowa State University              ''
-game       Oklahoma State University          'and off-floor straight ahead.  Now getting down, he breaks free  and that gets him six yar'
-maybe_not  University of North Carolina at Ch 'kicking teams find our penalty.  Re-kicks.  So the officials did not tell us a number. || '
-maybe_not  University of North Carolina at Ch 'to take you back to Charlotte in 2015 and an on side recovered by Caroline.  Offside.  Kid'
-maybe_not  University of North Carolina at Ch 'take you back to Charlotte in 2015 and on side recovered by Caroline.  Offside kicking tea'
-game       University of Miami                "I don't think it went 10 yards.  I think they touched it at the 44 yards long.  I don't di"
-game       University of Miami                "off again now we'll kick off from the 25-yard line of Caroline.  They still have one time "
-maybe_not  University of Miami                "Well executed.  Offside nine.  Kicking team.  Tiger penalty.  Reaching.  There's a second "
-game       University of Southern California  "the  the clock with a minute twenty two to go one of the trojans lost his lid  so they'll "
-maybe_not  University of Southern California  "So that is it, and welcome to one of the final events.  And we'll see you in my next class"
-game       University of Southern California  "two to go one of the Trojans lost his lid so Vili have to come out and they'll have to rep"
-game       Ohio State University              'the USC 32 step set of ounds where he was forced  set ofounds by linebacker  Devin Bryant.'
-game       Ohio State University              'Back to pass is Faehee.  Faehee fires out on down the right sideline and it is incomplete '
-maybe_not  Ohio State University              "up so sold what's the deal  least a 27 equinox for as low as  two seventy nine a month for"
-game       University of Pittsburgh           "often as you're going to get with four minutes and 30 seconds left.  Two timeouts for Geor"
-game       University of Pittsburgh           'I think he got the whole yard.  The clock should run right now.  Not stopped at 4.22.  The'
-game       University of Pittsburgh           'I think he got the whole yard.  The clock should run right now.  Not stopped at 4.22.  The'
-not_game   Georgia Institute of Technology    'certified Angus B. Philly cheesesteaks, done right, and wings from chicken raised with no '
-maybe_not  Georgia Institute of Technology    'WMB Factory Burgers certified and his beef burgers done right with several specialty burge'
-game       University of Arkansas             'Oh my goodness, this time  Arkansas called the time out.  Right.  First charge time out.  '
-game       University of Arkansas             'Goodness this time markets are called a timeout right  The sidelines to call a timeout  So'
-maybe_not  University of Missouri             "Brain Valley Community College's preparing students for these  in-demand careers through p"
-maybe_not  University of Missouri             "Community College's Preparing Students for these  in-demand careers through programs in we"
-game       University of Nebraska-Lincoln     'seven three Nebraska Washington  0 19 left to right to Mon  Williams full start.  John Mil'
-game       University of Nebraska-Lincoln     'two to go. Washington is all three time out. Second and four.  On 37 left pass. That play '
-game       University of Washington           "It's gonna be a false start against Washington's offense.  A new quarterback, a new scenar"
-maybe_not  University of Washington           'your operation moving. The way a winning offense moves the ball.  A 14,000 teams already r'
-game       University of Washington           "Now he's gonna tuck it.  He's to the 20.  He's to the 25."
-game       University of Memphis              'knew he had the end zone dropped the ball. It pumps right to him into the end zone 41-22. '
-game       University of Memphis              'that are hard to see with the way the color scheme is.  But the tigers are passing with fl'
-game       University of Memphis              'that are hard to see with the way the color scheme is.  But the tigers are passing with fl'
-game       United States Military Academy     'the Army defender Dion Miller into the end zone for the touchdown and that gives Memphis a'
-quiet      United States Military Academy     ''
-quiet      United States Military Academy     ''
-game       Boise State University             'running back at the 10 out to about the 18 and another flag comes down.  Travis Anderson w'
-game       Boise State University             'Bob, I can confirm if a player is hurt once the ball is spotted, that does enforce a time '
-maybe_not  Boise State University             "Brain Valley Community College's preparing students for these  in-demand careers through p"
-game       Texas State University             'the six penalty on direction.  Texas penalties been declined.  It is third down.  Well, wh'
-game       Texas State University             '20 yard line. Jackson from the shotgun. Four man rush.  Thumps it off to his white off.  B'
-game       Northern Illinois University       "a midwest family station.  Well here's a scoring drive for NIU.  Happily I can tell you th"
-game       Northern Illinois University       "West Family Station.  Here's a scoring drive for NIU.  Happily, I can tell you the Husky L"
-game       University of Texas Rio Grande Val 'vehicle made by the Lamar defense.  Very short gain, second down.  Clock running with five'
-not_game   Lamar University                   "You're running on the near side nothing doing it for a loss  Cardinal || We talk about thi"
-game       Lamar University                   'Great drop pads across the middle balls and we tied out over the 35 near the 38 yard line '
-maybe_not  Lamar University                   "There's a run on the near side, nothing doing it, throw for a loss.  Cardinal's making the"
-quiet      Texas Southern University          "That's a good time to get up the street.  Yes."
-not_game   Grambling State University         "He was on Gramman's last season now. He's on Texas Southern roster. It's a lot of things g"
-{'game': 29, 'quiet': 5, 'maybe_not': 12, 'not_game': 3, 'no_audio': 4}
+[in#0 @ 0x5568dbac8ec0] Error opening input: Server returned 404 Not Found
+Error opening input file https://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAM.mp3.
+Error opening input files: Server returned 404 Not Found
+[0;93m2026-11-01 03:54:33.617233816 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[AVFormatContext @ 0x55d6c4eec1c0] Invalid HLS ID3 audio timestamp 10601774080
+listening to 16 streams in 4 live games
+game       Boise State University             '81 yards through the air on the ground.  Burgess contained as well.  Only six carries for '
+game       Boise State University             'Watch down, getting Matt Wagner involved with five catches, Roshan Jones with five catches'
+game       Boise State University             'That Wagner involved with five catches, Rashan Jones with five catches and an exceptional '
+maybe_not  Texas State University             'the band members are illuminated so  really makes for a really cool  aesthetic as a part o'
+game       Texas State University             'rain Atkinson, one of the top young quarterbacks in the patch. Well, just five of 10 passi'
+maybe_not  Northern Illinois University       'Husky 17. The good game so far in IU will have it first drive coming out of the half.  His'
+maybe_not  Northern Illinois University       "team. It's been a good game so far. N.I.U. will have it first drive coming out of the half"
+game       California State University, Fresn "They're one of the best in the country.  Number three in the country for fewest penalty ya"
+game       Oregon State University            'in the yardage and so forth. But penalties, beavers three and Fresno none. Three for 15 ya'
+game       Oregon State University            "three. And Fresno Num, three for 15 yards, three of the biggest five yard penalties. I've "
+game       Oregon State University            'A team mobile? You can get iPhone 18 Pro or nothing up front. Pass it on.  A team mobile c'
+game       Texas Southern University          'Fry serving a little bit of movement no call  Quamner State trying to get on the board swi'
+not_game   Grambling State University         'with frustration he is in locked in motives.  As the fries back in formation right  back n'
+{'game': 9, 'maybe_not': 3, 'no_audio': 3, 'not_game': 1}
