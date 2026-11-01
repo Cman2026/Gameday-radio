@@ -177,6 +177,7 @@ h1 span{color:inherit}
 .fin .meta{font-size:12px;color:var(--faint)}
 
 .sect{font:700 20px var(--num);margin:6px 4px 0}
+.conf + .sect,.up + .sect,.sect ~ .sect{margin-top:18px}
 .fin .meta:empty{display:none}
 .chip .n{opacity:.9}
 .deck.idle .syncrow,.deck.idle #moreBtn,.deck.idle #more,.deck.idle .minbtn{display:none!important}
@@ -398,8 +399,8 @@ const $ = s => document.querySelector(s);
 // doesn't open MAC on Wednesday). Entries for days that have passed are dropped.
 const confOpen = new Set((()=>{try{return JSON.parse(store.get("confOpenByDay")||"[]")}catch(e){return []}})()
   .filter(k=>{ const d = new Date(k.split("|")[0]); return isNaN(d) || d >= new Date(new Date().toDateString()); }));
-const confKey = n => `${upDay || new Date().toDateString()}|${n}`;
-const isShut = n => !confOpen.has(confKey(n));
+const confKey = (n, day) => `${day || new Date().toDateString()}|${n}`;
+const isShut = (n, day) => !confOpen.has(confKey(n, day));
 const saveConf = ()=> store.set("confOpenByDay", JSON.stringify([...confOpen]));
 
 // Every Division I team's radio, from radio.json (researched per school).
@@ -978,22 +979,24 @@ function finalsToday(){
     .filter(e=> divFilter==="all" || (divFilter==="fav" ? isFavGame(e) : e._div===divFilter))
     .filter(e=> !q || e.competitions[0].competitors.some(t=>[t.team.location,t.team.displayName,t.team.shortDisplayName,t.team.abbreviation].join(" ").toLowerCase().includes(q)))
     .sort((x,y)=>new Date(y.date)-new Date(x.date));
-  const closed = !q && isShut("Final");
+  const closed = !q && isShut("Final", "");
   return fin.length ? confHead("Final", fin.length, closed) + fin.map(e=>closed ? finCard(e).replace(/^<div /,"<div hidden ") : finCard(e)).join("") : "";
 }
 // Conference headers fold their games away; which ones are folded is remembered on this device.
-function confHead(name, n, closed){
-  return `<button class="conf" data-conf="${esc(name)}" aria-expanded="${!closed}"><span>${esc(name)}</span><span class="cn">${n}</span><svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>`;
+function confHead(name, n, closed, day){
+  return `<button class="conf" data-conf="${esc(name)}" data-cday="${esc(day||"")}" aria-expanded="${!closed}"><span>${esc(name)}</span><span class="cn">${n}</span><svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>`;
 }
 document.addEventListener("click", ev=>{
   const b = ev.target.closest("[data-conf],[data-confall]"); if(!b) return;
-  if(b.dataset.conf){ const k = confKey(b.dataset.conf); confOpen.has(k) ? confOpen.delete(k) : confOpen.add(k); }
+  if(b.dataset.conf){ const k = confKey(b.dataset.conf, b.dataset.cday); confOpen.has(k) ? confOpen.delete(k) : confOpen.add(k); }
   else { const names = [...document.querySelectorAll("#list [data-conf]")].map(x=>x.dataset.conf).filter(n=>n!=="Final");
-    names.forEach(n=> b.dataset.confall==="shut" ? confOpen.delete(confKey(n)) : confOpen.add(confKey(n))); }
+    const day = b.dataset.cday;
+    [...document.querySelectorAll(`#list [data-conf][data-cday="${CSS.escape(day)}"]`)].map(x=>x.dataset.conf)
+      .forEach(n=> b.dataset.confall==="shut" ? confOpen.delete(confKey(n, day)) : confOpen.add(confKey(n, day))); void names; }
   saveConf(); render();
 });
 let upDay = "";
-document.addEventListener("click", ev=>{ const t = ev.target.closest(".daytab[data-day]"); if(!t) return; upDay = t.dataset.day; render(); });
+document.addEventListener("click", ev=>{ const t = ev.target.closest(".daytab[data-day]"); if(!t) return; upDay = upDay===t.dataset.day ? "all" : t.dataset.day; render(); });
 function renderUpcoming(){
   const list = $("#list"), q = query.trim().toLowerCase();
   // The list is redrawn every few seconds; keep the day tabs scrolled where you left them.
@@ -1004,12 +1007,13 @@ function renderUpcoming(){
   const pre = events.filter(e=>e.status.type.state==="pre" && new Date(e.date) - Date.now() < 8*864e5);
   const dayKey = d => new Date(d).toDateString();
   const days = [...new Set(pre.sort((a,b)=>new Date(a.date)-new Date(b.date)).map(e=>dayKey(e.date)))];
-  if(!days.includes(upDay)) upDay = days[0] || "";
-  const today = pre.filter(e=>dayKey(e.date)===upDay);
+  if(upDay!=="all" && !days.includes(upDay)) upDay = days[0] || "";
+  // upDay "all" (tap the selected day again) shows every day in the next week, one section per day.
+  const viewDays = upDay==="all" ? days : [upDay];
+  const today = pre.filter(e=>viewDays.includes(dayKey(e.date)));
   const dayName = k => { const d = new Date(k), t = new Date(); const tm = new Date(Date.now()+864e5);
     return d.toDateString()===t.toDateString() ? "Today" : d.toDateString()===tm.toDateString() ? "Tomorrow" : d.toLocaleDateString([], {weekday:"short", month:"short", day:"numeric"}); };
-  const tabs = days.length > 1 ? `<div class="daytabs" role="tablist">${days.map(k=>`<button class="daytab" role="tab" data-day="${esc(k)}" aria-selected="${k===upDay}">${esc(dayName(k))}<span class="n">${pre.filter(e=>dayKey(e.date)===k).length}</span></button>`).join("")}</div>` : "";
-  const dayLabel = days.length ? (dayName(upDay)==="Today" ? "Later today" : new Date(upDay).toLocaleDateString([], {weekday:"long", month:"short", day:"numeric"})) : "Later today";
+  const tabs = days.length > 1 ? `<div class="daytabs" role="tablist" aria-label="Pick a day (tap it again to see the whole week)">${days.map(k=>`<button class="daytab" role="tab" data-day="${esc(k)}" aria-selected="${k===upDay}">${esc(dayName(k))}<span class="n">${pre.filter(e=>dayKey(e.date)===k).length}</span></button>`).join("")}</div>` : "";
   const count = f => today.filter(f).length;
   $("#nAll").textContent = today.length; $("#nFBS").textContent = count(e=>e._div==="FBS");
   $("#nFCS").textContent = count(e=>e._div==="FCS"); $("#nFav").textContent = count(isFavGame);
@@ -1023,18 +1027,24 @@ function renderUpcoming(){
   }
   loadPredictions(shown);
   shown.forEach(e=>e.competitions[0].competitors.forEach(c=>{ attachRadio(c.team); prepareTeam(c.team.location); }));
-  const groups = new Map();
-  for(const e of shown){
-    const c = e.competitions[0], h = team(c,"home"), a = team(c,"away");
-    const conf = confOf(h.team) || confOf(a.team) || (e._div==="FCS" ? "FCS" : "Other");
-    if(!groups.has(conf)) groups.set(conf, []); groups.get(conf).push(e);
-  }
-  const names = [...groups.keys()].sort((x,y)=>x.localeCompare(y));
-  const allShut = names.every(n=>isShut(n));
-  list.innerHTML = (q ? "" : tabs) + `<div class="sect">${q ? "This week" : dayLabel}${names.length>1 && !q ? `<button class="lnk" data-confall="${allShut?"open":"shut"}">${allShut?"Expand all":"Collapse all"}</button>` : ""}</div>` + names.map(n=>{
-    const gs = groups.get(n), closed = !q && isShut(n);
-    return confHead(n, gs.length, closed) + gs.sort((x,y)=>new Date(x.date)-new Date(y.date) || x.id.localeCompare(y.id)).map(e=>closed ? upCard(e).replace(/^<div /,"<div hidden ") : upCard(e)).join("");
-  }).join("") + finalsToday();
+  // One section per day (just one unless the whole week is showing), conferences A-Z inside each.
+  const sections = (q ? [...new Set(shown.map(e=>dayKey(e.date)))] : viewDays).map(day=>{
+    const dayGames = shown.filter(e=>dayKey(e.date)===day); if(!dayGames.length) return "";
+    const groups = new Map();
+    for(const e of dayGames){
+      const c = e.competitions[0], h = team(c,"home"), a = team(c,"away");
+      const conf = confOf(h.team) || confOf(a.team) || (e._div==="FCS" ? "FCS" : "Other");
+      if(!groups.has(conf)) groups.set(conf, []); groups.get(conf).push(e);
+    }
+    const names = [...groups.keys()].sort((x,y)=>x.localeCompare(y));
+    const allShut = names.every(n=>isShut(n, day));
+    const label = dayName(day)==="Today" ? "Later today" : new Date(day).toLocaleDateString([], {weekday:"long", month:"short", day:"numeric"});
+    return `<div class="sect">${esc(label)}${names.length>1 && !q ? `<button class="lnk" data-confall="${allShut?"open":"shut"}" data-cday="${esc(day)}">${allShut?"Expand all":"Collapse all"}</button>` : ""}</div>` + names.map(n=>{
+      const gs = groups.get(n), closed = !q && isShut(n, day);
+      return confHead(n, gs.length, closed, day) + gs.sort((x,y)=>new Date(x.date)-new Date(y.date) || x.id.localeCompare(y.id)).map(e=>closed ? upCard(e).replace(/^<div /,"<div hidden ") : upCard(e)).join("");
+    }).join("");
+  }).join("");
+  list.innerHTML = (q ? "" : tabs) + sections + finalsToday();
 }
 
 function renderBoard(){
