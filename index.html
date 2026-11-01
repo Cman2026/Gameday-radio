@@ -521,12 +521,13 @@ async function poll(){
     // The default scoreboard only covers the current game week (and on Sundays/Mondays still shows
     // last week), so also load the next 8 days of the schedule for the upcoming list (every 15 minutes).
     {
-      if(!poll.ahead || Date.now()-poll.ahead.t > 15*60e3){
-        const ymd = d => d.toISOString().slice(0,10).replace(/-/g,"");
-        const range = `${ymd(new Date())}-${ymd(new Date(Date.now()+8*864e5))}`;
-        const [f2, c2] = await Promise.all([80,81].map(g=>getJSON(`${base}/scoreboard?groups=${g}&limit=400&dates=${range}`).catch(()=>({events:[]}))));
-        poll.ahead = {t: Date.now(), f: f2.events||[], c: c2.events||[]};
+      const wk = fbs.week?.number, st = fbs.season?.type || 2;
+      if(wk && (!poll.ahead || Date.now()-poll.ahead.t > 15*60e3 || poll.ahead.wk !== wk)){
+        // ESPN doesn't take date ranges, but it does take a week number: load next week too.
+        const [f2, c2] = await Promise.all([80,81].map(g=>getJSON(`${base}/scoreboard?groups=${g}&limit=400&week=${wk+1}&seasontype=${st}`).catch(()=>({events:[]}))));
+        poll.ahead = {t: Date.now(), wk, f: f2.events||[], c: c2.events||[]};
       }
+      if(!poll.ahead) poll.ahead = {t: 0, f: [], c: []};
       poll.ahead.f.forEach(e=>{ if(!byId.has(e.id)){ e._div = "FBS"; byId.set(e.id, e); } });
       poll.ahead.c.forEach(e=>{ if(!byId.has(e.id)){ e._div = "FCS"; byId.set(e.id, e); } });
     }
