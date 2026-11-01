@@ -1,5 +1,5 @@
 {
-"built": "2026-11-01T19:12:05Z",
+"built": "2026-11-01T19:29:29Z",
 "teams": [
 {
 "school": "Boston College",
@@ -298,7 +298,6 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://live.amperwave.net/manifest/audacy-kdkafmaac-hlsc.m3u8?source=tuneinpittsedu",
 "https://live.amperwave.net/direct/audacy-kdkafmaac-imc",
 "https://live.amperwave.net/manifest/audacy-kdkafmaac-imc",
 "http://live.amperwave.net/direct/audacy-kdkafmaac-imc"
@@ -306,12 +305,8 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
-"game_feeds": [
-"https://live.amperwave.net/manifest/audacy-kdkafmaac-hlsc.m3u8?source=tuneinpittsedu"
-],
-"game_feeds_at": "2026-11-01T03:26:56Z",
 "live_only": true,
-"game_feeds_sport": "fb"
+"game_feeds": null
 },
 {
 "school": "Southern Methodist University",
@@ -2150,7 +2145,6 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://img.leanstream.co/IM1001-MP3",
 "https://stream.revma.ihrhls.com/zc2577",
 "https://stream.revma.ihrhls.com/zc2577/hls.m3u8",
 "http://stream.revma.ihrhls.com/zc2577"
@@ -2158,12 +2152,8 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
-"game_feeds": [
-"https://img.leanstream.co/IM1001-MP3"
-],
-"game_feeds_at": "2026-11-01T03:26:56Z",
 "live_only": true,
-"game_feeds_sport": "fb"
+"game_feeds": null
 },
 {
 "school": "University of Wisconsin-Madison",
@@ -4203,8 +4193,8 @@
 "streams": [
 "https://ice23.securenetsystems.net/KCGQ"
 ],
-"misses": 0,
-"miss_day": null,
+"misses": 1,
+"miss_day": "2026-11-01",
 "last_ok": "2026-11-01",
 "game_feeds": null
 },
@@ -4776,8 +4766,8 @@
 "streams": [
 "https://das-edge29-sa27-lax02.cdnstream.com/2284_96.aac"
 ],
-"misses": 1,
-"miss_day": "2026-11-01",
+"misses": 0,
+"miss_day": null,
 "last_ok": "2026-11-01",
 "game_feeds": null
 },
@@ -6857,6 +6847,2464 @@
 "notes": null,
 "streams": [
 "https://cromwell-ice.streamguys1.com/WPRTFM"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "American University",
+"names": [
+"American University",
+"American University Eagles",
+"American",
+"AMER",
+"American Eagles",
+"AU Eagles"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "Patriot League",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "2025-26 AU game previews list only TV/ESPN+; no radio or audio broadcast found (low confidence)",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Bellarmine University",
+"names": [
+"Bellarmine",
+"Bellarmine Knights",
+"BELL",
+"Bellarmine University"
+],
+"network": "Bellarmine Knights Radio",
+"flagship": "ESPN Louisville 680 AM WHBE / 105.7 FM WHBE-FM",
+"listen_page": null,
+"conference": "ASUN Conference",
+"calls": [
+"WHBE",
+"WHBE-FM"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Women's games on 1450 AM/96.1 FM WXVW (Big X Sports Radio); a few WBB games on 900 AM/107.3 FM",
+"streams": [
+"https://live.amperwave.net/direct/unionbroadcasting-whbeamaac-ibc2",
+"https://live.amperwave.net/manifest/unionbroadcasting-whbeamaac-ibc2",
+"http://live.amperwave.net/direct/unionbroadcasting-whbeamaac-ibc2"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "Belmont University",
+"names": [
+"Belmont",
+"Belmont Bruins",
+"BEL",
+"Belmont University"
+],
+"network": "Bruin Sports Network / Belmont Bruins Radio",
+"flagship": "Belmont Bruins Radio (iHeartRadio digital station, no AM/FM)",
+"listen_page": "https://belmontbruins.com/watch/?Archive=56&type=Live",
+"conference": "Missouri Valley Conference",
+"calls": [],
+"game_only": true,
+"no_radio": null,
+"notes": "Audio is the digital-only Belmont Bruins Radio (iHeartRadio app + school site); no over-the-air station found",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Binghamton University",
+"names": [
+"Binghamton",
+"Binghamton Bearcats",
+"BING",
+"Binghamton University",
+"SUNY Binghamton"
+],
+"network": "Binghamton Bearcats Radio (Townsquare Media)",
+"flagship": "News Radio 1290 AM / 92.1 FM WNBF (Binghamton)",
+"listen_page": "https://binghamtonbearcats.com/sports/2021/11/3/basketball-radio-tv.aspx",
+"conference": "America East Conference",
+"calls": [
+"WNBF"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Women's games on Kiss 104.1 FM WWYL",
+"streams": [
+"https://live.amperwave.net/manifest/townsquare-wnbfamaac-ibc3",
+"http://stream.abacast.net/direct/townsquare-wnbfamaac-ibc3"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "Boston University",
+"names": [
+"Boston University",
+"Boston University Terriers",
+"Boston U",
+"BU",
+"BU Terriers"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "Patriot League",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "Not confirmed: student station WTBU (89.3 FM) runs a Terriers sports show and covers MBB, but game play-by-play not verified; 2025-26 previews list only ESPN+",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Bradley University",
+"names": [
+"Bradley",
+"Bradley Braves",
+"BRAD",
+"Bradley University"
+],
+"network": "Bradley Braves Sports Network",
+"flagship": "1470 AM WMBD / 100.3 FM (Peoria)",
+"listen_page": null,
+"conference": "Missouri Valley Conference",
+"calls": [
+"WMBD"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "FM translator W262BY 100.3; women's games also on WMBD",
+"streams": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WMBDAMAAC.aac",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WMBDAM.mp3",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WMBDAMAAC_SC?wmbd"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "California State University, Bakersfield",
+"names": [
+"Cal State Bakersfield",
+"Cal State Bakersfield Roadrunners",
+"Bakersfield",
+"CSUB",
+"California State University, Bakersfield",
+"CSU Bakersfield",
+"CSUB Roadrunners"
+],
+"network": "Roadrunner Radio Network",
+"flagship": null,
+"listen_page": null,
+"conference": "Big West Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "Not confirmed for 2025-26: 2017 Learfield deal put MBB on Newstalk 1180 KERN; current station unverified",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "California State University, Fullerton",
+"names": [
+"Cal State Fullerton",
+"Cal State Fullerton Titans",
+"Fullerton",
+"CSUF",
+"California State University, Fullerton",
+"CSU Fullerton"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "Big West Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "2025-26 official schedule lists only ESPN+/ESPN2, no radio; student Titan Radio (online) not confirmed for games (low confidence)",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "California State University, Northridge",
+"names": [
+"Cal State Northridge",
+"Cal State Northridge Matadors",
+"CSU Northridge",
+"CSUN",
+"California State University, Northridge",
+"CSUN Matadors"
+],
+"network": "CSUN Matadors Radio",
+"flagship": "GoMatadors.com/Radio (online only)",
+"listen_page": "https://gomatadors.com/radio",
+"conference": "Big West Conference",
+"calls": [],
+"game_only": true,
+"no_radio": null,
+"notes": "Free audio on GoMatadors.com/Radio and Varsity app for road games; home games are ESPN+ video",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "California Baptist University",
+"names": [
+"California Baptist",
+"California Baptist Lancers",
+"CA Baptist",
+"CBU",
+"California Baptist University",
+"CBU Lancers",
+"Cal Baptist"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "Big West Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "Not confirmed: CBU's 10/23/2025 news item 'The sound of CBU basketball returns' suggests a radio deal but station could not be read; moved WAC to Big West 2026-27",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Canisius University",
+"names": [
+"Canisius",
+"Canisius Golden Griffins",
+"CAN",
+"Canisius University",
+"Golden Griffins",
+"Canisius College"
+],
+"network": "Canisius Golden Griffins Radio Network",
+"flagship": "WECK 1230 AM / 102.9 FM (Buffalo)",
+"listen_page": null,
+"conference": "Metro Atlantic Athletic Conference",
+"calls": [
+"WECK"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Based on multi-year 2018 WECK deal and WECK's current Canisius basketball page; 2025-26 not directly verified",
+"streams": [
+"https://live.amperwave.net/manifest/radioonebuffalo-weckamaac-hlsc3.m3u8",
+"http://live.amperwave.net/manifest/radioonebuffalo-weckamaac-hlsc3.m3u8"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "College of Charleston",
+"names": [
+"Charleston",
+"Charleston Cougars",
+"COFC",
+"College of Charleston",
+"College of Charleston Cougars"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "Coastal Athletic Association",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "Not confirmed: long-time radio partner is Kirkman Broadcasting (2018 renewal) but station/call letters not verified",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Cleveland State University",
+"names": [
+"Cleveland State",
+"Cleveland State Vikings",
+"CLE",
+"Cleveland State University",
+"CSU Vikings"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "Horizon League",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "UNVERIFIED: research web-search budget ran out before this school was checked; station not confirmed",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Coppin State University",
+"names": [
+"Coppin State",
+"Coppin State Eagles",
+"COPP",
+"Coppin State University"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "Mid-Eastern Athletic Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "UNVERIFIED: research web-search budget ran out before this school was checked; station not confirmed",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Creighton University",
+"names": [
+"Creighton",
+"Creighton Bluejays",
+"CREI",
+"Creighton University",
+"Bluejays"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "Big East Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "UNVERIFIED: research web-search budget ran out before this school was checked; station not confirmed",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "DePaul University",
+"names": [
+"DePaul",
+"DePaul Blue Demons",
+"DEP",
+"DePaul University",
+"Blue Demons"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "Big East Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "UNVERIFIED: research web-search budget ran out before this school was checked; station not confirmed",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "University of Denver",
+"names": [
+"Denver",
+"Denver Pioneers",
+"DEN",
+"University of Denver",
+"DU Pioneers"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "Summit League",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "UNVERIFIED: research web-search budget ran out before this school was checked; station not confirmed",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "University of Detroit Mercy",
+"names": [
+"Detroit Mercy",
+"Detroit Mercy Titans",
+"DETM",
+"University of Detroit Mercy",
+"Detroit Titans",
+"UDM"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "Horizon League",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "UNVERIFIED: research web-search budget ran out before this school was checked; station not confirmed",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Drexel University",
+"names": [
+"Drexel",
+"Drexel Dragons",
+"DREX",
+"Drexel University"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "Coastal Athletic Association",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "UNVERIFIED: research web-search budget ran out before this school was checked; station not confirmed",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "University of Evansville",
+"names": [
+"Evansville",
+"Evansville Purple Aces",
+"EVAN",
+"University of Evansville",
+"Purple Aces",
+"UE"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "Missouri Valley Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "UNVERIFIED: research web-search budget ran out before this school was checked; station not confirmed",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Fairfield University",
+"names": [
+"Fairfield",
+"Fairfield Stags",
+"FAIR",
+"Fairfield University",
+"Stags"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "Metro Atlantic Athletic Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "UNVERIFIED: research web-search budget ran out before this school was checked; station not confirmed",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Fairleigh Dickinson University",
+"names": [
+"Fairleigh Dickinson",
+"Fairleigh Dickinson Knights",
+"FDU",
+"Fairleigh Dickinson University",
+"FDU Knights"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "Northeast Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "UNVERIFIED: research web-search budget ran out before this school was checked; station not confirmed",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Florida Gulf Coast University",
+"names": [
+"Florida Gulf Coast",
+"Florida Gulf Coast Eagles",
+"FGCU",
+"Florida Gulf Coast University",
+"FGCU Eagles"
+],
+"network": null,
+"flagship": "Southwest Florida's FOX Sports Radio 103.3/94.1/105.9 FM (Sun Broadcasting) - select games only",
+"listen_page": null,
+"conference": "ASUN Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "Only 4 MBB + 4 WBB home games on FOX Sports Radio SWFL in 2026 (stream FOXSportsFM.com); call letters not confirmed",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "George Mason University",
+"names": [
+"George Mason",
+"George Mason Patriots",
+"GMU",
+"George Mason University",
+"Mason Patriots",
+"Mason"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "Atlantic 10 Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "UNVERIFIED: research web-search budget ran out before this school was checked; station not confirmed",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "The George Washington University",
+"names": [
+"George Washington",
+"George Washington Revolutionaries",
+"G Washington",
+"GW",
+"GWU",
+"George Washington Colonials"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "Atlantic 10 Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "UNCONFIRMED: no radio station or audio stream found for 2025-26; TV on Monumental Sports Network/ESPN+ (Byron Kerr TV pbp). Student station WRGW is online-only, game coverage not confirmed.",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Gonzaga University",
+"names": [
+"Gonzaga",
+"Gonzaga Bulldogs",
+"GONZ",
+"Zags"
+],
+"network": "Gonzaga Radio Network (iHeartMedia Spokane)",
+"flagship": "590 AM KQNT (Spokane), simulcast 96.1 FM KFOO",
+"listen_page": null,
+"conference": "Pac-12 Conference",
+"calls": [
+"KQNT",
+"KFOO"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Women's games on HoopTown 101.5 FM KZFS; iHeart deal announced Oct 2024 (Pac-12 from 2026-27, WCC before)",
+"streams": [
+"https://stream.revma.ihrhls.com/zc4952",
+"https://stream.revma.ihrhls.com/zc4952/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc4952"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "Grand Canyon University",
+"names": [
+"Grand Canyon",
+"Grand Canyon Lopes",
+"GCU",
+"Lopes",
+"Antelopes"
+],
+"network": "GCU Radio Network",
+"flagship": null,
+"listen_page": null,
+"conference": "Mountain West Conference",
+"calls": [],
+"game_only": true,
+"no_radio": null,
+"notes": "GCU Radio Network went fully digital in 2025-26: free audio only in the GCU Lopes app (no over-the-air station named)",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "University of Wisconsin-Green Bay",
+"names": [
+"Green Bay",
+"Green Bay Phoenix",
+"GB",
+"UW-Green Bay",
+"UWGB",
+"Phoenix"
+],
+"network": "Phoenix Sports Network",
+"flagship": null,
+"listen_page": "https://greenbayphoenix.mixlr.com",
+"conference": "Horizon League",
+"calls": [],
+"game_only": true,
+"no_radio": null,
+"notes": "Moved from WDUZ to Mixlr-only streaming in 2024-25; no over-the-air station; 2025-26 continuation not explicitly confirmed",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "High Point University",
+"names": [
+"High Point",
+"High Point Panthers",
+"HPU"
+],
+"network": "High Point student radio",
+"flagship": null,
+"listen_page": null,
+"conference": "Big South Conference",
+"calls": [],
+"game_only": true,
+"no_radio": null,
+"notes": "UNCONFIRMED: games called by HPU student radio broadcasters via the site's Live Audio links; student station name/call letters not confirmed. WSJS (Aug 2026 deal) carries HPU shows, not confirmed for games.",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Hofstra University",
+"names": [
+"Hofstra",
+"Hofstra Pride",
+"HOF",
+"Pride"
+],
+"network": "WRHU Radio Hofstra University",
+"flagship": "88.7 FM WRHU (Hempstead, student station)",
+"listen_page": null,
+"conference": "Coastal Athletic Association",
+"calls": [
+"WRHU"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Women's games also on WRHU, sometimes only on its online HAWC stream (hawc.streamwrhu.net)",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Indiana University Indianapolis",
+"names": [
+"IU Indianapolis",
+"IU Indianapolis Jaguars",
+"IU Indy",
+"IUIN",
+"IUPUI",
+"Jaguars"
+],
+"network": null,
+"flagship": "Indy's Sports Ticket 1430 AM WXNT (Indianapolis)",
+"listen_page": null,
+"conference": "Horizon League",
+"calls": [
+"WXNT"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "2025-26 deal: 23 regular-season men's games plus select postseason; also streams at indysportsticket.com; women's not covered",
+"streams": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WXNTAMAAC.aac",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WXNTAMAAC.m3u8",
+"http://playerservices.streamtheworld.com/api/livestream-redirect/WXNTAMAAC.aac"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "Iona University",
+"names": [
+"Iona",
+"Iona Gaels",
+"Gaels"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "Metro Atlantic Athletic Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "UNCONFIRMED: no radio station or school audio stream found for 2025-26; game notes list only ESPN+. Student station WICR (Gaels Radio) exists, game coverage not confirmed.",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Jacksonville University",
+"names": [
+"Jacksonville",
+"Jacksonville Dolphins",
+"JAX",
+"JU",
+"Dolphins"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "ASUN Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "UNCONFIRMED: last confirmed source is 2021-22 (1010XL 1010 AM, Scott Manze, plus Mixlr stream); a TuneIn 'Jacksonville Dolphins' stream lists 2026-27 games; current station not confirmed",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "University of Missouri-Kansas City",
+"names": [
+"Kansas City",
+"Kansas City Roos",
+"KC",
+"UMKC",
+"Roos",
+"Kangaroos"
+],
+"network": "Roo Sports Network",
+"flagship": null,
+"listen_page": null,
+"conference": "Summit League",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "UNCONFIRMED: Sports Radio 810 WHB (103.7 FM translator) carried only 5 men's games in Jan-Feb 2025; 2025-26 radio not confirmed. Site has a Roo Sports Network page.",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "University of New Orleans",
+"names": [
+"LSU New Orleans",
+"LSU New Orleans Privateers",
+"LSU N Orleans",
+"NOLA",
+"New Orleans",
+"New Orleans Privateers",
+"UNO",
+"Privateers"
+],
+"network": "Privateers Radio (Cumulus)",
+"flagship": "106.1 FM The Ticket WRKN (New Orleans)",
+"listen_page": null,
+"conference": "Southland Conference",
+"calls": [
+"WRKN"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Confirmed for 2024-25 (most men's games; a few streamed free on UNOPrivateers.com); 2025-26 radio schedule not published in sources found",
+"streams": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WRKNFMAAC.aac",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WRKNFMAAC.m3u8",
+"http://playerservices.streamtheworld.com/api/livestream-redirect/WRKNFMAAC.aac"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "La Salle University",
+"names": [
+"La Salle",
+"La Salle Explorers",
+"LAS",
+"Explorers"
+],
+"network": null,
+"flagship": null,
+"listen_page": "https://goexplorers.com/showcase",
+"conference": "Atlantic 10 Conference",
+"calls": [],
+"game_only": true,
+"no_radio": null,
+"notes": "Free audio stream on goexplorers.com showcase (Kale Beers pbp), no over-the-air station; confirmed for 2024-25",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Le Moyne College",
+"names": [
+"Le Moyne",
+"Le Moyne Dolphins",
+"LEM"
+],
+"network": "Le Moyne Dolphins on FOX Sports Radio Syracuse",
+"flagship": "FOX Sports 1490 AM WOLF / 92.5 FM (Syracuse)",
+"listen_page": null,
+"conference": "Northeast Conference",
+"calls": [
+"WOLF"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Women's games on WOLF, or on WSIV 1540 AM/106.3 FM when both teams play at once",
+"streams": [
+"https://ice5.securenetsystems.net/WOLF"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "Lipscomb University",
+"names": [
+"Lipscomb",
+"Lipscomb Bisons",
+"LIP",
+"Bisons"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "ASUN Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "UNCONFIRMED: no radio station or audio stream found for 2025-26 or 2026-27",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "University of Arkansas at Little Rock",
+"names": [
+"Little Rock",
+"Little Rock Trojans",
+"LR",
+"UALR",
+"Trojans"
+],
+"network": "Little Rock Trojans Radio",
+"flagship": "106.7 FM The Buz2 KBZU (Little Rock)",
+"listen_page": null,
+"conference": "United Athletic Conference",
+"calls": [
+"KBZU"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Women's games also on Buz2 (Trey Schaap); men's Ray Tucker; baseball added 2026; was Ohio Valley through 2025-26",
+"streams": [
+"https://14933.live.streamtheworld.com/KRSTFMAAC.aac"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "California State University, Long Beach",
+"names": [
+"Long Beach State",
+"Long Beach State Beach",
+"LBSU",
+"CSULB",
+"The Beach",
+"Long Beach State 49ers"
+],
+"network": "22 West Radio",
+"flagship": null,
+"listen_page": null,
+"conference": "Big West Conference",
+"calls": [],
+"game_only": true,
+"no_radio": null,
+"notes": "Games on 22 West Radio (CSULB student internet station), no over-the-air station found",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Longwood University",
+"names": [
+"Longwood",
+"Longwood Lancers",
+"LONG",
+"Lancers"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "Big South Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "UNCONFIRMED: 2025-26 game releases list only ESPN+; no radio station or audio stream found",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Loyola University Chicago",
+"names": [
+"Loyola Chicago",
+"Loyola Chicago Ramblers",
+"LUC",
+"Loyola",
+"Loyola Ramblers",
+"Ramblers"
+],
+"network": "Rambler Sports Network",
+"flagship": null,
+"listen_page": "https://www.loyolaramblers.com/listen",
+"conference": "Atlantic 10 Conference",
+"calls": [],
+"game_only": true,
+"no_radio": null,
+"notes": "Audio stream only (loyolaramblers.com/listen and Varsity Network app); no over-the-air station",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Loyola University Maryland",
+"names": [
+"Loyola Maryland",
+"Loyola Maryland Greyhounds",
+"Loyola MD",
+"L-MD",
+"Greyhounds"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "Patriot League",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "UNCONFIRMED: no radio station or audio stream found for 2025-26; TV on Monumental Sports Network/ESPN+",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Loyola Marymount University",
+"names": [
+"Loyola Marymount",
+"Loyola Marymount Lions",
+"LMU",
+"Lions"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "West Coast Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "UNCONFIRMED: no radio station or audio stream found for 2025-26 or 2026-27",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Manhattan University",
+"names": [
+"Manhattan",
+"Manhattan Jaspers",
+"MAN",
+"Jaspers",
+"Manhattan College"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "Metro Atlantic Athletic Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "UNCONFIRMED: no radio station or audio stream found for 2025-26 (opponent notes list ESPN+ only); student station WRCM is online, game coverage not confirmed",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Marquette University",
+"names": [
+"Marquette",
+"Marquette Golden Eagles",
+"MARQ",
+"Golden Eagles"
+],
+"network": "Marquette Sports Network",
+"flagship": "94.5 ESPN WKTI (Milwaukee)",
+"listen_page": null,
+"conference": "Big East Conference",
+"calls": [
+"WKTI"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Good Karma deal runs through 2027-28; women's radio not confirmed",
+"streams": [
+"https://live.amperwave.net/manifest/goodkarma-wktifmaac-hlsc2.m3u8?source=radiobox"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "University of Maryland Eastern Shore",
+"names": [
+"Maryland Eastern Shore",
+"Maryland Eastern Shore Hawks",
+"MD Eastern",
+"UMES",
+"Hawks"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "Mid-Eastern Athletic Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "UNCONFIRMED: no radio station or audio stream found for 2025-26; campus station WESM 91.3 not confirmed for games",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "University of Wisconsin-Milwaukee",
+"names": [
+"Milwaukee",
+"Milwaukee Panthers",
+"MILW",
+"UW-Milwaukee",
+"UWM",
+"Panthers"
+],
+"network": "Black & Gold Network",
+"flagship": "101.7 The Truth WGKB (1510 AM, FM translator W269DL 101.7; Milwaukee)",
+"listen_page": "https://mkepanthers.com",
+"conference": "Horizon League",
+"calls": [
+"WGKB"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Men's games also stream free on mkepanthers.com (Black & Gold Network) and Varsity Network app; women's radio not confirmed",
+"streams": [
+"https://live.amperwave.net/direct/goodkarma-wgkbammp3-ibc1?source=radiobox"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "Mount St. Mary's University",
+"names": [
+"Mount St. Mary's",
+"Mount St. Mary's Mountaineers",
+"Mount St Marys",
+"MSM",
+"The Mount",
+"Mountaineers"
+],
+"network": null,
+"flagship": "930 AM WFMD (Frederick, MD)",
+"listen_page": null,
+"conference": "Metro Atlantic Athletic Conference",
+"calls": [
+"WFMD"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "WFMD confirmed carrying men's games for 2026-27 (Adam Pohl pbp); women's not confirmed",
+"streams": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WFMDAMAAC.aac",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WFMDAM.mp3"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "New Jersey Institute of Technology",
+"names": [
+"NJIT",
+"NJIT Highlanders",
+"New Jersey Tech"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "America East Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "No radio or audio found; 2025-26 previews list ESPN+ video only (Provence/Agel call)",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Niagara University",
+"names": [
+"Niagara",
+"Niagara Purple Eagles",
+"NIA",
+"Niagara University",
+"Purple Eagles"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "Metro Conference (formerly MAAC)",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "No radio or audio found for 2025-26; only ESPN+/MAAC.tv video; unconfirmed",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "University of North Florida",
+"names": [
+"North Florida",
+"North Florida Ospreys",
+"UNF",
+"UNF Ospreys",
+"Ospreys"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "ASUN Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "No radio or audio found; recent previews list ESPN+ only; unconfirmed",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Northeastern University",
+"names": [
+"Northeastern",
+"Northeastern Huskies",
+"NE",
+"Northeastern University",
+"NU Huskies"
+],
+"network": "WRBB Sports",
+"flagship": "WRBB 104.9 FM (Boston, student station)",
+"listen_page": null,
+"conference": "Coastal Athletic Association (CAA)",
+"calls": [
+"WRBB"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Student station; also covers women's hockey and women's basketball (2026 coverage), extent of women's game broadcasts unconfirmed",
+"streams": [
+"https://audio-edge-qse4n.yyz.g.radiomast.io/dafd1179-5404-4939-9c1c-a014c6964254"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "Northern Kentucky University",
+"names": [
+"Northern Kentucky",
+"Northern Kentucky Norse",
+"N Kentucky",
+"NKU",
+"NKU Norse",
+"Northern Kentucky University"
+],
+"network": "Norse Nation Radio (NKU Norse Sports Properties / iHeartMedia)",
+"flagship": "ESPN 1530 AM WCKY (Cincinnati)",
+"listen_page": null,
+"conference": "Horizon League",
+"calls": [
+"WCKY"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "2025-26 coaches show on ESPN 1530 with PBP voice Jim Kelch; iHeart conflicts historically moved to 1360 WSAI/55 WKRC; women's not confirmed",
+"streams": [
+"https://stream.revma.ihrhls.com/zc1697",
+"https://stream.revma.ihrhls.com/zc1697/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc1697"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "Oakland University",
+"names": [
+"Oakland",
+"Oakland Golden Grizzlies",
+"OAK",
+"Oakland University",
+"Golden Grizzlies"
+],
+"network": "Golden Grizzlies Radio (Audacy Detroit)",
+"flagship": "The Bet 1270 AM WXYT / 97.1 HD3 (Detroit)",
+"listen_page": null,
+"conference": "Horizon League",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "It's WXYT AM 1270 plus 97.1 WXYT-FM HD3, not the main 97.1 The Ticket feed; Neal Ruhl PBP; also Audacy app Games are on 1270 AM / 97.1 HD3, not the main 97.1 The Ticket stream.",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "University of Nebraska Omaha",
+"names": [
+"Omaha",
+"Omaha Mavericks",
+"OMA",
+"UNO Mavericks",
+"Nebraska-Omaha",
+"University of Nebraska Omaha"
+],
+"network": "Omaha Mavericks on The Varsity Network",
+"flagship": "The Varsity Network (Learfield app/stream)",
+"listen_page": null,
+"conference": "Summit League",
+"calls": [],
+"game_only": true,
+"no_radio": null,
+"notes": "In 2025-26 games aired on News Talk 1290 KOIL plus Varsity Network; Aug 2026 release says Omaha radio shifts to The Varsity Network for 2026-27, so KOIL is unconfirmed",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Oral Roberts University",
+"names": [
+"Oral Roberts",
+"Oral Roberts Golden Eagles",
+"ORU",
+"Oral Roberts University"
+],
+"network": "Oral Roberts Golden Eagles Radio",
+"flagship": "99.9 FM ESPN (Tulsa)",
+"listen_page": null,
+"conference": "Summit League",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "2025-26 previews list Radio: 99.9 FM ESPN Tulsa; call letters (likely an FM translator) not confirmed",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "University of the Pacific",
+"names": [
+"Pacific",
+"Pacific Tigers",
+"PAC",
+"University of the Pacific",
+"UOP"
+],
+"network": "Pacific Tigers Radio (iHeartMedia Stockton)",
+"flagship": "Fox Sports AM 1280 KWSX (Stockton)",
+"listen_page": null,
+"conference": "West Coast Conference",
+"calls": [
+"KWSX"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Long-running iHeart deal, last confirmed for 2023-24 (2025-26 not confirmed); overflow on 1360 KFIV in past seasons",
+"streams": [
+"https://stream.revma.ihrhls.com/zc5236",
+"https://stream.revma.ihrhls.com/zc5236/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc5236"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "Pepperdine University",
+"names": [
+"Pepperdine",
+"Pepperdine Waves",
+"PEPP",
+"Pepperdine University"
+],
+"network": "WaveCasts",
+"flagship": "WaveCasts audio on PepperdineWaves.com",
+"listen_page": "https://pepperdinewaves.com/watch",
+"conference": "West Coast Conference",
+"calls": [],
+"game_only": true,
+"no_radio": null,
+"notes": "Free school audio (SIDEARM showcase 'Listen'), Al Epstein PBP; confirmed 2024-25",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "University of Portland",
+"names": [
+"Portland",
+"Portland Pilots",
+"PORT",
+"University of Portland",
+"UP Pilots"
+],
+"network": "Portland Pilots All-Access audio",
+"flagship": "PortlandPilots.com All-Access audio stream",
+"listen_page": null,
+"conference": "West Coast Conference",
+"calls": [],
+"game_only": true,
+"no_radio": null,
+"notes": "Since Nov 2025, free audio streams only on PortlandPilots.com All-Access (home, select road, postseason); no OTA station named",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Providence College",
+"names": [
+"Providence",
+"Providence Friars",
+"PROV",
+"Providence College",
+"PC Friars"
+],
+"network": "Providence Friars Radio Network (Cumulus Providence)",
+"flagship": "Newstalk 630 AM WPRO / 99.7 FM WEAN (Providence)",
+"listen_page": null,
+"conference": "Big East Conference",
+"calls": [
+"WPRO",
+"WEAN"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Men's hockey is on 790 AM WPRV (790 The Score); 5-year Cumulus deal from 2023-24; women's radio not found",
+"streams": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WPROAMAAC.aac",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WPROAMAAC.m3u8",
+"http://playerservices.streamtheworld.com/api/livestream-redirect/WPROAMAAC.aac"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "Purdue University Fort Wayne",
+"names": [
+"Purdue Fort Wayne",
+"Purdue Fort Wayne Mastodons",
+"Purdue FW",
+"PFW",
+"Fort Wayne Mastodons"
+],
+"network": "Mastodons Radio",
+"flagship": "1380 The Fan WKJG (Fort Wayne), also on 100.9 FM",
+"listen_page": null,
+"conference": "Horizon League",
+"calls": [
+"WKJG"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Women's home games are on 95.7 WELT (2025-26)",
+"streams": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WKJGAMAAC.aac",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/WKJGAM.mp3",
+"http://playerservices.streamtheworld.com/api/livestream-redirect/WKJGAMAAC.aac"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "Queens University of Charlotte",
+"names": [
+"Queens University",
+"Queens University Royals",
+"Queens",
+"QUC",
+"Queens Royals",
+"Queens University of Charlotte",
+"Queens (NC)"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "ASUN Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "No radio found; 2025-26 deal is TV with WCCB Charlotte 18.1 / ESPN+; unconfirmed",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Quinnipiac University",
+"names": [
+"Quinnipiac",
+"Quinnipiac Bobcats",
+"QUIN",
+"Quinnipiac University",
+"QU Bobcats"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "Metro Conference (formerly MAAC)",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "No radio found; WQUN was shut down; the 'Listen' links point to MAAC.tv international video; hockey on ESPN+/NESN",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Radford University",
+"names": [
+"Radford",
+"Radford Highlanders",
+"RAD",
+"Radford University"
+],
+"network": "Radford Highlanders Radio Network",
+"flagship": "101.7/103.5 FM WWBU (Radford), plus WVRU 89.9 and Fox Sports 910 WFJX (Roanoke)",
+"listen_page": null,
+"conference": "Big South Conference",
+"calls": [
+"WWBU",
+"WVRU",
+"WFJX"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Women's games on AM 1460 WRAD; network confirmed for 2024-25 only; source spells Roanoke station both WFXJ/WFJX",
+"streams": [
+"https://wvru1.mtcstream.com:8500/wvru1",
+"https://crystalout.surfernetwork.com:8001/WFJX_MP3"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "Rider University",
+"names": [
+"Rider",
+"Rider Broncs",
+"RID",
+"Rider University"
+],
+"network": "107.7 The Bronc",
+"flagship": "107.7 The Bronc Retro WRRC2 (Rider student station, Lawrenceville NJ)",
+"listen_page": null,
+"conference": "Metro Conference (formerly MAAC)",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "Games on 'The Bronc Retro' WRRC2 (second channel/stream), not necessarily the main 107.7 feed; home and select road games Games are on the station's second channel (The Bronc Retro), not the main 107.7 stream.",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Southern Illinois University Edwardsville",
+"names": [
+"SIU Edwardsville",
+"SIU Edwardsville Cougars",
+"SIUE",
+"SIUE Cougars",
+"Southern Illinois Edwardsville"
+],
+"network": "SIUE Cougar Network",
+"flagship": "SIUE Cougar Network (Mixlr stream)",
+"listen_page": "https://siue-cougars.mixlr.com",
+"conference": "Ohio Valley Conference",
+"calls": [],
+"game_only": true,
+"no_radio": null,
+"notes": "Mixlr audio is for road games only; home games are ESPN+ only (2024-25 setup)",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Saint Joseph's University",
+"names": [
+"Saint Joseph's",
+"Saint Joseph's Hawks",
+"JOES",
+"St. Joseph's",
+"Saint Joseph's University",
+"SJU Hawks"
+],
+"network": "Hawks audio on sjuhawks.com",
+"flagship": "Audio stream on sjuhawks.com",
+"listen_page": "https://sjuhawks.com",
+"conference": "Atlantic 10 Conference",
+"calls": [],
+"game_only": true,
+"no_radio": null,
+"notes": "2025-26 previews say 'Listen: sjuhawks.com'; no OTA station found (formerly 610 WIP)",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Saint Louis University",
+"names": [
+"Saint Louis",
+"Saint Louis Billikens",
+"SLU",
+"St. Louis",
+"Saint Louis University"
+],
+"network": "Billiken Radio (KMOX)",
+"flagship": "NewsRadio 1120 AM / 104.1 FM KMOX (St. Louis)",
+"listen_page": null,
+"conference": "Atlantic 10 Conference",
+"calls": [
+"KMOX"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Also on the Varsity Network app; Bob Ramsey/Earl Austin Jr.",
+"streams": [
+"https://live.amperwave.net/direct/audacy-kmoxfmaac-imc",
+"https://live.amperwave.net/manifest/audacy-kmoxamaac-hlsc.m3u8",
+"http://live.amperwave.net/direct/audacy-kmoxfmaac-imc"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "Saint Mary's College of California",
+"names": [
+"Saint Mary's",
+"Saint Mary's Gaels",
+"SMC",
+"St. Mary's",
+"Saint Mary's College",
+"SMC Gaels"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "West Coast Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "No current radio/audio found; site Watch/Listen lists ESPN+ and on-demand only; unconfirmed",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Saint Peter's University",
+"names": [
+"Saint Peter's",
+"Saint Peter's Peacocks",
+"SPU",
+"St. Peter's",
+"Saint Peter's University"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "Metro Conference (formerly MAAC)",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "No radio or audio found; could not confirm (no current source located)",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Santa Clara University",
+"names": [
+"Santa Clara",
+"Santa Clara Broncos",
+"SCU",
+"Santa Clara University",
+"SCU Broncos"
+],
+"network": "Santa Clara Broncos digital audio",
+"flagship": "Free SIDEARM audio stream on santaclarabroncos.com",
+"listen_page": null,
+"conference": "West Coast Conference",
+"calls": [],
+"game_only": true,
+"no_radio": null,
+"notes": "Digital only since 2023-24: road/neutral games streamed (most home games not); links posted on schedule/LinkTree",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Seattle University",
+"names": [
+"Seattle U",
+"Seattle U Redhawks",
+"SEA",
+"Seattle University",
+"Seattle Redhawks",
+"Seattle"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "West Coast Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "No 2025-26 audio found; student KXSU 102.1 FM carried MBB in 2021-22, current status unconfirmed",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Seton Hall University",
+"names": [
+"Seton Hall",
+"Seton Hall Pirates",
+"HALL",
+"SHU",
+"The Hall",
+"Pirates"
+],
+"network": "WSOU Seton Hall Pirates Radio",
+"flagship": "WSOU 89.5 FM (South Orange, NJ; student-run)",
+"listen_page": "https://wsou.net",
+"conference": "Big East Conference",
+"calls": [
+"WSOU"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Student station WSOU carries all men's and women's games home and away; also streams at wsou.net",
+"streams": [
+"https://stream.surfernetwork.com/1fvoynxxaqduv",
+"https://stream.surfernetwork.com/hls/1fvoynxxaqduv",
+"http://stream.surfernetwork.com/1fvoynxxaqduv"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "Siena University",
+"names": [
+"Siena",
+"Siena Saints",
+"SIE",
+"Siena College"
+],
+"network": "Siena Saints Radio",
+"flagship": "JAMZ 96.3 FM WAJZ (Albany, NY)",
+"listen_page": null,
+"conference": "Metro Atlantic Athletic Conference",
+"calls": [
+"WAJZ"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "2025-26 release names JAMZ 96.3 (Emmanuel Berbari, Andy Grazulis); women's radio not confirmed",
+"streams": [
+"https://ais-sa1.streamon.fm/7816_128k.aac"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "University of South Carolina Upstate",
+"names": [
+"South Carolina Upstate",
+"South Carolina Upstate Spartans",
+"SC Upstate",
+"UPST",
+"USC Upstate",
+"USC Upstate Spartans",
+"Upstate"
+],
+"network": "USC Upstate Spartans Radio (Fox Sports Spartanburg)",
+"flagship": "Fox Sports Spartanburg 1400 AM / 98.3 FM WSPG (Spartanburg, SC)",
+"listen_page": null,
+"conference": "Big South Conference",
+"calls": [
+"WSPG"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "WSPG is 'flagship home of USC Upstate Athletics'; carries all men's games and baseball, only some women's basketball and softball (2023 agreement, reaffirmed July 2026)",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "University of Southern Indiana",
+"names": [
+"Southern Indiana",
+"Southern Indiana Screaming Eagles",
+"S Indiana",
+"USI",
+"USI Screaming Eagles"
+],
+"network": "95.7 The Spin (USI student radio)",
+"flagship": "95.7 FM The Spin (Evansville, IN; USI student station)",
+"listen_page": "https://957thespin.com/listen-live",
+"conference": "Ohio Valley Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "Games on student station 95.7 The Spin; call letters not confirmed (not given in source). Coach's show on ESPN WREF 97.7 but games there not confirmed",
+"streams": [
+"https://ice3.securenetsystems.net/WSWI?playSessionID=F5970050-98EE-49C6-FFC61E1599560DD6"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "St. Bonaventure University",
+"names": [
+"St. Bonaventure",
+"St. Bonaventure Bonnies",
+"SBU",
+"Bonnies",
+"Bona",
+"Bonaventure"
+],
+"network": "Bonnies Online Network / Bonnies Radio",
+"flagship": "100.1 FM The Hero WBRR (Bradford, PA / Olean)",
+"listen_page": null,
+"conference": "Atlantic 10 Conference",
+"calls": [
+"WBRR"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Free stream on Bonnies Online Network; WKSN 1340 AM Jamestown also carries men's games (separate market); WBRR deal covers men's and women's",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "St. John's University",
+"names": [
+"St. John's",
+"St. John's Red Storm",
+"SJU",
+"Red Storm",
+"St. John's (NY)"
+],
+"network": "Red Storm Sports Network (Learfield)",
+"flagship": "ESPN New York 880 AM WHSQ / 1050 AM WEPN (New York)",
+"listen_page": null,
+"conference": "Big East Conference",
+"calls": [
+"WHSQ",
+"WEPN"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Moved to ESPN New York for 2025-26 (John Minko, Brandon Tierney); also Varsity Network and ESPN NY apps. Women's games mostly not on terrestrial radio (UConn game aired on 880). May be geo-blocked online",
+"streams": [
+"https://live.amperwave.net/direct/goodkarma-whsqamaac-ibc",
+"https://live.amperwave.net/manifest/goodkarma-whsqamaac-hlsc.m3u8?source=iheart",
+"http://live.amperwave.net/direct/goodkarma-whsqamaac-ibc"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "Texas A&M University-Corpus Christi",
+"names": [
+"Texas A&M-Corpus Christi",
+"Texas A&M-Corpus Christi Islanders",
+"Texas A&M-CC",
+"AMCC",
+"TAMUCC",
+"Islanders",
+"A&M-Corpus Christi"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "Southland Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "UNCONFIRMED: no 2025-26/2026-27 men's radio station found; women's road games were on 1440 AM KEYS in 2023-24 (stale)",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "University of California, Irvine",
+"names": [
+"UC Irvine",
+"UC Irvine Anteaters",
+"UCI",
+"Anteaters",
+"Irvine"
+],
+"network": "UC Irvine Anteaters Radio",
+"flagship": "AM 830 KLAA (Orange County / Los Angeles)",
+"listen_page": null,
+"conference": "Big West Conference",
+"calls": [
+"KLAA",
+"KUCI"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "2025-26 previews list KLAA AM830 and student station KUCI 88.9 FM",
+"streams": [
+"https://klaa.streamguys1.com/live-aac",
+"https://streamer.kuci.org:8088/high"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "University of California, Riverside",
+"names": [
+"UC Riverside",
+"UC Riverside Highlanders",
+"UCR",
+"Highlanders",
+"Riverside"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "Big West Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "UNCONFIRMED: no radio or audio info found on 2025-26 school pages",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "University of California, Santa Barbara",
+"names": [
+"UC Santa Barbara",
+"UC Santa Barbara Gauchos",
+"Santa Barbara",
+"UCSB",
+"Gauchos"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "Big West Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "UNCONFIRMED: student station KCSB 91.9 FM lists men's/women's basketball among its sports, but currency unclear; no 2025-26 school radio info found",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "University of Illinois Chicago",
+"names": [
+"UIC",
+"UIC Flames",
+"Flames",
+"Illinois-Chicago"
+],
+"network": "Flames Radio Network",
+"flagship": "Flames Radio Network (online only, uicflames.com)",
+"listen_page": "https://uicflames.com",
+"conference": "Missouri Valley Conference",
+"calls": [],
+"game_only": true,
+"no_radio": null,
+"notes": "All men's and women's home games free on uicflames.com; no OTA station named",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "University of Maryland, Baltimore County",
+"names": [
+"UMBC",
+"UMBC Retrievers",
+"Retrievers",
+"Maryland-Baltimore County"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "America East Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "UNCONFIRMED: no current radio station found; V-1370 AM was flagship in 2011 (stale)",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "University of Massachusetts Lowell",
+"names": [
+"UMass Lowell",
+"UMass Lowell River Hawks",
+"UML",
+"River Hawks",
+"Lowell"
+],
+"network": null,
+"flagship": null,
+"listen_page": "https://goriverhawks.com",
+"conference": "America East Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "UNCONFIRMED for basketball; WCAP 980 AM carries River Hawks hockey (per Wikipedia); school pages show 'Listen' links",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "University of North Carolina Asheville",
+"names": [
+"UNC Asheville",
+"UNC Asheville Bulldogs",
+"UNCA",
+"Asheville"
+],
+"network": "UNC Asheville Bulldogs Radio",
+"flagship": "News Radio 570 WWNC / 92.9 FM (Asheville, NC; iHeart)",
+"listen_page": "https://wwnc.iheart.com/",
+"conference": "Big South Conference",
+"calls": [
+"WWNC"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Women's games on WISE 1310 AM (per media partners page); Throwbacks 101.1 FM is the men's overflow station. May be geo-blocked online (iHeart)",
+"streams": [
+"https://stream.revma.ihrhls.com/zc1593",
+"https://stream.revma.ihrhls.com/zc1593/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc1593"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "University of North Carolina at Greensboro",
+"names": [
+"UNC Greensboro",
+"UNC Greensboro Spartans",
+"UNCG",
+"Greensboro"
+],
+"network": null,
+"flagship": null,
+"listen_page": null,
+"conference": "Southern Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "UNCONFIRMED: 2025-26 game previews list no radio or audio",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "University of North Carolina Wilmington",
+"names": [
+"UNC Wilmington",
+"UNC Wilmington Seahawks",
+"UNCW",
+"Seahawks",
+"Wilmington"
+],
+"network": "Seahawk Basketball Radio (Sunrise Broadcasting)",
+"flagship": "95.9 The Breeze (WKXB-HD2 via 95.9 FM translator, Wilmington, NC)",
+"listen_page": "https://959thebreeze.com",
+"conference": "Coastal Athletic Association",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "95.9 The Breeze is WKXB-HD2 (the WKXB main channel is a different format); women's home games were on The Breeze in 2022-23 Games are on 95.9 The Breeze (WKXB-HD2); the main WKXB stream is a different format.",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "University of Texas at Arlington",
+"names": [
+"UT Arlington",
+"UT Arlington Mavericks",
+"UTA",
+"Mavericks",
+"Texas-Arlington"
+],
+"network": "UTA Mavericks audio (utamavs.com)",
+"flagship": "School stream only (utamavs.com showcase)",
+"listen_page": "https://utamavs.com/sports/2025/11/2/2025-26-media-central.aspx",
+"conference": "Western Athletic Conference",
+"calls": [],
+"game_only": true,
+"no_radio": null,
+"notes": "2025-26 men's schedule has 'Listen' links to utamavs.com/showcase; no OTA station named; women's has no audio links",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Utah Valley University",
+"names": [
+"Utah Valley",
+"Utah Valley Wolverines",
+"UVU",
+"Wolverines"
+],
+"network": "Utah Valley Wolverines Radio",
+"flagship": "ESPN The Fan 960 AM KOVO / 103.9 FM (Provo); 98.3 FM & 105.1 HD2 (Salt Lake City)",
+"listen_page": null,
+"conference": "Big West Conference",
+"calls": [
+"KOVO"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Joined Big West July 2026 (WAC in 2025-26); Jim McCulloch and Brice Larson on the call",
+"streams": [
+"https://ais-sa1.streamon.fm/7348_48k.aac"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "Virginia Commonwealth University",
+"names": [
+"VCU",
+"VCU Rams",
+"Rams",
+"Virginia Commonwealth"
+],
+"network": "VCU Rams Radio (Learfield)",
+"flagship": null,
+"listen_page": null,
+"conference": "Atlantic 10 Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "UNCONFIRMED: last confirmed home was iHeart Fox Sports 910 AM / Big 98.5 FM (2016 five-year deal); current station not found",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "University of Vermont",
+"names": [
+"Vermont",
+"Vermont Catamounts",
+"UVM",
+"Catamounts"
+],
+"network": "Vermont Catamounts Radio",
+"flagship": "The Game 960 AM WEAV / 97.1 FM (Burlington, VT)",
+"listen_page": null,
+"conference": "America East Conference",
+"calls": [
+"WEAV"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "2025-26 game notes list THE GAME on 97.1 FM, 105.9 FM, 960 AM (Brian McLaughlin); hockey and women's radio not confirmed",
+"streams": [
+"https://live.amperwave.net/direct/vox-weavamaac-imc?source=website",
+"https://live.amperwave.net/manifest/vox-weavamaac-hlsc.m3u8"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "Winthrop University",
+"names": [
+"Winthrop",
+"Winthrop Eagles",
+"WIN",
+"Eagles"
+],
+"network": "Winthrop Radio Network (OTS Media)",
+"flagship": "94.3 FM WRHI (Rock Hill, SC)",
+"listen_page": "https://streamdb8web.securenetsystems.net/cirrusencore/WRHI3",
+"conference": "Big South Conference",
+"calls": [
+"WRHI",
+"WGNC"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Also ESPN 730 Charlotte (WZGV) and WGNC 1450 AM/101 FM Gastonia; Brett McMillan and Michael Jenkins on the call School lists 'ESPN 730' Charlotte; call letters not confirmed (WZGV also carries Charlotte).",
+"streams": [
+"https://ice8.securenetsystems.net/WRHI3?playSessionID=F597935B-E6A9-5333-725396E10336BF74",
+"https://sh.fl-us.audio-stream.com/proxy/sneisl01?mp=/stream;audio.mp3?hash=1635404224535"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "Wright State University",
+"names": [
+"Wright State",
+"Wright State Raiders",
+"WRST",
+"Raiders"
+],
+"network": "Wright State Radio Network",
+"flagship": "101.5 The Fridge WCLI-FM / ESPN 1410 WING (Dayton, OH)",
+"listen_page": null,
+"conference": "Horizon League",
+"calls": [
+"WCLI",
+"WING"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "101.5 (WCLI-FM, formerly 101.5 HANK) rebranded The Fridge in Oct 2025; streams on iHeart, TuneIn and Audacy",
+"streams": [
+"https://live.amperwave.net/direct/alphacorporate-wclifmaac-ibc4",
+"https://live.amperwave.net/direct/alphacorporate-wclifmmp3-ibc4",
+"http://live.amperwave.net/direct/alphacorporate-wclifmaac-ibc4"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "Xavier University",
+"names": [
+"Xavier",
+"Xavier Musketeers",
+"XAV",
+"Musketeers",
+"X"
+],
+"network": "Xavier Musketeers Radio Network (Learfield)",
+"flagship": null,
+"listen_page": null,
+"conference": "Big East Conference",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "UNCONFIRMED for 2025-26+: 700 WLW (Sunderman/Larkin) was confirmed for 2024-25; coach's show moved to 55KRC; women's on the Varsity Network app",
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "University of San Francisco",
+"names": [
+"San Francisco",
+"San Francisco Dons",
+"SF",
+"USF Dons",
+"University of San Francisco"
+],
+"network": "San Francisco Dons Radio (KNBR)",
+"flagship": "KNBR 1050 AM KTCT (San Francisco)",
+"listen_page": null,
+"conference": "West Coast Conference",
+"calls": [
+"KTCT"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Branded KNBR 1050, licensed as KTCT (not KNBR 680); Pat Olson/Jim Brovelli",
+"streams": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KTCTAMAAC.aac",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KTCTAMAAC.m3u8",
+"http://playerservices.streamtheworld.com/api/livestream-redirect/KTCTAMAAC.aac"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "University of California, San Diego",
+"names": [
+"UC San Diego",
+"UC San Diego Tritons",
+"UCSD",
+"Tritons"
+],
+"network": "UC San Diego Tritons on 97.3 The Fan",
+"flagship": "97.3 The Fan KWFN (San Diego; Audacy)",
+"listen_page": null,
+"conference": "Big West Conference",
+"calls": [
+"KWFN"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Exclusive OTA home from Dec 2025, but only a dozen-plus games (mostly men's, a few women's); streams free on Audacy",
+"streams": [
+"https://live.amperwave.net/direct/audacy-kwfnfmaac-imc",
+"https://live.amperwave.net/manifest/audacy-kwfnfmaac-imc",
+"http://live.amperwave.net/direct/audacy-kwfnfmaac-imc"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-01",
+"game_feeds": null
+},
+{
+"school": "Wichita State University",
+"names": [
+"Wichita State",
+"Wichita State Shockers",
+"WICH",
+"Shockers"
+],
+"network": "Shocker Sports Network (Audacy)",
+"flagship": "103.7 KEYN-FM (Wichita, KS; Audacy)",
+"listen_page": "https://goshockers.com/listen",
+"conference": "American Conference",
+"calls": [
+"KEYN"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "KEYN carries all men's and select women's games; baseball is on KFH 97.5/1240; games also stream at GoShockers.com/Listen. May be geo-blocked online",
+"streams": [
+"https://live.amperwave.net/direct/audacy-keynfmaac-imc",
+"https://live.amperwave.net/manifest/audacy-keynfmaac-imc",
+"http://live.amperwave.net/direct/audacy-keynfmaac-imc"
 ],
 "misses": 0,
 "miss_day": null,
