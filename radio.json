@@ -6885,20 +6885,22 @@
 "Missouri Tigers"
 ],
 "network": "Tiger Radio Network / Mizzou Sports Network (Learfield)",
-"flagship": "KWOS 950 AM / 104.5 FM (Columbia/Jefferson City, MO)",
+"flagship": "KCMO Talk Radio 710 AM / 95.7 FM (Kansas City); KWOS 950 AM (Columbia)",
 "listen_page": "",
 "conference": "SEC",
 "calls": [
+"KCMO-AM",
 "KWOS-AM"
 ],
 "game_only": null,
 "no_radio": null,
-"notes": null,
+"notes": "KCMO became Kansas City home of Mizzou football in 2026 (Learfield/Cumulus); KWOS streamon feed returns 401",
 "streams": [
-"https://ais-sa1.streamon.fm/7401_48k.aac"
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KCMOAMAAC.aac",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KCMOAM.mp3"
 ],
-"misses": 1,
-"miss_day": "2026-10-31",
+"misses": 0,
+"miss_day": null,
 "last_ok": "2026-10-31",
 "game_feeds": null
 },
