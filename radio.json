@@ -1838,7 +1838,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM5802-MP3"
 ],
-"game_feeds_at": "2026-11-01T22:47:33Z",
+"game_feeds_at": "2026-11-01T23:23:01Z",
 "game_feeds_sport": "mhk",
 "station_sports": null
 },
@@ -1871,7 +1871,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM4001-MP3"
 ],
-"game_feeds_at": "2026-11-01T22:47:33Z",
+"game_feeds_at": "2026-11-01T23:23:01Z",
 "game_feeds_sport": "mhk",
 "station_sports": null
 },
@@ -2353,7 +2353,11 @@
 "live_only": true,
 "athletics_site": "https://uwbadgers.com",
 "station_sports": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM8501-MP3"
+],
+"game_feeds_at": "2026-11-01T23:23:01Z",
+"game_feeds_sport": "wvb"
 },
 {
 "school": "University at Albany",
@@ -6922,6 +6926,9 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://player.amperwave.net/1e76912450470b8c0c7c64cbc7a1bb80.mp3",
+"https://yield-op-idsync.live.streamtheworld.com/partnerIds",
+"https://video.primis.tech/uploads/cn1/video/users/hls/25037/video_5b435ebf2ad91981641142/vid6ae2c593256f5766788799.mp4/chunklist_480.m3u8",
 "https://stream.rcs.revma.com/fyk48ahxu7uvv",
 "https://stream.rcs.revma.com/fyk48ahxu7uvv/hls.m3u8",
 "http://stream.rcs.revma.com/fyk48ahxu7uvv"
@@ -6931,7 +6938,14 @@
 "last_ok": "2026-11-01",
 "athletics_site": "https://rolltide.com",
 "station_sports": null,
-"game_feeds": null
+"game_feeds": [
+"https://player.amperwave.net/1e76912450470b8c0c7c64cbc7a1bb80.mp3",
+"https://yield-op-idsync.live.streamtheworld.com/partnerIds",
+"https://video.primis.tech/uploads/cn1/video/users/hls/25037/video_5b435ebf2ad91981641142/vid6ae2c593256f5766788799.mp4/chunklist_480.m3u8"
+],
+"game_feeds_at": "2026-11-01T23:23:01Z",
+"game_feeds_sport": "wvb",
+"live_only": true
 },
 {
 "school": "University of Arkansas",
@@ -7158,6 +7172,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://player.amperwave.net/1e76912450470b8c0c7c64cbc7a1bb80.mp3",
 "https://img.leanstream.co/IM8301-MP3",
 "https://live.amperwave.net/manifest/telesouth-wkbbfmaac-hlsc1.m3u8?source=v7player",
 "https://live.amperwave.net/manifest/telesouth-wkbbfmaac-imc1",
@@ -7169,7 +7184,11 @@
 "live_only": true,
 "athletics_site": "https://hailstate.com",
 "station_sports": null,
-"game_feeds": null
+"game_feeds": [
+"https://player.amperwave.net/1e76912450470b8c0c7c64cbc7a1bb80.mp3"
+],
+"game_feeds_at": "2026-11-01T23:23:01Z",
+"game_feeds_sport": "wvb"
 },
 {
 "school": "University of Missouri",

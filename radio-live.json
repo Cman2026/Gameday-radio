@@ -6173,9 +6173,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "KABCAM",
-   "at": "2026-11-01T22:47:44Z",
+   "at": "2026-11-01T23:24:23Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wvb|https://playerservices.streamtheworld.com/api/livestream-redirect/KABCAMAAC.m3u8": {
@@ -6184,9 +6184,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-01T22:47:44Z",
+   "at": "2026-11-01T23:24:23Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wvb|http://playerservices.streamtheworld.com/api/livestream-redirect/KABCAMAAC.aac": {
@@ -6195,9 +6195,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "KABCAM",
-   "at": "2026-11-01T22:47:44Z",
+   "at": "2026-11-01T23:24:23Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wvb|https://img.leanstream.co/IM8501-MP3": {
@@ -6206,21 +6206,21 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-01T22:47:44Z",
+   "at": "2026-11-01T23:24:23Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wvb|https://stream.revma.ihrhls.com/zc2661": {
    "school": "University of Wisconsin-Madison",
    "sport": "wvb",
-   "verdict": "ad",
-   "title": "Spot Block End",
+   "verdict": "unknown",
+   "title": "aHR0cHM6Ly9uM2RiLWUyLnJldm1hLmlocmhscy5jb20vY2FjaGUvdmFzdC82Mjc0YzNiYS0xMjRlLTNkMWItYjdhMS00YWMwY2QxMDVhMGY=",
    "icy_name": "",
-   "at": "2026-11-01T22:47:44Z",
+   "at": "2026-11-01T23:24:23Z",
    "ad_hits": 1,
-   "checks": 2,
-   "preroll": true
+   "checks": 3,
+   "preroll": false
   },
   "wvb|https://stream.revma.ihrhls.com/zc2661/hls.m3u8": {
    "school": "University of Wisconsin-Madison",
@@ -6228,21 +6228,21 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-01T22:47:44Z",
+   "at": "2026-11-01T23:24:23Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wvb|http://stream.revma.ihrhls.com/zc2661": {
    "school": "University of Wisconsin-Madison",
    "sport": "wvb",
-   "verdict": "ad",
-   "title": "Spot Block End",
+   "verdict": "unknown",
+   "title": "aHR0cHM6Ly9uMjliLWUyLnJldm1hLmlocmhscy5jb20vY2FjaGUvdmFzdC82ZjM3NTk3My02ODc2LTM1NjUtOTE3Mi01NjYzOGE2MGU4MzY=",
    "icy_name": "",
-   "at": "2026-11-01T22:47:44Z",
+   "at": "2026-11-01T23:24:23Z",
    "ad_hits": 1,
-   "checks": 2,
-   "preroll": true
+   "checks": 3,
+   "preroll": false
   },
   "wvb|https://stream.rcs.revma.com/fyk48ahxu7uvv": {
    "school": "University of Alabama",
@@ -6250,9 +6250,9 @@
    "verdict": "unknown",
    "title": " -",
    "icy_name": "WBPT-FM",
-   "at": "2026-11-01T22:47:44Z",
+   "at": "2026-11-01T23:24:23Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wvb|https://stream.rcs.revma.com/fyk48ahxu7uvv/hls.m3u8": {
@@ -6294,9 +6294,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-01T22:47:44Z",
+   "at": "2026-11-01T23:24:23Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wvb|https://live.amperwave.net/manifest/telesouth-wkbbfmaac-imc1": {
@@ -6305,9 +6305,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "SuperTalk Golden Triangle",
-   "at": "2026-11-01T22:47:44Z",
+   "at": "2026-11-01T23:24:23Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wvb|https://live.amperwave.net/manifest/telesouth-wzkrfmaac-imc": {
@@ -6316,9 +6316,42 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "SuperTalk Meridian",
-   "at": "2026-11-01T22:47:44Z",
+   "at": "2026-11-01T23:24:23Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
+   "preroll": false
+  },
+  "wvb|https://player.amperwave.net/1e76912450470b8c0c7c64cbc7a1bb80.mp3": {
+   "school": "University of Alabama",
+   "sport": "wvb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-01T23:24:23Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wvb|https://yield-op-idsync.live.streamtheworld.com/partnerIds": {
+   "school": "University of Alabama",
+   "sport": "wvb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-01T23:24:23Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wvb|https://video.primis.tech/uploads/cn1/video/users/hls/25037/video_5b435ebf2ad91981641142/vid6ae2c593256f5766788799.mp4/chunklist_480.m3u8": {
+   "school": "University of Alabama",
+   "sport": "wvb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-01T23:24:23Z",
+   "ad_hits": 0,
+   "checks": 1,
    "preroll": false
   }
  },
@@ -14610,7 +14643,119 @@
    "url": "https://live.amperwave.net/manifest/telesouth-wzkrfmaac-imc",
    "verdict": "unknown",
    "title": ""
+  },
+  {
+   "at": "2026-11-01T23:24:23Z",
+   "school": "University of California, Los Angeles",
+   "game": "Volleyball: WIS @ UCLA",
+   "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KABCAMAAC.aac",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-11-01T23:24:23Z",
+   "school": "University of California, Los Angeles",
+   "game": "Volleyball: WIS @ UCLA",
+   "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KABCAMAAC.m3u8",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-11-01T23:24:23Z",
+   "school": "University of California, Los Angeles",
+   "game": "Volleyball: WIS @ UCLA",
+   "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KABCAMAAC.aac",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-11-01T23:24:23Z",
+   "school": "University of Wisconsin-Madison",
+   "game": "Volleyball: WIS @ UCLA",
+   "url": "https://img.leanstream.co/IM8501-MP3",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-11-01T23:24:23Z",
+   "school": "University of Wisconsin-Madison",
+   "game": "Volleyball: WIS @ UCLA",
+   "url": "https://stream.revma.ihrhls.com/zc2661",
+   "verdict": "unknown",
+   "title": "aHR0cHM6Ly9uM2RiLWUyLnJldm1hLmlocmhscy5jb20vY2FjaGUvdmFzdC82Mjc0YzNiYS0xMjRlLTNkMWItYjdhMS00YWMwY2QxMDVhMGY="
+  },
+  {
+   "at": "2026-11-01T23:24:23Z",
+   "school": "University of Wisconsin-Madison",
+   "game": "Volleyball: WIS @ UCLA",
+   "url": "https://stream.revma.ihrhls.com/zc2661/hls.m3u8",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-11-01T23:24:23Z",
+   "school": "University of Wisconsin-Madison",
+   "game": "Volleyball: WIS @ UCLA",
+   "url": "http://stream.revma.ihrhls.com/zc2661",
+   "verdict": "unknown",
+   "title": "aHR0cHM6Ly9uMjliLWUyLnJldm1hLmlocmhscy5jb20vY2FjaGUvdmFzdC82ZjM3NTk3My02ODc2LTM1NjUtOTE3Mi01NjYzOGE2MGU4MzY="
+  },
+  {
+   "at": "2026-11-01T23:24:23Z",
+   "school": "University of Alabama",
+   "game": "Volleyball: MSST @ ALA",
+   "url": "https://player.amperwave.net/1e76912450470b8c0c7c64cbc7a1bb80.mp3",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-11-01T23:24:23Z",
+   "school": "University of Alabama",
+   "game": "Volleyball: MSST @ ALA",
+   "url": "https://yield-op-idsync.live.streamtheworld.com/partnerIds",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-11-01T23:24:23Z",
+   "school": "University of Alabama",
+   "game": "Volleyball: MSST @ ALA",
+   "url": "https://video.primis.tech/uploads/cn1/video/users/hls/25037/video_5b435ebf2ad91981641142/vid6ae2c593256f5766788799.mp4/chunklist_480.m3u8",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-11-01T23:24:23Z",
+   "school": "University of Alabama",
+   "game": "Volleyball: MSST @ ALA",
+   "url": "https://stream.rcs.revma.com/fyk48ahxu7uvv",
+   "verdict": "unknown",
+   "title": " -"
+  },
+  {
+   "at": "2026-11-01T23:24:23Z",
+   "school": "Mississippi State University",
+   "game": "Volleyball: MSST @ ALA",
+   "url": "https://live.amperwave.net/manifest/telesouth-wkbbfmaac-hlsc1.m3u8?source=v7player",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-11-01T23:24:23Z",
+   "school": "Mississippi State University",
+   "game": "Volleyball: MSST @ ALA",
+   "url": "https://live.amperwave.net/manifest/telesouth-wkbbfmaac-imc1",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-11-01T23:24:23Z",
+   "school": "Mississippi State University",
+   "game": "Volleyball: MSST @ ALA",
+   "url": "https://live.amperwave.net/manifest/telesouth-wzkrfmaac-imc",
+   "verdict": "unknown",
+   "title": ""
   }
  ],
- "checked": "2026-11-01T22:47:44Z"
+ "checked": "2026-11-01T23:24:23Z"
 }
