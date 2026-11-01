@@ -1,5 +1,5 @@
 {
-"built": "2026-11-01T20:20:52Z",
+"built": "2026-11-01T23:03:29Z",
 "teams": [
 {
 "school": "Boston College",
@@ -706,7 +706,6 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://ice26.securenetsystems.net/WNAV",
 "https://crystalout.surfernetwork.com:8001/WNAV-AM_MP3"
 ],
 "misses": 0,
@@ -1265,7 +1264,9 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://ice6.securenetsystems.net/WTXK"
+"https://clips-media-fly.warnermediacdn.com/ncaa/clips/2026-10/2416700-c0def5c723234637af1ef2a66fbc5945/cmaf/master_cl_de.m3u8",
+"https://clips-media-fly.warnermediacdn.com/ncaa/clips/2026-10/2416700-c0def5c723234637af1ef2a66fbc5945/cmaf/master_cl_ph.m3u8",
+"https://clips-media-fly.warnermediacdn.com/ncaa/clips/2026-10/2416700-c0def5c723234637af1ef2a66fbc5945/cmaf/master_cl_ta.m3u8"
 ],
 "misses": 0,
 "miss_day": null,
@@ -2933,8 +2934,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://cdn.jwplayer.com/live/broadcast/pOu2p9Uo.m3u8",
-"https://ice24.securenetsystems.net/WDCR"
+"https://cdn.jwplayer.com/live/broadcast/pOu2p9Uo.m3u8"
 ],
 "misses": 0,
 "miss_day": null,
@@ -4278,9 +4278,9 @@
 ],
 "game_only": true,
 "no_radio": null,
-"notes": "WEIU Hit-Mix stream is token-signed (caster.fm); re-captured from the listen page each game",
+"notes": "WEIU Hit-Mix stream is token-signed (caster.fm); re-captured from the listen page each game. The caster.fm player page and its /cdn-cgi/ beacon are not audio (failed playback Nov 2026).",
 "streams": [],
-"misses": 2,
+"misses": 0,
 "miss_day": "2026-11-01",
 "last_ok": null,
 "live_only": false,
@@ -6239,6 +6239,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM7201-MP3",
 "https://stream.revma.ihrhls.com/zc1949",
 "https://stream.revma.ihrhls.com/zc1949/hls.m3u8",
 "http://stream.revma.ihrhls.com/zc1949"
@@ -9523,7 +9524,6 @@
 "no_radio": null,
 "notes": "Also ESPN 730 Charlotte (WZGV) and WGNC 1450 AM/101 FM Gastonia; Brett McMillan and Michael Jenkins on the call School lists 'ESPN 730' Charlotte; call letters not confirmed (WZGV also carries Charlotte).",
 "streams": [
-"https://ice8.securenetsystems.net/WRHI3?playSessionID=F597935B-E6A9-5333-725396E10336BF74",
 "https://sh.fl-us.audio-stream.com/proxy/sneisl01?mp=/stream;audio.mp3?hash=1635404224535"
 ],
 "misses": 0,
