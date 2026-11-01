@@ -8,4 +8,4 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - run: python3 tools/sports_probe.py > sports-probe.txt 2>&1 || true
-      - run: tools/publish.sh "Sports probe" sports-probe.txt
+      - run: tools/publish.sh "Sports probe" sports-probe.txt tools/fixtures/espn.json
