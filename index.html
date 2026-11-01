@@ -1200,7 +1200,8 @@ function winProb(e){
   const o0 = c.odds?.[0], sb = lineProb(o0);
   if(!books.length && sb!=null) books = [{name: o0.provider?.name || "Sportsbook", p: sb, home: Number(o0.homeTeamOdds?.moneyLine)||null, away: Number(o0.awayTeamOdds?.moneyLine)||null, spread: o0.spread}];
   const market = books.length ? books.reduce((x,b)=>x+b.p,0)/books.length : null;
-  const fpi = p.home!=null ? p.home : null;
+  // ESPN's model shows exactly 100% / 0% when it has no rating for one side (a non-Division I opponent); that isn't a forecast.
+  const fpi = p.home!=null && p.home>0 && p.home<100 ? p.home : null;
   const vals = [fpi, market].filter(v=>v!=null);
   if(!vals.length) return null;
   const home = vals.reduce((x,y)=>x+y,0)/vals.length;
@@ -1236,7 +1237,7 @@ function upCard(e){
   if(o?.details) bits.push(esc(o.details)); if(o?.overUnder) bits.push(`O/U ${esc(o.overUnder)}`);
   return `<div class="up">${row(a, ap, false)}${row(h, hp, true)}
     ${hp!=null?(([ca,ch])=>`<div class="wpbar" aria-label="Win probability: ${esc(a.team.abbreviation)} ${ap}%, ${esc(h.team.abbreviation)} ${hp}%"><span style="width:${ap}%;background:${ca}"></span><span style="width:${hp}%;background:${ch}"></span></div>`)(barColors(a,h)):""}
-    <div class="meta"><span class="bits">${bits.map(b=>`<span>${b}</span>`).join("")}</span>${wp?.detail?`<button class="src" data-wp="${esc(wp.detail)}">${esc(wp.src)}</button>`:`<span class="src">${wp?esc(wp.src):"No odds yet"}</span>`}</div>${soonNote(e)}</div>`;
+    <div class="meta"><span class="bits">${bits.map(b=>`<span>${b}</span>`).join("")}</span>${wp?.detail?`<button class="src" data-wp="${esc(wp.detail)}">${esc(wp.src)}</button>`:`<span class="src">${wp?esc(wp.src):(!a.team.logo||!h.team.logo)?"Non-D1 opponent":"No odds yet"}</span>`}</div>${soonNote(e)}</div>`;
 }
 function finCard(e){
   const c = e.competitions[0], a = team(c,"away"), h = team(c,"home");
@@ -1379,7 +1380,11 @@ function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;","
 const DARK = matchMedia("(prefers-color-scheme: dark)");
 // ESPN has a dark-background version of most logos; fall back to the normal one if it's missing.
 function logoSrc(tm){ const u = tm.logo||""; return DARK.matches && /\/500\//.test(u) ? u.replace("/500/","/500-dark/") : u; }
-function logoImg(tm){ const u = tm.logo||"", d = logoSrc(tm); return `<img src="${d}" alt=""${d!==u?` data-f="${u}" onerror="this.onerror=null;this.src=this.dataset.f"`:""}>`; }
+// Teams outside Division I have no ESPN logo: show their initials in a gray disc instead of an empty box.
+function noLogo(tm){ const n = (tm.shortDisplayName||tm.location||tm.abbreviation||"?").replace(/\(.*?\)/g,"").trim();
+  const ini = (n.split(/\s+/).filter(w=>/^[A-Za-z]/.test(w)).map(w=>w[0]).join("").slice(0,2) || n.slice(0,2)).toUpperCase();
+  return "data:image/svg+xml,"+encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11.5" fill="#8A95A3" fill-opacity=".28"/><text x="12" y="15.6" text-anchor="middle" font-family="system-ui,sans-serif" font-size="${ini.length>1?9.5:11}" font-weight="700" fill="#8A95A3">${ini.replace(/[<&]/g,"")}</text></svg>`); }
+function logoImg(tm){ if(!tm.logo) return `<img src="${noLogo(tm)}" alt="">`; const u = tm.logo||"", d = logoSrc(tm); return `<img src="${d}" alt=""${d!==u?` data-f="${u}" onerror="this.onerror=null;this.src=this.dataset.f"`:""}>`; }
 // Names ESPN sends in all caps ("FT LAUDERDALE") read better in title case.
 function nameOf(tm){ const n = tm.shortDisplayName||tm.location||""; return /[a-z]/.test(n) || n.length<5 ? n : n.replace(/[A-Z]{4,}/g, w=>w[0]+w.slice(1).toLowerCase()); }
 function lum(hex){ const m=/^#?([0-9a-f]{6})$/i.exec(hex||""); if(!m) return null; const v=[0,2,4].map(i=>{const c=parseInt(m[1].slice(i,i+2),16)/255; return c<=.03928?c/12.92:((c+.055)/1.055)**2.4}); return .2126*v[0]+.7152*v[1]+.0722*v[2]; }
