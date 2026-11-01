@@ -1,102 +1,97 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-[AVFormatContext @ 0x55f4b2e11fc0] Invalid HLS ID3 audio timestamp 15533071360
-[0;93m2026-11-01 19:08:00.614928084 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-[AVFormatContext @ 0x55aebb7cafc0] Invalid HLS ID3 audio timestamp 15537564160
-[AVFormatContext @ 0x5f8c82e16fc0] Invalid HLS ID3 audio timestamp 15538462720
-[aac @ 0x5990dab80440] No quantized data read for sbr_dequant.
-[aac @ 0x616a758e5080] No quantized data read for sbr_dequant.
-[AVFormatContext @ 0x58f0266a25c0] Invalid HLS ID3 audio timestamp 15541158400
-[AVFormatContext @ 0x5c7d2b2fdfc0] Invalid HLS ID3 audio timestamp 15542955520
-[AVFormatContext @ 0x5fa36e6795c0] Invalid HLS ID3 audio timestamp 15547448320
-[AVFormatContext @ 0x653a7dc31fc0] Invalid HLS ID3 audio timestamp 15545651200
-[AVFormatContext @ 0x63348a0c4fc0] Invalid HLS ID3 audio timestamp 15562723840
-[AVFormatContext @ 0x5b11f3d1afc0] Invalid HLS ID3 audio timestamp 15563622400
-[AVFormatContext @ 0x59e890c8b5c0] Invalid HLS ID3 audio timestamp 15564520960
-[AVFormatContext @ 0x61955167f5c0] Invalid HLS ID3 audio timestamp 15567216640
-listening to 85 streams in 33 live games
-game       wbb  Villanova University           'easy to enjoy. Enjoy responsibly and hyzer bush bud light beer Saint Louis,  Mizzet. A spe'
-game       wbb  Villanova University           'The AMA.com.  Official partner of Villanova Athletics.  Parkima.  Innovative materials for'
-game       wbb  Villanova University           'easy to enjoy.  Enjoy responsibly and hyzer bush bud-like beer, St. Louis, Missouri.  A sp'
-game       wbb  University of Notre Dame       '84-66 with 4 minutes and 37 seconds remaining here in the  internal city tip-off in Rome. '
-game       wbb  University of Notre Dame       "This one off now with an 18-point lead, Liam Macy's at the free throw line for the Irish. "
-maybe_not  wbb  University of Notre Dame       "Tuesday night. We'll be a measure of JB Pritzker's ability to get another person along  wi"
-maybe_not  wvb  Tulane University              'I know I predicted that Tomlin would be there because Tomlin is from the DMV area. There w'
-maybe_not  wvb  Tulane University              'Tom will be there because Tom Lin is from the DMV area. There were rumors going into his  '
-maybe_not  wvb  Tulane University              'in the area. There were rumors going into his last year. Thomas going to be back  for a wh'
-quiet      wvb  Virginia Tech                  ''
-maybe_not  wvb  University of Miami            "Tobin, correct me if I'm wrong.  Coming into this season, had I made the argument  that th"
-maybe_not  wvb  University of Miami            'able to put it together for two straight. That would be such a feather in the capage  of h'
-maybe_not  wvb  University of Miami            "you in the Patriots.  Like wouldn't that have been a good course to follow?  This Patriots"
-maybe_not  wvb  North Carolina State Universit 'positions. The move was announced this morning and WRL was the only team there when it hap'
-maybe_not  wvb  University of Pittsburgh       "He did by the way go to the locker room, but he's back and just caught that past the paten"
-maybe_not  wvb  University of Pittsburgh       "He did by the way go to the locker room, but he's back and just caught that past the paten"
-maybe_not  wvb  University of Pittsburgh       'get the ball back 642 to go in half. 14 and nothing Jacksonville. Jaguars on top of the  C'
-game       wvb  University of Florida          'for Lauren Dean picked up by Parks, Rock,  Free Ball sent over by the other middle brisko.'
-game       wvb  University of Florida          "It's hard it's hard playing the Gators skyler it just is great enough so much pressure  se"
-game       wvb  University of Florida          'first. Now, Cheney will try again along the line goes wide left.  We got a credit Arkansas'
-maybe_not  wvb  University of Arkansas         'up and says are you a unit call something there?  I mean it was a tackle.  There was a pla'
-maybe_not  wvb  University of Arkansas         'up and says are you a unit call something there?  I mean it was a tackle.  There was a pla'
-maybe_not  wvb  Wake Forest University         'trophy.  Daryl Waltrip earlier this week completely surprised Joey Logano and gifted him w'
-maybe_not  wvb  Southern Methodist University  'five percent bonus toward your daytime use all summer.  Three nights, all year and more a '
-maybe_not  wvb  Southern Methodist University  '85% bonus toward your daytime use all summer.  Three nights all year and more.  A whole ne'
-maybe_not  wvb  Southern Methodist University  '5% bonus toward your daytime use all summer.  Three nights all year and more.  A whole new'
-maybe_not  wvb  University of Texas at Austin  'for Tony Dungee would have to tolerate Michael Toms.  Michael Toms and so Michael Toms is '
-maybe_not  wvb  University of Texas at Austin  "He's the closest thing to Dungi,  but he can't be better than Tony Dungi,  because Tony Du"
-maybe_not  wvb  University of Texas at Austin  'My Michael Thompson still while Michael Thompson still while even as an older girl, more r'
-game       wvb  Texas A&M University           "I've had many.  Because I knew it's not new.  We have it.  We exist.  It has a brighter 8 "
+[0;93m2026-11-01 19:46:57.462806932 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[AVFormatContext @ 0x62d818caffc0] Invalid HLS ID3 audio timestamp 15746030080
+[in#0 @ 0x59bcd306acc0] Error opening input: Server returned 404 Not Found
+Error opening input file https://cdn.jwplayer.com/live/broadcast/kDNzJYGH.m3u8.
+Error opening input files: Server returned 404 Not Found
+[in#0 @ 0x5748a4751cc0] Error opening input: Server returned 404 Not Found
+Error opening input file https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/kDNzJYGH.m3u8?exp=1793561040&sig=e524bb4d1ab5b515e25f6fe7cfb3fea6.
+Error opening input files: Server returned 404 Not Found
+[AVFormatContext @ 0x63e9a5b9efc0] Invalid HLS ID3 audio timestamp 15747827200
+[tcp @ 0x56b91e2eb680] Connection to tcp://ice64.securenetsystems.net:443 failed: Connection timed out
+[in#0 @ 0x56b91e2e7cc0] Error opening input: Connection timed out
+Error opening input file https://ice64.securenetsystems.net/WZGV2?playSessionID=AAAEE74E-C2A1-4168-8050-B7F416BE573B.
+Error opening input files: Connection timed out
+[AVFormatContext @ 0x58223fc75fc0] Invalid HLS ID3 audio timestamp 15749624320
+[AVFormatContext @ 0x61d6a7510fc0] Invalid HLS ID3 audio timestamp 15752320000
+[tcp @ 0x61ffa1102680] Connection to tcp://ice23.securenetsystems.net:443 failed: Connection timed out
+[in#0 @ 0x61ffa10fecc0] Error opening input: Connection timed out
+Error opening input file https://ice23.securenetsystems.net/KLWNAM?playSessionID=2A86BB99-945F-4B5E-94EF-C41EF69FEB75.
+Error opening input files: Connection timed out
+[in#0 @ 0x5e02737b9cc0] Error opening input: Server returned 5XX Server Error reply
+Error opening input file https://stream.revma.ihrhls.com/zc2013.
+Error opening input files: Server returned 5XX Server Error reply
+[in#0 @ 0x63a8b1e75cc0] Error opening input: Server returned 5XX Server Error reply
+Error opening input file http://stream.revma.ihrhls.com/zc2013.
+Error opening input files: Server returned 5XX Server Error reply
+[tcp @ 0x60a5b74e6680] Connection to tcp://ice41.securenetsystems.net:443 failed: Connection timed out
+[in#0 @ 0x60a5b74e2cc0] Error opening input: Connection timed out
+Error opening input file https://ice41.securenetsystems.net/KGRM?playSessionID=27007793-697E-4C07-A287049708D476F7.
+Error opening input files: Connection timed out
+[tcp @ 0x5e0407a5b680] Connection to tcp://ice41.securenetsystems.net:443 failed: Connection timed out
+[in#0 @ 0x5e0407a57cc0] Error opening input: Connection timed out
+Error opening input file https://ice41.securenetsystems.net/WELE?playSessionID=09B6284F-32DE-4B64-9DE9-AA3A7E009395.
+Error opening input files: Connection timed out
+[in#0 @ 0x5c3376d09cc0] Error opening input: Server returned 404 Not Found
+Error opening input file https://stream.revma.ihrhls.com/zc2013/hls.m3u8.
+Error opening input files: Server returned 404 Not Found
+[AVFormatContext @ 0x585b4f4ecfc0] Invalid HLS ID3 audio timestamp 15764899840
+[AVFormatContext @ 0x5de2f56985c0] Invalid HLS ID3 audio timestamp 15766696960
+listening to 65 streams in 19 live games
 quiet      wvb  Iowa State University          ''
-quiet      wvb  Iowa State University          ''
-quiet      wvb  Iowa State University          ''
-maybe_not  wvb  University of Kansas           "He's still wild man. I've seen my labor games all in love.  The man we've been ready for a"
-quiet      wvb  Syracuse University            ''
-quiet      wvb  Bryant University              ''
-maybe_not  wvb  University of Illinois Urbana- "Our investment in Decatur is an investment in everyone who calls Decatur Home.  Doesn't ha"
-maybe_not  wvb  University of Illinois Urbana- "Our investment indicator is an investment in everyone who calls Decatur Home.  So let's br"
-maybe_not  wvb  Ohio State University          'every chapter of your life. From your first yes to your forever I do, trust that  Julie ca'
-quiet      wvb  Ohio State University          "Yeah, they've been around a while."
-quiet      wvb  Ohio State University          "Yeah, they've been around a while"
-game       wvb  University of Notre Dame       'six points, four and a half remaining, 86, 66 Notre Dame.  See if Neil Ivy.'
-maybe_not  wvb  University of Notre Dame       'stretch and a foamy with a bucket for Nova to make it 86-68 St. Rose, Macy || the line. 32'
-maybe_not  wvb  University of Notre Dame       'of the tri-state.  Eisenhower inbound, pretty much received a verdict or change your delay'
-maybe_not  wvb  Clemson University             'I mean, did the Buffalo Bills have any thought that Ficnano would be in the game?  Do they'
-maybe_not  wvb  Clemson University             'I mean, did the Buffalo Bills have any thought that  Ficnano would be in the game?  Do the'
-maybe_not  wvb  University of New Hampshire    "time in my life. If I were the devil that's exactly the way I would want it. || I would te"
-maybe_not  wvb  University of New Hampshire    'There will be young women dressed as the devil with sequin horns.  The devil in one form o'
-maybe_not  wvb  University of New Hampshire    "If I were the devil, that's exactly the way I would want it.  If I were the devil... || It"
-maybe_not  wvb  University at Albany           "It's gonna be second and 16 from 16.  You know, I'm not I'm not a quarterbacks coach throu"
-blocked    wvb  University of Cincinnati       'Radio app for all your music, radio, and podcasts. Thanks for listening to the iHeart Radi'
-blocked    wvb  University of Cincinnati       'To ensure you have the right access to future sporting events,  please ensure your locatio'
-blocked    wvb  University of Cincinnati       "and podcasts. Thanks for listening to The IHeart Radio app. You're currently  outside of t"
-quiet      wvb  West Virginia University       ''
-quiet      wvb  East Carolina University       "Don't let anybody know"
-game       wvb  East Carolina University       "Heart full of right now, it's in a house, it's gonna be in the same room.  It's a Sunday f"
+quiet      wvb  Binghamton University          "You are taller than the tallest trees  That's how"
+quiet      wvb  Binghamton University          "Somebody loves you. It's no good unless he loves you."
+quiet      wvb  Wichita State University       ''
+quiet      wvb  Wichita State University       ''
+quiet      wvb  Wichita State University       ''
+quiet      wvb  University of North Carolina a ''
+quiet      wvb  University of Georgia          ''
+maybe_not  wvb  University of Georgia          'an on-handed inventory, Granger delivers the product she needs fast, helping her stay stoc'
+maybe_not  wvb  University of Georgia          'an on-handed inventory, Granger delivers the product she needs fast, helping her stay stoc'
+maybe_not  wvb  Vanderbilt University          'is gonna get run down by some of these cars  with the freshest tires.  I misspoke, I said '
+maybe_not  wvb  University of Arizona          'your 13 carries 54 yards for the Raiders.  Geno Smith 11 of 17 146 to touchdown passes.  O'
+maybe_not  wvb  University of Arizona          'for the Raiders.  Geno Smith, 11 of 17, 146, two touchdown passes.  One-to-eye Zay William'
+maybe_not  wvb  University of Arizona          'Gino Smith, 11 of 17, 146 to touchdown passes.  One to Isaiah Williams, one to at night Mi'
+maybe_not  wvb  University of Central Florida  "Pick up as quick and easy.  You'll also get a vacation voucher and a tax deduction.  That'"
+game       wvb  University of Central Florida  '1-8-3-3 playwise.  Orlando Magic Basketball lives here on 96-9 the game and your game day '
+game       wvb  University of Central Florida  'or go to carsforkids.org.  1-8-7-7-Cars for Kids.  Donate your car today.  Vacation vouche'
+quiet      wvb  University of Memphis          ''
+maybe_not  wvb  University of Memphis          'still local still here when you need a michryd plumbing heating an air you call  and my fa'
+maybe_not  wvb  University of Memphis          'still local still here when you need a michryd plumbing heating an air you call  and my fa'
+quiet      wvb  University of Tulsa            'the fun'
+maybe_not  wvb  University of North Texas      "somebody that it didn't feed through his defense again.  We'll talk about that in a bit to"
+maybe_not  wvb  University of North Texas      "would be FBI says and that's good.  How important to stop like that.  But with a bear, you"
+maybe_not  wvb  University of North Texas      "We'll talk about that in a bit too.  But when it comes to  four-legged predator defense,  "
+quiet      wvb  University of Alabama at Birmi ''
+maybe_not  wvb  University of Alabama at Birmi "I'm calling the check-in on you,  I've been your accident on Tuesday.  How you feeling?  N"
+maybe_not  wvb  University of Alabama at Birmi "I'm calling the check-in on you,  I've been your accident on Tuesday.  How you feeling?  N"
+maybe_not  wvb  University of Texas at San Ant "For more women's sports stories, be sure to subscribe to Good Game with Sarah Spain on  I "
+game       wvb  University of Texas at San Ant "of 23 to 21 as her cousins has hooked up with two touchdowns to Brock  Bowers. That's tied"
+maybe_not  wvb  University of Texas at San Ant 'in sports stories. Be sure to subscribe to Good Game with Sarah Spain on a Heart podcast. '
+maybe_not  wvb  Marquette University           'is over. We apologize for the inconvenience and thank you for listening to 94.5 ESPN Milwa'
+maybe_not  wvb  University of Missouri         "So, Steiny, running it, I'm doing you a favor.  So, we'll see where it goes, could be craz"
+maybe_not  wvb  University of Missouri         'Fencing. No, not the kind of keeps dogs in. This is the Olympic and Paralympic sport for a'
+maybe_not  wvb  University of Tennessee        'to work with Ingles because Ingles has provided us as farmers and opportunity to work with'
+maybe_not  wvb  University of Tennessee        'to work with Ingalls because Ingalls has provided us as farmers and opportunity to work  w'
+quiet      wvb  University of Tennessee        'Relax in different angles.'
+quiet      wvb  Iowa State University          "That's what to do."
+quiet      wvb  Iowa State University          "And my lips just sealed right now  What it's to do"
+quiet      wvb  Bryant University              'Thank you.'
+maybe_not  wvb  University of Notre Dame       "the first position on the  round 22 to begin the third  quarter.  That's a good start by  "
+not_game   wvb  University of Notre Dame       'on the ground of the boundary. This is Bay Shell 2 and it avoided you have a great first  '
+game       wvb  University of Notre Dame       'up all Notre Dame back in the win column. They took care of Navy yesterday, 35 13 now 7  a'
+not_game   wvb  Clemson University             "Boxing UFC bowling the National Camp Fight League.  We don't care what it is from 3 to 7 w"
+not_game   wvb  Clemson University             "bowling the National Cat Fight League.  We don't care what it is from 3 to 7 week carbon. "
+quiet      wvb  East Carolina University       ''
+quiet      wvb  East Carolina University       ''
 quiet      wvb  University of South Florida    ''
 quiet      wvb  University of South Florida    ''
-maybe_not  wvb  Florida Atlantic University    'for zero yards. This kid looks like a deer in headlights right now though. He does  he loo'
-maybe_not  wvb  Florida Atlantic University    'yards. This kid looks like a deer in headlights right now though. He visit. Look at him.  '
-maybe_not  wvb  Duquesne University            "five guard line. Let's see what this flag is going to be.  It's too aggressive. It's too a"
-maybe_not  wvb  Duquesne University            'three season and regular season.  See the defense has collected 31 sacks of  part of this '
-game       wvb  Duquesne University            'time for the two minute warning time out.  Brought to you by Pawn Lee hockey.  If you hear'
-maybe_not  wvb  University of Virginia         'something she had on her bingo card just a few months ago. Now Ms. Andrews is a  pediatric'
-maybe_not  wvb  University of Virginia         "So it doesn't appear she has practiced in the last few years.  She's more of a political a"
-quiet      wvb  Florida State University       ''
-quiet      wvb  Florida State University       'Read a day already.  Day one.'
-quiet      wvb  Florida State University       "That's nice, nice, she's..."
-quiet      wvb  Norfolk State University       ''
-quiet      wvb  Norfolk State University       ''
-quiet      wvb  Alcorn State University        ''
-quiet      wvb  Texas Southern University      ''
-quiet      wvb  Grambling State University     ''
-quiet      wvb  Jackson State University       ''
-quiet      wvb  Alabama A&M University         ''
-game       wvb  Florida A&M University         'on our 96.1 app.  And on Alexa,  get along the 96.1 Jams app today  and listen to us live '
-game       wvb  Florida A&M University         'on our 96.1 app.  And on Alexa,  get along the 96.1 Jams app today  and listen to us live '
-game       wvb  Florida A&M University         'on our 96.1 app.  And on Alexa,  get along the 96.1 Jams app today  and listen to us live '
-maybe_not  wvb  Alabama State University       'Every time I touch a base, I think of one man, Mr. Ray Brown.  For those unfamiliar with h'
-maybe_not  wvb  Bethune-Cookman University     'they go incomplete incomplete and then get stopped at the line of scrimmage. They  settle '
-maybe_not  wvb  University of North Carolina a 'aspect of your financial plan into and throughout retirement.  The more you get from Socia'
-maybe_not  wvb  University of North Carolina a 'aspect of your financial plan into and throughout retirement.  The more you get from Socia'
-maybe_not  wvb  Boston College                 'What and then the jets come all the way back with it a touchdown pass from Gino Smith to n'
-maybe_not  wvb  Boston College                 'To start in the last three, came on to relief.  He has left the game with it injury.  And '
-maybe_not  wvb  Boston College                 'with five catches for 78 yards and a touchdown Isaiah Williams has the other  How about ge'
-{'game': 15, 'maybe_not': 45, 'quiet': 22, 'blocked': 3}
+game       wvb  Florida Atlantic University    '16, seven at the half.  Bengals finally got the lead 14, 13 and they half against the Tita'
+not_game   wvb  Florida Atlantic University    "questions for you. You're a free agent. I know baseball is going to have a potential  stop"
+not_game   wvb  Alabama State University       'Every time I touch a base, I think of one man, Mr. Ray Brown.  For those unfamiliar with h'
+not_game   wvb  University of North Carolina a 'but not both. Claiming early does reduce the benefit and it can be as as little as  32.5% '
+not_game   wvb  University of North Carolina a 'claiming early does reduce the benefit and it can be as as little as 32.5% at 62.  But tha'
+game       wvb  Boston College                 'well yeah we got uh eagles and the commanders were referring to on the west of west of wes'
+not_game   wvb  Boston College                 "But aside from that opening drive touchdown run from Josh Allen, he's really done very lit"
+game       wvb  Boston College                 'well yeah we got uh eagles and the commanders were referring to on the west of west of wes'
+{'quiet': 19, 'maybe_not': 22, 'game': 7, 'no_audio': 9, 'not_game': 8}
