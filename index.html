@@ -511,6 +511,18 @@ async function poll(){
     const byId = new Map();
     (fbs.events||[]).forEach(e=>{ e._div = "FBS"; byId.set(e.id, e); });
     (fcs.events||[]).forEach(e=>{ if(!byId.has(e.id)){ e._div = "FCS"; byId.set(e.id, e); } });
+    // Between game weeks (Sunday, Monday) ESPN's default scoreboard still shows last week's finished
+    // games, so also look ahead at the next week's schedule (refreshed every 15 minutes).
+    if(![...byId.values()].some(e=>e.status.type.state!=="post")){
+      if(!poll.ahead || Date.now()-poll.ahead.t > 15*60e3){
+        const ymd = d => d.toISOString().slice(0,10).replace(/-/g,"");
+        const range = `${ymd(new Date())}-${ymd(new Date(Date.now()+8*864e5))}`;
+        const [f2, c2] = await Promise.all([80,81].map(g=>getJSON(`${base}/scoreboard?groups=${g}&limit=400&dates=${range}`).catch(()=>({events:[]}))));
+        poll.ahead = {t: Date.now(), f: f2.events||[], c: c2.events||[]};
+      }
+      poll.ahead.f.forEach(e=>{ if(!byId.has(e.id)){ e._div = "FBS"; byId.set(e.id, e); } });
+      poll.ahead.c.forEach(e=>{ if(!byId.has(e.id)){ e._div = "FCS"; byId.set(e.id, e); } });
+    }
     const evs = [...byId.values()];
     evs.forEach(e=>e.competitions[0].competitors.forEach(c=>attachRadio(c.team)));
     history.push({t:Date.now(), evs}); history = history.filter(h => Date.now()-h.t < (delay+20)*1000);
@@ -961,7 +973,16 @@ document.addEventListener("click", ev=>{
 });
 function renderUpcoming(){
   const list = $("#list"), q = query.trim().toLowerCase();
-  const today = events.filter(e=>e.status.type.state==="pre" && isToday(e.date));
+  // Today's games; on a day with none (Sundays, Mondays), the next day that has games.
+  let today = events.filter(e=>e.status.type.state==="pre" && isToday(e.date)), dayLabel = "Later today";
+  if(!today.length){
+    const next = events.filter(e=>e.status.type.state==="pre").sort((a,b)=>new Date(a.date)-new Date(b.date))[0];
+    if(next){
+      const day = new Date(next.date).toDateString();
+      today = events.filter(e=>e.status.type.state==="pre" && new Date(e.date).toDateString()===day);
+      dayLabel = new Date(next.date).toLocaleDateString([], {weekday:"long", month:"short", day:"numeric"});
+    }
+  }
   const count = f => today.filter(f).length;
   $("#nAll").textContent = today.length; $("#nFBS").textContent = count(e=>e._div==="FBS");
   $("#nFCS").textContent = count(e=>e._div==="FCS"); $("#nFav").textContent = count(isFavGame);
@@ -983,7 +1004,7 @@ function renderUpcoming(){
   }
   const names = [...groups.keys()].sort((x,y)=>x.localeCompare(y));
   const allShut = names.every(n=>shut.has(n));
-  list.innerHTML = `<div class="sect">Later today${names.length>1 && !q ? `<button class="lnk" data-confall="${allShut?"open":"shut"}">${allShut?"Expand all":"Collapse all"}</button>` : ""}</div>` + names.map(n=>{
+  list.innerHTML = `<div class="sect">${dayLabel}${names.length>1 && !q ? `<button class="lnk" data-confall="${allShut?"open":"shut"}">${allShut?"Expand all":"Collapse all"}</button>` : ""}</div>` + names.map(n=>{
     const gs = groups.get(n), closed = !q && shut.has(n);
     return confHead(n, gs.length, closed) + gs.sort((x,y)=>new Date(x.date)-new Date(y.date) || x.id.localeCompare(y.id)).map(e=>closed ? upCard(e).replace(/^<div /,"<div hidden ") : upCard(e)).join("");
   }).join("") + finalsToday();
