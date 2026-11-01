@@ -613,11 +613,12 @@ async function loadOdds(){
   try{ const d = await getJSON("odds.json?t=" + Math.floor(Date.now()/600000)); ODDS = d.games || []; render(); }catch(e){}
 }
 function oddsFor(e){
-  if(!isFB()) return null; // odds.json only has football lines
   const c = e.competitions[0], h = team(c,"home").team, a = team(c,"away").team, t0 = Date.parse(e.date);
   const H = oddsKey(h.displayName), A = oddsKey(a.displayName);
-  return ODDS.find(g=>oddsKey(g.home)===H && oddsKey(g.away)===A)
-      || ODDS.find(g=>Math.abs(Date.parse(g.start)-t0) < 3600e3 && (oddsKey(g.home)===H || oddsKey(g.away)===A));
+  // odds.json covers football, men's and women's basketball and baseball (older files: football only).
+  const ODDS_S = ODDS.filter(g => (g.sport || "fb") === SPORT.id);
+  return ODDS_S.find(g=>oddsKey(g.home)===H && oddsKey(g.away)===A)
+      || ODDS_S.find(g=>Math.abs(Date.parse(g.start)-t0) < 3600e3 && (oddsKey(g.home)===H || oddsKey(g.away)===A));
 }
 // Pick up stream fixes and game-day feeds without a page refresh (the team you're listening to keeps playing).
 async function refreshDirectory(){

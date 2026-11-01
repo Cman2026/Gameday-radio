@@ -1,4 +1,4 @@
-name: Sportsbook odds
+name: Sportsbook odds (football, basketball, baseball)
 on:
   workflow_dispatch:
   schedule:
