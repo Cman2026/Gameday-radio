@@ -1,5 +1,5 @@
 {
-"built": "2026-11-01T19:52:30Z",
+"built": "2026-11-01T20:05:19Z",
 "teams": [
 {
 "school": "Boston College",
@@ -242,8 +242,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://img.leanstream.co/IM9301-MP3",
-"https://media-hls.wral.com/vodhttporigins3/_definst_/smil:amazons3/cbcnm-static-web-content/home/web/wral/public/asset/news/state/nccapitol/2023/05/25/20879545/3185796-gop-DMID1-5z0xt25hf.smil/playlist.m3u8"
+"https://img.leanstream.co/IM9301-MP3"
 ],
 "misses": 0,
 "miss_day": null,
@@ -2981,9 +2980,9 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://stream.revma.ihrhls.com/zc2013",
-"https://stream.revma.ihrhls.com/zc2013/hls.m3u8",
-"http://stream.revma.ihrhls.com/zc2013"
+"https://stream.revma.ihrhls.com/zc4870",
+"https://stream.revma.ihrhls.com/zc4870/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc4870"
 ],
 "misses": 0,
 "miss_day": null,
@@ -3157,7 +3156,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://ondemand.npr.org/anon.npr-mp3/npr/specials/2026/10/20261013_specials_two_bass_hit_christian_mcbride_and_john_clayton_on_ray_brown_at_100.mp3"
+"https://stream-02.surfernetwork.com/i37k5l981vjtv"
 ],
 "misses": 0,
 "miss_day": null,
@@ -3788,17 +3787,13 @@
 "listen_page": "https://catamountsports.com",
 "conference": "Southern Conference",
 "calls": [
-"WRGC",
-"WFSC",
-"WISE",
-"WBRM"
+"WRGC"
 ],
 "game_only": null,
 "no_radio": null,
-"notes": null,
+"notes": "WRGC (Sylva) streams on SecureNet (WRGC); free school audio also on CatamountSports.com. WVTF/RadioIQ streams were a wrong match.",
 "streams": [
-"https://wvtf-ice2.streamguys1.com/radioiq-mp3-64.mp3",
-"https://wvtf-ice2.streamguys1.com/wvtfmusic-mp3-64.mp3"
+"https://ice24.securenetsystems.net/WRGC"
 ],
 "misses": 0,
 "miss_day": null,
@@ -7173,11 +7168,13 @@
 "calls": [],
 "game_only": null,
 "no_radio": null,
-"notes": "2025-26 (Oct 2025 release): SportsRadio 99.1 FM is the new flagship; iHeart covers all MBB regular-season games plus select WBB; WTAM 1100 AM carries select games only. 99.1 is WMMS-HD2 (WMMS main is a rock station), so no calls listed; no direct stream URL found. Use the iHeart 'SportsRadio 99.1' s",
-"streams": [],
+"notes": "2025-26 (Oct 2025 release): SportsRadio 99.1 FM is the new flagship; iHeart covers all MBB regular-season games plus select WBB; WTAM 1100 AM carries select games only. 99.1 is WMMS-HD2 (WMMS main is a rock station), so no calls listed; no direct stream URL found. Use the iHeart 'SportsRadio 99.1' s iHeart station id 5382 (iheart.com/live/sportsradio-991-5382).",
+"streams": [
+"https://stream.revma.ihrhls.com/zc5382"
+],
 "misses": 0,
 "miss_day": null,
-"last_ok": null,
+"last_ok": "2026-11-01",
 "game_feeds": null
 },
 {
@@ -8196,7 +8193,7 @@
 "calls": [],
 "game_only": null,
 "no_radio": null,
-"notes": "2025-26 (Nov 2025 preview): 'Neal Ruhl will be on the radio call on 97.1HD-3/1270am or the Audacy App online.' Calls left empty on purpose: WXYT must not resolve to the main 97.1 The Ticket stream. 1270 AM is now 'The Bet Detroit' with its own Audacy stream. No direct stream URL found.",
+"notes": "2025-26 (Nov 2025 preview): 'Neal Ruhl will be on the radio call on 97.1HD-3/1270am or the Audacy App online.' Calls left empty on purpose: WXYT must not resolve to the main 97.1 The Ticket stream. 1270 AM is now 'The Bet Detroit' with its own Audacy stream. No direct stream URL found. Stream given directly: Audacy WXYT-AM (1270 The Bet).",
 "streams": [],
 "misses": 0,
 "miss_day": null,
