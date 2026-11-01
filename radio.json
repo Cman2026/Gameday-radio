@@ -2934,7 +2934,7 @@
 "game_feeds": [
 "https://cdn.jwplayer.com/live/broadcast/pOu2p9Uo.m3u8"
 ],
-"game_feeds_at": "2026-11-01T20:55:24Z",
+"game_feeds_at": "2026-11-01T21:24:00Z",
 "game_feeds_sport": "mhk",
 "live_only": true,
 "athletics_site": "https://dartmouthsports.com"
@@ -6150,7 +6150,6 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://img.leanstream.co/LF0401-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAMAAC.m3u8",
 "http://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAMAAC.aac"
@@ -6158,13 +6157,9 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
-"game_feeds": [
-"https://img.leanstream.co/LF0401-MP3"
-],
-"game_feeds_at": "2026-11-01T05:23:29Z",
 "live_only": true,
-"game_feeds_sport": "fb",
-"athletics_site": "https://broncosports.com"
+"athletics_site": "https://broncosports.com",
+"game_feeds": null
 },
 {
 "school": "Colorado State University",
@@ -6301,19 +6296,14 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://img.leanstream.co/LF5801-MP3",
 "https://ktswlive.txstate.edu:8102/listen"
 ],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
-"game_feeds": [
-"https://img.leanstream.co/LF5801-MP3"
-],
-"game_feeds_at": "2026-11-01T05:23:29Z",
 "live_only": true,
-"game_feeds_sport": "fb",
-"athletics_site": "https://txst.com"
+"athletics_site": "https://txst.com",
+"game_feeds": null
 },
 {
 "school": "Utah State University",
