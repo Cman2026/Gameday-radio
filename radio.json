@@ -571,7 +571,7 @@
 "notes": null,
 "streams": [
 "https://cdn.jwplayer.com/live/broadcast/kDNzJYGH.m3u8",
-"https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/kDNzJYGH.m3u8?exp=1793561040&sig=e524bb4d1ab5b515e25f6fe7cfb3fea6",
+"https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/kDNzJYGH.m3u8?exp=1793563440&sig=cecfcdeb3110e810390ae867eb9ae2de",
 "https://ice64.securenetsystems.net/WZGV2",
 "https://cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8"
 ],
@@ -580,9 +580,9 @@
 "last_ok": "2026-10-30",
 "game_feeds": [
 "https://cdn.jwplayer.com/live/broadcast/kDNzJYGH.m3u8",
-"https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/kDNzJYGH.m3u8?exp=1793561040&sig=e524bb4d1ab5b515e25f6fe7cfb3fea6"
+"https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/kDNzJYGH.m3u8?exp=1793563440&sig=cecfcdeb3110e810390ae867eb9ae2de"
 ],
-"game_feeds_at": "2026-11-01T19:07:25Z",
+"game_feeds_at": "2026-11-01T19:49:51Z",
 "game_feeds_sport": "wvb",
 "live_only": true
 },
@@ -2828,7 +2828,7 @@
 "game_feeds": [
 "https://cdn.jwplayer.com/live/broadcast/pOu2p9Uo.m3u8"
 ],
-"game_feeds_at": "2026-11-01T19:07:25Z",
+"game_feeds_at": "2026-11-01T19:49:51Z",
 "game_feeds_sport": "mhk",
 "live_only": true
 },
