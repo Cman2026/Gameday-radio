@@ -394,7 +394,12 @@ const savedOpen = store.get("openGame") || null;
 let boardOpen = !matchMedia("(max-width: 860px)").matches || !!savedOpen;
 let filter = "live", events = [], selected = savedOpen, history = [], summaryHist = [], delay = 0;
 const $ = s => document.querySelector(s);
-const shut = new Set((()=>{try{return JSON.parse(store.get("shutConf")||"[]")}catch(e){return []}})());
+// Conference bars: one default for every conference (set by Collapse all / Expand all, starts collapsed),
+// plus the ones you've opened or closed yourself. New conferences on other days follow the default.
+let confDefault = store.get("confDefault") || "shut";
+const confFlip = new Set((()=>{try{return JSON.parse(store.get("confFlip")||"[]")}catch(e){return []}})());
+const isShut = n => (confDefault==="shut") !== confFlip.has(n);
+const saveConf = ()=>{ store.set("confDefault", confDefault); store.set("confFlip", JSON.stringify([...confFlip])); };
 
 // Every Division I team's radio, from radio.json (researched per school).
 const normName = x => String(x||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")
@@ -972,7 +977,7 @@ function finalsToday(){
     .filter(e=> divFilter==="all" || (divFilter==="fav" ? isFavGame(e) : e._div===divFilter))
     .filter(e=> !q || e.competitions[0].competitors.some(t=>[t.team.location,t.team.displayName,t.team.shortDisplayName,t.team.abbreviation].join(" ").toLowerCase().includes(q)))
     .sort((x,y)=>new Date(y.date)-new Date(x.date));
-  const closed = !q && shut.has("Final");
+  const closed = !q && isShut("Final");
   return fin.length ? confHead("Final", fin.length, closed) + fin.map(e=>closed ? finCard(e).replace(/^<div /,"<div hidden ") : finCard(e)).join("") : "";
 }
 // Conference headers fold their games away; which ones are folded is remembered on this device.
@@ -981,10 +986,10 @@ function confHead(name, n, closed){
 }
 document.addEventListener("click", ev=>{
   const b = ev.target.closest("[data-conf],[data-confall]"); if(!b) return;
-  if(b.dataset.conf){ const n = b.dataset.conf; shut.has(n) ? shut.delete(n) : shut.add(n); }
+  if(b.dataset.conf){ const n = b.dataset.conf; confFlip.has(n) ? confFlip.delete(n) : confFlip.add(n); }
   else { const names = [...document.querySelectorAll("#list [data-conf]")].map(x=>x.dataset.conf).filter(n=>n!=="Final");
-    names.forEach(n=> b.dataset.confall==="shut" ? shut.add(n) : shut.delete(n)); }
-  store.set("shutConf", JSON.stringify([...shut])); render();
+    confDefault = b.dataset.confall==="shut" ? "shut" : "open"; confFlip.clear(); void names; }
+  saveConf(); render();
 });
 let upDay = "";
 document.addEventListener("click", ev=>{ const t = ev.target.closest(".daytab[data-day]"); if(!t) return; upDay = t.dataset.day; render(); });
@@ -1024,9 +1029,9 @@ function renderUpcoming(){
     if(!groups.has(conf)) groups.set(conf, []); groups.get(conf).push(e);
   }
   const names = [...groups.keys()].sort((x,y)=>x.localeCompare(y));
-  const allShut = names.every(n=>shut.has(n));
+  const allShut = names.every(n=>isShut(n));
   list.innerHTML = (q ? "" : tabs) + `<div class="sect">${q ? "This week" : dayLabel}${names.length>1 && !q ? `<button class="lnk" data-confall="${allShut?"open":"shut"}">${allShut?"Expand all":"Collapse all"}</button>` : ""}</div>` + names.map(n=>{
-    const gs = groups.get(n), closed = !q && shut.has(n);
+    const gs = groups.get(n), closed = !q && isShut(n);
     return confHead(n, gs.length, closed) + gs.sort((x,y)=>new Date(x.date)-new Date(y.date) || x.id.localeCompare(y.id)).map(e=>closed ? upCard(e).replace(/^<div /,"<div hidden ") : upCard(e)).join("");
   }).join("") + finalsToday();
 }
