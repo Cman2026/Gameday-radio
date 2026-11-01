@@ -8,16 +8,27 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - run: |
-          d=$(TZ=America/New_York date +%Y%m%d)
-          for g in 80 81; do curl -sS "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?groups=$g&limit=400&dates=$d" -o sb-$g.json; done
-          python3 -c "
-          import json
-          out=[]
-          for g,div in ((80,'FBS'),(81,'FCS')):
-            for e in json.load(open(f'sb-{g}.json')).get('events',[]):
-              c=e['competitions'][0]
-              out.append({'id':e['id'],'name':e['shortName'],'date':e['date'],'state':e['status']['type']['state'],'div':div,
-                'teams':[{'location':t['team'].get('location'),'display':t['team'].get('displayName'),'short':t['team'].get('shortDisplayName'),'home':t['homeAway']=='home'} for t in c['competitors']]})
-          json.dump(out,open('today-games.json','w'),indent=0)
-          "
+          python3 - <<'PY'
+          import json, sys, urllib.request, datetime, zoneinfo
+          sys.path.insert(0, "tools")
+          from sports import SPORTS, ESPN, UA
+          now = datetime.datetime.now(zoneinfo.ZoneInfo("America/New_York")).date()
+          out = {}
+          for day in (now, now + datetime.timedelta(days=1)):
+            d = f"{day:%Y%m%d}"
+            for sid, (path, groups) in SPORTS.items():
+              seen = {}
+              for g in groups:
+                try:
+                  with urllib.request.urlopen(urllib.request.Request(f"{ESPN}{path}/scoreboard?{g}limit=900&dates={d}", headers=UA), timeout=30) as r:
+                    for e in json.loads(r.read()).get("events", []):
+                      c = e["competitions"][0]
+                      seen[e["id"]] = {"id": e["id"], "name": e.get("shortName"), "date": e["date"], "state": e["status"]["type"]["state"],
+                        "teams": [{"location": t["team"].get("location"), "display": t["team"].get("displayName"), "id": t["team"].get("id"), "home": t["homeAway"] == "home"} for t in c["competitors"]]}
+                except Exception as ex:
+                  print("error", sid, d, ex)
+              out[f"{sid}|{d}"] = list(seen.values())
+              print(sid, d, len(seen))
+          json.dump(out, open("today-games.json", "w"), indent=0)
+          PY
       - run: tools/publish.sh "Today's schedule" today-games.json
