@@ -6,13 +6,14 @@ outside the page.
 
 Usage: python tools/playback_test.py [today|tomorrow|live|all]
 """
-import datetime, json, re, sys, time, urllib.parse, urllib.request
+import datetime, json, re, sys, time, urllib.parse, urllib.request, zoneinfo
 from playwright.sync_api import sync_playwright
+sys.path.insert(0, __import__("os").path.dirname(__file__))
+from sports import SPORTS, ESPN
 
 SITE = "https://gamedayradiolive.com/"
 UA = {"User-Agent": "Mozilla/5.0 (GamedayRadio playback test)"}
-SB = "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?groups={g}&limit=400{d}"
-ET = datetime.timezone(datetime.timedelta(hours=-4))
+ET = zoneinfo.ZoneInfo("America/New_York")  # follows daylight saving
 
 
 def norm(x):
@@ -26,9 +27,11 @@ def teams_in_games(scope):
         return None
     day = datetime.datetime.now(ET).date() + datetime.timedelta(days=1 if scope == "tomorrow" else 0)
     names = set()
-    for g in (80, 81):
+    # Every sport on the site, not just football: each school's main station carries them all.
+    for path, groups in SPORTS.values():
+      for g in groups:
         try:
-            url = SB.format(g=g, d=f"&dates={day:%Y%m%d}")
+            url = f"{ESPN}{path}/scoreboard?{g}limit=900&dates={day:%Y%m%d}"
             with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=20) as r:
                 for e in json.loads(r.read()).get("events", []):
                     if scope == "live" and e["status"]["type"]["state"] != "in":
@@ -37,7 +40,7 @@ def teams_in_games(scope):
                         for k in ("location", "displayName", "shortDisplayName"):
                             names.add(norm(c["team"].get(k)))
         except Exception as ex:
-            print("scoreboard error", ex)
+            print("scoreboard error", path, ex)
     return names
 
 

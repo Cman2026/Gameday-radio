@@ -161,7 +161,10 @@
    "WCMC-FM"
   ],
   "streams": [],
-  "athletics_site": "https://gopack.com"
+  "athletics_site": "https://gopack.com",
+  "bad_streams": [
+   "wral.com"
+  ]
  },
  {
   "school": "University of North Carolina at Chapel Hill",
@@ -2121,7 +2124,10 @@
    "WVAS"
   ],
   "streams": [],
-  "athletics_site": "https://bamastatesports.com"
+  "athletics_site": "https://bamastatesports.com",
+  "bad_streams": [
+   "ondemand.npr.org"
+  ]
  },
  {
   "school": "Bethune-Cookman University",
@@ -2581,13 +2587,15 @@
   "listen_page": "https://catamountsports.com",
   "conference": "Southern Conference",
   "calls": [
-   "WRGC",
-   "WFSC",
-   "WISE",
-   "WBRM"
+   "WRGC"
   ],
   "streams": [],
-  "athletics_site": "https://catamountsports.com"
+  "athletics_site": "https://catamountsports.com",
+  "securenet": "WRGC",
+  "bad_streams": [
+   "wvtf"
+  ],
+  "notes": "WRGC (Sylva) streams on SecureNet (WRGC); free school audio also on CatamountSports.com. WVTF/RadioIQ streams were a wrong match."
  },
  {
   "school": "Wofford College",
@@ -4976,8 +4984,10 @@
   "conference": "Horizon League",
   "calls": [],
   "athletics_site": "https://csuvikings.com",
-  "notes": "2025-26 (Oct 2025 release): SportsRadio 99.1 FM is the new flagship; iHeart covers all MBB regular-season games plus select WBB; WTAM 1100 AM carries select games only. 99.1 is WMMS-HD2 (WMMS main is a rock station), so no calls listed; no direct stream URL found. Use the iHeart 'SportsRadio 99.1' s",
-  "streams": [],
+  "notes": "2025-26 (Oct 2025 release): SportsRadio 99.1 FM is the new flagship; iHeart covers all MBB regular-season games plus select WBB; WTAM 1100 AM carries select games only. 99.1 is WMMS-HD2 (WMMS main is a rock station), so no calls listed; no direct stream URL found. Use the iHeart 'SportsRadio 99.1' s iHeart station id 5382 (iheart.com/live/sportsradio-991-5382).",
+  "streams": [
+   "https://stream.revma.ihrhls.com/zc5382"
+  ],
   "sports": [
    "mbb",
    "wbb"
@@ -5955,8 +5965,11 @@
   "conference": "Horizon League",
   "calls": [],
   "athletics_site": "https://goldengrizzlies.com",
-  "notes": "2025-26 (Nov 2025 preview): 'Neal Ruhl will be on the radio call on 97.1HD-3/1270am or the Audacy App online.' Calls left empty on purpose: WXYT must not resolve to the main 97.1 The Ticket stream. 1270 AM is now 'The Bet Detroit' with its own Audacy stream. No direct stream URL found.",
-  "streams": [],
+  "notes": "2025-26 (Nov 2025 preview): 'Neal Ruhl will be on the radio call on 97.1HD-3/1270am or the Audacy App online.' Calls left empty on purpose: WXYT must not resolve to the main 97.1 The Ticket stream. 1270 AM is now 'The Bet Detroit' with its own Audacy stream. No direct stream URL found. Stream given directly: Audacy WXYT-AM (1270 The Bet).",
+  "streams": [
+   "https://live.amperwave.net/direct/audacy-wxytamaac-imc",
+   "https://live.amperwave.net/manifest/audacy-wxytamaac-imc"
+  ],
   "sports": [
    "mbb"
   ],
@@ -6226,7 +6239,8 @@
   "basketball_only": true,
   "source": "https://gobroncs.com/news/2025/11/14/mens-basketball-hosts-eastern-in-home-opener-saturday-night.aspx",
   "listen_page": "https://streamdb4web.securenetsystems.net/v5/index.cfm?stationCallSign=WRRC2",
-  "research": "confirmed"
+  "research": "confirmed",
+  "securenet": "WRRC2"
  },
  {
   "school": "Southern Illinois University Edwardsville",
