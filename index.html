@@ -680,16 +680,24 @@ function attachRadio(tm){
   let hit = null; for(const n of tries){ hit = dirIndex.get(normName(n)); if(hit) break; }
   // School game feeds are found per sport at game time; only use them for the sport they were found for.
   const feedsMine = (hit?.game_feeds_sport || "fb") === SPORT.id;
-  const streams = feedsMine ? (hit?.streams||[]) : (hit?.streams||[]).filter(u=>!(hit.game_feeds||[]).includes(u));
-  if(!hit || !streams.length){ if(hit) RADIO_INFO[tm.location] = hit; return; }
-  const {playable, external} = orderStreams(hit.school, streams, feedsMine ? hit.game_feeds : []);
-  RADIO[tm.location] = {net: hit.network || `${tm.location} radio`, station: hit.flagship || "", streams: playable, external, listen: hit.listen_page || ""};
+  const feeds = feedsMine ? (hit?.game_feeds||[]) : [];
+  // Main sports stations carry football and basketball (and usually hockey), but almost never volleyball,
+  // baseball or softball. For those, use the station only where we know it carries the sport;
+  // otherwise only the school's own game feed.
+  const stationOK = !STATION_OPT_IN.has(SPORT.id) || (hit?.station_sports||[]).includes(SPORT.id);
+  const streams = (hit?.streams||[]).filter(u => (hit.game_feeds||[]).includes(u) ? feedsMine : stationOK);
+  if(!hit || !streams.length){ if(hit) RADIO_INFO[tm.location] = stationOK ? hit : {...hit, sportFeedOnly: true}; return; }
+  const {playable, external} = orderStreams(hit.school, streams, feeds);
+  RADIO[tm.location] = stationOK
+    ? {net: hit.network || `${tm.location} radio`, station: hit.flagship || "", streams: playable, external, listen: hit.listen_page || ""}
+    : {net: `${tm.location} ${SPORT.name.toLowerCase()} audio`, station: "School broadcast", streams: playable, external, listen: hit.athletics_site || ""};
 }
 const RADIO_INFO = {}; // teams we know about but have no free stream for
+const STATION_OPT_IN = new Set(["wvb", "bsb", "sb"]);
 // School-run feeds that only exist around game time (picked up ~20 minutes before the game starts).
 function gameTimeOnly(loc){ const i = RADIO_INFO[loc]; return !!(i && i.game_only && !(i.streams||[]).filter(u=>!(i.game_feeds||[]).includes(u)).length); }
 // No station known, but the school has an athletics site: the game-time finder checks it from 3 hours before the start.
-function feedMaybe(loc){ const i = RADIO_INFO[loc]; return !!(i && !i.game_only && !i.no_radio && !(i.calls||[]).length && i.athletics_site); }
+function feedMaybe(loc){ const i = RADIO_INFO[loc]; return !!(i && !i.game_only && i.athletics_site && (i.sportFeedOnly || (!i.no_radio && !(i.calls||[]).length))); }
 const waitsForFeed = loc => gameTimeOnly(loc) || feedMaybe(loc);
 const feedText = (loc, live) => gameTimeOnly(loc)
   ? (live ? "comes from the school's own feed and should appear within a few minutes" : `goes live about 20 minutes before ${SPORT.start}`)
