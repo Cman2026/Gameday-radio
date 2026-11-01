@@ -1,5 +1,5 @@
 {
-"built": "2026-11-01T00:44:15Z",
+"built": "2026-11-01T19:12:05Z",
 "teams": [
 {
 "school": "Boston College",
@@ -47,6 +47,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF1001-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KSFOAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KSFOAMAAC.m3u8",
 "http://playerservices.streamtheworld.com/api/livestream-redirect/KSFOAMAAC.aac"
@@ -103,6 +104,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM3501-MP3",
 "https://media-hls.wral.com/vodhttporigins3/_definst_/smil:amazons3/cbcnm-static-web-content/home/web/wral/public/asset/news/state/nccapitol/2023/05/25/20879545/3185796-gop-DMID1-5z0xt25hf.smil/playlist.m3u8"
 ],
 "misses": 0,
@@ -129,6 +131,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://fsu.leanstream.co/FS0101-MP3",
 "https://stream.revma.ihrhls.com/zc661",
 "https://stream.revma.ihrhls.com/zc661/hls.m3u8?hls=true",
 "http://stream.revma.ihrhls.com/zc661"
@@ -183,6 +186,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM7501-MP3",
 "https://live.amperwave.net/direct/unionbroadcasting-wlclamaac-ibc2",
 "http://live.amperwave.net/direct/unionbroadcasting-wlclamaac-ibc2"
 ],
@@ -238,6 +242,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM9301-MP3",
 "https://media-hls.wral.com/vodhttporigins3/_definst_/smil:amazons3/cbcnm-static-web-content/home/web/wral/public/asset/news/state/nccapitol/2023/05/25/20879545/3185796-gop-DMID1-5z0xt25hf.smil/playlist.m3u8"
 ],
 "misses": 0,
@@ -265,6 +270,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM9201-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WPTFAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WPTFAM.mp3"
 ],
@@ -325,6 +331,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF5401-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.m3u8",
 "http://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.aac"
@@ -380,6 +387,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM4801-MP3",
 "https://live.amperwave.net/manifest/galaxy-wtkwfmaac-hlsc1.m3u8?source=v7player"
 ],
 "misses": 0,
@@ -456,6 +464,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM2401-MP3",
 "https://live.amperwave.net/manifest/blueridgeradio-wbrffmaac-hlsc4.m3u8"
 ],
 "misses": 0,
@@ -509,6 +518,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM3401-MP3",
 "https://stream.revma.ihrhls.com/zc5238",
 "https://stream.revma.ihrhls.com/zc5238/hls.m3u8",
 "http://stream.revma.ihrhls.com/zc5238"
@@ -537,6 +547,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM8601-MP3",
 "https://stream.revma.ihrhls.com/zc1493",
 "https://stream.revma.ihrhls.com/zc1493/hls.m3u8",
 "http://stream.revma.ihrhls.com/zc1493"
@@ -649,6 +660,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF3101-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WKIMFMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WKIMFMAAC.m3u8",
 "http://playerservices.streamtheworld.com/api/livestream-redirect/WKIMFMAAC.aac"
@@ -677,9 +689,8 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://playerservices.streamtheworld.com/api/livestream-redirect/WBALAM.mp3",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/WBALAMAAC.aac",
-"http://26103.live.streamtheworld.com/WBALAMAAC_SC"
+"https://ice26.securenetsystems.net/WNAV",
+"https://crystalout.surfernetwork.com:8001/WNAV-AM_MP3"
 ],
 "misses": 0,
 "miss_day": null,
@@ -773,7 +784,9 @@
 "game_only": true,
 "no_radio": null,
 "notes": "Free school audio on OwlSports.com",
-"streams": [],
+"streams": [
+"https://cdn.jwplayer.com/live/broadcast/3j2GACVG.m3u8"
+],
 "misses": 1,
 "miss_day": "2026-11-01",
 "last_ok": "2026-10-31",
@@ -847,6 +860,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM2001-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WJOXFMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WJOXFMAAC.m3u8",
 "http://playerservices.streamtheworld.com/api/livestream-redirect/WJOXFMAAC.aac"
@@ -900,9 +914,11 @@
 "game_only": true,
 "no_radio": null,
 "notes": null,
-"streams": [],
-"misses": 0,
-"miss_day": null,
+"streams": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3"
+],
+"misses": 1,
+"miss_day": "2026-11-01",
 "last_ok": "2026-11-01",
 "live_only": false,
 "game_feeds": null
@@ -975,7 +991,9 @@
 "game_only": null,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://img.leanstream.co/LF2401-MP3"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
@@ -1078,7 +1096,9 @@
 "game_only": null,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://img.leanstream.co/LF2701-MP3"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
@@ -1102,7 +1122,9 @@
 "game_only": null,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://img.leanstream.co/IM1601-MP3"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
@@ -1179,7 +1201,9 @@
 "game_only": null,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://img.leanstream.co/IM1801-MP3"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
@@ -1385,6 +1409,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM7101-MP3",
 "https://stream.revma.ihrhls.com/zc389",
 "https://stream.revma.ihrhls.com/zc389/hls.m3u8",
 "http://stream.revma.ihrhls.com/zc389"
@@ -1438,6 +1463,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM7901-MP3",
 "https://stream.revma.ihrhls.com/zc913",
 "https://stream.revma.ihrhls.com/zc913/hls.m3u8",
 "http://stream.revma.ihrhls.com/zc913"
@@ -1492,6 +1518,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM8001-MP3",
 "https://stream-02.surfernetwork.com/drscz5r6naxuv"
 ],
 "misses": 0,
@@ -1517,7 +1544,9 @@
 "game_only": null,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://img.leanstream.co/IM9101-MP3"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
@@ -1541,6 +1570,8 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM4901-MP3",
+"https://img.leanstream.co/IM4903-MP3",
 "https://stream.revma.ihrhls.com/zc3379",
 "https://stream.revma.ihrhls.com/zc3379/hls.m3u8",
 "http://stream.revma.ihrhls.com/zc3379"
@@ -1568,6 +1599,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM8101-MP3",
 "https://ais-sa1.streamon.fm/7197_48k.aac",
 "https://ais-sa1.streamon.fm/7001_48k.aac"
 ],
@@ -1672,6 +1704,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM5801-MP3",
 "https://radiohio.streamguys1.com/cols/wbnsfm-iheart.m4a",
 "https://oom-radiohio.streamguys1.com/cols/wbnsfm.mp3",
 "http://radiohio.streamguys1.com/cols/wbnsfm-iheart.m4a"
@@ -1700,7 +1733,9 @@
 "game_only": null,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://img.leanstream.co/IM4001-MP3"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
@@ -1756,6 +1791,7 @@
 "notes": null,
 "streams": [
 "https://ice25.securenetsystems.net/WDWS",
+"https://img.leanstream.co/IM7401-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WSOYAM.mp3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WSOYAMAAC.aac"
 ],
@@ -1787,6 +1823,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM7301-MP3",
 "https://soundmanagement.streamguys1.com/WHCC"
 ],
 "misses": 0,
@@ -1894,6 +1931,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM8401-MP3",
 "https://stream.revma.ihrhls.com/zc1209",
 "https://stream.revma.ihrhls.com/zc1209/hls.m3u8",
 "http://stream.revma.ihrhls.com/zc1209"
@@ -1974,6 +2012,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM0801-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAMAAC.m3u8",
 "http://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAMAAC.aac"
@@ -2026,6 +2065,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM4601-MP3",
 "https://live.amperwave.net/direct/audacy-wfanamaac-imc",
 "https://live.amperwave.net/manifest/audacy-wfanamaac-imc",
 "http://live.amperwave.net/direct/audacy-wfanamaac-imc"
@@ -2080,6 +2120,8 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF8201-MP3",
+"https://img.leanstream.co/LF8204-MP3",
 "https://live.amperwave.net/direct/goodkarma-kspnamaac-ibc",
 "http://live.amperwave.net/direct/goodkarma-kspnamaac-ibc"
 ],
@@ -2140,6 +2182,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM8501-MP3",
 "https://stream.revma.ihrhls.com/zc2661",
 "https://stream.revma.ihrhls.com/zc2661/hls.m3u8",
 "http://stream.revma.ihrhls.com/zc2661"
@@ -2213,7 +2256,9 @@
 "game_only": true,
 "no_radio": null,
 "notes": "School audio on GoCamels.com, game days only",
-"streams": [],
+"streams": [
+"https://cdn.jwplayer.com/live/broadcast/8eUvetd9.m3u8"
+],
 "misses": 2,
 "miss_day": "2026-11-01",
 "last_ok": "2026-10-31",
@@ -2358,7 +2403,9 @@
 "game_only": null,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://cdn.jwplayer.com/live/broadcast/KtfQesje.m3u8"
+],
 "misses": 2,
 "miss_day": "2026-11-01",
 "last_ok": "2026-10-31",
@@ -2380,7 +2427,9 @@
 "game_only": true,
 "no_radio": null,
 "notes": "Free school audio (LEANplayer)",
-"streams": [],
+"streams": [
+"https://learfield-gd.leanstream.co/LF4901-MP3?sport=FB"
+],
 "misses": 2,
 "miss_day": "2026-11-01",
 "last_ok": "2026-10-31",
@@ -2473,6 +2522,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://live.amperwave.net/manifest/sunbury-wkokamaac-hlsc2.m3u8?source=sidearm",
 "https://live.amperwave.net/playlist/sunbury-wkokamaac-ibc1.pls?source=airkast",
 "http://live.amperwave.net/playlist/sunbury-wkokamaac-ibc1.pls?source=airkast"
 ],
@@ -2636,7 +2686,9 @@
 "game_only": true,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://stream.rcs.revma.com/x4q6k4dw57uvv"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
@@ -3777,7 +3829,9 @@
 "game_only": true,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://peaksports.leanstream.co/PS0101-MP3"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
@@ -3998,6 +4052,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF8101-MP3",
 "https://live.amperwave.net/manifest/townsquare-ktbqfmaac-ibc3"
 ],
 "misses": 0,
@@ -4070,7 +4125,10 @@
 "game_only": true,
 "no_radio": null,
 "notes": "WEIU Hit-Mix stream is token-signed (caster.fm); re-captured from the listen page each game",
-"streams": [],
+"streams": [
+"https://widgets.cloud.caster.fm/player/?token=3c7b4fe8-7d0a-45ce-87e5-9848426f9634&frameId=4ebjj&theme=light&color=6C2BDD",
+"https://widgets.cloud.caster.fm/cdn-cgi/rum?"
+],
 "misses": 2,
 "miss_day": "2026-11-01",
 "last_ok": null,
@@ -4327,7 +4385,9 @@
 "game_only": true,
 "no_radio": null,
 "notes": "School audio on GoRedFoxes.com",
-"streams": [],
+"streams": [
+"https://cdn.jwplayer.com/live/broadcast/3TH9Dtwc.m3u8"
+],
 "misses": 1,
 "miss_day": "2026-11-01",
 "last_ok": "2026-10-31",
@@ -4351,6 +4411,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://ice5.securenetsystems.net/WIVY?playSessionID=CAD94437-8A97-4B89-A64B6786D95C079F",
 "https://ice5.securenetsystems.net/WIVY"
 ],
 "misses": 0,
@@ -4402,6 +4463,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KSTPAM.mp3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KSTPAMAAC.aac"
 ],
 "misses": 0,
@@ -4496,6 +4558,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM7701-MP3",
 "https://live.amperwave.net/manifest/townsquare-kgvoamaac-ibc3"
 ],
 "misses": 0,
@@ -4525,6 +4588,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF3701-MP3",
 "https://live.amperwave.net/manifest/townsquare-kxlbfmaac-ibc3",
 "https://live.amperwave.net/manifest/townsquare-kmptamaac-ibc3"
 ],
@@ -4580,6 +4644,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF2501-MP3",
 "https://live.amperwave.net/direct/horizonbroadcasting-kbnwammp3-ibc1"
 ],
 "misses": 0,
@@ -4634,7 +4699,9 @@
 "game_only": null,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://img.leanstream.co/LF4401-MP3"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
@@ -4709,8 +4776,8 @@
 "streams": [
 "https://das-edge29-sa27-lax02.cdnstream.com/2284_96.aac"
 ],
-"misses": 0,
-"miss_day": null,
+"misses": 1,
+"miss_day": "2026-11-01",
 "last_ok": "2026-11-01",
 "game_feeds": null
 },
@@ -4755,6 +4822,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://bonneville.cdnstream1.com/2799_64.mp3",
 "https://bonneville.cdnstream1.com/2616_48.aac?aw_0_1st.playerid=IHM",
 "https://bonneville.cdnstream1.com/2616_48.aac/playlist.m3u8?aw_0_1st.playerid=IHM",
 "http://bonneville.cdnstream1.com/2616_48.aac?aw_0_1st.playerid=IHM"
@@ -4833,6 +4901,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF2601-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WJBCAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WJBCAMAAC.m3u8",
 "http://playerservices.streamtheworld.com/api/livestream-redirect/WJBCAMAAC.aac"
@@ -4860,7 +4929,9 @@
 "game_only": null,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://live.amperwave.net/manifest/jdl-wvigfmaac-hlsc.m3u8"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
@@ -4937,7 +5008,9 @@
 "game_only": null,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://img.leanstream.co/LF4601-MP3"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
@@ -4962,7 +5035,9 @@
 "game_only": null,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://img.leanstream.co/LF5201-MP3"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
@@ -4987,6 +5062,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF6801-MP3",
 "https://live.amperwave.net/manifest/saga-wnaxamaac-hlsc1.m3u8"
 ],
 "misses": 0,
@@ -5172,7 +5248,9 @@
 "game_only": null,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://ice64.securenetsystems.net/WLLX"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
@@ -5631,7 +5709,9 @@
 "game_only": true,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8"
+],
 "misses": 12,
 "miss_day": "2026-11-01",
 "last_ok": null,
@@ -5886,6 +5966,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF1701-MP3",
 "https://bonneville.cdnstream1.com/2612_48.aac?aw_0_1st.playerid=IHM",
 "https://bonneville.cdnstream1.com/2612_48.aac/playlist.m3u8?aw_0_1st.playerid=IHM"
 ],
@@ -5972,9 +6053,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://stream.revma.ihrhls.com/zc8528",
-"https://stream.revma.ihrhls.com/zc8528/hls.m3u8",
-"http://stream.revma.ihrhls.com/zc8528"
+"https://stream.revma.ihrhls.com/zc8528/hls.m3u8"
 ],
 "misses": 0,
 "miss_day": null,
@@ -6032,6 +6111,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF6301-MP3",
 "https://bonneville.cdnstream1.com/2706_48.aac"
 ],
 "misses": 0,
@@ -6086,6 +6166,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM2601-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KVORAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KVORAMAAC.m3u8",
 "http://playerservices.streamtheworld.com/api/livestream-redirect/KVORAMAAC.aac"
@@ -6198,7 +6279,9 @@
 "game_only": null,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://img.leanstream.co/LF7501-MP3"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
@@ -6439,6 +6522,7 @@
 "notes": null,
 "streams": [
 "https://ais-sa1.streamon.fm/7644_48k.aac",
+"https://img.leanstream.co/IM3601-MP3",
 "https://ais-sa1.streamon.fm/7644_64k.mp3",
 "http://ais-sa1.streamon.fm/7644_48k.aac/playlist.m3u8"
 ],
@@ -6471,6 +6555,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM5001-MP3",
 "https://cmg.streamguys1.com/atl750/atl750-encoder.aac/playlist.m3u8?aw_0_1st.playerId=cmg_iheart",
 "http://cmg.streamguys1.com/atl750/atl750-encoder.aac/playlist.m3u8?aw_0_1st.playerId=cmg_iheart"
 ],
@@ -6551,6 +6636,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM4101-MP3",
 "https://live.amperwave.net/manifest/telesouth-wqljfmaac-hlsc1.m3u8?source=v7player"
 ],
 "misses": 0,
@@ -6577,6 +6663,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM8301-MP3",
 "https://live.amperwave.net/manifest/telesouth-wkbbfmaac-hlsc1.m3u8?source=v7player",
 "https://live.amperwave.net/manifest/telesouth-wkbbfmaac-imc1",
 "https://live.amperwave.net/manifest/telesouth-wzkrfmaac-imc"
