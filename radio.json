@@ -1,5 +1,5 @@
 {
-"built": "2026-11-01T20:05:19Z",
+"built": "2026-11-01T20:12:10Z",
 "teams": [
 {
 "school": "Boston College",
@@ -26,6 +26,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://bceagles.com",
 "game_feeds": null
 },
 {
@@ -56,6 +57,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://calbears.com",
 "game_feeds": null
 },
 {
@@ -85,6 +87,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://clemsontigers.com",
 "game_feeds": null
 },
 {
@@ -111,6 +114,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://goduke.com",
 "game_feeds": null
 },
 {
@@ -140,6 +144,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://seminoles.com",
 "game_feeds": null
 },
 {
@@ -166,6 +171,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://ramblinwreck.com",
 "game_feeds": null
 },
 {
@@ -194,6 +200,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://gocards.com",
 "game_feeds": null
 },
 {
@@ -222,6 +229,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://miamihurricanes.com",
 "game_feeds": null
 },
 {
@@ -248,6 +256,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://gopack.com",
 "game_feeds": null
 },
 {
@@ -277,6 +286,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://goheels.com",
 "game_feeds": null
 },
 {
@@ -305,6 +315,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://pittsburghpanthers.com",
 "game_feeds": null
 },
 {
@@ -334,6 +345,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://smumustangs.com",
 "game_feeds": null
 },
 {
@@ -362,6 +374,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://gostanford.com",
 "game_feeds": null
 },
 {
@@ -388,6 +401,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://cuse.com",
 "game_feeds": null
 },
 {
@@ -414,6 +428,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://virginiasports.com",
 "game_feeds": null
 },
 {
@@ -439,6 +454,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://hokiesports.com",
 "game_feeds": null
 },
 {
@@ -465,6 +481,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://godeacs.com",
 "game_feeds": null
 },
 {
@@ -492,6 +509,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://fightingirish.com",
 "game_feeds": null
 },
 {
@@ -521,6 +539,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://uconnhuskies.com",
 "game_feeds": null
 },
 {
@@ -550,6 +569,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://goarmywestpoint.com",
 "game_feeds": null
 },
 {
@@ -583,7 +603,8 @@
 ],
 "game_feeds_at": "2026-11-01T19:49:51Z",
 "game_feeds_sport": "wvb",
-"live_only": true
+"live_only": true,
+"athletics_site": "https://charlotte49ers.com"
 },
 {
 "school": "East Carolina University",
@@ -609,6 +630,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://ecupirates.com",
 "game_feeds": null
 },
 {
@@ -635,6 +657,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://fausports.com",
 "game_feeds": null
 },
 {
@@ -663,6 +686,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://gotigersgo.com",
 "game_feeds": null
 },
 {
@@ -689,6 +713,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://navysports.com",
 "game_feeds": null
 },
 {
@@ -716,6 +741,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://meangreensports.com",
 "game_feeds": null
 },
 {
@@ -736,6 +762,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://riceowls.com",
 "game_feeds": null
 },
 {
@@ -762,6 +789,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://gousfbulls.com",
 "game_feeds": null
 },
 {
@@ -785,6 +813,7 @@
 "miss_day": "2026-11-01",
 "last_ok": "2026-10-31",
 "live_only": false,
+"athletics_site": "https://owlsports.com",
 "game_feeds": null
 },
 {
@@ -811,6 +840,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://tulanegreenwave.com",
 "game_feeds": null
 },
 {
@@ -835,6 +865,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://tulsahurricane.com",
 "game_feeds": null
 },
 {
@@ -863,6 +894,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://uabsports.com",
 "game_feeds": null
 },
 {
@@ -889,6 +921,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://goutsa.com",
 "game_feeds": null
 },
 {
@@ -915,6 +948,7 @@
 "miss_day": "2026-11-01",
 "last_ok": "2026-11-01",
 "live_only": false,
+"athletics_site": "https://appstatesports.com",
 "game_feeds": null
 },
 {
@@ -940,6 +974,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://astateredwolves.com",
 "game_feeds": null
 },
 {
@@ -967,6 +1002,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://goccusports.com",
 "game_feeds": null
 },
 {
@@ -992,6 +1028,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": false,
+"athletics_site": "https://gseagles.com",
 "game_feeds": null
 },
 {
@@ -1018,6 +1055,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://georgiastatesports.com",
 "game_feeds": null
 },
 {
@@ -1044,6 +1082,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://jmusports.com",
 "game_feeds": null
 },
 {
@@ -1071,6 +1110,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://ragincajuns.com",
 "game_feeds": null
 },
 {
@@ -1097,6 +1137,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": false,
+"athletics_site": "https://latechsports.com",
 "game_feeds": null
 },
 {
@@ -1123,6 +1164,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": false,
+"athletics_site": "https://herdzone.com",
 "game_feeds": null
 },
 {
@@ -1148,6 +1190,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://odusports.com",
 "game_feeds": null
 },
 {
@@ -1176,6 +1219,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://usajaguars.com",
 "game_feeds": null
 },
 {
@@ -1202,6 +1246,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": false,
+"athletics_site": "https://southernmiss.com",
 "game_feeds": null
 },
 {
@@ -1226,6 +1271,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://troytrojans.com",
 "game_feeds": null
 },
 {
@@ -1252,6 +1298,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://ulmwarhawks.com",
 "game_feeds": null
 },
 {
@@ -1279,6 +1326,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://arizonawildcats.com",
 "game_feeds": null
 },
 {
@@ -1306,6 +1354,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://thesundevils.com",
 "game_feeds": null
 },
 {
@@ -1330,6 +1379,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://baylorbears.com",
 "game_feeds": null
 },
 {
@@ -1356,6 +1406,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://byucougars.com",
 "game_feeds": null
 },
 {
@@ -1383,6 +1434,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://gobearcats.com",
 "game_feeds": null
 },
 {
@@ -1412,6 +1464,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://cubuffs.com",
 "game_feeds": null
 },
 {
@@ -1438,6 +1491,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://uhcougars.com",
 "game_feeds": null
 },
 {
@@ -1466,6 +1520,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://cyclones.com",
 "game_feeds": null
 },
 {
@@ -1491,6 +1546,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://kuathletics.com",
 "game_feeds": null
 },
 {
@@ -1519,6 +1575,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://kstatesports.com",
 "game_feeds": null
 },
 {
@@ -1545,6 +1602,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": false,
+"athletics_site": "https://okstate.com",
 "game_feeds": null
 },
 {
@@ -1574,6 +1632,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://gofrogs.com",
 "game_feeds": null
 },
 {
@@ -1601,6 +1660,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://texastech.com",
 "game_feeds": null
 },
 {
@@ -1627,6 +1687,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://ucfknights.com",
 "game_feeds": null
 },
 {
@@ -1651,6 +1712,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://utahutes.com",
 "game_feeds": null
 },
 {
@@ -1677,6 +1739,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://wvusports.com",
 "game_feeds": null
 },
 {
@@ -1707,6 +1770,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://ohiostatebuckeyes.com",
 "game_feeds": null
 },
 {
@@ -1734,6 +1798,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": false,
+"athletics_site": "https://mgoblue.com",
 "game_feeds": null
 },
 {
@@ -1763,6 +1828,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://gopsusports.com",
 "game_feeds": null
 },
 {
@@ -1797,7 +1863,8 @@
 ],
 "game_feeds_at": "2026-11-01T19:07:25Z",
 "live_only": true,
-"game_feeds_sport": "wvb"
+"game_feeds_sport": "wvb",
+"athletics_site": "https://fightingillini.com"
 },
 {
 "school": "Indiana University",
@@ -1824,6 +1891,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://iuhoosiers.com",
 "game_feeds": null
 },
 {
@@ -1851,6 +1919,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://hawkeyesports.com",
 "game_feeds": null
 },
 {
@@ -1877,6 +1946,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://umterps.com",
 "game_feeds": null
 },
 {
@@ -1905,6 +1975,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://msuspartans.com",
 "game_feeds": null
 },
 {
@@ -1934,6 +2005,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://gophersports.com",
 "game_feeds": null
 },
 {
@@ -1960,6 +2032,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://huskers.com",
 "game_feeds": null
 },
 {
@@ -1986,6 +2059,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://nusports.com",
 "game_feeds": null
 },
 {
@@ -2015,6 +2089,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://goducks.com",
 "game_feeds": null
 },
 {
@@ -2039,6 +2114,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://purduesports.com",
 "game_feeds": null
 },
 {
@@ -2068,6 +2144,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://scarletknights.com",
 "game_feeds": null
 },
 {
@@ -2094,6 +2171,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://uclabruins.com",
 "game_feeds": null
 },
 {
@@ -2123,6 +2201,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://usctrojans.com",
 "game_feeds": null
 },
 {
@@ -2152,6 +2231,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://gohuskies.com",
 "game_feeds": null
 },
 {
@@ -2180,6 +2260,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://uwbadgers.com",
 "game_feeds": null
 },
 {
@@ -2205,6 +2286,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://ualbanysports.com",
 "game_feeds": null
 },
 {
@@ -2229,6 +2311,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://bryantbulldogs.com",
 "game_feeds": null
 },
 {
@@ -2252,6 +2335,7 @@
 "miss_day": "2026-11-01",
 "last_ok": "2026-10-31",
 "live_only": false,
+"athletics_site": "https://gocamels.com",
 "game_feeds": null
 },
 {
@@ -2274,6 +2358,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://elonphoenix.com",
 "game_feeds": null
 },
 {
@@ -2296,6 +2381,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-10-31",
+"athletics_site": "https://hamptonpirates.com",
 "game_feeds": null
 },
 {
@@ -2324,6 +2410,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://goblackbears.com",
 "game_feeds": null
 },
 {
@@ -2346,6 +2433,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-10-31",
+"athletics_site": "https://monmouthhawks.com",
 "game_feeds": null
 },
 {
@@ -2375,6 +2463,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://unhwildcats.com",
 "game_feeds": null
 },
 {
@@ -2399,6 +2488,7 @@
 "miss_day": "2026-11-01",
 "last_ok": "2026-10-31",
 "live_only": false,
+"athletics_site": "https://ncataggies.com",
 "game_feeds": null
 },
 {
@@ -2423,6 +2513,7 @@
 "miss_day": "2026-11-01",
 "last_ok": "2026-10-31",
 "live_only": false,
+"athletics_site": "https://gorhody.com",
 "game_feeds": null
 },
 {
@@ -2443,6 +2534,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://sacredheartpioneers.com",
 "game_feeds": null
 },
 {
@@ -2468,6 +2560,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://stonybrookathletics.com",
 "game_feeds": null
 },
 {
@@ -2492,6 +2585,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://towsontigers.com",
 "game_feeds": null
 },
 {
@@ -2519,6 +2613,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://bucknellbison.com",
 "game_feeds": null
 },
 {
@@ -2544,6 +2639,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://gocolgateraiders.com",
 "game_feeds": null
 },
 {
@@ -2570,6 +2666,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://fordhamsports.com",
 "game_feeds": null
 },
 {
@@ -2590,6 +2687,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://guhoyas.com",
 "game_feeds": null
 },
 {
@@ -2610,6 +2708,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://goholycross.com",
 "game_feeds": null
 },
 {
@@ -2630,6 +2729,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://goleopards.com",
 "game_feeds": null
 },
 {
@@ -2657,6 +2757,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://lehighsports.com",
 "game_feeds": null
 },
 {
@@ -2682,6 +2783,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": false,
+"athletics_site": "https://richmondspiders.com",
 "game_feeds": null
 },
 {
@@ -2708,6 +2810,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://villanova.com",
 "game_feeds": null
 },
 {
@@ -2734,6 +2837,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://tribeathletics.com",
 "game_feeds": null
 },
 {
@@ -2754,6 +2858,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-10-31",
+"athletics_site": "https://brownbears.com",
 "game_feeds": null
 },
 {
@@ -2779,6 +2884,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://gocolumbialions.com",
 "game_feeds": null
 },
 {
@@ -2799,6 +2905,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-10-31",
+"athletics_site": "https://cornellbigred.com",
 "game_feeds": null
 },
 {
@@ -2829,7 +2936,8 @@
 ],
 "game_feeds_at": "2026-11-01T19:49:51Z",
 "game_feeds_sport": "mhk",
-"live_only": true
+"live_only": true,
+"athletics_site": "https://dartmouthsports.com"
 },
 {
 "school": "Harvard University",
@@ -2853,6 +2961,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://gocrimson.com",
 "game_feeds": null
 },
 {
@@ -2874,6 +2983,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://pennathletics.com",
 "game_feeds": null
 },
 {
@@ -2894,6 +3004,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-10-31",
+"athletics_site": "https://goprincetontigers.com",
 "game_feeds": null
 },
 {
@@ -2920,6 +3031,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://yalebulldogs.com",
 "game_feeds": null
 },
 {
@@ -2941,6 +3053,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://ccsubluedevils.com",
 "game_feeds": null
 },
 {
@@ -2987,6 +3100,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://goduquesne.com",
 "game_feeds": null
 },
 {
@@ -3008,6 +3122,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://liuathletics.com",
 "game_feeds": null
 },
 {
@@ -3028,6 +3143,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://hurstathletics.com",
 "game_feeds": null
 },
 {
@@ -3048,6 +3164,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://newhavenchargers.com",
 "game_feeds": null
 },
 {
@@ -3071,6 +3188,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://rmucolonials.com",
 "game_feeds": null
 },
 {
@@ -3091,6 +3209,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://stonehillskyhawks.com",
 "game_feeds": null
 },
 {
@@ -3111,6 +3230,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://wagnerathletics.com",
 "game_feeds": null
 },
 {
@@ -3136,6 +3256,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://aamusports.com",
 "game_feeds": null
 },
 {
@@ -3161,6 +3282,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://bamastatesports.com",
 "game_feeds": null
 },
 {
@@ -3186,6 +3308,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://bcuathletics.com",
 "game_feeds": null
 },
 {
@@ -3213,6 +3336,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://famuathletics.com",
 "game_feeds": null
 },
 {
@@ -3238,6 +3362,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://gojsutigers.com",
 "game_feeds": null
 },
 {
@@ -3259,6 +3384,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://mvsusports.com",
 "game_feeds": null
 },
 {
@@ -3284,6 +3410,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://alcornsports.com",
 "game_feeds": null
 },
 {
@@ -3305,6 +3432,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://uapblionsroar.com",
 "game_feeds": null
 },
 {
@@ -3331,6 +3459,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://gsutigers.com",
 "game_feeds": null
 },
 {
@@ -3352,6 +3481,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://pvpanthers.com",
 "game_feeds": null
 },
 {
@@ -3373,6 +3503,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://gojagsports.com",
 "game_feeds": null
 },
 {
@@ -3398,6 +3529,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://tsusports.com",
 "game_feeds": null
 },
 {
@@ -3419,6 +3551,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://dsuhornets.com",
 "game_feeds": null
 },
 {
@@ -3439,6 +3572,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-10-31",
+"athletics_site": "https://hubison.com",
 "game_feeds": null
 },
 {
@@ -3464,6 +3598,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://morganstatebears.com",
 "game_feeds": null
 },
 {
@@ -3490,6 +3625,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://nsuspartans.com",
 "game_feeds": null
 },
 {
@@ -3512,6 +3648,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://nccueaglepride.com",
 "game_feeds": null
 },
 {
@@ -3537,6 +3674,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://scsuathletics.com",
 "game_feeds": null
 },
 {
@@ -3557,6 +3695,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-10-31",
+"athletics_site": "https://merrimackathletics.com",
 "game_feeds": null
 },
 {
@@ -3577,6 +3716,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://gocsucougars.com",
 "game_feeds": null
 },
 {
@@ -3602,6 +3742,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://gomocs.com",
 "game_feeds": null
 },
 {
@@ -3630,6 +3771,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://etsubucs.com",
 "game_feeds": null
 },
 {
@@ -3657,6 +3799,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://furmanpaladins.com",
 "game_feeds": null
 },
 {
@@ -3681,6 +3824,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://mercerbears.com",
 "game_feeds": null
 },
 {
@@ -3701,6 +3845,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://samfordsports.com",
 "game_feeds": null
 },
 {
@@ -3725,6 +3870,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://ttusports.com",
 "game_feeds": null
 },
 {
@@ -3749,6 +3895,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://citadelsports.com",
 "game_feeds": null
 },
 {
@@ -3773,6 +3920,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://vmikeydets.com",
 "game_feeds": null
 },
 {
@@ -3798,6 +3946,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://catamountsports.com",
 "game_feeds": null
 },
 {
@@ -3821,6 +3970,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": false,
+"athletics_site": "https://woffordterriers.com",
 "game_feeds": null
 },
 {
@@ -3847,6 +3997,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://lionathletics.com",
 "game_feeds": null
 },
 {
@@ -3872,6 +4023,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://hcuhuskies.com",
 "game_feeds": null
 },
 {
@@ -3893,6 +4045,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://uiwcardinals.com",
 "game_feeds": null
 },
 {
@@ -3919,6 +4072,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://lamarcardinals.com",
 "game_feeds": null
 },
 {
@@ -3944,6 +4098,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://mcneesesports.com",
 "game_feeds": null
 },
 {
@@ -3968,6 +4123,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://geauxcolonels.com",
 "game_feeds": null
 },
 {
@@ -3992,6 +4148,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://nsudemons.com",
 "game_feeds": null
 },
 {
@@ -4017,6 +4174,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://lionsports.net",
 "game_feeds": null
 },
 {
@@ -4044,6 +4202,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://sfajacks.com",
 "game_feeds": null
 },
 {
@@ -4070,6 +4229,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://goutrgv.com",
 "game_feeds": null
 },
 {
@@ -4091,6 +4251,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://csusports.com",
 "game_feeds": null
 },
 {
@@ -4118,6 +4279,7 @@
 "miss_day": "2026-11-01",
 "last_ok": null,
 "live_only": false,
+"athletics_site": "https://eiupanthers.com",
 "game_feeds": null
 },
 {
@@ -4142,6 +4304,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://gwusports.com",
 "game_feeds": null
 },
 {
@@ -4166,6 +4329,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://lindenwoodlions.com",
 "game_feeds": null
 },
 {
@@ -4191,6 +4355,7 @@
 "misses": 1,
 "miss_day": "2026-11-01",
 "last_ok": "2026-11-01",
+"athletics_site": "https://gosoutheast.com",
 "game_feeds": null
 },
 {
@@ -4216,6 +4381,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://tsutigers.com",
 "game_feeds": null
 },
 {
@@ -4241,6 +4407,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://utmsports.com",
 "game_feeds": null
 },
 {
@@ -4266,6 +4433,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://goleathernecks.com",
 "game_feeds": null
 },
 {
@@ -4286,6 +4454,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://butlersports.com",
 "game_feeds": null
 },
 {
@@ -4306,6 +4475,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://davidsonwildcats.com",
 "game_feeds": null
 },
 {
@@ -4332,6 +4502,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://daytonflyers.com",
 "game_feeds": null
 },
 {
@@ -4354,6 +4525,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://godrakebulldogs.com",
 "game_feeds": null
 },
 {
@@ -4377,6 +4549,7 @@
 "miss_day": "2026-11-01",
 "last_ok": "2026-10-31",
 "live_only": false,
+"athletics_site": "https://goredfoxes.com",
 "game_feeds": null
 },
 {
@@ -4403,6 +4576,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://msueagles.com",
 "game_feeds": null
 },
 {
@@ -4428,6 +4602,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://gobluehose.com",
 "game_feeds": null
 },
 {
@@ -4455,6 +4630,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://tommiesports.com",
 "game_feeds": null
 },
 {
@@ -4476,6 +4652,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://usdtoreros.com",
 "game_feeds": null
 },
 {
@@ -4496,6 +4673,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://gohatters.com",
 "game_feeds": null
 },
 {
@@ -4519,6 +4697,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://valpoathletics.com",
 "game_feeds": null
 },
 {
@@ -4550,6 +4729,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://gogriz.com",
 "game_feeds": null
 },
 {
@@ -4581,6 +4761,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://msubobcats.com",
 "game_feeds": null
 },
 {
@@ -4609,6 +4790,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://goeags.com",
 "game_feeds": null
 },
 {
@@ -4636,6 +4818,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://govandals.com",
 "game_feeds": null
 },
 {
@@ -4662,6 +4845,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://isubengals.com",
 "game_feeds": null
 },
 {
@@ -4691,6 +4875,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": false,
+"athletics_site": "https://nauathletics.com",
 "game_feeds": null
 },
 {
@@ -4717,6 +4902,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://uncbears.com",
 "game_feeds": null
 },
 {
@@ -4739,6 +4925,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://goviks.com",
 "game_feeds": null
 },
 {
@@ -4764,6 +4951,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://weberstatesports.com",
 "game_feeds": null
 },
 {
@@ -4787,6 +4975,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://gopoly.com",
 "game_feeds": null
 },
 {
@@ -4816,6 +5005,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://ucdavisaggies.com",
 "game_feeds": null
 },
 {
@@ -4842,6 +5032,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://suutbirds.com",
 "game_feeds": null
 },
 {
@@ -4866,6 +5057,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": false,
+"athletics_site": "https://utahtechtrailblazers.com",
 "game_feeds": null
 },
 {
@@ -4895,6 +5087,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://goredbirds.com",
 "game_feeds": null
 },
 {
@@ -4921,6 +5114,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": false,
+"athletics_site": "https://gosycamores.com",
 "game_feeds": null
 },
 {
@@ -4947,6 +5141,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://goracers.com",
 "game_feeds": null
 },
 {
@@ -4974,6 +5169,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://fightinghawks.com",
 "game_feeds": null
 },
 {
@@ -5000,6 +5196,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": false,
+"athletics_site": "https://unipanthers.com",
 "game_feeds": null
 },
 {
@@ -5027,6 +5224,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": false,
+"athletics_site": "https://goyotes.com",
 "game_feeds": null
 },
 {
@@ -5054,6 +5252,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://gojacks.com",
 "game_feeds": null
 },
 {
@@ -5080,6 +5279,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://siusalukis.com",
 "game_feeds": null
 },
 {
@@ -5108,6 +5308,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://ysusports.com",
 "game_feeds": null
 },
 {
@@ -5135,6 +5336,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://acusports.com",
 "game_feeds": null
 },
 {
@@ -5162,6 +5364,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://letsgopeay.com",
 "game_feeds": null
 },
 {
@@ -5187,6 +5390,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://ucasports.com",
 "game_feeds": null
 },
 {
@@ -5214,6 +5418,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://ekusports.com",
 "game_feeds": null
 },
 {
@@ -5240,6 +5445,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": false,
+"athletics_site": "https://roarlions.com",
 "game_feeds": null
 },
 {
@@ -5268,6 +5474,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://tarletonsports.com",
 "game_feeds": null
 },
 {
@@ -5290,6 +5497,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://goargos.com",
 "game_feeds": null
 },
 {
@@ -5315,6 +5523,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://uwgathletics.com",
 "game_feeds": null
 },
 {
@@ -5342,6 +5551,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://gozips.com",
 "game_feeds": null
 },
 {
@@ -5367,6 +5577,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://ballstatesports.com",
 "game_feeds": null
 },
 {
@@ -5392,6 +5603,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://bgsufalcons.com",
 "game_feeds": null
 },
 {
@@ -5417,6 +5629,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://ubbulls.com",
 "game_feeds": null
 },
 {
@@ -5443,6 +5656,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://cmuchippewas.com",
 "game_feeds": null
 },
 {
@@ -5470,6 +5684,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://emueagles.com",
 "game_feeds": null
 },
 {
@@ -5496,6 +5711,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://kentstatesports.com",
 "game_feeds": null
 },
 {
@@ -5521,6 +5737,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://miamiredhawks.com",
 "game_feeds": null
 },
 {
@@ -5545,6 +5762,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://ohiobobcats.com",
 "game_feeds": null
 },
 {
@@ -5571,6 +5789,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://utrockets.com",
 "game_feeds": null
 },
 {
@@ -5598,6 +5817,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://wmubroncos.com",
 "game_feeds": null
 },
 {
@@ -5623,6 +5843,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://umassathletics.com",
 "game_feeds": null
 },
 {
@@ -5650,6 +5871,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://hornetsports.com",
 "game_feeds": null
 },
 {
@@ -5677,6 +5899,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://bluehens.com",
 "game_feeds": null
 },
 {
@@ -5701,6 +5924,7 @@
 "miss_day": "2026-11-01",
 "last_ok": null,
 "live_only": false,
+"athletics_site": "https://fiusports.com",
 "game_feeds": null
 },
 {
@@ -5726,6 +5950,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://jsugamecocksports.com",
 "game_feeds": null
 },
 {
@@ -5749,6 +5974,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://ksuowls.com",
 "game_feeds": null
 },
 {
@@ -5774,6 +6000,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://libertyflames.com",
 "game_feeds": null
 },
 {
@@ -5799,6 +6026,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://goblueraiders.com",
 "game_feeds": null
 },
 {
@@ -5823,6 +6051,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://missouristatebears.com",
 "game_feeds": null
 },
 {
@@ -5848,6 +6077,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://nmstatesports.com",
 "game_feeds": null
 },
 {
@@ -5871,6 +6101,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://gobearkats.com",
 "game_feeds": null
 },
 {
@@ -5897,6 +6128,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://wkusports.com",
 "game_feeds": null
 },
 {
@@ -5931,7 +6163,8 @@
 ],
 "game_feeds_at": "2026-11-01T05:23:29Z",
 "live_only": true,
-"game_feeds_sport": "fb"
+"game_feeds_sport": "fb",
+"athletics_site": "https://broncosports.com"
 },
 {
 "school": "Colorado State University",
@@ -5959,6 +6192,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://csurams.com",
 "game_feeds": null
 },
 {
@@ -5984,6 +6218,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://gobulldogs.com",
 "game_feeds": null
 },
 {
@@ -6017,7 +6252,8 @@
 ],
 "game_feeds_at": "2026-11-01T06:19:26Z",
 "live_only": true,
-"game_feeds_sport": "fb"
+"game_feeds_sport": "fb",
+"athletics_site": "https://osubeavers.com"
 },
 {
 "school": "San Diego State University",
@@ -6043,6 +6279,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://goaztecs.com",
 "game_feeds": null
 },
 {
@@ -6075,7 +6312,8 @@
 ],
 "game_feeds_at": "2026-11-01T05:23:29Z",
 "live_only": true,
-"game_feeds_sport": "fb"
+"game_feeds_sport": "fb",
+"athletics_site": "https://txst.com"
 },
 {
 "school": "Utah State University",
@@ -6103,6 +6341,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://utahstateaggies.com",
 "game_feeds": null
 },
 {
@@ -6131,6 +6370,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://wsucougars.com",
 "game_feeds": null
 },
 {
@@ -6160,6 +6400,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://goairforcefalcons.com",
 "game_feeds": null
 },
 {
@@ -6187,6 +6428,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://hawaiiathletics.com",
 "game_feeds": null
 },
 {
@@ -6214,6 +6456,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://nevadawolfpack.com",
 "game_feeds": null
 },
 {
@@ -6243,6 +6486,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://golobos.com",
 "game_feeds": null
 },
 {
@@ -6271,6 +6515,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": false,
+"athletics_site": "https://gobison.com",
 "game_feeds": null
 },
 {
@@ -6298,6 +6543,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://niuhuskies.com",
 "game_feeds": null
 },
 {
@@ -6327,6 +6573,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://sjsuspartans.com",
 "game_feeds": null
 },
 {
@@ -6354,6 +6601,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://unlvrebels.com",
 "game_feeds": null
 },
 {
@@ -6382,6 +6630,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://utepminers.com",
 "game_feeds": null
 },
 {
@@ -6407,6 +6656,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://gowyo.com",
 "game_feeds": null
 },
 {
@@ -6435,6 +6685,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://rolltide.com",
 "game_feeds": null
 },
 {
@@ -6462,6 +6713,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://arkansasrazorbacks.com",
 "game_feeds": null
 },
 {
@@ -6486,6 +6738,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://auburntigers.com",
 "game_feeds": null
 },
 {
@@ -6519,7 +6772,8 @@
 "https://ais-sa1.streamon.fm/7644_48k.aac"
 ],
 "game_feeds_at": "2026-11-01T19:07:25Z",
-"game_feeds_sport": "wvb"
+"game_feeds_sport": "wvb",
+"athletics_site": "https://floridagators.com"
 },
 {
 "school": "University of Georgia",
@@ -6548,6 +6802,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://georgiadogs.com",
 "game_feeds": null
 },
 {
@@ -6576,6 +6831,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://ukathletics.com",
 "game_feeds": null
 },
 {
@@ -6601,6 +6857,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://lsusports.net",
 "game_feeds": null
 },
 {
@@ -6628,6 +6885,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://olemisssports.com",
 "game_feeds": null
 },
 {
@@ -6657,6 +6915,7 @@
 "miss_day": null,
 "last_ok": "2026-11-01",
 "live_only": true,
+"athletics_site": "https://hailstate.com",
 "game_feeds": null
 },
 {
@@ -6684,6 +6943,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://mutigers.com",
 "game_feeds": null
 },
 {
@@ -6711,6 +6971,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://soonersports.com",
 "game_feeds": null
 },
 {
@@ -6738,6 +6999,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://gamecocksonline.com",
 "game_feeds": null
 },
 {
@@ -6766,6 +7028,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://utsports.com",
 "game_feeds": null
 },
 {
@@ -6794,6 +7057,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://texassports.com",
 "game_feeds": null
 },
 {
@@ -6821,6 +7085,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://12thman.com",
 "game_feeds": null
 },
 {
@@ -6846,6 +7111,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://vucommodores.com",
 "game_feeds": null
 },
 {
@@ -6870,6 +7136,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://aueagles.com",
 "game_feeds": null
 },
 {
@@ -6899,6 +7166,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://athletics.bellarmine.edu",
 "game_feeds": null
 },
 {
@@ -6921,6 +7189,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://belmontbruins.com",
 "game_feeds": null
 },
 {
@@ -6949,6 +7218,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://binghamtonbearcats.com",
 "game_feeds": null
 },
 {
@@ -6972,6 +7242,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://goterriers.com",
 "game_feeds": null
 },
 {
@@ -7000,6 +7271,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://bradleybraves.com",
 "game_feeds": null
 },
 {
@@ -7025,6 +7297,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://gorunners.com",
 "game_feeds": null
 },
 {
@@ -7049,6 +7322,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://fullertontitans.com",
 "game_feeds": null
 },
 {
@@ -7073,6 +7347,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://gomatadors.com",
 "game_feeds": null
 },
 {
@@ -7098,6 +7373,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://cbulancers.com",
 "game_feeds": null
 },
 {
@@ -7127,6 +7403,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://gogriffs.com",
 "game_feeds": null
 },
 {
@@ -7150,6 +7427,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://cofcsports.com",
 "game_feeds": null
 },
 {
@@ -7175,6 +7453,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://csuvikings.com",
 "game_feeds": null
 },
 {
@@ -7197,6 +7476,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://coppinstatesports.com",
 "game_feeds": null
 },
 {
@@ -7225,6 +7505,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://gocreighton.com",
 "game_feeds": null
 },
 {
@@ -7248,6 +7529,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://depaulbluedemons.com",
 "game_feeds": null
 },
 {
@@ -7273,6 +7555,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://denverpioneers.com",
 "game_feeds": null
 },
 {
@@ -7297,6 +7580,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://detroittitans.com",
 "game_feeds": null
 },
 {
@@ -7319,6 +7603,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://drexeldragons.com",
 "game_feeds": null
 },
 {
@@ -7343,6 +7628,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://gopurpleaces.com",
 "game_feeds": null
 },
 {
@@ -7366,6 +7652,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://fairfieldstags.com",
 "game_feeds": null
 },
 {
@@ -7389,6 +7676,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://fduknights.com",
 "game_feeds": null
 },
 {
@@ -7412,6 +7700,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://fgcuathletics.com",
 "game_feeds": null
 },
 {
@@ -7436,6 +7725,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://gomason.com",
 "game_feeds": null
 },
 {
@@ -7460,6 +7750,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://gwsports.com",
 "game_feeds": null
 },
 {
@@ -7489,6 +7780,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://gozags.com",
 "game_feeds": null
 },
 {
@@ -7512,6 +7804,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://gculopes.com",
 "game_feeds": null
 },
 {
@@ -7536,6 +7829,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://greenbayphoenix.com",
 "game_feeds": null
 },
 {
@@ -7557,6 +7851,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://highpointpanthers.com",
 "game_feeds": null
 },
 {
@@ -7581,6 +7876,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://gohofstra.com",
 "game_feeds": null
 },
 {
@@ -7611,6 +7907,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://iuindyjags.com",
 "game_feeds": null
 },
 {
@@ -7632,6 +7929,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://ionagaels.com",
 "game_feeds": null
 },
 {
@@ -7655,6 +7953,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://judolphins.com",
 "game_feeds": null
 },
 {
@@ -7679,6 +7978,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://kcroos.com",
 "game_feeds": null
 },
 {
@@ -7711,6 +8011,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://unoprivateers.com",
 "game_feeds": null
 },
 {
@@ -7733,6 +8034,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://goexplorers.com",
 "game_feeds": null
 },
 {
@@ -7758,6 +8060,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://lemoynedolphins.com",
 "game_feeds": null
 },
 {
@@ -7780,6 +8083,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://lipscombsports.com",
 "game_feeds": null
 },
 {
@@ -7807,6 +8111,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://lrtrojans.com",
 "game_feeds": null
 },
 {
@@ -7831,6 +8136,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://longbeachstate.com",
 "game_feeds": null
 },
 {
@@ -7853,6 +8159,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://longwoodlancers.com",
 "game_feeds": null
 },
 {
@@ -7877,6 +8184,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://loyolaramblers.com",
 "game_feeds": null
 },
 {
@@ -7900,6 +8208,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://loyolagreyhounds.com",
 "game_feeds": null
 },
 {
@@ -7922,6 +8231,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://lmulions.com",
 "game_feeds": null
 },
 {
@@ -7945,6 +8255,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://gojaspers.com",
 "game_feeds": null
 },
 {
@@ -7971,6 +8282,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://gomarquette.com",
 "game_feeds": null
 },
 {
@@ -7994,6 +8306,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://umeshawksports.com",
 "game_feeds": null
 },
 {
@@ -8022,6 +8335,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://mkepanthers.com",
 "game_feeds": null
 },
 {
@@ -8051,6 +8365,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://mountathletics.com",
 "game_feeds": null
 },
 {
@@ -8072,6 +8387,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://njithighlanders.com",
 "game_feeds": null
 },
 {
@@ -8095,6 +8411,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://purpleeagles.com",
 "game_feeds": null
 },
 {
@@ -8118,6 +8435,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://unfospreys.com",
 "game_feeds": null
 },
 {
@@ -8145,6 +8463,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://nuhuskies.com",
 "game_feeds": null
 },
 {
@@ -8175,6 +8494,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://nkunorse.com",
 "game_feeds": null
 },
 {
@@ -8198,6 +8518,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://goldengrizzlies.com",
 "game_feeds": null
 },
 {
@@ -8222,6 +8543,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://omahamavs.com",
 "game_feeds": null
 },
 {
@@ -8246,6 +8568,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://oruathletics.com",
 "game_feeds": null
 },
 {
@@ -8275,6 +8598,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://pacifictigers.com",
 "game_feeds": null
 },
 {
@@ -8297,6 +8621,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://pepperdinewaves.com",
 "game_feeds": null
 },
 {
@@ -8320,6 +8645,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://portlandpilots.com",
 "game_feeds": null
 },
 {
@@ -8350,6 +8676,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://friars.com",
 "game_feeds": null
 },
 {
@@ -8379,6 +8706,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://gomastodons.com",
 "game_feeds": null
 },
 {
@@ -8404,6 +8732,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://queensathletics.com",
 "game_feeds": null
 },
 {
@@ -8427,6 +8756,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://gobobcats.com",
 "game_feeds": null
 },
 {
@@ -8456,6 +8786,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://radfordathletics.com",
 "game_feeds": null
 },
 {
@@ -8480,6 +8811,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://gobroncs.com",
 "game_feeds": null
 },
 {
@@ -8503,6 +8835,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://siuecougars.com",
 "game_feeds": null
 },
 {
@@ -8527,6 +8860,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://sjuhawks.com",
 "game_feeds": null
 },
 {
@@ -8556,6 +8890,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://slubillikens.com",
 "game_feeds": null
 },
 {
@@ -8580,6 +8915,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://smcgaels.com",
 "game_feeds": null
 },
 {
@@ -8603,6 +8939,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://saintpeterspeacocks.com",
 "game_feeds": null
 },
 {
@@ -8626,6 +8963,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://santaclarabroncos.com",
 "game_feeds": null
 },
 {
@@ -8650,6 +8988,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://goseattleu.com",
 "game_feeds": null
 },
 {
@@ -8680,6 +9019,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://shupirates.com",
 "game_feeds": null
 },
 {
@@ -8706,6 +9046,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://sienasaints.com",
 "game_feeds": null
 },
 {
@@ -8733,6 +9074,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://upstatespartans.com",
 "game_feeds": null
 },
 {
@@ -8758,6 +9100,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://usiscreamingeagles.com",
 "game_feeds": null
 },
 {
@@ -8784,6 +9127,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://gobonnies.com",
 "game_feeds": null
 },
 {
@@ -8814,6 +9158,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://redstormsports.com",
 "game_feeds": null
 },
 {
@@ -8839,6 +9184,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://goislanders.com",
 "game_feeds": null
 },
 {
@@ -8868,6 +9214,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://ucirvinesports.com",
 "game_feeds": null
 },
 {
@@ -8891,6 +9238,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://gohighlanders.com",
 "game_feeds": null
 },
 {
@@ -8914,6 +9262,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://ucsbgauchos.com",
 "game_feeds": null
 },
 {
@@ -8936,6 +9285,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://uicflames.com",
 "game_feeds": null
 },
 {
@@ -8958,6 +9308,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://umbcretrievers.com",
 "game_feeds": null
 },
 {
@@ -8981,6 +9332,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://goriverhawks.com",
 "game_feeds": null
 },
 {
@@ -9009,6 +9361,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://uncabulldogs.com",
 "game_feeds": null
 },
 {
@@ -9031,6 +9384,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://uncgspartans.com",
 "game_feeds": null
 },
 {
@@ -9054,6 +9408,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://uncwsports.com",
 "game_feeds": null
 },
 {
@@ -9077,6 +9432,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://utamavs.com",
 "game_feeds": null
 },
 {
@@ -9103,6 +9459,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://gouvu.com",
 "game_feeds": null
 },
 {
@@ -9125,6 +9482,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"athletics_site": "https://vcuathletics.com",
 "game_feeds": null
 },
 {
@@ -9152,6 +9510,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://uvmathletics.com",
 "game_feeds": null
 },
 {
@@ -9180,6 +9539,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://winthropeagles.com",
 "game_feeds": null
 },
 {
@@ -9209,6 +9569,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://wsuraiders.com",
 "game_feeds": null
 },
 {
@@ -9238,6 +9599,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://goxavier.com",
 "game_feeds": null
 },
 {
@@ -9267,6 +9629,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://usfdons.com",
 "game_feeds": null
 },
 {
@@ -9295,6 +9658,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://ucsdtritons.com",
 "game_feeds": null
 },
 {
@@ -9323,6 +9687,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-01",
+"athletics_site": "https://goshockers.com",
 "game_feeds": null
 }
 ]
