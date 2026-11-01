@@ -140,7 +140,13 @@ h1 span{color:inherit}
 .conf .cn{font:600 12px var(--num);color:var(--accent-ink);background:var(--accent);border-radius:999px;padding:2px 8px}
 .conf .chev{width:20px;height:20px;margin-left:auto;color:var(--muted);transition:transform .2s}
 .conf[aria-expanded="false"] .chev{transform:rotate(-90deg)}
-.conf[aria-expanded="false"]{margin:8px 0 0}
+/* Folded conferences stack into one card of rows (open ones stand apart with their games). */
+.conf[aria-expanded="false"]{margin:0;border-radius:0;border-color:var(--line);border-top-width:0;box-shadow:none;padding:11px 14px;font-size:15px}
+:not(.conf[aria-expanded="false"]) + .conf[aria-expanded="false"]{margin-top:8px;border-top-width:1px;border-top-left-radius:var(--r-lg);border-top-right-radius:var(--r-lg)}
+.conf[aria-expanded="false"]:not(:has(+ .conf[aria-expanded="false"])){border-bottom-left-radius:var(--r-lg);border-bottom-right-radius:var(--r-lg)}
+.conf[aria-expanded="false"] .cn{background:none;color:var(--muted);font-size:14px;padding:0;margin-left:auto}
+.conf[aria-expanded="false"] .chev{margin-left:0;width:18px;height:18px;color:var(--faint)}
+.cgap{height:6px}
 .sect{display:flex;align-items:baseline;justify-content:space-between}
 .daytabs{display:flex;gap:6px;overflow-x:auto;padding:2px 2px 8px;margin:0 0 4px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
 .daytabs::-webkit-scrollbar{display:none}
@@ -1153,8 +1159,9 @@ function card(e){
 }
 
 // ---------- Today's upcoming games (shown when nothing is live) ----------
+const POWER = {fb: ["SEC","Big Ten","Big 12","ACC"], bb: ["SEC","Big Ten","Big 12","ACC","Big East"], hk: ["Big Ten","Hockey East","NCHC"]};
 const isToday = d => new Date(d).toDateString() === new Date().toDateString();
-const CONF_SHORT = {"Mid-American":"MAC","Atlantic Coast":"ACC","Southeastern":"SEC","Mid-Eastern Athletic":"MEAC","Southwestern Athletic":"SWAC","Western Athletic":"WAC","Colonial Athletic Association":"Coastal Athletic Association","National Collegiate Hockey":"NCHC","Central Collegiate Hockey Association":"CCHA","Eastern College Athletic":"ECAC Hockey","East Coast Athletic":"ECAC Hockey"};
+const CONF_SHORT = {"Metro Atlantic Athletic":"MAAC","Metro Conference (formerly MAAC)":"MAAC","Metro (formerly MAAC)":"MAAC","Mid-American":"MAC","Atlantic Coast":"ACC","Southeastern":"SEC","Mid-Eastern Athletic":"MEAC","Southwestern Athletic":"SWAC","Western Athletic":"WAC","Colonial Athletic Association":"Coastal Athletic Association","National Collegiate Hockey":"NCHC","Central Collegiate Hockey Association":"CCHA","Eastern College Athletic":"ECAC Hockey","East Coast Athletic":"ECAC Hockey"};
 const confName = c => { const n = String(c||"").replace(/\s+Conference$/,"").trim(); return CONF_SHORT[n] || n; };
 function confOf(tm){
   if(!isFB()){ const c = confMaps[SPORT.id]?.get(String(tm.id)); if(c) return c; if(SPORT.tile==="hk") return ""; }
@@ -1261,7 +1268,7 @@ function finalsToday(){
     .filter(e=> !q || e.competitions[0].competitors.some(t=>[t.team.location,t.team.displayName,t.team.shortDisplayName,t.team.abbreviation].join(" ").toLowerCase().includes(q)))
     .sort((x,y)=>new Date(y.date)-new Date(x.date));
   const closed = !q && isShut("Final", "");
-  return fin.length ? confHead("Final", fin.length, closed) + fin.map(e=>closed ? finCard(e).replace(/^<div /,"<div hidden ") : finCard(e)).join("") : "";
+  return fin.length ? confHead("Final", fin.length, closed) + (closed ? "" : fin.map(finCard).join("")) : "";
 }
 // Conference headers fold their games away; which ones are folded is remembered on this device.
 function confHead(name, n, closed, day){
@@ -1317,7 +1324,10 @@ function renderUpcoming(){
       const conf = confOf(h.team) || confOf(a.team) || (e._div==="FCS" ? "FCS" : isFB() ? "Other" : "Other games");
       if(!groups.has(conf)) groups.set(conf, []); groups.get(conf).push(e);
     }
-    const names = [...groups.keys()].sort((x,y)=>(x==="Other games")-(y==="Other games") || x.localeCompare(y));
+    // The major conferences first (their own group), then the rest A-Z, then games with no conference.
+    const power = n => POWER[isFB() ? "fb" : SPORT.tile]?.indexOf(n) ?? -1;
+    const rankC = n => n==="Other games" || n==="Other" ? 2e3 : power(n) >= 0 ? power(n) : 1e3;
+    const names = [...groups.keys()].sort((x,y)=>rankC(x)-rankC(y) || x.localeCompare(y));
     // No conference info at all (some hockey days): just list the games by time, no bars.
     if(names.length===1 && names[0]==="Other games"){
       const gs = groups.get(names[0]).sort((x,y)=>new Date(x.date)-new Date(y.date) || x.id.localeCompare(y.id)); vis.push(...gs);
@@ -1326,10 +1336,11 @@ function renderUpcoming(){
     }
     const allShut = names.every(n=>isShut(n, day));
     const label = dayName(day)==="Today" ? "Later today" : new Date(day).toLocaleDateString([], {weekday:"long", month:"short", day:"numeric"});
-    return `<div class="sect">${esc(label)}${names.length>1 && !q ? `<button class="lnk" data-confall="${allShut?"open":"shut"}" data-cday="${esc(day)}">${allShut?"Expand all":"Collapse all"}</button>` : ""}</div>` + names.map(n=>{
+    return `<div class="sect">${esc(label)}${names.length>1 && !q ? `<button class="lnk" data-confall="${allShut?"open":"shut"}" data-cday="${esc(day)}">${allShut?"Expand all":"Collapse all"}</button>` : ""}</div>` + names.map((n, i)=>{
       const gs = groups.get(n), closed = !q && isShut(n, day);
       if(!closed) vis.push(...gs);
-      return confHead(n, gs.length, closed, day) + gs.sort((x,y)=>new Date(x.date)-new Date(y.date) || x.id.localeCompare(y.id)).map(e=>closed ? upCard(e).replace(/^<div /,"<div hidden ") : upCard(e)).join("");
+      const gap = i > 0 && rankC(names[i-1]) < 1e3 && rankC(n) >= 1e3 ? `<div class="cgap"></div>` : "";
+      return gap + confHead(n, gs.length, closed, day) + (closed ? "" : gs.sort((x,y)=>new Date(x.date)-new Date(y.date) || x.id.localeCompare(y.id)).map(upCard).join(""));
     }).join("");
   }).join("");
   list.innerHTML = (q ? "" : tabs) + sections + finalsToday();
