@@ -80,7 +80,7 @@ def merge_into(current, new, sources, feeds_only=False):
         if not feeds_only:
             feeds = t.get("game_feeds") if feeds_fresh(t) else []
             station = [u for u in (n.get("streams") or []) if u not in (n.get("game_feeds") or [])]
-            for k in ("network", "flagship", "listen_page", "conference", "calls", "game_only", "no_radio", "notes", "misses", "miss_day", "last_ok", "names"):
+            for k in ("network", "flagship", "listen_page", "conference", "calls", "game_only", "no_radio", "notes", "misses", "miss_day", "last_ok", "names", "athletics_site"):
                 if k in n:
                     t[k] = n[k]
             t["streams"] = list(dict.fromkeys(list(feeds or []) + station))[:6]
