@@ -1,2 +1,51 @@
-official feeds added for: Oregon State University
-no live teams without radio that have an athletics site on file
+
+Running kernel seems to be up-to-date.
+
+Restarting services...
+
+Service restarts being deferred:
+ systemctl restart hosted-compute-agent.service
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+allaccess error https://fightingirish.com HTTP Error 404: Not Found
+allaccess error https://arkansasrazorbacks.com HTTP Error 404: Not Found
+allaccess error https://12thman.com HTTP Error 404: Not Found
+allaccess error https://cyclones.com The read operation timed out
+allaccess error https://clemsontigers.com HTTP Error 404: Not Found
+allaccess error https://gobearcats.com HTTP Error 404: Not Found
+allaccess error https://virginiasports.com HTTP Error 404: Not Found
+allaccess error https://vucommodores.com HTTP Error 404: Not Found
+allaccess error https://ucfknights.com HTTP Error 404: Not Found
+allaccess error https://goutsa.com HTTP Error 404: Not Found
+allaccess error https://mutigers.com HTTP Error 404: Not Found
+allaccess error https://lsusports.net HTTP Error 404: Not Found
+allaccess error https://auburntigers.com HTTP Error 404: Not Found
+allaccess error https://kstatesports.com Remote end closed connection without response
+allaccess error https://thesundevils.com HTTP Error 404: Not Found
+allaccess error https://gocolgateraiders.com <urlopen error [Errno 104] Connection reset by peer>
+allaccess error https://hawkeyesports.com HTTP Error 404: Not Found
+allaccess error https://uclabruins.com HTTP Error 404: Not Found
+official feeds added for: University of Florida (wvb), University of Illinois Urbana-Champaign (wvb)
+Dartmouth College mhk -> (feed) ['https://cdn.jwplayer.com/live/broadcast/pOu2p9Uo.m3u8']
+leanplayer xml https://rhody.leanplayer.com/ <?xml version="1.0"?> <main><sports><sport><id>1579</id><name>Rhode Island Football Coachs Show</name><is_show>1</is_show></sport><sport><id>1</id><name>Football</name><is_show>0</is_show></sport><sport><id>1597</id><name>The Archie Miller + Tammi Reiss Show</name><is_show>1</is_show></sport><sport><id>888</id><name>Rhode Island Football Coach's Show</name><is_show>1</is_show></sport><sport><id>441</id><name>Archie Miller Show</name><is_show>1</is_show></sport><sport><id>3</id><name>Women&#x2019;s Basketball</name><is_show>0</is_show></sport><sport><id>2</id><name>Men&#x2019;s Basketball</name
+Temple University wvb -> []
+Temple University wvb -> []
+Stetson University wvb -> []
+Davidson College wvb -> []
+Davidson College wvb -> []
+University of Rhode Island wvb -> []
+University of Rhode Island wvb -> []
+North Carolina Central University wvb -> []
+North Carolina Central University wvb -> []
+Delaware State University wvb -> []
+Southern University wvb -> []
+Prairie View A&M University wvb -> []
+Mississippi Valley State University wvb -> []
+University of Arkansas at Pine Bluff wvb -> []
+Howard University wvb -> []
+University of North Carolina at Charlotte wvb -> ['https://cdn.jwplayer.com/live/broadcast/kDNzJYGH.m3u8', 'https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/kDNzJYGH.m3u8?exp=1793561040&sig=e524bb4d1ab5b515e25f6fe7cfb3fea6']
+other SIDEARM sport names seen: basketball-men, basketball-women, football, general, mbasket, mbb, mbball, mhockey, soccer, vol-network, wbasket, wbb, wbball
