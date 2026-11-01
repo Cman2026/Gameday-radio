@@ -76,7 +76,13 @@ h1 span{color:inherit}
 .filters input[type=search]:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
 .chips{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:2px;padding:3px;background:var(--surface-2);border:1px solid var(--line);border-radius:var(--r-md)}
 .chip{border:0;background:transparent;border-radius:7px;height:34px;padding:0 6px;font-size:14px;font-weight:500;color:var(--muted);cursor:pointer;white-space:nowrap;display:flex;align-items:center;justify-content:center;gap:5px}
-.chip[aria-pressed="true"]{background:var(--surface);color:var(--text);font-weight:600;box-shadow:0 1px 2px rgba(15,20,26,.08),0 0 0 1px var(--line)}
+.chip[aria-pressed="true"]{background:var(--surface);color:var(--text);font-weight:600;box-shadow:0 0 0 1.5px var(--accent),0 0 10px color-mix(in srgb,var(--accent) 35%,transparent)}
+/* One look for "selected" and "being pressed" everywhere: the amber edge and glow. */
+:is(.chip,.daytab,.conf,.pbp-toggle,.ear,.card,.btn,.src,.lnk,.fav,#pp):focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+:is(.chip,.conf,.pbp-toggle,.btn,.daytab):active{border-color:var(--accent)!important;box-shadow:0 0 0 1.5px var(--accent),0 0 10px color-mix(in srgb,var(--accent) 35%,transparent)}
+.daytab[aria-selected="true"]{box-shadow:0 0 10px color-mix(in srgb,var(--accent) 45%,transparent)}
+.conf[aria-expanded="true"],.pbp-toggle[aria-expanded="true"]{border-color:color-mix(in srgb,var(--accent) 70%,var(--line-2))}
+.card[aria-current="true"]{box-shadow:inset 0 0 0 1.5px color-mix(in srgb,var(--accent) 70%,transparent)}
 .chip .n{font:600 12px var(--num);color:var(--faint);font-variant-numeric:tabular-nums}
 .chip .n:empty{display:none}
 
