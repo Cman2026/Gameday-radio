@@ -1,48 +1,40 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-[AVFormatContext @ 0x5e128f2825c0] Invalid HLS ID3 audio timestamp 16360645120
-[0;93m2026-11-01 21:41:08.387775689 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-[AVFormatContext @ 0x5c543c453fc0] Invalid HLS ID3 audio timestamp 16363340800
-[AVFormatContext @ 0x5e67b867efc0] Invalid HLS ID3 audio timestamp 16365137920
-[AVFormatContext @ 0x5e80d772a5c0] Invalid HLS ID3 audio timestamp 16367833600
-[AVFormatContext @ 0x5adb4aa16fc0] Invalid HLS ID3 audio timestamp 16376819200
-[AVFormatContext @ 0x58f88cdab5c0] Invalid HLS ID3 audio timestamp 16377717760
-[AVFormatContext @ 0x5f3d1c1735c0] Invalid HLS ID3 audio timestamp 16379514880
-listening to 37 streams in 8 live games
-quiet      wvb  University of Oregon           ''
-maybe_not  wvb  University of Oregon           'feeling back. We believe in keeping it simple and fresh, making everything to order.  Out '
-maybe_not  wvb  University of Oregon           'feeling back. We believe in keeping it simple and fresh, making everything to order.  Out '
-maybe_not  wvb  University of Iowa             'much more clear to me to be. Anyway, Craig, appreciate you. Our friend, Billy Cunningham, '
-game       wvb  University of Iowa             'so in Ohio I can talk about Iowa high or Florida Texas very similar  and for a long time t'
-maybe_not  wvb  University of Iowa             'How much more clear do I need to be?  Anyway Craig, appreciate you.  Our friend Billy Cunn'
-quiet      wvb  University of Southern Califor ''
-quiet      wvb  University of Southern Califor ''
-maybe_not  wvb  University of Southern Califor "should be noted the total in this game was 47 and a half points.  We're almost up to 80.  "
-quiet      wvb  University of Minnesota        ''
-maybe_not  wvb  University of Minnesota        'that but so just thoughts and prayers with him for sure. We knew we were going to need to '
-maybe_not  wvb  University of Minnesota        "I don't, you know, I stand after the game, you know, if he had any update, he didn't have "
-maybe_not  wvb  Colgate University             'First of all, why?  But real simple, has your back, providing tricks like dusting, store-b'
-game       wvb  Colgate University             "at home this week, it's the listener-limerick challenge. If you'd like to play, give us a "
+[AVFormatContext @ 0x610cba6bde80] Invalid HLS ID3 audio timestamp 16683505789
+[0;93m2026-11-01 22:41:01.462649589 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[AVFormatContext @ 0x58c10d3935c0] Invalid HLS ID3 audio timestamp 16684126720
+[hls @ 0x638fa5ca8f80] URL https://prod-23-20-60-37.amperwave.net/a/?lid=ced6bada-7431-4443-bc7e-4a066c1662c5&u=https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Forigin.cis.abacast.net%2Fc%2Fad%2Fa%2Fddbb29e1b7482d7ba3bdb13178f4515a_0.aac%3Fsid%3D8206 is not in allowed_segment_extensions, consider updating hls.c and submitting a patch to ffmpeg-devel, if this should be added
+[out#0/wav @ 0x638fa5fc0880] Output file does not contain any stream
+Error opening output file /tmp/tmp6cfmrami.wav.
+Error opening output files: Invalid argument
+[AVFormatContext @ 0x5fa1ede2ffc0] Invalid HLS ID3 audio timestamp 16688619520
+[AVFormatContext @ 0x563b892a35c0] Invalid HLS ID3 audio timestamp 16696706560
+[AVFormatContext @ 0x5e013e7f5fc0] Invalid HLS ID3 audio timestamp 16697605120
+listening to 28 streams in 6 live games
+maybe_not  wvb  University of California, Los  "in your car, it's gotten really complicated.  The experts at Amko undergo the most rigorou"
+maybe_not  wvb  University of California, Los  "except for that complicated relationship.  When it comes to that, you're on your own.  Dou"
+maybe_not  wvb  University of California, Los  "And nothing we can't fix.  It's going, gee!  What's that?  From transmissions to brakes an"
+quiet      wvb  University of Wisconsin-Madiso ''
+maybe_not  wvb  University of Wisconsin-Madiso 'MSN reporting the rate is linked to a sex worker, a senior law enforcement official told t'
+maybe_not  wvb  University of Wisconsin-Madiso "my lord.  Us to trust.  Well, that's what happened.  So I will busted the trust.  So he's "
+quiet      wvb  University of Alabama          ''
+quiet      wvb  University of Alabama          '6.8.  Classic rock.  1069.'
+quiet      wvb  University of Alabama          ''
+quiet      wvb  Mississippi State University   ''
+maybe_not  wvb  Mississippi State University   'And he left me earlier this year.  And I think I just gave away the spoiler of my book.  B'
+game       mhk  Dartmouth College              'Last game, I suppose, during the course of this contest here today, to set the scene for y'
+not_game   mhk  Dartmouth College              "It's a very peaceful place and it's a place where we can just come in.  I tell the boys, i"
+game       wvb  University of Missouri         "hopefully they'll take heed of that and we'll have a good outcome.  There was Missouri Dep"
+not_game   wvb  University of Missouri         "There's no letting up on I-44.  It's a major corridor across the country.  And then also o"
+quiet      wvb  University of Tennessee        'Relax in different angles.'
+quiet      wvb  University of Tennessee        'This is an American country count down shirt shot'
+quiet      wvb  University of Tennessee        'Relax in different angles.'
+quiet      wvb  Auburn University              ''
+not_game   wvb  University of Oklahoma         "like, man, you know, and that's what keeps you coming back to these contests.  It's like, "
+not_game   wvb  University of Oklahoma         "like, man, you know, and that's what keeps you coming back to these contests.  It's like, "
+not_game   wvb  University of Oklahoma         "like, man, you know, and that's what keeps you coming back to these contests.  It's like, "
+not_game   wvb  Colgate University             "considered from NPR news, I'm Sasha Fyper.  Affordability is driving many voters to the po"
+maybe_not  wvb  Colgate University             'comes from the station. And from Made in Cookware, Made in Cookware is crafted by chefs  f'
 quiet      wvb  United States Military Academy ''
-quiet      wvb  United States Military Academy ''
-quiet      wvb  United States Military Academy ''
-game       mhk  Dartmouth College              'left to right when they possessed the parking.  The minooks will go from right to left.  S'
-maybe_not  mhk  Dartmouth College              'It is a light. Bring us back. I shared a little bit about PO and and and and  Purgatory be'
-maybe_not  wvb  University of Missouri         "It's a strain and an inconvenience that we've got to deal with and persevere through.  And"
-maybe_not  wvb  University of Missouri         "and solve those issues.  But the truth of the matter is,  the Iraq wars is real.  What's g"
-not_game   wvb  University of Tennessee        'in the country who accepts Medicare, including specialists, no referrals, no  kidding. Lea'
-not_game   wvb  University of Tennessee        'to work with Ingles because Ingles has provided us as farmers and opportunity to work with'
-maybe_not  wvb  University of Tennessee        'in the country who accepts Medicare, including specialists, no referrals, no  kidding. Lea'
-quiet      wvb  Texas Christian University     ''
-quiet      wvb  Texas Christian University     ''
-quiet      wvb  Texas Christian University     ''
-quiet      wvb  Kansas State University        ''
-quiet      wvb  Kansas State University        'done.  Looking over.'
-not_game   wvb  University of Washington       "And that'll be the end of the quarter.  Then, so, have it with a new set of downs and a ne"
-not_game   wvb  University of Washington       "You know like there's their plan on air all the time.  Turns are just kicking away from ou"
-not_game   wvb  University of Washington       'This is the story of the one.  As a procurement manager at an industrial manufacturing fac'
-maybe_not  wvb  University of Maryland         "I can't watch this all year.  And not everybody is capable of doing what the bills can do."
-maybe_not  wvb  Auburn University              "doubt that there's a, that there will be one if not multiple teams that have three losses "
-not_game   wvb  University of Oklahoma         "on unpaid taxes compound daily, making it seem impossible to ever get out of debt.  Don't "
-not_game   wvb  University of Oklahoma         "on unpaid taxes compound daily, making it seem impossible to ever get out of debt.  Don't "
-not_game   wvb  University of Oklahoma         "on unpaid taxes compound daily, making it seem impossible to ever get out of debt.  Don't "
-{'quiet': 12, 'maybe_not': 14, 'game': 3, 'not_game': 8}
+maybe_not  wvb  United States Military Academy 'We are here in the DM and our relationship to it these 20 years later to talk about life a'
+maybe_not  wvb  United States Military Academy "If you're a super fan, we're going to get into all the secrets, theories, easter eggs,  sl"
+{'maybe_not': 9, 'quiet': 10, 'no_audio': 1, 'game': 2, 'not_game': 6}
