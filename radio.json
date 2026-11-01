@@ -1,5 +1,5 @@
 {
-"built": "2026-11-01T23:13:30Z",
+"built": "2026-11-01T23:43:27Z",
 "teams": [
 {
 "school": "Boston College",
@@ -314,7 +314,7 @@
 ],
 "game_only": null,
 "no_radio": null,
-"notes": null,
+"notes": "Volleyball (select matches) on 93.7 The Fan per Sept 2025 release: pittsburghpanthers.com/news/2025/9/25/pitt-volleyball-matches-to-air-on-93-7-the-fan",
 "streams": [
 "https://live.amperwave.net/direct/audacy-kdkafmaac-imc",
 "https://live.amperwave.net/manifest/audacy-kdkafmaac-imc",
@@ -325,7 +325,9 @@
 "last_ok": "2026-11-01",
 "live_only": true,
 "athletics_site": "https://pittsburghpanthers.com",
-"station_sports": null,
+"station_sports": [
+"wvb"
+],
 "game_feeds": null
 },
 {
