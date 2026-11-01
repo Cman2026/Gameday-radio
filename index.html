@@ -800,11 +800,15 @@ async function pollOther(){
       const days = [...new Set(gameDays((d.leagues||[])[0]).map(r=>r[0]).filter(t=>t > now - 864e5/2 && t < now + 8*864e5).map(t=>new Date(t).toISOString().slice(0,10).replace(/-/g,"")))]
         .filter(k=>!have.has(k)).slice(0, 8);
       poll.loading = true;
-      Promise.all(days.map(k=>getJSON(`${base}/scoreboard?${g}dates=${k}&limit=900`).then(x=>x.events||[]).catch(()=>[])))
-        .then(more=>{ if(tok === sportTok) poll.ahead = {t: Date.now(), f: more.flat(), c: []}; })
+      if(!poll.ahead) poll.ahead = {t: 0, byDay: {}};
+      // Each day shows up (with its day tab) as soon as it arrives, instead of waiting for the whole week.
+      Promise.all(days.map(k=>getJSON(`${base}/scoreboard?${g}dates=${k}&limit=900`)
+          .then(x=>{ if(tok !== sportTok) return; poll.ahead.byDay[k] = x.events||[]; addAhead(x.events||[]); })
+          .catch(()=>{})))
+        .then(()=>{ if(tok === sportTok) poll.ahead.t = Date.now(); })
         .finally(()=>{ poll.loading = false; });
     }
-    (poll.ahead?.f||[]).forEach(e=>{ if(!byId.has(e.id)){ e._div = ""; byId.set(e.id, e); } });
+    Object.values(poll.ahead?.byDay||{}).flat().forEach(e=>{ if(!byId.has(e.id)){ e._div = ""; byId.set(e.id, e); } });
     const evs = [...byId.values()];
     evs.forEach(e=>e.competitions[0].competitors.forEach(c=>attachRadio(c.team)));
     history.push({t:Date.now(), evs}); history = history.filter(h => Date.now()-h.t < (delay+20)*1000);
@@ -822,6 +826,15 @@ async function pollOther(){
     $("#stat").textContent = "Can't reach the scores feed right now. Retrying…";
     if(!history.length){ homeBoard(); $("#list").innerHTML = `<div class="empty">Can't reach the scores feed right now. Retrying…</div>`; }
   }
+  render();
+}
+// A day of the coming week just loaded: add its games to the latest snapshot and redraw right away.
+function addAhead(more){
+  const last = history[history.length-1]; if(!last) return;
+  const ids = new Set(last.evs.map(e=>e.id)), add = more.filter(e=>!ids.has(e.id));
+  if(!add.length) return;
+  add.forEach(e=>{ e._div = ""; e.competitions[0].competitors.forEach(c=>attachRadio(c.team)); });
+  history.push({t: Date.now(), evs: [...last.evs, ...add]});
   render();
 }
 const sumAt = {};
