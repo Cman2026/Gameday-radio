@@ -1,89 +1,105 @@
-===== basketball/mens-college-basketball
-limit=500 | events 2 | season 2027 Regular Season | calStart 2026-07-13T07:00Z calEnd 2027-04-07T06:59Z | calType day | cal n 124 first ['2026-11-01T07:00Z', '2026-11-02T08:00Z'] last 2027-03-07T08:00Z
-  sample: Notre Dame Fighting Irish at Villanova Wildcats 2026-11-01T14:30Z Final | comp keys ['attendance', 'broadcast', 'broadcasts', 'competitors', 'conferenceCompetition', 'date', 'format', 'geoBroadcasts', 'headlines', 'highlights', 'id', 'neutralSite', 'notes', 'playByPlayAvailable', 'recent', 'startDate', 'status', 'timeValid', 'type', 'uid', 'venue']
-  situation: null
-  competitor keys ['curatedRank', 'homeAway', 'id', 'leaders', 'linescores', 'order', 'records', 'score', 'statistics', 'team', 'type', 'uid', 'winner'] | team keys ['abbreviation', 'alternateColor', 'color', 'conferenceId', 'displayName', 'id', 'isActive', 'links', 'location', 'logo', 'logoDark', 'name', 'shortDisplayName', 'uid', 'venue'] | conf 4 | records ['0-1', '0-0'] | rank {'current': 99}
-  status {"clock": 0.0, "displayClock": "0:00", "period": 2, "type": {"id": "3", "name": "STATUS_FINAL", "state": "post", "completed": true, "description": "Final", "detail": "Final", "shortDetail": "Final"}}
-  summary keys ['againstTheSpread', 'article', 'boxscore', 'broadcasts', 'format', 'gameInfo', 'header', 'leaders', 'meta', 'news', 'odds', 'pickcenter', 'plays', 'standings', 'videos', 'wallclockAvailable', 'winprobability']
-  plays n 533 sample {"id": "401920982120418131", "sequenceNumber": "120418131", "type": {"id": "402", "text": "End Game"}, "text": "End of Game", "awayScore": 74, "homeScore": 72, "period": {"number": 2, "displayValue": "2nd Half"}, "clock": {"displayValue": "0:00"}, "scoringPlay": false, "scoreValue": 0, "wallclock": "2026-11-01T17:02:52Z", "shootingPlay": false, "coordinate": {"x": 25, "y": 0}, "pointsAttempted": 0
-  box stats [('fieldGoalsMade-fieldGoalsAttempted', '23-65'), ('fieldGoalPct', '35'), ('threePointFieldGoalsMade-threePointFieldGoalsAttempted', '9-24'), ('threePointFieldGoalPct', '38'), ('freeThrowsMade-freeThrowsAttempted', '19-25'), ('freeThrowPct', '76'), ('totalRebounds', '37'), ('offensiveRebounds', '17'), ('defensiveRebounds', '20'), ('assists', '14'), ('steals', '14'), ('blocks', '2'), ('turnovers', '11'), ('teamTurnovers', '1')]
-groups=50&limit=500 | events 2 | season 2027 Regular Season | calStart 2026-07-13T07:00Z calEnd 2027-04-07T06:59Z | calType day | cal n 124 first ['2026-11-01T07:00Z', '2026-11-02T08:00Z'] last 2027-03-07T08:00Z
-dates=20261101-20261109&limit=900 ERR HTTP Error 400: Bad Request
-dates=20261101-20261109&groups=50&limit=900 ERR HTTP Error 400: Bad Request
-===== basketball/womens-college-basketball
-limit=500 | events 1 | season 2027 Regular Season | calStart 2026-07-13T07:00Z calEnd 2027-04-07T06:59Z | calType day | cal n 108 first ['2026-11-01T07:00Z', '2026-11-02T08:00Z'] last 2027-02-28T08:00Z
-  sample: Notre Dame Fighting Irish at Villanova Wildcats 2026-11-01T17:00Z 2:43 - 1st | comp keys ['attendance', 'broadcast', 'broadcasts', 'competitors', 'conferenceCompetition', 'date', 'format', 'geoBroadcasts', 'highlights', 'id', 'neutralSite', 'notes', 'playByPlayAvailable', 'recent', 'situation', 'startDate', 'status', 'timeValid', 'type', 'uid', 'venue']
-  situation: {"lastPlay": {"id": "401920983120418213", "type": {"id": "580", "text": "OfficialTVTimeOut"}, "text": "Official TV Timeout", "scoreValue": 0, "probability": {"tiePercentage": 0.0, "homeWinPercentage": 0.174, "awayWinPercentage": 0.8260000000000001}}}
-  competitor keys ['curatedRank', 'homeAway', 'id', 'leaders', 'linescores', 'order', 'records', 'score', 'statistics', 'team', 'type', 'uid'] | team keys ['abbreviation', 'alternateColor', 'color', 'conferenceId', 'displayName', 'id', 'isActive', 'links', 'location', 'logo', 'logoDark', 'name', 'shortDisplayName', 'uid', 'venue'] | conf 4 | records ['0-0', '0-0'] | rank {'current': 99}
-  status {"clock": 163.0, "displayClock": "2:43", "period": 1, "type": {"id": "2", "name": "STATUS_IN_PROGRESS", "state": "in", "completed": false, "description": "In Progress", "detail": "2:43 - 1st Quarter", "shortDetail": "2:43 - 1st"}}
-  summary keys ['againstTheSpread', 'boxscore', 'broadcasts', 'format', 'gameInfo', 'header', 'leaders', 'meta', 'news', 'odds', 'pickcenter', 'plays', 'standings', 'videos', 'wallclockAvailable', 'winprobability']
-  plays n 75 sample {"id": "401920983120418213", "sequenceNumber": "120418213", "type": {"id": "580", "text": "OfficialTVTimeOut"}, "text": "Official TV Timeout", "awayScore": 14, "homeScore": 9, "period": {"number": 1, "displayValue": "1st Quarter"}, "clock": {"displayValue": "2:43"}, "scoringPlay": false, "scoreValue": 0, "wallclock": "2026-11-01T17:37:54Z", "shootingPlay": false, "coordinate": {"x": 25, "y": 0}, "
-  box stats [('fieldGoalsMade-fieldGoalsAttempted', '6-13'), ('fieldGoalPct', '46'), ('threePointFieldGoalsMade-threePointFieldGoalsAttempted', '1-3'), ('threePointFieldGoalPct', '33'), ('freeThrowsMade-freeThrowsAttempted', '1-3'), ('freeThrowPct', '33'), ('totalRebounds', '9'), ('offensiveRebounds', '1'), ('defensiveRebounds', '8'), ('assists', '3'), ('steals', '3'), ('blocks', '1'), ('turnovers', '2'), ('teamTurnovers', '0')]
-groups=50&limit=500 | events 1 | season 2027 Regular Season | calStart 2026-07-13T07:00Z calEnd 2027-04-07T06:59Z | calType day | cal n 122 first ['2026-11-01T07:00Z', '2026-11-02T08:00Z'] last 2027-03-06T08:00Z
-dates=20261101-20261109&limit=900 ERR HTTP Error 400: Bad Request
-dates=20261101-20261109&groups=50&limit=900 ERR HTTP Error 400: Bad Request
-===== hockey/mens-college-hockey
-limit=500 | events 25 | season 2027 Regular Season | calStart 2026-09-01T07:00Z calEnd 2027-05-01T06:59Z | calType day | cal n 92 first ['2026-10-02T07:00Z', '2026-10-03T07:00Z'] last 2027-04-10T07:00Z
-  sample: Providence Friars at Quinnipiac Bobcats 2026-10-31T16:00Z Final | comp keys ['attendance', 'broadcast', 'broadcasts', 'competitors', 'date', 'format', 'geoBroadcasts', 'highlights', 'id', 'neutralSite', 'notes', 'playByPlayAvailable', 'recent', 'startDate', 'status', 'timeValid', 'type', 'uid', 'venue']
-  situation: null
-  competitor keys ['curatedRank', 'homeAway', 'id', 'linescores', 'order', 'records', 'score', 'statistics', 'team', 'type', 'uid', 'winner'] | team keys ['abbreviation', 'displayName', 'id', 'isActive', 'links', 'location', 'logo', 'logoDark', 'name', 'shortDisplayName', 'uid', 'venue'] | conf None | records ['5-2-0'] | rank {'current': 10}
-  status {"clock": 0.0, "displayClock": "0:00", "period": 3, "type": {"id": "3", "name": "STATUS_FINAL", "state": "post", "completed": true, "description": "Final", "detail": "Final", "shortDetail": "Final"}}
-  summary keys ['boxscore', 'broadcasts', 'format', 'gameInfo', 'header', 'meta', 'news', 'plays', 'videos', 'wallclockAvailable']
-  plays n 0 sample {}
-  box stats []
-groups=50&limit=500 | events 0 | season 2027 Regular Season | calStart 2026-09-01T07:00Z calEnd 2027-05-01T06:59Z | calType day | cal n 92 first ['2026-10-02T07:00Z', '2026-10-03T07:00Z'] last 2027-04-10T07:00Z
-dates=20261101-20261109&limit=900 ERR HTTP Error 400: Bad Request
-dates=20261101-20261109&groups=50&limit=900 ERR HTTP Error 400: Bad Request
-===== hockey/womens-college-hockey
-limit=500 | events 19 | season 2027 Regular Season | calStart 2026-09-01T07:00Z calEnd 2027-04-05T06:59Z | calType day | cal n 83 first ['2026-09-18T07:00Z', '2026-09-19T07:00Z'] last 2027-03-23T07:00Z
-  sample: Assumption College Greyhounds at Mercyhurst Lakers 2026-10-31T17:00Z Final | comp keys ['attendance', 'broadcast', 'broadcasts', 'competitors', 'date', 'format', 'geoBroadcasts', 'highlights', 'id', 'neutralSite', 'notes', 'playByPlayAvailable', 'recent', 'startDate', 'status', 'timeValid', 'type', 'uid', 'venue']
-  situation: null
-  competitor keys ['curatedRank', 'homeAway', 'id', 'linescores', 'order', 'records', 'score', 'statistics', 'team', 'type', 'uid', 'winner'] | team keys ['abbreviation', 'displayName', 'id', 'isActive', 'links', 'location', 'logo', 'logoDark', 'name', 'shortDisplayName', 'uid', 'venue'] | conf None | records ['7-4-1'] | rank {'current': 99}
-  status {"clock": 0.0, "displayClock": "0:00", "period": 3, "type": {"id": "3", "name": "STATUS_FINAL", "state": "post", "completed": true, "description": "Final", "detail": "Final", "shortDetail": "Final"}}
-  summary keys ['boxscore', 'broadcasts', 'format', 'gameInfo', 'header', 'meta', 'news', 'plays', 'videos', 'wallclockAvailable']
-  plays n 0 sample {}
-  box stats []
-groups=50&limit=500 | events 0 | season 2027 Regular Season | calStart 2026-09-01T07:00Z calEnd 2027-04-05T06:59Z | calType day | cal n 83 first ['2026-09-18T07:00Z', '2026-09-19T07:00Z'] last 2027-03-23T07:00Z
-dates=20261101-20261109&limit=900 ERR HTTP Error 400: Bad Request
-dates=20261101-20261109&groups=50&limit=900 ERR HTTP Error 400: Bad Request
-===== volleyball/womens-college-volleyball
-limit=500 | events 51 | season 2026 Regular Season | calStart 2026-08-01T07:00Z calEnd 2027-01-01T07:59Z | calType day | cal n 93 first ['2026-08-21T07:00Z', '2026-08-22T07:00Z'] last 2026-11-29T08:00Z
-  sample: Georgia Tech Yellow Jackets at Louisville Cardinals 2026-11-01T17:00Z 2nd Set | comp keys ['attendance', 'broadcast', 'broadcasts', 'competitors', 'conferenceCompetition', 'date', 'format', 'geoBroadcasts', 'highlights', 'id', 'neutralSite', 'notes', 'playByPlayAvailable', 'recent', 'situation', 'startDate', 'status', 'timeValid', 'type', 'uid', 'venue']
-  situation: {}
-  competitor keys ['curatedRank', 'homeAway', 'id', 'linescores', 'order', 'ranks', 'records', 'score', 'statistics', 'team', 'type', 'uid'] | team keys ['abbreviation', 'alternateColor', 'color', 'displayName', 'id', 'isActive', 'links', 'location', 'logo', 'logoDark', 'name', 'shortDisplayName', 'uid', 'venue'] | conf None | records ['21-2', '10-0'] | rank {'current': 3}
-  status {"clock": 0.0, "displayClock": "0:00", "period": 2, "type": {"id": "2", "name": "STATUS_IN_PROGRESS", "state": "in", "completed": false, "description": "In Progress", "detail": "2nd Set", "shortDetail": "2nd Set"}}
-  summary keys ['boxscore', 'format', 'gameInfo', 'header', 'meta', 'news', 'standings', 'videos', 'wallclockAvailable']
-  plays n 0 sample {}
-  box stats []
-groups=50&limit=500 | events 2 | season 2026 Regular Season | calStart 2026-08-01T07:00Z calEnd 2027-01-01T07:59Z | calType day | cal n 93 first ['2026-08-21T07:00Z', '2026-08-22T07:00Z'] last 2026-11-29T08:00Z
-dates=20261101-20261109&limit=900 ERR HTTP Error 400: Bad Request
-dates=20261101-20261109&groups=50&limit=900 ERR HTTP Error 400: Bad Request
-===== baseball/college-baseball
-limit=500 | events 1 | season 2026 Preseason | calStart 2025-07-06T04:00Z calEnd 2026-06-29T03:59Z | calType day | cal n 117 first ['2026-02-13T08:00Z', '2026-02-14T08:00Z'] last 2026-06-22T07:00Z
-  sample: Oklahoma Sooners at North Carolina Tar Heels 2026-06-22T23:00Z Final | comp keys ['attendance', 'broadcast', 'broadcasts', 'competitors', 'conferenceCompetition', 'date', 'format', 'geoBroadcasts', 'highlights', 'id', 'neutralSite', 'notes', 'playByPlayAvailable', 'recent', 'series', 'startDate', 'status', 'timeValid', 'uid', 'venue', 'wasSuspended']
-  situation: null
-  competitor keys ['curatedRank', 'errors', 'hits', 'homeAway', 'id', 'linescores', 'order', 'record', 'records', 'score', 'statistics', 'team', 'type', 'uid', 'winner'] | team keys ['abbreviation', 'color', 'displayName', 'id', 'isActive', 'links', 'location', 'logo', 'logoDark', 'name', 'shortDisplayName', 'uid'] | conf None | records ['54-14-1'] | rank {'current': 5}
-  status {"period": 9, "type": {"id": "3", "name": "STATUS_FINAL", "state": "post", "completed": true, "description": "Final", "detail": "Final", "shortDetail": "Final", "altDetail": "Final"}}
-  summary keys ['againstTheSpread', 'atBats', 'boxscore', 'broadcasts', 'format', 'gameInfo', 'header', 'meta', 'news', 'notes', 'odds', 'pickcenter', 'plays', 'playsMap', 'rosters', 'seasonseries', 'videos', 'wallclockAvailable']
-  plays n 676 sample {"id": "4018744531799990058", "sequenceNumber": "2", "type": {"id": "58", "text": "End Inning"}, "text": "End of the 9th inning", "awayScore": 13, "homeScore": 2, "period": {"type": "End", "number": 9, "displayValue": "9th Inning"}, "scoringPlay": false, "scoreValue": 0, "team": {"id": "96"}, "wallclock": "2026-06-23T02:53:12Z", "atBatId": "4018744531704", "pitchCount": {"balls": 0, "strikes": 0},
-  box stats [('batting', None), ('pitching', None), ('fielding', None), ('records', None)]
-groups=50&limit=500 | events 0 | season 2026 Preseason | calStart None calEnd None | calType None | cal n 0 first None last None
-dates=20261101-20261109&limit=900 ERR HTTP Error 400: Bad Request
-dates=20261101-20261109&groups=50&limit=900 ERR HTTP Error 400: Bad Request
-===== softball/college-softball
-limit=500 ERR HTTP Error 400: Bad Request
-groups=50&limit=500 ERR HTTP Error 400: Bad Request
-dates=20261101-20261109&limit=900 ERR HTTP Error 400: Bad Request
-dates=20261101-20261109&groups=50&limit=900 ERR HTTP Error 400: Bad Request
-===== lacrosse/mens-college-lacrosse
-limit=500 | events 1 | season 2026 Regular Season | calStart 2026-01-01T08:00Z calEnd 2026-07-01T06:59Z | calType day | cal n 73 first ['2026-01-30T08:00Z', '2026-01-31T08:00Z'] last 2026-05-25T07:00Z
-  sample: Notre Dame Fighting Irish at Princeton Tigers 2026-05-25T17:00Z Final | comp keys ['attendance', 'broadcast', 'broadcasts', 'competitors', 'date', 'format', 'geoBroadcasts', 'highlights', 'id', 'neutralSite', 'notes', 'playByPlayAvailable', 'recent', 'startDate', 'status', 'timeValid', 'uid']
-  situation: null
-  competitor keys ['curatedRank', 'homeAway', 'id', 'linescores', 'order', 'records', 'score', 'statistics', 'team', 'type', 'uid', 'winner'] | team keys ['abbreviation', 'color', 'displayName', 'id', 'isActive', 'links', 'location', 'logo', 'logoDark', 'name', 'shortDisplayName', 'uid'] | conf None | records ['17-2'] | rank {'current': 1}
-  status {"clock": 0.0, "displayClock": "0:00", "period": 4, "type": {"id": "3", "name": "STATUS_FINAL", "state": "post", "completed": true, "description": "Final", "detail": "Final", "shortDetail": "Final"}}
-  summary keys ['broadcasts', 'format', 'gameInfo', 'header', 'meta', 'news', 'videos', 'wallclockAvailable']
-  plays n 0 sample {}
-groups=50&limit=500 | events 0 | season 2026 Regular Season | calStart None calEnd None | calType None | cal n 0 first None last None
-dates=20261101-20261109&limit=900 ERR HTTP Error 400: Bad Request
-dates=20261101-20261109&groups=50&limit=900 ERR HTTP Error 400: Bad Request
-MBB groups {"status": "success", "groups": [{"name": "NCAA Division I", "abbreviation": "NCAA", "children": [{"name": "America East Conference", "abbreviation": "aeast", "teams": [{"id": "160", "slug": "new-hampshire-wildcats", "name": "Wildcats", "abbreviation": "UNH", "displayName": "New Hampshire Wildcats", "shortDisplayName": "New Hampshire", "logos": [{"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png", "width": 500, "height": 500, "alt": "", "rel": ["full", "default"], "lastUpdated": "2018-06-05T12:08Z"}, {"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/160.png", "width": 500, "h
+SOFT baseball/college-softball (1, '2026-06-11T03:59Z', '2026-02-05T08:00Z')
+SOFT softball/college-softball HTTP Error 400: Bad Request
+SOFT softball/womens-college-softball HTTP Error 400: Bad Request
+basketball/mens-college-basketball dates=20261102&limit=500 ('events', 18, 'cal', ['2026-11-02T08:00Z'], ['2027-03-07T08:00Z'], 'end', '2027-04-07T06:59Z')
+basketball/mens-college-basketball dates=20261102&groups=50&limit=500 ('events', 181, 'cal', ['2026-11-01T07:00Z'], ['2027-03-07T08:00Z'], 'end', '2027-04-07T06:59Z')
+basketball/mens-college-basketball dates=20270213&limit=500 ('events', 17, 'cal', ['2026-11-02T08:00Z'], ['2027-03-07T08:00Z'], 'end', '2027-04-07T06:59Z')
+basketball/mens-college-basketball dates=2027&limit=5 ('events', 5, 'cal', ['2026-11-02T08:00Z'], ['2027-03-07T08:00Z'], 'end', '2027-04-07T06:59Z')
+ TOP NCAA Division I 0
+  grp America East Conference aeast teams 9
+  grp American Conference American teams 13
+  grp Atlantic 10 Conference atl10 teams 14
+  grp Atlantic Coast Conference acc teams 18
+  grp Atlantic Sun Conference ASUN teams 8
+  grp Big 12 Conference big12 teams 16
+  grp Big East Conference bige teams 11
+  grp Big Sky Conference bsky teams 11
+  grp Big South Conference bsou teams 9
+  grp Big Ten Conference big10 teams 18
+  grp Big West Conference bigw teams 12
+  grp Coastal Athletic Association col teams 13
+  grp Conference USA usa teams 10
+  grp Horizon League hor teams 12
+  grp Ivy League ivy teams 8
+  grp Metro Conference Metro teams 13
+  grp Mid-American Conference midam teams 12
+  grp Mid-Eastern Athletic Conference meac teams 8
+  grp Missouri Valley Conference mvc teams 11
+  grp Mountain West Conference mwest teams 10
+  grp Northeast Conference neast teams 9
+  grp Ohio Valley Conference ovc teams 9
+  grp Pac-12 Conference pac12 teams 9
+  grp Patriot League pat teams 10
+  grp Southeastern Conference sec teams 16
+ TOP Non-NCAA Division I 0
+hockey/mens-college-hockey dates=20261102&limit=500 ('events', 0, 'cal', ['2026-10-02T07:00Z'], ['2027-04-10T07:00Z'], 'end', '2027-05-01T06:59Z')
+hockey/mens-college-hockey dates=20261102&groups=50&limit=500 ('events', 0, 'cal', ['2026-10-02T07:00Z'], ['2027-04-10T07:00Z'], 'end', '2027-05-01T06:59Z')
+hockey/mens-college-hockey dates=20270213&limit=500 ('events', 27, 'cal', ['2026-10-02T07:00Z'], ['2027-04-10T07:00Z'], 'end', '2027-05-01T06:59Z')
+hockey/mens-college-hockey dates=2027&limit=5 ('events', 5, 'cal', ['2026-10-02T07:00Z'], ['2027-04-10T07:00Z'], 'end', '2027-05-01T06:59Z')
+ TOP Atlantic Hockey America 0
+ TOP Big Ten Conference 0
+ TOP Central Collegiate Hockey Association 0
+ TOP College Hockey America 0
+ TOP East Coast Athletic Conference 0
+ TOP Hockey East 0
+ TOP Independent 0
+ TOP Metro Atlantic Athletic Conference 0
+ TOP National Collegiate Hockey Conference 0
+ TOP Northeast 10 Conference 0
+volleyball/womens-college-volleyball dates=20261102&limit=500 ('events', 0, 'cal', ['2026-08-21T07:00Z'], ['2026-11-29T08:00Z'], 'end', '2027-01-01T07:59Z')
+volleyball/womens-college-volleyball dates=20261102&groups=50&limit=500 ('events', 0, 'cal', ['2026-08-21T07:00Z'], ['2026-11-29T08:00Z'], 'end', '2027-01-01T07:59Z')
+volleyball/womens-college-volleyball dates=20270213&limit=500 ('events', 0, 'cal', [], '', 'end', None)
+volleyball/womens-college-volleyball dates=2027&limit=5 ('events', 0, 'cal', [], '', 'end', None)
+ TOP NCAA Division I 0
+  grp America East Conference America East teams 7
+  grp American Conference American teams 13
+  grp Atlantic 10 Conference Atlantic 10 teams 9
+  grp Atlantic Coast Conference ACC teams 18
+  grp Atlantic Sun Conference Atlantic Sun teams 8
+  grp Big 12 Conference Big 12 teams 9
+  grp Big East Conference Big East teams 12
+  grp Big Sky Conference Big Sky teams 11
+  grp Big South Conference Big South teams 10
+  grp Big Ten Conference Big Ten teams 14
+  grp Big West Conference Big West teams 11
+  grp Colonial Athletic Association Colonial teams 9
+  grp Conference USA Conference USA teams 13
+  grp Horizon League Horizon teams 13
+  grp Independents Independents teams 1
+  grp Metro Conference Metro teams 10
+  grp Mid-American Conference Mid-American teams 11
+  grp Mid-Eastern Athletic Conference MEAC teams 12
+  grp Missouri Valley Conference Missouri Valley teams 10
+  grp Mountain West Conference Mountain West teams 10
+  grp Northeast Conference Northeast teams 10
+  grp Ohio Valley Conference Ohio Valley teams 11
+  grp Pac-12 Conference Pac-12 teams 17
+  grp Patriot League Patriot League teams 9
+  grp Southeastern Conference SEC teams 16
+ TOP Non-NCAA Division I 0
+  grp American Southwest Conference America SW teams 1
+ TOP United Athletic Conference 0
+baseball/college-baseball dates=20261102&limit=500 ('events', 0, 'cal', [], '', 'end', None)
+baseball/college-baseball dates=20261102&groups=50&limit=500 ('events', 0, 'cal', [], '', 'end', None)
+baseball/college-baseball dates=20270213&limit=500 ('events', 0, 'cal', [], '', 'end', None)
+baseball/college-baseball dates=2027&limit=5 ('events', 0, 'cal', [], '', 'end', None)
+ TOP NCAA Division I 0
+  grp American Conference American teams 0
+  grp Atlantic Coast Conference acc teams 0
+  grp Atlantic Sun Conference ASUN teams 0
+  grp Big 10 Conference big10 teams 0
+  grp Big 12 Conference big12 teams 0
+  grp Big East Conference bige teams 0
+  grp Big West Conference bigw teams 0
+  grp Coastal Athletic Association col teams 0
+  grp Conference USA usa teams 0
+  grp Metro Conference Metro teams 0
+  grp Northeast Conference nec teams 0
+  grp Southeastern Conference sec teams 0
+  grp Southland Conference land teams 0
+  grp Sun Belt Conference belt teams 0
+  grp West Coast Conference wcc teams 0
+VB 2nd Set [('LOU', '1', [25.0, 9.0]), ('GT', '0', [19.0, 4.0])] {}
+VB 2nd Set [('TEM', '1', [25.0, 6.0]), ('TULN', '0', [22.0, 10.0])] {}
+HK 11/1 - 3:00 PM EST 0:00 [('DART', '0', None), ('AKFB', '0', None)]
+HK 11/1 - 7:30 PM EST 0:00 [('OSU', '0', None), ('MICH', '0', None)]
