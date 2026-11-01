@@ -1,2186 +1,8064 @@
-[
 {
-"id": "401859185",
-"name": "ND VS NAVY",
-"date": "2026-10-31T16:00Z",
-"state": "pre",
-"div": "FBS",
+"fb|20261101": [],
+"mbb|20261101": [
+{
+"id": "401920982",
+"name": "ND VS VILL",
+"date": "2026-11-01T14:30Z",
+"state": "post",
 "teams": [
 {
-"location": "Navy",
-"display": "Navy Midshipmen",
-"short": "Navy",
+"location": "Villanova",
+"display": "Villanova Wildcats",
+"id": "222",
 "home": true
 },
 {
 "location": "Notre Dame",
 "display": "Notre Dame Fighting Irish",
-"short": "Notre Dame",
+"id": "87",
 "home": false
 }
 ]
 },
 {
-"id": "401856842",
-"name": "ARIZ @ TTU",
-"date": "2026-10-31T16:00Z",
+"id": "401920409",
+"name": "LIB VS HPU",
+"date": "2026-11-02T04:59Z",
 "state": "pre",
-"div": "FBS",
 "teams": [
 {
-"location": "Texas Tech",
-"display": "Texas Tech Red Raiders",
-"short": "Texas Tech",
+"location": "High Point",
+"display": "High Point Panthers",
+"id": "2272",
 "home": true
 },
 {
-"location": "Arizona",
-"display": "Arizona Wildcats",
-"short": "Arizona",
+"location": "Liberty",
+"display": "Liberty Flames",
+"id": "2335",
 "home": false
 }
 ]
-},
+}
+],
+"wbb|20261101": [
 {
-"id": "401858278",
-"name": "SMU @ SYR",
-"date": "2026-10-31T16:00Z",
-"state": "pre",
-"div": "FBS",
+"id": "401920983",
+"name": "ND VS VILL",
+"date": "2026-11-01T17:00Z",
+"state": "post",
 "teams": [
 {
-"location": "Syracuse",
-"display": "Syracuse Orange",
-"short": "Syracuse",
+"location": "Villanova",
+"display": "Villanova Wildcats",
+"id": "222",
 "home": true
 },
 {
-"location": "SMU",
-"display": "SMU Mustangs",
-"short": "SMU",
+"location": "Notre Dame",
+"display": "Notre Dame Fighting Irish",
+"id": "87",
 "home": false
 }
 ]
-},
+}
+],
+"mhk|20261101": [
 {
-"id": "401858502",
-"name": "WIS @ IOWA",
-"date": "2026-10-31T16:00Z",
+"id": "401905069",
+"name": "AKFB @ DART",
+"date": "2026-11-01T20:00Z",
 "state": "pre",
-"div": "FBS",
 "teams": [
 {
-"location": "Iowa",
-"display": "Iowa Hawkeyes",
-"short": "Iowa",
+"location": "Dartmouth",
+"display": "Dartmouth Big Green",
+"id": "159",
 "home": true
 },
 {
-"location": "Wisconsin",
-"display": "Wisconsin Badgers",
-"short": "Wisconsin",
+"location": "Alaska",
+"display": "Alaska Bulldogs",
+"id": "298",
 "home": false
 }
 ]
 },
 {
-"id": "401858277",
-"name": "CAL @ NCSU",
-"date": "2026-10-31T16:00Z",
+"id": "401923148",
+"name": "MICH @ OSU",
+"date": "2026-11-02T00:30Z",
 "state": "pre",
-"div": "FBS",
 "teams": [
 {
-"location": "NC State",
-"display": "NC State Wolfpack",
-"short": "NC State",
-"home": true
-},
-{
-"location": "California",
-"display": "California Golden Bears",
-"short": "California",
-"home": false
-}
-]
-},
-{
-"id": "401858279",
-"name": "BC @ DUKE",
-"date": "2026-10-31T16:00Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "Duke",
-"display": "Duke Blue Devils",
-"short": "Duke",
-"home": true
-},
-{
-"location": "Boston College",
-"display": "Boston College Eagles",
-"short": "Boston College",
-"home": false
-}
-]
-},
-{
-"id": "401858503",
-"name": "ILL @ MD",
-"date": "2026-10-31T16:00Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "Maryland",
-"display": "Maryland Terrapins",
-"short": "Maryland",
-"home": true
-},
-{
-"location": "Illinois",
-"display": "Illinois Fighting Illini",
-"short": "Illinois",
-"home": false
-}
-]
-},
-{
-"id": "401862816",
-"name": "UAB @ USF",
-"date": "2026-10-31T16:00Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "South Florida",
-"display": "South Florida Bulls",
-"short": "South Florida",
-"home": true
-},
-{
-"location": "UAB",
-"display": "UAB Blazers",
-"short": "UAB",
-"home": false
-}
-]
-},
-{
-"id": "401866452",
-"name": "BGSU @ WMU",
-"date": "2026-10-31T16:00Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "Western Michigan",
-"display": "Western Michigan Broncos",
-"short": "W Michigan",
-"home": true
-},
-{
-"location": "Bowling Green",
-"display": "Bowling Green Falcons",
-"short": "Bowling Green",
-"home": false
-}
-]
-},
-{
-"id": "401858507",
-"name": "MICH @ RUTG",
-"date": "2026-10-31T16:30Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "Rutgers",
-"display": "Rutgers Scarlet Knights",
-"short": "Rutgers",
+"location": "Ohio State",
+"display": "Ohio State Buckeyes",
+"id": "194",
 "home": true
 },
 {
 "location": "Michigan",
 "display": "Michigan Wolverines",
-"short": "Michigan",
+"id": "130",
 "home": false
 }
 ]
-},
-{
-"id": "401856735",
-"name": "AUB @ MISS",
-"date": "2026-10-31T16:45Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "Ole Miss",
-"display": "Ole Miss Rebels",
-"short": "Ole Miss",
-"home": true
-},
-{
-"location": "Auburn",
-"display": "Auburn Tigers",
-"short": "Auburn",
-"home": false
 }
-]
-},
+],
+"whk|20261101": [],
+"wvb|20261101": [
 {
-"id": "401871096",
-"name": "MRSH @ ODU",
-"date": "2026-10-31T17:00Z",
-"state": "pre",
-"div": "FBS",
+"id": "401888878",
+"name": "KU @ ISU",
+"date": "2026-11-01T18:00Z",
+"state": "in",
 "teams": [
 {
-"location": "Old Dominion",
-"display": "Old Dominion Monarchs",
-"short": "Old Dominion",
-"home": true
-},
-{
-"location": "Marshall",
-"display": "Marshall Thundering Herd",
-"short": "Marshall",
-"home": false
-}
-]
-},
-{
-"id": "401856846",
-"name": "KSU @ COLO",
-"date": "2026-10-31T18:00Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "Colorado",
-"display": "Colorado Buffaloes",
-"short": "Colorado",
-"home": true
-},
-{
-"location": "Kansas State",
-"display": "Kansas State Wildcats",
-"short": "Kansas St",
-"home": false
-}
-]
-},
-{
-"id": "401869944",
-"name": "CCU @ GAST",
-"date": "2026-10-31T18:00Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "Georgia State",
-"display": "Georgia State Panthers",
-"short": "Georgia St",
-"home": true
-},
-{
-"location": "Coastal Carolina",
-"display": "Coastal Carolina Chanticleers",
-"short": "Coastal",
-"home": false
-}
-]
-},
-{
-"id": "401861966",
-"name": "CONN @ AFA",
-"date": "2026-10-31T19:00Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "Air Force",
-"display": "Air Force Falcons",
-"short": "Air Force",
-"home": true
-},
-{
-"location": "UConn",
-"display": "UConn Huskies",
-"short": "UConn",
-"home": false
-}
-]
-},
-{
-"id": "401862815",
-"name": "TEM @ ECU",
-"date": "2026-10-31T19:00Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "East Carolina",
-"display": "East Carolina Pirates",
-"short": "East Carolina",
-"home": true
-},
-{
-"location": "Temple",
-"display": "Temple Owls",
-"short": "Temple",
-"home": false
-}
-]
-},
-{
-"id": "401871097",
-"name": "LT @ USA",
-"date": "2026-10-31T19:00Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "South Alabama",
-"display": "South Alabama Jaguars",
-"short": "South Alabama",
-"home": true
-},
-{
-"location": "Louisiana Tech",
-"display": "Louisiana Tech Bulldogs",
-"short": "Louisiana Tech",
-"home": false
-}
-]
-},
-{
-"id": "401858283",
-"name": "STAN @ LOU",
-"date": "2026-10-31T19:15Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "Louisville",
-"display": "Louisville Cardinals",
-"short": "Louisville",
-"home": true
-},
-{
-"location": "Stanford",
-"display": "Stanford Cardinal",
-"short": "Stanford",
-"home": false
-}
-]
-},
-{
-"id": "401856734",
-"name": "FLA VS UGA",
-"date": "2026-10-31T19:30Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "Georgia",
-"display": "Georgia Bulldogs",
-"short": "Georgia",
-"home": true
-},
-{
-"location": "Florida",
-"display": "Florida Gators",
-"short": "Florida",
-"home": false
-}
-]
-},
-{
-"id": "401858501",
-"name": "MINN @ IU",
-"date": "2026-10-31T19:30Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "Indiana",
-"display": "Indiana Hoosiers",
-"short": "Indiana",
-"home": true
-},
-{
-"location": "Minnesota",
-"display": "Minnesota Golden Gophers",
-"short": "Minnesota",
-"home": false
-}
-]
-},
-{
-"id": "401856843",
-"name": "ASU @ BYU",
-"date": "2026-10-31T19:30Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "BYU",
-"display": "BYU Cougars",
-"short": "BYU",
-"home": true
-},
-{
-"location": "Arizona State",
-"display": "Arizona State Sun Devils",
-"short": "Arizona St",
-"home": false
-}
-]
-},
-{
-"id": "401858505",
-"name": "NU @ ORE",
-"date": "2026-10-31T19:30Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "Oregon",
-"display": "Oregon Ducks",
-"short": "Oregon",
-"home": true
-},
-{
-"location": "Northwestern",
-"display": "Northwestern Wildcats",
-"short": "Northwestern",
-"home": false
-}
-]
-},
-{
-"id": "401856845",
-"name": "KU @ TCU",
-"date": "2026-10-31T19:30Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "TCU",
-"display": "TCU Horned Frogs",
-"short": "TCU",
+"location": "Iowa State",
+"display": "Iowa State Cyclones",
+"id": "66",
 "home": true
 },
 {
 "location": "Kansas",
 "display": "Kansas Jayhawks",
-"short": "Kansas",
+"id": "2305",
 "home": false
 }
 ]
 },
 {
-"id": "401860910",
-"name": "CSU @ USU",
-"date": "2026-10-31T19:30Z",
-"state": "pre",
-"div": "FBS",
+"id": "401884197",
+"name": "BING @ BRY",
+"date": "2026-11-01T18:00Z",
+"state": "in",
 "teams": [
 {
-"location": "Utah State",
-"display": "Utah State Aggies",
-"short": "Utah State",
+"location": "Bryant",
+"display": "Bryant Bulldogs",
+"id": "2803",
 "home": true
 },
 {
-"location": "Colorado State",
-"display": "Colorado State Rams",
-"short": "Colorado St",
+"location": "Binghamton",
+"display": "Binghamton Bearcats",
+"id": "2066",
 "home": false
 }
 ]
 },
 {
-"id": "401864531",
-"name": "UTEP @ NDSU",
-"date": "2026-10-31T19:30Z",
-"state": "pre",
-"div": "FBS",
+"id": "401884486",
+"name": "CLEM @ ND",
+"date": "2026-11-01T18:00Z",
+"state": "in",
 "teams": [
 {
-"location": "North Dakota State",
-"display": "North Dakota State Bison",
-"short": "N Dakota St",
-"home": true
-},
-{
-"location": "UTEP",
-"display": "UTEP Miners",
-"short": "UTEP",
-"home": false
-}
-]
-},
-{
-"id": "401871059",
-"name": "FIU @ LIB",
-"date": "2026-10-31T19:30Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "Liberty",
-"display": "Liberty Flames",
-"short": "Liberty",
-"home": true
-},
-{
-"location": "Florida International",
-"display": "Florida International Panthers",
-"short": "FIU",
-"home": false
-}
-]
-},
-{
-"id": "401871095",
-"name": "USM @ ULM",
-"date": "2026-10-31T19:30Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "UL Monroe",
-"display": "UL Monroe Warhawks",
-"short": "UL Monroe",
-"home": true
-},
-{
-"location": "Southern Miss",
-"display": "Southern Miss Golden Eagles",
-"short": "Southern Miss",
-"home": false
-}
-]
-},
-{
-"id": "401856848",
-"name": "UTAH @ CIN",
-"date": "2026-10-31T19:45Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "Cincinnati",
-"display": "Cincinnati Bearcats",
-"short": "Cincinnati",
-"home": true
-},
-{
-"location": "Utah",
-"display": "Utah Utes",
-"short": "Utah",
-"home": false
-}
-]
-},
-{
-"id": "401858284",
-"name": "UVA @ WAKE",
-"date": "2026-10-31T19:45Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "Wake Forest",
-"display": "Wake Forest Demon Deacons",
-"short": "Wake Forest",
-"home": true
-},
-{
-"location": "Virginia",
-"display": "Virginia Cavaliers",
-"short": "Virginia",
-"home": false
-}
-]
-},
-{
-"id": "401864529",
-"name": "UNM @ SJSU",
-"date": "2026-10-31T20:00Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "San Jos\u00e9 State",
-"display": "San Jos\u00e9 State Spartans",
-"short": "San Jos\u00e9 St",
-"home": true
-},
-{
-"location": "New Mexico",
-"display": "New Mexico Lobos",
-"short": "New Mexico",
-"home": false
-}
-]
-},
-{
-"id": "401858508",
-"name": "NEV @ UCLA",
-"date": "2026-10-31T20:15Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "UCLA",
-"display": "UCLA Bruins",
-"short": "UCLA",
-"home": true
-},
-{
-"location": "Nevada",
-"display": "Nevada Wolf Pack",
-"short": "Nevada",
-"home": false
-}
-]
-},
-{
-"id": "401856736",
-"name": "SC @ OU",
-"date": "2026-10-31T20:15Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "Oklahoma",
-"display": "Oklahoma Sooners",
-"short": "Oklahoma",
-"home": true
-},
-{
-"location": "South Carolina",
-"display": "South Carolina Gamecocks",
-"short": "South Carolina",
-"home": false
-}
-]
-},
-{
-"id": "401858506",
-"name": "PUR @ PSU",
-"date": "2026-10-31T20:15Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "Penn State",
-"display": "Penn State Nittany Lions",
-"short": "Penn State",
-"home": true
-},
-{
-"location": "Purdue",
-"display": "Purdue Boilermakers",
-"short": "Purdue",
-"home": false
-}
-]
-},
-{
-"id": "401869846",
-"name": "APP @ GASO",
-"date": "2026-10-31T22:30Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "Georgia Southern",
-"display": "Georgia Southern Eagles",
-"short": "GA Southern",
-"home": true
-},
-{
-"location": "App State",
-"display": "App State Mountaineers",
-"short": "App State",
-"home": false
-}
-]
-},
-{
-"id": "401856847",
-"name": "OKST @ ISU",
-"date": "2026-10-31T23:00Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "Iowa State",
-"display": "Iowa State Cyclones",
-"short": "Iowa State",
-"home": true
-},
-{
-"location": "Oklahoma State",
-"display": "Oklahoma State Cowboys",
-"short": "Oklahoma St",
-"home": false
-}
-]
-},
-{
-"id": "401858280",
-"name": "CLEM @ FSU",
-"date": "2026-10-31T23:00Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "Florida State",
-"display": "Florida State Seminoles",
-"short": "Florida St",
+"location": "Notre Dame",
+"display": "Notre Dame Fighting Irish",
+"id": "87",
 "home": true
 },
 {
 "location": "Clemson",
 "display": "Clemson Tigers",
-"short": "Clemson",
+"id": "228",
 "home": false
 }
 ]
 },
 {
-"id": "401860909",
-"name": "WSU @ SDSU",
-"date": "2026-10-31T23:00Z",
-"state": "pre",
-"div": "FBS",
+"id": "401886002",
+"name": "UNF @ STET",
+"date": "2026-11-01T18:00Z",
+"state": "in",
 "teams": [
 {
-"location": "San Diego State",
-"display": "San Diego State Aztecs",
-"short": "San Diego St",
+"location": "Stetson",
+"display": "Stetson Hatters",
+"id": "56",
 "home": true
 },
 {
-"location": "Washington State",
-"display": "Washington State Cougars",
-"short": "Washington St",
+"location": "North Florida",
+"display": "North Florida Ospreys",
+"id": "2454",
 "home": false
 }
 ]
 },
 {
-"id": "401858282",
-"name": "MIA @ UNC",
-"date": "2026-10-31T23:30Z",
-"state": "pre",
-"div": "FBS",
+"id": "401887168",
+"name": "USF @ ECU",
+"date": "2026-11-01T18:00Z",
+"state": "in",
 "teams": [
 {
-"location": "North Carolina",
-"display": "North Carolina Tar Heels",
-"short": "North Carolina",
+"location": "East Carolina",
+"display": "East Carolina Pirates",
+"id": "151",
 "home": true
 },
 {
-"location": "Miami",
-"display": "Miami Hurricanes",
-"short": "Miami",
+"location": "South Florida",
+"display": "South Florida Bulls",
+"id": "58",
 "home": false
 }
 ]
 },
 {
-"id": "401858509",
-"name": "OSU @ USC",
-"date": "2026-10-31T23:30Z",
-"state": "pre",
-"div": "FBS",
+"id": "401887428",
+"name": "FAU @ WICH",
+"date": "2026-11-01T18:00Z",
+"state": "in",
 "teams": [
 {
-"location": "USC",
-"display": "USC Trojans",
-"short": "USC",
+"location": "Wichita State",
+"display": "Wichita State Shockers",
+"id": "2724",
 "home": true
 },
 {
-"location": "Ohio State",
-"display": "Ohio State Buckeyes",
-"short": "Ohio State",
+"location": "Florida Atlantic",
+"display": "Florida Atlantic Owls",
+"id": "2226",
 "home": false
 }
 ]
 },
 {
-"id": "401856737",
-"name": "MSST @ TEX",
-"date": "2026-10-31T23:30Z",
-"state": "pre",
-"div": "FBS",
+"id": "401887453",
+"name": "DUQ @ DAV",
+"date": "2026-11-01T18:00Z",
+"state": "in",
 "teams": [
 {
-"location": "Texas",
-"display": "Texas Longhorns",
-"short": "Texas",
-"home": true
-},
-{
-"location": "Mississippi State",
-"display": "Mississippi State Bulldogs",
-"short": "Mississippi St",
-"home": false
-}
-]
-},
-{
-"id": "401858281",
-"name": "GT @ PITT",
-"date": "2026-10-31T23:30Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "Pittsburgh",
-"display": "Pittsburgh Panthers",
-"short": "Pitt",
-"home": true
-},
-{
-"location": "Georgia Tech",
-"display": "Georgia Tech Yellow Jackets",
-"short": "Georgia Tech",
-"home": false
-}
-]
-},
-{
-"id": "401856733",
-"name": "MIZ @ ARK",
-"date": "2026-10-31T23:45Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "Arkansas",
-"display": "Arkansas Razorbacks",
-"short": "Arkansas",
-"home": true
-},
-{
-"location": "Missouri",
-"display": "Missouri Tigers",
-"short": "Missouri",
-"home": false
-}
-]
-},
-{
-"id": "401858504",
-"name": "WASH @ NEB",
-"date": "2026-11-01T00:00Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "Nebraska",
-"display": "Nebraska Cornhuskers",
-"short": "Nebraska",
-"home": true
-},
-{
-"location": "Washington",
-"display": "Washington Huskies",
-"short": "Washington",
-"home": false
-}
-]
-},
-{
-"id": "401862814",
-"name": "ARMY @ MEM",
-"date": "2026-11-01T00:00Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "Memphis",
-"display": "Memphis Tigers",
-"short": "Memphis",
-"home": true
-},
-{
-"location": "Army",
-"display": "Army Black Knights",
-"short": "Army",
-"home": false
-}
-]
-},
-{
-"id": "401860908",
-"name": "TXST @ BOIS",
-"date": "2026-11-01T02:00Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "Boise State",
-"display": "Boise State Broncos",
-"short": "Boise St",
-"home": true
-},
-{
-"location": "Texas State",
-"display": "Texas State Bobcats",
-"short": "Texas St",
-"home": false
-}
-]
-},
-{
-"id": "401864530",
-"name": "NIU @ UNLV",
-"date": "2026-11-01T02:30Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "UNLV",
-"display": "UNLV Rebels",
-"short": "UNLV",
-"home": true
-},
-{
-"location": "Northern Illinois",
-"display": "Northern Illinois Huskies",
-"short": "N Illinois",
-"home": false
-}
-]
-},
-{
-"id": "401860924",
-"name": "ORST @ FRES",
-"date": "2026-11-01T03:00Z",
-"state": "pre",
-"div": "FBS",
-"teams": [
-{
-"location": "Fresno State",
-"display": "Fresno State Bulldogs",
-"short": "Fresno St",
-"home": true
-},
-{
-"location": "Oregon State",
-"display": "Oregon State Beavers",
-"short": "Oregon St",
-"home": false
-}
-]
-},
-{
-"id": "401866675",
-"name": "CAM @ ALB",
-"date": "2026-10-31T16:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "UAlbany",
-"display": "UAlbany Great Danes",
-"short": "UAlbany",
-"home": true
-},
-{
-"location": "Campbell",
-"display": "Campbell Fighting Camels",
-"short": "Campbell",
-"home": false
-}
-]
-},
-{
-"id": "401866676",
-"name": "ME @ URI",
-"date": "2026-10-31T16:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Rhode Island",
-"display": "Rhode Island Rams",
-"short": "Rhode Island",
-"home": true
-},
-{
-"location": "Maine",
-"display": "Maine Black Bears",
-"short": "Maine",
-"home": false
-}
-]
-},
-{
-"id": "401866677",
-"name": "SHU @ STBK",
-"date": "2026-10-31T16:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Stony Brook",
-"display": "Stony Brook Seawolves",
-"short": "Stony Brook",
-"home": true
-},
-{
-"location": "Sacred Heart",
-"display": "Sacred Heart Pioneers",
-"short": "Sacred Heart",
-"home": false
-}
-]
-},
-{
-"id": "401867809",
-"name": "PENN @ BRWN",
-"date": "2026-10-31T16:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Brown",
-"display": "Brown Bears",
-"short": "Brown",
-"home": true
-},
-{
-"location": "Pennsylvania",
-"display": "Pennsylvania Quakers",
-"short": "Penn",
-"home": false
-}
-]
-},
-{
-"id": "401867823",
-"name": "YALE @ COLU",
-"date": "2026-10-31T16:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Columbia",
-"display": "Columbia Lions",
-"short": "Columbia",
-"home": true
-},
-{
-"location": "Yale",
-"display": "Yale Bulldogs",
-"short": "Yale",
-"home": false
-}
-]
-},
-{
-"id": "401867831",
-"name": "COR @ PRIN",
-"date": "2026-10-31T16:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Princeton",
-"display": "Princeton Tigers",
-"short": "Princeton",
-"home": true
-},
-{
-"location": "Cornell",
-"display": "Cornell Big Red",
-"short": "Cornell",
-"home": false
-}
-]
-},
-{
-"id": "401867880",
-"name": "UND @ YSU",
-"date": "2026-10-31T16:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Youngstown State",
-"display": "Youngstown State Penguins",
-"short": "Youngstown St",
-"home": true
-},
-{
-"location": "North Dakota",
-"display": "North Dakota Fighting Hawks",
-"short": "North Dakota",
-"home": false
-}
-]
-},
-{
-"id": "401867903",
-"name": "RMU @ CCSU",
-"date": "2026-10-31T16:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Central Connecticut",
-"display": "Central Connecticut Blue Devils",
-"short": "C Connecticut",
-"home": true
-},
-{
-"location": "Robert Morris",
-"display": "Robert Morris Colonials",
-"short": "Robert Morris",
-"home": false
-}
-]
-},
-{
-"id": "401867926",
-"name": "MERC @ STO",
-"date": "2026-10-31T16:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Stonehill",
-"display": "Stonehill Skyhawks",
-"short": "Stonehill",
-"home": true
-},
-{
-"location": "Mercyhurst",
-"display": "Mercyhurst Lakers",
-"short": "Mercyhurst",
-"home": false
-}
-]
-},
-{
-"id": "401867932",
-"name": "WAG @ MRMK",
-"date": "2026-10-31T16:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Merrimack",
-"display": "Merrimack Warriors",
-"short": "Merrimack",
-"home": true
-},
-{
-"location": "Wagner",
-"display": "Wagner Seahawks",
-"short": "Wagner",
-"home": false
-}
-]
-},
-{
-"id": "401867995",
-"name": "BUCK @ LEH",
-"date": "2026-10-31T16:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Lehigh",
-"display": "Lehigh Mountain Hawks",
-"short": "Lehigh",
-"home": true
-},
-{
-"location": "Bucknell",
-"display": "Bucknell Bison",
-"short": "Bucknell",
-"home": false
-}
-]
-},
-{
-"id": "401869154",
-"name": "DUQ @ NH",
-"date": "2026-10-31T16:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "New Haven",
-"display": "New Haven Chargers",
-"short": "New Haven",
+"location": "Davidson",
+"display": "Davidson Wildcats",
+"id": "2166",
 "home": true
 },
 {
 "location": "Duquesne",
 "display": "Duquesne Dukes",
-"short": "Duquesne",
+"id": "2184",
 "home": false
 }
 ]
 },
 {
-"id": "401868030",
-"name": "VILL @ LAF",
-"date": "2026-10-31T16:30Z",
-"state": "pre",
-"div": "FCS",
+"id": "401902991",
+"name": "PV @ SOU",
+"date": "2026-11-01T18:00Z",
+"state": "in",
 "teams": [
 {
-"location": "Lafayette",
-"display": "Lafayette Leopards",
-"short": "Lafayette",
+"location": "Southern",
+"display": "Southern Jaguars",
+"id": "2582",
 "home": true
 },
 {
-"location": "Villanova",
-"display": "Villanova Wildcats",
-"short": "Villanova",
+"location": "Prairie View A&M",
+"display": "Prairie View A&M Panthers",
+"id": "2504",
 "home": false
 }
 ]
 },
 {
-"id": "401866678",
-"name": "BRY @ MONM",
-"date": "2026-10-31T17:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Monmouth",
-"display": "Monmouth Hawks",
-"short": "Monmouth",
-"home": true
-},
-{
-"location": "Bryant",
-"display": "Bryant Bulldogs",
-"short": "Bryant",
-"home": false
-}
-]
-},
-{
-"id": "401866679",
-"name": "ELON @ NCAT",
-"date": "2026-10-31T17:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "North Carolina A&T",
-"display": "North Carolina A&T Aggies",
-"short": "NC A&T",
-"home": true
-},
-{
-"location": "Elon",
-"display": "Elon Phoenix",
-"short": "Elon",
-"home": false
-}
-]
-},
-{
-"id": "401866680",
-"name": "HAMP @ TOW",
-"date": "2026-10-31T17:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Towson",
-"display": "Towson Tigers",
-"short": "Towson",
-"home": true
-},
-{
-"location": "Hampton",
-"display": "Hampton Pirates",
-"short": "Hampton",
-"home": false
-}
-]
-},
-{
-"id": "401868004",
-"name": "W&M @ COLG",
-"date": "2026-10-31T17:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Colgate",
-"display": "Colgate Raiders",
-"short": "Colgate",
-"home": true
-},
-{
-"location": "William & Mary",
-"display": "William & Mary Tribe",
-"short": "William & Mary",
-"home": false
-}
-]
-},
-{
-"id": "401868026",
-"name": "RICH @ HC",
-"date": "2026-10-31T17:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Holy Cross",
-"display": "Holy Cross Crusaders",
-"short": "Holy Cross",
-"home": true
-},
-{
-"location": "Richmond",
-"display": "Richmond Spiders",
-"short": "Richmond",
-"home": false
-}
-]
-},
-{
-"id": "401868215",
-"name": "BTLR @ PRES",
-"date": "2026-10-31T17:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Presbyterian",
-"display": "Presbyterian Blue Hose",
-"short": "Presbyterian",
-"home": true
-},
-{
-"location": "Butler",
-"display": "Butler Bulldogs",
-"short": "Butler",
-"home": false
-}
-]
-},
-{
-"id": "401868231",
-"name": "DAY @ STET",
-"date": "2026-10-31T17:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Stetson",
-"display": "Stetson Hatters",
-"short": "Stetson",
-"home": true
-},
-{
-"location": "Dayton",
-"display": "Dayton Flyers",
-"short": "Dayton",
-"home": false
-}
-]
-},
-{
-"id": "401868258",
-"name": "DRKE @ MORE",
-"date": "2026-10-31T17:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Morehead State",
-"display": "Morehead State Eagles",
-"short": "Morehead St",
-"home": true
-},
-{
-"location": "Drake",
-"display": "Drake Bulldogs",
-"short": "Drake",
-"home": false
-}
-]
-},
-{
-"id": "401868342",
-"name": "VMI @ UTC",
-"date": "2026-10-31T17:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Chattanooga",
-"display": "Chattanooga Mocs",
-"short": "Chattanooga",
-"home": true
-},
-{
-"location": "VMI",
-"display": "VMI Keydets",
-"short": "VMI",
-"home": false
-}
-]
-},
-{
-"id": "401867851",
-"name": "MUR @ ILST",
-"date": "2026-10-31T18:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Illinois State",
-"display": "Illinois State Redbirds",
-"short": "Illinois St",
-"home": true
-},
-{
-"location": "Murray State",
-"display": "Murray State Racers",
-"short": "Murray St",
-"home": false
-}
-]
-},
-{
-"id": "401867861",
-"name": "INST @ UNI",
-"date": "2026-10-31T18:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Northern Iowa",
-"display": "Northern Iowa Panthers",
-"short": "Northern Iowa",
-"home": true
-},
-{
-"location": "Indiana State",
-"display": "Indiana State Sycamores",
-"short": "Indiana St",
-"home": false
-}
-]
-},
-{
-"id": "401867963",
-"name": "HOW @ NCCU",
-"date": "2026-10-31T18:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "North Carolina Central",
-"display": "North Carolina Central Eagles",
-"short": "NC Central",
-"home": true
-},
-{
-"location": "Howard",
-"display": "Howard Bison",
-"short": "Howard",
-"home": false
-}
-]
-},
-{
-"id": "401868175",
-"name": "WIU @ CHSO",
-"date": "2026-10-31T18:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Charleston Southern",
-"display": "Charleston Southern Buccaneers",
-"short": "Charleston So",
-"home": true
-},
-{
-"location": "Western Illinois",
-"display": "Western Illinois Leathernecks",
-"short": "W Illinois",
-"home": false
-}
-]
-},
-{
-"id": "401868190",
-"name": "GWEB @ SEMO",
-"date": "2026-10-31T18:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Southeast Missouri State",
-"display": "Southeast Missouri State Redhawks",
-"short": "SE Missouri",
-"home": true
-},
-{
-"location": "Gardner-Webb",
-"display": "Gardner-Webb Runnin' Bulldogs",
-"short": "Gardner-Webb",
-"home": false
-}
-]
-},
-{
-"id": "401868199",
-"name": "TNST @ LIN",
-"date": "2026-10-31T18:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Lindenwood",
-"display": "Lindenwood Lions",
-"short": "Lindenwood",
-"home": true
-},
-{
-"location": "Tennessee State",
-"display": "Tennessee State Tigers",
-"short": "Tennessee St",
-"home": false
-}
-]
-},
-{
-"id": "401868223",
-"name": "DAV @ STMN",
-"date": "2026-10-31T18:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "St. Thomas",
-"display": "St. Thomas Tommies",
-"short": "St Thomas",
-"home": true
-},
-{
-"location": "Davidson",
-"display": "Davidson Wildcats",
-"short": "Davidson",
-"home": false
-}
-]
-},
-{
-"id": "401868378",
-"name": "WCU @ FUR",
-"date": "2026-10-31T18:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Furman",
-"display": "Furman Paladins",
-"short": "Furman",
-"home": true
-},
-{
-"location": "Western Carolina",
-"display": "Western Carolina Catamounts",
-"short": "W Carolina",
-"home": false
-}
-]
-},
-{
-"id": "401869134",
-"name": "NWST @ UIW",
-"date": "2026-10-31T18:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Incarnate Word",
-"display": "Incarnate Word Cardinals",
-"short": "Incarnate Word",
-"home": true
-},
-{
-"location": "Northwestern State",
-"display": "Northwestern State Demons",
-"short": "N'Western St",
-"home": false
-}
-]
-},
-{
-"id": "401867690",
-"name": "UFTL @ CHST",
-"date": "2026-10-31T19:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Chicago State",
-"display": "Chicago State Cougars",
-"short": "Chicago St",
-"home": true
-},
-{
-"location": "UFTL",
-"display": "UFTL Eagles",
-"short": "FT LAUDERDALE",
-"home": false
-}
-]
-},
-{
-"id": "401867956",
-"name": "DSU VS NORF",
-"date": "2026-10-31T19:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Norfolk State",
-"display": "Norfolk State Spartans",
-"short": "Norfolk St",
-"home": true
-},
-{
-"location": "Delaware State",
-"display": "Delaware State Hornets",
-"short": "Delaware St",
-"home": false
-}
-]
-},
-{
-"id": "401868081",
-"name": "CP @ MTST",
-"date": "2026-10-31T19:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Montana State",
-"display": "Montana State Bobcats",
-"short": "Montana St",
-"home": true
-},
-{
-"location": "Cal Poly",
-"display": "Cal Poly Mustangs",
-"short": "Cal Poly",
-"home": false
-}
-]
-},
-{
-"id": "401868107",
-"name": "IDST @ UTU",
-"date": "2026-10-31T19:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Utah Tech",
-"display": "Utah Tech Trailblazers",
-"short": "Utah Tech",
-"home": true
-},
-{
-"location": "Idaho State",
-"display": "Idaho State Bengals",
-"short": "Idaho St",
-"home": false
-}
-]
-},
-{
-"id": "401868126",
-"name": "NAU @ SUU",
-"date": "2026-10-31T19:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Southern Utah",
-"display": "Southern Utah Thunderbirds",
-"short": "Southern Utah",
-"home": true
-},
-{
-"location": "Northern Arizona",
-"display": "Northern Arizona Lumberjacks",
-"short": "N Arizona",
-"home": false
-}
-]
-},
-{
-"id": "401868165",
-"name": "UCD @ WEB",
-"date": "2026-10-31T19:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Weber State",
-"display": "Weber State Wildcats",
-"short": "Weber St",
-"home": true
-},
-{
-"location": "UC Davis",
-"display": "UC Davis Aggies",
-"short": "UC Davis",
-"home": false
-}
-]
-},
-{
-"id": "401868183",
-"name": "EIU @ UTM",
-"date": "2026-10-31T19:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "UT Martin",
-"display": "UT Martin Skyhawks",
-"short": "UT Martin",
-"home": true
-},
-{
-"location": "Eastern Illinois",
-"display": "Eastern Illinois Panthers",
-"short": "E Illinois",
-"home": false
-}
-]
-},
-{
-"id": "401868312",
-"name": "HCU @ SFA",
-"date": "2026-10-31T19:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Stephen F. Austin",
-"display": "Stephen F. Austin Lumberjacks",
-"short": "SF Austin",
-"home": true
-},
-{
-"location": "Houston Christian",
-"display": "Houston Christian Huskies",
-"short": "Hou Christian",
-"home": false
-}
-]
-},
-{
-"id": "401868362",
-"name": "ALCN @ MVSU",
-"date": "2026-10-31T19:00Z",
-"state": "pre",
-"div": "FCS",
+"id": "401903040",
+"name": "GRAM @ MVSU",
+"date": "2026-11-01T18:00Z",
+"state": "in",
 "teams": [
 {
 "location": "Mississippi Valley State",
 "display": "Mississippi Valley State Delta Devils",
-"short": "Miss Valley St",
-"home": true
-},
-{
-"location": "Alcorn State",
-"display": "Alcorn State Braves",
-"short": "Alcorn St",
-"home": false
-}
-]
-},
-{
-"id": "401868384",
-"name": "CIT @ MER",
-"date": "2026-10-31T19:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Mercer",
-"display": "Mercer Bears",
-"short": "Mercer",
-"home": true
-},
-{
-"location": "The Citadel",
-"display": "The Citadel Bulldogs",
-"short": "The Citadel",
-"home": false
-}
-]
-},
-{
-"id": "401868938",
-"name": "BCU @ UAPB",
-"date": "2026-10-31T19:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Arkansas-Pine Bluff",
-"display": "Arkansas-Pine Bluff Golden Lions",
-"short": "AR-Pine Bluff",
-"home": true
-},
-{
-"location": "Bethune-Cookman",
-"display": "Bethune-Cookman Wildcats",
-"short": "Bethune",
-"home": false
-}
-]
-},
-{
-"id": "401868950",
-"name": "SOU @ FAMU",
-"date": "2026-10-31T19:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Florida A&M",
-"display": "Florida A&M Rattlers",
-"short": "Florida A&M",
-"home": true
-},
-{
-"location": "Southern",
-"display": "Southern Jaguars",
-"short": "Southern",
-"home": false
-}
-]
-},
-{
-"id": "401869139",
-"name": "NICH @ MCN",
-"date": "2026-10-31T19:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "McNeese",
-"display": "McNeese Cowboys",
-"short": "McNeese",
-"home": true
-},
-{
-"location": "Nicholls",
-"display": "Nicholls Colonels",
-"short": "Nicholls",
-"home": false
-}
-]
-},
-{
-"id": "401868296",
-"name": "ALST VS AAMU",
-"date": "2026-10-31T19:30Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Alabama A&M",
-"display": "Alabama A&M Bulldogs",
-"short": "Alabama A&M",
-"home": true
-},
-{
-"location": "Alabama State",
-"display": "Alabama State Hornets",
-"short": "Alabama St",
-"home": false
-}
-]
-},
-{
-"id": "401868349",
-"name": "TNTC @ ETSU",
-"date": "2026-10-31T19:30Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "East Tennessee State",
-"display": "East Tennessee State Buccaneers",
-"short": "ETSU",
-"home": true
-},
-{
-"location": "Tennessee Tech",
-"display": "Tennessee Tech Golden Eagles",
-"short": "Tennessee Tech",
-"home": false
-}
-]
-},
-{
-"id": "401867887",
-"name": "SDAK @ SDST",
-"date": "2026-10-31T20:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "South Dakota State",
-"display": "South Dakota State Jackrabbits",
-"short": "S Dakota St",
-"home": true
-},
-{
-"location": "South Dakota",
-"display": "South Dakota Coyotes",
-"short": "South Dakota",
-"home": false
-}
-]
-},
-{
-"id": "401868056",
-"name": "WES @ ACU",
-"date": "2026-10-31T20:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Abilene Christian",
-"display": "Abilene Christian Wildcats",
-"short": "Abilene Chrstn",
-"home": true
-},
-{
-"location": "West Georgia",
-"display": "West Georgia Wolves",
-"short": "West Georgia",
-"home": false
-}
-]
-},
-{
-"id": "401868089",
-"name": "MONT @ EWU",
-"date": "2026-10-31T20:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Eastern Washington",
-"display": "Eastern Washington Eagles",
-"short": "E Washington",
-"home": true
-},
-{
-"location": "Montana",
-"display": "Montana Grizzlies",
-"short": "Montana",
-"home": false
-}
-]
-},
-{
-"id": "401868098",
-"name": "IDHO @ PRST",
-"date": "2026-10-31T20:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Portland State",
-"display": "Portland State Vikings",
-"short": "Portland St",
-"home": true
-},
-{
-"location": "Idaho",
-"display": "Idaho Vandals",
-"short": "Idaho",
-"home": false
-}
-]
-},
-{
-"id": "401868267",
-"name": "MRST @ USD",
-"date": "2026-10-31T20:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "San Diego",
-"display": "San Diego Toreros",
-"short": "San Diego",
-"home": true
-},
-{
-"location": "Marist",
-"display": "Marist Red Foxes",
-"short": "Marist",
-"home": false
-}
-]
-},
-{
-"id": "401868320",
-"name": "SELA @ ETAM",
-"date": "2026-10-31T20:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "East Texas A&M",
-"display": "East Texas A&M Lions",
-"short": "East Texas A&M",
-"home": true
-},
-{
-"location": "SE Louisiana",
-"display": "SE Louisiana Lions",
-"short": "SE Louisiana",
-"home": false
-}
-]
-},
-{
-"id": "401868136",
-"name": "UNA @ CARK",
-"date": "2026-10-31T21:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Central Arkansas",
-"display": "Central Arkansas Bears",
-"short": "C Arkansas",
-"home": true
-},
-{
-"location": "North Alabama",
-"display": "North Alabama Lions",
-"short": "North Alabama",
-"home": false
-}
-]
-},
-{
-"id": "401868147",
-"name": "EKU @ TAR",
-"date": "2026-10-31T23:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Tarleton State",
-"display": "Tarleton State Texans",
-"short": "Tarleton St",
-"home": true
-},
-{
-"location": "Eastern Kentucky",
-"display": "Eastern Kentucky Colonels",
-"short": "E Kentucky",
-"home": false
-}
-]
-},
-{
-"id": "401868388",
-"name": "WOF @ SAM",
-"date": "2026-10-31T23:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Samford",
-"display": "Samford Bulldogs",
-"short": "Samford",
-"home": true
-},
-{
-"location": "Wofford",
-"display": "Wofford Terriers",
-"short": "Wofford",
-"home": false
-}
-]
-},
-{
-"id": "401868251",
-"name": "LAM @ RGV",
-"date": "2026-11-01T00:00Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "UT Rio Grande Valley",
-"display": "UT Rio Grande Valley Vaqueros",
-"short": "UT Rio Grande",
-"home": true
-},
-{
-"location": "Lamar",
-"display": "Lamar Cardinals",
-"short": "Lamar",
-"home": false
-}
-]
-},
-{
-"id": "401868956",
-"name": "GRAM @ TXSO",
-"date": "2026-11-01T00:30Z",
-"state": "pre",
-"div": "FCS",
-"teams": [
-{
-"location": "Texas Southern",
-"display": "Texas Southern Tigers",
-"short": "Texas Southern",
+"id": "2400",
 "home": true
 },
 {
 "location": "Grambling",
 "display": "Grambling Tigers",
-"short": "Grambling",
+"id": "2755",
+"home": false
+}
+]
+},
+{
+"id": "401899165",
+"name": "UMES @ HOW",
+"date": "2026-11-01T18:30Z",
+"state": "in",
+"teams": [
+{
+"location": "Howard",
+"display": "Howard Bison",
+"id": "47",
+"home": true
+},
+{
+"location": "Maryland Eastern Shore",
+"display": "Maryland Eastern Shore Hawks",
+"id": "2379",
+"home": false
+}
+]
+},
+{
+"id": "401883797",
+"name": "BC @ UNC",
+"date": "2026-11-01T19:00Z",
+"state": "in",
+"teams": [
+{
+"location": "North Carolina",
+"display": "North Carolina Tar Heels",
+"id": "153",
+"home": true
+},
+{
+"location": "Boston College",
+"display": "Boston College Eagles",
+"id": "103",
+"home": false
+}
+]
+},
+{
+"id": "401883389",
+"name": "VAN @ UGA",
+"date": "2026-11-01T19:00Z",
+"state": "in",
+"teams": [
+{
+"location": "Georgia",
+"display": "Georgia Bulldogs",
+"id": "61",
+"home": true
+},
+{
+"location": "Vanderbilt",
+"display": "Vanderbilt Commodores",
+"id": "238",
+"home": false
+}
+]
+},
+{
+"id": "401886933",
+"name": "UCF @ ARIZ",
+"date": "2026-11-01T19:00Z",
+"state": "in",
+"teams": [
+{
+"location": "Arizona",
+"display": "Arizona Wildcats",
+"id": "12",
+"home": true
+},
+{
+"location": "UCF",
+"display": "UCF Knights",
+"id": "2116",
+"home": false
+}
+]
+},
+{
+"id": "401887191",
+"name": "CLT @ MEM",
+"date": "2026-11-01T19:00Z",
+"state": "in",
+"teams": [
+{
+"location": "Memphis",
+"display": "Memphis Tigers",
+"id": "235",
+"home": true
+},
+{
+"location": "Charlotte",
+"display": "Charlotte 49ers",
+"id": "2429",
+"home": false
+}
+]
+},
+{
+"id": "401887215",
+"name": "UNT @ TLSA",
+"date": "2026-11-01T19:00Z",
+"state": "in",
+"teams": [
+{
+"location": "Tulsa",
+"display": "Tulsa Golden Hurricane",
+"id": "202",
+"home": true
+},
+{
+"location": "North Texas",
+"display": "North Texas Mean Green",
+"id": "249",
+"home": false
+}
+]
+},
+{
+"id": "401887374",
+"name": "UTSA @ UAB",
+"date": "2026-11-01T19:00Z",
+"state": "in",
+"teams": [
+{
+"location": "UAB",
+"display": "UAB Blazers",
+"id": "5",
+"home": true
+},
+{
+"location": "UTSA",
+"display": "UTSA Roadrunners",
+"id": "2636",
+"home": false
+}
+]
+},
+{
+"id": "401891470",
+"name": "DEP @ MARQ",
+"date": "2026-11-01T19:00Z",
+"state": "in",
+"teams": [
+{
+"location": "Marquette",
+"display": "Marquette Golden Eagles",
+"id": "269",
+"home": true
+},
+{
+"location": "DePaul",
+"display": "DePaul Blue Demons",
+"id": "305",
+"home": false
+}
+]
+},
+{
+"id": "401883450",
+"name": "TENN @ MIZ",
+"date": "2026-11-01T19:30Z",
+"state": "in",
+"teams": [
+{
+"location": "Missouri",
+"display": "Missouri Tigers",
+"id": "142",
+"home": true
+},
+{
+"location": "Tennessee",
+"display": "Tennessee Volunteers",
+"id": "2633",
+"home": false
+}
+]
+},
+{
+"id": "401887002",
+"name": "HOU @ ASU",
+"date": "2026-11-01T20:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Arizona State",
+"display": "Arizona State Sun Devils",
+"id": "9",
+"home": true
+},
+{
+"location": "Houston",
+"display": "Houston Cougars",
+"id": "248",
+"home": false
+}
+]
+},
+{
+"id": "401887583",
+"name": "KSU @ TCU",
+"date": "2026-11-01T20:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "TCU",
+"display": "TCU Horned Frogs",
+"id": "2628",
+"home": true
+},
+{
+"location": "Kansas State",
+"display": "Kansas State Wildcats",
+"id": "2306",
+"home": false
+}
+]
+},
+{
+"id": "401885190",
+"name": "MD @ WASH",
+"date": "2026-11-01T20:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Washington",
+"display": "Washington Huskies",
+"id": "264",
+"home": true
+},
+{
+"location": "Maryland",
+"display": "Maryland Terrapins",
+"id": "120",
+"home": false
+}
+]
+},
+{
+"id": "401883282",
+"name": "OU @ AUB",
+"date": "2026-11-01T20:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Auburn",
+"display": "Auburn Tigers",
+"id": "2",
+"home": true
+},
+{
+"location": "Oklahoma",
+"display": "Oklahoma Sooners",
+"id": "201",
+"home": false
+}
+]
+},
+{
+"id": "401883430",
+"name": "LSU @ MISS",
+"date": "2026-11-01T20:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Ole Miss",
+"display": "Ole Miss Rebels",
+"id": "145",
+"home": true
+},
+{
+"location": "LSU",
+"display": "LSU Tigers",
+"id": "99",
+"home": false
+}
+]
+},
+{
+"id": "401888836",
+"name": "TTU @ COLO",
+"date": "2026-11-01T20:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Colorado",
+"display": "Colorado Buffaloes",
+"id": "38",
+"home": true
+},
+{
+"location": "Texas Tech",
+"display": "Texas Tech Red Raiders",
+"id": "2641",
+"home": false
+}
+]
+},
+{
+"id": "401884420",
+"name": "IOWA @ ORE",
+"date": "2026-11-01T21:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Oregon",
+"display": "Oregon Ducks",
+"id": "2483",
+"home": true
+},
+{
+"location": "Iowa",
+"display": "Iowa Hawkeyes",
+"id": "2294",
+"home": false
+}
+]
+},
+{
+"id": "401885630",
+"name": "MINN @ USC",
+"date": "2026-11-01T21:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "USC",
+"display": "USC Trojans",
+"id": "30",
+"home": true
+},
+{
+"location": "Minnesota",
+"display": "Minnesota Golden Gophers",
+"id": "135",
+"home": false
+}
+]
+},
+{
+"id": "401897023",
+"name": "ARMY @ COLG",
+"date": "2026-11-01T21:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Colgate",
+"display": "Colgate Raiders",
+"id": "2142",
+"home": true
+},
+{
+"location": "Army",
+"display": "Army Black Knights",
+"id": "349",
+"home": false
+}
+]
+},
+{
+"id": "401884159",
+"name": "WIS @ UCLA",
+"date": "2026-11-01T22:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "UCLA",
+"display": "UCLA Bruins",
+"id": "26",
+"home": true
+},
+{
+"location": "Wisconsin",
+"display": "Wisconsin Badgers",
+"id": "275",
+"home": false
+}
+]
+},
+{
+"id": "401883566",
+"name": "MSST @ ALA",
+"date": "2026-11-01T22:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Alabama",
+"display": "Alabama Crimson Tide",
+"id": "333",
+"home": true
+},
+{
+"location": "Mississippi State",
+"display": "Mississippi State Bulldogs",
+"id": "344",
+"home": false
+}
+]
+},
+{
+"id": "401884268",
+"name": "PITT @ NCSU",
+"date": "2026-11-01T18:00Z",
+"state": "post",
+"teams": [
+{
+"location": "NC State",
+"display": "NC State Wolfpack",
+"id": "152",
+"home": true
+},
+{
+"location": "Pittsburgh",
+"display": "Pittsburgh Panthers",
+"id": "221",
+"home": false
+}
+]
+},
+{
+"id": "401883959",
+"name": "GT @ LOU",
+"date": "2026-11-01T17:00Z",
+"state": "post",
+"teams": [
+{
+"location": "Louisville",
+"display": "Louisville Cardinals",
+"id": "97",
+"home": true
+},
+{
+"location": "Georgia Tech",
+"display": "Georgia Tech Yellow Jackets",
+"id": "59",
+"home": false
+}
+]
+},
+{
+"id": "401883366",
+"name": "ARK @ FLA",
+"date": "2026-11-01T18:00Z",
+"state": "post",
+"teams": [
+{
+"location": "Florida",
+"display": "Florida Gators",
+"id": "57",
+"home": true
+},
+{
+"location": "Arkansas",
+"display": "Arkansas Razorbacks",
+"id": "8",
+"home": false
+}
+]
+},
+{
+"id": "401886103",
+"name": "SMU @ WAKE",
+"date": "2026-11-01T18:00Z",
+"state": "post",
+"teams": [
+{
+"location": "Wake Forest",
+"display": "Wake Forest Demon Deacons",
+"id": "154",
+"home": true
+},
+{
+"location": "SMU",
+"display": "SMU Mustangs",
+"id": "2567",
+"home": false
+}
+]
+},
+{
+"id": "401883520",
+"name": "TA&M @ TEX",
+"date": "2026-11-01T18:00Z",
+"state": "post",
+"teams": [
+{
+"location": "Texas",
+"display": "Texas Longhorns",
+"id": "251",
+"home": true
+},
+{
+"location": "Texas A&M",
+"display": "Texas A&M Aggies",
+"id": "245",
+"home": false
+}
+]
+},
+{
+"id": "401887297",
+"name": "TULN @ TEM",
+"date": "2026-11-01T17:00Z",
+"state": "post",
+"teams": [
+{
+"location": "Temple",
+"display": "Temple Owls",
+"id": "218",
+"home": true
+},
+{
+"location": "Tulane",
+"display": "Tulane Green Wave",
+"id": "2655",
+"home": false
+}
+]
+},
+{
+"id": "401899229",
+"name": "SCST @ MORG",
+"date": "2026-11-01T17:30Z",
+"state": "post",
+"teams": [
+{
+"location": "Morgan State",
+"display": "Morgan State Bears",
+"id": "2415",
+"home": true
+},
+{
+"location": "South Carolina State",
+"display": "South Carolina State Bulldogs",
+"id": "2569",
+"home": false
+}
+]
+},
+{
+"id": "401903403",
+"name": "MIA @ VT",
+"date": "2026-11-01T17:30Z",
+"state": "post",
+"teams": [
+{
+"location": "Virginia Tech",
+"display": "Virginia Tech Hokies",
+"id": "259",
+"home": true
+},
+{
+"location": "Miami",
+"display": "Miami Hurricanes",
+"id": "2390",
+"home": false
+}
+]
+},
+{
+"id": "401883839",
+"name": "SYR @ DUKE",
+"date": "2026-11-01T18:00Z",
+"state": "post",
+"teams": [
+{
+"location": "Duke",
+"display": "Duke Blue Devils",
+"id": "150",
+"home": true
+},
+{
+"location": "Syracuse",
+"display": "Syracuse Orange",
+"id": "183",
+"home": false
+}
+]
+},
+{
+"id": "401884240",
+"name": "OSU @ ILL",
+"date": "2026-11-01T18:00Z",
+"state": "post",
+"teams": [
+{
+"location": "Illinois",
+"display": "Illinois Fighting Illini",
+"id": "356",
+"home": true
+},
+{
+"location": "Ohio State",
+"display": "Ohio State Buckeyes",
+"id": "194",
+"home": false
+}
+]
+},
+{
+"id": "401885758",
+"name": "UNH @ NJIT",
+"date": "2026-11-01T18:00Z",
+"state": "post",
+"teams": [
+{
+"location": "NJIT",
+"display": "NJIT Highlanders",
+"id": "2885",
+"home": true
+},
+{
+"location": "New Hampshire",
+"display": "New Hampshire Wildcats",
+"id": "160",
+"home": false
+}
+]
+},
+{
+"id": "401885807",
+"name": "UALB @ UMBC",
+"date": "2026-11-01T18:00Z",
+"state": "post",
+"teams": [
+{
+"location": "UMBC",
+"display": "UMBC Retrievers",
+"id": "2378",
+"home": true
+},
+{
+"location": "UAlbany",
+"display": "UAlbany Great Danes",
+"id": "399",
+"home": false
+}
+]
+},
+{
+"id": "401885914",
+"name": "JAX @ FGCU",
+"date": "2026-11-01T18:00Z",
+"state": "post",
+"teams": [
+{
+"location": "Florida Gulf Coast",
+"display": "Florida Gulf Coast Eagles",
+"id": "526",
+"home": true
+},
+{
+"location": "Jacksonville",
+"display": "Jacksonville Dolphins",
+"id": "294",
+"home": false
+}
+]
+},
+{
+"id": "401887140",
+"name": "WVU @ CIN",
+"date": "2026-11-01T18:00Z",
+"state": "post",
+"teams": [
+{
+"location": "Cincinnati",
+"display": "Cincinnati Bearcats",
+"id": "2132",
+"home": true
+},
+{
+"location": "West Virginia",
+"display": "West Virginia Mountaineers",
+"id": "277",
+"home": false
+}
+]
+},
+{
+"id": "401887927",
+"name": "GW @ URI",
+"date": "2026-11-01T18:00Z",
+"state": "post",
+"teams": [
+{
+"location": "Rhode Island",
+"display": "Rhode Island Rams",
+"id": "227",
+"home": true
+},
+{
+"location": "George Washington",
+"display": "George Washington Revolutionaries",
+"id": "45",
+"home": false
+}
+]
+},
+{
+"id": "401888066",
+"name": "FSU @ UVA",
+"date": "2026-11-01T18:00Z",
+"state": "post",
+"teams": [
+{
+"location": "Virginia",
+"display": "Virginia Cavaliers",
+"id": "258",
+"home": true
+},
+{
+"location": "Florida State",
+"display": "Florida State Seminoles",
+"id": "52",
+"home": false
+}
+]
+},
+{
+"id": "401899120",
+"name": "NCCU @ COPP",
+"date": "2026-11-01T18:00Z",
+"state": "post",
+"teams": [
+{
+"location": "Coppin State",
+"display": "Coppin State Eagles",
+"id": "2154",
+"home": true
+},
+{
+"location": "North Carolina Central",
+"display": "North Carolina Central Eagles",
+"id": "2428",
+"home": false
+}
+]
+},
+{
+"id": "401899148",
+"name": "DSU @ NORF",
+"date": "2026-11-01T18:00Z",
+"state": "post",
+"teams": [
+{
+"location": "Norfolk State",
+"display": "Norfolk State Spartans",
+"id": "2450",
+"home": true
+},
+{
+"location": "Delaware State",
+"display": "Delaware State Hornets",
+"id": "2169",
+"home": false
+}
+]
+},
+{
+"id": "401902974",
+"name": "TXSO @ ALCN",
+"date": "2026-11-01T18:00Z",
+"state": "post",
+"teams": [
+{
+"location": "Alcorn State",
+"display": "Alcorn State Braves",
+"id": "2016",
+"home": true
+},
+{
+"location": "Texas Southern",
+"display": "Texas Southern Tigers",
+"id": "2640",
+"home": false
+}
+]
+},
+{
+"id": "401903052",
+"name": "UAPB @ JKST",
+"date": "2026-11-01T18:00Z",
+"state": "post",
+"teams": [
+{
+"location": "Jackson State",
+"display": "Jackson State Tigers",
+"id": "2296",
+"home": true
+},
+{
+"location": "Arkansas-Pine Bluff",
+"display": "Arkansas-Pine Bluff Golden Lions",
+"id": "2029",
+"home": false
+}
+]
+},
+{
+"id": "401903076",
+"name": "FAMU @ AAMU",
+"date": "2026-11-01T18:00Z",
+"state": "post",
+"teams": [
+{
+"location": "Alabama A&M",
+"display": "Alabama A&M Bulldogs",
+"id": "2010",
+"home": true
+},
+{
+"location": "Florida A&M",
+"display": "Florida A&M Rattlers",
+"id": "50",
+"home": false
+}
+]
+},
+{
+"id": "401903082",
+"name": "BCU @ ALST",
+"date": "2026-11-01T18:00Z",
+"state": "post",
+"teams": [
+{
+"location": "Alabama State",
+"display": "Alabama State Hornets",
+"id": "2011",
+"home": true
+},
+{
+"location": "Bethune-Cookman",
+"display": "Bethune-Cookman Wildcats",
+"id": "2065",
 "home": false
 }
 ]
 }
+],
+"bsb|20261101": [],
+"sb|20261101": [],
+"fb|20261102": [],
+"mbb|20261102": [
+{
+"id": "401920912",
+"name": "NIU VS GRAM",
+"date": "2026-11-02T08:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Grambling",
+"display": "Grambling Tigers",
+"id": "2755",
+"home": true
+},
+{
+"location": "Northern Illinois",
+"display": "Northern Illinois Huskies",
+"id": "2459",
+"home": false
+}
 ]
+},
+{
+"id": "401921422",
+"name": "MRMK VS APP",
+"date": "2026-11-02T11:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "App State",
+"display": "App State Mountaineers",
+"id": "2026",
+"home": true
+},
+{
+"location": "Merrimack",
+"display": "Merrimack Warriors",
+"id": "2771",
+"home": false
+}
+]
+},
+{
+"id": "401921423",
+"name": "WIN VS QUC",
+"date": "2026-11-02T14:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Queens University",
+"display": "Queens University Royals",
+"id": "2511",
+"home": true
+},
+{
+"location": "Winthrop",
+"display": "Winthrop Eagles",
+"id": "2737",
+"home": false
+}
+]
+},
+{
+"id": "401929384",
+"name": "RHDT @ MER",
+"date": "2026-11-02T16:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Mercer",
+"display": "Mercer Bears",
+"id": "2382",
+"home": true
+},
+{
+"location": "Reinhardt",
+"display": "Reinhardt Eagles",
+"id": "2890",
+"home": false
+}
+]
+},
+{
+"id": "401921173",
+"name": "MMID @ IUIN",
+"date": "2026-11-02T16:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "IU Indianapolis",
+"display": "IU Indianapolis Jaguars",
+"id": "85",
+"home": true
+},
+{
+"location": "Miami (OH) Middletown",
+"display": "Miami (OH) Middletown ThunderHawks",
+"id": "126972",
+"home": false
+}
+]
+},
+{
+"id": "401928619",
+"name": "FISK @ MTSU",
+"date": "2026-11-02T16:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Middle Tennessee",
+"display": "Middle Tennessee Blue Raiders",
+"id": "2393",
+"home": true
+},
+{
+"location": "Fisk",
+"display": "Fisk Bulldogs",
+"id": "2225",
+"home": false
+}
+]
+},
+{
+"id": "401926830",
+"name": "SJLI @ HOF",
+"date": "2026-11-02T16:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Hofstra",
+"display": "Hofstra Pride",
+"id": "2275",
+"home": true
+},
+{
+"location": "St. Joseph's Long Island",
+"display": "St. Joseph's Long Island Golden Eagles",
+"id": "3196",
+"home": false
+}
+]
+},
+{
+"id": "401911707",
+"name": "MUR VS TNST",
+"date": "2026-11-02T16:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Tennessee State",
+"display": "Tennessee State Tigers",
+"id": "2634",
+"home": true
+},
+{
+"location": "Murray State",
+"display": "Murray State Racers",
+"id": "93",
+"home": false
+}
+]
+},
+{
+"id": "401925062",
+"name": "NAMU @ NICH",
+"date": "2026-11-02T17:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Nicholls",
+"display": "Nicholls Colonels",
+"id": "2447",
+"home": true
+},
+{
+"location": "North American",
+"display": "North American Stallions",
+"id": "126750",
+"home": false
+}
+]
+},
+{
+"id": "401911532",
+"name": "UTEP VS NKU",
+"date": "2026-11-02T19:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Northern Kentucky",
+"display": "Northern Kentucky Norse",
+"id": "94",
+"home": true
+},
+{
+"location": "UTEP",
+"display": "UTEP Miners",
+"id": "2638",
+"home": false
+}
+]
+},
+{
+"id": "401911469",
+"name": "UTSA @ SJSU",
+"date": "2026-11-02T20:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "San Jos\u00e9 State",
+"display": "San Jos\u00e9 State Spartans",
+"id": "23",
+"home": true
+},
+{
+"location": "UTSA",
+"display": "UTSA Roadrunners",
+"id": "2636",
+"home": false
+}
+]
+},
+{
+"id": "401924732",
+"name": "CGMU @ PRIN",
+"date": "2026-11-02T21:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Princeton",
+"display": "Princeton Tigers",
+"id": "163",
+"home": true
+},
+{
+"location": "Carnegie Mellon",
+"display": "Carnegie Mellon Tartans",
+"id": "2102",
+"home": false
+}
+]
+},
+{
+"id": "401920071",
+"name": "UMBC @ GMU",
+"date": "2026-11-02T21:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "George Mason",
+"display": "George Mason Patriots",
+"id": "2244",
+"home": true
+},
+{
+"location": "UMBC",
+"display": "UMBC Retrievers",
+"id": "2378",
+"home": false
+}
+]
+},
+{
+"id": "401928858",
+"name": "SFIL @ UIC",
+"date": "2026-11-02T22:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "UIC",
+"display": "UIC Flames",
+"id": "82",
+"home": true
+},
+{
+"location": "St. Francis (IL)",
+"display": "St. Francis (IL) Fighting Saints",
+"id": "2595",
+"home": false
+}
+]
+},
+{
+"id": "401919014",
+"name": "UAB VS MCN",
+"date": "2026-11-02T22:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "McNeese",
+"display": "McNeese Cowboys",
+"id": "2377",
+"home": true
+},
+{
+"location": "UAB",
+"display": "UAB Blazers",
+"id": "5",
+"home": false
+}
+]
+},
+{
+"id": "401906769",
+"name": "MIA VS FLA",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Florida",
+"display": "Florida Gators",
+"id": "57",
+"home": true
+},
+{
+"location": "Miami",
+"display": "Miami Hurricanes",
+"id": "2390",
+"home": false
+}
+]
+},
+{
+"id": "401925733",
+"name": "OAK @ MICH",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Michigan",
+"display": "Michigan Wolverines",
+"id": "130",
+"home": true
+},
+{
+"location": "Oakland",
+"display": "Oakland Golden Grizzlies",
+"id": "2473",
+"home": false
+}
+]
+},
+{
+"id": "401929404",
+"name": "MMU @ SDAK",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "South Dakota",
+"display": "South Dakota Coyotes",
+"id": "233",
+"home": true
+},
+{
+"location": "Mount Marty",
+"display": "Mount Marty Lancers",
+"id": "573",
+"home": false
+}
+]
+},
+{
+"id": "401926200",
+"name": "VUL @ VMI",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "VMI",
+"display": "VMI Keydets",
+"id": "2678",
+"home": true
+},
+{
+"location": "Virginia Lynchburg",
+"display": "Virginia Lynchburg Dragons",
+"id": "3229",
+"home": false
+}
+]
+},
+{
+"id": "401924717",
+"name": "PEPP @ COR",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Cornell",
+"display": "Cornell Big Red",
+"id": "172",
+"home": true
+},
+{
+"location": "Pepperdine",
+"display": "Pepperdine Waves",
+"id": "2492",
+"home": false
+}
+]
+},
+{
+"id": "401922247",
+"name": "SEBC @ UWF",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "West Florida",
+"display": "West Florida Argonauts",
+"id": "2697",
+"home": true
+},
+{
+"location": "Southeastern Baptist",
+"display": "Southeastern Baptist Chargers",
+"id": "111951",
+"home": false
+}
+]
+},
+{
+"id": "401910994",
+"name": "BGSU @ GAST",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Georgia State",
+"display": "Georgia State Panthers",
+"id": "2247",
+"home": true
+},
+{
+"location": "Bowling Green",
+"display": "Bowling Green Falcons",
+"id": "189",
+"home": false
+}
+]
+},
+{
+"id": "401909562",
+"name": "ARMY @ DUKE",
+"date": "2026-11-02T23:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Duke",
+"display": "Duke Blue Devils",
+"id": "150",
+"home": true
+},
+{
+"location": "Army",
+"display": "Army Black Knights",
+"id": "349",
+"home": false
+}
+]
+},
+{
+"id": "401920679",
+"name": "MONM @ SJU",
+"date": "2026-11-02T23:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "St. John's",
+"display": "St. John's Red Storm",
+"id": "2599",
+"home": true
+},
+{
+"location": "Monmouth",
+"display": "Monmouth Hawks",
+"id": "2405",
+"home": false
+}
+]
+},
+{
+"id": "401926833",
+"name": "OLDW @ STBK",
+"date": "2026-11-02T23:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Stony Brook",
+"display": "Stony Brook Seawolves",
+"id": "2619",
+"home": true
+},
+{
+"location": "SUNY Old Westbury",
+"display": "SUNY Old Westbury Panthers",
+"id": "16231",
+"home": false
+}
+]
+},
+{
+"id": "401925857",
+"name": "CCSU @ TEM",
+"date": "2026-11-02T23:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Temple",
+"display": "Temple Owls",
+"id": "218",
+"home": true
+},
+{
+"location": "Central Connecticut",
+"display": "Central Connecticut Blue Devils",
+"id": "2115",
+"home": false
+}
+]
+},
+{
+"id": "401923317",
+"name": "RIC @ UALB",
+"date": "2026-11-02T23:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "UAlbany",
+"display": "UAlbany Great Danes",
+"id": "399",
+"home": true
+},
+{
+"location": "Rhode Island College",
+"display": "Rhode Island College Anchormen",
+"id": "226",
+"home": false
+}
+]
+},
+{
+"id": "401921264",
+"name": "L-MD @ GTWN",
+"date": "2026-11-02T23:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Georgetown",
+"display": "Georgetown Hoyas",
+"id": "46",
+"home": true
+},
+{
+"location": "Loyola Maryland",
+"display": "Loyola Maryland Greyhounds",
+"id": "2352",
+"home": false
+}
+]
+},
+{
+"id": "401921093",
+"name": "DCC @ RICE",
+"date": "2026-11-02T23:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Rice",
+"display": "Rice Owls",
+"id": "242",
+"home": true
+},
+{
+"location": "Dallas Christian",
+"display": "Dallas Christian Crusaders",
+"id": "2937",
+"home": false
+}
+]
+},
+{
+"id": "401924856",
+"name": "QUIN @ MSU",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Michigan State",
+"display": "Michigan State Spartans",
+"id": "127",
+"home": true
+},
+{
+"location": "Quinnipiac",
+"display": "Quinnipiac Bobcats",
+"id": "2514",
+"home": false
+}
+]
+},
+{
+"id": "401909771",
+"name": "MEM VS ISU",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Iowa State",
+"display": "Iowa State Cyclones",
+"id": "66",
+"home": true
+},
+{
+"location": "Memphis",
+"display": "Memphis Tigers",
+"id": "235",
+"home": false
+}
+]
+},
+{
+"id": "401921036",
+"name": "JKST @ TTU",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Texas Tech",
+"display": "Texas Tech Red Raiders",
+"id": "2641",
+"home": true
+},
+{
+"location": "Jackson State",
+"display": "Jackson State Tigers",
+"id": "2296",
+"home": false
+}
+]
+},
+{
+"id": "401921104",
+"name": "BELL @ VAN",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Vanderbilt",
+"display": "Vanderbilt Commodores",
+"id": "238",
+"home": true
+},
+{
+"location": "Bellarmine",
+"display": "Bellarmine Knights",
+"id": "91",
+"home": false
+}
+]
+},
+{
+"id": "401929383",
+"name": "KCU @ EKU",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Eastern Kentucky",
+"display": "Eastern Kentucky Colonels",
+"id": "2198",
+"home": true
+},
+{
+"location": "Kentucky Christian",
+"display": "Kentucky Christian Knights",
+"id": "3077",
+"home": false
+}
+]
+},
+{
+"id": "401928852",
+"name": "CHEY @ MORG",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Morgan State",
+"display": "Morgan State Bears",
+"id": "2415",
+"home": true
+},
+{
+"location": "Cheyney (PA)",
+"display": "Cheyney (PA) Wolves",
+"id": "2129",
+"home": false
+}
+]
+},
+{
+"id": "401928357",
+"name": "NCF @ FIU",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Florida International",
+"display": "Florida International Panthers",
+"id": "2229",
+"home": true
+},
+{
+"location": "New College",
+"display": "New College Mighty Banyans",
+"id": "128550",
+"home": false
+}
+]
+},
+{
+"id": "401927341",
+"name": "SVC @ DSU",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Delaware State",
+"display": "Delaware State Hornets",
+"id": "2169",
+"home": true
+},
+{
+"location": "Saint Vincent",
+"display": "Saint Vincent Bearcats",
+"id": "2614",
+"home": false
+}
+]
+},
+{
+"id": "401926862",
+"name": "UMO @ UNCW",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "UNC Wilmington",
+"display": "UNC Wilmington Seahawks",
+"id": "350",
+"home": true
+},
+{
+"location": "Mount Olive",
+"display": "Mount Olive Trojans",
+"id": "2418",
+"home": false
+}
+]
+},
+{
+"id": "401926787",
+"name": "MIDW @ KENN",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Kennesaw State",
+"display": "Kennesaw State Owls",
+"id": "338",
+"home": true
+},
+{
+"location": "Midway",
+"display": "Midway Eagles",
+"id": "111166",
+"home": false
+}
+]
+},
+{
+"id": "401926141",
+"name": "ERKA @ SIUE",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "SIU Edwardsville",
+"display": "SIU Edwardsville Cougars",
+"id": "2565",
+"home": true
+},
+{
+"location": "Eureka",
+"display": "Eureka Red Devils",
+"id": "101",
+"home": false
+}
+]
+},
+{
+"id": "401926077",
+"name": "PQC @ PV",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Prairie View A&M",
+"display": "Prairie View A&M Panthers",
+"id": "2504",
+"home": true
+},
+{
+"location": "Paul Quinn",
+"display": "Paul Quinn Tigers",
+"id": "2491",
+"home": false
+}
+]
+},
+{
+"id": "401925818",
+"name": "CLT @ INST",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Indiana State",
+"display": "Indiana State Sycamores",
+"id": "282",
+"home": true
+},
+{
+"location": "Charlotte",
+"display": "Charlotte 49ers",
+"id": "2429",
+"home": false
+}
+]
+},
+{
+"id": "401924875",
+"name": "USCG @ SHU",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Sacred Heart",
+"display": "Sacred Heart Pioneers",
+"id": "2529",
+"home": true
+},
+{
+"location": "Coast Guard",
+"display": "Coast Guard Bears",
+"id": "2557",
+"home": false
+}
+]
+},
+{
+"id": "401924743",
+"name": "HOW @ YALE",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Yale",
+"display": "Yale Bulldogs",
+"id": "43",
+"home": true
+},
+{
+"location": "Howard",
+"display": "Howard Bison",
+"id": "47",
+"home": false
+}
+]
+},
+{
+"id": "401923324",
+"name": "RIVI @ UML",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "UMass Lowell",
+"display": "UMass Lowell River Hawks",
+"id": "2349",
+"home": true
+},
+{
+"location": "Rivier",
+"display": "Rivier Raiders",
+"id": "111913",
+"home": false
+}
+]
+},
+{
+"id": "401921766",
+"name": "NIA @ WVU",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "West Virginia",
+"display": "West Virginia Mountaineers",
+"id": "277",
+"home": true
+},
+{
+"location": "Niagara",
+"display": "Niagara Purple Eagles",
+"id": "315",
+"home": false
+}
+]
+},
+{
+"id": "401921753",
+"name": "FGCU @ UCF",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "UCF",
+"display": "UCF Knights",
+"id": "2116",
+"home": true
+},
+{
+"location": "Florida Gulf Coast",
+"display": "Florida Gulf Coast Eagles",
+"id": "526",
+"home": false
+}
+]
+},
+{
+"id": "401921139",
+"name": "ELON @ COLU",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Columbia",
+"display": "Columbia Lions",
+"id": "171",
+"home": true
+},
+{
+"location": "Elon",
+"display": "Elon Phoenix",
+"id": "2210",
+"home": false
+}
+]
+},
+{
+"id": "401920902",
+"name": "NDMD @ DEL",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Delaware",
+"display": "Delaware Blue Hens",
+"id": "48",
+"home": true
+},
+{
+"location": "Notre Dame (MD)",
+"display": "Notre Dame (MD) Gators",
+"id": "128342",
+"home": false
+}
+]
+},
+{
+"id": "401920876",
+"name": "TCJ @ JAX",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Jacksonville",
+"display": "Jacksonville Dolphins",
+"id": "294",
+"home": true
+},
+{
+"location": "Trinity College of Jacksonville",
+"display": "Trinity College of Jacksonville Eagles",
+"id": "3174",
+"home": false
+}
+]
+},
+{
+"id": "401920842",
+"name": "STMN @ PRES",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Presbyterian",
+"display": "Presbyterian Blue Hose",
+"id": "2506",
+"home": true
+},
+{
+"location": "St. Thomas",
+"display": "St. Thomas Tommies",
+"id": "2900",
+"home": false
+}
+]
+},
+{
+"id": "401920746",
+"name": "NE @ BU",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Boston University",
+"display": "Boston University Terriers",
+"id": "104",
+"home": true
+},
+{
+"location": "Northeastern",
+"display": "Northeastern Huskies",
+"id": "111",
+"home": false
+}
+]
+},
+{
+"id": "401920690",
+"name": "UVM @ IONA",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Iona",
+"display": "Iona Gaels",
+"id": "314",
+"home": true
+},
+{
+"location": "Vermont",
+"display": "Vermont Catamounts",
+"id": "261",
+"home": false
+}
+]
+},
+{
+"id": "401920354",
+"name": "MIT @ HARV",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Harvard",
+"display": "Harvard Crimson",
+"id": "108",
+"home": true
+},
+{
+"location": "MIT",
+"display": "MIT Engineers",
+"id": "109",
+"home": false
+}
+]
+},
+{
+"id": "401920231",
+"name": "DART @ MRST",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Marist",
+"display": "Marist Red Foxes",
+"id": "2368",
+"home": true
+},
+{
+"location": "Dartmouth",
+"display": "Dartmouth Big Green",
+"id": "159",
+"home": false
+}
+]
+},
+{
+"id": "401920201",
+"name": "LR @ VCU",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "VCU",
+"display": "VCU Rams",
+"id": "2670",
+"home": true
+},
+{
+"location": "Little Rock",
+"display": "Little Rock Trojans",
+"id": "2031",
+"home": false
+}
+]
+},
+{
+"id": "401919845",
+"name": "CC @ STO",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Stonehill",
+"display": "Stonehill Skyhawks",
+"id": "284",
+"home": true
+},
+{
+"location": "Curry",
+"display": "Curry Colonels",
+"id": "40",
+"home": false
+}
+]
+},
+{
+"id": "401919803",
+"name": "LIU @ FAU",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Florida Atlantic",
+"display": "Florida Atlantic Owls",
+"id": "2226",
+"home": true
+},
+{
+"location": "Long Island University",
+"display": "Long Island University Sharks",
+"id": "112358",
+"home": false
+}
+]
+},
+{
+"id": "401918976",
+"name": "UPST @ ECU",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "East Carolina",
+"display": "East Carolina Pirates",
+"id": "151",
+"home": true
+},
+{
+"location": "South Carolina Upstate",
+"display": "South Carolina Upstate Spartans",
+"id": "2908",
+"home": false
+}
+]
+},
+{
+"id": "401918312",
+"name": "BRI @ W&M",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "William & Mary",
+"display": "William & Mary Tribe",
+"id": "2729",
+"home": true
+},
+{
+"location": "Bridgewater",
+"display": "Bridgewater Eagles",
+"id": "2079",
+"home": false
+}
+]
+},
+{
+"id": "401918073",
+"name": "STET @ CLEM",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Clemson",
+"display": "Clemson Tigers",
+"id": "228",
+"home": true
+},
+{
+"location": "Stetson",
+"display": "Stetson Hatters",
+"id": "56",
+"home": false
+}
+]
+},
+{
+"id": "401916296",
+"name": "BUCK @ MD",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Maryland",
+"display": "Maryland Terrapins",
+"id": "120",
+"home": true
+},
+{
+"location": "Bucknell",
+"display": "Bucknell Bison",
+"id": "2083",
+"home": false
+}
+]
+},
+{
+"id": "401916286",
+"name": "EIU @ IU",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Indiana",
+"display": "Indiana Hoosiers",
+"id": "84",
+"home": true
+},
+{
+"location": "Eastern Illinois",
+"display": "Eastern Illinois Panthers",
+"id": "2197",
+"home": false
+}
+]
+},
+{
+"id": "401913099",
+"name": "WCU @ UNC",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "North Carolina",
+"display": "North Carolina Tar Heels",
+"id": "153",
+"home": true
+},
+{
+"location": "Western Carolina",
+"display": "Western Carolina Catamounts",
+"id": "2717",
+"home": false
+}
+]
+},
+{
+"id": "401912207",
+"name": "AMER @ CIN",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Cincinnati",
+"display": "Cincinnati Bearcats",
+"id": "2132",
+"home": true
+},
+{
+"location": "American University",
+"display": "American University Eagles",
+"id": "44",
+"home": false
+}
+]
+},
+{
+"id": "401911374",
+"name": "CHSO @ USF",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "South Florida",
+"display": "South Florida Bulls",
+"id": "58",
+"home": true
+},
+{
+"location": "Charleston Southern",
+"display": "Charleston Southern Buccaneers",
+"id": "2127",
+"home": false
+}
+]
+},
+{
+"id": "401911333",
+"name": "AF @ WRST",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Wright State",
+"display": "Wright State Raiders",
+"id": "2750",
+"home": true
+},
+{
+"location": "Air Force",
+"display": "Air Force Falcons",
+"id": "2005",
+"home": false
+}
+]
+},
+{
+"id": "401911304",
+"name": "UNH @ BRWN",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Brown",
+"display": "Brown Bears",
+"id": "225",
+"home": true
+},
+{
+"location": "New Hampshire",
+"display": "New Hampshire Wildcats",
+"id": "160",
+"home": false
+}
+]
+},
+{
+"id": "401911261",
+"name": "YSU @ SBU",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "St. Bonaventure",
+"display": "St. Bonaventure Bonnies",
+"id": "179",
+"home": true
+},
+{
+"location": "Youngstown State",
+"display": "Youngstown State Penguins",
+"id": "2754",
+"home": false
+}
+]
+},
+{
+"id": "401911237",
+"name": "UNCA @ RICH",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Richmond",
+"display": "Richmond Spiders",
+"id": "257",
+"home": true
+},
+{
+"location": "UNC Asheville",
+"display": "UNC Asheville Bulldogs",
+"id": "2427",
+"home": false
+}
+]
+},
+{
+"id": "401911185",
+"name": "NJIT @ DAY",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Dayton",
+"display": "Dayton Flyers",
+"id": "2168",
+"home": true
+},
+{
+"location": "NJIT",
+"display": "NJIT Highlanders",
+"id": "2885",
+"home": false
+}
+]
+},
+{
+"id": "401911004",
+"name": "BALL @ GASO",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Georgia Southern",
+"display": "Georgia Southern Eagles",
+"id": "290",
+"home": true
+},
+{
+"location": "Ball State",
+"display": "Ball State Cardinals",
+"id": "2050",
+"home": false
+}
+]
+},
+{
+"id": "401911002",
+"name": "M-OH @ JMU",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "James Madison",
+"display": "James Madison Dukes",
+"id": "256",
+"home": true
+},
+{
+"location": "Miami (OH)",
+"display": "Miami (OH) RedHawks",
+"id": "193",
+"home": false
+}
+]
+},
+{
+"id": "401911001",
+"name": "MASS @ TROY",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Troy",
+"display": "Troy Trojans",
+"id": "2653",
+"home": true
+},
+{
+"location": "Massachusetts",
+"display": "Massachusetts Minutemen",
+"id": "113",
+"home": false
+}
+]
+},
+{
+"id": "401910998",
+"name": "EMU @ CCU",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Coastal Carolina",
+"display": "Coastal Carolina Chanticleers",
+"id": "324",
+"home": true
+},
+{
+"location": "Eastern Michigan",
+"display": "Eastern Michigan Eagles",
+"id": "2199",
+"home": false
+}
+]
+},
+{
+"id": "401910997",
+"name": "WMU @ ODU",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Old Dominion",
+"display": "Old Dominion Monarchs",
+"id": "295",
+"home": true
+},
+{
+"location": "Western Michigan",
+"display": "Western Michigan Broncos",
+"id": "2711",
+"home": false
+}
+]
+},
+{
+"id": "401910995",
+"name": "BUF @ MRSH",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Marshall",
+"display": "Marshall Thundering Herd",
+"id": "276",
+"home": true
+},
+{
+"location": "Buffalo",
+"display": "Buffalo Bulls",
+"id": "2084",
+"home": false
+}
+]
+},
+{
+"id": "401909716",
+"name": "NHVN @ SYR",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Syracuse",
+"display": "Syracuse Orange",
+"id": "183",
+"home": true
+},
+{
+"location": "New Haven",
+"display": "New Haven Chargers",
+"id": "2441",
+"home": false
+}
+]
+},
+{
+"id": "401909705",
+"name": "RID @ PITT",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Pittsburgh",
+"display": "Pittsburgh Panthers",
+"id": "221",
+"home": true
+},
+{
+"location": "Rider",
+"display": "Rider Broncs",
+"id": "2520",
+"home": false
+}
+]
+},
+{
+"id": "401909541",
+"name": "MSM @ XAV",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Xavier",
+"display": "Xavier Musketeers",
+"id": "2752",
+"home": true
+},
+{
+"location": "Mount St. Mary's",
+"display": "Mount St. Mary's Mountaineers",
+"id": "116",
+"home": false
+}
+]
+},
+{
+"id": "401909531",
+"name": "ME @ PROV",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Providence",
+"display": "Providence Friars",
+"id": "2507",
+"home": true
+},
+{
+"location": "Maine",
+"display": "Maine Black Bears",
+"id": "311",
+"home": false
+}
+]
+},
+{
+"id": "401902275",
+"name": "LAF @ BTLR",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Butler",
+"display": "Butler Bulldogs",
+"id": "2086",
+"home": true
+},
+{
+"location": "Lafayette",
+"display": "Lafayette Leopards",
+"id": "322",
+"home": false
+}
+]
+},
+{
+"id": "401921704",
+"name": "GONZ VS PUR",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Purdue",
+"display": "Purdue Boilermakers",
+"id": "2509",
+"home": true
+},
+{
+"location": "Gonzaga",
+"display": "Gonzaga Bulldogs",
+"id": "2250",
+"home": false
+}
+]
+},
+{
+"id": "401931655",
+"name": "SWES @ COFC",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Charleston",
+"display": "Charleston Cougars",
+"id": "232",
+"home": true
+},
+{
+"location": "Southern Wesleyan",
+"display": "Southern Wesleyan Warriors",
+"id": "2576",
+"home": false
+}
+]
+},
+{
+"id": "401928806",
+"name": "LAW @ GB",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Green Bay",
+"display": "Green Bay Phoenix",
+"id": "2739",
+"home": true
+},
+{
+"location": "Lawrence",
+"display": "Lawrence Vikings",
+"id": "268",
+"home": false
+}
+]
+},
+{
+"id": "401926116",
+"name": "BERR @ SAM",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Samford",
+"display": "Samford Bulldogs",
+"id": "2535",
+"home": true
+},
+{
+"location": "Berry",
+"display": "Berry Vikings",
+"id": "2757",
+"home": false
+}
+]
+},
+{
+"id": "401925925",
+"name": "MRRS @ SCST",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "South Carolina State",
+"display": "South Carolina State Bulldogs",
+"id": "2569",
+"home": true
+},
+{
+"location": "Morris",
+"display": "Morris Hornets",
+"id": "571",
+"home": false
+}
+]
+},
+{
+"id": "401925088",
+"name": "LYON @ SFA",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Stephen F. Austin",
+"display": "Stephen F. Austin Lumberjacks",
+"id": "2617",
+"home": true
+},
+{
+"location": "Lyon",
+"display": "Lyon Scots",
+"id": "2358",
+"home": false
+}
+]
+},
+{
+"id": "401922043",
+"name": "PFEI @ LONG",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Longwood",
+"display": "Longwood Lancers",
+"id": "2344",
+"home": true
+},
+{
+"location": "Pfeiffer",
+"display": "Pfeiffer Falcons",
+"id": "2945",
+"home": false
+}
+]
+},
+{
+"id": "401920959",
+"name": "MORE @ WKU",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Western Kentucky",
+"display": "Western Kentucky Hilltoppers",
+"id": "98",
+"home": true
+},
+{
+"location": "Morehead State",
+"display": "Morehead State Eagles",
+"id": "2413",
+"home": false
+}
+]
+},
+{
+"id": "401920893",
+"name": "DEN @ WIS",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Wisconsin",
+"display": "Wisconsin Badgers",
+"id": "275",
+"home": true
+},
+{
+"location": "Denver",
+"display": "Denver Pioneers",
+"id": "2172",
+"home": false
+}
+]
+},
+{
+"id": "401920886",
+"name": "SPU @ HALL",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Seton Hall",
+"display": "Seton Hall Pirates",
+"id": "2550",
+"home": true
+},
+{
+"location": "Saint Peter's",
+"display": "Saint Peter's Peacocks",
+"id": "2612",
+"home": false
+}
+]
+},
+{
+"id": "401920758",
+"name": "USI @ BEL",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Belmont",
+"display": "Belmont Bruins",
+"id": "2057",
+"home": true
+},
+{
+"location": "Southern Indiana",
+"display": "Southern Indiana Screaming Eagles",
+"id": "88",
+"home": false
+}
+]
+},
+{
+"id": "401920701",
+"name": "LIP @ SEMO",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Southeast Missouri State",
+"display": "Southeast Missouri State Redhawks",
+"id": "2546",
+"home": true
+},
+{
+"location": "Lipscomb",
+"display": "Lipscomb Bisons",
+"id": "288",
+"home": false
+}
+]
+},
+{
+"id": "401919780",
+"name": "LEM @ NEB",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Nebraska",
+"display": "Nebraska Cornhuskers",
+"id": "158",
+"home": true
+},
+{
+"location": "Le Moyne",
+"display": "Le Moyne Dolphins",
+"id": "2330",
+"home": false
+}
+]
+},
+{
+"id": "401918955",
+"name": "CAM @ NCSU",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "NC State",
+"display": "NC State Wolfpack",
+"id": "152",
+"home": true
+},
+{
+"location": "Campbell",
+"display": "Campbell Fighting Camels",
+"id": "2097",
+"home": false
+}
+]
+},
+{
+"id": "401917173",
+"name": "CAN @ PSU",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Penn State",
+"display": "Penn State Nittany Lions",
+"id": "213",
+"home": true
+},
+{
+"location": "Canisius",
+"display": "Canisius Golden Griffins",
+"id": "2099",
+"home": false
+}
+]
+},
+{
+"id": "401911208",
+"name": "NAVY @ GW",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "George Washington",
+"display": "George Washington Revolutionaries",
+"id": "45",
+"home": true
+},
+{
+"location": "Navy",
+"display": "Navy Midshipmen",
+"id": "2426",
+"home": false
+}
+]
+},
+{
+"id": "401911000",
+"name": "KENT @ LT",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Louisiana Tech",
+"display": "Louisiana Tech Bulldogs",
+"id": "2348",
+"home": true
+},
+{
+"location": "Kent State",
+"display": "Kent State Golden Flashes",
+"id": "2309",
+"home": false
+}
+]
+},
+{
+"id": "401910996",
+"name": "CMU @ ULM",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "UL Monroe",
+"display": "UL Monroe Warhawks",
+"id": "2433",
+"home": true
+},
+{
+"location": "Central Michigan",
+"display": "Central Michigan Chippewas",
+"id": "2117",
+"home": false
+}
+]
+},
+{
+"id": "401909522",
+"name": "MERC @ MARQ",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Marquette",
+"display": "Marquette Golden Eagles",
+"id": "269",
+"home": true
+},
+{
+"location": "Mercyhurst",
+"display": "Mercyhurst Lakers",
+"id": "2385",
+"home": false
+}
+]
+},
+{
+"id": "401906791",
+"name": "TNTC @ MSST",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Mississippi State",
+"display": "Mississippi State Bulldogs",
+"id": "344",
+"home": true
+},
+{
+"location": "Tennessee Tech",
+"display": "Tennessee Tech Golden Eagles",
+"id": "2635",
+"home": false
+}
+]
+},
+{
+"id": "401906779",
+"name": "NCCU @ UGA",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Georgia",
+"display": "Georgia Bulldogs",
+"id": "61",
+"home": true
+},
+{
+"location": "North Carolina Central",
+"display": "North Carolina Central Eagles",
+"id": "2428",
+"home": false
+}
+]
+},
+{
+"id": "401913525",
+"name": "FDU @ ILL",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Illinois",
+"display": "Illinois Fighting Illini",
+"id": "356",
+"home": true
+},
+{
+"location": "Fairleigh Dickinson",
+"display": "Fairleigh Dickinson Knights",
+"id": "161",
+"home": false
+}
+]
+},
+{
+"id": "401909784",
+"name": "FOR @ KU",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Kansas",
+"display": "Kansas Jayhawks",
+"id": "2305",
+"home": true
+},
+{
+"location": "Fordham",
+"display": "Fordham Rams",
+"id": "2230",
+"home": false
+}
+]
+},
+{
+"id": "401929441",
+"name": "TOUG @ USM",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Southern Miss",
+"display": "Southern Miss Golden Eagles",
+"id": "2572",
+"home": true
+},
+{
+"location": "Tougaloo",
+"display": "Tougaloo Bulldogs",
+"id": "2650",
+"home": false
+}
+]
+},
+{
+"id": "401929394",
+"name": "MAMC @ OMA",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Omaha",
+"display": "Omaha Mavericks",
+"id": "2437",
+"home": true
+},
+{
+"location": "Mid America Christian",
+"display": "Mid America Christian Evangels",
+"id": "3126",
+"home": false
+}
+]
+},
+{
+"id": "401929391",
+"name": "MNCR @ NDSU",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "North Dakota State",
+"display": "North Dakota State Bison",
+"id": "2449",
+"home": true
+},
+{
+"location": "Crookston (MN)",
+"display": "Crookston (MN) Golden Eagles",
+"id": "2772",
+"home": false
+}
+]
+},
+{
+"id": "401929365",
+"name": "CAMR @ TAR",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Tarleton State",
+"display": "Tarleton State Texans",
+"id": "2627",
+"home": true
+},
+{
+"location": "Cameron",
+"display": "Cameron Aggies",
+"id": "2096",
+"home": false
+}
+]
+},
+{
+"id": "401929355",
+"name": "UNTD @ UTA",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "UT Arlington",
+"display": "UT Arlington Mavericks",
+"id": "250",
+"home": true
+},
+{
+"location": "UNT Dallas",
+"display": "UNT Dallas Trailblazers",
+"id": "126794",
+"home": false
+}
+]
+},
+{
+"id": "401928995",
+"name": "WIU @ VAL",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Valparaiso",
+"display": "Valparaiso Beacons",
+"id": "2674",
+"home": true
+},
+{
+"location": "Western Illinois",
+"display": "Western Illinois Leathernecks",
+"id": "2710",
+"home": false
+}
+]
+},
+{
+"id": "401927368",
+"name": "IUK @ EVAN",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Evansville",
+"display": "Evansville Purple Aces",
+"id": "339",
+"home": true
+},
+{
+"location": "IU Kokomo",
+"display": "IU Kokomo Cougars",
+"id": "3192",
+"home": false
+}
+]
+},
+{
+"id": "401927360",
+"name": "MNIL @ BRAD",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Bradley",
+"display": "Bradley Braves",
+"id": "71",
+"home": true
+},
+{
+"location": "Monmouth (IL)",
+"display": "Monmouth (IL) Fighting Scots",
+"id": "2919",
+"home": false
+}
+]
+},
+{
+"id": "401925892",
+"name": "RGNT @ NORF",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Norfolk State",
+"display": "Norfolk State Spartans",
+"id": "2450",
+"home": true
+},
+{
+"location": "Regent",
+"display": "Regent Royals",
+"id": "111926",
+"home": false
+}
+]
+},
+{
+"id": "401925862",
+"name": "OUKS @ TLSA",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Tulsa",
+"display": "Tulsa Golden Hurricane",
+"id": "202",
+"home": true
+},
+{
+"location": "Ottawa (KS)",
+"display": "Ottawa (KS) OTTAWA (KS)",
+"id": "2775",
+"home": false
+}
+]
+},
+{
+"id": "401925096",
+"name": "AMCC @ TXST",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Texas State",
+"display": "Texas State Bobcats",
+"id": "326",
+"home": true
+},
+{
+"location": "Texas A&M-Corpus Christi",
+"display": "Texas A&M-Corpus Christi Islanders",
+"id": "357",
+"home": false
+}
+]
+},
+{
+"id": "401923269",
+"name": "SIE @ BRY",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Bryant",
+"display": "Bryant Bulldogs",
+"id": "2803",
+"home": true
+},
+{
+"location": "Siena",
+"display": "Siena Saints",
+"id": "2561",
+"home": false
+}
+]
+},
+{
+"id": "401921424",
+"name": "FUR VS BCU",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Bethune-Cookman",
+"display": "Bethune-Cookman Wildcats",
+"id": "2065",
+"home": true
+},
+{
+"location": "Furman",
+"display": "Furman Paladins",
+"id": "231",
+"home": false
+}
+]
+},
+{
+"id": "401920951",
+"name": "MUMO @ SIU",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Southern Illinois",
+"display": "Southern Illinois Salukis",
+"id": "79",
+"home": true
+},
+{
+"location": "Maryville (MO)",
+"display": "Maryville (MO) MARYVILLE UNIVERSITY (MO)",
+"id": "310",
+"home": false
+}
+]
+},
+{
+"id": "401920732",
+"name": "BING @ NU",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Northwestern",
+"display": "Northwestern Wildcats",
+"id": "77",
+"home": true
+},
+{
+"location": "Binghamton",
+"display": "Binghamton Bearcats",
+"id": "2066",
+"home": false
+}
+]
+},
+{
+"id": "401920434",
+"name": "WCOL @ UVU",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Utah Valley",
+"display": "Utah Valley Wolverines",
+"id": "3084",
+"home": true
+},
+{
+"location": "Western Colorado",
+"display": "Western Colorado Mountaineers",
+"id": "112694",
+"home": false
+}
+]
+},
+{
+"id": "401919047",
+"name": "LIN @ TCU",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "TCU",
+"display": "TCU Horned Frogs",
+"id": "2628",
+"home": true
+},
+{
+"location": "Lindenwood",
+"display": "Lindenwood Lions",
+"id": "2815",
+"home": false
+}
+]
+},
+{
+"id": "401919039",
+"name": "UIW @ OKST",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Oklahoma State",
+"display": "Oklahoma State Cowboys",
+"id": "197",
+"home": true
+},
+{
+"location": "Incarnate Word",
+"display": "Incarnate Word Cardinals",
+"id": "2916",
+"home": false
+}
+]
+},
+{
+"id": "401919001",
+"name": "UTM @ TULN",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Tulane",
+"display": "Tulane Green Wave",
+"id": "2655",
+"home": true
+},
+{
+"location": "UT Martin",
+"display": "UT Martin Skyhawks",
+"id": "2630",
+"home": false
+}
+]
+},
+{
+"id": "401918967",
+"name": "SOU @ SMU",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "SMU",
+"display": "SMU Mustangs",
+"id": "2567",
+"home": true
+},
+{
+"location": "Southern",
+"display": "Southern Jaguars",
+"id": "2582",
+"home": false
+}
+]
+},
+{
+"id": "401918051",
+"name": "ADSU @ CAL",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "California",
+"display": "California Golden Bears",
+"id": "25",
+"home": true
+},
+{
+"location": "Adams State",
+"display": "Adams State Grizzlies",
+"id": "2001",
+"home": false
+}
+]
+},
+{
+"id": "401917948",
+"name": "LANE @ APSU",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Austin Peay",
+"display": "Austin Peay Governors",
+"id": "2046",
+"home": true
+},
+{
+"location": "Lane College",
+"display": "Lane College Dragons",
+"id": "6371",
+"home": false
+}
+]
+},
+{
+"id": "401917510",
+"name": "WLMT @ PORT",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Portland",
+"display": "Portland Pilots",
+"id": "2501",
+"home": true
+},
+{
+"location": "Willamette",
+"display": "Willamette Bearcats",
+"id": "2930",
+"home": false
+}
+]
+},
+{
+"id": "401911248",
+"name": "LEH @ SLU",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Saint Louis",
+"display": "Saint Louis Billikens",
+"id": "139",
+"home": true
+},
+{
+"location": "Lehigh",
+"display": "Lehigh Mountain Hawks",
+"id": "2329",
+"home": false
+}
+]
+},
+{
+"id": "401911228",
+"name": "CIT @ LUC",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Loyola Chicago",
+"display": "Loyola Chicago Ramblers",
+"id": "2350",
+"home": true
+},
+{
+"location": "The Citadel",
+"display": "The Citadel Bulldogs",
+"id": "2643",
+"home": false
+}
+]
+},
+{
+"id": "401911003",
+"name": "OHIO @ USA",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "South Alabama",
+"display": "South Alabama Jaguars",
+"id": "6",
+"home": true
+},
+{
+"location": "Ohio",
+"display": "Ohio Bobcats",
+"id": "195",
+"home": false
+}
+]
+},
+{
+"id": "401910999",
+"name": "TOL @ ARST",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Arkansas State",
+"display": "Arkansas State Red Wolves",
+"id": "2032",
+"home": true
+},
+{
+"location": "Toledo",
+"display": "Toledo Rockets",
+"id": "2649",
+"home": false
+}
+]
+},
+{
+"id": "401910993",
+"name": "AKR @ UL",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Louisiana",
+"display": "Louisiana Ragin' Cajuns",
+"id": "309",
+"home": true
+},
+{
+"location": "Akron",
+"display": "Akron Zips",
+"id": "2006",
+"home": false
+}
+]
+},
+{
+"id": "401909725",
+"name": "UMES @ WAKE",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Wake Forest",
+"display": "Wake Forest Demon Deacons",
+"id": "154",
+"home": true
+},
+{
+"location": "Maryland Eastern Shore",
+"display": "Maryland Eastern Shore Hawks",
+"id": "2379",
+"home": false
+}
+]
+},
+{
+"id": "401909500",
+"name": "WGA @ DEP",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "DePaul",
+"display": "DePaul Blue Demons",
+"id": "305",
+"home": true
+},
+{
+"location": "West Georgia",
+"display": "West Georgia Wolves",
+"id": "2698",
+"home": false
+}
+]
+},
+{
+"id": "401909490",
+"name": "KC @ CREI",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Creighton",
+"display": "Creighton Bluejays",
+"id": "156",
+"home": true
+},
+{
+"location": "Kansas City",
+"display": "Kansas City Roos",
+"id": "140",
+"home": false
+}
+]
+},
+{
+"id": "401906801",
+"name": "ETAM @ OU",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Oklahoma",
+"display": "Oklahoma Sooners",
+"id": "201",
+"home": true
+},
+{
+"location": "East Texas A&M",
+"display": "East Texas A&M Lions",
+"id": "2837",
+"home": false
+}
+]
+},
+{
+"id": "401926739",
+"name": "LGC @ JXST",
+"date": "2026-11-03T01:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Jacksonville State",
+"display": "Jacksonville State Gamecocks",
+"id": "55",
+"home": true
+},
+{
+"location": "LaGrange",
+"display": "LaGrange Panthers",
+"id": "548",
+"home": false
+}
+]
+},
+{
+"id": "401925826",
+"name": "SWCU @ UNT",
+"date": "2026-11-03T01:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "North Texas",
+"display": "North Texas Mean Green",
+"id": "249",
+"home": true
+},
+{
+"location": "Southwestern Christian U",
+"display": "Southwestern Christian U Eagles",
+"id": "3238",
+"home": false
+}
+]
+},
+{
+"id": "401925683",
+"name": "ALCN @ MISS",
+"date": "2026-11-03T01:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Ole Miss",
+"display": "Ole Miss Rebels",
+"id": "145",
+"home": true
+},
+{
+"location": "Alcorn State",
+"display": "Alcorn State Braves",
+"id": "2016",
+"home": false
+}
+]
+},
+{
+"id": "401925640",
+"name": "OAKW @ AAMU",
+"date": "2026-11-03T01:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Alabama A&M",
+"display": "Alabama A&M Bulldogs",
+"id": "2010",
+"home": true
+},
+{
+"location": "Oakwood",
+"display": "Oakwood Ambassadors",
+"id": "3083",
+"home": false
+}
+]
+},
+{
+"id": "401925105",
+"name": "TAMK @ RGV",
+"date": "2026-11-03T01:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "UT Rio Grande Valley",
+"display": "UT Rio Grande Valley Vaqueros",
+"id": "292",
+"home": true
+},
+{
+"location": "Texas A&M-Kingsville",
+"display": "Texas A&M-Kingsville Javelinas",
+"id": "2658",
+"home": false
+}
+]
+},
+{
+"id": "401925010",
+"name": "SCHR @ LAM",
+"date": "2026-11-03T01:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Lamar",
+"display": "Lamar Cardinals",
+"id": "2320",
+"home": true
+},
+{
+"location": "Schreiner",
+"display": "Schreiner Mountaineers",
+"id": "2544",
+"home": false
+}
+]
+},
+{
+"id": "401917913",
+"name": "ORU @ CARK",
+"date": "2026-11-03T01:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Central Arkansas",
+"display": "Central Arkansas Bears",
+"id": "2110",
+"home": true
+},
+{
+"location": "Oral Roberts",
+"display": "Oral Roberts Golden Eagles",
+"id": "198",
+"home": false
+}
+]
+},
+{
+"id": "401909694",
+"name": "FAMU VS FSU",
+"date": "2026-11-03T01:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Florida State",
+"display": "Florida State Seminoles",
+"id": "52",
+"home": true
+},
+{
+"location": "Florida A&M",
+"display": "Florida A&M Rattlers",
+"id": "50",
+"home": false
+}
+]
+},
+{
+"id": "401911390",
+"name": "GWEB @ CONN",
+"date": "2026-11-03T02:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "UConn",
+"display": "UConn Huskies",
+"id": "41",
+"home": true
+},
+{
+"location": "Gardner-Webb",
+"display": "Gardner-Webb Runnin' Bulldogs",
+"id": "2241",
+"home": false
+}
+]
+},
+{
+"id": "401906863",
+"name": "CHST @ TEX",
+"date": "2026-11-03T02:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Texas",
+"display": "Texas Longhorns",
+"id": "251",
+"home": true
+},
+{
+"location": "Chicago State",
+"display": "Chicago State Cougars",
+"id": "2130",
+"home": false
+}
+]
+},
+{
+"id": "401925811",
+"name": "LAS @ HOU",
+"date": "2026-11-03T02:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Houston",
+"display": "Houston Cougars",
+"id": "248",
+"home": true
+},
+{
+"location": "La Salle",
+"display": "La Salle Explorers",
+"id": "2325",
+"home": false
+}
+]
+},
+{
+"id": "401918947",
+"name": "UTC @ LOU",
+"date": "2026-11-03T02:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Louisville",
+"display": "Louisville Cardinals",
+"id": "97",
+"home": true
+},
+{
+"location": "Chattanooga",
+"display": "Chattanooga Mocs",
+"id": "236",
+"home": false
+}
+]
+},
+{
+"id": "401916313",
+"name": "OSU VS BYU",
+"date": "2026-11-03T02:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "BYU",
+"display": "BYU Cougars",
+"id": "252",
+"home": true
+},
+{
+"location": "Ohio State",
+"display": "Ohio State Buckeyes",
+"id": "194",
+"home": false
+}
+]
+},
+{
+"id": "401929179",
+"name": "FPU @ FRES",
+"date": "2026-11-03T02:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Fresno State",
+"display": "Fresno State Bulldogs",
+"id": "278",
+"home": true
+},
+{
+"location": "Fresno Pacific",
+"display": "Fresno Pacific Sunbirds",
+"id": "2235",
+"home": false
+}
+]
+},
+{
+"id": "401928351",
+"name": "SFST @ UCSB",
+"date": "2026-11-03T02:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "UC Santa Barbara",
+"display": "UC Santa Barbara Gauchos",
+"id": "2540",
+"home": true
+},
+{
+"location": "San Francisco State",
+"display": "San Francisco State Gators",
+"id": "22",
+"home": false
+}
+]
+},
+{
+"id": "401925771",
+"name": "DAV @ WSU",
+"date": "2026-11-03T02:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Washington State",
+"display": "Washington State Cougars",
+"id": "265",
+"home": true
+},
+{
+"location": "Davidson",
+"display": "Davidson Wildcats",
+"id": "2166",
+"home": false
+}
+]
+},
+{
+"id": "401924894",
+"name": "UTU @ UNM",
+"date": "2026-11-03T02:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "New Mexico",
+"display": "New Mexico Lobos",
+"id": "167",
+"home": true
+},
+{
+"location": "Utah Tech",
+"display": "Utah Tech Trailblazers",
+"id": "3101",
+"home": false
+}
+]
+},
+{
+"id": "401921697",
+"name": "LBSU @ UTAH",
+"date": "2026-11-03T02:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Utah",
+"display": "Utah Utes",
+"id": "254",
+"home": true
+},
+{
+"location": "Long Beach State",
+"display": "Long Beach State Beach",
+"id": "299",
+"home": false
+}
+]
+},
+{
+"id": "401916303",
+"name": "UND @ MINN",
+"date": "2026-11-03T02:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Minnesota",
+"display": "Minnesota Golden Gophers",
+"id": "135",
+"home": true
+},
+{
+"location": "North Dakota",
+"display": "North Dakota Fighting Hawks",
+"id": "155",
+"home": false
+}
+]
+},
+{
+"id": "401911389",
+"name": "TXSO @ GCU",
+"date": "2026-11-03T02:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Grand Canyon",
+"display": "Grand Canyon Lopes",
+"id": "2253",
+"home": true
+},
+{
+"location": "Texas Southern",
+"display": "Texas Southern Tigers",
+"id": "2640",
+"home": false
+}
+]
+},
+{
+"id": "401909759",
+"name": "ACU @ COLO",
+"date": "2026-11-03T02:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Colorado",
+"display": "Colorado Buffaloes",
+"id": "38",
+"home": true
+},
+{
+"location": "Abilene Christian",
+"display": "Abilene Christian Wildcats",
+"id": "2000",
+"home": false
+}
+]
+},
+{
+"id": "401925947",
+"name": "WEB @ ORST",
+"date": "2026-11-03T02:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Oregon State",
+"display": "Oregon State Beavers",
+"id": "204",
+"home": true
+},
+{
+"location": "Weber State",
+"display": "Weber State Wildcats",
+"id": "2692",
+"home": false
+}
+]
+},
+{
+"id": "401925887",
+"name": "COLC @ UNCO",
+"date": "2026-11-03T02:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Northern Colorado",
+"display": "Northern Colorado Bears",
+"id": "2458",
+"home": true
+},
+{
+"location": "Colorado College",
+"display": "Colorado College Tigers",
+"id": "2144",
+"home": false
+}
+]
+},
+{
+"id": "401922020",
+"name": "IDST @ USU",
+"date": "2026-11-03T02:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Utah State",
+"display": "Utah State Aggies",
+"id": "328",
+"home": true
+},
+{
+"location": "Idaho State",
+"display": "Idaho State Bengals",
+"id": "304",
+"home": false
+}
+]
+},
+{
+"id": "401917508",
+"name": "BIOL @ USD",
+"date": "2026-11-03T02:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "San Diego",
+"display": "San Diego Toreros",
+"id": "301",
+"home": true
+},
+{
+"location": "Biola",
+"display": "Biola Eagles",
+"id": "2067",
+"home": false
+}
+]
+},
+{
+"id": "401909750",
+"name": "NWST @ BAY",
+"date": "2026-11-03T02:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Baylor",
+"display": "Baylor Bears",
+"id": "239",
+"home": true
+},
+{
+"location": "Northwestern State",
+"display": "Northwestern State Demons",
+"id": "2466",
+"home": false
+}
+]
+},
+{
+"id": "401909738",
+"name": "ARIZ VS UCLA",
+"date": "2026-11-03T03:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "UCLA",
+"display": "UCLA Bruins",
+"id": "26",
+"home": true
+},
+{
+"location": "Arizona",
+"display": "Arizona Wildcats",
+"id": "12",
+"home": false
+}
+]
+},
+{
+"id": "401926776",
+"name": "ULV @ UCR",
+"date": "2026-11-03T03:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "UC Riverside",
+"display": "UC Riverside Highlanders",
+"id": "27",
+"home": true
+},
+{
+"location": "La Verne",
+"display": "La Verne Leopards",
+"id": "2318",
+"home": false
+}
+]
+},
+{
+"id": "401925921",
+"name": "WCBC @ SUU",
+"date": "2026-11-03T03:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Southern Utah",
+"display": "Southern Utah Thunderbirds",
+"id": "253",
+"home": true
+},
+{
+"location": "West Coast Baptist",
+"display": "West Coast Baptist Eagles",
+"id": "110418",
+"home": false
+}
+]
+},
+{
+"id": "401925878",
+"name": "MTST @ CSU",
+"date": "2026-11-03T03:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Colorado State",
+"display": "Colorado State Rams",
+"id": "36",
+"home": true
+},
+{
+"location": "Montana State",
+"display": "Montana State Bobcats",
+"id": "147",
+"home": false
+}
+]
+},
+{
+"id": "401922260",
+"name": "GFU @ IDHO",
+"date": "2026-11-03T03:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Idaho",
+"display": "Idaho Vandals",
+"id": "70",
+"home": true
+},
+{
+"location": "George Fox",
+"display": "George Fox Bruins",
+"id": "415",
+"home": false
+}
+]
+},
+{
+"id": "401922029",
+"name": "MONT @ ORE",
+"date": "2026-11-03T03:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Oregon",
+"display": "Oregon Ducks",
+"id": "2483",
+"home": true
+},
+{
+"location": "Montana",
+"display": "Montana Grizzlies",
+"id": "149",
+"home": false
+}
+]
+},
+{
+"id": "401921731",
+"name": "ETSU @ ASU",
+"date": "2026-11-03T03:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Arizona State",
+"display": "Arizona State Sun Devils",
+"id": "9",
+"home": true
+},
+{
+"location": "East Tennessee State",
+"display": "East Tennessee State Buccaneers",
+"id": "2193",
+"home": false
+}
+]
+},
+{
+"id": "401921060",
+"name": "RAD @ SF",
+"date": "2026-11-03T03:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "San Francisco",
+"display": "San Francisco Dons",
+"id": "2539",
+"home": true
+},
+{
+"location": "Radford",
+"display": "Radford Highlanders",
+"id": "2515",
+"home": false
+}
+]
+},
+{
+"id": "401920769",
+"name": "COLG @ WASH",
+"date": "2026-11-03T03:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Washington",
+"display": "Washington Huskies",
+"id": "264",
+"home": true
+},
+{
+"location": "Colgate",
+"display": "Colgate Raiders",
+"id": "2142",
+"home": false
+}
+]
+},
+{
+"id": "401920716",
+"name": "EWU @ STAN",
+"date": "2026-11-03T03:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Stanford",
+"display": "Stanford Cardinal",
+"id": "24",
+"home": true
+},
+{
+"location": "Eastern Washington",
+"display": "Eastern Washington Eagles",
+"id": "331",
+"home": false
+}
+]
+},
+{
+"id": "401920370",
+"name": "WHTR @ UCSD",
+"date": "2026-11-03T03:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "UC San Diego",
+"display": "UC San Diego Tritons",
+"id": "28",
+"home": true
+},
+{
+"location": "Whittier",
+"display": "Whittier Poets",
+"id": "2850",
+"home": false
+}
+]
+},
+{
+"id": "401920348",
+"name": "JSP @ SAC",
+"date": "2026-11-03T03:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Sacramento State",
+"display": "Sacramento State Hornets",
+"id": "16",
+"home": true
+},
+{
+"location": "Jessup",
+"display": "Jessup Warriors",
+"id": "3078",
+"home": false
+}
+]
+},
+{
+"id": "401917509",
+"name": "TOW @ SCU",
+"date": "2026-11-03T03:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Santa Clara",
+"display": "Santa Clara Broncos",
+"id": "2541",
+"home": true
+},
+{
+"location": "Towson",
+"display": "Towson Tigers",
+"id": "119",
+"home": false
+}
+]
+},
+{
+"id": "401917507",
+"name": "ILST @ SMC",
+"date": "2026-11-03T03:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Saint Mary's",
+"display": "Saint Mary's Gaels",
+"id": "2608",
+"home": true
+},
+{
+"location": "Illinois State",
+"display": "Illinois State Redbirds",
+"id": "2287",
+"home": false
+}
+]
+},
+{
+"id": "401911517",
+"name": "UNA @ UCD",
+"date": "2026-11-03T03:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "UC Davis",
+"display": "UC Davis Aggies",
+"id": "302",
+"home": true
+},
+{
+"location": "North Alabama",
+"display": "North Alabama Lions",
+"id": "2453",
+"home": false
+}
+]
+},
+{
+"id": "401911452",
+"name": "RMU @ NEV",
+"date": "2026-11-03T03:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Nevada",
+"display": "Nevada Wolf Pack",
+"id": "2440",
+"home": true
+},
+{
+"location": "Robert Morris",
+"display": "Robert Morris Colonials",
+"id": "2523",
+"home": false
+}
+]
+},
+{
+"id": "401926771",
+"name": "MILW @ USC",
+"date": "2026-11-03T03:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "USC",
+"display": "USC Trojans",
+"id": "30",
+"home": true
+},
+{
+"location": "Milwaukee",
+"display": "Milwaukee Panthers",
+"id": "270",
+"home": false
+}
+]
+},
+{
+"id": "401920122",
+"name": "CSSM @ CP",
+"date": "2026-11-03T03:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Cal Poly",
+"display": "Cal Poly Mustangs",
+"id": "13",
+"home": true
+},
+{
+"location": "Cal State San Marcos",
+"display": "Cal State San Marcos Cougars",
+"id": "3182",
+"home": false
+}
+]
+},
+{
+"id": "401917506",
+"name": "SEA @ HAW",
+"date": "2026-11-03T04:59Z",
+"state": "pre",
+"teams": [
+{
+"location": "Hawai'i",
+"display": "Hawai'i Rainbow Warriors",
+"id": "62",
+"home": true
+},
+{
+"location": "Seattle U",
+"display": "Seattle U Redhawks",
+"id": "2547",
+"home": false
+}
+]
+}
+],
+"wbb|20261102": [
+{
+"id": "401913714",
+"name": "HOF @ GT",
+"date": "2026-11-02T15:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Georgia Tech",
+"display": "Georgia Tech Yellow Jackets",
+"id": "59",
+"home": true
+},
+{
+"location": "Hofstra",
+"display": "Hofstra Pride",
+"id": "2275",
+"home": false
+}
+]
+},
+{
+"id": "401929632",
+"name": "WAU @ MORG",
+"date": "2026-11-02T16:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Morgan State",
+"display": "Morgan State Lady Bears",
+"id": "2415",
+"home": true
+},
+{
+"location": "Washington Adventist",
+"display": "Washington Adventist Shock",
+"id": "408",
+"home": false
+}
+]
+},
+{
+"id": "401929167",
+"name": "ODU @ CMU",
+"date": "2026-11-02T16:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Central Michigan",
+"display": "Central Michigan Chippewas",
+"id": "2117",
+"home": true
+},
+{
+"location": "Old Dominion",
+"display": "Old Dominion Monarchs",
+"id": "295",
+"home": false
+}
+]
+},
+{
+"id": "401929054",
+"name": "UMDB @ DETM",
+"date": "2026-11-02T16:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Detroit Mercy",
+"display": "Detroit Mercy Titans",
+"id": "2174",
+"home": true
+},
+{
+"location": "Michigan Dearborn",
+"display": "Michigan Dearborn Wolves",
+"id": "2391",
+"home": false
+}
+]
+},
+{
+"id": "401929034",
+"name": "CLRY @ OAK",
+"date": "2026-11-02T16:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Oakland",
+"display": "Oakland Golden Grizzlies",
+"id": "2473",
+"home": true
+},
+{
+"location": "Cleary University",
+"display": "Cleary University Cougars",
+"id": "128568",
+"home": false
+}
+]
+},
+{
+"id": "401927994",
+"name": "SHOU @ KENN",
+"date": "2026-11-02T16:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Kennesaw State",
+"display": "Kennesaw State Owls",
+"id": "338",
+"home": true
+},
+{
+"location": "Shorter",
+"display": "Shorter Hawks",
+"id": "2560",
+"home": false
+}
+]
+},
+{
+"id": "401920251",
+"name": "TNTC @ BTLR",
+"date": "2026-11-02T16:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Butler",
+"display": "Butler Bulldogs",
+"id": "2086",
+"home": true
+},
+{
+"location": "Tennessee Tech",
+"display": "Tennessee Tech Golden Eagles",
+"id": "2635",
+"home": false
+}
+]
+},
+{
+"id": "401919322",
+"name": "DAV @ COLU",
+"date": "2026-11-02T16:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Columbia",
+"display": "Columbia Lions",
+"id": "171",
+"home": true
+},
+{
+"location": "Davidson",
+"display": "Davidson Wildcats",
+"id": "2166",
+"home": false
+}
+]
+},
+{
+"id": "401918694",
+"name": "CCU @ WMU",
+"date": "2026-11-02T16:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Western Michigan",
+"display": "Western Michigan Broncos",
+"id": "2711",
+"home": true
+},
+{
+"location": "Coastal Carolina",
+"display": "Coastal Carolina Chanticleers",
+"id": "324",
+"home": false
+}
+]
+},
+{
+"id": "401915664",
+"name": "DMNY @ IONA",
+"date": "2026-11-02T16:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Iona",
+"display": "Iona Gaels",
+"id": "314",
+"home": true
+},
+{
+"location": "Dominican (NY)",
+"display": "Dominican (NY) Chargers",
+"id": "2179",
+"home": false
+}
+]
+},
+{
+"id": "401929798",
+"name": "OKCU @ ETAM",
+"date": "2026-11-02T16:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "East Texas A&M",
+"display": "East Texas A&M Lions",
+"id": "2837",
+"home": true
+},
+{
+"location": "Oklahoma Christian",
+"display": "Oklahoma Christian Eagles",
+"id": "589",
+"home": false
+}
+]
+},
+{
+"id": "401918849",
+"name": "MD VS SC",
+"date": "2026-11-02T17:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "South Carolina",
+"display": "South Carolina Gamecocks",
+"id": "2579",
+"home": true
+},
+{
+"location": "Maryland",
+"display": "Maryland Terrapins",
+"id": "120",
+"home": false
+}
+]
+},
+{
+"id": "401916067",
+"name": "LIP @ VAN",
+"date": "2026-11-02T17:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Vanderbilt",
+"display": "Vanderbilt Commodores",
+"id": "238",
+"home": true
+},
+{
+"location": "Lipscomb",
+"display": "Lipscomb Bisons",
+"id": "288",
+"home": false
+}
+]
+},
+{
+"id": "401923434",
+"name": "ALCN @ MISS",
+"date": "2026-11-02T17:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Ole Miss",
+"display": "Ole Miss Rebels",
+"id": "145",
+"home": true
+},
+{
+"location": "Alcorn State",
+"display": "Alcorn State Lady Braves",
+"id": "2016",
+"home": false
+}
+]
+},
+{
+"id": "401927514",
+"name": "MSC @ USM",
+"date": "2026-11-02T17:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Southern Miss",
+"display": "Southern Miss Lady Eagles",
+"id": "2572",
+"home": true
+},
+{
+"location": "Mississippi Christian",
+"display": "Mississippi Christian Choctaws",
+"id": "2401",
+"home": false
+}
+]
+},
+{
+"id": "401920165",
+"name": "TAMK @ MCN",
+"date": "2026-11-02T17:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "McNeese",
+"display": "McNeese Cowgirls",
+"id": "2377",
+"home": true
+},
+{
+"location": "Texas A&M-Kingsville",
+"display": "Texas A&M-Kingsville Javelinas",
+"id": "2658",
+"home": false
+}
+]
+},
+{
+"id": "401918815",
+"name": "BAK @ KC",
+"date": "2026-11-02T17:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Kansas City",
+"display": "Kansas City Roos",
+"id": "140",
+"home": true
+},
+{
+"location": "Baker",
+"display": "Baker BAKER",
+"id": "109206",
+"home": false
+}
+]
+},
+{
+"id": "401911503",
+"name": "RAD @ CLEM",
+"date": "2026-11-02T17:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Clemson",
+"display": "Clemson Tigers",
+"id": "228",
+"home": true
+},
+{
+"location": "Radford",
+"display": "Radford Highlanders",
+"id": "2515",
+"home": false
+}
+]
+},
+{
+"id": "401928217",
+"name": "BHL @ BOIS",
+"date": "2026-11-02T18:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Boise State",
+"display": "Boise State Broncos",
+"id": "68",
+"home": true
+},
+{
+"location": "Bushnell",
+"display": "Bushnell Beacons",
+"id": "109672",
+"home": false
+}
+]
+},
+{
+"id": "401927011",
+"name": "LPU @ UTU",
+"date": "2026-11-02T18:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Utah Tech",
+"display": "Utah Tech Trailblazers",
+"id": "3101",
+"home": true
+},
+{
+"location": "Life Pacific",
+"display": "Life Pacific Warriors",
+"id": "111994",
+"home": false
+}
+]
+},
+{
+"id": "401926990",
+"name": "BHSU @ MTST",
+"date": "2026-11-02T18:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Montana State",
+"display": "Montana State Bobcats",
+"id": "147",
+"home": true
+},
+{
+"location": "Black Hills State",
+"display": "Black Hills State Yellow Jackets",
+"id": "2069",
+"home": false
+}
+]
+},
+{
+"id": "401923478",
+"name": "HAMP @ HOU",
+"date": "2026-11-02T18:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Houston",
+"display": "Houston Cougars",
+"id": "248",
+"home": true
+},
+{
+"location": "Hampton",
+"display": "Hampton Lady Pirates",
+"id": "2261",
+"home": false
+}
+]
+},
+{
+"id": "401921434",
+"name": "SJSU @ NEB",
+"date": "2026-11-02T18:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Nebraska",
+"display": "Nebraska Cornhuskers",
+"id": "158",
+"home": true
+},
+{
+"location": "San Jos\u00e9 State",
+"display": "San Jos\u00e9 State Spartans",
+"id": "23",
+"home": false
+}
+]
+},
+{
+"id": "401917678",
+"name": "SEA @ UNM",
+"date": "2026-11-02T18:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "New Mexico",
+"display": "New Mexico Lobos",
+"id": "167",
+"home": true
+},
+{
+"location": "Seattle U",
+"display": "Seattle U Redhawks",
+"id": "2547",
+"home": false
+}
+]
+},
+{
+"id": "401913054",
+"name": "STAN VS ARIZ",
+"date": "2026-11-02T18:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Arizona",
+"display": "Arizona Wildcats",
+"id": "12",
+"home": true
+},
+{
+"location": "Stanford",
+"display": "Stanford Cardinal",
+"id": "24",
+"home": false
+}
+]
+},
+{
+"id": "401927836",
+"name": "UCSD @ WASH",
+"date": "2026-11-02T19:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Washington",
+"display": "Washington Huskies",
+"id": "264",
+"home": true
+},
+{
+"location": "UC San Diego",
+"display": "UC San Diego Tritons",
+"id": "28",
+"home": false
+}
+]
+},
+{
+"id": "401926957",
+"name": "STMA @ IDHO",
+"date": "2026-11-02T19:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Idaho",
+"display": "Idaho Vandals",
+"id": "70",
+"home": true
+},
+{
+"location": "Saint Martin's",
+"display": "Saint Martin's Saints",
+"id": "2606",
+"home": false
+}
+]
+},
+{
+"id": "401921305",
+"name": "LAF @ SJU",
+"date": "2026-11-02T19:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "St. John's",
+"display": "St. John's Red Storm",
+"id": "2599",
+"home": true
+},
+{
+"location": "Lafayette",
+"display": "Lafayette Leopards",
+"id": "322",
+"home": false
+}
+]
+},
+{
+"id": "401918896",
+"name": "LEH @ UCLA",
+"date": "2026-11-02T19:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "UCLA",
+"display": "UCLA Bruins",
+"id": "26",
+"home": true
+},
+{
+"location": "Lehigh",
+"display": "Lehigh Mountain Hawks",
+"id": "2329",
+"home": false
+}
+]
+},
+{
+"id": "401906088",
+"name": "OU VS UNC",
+"date": "2026-11-02T19:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "North Carolina",
+"display": "North Carolina Tar Heels",
+"id": "153",
+"home": true
+},
+{
+"location": "Oklahoma",
+"display": "Oklahoma Sooners",
+"id": "201",
+"home": false
+}
+]
+},
+{
+"id": "401925979",
+"name": "TCJ @ SCST",
+"date": "2026-11-02T20:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "South Carolina State",
+"display": "South Carolina State Lady Bulldogs",
+"id": "2569",
+"home": true
+},
+{
+"location": "Trinity College of Jacksonville",
+"display": "Trinity College of Jacksonville Eagles",
+"id": "3174",
+"home": false
+}
+]
+},
+{
+"id": "401920491",
+"name": "USC VS UNLV",
+"date": "2026-11-02T21:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "UNLV",
+"display": "UNLV Lady Rebels",
+"id": "2439",
+"home": true
+},
+{
+"location": "USC",
+"display": "USC Trojans",
+"id": "30",
+"home": false
+}
+]
+},
+{
+"id": "401927980",
+"name": "CWAN @ W&M",
+"date": "2026-11-02T21:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "William & Mary",
+"display": "William & Mary Tribe",
+"id": "2729",
+"home": true
+},
+{
+"location": "Chowan",
+"display": "Chowan Hawks",
+"id": "2804",
+"home": false
+}
+]
+},
+{
+"id": "401913810",
+"name": "SANS @ UML",
+"date": "2026-11-02T21:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "UMass Lowell",
+"display": "UMass Lowell River Hawks",
+"id": "2349",
+"home": true
+},
+{
+"location": "Saint Anselm",
+"display": "Saint Anselm Hawks",
+"id": "2830",
+"home": false
+}
+]
+},
+{
+"id": "401927972",
+"name": "MLLY @ STBK",
+"date": "2026-11-02T21:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Stony Brook",
+"display": "Stony Brook Seawolves",
+"id": "2619",
+"home": true
+},
+{
+"location": "Molloy",
+"display": "Molloy Lions",
+"id": "2404",
+"home": false
+}
+]
+},
+{
+"id": "401917183",
+"name": "ELMS @ YALE",
+"date": "2026-11-02T21:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Yale",
+"display": "Yale Bulldogs",
+"id": "43",
+"home": true
+},
+{
+"location": "Elms",
+"display": "Elms Blazers",
+"id": "131686",
+"home": false
+}
+]
+},
+{
+"id": "401911736",
+"name": "COR @ CONN",
+"date": "2026-11-02T22:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "UConn",
+"display": "UConn Huskies",
+"id": "41",
+"home": true
+},
+{
+"location": "Cornell",
+"display": "Cornell Big Red",
+"id": "172",
+"home": false
+}
+]
+},
+{
+"id": "401906074",
+"name": "BELL @ LOU",
+"date": "2026-11-02T22:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Louisville",
+"display": "Louisville Cardinals",
+"id": "97",
+"home": true
+},
+{
+"location": "Bellarmine",
+"display": "Bellarmine Knights",
+"id": "91",
+"home": false
+}
+]
+},
+{
+"id": "401913735",
+"name": "WOF @ NCSU",
+"date": "2026-11-02T22:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "NC State",
+"display": "NC State Wolfpack",
+"id": "152",
+"home": true
+},
+{
+"location": "Wofford",
+"display": "Wofford Terriers",
+"id": "2747",
+"home": false
+}
+]
+},
+{
+"id": "401928203",
+"name": "MNTV @ SAM",
+"date": "2026-11-02T22:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Samford",
+"display": "Samford Bulldogs",
+"id": "2535",
+"home": true
+},
+{
+"location": "Montevallo",
+"display": "Montevallo Falcons",
+"id": "2409",
+"home": false
+}
+]
+},
+{
+"id": "401927920",
+"name": "BERR @ COFC",
+"date": "2026-11-02T22:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Charleston",
+"display": "Charleston Cougars",
+"id": "232",
+"home": true
+},
+{
+"location": "Berry",
+"display": "Berry Vikings",
+"id": "2757",
+"home": false
+}
+]
+},
+{
+"id": "401927104",
+"name": "CLE @ PSU",
+"date": "2026-11-02T22:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Penn State",
+"display": "Penn State Lady Lions",
+"id": "213",
+"home": true
+},
+{
+"location": "Cleveland State",
+"display": "Cleveland State Vikings",
+"id": "325",
+"home": false
+}
+]
+},
+{
+"id": "401922322",
+"name": "APPR @ LONG",
+"date": "2026-11-02T22:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Longwood",
+"display": "Longwood Lancers",
+"id": "2344",
+"home": true
+},
+{
+"location": "Apprentice School",
+"display": "Apprentice School Builders",
+"id": "3111",
+"home": false
+}
+]
+},
+{
+"id": "401916057",
+"name": "TXSO @ TULN",
+"date": "2026-11-02T22:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Tulane",
+"display": "Tulane Green Wave",
+"id": "2655",
+"home": true
+},
+{
+"location": "Texas Southern",
+"display": "Texas Southern Tigers",
+"id": "2640",
+"home": false
+}
+]
+},
+{
+"id": "401913842",
+"name": "FUR @ USF",
+"date": "2026-11-02T22:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "South Florida",
+"display": "South Florida Bulls",
+"id": "58",
+"home": true
+},
+{
+"location": "Furman",
+"display": "Furman Paladins",
+"id": "231",
+"home": false
+}
+]
+},
+{
+"id": "401913754",
+"name": "MIT @ BRY",
+"date": "2026-11-02T22:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Bryant",
+"display": "Bryant Bulldogs",
+"id": "2803",
+"home": true
+},
+{
+"location": "MIT",
+"display": "MIT Engineers",
+"id": "109",
+"home": false
+}
+]
+},
+{
+"id": "401913664",
+"name": "UDC @ GW",
+"date": "2026-11-02T22:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "George Washington",
+"display": "George Washington Revolutionaries",
+"id": "45",
+"home": true
+},
+{
+"location": "District of Columbia",
+"display": "District of Columbia DISTRICT OF COLUMBIA",
+"id": "2177",
+"home": false
+}
+]
+},
+{
+"id": "401912977",
+"name": "WGA @ UGA",
+"date": "2026-11-02T22:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Georgia",
+"display": "Georgia Lady Bulldogs",
+"id": "61",
+"home": true
+},
+{
+"location": "West Georgia",
+"display": "West Georgia Wolves",
+"id": "2698",
+"home": false
+}
+]
+},
+{
+"id": "401906102",
+"name": "UPST @ WAKE",
+"date": "2026-11-02T22:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Wake Forest",
+"display": "Wake Forest Demon Deacons",
+"id": "154",
+"home": true
+},
+{
+"location": "South Carolina Upstate",
+"display": "South Carolina Upstate Spartans",
+"id": "2908",
+"home": false
+}
+]
+},
+{
+"id": "401919644",
+"name": "VSU @ NORF",
+"date": "2026-11-02T22:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Norfolk State",
+"display": "Norfolk State Spartans",
+"id": "2450",
+"home": true
+},
+{
+"location": "Virginia State",
+"display": "Virginia State Trojans",
+"id": "330",
+"home": false
+}
+]
+},
+{
+"id": "401913855",
+"name": "HARV @ MINN",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Minnesota",
+"display": "Minnesota Golden Gophers",
+"id": "135",
+"home": true
+},
+{
+"location": "Harvard",
+"display": "Harvard Crimson",
+"id": "108",
+"home": false
+}
+]
+},
+{
+"id": "401907046",
+"name": "SOU @ OKST",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Oklahoma State",
+"display": "Oklahoma State Cowgirls",
+"id": "197",
+"home": true
+},
+{
+"location": "Southern",
+"display": "Southern Jaguars",
+"id": "2582",
+"home": false
+}
+]
+},
+{
+"id": "401929300",
+"name": "TOCC @ TNST",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Tennessee State",
+"display": "Tennessee State Lady Tigers",
+"id": "2634",
+"home": true
+},
+{
+"location": "Toccoa Falls",
+"display": "Toccoa Falls Eagles",
+"id": "108884",
+"home": false
+}
+]
+},
+{
+"id": "401929166",
+"name": "GAST @ BUF",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Buffalo",
+"display": "Buffalo Bulls",
+"id": "2084",
+"home": true
+},
+{
+"location": "Georgia State",
+"display": "Georgia State Panthers",
+"id": "2247",
+"home": false
+}
+]
+},
+{
+"id": "401929155",
+"name": "CU @ WCU",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Western Carolina",
+"display": "Western Carolina Catamounts",
+"id": "2717",
+"home": true
+},
+{
+"location": "Carolina University",
+"display": "Carolina University Bruins",
+"id": "126756",
+"home": false
+}
+]
+},
+{
+"id": "401929141",
+"name": "USA @ AKR",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Akron",
+"display": "Akron Zips",
+"id": "2006",
+"home": true
+},
+{
+"location": "South Alabama",
+"display": "South Alabama Jaguars",
+"id": "6",
+"home": false
+}
+]
+},
+{
+"id": "401929030",
+"name": "DFC @ NKU",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Northern Kentucky",
+"display": "Northern Kentucky Norse",
+"id": "94",
+"home": true
+},
+{
+"location": "Defiance",
+"display": "Defiance Yellow Jackets",
+"id": "5793",
+"home": false
+}
+]
+},
+{
+"id": "401928576",
+"name": "WUUT @ USU",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Utah State",
+"display": "Utah State Aggies",
+"id": "328",
+"home": true
+},
+{
+"location": "Westminster (UT)",
+"display": "Westminster (UT) Griffins",
+"id": "224",
+"home": false
+}
+]
+},
+{
+"id": "401928536",
+"name": "MITC @ NHVN",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "New Haven",
+"display": "New Haven Chargers",
+"id": "2441",
+"home": true
+},
+{
+"location": "Mitchell",
+"display": "Mitchell Mariners",
+"id": "126799",
+"home": false
+}
+]
+},
+{
+"id": "401928190",
+"name": "UVAW @ UTC",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Chattanooga",
+"display": "Chattanooga Mocs",
+"id": "236",
+"home": true
+},
+{
+"location": "UVA Wise",
+"display": "UVA Wise Cavaliers",
+"id": "2842",
+"home": false
+}
+]
+},
+{
+"id": "401927989",
+"name": "OGLE @ JXST",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Jacksonville State",
+"display": "Jacksonville State Gamecocks",
+"id": "55",
+"home": true
+},
+{
+"location": "Oglethorpe",
+"display": "Oglethorpe Stormy Petrels",
+"id": "2476",
+"home": false
+}
+]
+},
+{
+"id": "401926000",
+"name": "KSC @ UVM",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Vermont",
+"display": "Vermont Catamounts",
+"id": "261",
+"home": true
+},
+{
+"location": "Keene State",
+"display": "Keene State Owls",
+"id": "313",
+"home": false
+}
+]
+},
+{
+"id": "401925993",
+"name": "BING @ MONM",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Monmouth",
+"display": "Monmouth Hawks",
+"id": "2405",
+"home": true
+},
+{
+"location": "Binghamton",
+"display": "Binghamton Bearcats",
+"id": "2066",
+"home": false
+}
+]
+},
+{
+"id": "401922843",
+"name": "ABU @ RGV",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "UT Rio Grande Valley",
+"display": "UT Rio Grande Valley Vaqueros",
+"id": "292",
+"home": true
+},
+{
+"location": "Arlington Baptist",
+"display": "Arlington Baptist Patriots",
+"id": "3166",
+"home": false
+}
+]
+},
+{
+"id": "401919491",
+"name": "STAC @ ARMY",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Army",
+"display": "Army Black Knights",
+"id": "349",
+"home": true
+},
+{
+"location": "St. Thomas Aquinas",
+"display": "St. Thomas Aquinas Spartans",
+"id": "108847",
+"home": false
+}
+]
+},
+{
+"id": "401919422",
+"name": "CHEY @ COPP",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Coppin State",
+"display": "Coppin State Eagles",
+"id": "2154",
+"home": true
+},
+{
+"location": "Cheyney (PA)",
+"display": "Cheyney (PA) Wolves",
+"id": "2129",
+"home": false
+}
+]
+},
+{
+"id": "401918901",
+"name": "HAW @ ORE",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Oregon",
+"display": "Oregon Ducks",
+"id": "2483",
+"home": true
+},
+{
+"location": "Hawai'i",
+"display": "Hawai'i Rainbow Wahine",
+"id": "62",
+"home": false
+}
+]
+},
+{
+"id": "401918655",
+"name": "MRSH @ MASS",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Massachusetts",
+"display": "Massachusetts Minutewomen",
+"id": "113",
+"home": true
+},
+{
+"location": "Marshall",
+"display": "Marshall Thundering Herd",
+"id": "276",
+"home": false
+}
+]
+},
+{
+"id": "401918528",
+"name": "APSU @ CAM",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Campbell",
+"display": "Campbell Fighting Camels",
+"id": "2097",
+"home": true
+},
+{
+"location": "Austin Peay",
+"display": "Austin Peay Governors",
+"id": "2046",
+"home": false
+}
+]
+},
+{
+"id": "401918517",
+"name": "HDX @ CARK",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Central Arkansas",
+"display": "Central Arkansas Sugar Bears",
+"id": "2110",
+"home": true
+},
+{
+"location": "Hendrix",
+"display": "Hendrix Warriors",
+"id": "418",
+"home": false
+}
+]
+},
+{
+"id": "401916098",
+"name": "MRST @ DREX",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Drexel",
+"display": "Drexel Dragons",
+"id": "2182",
+"home": true
+},
+{
+"location": "Marist",
+"display": "Marist Red Foxes",
+"id": "2368",
+"home": false
+}
+]
+},
+{
+"id": "401916035",
+"name": "STVS @ UMBC",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "UMBC",
+"display": "UMBC Retrievers",
+"id": "2378",
+"home": true
+},
+{
+"location": "Stevenson",
+"display": "Stevenson Mustangs",
+"id": "112704",
+"home": false
+}
+]
+},
+{
+"id": "401916015",
+"name": "NCCU @ VT",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Virginia Tech",
+"display": "Virginia Tech Hokies",
+"id": "259",
+"home": true
+},
+{
+"location": "North Carolina Central",
+"display": "North Carolina Central Eagles",
+"id": "2428",
+"home": false
+}
+]
+},
+{
+"id": "401916003",
+"name": "UMES @ UVA",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Virginia",
+"display": "Virginia Cavaliers",
+"id": "258",
+"home": true
+},
+{
+"location": "Maryland Eastern Shore",
+"display": "Maryland Eastern Shore Hawks",
+"id": "2379",
+"home": false
+}
+]
+},
+{
+"id": "401913784",
+"name": "RID @ NJIT",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "NJIT",
+"display": "NJIT Highlanders",
+"id": "2885",
+"home": true
+},
+{
+"location": "Rider",
+"display": "Rider Broncs",
+"id": "2520",
+"home": false
+}
+]
+},
+{
+"id": "401913772",
+"name": "NEC @ UNH",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "New Hampshire",
+"display": "New Hampshire Wildcats",
+"id": "160",
+"home": true
+},
+{
+"location": "New England College",
+"display": "New England College Pilgrims",
+"id": "2943",
+"home": false
+}
+]
+},
+{
+"id": "401913705",
+"name": "MRMK @ FSU",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Florida State",
+"display": "Florida State Seminoles",
+"id": "52",
+"home": true
+},
+{
+"location": "Merrimack",
+"display": "Merrimack Warriors",
+"id": "2771",
+"home": false
+}
+]
+},
+{
+"id": "401911720",
+"name": "NIA @ FOR",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Fordham",
+"display": "Fordham Rams",
+"id": "2230",
+"home": true
+},
+{
+"location": "Niagara",
+"display": "Niagara Purple Eagles",
+"id": "315",
+"home": false
+}
+]
+},
+{
+"id": "401909681",
+"name": "BRWN @ SIE",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Siena",
+"display": "Siena Saints",
+"id": "2561",
+"home": true
+},
+{
+"location": "Brown",
+"display": "Brown Bears",
+"id": "225",
+"home": false
+}
+]
+},
+{
+"id": "401909669",
+"name": "NBRY @ WIN",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Winthrop",
+"display": "Winthrop Eagles",
+"id": "2737",
+"home": true
+},
+{
+"location": "Newberry",
+"display": "Newberry Wolves",
+"id": "2444",
+"home": false
+}
+]
+},
+{
+"id": "401906890",
+"name": "BUCK @ FLA",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Florida",
+"display": "Florida Gators",
+"id": "57",
+"home": true
+},
+{
+"location": "Bucknell",
+"display": "Bucknell Bison",
+"id": "2083",
+"home": false
+}
+]
+},
+{
+"id": "401906031",
+"name": "HC @ BC",
+"date": "2026-11-02T23:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Boston College",
+"display": "Boston College Eagles",
+"id": "103",
+"home": true
+},
+{
+"location": "Holy Cross",
+"display": "Holy Cross Crusaders",
+"id": "107",
+"home": false
+}
+]
+},
+{
+"id": "401927955",
+"name": "MORE @ UK",
+"date": "2026-11-02T23:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Kentucky",
+"display": "Kentucky Wildcats",
+"id": "96",
+"home": true
+},
+{
+"location": "Morehead State",
+"display": "Morehead State Eagles",
+"id": "2413",
+"home": false
+}
+]
+},
+{
+"id": "401927081",
+"name": "UIC @ OSU",
+"date": "2026-11-02T23:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Ohio State",
+"display": "Ohio State Buckeyes",
+"id": "194",
+"home": true
+},
+{
+"location": "UIC",
+"display": "UIC Flames",
+"id": "82",
+"home": false
+}
+]
+},
+{
+"id": "401929135",
+"name": "HIRM @ YSU",
+"date": "2026-11-02T23:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Youngstown State",
+"display": "Youngstown State Penguins",
+"id": "2754",
+"home": true
+},
+{
+"location": "Hiram",
+"display": "Hiram Terriers",
+"id": "2274",
+"home": false
+}
+]
+},
+{
+"id": "401927484",
+"name": "TLDG @ AAMU",
+"date": "2026-11-02T23:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Alabama A&M",
+"display": "Alabama A&M Bulldogs",
+"id": "2010",
+"home": true
+},
+{
+"location": "Talladega",
+"display": "Talladega Tornadoes",
+"id": "2625",
+"home": false
+}
+]
+},
+{
+"id": "401926047",
+"name": "NWM @ UNT",
+"date": "2026-11-02T23:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "North Texas",
+"display": "North Texas Mean Green",
+"id": "249",
+"home": true
+},
+{
+"location": "Newman",
+"display": "Newman Jets",
+"id": "16191",
+"home": false
+}
+]
+},
+{
+"id": "401920084",
+"name": "LCHR @ LAM",
+"date": "2026-11-02T23:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Lamar",
+"display": "Lamar Cardinals",
+"id": "2320",
+"home": true
+},
+{
+"location": "Louisiana Christian",
+"display": "Louisiana Christian Wildcats",
+"id": "2347",
+"home": false
+}
+]
+},
+{
+"id": "401919514",
+"name": "BU @ DART",
+"date": "2026-11-02T23:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Dartmouth",
+"display": "Dartmouth Big Green",
+"id": "159",
+"home": true
+},
+{
+"location": "Boston University",
+"display": "Boston University Terriers",
+"id": "104",
+"home": false
+}
+]
+},
+{
+"id": "401918712",
+"name": "APP @ EMU",
+"date": "2026-11-02T23:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Eastern Michigan",
+"display": "Eastern Michigan Eagles",
+"id": "2199",
+"home": true
+},
+{
+"location": "App State",
+"display": "App State Mountaineers",
+"id": "2026",
+"home": false
+}
+]
+},
+{
+"id": "401918703",
+"name": "ARST @ BALL",
+"date": "2026-11-02T23:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Ball State",
+"display": "Ball State Cardinals",
+"id": "2050",
+"home": true
+},
+{
+"location": "Arkansas State",
+"display": "Arkansas State Red Wolves",
+"id": "2032",
+"home": false
+}
+]
+},
+{
+"id": "401916210",
+"name": "SJLI @ QUIN",
+"date": "2026-11-02T23:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Quinnipiac",
+"display": "Quinnipiac Bobcats",
+"id": "2514",
+"home": true
+},
+{
+"location": "St. Joseph's Long Island",
+"display": "St. Joseph's Long Island Bears",
+"id": "108885",
+"home": false
+}
+]
+},
+{
+"id": "401912952",
+"name": "DUQ @ TENN",
+"date": "2026-11-02T23:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Tennessee",
+"display": "Tennessee Lady Volunteers",
+"id": "2633",
+"home": true
+},
+{
+"location": "Duquesne",
+"display": "Duquesne Dukes",
+"id": "2184",
+"home": false
+}
+]
+},
+{
+"id": "401912964",
+"name": "SELA @ LSU",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "LSU",
+"display": "LSU Tigers",
+"id": "99",
+"home": true
+},
+{
+"location": "SE Louisiana",
+"display": "SE Louisiana Lady Lions",
+"id": "2545",
+"home": false
+}
+]
+},
+{
+"id": "401928199",
+"name": "NGU @ MER",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Mercer",
+"display": "Mercer Bears",
+"id": "2382",
+"home": true
+},
+{
+"location": "North Greenville",
+"display": "North Greenville Trailblazers",
+"id": "2822",
+"home": false
+}
+]
+},
+{
+"id": "401928002",
+"name": "LT @ TOL",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Toledo",
+"display": "Toledo Rockets",
+"id": "2649",
+"home": true
+},
+{
+"location": "Louisiana Tech",
+"display": "Louisiana Tech Lady Techsters",
+"id": "2348",
+"home": false
+}
+]
+},
+{
+"id": "401927966",
+"name": "WINU @ NCAT",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "North Carolina A&T",
+"display": "North Carolina A&T Aggies",
+"id": "2448",
+"home": true
+},
+{
+"location": "Wingate",
+"display": "Wingate Bulldogs",
+"id": "351",
+"home": false
+}
+]
+},
+{
+"id": "401927925",
+"name": "UNCP @ ELON",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Elon",
+"display": "Elon Phoenix",
+"id": "2210",
+"home": true
+},
+{
+"location": "UNC Pembroke",
+"display": "UNC Pembroke Braves",
+"id": "2882",
+"home": false
+}
+]
+},
+{
+"id": "401927491",
+"name": "TROY @ KENT",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Kent State",
+"display": "Kent State Golden Flashes",
+"id": "2309",
+"home": true
+},
+{
+"location": "Troy",
+"display": "Troy Trojans",
+"id": "2653",
+"home": false
+}
+]
+},
+{
+"id": "401927086",
+"name": "FLAG @ STET",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Stetson",
+"display": "Stetson Hatters",
+"id": "56",
+"home": true
+},
+{
+"location": "Flagler",
+"display": "Flagler Saints",
+"id": "2228",
+"home": false
+}
+]
+},
+{
+"id": "401927045",
+"name": "FIT @ UNF",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "North Florida",
+"display": "North Florida Ospreys",
+"id": "2454",
+"home": true
+},
+{
+"location": "Florida Tech",
+"display": "Florida Tech Panthers",
+"id": "53",
+"home": false
+}
+]
+},
+{
+"id": "401927035",
+"name": "PRES @ UNCG",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "UNC Greensboro",
+"display": "UNC Greensboro Spartans",
+"id": "2430",
+"home": true
+},
+{
+"location": "Presbyterian",
+"display": "Presbyterian Blue Hose",
+"id": "2506",
+"home": false
+}
+]
+},
+{
+"id": "401927006",
+"name": "REDL @ SUU",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Southern Utah",
+"display": "Southern Utah Thunderbirds",
+"id": "253",
+"home": true
+},
+{
+"location": "Redlands",
+"display": "Redlands Bulldogs",
+"id": "29",
+"home": false
+}
+]
+},
+{
+"id": "401926993",
+"name": "HAST @ UNCO",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Northern Colorado",
+"display": "Northern Colorado Bears",
+"id": "2458",
+"home": true
+},
+{
+"location": "Hastings",
+"display": "Hastings Broncos",
+"id": "536",
+"home": false
+}
+]
+},
+{
+"id": "401926040",
+"name": "LEMO @ MEM",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Memphis",
+"display": "Memphis Tigers",
+"id": "235",
+"home": true
+},
+{
+"location": "LeMoyne-Owen",
+"display": "LeMoyne-Owen Magicians",
+"id": "2917",
+"home": false
+}
+]
+},
+{
+"id": "401926015",
+"name": "NDMD @ L-MD",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Loyola Maryland",
+"display": "Loyola Maryland Greyhounds",
+"id": "2352",
+"home": true
+},
+{
+"location": "Notre Dame (MD)",
+"display": "Notre Dame (MD) Gators",
+"id": "109716",
+"home": false
+}
+]
+},
+{
+"id": "401922657",
+"name": "DLRD @ NICH",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Nicholls",
+"display": "Nicholls Colonels",
+"id": "2447",
+"home": true
+},
+{
+"location": "Dillard",
+"display": "Dillard Blue Devils",
+"id": "2176",
+"home": false
+}
+]
+},
+{
+"id": "401921451",
+"name": "IUIN @ PUR",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Purdue",
+"display": "Purdue Boilermakers",
+"id": "2509",
+"home": true
+},
+{
+"location": "IU Indianapolis",
+"display": "IU Indianapolis Jaguars",
+"id": "85",
+"home": false
+}
+]
+},
+{
+"id": "401921077",
+"name": "TEM @ GMU",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "George Mason",
+"display": "George Mason Patriots",
+"id": "2244",
+"home": true
+},
+{
+"location": "Temple",
+"display": "Temple Owls",
+"id": "218",
+"home": false
+}
+]
+},
+{
+"id": "401920402",
+"name": "JSP @ UCD",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "UC Davis",
+"display": "UC Davis Aggies",
+"id": "302",
+"home": true
+},
+{
+"location": "Jessup",
+"display": "Jessup Warriors",
+"id": "3078",
+"home": false
+}
+]
+},
+{
+"id": "401920334",
+"name": "LMCR @ HPU",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "High Point",
+"display": "High Point Panthers",
+"id": "2272",
+"home": true
+},
+{
+"location": "Lees McRae",
+"display": "Lees McRae Bobcats",
+"id": "2327",
+"home": false
+}
+]
+},
+{
+"id": "401919960",
+"name": "NYCL @ WAG",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Wagner",
+"display": "Wagner Seahawks",
+"id": "2681",
+"home": true
+},
+{
+"location": "SUNY Cortland",
+"display": "SUNY Cortland Red Dragons",
+"id": "2156",
+"home": false
+}
+]
+},
+{
+"id": "401919708",
+"name": "MUR @ USI",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Southern Indiana",
+"display": "Southern Indiana Screaming Eagles",
+"id": "88",
+"home": true
+},
+{
+"location": "Murray State",
+"display": "Murray State Racers",
+"id": "93",
+"home": false
+}
+]
+},
+{
+"id": "401919698",
+"name": "INST @ NIU",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Northern Illinois",
+"display": "Northern Illinois Huskies",
+"id": "2459",
+"home": true
+},
+{
+"location": "Indiana State",
+"display": "Indiana State Sycamores",
+"id": "282",
+"home": false
+}
+]
+},
+{
+"id": "401919066",
+"name": "DSU @ GTWN",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Georgetown",
+"display": "Georgetown Hoyas",
+"id": "46",
+"home": true
+},
+{
+"location": "Delaware State",
+"display": "Delaware State Hornets",
+"id": "2169",
+"home": false
+}
+]
+},
+{
+"id": "401918722",
+"name": "STMN @ UNI",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Northern Iowa",
+"display": "Northern Iowa Panthers",
+"id": "2460",
+"home": true
+},
+{
+"location": "St. Thomas",
+"display": "St. Thomas Tommies",
+"id": "2900",
+"home": false
+}
+]
+},
+{
+"id": "401918682",
+"name": "GASO @ BGSU",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Bowling Green",
+"display": "Bowling Green Falcons",
+"id": "189",
+"home": true
+},
+{
+"location": "Georgia Southern",
+"display": "Georgia Southern Eagles",
+"id": "290",
+"home": false
+}
+]
+},
+{
+"id": "401918675",
+"name": "JMU @ M-OH",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Miami (OH)",
+"display": "Miami (OH) RedHawks",
+"id": "193",
+"home": true
+},
+{
+"location": "James Madison",
+"display": "James Madison Dukes",
+"id": "256",
+"home": false
+}
+]
+},
+{
+"id": "401918646",
+"name": "ULM @ OHIO",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Ohio",
+"display": "Ohio Bobcats",
+"id": "195",
+"home": true
+},
+{
+"location": "UL Monroe",
+"display": "UL Monroe Warhawks",
+"id": "2433",
+"home": false
+}
+]
+},
+{
+"id": "401918608",
+"name": "ALST @ AUB",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Auburn",
+"display": "Auburn Tigers",
+"id": "2",
+"home": true
+},
+{
+"location": "Alabama State",
+"display": "Alabama State Lady Hornets",
+"id": "2011",
+"home": false
+}
+]
+},
+{
+"id": "401918581",
+"name": "FMU @ BCU",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Bethune-Cookman",
+"display": "Bethune-Cookman Wildcats",
+"id": "2065",
+"home": true
+},
+{
+"location": "Florida Memorial",
+"display": "Florida Memorial FLORIDA MEMORIAL",
+"id": "2227",
+"home": false
+}
+]
+},
+{
+"id": "401918539",
+"name": "HWPU @ ACU",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Abilene Christian",
+"display": "Abilene Christian Wildcats",
+"id": "2000",
+"home": true
+},
+{
+"location": "Howard Payne",
+"display": "Howard Payne Yellow Jackets",
+"id": "2758",
+"home": false
+}
+]
+},
+{
+"id": "401918462",
+"name": "FDU @ BAY",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Baylor",
+"display": "Baylor Bears",
+"id": "239",
+"home": true
+},
+{
+"location": "Fairleigh Dickinson",
+"display": "Fairleigh Dickinson Knights",
+"id": "161",
+"home": false
+}
+]
+},
+{
+"id": "401918446",
+"name": "EKU @ UTM",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "UT Martin",
+"display": "UT Martin Skyhawks",
+"id": "2630",
+"home": true
+},
+{
+"location": "Eastern Kentucky",
+"display": "Eastern Kentucky Colonels",
+"id": "2198",
+"home": false
+}
+]
+},
+{
+"id": "401916162",
+"name": "NAVY @ MSM",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Mount St. Mary's",
+"display": "Mount St. Mary's Mountaineers",
+"id": "116",
+"home": true
+},
+{
+"location": "Navy",
+"display": "Navy Midshipmen",
+"id": "2426",
+"home": false
+}
+]
+},
+{
+"id": "401916080",
+"name": "JKST @ ASU",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Arizona State",
+"display": "Arizona State Sun Devils",
+"id": "9",
+"home": true
+},
+{
+"location": "Jackson State",
+"display": "Jackson State Lady Tigers",
+"id": "2296",
+"home": false
+}
+]
+},
+{
+"id": "401915691",
+"name": "PACE @ MAN",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Manhattan",
+"display": "Manhattan Jaspers",
+"id": "2363",
+"home": true
+},
+{
+"location": "Pace",
+"display": "Pace Setters",
+"id": "2487",
+"home": false
+}
+]
+},
+{
+"id": "401913797",
+"name": "UALB @ NE",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Northeastern",
+"display": "Northeastern Huskies",
+"id": "111",
+"home": true
+},
+{
+"location": "UAlbany",
+"display": "UAlbany Great Danes",
+"id": "399",
+"home": false
+}
+]
+},
+{
+"id": "401913723",
+"name": "FAU @ MIA",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Miami",
+"display": "Miami Hurricanes",
+"id": "2390",
+"home": true
+},
+{
+"location": "Florida Atlantic",
+"display": "Florida Atlantic Owls",
+"id": "2226",
+"home": false
+}
+]
+},
+{
+"id": "401913675",
+"name": "RICH @ CLT",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Charlotte",
+"display": "Charlotte 49ers",
+"id": "2429",
+"home": true
+},
+{
+"location": "Richmond",
+"display": "Richmond Spiders",
+"id": "257",
+"home": false
+}
+]
+},
+{
+"id": "401913015",
+"name": "XAV @ PFW",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Purdue Fort Wayne",
+"display": "Purdue Fort Wayne Mastodons",
+"id": "2870",
+"home": true
+},
+{
+"location": "Xavier",
+"display": "Xavier Musketeers",
+"id": "2752",
+"home": false
+}
+]
+},
+{
+"id": "401913003",
+"name": "LIU @ RUTG",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Rutgers",
+"display": "Rutgers Scarlet Knights",
+"id": "164",
+"home": true
+},
+{
+"location": "Long Island University",
+"display": "Long Island University Sharks",
+"id": "112358",
+"home": false
+}
+]
+},
+{
+"id": "401912988",
+"name": "QUC @ ALA",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Alabama",
+"display": "Alabama Crimson Tide",
+"id": "333",
+"home": true
+},
+{
+"location": "Queens University",
+"display": "Queens University Royals",
+"id": "2511",
+"home": false
+}
+]
+},
+{
+"id": "401912504",
+"name": "FSTU @ LIB",
+"date": "2026-11-03T00:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Liberty",
+"display": "Liberty Flames",
+"id": "2335",
+"home": true
+},
+{
+"location": "Frostburg State",
+"display": "Frostburg State Bobcats",
+"id": "112702",
+"home": false
+}
+]
+},
+{
+"id": "401929044",
+"name": "HOW @ MIZ",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Missouri",
+"display": "Missouri Tigers",
+"id": "142",
+"home": true
+},
+{
+"location": "Howard",
+"display": "Howard Bison",
+"id": "47",
+"home": false
+}
+]
+},
+{
+"id": "401928025",
+"name": "MCM @ SHSU",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Sam Houston",
+"display": "Sam Houston Bearkats",
+"id": "2534",
+"home": true
+},
+{
+"location": "McMurry",
+"display": "McMurry War Hawks",
+"id": "241",
+"home": false
+}
+]
+},
+{
+"id": "401928020",
+"name": "SEMO @ MOST",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Missouri State",
+"display": "Missouri State Lady Bears",
+"id": "2623",
+"home": true
+},
+{
+"location": "Southeast Missouri State",
+"display": "Southeast Missouri State Redhawks",
+"id": "2546",
+"home": false
+}
+]
+},
+{
+"id": "401927946",
+"name": "LIN @ CSU",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Colorado State",
+"display": "Colorado State Rams",
+"id": "36",
+"home": true
+},
+{
+"location": "Lindenwood",
+"display": "Lindenwood Lions",
+"id": "2815",
+"home": false
+}
+]
+},
+{
+"id": "401922828",
+"name": "ECCL @ NWST",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Northwestern State",
+"display": "Northwestern State Lady Demons",
+"id": "2466",
+"home": true
+},
+{
+"location": "Ecclesia",
+"display": "Ecclesia Royals",
+"id": "3120",
+"home": false
+}
+]
+},
+{
+"id": "401921232",
+"name": "SLU @ MTSU",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Middle Tennessee",
+"display": "Middle Tennessee Blue Raiders",
+"id": "2393",
+"home": true
+},
+{
+"location": "Saint Louis",
+"display": "Saint Louis Billikens",
+"id": "139",
+"home": false
+}
+]
+},
+{
+"id": "401920209",
+"name": "NOLA @ ARK",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Arkansas",
+"display": "Arkansas Razorbacks",
+"id": "8",
+"home": true
+},
+{
+"location": "LSU New Orleans",
+"display": "LSU New Orleans Privateers",
+"id": "2443",
+"home": false
+}
+]
+},
+{
+"id": "401919689",
+"name": "CHST @ ILST",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Illinois State",
+"display": "Illinois State Redbirds",
+"id": "2287",
+"home": true
+},
+{
+"location": "Chicago State",
+"display": "Chicago State Cougars",
+"id": "2130",
+"home": false
+}
+]
+},
+{
+"id": "401917926",
+"name": "GRAM @ ISU",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Iowa State",
+"display": "Iowa State Cyclones",
+"id": "66",
+"home": true
+},
+{
+"location": "Grambling",
+"display": "Grambling Lady Tigers",
+"id": "2755",
+"home": false
+}
+]
+},
+{
+"id": "401915322",
+"name": "BEL @ PRIN",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Princeton",
+"display": "Princeton Tigers",
+"id": "163",
+"home": true
+},
+{
+"location": "Belmont",
+"display": "Belmont Bruins",
+"id": "2057",
+"home": false
+}
+]
+},
+{
+"id": "401906979",
+"name": "WICH @ KSU",
+"date": "2026-11-03T00:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Kansas State",
+"display": "Kansas State Wildcats",
+"id": "2306",
+"home": true
+},
+{
+"location": "Wichita State",
+"display": "Wichita State Shockers",
+"id": "2724",
+"home": false
+}
+]
+},
+{
+"id": "401921404",
+"name": "TOW @ IOWA",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Iowa",
+"display": "Iowa Hawkeyes",
+"id": "2294",
+"home": true
+},
+{
+"location": "Towson",
+"display": "Towson Tigers",
+"id": "119",
+"home": false
+}
+]
+},
+{
+"id": "401927465",
+"name": "CNTB @ LR",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Little Rock",
+"display": "Little Rock Trojans",
+"id": "2031",
+"home": true
+},
+{
+"location": "Central Baptist",
+"display": "Central Baptist Mustangs",
+"id": "3079",
+"home": false
+}
+]
+},
+{
+"id": "401923484",
+"name": "UAPB @ TA&M",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Texas A&M",
+"display": "Texas A&M Aggies",
+"id": "245",
+"home": true
+},
+{
+"location": "Arkansas-Pine Bluff",
+"display": "Arkansas-Pine Bluff Golden Lions",
+"id": "2029",
+"home": false
+}
+]
+},
+{
+"id": "401921462",
+"name": "UCME @ CP",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Cal Poly",
+"display": "Cal Poly Mustangs",
+"id": "13",
+"home": true
+},
+{
+"location": "UC Merced",
+"display": "UC Merced Bobcats",
+"id": "3185",
+"home": false
+}
+]
+},
+{
+"id": "401918805",
+"name": "MNCR @ UND",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "North Dakota",
+"display": "North Dakota Fighting Hawks",
+"id": "155",
+"home": true
+},
+{
+"location": "Crookston (MN)",
+"display": "Crookston (MN) Golden Eagles",
+"id": "2772",
+"home": false
+}
+]
+},
+{
+"id": "401917680",
+"name": "USD @ NMSU",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "New Mexico State",
+"display": "New Mexico State Aggies",
+"id": "166",
+"home": true
+},
+{
+"location": "San Diego",
+"display": "San Diego Toreros",
+"id": "301",
+"home": false
+}
+]
+},
+{
+"id": "401911790",
+"name": "CREI @ SDST",
+"date": "2026-11-03T01:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "South Dakota State",
+"display": "South Dakota State Jackrabbits",
+"id": "2571",
+"home": true
+},
+{
+"location": "Creighton",
+"display": "Creighton Bluejays",
+"id": "156",
+"home": false
+}
+]
+},
+{
+"id": "401920024",
+"name": "DEN @ AF",
+"date": "2026-11-03T01:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Air Force",
+"display": "Air Force Falcons",
+"id": "2005",
+"home": true
+},
+{
+"location": "Denver",
+"display": "Denver Pioneers",
+"id": "2172",
+"home": false
+}
+]
+},
+{
+"id": "401918737",
+"name": "YUNE @ SDAK",
+"date": "2026-11-03T01:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "South Dakota",
+"display": "South Dakota Coyotes",
+"id": "233",
+"home": true
+},
+{
+"location": "York (NE)",
+"display": "York (NE) YORK (NE)",
+"id": "2789",
+"home": false
+}
+]
+},
+{
+"id": "401917681",
+"name": "SCU @ WYO",
+"date": "2026-11-03T01:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Wyoming",
+"display": "Wyoming Cowgirls",
+"id": "2751",
+"home": true
+},
+{
+"location": "Santa Clara",
+"display": "Santa Clara Broncos",
+"id": "2541",
+"home": false
+}
+]
+},
+{
+"id": "401928088",
+"name": "WNMU @ UTEP",
+"date": "2026-11-03T02:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "UTEP",
+"display": "UTEP Miners",
+"id": "2638",
+"home": true
+},
+{
+"location": "Western New Mexico",
+"display": "Western New Mexico Mustangs",
+"id": "2703",
+"home": false
+}
+]
+},
+{
+"id": "401921519",
+"name": "CSUF @ SDSU",
+"date": "2026-11-03T02:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "San Diego State",
+"display": "San Diego State Aztecs",
+"id": "21",
+"home": true
+},
+{
+"location": "Cal State Fullerton",
+"display": "Cal State Fullerton Titans",
+"id": "2239",
+"home": false
+}
+]
+},
+{
+"id": "401918794",
+"name": "NDSU @ GONZ",
+"date": "2026-11-03T02:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Gonzaga",
+"display": "Gonzaga Bulldogs",
+"id": "2250",
+"home": true
+},
+{
+"location": "North Dakota State",
+"display": "North Dakota State Bison",
+"id": "2449",
+"home": false
+}
+]
+},
+{
+"id": "401917679",
+"name": "SUCA @ PAC",
+"date": "2026-11-03T02:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Pacific",
+"display": "Pacific Tigers",
+"id": "279",
+"home": true
+},
+{
+"location": "Simpson (CA)",
+"display": "Simpson (CA) Red Hawks",
+"id": "109604",
+"home": false
+}
+]
+},
+{
+"id": "401913830",
+"name": "HCU @ RICE",
+"date": "2026-11-03T02:30Z",
+"state": "pre",
+"teams": [
+{
+"location": "Rice",
+"display": "Rice Owls",
+"id": "242",
+"home": true
+},
+{
+"location": "Houston Christian",
+"display": "Houston Christian Huskies",
+"id": "2277",
+"home": false
+}
+]
+},
+{
+"id": "401923187",
+"name": "PEPP @ PRST",
+"date": "2026-11-03T03:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Portland State",
+"display": "Portland State Vikings",
+"id": "2502",
+"home": true
+},
+{
+"location": "Pepperdine",
+"display": "Pepperdine Waves",
+"id": "2492",
+"home": false
+}
+]
+},
+{
+"id": "401917683",
+"name": "WLMT @ PORT",
+"date": "2026-11-03T03:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Portland",
+"display": "Portland Pilots",
+"id": "2501",
+"home": true
+},
+{
+"location": "Willamette",
+"display": "Willamette Bearcats",
+"id": "2930",
+"home": false
+}
+]
+},
+{
+"id": "401917682",
+"name": "NEV @ LMU",
+"date": "2026-11-03T03:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "Loyola Marymount",
+"display": "Loyola Marymount Lions",
+"id": "2351",
+"home": true
+},
+{
+"location": "Nevada",
+"display": "Nevada Wolf Pack",
+"id": "2440",
+"home": false
+}
+]
+},
+{
+"id": "401903553",
+"name": "WSU @ CAL",
+"date": "2026-11-03T03:00Z",
+"state": "pre",
+"teams": [
+{
+"location": "California",
+"display": "California Golden Bears",
+"id": "25",
+"home": true
+},
+{
+"location": "Washington State",
+"display": "Washington State Cougars",
+"id": "265",
+"home": false
+}
+]
+}
+],
+"mhk|20261102": [],
+"whk|20261102": [],
+"wvb|20261102": [],
+"bsb|20261102": [],
+"sb|20261102": []
+}
