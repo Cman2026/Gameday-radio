@@ -597,7 +597,9 @@ const dirIndex = new Map();
 // Game-time checks (radio-live.json): what each stream was playing during recent games.
 let liveInfo = {};
 const RECENT_MS = 3*3600e3;
-function liveVerdict(u){ const x = liveInfo[u]; return x && (Date.now() - Date.parse(x.at) < RECENT_MS) ? x : null; }
+// Check results are per sport: football under the stream URL, other sports under "sport|url".
+const vKey = u => isFB() ? u : SPORT.id + "|" + u;
+function liveVerdict(u){ const x = liveInfo[vKey(u)]; return x && (Date.now() - Date.parse(x.at) < RECENT_MS) ? x : null; }
 const vRank = u => heard(u)==='game' ? 0 : heard(u)==='not_game' ? 2.5 : (({game:0, ad:0, unknown:1, music:2, blocked:3})[liveVerdict(u)?.verdict] ?? 1);
 // What the listening check actually heard on each stream (speech-to-text): game / not_game / quiet.
 let heardInfo = {};
@@ -605,7 +607,7 @@ async function loadLive(){
   try{ const d = await getJSON("radio-live.json?t=" + Math.floor(Date.now()/300000)); liveInfo = d.streams || {}; }catch(e){}
   try{ const d = await getJSON("radio-heard.json?t=" + Math.floor(Date.now()/300000)); heardInfo = d.streams || {}; }catch(e){}
 }
-function heard(u){ const x = heardInfo[u]; return x && (Date.now() - Date.parse(x.heard_at) < RECENT_MS) ? x.heard : null; }
+function heard(u){ const x = heardInfo[vKey(u)]; return x && (Date.now() - Date.parse(x.heard_at) < RECENT_MS) ? x.heard : null; }
 // Moneylines from the major sportsbooks (saved by a background job a few times on game days).
 let ODDS = [];
 const nick = n => oddsKey(String(n||"").split(/\s+/).pop());
@@ -664,11 +666,10 @@ function orderStreams(school, streams, feeds){
     [...variants, u].forEach(v => { if(!all.some(x=>x.u===v)) all.push({u: v, i}); });
   });
   const hard = u => (res[u]?.ok === false && !isFeed(u)) ? 3 : (SECURE_PAGE && u.startsWith("http:")) ? 4 : 0;
-  // The game-time listening checks listen for football, so their "not the game" verdicts only count for football.
-  const fb = isFB();
+  // Game-time checks (per sport): streams heard carrying something else, or blocked, are left out.
   const playable = all
-    .filter(x => !(SECURE_PAGE && x.u.startsWith("http:")) && liveVerdict(x.u)?.verdict !== "blocked" && heard(x.u) !== "blocked" && !(fb && heard(x.u)==="not_game"))
-    .sort((a,b) => hard(a.u)-hard(b.u) || (fb ? vRank(a.u)-vRank(b.u) : 0) || a.i-b.i)
+    .filter(x => !(SECURE_PAGE && x.u.startsWith("http:")) && liveVerdict(x.u)?.verdict !== "blocked" && !["blocked","not_game"].includes(heard(x.u)))
+    .sort((a,b) => hard(a.u)-hard(b.u) || vRank(a.u)-vRank(b.u) || a.i-b.i)
     .map(x => x.u);
   const external = pb.external || streams.find(u=>u.startsWith("http:")) || null;
   return {playable, external};
@@ -677,25 +678,26 @@ function attachRadio(tm){
   if(!tm || RADIO[tm.location] || !dirIndex.size) return;
   const tries = [tm.location, tm.displayName, `${tm.location} ${tm.name||""}`, tm.shortDisplayName, tm.abbreviation];
   let hit = null; for(const n of tries){ hit = dirIndex.get(normName(n)); if(hit) break; }
-  // School game feeds in the directory are football broadcasts; other sports use the school's regular stations.
-  const streams = isFB() ? (hit?.streams||[]) : (hit?.streams||[]).filter(u=>!(hit.game_feeds||[]).includes(u));
+  // School game feeds are found per sport at game time; only use them for the sport they were found for.
+  const feedsMine = (hit?.game_feeds_sport || "fb") === SPORT.id;
+  const streams = feedsMine ? (hit?.streams||[]) : (hit?.streams||[]).filter(u=>!(hit.game_feeds||[]).includes(u));
   if(!hit || !streams.length){ if(hit) RADIO_INFO[tm.location] = hit; return; }
-  const {playable, external} = orderStreams(hit.school, streams, isFB() ? hit.game_feeds : []);
+  const {playable, external} = orderStreams(hit.school, streams, feedsMine ? hit.game_feeds : []);
   RADIO[tm.location] = {net: hit.network || `${tm.location} radio`, station: hit.flagship || "", streams: playable, external, listen: hit.listen_page || ""};
 }
 const RADIO_INFO = {}; // teams we know about but have no free stream for
-// School-run feeds that only exist around game time (picked up ~20 minutes before kickoff).
-function gameTimeOnly(loc){ const i = RADIO_INFO[loc]; return !!(isFB() && i && i.game_only && !(i.streams||[]).length); }
+// School-run feeds that only exist around game time (picked up ~20 minutes before the game starts).
+function gameTimeOnly(loc){ const i = RADIO_INFO[loc]; return !!(i && i.game_only && !(i.streams||[]).filter(u=>!(i.game_feeds||[]).includes(u)).length); }
 function soonNote(e){
   const ts = e.competitions[0].competitors.map(c=>c.team);
   const has = t => !!(RADIO[t.location]?.streams?.length || RADIO[t.location]?.external || store.get("stream:"+t.location));
   if(ts.some(has)) {
     // one side has radio; still mention a school feed that's on its way
     const soon = ts.filter(t=>!has(t) && gameTimeOnly(t.location) && !feedLate(e));
-    return soon.length ? note(`${soon.map(t=>esc(nameOf(t))).join(" and ")} radio ${e.status.type.state==="in" ? "comes from the school's own feed and should appear within a few minutes" : "goes live about 20 minutes before kickoff"}.`) : "";
+    return soon.length ? note(`${soon.map(t=>esc(nameOf(t))).join(" and ")} radio ${e.status.type.state==="in" ? "comes from the school's own feed and should appear within a few minutes" : `goes live about 20 minutes before ${SPORT.start}`}.`) : "";
   }
   const soon = ts.filter(t=>gameTimeOnly(t.location) && !feedLate(e));
-  if(soon.length) return note(`${soon.map(t=>esc(nameOf(t))).join(" and ")} radio ${e.status.type.state==="in" ? "comes from the school's own feed and should appear within a few minutes" : "goes live about 20 minutes before kickoff"}.`);
+  if(soon.length) return note(`${soon.map(t=>esc(nameOf(t))).join(" and ")} radio ${e.status.type.state==="in" ? "comes from the school's own feed and should appear within a few minutes" : `goes live about 20 minutes before ${SPORT.start}`}.`);
   return note("Radio unavailable for this game. Neither school has a free broadcast we can play.", "off");
 }
 // School feeds that still haven't shown up 25 minutes after kickoff probably aren't coming.
@@ -918,7 +920,7 @@ function ear(loc, label){
   const has = (RADIO[loc]?.streams?.length) || RADIO[loc]?.external || store.get("stream:"+loc);
   const icon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="5" height="7" rx="2"/><rect x="16" y="14" width="5" height="7" rx="2"/></svg><span class="bars" aria-hidden="true"><i></i><i></i><i></i></span>`;
   const text = label ? `<span>${esc(label)}</span>` : "";
-  if(!has && gameTimeOnly(loc) && !lateFor(loc)) return `<button class="ear soon" data-off="${esc(loc)}" aria-disabled="true" title="${esc(loc)} radio goes live about 20 minutes before kickoff" aria-label="${esc(loc)} radio available about 20 minutes before kickoff">${icon}${text}</button>`;
+  if(!has && gameTimeOnly(loc) && !lateFor(loc)) return `<button class="ear soon" data-off="${esc(loc)}" aria-disabled="true" title="${esc(loc)} radio goes live about 20 minutes before ${SPORT.start}" aria-label="${esc(loc)} radio available about 20 minutes before ${SPORT.start}">${icon}${text}</button>`;
   if(!has) return `<button class="ear off" data-off="${esc(loc)}" aria-disabled="true" title="${esc(loc)} radio unavailable" aria-label="${esc(loc)} radio unavailable">${icon}${text}</button>`;
   const on = currentTeam===loc && !audio.paused, wait = connecting===loc;
   return `<button class="ear ${on?"on":""} ${wait?"wait":""}" data-team="${esc(loc)}" title="${on?"Pause":"Listen to"} ${esc(loc)} radio" aria-label="${on?"Pause":"Listen to"} ${esc(loc)} radio">${icon}${text}</button>`;
@@ -953,7 +955,7 @@ document.addEventListener("click", ev=>{
   const b = ev.target.closest(".ear[data-off]"); if(!b) return;
   ev.stopPropagation();
   const loc = b.dataset.off, i = RADIO_INFO[loc] || {};
-  toast(gameTimeOnly(loc) && !lateFor(loc) ? `${loc} radio goes live about 20 minutes before kickoff.` : `${loc} radio unavailable${i.notes ? ` · ${i.notes}` : ""}`);
+  toast(gameTimeOnly(loc) && !lateFor(loc) ? `${loc} radio goes live about 20 minutes before ${SPORT.start}.` : `${loc} radio unavailable${i.notes ? ` · ${i.notes}` : ""}`);
 }, true);
 document.addEventListener("click", ev=>{
   const b = ev.target.closest(".ear[data-team]"); if(!b) return;

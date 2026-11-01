@@ -37,12 +37,13 @@ def feeds_fresh(team, now=None):
     return (now - t).total_seconds() < FEED_TTL_H * 3600
 
 
-def set_feeds(team, feeds, stamp):
-    """Make `feeds` today's game feeds for the team: first in line, replacing yesterday's."""
+def set_feeds(team, feeds, stamp, sport="fb"):
+    """Make `feeds` today's game feeds for the team (for `sport`): first in line, replacing earlier ones."""
     old = set(team.get("game_feeds") or [])
     rest = [u for u in (team.get("streams") or []) if u not in old and u not in feeds]
     team["game_feeds"] = list(dict.fromkeys(feeds))
     team["game_feeds_at"] = stamp
+    team["game_feeds_sport"] = sport
     team["streams"] = list(dict.fromkeys(list(feeds) + rest))[:6]
     team["live_only"] = True
 
@@ -53,7 +54,7 @@ def clean(team, sources):
     if not feeds_fresh(team):
         old = set(team.get("game_feeds") or [])
         team["streams"] = [u for u in (team.get("streams") or []) if u not in old]
-        team.pop("game_feeds", None); team.pop("game_feeds_at", None)
+        team.pop("game_feeds", None); team.pop("game_feeds_at", None); team.pop("game_feeds_sport", None)
         if team.get("live_only") and not team["streams"]:
             team["live_only"] = False
     team["streams"] = [u for u in (team.get("streams") or []) if not is_bad(school, u, sources)]
@@ -75,7 +76,7 @@ def merge_into(current, new, sources, feeds_only=False):
                 current["teams"].append(n)
             continue
         if feeds_fresh(n) and (not feeds_fresh(t) or n.get("game_feeds_at", "") >= t.get("game_feeds_at", "")):
-            set_feeds(t, n["game_feeds"], n["game_feeds_at"])
+            set_feeds(t, n["game_feeds"], n["game_feeds_at"], n.get("game_feeds_sport") or "fb")
         if not feeds_only:
             feeds = t.get("game_feeds") if feeds_fresh(t) else []
             station = [u for u in (n.get("streams") or []) if u not in (n.get("game_feeds") or [])]

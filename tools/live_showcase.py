@@ -1,13 +1,13 @@
-"""For live games where a team has no radio stream on file, open the school's
+"""For live games (every sport the site covers) where a team has no radio stream on file, open the school's
 athletics site live-audio page in a headless browser, capture the game audio
 stream, and add it to radio.json. Many schools only stream games on their own
 site, and those streams exist only while the game is on.
 """
 import datetime, json, re, subprocess, sys, time, urllib.request
-from radio_common import is_bad, set_feeds, clean
+from radio_common import is_bad, set_feeds, clean, feeds_fresh
+import sports as SP
 
 UA = {"User-Agent": "Mozilla/5.0 (GamedayRadio live audio finder)"}
-SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?groups={}&limit=400"
 STREAM = re.compile(r"\.(mp3|aac|m3u8)(\?|$)|streamtheworld|amperwave\.net/(manifest|direct|playlist)|ice\d*\.securenetsystems\.net/|"
                     r"ihrhls|streamguys1?\.com|caster\.fm|cdnstream1|streamon\.fm|radio\.co|zeno\.fm|mixlr|lightningstream|liveradio|"
                     r"stretchinternet|surfernetwork|jwplayer\.com/live|leanstream|leanplayer\.com/.*(stream|live)|streamon|cloudfront\.net/.*\.(m3u8|aac|mp3)", re.I)
@@ -28,28 +28,26 @@ def norm(x):
 
 
 def live_teams():
+    """Teams in live games, or games starting within 3 hours (pregame shows start early), any sport."""
     out = []
-    for g in (80, 81):
-        try:
-            with urllib.request.urlopen(urllib.request.Request(SCOREBOARD.format(g), headers=UA), timeout=20) as r:
-                for e in json.loads(r.read()).get("events", []):
-                    st = e.get("status", {}).get("type", {}).get("state")
-                    soon, mins = False, 0
-                    if st == "pre":  # pregame shows start before kickoff
-                        try:
-                            ko = datetime.datetime.fromisoformat(e["date"].replace("Z", "+00:00"))
-                            mins = (ko - datetime.datetime.now(datetime.timezone.utc)).total_seconds() / 60
-                            soon = mins < 180
-                        except Exception:
-                            pass
-                    if st == "in" or soon:
-                        out += [dict(c["team"], _mins=mins) for c in e["competitions"][0]["competitors"]]
-        except Exception as ex:
-            print("scoreboard error", g, ex)
-    return out
+    for sid, e in SP.scoreboards():
+        st = e.get("status", {}).get("type", {}).get("state")
+        soon, mins = False, 0
+        if st == "pre":
+            try:
+                ko = datetime.datetime.fromisoformat(e["date"].replace("Z", "+00:00"))
+                mins = (ko - datetime.datetime.now(datetime.timezone.utc)).total_seconds() / 60
+                soon = mins < 180
+            except Exception:
+                pass
+        if st == "in" or soon:
+            out += [dict(c["team"], _mins=mins, _sport=sid) for c in e["competitions"][0]["competitors"]]
+    # Football first (it's the busiest and was here first), then the rest; soonest games first.
+    order = list(SP.SPORTS)
+    return sorted(out, key=lambda t: (order.index(t["_sport"]), t["_mins"]))
 
 
-def sidearm_audio(site):
+def sidearm_audio(site, sport="fb"):
     """SIDEARM athletics sites list their live events in a JSON feed; free audio events
     carry the stream URL directly (often a Leanstream or StreamGuys mount)."""
     out = []
@@ -63,7 +61,11 @@ def sidearm_audio(site):
         print("allaccess error", site, str(ex)[:80]); return out
     now = datetime.datetime.now(datetime.timezone.utc)
     for ev in data if isinstance(data, list) else []:
-        if (ev.get("sport_shortname") or "").lower() != "football" or (ev.get("format") or "").lower() != "audio":
+        short = (ev.get("sport_shortname") or "").strip().replace(" ", "")
+        if (ev.get("format") or "").lower() != "audio":
+            continue
+        if not SP.SIDEARM[sport].match(short):
+            if short: SEEN_SHORT.add(short)
             continue
         if ev.get("premium") or ev.get("app_exclusive") or ev.get("free") is False:
             continue
@@ -78,7 +80,10 @@ def sidearm_audio(site):
     return list(dict.fromkeys(out))
 
 
-def leanplayer_audio(page_url):
+SEEN_SHORT = set()
+
+
+def leanplayer_audio(page_url, sport="fb"):
     """LEANplayer pages (school audio players) list today's events in a signed XML file."""
     try:
         html = urllib.request.urlopen(urllib.request.Request(page_url, headers=UA), timeout=15).read().decode("utf-8", "ignore")
@@ -91,15 +96,16 @@ def leanplayer_audio(page_url):
         xml = urllib.request.urlopen(urllib.request.Request(xu, headers=UA), timeout=15).read().decode("utf-8", "ignore")
         print("leanplayer xml", page_url, xml[:600].replace("\n", " "))
         urls = re.findall(r"""https?://[^"'\s<>\]]+""", xml)
-        urls = [u for u in dict.fromkeys(urls) if re.search(r"leanstream|\.m3u8|\.mp3|\.aac|/live", u, re.I) and not NOT_LIVE.search(u)
-                and not re.search(r"sport=(MBB|WBB|VB|SOC|MSOC|WSOC|BSB|SB|HOC|MHOC|WHOC|LAX|MLAX|WLAX)\b", u, re.I)]  # football only
-        fb = [u for u in urls if re.search(r"sport=FB\b", u, re.I)]
-        return (fb or urls)[:3]
+        urls = [u for u in dict.fromkeys(urls) if re.search(r"leanstream|\.m3u8|\.mp3|\.aac|/live", u, re.I) and not NOT_LIVE.search(u)]
+        # Streams tagged for this sport; untagged ones only if nothing is tagged at all.
+        mine = [u for u in urls if re.search(rf"sport=({SP.LEAN[sport]})\b", u, re.I)]
+        tagged = [u for u in urls if re.search(r"sport=\w+", u, re.I)]
+        return (mine or ([] if tagged else urls))[:3]
     except Exception as ex:
         print("leanplayer error", page_url, str(ex)[:100]); return []
 
 
-def sniff(urls):
+def sniff(urls, labels=None):
     subprocess.run([sys.executable, "-m", "pip", "install", "-q", "playwright"], check=True)
     subprocess.run([sys.executable, "-m", "playwright", "install", "--with-deps", "chromium"], check=True, stdout=subprocess.DEVNULL)
     from playwright.sync_api import sync_playwright
@@ -115,7 +121,8 @@ def sniff(urls):
                 page.goto(url, wait_until="domcontentloaded", timeout=30000)
                 page.wait_for_timeout(5000)
                 # SIDEARM showcase pages list live events; open audio/football ones.
-                for sel in ["a:has-text('Football'):has-text('Audio')", "a[href*='type=Live']", "a:has-text('Listen')",
+                lab = (labels or {}).get(url, "Football")
+                for sel in [f"a:has-text('{lab}'):has-text('Audio')", "a[href*='type=Live']", "a:has-text('Listen')",
                             "[aria-label*='play' i]", "button:has-text('Play')"]:
                     try:
                         el = page.locator(sel).first
@@ -143,23 +150,29 @@ def main():
     for t in radio["teams"]:
         for n in [t.get("school")] + (t.get("names") or []):
             if n: index.setdefault(norm(n), t)
-    targets, feed_changed = {}, []
+    targets, feed_changed, done = {}, [], set()
+    sport_of = {}  # school -> the sport we're finding audio for this run
     for tm in live_teams():
-        t = next((index[norm(n)] for n in (tm.get("location"), tm.get("displayName"), tm.get("shortDisplayName")) if norm(n) in index), None)
-        if not t:
+        t = SP.find_team(index, tm)
+        if not t or t["school"] in done:
             continue
+        done.add(t["school"])
+        sid = tm["_sport"]
+        sport_of[t["school"]] = sid
         info = src.get(t["school"]) or {}
         site = info.get("athletics_site")
+        have = SP.streams_for(t, sid) if sid != "fb" else t.get("streams")
         # Teams with a station stream still get the school's official audio feed added (it's the
         # actual broadcast and isn't blocked outside the station's area); no browser needed for them.
-        if t.get("streams") and not info.get("game_only"):
+        if have and not info.get("game_only"):
             if site:
-                got = [u for u in sidearm_audio(site) if not is_bad(t["school"], u, src)]
+                got = [u for u in sidearm_audio(site, sid) if not is_bad(t["school"], u, src)]
                 if got:
-                    set_feeds(t, got, STAMP)
-                    feed_changed.append(t["school"])
+                    set_feeds(t, got, STAMP, sid)
+                    feed_changed.append(f"{t['school']} ({sid})")
             continue
         t["_mins"] = min(t.get("_mins", 999), tm.get("_mins", 0))
+        t["_sport"] = sid
         if site:
             targets[site.rstrip("/") + "/showcase"] = t
         lp = info.get("listen_page")
@@ -168,7 +181,7 @@ def main():
     print("official feeds added for:", ", ".join(feed_changed) or "none")
     if not targets:
         print("no live teams without radio that have an athletics site on file")
-        for t in radio["teams"]: t.pop("_mins", None)
+        for t in radio["teams"]: t.pop("_mins", None); t.pop("_sport", None)
         json.dump(radio, open("radio.json", "w"), indent=0)
         return
     # Fast path: the SIDEARM live-events feed names the audio stream outright.
@@ -177,29 +190,33 @@ def main():
         if url not in targets:
             continue
         site = (src.get(t["school"]) or {}).get("athletics_site")
-        got = sidearm_audio(site) if site and url.endswith("/showcase") else []
+        got = sidearm_audio(site, t.get("_sport", "fb")) if site and url.endswith("/showcase") else []
         got = [u for u in got if not is_bad(t["school"], u, src)]
         if got:
-            print(t["school"], "-> (feed)", got)
-            set_feeds(t, got, STAMP); changed = True
+            print(t["school"], t.get("_sport"), "-> (feed)", got)
+            set_feeds(t, got, STAMP, t.get("_sport", "fb")); changed = True
             targets = {u: x for u, x in targets.items() if x is not t}
     for url, t in list(targets.items()):
         if "leanplayer.com" in url:
-            got = [u for u in leanplayer_audio(url) if not is_bad(t["school"], u, src)]
+            got = [u for u in leanplayer_audio(url, t.get("_sport", "fb")) if not is_bad(t["school"], u, src)]
             if got:
-                print(t["school"], "-> (leanplayer)", got)
-                set_feeds(t, got, STAMP); changed = True
+                print(t["school"], t.get("_sport"), "-> (leanplayer)", got)
+                set_feeds(t, got, STAMP, t.get("_sport", "fb")); changed = True
                 targets = {u: x for u, x in targets.items() if x is not t}
     # Opening pages in a browser is slow, so only do it close to kickoff.
     targets = {u: x for u, x in targets.items() if x.get("_mins", 0) < 45}
-    found = sniff(list(targets)) if targets else {}
+    # A basketball night can have dozens of these; cap the browser work per run (football first).
+    targets = dict(list(targets.items())[:24])
+    found = sniff(list(targets), {u: SP.LABEL.get(x.get("_sport", "fb"), "Football") for u, x in targets.items()}) if targets else {}
     for url, t in targets.items():
         streams = [u for u in found.get(url, []) if "player_status" not in u and "/v5/" not in u and not NOT_LIVE.search(u) and not is_bad(t["school"], u, src)][:3]
-        print(t["school"], "->", streams)
+        print(t["school"], t.get("_sport"), "->", streams)
         if streams:
-            set_feeds(t, streams, STAMP); changed = True
+            set_feeds(t, streams, STAMP, t.get("_sport", "fb")); changed = True
     for t in radio["teams"]:
-        t.pop("_mins", None)
+        t.pop("_mins", None); t.pop("_sport", None)
+    if SEEN_SHORT:
+        print("other SIDEARM sport names seen:", ", ".join(sorted(SEEN_SHORT)))
     json.dump(radio, open("radio.json", "w"), indent=0)
 
 

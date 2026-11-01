@@ -296,7 +296,7 @@ def main():
                    "last_ok": time.strftime("%Y-%m-%d") if misses == 0 and good else old.get("last_ok")}
         if feeds_fresh(old):  # today's game feeds stay in front of the station streams
             feeds = [u for u in old["game_feeds"] if not is_bad(t.get("school", ""), u, SOURCES)]
-            set_feeds(entry, feeds, old["game_feeds_at"])
+            set_feeds(entry, feeds, old["game_feeds_at"], old.get("game_feeds_sport") or "fb")
             entry["streams"] = list(dict.fromkeys(feeds + good))[:6]
         teams.append(entry)
         report.append({"school": t.get("school"), "calls": t.get("calls"), "ok": [x for x in tried if x["ok"]],
