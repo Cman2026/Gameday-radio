@@ -75,7 +75,10 @@
   ],
   "streams": [],
   "station_website": "https://www.wralsportsfan.com",
-  "athletics_site": "https://goduke.com"
+  "athletics_site": "https://goduke.com",
+  "bad_streams": [
+   "media-hls.wral.com"
+  ]
  },
  {
   "school": "Florida State University",
@@ -163,7 +166,7 @@
   "streams": [],
   "athletics_site": "https://gopack.com",
   "bad_streams": [
-   "wral.com"
+   "media-hls.wral.com"
   ]
  },
  {
@@ -2817,7 +2820,11 @@
   "athletics_site": "https://eiupanthers.com",
   "station_website": "https://www.weiu.net/hitmix/streaming.php",
   "game_only": true,
-  "notes": "WEIU Hit-Mix stream is token-signed (caster.fm); re-captured from the listen page each game"
+  "notes": "WEIU Hit-Mix stream is token-signed (caster.fm); re-captured from the listen page each game. The caster.fm player page and its /cdn-cgi/ beacon are not audio (failed playback Nov 2026).",
+  "bad_streams": [
+   "/cdn-cgi/",
+   "widgets.cloud.caster.fm/player/"
+  ]
  },
  {
   "school": "Gardner-Webb University",

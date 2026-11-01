@@ -236,7 +236,8 @@ def resolve(team):
     old = PREV.get(team.get("school"), {})
     if old.get("streams") and old.get("calls") == team.get("calls"):
         for u in old["streams"]:
-            if is_bad(team.get("school", ""), u, SOURCES):
+            # A junk URL (news clip, on-demand file, tracking beacon) can "play" for the probe forever; don't keep it.
+            if is_bad(team.get("school", ""), u, SOURCES) or JUNK.search(u):
                 continue
             ok, detail = probe(u)
             tried.append({"url": u, "source": "remembered", "ok": ok, "detail": detail})
