@@ -608,6 +608,7 @@ async function loadLive(){
 function heard(u){ const x = heardInfo[u]; return x && (Date.now() - Date.parse(x.heard_at) < RECENT_MS) ? x.heard : null; }
 // Moneylines from the major sportsbooks (saved by a background job a few times on game days).
 let ODDS = [];
+const nick = n => oddsKey(String(n||"").split(/\s+/).pop());
 const oddsKey = n => (n||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]/g,"");
 async function loadOdds(){
   try{ const d = await getJSON("odds.json?t=" + Math.floor(Date.now()/600000)); ODDS = d.games || []; render(); }catch(e){}
@@ -618,7 +619,9 @@ function oddsFor(e){
   // odds.json covers football, men's and women's basketball and baseball (older files: football only).
   const ODDS_S = ODDS.filter(g => (g.sport || "fb") === SPORT.id);
   return ODDS_S.find(g=>oddsKey(g.home)===H && oddsKey(g.away)===A)
-      || ODDS_S.find(g=>Math.abs(Date.parse(g.start)-t0) < 3600e3 && (oddsKey(g.home)===H || oddsKey(g.away)===A));
+      || ODDS_S.find(g=>Math.abs(Date.parse(g.start)-t0) < 3600e3 && (oddsKey(g.home)===H || oddsKey(g.away)===A))
+      // Sportsbooks write "Michigan St Spartans" where ESPN has "Michigan State Spartans": same start time and both nicknames.
+      || ODDS_S.find(g=>Math.abs(Date.parse(g.start)-t0) < 3*3600e3 && nick(g.home)===nick(h.displayName) && nick(g.away)===nick(a.displayName));
 }
 // Pick up stream fixes and game-day feeds without a page refresh (the team you're listening to keeps playing).
 async function refreshDirectory(){
