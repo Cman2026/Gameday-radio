@@ -4684,14 +4684,15 @@
   "conference": "Patriot League",
   "calls": [],
   "athletics_site": "https://aueagles.com",
-  "notes": "2025-26 AU game previews list only TV/ESPN+; no radio or audio broadcast found (low confidence)",
+  "notes": "2025-26 AU game previews (e.g. Dec 6 2025 vs UMES) list only 'TV: ESPN+' (Dan Laing/Gordon Austin); no radio or audio named. No official no-radio statement.",
   "streams": [],
   "sports": [
    "mbb",
    "wbb"
   ],
   "basketball_only": true,
-  "source": "https://aueagles.com/news/2025/11/7/mens-basketball-hosts-penn-sunday-unveils-2025-pl-championship-banner.aspx"
+  "source": "https://aueagles.com/news/2025/12/5/mens-basketball-closes-out-six-game-homestand-against-umes-on-saturday.aspx",
+  "research": "unknown"
  },
  {
   "school": "Bellarmine University",
@@ -4778,14 +4779,19 @@
   "conference": "Patriot League",
   "calls": [],
   "athletics_site": "https://goterriers.com",
-  "notes": "Not confirmed: student station WTBU (89.3 FM) runs a Terriers sports show and covers MBB, but game play-by-play not verified; 2025-26 previews list only ESPN+",
+  "notes": "WTBU MBB page has 2025-26 game recaps (Jan-Mar 2026) and 'Click to Listen to WTBU Men's Basketball Broadcasts' linking to Mixlr wtbusports; games appear to be on a separate Mixlr stream, so WTBU calls left out. FM carriage unverified; Mixlr page could not be fetched",
   "streams": [],
   "sports": [
    "mbb",
    "wbb"
   ],
   "basketball_only": true,
-  "source": "https://sites.bu.edu/wtbu/2025/11/18/mens-basketball-terriers-look-to-bounce-back-on-the-road-against-columbia/"
+  "source": "https://sites.bu.edu/wtbu/sports/mens/boston-university-mens-basketball/",
+  "network": "WTBU Sports (student)",
+  "flagship": "WTBU student radio sports feed on Mixlr (not verified on 89.3 FM main signal)",
+  "game_only": true,
+  "listen_page": "http://mixlr.com/wtbusports",
+  "research": "likely"
  },
  {
   "school": "Bradley University",
@@ -4826,14 +4832,15 @@
   "conference": "Big West Conference",
   "calls": [],
   "athletics_site": "https://gorunners.com",
-  "notes": "Not confirmed for 2025-26: 2017 Learfield deal put MBB on Newstalk 1180 KERN; current station unverified",
+  "notes": "No current radio found. 2025-26 gorunners.com pages list only ESPN+. Last confirmed radio was the 2017 KERN 1180 deal; no 2023-26 source.",
   "streams": [],
   "sports": [
    "mbb",
    "wbb"
   ],
   "basketball_only": true,
-  "source": "https://www.learfield.com/?p=15121"
+  "source": "https://gorunners.com/news/2026/1/26/general-runner-recap-jan-20-26.aspx",
+  "research": "unknown"
  },
  {
   "school": "California State University, Fullerton",
@@ -4848,14 +4855,15 @@
   "conference": "Big West Conference",
   "calls": [],
   "athletics_site": "https://fullertontitans.com",
-  "notes": "2025-26 official schedule lists only ESPN+/ESPN2, no radio; student Titan Radio (online) not confirmed for games (low confidence)",
+  "notes": "2026-27 schedule release and 2025-26 schedule list only ESPN+ video; Titan Radio (student, online) pages don't mention game coverage.",
   "streams": [],
   "sports": [
    "mbb",
    "wbb"
   ],
   "basketball_only": true,
-  "source": "https://fullertontitans.com/sports/mens-basketball/schedule/2025-26"
+  "source": "https://fullertontitans.com/news/2026/9/1/mens-basketball-mens-basketball-announces-2026-27-schedule.aspx",
+  "research": "unknown"
  },
  {
   "school": "California State University, Northridge",
@@ -4896,14 +4904,15 @@
   "conference": "Big West Conference",
   "calls": [],
   "athletics_site": "https://cbulancers.com",
-  "notes": "Not confirmed: CBU's 10/23/2025 news item 'The sound of CBU basketball returns' suggests a radio deal but station could not be read; moved WAC to Big West 2026-27",
+  "notes": "No 2025-26 station found. Raincross Gazette 'sound of CBU basketball returns' article names no station; 11/1/2025 preview lists ESPN+ only. Last known: Fox Sports Radio AM 1350 KPWK (2019-20, too old)",
   "streams": [],
   "sports": [
    "mbb",
    "wbb"
   ],
   "basketball_only": true,
-  "source": "https://calbaptist.edu/about/news-events/news/local_loyal_loud_the_sound_of_cbu_basketball_returns"
+  "source": "https://cbulancers.com/news/2019/10/30/mens-basketball-2019-20-basketball-broadcast-details-announced",
+  "research": "unknown"
  },
  {
   "school": "Canisius University",
@@ -4942,14 +4951,18 @@
   "conference": "Coastal Athletic Association",
   "calls": [],
   "athletics_site": "https://cofcsports.com",
-  "notes": "Not confirmed: long-time radio partner is Kirkman Broadcasting (2018 renewal) but station/call letters not verified",
+  "notes": "Audio only in the Varsity Network app; no free web stream.",
   "streams": [],
   "sports": [
    "mbb",
    "wbb"
   ],
   "basketball_only": true,
-  "source": "https://cofcsports.com/news/2018/8/1/mens-basketball-college-of-charleston-kirkman-broadcasting-to-continue-historic-broadcast-relationship"
+  "source": "https://cofcsports.com/news/2026/1/14/mens-basketball-cougars-open-weekend-road-trip-at-towson-on-cbs-sports-network",
+  "network": "Varsity Network app",
+  "flagship": "Everett German (Voice of the Cougars) on the Varsity App; no OTA station named",
+  "research": "confirmed",
+  "no_radio": true
  },
  {
   "school": "Cleveland State University",
@@ -4963,13 +4976,17 @@
   "conference": "Horizon League",
   "calls": [],
   "athletics_site": "https://csuvikings.com",
-  "notes": "UNVERIFIED: research web-search budget ran out before this school was checked; station not confirmed",
+  "notes": "2025-26 (Oct 2025 release): SportsRadio 99.1 FM is the new flagship; iHeart covers all MBB regular-season games plus select WBB; WTAM 1100 AM carries select games only. 99.1 is WMMS-HD2 (WMMS main is a rock station), so no calls listed; no direct stream URL found. Use the iHeart 'SportsRadio 99.1' s",
   "streams": [],
   "sports": [
    "mbb",
    "wbb"
   ],
-  "basketball_only": true
+  "basketball_only": true,
+  "network": "iHeartMedia Cleveland",
+  "flagship": "SportsRadio 99.1 FM (WMMS-HD2, relayed on translator W256BT 99.1)",
+  "source": "https://csuvikings.com/news/2025/10/24/general-cleveland-state-athletics-continues-partnership-with-iheartmedia-cleveland-as-broadcast-partner.aspx",
+  "research": "confirmed"
  },
  {
   "school": "Coppin State University",
@@ -4982,13 +4999,15 @@
   "conference": "Mid-Eastern Athletic Conference",
   "calls": [],
   "athletics_site": "https://coppinstatesports.com",
-  "notes": "UNVERIFIED: research web-search budget ran out before this school was checked; station not confirmed",
+  "notes": "No radio found in 2025-26 or 2026-27 schedule releases (ESPN+ only). Older game notes show a generic 'Listen' link, no station",
   "streams": [],
   "sports": [
    "mbb",
    "wbb"
   ],
-  "basketball_only": true
+  "basketball_only": true,
+  "source": "https://coppinstatesports.com/news/2025/9/11/mens-basketball-mens-hoops-reveals-complete-2025-26-non-conference-schedule.aspx",
+  "research": "unknown"
  },
  {
   "school": "Creighton University",
@@ -5000,15 +5019,23 @@
    "Bluejays"
   ],
   "conference": "Big East Conference",
-  "calls": [],
+  "calls": [
+   "KOZN",
+   "KOOO"
+  ],
   "athletics_site": "https://gocreighton.com",
-  "notes": "UNVERIFIED: research web-search budget ran out before this school was checked; station not confirmed",
+  "notes": "2025-26 preview: 'KOZN (1620 AM) and KOOO (101.9 FM) will carry all Creighton men's basketball games during the 2025-26 season.' Webcast at 1620thezone.com. Some games also on SiriusXM 383.",
   "streams": [],
   "sports": [
    "mbb",
    "wbb"
   ],
-  "basketball_only": true
+  "basketball_only": true,
+  "network": "Creighton Bluejays (NRG Media Omaha)",
+  "flagship": "1620 The Zone KOZN (1620 AM), simulcast on KOOO 101.9 FM; John Bishop PBP",
+  "listen_page": "https://1620thezone.com",
+  "source": "https://gocreighton.com/news/2026/2/20/mens-basketball-visits-big-apple-for-test-at-17-st-john-s",
+  "research": "confirmed"
  },
  {
   "school": "DePaul University",
@@ -5022,13 +5049,19 @@
   "conference": "Big East Conference",
   "calls": [],
   "athletics_site": "https://depaulbluedemons.com",
-  "notes": "UNVERIFIED: research web-search budget ran out before this school was checked; station not confirmed",
+  "notes": "Audio only on SiriusXM and the DePaul app; no free web stream.",
   "streams": [],
   "sports": [
    "mbb",
    "wbb"
   ],
-  "basketball_only": true
+  "basketball_only": true,
+  "network": "SiriusXM / DePaul Blue Demons App",
+  "flagship": "No terrestrial station; SiriusXM and DePaul Blue Demons App (Zach Zaidman, Dave Corzine)",
+  "listen_page": "https://depaulbluedemons.com",
+  "source": "https://depaulbluedemons.com/news/2025/11/2/mens-basketball-mens-basketball-opens-2025-26-season",
+  "research": "confirmed",
+  "no_radio": true
  },
  {
   "school": "University of Denver",
@@ -5042,13 +5075,16 @@
   "conference": "Summit League",
   "calls": [],
   "athletics_site": "https://denverpioneers.com",
-  "notes": "UNVERIFIED: research web-search budget ran out before this school was checked; station not confirmed",
+  "notes": "HD sub-channel, so no calls. 2022-23 source: MBB games on 104.3 The Fan HD3, streamed free on DenverFan.com and The Fan app. Oct 2025 DU release still uses HD3 for basketball coaches shows, but no 2023-26 source names game broadcasts; no direct stream URL found",
   "streams": [],
   "sports": [
    "mbb",
    "wbb"
   ],
-  "basketball_only": true
+  "basketball_only": true,
+  "listen_page": "https://denversports.com",
+  "source": "https://bonneville.com/?p=4306",
+  "research": "unknown"
  },
  {
   "school": "University of Detroit Mercy",
@@ -5063,13 +5099,15 @@
   "conference": "Horizon League",
   "calls": [],
   "athletics_site": "https://detroittitans.com",
-  "notes": "UNVERIFIED: research web-search budget ran out before this school was checked; station not confirmed",
+  "notes": "2025-26 previews (Dec 2025, Feb 2026) list only ESPN+ (Dan Hasty/Jeremy Otto). No radio station or audio named. Last known radio was WLQV 1500 (2020).",
   "streams": [],
   "sports": [
    "mbb",
    "wbb"
   ],
-  "basketball_only": true
+  "basketball_only": true,
+  "source": "https://detroittitans.com/news/2026/2/17/mens-basketball-to-entertain-milwaukee-on-friday.aspx",
+  "research": "unknown"
  },
  {
   "school": "Drexel University",
@@ -5082,13 +5120,15 @@
   "conference": "Coastal Athletic Association",
   "calls": [],
   "athletics_site": "https://drexeldragons.com",
-  "notes": "UNVERIFIED: research web-search budget ran out before this school was checked; station not confirmed",
+  "notes": "2025-26 Drexel game previews list no radio/audio (only FloCollege/CBSSN TV). Last radio found: student WKDU partnership from Jan 2016 (stale).",
   "streams": [],
   "sports": [
    "mbb",
    "wbb"
   ],
-  "basketball_only": true
+  "basketball_only": true,
+  "source": "https://drexeldragons.com/news/2025/12/30/mens-basketball-drexel-to-wrap-up-2025-against-uncw",
+  "research": "unknown"
  },
  {
   "school": "University of Evansville",
@@ -5103,13 +5143,15 @@
   "conference": "Missouri Valley Conference",
   "calls": [],
   "athletics_site": "https://gopurpleaces.com",
-  "notes": "UNVERIFIED: research web-search budget ran out before this school was checked; station not confirmed",
+  "notes": "No 2025-26 radio info found on school or Wikipedia pages. Last known (Feb 2019): Purple Aces network on WROY AM 1460 / 92.1 FM, too old to use",
   "streams": [],
   "sports": [
    "mbb",
    "wbb"
   ],
-  "basketball_only": true
+  "basketball_only": true,
+  "source": "https://www.wrul.com/?p=101799",
+  "research": "unknown"
  },
  {
   "school": "Fairfield University",
@@ -5123,13 +5165,15 @@
   "conference": "Metro Atlantic Athletic Conference",
   "calls": [],
   "athletics_site": "https://fairfieldstags.com",
-  "notes": "UNVERIFIED: research web-search budget ran out before this school was checked; station not confirmed",
+  "notes": "2025-26 previews list only ESPN+ (Heussler/DeSantis) and MAAC international video. Wikipedia calls student station WVOF 88.5 the home of Stags basketball, but the source is from 2007-08 and was not verified for current seasons.",
   "streams": [],
   "sports": [
    "mbb",
    "wbb"
   ],
-  "basketball_only": true
+  "basketball_only": true,
+  "source": "https://fairfieldstags.com/news/2025/12/28/mens-basketball-maac-play-resumes-on-monday-with-visit-from-saint-peter-s.aspx",
+  "research": "unknown"
  },
  {
   "school": "Fairleigh Dickinson University",
@@ -5143,13 +5187,19 @@
   "conference": "Northeast Conference",
   "calls": [],
   "athletics_site": "https://fduknights.com",
-  "notes": "UNVERIFIED: research web-search budget ran out before this school was checked; station not confirmed",
+  "notes": "Nov 10 2025 (2025-26): WFDU carries most FDU men's and women's home games live on HD3, streamed at wfdu.fm/sports during games (also iHeart/Audacy/TuneIn). HD3 sub-channel, not WFDU main, so no calls; no direct stream URL found on the page.",
   "streams": [],
   "sports": [
    "mbb",
    "wbb"
   ],
-  "basketball_only": true
+  "basketball_only": true,
+  "network": "WFDU Sports",
+  "flagship": "WFDU 89.1 HD3 (WFDU Sports), FDU's own station",
+  "game_only": true,
+  "listen_page": "https://wfdu.fm/sports",
+  "source": "https://wfdu.fm/news/wfdu-sports-on-hd3",
+  "research": "confirmed"
  },
  {
   "school": "Florida Gulf Coast University",
@@ -5160,18 +5210,21 @@
    "Florida Gulf Coast University",
    "FGCU Eagles"
   ],
-  "flagship": "Southwest Florida's FOX Sports Radio 103.3/94.1/105.9 FM (Sun Broadcasting) - select games only",
+  "flagship": "FOX Sports Radio 103.3/94.1/105.9 FM, the HD2 of WFSX-FM 92.5 fed by translators W231DC 94.1 and W290DB 105.9",
   "conference": "ASUN Conference",
   "calls": [],
   "athletics_site": "https://fgcuathletics.com",
-  "notes": "Only 4 MBB + 4 WBB home games on FOX Sports Radio SWFL in 2026 (stream FOXSportsFM.com); call letters not confirmed",
+  "notes": "Dec 2025 deal covers only 8 home games, Jan-Feb 2026 (4 MBB, 4 WBB). Station is an HD2 sub-channel plus translators, so no calls. Stream is at FOXSportsFM.com but its site could not be fetched to get a direct URL",
   "streams": [],
   "sports": [
    "mbb",
    "wbb"
   ],
   "basketball_only": true,
-  "source": "https://fgcuathletics.com/news/2025/12/9/mens-basketball-fgcu-fox-sports-radio-team-up-for-basketball-coverage.aspx"
+  "source": "https://fgcuathletics.com/news/2025/12/9/mens-basketball-fgcu-fox-sports-radio-team-up-for-basketball-coverage.aspx",
+  "network": "FOX Sports Radio SWFL (Sun Broadcasting)",
+  "listen_page": "https://foxsportsfm.com",
+  "research": "confirmed"
  },
  {
   "school": "George Mason University",
@@ -5186,13 +5239,19 @@
   "conference": "Atlantic 10 Conference",
   "calls": [],
   "athletics_site": "https://gomason.com",
-  "notes": "UNVERIFIED: research web-search budget ran out before this school was checked; station not confirmed",
+  "notes": "2025-26 previews: 'Steve Kolbe will call the game on the GoMason Digital Network' with a 'LIVE AUDIO: Click here' link. The link target could not be read; the game-time job should scrape gomason.com (SIDEARM). No radio call letters given. WGMU is a student station; no game carriage confirmed.",
   "streams": [],
   "sports": [
    "mbb",
    "wbb"
   ],
-  "basketball_only": true
+  "basketball_only": true,
+  "network": "GoMason Digital Network",
+  "flagship": "Steve Kolbe (Voice of the Patriots) on the GoMason Digital Network (school stream); no OTA station named",
+  "game_only": true,
+  "listen_page": "https://gomason.com/news/2025/11/28/mens-basketball-george-mason-hosts-james-madison-saturday-for-in-state-clash.aspx",
+  "source": "https://gomason.com/news/2025/12/20/mens-basketball-patriots-fetch-greyhounds-for-sunday-meeting-in-fairfax.aspx",
+  "research": "confirmed"
  },
  {
   "school": "The George Washington University",
@@ -5207,13 +5266,14 @@
   "conference": "Atlantic 10 Conference",
   "calls": [],
   "athletics_site": "https://gwsports.com",
-  "notes": "UNCONFIRMED: no radio station or audio stream found for 2025-26; TV on Monumental Sports Network/ESPN+ (Byron Kerr TV pbp). Student station WRGW is online-only, game coverage not confirmed.",
+  "notes": "2025-26 GW releases list only Monumental Sports Network/ESPN+. Streema lists an undated online-only 'WRGW District Radio Sports' channel (student) carrying GW MBB games that conflict with WBB; currently 'temporarily unavailable', wrgwsports.com not checked. Not confirmed.",
   "streams": [],
   "sports": [
    "mbb"
   ],
   "basketball_only": true,
-  "source": "https://gwsports.com/news/2025/10/29/mens-basketball-monumental-sports-network-to-broadcast-nine-more-gw-basketball-games-in-2025-26"
+  "source": "https://streema.com/radios/WRGW_District_Radio_Sports",
+  "research": "unknown"
  },
  {
   "school": "Gonzaga University",
@@ -5317,20 +5377,22 @@
    "Pride"
   ],
   "network": "WRHU Radio Hofstra University",
-  "flagship": "88.7 FM WRHU (Hempstead, student station)",
+  "flagship": "WRHU 88.7 FM Hempstead (student/university station)",
   "conference": "Coastal Athletic Association",
   "calls": [
    "WRHU"
   ],
   "athletics_site": "https://gohofstra.com",
-  "notes": "Women's games also on WRHU, sometimes only on its online HAWC stream (hawc.streamwrhu.net)",
+  "notes": "WRHU carries Hofstra basketball on WRHU-FM or its HAWC web channel (sports page, undated). Listen page has only player pages, not direct streams: live.streamwrhu.net/newPlayer/?live= (main) and hawc.streamwrhu.net/newPlayer/?hawc= (HAWC). Player could not be fetched to pull the raw URL. Women's game",
   "streams": [],
   "sports": [
    "mbb",
    "wbb"
   ],
   "basketball_only": true,
-  "source": "https://gohofstra.com/news/2025/10/20/mens-basketball-pride-heads-to-ucf-to-open-2025-26-campaign.aspx"
+  "source": "https://www.hofstra.edu/wrhu/sports.html",
+  "listen_page": "https://www.hofstra.edu/wrhu/listen-live.html",
+  "research": "likely"
  },
  {
   "school": "Indiana University Indianapolis",
@@ -5366,13 +5428,14 @@
   "conference": "Metro Atlantic Athletic Conference",
   "calls": [],
   "athletics_site": "https://ionagaels.com",
-  "notes": "UNCONFIRMED: no radio station or school audio stream found for 2025-26; game notes list only ESPN+. Student station WICR (Gaels Radio) exists, game coverage not confirmed.",
+  "notes": "2025-26 game notes (Feb 2026, Canisius) list only ESPN+, with no radio or audio line. No source shows WICR carrying games.",
   "streams": [],
   "sports": [
    "mbb"
   ],
   "basketball_only": true,
-  "source": "https://static.ionagaels.com/custompages/stats/mbasketball/2025-26/gamenotes/26-02-15-Niagara.pdf"
+  "source": "https://static.ionagaels.com/custompages/stats/mbasketball/2025-26/gamenotes/26-02-13-Canisius.pdf",
+  "research": "unknown"
  },
  {
   "school": "Jacksonville University",
@@ -5386,13 +5449,17 @@
   "conference": "ASUN Conference",
   "calls": [],
   "athletics_site": "https://judolphins.com",
-  "notes": "UNCONFIRMED: last confirmed source is 2021-22 (1010XL 1010 AM, Scott Manze, plus Mixlr stream); a TuneIn 'Jacksonville Dolphins' stream lists 2026-27 games; current station not confirmed",
+  "notes": "TuneIn team game feed lists a 2026-27 game (at UCF, Nov 24). Operator and station not named; 2025-26 official releases name no radio. 1010XL (WJXL) last confirmed in 2021-22 (stale).",
   "streams": [],
   "sports": [
    "mbb"
   ],
   "basketball_only": true,
-  "source": "https://judolphins.com/news/2022/1/7/mens-basketball-ju-welcomes-fgcu-for-asun-opener-saturday.aspx"
+  "source": "https://tunein.com/radio/Stream-Jacksonville-Dolphins-g3666/",
+  "flagship": "TuneIn 'Stream Jacksonville Dolphins' game feed",
+  "game_only": true,
+  "listen_page": "https://tunein.com/radio/Stream-Jacksonville-Dolphins-g3666/",
+  "research": "likely"
  },
  {
   "school": "University of Missouri-Kansas City",
@@ -5408,13 +5475,15 @@
   "conference": "Summit League",
   "calls": [],
   "athletics_site": "https://kcroos.com",
-  "notes": "UNCONFIRMED: Sports Radio 810 WHB (103.7 FM translator) carried only 5 men's games in Jan-Feb 2025; 2025-26 radio not confirmed. Site has a Roo Sports Network page.",
+  "notes": "Only source is 2024-25: Sports Radio 810 WHB carried 5 MBB games (Jan-Feb 2025), no women's games. 2025-26 season preview gives no radio; 'Roo Sports Network' on the site is video. Not a regular radio home",
   "streams": [],
   "sports": [
    "mbb"
   ],
   "basketball_only": true,
-  "source": "https://kcroos.com/news/2025/1/23/athletics-partnership-with-sports-radio-810-whb-brings-kansas-city-basketball-to-the-radio"
+  "source": "https://kcroos.com/news/2025/1/23/athletics-partnership-with-sports-radio-810-whb-brings-kansas-city-basketball-to-the-radio",
+  "listen_page": "https://kcroos.com",
+  "research": "unknown"
  },
  {
   "school": "University of New Orleans",
@@ -5499,13 +5568,14 @@
   "conference": "ASUN Conference",
   "calls": [],
   "athletics_site": "https://lipscombsports.com",
-  "notes": "UNCONFIRMED: no radio station or audio stream found for 2025-26 or 2026-27",
+  "notes": "No radio or audio found for 2025-26 or 2026-27. Searches turned up only TV/ESPN+ listings.",
   "streams": [],
   "sports": [
    "mbb"
   ],
   "basketball_only": true,
-  "source": "https://lipscombsports.com/news/2026/8/26/mens-basketball-finalizes-2026-27-schedule"
+  "source": "https://lipscombsports.com/news/2026/8/26/mens-basketball-finalizes-2026-27-schedule",
+  "research": "unknown"
  },
  {
   "school": "University of Arkansas at Little Rock",
@@ -5567,13 +5637,14 @@
   "conference": "Big South Conference",
   "calls": [],
   "athletics_site": "https://longwoodlancers.com",
-  "notes": "UNCONFIRMED: 2025-26 game releases list only ESPN+; no radio station or audio stream found",
+  "notes": "No 2023-26 radio source found. Last: Nov 2018 release names WVHL Kickin' Country 92.9 FM for MBB/WBB (stale; WVHL's Wikipedia Longwood refs are from 2015-16).",
   "streams": [],
   "sports": [
    "mbb"
   ],
   "basketball_only": true,
-  "source": "https://longwoodlancers.com/news/2026/2/13/mens-basketball-lancer-men-host-usc-upstate-saturday-afternoon.aspx"
+  "source": "https://longwoodlancers.com/news/2018/11/16/general-longwood-taps-hovan-as-new-voice-of-the-lancers.aspx",
+  "research": "unknown"
  },
  {
   "school": "Loyola University Chicago",
@@ -5611,13 +5682,14 @@
   "conference": "Patriot League",
   "calls": [],
   "athletics_site": "https://loyolagreyhounds.com",
-  "notes": "UNCONFIRMED: no radio station or audio stream found for 2025-26; TV on Monumental Sports Network/ESPN+",
+  "notes": "11/2025 season-opener release lists Monumental Sports Network TV only, no radio or audio",
   "streams": [],
   "sports": [
    "mbb"
   ],
   "basketball_only": true,
-  "source": "https://loyolagreyhounds.com/news/2025/10/31/mens-basketball-starts-2025-26-season-monday-night-at-cfg-bank-arena.aspx"
+  "source": "https://loyolagreyhounds.com/news/2025/10/31/mens-basketball-starts-2025-26-season-monday-night-at-cfg-bank-arena.aspx",
+  "research": "unknown"
  },
  {
   "school": "Loyola Marymount University",
@@ -5630,13 +5702,14 @@
   "conference": "West Coast Conference",
   "calls": [],
   "athletics_site": "https://lmulions.com",
-  "notes": "UNCONFIRMED: no radio station or audio stream found for 2025-26 or 2026-27",
+  "notes": "No LMU radio or audio found for 2025-26. A Jan 2026 SI Gonzaga-LMU listing gave '96.1 FM (local) and Varsity Sports App', but that appears to be Gonzaga's Spokane side, not LMU's.",
   "streams": [],
   "sports": [
    "mbb"
   ],
   "basketball_only": true,
-  "source": "https://lmulions.com/news/2026/9/3/mens-basketball-lions-mens-hoops-nonconference-matchups-announced.aspx"
+  "source": "https://www.si.com/college/gonzaga/basketball/how-to-watch-listen-gonzaga-vs-lmu-mens-basketball-game",
+  "research": "unknown"
  },
  {
   "school": "Manhattan University",
@@ -5650,13 +5723,14 @@
   "conference": "Metro Atlantic Athletic Conference",
   "calls": [],
   "athletics_site": "https://gojaspers.com",
-  "notes": "UNCONFIRMED: no radio station or audio stream found for 2025-26 (opponent notes list ESPN+ only); student station WRCM is online, game coverage not confirmed",
+  "notes": "2025-26 opponent (Iona) notes on Manhattan say 'All Games Aired on ESPN+'; no radio/audio found. Student WRCM is not shown carrying games.",
   "streams": [],
   "sports": [
    "mbb"
   ],
   "basketball_only": true,
-  "source": "https://static.ionagaels.com/custompages/stats/mbasketball/2025-26/gamenotes/OPP-26-03-01-Manhattan.pdf"
+  "source": "https://static.ionagaels.com/custompages/stats/mbasketball/2025-26/gamenotes/OPP-26-03-01-Manhattan.pdf",
+  "research": "unknown"
  },
  {
   "school": "Marquette University",
@@ -5693,13 +5767,14 @@
   "conference": "Mid-Eastern Athletic Conference",
   "calls": [],
   "athletics_site": "https://umeshawksports.com",
-  "notes": "UNCONFIRMED: no radio station or audio stream found for 2025-26; campus station WESM 91.3 not confirmed for games",
+  "notes": "No game radio found. UMES page says WESM 91.3 airs only 'weather and sports updates'; Feb 2025 game previews list ESPN+ only",
   "streams": [],
   "sports": [
    "mbb"
   ],
   "basketball_only": true,
-  "source": "https://umeshawksports.com/news/2025/9/23/mens-basketball-the-university-of-maryland-eastern-shore-announces-2025-2026-mens-basketball-schedule.aspx"
+  "source": "https://www.umes.edu/125/on-the-air/",
+  "research": "unknown"
  },
  {
   "school": "University of Wisconsin-Milwaukee",
@@ -5761,14 +5836,15 @@
   "conference": "America East Conference",
   "calls": [],
   "athletics_site": "https://njithighlanders.com",
-  "notes": "No radio or audio found; 2025-26 previews list ESPN+ video only (Provence/Agel call)",
+  "notes": "2025-26 home opener preview lists only ESPN+ (Dobrowlski/Agel). No radio or audio found.",
   "streams": [],
   "sports": [
    "mbb",
    "wbb"
   ],
   "basketball_only": true,
-  "source": "https://njithighlanders.com/news/2026/1/9/mens-basketball-mens-basketball-welcomes-maine-for-afternoon-america-east-action.aspx"
+  "source": "https://njithighlanders.com/news/2025/11/7/mens-basketball-highlanders-take-on-fairfield-in-2025-26-home-opener.aspx",
+  "research": "unknown"
  },
  {
   "school": "Niagara University",
@@ -5782,14 +5858,15 @@
   "conference": "Metro Conference (formerly MAAC)",
   "calls": [],
   "athletics_site": "https://purpleeagles.com",
-  "notes": "No radio or audio found for 2025-26; only ESPN+/MAAC.tv video; unconfirmed",
+  "notes": "No 2025-26 radio or audio found; official items reference ESPN+ only. Not confirmed.",
   "streams": [],
   "sports": [
    "mbb",
    "wbb"
   ],
   "basketball_only": true,
-  "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Niagara_Purple_Eagles_men%27s_basketball_team"
+  "source": "https://purpleeagles.com/news/2025/8/21/maac-announces-2025-26-mens-basketball-conference-slate.aspx",
+  "research": "unknown"
  },
  {
   "school": "University of North Florida",
@@ -5803,14 +5880,15 @@
   "conference": "ASUN Conference",
   "calls": [],
   "athletics_site": "https://unfospreys.com",
-  "notes": "No radio or audio found; recent previews list ESPN+ only; unconfirmed",
+  "notes": "Oct 2026 Cox Media Jacksonville deal is TV only (WJAX 47.2). No radio found. Student Spinnaker Radio did WBB on 95.5 WSKR in 2016 only",
   "streams": [],
   "sports": [
    "mbb",
    "wbb"
   ],
   "basketball_only": true,
-  "source": "https://unfospreys.com/news/2025/2/19/mens-basketball-hosts-river-city-rumble-against-jacksonville"
+  "source": "https://www.actionnewsjax.com/news/local/cox-media-group-jacksonville-unf-athletics-announce-multiyear-broadcast-partnership/RZVW5VA2X5FLRPDLM2OWQBI4KM/",
+  "research": "unknown"
  },
  {
   "school": "Northeastern University",
@@ -5872,18 +5950,19 @@
    "Oakland University",
    "Golden Grizzlies"
   ],
-  "network": "Golden Grizzlies Radio (Audacy Detroit)",
-  "flagship": "The Bet 1270 AM WXYT / 97.1 HD3 (Detroit)",
+  "network": "Audacy Detroit",
+  "flagship": "WXYT 1270 AM (The Bet Detroit), relayed on 97.1 WXYT-FM HD3; Neal Ruhl PBP; Audacy app",
   "conference": "Horizon League",
   "calls": [],
   "athletics_site": "https://goldengrizzlies.com",
-  "notes": "It's WXYT AM 1270 plus 97.1 WXYT-FM HD3, not the main 97.1 The Ticket feed; Neal Ruhl PBP; also Audacy app Games are on 1270 AM / 97.1 HD3, not the main 97.1 The Ticket stream.",
+  "notes": "2025-26 (Nov 2025 preview): 'Neal Ruhl will be on the radio call on 97.1HD-3/1270am or the Audacy App online.' Calls left empty on purpose: WXYT must not resolve to the main 97.1 The Ticket stream. 1270 AM is now 'The Bet Detroit' with its own Audacy stream. No direct stream URL found.",
   "streams": [],
   "sports": [
    "mbb"
   ],
   "basketball_only": true,
-  "source": "https://goldengrizzlies.com/news/2025/11/20/golden-grizzlies-mens-basketball-set-for-22nd-all-time-meeting-with-eastern-michigan.aspx"
+  "source": "https://goldengrizzlies.com/news/2025/11/20/golden-grizzlies-mens-basketball-set-for-22nd-all-time-meeting-with-eastern-michigan.aspx",
+  "research": "confirmed"
  },
  {
   "school": "University of Nebraska Omaha",
@@ -5919,18 +5998,21 @@
    "ORU",
    "Oral Roberts University"
   ],
-  "network": "Oral Roberts Golden Eagles Radio",
-  "flagship": "99.9 FM ESPN (Tulsa)",
+  "network": "ESPN Tulsa",
+  "flagship": "99.9 FM ESPN Tulsa (translator K260CR relaying KYAL 1550 AM, Sapulpa/Tulsa)",
   "conference": "Summit League",
-  "calls": [],
+  "calls": [
+   "KYAL"
+  ],
   "athletics_site": "https://oruathletics.com",
-  "notes": "2025-26 previews list Radio: 99.9 FM ESPN Tulsa; call letters (likely an FM translator) not confirmed",
+  "notes": "2025-26 preview (Nov 12 2025 vs Tulsa) lists Radio: 99.9 FM ESPN. Per Wikipedia, 99.9 is K260CR, a full-time translator of KYAL 1550 (ESPN Radio affiliate). Wikipedia still shows 'Sports Animal' branding, so check that the resolved KYAL stream is the ESPN Tulsa feed.",
   "streams": [],
   "sports": [
    "mbb"
   ],
   "basketball_only": true,
-  "source": "https://oruathletics.com/news/2025/11/11/mens-basketball-orumbb-hosts-tulsa-for-60th-mayors-cup.aspx"
+  "source": "https://oruathletics.com/news/2025/11/11/mens-basketball-orumbb-hosts-tulsa-for-60th-mayors-cup.aspx",
+  "research": "confirmed"
  },
  {
   "school": "University of the Pacific",
@@ -6066,14 +6148,15 @@
   "conference": "ASUN Conference",
   "calls": [],
   "athletics_site": "https://queensathletics.com",
-  "notes": "No radio found; 2025-26 deal is TV with WCCB Charlotte 18.1 / ESPN+; unconfirmed",
+  "notes": "Oct 2025 broadcast-partner release is TV only (WCCB 18.1, 6 games). No radio or audio mentioned",
   "streams": [],
   "sports": [
    "mbb",
    "wbb"
   ],
   "basketball_only": true,
-  "source": "https://queensathletics.com/news/2025/10/1/mens-basketball-wccb-and-bahakel-sports-official-broadcast-partner-for-queens-mens-and-womens-basketball.aspx"
+  "source": "https://queensathletics.com/news/2025/10/1/mens-basketball-wccb-and-bahakel-sports-official-broadcast-partner-for-queens-mens-and-womens-basketball.aspx",
+  "research": "unknown"
  },
  {
   "school": "Quinnipiac University",
@@ -6087,14 +6170,15 @@
   "conference": "Metro Conference (formerly MAAC)",
   "calls": [],
   "athletics_site": "https://gobobcats.com",
-  "notes": "No radio found; WQUN was shut down; the 'Listen' links point to MAAC.tv international video; hockey on ESPN+/NESN",
+  "notes": "2025-26 previews (Feb 2026) list no radio. The 'Listen' link points to the MAAC international video page (maacsports.com/watch), which is not audio. WQUN is gone.",
   "streams": [],
   "sports": [
    "mbb",
    "wbb"
   ],
   "basketball_only": true,
-  "source": "https://gobobcats.com/news/2026/1/13/mens-basketball-bobcats-peacocks-set-for-maac-clash-wednesday-night-in-hamden"
+  "source": "https://gobobcats.com/news/2026/2/21/mens-basketball-bobcats-set-to-host-fairfield-for-senior-day",
+  "research": "unknown"
  },
  {
   "school": "Radford University",
@@ -6129,18 +6213,20 @@
    "RID",
    "Rider University"
   ],
-  "network": "107.7 The Bronc",
-  "flagship": "107.7 The Bronc Retro WRRC2 (Rider student station, Lawrenceville NJ)",
+  "network": "107.7 The Bronc (WRRC, student)",
+  "flagship": "107.7 The Bronc Retro (WRRC2 second stream)",
   "conference": "Metro Conference (formerly MAAC)",
   "calls": [],
   "athletics_site": "https://gobroncs.com",
-  "notes": "Games on 'The Bronc Retro' WRRC2 (second channel/stream), not necessarily the main 107.7 feed; home and select road games Games are on the station's second channel (The Bronc Retro), not the main 107.7 stream.",
+  "notes": "2025-26 (Nov 2025): all remaining MBB and WBB home games plus select road games on '107.7 The Bronc Retro WRRC2' (second stream, not the main WRRC feed). listen_page is the station's SecureNet player for WRRC2 (a player page, not a direct audio URL); main feed player is streamdb3web.securenetsystems",
   "streams": [],
   "sports": [
    "mbb"
   ],
   "basketball_only": true,
-  "source": "https://gobroncs.com/news/2025/11/23/mens-basketball-welcomes-coppin-state-tuesday-night.aspx"
+  "source": "https://gobroncs.com/news/2025/11/14/mens-basketball-hosts-eastern-in-home-opener-saturday-night.aspx",
+  "listen_page": "https://streamdb4web.securenetsystems.net/v5/index.cfm?stationCallSign=WRRC2",
+  "research": "confirmed"
  },
  {
   "school": "Southern Illinois University Edwardsville",
@@ -6229,14 +6315,15 @@
   "conference": "West Coast Conference",
   "calls": [],
   "athletics_site": "https://smcgaels.com",
-  "notes": "No current radio/audio found; site Watch/Listen lists ESPN+ and on-demand only; unconfirmed",
+  "notes": "Oct 2025 schedule and TV release has no radio, only ESPN+ and an 'On Demand Audio/Video' page. (The KWMN radio deal found in search is for Saint Mary's of Minnesota, not this school)",
   "streams": [],
   "sports": [
    "mbb",
    "wbb"
   ],
   "basketball_only": true,
-  "source": "https://smcgaels.com/news/2025/10/17/mens-basketball-mbb-gaels-scheduled-finalized-with-times-and-tv-networks"
+  "source": "https://smcgaels.com/news/2025/10/17/mens-basketball-mbb-gaels-scheduled-finalized-with-times-and-tv-networks",
+  "research": "unknown"
  },
  {
   "school": "Saint Peter's University",
@@ -6250,14 +6337,15 @@
   "conference": "Metro Conference (formerly MAAC)",
   "calls": [],
   "athletics_site": "https://saintpeterspeacocks.com",
-  "notes": "No radio or audio found; could not confirm (no current source located)",
+  "notes": "No radio or audio found for 2025-26. Student station WSPR exists, but no game carriage confirmed.",
   "streams": [],
   "sports": [
    "mbb",
    "wbb"
   ],
   "basketball_only": true,
-  "source": "https://saintpeterspeacocks.com"
+  "source": "https://saintpeterspeacocks.com",
+  "research": "unknown"
  },
  {
   "school": "Santa Clara University",
@@ -6295,14 +6383,15 @@
   "conference": "West Coast Conference",
   "calls": [],
   "athletics_site": "https://goseattleu.com",
-  "notes": "No 2025-26 audio found; student KXSU 102.1 FM carried MBB in 2021-22, current status unconfirmed",
+  "notes": "2025-26 previews (Nov/Dec 2025) list only ESPN+. Student KXSU 102.1 FM last listed in Nov 2022 (2022-23) preview, and the KXSU line has since been dropped, so it may have changed.",
   "streams": [],
   "sports": [
    "mbb",
    "wbb"
   ],
   "basketball_only": true,
-  "source": "https://goseattleu.com/news/2025/12/02/mens-basketball-opens-three-game-homestand-wednesday"
+  "source": "https://goseattleu.com/news/2025/12/2/mens-basketball-opens-three-game-homestand-wednesday",
+  "research": "unknown"
  },
  {
   "school": "Seton Hall University",
@@ -6365,14 +6454,14 @@
    "USC Upstate Spartans",
    "Upstate"
   ],
-  "network": "USC Upstate Spartans Radio (Fox Sports Spartanburg)",
-  "flagship": "Fox Sports Spartanburg 1400 AM / 98.3 FM WSPG (Spartanburg, SC)",
+  "network": "Fox Sports Spartanburg",
+  "flagship": "WSPG 1400 AM / 98.3 FM (translator W252DQ) Spartanburg, 'flagship home of USC Upstate Athletics'",
   "conference": "Big South Conference",
   "calls": [
    "WSPG"
   ],
   "athletics_site": "https://upstatespartans.com",
-  "notes": "WSPG is 'flagship home of USC Upstate Athletics'; carries all men's games and baseball, only some women's basketball and softball (2023 agreement, reaffirmed July 2026)",
+  "notes": "July 2026 release reaffirms WSPG as flagship. Live audio is at SpartanburgSportsRadio.com, the Fox Sports Spartanburg app, and TuneIn 'WSPG-AM'. No direct stream URL found (site not fetchable, Streema shows none). Per 2023 deal, all MBB and only some WBB",
   "streams": [],
   "sports": [
    "mbb",
@@ -6381,7 +6470,9 @@
    "sb"
   ],
   "basketball_only": true,
-  "source": "https://upstatespartans.com/news/2023/6/22/general-usc-upstate-athletics-fox-sports-spartanburg-announce-multiyear-marketing-agreement"
+  "source": "https://upstatespartans.com/news/2026/7/21/general-usc-upstate-set-for-fourth-annual-spartan-takeover-day-on-fox-sports-spartanburg-98-3-fm",
+  "listen_page": "https://www.spartanburgsportsradio.com",
+  "research": "confirmed"
  },
  {
   "school": "University of Southern Indiana",
@@ -6417,21 +6508,23 @@
    "Bona",
    "Bonaventure"
   ],
-  "network": "Bonnies Online Network / Bonnies Radio",
-  "flagship": "100.1 FM The Hero WBRR (Bradford, PA / Olean)",
+  "network": "Bonnies Radio Network / Bonnies Online Network",
+  "flagship": "WBRR 100.1 FM 'The Hero' (Bradford PA / Olean market)",
   "conference": "Atlantic 10 Conference",
   "calls": [
    "WBRR"
   ],
   "athletics_site": "https://gobonnies.com",
-  "notes": "Free stream on Bonnies Online Network; WKSN 1340 AM Jamestown also carries men's games (separate market); WBRR deal covers men's and women's",
+  "notes": "Aug 2025 extension makes WBRR the partner for 2025-26 and 2026-27: all MBB games, select WBB games. All games stream free on the Bonnies Online Network. Out-of-market affiliates for 2025-26: WKSN 1340 Jamestown, WLEA Hornell, WYSL Avon/Rochester. No direct WBRR stream URL found; the station site is ",
   "streams": [],
   "sports": [
    "mbb",
    "wbb"
   ],
   "basketball_only": true,
-  "source": "https://gobonnies.com/news/2025/9/29/mens-basketball-bonnies-mens-basketball-terrestrial-radio-footprint-expands-to-jamestown-area-through-wksn-1340-am.aspx"
+  "source": "https://gobonnies.com/news/2025/8/4/mens-basketball-st-bonaventure-athletics-agrees-to-multi-year-extension-with-the-hero.aspx",
+  "listen_page": "https://gobonnies.com/watch/live",
+  "research": "confirmed"
  },
  {
   "school": "St. John's University",
@@ -6472,13 +6565,14 @@
   "conference": "Southland Conference",
   "calls": [],
   "athletics_site": "https://goislanders.com",
-  "notes": "UNCONFIRMED: no 2025-26/2026-27 men's radio station found; women's road games were on 1440 AM KEYS in 2023-24 (stale)",
+  "notes": "No men's radio found for 2025-26/2026-27. WOMEN'S basketball: 2025-26 (Nov 5 2025 at Texas A&M) free on 1440 AM KEYS with Doug Kesterson, so KEYS is a WBB-only option, not confirmed for MBB.",
   "streams": [],
   "sports": [
    "mbb"
   ],
   "basketball_only": true,
-  "source": "https://goislanders.com/news/2023/12/13/womens-basketball-at-utrgv-thursday-road-games-to-be-covered-on-live-radio.aspx"
+  "source": "https://goislanders.com/news/2025/11/4/womens-basketball-takes-on-texas-am-in-big-early-season-test.aspx",
+  "research": "unknown"
  },
  {
   "school": "University of California, Irvine",
@@ -6517,13 +6611,14 @@
   "conference": "Big West Conference",
   "calls": [],
   "athletics_site": "https://gohighlanders.com",
-  "notes": "UNCONFIRMED: no radio or audio info found on 2025-26 school pages",
+  "notes": "No radio or audio found in 2025-26 school releases ('This Week in UCR Athletics' lists ESPN+ only)",
   "streams": [],
   "sports": [
    "mbb"
   ],
   "basketball_only": true,
-  "source": "https://gohighlanders.com/news/2025/9/17/mens-basketball-uc-riverside-mens-basketball-to-face-national-opponents-in-2025-26-season.aspx"
+  "source": "https://gohighlanders.com/news/2025/11/3/general-this-week-in-ucr-athletics",
+  "research": "unknown"
  },
  {
   "school": "University of California, Santa Barbara",
@@ -6537,13 +6632,15 @@
   "conference": "Big West Conference",
   "calls": [],
   "athletics_site": "https://ucsbgauchos.com",
-  "notes": "UNCONFIRMED: student station KCSB 91.9 FM lists men's/women's basketball among its sports, but currency unclear; no 2025-26 school radio info found",
+  "notes": "An undated KCSB sports page says it covers men's and women's basketball live on its own streams (kcsbsports.mixlr.com; backup zeno.fm/radio/kcsbsports2). Calls omitted because games are on a separate stream, not KCSB-FM main. No 2025-26 date confirmation; the school's 2025-26 release names only TV/E",
   "streams": [],
   "sports": [
    "mbb"
   ],
   "basketball_only": true,
-  "source": "https://www.kcsb.org/sports/"
+  "source": "https://www.kcsb.org/sports/",
+  "listen_page": "https://kcsbsports.mixlr.com/",
+  "research": "unknown"
  },
  {
   "school": "University of Illinois Chicago",
@@ -6580,13 +6677,14 @@
   "conference": "America East Conference",
   "calls": [],
   "athletics_site": "https://umbcretrievers.com",
-  "notes": "UNCONFIRMED: no current radio station found; V-1370 AM was flagship in 2011 (stale)",
+  "notes": "No current local radio found. Only audio found: national SiriusXM College Sports (ch. 84) for the 2026 NCAA First Four vs Howard. V-1370 flagship dates from 2011 (stale).",
   "streams": [],
   "sports": [
    "mbb"
   ],
   "basketball_only": true,
-  "source": "https://my3.my.umbc.edu/groups/athletics/posts/8245"
+  "source": "https://www.siriusxm.com/blog/umbc-howard-college-basketball-radio",
+  "research": "unknown"
  },
  {
   "school": "University of Massachusetts Lowell",
@@ -6601,13 +6699,14 @@
   "conference": "America East Conference",
   "calls": [],
   "athletics_site": "https://goriverhawks.com",
-  "notes": "UNCONFIRMED for basketball; WCAP 980 AM carries River Hawks hockey (per Wikipedia); school pages show 'Listen' links",
+  "notes": "No basketball radio found. WCAP 980 and student WUML 91.5 are both listed for River Hawks hockey only (Wikipedia); Oct 2025 MBB release has no audio",
   "streams": [],
   "sports": [
    "mbb"
   ],
   "basketball_only": true,
-  "source": "https://en.wikipedia.org/wiki/WCAP_(AM)"
+  "source": "https://en.wikipedia.org/wiki/WUML",
+  "research": "unknown"
  },
  {
   "school": "University of North Carolina Asheville",
@@ -6644,13 +6743,14 @@
   "conference": "Southern Conference",
   "calls": [],
   "athletics_site": "https://uncgspartans.com",
-  "notes": "UNCONFIRMED: 2025-26 game previews list no radio or audio",
+  "notes": "2025-26 (Nov 2025) and 2024-25 previews list only 'Live Stats' and 'Video: ESPN+'. No radio or audio found.",
   "streams": [],
   "sports": [
    "mbb"
   ],
   "basketball_only": true,
-  "source": "https://uncgspartans.com/news/2025/11/7/mens-basketball-mens-basketball-hosts-elon-in-home-opener.aspx"
+  "source": "https://uncgspartans.com/news/2025/11/3/mens-basketball-mens-basketball-set-for-season-opener-at-kansas-state.aspx",
+  "research": "unknown"
  },
  {
   "school": "University of North Carolina Wilmington",
@@ -6661,20 +6761,21 @@
    "Seahawks",
    "Wilmington"
   ],
-  "network": "Seahawk Basketball Radio (Sunrise Broadcasting)",
-  "flagship": "95.9 The Breeze (WKXB-HD2 via 95.9 FM translator, Wilmington, NC)",
+  "network": "Seahawk radio on The Breeze",
+  "flagship": "95.9 The Breeze (WKXB-HD2 via 95.9 translator)",
   "listen_page": "https://959thebreeze.com",
   "conference": "Coastal Athletic Association",
   "calls": [],
   "athletics_site": "https://uncwsports.com",
-  "notes": "95.9 The Breeze is WKXB-HD2 (the WKXB main channel is a different format); women's home games were on The Breeze in 2022-23 Games are on 95.9 The Breeze (WKXB-HD2); the main WKXB stream is a different format.",
+  "notes": "2025-26 (Nov 17 2025 release): 'All games will be broadcast locally on The Breeze 95.9 FM and on the internet at 959thebreeze.com.' The Breeze is WKXB-HD2 (WKXB main is a different format), so no calls; no direct stream URL found (station site not fetchable). WBB was on The Breeze in 2022-23; not re",
   "streams": [],
   "sports": [
    "mbb",
    "wbb"
   ],
   "basketball_only": true,
-  "source": "https://uncwsports.com/news/2025/11/17/uncw-announces-linear-broadcasts-for-mens-basketball.aspx"
+  "source": "https://uncwsports.com/news/2025/11/17/uncw-announces-linear-broadcasts-for-mens-basketball.aspx",
+  "research": "confirmed"
  },
  {
   "school": "University of Texas at Arlington",
@@ -6735,13 +6836,14 @@
   "conference": "Atlantic 10 Conference",
   "calls": [],
   "athletics_site": "https://vcuathletics.com",
-  "notes": "UNCONFIRMED: last confirmed home was iHeart Fox Sports 910 AM / Big 98.5 FM (2016 five-year deal); current station not found",
+  "notes": "No current source. Last known: 'Ram Radio on Fox Sports 910' (2016 deal, 2019 article), too old. 2025-26 VCU schedule releases list TV only; SiriusXM carried NCAA games",
   "streams": [],
   "sports": [
    "mbb"
   ],
   "basketball_only": true,
-  "source": "https://www.learfield.com/2016/05/vcu-announces-fox-sports-910-and-big-98-5-as-new-radio-home-for-the-rams/"
+  "source": "https://commonwealthtimes.org/2019/01/30/the-team-behind-the-team-radio-broadcaster/",
+  "research": "unknown"
  },
  {
   "school": "University of Vermont",
@@ -6824,17 +6926,21 @@
    "Musketeers",
    "X"
   ],
-  "network": "Xavier Musketeers Radio Network (Learfield)",
+  "network": "Xavier Radio Network (iHeartMedia Cincinnati)",
   "conference": "Big East Conference",
-  "calls": [],
+  "calls": [
+   "WLW"
+  ],
   "athletics_site": "https://goxavier.com",
-  "notes": "UNCONFIRMED for 2025-26+: 700 WLW (Sunderman/Larkin) was confirmed for 2024-25; coach's show moved to 55KRC; women's on the Varsity Network app",
+  "notes": "2025-26 (Nov 2025 and Jan 2026 previews): 'Xavier Radio: 700 WLW with play-by-play from XU Hall of Famer Joe Sunderman.' 2026-27 not yet confirmed (season just starting). Women's basketball is on the Varsity Network app, not WLW.",
   "streams": [],
   "sports": [
    "mbb"
   ],
   "basketball_only": true,
-  "source": "https://goxavier.com/news/2024/11/14/mens-basketball-hosts-wake-forest-on-saturday-at-noon"
+  "source": "https://goxavier.com/news/2025/11/26/mens-basketball-opens-a-five-game-homestand-on-friday",
+  "flagship": "700 WLW, Cincinnati; Joe Sunderman PBP",
+  "research": "confirmed"
  },
  {
   "school": "University of San Francisco",
