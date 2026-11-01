@@ -1,35 +1,28 @@
 import json, urllib.request, datetime as dt
 B = "https://site.api.espn.com/apis/site/v2/sports/"
-S = ["basketball/mens-college-basketball","basketball/womens-college-basketball","hockey/mens-college-hockey","hockey/womens-college-hockey","volleyball/womens-college-volleyball","baseball/college-baseball","softball/college-softball","lacrosse/mens-college-lacrosse"]
 def get(u):
     try:
         with urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent":"Mozilla/5.0"}), timeout=30) as r: return json.load(r)
     except Exception as e: return {"_err": str(e)}
-today = dt.date.today()
-rng = f"{today:%Y%m%d}-{today+dt.timedelta(days=8):%Y%m%d}"
-for s in S:
-    print("=====", s)
-    for q in ["limit=500", "groups=50&limit=500", f"dates={rng}&limit=900", f"dates={rng}&groups=50&limit=900"]:
-        d = get(f"{B}{s}/scoreboard?{q}")
-        if "_err" in d: print(q, "ERR", d["_err"]); continue
-        L = (d.get("leagues") or [{}])[0]
-        ev = d.get("events", [])
-        cal = L.get("calendar") or []
-        print(q, "| events", len(ev), "| season", L.get("season",{}).get("year"), L.get("season",{}).get("type",{}).get("name") if isinstance(L.get("season",{}).get("type"),dict) else L.get("season",{}).get("type"),
-              "| calStart", L.get("calendarStartDate"), "calEnd", L.get("calendarEndDate"), "| calType", L.get("calendarType"), "| cal n", len(cal), "first", cal[:2] if cal and isinstance(cal[0],str) else (cal[0].get("label") if cal else None), "last", cal[-1] if cal and isinstance(cal[-1],str) else None)
-        if ev and q=="limit=500":
-            e = ev[0]; c = e["competitions"][0]
-            print("  sample:", e["name"], e["date"], e["status"]["type"].get("shortDetail"), "| comp keys", sorted(c.keys()))
-            print("  situation:", json.dumps(c.get("situation"))[:400])
-            t = c["competitors"][0]
-            print("  competitor keys", sorted(t.keys()), "| team keys", sorted(t["team"].keys()), "| conf", t["team"].get("conferenceId"), "| records", [r.get("summary") for r in t.get("records",[])][:2], "| rank", t.get("curatedRank"))
-            print("  status", json.dumps(e["status"])[:300])
-            sm = get(f"{B}{s}/summary?event={e['id']}")
-            print("  summary keys", sorted(sm.keys()) if "_err" not in sm else sm)
-            if "_err" not in sm:
-                print("  plays n", len(sm.get("plays") or []), "sample", json.dumps((sm.get("plays") or [{}])[-1])[:400])
-                bs = sm.get("boxscore",{}).get("teams") or []
-                if bs: print("  box stats", [ (x.get("name") or x.get("label"), x.get("displayValue")) for x in bs[0].get("statistics",[])][:14])
-    # live/in-season events today states
-groups = get(B+"basketball/mens-college-basketball/groups")
-print("MBB groups", json.dumps(groups)[:600])
+t = dt.date.today()
+for s in ["baseball/college-softball","softball/college-softball","softball/womens-college-softball"]:
+    d = get(f"{B}{s}/scoreboard"); L=(d.get("leagues") or [{}])[0]
+    print("SOFT", s, d.get("_err") or (len(d.get("events",[])), L.get("calendarEndDate"), (L.get("calendar") or [None])[0]))
+for s in ["basketball/mens-college-basketball","hockey/mens-college-hockey","volleyball/womens-college-volleyball","baseball/college-baseball"]:
+    for q in [f"dates={t+dt.timedelta(days=1):%Y%m%d}&limit=500", f"dates={t+dt.timedelta(days=1):%Y%m%d}&groups=50&limit=500", "dates=20270213&limit=500", "dates=2027&limit=5"]:
+        d = get(f"{B}{s}/scoreboard?{q}"); L=(d.get("leagues") or [{}])[0]; cal=L.get("calendar") or []
+        print(s, q, d.get("_err") or ("events", len(d.get("events",[])), "cal", cal[:1], cal[-1:] if cal and isinstance(cal[-1],str) else "", "end", L.get("calendarEndDate")))
+    g = get(f"{B}{s}/groups")
+    if "_err" in g: print(" groups ERR", g["_err"]); continue
+    def walk(x, depth=0):
+        for c in x.get("children",[]) or []:
+            print("  "*depth, " grp", c.get("name"), c.get("abbreviation"), "teams", len(c.get("teams",[]) or []))
+            walk(c, depth+1)
+    for top in g.get("groups",[]): print(" TOP", top.get("name"), len(top.get("teams",[]) or [])); walk(top)
+# basketball live situation & plays coordinate & summary header
+d = get(f"{B}volleyball/womens-college-volleyball/scoreboard")
+for e in d.get("events",[])[:2]:
+    c=e["competitions"][0]; print("VB", e["status"]["type"]["shortDetail"], [ (x["team"]["abbreviation"], x.get("score"), [l.get("value") for l in x.get("linescores",[])]) for x in c["competitors"]], json.dumps(c.get("situation"))[:200])
+d = get(f"{B}hockey/mens-college-hockey/scoreboard")
+for e in d.get("events",[])[:2]:
+    c=e["competitions"][0]; print("HK", e["status"]["type"]["shortDetail"], e["status"].get("displayClock"), [(x["team"]["abbreviation"], x.get("score"), x["team"].get("color")) for x in c["competitors"]])
