@@ -1,40 +1,25 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-[AVFormatContext @ 0x610cba6bde80] Invalid HLS ID3 audio timestamp 16683505789
-[0;93m2026-11-01 22:41:01.462649589 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-[AVFormatContext @ 0x58c10d3935c0] Invalid HLS ID3 audio timestamp 16684126720
-[hls @ 0x638fa5ca8f80] URL https://prod-23-20-60-37.amperwave.net/a/?lid=ced6bada-7431-4443-bc7e-4a066c1662c5&u=https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Forigin.cis.abacast.net%2Fc%2Fad%2Fa%2Fddbb29e1b7482d7ba3bdb13178f4515a_0.aac%3Fsid%3D8206 is not in allowed_segment_extensions, consider updating hls.c and submitting a patch to ffmpeg-devel, if this should be added
-[out#0/wav @ 0x638fa5fc0880] Output file does not contain any stream
-Error opening output file /tmp/tmp6cfmrami.wav.
+[mp3 @ 0x653206513f80] Failed to find two consecutive MPEG audio frames.
+[in#0 @ 0x653206513cc0] Error opening input: Invalid data found when processing input
+Error opening input file https://player.amperwave.net/1e76912450470b8c0c7c64cbc7a1bb80.mp3.
+Error opening input files: Invalid data found when processing input
+[0;93m2026-11-01 23:39:42.499108935 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[in#0 @ 0x5b2c1b788cc0] Error opening input: Invalid data found when processing input
+Error opening input file https://yield-op-idsync.live.streamtheworld.com/partnerIds.
+Error opening input files: Invalid data found when processing input
+[AVFormatContext @ 0x5aef81ec8fc0] Invalid HLS ID3 audio timestamp 17001318400
+[hls @ 0x5f0c6074af80] URL https://prod-34-201-70-233.amperwave.net/a/?lid=6496d2a3-7ad3-424e-8553-75a2faf9dc25&u=https%3A%2F%2Fd25j5qm9y8ulag.cloudfront.net%2Fc%2Fad%2Fa%2F504cf6ace00e2e0a17e4b6360dac19ad_0.aac%3Fsid%3D8206 is not in allowed_segment_extensions, consider updating hls.c and submitting a patch to ffmpeg-devel, if this should be added
+[out#0/wav @ 0x5f0c60a62880] Output file does not contain any stream
+Error opening output file /tmp/tmp7tkko4iy.wav.
 Error opening output files: Invalid argument
-[AVFormatContext @ 0x5fa1ede2ffc0] Invalid HLS ID3 audio timestamp 16688619520
-[AVFormatContext @ 0x563b892a35c0] Invalid HLS ID3 audio timestamp 16696706560
-[AVFormatContext @ 0x5e013e7f5fc0] Invalid HLS ID3 audio timestamp 16697605120
-listening to 28 streams in 6 live games
-maybe_not  wvb  University of California, Los  "in your car, it's gotten really complicated.  The experts at Amko undergo the most rigorou"
-maybe_not  wvb  University of California, Los  "except for that complicated relationship.  When it comes to that, you're on your own.  Dou"
-maybe_not  wvb  University of California, Los  "And nothing we can't fix.  It's going, gee!  What's that?  From transmissions to brakes an"
+[AVFormatContext @ 0x5b2eb29b35c0] Invalid HLS ID3 audio timestamp 17010304000
+listening to 11 streams in 2 live games
+maybe_not  wvb  University of Alabama          "That's newly inaugurated Oklahoma governor Amanda Clark on Tulsa King and she's cracking d"
+not_game   wvb  University of California, Los  "It's gotten really complicated.  The experts at Amkill undergo the most rigorous training "
+not_game   wvb  University of California, Los  "We've been the trusted experts in transmission repair.  Check out AMCO's Multiple Financin"
+not_game   wvb  University of California, Los  "and nothing we can't fix.  It's going, gee!  What's that?  From transmissions to breaks, a"
 quiet      wvb  University of Wisconsin-Madiso ''
-maybe_not  wvb  University of Wisconsin-Madiso 'MSN reporting the rate is linked to a sex worker, a senior law enforcement official told t'
-maybe_not  wvb  University of Wisconsin-Madiso "my lord.  Us to trust.  Well, that's what happened.  So I will busted the trust.  So he's "
-quiet      wvb  University of Alabama          ''
-quiet      wvb  University of Alabama          '6.8.  Classic rock.  1069.'
-quiet      wvb  University of Alabama          ''
+not_game   wvb  University of Wisconsin-Madiso 'many to drive. Never underestimate just a few. Buzz driving is drunk driving. A public  se'
+not_game   wvb  University of Wisconsin-Madiso 'One too many to drive. Never underestimate just a few.  Buzz driving is drunk driving.  A '
 quiet      wvb  Mississippi State University   ''
-maybe_not  wvb  Mississippi State University   'And he left me earlier this year.  And I think I just gave away the spoiler of my book.  B'
-game       mhk  Dartmouth College              'Last game, I suppose, during the course of this contest here today, to set the scene for y'
-not_game   mhk  Dartmouth College              "It's a very peaceful place and it's a place where we can just come in.  I tell the boys, i"
-game       wvb  University of Missouri         "hopefully they'll take heed of that and we'll have a good outcome.  There was Missouri Dep"
-not_game   wvb  University of Missouri         "There's no letting up on I-44.  It's a major corridor across the country.  And then also o"
-quiet      wvb  University of Tennessee        'Relax in different angles.'
-quiet      wvb  University of Tennessee        'This is an American country count down shirt shot'
-quiet      wvb  University of Tennessee        'Relax in different angles.'
-quiet      wvb  Auburn University              ''
-not_game   wvb  University of Oklahoma         "like, man, you know, and that's what keeps you coming back to these contests.  It's like, "
-not_game   wvb  University of Oklahoma         "like, man, you know, and that's what keeps you coming back to these contests.  It's like, "
-not_game   wvb  University of Oklahoma         "like, man, you know, and that's what keeps you coming back to these contests.  It's like, "
-not_game   wvb  Colgate University             "considered from NPR news, I'm Sasha Fyper.  Affordability is driving many voters to the po"
-maybe_not  wvb  Colgate University             'comes from the station. And from Made in Cookware, Made in Cookware is crafted by chefs  f'
-quiet      wvb  United States Military Academy ''
-maybe_not  wvb  United States Military Academy 'We are here in the DM and our relationship to it these 20 years later to talk about life a'
-maybe_not  wvb  United States Military Academy "If you're a super fan, we're going to get into all the secrets, theories, easter eggs,  sl"
-{'maybe_not': 9, 'quiet': 10, 'no_audio': 1, 'game': 2, 'not_game': 6}
+{'no_audio': 3, 'maybe_not': 1, 'not_game': 5, 'quiet': 2}
