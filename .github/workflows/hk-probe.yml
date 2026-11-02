@@ -1,0 +1,26 @@
+name: Hockey data probe (one-off)
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          python3 - <<'PY'
+          import json, urllib.request
+          B="https://site.api.espn.com/apis/site/v2/sports/hockey/"
+          g=lambda u: json.load(urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent":"Mozilla/5.0"}), timeout=30))
+          for lg in ["mens-college-hockey","womens-college-hockey"]:
+              d=g(B+lg+"/scoreboard?dates=20261031&limit=900"); ev=d.get("events",[])
+              print(lg, len(ev))
+              for e in ev[:2]:
+                  c=e["competitions"][0]
+                  for t in c["competitors"]:
+                      print(" ", t["team"].get("abbreviation"), t.get("score"), "stats", json.dumps(t.get("statistics"))[:400], "lines", [l.get("value") for l in t.get("linescores",[])], "leaders", json.dumps(t.get("leaders"))[:200])
+                  print("  situation", json.dumps(c.get("situation"))[:300], "| details", json.dumps(c.get("details"))[:600])
+                  s=g(B+lg+"/summary?event="+e["id"])
+                  print("  summary keys", list(s.keys()))
+                  for k in ("boxscore","plays","scoringPlays","gameInfo","header"):
+                      print("   ", k, json.dumps(s.get(k))[:700])
+          PY
