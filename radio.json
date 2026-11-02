@@ -319,7 +319,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM9201-MP3"
 ],
-"game_feeds_at": "2026-11-02T18:41:13Z",
+"game_feeds_at": "2026-11-02T19:43:00Z",
 "game_feeds_sport": "wbb"
 },
 {
@@ -597,6 +597,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM3402-MP3",
 "https://img.leanstream.co/IM3401-MP3",
 "https://stream.revma.ihrhls.com/zc5238",
 "https://stream.revma.ihrhls.com/zc5238/hls.m3u8",
@@ -610,7 +611,11 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM3402-MP3"
+],
+"game_feeds_at": "2026-11-02T19:43:00Z",
+"game_feeds_sport": "wbb"
 },
 {
 "school": "United States Military Academy",
@@ -925,6 +930,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM5702-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.m3u8",
 "http://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.aac"
@@ -936,7 +942,12 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM5702-MP3"
+],
+"game_feeds_at": "2026-11-02T19:43:00Z",
+"game_feeds_sport": "wbb",
+"live_only": true
 },
 {
 "school": "University of Tulsa",
@@ -1670,7 +1681,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM1502-MP3"
 ],
-"game_feeds_at": "2026-11-02T18:41:13Z",
+"game_feeds_at": "2026-11-02T19:43:00Z",
 "game_feeds_sport": "wbb",
 "live_only": true
 },
@@ -1968,7 +1979,6 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://img.leanstream.co/IM5802-MP3",
 "https://img.leanstream.co/IM5801-MP3",
 "https://radiohio.streamguys1.com/cols/wbnsfm-iheart.m4a",
 "https://oom-radiohio.streamguys1.com/cols/wbnsfm.mp3",
@@ -1979,14 +1989,10 @@
 "last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://ohiostatebuckeyes.com",
-"game_feeds": [
-"https://img.leanstream.co/IM5802-MP3"
-],
-"game_feeds_at": "2026-11-02T03:44:34Z",
-"game_feeds_sport": "mhk",
 "station_sports": null,
 "sport_streams": null,
-"sport_station": null
+"sport_station": null,
+"game_feeds": null
 },
 {
 "school": "University of Michigan",
@@ -2006,22 +2012,16 @@
 "game_only": null,
 "no_radio": null,
 "notes": null,
-"streams": [
-"https://img.leanstream.co/IM4001-MP3"
-],
+"streams": [],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-02",
-"live_only": true,
+"live_only": false,
 "athletics_site": "https://mgoblue.com",
-"game_feeds": [
-"https://img.leanstream.co/IM4001-MP3"
-],
-"game_feeds_at": "2026-11-02T03:44:34Z",
-"game_feeds_sport": "mhk",
 "station_sports": null,
 "sport_streams": null,
-"sport_station": null
+"sport_station": null,
+"game_feeds": null
 },
 {
 "school": "Pennsylvania State University",
@@ -2450,6 +2450,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF8203-MP3",
 "https://img.leanstream.co/LF8201-MP3",
 "https://img.leanstream.co/LF8204-MP3",
 "https://live.amperwave.net/direct/goodkarma-kspnamaac-ibc",
@@ -2463,7 +2464,11 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/LF8203-MP3"
+],
+"game_feeds_at": "2026-11-02T19:43:00Z",
+"game_feeds_sport": "wbb"
 },
 {
 "school": "University of Washington",
@@ -2500,7 +2505,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM1001-MP3"
 ],
-"game_feeds_at": "2026-11-02T18:41:13Z",
+"game_feeds_at": "2026-11-02T19:43:00Z",
 "game_feeds_sport": "wbb"
 },
 {
@@ -4439,12 +4444,16 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-02",
-"live_only": false,
+"live_only": true,
 "athletics_site": "https://woffordterriers.com",
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"game_feeds": null
+"game_feeds": [
+"https://peaksports.leanstream.co/PS0101-MP3"
+],
+"game_feeds_at": "2026-11-02T19:43:00Z",
+"game_feeds_sport": "wbb"
 },
 {
 "school": "East Texas A&M University",
@@ -5328,7 +5337,7 @@
 "game_feeds": [
 "https://img.leanstream.co/LF3701-MP3"
 ],
-"game_feeds_at": "2026-11-02T18:41:13Z",
+"game_feeds_at": "2026-11-02T19:43:00Z",
 "game_feeds_sport": "wbb"
 },
 {
@@ -5381,7 +5390,6 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://img.leanstream.co/LF2502-MP3",
 "https://img.leanstream.co/LF2501-MP3",
 "https://live.amperwave.net/direct/horizonbroadcasting-kbnwammp3-ibc1"
 ],
@@ -5394,9 +5402,9 @@
 "sport_streams": null,
 "sport_station": null,
 "game_feeds": [
-"https://img.leanstream.co/LF2502-MP3"
+"https://img.leanstream.co/LF2501-MP3"
 ],
-"game_feeds_at": "2026-11-02T18:41:13Z",
+"game_feeds_at": "2026-11-02T19:43:00Z",
 "game_feeds_sport": "wbb"
 },
 {
@@ -7416,7 +7424,7 @@
 "game_feeds": [
 "https://cdn.jwplayer.com/live/broadcast/qyhhpN0D.m3u8"
 ],
-"game_feeds_at": "2026-11-02T18:41:13Z",
+"game_feeds_at": "2026-11-02T19:43:00Z",
 "game_feeds_sport": "mbb"
 },
 {

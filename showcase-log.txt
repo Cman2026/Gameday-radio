@@ -13,19 +13,16 @@ No user sessions are running outdated binaries.
 No VM guests are running outdated hypervisor (qemu) binaries on this host.
 allaccess error https://sjsuspartans.com HTTP Error 404: Not Found
 allaccess error https://goutsa.com HTTP Error 404: Not Found
-allaccess error https://gostanford.com HTTP Error 404: Not Found
-allaccess error https://gamecocksonline.com HTTP Error 404: Not Found
-allaccess error https://vucommodores.com HTTP Error 404: Not Found
-allaccess error https://clemsontigers.com HTTP Error 404: Not Found
 allaccess error https://huskers.com HTTP Error 404: Not Found
 allaccess error https://golobos.com HTTP Error 404: Not Found
+allaccess error https://gostanford.com HTTP Error 404: Not Found
 allaccess error https://uclabruins.com HTTP Error 404: Not Found
-official feeds added for: Murray State University (mbb), University of Texas at El Paso (mbb), University of Mississippi (wbb), University of Southern Mississippi (wbb), Boise State University (wbb), Montana State University (wbb), University of Houston (wbb), University of Idaho (wbb), University of Washington (wbb), University of North Carolina at Chapel Hill (wbb)
+allaccess error https://gopsusports.com HTTP Error 404: Not Found
+official feeds added for: University of Texas at El Paso (mbb), University of North Carolina at Chapel Hill (wbb), University of Washington (wbb), Montana State University (wbb), University of Houston (wbb), University of Idaho (wbb), University of Southern California (wbb), Tulane University (wbb), University of Connecticut (wbb)
 allaccess error https://goseattleu.com HTTP Error 404: Not Found
-Lipscomb University wbb -> []
-University of Missouri-Kansas City wbb -> []
-University of Missouri-Kansas City wbb -> []
+leanplayer xml https://wofford.leanplayer.com/ <?xml version="1.0"?> <main><sports><sport><id>1</id><name>Football</name><is_show>0</is_show></sport><sport><id>2</id><name>Men&#x2019;s Basketball</name><is_show>0</is_show></sport><sport><id>3</id><name>Women&#x2019;s Basketball</name><is_show>0</is_show></sport></sports><events><current_ev/><upcoming_ev><event><id>116706</id><start_timestamp>1793745900</start_timestamp><start>2026-11-03 22:45:00</start><end>2026-11-04 02:45:00</end><sport_id>2</sport_id><opponent>Tennessee</opponent><url>https://peaksports.leanstream.co/PS0101-MP3</url></event><event><id>116707</id><start_timestamp>1794008
+Wofford College wbb -> (leanplayer) ['https://peaksports.leanstream.co/PS0101-MP3']
 Hampton University wbb -> []
 Seattle University wbb -> []
 Lafayette College wbb -> []
-other SIDEARM sport names seen: football, general, mbball, mhockey, wbball
+other SIDEARM sport names seen: football, general, mbball, mhockey
