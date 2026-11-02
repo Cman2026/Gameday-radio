@@ -488,13 +488,15 @@
    "Rice",
    "Rice Owls"
   ],
-  "network": "Rice Owls Radio Network",
-  "flagship": "UNVERIFIED (from memory, not confirmed this run): flagship not confirmed",
+  "network": "Rice Owls (The Varsity Network)",
+  "flagship": "",
   "listen_page": "https://riceowls.com",
   "conference": "American Conference",
   "calls": [],
   "streams": [],
-  "athletics_site": "https://riceowls.com"
+  "athletics_site": "https://riceowls.com",
+  "no_radio": true,
+  "notes": "2026-27 riceowls.com schedule links every game's live audio to The Varsity Network app (thevarsitynetwork.com audioapplink); no free web stream."
  },
  {
   "school": "University of South Florida",
@@ -1654,8 +1656,15 @@
   "calls": [
    "WUSB"
   ],
-  "streams": [],
-  "athletics_site": "https://stonybrookathletics.com"
+  "streams": [
+   "https://stream.wusb.stonybrook.edu:8092/listen.pl"
+  ],
+  "athletics_site": "https://stonybrookathletics.com",
+  "bad_streams": [
+   "stream.wusb.stonybrook.edu:8080",
+   "stream.wusb.stonybrook.edu:8090"
+  ],
+  "notes": "WUSB https stream (port 8092) confirmed audio Nov 2026; WUSB as basketball carrier still unconfirmed, the listening check will flag non-game audio."
  },
  {
   "school": "Towson University",
@@ -1786,8 +1795,14 @@
    "WEEX-AM",
    "WTKZ-AM"
   ],
-  "streams": [],
-  "athletics_site": "https://lehighsports.com"
+  "streams": [
+   "https://playerservices.streamtheworld.com/api/livestream-redirect/WEEXAM.mp3"
+  ],
+  "athletics_site": "https://lehighsports.com",
+  "bad_streams": [
+   "WEEXAMAAC"
+  ],
+  "notes": "TuneIn lists the WEEX stream as WEEXAM (mp3); the AAC mount failed in-page playback (Nov 2026)."
  },
  {
   "school": "University of Richmond",
@@ -2134,10 +2149,14 @@
    "WJAB"
   ],
   "streams": [
+   "https://wjab.streamguys1.com/",
    "https://wjab.streamguys1.com/live",
    "https://wjab.streamguys1.com/?uuid=vm1k8lr5&dist=nprgrove"
   ],
-  "athletics_site": "https://aamusports.com"
+  "athletics_site": "https://aamusports.com",
+  "bad_streams": [
+   "wjab.streamguys.net/listen.pls"
+  ]
  },
  {
   "school": "Alabama State University",
@@ -2893,14 +2912,15 @@
    "Southeast Missouri State Redhawks"
   ],
   "network": "",
-  "flagship": "KCGQ 99.3 FM 'Real Rock' (Cape Girardeau, MO)",
-  "listen_page": "",
+  "flagship": "99X (KCGQ 99.3 FM, Cape Girardeau, MO)",
+  "listen_page": "https://99xfm.com",
   "conference": "OVC-Big South Football Association",
   "calls": [
    "KCGQ-FM"
   ],
   "streams": [],
-  "athletics_site": "https://gosoutheast.com"
+  "athletics_site": "https://gosoutheast.com",
+  "notes": "KCGQ relaunched as 99X; SEMO schedule links basketball audio to 99xfm.com (Nov 2026)."
  },
  {
   "school": "Tennessee State University",
@@ -3232,7 +3252,11 @@
   "streams": [
    "https://kisufm.isu.edu:8443/kisufm"
   ],
-  "athletics_site": "https://isubengals.com"
+  "athletics_site": "https://isubengals.com",
+  "bad_streams": [
+   "kisufm.isu.edu:8000"
+  ],
+  "notes": "https stream on port 8443 confirmed audio Nov 2026; the http port 8000 copy cannot play on the https site."
  },
  {
   "school": "Northern Arizona University",
@@ -4390,15 +4414,19 @@
    "UTEP Miners",
    "Miners"
   ],
-  "network": "UTEP Miners radio (unverified)",
-  "flagship": "KLAQ 95.5 FM (El Paso, TX)",
+  "network": "UTEP Miners radio",
+  "flagship": "600 ESPN El Paso (KROD 600 AM)",
   "listen_page": "",
   "conference": "Mountain West Conference",
   "calls": [
-   "KLAQ-FM"
+   "KROD"
   ],
-  "streams": [],
-  "athletics_site": "https://utepminers.com"
+  "streams": [
+   "https://live.amperwave.net/direct/townsquare-krodamaac-ibc3",
+   "https://live.amperwave.net/manifest/townsquare-krodamaac-ibc3"
+  ],
+  "athletics_site": "https://utepminers.com",
+  "notes": "600 ESPN El Paso has been the flagship for football and men's basketball since 2019 (utepminers.com). KLAQ (rock) was heard playing music during the Nov 2 2026 men's basketball game, so it was dropped."
  },
  {
   "school": "University of Wyoming",
@@ -6049,14 +6077,18 @@
    "KYAL"
   ],
   "athletics_site": "https://oruathletics.com",
-  "notes": "2025-26 preview (Nov 12 2025 vs Tulsa) lists Radio: 99.9 FM ESPN. Per Wikipedia, 99.9 is K260CR, a full-time translator of KYAL 1550 (ESPN Radio affiliate). Wikipedia still shows 'Sports Animal' branding, so check that the resolved KYAL stream is the ESPN Tulsa feed.",
-  "streams": [],
+  "notes": "2025-26 preview (Nov 12 2025 vs Tulsa) lists Radio: 99.9 FM ESPN. Per Wikipedia, 99.9 is K260CR, a full-time translator of KYAL 1550 (ESPN Radio affiliate). Wikipedia still shows 'Sports Animal' branding, so check that the resolved KYAL stream is the ESPN Tulsa feed. Nov 2026: sportsanimalradio.com player plays https://ice6.securenetsystems.net/KYAL.",
+  "streams": [
+   "https://ice6.securenetsystems.net/KYAL"
+  ],
   "sports": [
    "mbb"
   ],
   "basketball_only": true,
   "source": "https://oruathletics.com/news/2025/11/11/mens-basketball-orumbb-hosts-tulsa-for-60th-mayors-cup.aspx",
-  "research": "confirmed"
+  "research": "confirmed",
+  "securenet": "KYAL",
+  "station_website": "http://sportsanimalradio.com"
  },
  {
   "school": "University of the Pacific",
@@ -7067,5 +7099,37 @@
    "wbb"
   ],
   "basketball_only": true
+ },
+ {
+  "school": "Union College",
+  "names": [
+   "Union (NY)",
+   "Union Garnet Chargers",
+   "Union Dutchwomen"
+  ],
+  "network": "",
+  "flagship": "",
+  "listen_page": "https://unionathletics.com",
+  "conference": "ECAC Hockey",
+  "calls": [],
+  "streams": [],
+  "athletics_site": "https://unionathletics.com",
+  "notes": "Hockey-only Division I school (added Nov 2026). No radio partner found; the game-time finder checks the school site for audio."
+ },
+ {
+  "school": "Rensselaer Polytechnic Institute",
+  "names": [
+   "Rensselaer",
+   "RPI",
+   "RPI Engineers"
+  ],
+  "network": "",
+  "flagship": "WRPI 91.5 FM (Troy, NY; student station, men's hockey)",
+  "listen_page": "https://rpiathletics.com",
+  "conference": "ECAC Hockey",
+  "calls": [],
+  "streams": [],
+  "athletics_site": "https://rpiathletics.com",
+  "notes": "Hockey-only Division I school (added Nov 2026). WRPI streams are http only (icecast1.wrpi.org:8000), so they can't play on the https site; women's hockey audio, if any, is on the school site."
  }
 ]
