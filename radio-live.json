@@ -1,82 +1,5 @@
 {
  "streams": {
-  "https://cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8": {
-   "school": "University of North Carolina at Charlotte",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "",
-   "at": "2026-10-31T02:26:10Z"
-  },
-  "https://livecdn.use1-0009.jwplive.com/live/sites/52ztEVMl/media/ncAcaXBq/live.isml/.m3u8": {
-   "school": "University of North Carolina at Charlotte",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "",
-   "at": "2026-10-31T02:26:10Z"
-  },
-  "https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.aac": {
-   "school": "Tulane University",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "The Ticket 106.7",
-   "at": "2026-10-31T02:26:10Z"
-  },
-  "https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.m3u8": {
-   "school": "Tulane University",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "",
-   "at": "2026-10-31T02:26:10Z"
-  },
-  "http://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.aac": {
-   "school": "Tulane University",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "The Ticket 106.7",
-   "at": "2026-10-31T02:26:10Z"
-  },
-  "https://stream.revma.ihrhls.com/zc601": {
-   "school": "University of Central Florida",
-   "verdict": "unknown",
-   "title": "Spot Block End",
-   "icy_name": "96.9 The Game",
-   "at": "2026-10-31T02:26:10Z"
-  },
-  "https://stream.revma.ihrhls.com/zc601/hls.m3u8": {
-   "school": "University of Central Florida",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "",
-   "at": "2026-10-31T02:26:10Z"
-  },
-  "http://stream.revma.ihrhls.com/zc601": {
-   "school": "University of Central Florida",
-   "verdict": "unknown",
-   "title": "Spot Block End",
-   "icy_name": "96.9 The Game",
-   "at": "2026-10-31T02:26:10Z"
-  },
-  "https://ais-sa1.streamon.fm/7050_24k.aac": {
-   "school": "Baylor University",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "",
-   "at": "2026-10-31T02:26:10Z"
-  },
-  "https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8?exp=1793411280&sig=93efabbfc2fa5e2718fbba2a13937ed1": {
-   "school": "University of North Carolina at Charlotte",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "",
-   "at": "2026-10-31T02:26:10Z"
-  },
-  "https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8?exp=1793414160&sig=a13827bfd9c3ce8257be00c20817144b": {
-   "school": "University of North Carolina at Charlotte",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "",
-   "at": "2026-10-31T02:26:10Z"
-  },
   "https://live.amperwave.net/direct/audacy-kifmamaac-imc": {
    "school": "California State University, Sacramento",
    "verdict": "unknown",
@@ -6339,9 +6262,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-02T01:54:00Z",
+   "at": "2026-11-02T02:43:22Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mhk|https://img.leanstream.co/IM5801-MP3": {
@@ -6350,9 +6273,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-02T01:54:00Z",
+   "at": "2026-11-02T02:43:22Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mhk|https://radiohio.streamguys1.com/cols/wbnsfm-iheart.m4a": {
@@ -6361,9 +6284,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-02T01:54:00Z",
+   "at": "2026-11-02T02:43:22Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mhk|https://oom-radiohio.streamguys1.com/cols/wbnsfm.mp3": {
@@ -6372,9 +6295,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-02T01:54:00Z",
+   "at": "2026-11-02T02:43:22Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mhk|https://img.leanstream.co/IM4001-MP3": {
@@ -6383,11 +6306,11 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-02T01:54:00Z",
+   "at": "2026-11-02T02:43:22Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   }
  },
- "checked": "2026-11-02T01:54:00Z"
+ "checked": "2026-11-02T02:43:22Z"
 }

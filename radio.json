@@ -1974,7 +1974,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM5802-MP3"
 ],
-"game_feeds_at": "2026-11-02T01:53:53Z",
+"game_feeds_at": "2026-11-02T02:43:15Z",
 "game_feeds_sport": "mhk",
 "station_sports": null,
 "sport_streams": null,
@@ -2009,7 +2009,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM4001-MP3"
 ],
-"game_feeds_at": "2026-11-02T01:53:53Z",
+"game_feeds_at": "2026-11-02T02:43:15Z",
 "game_feeds_sport": "mhk",
 "station_sports": null,
 "sport_streams": null,
@@ -6694,6 +6694,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://cdn.jwplayer.com/live/broadcast/uFslX4hh.m3u8",
 "https://ic.liberty.edu:8443/WRVL"
 ],
 "misses": 0,
@@ -6704,7 +6705,11 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"game_feeds": null
+"game_feeds": [
+"https://cdn.jwplayer.com/live/broadcast/uFslX4hh.m3u8"
+],
+"game_feeds_at": "2026-11-02T02:43:15Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "Middle Tennessee State University",
