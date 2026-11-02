@@ -3250,13 +3250,25 @@
    "KISU"
   ],
   "streams": [
-   "https://kisufm.isu.edu:8443/kisufm"
+   "http://kisufm.isu.edu:8000/kisufm"
   ],
   "athletics_site": "https://isubengals.com",
   "bad_streams": [
    "ds.npr.org/"
   ],
-  "notes": "https stream on port 8443 plays audio (curl, Nov 2026) but the resolver's Python TLS can't handshake with it; the http port 8000 copy is kept as the outside link."
+  "notes": "https stream on port 8443 plays audio (curl, Nov 2026) but the resolver's Python TLS can't handshake with it; the http port 8000 copy is kept as the outside link. Basketball uses the 8443 https stream directly via sport_streams.",
+  "sport_streams": {
+   "mbb": [
+    "https://kisufm.isu.edu:8443/kisufm"
+   ],
+   "wbb": [
+    "https://kisufm.isu.edu:8443/kisufm"
+   ]
+  },
+  "sport_station": {
+   "mbb": "KISU 91.1 FM (Pocatello, ID)",
+   "wbb": "KISU 91.1 FM (Pocatello, ID)"
+  }
  },
  {
   "school": "Northern Arizona University",
