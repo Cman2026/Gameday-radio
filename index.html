@@ -1451,9 +1451,44 @@ function lum(hex){ const m=/^#?([0-9a-f]{6})$/i.exec(hex||""); if(!m) return nul
 function cdist(x,y){ const p=h=>[0,2,4].map(i=>parseInt(h.slice(i,i+2),16)); try{ const a=p(x),b=p(y); return Math.hypot(a[0]-b[0],a[1]-b[1],a[2]-b[2]); }catch(e){ return 999; } }
 // Team colors for bars, swapped for the alternate color when the main one would vanish
 // into the background (black on dark, white on light) or match the other team.
+// Teams ESPN has no colors for (many hockey and smaller schools): read them from the logo.
+// The two strongest colors in the image are kept on this device, so it's done once per team.
+const logoColors = (()=>{ try{ return JSON.parse(store.get("logoColors")||"{}"); }catch(e){ return {}; } })();
+const logoPending = new Set();
+function logoColorsFor(tm){
+  if(!tm?.id || !tm.logo || logoColors[tm.id] || logoPending.has(tm.id)) return;
+  logoPending.add(tm.id);
+  const img = new Image(); img.crossOrigin = "anonymous";
+  img.onload = ()=>{
+    try{
+      const N = 40, cv = document.createElement("canvas"); cv.width = cv.height = N;
+      const cx = cv.getContext("2d", {willReadFrequently: true}); cx.drawImage(img, 0, 0, N, N);
+      const px = cx.getImageData(0, 0, N, N).data, bins = new Map();
+      for(let i = 0; i < px.length; i += 4){
+        const r = px[i], g = px[i+1], b = px[i+2], al = px[i+3];
+        if(al < 200 || (r > 232 && g > 232 && b > 232)) continue;          // transparent or white
+        const mx = Math.max(r,g,b), mn = Math.min(r,g,b), sat = mx ? (mx-mn)/mx : 0;
+        const k = (r>>5)<<6 | (g>>5)<<3 | (b>>5);
+        const v = bins.get(k) || {n:0, w:0, r:0, g:0, b:0};
+        const w = 1 + 2*sat;                                               // favor real colors over gray and black
+        v.n++; v.w += w; v.r += r; v.g += g; v.b += b; bins.set(k, v);
+      }
+      const hex = v => [v.r, v.g, v.b].map(x => Math.round(x/v.n).toString(16).padStart(2,"0")).join("").toUpperCase();
+      const total = [...bins.values()].reduce((t,v)=>t+v.n, 0);
+      const top = [...bins.values()].filter(v=>v.n >= Math.max(6, total*0.04)).sort((x,y)=>y.w-x.w).map(hex);  // ignore anti-aliased edges
+      const out = []; for(const c of top){ if(out.every(o=>cdist(o,c) > 90)) out.push(c); if(out.length===2) break; }
+      logoColors[tm.id] = out.length ? out : ["none"];
+      store.set("logoColors", JSON.stringify(logoColors));
+      renderBoard.last = ""; render();
+    }catch(e){ logoColors[tm.id] = ["none"]; }  // image not readable (no CORS): keep the neutral colors
+  };
+  img.onerror = ()=>{ logoPending.delete(tm.id); };
+  img.src = tm.logo;
+}
 function barColors(a, h){
   const ok = c => { const L = lum(c); return L!=null && (DARK.matches ? L>0.035 : L<0.8); };
-  const pick = (tm, avoid) => [tm.color, tm.alternateColor].find(c => ok(c) && (!avoid || cdist(c,avoid)>90)) || (ok(tm.color)?tm.color:null);
+  const fromLogo = tm => { if(!tm.color) logoColorsFor(tm); return (logoColors[tm.id]||[]).filter(c=>c!=="none"); };
+  const pick = (tm, avoid) => [tm.color, tm.alternateColor, ...fromLogo(tm)].find(c => ok(c) && (!avoid || cdist(c,avoid)>90)) || (ok(tm.color)?tm.color:null);
   let ac = pick(a.team), hc = pick(h.team, ac);
   ac = ac || (DARK.matches?"8A94A3":"5B6573"); hc = hc || (DARK.matches?"C9D1DB":"AAB3BF");
   if(cdist(ac,hc) < 60) hc = DARK.matches?"C9D1DB":"AAB3BF";
