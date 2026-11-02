@@ -92,6 +92,12 @@ def main():
         state = json.load(open("radio-live.json"))
     except Exception:
         state = {"streams": {}, "log": []}
+    # The history log lives in its own file: the page downloads radio-live.json and never reads it.
+    try:
+        log = json.load(open("radio-live-log.json")).get("log", [])
+    except Exception:
+        log = []
+    log = state.pop("log", []) + log if "log" in state else log
     stamp = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
     for (school, game, url, words, sid), (name, title) in zip(jobs, res):
         v = verdict(title, words)
@@ -102,12 +108,12 @@ def main():
         checks = prev.get("checks", 0) + 1
         state["streams"][k] = {"school": school, "sport": sid, "verdict": v, "title": title[:120], "icy_name": name[:80], "at": stamp,
                                  "ad_hits": ads, "checks": checks, "preroll": checks >= 2 and ads / checks >= 0.5}
-        state["log"].append({"at": stamp, "school": school, "game": game, "url": url, "verdict": v, "title": title[:120]})
-    state["log"] = state["log"][-1200:]
+        log.append({"at": stamp, "school": school, "game": game, "url": url, "verdict": v, "title": title[:120]})
     # Forget entries nobody has checked for two days (keeps the file small with many sports).
     cut = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime(time.time() - 2 * 86400))
     state["streams"] = {k: v for k, v in state["streams"].items() if v.get("at", "") >= cut}
     state["checked"] = stamp
+    json.dump({"log": log[-1200:]}, open("radio-live-log.json", "w"), indent=0)
     json.dump(state, open("radio-live.json", "w"), indent=1)
     music = sorted({f"{school} ({sid})" for (school, _, _, words, sid), (_, title) in zip(jobs, res) if verdict(title, words) == "music"})
     by = {}

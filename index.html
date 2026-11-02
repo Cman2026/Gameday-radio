@@ -256,6 +256,7 @@ h1 span{color:inherit}
 .fin .meta{font-size:12px;color:var(--faint)}
 
 .sect{font:700 20px var(--num);margin:6px 4px 0}
+.sect.upnext{font:600 13px var(--ui);color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin:26px 4px 10px;padding-top:14px;border-top:1px solid var(--line)}
 .conf + .sect,.up + .sect,.sect ~ .sect{margin-top:18px}
 .fin .meta:empty{display:none}
 .chip .n{opacity:.9}
@@ -605,7 +606,7 @@ function setSport(id, quiet){
   $("#list").innerHTML = `<div class="empty">Loading ${SPORT.g ? SPORT.g.toLowerCase()+" " : ""}${SPORT.name.toLowerCase()}…</div>`;
   $("#board").hidden = true;
   renderSports(); void quiet;
-  poll().then(fillStations);
+  pollLoop();
 }
 let sportTok = 0;
 // Phones open with every game folded, unless a game was open when the page was last left.
@@ -679,7 +680,7 @@ async function loadDirectory(){
     try{ playback = await getJSON("playback.json?t=" + Math.floor(Date.now()/300000)); }catch(e){}
     const d = await getJSON("radio.json?t=" + Math.floor(Date.now()/120000));
     for(const t of d.teams||[]) for(const n of [t.school, ...(t.names||[])]) if(n && !dirIndex.has(normName(n))) dirIndex.set(normName(n), t);
-    if(!loadDirectory.timer) loadDirectory.timer = setInterval(refreshDirectory, 3*60*1000);
+    if(!loadDirectory.timer) loadDirectory.timer = setInterval(()=>{ if(!document.hidden || deck) refreshDirectory(); }, 10*60*1000);
     events.forEach(e=>e.competitions[0].competitors.forEach(c=>attachRadio(c.team)));
     render(); fillStations();
   }catch(e){ /* no directory yet: hand-checked teams still work */ }
@@ -769,7 +770,42 @@ const divOK = e => divFilter==="all" || (divFilter==="fav" ? isFavGame(e) : divF
 function fmtTime(d){return new Date(d).toLocaleString([], {weekday:"short", hour:"numeric", minute:"2-digit", hour12:true})}
 function now12(){return new Date().toLocaleTimeString([], {hour:"numeric",minute:"2-digit",second:"2-digit",hour12:true})}
 
-async function getJSON(u){const r = await fetch(u,{cache:"no-store"}); if(!r.ok) throw new Error(r.status); return r.json();}
+// Every request gives up after 9 seconds (stadium cell service can hang for a minute otherwise).
+async function getJSON(u, ms=9000){
+  const ac = new AbortController(), t = setTimeout(()=>ac.abort(), ms);
+  try{ const r = await fetch(u, {cache:"no-store", signal: ac.signal}); if(!r.ok) throw new Error(r.status); return await r.json(); }
+  finally{ clearTimeout(t); }
+}
+// Status line: "Updated 3:04 PM", or a warning once the last good update is more than 30 seconds old.
+let lastOk = 0;
+function scoresOk(){ lastOk = Date.now(); $("#dot").className = "dot ok"; $("#stat").textContent = "Updated " + new Date().toLocaleTimeString([], {hour:"numeric", minute:"2-digit", hour12:true}); $("#upd").textContent = ""; }
+function scoresFailed(){
+  $("#dot").className = "dot err";
+  $("#stat").textContent = lastOk ? `Scores may be delayed · last update ${new Date(lastOk).toLocaleTimeString([], {hour:"numeric", minute:"2-digit", hour12:true})}` : "Can't reach the scores feed right now. Retrying…";
+  if(!history.length){ homeBoard(); $("#list").innerHTML = `<div class="empty">Can't reach the scores feed right now. Retrying…</div>`; }
+}
+setInterval(()=>{ if(lastOk && Date.now() - lastOk > 30000 && !document.hidden) scoresFailed(); }, 10000);
+/* How often scores refresh. Full speed only while you're watching a live game; slower otherwise,
+   and much slower when the page isn't on screen (just enough to keep the lock screen current). */
+function pollGap(){
+  const live = events.some(e=>e.status.type.state==="in"), playing = !!deck && !audio.paused;
+  if(document.hidden) return playing ? 15000 : 120000;
+  if(!live) return 30000;
+  return (playing || (selected && boardOpen)) ? 6000 : 12000;
+}
+// One refresh at a time: a slow response can never land after a newer one.
+async function pollLoop(){
+  clearTimeout(pollLoop.t);
+  if(pollLoop.busy){ pollLoop.again = true; return; }
+  pollLoop.busy = true;
+  try{ await poll(); fillStations(); } catch(e){}
+  finally{
+    pollLoop.busy = false;
+    if(pollLoop.again){ pollLoop.again = false; setTimeout(pollLoop, 0); }
+    else pollLoop.t = setTimeout(pollLoop, pollGap());
+  }
+}
+document.addEventListener("visibilitychange", ()=>{ if(!document.hidden && Date.now() - lastOk > 5000) pollLoop(); });
 
 async function poll(){
   if(!isFB()) return pollOther();
@@ -777,7 +813,8 @@ async function poll(){
   try{
     const [fbs, fcs] = await Promise.all([
       getJSON(`${base}/scoreboard?groups=80&limit=400`),
-      getJSON(`${base}/scoreboard?groups=81&limit=400`).catch(()=>({events:[]})),
+      // If FCS fails once, keep the last good list rather than having every FCS game vanish.
+      getJSON(`${base}/scoreboard?groups=81&limit=400`).then(x=>(poll.lastFcs = x)).catch(()=>poll.lastFcs || {events:[]}),
     ]);
     const byId = new Map();
     (fbs.events||[]).forEach(e=>{ e._div = "FBS"; byId.set(e.id, e); });
@@ -799,15 +836,19 @@ async function poll(){
     const evs = [...byId.values()];
     evs.forEach(e=>e.competitions[0].competitors.forEach(c=>attachRadio(c.team)));
     history.push({t:Date.now(), evs}); history = history.filter(h => Date.now()-h.t < (delay+20)*1000);
-    $("#dot").className = "dot ok"; $("#stat").textContent = "Updated " + new Date().toLocaleTimeString([], {hour:"numeric", minute:"2-digit", hour12:true}); $("#upd").textContent = "";
+    scoresOk();
     const live = evs.filter(e=>e.status.type.state==="in");
-    // Preload every live game: the selected one refreshes every 9s, the rest every 30s,
-    // and each team's radio is looked up ahead of time so Listen starts right away.
-    live.forEach(e=>{ pollSummary(e.id, (e.id===selected || (deck && e.competitions[0].competitors.some(c=>c.team.location===deck.loc))) ? 6000 : 30000); e.competitions[0].competitors.forEach(t=>prepareTeam(t.team.location)); });
+    // Play-by-play only for the game you have open and the one on the radio (every 6 seconds), and
+    // saved teams' games (every minute, for their details when you open them). Each team's radio is
+    // looked up ahead of time so Listen starts right away.
+    live.forEach(e=>{
+      const mine = e.id===selected || (deck && e.competitions[0].competitors.some(c=>c.team.location===deck.loc));
+      if(mine) pollSummary(e.id, 6000); else if(isFavGame(e)) pollSummary(e.id, 60000);
+      e.competitions[0].competitors.forEach(t=>prepareTeam(t.team.location));
+    });
   }catch(e){
-    $("#dot").className = "dot err";
-    $("#stat").textContent = "Can't reach the scores feed right now. Retrying…";
-    if(!history.length){ homeBoard(); $("#list").innerHTML = `<div class="empty">Can't reach the scores feed right now. Retrying…</div>`; }
+    if(tok !== sportTok) return;
+    scoresFailed();
   }
   render();
 }
@@ -838,7 +879,7 @@ async function pollOther(){
     const evs = [...byId.values()];
     evs.forEach(e=>e.competitions[0].competitors.forEach(c=>attachRadio(c.team)));
     history.push({t:Date.now(), evs}); history = history.filter(h => Date.now()-h.t < (delay+20)*1000);
-    $("#dot").className = "dot ok"; $("#stat").textContent = "Updated " + new Date().toLocaleTimeString([], {hour:"numeric", minute:"2-digit", hour12:true}); $("#upd").textContent = "";
+    scoresOk();
     // Only the open game and the one on the radio get play-by-play (a basketball night can have 150 games).
     evs.filter(e=>e.status.type.state==="in").forEach(e=>{
       const onAir = deck && e.competitions[0].competitors.some(c=>c.team.location===deck.loc);
@@ -848,9 +889,7 @@ async function pollOther(){
     const s = SEASON[L.id]; if(s){ const live = evs.filter(e=>e.status.type.state==="in").length; if(s.live !== live){ s.live = live; renderSports(); } }
   }catch(e){
     if(tok !== sportTok) return;
-    $("#dot").className = "dot err";
-    $("#stat").textContent = "Can't reach the scores feed right now. Retrying…";
-    if(!history.length){ homeBoard(); $("#list").innerHTML = `<div class="empty">Can't reach the scores feed right now. Retrying…</div>`; }
+    scoresFailed();
   }
   render();
 }
@@ -947,8 +986,8 @@ function render(){
   if(!shown.length){
     const next = events.filter(e=>e.status.type.state==="pre").sort((a,b)=>new Date(a.date)-new Date(b.date))[0];
     const why = !live.length ? "No Division I games are live right now." : (q ? `No live games match “${esc(query.trim())}”.` : divFilter==="fav" ? "None of your teams are playing right now. Tap ☆ on a team to add it." : `No ${divFilter==="T25" ? "Top 25" : divFilter} games are live right now.`);
-    list.innerHTML = `<div class="empty">${why}${!live.length && next ? `<br>Next up: ${esc(next.shortName)}, ${fmtTime(next.date)}.` : ""}</div>`;
-  } else list.innerHTML = shown.map(card).join("") + finalsToday();
+    list.innerHTML = `<div class="empty">${why}${!live.length && next ? `<br>Next up: ${esc(next.shortName)}, ${fmtTime(next.date)}.` : ""}</div>` + renderUpcoming(true) + finalsToday();
+  } else list.innerHTML = shown.map(card).join("") + renderUpcoming(true) + finalsToday();
   list.querySelectorAll(".card").forEach(b=>{ const go=()=>{
       // Tapping the open game folds its details away; tapping another opens it, keeping that game where it was on screen.
       const id = b.dataset.id, y0 = b.getBoundingClientRect().top;
@@ -1030,6 +1069,7 @@ document.addEventListener("click", ev=>{
 });
 function stopRadio(){
   tryToken++; connecting = null; currentTeam = null; deck = null;
+  syncMode = "manual"; if(delay) setDelay(0); // scores go back to live when the radio stops
   try{ audio.pause(); if(hls){hls.destroy(); hls=null} audio.removeAttribute("src"); audio.load(); }catch(e){}
   $("#nowName").textContent = "Radio off"; $("#nowSub").textContent = "Tap Listen next to a team";
   render();
@@ -1102,7 +1142,8 @@ function statusText(e){
   if(t.state!=="in") return {short:t.shortDetail, long:t.shortDetail, brk:false};
   if(!isFB()){
     // ESPN sends "4:12 - 2nd Half" / "12:30 - 2nd" / "Top 5th" / "3rd Set". Clocked sports get a ticking clock.
-    const m = /^(\d+:\d\d)\s*-\s*(.+)$/.exec(t.shortDetail||""), md = /^(\d+:\d\d)\s*-\s*(.+)$/.exec(t.detail||"");
+    // (under a minute ESPN sends "45.2 - 2nd Half")
+    const m = /^(\d+:\d\d|\d+(?:\.\d+)?)\s*-\s*(.+)$/.exec(t.shortDetail||""), md = /^(\d+:\d\d|\d+(?:\.\d+)?)\s*-\s*(.+)$/.exec(t.detail||"");
     if(SPORT.clock && m) return {short:`${esc(m[2])} <span data-clk="${e.id}">${liveClock(e)}</span>`, long: md ? md[2] : m[2], brk:false, per:m[2]};
     return {short:esc(t.shortDetail||""), long:t.detail||t.shortDetail||"", brk: !m && /half|end|intermission|break/i.test(t.shortDetail||""), per:""};
   }
@@ -1181,7 +1222,7 @@ function updateLockScreen(){
 (function(){
   if(!("mediaSession" in navigator)) return;
   const ms = navigator.mediaSession, set = (a,f)=>{ try{ ms.setActionHandler(a,f); }catch(e){} };
-  set("play", ()=>audio.play()); set("pause", ()=>audio.pause());
+  set("play", ()=>resumeRadio()); set("pause", ()=>audio.pause());
   set("seekbackward", null); set("seekforward", null); set("seekto", null);
   const other = ()=>{ if(!deck) return;
     const e = events.find(x=>x.status.type.state==="in" && x.competitions[0].competitors.some(c=>c.team.location===deck.loc));
@@ -1214,8 +1255,11 @@ function confOf(tm){
   return "";
 }
 const predCache = {}; // game id -> {home, away, at}
+const predLoading = new Set(); // games whose odds are being fetched right now (so each is asked for once)
 async function loadPredictions(games){
-  const todo = games.filter(e=>!predCache[e.id] || Date.now()-predCache[e.id].at > 10*60e3).slice(0, 120);
+  if(document.hidden) return;
+  const todo = games.filter(e=>!predLoading.has(e.id) && (!predCache[e.id] || Date.now()-predCache[e.id].at > 10*60e3)).slice(0, 120);
+  todo.forEach(e=>predLoading.add(e.id));
   let i = 0;
   const worker = async ()=>{ while(i < todo.length){ const e = todo[i++];
     try{
@@ -1225,6 +1269,7 @@ async function loadPredictions(games){
       const books = (s.pickcenter||[]).map(pc=>({name: pc.provider?.name||"Book", p: lineProb(pc), home: Number(pc.homeTeamOdds?.moneyLine)||null, away: Number(pc.awayTeamOdds?.moneyLine)||null, spread: pc.spread})).filter(b=>b.p!=null);
       predCache[e.id] = {home: isNaN(h)?null:h, away: isNaN(a)?null:a, books, at: Date.now()};
     }catch(err){ predCache[e.id] = {home:null, away:null, books:[], at: Date.now()}; }
+    predLoading.delete(e.id);
   } };
   await Promise.all([1,2,3,4].map(worker));
   if(todo.length) render();
@@ -1325,7 +1370,8 @@ document.addEventListener("click", ev=>{
 });
 let upDay = "";
 document.addEventListener("click", ev=>{ const t = ev.target.closest(".daytab[data-day]"); if(!t) return; upDay = upDay===t.dataset.day ? "all" : t.dataset.day; render(); });
-function renderUpcoming(){
+// embed: called from render() while games are live; returns the upcoming section to show below them.
+function renderUpcoming(embed){
   const list = $("#list"), q = query.trim().toLowerCase();
   // The list is redrawn every few seconds; keep the day tabs scrolled where you left them.
   const tabX = list.querySelector(".daytabs")?.scrollLeft;
@@ -1343,13 +1389,16 @@ function renderUpcoming(){
     return d.toDateString()===t.toDateString() ? "Today" : d.toDateString()===tm.toDateString() ? "Tomorrow" : d.toLocaleDateString([], {weekday:"short", month:"short", day:"numeric"}); };
   const tabs = days.length > 1 ? `<div class="daytabs" role="tablist" aria-label="Pick a day (tap it again to see the whole week)">${days.map(k=>`<button class="daytab" role="tab" data-day="${esc(k)}" aria-selected="${k===upDay}">${esc(dayName(k))}<span class="n">${pre.filter(e=>dayKey(e.date)===k).length}</span></button>`).join("")}</div>` : "";
   const count = f => today.filter(f).length;
-  $("#nAll").textContent = today.length; $("#nFBS").textContent = count(isFB() ? e=>e._div==="FBS" : isTop25);
-  $("#nFCS").textContent = count(e=>e._div==="FCS"); $("#nFav").textContent = count(isFavGame);
+  if(!embed){
+    $("#nAll").textContent = today.length; $("#nFBS").textContent = count(isFB() ? e=>e._div==="FBS" : isTop25);
+    $("#nFCS").textContent = count(e=>e._div==="FCS"); $("#nFav").textContent = count(isFavGame);
+  }
   // Searching for a team looks across the whole week, not just the selected day.
   const shown = (q ? pre : today).filter(e=> divOK(e))
     .filter(e=> !q || e.competitions[0].competitors.some(t=>[t.team.location,t.team.displayName,t.team.shortDisplayName,t.team.abbreviation].join(" ").toLowerCase().includes(q)));
-  $("#board").hidden = true;
+  if(!embed) $("#board").hidden = true;
   if(!shown.length){
+    if(embed) return "";
     list.innerHTML = (q ? "" : tabs) + `<div class="empty">${q ? `No upcoming games this week match “${esc(query.trim())}”.` : today.length ? "No games that day match that filter." : "No games scheduled in the next week."}</div>` + finalsToday();
     return;
   }
@@ -1383,6 +1432,7 @@ function renderUpcoming(){
       return gap + confHead(n, gs.length, closed, day) + (closed ? "" : gs.sort((x,y)=>new Date(x.date)-new Date(y.date) || x.id.localeCompare(y.id)).map(upCard).join(""));
     }).join("");
   }).join("");
+  if(embed){ loadPredictions(isFB() ? shown : vis.slice(0, 40)); return `<div class="sect upnext">Coming up</div>` + (q ? "" : tabs) + sections; }
   list.innerHTML = (q ? "" : tabs) + sections + finalsToday();
   // Football looks up every game's odds; a basketball night has far more games, so only the ones you've opened.
   loadPredictions(isFB() ? shown : vis.slice(0, 40));
@@ -1631,7 +1681,7 @@ function rinkView(e, a, h, bc){
 function lineScore(e, a, h){
   const n = Math.max(a.linescores?.length||0, h.linescores?.length||0);
   if(!n || e.status.type.state==="pre") return "";
-  const reg = SPORT.diamond ? 9 : SPORT.sets ? 0 : SPORT.per==="H" ? 2 : SPORT.per==="Q" ? 4 : 3;
+  const reg = SPORT.diamond ? (SPORT.id==="sb" ? 7 : 9) : SPORT.sets ? 0 : SPORT.per==="H" ? 2 : SPORT.per==="Q" ? 4 : 3;
   const cols = Math.max(n, reg), cur = e.status.type.state==="in" ? n-1 : -1;
   const head = i => SPORT.sets ? `S${i+1}` : SPORT.diamond || i < reg ? String(i+1) : i === reg ? "OT" : `${i-reg+1}OT`;
   const val = (t, i) => { const v = t.linescores?.[i]?.value; return v==null ? (i < n ? "0" : "–") : (Number.isInteger(+v) ? String(+v) : esc(v)); };
@@ -1674,6 +1724,7 @@ function radioFor(e){
 }
 
 /* ---------- radio ---------- */
+const NATIVE_HLS = (()=>{ try{ return !!document.createElement("audio").canPlayType("application/vnd.apple.mpegurl"); }catch(e){ return false; } })();
 const audio = $("#audio"); let hls = null;
 function fillStations(){
   const sel = $("#station"), teams = new Set();
@@ -1728,6 +1779,7 @@ async function playList(list, name, sub, loc){
     const ext = loc && RADIO[loc]?.external;
     if(ext) $("#nowSub").innerHTML = `This station's stream won't play inside the page. <a href="${esc(ext)}" target="_blank" rel="noopener">Open it in Safari</a>`;
     else $("#nowSub").textContent = "No stream answered. The station may not be on the air right now.";
+    syncMode = "manual"; if(delay) setDelay(0);
     if(loc) track(`listen-failed/${SPORT.id}/${loc}`, `Didn't connect: ${loc} (${SPORT.name})`);
   };
   setTimeout(()=>{ audio.removeEventListener("playing", late); if(token===tryToken && !deck){ try{ audio.pause(); audio.removeAttribute("src"); audio.load(); }catch(e){} currentTeam = null; giveUp(); render(); } }, 20000);
@@ -1736,13 +1788,14 @@ async function playList(list, name, sub, loc){
 }
 let lastTried = null;
 function connected(loc, url, sub){
+  lastProgress = Date.now();
   if(loc) track(`listen/${SPORT.id}/${loc}`, `Listen: ${loc} (${SPORT.g ? SPORT.g + " " : ""}${SPORT.name})`);
   deck = {loc, url, sub};
   // Each station keeps its own score delay: start from its saved value, or live, then let auto-sync refine it.
   syncMode = "manual-pending"; setDelay(+(store.get("delay@" + streamKey(url)) || 0)); setTimeout(autoSync, 4000);
   $("#nowSub").textContent = sub;
   // Some streams play an ad to every new listener before the broadcast picks up.
-  if(liveInfo[url]?.preroll || /leanstream|ihrhls|revma/.test(url)) toast("The broadcast will start after a short ad.");
+  if(liveInfo[vKey(url)]?.preroll || /leanstream|ihrhls|revma/.test(url)) toast("The broadcast will start after a short ad.");
   connecting = null; render();
 }
 function tryUrl(url){
@@ -1764,7 +1817,9 @@ function play(url, name, sub){
   url = withSession(url);
   if(hls){hls.destroy(); hls=null}
   // Safari (iPhone/iPad/Mac) plays HLS itself and keeps lock-screen controls; other browsers need hls.js.
-  const SAFARI = /Safari/.test(navigator.userAgent) && !/Chrome|CriOS|Chromium|Edg|Android|FxiOS/.test(navigator.userAgent);
+  // Use the browser's own HLS playback whenever it has it (every browser on iPhone, Safari on Mac):
+  // it keeps playing in the background and on the lock screen. hls.js only where it's missing.
+  const SAFARI = NATIVE_HLS;
   if(/\.m3u8(\?|$)/i.test(url) && !SAFARI && window.Hls && Hls.isSupported()){
     hls = new Hls(); hls.on(Hls.Events.ERROR, (ev, d)=>{ if(d.fatal) audio.dispatchEvent(new Event("error")); }); hls.loadSource(url); hls.attachMedia(audio);
   } else audio.src = url;
@@ -1773,7 +1828,7 @@ function play(url, name, sub){
 }
 $("#station").onchange = startStation;
 $("#pp").onclick = ()=>{
-  if(audio.src || hls){ audio.paused ? audio.play() : audio.pause(); return; }
+  if(audio.src || hls){ audio.paused ? resumeRadio() : audio.pause(); return; }
   const e = events.find(x=>x.id===selected) || events.find(x=>x.status.type.state==="in");
   const t = e && e.competitions[0].competitors.map(c=>c.team.location).find(l=>RADIO[l]?.streams?.length || store.get("stream:"+l));
   if(t) listenTo(t); else toast("Tap Listen next to a team to start its radio.");
@@ -1781,7 +1836,34 @@ $("#pp").onclick = ()=>{
 audio.addEventListener("play", ()=>render()); audio.addEventListener("pause", ()=>render());
 audio.onplay = ()=>{$("#pp").innerHTML='<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4.2" height="14" rx="1.2"/><rect x="13.8" y="5" width="4.2" height="14" rx="1.2"/></svg>'; $("#pp").setAttribute("aria-label","Pause radio")};
 audio.onpause = ()=>{$("#pp").innerHTML='<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.4-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg>'; $("#pp").setAttribute("aria-label","Play radio")};
-audio.onerror = ()=>{ if(!connecting) $("#nowSub").textContent="Stream dropped. Tap Listen to reconnect."; };
+audio.onerror = ()=>{ if(connecting) return; if(deck) reconnect(); else $("#nowSub").textContent="Stream dropped. Tap Listen to reconnect."; };
+/* Automatic reconnect: if the stream errors, or stops moving for 15 seconds while it should be playing,
+   try the same stream again, then the team's other streams. Gives up after 4 tries in a row. */
+let lastProgress = 0, lastTime = -1, reconnects = 0, reconnectAt = 0;
+audio.addEventListener("timeupdate", ()=>{
+  if(audio.currentTime !== lastTime){ lastTime = audio.currentTime; lastProgress = Date.now(); }
+  if(reconnects && Date.now() - reconnectAt > 60000) reconnects = 0; // a minute of good audio resets the count
+});
+setInterval(()=>{ if(deck && !connecting && !audio.paused && navigator.onLine !== false && Date.now() - lastProgress > 15000) reconnect(); }, 5000);
+window.addEventListener("online", ()=>{ if(deck && !connecting && !audio.paused) reconnect(); });
+function reconnect(){
+  if(!deck || connecting) return;
+  if(reconnects >= 4){ $("#nowSub").textContent = "Stream dropped. Tap Listen to reconnect."; reconnects = 0; deck = null; currentTeam = null; render(); return; }
+  reconnects++; reconnectAt = Date.now();
+  const {loc, url} = deck, r = RADIO[loc] || {};
+  const rest = [...(ready[loc]||[]), ...(r.streams||[])].filter(u=>u && u!==url);
+  currentTeam = loc; connecting = loc; deck = null; lastProgress = Date.now();
+  playList([url, ...new Set(rest)], r.net || `${loc} radio`, r.station || "", loc);
+  $("#nowSub").textContent = "Reconnecting…";
+  render();
+}
+// After a long pause the stream is far behind live: start it fresh instead of resuming.
+let pausedAt = 0;
+audio.addEventListener("pause", ()=>{ pausedAt = Date.now(); });
+function resumeRadio(){
+  if(deck && pausedAt && Date.now() - pausedAt > 30000){ const loc = deck.loc; listenTo(loc); return; }
+  audio.play().catch(()=>{});
+}
 $("#vol").oninput = e=> audio.volume = e.target.value;
 $("#useCustom").onclick = ()=>{
   const u = $("#custom").value.trim(); if(!u) return;
@@ -1824,12 +1906,27 @@ $("#moreBtn").onclick = ()=>{ const m=$("#more"); m.hidden=!m.hidden; $("#moreBt
 // Pick up site updates without a manual refresh: every 5 minutes, check whether the page itself has
 // changed. If the radio is off, reload quietly; if it's playing, offer a one-tap refresh instead.
 (function watchForUpdates(){
-  let first = null;
-  const sig = async ()=>{ try{ const t = await (await fetch(location.pathname + "?v=" + Date.now(), {cache:"no-store"})).text(); return t.length + ":" + t.slice(-400); }catch(e){ return null; } };
+  // Every 5 minutes, ask whether the page has changed (headers only, not the whole page).
+  // A new version reloads quietly only while the page is out of sight and the radio is off;
+  // otherwise a one-tap "Site updated" bar appears, so nothing is lost mid-use.
+  let first = null, pending = false;
+  const sig = async ()=>{
+    try{
+      const r = await fetch(location.pathname + "?v=" + Date.now(), {method:"HEAD", cache:"no-store"});
+      const h = r.headers.get("etag") || r.headers.get("last-modified");
+      if(h) return h;
+      const t = await (await fetch(location.pathname + "?v=" + Date.now(), {cache:"no-store"})).text(); return t.length + ":" + t.slice(-400);
+    }catch(e){ return null; }
+  };
+  const reloadNow = ()=>{ try{ sessionStorage.setItem("autoReload", "1"); }catch(e){} location.reload(); };
+  const quiet = ()=> document.hidden && audio.paused && !connecting;
   sig().then(v=>first=v);
+  document.addEventListener("visibilitychange", ()=>{ if(pending && quiet()) reloadNow(); });
   setInterval(async ()=>{
+    if(pending) return;
     const v = await sig(); if(!v || !first || v===first) return;
-    if(audio.paused && !connecting){ try{ sessionStorage.setItem("autoReload", "1"); }catch(e){} location.reload(); return; }
+    pending = true;
+    if(quiet()){ reloadNow(); return; }
     if(!document.getElementById("updBar")){
       const b = document.createElement("button"); b.id = "updBar"; b.textContent = "Site updated · tap to refresh";
       b.onclick = ()=>location.reload(); document.body.appendChild(b);
@@ -1841,8 +1938,8 @@ $("#moreBtn").onclick = ()=>{ const m=$("#more"); m.hidden=!m.hidden; $("#moreBt
   const dv = store.get("div"); if(dv && document.querySelector(`.chip[data-div="${dv}"]`)) document.querySelector(`.chip[data-div="${dv}"]`).click();
   loadDirectory();
   // Which sports are in season (and how many games each has live), every 5 minutes.
-  checkSeasons(); setInterval(checkSeasons, 5*60*1000);
-  poll().then(fillStations); setInterval(()=>{poll().then(fillStations)}, 5000);
+  checkSeasons(); setInterval(()=>{ if(!document.hidden) checkSeasons(); }, 15*60*1000);
+  pollLoop();
   setInterval(()=>{ if(delay) render(); }, 1000); // step through held-back scores
 })();
 </script>

@@ -21,4 +21,4 @@ jobs:
       - run: python tools/gameday_check.py
       - name: Save results
         env: { MERGE_LIVE_ONLY: "1" }
-        run: tools/publish.sh "Game-time radio check" radio-live.json radio.json showcase-log.txt
+        run: tools/publish.sh "Game-time radio check" radio-live.json radio-live-log.json radio.json showcase-log.txt
