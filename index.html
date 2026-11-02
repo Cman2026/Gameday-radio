@@ -632,8 +632,9 @@ function setSport(id, quiet){
   SPORT = LEAGUES[id]; base = ESPN + SPORT.path;
   store.set("sport", id); store.set("league:"+SPORT.tile, id);
   sportTok++;
+  for(const k in sumAt) delete sumAt[k]; // details for the new sport load right away
   history = []; summaryHist = []; events = []; poll.ahead = null; poll.loading = false; upDay = "";
-  selected = null; boardOpen = !NARROW.matches; renderBoard.last = "";
+  selected = null; boardOpen = !NARROW.matches && store.get("boardClosed")!=="1"; renderBoard.last = "";
   for(const k of Object.keys(RADIO)) delete RADIO[k];
   for(const k of Object.keys(RADIO_INFO)) delete RADIO_INFO[k];
   for(const k of Object.keys(ready)) delete ready[k];
@@ -656,7 +657,7 @@ let sportTok = 0;
 // Phones open with every game folded, unless a game was open when the page was last left.
 // Wide screens always show a game beside the list.
 const savedOpen = store.get("openGame") || null;
-let boardOpen = !matchMedia("(max-width: 860px)").matches || !!savedOpen;
+let boardOpen = (!matchMedia("(max-width: 860px)").matches && store.get("boardClosed")!=="1") || !!savedOpen;
 let filter = "live", events = [], selected = savedOpen, history = [], summaryHist = [], delay = 0;
 const $ = s => document.querySelector(s);
 // Conference bars start collapsed. Opening one is remembered for that day only (MAC on Tuesday
@@ -874,6 +875,7 @@ async function poll(){
       if(wk && (!poll.ahead || Date.now()-poll.ahead.t > 15*60e3 || poll.ahead.wk !== wk)){
         // ESPN doesn't take date ranges, but it does take a week number: load next week too.
         const [f2, c2] = await Promise.all([80,81].map(g=>getJSON(`${base}/scoreboard?groups=${g}&limit=400&week=${wk+1}&seasontype=${st}`).catch(()=>({events:[]}))));
+        if(tok !== sportTok) return; // switched sports while this was loading: don't overwrite the new sport's week
         poll.ahead = {t: Date.now(), wk, f: f2.events||[], c: c2.events||[]};
       }
       if(!poll.ahead) poll.ahead = {t: 0, f: [], c: []};
@@ -909,9 +911,17 @@ async function pollOther(){
     if(tok !== sportTok) return;
     const byId = new Map();
     (d.events||[]).forEach(e=>{ e._div = ""; byId.set(e.id, e); });
+    // In the morning ESPN's default scoreboard is still on yesterday. Today's games then come from
+    // their own date (at full refresh speed), not the 15-minute background load of the week.
+    const todayK = ymd(Date.now());
+    const gamesToday = gameDays((d.leagues||[])[0]).some(([a])=>new Date(a).toISOString().slice(0,10).replace(/-/g,"")===todayK);
+    if(!(d.events||[]).some(e=>ymd(e.date)===todayK) && gamesToday){
+      try{ const t = await getJSON(`${base}/scoreboard?${g}dates=${todayK}&limit=900`); if(tok !== sportTok) return;
+        (t.events||[]).forEach(e=>{ e._div = ""; byId.set(e.id, e); }); }catch(e){}
+    }
     // The rest of the week loads in the background so today's games show right away.
     if(!poll.loading && (!poll.ahead || Date.now()-poll.ahead.t > 15*60e3)){
-      const now = Date.now(), have = new Set((d.events||[]).map(e=>ymd(e.date)));
+      const now = Date.now(), have = new Set([...byId.values()].map(e=>ymd(e.date)));
       const days = [...new Set(gameDays((d.leagues||[])[0]).map(r=>r[0]).filter(t=>t > now - 864e5/2 && t < now + 8*864e5).map(t=>new Date(t).toISOString().slice(0,10).replace(/-/g,"")))]
         .filter(k=>!have.has(k)).slice(0, 8);
       poll.loading = true;
@@ -1036,6 +1046,8 @@ function render(){
     selected = (live.find(isFavGame) || live[0])?.id || null;
   }
   $("#board").hidden = false;
+  // Fetch the open game's details right away instead of waiting for the next refresh.
+  if(selected && boardOpen && live.some(e=>e.id===selected && e.status.type.state==="in")) pollSummary(selected, 6000);
   const count = f => live.filter(f).length;
   $("#nAll").textContent = live.length; $("#nFBS").textContent = count(isFB() ? e=>e._div==="FBS" : isTop25);
   $("#nFCS").textContent = count(e=>e._div==="FCS"); $("#nFav").textContent = count(isFavGame);
@@ -1053,8 +1065,10 @@ function render(){
   if(changed) list.querySelectorAll(".card").forEach(b=>{ const go=()=>{
       // Tapping the open game folds its details away; tapping another opens it, keeping that game where it was on screen.
       const id = b.dataset.id, y0 = b.getBoundingClientRect().top;
-      if(id===selected && NARROW.matches){ boardOpen = !boardOpen; } else { selected = id; boardOpen = true; }
+      // Tapping the open game closes its details (on a computer the list then uses the full width).
+      if(id===selected){ boardOpen = !boardOpen; } else { selected = id; boardOpen = true; }
       store.set("openGame", boardOpen ? selected : "");
+      if(!NARROW.matches) store.set("boardClosed", boardOpen ? "" : "1");
       render();
       const nb = $(`#list .card[data-id="${CSS.escape(id)}"]`);
       if(nb) window.scrollBy(0, nb.getBoundingClientRect().top - y0);
