@@ -93,7 +93,8 @@ def streams_for(team, sport):
     """The streams the page would try for this sport: school game feeds only if they're for this sport."""
     feeds = team.get("game_feeds") or []
     mine = (team.get("game_feeds_sport") or "fb") == sport
-    return [u for u in (team.get("streams") or []) if mine or u not in feeds]
+    own = list((team.get("sport_streams") or {}).get(sport) or [])  # a station that carries just this sport
+    return list(dict.fromkeys(own + [u for u in (team.get("streams") or []) if mine or u not in feeds]))
 
 
 # Main sports stations carry football and basketball (and usually hockey) but rarely volleyball,
@@ -111,7 +112,7 @@ def load_carries():
 
 
 def station_carries(team, sport, carries=None):
-    if sport not in OPT_IN or sport in (team.get("station_sports") or []):
+    if sport not in OPT_IN or sport in (team.get("station_sports") or []) or (team.get("sport_streams") or {}).get(sport):
         return True
     return f"{sport}|{team.get('school')}" in (carries if carries is not None else load_carries())
 

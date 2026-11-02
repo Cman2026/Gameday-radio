@@ -720,10 +720,14 @@ function attachRadio(tm){
   // baseball or softball. For those, use the station only where we know it carries the sport;
   // otherwise only the school's own game feed.
   const stationOK = !STATION_OPT_IN.has(SPORT.id) || (hit?.station_sports||[]).includes(SPORT.id) || !!carries[`${SPORT.id}|${hit?.school}`];
-  const streams = (hit?.streams||[]).filter(u => (hit.game_feeds||[]).includes(u) ? feedsMine : stationOK);
+  // Some schools put one sport on its own station (Wisconsin volleyball on ESPN Madison, Stanford's on KZSU).
+  const own = hit?.sport_streams?.[SPORT.id] || [];
+  const streams = [...new Set([...(feedsMine ? (hit?.game_feeds||[]) : []), ...own, ...(hit?.streams||[]).filter(u => (hit.game_feeds||[]).includes(u) ? feedsMine : stationOK && !own.length)])];
   if(!hit || !streams.length){ if(hit) RADIO_INFO[tm.location] = stationOK ? hit : {...hit, sportFeedOnly: true}; return; }
   const {playable, external} = orderStreams(hit.school, streams, feeds);
-  RADIO[tm.location] = stationOK
+  RADIO[tm.location] = own.length
+    ? {net: hit.sport_station?.[SPORT.id] || `${tm.location} ${SPORT.name.toLowerCase()} radio`, station: hit.sport_station?.[SPORT.id] || "", streams: playable, external, listen: hit.listen_page || ""}
+    : stationOK
     ? {net: hit.network || `${tm.location} radio`, station: hit.flagship || "", streams: playable, external, listen: hit.listen_page || ""}
     : {net: `${tm.location} ${SPORT.name.toLowerCase()} audio`, station: "School broadcast", streams: playable, external, listen: hit.athletics_site || ""};
 }

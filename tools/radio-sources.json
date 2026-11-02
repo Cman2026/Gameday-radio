@@ -203,10 +203,7 @@
   ],
   "streams": [],
   "athletics_site": "https://pittsburghpanthers.com",
-  "station_sports": [
-   "wvb"
-  ],
-  "notes": "Volleyball (select matches) on 93.7 The Fan per Sept 2025 release: pittsburghpanthers.com/news/2025/9/25/pitt-volleyball-matches-to-air-on-93-7-the-fan"
+  "notes": "Volleyball (select matches) on 93.7 The Fan per Sept 2025 release: pittsburghpanthers.com/news/2025/9/25/pitt-volleyball-matches-to-air-on-93-7-the-fan Volleyball: only two matches a season on Audacy stations (Sept 2025 release), so not marked as carrying it."
  },
  {
   "school": "Southern Methodist University",
@@ -241,7 +238,20 @@
    "KTCT-AM"
   ],
   "streams": [],
-  "athletics_site": "https://gostanford.com"
+  "athletics_site": "https://gostanford.com",
+  "sport_streams": {
+   "wvb": [
+    "https://kzsu-streams.stanford.edu/kzsu-1-128.mp3"
+   ],
+   "bsb": [
+    "https://kzsu-streams.stanford.edu/kzsu-1-128.mp3"
+   ]
+  },
+  "sport_station": {
+   "wvb": "KZSU 90.1 FM (Stanford)",
+   "bsb": "KZSU 90.1 FM (Stanford)"
+  },
+  "notes": "KZSU 90.1 (campus station) is the exclusive radio home for Stanford volleyball and baseball (kzsu.stanford.edu/sports)."
  },
  {
   "school": "Syracuse University",
@@ -1428,7 +1438,16 @@
    "WIBA-AM"
   ],
   "streams": [],
-  "athletics_site": "https://uwbadgers.com"
+  "athletics_site": "https://uwbadgers.com",
+  "sport_streams": {
+   "wvb": [
+    "https://live.amperwave.net/manifest/goodkarma-wtlxfmaac-hlsc2.m3u8?source=v7player"
+   ]
+  },
+  "sport_station": {
+   "wvb": "ESPN Madison 100.5 FM (WTLX)"
+  },
+  "notes": "Volleyball on ESPN Madison WTLX 100.5 (and 620 WTMJ); the 2026 volleyball schedule links every match to ESPN Madison."
  },
  {
   "school": "University at Albany",
@@ -6437,14 +6456,22 @@
    "WSOU"
   ],
   "athletics_site": "https://shupirates.com",
-  "notes": "Student station WSOU carries all men's and women's games home and away; also streams at wsou.net",
+  "notes": "Student station WSOU carries all men's and women's games home and away; also streams at wsou.net Volleyball audio on WSOU 89.5 (student station; volleyball schedule links each match to wsou.net); iHeart id 5252.",
   "streams": [],
   "sports": [
    "mbb",
    "wbb"
   ],
   "basketball_only": true,
-  "source": "https://en.wikipedia.org/wiki/WSOU"
+  "source": "https://en.wikipedia.org/wiki/WSOU",
+  "sport_streams": {
+   "wvb": [
+    "https://stream.revma.ihrhls.com/zc5252"
+   ]
+  },
+  "sport_station": {
+   "wvb": "WSOU 89.5 FM (South Orange, NJ)"
+  }
  },
  {
   "school": "Siena University",

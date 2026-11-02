@@ -291,7 +291,7 @@ def main():
             good = list(t["streams"])  # school game feeds are only on the air during games
         good = sorted(dict.fromkeys(good), key=lambda u: not u.startswith("https"))
         good = [u for u in good if not is_bad(t.get("school", ""), u, SOURCES)]
-        entry = {k: t.get(k) for k in ("school", "names", "network", "flagship", "listen_page", "conference", "calls", "game_only", "no_radio", "notes", "athletics_site", "station_sports")} \
+        entry = {k: t.get(k) for k in ("school", "names", "network", "flagship", "listen_page", "conference", "calls", "game_only", "no_radio", "notes", "athletics_site", "station_sports", "sport_streams", "sport_station")} \
                 | {"streams": good, "misses": misses if good else 0,
                    "miss_day": time.strftime("%Y-%m-%d") if misses else None,
                    "last_ok": time.strftime("%Y-%m-%d") if misses == 0 and good else old.get("last_ok")}
