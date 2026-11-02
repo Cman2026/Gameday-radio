@@ -1,2 +1,6 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-no live games
+[0;93m2026-11-02 06:05:59.614223351 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+listening to 2 streams in 1 live games
+game       mbb  Liberty University             "You can just sit that.  Skill level really high for the freshman.  He'll mbound it with 13"
+maybe_not  mbb  Liberty University             "to walk with me I need Jesus  Jesus  I've been charging you this muddy water  to my chest "
+{'game': 1, 'maybe_not': 1}
