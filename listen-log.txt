@@ -1,9 +1,9 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-[aac @ 0x61ba42de1440] No quantized data read for sbr_dequant.
-[0;93m2026-11-02 02:07:14.163456883 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[aac @ 0x60b177542440] No quantized data read for sbr_dequant.
+[0;93m2026-11-02 02:55:07.359001756 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 listening to 4 streams in 1 live games
-game       mhk  Ohio State University          'Schedule at safelight.com.  Safelight autoglass is a proud sponsor of Ohio State Athletics'
-not_game   mhk  Ohio State University          "he's fortunate he held on to the  football.  Let's check the drive summary  sponsored by V"
-maybe_not  mhk  Ohio State University          'every chapter of your life. From your first yes to your forever I do, trust that Julie  ca'
-game       mhk  University of Michigan         "only Michigan Answers. With specialized treatment options that aren't available  anywhere "
-{'game': 2, 'not_game': 1, 'maybe_not': 1}
+game       mhk  Ohio State University          'And now Hage into his own Hage.  Hage a nice move around Smith.  Hage driving in.  Hage tr'
+not_game   mhk  Ohio State University          "that field goal. Barbecile will make another donation to current Brenda Warner's treasure "
+not_game   mhk  Ohio State University          'results. Choose LinkedIn ads and get the highest row as of all major ad networks.  Spend $'
+maybe_not  mhk  University of Michigan         'up the ice with H and Hayes around one player round two players trying to oh he tried  to '
+{'game': 1, 'not_game': 2, 'maybe_not': 1}
