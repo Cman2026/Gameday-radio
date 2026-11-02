@@ -1,5 +1,5 @@
 {
-"built": "2026-11-02T20:10:30Z",
+"built": "2026-11-02T20:28:21Z",
 "teams": [
 {
 "school": "Boston College",
@@ -5430,15 +5430,27 @@
 ],
 "game_only": null,
 "no_radio": null,
-"notes": "https stream on port 8443 plays audio (curl, Nov 2026) but the resolver's Python TLS can't handshake with it; the http port 8000 copy is kept as the outside link.",
-"streams": [],
+"notes": "https stream on port 8443 plays audio (curl, Nov 2026) but the resolver's Python TLS can't handshake with it; the http port 8000 copy is kept as the outside link. Basketball uses the 8443 https stream directly via sport_streams.",
+"streams": [
+"http://kisufm.isu.edu:8000/kisufm"
+],
 "misses": 0,
-"miss_day": "2026-11-02",
+"miss_day": null,
 "last_ok": "2026-11-02",
 "athletics_site": "https://isubengals.com",
 "station_sports": null,
-"sport_streams": null,
-"sport_station": null,
+"sport_streams": {
+"mbb": [
+"https://kisufm.isu.edu:8443/kisufm"
+],
+"wbb": [
+"https://kisufm.isu.edu:8443/kisufm"
+]
+},
+"sport_station": {
+"mbb": "KISU 91.1 FM (Pocatello, ID)",
+"wbb": "KISU 91.1 FM (Pocatello, ID)"
+},
 "game_feeds": null
 },
 {
@@ -6752,8 +6764,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://streaming2.tux-support.com:8098/source",
-"https://ice3.securenetsystems.net/WGNS"
+"https://streaming2.tux-support.com:8098/source"
 ],
 "misses": 0,
 "miss_day": null,
