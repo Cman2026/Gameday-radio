@@ -6247,12 +6247,12 @@
   "wvb|https://stream.rcs.revma.com/fyk48ahxu7uvv": {
    "school": "University of Alabama",
    "sport": "wvb",
-   "verdict": "unknown",
-   "title": " -",
+   "verdict": "music",
+   "title": "Manfred Mann - Blinded By The Light",
    "icy_name": "WBPT-FM",
-   "at": "2026-11-01T23:24:23Z",
+   "at": "2026-11-02T00:05:59Z",
    "ad_hits": 0,
-   "checks": 3,
+   "checks": 4,
    "preroll": false
   },
   "wvb|https://stream.rcs.revma.com/fyk48ahxu7uvv/hls.m3u8": {
@@ -6283,9 +6283,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-01T22:47:44Z",
+   "at": "2026-11-02T00:05:59Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wvb|https://live.amperwave.net/manifest/telesouth-wkbbfmaac-hlsc1.m3u8?source=v7player": {
@@ -6294,9 +6294,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-01T23:24:23Z",
+   "at": "2026-11-02T00:05:59Z",
    "ad_hits": 0,
-   "checks": 3,
+   "checks": 4,
    "preroll": false
   },
   "wvb|https://live.amperwave.net/manifest/telesouth-wkbbfmaac-imc1": {
@@ -6305,9 +6305,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "SuperTalk Golden Triangle",
-   "at": "2026-11-01T23:24:23Z",
+   "at": "2026-11-02T00:05:59Z",
    "ad_hits": 0,
-   "checks": 3,
+   "checks": 4,
    "preroll": false
   },
   "wvb|https://live.amperwave.net/manifest/telesouth-wzkrfmaac-imc": {
@@ -6327,9 +6327,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-01T23:24:23Z",
+   "at": "2026-11-02T00:05:59Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wvb|https://yield-op-idsync.live.streamtheworld.com/partnerIds": {
@@ -6338,9 +6338,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-01T23:24:23Z",
+   "at": "2026-11-02T00:05:59Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wvb|https://video.primis.tech/uploads/cn1/video/users/hls/25037/video_5b435ebf2ad91981641142/vid6ae2c593256f5766788799.mp4/chunklist_480.m3u8": {
@@ -6349,9 +6349,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-01T23:24:23Z",
+   "at": "2026-11-02T00:05:59Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   }
  },
@@ -14755,7 +14755,63 @@
    "url": "https://live.amperwave.net/manifest/telesouth-wzkrfmaac-imc",
    "verdict": "unknown",
    "title": ""
+  },
+  {
+   "at": "2026-11-02T00:05:59Z",
+   "school": "University of Alabama",
+   "game": "Volleyball: MSST @ ALA",
+   "url": "https://player.amperwave.net/1e76912450470b8c0c7c64cbc7a1bb80.mp3",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-11-02T00:05:59Z",
+   "school": "University of Alabama",
+   "game": "Volleyball: MSST @ ALA",
+   "url": "https://yield-op-idsync.live.streamtheworld.com/partnerIds",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-11-02T00:05:59Z",
+   "school": "University of Alabama",
+   "game": "Volleyball: MSST @ ALA",
+   "url": "https://video.primis.tech/uploads/cn1/video/users/hls/25037/video_5b435ebf2ad91981641142/vid6ae2c593256f5766788799.mp4/chunklist_480.m3u8",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-11-02T00:05:59Z",
+   "school": "University of Alabama",
+   "game": "Volleyball: MSST @ ALA",
+   "url": "https://stream.rcs.revma.com/fyk48ahxu7uvv",
+   "verdict": "music",
+   "title": "Manfred Mann - Blinded By The Light"
+  },
+  {
+   "at": "2026-11-02T00:05:59Z",
+   "school": "Mississippi State University",
+   "game": "Volleyball: MSST @ ALA",
+   "url": "https://img.leanstream.co/IM8301-MP3",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-11-02T00:05:59Z",
+   "school": "Mississippi State University",
+   "game": "Volleyball: MSST @ ALA",
+   "url": "https://live.amperwave.net/manifest/telesouth-wkbbfmaac-hlsc1.m3u8?source=v7player",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-11-02T00:05:59Z",
+   "school": "Mississippi State University",
+   "game": "Volleyball: MSST @ ALA",
+   "url": "https://live.amperwave.net/manifest/telesouth-wkbbfmaac-imc1",
+   "verdict": "unknown",
+   "title": ""
   }
  ],
- "checked": "2026-11-01T23:24:23Z"
+ "checked": "2026-11-02T00:05:59Z"
 }
