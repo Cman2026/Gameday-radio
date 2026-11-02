@@ -1,0 +1,27 @@
+name: Live data probe (one-off)
+on: workflow_dispatch
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          python3 - <<'PY'
+          import json, time, urllib.request
+          B="https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/"
+          def g(u):
+              t=time.time(); r=urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent":"Mozilla/5.0","Origin":"https://gamedayradiolive.com"}), timeout=30); b=r.read()
+              return json.loads(b), len(b), round(time.time()-t,2), r.headers.get("access-control-allow-origin")
+          d,n,t,c=g(B+"scoreboard?groups=50&limit=900")
+          ev=d.get("events",[]); print("default scoreboard: events",len(ev),"bytes",n,"secs",t,"cors",c, "dates", sorted({e['date'][:10] for e in ev}))
+          print("day param", (d.get('day') or {}), "states", {s: sum(1 for e in ev if e['status']['type']['state']==s) for s in ('pre','in','post')})
+          live=[e for e in ev if e['status']['type']['state']=='in']
+          for e in live[:2]:
+              s,n,t,c=g(B+"summary?event="+e['id'])
+              pl=s.get('plays') or []
+              shots=[p for p in pl if p.get('shootingPlay')]
+              print(e['shortName'], "summary bytes",n,"secs",t,"cors",c,"keys",sorted(s.keys()))
+              print("  plays",len(pl),"shots",len(shots),"sample shot",json.dumps(shots[-1] if shots else None)[:400])
+              bs=s.get('boxscore',{}).get('teams') or []
+              print("  box stat names",[x.get('name') for x in (bs[0].get('statistics') if bs else [])][:16])
+              print("  winprob",len(s.get('winprobability') or []))
+          PY
