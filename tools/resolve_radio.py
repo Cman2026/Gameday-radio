@@ -67,7 +67,7 @@ URL_RE = re.compile(r"""https?://[^\s"'<>()\\]+""")
 STW_MOUNT_RE = re.compile(r"""(?:livestream-redirect/|tdstation=|station=|mount=|"mount"\s*:\s*")([A-Z0-9_]{4,24})""")
 
 
-JUNK = re.compile(r"soundhelix|example|podtrac|omny\.fm|megaphone|libsyn|anchor\.fm|tunegenie|podcast|/episodes?/|/ads?/|silent\.mp3|ondemand\.|/vod|vodhttp|\.smil|/specials/|/cdn-cgi/", re.I)
+JUNK = re.compile(r"soundhelix|example|podtrac|omny\.fm|megaphone|libsyn|anchor\.fm|tunegenie|podcast|/episodes?/|/ads?/|silent\.mp3|ondemand\.|/vod|vodhttp|\.smil|/specials/|/cdn-cgi/|/audio/20\d\d/\d\d/", re.I)  # last: dated on-demand files (NPR station shows)
 
 def looks_like_stream(u):
     lu = u.lower()

@@ -3254,9 +3254,9 @@
   ],
   "athletics_site": "https://isubengals.com",
   "bad_streams": [
-   "kisufm.isu.edu:8000"
+   "ds.npr.org/"
   ],
-  "notes": "https stream on port 8443 confirmed audio Nov 2026; the http port 8000 copy cannot play on the https site."
+  "notes": "https stream on port 8443 plays audio (curl, Nov 2026) but the resolver's Python TLS can't handshake with it; the http port 8000 copy is kept as the outside link."
  },
  {
   "school": "Northern Arizona University",
