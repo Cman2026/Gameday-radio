@@ -49,7 +49,7 @@ def week(end):
 def hits(rng):
     out, after = [], None
     for _ in range(20):
-        q = dict(rng, limit=100, include_events="true")
+        q = dict(rng, limit=100)
         if after: q["exclude_paths"] = ",".join(str(h["path_id"]) for h in out if "path_id" in h)
         d = api("stats/hits", **q)
         out += d.get("hits") or []
