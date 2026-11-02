@@ -12,6 +12,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@500;600;700&display=swap">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/1.5.13/hls.min.js"></script>
+<!-- Visitor counts (GoatCounter: no cookies, no personal data). The page reloads itself when the
+     site updates; those reloads aren't counted as new visits. -->
+<script>try{ if(sessionStorage.getItem("autoReload")){ sessionStorage.removeItem("autoReload"); window.goatcounter = {no_onload: true}; } }catch(e){}</script>
+<script data-goatcounter="https://gamedayradiolive.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <style>
 /* Gameday Radio — broadcast-graphics look. Neutral surfaces; team colors and logos carry the color.
    Amber = audio controls, red = live. Barlow for text, Barlow Condensed for scores and clocks. */
@@ -445,6 +449,8 @@ h1 span{color:inherit}
 // Radio networks. "streams" are tried in order until one plays.
 // Strings are direct audio URLs; {tunein:"sNNN"} is resolved to a direct URL through TuneIn's public tune service.
 const RADIO = {}; // filled from radio.json (tested daily) + playback.json (played in a real browser)
+// Count an event (a listen, a sport tap) in GoatCounter; does nothing if the counter is blocked.
+function track(path, title){ try{ window.goatcounter?.count?.({path, title, event: true}); }catch(e){} }
 const store = {get(k){try{return localStorage.getItem(k)}catch(e){return null}}, set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
 /* ---------- sports ----------
    Each sport shows up as a tile only while it's in season: ESPN's season calendar has a game day
@@ -558,6 +564,7 @@ async function loadConfs(id){
 }
 function setSport(id, quiet){
   if(!LEAGUES[id] || id===SPORT.id) return;
+  if(!quiet) track(`sport/${id}`, `Sport: ${LEAGUES[id].g ? LEAGUES[id].g + " " : ""}${LEAGUES[id].name}`);
   SPORT = LEAGUES[id]; base = ESPN + SPORT.path;
   store.set("sport", id); store.set("league:"+SPORT.tile, id);
   sportTok++;
@@ -991,6 +998,7 @@ document.addEventListener("click", ev=>{
   const b = ev.target.closest(".ear[data-off]"); if(!b) return;
   ev.stopPropagation();
   const loc = b.dataset.off, i = RADIO_INFO[loc] || {};
+  track(`no-radio/${SPORT.id}/${loc}`, `Tapped, no radio: ${loc} (${SPORT.name})`);
   toast(waitsForFeed(loc) && !lateFor(loc) ? `${loc} radio ${feedText(loc, false)}.` : `${loc} radio unavailable${i.notes ? ` · ${i.notes}` : ""}`);
 }, true);
 document.addEventListener("click", ev=>{
@@ -1645,6 +1653,7 @@ async function playList(list, name, sub, loc){
     const ext = loc && RADIO[loc]?.external;
     if(ext) $("#nowSub").innerHTML = `This station's stream won't play inside the page. <a href="${esc(ext)}" target="_blank" rel="noopener">Open it in Safari</a>`;
     else $("#nowSub").textContent = "No stream answered. The station may not be on the air right now.";
+    if(loc) track(`listen-failed/${SPORT.id}/${loc}`, `Didn't connect: ${loc} (${SPORT.name})`);
   };
   setTimeout(()=>{ audio.removeEventListener("playing", late); if(token===tryToken && !deck){ try{ audio.pause(); audio.removeAttribute("src"); audio.load(); }catch(e){} currentTeam = null; giveUp(); render(); } }, 20000);
   connecting = null; render();
@@ -1652,6 +1661,7 @@ async function playList(list, name, sub, loc){
 }
 let lastTried = null;
 function connected(loc, url, sub){
+  if(loc) track(`listen/${SPORT.id}/${loc}`, `Listen: ${loc} (${SPORT.g ? SPORT.g + " " : ""}${SPORT.name})`);
   deck = {loc, url, sub};
   // Each station keeps its own score delay: start from its saved value, or live, then let auto-sync refine it.
   syncMode = "manual-pending"; setDelay(+(store.get("delay@" + streamKey(url)) || 0)); setTimeout(autoSync, 4000);
@@ -1744,7 +1754,7 @@ $("#moreBtn").onclick = ()=>{ const m=$("#more"); m.hidden=!m.hidden; $("#moreBt
   sig().then(v=>first=v);
   setInterval(async ()=>{
     const v = await sig(); if(!v || !first || v===first) return;
-    if(audio.paused && !connecting){ location.reload(); return; }
+    if(audio.paused && !connecting){ try{ sessionStorage.setItem("autoReload", "1"); }catch(e){} location.reload(); return; }
     if(!document.getElementById("updBar")){
       const b = document.createElement("button"); b.id = "updBar"; b.textContent = "Site updated · tap to refresh";
       b.onclick = ()=>location.reload(); document.body.appendChild(b);

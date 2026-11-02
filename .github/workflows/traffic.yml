@@ -1,0 +1,14 @@
+name: Weekly traffic report
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 12 * * 1"   # Mondays about 7:17 AM Eastern (the report itself is sent at 8:41 AM)
+permissions:
+  contents: read
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: python3 tools/traffic_report.py
+        env: { GOATCOUNTER_TOKEN: "${{ secrets.GOATCOUNTER_TOKEN }}" }
