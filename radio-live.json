@@ -7,13 +7,6 @@
    "icy_name": "",
    "at": "2026-10-31T02:26:10Z"
   },
-  "https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8?exp=1793403600&sig=1150a8cc05d8126760a95f82115b613e": {
-   "school": "University of North Carolina at Charlotte",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "",
-   "at": "2026-10-31T00:10:46Z"
-  },
   "https://livecdn.use1-0009.jwplive.com/live/sites/52ztEVMl/media/ncAcaXBq/live.isml/.m3u8": {
    "school": "University of North Carolina at Charlotte",
    "verdict": "unknown",
@@ -41,13 +34,6 @@
    "title": "",
    "icy_name": "The Ticket 106.7",
    "at": "2026-10-31T02:26:10Z"
-  },
-  "https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8?exp=1793406240&sig=1283dbc57c76119b4da10ff60ed51a16": {
-   "school": "University of North Carolina at Charlotte",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "",
-   "at": "2026-10-31T00:36:25Z"
   },
   "https://stream.revma.ihrhls.com/zc601": {
    "school": "University of Central Florida",
@@ -6352,6 +6338,61 @@
    "at": "2026-11-02T00:05:59Z",
    "ad_hits": 0,
    "checks": 2,
+   "preroll": false
+  },
+  "mhk|https://img.leanstream.co/IM5802-MP3": {
+   "school": "Ohio State University",
+   "sport": "mhk",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-02T00:40:53Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mhk|https://img.leanstream.co/IM5801-MP3": {
+   "school": "Ohio State University",
+   "sport": "mhk",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-02T00:40:53Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mhk|https://radiohio.streamguys1.com/cols/wbnsfm-iheart.m4a": {
+   "school": "Ohio State University",
+   "sport": "mhk",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-02T00:40:53Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mhk|https://oom-radiohio.streamguys1.com/cols/wbnsfm.mp3": {
+   "school": "Ohio State University",
+   "sport": "mhk",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-02T00:40:53Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mhk|https://img.leanstream.co/IM4001-MP3": {
+   "school": "University of Michigan",
+   "sport": "mhk",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-02T00:40:53Z",
+   "ad_hits": 0,
+   "checks": 1,
    "preroll": false
   }
  },
@@ -14811,7 +14852,47 @@
    "url": "https://live.amperwave.net/manifest/telesouth-wkbbfmaac-imc1",
    "verdict": "unknown",
    "title": ""
+  },
+  {
+   "at": "2026-11-02T00:40:53Z",
+   "school": "Ohio State University",
+   "game": "Men's Hockey: MICH @ OSU",
+   "url": "https://img.leanstream.co/IM5802-MP3",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-11-02T00:40:53Z",
+   "school": "Ohio State University",
+   "game": "Men's Hockey: MICH @ OSU",
+   "url": "https://img.leanstream.co/IM5801-MP3",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-11-02T00:40:53Z",
+   "school": "Ohio State University",
+   "game": "Men's Hockey: MICH @ OSU",
+   "url": "https://radiohio.streamguys1.com/cols/wbnsfm-iheart.m4a",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-11-02T00:40:53Z",
+   "school": "Ohio State University",
+   "game": "Men's Hockey: MICH @ OSU",
+   "url": "https://oom-radiohio.streamguys1.com/cols/wbnsfm.mp3",
+   "verdict": "unknown",
+   "title": ""
+  },
+  {
+   "at": "2026-11-02T00:40:53Z",
+   "school": "University of Michigan",
+   "game": "Men's Hockey: MICH @ OSU",
+   "url": "https://img.leanstream.co/IM4001-MP3",
+   "verdict": "unknown",
+   "title": ""
   }
  ],
- "checked": "2026-11-02T00:05:59Z"
+ "checked": "2026-11-02T00:40:53Z"
 }
