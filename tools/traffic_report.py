@@ -23,7 +23,8 @@ def api(path, **q):
         except urllib.error.HTTPError as e:
             if e.code == 429:  # rate limited: wait and retry
                 time.sleep(5 * (attempt + 1)); continue
-            raise
+            body = e.read().decode("utf-8", "ignore")[:300]
+            raise RuntimeError(f"GoatCounter {e.code} for {path} {q}: {body}") from None
     raise RuntimeError("GoatCounter kept rate-limiting")
 
 
@@ -53,7 +54,19 @@ def pct(a, b):
     return f"{(a - b) / b * 100:+.0f}%"
 
 
+def probe():
+    for path, q in [("me", {}), ("sites", {}), ("stats/total", {"start": "2026-10-26", "end": "2026-11-01"}),
+                    ("stats/total", {"start": "2026-10-26T00:00:00Z", "end": "2026-11-02T00:00:00Z"}),
+                    ("stats/hits", {"start": "2026-10-26T00:00:00Z", "end": "2026-11-02T00:00:00Z", "limit": 5})]:
+        try:
+            print("OK ", path, q, json.dumps(api(path, **q))[:400])
+        except Exception as e:
+            print("ERR", path, q, e)
+
+
 def main():
+    if os.environ.get("PROBE"):
+        return probe()
     if not TOKEN:
         print("GOATCOUNTER_TOKEN secret is not set. Add it in the repo: Settings → Secrets and variables → Actions."); sys.exit(0)
     today = dt.datetime.now(dt.timezone(dt.timedelta(hours=-5))).date()

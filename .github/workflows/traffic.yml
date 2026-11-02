@@ -1,6 +1,8 @@
 name: Weekly traffic report
 on:
   workflow_dispatch:
+    inputs:
+      probe: { description: "Debug: try a few API calls", required: false, default: "" }
   schedule:
     - cron: "17 12 * * 1"   # Mondays about 7:17 AM Eastern (the report itself is sent at 8:41 AM)
 permissions:
@@ -11,4 +13,4 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - run: python3 tools/traffic_report.py
-        env: { GOATCOUNTER_TOKEN: "${{ secrets.GOATCOUNTER_TOKEN }}" }
+        env: { GOATCOUNTER_TOKEN: "${{ secrets.GOATCOUNTER_TOKEN }}", PROBE: "${{ inputs.probe }}" }
