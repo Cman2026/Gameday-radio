@@ -1,17 +1,8 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-[mp3 @ 0x6499d6639f80] Failed to find two consecutive MPEG audio frames.
-[in#0 @ 0x6499d6639cc0] Error opening input: Invalid data found when processing input
-Error opening input file https://player.amperwave.net/1e76912450470b8c0c7c64cbc7a1bb80.mp3.
-Error opening input files: Invalid data found when processing input
-[0;93m2026-11-02 00:14:10.994355169 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-[in#0 @ 0x600a51251cc0] Error opening input: Invalid data found when processing input
-Error opening input file https://yield-op-idsync.live.streamtheworld.com/partnerIds.
-Error opening input files: Invalid data found when processing input
-[hls @ 0x56e0589f0f80] URL https://prod-23-20-60-37.amperwave.net/a/?lid=f71fad33-cfcc-4a3e-9b11-85209ccbacc6&u=https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Forigin.cis.abacast.net%2Fc%2Fad%2Fa%2F76edcf75519bce7569239f69ca270c37_0.aac%3Fsid%3D8206 is not in allowed_segment_extensions, consider updating hls.c and submitting a patch to ffmpeg-devel, if this should be added
-[out#0/wav @ 0x56e058d08880] Output file does not contain any stream
-Error opening output file /tmp/tmp4f49xoch.wav.
-Error opening output files: Invalid argument
-listening to 5 streams in 1 live games
-not_game   wvb  University of Alabama          "That's newly inaugurated Oklahoma governor Amanda Clark on Tulsa King and she's cracking d"
-quiet      wvb  Mississippi State University   ''
-{'no_audio': 3, 'not_game': 1, 'quiet': 1}
+[0;93m2026-11-02 01:04:57.458235215 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+listening to 4 streams in 1 live games
+game       mhk  Ohio State University          "5 face-offs to Michigan's.  Nesbit takes the Dragons Ryan Gordon.  Gordon wins this one fo"
+maybe_not  mhk  Ohio State University          "5 cents per gallon bonus on your first tank.  That's code turbo for 25 cents per gallon bo"
+game       mhk  Ohio State University          "6 to 10 Lamar Jackson injured and when we put on IR.  Then we're scored late in health Kan"
+game       mhk  University of Michigan         '0.9 seconds left now in the opening period and it has been a struggle for the visitors to '
+{'game': 3, 'maybe_not': 1}
