@@ -4,24 +4,25 @@ jobs:
   p:
     runs-on: ubuntu-latest
     steps:
+      - run: pip install -q playwright && python -m playwright install --with-deps chromium >/dev/null
       - run: |
           python3 - <<'PY'
-          import json, time, urllib.request
-          B="https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/"
-          def g(u):
-              t=time.time(); r=urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent":"Mozilla/5.0","Origin":"https://gamedayradiolive.com"}), timeout=30); b=r.read()
-              return json.loads(b), len(b), round(time.time()-t,2), r.headers.get("access-control-allow-origin")
-          d,n,t,c=g(B+"scoreboard?groups=50&dates=20261102&limit=900")
-          ev=d.get("events",[]); print("default scoreboard: events",len(ev),"bytes",n,"secs",t,"cors",c, "dates", sorted({e['date'][:10] for e in ev}))
-          print("day param", (d.get('day') or {}), "states", {s: sum(1 for e in ev if e['status']['type']['state']==s) for s in ('pre','in','post')})
-          live=[e for e in ev if e['status']['type']['state']=='in']
-          for e in live[:2]:
-              s,n,t,c=g(B+"summary?event="+e['id'])
-              pl=s.get('plays') or []
-              shots=[p for p in pl if p.get('shootingPlay')]
-              print(e['shortName'], "summary bytes",n,"secs",t,"cors",c,"keys",sorted(s.keys()))
-              print("  plays",len(pl),"shots",len(shots),"sample shot",json.dumps(shots[-1] if shots else None)[:400])
-              bs=s.get('boxscore',{}).get('teams') or []
-              print("  box stat names",[x.get('name') for x in (bs[0].get('statistics') if bs else [])][:16])
-              print("  winprob",len(s.get('winprobability') or []))
+          from playwright.sync_api import sync_playwright
+          with sync_playwright() as p:
+              b = p.chromium.launch(); pg = b.new_page(viewport={"width":1400,"height":900})
+              errs=[]; pg.on("console", lambda m: errs.append(m.type+": "+m.text) if m.type in ("error","warning") else None); pg.on("pageerror", lambda e: errs.append("PAGEERR "+str(e)))
+              reqs=[]; pg.on("requestfinished", lambda r: reqs.append(r.url) if "espn" in r.url else None)
+              pg.on("requestfailed", lambda r: errs.append("FAILED "+r.url[:120]+" "+str(r.failure)))
+              pg.goto("https://gamedayradiolive.com/?v="+__import__("time").strftime("%s")); pg.wait_for_timeout(8000)
+              print("sport", pg.evaluate("SPORT.id"), "| list:", pg.inner_text("#list")[:200].replace("\n"," / "))
+              pg.click('.sport[data-tile="bb"]'); pg.wait_for_timeout(1500)
+              pg.click('#gender [data-league="mbb"]') if pg.query_selector('#gender [data-league="mbb"]') else None
+              for i in range(6):
+                  pg.wait_for_timeout(5000)
+                  print(f"t+{(i+1)*5}s", pg.evaluate("({sel: selected, open: boardOpen, live: events.filter(e=>e.status.type.state==='in').map(e=>e.id+' '+e.shortName), sums: summaryHist.map(h=>h.id), hist: history.length, ahead: Object.keys(poll.ahead?.byDay||{}), boardHidden: document.getElementById('board').hidden})"))
+              print("board:", pg.inner_text("#board")[:600].replace("\n"," / "))
+              print("summary requests:", [u for u in reqs if "summary" in u][:5])
+              print("scoreboard requests:", [u.split("?")[1] for u in reqs if "scoreboard" in u][:12])
+              print("errors:", errs[:15])
+              b.close()
           PY
