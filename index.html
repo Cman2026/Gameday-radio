@@ -119,6 +119,7 @@ h1 span{color:inherit}
 .lines td{padding:7px 4px;border-top:1px solid var(--line)}
 .lines :is(th,td):first-child{text-align:left;padding-left:10px;white-space:nowrap}
 .lines .tot{font-weight:700}
+.lines :is(th,td):not(:first-child){width:46px}
 .lines .cur{background:color-mix(in srgb,var(--accent) 16%,transparent)}
 .stats{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:8px 10px;align-items:center;font:600 15px var(--num);font-variant-numeric:tabular-nums}
 .stats .sl{display:flex;flex-direction:column;align-items:center;gap:4px;font:500 12px var(--ui);color:var(--muted)}
@@ -161,6 +162,7 @@ h1 span{color:inherit}
 
 /* ---------- Grouped game list ---------- */
 .list{display:flex;flex-direction:column}
+.list > *{flex-shrink:0} /* nothing in the list gets squeezed (the day tabs collapsed on desktop) */
 .conf{font:600 16px var(--ui);color:var(--text);margin:14px 0 8px;padding:12px 14px;display:flex;align-items:center;gap:10px;width:100%;background:var(--surface);border:1px solid var(--line-2);border-radius:var(--r-lg);text-align:left;cursor:pointer;-webkit-tap-highlight-color:transparent;box-shadow:0 1px 2px rgba(0,0,0,.06)}
 .conf:active{background:var(--surface-2)}
 .conf .cn{font:600 12px var(--num);color:var(--accent-ink);background:var(--accent);border-radius:999px;padding:2px 8px}
@@ -416,6 +418,19 @@ h1 span{color:inherit}
 .deck.min .btn.minbtn svg{width:20px;height:20px}
 }
 @media (prefers-reduced-motion:reduce){.field .ball,.field .fd,.field .ls,.minbtn svg{transition:none}.ear .bars i{animation:none;height:10px}}
+/* Desktop game details: a shorter header so the field, court or rink stays on screen */
+@media (min-width:861px){
+  .board .score{padding-top:16px}
+  .board .score .side img{width:48px;height:48px;margin-bottom:2px}
+  .board .score .side .nm{min-height:0}
+  .board .score .side .big{font-size:60px;margin:4px 0 2px}
+  .board .mid{padding-top:18px}
+}
+/* Big monitors: use more of the screen, with a roomier list column */
+@media (min-width:1500px){
+  .wrap,.foot,.deck-in{max-width:1360px}
+  .grid{grid-template-columns:minmax(0,440px) minmax(0,1fr);gap:32px}
+}
 </style>
 </head>
 <body>
