@@ -1,5 +1,5 @@
 {
-"built": "2026-11-01T23:43:27Z",
+"built": "2026-11-02T01:59:43Z",
 "teams": [
 {
 "school": "Boston College",
@@ -25,9 +25,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://bceagles.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -56,10 +58,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://calbears.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -88,9 +92,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://clemsontigers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -114,10 +120,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://goduke.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -145,10 +153,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://seminoles.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -174,9 +184,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://ramblinwreck.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -203,10 +215,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://gocards.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -234,9 +248,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://miamihurricanes.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -261,10 +277,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://gopack.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -292,10 +310,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://goheels.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -314,7 +334,7 @@
 ],
 "game_only": null,
 "no_radio": null,
-"notes": "Volleyball (select matches) on 93.7 The Fan per Sept 2025 release: pittsburghpanthers.com/news/2025/9/25/pitt-volleyball-matches-to-air-on-93-7-the-fan",
+"notes": "Volleyball (select matches) on 93.7 The Fan per Sept 2025 release: pittsburghpanthers.com/news/2025/9/25/pitt-volleyball-matches-to-air-on-93-7-the-fan Volleyball: only two matches a season on Audacy stations (Sept 2025 release), so not marked as carrying it.",
 "streams": [
 "https://live.amperwave.net/direct/audacy-kdkafmaac-imc",
 "https://live.amperwave.net/manifest/audacy-kdkafmaac-imc",
@@ -322,12 +342,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://pittsburghpanthers.com",
-"station_sports": [
-"wvb"
-],
+"station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -355,10 +375,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://smumustangs.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -378,7 +400,7 @@
 ],
 "game_only": null,
 "no_radio": null,
-"notes": null,
+"notes": "KZSU 90.1 (campus station) is the exclusive radio home for Stanford volleyball and baseball (kzsu.stanford.edu/sports).",
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KNBRAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KNBRAMAAC.m3u8",
@@ -386,9 +408,21 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://gostanford.com",
 "station_sports": null,
+"sport_streams": {
+"wvb": [
+"https://kzsu-streams.stanford.edu/kzsu-1-128.mp3"
+],
+"bsb": [
+"https://kzsu-streams.stanford.edu/kzsu-1-128.mp3"
+]
+},
+"sport_station": {
+"wvb": "KZSU 90.1 FM (Stanford)",
+"bsb": "KZSU 90.1 FM (Stanford)"
+},
 "game_feeds": null
 },
 {
@@ -413,10 +447,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://cuse.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -442,9 +478,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://virginiasports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -469,9 +507,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://hokiesports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -496,10 +536,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://godeacs.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -526,9 +568,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://fightingirish.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -556,10 +600,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://uconnhuskies.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -587,10 +633,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://goarmywestpoint.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -615,8 +663,8 @@
 "https://ice64.securenetsystems.net/WZGV2",
 "https://cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8"
 ],
-"misses": 6,
-"miss_day": "2026-11-01",
+"misses": 7,
+"miss_day": "2026-11-02",
 "last_ok": "2026-10-30",
 "game_feeds": [
 "https://cdn.jwplayer.com/live/broadcast/kDNzJYGH.m3u8",
@@ -626,7 +674,9 @@
 "game_feeds_sport": "wvb",
 "live_only": true,
 "athletics_site": "https://charlotte49ers.com",
-"station_sports": null
+"station_sports": null,
+"sport_streams": null,
+"sport_station": null
 },
 {
 "school": "East Carolina University",
@@ -651,9 +701,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://ecupirates.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -679,9 +731,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://fausports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -708,10 +762,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://gotigersgo.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -736,9 +792,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://navysports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -765,9 +823,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://meangreensports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -790,6 +850,8 @@
 "last_ok": null,
 "athletics_site": "https://riceowls.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -815,9 +877,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://gousfbulls.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -837,12 +901,14 @@
 "streams": [
 "https://cdn.jwplayer.com/live/broadcast/3j2GACVG.m3u8"
 ],
-"misses": 1,
-"miss_day": "2026-11-01",
+"misses": 2,
+"miss_day": "2026-11-02",
 "last_ok": "2026-10-31",
 "live_only": false,
 "athletics_site": "https://owlsports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -868,9 +934,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://tulanegreenwave.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -894,9 +962,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://tulsahurricane.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -923,10 +993,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://uabsports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -952,9 +1024,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://goutsa.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -977,12 +1051,14 @@
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3"
 ],
-"misses": 1,
-"miss_day": "2026-11-01",
+"misses": 2,
+"miss_day": "2026-11-02",
 "last_ok": "2026-11-01",
 "live_only": false,
 "athletics_site": "https://appstatesports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1007,9 +1083,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://astateredwolves.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1036,9 +1114,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://goccusports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1062,10 +1142,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": false,
 "athletics_site": "https://gseagles.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1091,9 +1173,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://georgiastatesports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1119,9 +1203,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://jmusports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1148,9 +1234,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://ragincajuns.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1175,10 +1263,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": false,
 "athletics_site": "https://latechsports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1203,10 +1293,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": false,
 "athletics_site": "https://herdzone.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1231,9 +1323,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://odusports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1260,10 +1354,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://usajaguars.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1288,10 +1384,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": false,
 "athletics_site": "https://southernmiss.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1317,9 +1415,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://troytrojans.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1345,9 +1445,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://ulmwarhawks.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1374,9 +1476,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://arizonawildcats.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1403,9 +1507,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://thesundevils.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1429,9 +1535,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://baylorbears.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1457,9 +1565,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://byucougars.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1486,9 +1596,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://gobearcats.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1516,10 +1628,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://cubuffs.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1545,9 +1659,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://uhcougars.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1574,10 +1690,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://cyclones.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1602,9 +1720,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://kuathletics.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1631,10 +1751,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://kstatesports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1659,10 +1781,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": false,
 "athletics_site": "https://okstate.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1690,10 +1814,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://gofrogs.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1719,10 +1845,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://texastech.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1748,9 +1876,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://ucfknights.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1774,9 +1904,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://utahutes.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1802,9 +1934,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://wvusports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1834,7 +1968,7 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://ohiostatebuckeyes.com",
 "game_feeds": [
@@ -1842,7 +1976,9 @@
 ],
 "game_feeds_at": "2026-11-02T01:53:53Z",
 "game_feeds_sport": "mhk",
-"station_sports": null
+"station_sports": null,
+"sport_streams": null,
+"sport_station": null
 },
 {
 "school": "University of Michigan",
@@ -1867,7 +2003,7 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://mgoblue.com",
 "game_feeds": [
@@ -1875,7 +2011,9 @@
 ],
 "game_feeds_at": "2026-11-02T01:53:53Z",
 "game_feeds_sport": "mhk",
-"station_sports": null
+"station_sports": null,
+"sport_streams": null,
+"sport_station": null
 },
 {
 "school": "Pennsylvania State University",
@@ -1903,9 +2041,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://gopsusports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1934,7 +2074,7 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "game_feeds": [
 "https://ice25.securenetsystems.net/WDWS"
 ],
@@ -1942,7 +2082,9 @@
 "live_only": true,
 "game_feeds_sport": "wvb",
 "athletics_site": "https://fightingillini.com",
-"station_sports": null
+"station_sports": null,
+"sport_streams": null,
+"sport_station": null
 },
 {
 "school": "Indiana University",
@@ -1967,10 +2109,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://iuhoosiers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -1997,9 +2141,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://hawkeyesports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2025,9 +2171,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://umterps.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2055,9 +2203,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://msuspartans.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2085,10 +2235,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://gophersports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2114,11 +2266,13 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://huskers.com",
 "station_sports": [
 "wvb"
 ],
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2144,9 +2298,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://nusports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2174,10 +2330,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://goducks.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2201,9 +2359,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://purduesports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2231,10 +2391,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://scarletknights.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2260,9 +2422,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://uclabruins.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2290,10 +2454,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://usctrojans.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2321,10 +2487,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://gohuskies.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2342,7 +2510,7 @@
 ],
 "game_only": null,
 "no_radio": null,
-"notes": null,
+"notes": "Volleyball on ESPN Madison WTLX 100.5 (and 620 WTMJ); the 2026 volleyball schedule links every match to ESPN Madison.",
 "streams": [
 "https://img.leanstream.co/IM8501-MP3",
 "https://stream.revma.ihrhls.com/zc2661",
@@ -2351,7 +2519,7 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://uwbadgers.com",
 "station_sports": null,
@@ -2359,7 +2527,15 @@
 "https://img.leanstream.co/IM8501-MP3"
 ],
 "game_feeds_at": "2026-11-01T23:23:01Z",
-"game_feeds_sport": "wvb"
+"game_feeds_sport": "wvb",
+"sport_streams": {
+"wvb": [
+"https://live.amperwave.net/manifest/goodkarma-wtlxfmaac-hlsc2.m3u8?source=v7player"
+]
+},
+"sport_station": {
+"wvb": "ESPN Madison 100.5 FM (WTLX)"
+}
 },
 {
 "school": "University at Albany",
@@ -2383,9 +2559,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://ualbanysports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2409,9 +2587,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://bryantbulldogs.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2428,15 +2608,15 @@
 "game_only": true,
 "no_radio": null,
 "notes": "School audio on GoCamels.com, game days only",
-"streams": [
-"https://cdn.jwplayer.com/live/broadcast/8eUvetd9.m3u8"
-],
-"misses": 2,
-"miss_day": "2026-11-01",
+"streams": [],
+"misses": 0,
+"miss_day": "2026-11-02",
 "last_ok": "2026-10-31",
 "live_only": false,
 "athletics_site": "https://gocamels.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2458,9 +2638,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://elonphoenix.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2485,6 +2667,8 @@
 "last_ok": "2026-10-31",
 "athletics_site": "https://hamptonpirates.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2511,10 +2695,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://goblackbears.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2539,6 +2725,8 @@
 "last_ok": "2026-10-31",
 "athletics_site": "https://monmouthhawks.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2567,9 +2755,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://unhwildcats.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2587,15 +2777,15 @@
 "game_only": null,
 "no_radio": null,
 "notes": null,
-"streams": [
-"https://cdn.jwplayer.com/live/broadcast/KtfQesje.m3u8"
-],
-"misses": 2,
-"miss_day": "2026-11-01",
+"streams": [],
+"misses": 0,
+"miss_day": "2026-11-02",
 "last_ok": "2026-10-31",
 "live_only": false,
 "athletics_site": "https://ncataggies.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2613,15 +2803,15 @@
 "game_only": true,
 "no_radio": null,
 "notes": "Free school audio (LEANplayer)",
-"streams": [
-"https://learfield-gd.leanstream.co/LF4901-MP3?sport=FB"
-],
-"misses": 2,
-"miss_day": "2026-11-01",
+"streams": [],
+"misses": 0,
+"miss_day": "2026-11-02",
 "last_ok": "2026-10-31",
 "live_only": false,
 "athletics_site": "https://gorhody.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2644,6 +2834,8 @@
 "last_ok": null,
 "athletics_site": "https://sacredheartpioneers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2668,9 +2860,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://stonybrookathletics.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2694,9 +2888,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://towsontigers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2722,10 +2918,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://bucknellbison.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2750,9 +2948,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://gocolgateraiders.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2778,9 +2978,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://fordhamsports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2803,6 +3005,8 @@
 "last_ok": null,
 "athletics_site": "https://guhoyas.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2825,6 +3029,8 @@
 "last_ok": null,
 "athletics_site": "https://goholycross.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2847,6 +3053,8 @@
 "last_ok": null,
 "athletics_site": "https://goleopards.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2873,9 +3081,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://lehighsports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2899,10 +3109,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": false,
 "athletics_site": "https://richmondspiders.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2928,9 +3140,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://villanova.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2956,9 +3170,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://tribeathletics.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -2981,6 +3197,8 @@
 "last_ok": "2026-10-31",
 "athletics_site": "https://brownbears.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3005,9 +3223,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://gocolumbialions.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3030,6 +3250,8 @@
 "last_ok": "2026-10-31",
 "athletics_site": "https://cornellbigred.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3054,7 +3276,7 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "game_feeds": [
 "https://cdn.jwplayer.com/live/broadcast/pOu2p9Uo.m3u8"
 ],
@@ -3062,7 +3284,9 @@
 "game_feeds_sport": "mhk",
 "live_only": true,
 "athletics_site": "https://dartmouthsports.com",
-"station_sports": null
+"station_sports": null,
+"sport_streams": null,
+"sport_station": null
 },
 {
 "school": "Harvard University",
@@ -3085,9 +3309,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://gocrimson.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3111,6 +3337,8 @@
 "last_ok": null,
 "athletics_site": "https://pennathletics.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3133,6 +3361,8 @@
 "last_ok": "2026-10-31",
 "athletics_site": "https://goprincetontigers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3158,9 +3388,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://yalebulldogs.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3184,6 +3416,8 @@
 "last_ok": null,
 "athletics_site": "https://ccsubluedevils.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3229,9 +3463,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://goduquesne.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3255,6 +3491,8 @@
 "last_ok": null,
 "athletics_site": "https://liuathletics.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3277,6 +3515,8 @@
 "last_ok": null,
 "athletics_site": "https://hurstathletics.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3299,6 +3539,8 @@
 "last_ok": null,
 "athletics_site": "https://newhavenchargers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3320,10 +3562,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://rmucolonials.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3346,6 +3590,8 @@
 "last_ok": null,
 "athletics_site": "https://stonehillskyhawks.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3368,6 +3614,8 @@
 "last_ok": null,
 "athletics_site": "https://wagnerathletics.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3392,9 +3640,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://aamusports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3419,9 +3669,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://bamastatesports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3446,9 +3698,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://bcuathletics.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3475,9 +3729,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://famuathletics.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3502,9 +3758,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://gojsutigers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3528,6 +3786,8 @@
 "last_ok": null,
 "athletics_site": "https://mvsusports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3552,9 +3812,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://alcornsports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3578,6 +3840,8 @@
 "last_ok": null,
 "athletics_site": "https://uapblionsroar.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3603,9 +3867,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://gsutigers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3629,6 +3895,8 @@
 "last_ok": null,
 "athletics_site": "https://pvpanthers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3652,6 +3920,8 @@
 "last_ok": null,
 "athletics_site": "https://gojagsports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3676,9 +3946,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://tsusports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3702,6 +3974,8 @@
 "last_ok": null,
 "athletics_site": "https://dsuhornets.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3724,6 +3998,8 @@
 "last_ok": "2026-10-31",
 "athletics_site": "https://hubison.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3748,9 +4024,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://morganstatebears.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3776,9 +4054,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://nsuspartans.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3803,6 +4083,8 @@
 "last_ok": null,
 "athletics_site": "https://nccueaglepride.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3827,9 +4109,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://scsuathletics.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3852,6 +4136,8 @@
 "last_ok": "2026-10-31",
 "athletics_site": "https://merrimackathletics.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3874,6 +4160,8 @@
 "last_ok": null,
 "athletics_site": "https://gocsucougars.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3898,9 +4186,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://gomocs.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3928,9 +4218,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://etsubucs.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3957,9 +4249,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://furmanpaladins.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -3983,9 +4277,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://mercerbears.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4008,6 +4304,8 @@
 "last_ok": null,
 "athletics_site": "https://samfordsports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4031,9 +4329,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://ttusports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4057,9 +4357,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://citadelsports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4083,9 +4385,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://vmikeydets.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4110,9 +4414,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://catamountsports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4134,10 +4440,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": false,
 "athletics_site": "https://woffordterriers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4163,9 +4471,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://lionathletics.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4190,9 +4500,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://hcuhuskies.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4216,6 +4528,8 @@
 "last_ok": null,
 "athletics_site": "https://uiwcardinals.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4241,9 +4555,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://lamarcardinals.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4268,9 +4584,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://mcneesesports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4294,9 +4612,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://geauxcolonels.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4320,9 +4640,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://nsudemons.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4347,9 +4669,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://lionsports.net",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4375,10 +4699,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://sfajacks.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4404,9 +4730,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://goutrgv.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4430,6 +4758,8 @@
 "last_ok": null,
 "athletics_site": "https://csusports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4456,6 +4786,8 @@
 "live_only": false,
 "athletics_site": "https://eiupanthers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4479,9 +4811,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://gwusports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4505,9 +4839,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://lindenwoodlions.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4530,11 +4866,13 @@
 "streams": [
 "https://ice23.securenetsystems.net/KCGQ"
 ],
-"misses": 1,
-"miss_day": "2026-11-01",
-"last_ok": "2026-11-01",
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-02",
 "athletics_site": "https://gosoutheast.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4559,9 +4897,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://tsutigers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4586,9 +4926,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://utmsports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4613,9 +4955,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://goleathernecks.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4638,6 +4982,8 @@
 "last_ok": null,
 "athletics_site": "https://butlersports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4660,6 +5006,8 @@
 "last_ok": null,
 "athletics_site": "https://davidsonwildcats.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4685,9 +5033,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://daytonflyers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4712,6 +5062,8 @@
 "last_ok": null,
 "athletics_site": "https://godrakebulldogs.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4731,12 +5083,14 @@
 "streams": [
 "https://cdn.jwplayer.com/live/broadcast/3TH9Dtwc.m3u8"
 ],
-"misses": 1,
-"miss_day": "2026-11-01",
+"misses": 2,
+"miss_day": "2026-11-02",
 "last_ok": "2026-10-31",
 "live_only": false,
 "athletics_site": "https://goredfoxes.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4761,10 +5115,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://msueagles.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4789,9 +5145,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://gobluehose.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4817,10 +5175,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://tommiesports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4844,6 +5204,8 @@
 "last_ok": null,
 "athletics_site": "https://usdtoreros.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4866,6 +5228,8 @@
 "last_ok": null,
 "athletics_site": "https://gohatters.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4891,6 +5255,8 @@
 "last_ok": null,
 "athletics_site": "https://valpoathletics.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4920,10 +5286,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://gogriz.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4953,10 +5321,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://msubobcats.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -4984,9 +5354,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://goeags.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5012,10 +5384,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://govandals.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5041,9 +5415,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://isubengals.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5071,10 +5447,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": false,
 "athletics_site": "https://nauathletics.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5100,9 +5478,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://uncbears.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5127,6 +5507,8 @@
 "last_ok": null,
 "athletics_site": "https://goviks.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5151,9 +5533,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://weberstatesports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5179,6 +5563,8 @@
 "last_ok": null,
 "athletics_site": "https://gopoly.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5206,10 +5592,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://ucdavisaggies.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5235,9 +5623,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://suutbirds.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5260,10 +5650,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": false,
 "athletics_site": "https://utahtechtrailblazers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5291,10 +5683,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://goredbirds.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5319,10 +5713,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": false,
 "athletics_site": "https://gosycamores.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5347,10 +5743,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://goracers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5377,9 +5775,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://fightinghawks.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5404,10 +5804,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": false,
 "athletics_site": "https://unipanthers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5433,10 +5835,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": false,
 "athletics_site": "https://goyotes.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5462,10 +5866,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://gojacks.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5491,9 +5897,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://siusalukis.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5521,9 +5929,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://ysusports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5550,9 +5960,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://acusports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5579,9 +5991,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://letsgopeay.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5606,9 +6020,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://ucasports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5634,10 +6050,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://ekusports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5662,10 +6080,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": false,
 "athletics_site": "https://roarlions.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5692,10 +6112,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://tarletonsports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5720,6 +6142,8 @@
 "last_ok": null,
 "athletics_site": "https://goargos.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5744,9 +6168,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://uwgathletics.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5773,9 +6199,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://gozips.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5800,9 +6228,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://ballstatesports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5827,9 +6257,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://bgsufalcons.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5854,9 +6286,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://ubbulls.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5882,9 +6316,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://cmuchippewas.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5911,9 +6347,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://emueagles.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5939,9 +6377,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://kentstatesports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5966,9 +6406,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://miamiredhawks.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -5992,9 +6434,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://ohiobobcats.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6020,9 +6464,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://utrockets.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6049,9 +6495,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://wmubroncos.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6076,9 +6524,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://umassathletics.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6105,9 +6555,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://hornetsports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6134,9 +6586,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://bluehens.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6157,12 +6611,14 @@
 "streams": [
 "https://cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8"
 ],
-"misses": 12,
-"miss_day": "2026-11-01",
+"misses": 13,
+"miss_day": "2026-11-02",
 "last_ok": null,
 "live_only": false,
 "athletics_site": "https://fiusports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6187,9 +6643,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://jsugamecocksports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6212,9 +6670,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://ksuowls.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6238,10 +6698,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://libertyflames.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6266,9 +6728,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://goblueraiders.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6292,9 +6756,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://missouristatebears.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6319,9 +6785,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://nmstatesports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6347,6 +6815,8 @@
 "last_ok": null,
 "athletics_site": "https://gobearkats.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6372,9 +6842,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://wkusports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6402,10 +6874,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://broncosports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6432,10 +6906,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://csurams.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6460,9 +6936,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://gobulldogs.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6490,10 +6968,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://osubeavers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6519,9 +6999,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://goaztecs.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6547,10 +7029,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://txst.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6577,10 +7061,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://utahstateaggies.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6608,9 +7094,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://wsucougars.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6638,10 +7126,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://goairforcefalcons.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6668,9 +7158,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://hawaiiathletics.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6697,9 +7189,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://nevadawolfpack.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6728,9 +7222,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://golobos.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6757,10 +7253,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": false,
 "athletics_site": "https://gobison.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6787,9 +7285,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://niuhuskies.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6818,9 +7318,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://sjsuspartans.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6841,15 +7343,15 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAM.mp3",
-"http://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAMAAC.aac"
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KOMPHD2AAC.aac"
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://unlvrebels.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6876,10 +7378,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://utepminers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6904,9 +7408,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://gowyo.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6937,7 +7443,7 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://rolltide.com",
 "station_sports": null,
 "game_feeds": [
@@ -6947,7 +7453,9 @@
 ],
 "game_feeds_at": "2026-11-01T23:23:01Z",
 "game_feeds_sport": "wvb",
-"live_only": true
+"live_only": true,
+"sport_streams": null,
+"sport_station": null
 },
 {
 "school": "University of Arkansas",
@@ -6973,9 +7481,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://arkansasrazorbacks.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -6999,9 +7509,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://auburntigers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7029,7 +7541,7 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "game_feeds": [
 "https://ais-sa1.streamon.fm/7644_48k.aac"
@@ -7037,7 +7549,9 @@
 "game_feeds_at": "2026-11-01T19:07:25Z",
 "game_feeds_sport": "wvb",
 "athletics_site": "https://floridagators.com",
-"station_sports": null
+"station_sports": null,
+"sport_streams": null,
+"sport_station": null
 },
 {
 "school": "University of Georgia",
@@ -7064,10 +7578,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://georgiadogs.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7095,9 +7611,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://ukathletics.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7122,9 +7640,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://lsusports.net",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7150,10 +7670,12 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://olemisssports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7182,7 +7704,7 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "live_only": true,
 "athletics_site": "https://hailstate.com",
 "station_sports": null,
@@ -7190,7 +7712,9 @@
 "https://player.amperwave.net/1e76912450470b8c0c7c64cbc7a1bb80.mp3"
 ],
 "game_feeds_at": "2026-11-01T23:23:01Z",
-"game_feeds_sport": "wvb"
+"game_feeds_sport": "wvb",
+"sport_streams": null,
+"sport_station": null
 },
 {
 "school": "University of Missouri",
@@ -7216,9 +7740,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://mutigers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7245,9 +7771,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://soonersports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7274,9 +7802,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://gamecocksonline.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7304,9 +7834,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://utsports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7334,9 +7866,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://texassports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7363,9 +7897,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://12thman.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7390,9 +7926,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://vucommodores.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7419,6 +7957,8 @@
 "last_ok": null,
 "athletics_site": "https://aueagles.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7447,9 +7987,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://athletics.bellarmine.edu",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7474,6 +8016,8 @@
 "last_ok": null,
 "athletics_site": "https://belmontbruins.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7501,9 +8045,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://binghamtonbearcats.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7529,6 +8075,8 @@
 "last_ok": null,
 "athletics_site": "https://goterriers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7556,9 +8104,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://bradleybraves.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7586,6 +8136,8 @@
 "last_ok": null,
 "athletics_site": "https://gorunners.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7612,6 +8164,8 @@
 "last_ok": null,
 "athletics_site": "https://fullertontitans.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7638,6 +8192,8 @@
 "last_ok": null,
 "athletics_site": "https://gomatadors.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7665,6 +8221,8 @@
 "last_ok": null,
 "athletics_site": "https://cbulancers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7693,9 +8251,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://gogriffs.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7721,6 +8281,8 @@
 "last_ok": null,
 "athletics_site": "https://cofcsports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7745,9 +8307,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://csuvikings.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7772,6 +8336,8 @@
 "last_ok": null,
 "athletics_site": "https://coppinstatesports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7799,9 +8365,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://gocreighton.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7827,6 +8395,8 @@
 "last_ok": null,
 "athletics_site": "https://depaulbluedemons.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7851,9 +8421,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://denverpioneers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7880,6 +8452,8 @@
 "last_ok": null,
 "athletics_site": "https://detroittitans.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7904,6 +8478,8 @@
 "last_ok": null,
 "athletics_site": "https://drexeldragons.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7930,6 +8506,8 @@
 "last_ok": null,
 "athletics_site": "https://gopurpleaces.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7955,6 +8533,8 @@
 "last_ok": null,
 "athletics_site": "https://fairfieldstags.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -7980,6 +8560,8 @@
 "last_ok": null,
 "athletics_site": "https://fduknights.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8005,6 +8587,8 @@
 "last_ok": null,
 "athletics_site": "https://fgcuathletics.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8031,6 +8615,8 @@
 "last_ok": null,
 "athletics_site": "https://gomason.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8057,6 +8643,8 @@
 "last_ok": null,
 "athletics_site": "https://gwsports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8085,9 +8673,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://gozags.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8113,6 +8703,8 @@
 "last_ok": null,
 "athletics_site": "https://gculopes.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8139,6 +8731,8 @@
 "last_ok": null,
 "athletics_site": "https://greenbayphoenix.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8162,6 +8756,8 @@
 "last_ok": null,
 "athletics_site": "https://highpointpanthers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8188,6 +8784,8 @@
 "last_ok": null,
 "athletics_site": "https://gohofstra.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8217,9 +8815,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://iuindyjags.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8243,6 +8843,8 @@
 "last_ok": null,
 "athletics_site": "https://ionagaels.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8268,6 +8870,8 @@
 "last_ok": null,
 "athletics_site": "https://judolphins.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8294,6 +8898,8 @@
 "last_ok": null,
 "athletics_site": "https://kcroos.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8325,9 +8931,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://unoprivateers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8352,6 +8960,8 @@
 "last_ok": null,
 "athletics_site": "https://goexplorers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8376,9 +8986,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://lemoynedolphins.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8403,6 +9015,8 @@
 "last_ok": null,
 "athletics_site": "https://lipscombsports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8429,9 +9043,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://lrtrojans.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8458,6 +9074,8 @@
 "last_ok": null,
 "athletics_site": "https://longbeachstate.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8482,6 +9100,8 @@
 "last_ok": null,
 "athletics_site": "https://longwoodlancers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8508,6 +9128,8 @@
 "last_ok": null,
 "athletics_site": "https://loyolaramblers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8533,6 +9155,8 @@
 "last_ok": null,
 "athletics_site": "https://loyolagreyhounds.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8557,6 +9181,8 @@
 "last_ok": null,
 "athletics_site": "https://lmulions.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8582,6 +9208,8 @@
 "last_ok": null,
 "athletics_site": "https://gojaspers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8607,9 +9235,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://gomarquette.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8635,6 +9265,8 @@
 "last_ok": null,
 "athletics_site": "https://umeshawksports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8662,9 +9294,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://mkepanthers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8693,9 +9327,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://mountathletics.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8719,6 +9355,8 @@
 "last_ok": null,
 "athletics_site": "https://njithighlanders.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8744,6 +9382,8 @@
 "last_ok": null,
 "athletics_site": "https://purpleeagles.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8769,6 +9409,8 @@
 "last_ok": null,
 "athletics_site": "https://unfospreys.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8795,9 +9437,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://nuhuskies.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8827,9 +9471,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://nkunorse.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8855,6 +9501,8 @@
 "last_ok": null,
 "athletics_site": "https://goldengrizzlies.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8881,6 +9529,8 @@
 "last_ok": null,
 "athletics_site": "https://omahamavs.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8907,6 +9557,8 @@
 "last_ok": null,
 "athletics_site": "https://oruathletics.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8935,9 +9587,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://pacifictigers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8962,6 +9616,8 @@
 "last_ok": null,
 "athletics_site": "https://pepperdinewaves.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -8987,6 +9643,8 @@
 "last_ok": null,
 "athletics_site": "https://portlandpilots.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9016,9 +9674,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://friars.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9047,9 +9707,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://gomastodons.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9077,6 +9739,8 @@
 "last_ok": null,
 "athletics_site": "https://queensathletics.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9102,6 +9766,8 @@
 "last_ok": null,
 "athletics_site": "https://gobobcats.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9130,9 +9796,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://radfordathletics.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9156,9 +9824,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://gobroncs.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9184,6 +9854,8 @@
 "last_ok": null,
 "athletics_site": "https://siuecougars.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9210,6 +9882,8 @@
 "last_ok": null,
 "athletics_site": "https://sjuhawks.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9238,9 +9912,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://slubillikens.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9267,6 +9943,8 @@
 "last_ok": null,
 "athletics_site": "https://smcgaels.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9292,6 +9970,8 @@
 "last_ok": null,
 "athletics_site": "https://saintpeterspeacocks.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9317,6 +9997,8 @@
 "last_ok": null,
 "athletics_site": "https://santaclarabroncos.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9343,6 +10025,8 @@
 "last_ok": null,
 "athletics_site": "https://goseattleu.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9364,7 +10048,7 @@
 ],
 "game_only": null,
 "no_radio": null,
-"notes": "Student station WSOU carries all men's and women's games home and away; also streams at wsou.net",
+"notes": "Student station WSOU carries all men's and women's games home and away; also streams at wsou.net Volleyball audio on WSOU 89.5 (student station; volleyball schedule links each match to wsou.net); iHeart id 5252.",
 "streams": [
 "https://stream.surfernetwork.com/1fvoynxxaqduv",
 "https://stream.surfernetwork.com/hls/1fvoynxxaqduv",
@@ -9372,9 +10056,17 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://shupirates.com",
 "station_sports": null,
+"sport_streams": {
+"wvb": [
+"https://stream.revma.ihrhls.com/zc5252"
+]
+},
+"sport_station": {
+"wvb": "WSOU 89.5 FM (South Orange, NJ)"
+},
 "game_feeds": null
 },
 {
@@ -9400,9 +10092,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://sienasaints.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9432,6 +10126,8 @@
 "last_ok": null,
 "athletics_site": "https://upstatespartans.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9456,9 +10152,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://usiscreamingeagles.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9486,9 +10184,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://gobonnies.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9518,9 +10218,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://redstormsports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9548,6 +10250,8 @@
 "last_ok": null,
 "athletics_site": "https://goislanders.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9576,9 +10280,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://ucirvinesports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9604,6 +10310,8 @@
 "last_ok": null,
 "athletics_site": "https://gohighlanders.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9629,6 +10337,8 @@
 "last_ok": null,
 "athletics_site": "https://ucsbgauchos.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9653,6 +10363,8 @@
 "last_ok": null,
 "athletics_site": "https://uicflames.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9677,6 +10389,8 @@
 "last_ok": null,
 "athletics_site": "https://umbcretrievers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9702,6 +10416,8 @@
 "last_ok": null,
 "athletics_site": "https://goriverhawks.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9729,9 +10445,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://uncabulldogs.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9756,6 +10474,8 @@
 "last_ok": null,
 "athletics_site": "https://uncgspartans.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9781,6 +10501,8 @@
 "last_ok": null,
 "athletics_site": "https://uncwsports.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9806,6 +10528,8 @@
 "last_ok": null,
 "athletics_site": "https://utamavs.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9831,9 +10555,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://gouvu.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9858,6 +10584,8 @@
 "last_ok": null,
 "athletics_site": "https://vcuathletics.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9884,9 +10612,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://uvmathletics.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9913,9 +10643,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://winthropeagles.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9944,9 +10676,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://wsuraiders.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -9975,9 +10709,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://goxavier.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -10006,9 +10742,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://usfdons.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -10036,9 +10774,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://ucsdtritons.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 },
 {
@@ -10066,9 +10806,11 @@
 ],
 "misses": 0,
 "miss_day": null,
-"last_ok": "2026-11-01",
+"last_ok": "2026-11-02",
 "athletics_site": "https://goshockers.com",
 "station_sports": null,
+"sport_streams": null,
+"sport_station": null,
 "game_feeds": null
 }
 ]
