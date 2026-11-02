@@ -2,26 +2,26 @@
  "streams": {
   "https://cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8": {
    "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "why": "hls manifestLoadError",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of North Carolina at Charlotte"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Tulane University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Tulane University"
   },
   "http://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Tulane University"
   },
   "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3": {
@@ -33,31 +33,31 @@
   "https://ais-sa1.streamon.fm/7050_24k.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Baylor University"
   },
   "https://stream.revma.ihrhls.com/zc601": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Central Florida"
   },
   "https://stream.revma.ihrhls.com/zc601/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:29:55Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Central Florida"
   },
   "http://stream.revma.ihrhls.com/zc601": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Central Florida"
   },
   "https://ice24.securenetsystems.net/WDCR": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Dartmouth College"
   },
   "https://cdn.jwplayer.com/live/broadcast/KKl2XbUu.m3u8": {
@@ -69,43 +69,43 @@
   "https://stream.whrb.org:8000/whrb-mp3": {
    "ok": false,
    "why": "timeout",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Harvard University"
   },
   "https://stream.whrb.org/whrb-mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Harvard University"
   },
   "http://stream.whrb.org:8000/whrb-mp3": {
    "ok": false,
    "why": "timeout",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Harvard University"
   },
   "https://stream.revma.ihrhls.com/zc3455": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Kent State University"
   },
   "https://stream.revma.ihrhls.com/zc3455/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:29:55Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Kent State University"
   },
   "http://stream.revma.ihrhls.com/zc3455": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Kent State University"
   },
   "https://live.amperwave.net/direct/audacy-kifmamaac-imc": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "California State University, Sacramento"
   },
   "https://live.amperwave.net/manifest/audacy-kifmamaac-imc": {
@@ -117,43 +117,43 @@
   "http://live.amperwave.net/direct/audacy-kifmamaac-imc": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "California State University, Sacramento"
   },
   "https://live.amperwave.net/direct/audacy-weeiamaac-imc": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Boston College"
   },
   "https://live.amperwave.net/direct/audacy-weeifmaac-imc": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Boston College"
   },
   "http://live.amperwave.net/direct/audacy-weeiamaac-imc": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Boston College"
   },
   "https://s2.radioreformation.com:8060/;stream.mp3": {
    "ok": false,
    "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Clemson University"
   },
   "https://s2.radioreformation.com/;stream.mp3": {
    "ok": false,
    "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Clemson University"
   },
   "http://s2.radioreformation.com:8060/;stream.mp3": {
    "ok": false,
    "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Clemson University"
   },
   "https://media-hls.wral.com/vodhttporigins3/_definst_/smil:amazons3/cbcnm-static-web-content/home/web/wral/public/asset/news/state/nccapitol/2023/05/25/20879545/3185796-gop-DMID1-5z0xt25hf.smil/playlist.m3u8": {
@@ -165,55 +165,55 @@
   "https://stream.revma.ihrhls.com/zc661": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Florida State University"
   },
   "https://stream.revma.ihrhls.com/zc661/hls.m3u8?hls=true": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:29:55Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Florida State University"
   },
   "http://stream.revma.ihrhls.com/zc661": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Florida State University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WCNNAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Georgia Institute of Technology"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WCNNAM.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Georgia Institute of Technology"
   },
   "https://live.amperwave.net/direct/unionbroadcasting-wlclamaac-ibc2": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Louisville"
   },
   "http://live.amperwave.net/direct/unionbroadcasting-wlclamaac-ibc2": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Louisville"
   },
   "https://live.amperwave.net/manifest/audacy-wqamamaac-imc": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Miami"
   },
   "https://live.amperwave.net/direct/audacy-wqamamaac-imc": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Miami"
   },
   "https://live.amperwave.net/manifest/audacy-wqamfmaac-imc": {
@@ -237,91 +237,91 @@
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WPTFAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of North Carolina at Chapel Hill"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WPTFAM.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of North Carolina at Chapel Hill"
   },
   "https://live.amperwave.net/direct/audacy-kdkafmaac-imc": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Pittsburgh"
   },
   "https://live.amperwave.net/manifest/audacy-kdkafmaac-imc": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Pittsburgh"
   },
   "http://live.amperwave.net/direct/audacy-kdkafmaac-imc": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Pittsburgh"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Southern Methodist University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Southern Methodist University"
   },
   "http://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Southern Methodist University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KNBRAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Stanford University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KNBRAMAAC.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Stanford University"
   },
   "http://playerservices.streamtheworld.com/api/livestream-redirect/KNBRAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Stanford University"
   },
   "https://live.amperwave.net/manifest/galaxy-wtkwfmaac-hlsc1.m3u8?source=v7player": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Syracuse University"
   },
   "https://live.amperwave.net/manifest/saga-winaammp3-hlsc.m3u8?source=uva": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:29:55Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Virginia"
   },
   "https://live.amperwave.net/manifest/saga-winaamaac-hlsc1.m3u8?source=v7player": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:29:55Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Virginia"
   },
   "https://live.amperwave.net/manifest/blueridgeradio-wbrffmaac-hlsc4.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Wake Forest University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WSBTAMAAC.aac": {
@@ -345,67 +345,67 @@
   "https://stream.revma.ihrhls.com/zc5238": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Connecticut"
   },
   "https://stream.revma.ihrhls.com/zc5238/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Connecticut"
   },
   "http://stream.revma.ihrhls.com/zc5238": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Connecticut"
   },
   "https://stream.revma.ihrhls.com/zc1493": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "United States Military Academy"
   },
   "https://stream.revma.ihrhls.com/zc1493/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "United States Military Academy"
   },
   "http://stream.revma.ihrhls.com/zc1493": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "United States Military Academy"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WNCTAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "East Carolina University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WNCTAM.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "East Carolina University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WKIMFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Memphis"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WKIMFMAAC.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Memphis"
   },
   "http://playerservices.streamtheworld.com/api/livestream-redirect/WKIMFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Memphis"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WBALAM.mp3": {
@@ -435,73 +435,73 @@
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WRBQFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of South Florida"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WRBQFM.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of South Florida"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WJOXFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Alabama at Birmingham"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WJOXFMAAC.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Alabama at Birmingham"
   },
   "http://playerservices.streamtheworld.com/api/livestream-redirect/WJOXFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Alabama at Birmingham"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3": {
    "ok": false,
    "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Appalachian State University"
   },
   "https://stream.revma.ihrhls.com/zc6849": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Coastal Carolina University"
   },
   "https://stream.revma.ihrhls.com/zc6849/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Coastal Carolina University"
   },
   "http://stream.revma.ihrhls.com/zc6849": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Coastal Carolina University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WRASFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Georgia State University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WRASFM.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Georgia State University"
   },
   "https://gpb.streamguys1.com/gpb-atlanta-aac-website": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Georgia State University"
   },
   "https://ice7.securenetsystems.net/KXKZ": {
@@ -519,25 +519,25 @@
   "https://ais-sa1.streamon.fm/7851_128k.aac/playlist.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Old Dominion University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WMEZFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of South Alabama"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WMEZFMAAC.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of South Alabama"
   },
   "http://playerservices.streamtheworld.com/api/livestream-redirect/WMEZFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of South Alabama"
   },
   "https://ice64.securenetsystems.net/WXRR": {
@@ -549,127 +549,127 @@
   "https://ice66.securenetsystems.net/KLIP": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Louisiana Monroe"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KCUBAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Arizona"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KCUBAMAAC.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Arizona"
   },
   "http://playerservices.streamtheworld.com/api/livestream-redirect/KCUBAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Arizona"
   },
   "https://bonneville.cdnstream1.com/2699_48.aac?aw_0_1st.playerid=IHM": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Arizona State University"
   },
   "https://bonneville.cdnstream1.com/2699_48.aac/playlist.m3u8?aw_0_1st.playerid=IHM": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Arizona State University"
   },
   "http://bonneville.cdnstream1.com/2699_48.aac?aw_0_1st.playerid=IHM": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Arizona State University"
   },
   "https://bonneville.cdnstream1.com/2704_48.aac?aw_0_1st.playerid=IHM": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Brigham Young University"
   },
   "https://bonneville.cdnstream1.com/2704_48.aac/playlist.m3u8?aw_0_1st.playerid=IHM": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:29:55Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Brigham Young University"
   },
   "http://bonneville.cdnstream1.com/2704_48.aac?aw_0_1st.playerid=IHM": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Brigham Young University"
   },
   "https://stream.revma.ihrhls.com/zc1713": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Xavier University"
   },
   "https://stream.revma.ihrhls.com/zc1713/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Xavier University"
   },
   "http://stream.revma.ihrhls.com/zc1713": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Xavier University"
   },
   "https://stream.revma.ihrhls.com/zc389": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Colorado Boulder"
   },
   "https://stream.revma.ihrhls.com/zc389/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Colorado Boulder"
   },
   "http://stream.revma.ihrhls.com/zc389": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Colorado Boulder"
   },
   "https://stream.revma.ihrhls.com/zc913": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Iowa State University"
   },
   "https://stream.revma.ihrhls.com/zc913/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Iowa State University"
   },
   "http://stream.revma.ihrhls.com/zc913": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Iowa State University"
   },
   "https://ice23.securenetsystems.net/KLWNAM": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Kansas"
   },
   "https://stream-02.surfernetwork.com/drscz5r6naxuv": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Kansas State University"
   },
   "https://ice42.securenetsystems.net/KSPI": {
@@ -681,109 +681,109 @@
   "https://stream.revma.ihrhls.com/zc3379": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Texas Christian University"
   },
   "https://stream.revma.ihrhls.com/zc3379/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:29:55Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Texas Christian University"
   },
   "http://stream.revma.ihrhls.com/zc3379": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Texas Christian University"
   },
   "https://ais-sa1.streamon.fm/7197_48k.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Texas Tech University"
   },
   "https://ais-sa1.streamon.fm/7001_48k.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Texas Tech University"
   },
   "https://ais-sa1.streamon.fm/7349_48k.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Utah"
   },
   "https://radiohio.streamguys1.com/cols/wbnsfm-iheart.m4a": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Ohio State University"
   },
   "https://oom-radiohio.streamguys1.com/cols/wbnsfm.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Ohio State University"
   },
   "http://radiohio.streamguys1.com/cols/wbnsfm-iheart.m4a": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Ohio State University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WCSXFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Michigan"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WCSXFM.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Michigan"
   },
   "https://ice25.securenetsystems.net/WBUS": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Pennsylvania State University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WSOYAM.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Illinois Urbana-Champaign"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WSOYAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Illinois Urbana-Champaign"
   },
   "https://soundmanagement.streamguys1.com/WHCC": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Indiana University"
   },
   "https://stream.revma.ihrhls.com/zc925": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Iowa"
   },
   "https://stream.revma.ihrhls.com/zc925/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:29:55Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Iowa"
   },
   "http://stream.revma.ihrhls.com/zc925": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Iowa"
   },
   "https://live.amperwave.net/direct/audacy-wjzfmaac-imc": {
@@ -795,7 +795,7 @@
   "https://live.amperwave.net/manifest/audacy-wjzfmaac-imc": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Maryland"
   },
   "http://live.amperwave.net/direct/audacy-wjzfmaac-imc": {
@@ -807,169 +807,169 @@
   "https://stream.revma.ihrhls.com/zc1209": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Minnesota"
   },
   "https://stream.revma.ihrhls.com/zc1209/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Minnesota"
   },
   "http://stream.revma.ihrhls.com/zc1209": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Minnesota"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KLINAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Nebraska-Lincoln"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KLINAM.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Nebraska-Lincoln"
   },
   "https://live.amperwave.net/direct/wgnam-wgnamaac-imc2": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Northwestern University"
   },
   "http://live.amperwave.net/direct/wgnam-wgnamaac-imc2": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Northwestern University"
   },
   "https://18.204.34.32/wgnam-wgnammp3-ibc2?session-id=611cbf2ae655692204b4a6d45fef29e7": {
    "ok": false,
    "why": "media error 4",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Northwestern University"
   },
   "http://18.204.34.32/wgnam-wgnammp3-ibc2?session-id=611cbf2ae655692204b4a6d45fef29e7": {
    "ok": false,
    "why": "media error 4",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Northwestern University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Oregon"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAMAAC.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Oregon"
   },
   "http://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Oregon"
   },
   "https://cp9.serverse.com/proxy/neiqvqnd?mp=/stream": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Purdue University"
   },
   "https://live.amperwave.net/direct/audacy-wfanamaac-imc": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Rutgers University"
   },
   "https://live.amperwave.net/manifest/audacy-wfanamaac-imc": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Rutgers University"
   },
   "http://live.amperwave.net/direct/audacy-wfanamaac-imc": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Rutgers University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KABCAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of California, Los Angeles"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KABCAMAAC.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of California, Los Angeles"
   },
   "http://playerservices.streamtheworld.com/api/livestream-redirect/KABCAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of California, Los Angeles"
   },
   "https://live.amperwave.net/direct/goodkarma-kspnamaac-ibc": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Southern California"
   },
   "http://live.amperwave.net/direct/goodkarma-kspnamaac-ibc": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Southern California"
   },
   "https://stream.revma.ihrhls.com/zc2577": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Washington"
   },
   "https://stream.revma.ihrhls.com/zc2577/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Washington"
   },
   "http://stream.revma.ihrhls.com/zc2577": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Washington"
   },
   "https://stream.revma.ihrhls.com/zc2661": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Wisconsin-Madison"
   },
   "https://stream.revma.ihrhls.com/zc2661/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:29:55Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Wisconsin-Madison"
   },
   "http://stream.revma.ihrhls.com/zc2661": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Wisconsin-Madison"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WJMFFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Bryant University"
   },
   "https://stream.revma.ihrhls.com/zc5599": {
@@ -993,13 +993,13 @@
   "https://live.amperwave.net/manifest/townsquare-wezqfmaac-ibc3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Maine"
   },
   "https://live.amperwave.net/manifest/townsquare-wwmjfmaac-ibc3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Maine"
   },
   "https://live.amperwave.net/manifest/townsquare-wobmfmaac-ibc3": {
@@ -1047,31 +1047,31 @@
   "https://ice6.securenetsystems.net/WNST": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Towson University"
   },
   "https://live.amperwave.net/playlist/sunbury-wkokamaac-ibc1.pls?source=airkast": {
    "ok": false,
    "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Bucknell University"
   },
   "http://live.amperwave.net/playlist/sunbury-wkokamaac-ibc1.pls?source=airkast": {
    "ok": false,
    "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Bucknell University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WRCUFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Colgate University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WRCUFM.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Colgate University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WEEXAMAAC.aac": {
@@ -1113,43 +1113,43 @@
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WTYDFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "William & Mary"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WTYDFM.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "William & Mary"
   },
   "https://wkcr.streamguys1.com/live": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Columbia University"
   },
   "http://wkcr.streamguys1.com/live": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Columbia University"
   },
   "https://stream.revma.ihrhls.com/zc453": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Yale University"
   },
   "https://stream.revma.ihrhls.com/zc453/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Yale University"
   },
   "http://stream.revma.ihrhls.com/zc453": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Yale University"
   },
   "https://stream.revma.ihrhls.com/zc2013": {
@@ -1191,121 +1191,121 @@
   "https://ice41.securenetsystems.net/WELE": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Bethune-Cookman University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WHBXFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Florida A&M University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WHBXFMAAC.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Florida A&M University"
   },
   "http://playerservices.streamtheworld.com/api/livestream-redirect/WHBXFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Florida A&M University"
   },
   "https://ice41.securenetsystems.net/WPRL": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Alcorn State University"
   },
   "https://ice41.securenetsystems.net/KGRM?playSessionID=27007793-697E-4C07-A287049708D476F7": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Grambling State University"
   },
   "https://centova87.instainternet.com/proxy/ktsuradio?mp=/stream": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Texas Southern University"
   },
   "http://centova87.instainternet.com/proxy/ktsuradio?mp=/stream": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Texas Southern University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WNSBFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Norfolk State University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WNSBFM.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Norfolk State University"
   },
   "https://ice41.securenetsystems.net/WFLI": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Tennessee at Chattanooga"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WXSMAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "East Tennessee State University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WXSMAMAAC.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "East Tennessee State University"
   },
   "http://playerservices.streamtheworld.com/api/livestream-redirect/WXSMAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "East Tennessee State University"
   },
   "https://live.amperwave.net/manifest/audacy-wordamaac-hlsc.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Furman University"
   },
   "https://live.amperwave.net/manifest/audacy-wordamaac-imc": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Furman University"
   },
   "http://live.amperwave.net/manifest/audacy-wordamaac-hlsc.m3u8": {
    "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "why": "hls manifestLoadError",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Furman University"
   },
   "https://live.amperwave.net/direct/creekmedia-wnexfmaac-ibc1": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Mercer University"
   },
   "https://ice5.securenetsystems.net/WQNT": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "The Citadel"
   },
   "https://ice41.securenetsystems.net/WWZW": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Virginia Military Institute"
   },
   "https://wvtf-ice2.streamguys1.com/radioiq-mp3-64.mp3": {
@@ -1323,247 +1323,247 @@
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KETRFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "East Texas A&M University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KETRFM.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "East Texas A&M University"
   },
   "https://listen.radioking.com/radio/760748/stream/827744": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Houston Christian University"
   },
   "https://stream.revma.ihrhls.com/zc2197": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Lamar University"
   },
   "https://stream.revma.ihrhls.com/zc2197/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Lamar University"
   },
   "http://stream.revma.ihrhls.com/zc2197": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Lamar University"
   },
   "https://live.amperwave.net/manifest/townsquare-khlafmaac-ibc3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "McNeese State University"
   },
   "https://98.86.150.170/townsquare-khlafmaac-ibc3?session-id=328b0e51282a130ff6a42131e0bba125": {
    "ok": false,
    "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "McNeese State University"
   },
   "http://98.86.150.170/townsquare-khlafmaac-ibc3?session-id=328b0e51282a130ff6a42131e0bba125": {
    "ok": false,
    "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "McNeese State University"
   },
   "https://ice42.securenetsystems.net/KCIL": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Nicholls State University"
   },
   "https://104.243.173.42:88/broadwave.mp3": {
    "ok": false,
    "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Northwestern State University"
   },
   "https://104.243.173.42/broadwave.mp3": {
    "ok": false,
    "why": "timeout",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Northwestern State University"
   },
   "http://104.243.173.42:88/broadwave.mp3": {
    "ok": false,
    "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Northwestern State University"
   },
   "https://ice41.securenetsystems.net/WFPR": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Southeastern Louisiana University"
   },
   "https://live.amperwave.net/manifest/townsquare-ktbqfmaac-ibc3": {
-   "ok": true,
-   "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": false,
+   "why": "media error 4",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Stephen F. Austin State University"
   },
   "https://sh.fl-us.audio-stream.com/proxy/sneisl01?mp=/stream": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Gardner-Webb University"
   },
   "https://ice6.securenetsystems.net/KCLC": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Lindenwood University"
   },
   "https://ice23.securenetsystems.net/KCGQ": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Southeast Missouri State University"
   },
   "https://shout.wnsr.com:8989/;": {
    "ok": false,
    "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Tennessee State University"
   },
   "https://shout.wnsr.com/;": {
    "ok": false,
    "why": "timeout",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Tennessee State University"
   },
   "http://shout.wnsr.com:8989/;": {
    "ok": false,
    "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Tennessee State University"
   },
   "https://ice64.securenetsystems.net/WUTM": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Tennessee at Martin"
   },
   "https://oom-cmg.streamguys1.com/day957/day957-sgplayer-aac?": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Dayton"
   },
   "https://oom-cmg.streamguys1.com/day957/day957-sgplayer-aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Dayton"
   },
   "https://oom-cmg.streamguys1.com/day957/day957-sgplayer-mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Dayton"
   },
   "https://ice5.securenetsystems.net/WIVY": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Morehead State University"
   },
   "https://ice26.securenetsystems.net/WPCC": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Presbyterian College"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KSTPAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of St. Thomas (Minnesota)"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KSTPAM.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of St. Thomas (Minnesota)"
   },
   "https://live.amperwave.net/manifest/townsquare-kgvoamaac-ibc3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Montana"
   },
   "https://live.amperwave.net/manifest/townsquare-kxlbfmaac-ibc3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Montana State University"
   },
   "https://live.amperwave.net/manifest/townsquare-kmptamaac-ibc3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Montana State University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KXLXAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Eastern Washington University"
   },
   "https://14623.live.streamtheworld.com/KXLXAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Eastern Washington University"
   },
   "https://17643.live.streamtheworld.com:3690/KXLXAMAAC_SC": {
    "ok": false,
    "why": "timeout",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Eastern Washington University"
   },
   "https://17643.live.streamtheworld.com/KXLXAMAAC_SC": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Eastern Washington University"
   },
   "http://17643.live.streamtheworld.com:3690/KXLXAMAAC_SC": {
    "ok": false,
    "why": "timeout",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Eastern Washington University"
   },
   "https://live.amperwave.net/direct/horizonbroadcasting-kbnwammp3-ibc1": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Idaho"
   },
   "https://kisufm.isu.edu:8000/kisufm": {
    "ok": false,
    "why": "timeout",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Idaho State University"
   },
   "https://kisufm.isu.edu/kisufm": {
    "ok": false,
    "why": "timeout",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Idaho State University"
   },
   "http://kisufm.isu.edu:8000/kisufm": {
    "ok": false,
    "why": "timeout",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Idaho State University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KDUSAMAAC.aac": {
@@ -1581,73 +1581,73 @@
   "https://das-edge29-sa27-lax02.cdnstream.com/2284_96.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Weber State University"
   },
   "https://bonneville.cdnstream1.com/2616_48.aac?aw_0_1st.playerid=IHM": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of California, Davis"
   },
   "https://bonneville.cdnstream1.com/2616_48.aac/playlist.m3u8?aw_0_1st.playerid=IHM": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of California, Davis"
   },
   "http://bonneville.cdnstream1.com/2616_48.aac?aw_0_1st.playerid=IHM": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of California, Davis"
   },
   "https://live.amperwave.net/manifest/townsquare-ksubamaac-ibc3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Southern Utah University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WJBCAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Illinois State University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WJBCAMAAC.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Illinois State University"
   },
   "http://playerservices.streamtheworld.com/api/livestream-redirect/WJBCAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Illinois State University"
   },
   "https://live.amperwave.net/manifest/forevercomm-wfgsfmaac-hlsc4.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Murray State University"
   },
   "https://stream.revma.ihrhls.com/zc1681": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of North Dakota"
   },
   "https://stream.revma.ihrhls.com/zc1681/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of North Dakota"
   },
   "http://stream.revma.ihrhls.com/zc1681": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of North Dakota"
   },
   "https://ice7.securenetsystems.net/KVHT": {
@@ -1657,129 +1657,129 @@
    "school": "University of South Dakota"
   },
   "https://live.amperwave.net/manifest/saga-wnaxamaac-hlsc1.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:29:55Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "South Dakota State University"
   },
   "https://stream.revma.ihrhls.com/zc1869": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Youngstown State University"
   },
   "https://stream.revma.ihrhls.com/zc1869/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Youngstown State University"
   },
   "http://stream.revma.ihrhls.com/zc1869": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Youngstown State University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KHXSFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Abilene Christian University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KHXSFMAAC.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Abilene Christian University"
   },
   "http://playerservices.streamtheworld.com/api/livestream-redirect/KHXSFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Abilene Christian University"
   },
   "https://kxtr.streamguys1.com/live2-aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Tarleton State University"
   },
   "http://kxtr.streamguys1.com/live2-aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Tarleton State University"
   },
   "https://ice41.securenetsystems.net/WFRO": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Bowling Green State University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WVFMFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Western Michigan University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WVFMFM.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Western Michigan University"
   },
   "https://18493.live.streamtheworld.com/WVFMFMAAC_SC": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Western Michigan University"
   },
   "http://18493.live.streamtheworld.com/WVFMFMAAC_SC": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Western Michigan University"
   },
   "https://cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8": {
    "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:29:55Z",
+   "why": "hls manifestLoadError",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Florida International University"
   },
   "https://ic.liberty.edu:8443/WRVL": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Liberty University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Boise State University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAMAAC.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Boise State University"
   },
   "http://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Boise State University"
   },
   "https://bonneville.cdnstream1.com/2612_48.aac?aw_0_1st.playerid=IHM": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Colorado State University"
   },
   "https://bonneville.cdnstream1.com/2612_48.aac/playlist.m3u8?aw_0_1st.playerid=IHM": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Colorado State University"
   },
   "http://bonneville.cdnstream1.com/2612_48.aac?aw_0_1st.playerid=IHM": {
@@ -1791,25 +1791,25 @@
   "https://ice5.securenetsystems.net/KFIG": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "California State University, Fresno"
   },
   "https://stream.revma.ihrhls.com/zc1949": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Oregon State University"
   },
   "https://stream.revma.ihrhls.com/zc1949/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Oregon State University"
   },
   "http://stream.revma.ihrhls.com/zc1949": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Oregon State University"
   },
   "https://stream.revma.ihrhls.com/zc8528": {
@@ -1819,9 +1819,9 @@
    "school": "San Diego State University"
   },
   "https://stream.revma.ihrhls.com/zc8528/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:29:55Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "San Diego State University"
   },
   "http://stream.revma.ihrhls.com/zc8528": {
@@ -1833,85 +1833,85 @@
   "https://ktswlive.txstate.edu:8102/listen": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Texas State University"
   },
   "https://bonneville.cdnstream1.com/2706_48.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Utah State University"
   },
   "https://bonneville.cdnstream1.com/2642_48.aac?aw_0_1st.playerid=IHM": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Washington State University"
   },
   "https://bonneville.cdnstream1.com/2642_48.aac/playlist.m3u8?aw_0_1st.playerid=IHM": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Washington State University"
   },
   "http://bonneville.cdnstream1.com/2642_48.aac?aw_0_1st.playerid=IHM": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Washington State University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KVORAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "United States Air Force Academy"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KVORAMAAC.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "United States Air Force Academy"
   },
   "http://playerservices.streamtheworld.com/api/livestream-redirect/KVORAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "United States Air Force Academy"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KOZZFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Nevada, Reno"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KOZZFM.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Nevada, Reno"
   },
   "http://playerservices.streamtheworld.com/api/livestream-redirect/KOZZFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Nevada, Reno"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KKOBAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of New Mexico"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KKOBAMAAC.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of New Mexico"
   },
   "http://playerservices.streamtheworld.com/api/livestream-redirect/KKOBAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of New Mexico"
   },
   "https://ice3.securenetsystems.net/KQWB": {
@@ -1923,31 +1923,31 @@
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WDKBFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Northern Illinois University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WDKBFM.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Northern Illinois University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KTRBAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "San Jos\u00e9 State University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KTRBAM.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "San Jos\u00e9 State University"
   },
   "http://playerservices.streamtheworld.com/api/livestream-redirect/KTRBAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "San Jos\u00e9 State University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAMAAC.aac": {
@@ -1989,25 +1989,25 @@
   "https://oom-signalmedia.streamguys1.com/signalmedia/kabz-aac?aw_0_req.gdpr=true": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Arkansas"
   },
   "http://oom-signalmedia.streamguys1.com/signalmedia/kabz-aac?aw_0_req.gdpr=true": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Arkansas"
   },
   "https://ice25.securenetsystems.net/WGZZ": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Auburn University"
   },
   "https://ais-sa1.streamon.fm/7644_64k.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Florida"
   },
   "https://ais-sa1.streamon.fm/7644_48k.aac": {
@@ -2019,49 +2019,49 @@
   "https://ais-sa1.streamon.fm/7644_48k.aac/playlist.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Florida"
   },
   "http://ais-sa1.streamon.fm/7644_48k.aac/playlist.m3u8": {
-   "ok": true,
-   "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": false,
+   "why": "hls manifestLoadError",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Florida"
   },
   "https://cmg.streamguys1.com/atl750/atl750-encoder.aac/playlist.m3u8?aw_0_1st.playerId=cmg_iheart": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Georgia"
   },
   "http://cmg.streamguys1.com/atl750/atl750-encoder.aac/playlist.m3u8?aw_0_1st.playerId=cmg_iheart": {
    "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "why": "hls manifestLoadError",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Georgia"
   },
   "https://live.amperwave.net/manifest/telesouth-wqljfmaac-hlsc1.m3u8?source=v7player": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Mississippi"
   },
   "https://live.amperwave.net/manifest/telesouth-wkbbfmaac-hlsc1.m3u8?source=v7player": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:29:55Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Mississippi State University"
   },
   "https://live.amperwave.net/manifest/telesouth-wkbbfmaac-imc1": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Mississippi State University"
   },
   "https://live.amperwave.net/manifest/telesouth-wzkrfmaac-imc": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Mississippi State University"
   },
   "https://ais-sa1.streamon.fm/7401_48k.aac": {
@@ -2073,97 +2073,97 @@
   "https://ais-sa1.streamon.fm/11317_96k.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Oklahoma"
   },
   "https://das-edge59-sa48-futuri-lax02.cdnstream.com/11317_96k.aac?listeningSessionId=QjdWS0FUT0tQSVFOUERONUlNRkhXSTI0NklfZGFzLWVkZ2U1OS1zYTQ4LWZ1dHVyaS1sYXgwMi5jZG5zdHJlYW0uY29tOjgxODY.&playerid=esPlayer": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Oklahoma"
   },
   "http://ais-sa1.streamon.fm/11317_96k.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Oklahoma"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WNKTFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of South Carolina"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WNKTFMAAC.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of South Carolina"
   },
   "http://playerservices.streamtheworld.com/api/livestream-redirect/WNKTFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of South Carolina"
   },
   "https://stream.revma.ihrhls.com/zc2181": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Texas at Austin"
   },
   "https://stream.revma.ihrhls.com/zc2181/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Texas at Austin"
   },
   "http://stream.revma.ihrhls.com/zc2181": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Texas at Austin"
   },
   "https://wjab.streamguys1.com/live": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Alabama A&M University"
   },
   "https://wjab.streamguys1.com/?uuid=vm1k8lr5&dist=nprgrove": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Alabama A&M University"
   },
   "https://kisufm.isu.edu:8443/kisufm": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Idaho State University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KSFOAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of California, Berkeley"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KSFOAMAAC.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of California, Berkeley"
   },
   "http://playerservices.streamtheworld.com/api/livestream-redirect/KSFOAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of California, Berkeley"
   },
   "https://live.amperwave.net/manifest/townsquare-wtmmfmaac-ibc3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University at Albany"
   },
   "https://stream.rcs.revma.com/uupm8cdw57uvv": {
@@ -2187,13 +2187,13 @@
   "https://stream.radio.co/s521a8e223/listen": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Robert Morris University"
   },
   "https://ice42.securenetsystems.net/WPTNAM": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Tennessee Technological University"
   },
   "https://ice7.securenetsystems.net/THEMIX": {
@@ -2205,7 +2205,7 @@
   "https://us2.maindigitalstream.com/ssl/KUCA": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Central Arkansas"
   },
   "https://ice64.securenetsystems.net/WCYO": {
@@ -2217,73 +2217,73 @@
   "https://streams.radio.co/sd1bcd1376/listen#.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Eastern Kentucky University"
   },
   "https://ice64.securenetsystems.net/WLLX": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of North Alabama"
   },
   "https://ice66.securenetsystems.net/WCKS": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of West Georgia"
   },
   "https://img.leanstream.co/LF1001-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of California, Berkeley"
   },
   "https://s2.radioreformation.com:8060/stream": {
    "ok": false,
    "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Clemson University"
   },
   "https://s2.radioreformation.com/stream": {
    "ok": false,
    "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Clemson University"
   },
   "http://s2.radioreformation.com:8060/stream": {
    "ok": false,
    "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Clemson University"
   },
   "https://img.leanstream.co/IM3501-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Duke University"
   },
   "https://fsu.leanstream.co/FS0101-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Florida State University"
   },
   "https://img.leanstream.co/IM7501-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Louisville"
   },
   "https://live.amperwave.net/manifest/audacy-wqamamaac-hlsc.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Miami"
   },
   "https://img.leanstream.co/IM9301-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "North Carolina State University"
   },
   "https://img.leanstream.co/IM9201-MP3": {
@@ -2295,61 +2295,61 @@
   "https://img.leanstream.co/LF5401-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Southern Methodist University"
   },
   "https://img.leanstream.co/IM4801-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Syracuse University"
   },
   "https://ice26.securenetsystems.net/WBRW": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Virginia Tech"
   },
   "https://img.leanstream.co/IM2401-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Wake Forest University"
   },
   "https://img.leanstream.co/IM3401-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Connecticut"
   },
   "https://img.leanstream.co/IM8601-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "United States Military Academy"
   },
   "https://ice64.securenetsystems.net/WZGV2": {
    "ok": false,
    "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of North Carolina at Charlotte"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WMENAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Florida Atlantic University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WMENAM.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Florida Atlantic University"
   },
   "https://img.leanstream.co/LF3101-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Memphis"
   },
   "https://ice26.securenetsystems.net/WNAV": {
@@ -2361,115 +2361,115 @@
   "https://crystalout.surfernetwork.com:8001/WNAV-AM_MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "United States Naval Academy"
   },
   "https://stream.revma.ihrhls.com/zc4276": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of North Texas"
   },
   "https://stream.revma.ihrhls.com/zc4276/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of North Texas"
   },
   "http://stream.revma.ihrhls.com/zc4276": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of North Texas"
   },
   "https://cdn.jwplayer.com/live/broadcast/3j2GACVG.m3u8": {
    "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "why": "hls manifestLoadError",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Temple University"
   },
   "https://live.amperwave.net/manifest//griffin-kxblfmaac-imc2": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Tulsa"
   },
   "https://img.leanstream.co/IM2001-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Alabama at Birmingham"
   },
   "https://stream.revma.ihrhls.com/zc2353": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Texas at San Antonio"
   },
   "https://stream.revma.ihrhls.com/zc2353/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Texas at San Antonio"
   },
   "http://stream.revma.ihrhls.com/zc2353": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Texas at San Antonio"
   },
   "https://ais-sa8.cdnstream1.com/1416_64": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Arkansas State University"
   },
   "https://img.leanstream.co/LF2401-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Georgia Southern University"
   },
   "https://live.amperwave.net/manifest/saga-wsvaamaac-hlsc2.m3u8?source=v7player": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "James Madison University"
   },
   "https://live.amperwave.net/direct/saga-wsvaammp3-ibc2": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "James Madison University"
   },
   "https://live.amperwave.net/manifest/townsquare-khxtfmaac-ibc3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Louisiana at Lafayette"
   },
   "https://live.amperwave.net/manifest/townsquare-kpelamaac-ibc3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Louisiana at Lafayette"
   },
   "https://img.leanstream.co/LF2701-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Louisiana Tech University"
   },
   "https://img.leanstream.co/IM1601-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Marshall University"
   },
   "https://img.leanstream.co/IM1801-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Southern Mississippi"
   },
   "https://ice6.securenetsystems.net/WTXK": {
@@ -2481,73 +2481,73 @@
   "https://img.leanstream.co/IM7101-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Colorado Boulder"
   },
   "https://stream.revma.ihrhls.com/zc2277": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Houston"
   },
   "https://stream.revma.ihrhls.com/zc2277/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Houston"
   },
   "http://stream.revma.ihrhls.com/zc2277": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Houston"
   },
   "https://img.leanstream.co/IM7901-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Iowa State University"
   },
   "https://img.leanstream.co/IM8001-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Kansas State University"
   },
   "https://img.leanstream.co/IM9101-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Oklahoma State University"
   },
   "https://img.leanstream.co/IM4901-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Texas Christian University"
   },
   "https://img.leanstream.co/IM4903-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Texas Christian University"
   },
   "https://img.leanstream.co/IM8101-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Texas Tech University"
   },
   "https://prod-100-53-217-72.amperwave.net/wvradio-wvaqfmaac-hlsc2.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:29:55Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "West Virginia University"
   },
   "https://img.leanstream.co/IM5801-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Ohio State University"
   },
   "https://img.leanstream.co/IM4001-MP3": {
@@ -2559,61 +2559,61 @@
   "https://img.leanstream.co/IM7401-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Elon University"
   },
   "https://img.leanstream.co/IM7301-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Indiana University"
   },
   "https://live.amperwave.net/manifest/townsquare-wjimamaac-ibc3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Michigan State University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WJRAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Michigan State University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WJRAMAAC.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Michigan State University"
   },
   "https://img.leanstream.co/IM8401-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Minnesota"
   },
   "https://img.leanstream.co/IM0801-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Oregon"
   },
   "https://img.leanstream.co/IM4601-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Rutgers University"
   },
   "https://img.leanstream.co/LF8201-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Southern California"
   },
   "https://img.leanstream.co/LF8204-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Southern California"
   },
   "https://img.leanstream.co/IM8501-MP3": {
@@ -2631,19 +2631,19 @@
   "https://stream.revma.ihrhls.com/zc2752": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of New Hampshire"
   },
   "https://stream.revma.ihrhls.com/zc2752/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of New Hampshire"
   },
   "http://stream.revma.ihrhls.com/zc2752": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of New Hampshire"
   },
   "https://cdn.jwplayer.com/live/broadcast/KtfQesje.m3u8": {
@@ -2653,57 +2653,57 @@
    "school": "North Carolina A&T State University"
   },
   "https://live.amperwave.net/manifest/sunbury-wkokamaac-hlsc2.m3u8?source=sidearm": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Bucknell University"
   },
   "https://onair.wfuv.org/onair-aacplus": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Fordham University"
   },
   "http://onair.wfuv.org/onair-aacplus": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Fordham University"
   },
   "https://wfuv-onair.streamguys.org/onair-hi": {
    "ok": false,
    "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Fordham University"
   },
   "http://wfuv-onair.streamguys.org/onair-hi": {
    "ok": false,
    "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Fordham University"
   },
   "https://stream.rcs.revma.com/x4q6k4dw57uvv": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Richmond"
   },
   "https://stream.revma.ihrhls.com/zc4870": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Duquesne University"
   },
   "https://stream.revma.ihrhls.com/zc4870/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:29:55Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Duquesne University"
   },
   "http://stream.revma.ihrhls.com/zc4870": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Duquesne University"
   },
   "https://wjab.streamguys.net/listen.pls": {
@@ -2721,43 +2721,43 @@
   "https://stream-02.surfernetwork.com/i37k5l981vjtv": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Alabama State University"
   },
   "https://streaming.live365.com/a60611": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Jackson State University"
   },
   "https://amber.streamguys.com:4020/live": {
    "ok": false,
    "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Morgan State University"
   },
   "https://amber.streamguys.com/live": {
    "ok": false,
    "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Morgan State University"
   },
   "http://amber.streamguys.com:4020/live": {
    "ok": false,
    "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Morgan State University"
   },
   "https://stream.zeno.fm/71u92uesqp8uv": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "South Carolina State University"
   },
   "https://ice24.securenetsystems.net/WRGC": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Western Carolina University"
   },
   "https://peaksports.leanstream.co/PS0101-MP3": {
@@ -2767,21 +2767,21 @@
    "school": "Wofford College"
   },
   "https://img.leanstream.co/LF8101-MP3": {
-   "ok": true,
-   "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": false,
+   "why": "media error 4",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Stephen F. Austin State University"
   },
   "https://live.amperwave.net/manifest/rcomm-xhrysfmaac-hlsc4.m3u8?source=v7player": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Texas Rio Grande Valley"
   },
   "https://live.amperwave.net/direct/rcomm-xhrysfmaac-imc4": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Texas Rio Grande Valley"
   },
   "https://widgets.cloud.caster.fm/player/?token=3c7b4fe8-7d0a-45ce-87e5-9848426f9634&frameId=4ebjj&theme=light&color=6C2BDD": {
@@ -2799,25 +2799,25 @@
   "https://ice64.securenetsystems.net/WBYSAM": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Western Illinois University"
   },
   "https://cdn.jwplayer.com/live/broadcast/3TH9Dtwc.m3u8": {
    "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "why": "hls manifestLoadError",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Marist University"
   },
   "https://ice5.securenetsystems.net/WIVY?playSessionID=CAD94437-8A97-4B89-A64B6786D95C079F": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Morehead State University"
   },
   "https://img.leanstream.co/IM7701-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Montana"
   },
   "https://img.leanstream.co/LF3701-MP3": {
@@ -2835,217 +2835,217 @@
   "https://stream.radiojar.com/38vtv55ez38uv": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Northern Colorado"
   },
   "https://bonneville.cdnstream1.com/2799_64.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of California, Davis"
   },
   "https://ice6.securenetsystems.net/KAZZ": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Utah Tech University"
   },
   "https://img.leanstream.co/LF2601-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Illinois State University"
   },
   "https://live.amperwave.net/manifest/jdl-wvigfmaac-hlsc.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Indiana State University"
   },
   "https://img.leanstream.co/LF4601-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Northern Iowa"
   },
   "https://img.leanstream.co/LF5201-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of South Dakota"
   },
   "https://img.leanstream.co/LF6801-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "South Dakota State University"
   },
   "https://ice23.securenetsystems.net/WCIL": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Southern Illinois University"
   },
   "https://live.amperwave.net/direct/saga-wkfnamaac-ibc2": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Austin Peay State University"
   },
   "https://live.amperwave.net/manifest/saga-wkfnamaac-hlsc2.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:29:55Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Austin Peay State University"
   },
   "https://stream.revma.ihrhls.com/zc3520": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Akron"
   },
   "https://stream.revma.ihrhls.com/zc3520/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:29:55Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Akron"
   },
   "http://stream.revma.ihrhls.com/zc3520": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Akron"
   },
   "https://mcdn.podbean.com/mf/web/bbpqs4dqujrzda92/power_hour_oct_29b68ok.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Ball State University"
   },
   "https://live.amperwave.net/manifest/audacy-wwkbamaac-hlsc.m3u8?dist=Audacy&source=webA2": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:29:55Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University at Buffalo"
   },
   "https://live.amperwave.net/manifest/northernstarbroadcasting-wupsfmaac-ibc2": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Central Michigan University"
   },
   "https://www.wmhw.cmich.edu:915/live.mp3": {
    "ok": false,
    "why": "timeout",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Central Michigan University"
   },
   "https://www.wmhw.cmich.edu/live.mp3": {
    "ok": false,
    "why": "timeout",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Central Michigan University"
   },
   "http://www.wmhw.cmich.edu:915/live.mp3": {
    "ok": false,
    "why": "timeout",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Central Michigan University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WEMUFM.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Eastern Michigan University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WEMUFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Eastern Michigan University"
   },
   "http://playerservices.streamtheworld.com/api/livestream-redirect/WEMUFM.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Eastern Michigan University"
   },
   "https://ice3.securenetsystems.net/WMOH": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Miami University"
   },
   "https://ice6.securenetsystems.net/WXTQ": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Ohio University"
   },
   "https://stream.revma.ihrhls.com/zc1857": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Toledo"
   },
   "https://stream.revma.ihrhls.com/zc1857/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:29:55Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Toledo"
   },
   "http://stream.revma.ihrhls.com/zc1857": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Toledo"
   },
   "https://live.amperwave.net/manifest/saga-whmpamaac-hlsc1.m3u8?source=v7player": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Massachusetts Amherst"
   },
   "https://stream.revma.ihrhls.com/zc461": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Delaware"
   },
   "https://stream.revma.ihrhls.com/zc461/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Delaware"
   },
   "http://stream.revma.ihrhls.com/zc461": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Delaware"
   },
   "https://s8.yesstreaming.net:7014/stream": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Jacksonville State University"
   },
   "https://s8.yesstreaming.net/stream": {
    "ok": false,
    "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Jacksonville State University"
   },
   "http://s8.yesstreaming.net:7014/stream": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Jacksonville State University"
   },
   "https://edge.mixlr.com/channel/iryqq": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Kennesaw State University"
   },
   "https://ice3.securenetsystems.net/WGNS": {
@@ -3057,463 +3057,463 @@
   "https://ais-sa1.streamon.fm/7678_48k.aac/playlist.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Missouri State University"
   },
   "https://ice42.securenetsystems.net/KXPZ": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "New Mexico State University"
   },
   "https://ice25.securenetsystems.net/WPTQ": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Western Kentucky University"
   },
   "https://img.leanstream.co/LF1701-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Colorado State University"
   },
   "https://img.leanstream.co/LF6301-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Utah State University"
   },
   "https://img.leanstream.co/IM2601-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "United States Air Force Academy"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KKEAAM_AAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Hawai'i at Manoa"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KKEAAM_MP3.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Hawai'i at Manoa"
   },
   "https://img.leanstream.co/LF7501-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "North Dakota State University"
   },
   "https://live.amperwave.net/manifest/townsquare-kowbamaac-ibc3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Wyoming"
   },
   "https://stream.rcs.revma.com/fyk48ahxu7uvv": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Alabama"
   },
   "https://stream.rcs.revma.com/fyk48ahxu7uvv/hls.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Alabama"
   },
   "http://stream.rcs.revma.com/fyk48ahxu7uvv": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Alabama"
   },
   "https://img.leanstream.co/IM3601-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Florida"
   },
   "https://img.leanstream.co/IM5001-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Georgia"
   },
   "https://stream.revma.ihrhls.com/zc965": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Kentucky"
   },
   "https://stream.revma.ihrhls.com/zc965/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:29:55Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Kentucky"
   },
   "http://stream.revma.ihrhls.com/zc965": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Kentucky"
   },
   "https://live.amperwave.net/direct/guaranty-wdglfmaac-ibc1": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Louisiana State University"
   },
   "http://live.amperwave.net/direct/guaranty-wdglfmaac-ibc1": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Louisiana State University"
   },
   "https://img.leanstream.co/IM4101-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Mississippi"
   },
   "https://img.leanstream.co/IM8301-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Mississippi State University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KCMOAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Missouri"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KCMOAM.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Missouri"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WIVKFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Tennessee"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WIVKFMAAC.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Tennessee"
   },
   "http://playerservices.streamtheworld.com/api/livestream-redirect/WIVKFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Tennessee"
   },
   "https://ice42.securenetsystems.net/WTAWAM": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Texas A&M University"
   },
   "http://ice42.securenetsystems.net/WTAWAM": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Texas A&M University"
   },
   "https://cromwell-ice.streamguys1.com/WPRTFM": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Vanderbilt University"
   },
   "https://live.amperwave.net/direct/unionbroadcasting-whbeamaac-ibc2": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Bellarmine University"
   },
   "https://live.amperwave.net/manifest/unionbroadcasting-whbeamaac-ibc2": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Bellarmine University"
   },
   "http://live.amperwave.net/direct/unionbroadcasting-whbeamaac-ibc2": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Bellarmine University"
   },
   "https://live.amperwave.net/manifest/townsquare-wnbfamaac-ibc3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Binghamton University"
   },
   "https://stream.abacast.net/direct/townsquare-wnbfamaac-ibc3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Binghamton University"
   },
   "http://stream.abacast.net/direct/townsquare-wnbfamaac-ibc3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Binghamton University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WMBDAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Bradley University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WMBDAM.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Bradley University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WMBDAMAAC_SC?wmbd": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Bradley University"
   },
   "https://live.amperwave.net/manifest/radioonebuffalo-weckamaac-hlsc3.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Canisius University"
   },
   "http://live.amperwave.net/manifest/radioonebuffalo-weckamaac-hlsc3.m3u8": {
    "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "why": "hls manifestLoadError",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Canisius University"
   },
   "https://stream.revma.ihrhls.com/zc5382": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Cleveland State University"
   },
   "https://ice26.securenetsystems.net/KOZN": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Creighton University"
   },
   "https://d834c7343c8a4d208b4df6b78180ebc9.mediatailor.us-west-2.amazonaws.com/v1/master/cbadc959d0c9b4829831c664f5ec02b07c91d8a1/KKFN-FM/playlist.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Denver"
   },
   "https://stream.revma.ihrhls.com/zc4952": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Gonzaga University"
   },
   "https://stream.revma.ihrhls.com/zc4952/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Gonzaga University"
   },
   "http://stream.revma.ihrhls.com/zc4952": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Gonzaga University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WXNTAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Indiana University Indianapolis"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WXNTAMAAC.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Indiana University Indianapolis"
   },
   "http://playerservices.streamtheworld.com/api/livestream-redirect/WXNTAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Indiana University Indianapolis"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WRKNFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of New Orleans"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WRKNFMAAC.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of New Orleans"
   },
   "http://playerservices.streamtheworld.com/api/livestream-redirect/WRKNFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of New Orleans"
   },
   "https://ice5.securenetsystems.net/WOLF": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Le Moyne College"
   },
   "https://14933.live.streamtheworld.com/KRSTFMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Arkansas at Little Rock"
   },
   "https://live.amperwave.net/manifest/goodkarma-wktifmaac-hlsc2.m3u8?source=radiobox": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:29:55Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Marquette University"
   },
   "https://live.amperwave.net/direct/goodkarma-wgkbammp3-ibc1?source=radiobox": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Wisconsin-Milwaukee"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WFMDAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Mount St. Mary's University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WFMDAM.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Mount St. Mary's University"
   },
   "https://audio-edge-qse4n.yyz.g.radiomast.io/dafd1179-5404-4939-9c1c-a014c6964254": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Northeastern University"
   },
   "https://stream.revma.ihrhls.com/zc1697": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Northern Kentucky University"
   },
   "https://stream.revma.ihrhls.com/zc1697/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Northern Kentucky University"
   },
   "http://stream.revma.ihrhls.com/zc1697": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Northern Kentucky University"
   },
   "https://stream.revma.ihrhls.com/zc5236": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of the Pacific"
   },
   "https://stream.revma.ihrhls.com/zc5236/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:29:55Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of the Pacific"
   },
   "http://stream.revma.ihrhls.com/zc5236": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of the Pacific"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WPROAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Providence College"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WPROAMAAC.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Providence College"
   },
   "http://playerservices.streamtheworld.com/api/livestream-redirect/WPROAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Providence College"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WKJGAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Purdue University Fort Wayne"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WKJGAM.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Purdue University Fort Wayne"
   },
   "http://playerservices.streamtheworld.com/api/livestream-redirect/WKJGAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Purdue University Fort Wayne"
   },
   "https://wvru1.mtcstream.com:8500/wvru1": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Radford University"
   },
   "https://crystalout.surfernetwork.com:8001/WFJX_MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Radford University"
   },
   "https://ice5.securenetsystems.net/WRRC2?playSessionID=F6849833-0B1F-0669-756651DDD0214A8C": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Rider University"
   },
   "https://live.amperwave.net/direct/audacy-kmoxfmaac-imc": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Saint Louis University"
   },
   "https://live.amperwave.net/manifest/audacy-kmoxamaac-hlsc.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Saint Louis University"
   },
   "http://live.amperwave.net/direct/audacy-kmoxfmaac-imc": {
@@ -3525,85 +3525,85 @@
   "https://stream.surfernetwork.com/1fvoynxxaqduv": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Seton Hall University"
   },
   "https://stream.surfernetwork.com/hls/1fvoynxxaqduv": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Seton Hall University"
   },
   "http://stream.surfernetwork.com/1fvoynxxaqduv": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Seton Hall University"
   },
   "https://ais-sa1.streamon.fm/7816_128k.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Siena University"
   },
   "https://ice3.securenetsystems.net/WSWI?playSessionID=F5970050-98EE-49C6-FFC61E1599560DD6": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Southern Indiana"
   },
   "https://live.amperwave.net/direct/goodkarma-whsqamaac-ibc": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "St. John's University"
   },
   "https://live.amperwave.net/manifest/goodkarma-whsqamaac-hlsc.m3u8?source=iheart": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "St. John's University"
   },
   "http://live.amperwave.net/direct/goodkarma-whsqamaac-ibc": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "St. John's University"
   },
   "https://stream.revma.ihrhls.com/zc1593": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of North Carolina Asheville"
   },
   "https://stream.revma.ihrhls.com/zc1593/hls.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of North Carolina Asheville"
   },
   "http://stream.revma.ihrhls.com/zc1593": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of North Carolina Asheville"
   },
   "https://ais-sa1.streamon.fm/7348_48k.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Utah Valley University"
   },
   "https://live.amperwave.net/direct/vox-weavamaac-imc?source=website": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Vermont"
   },
   "https://live.amperwave.net/manifest/vox-weavamaac-hlsc.m3u8": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:21:14Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Vermont"
   },
   "https://ice8.securenetsystems.net/WRHI3?playSessionID=F597935B-E6A9-5333-725396E10336BF74": {
@@ -3615,79 +3615,79 @@
   "https://sh.fl-us.audio-stream.com/proxy/sneisl01?mp=/stream;audio.mp3?hash=1635404224535": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Winthrop University"
   },
   "https://live.amperwave.net/direct/alphacorporate-wclifmaac-ibc4": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Wright State University"
   },
   "https://live.amperwave.net/direct/alphacorporate-wclifmmp3-ibc4": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Wright State University"
   },
   "http://live.amperwave.net/direct/alphacorporate-wclifmaac-ibc4": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Wright State University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCTAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of San Francisco"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCTAMAAC.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of San Francisco"
   },
   "http://playerservices.streamtheworld.com/api/livestream-redirect/KTCTAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of San Francisco"
   },
   "https://live.amperwave.net/direct/audacy-kwfnfmaac-imc": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of California, San Diego"
   },
   "https://live.amperwave.net/manifest/audacy-kwfnfmaac-imc": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of California, San Diego"
   },
   "http://live.amperwave.net/direct/audacy-kwfnfmaac-imc": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of California, San Diego"
   },
   "https://live.amperwave.net/direct/audacy-keynfmaac-imc": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Wichita State University"
   },
   "https://live.amperwave.net/manifest/audacy-keynfmaac-imc": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Wichita State University"
   },
   "http://live.amperwave.net/direct/audacy-keynfmaac-imc": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Wichita State University"
   },
   "https://cpa.ds.npr.org/s767/audio/2026/10/dcij-voluntary-breath-with-nell-and-logan-full-show.mp3": {
@@ -3705,13 +3705,13 @@
   "https://playerservices.streamtheworld.com/api/livestream-redirect/KOMPHD2AAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Nevada, Las Vegas"
   },
   "https://ice6.securenetsystems.net/KYAL": {
    "ok": false,
    "why": "media error 4",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Oral Roberts University"
   },
   "https://klaa.streamguys1.com/live-aac": {
@@ -3729,105 +3729,111 @@
   "https://clips-media-fly.warnermediacdn.com/ncaa/clips/2026-10/2416700-c0def5c723234637af1ef2a66fbc5945/cmaf/master_cl_de.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Troy University"
   },
   "https://clips-media-fly.warnermediacdn.com/ncaa/clips/2026-10/2416700-c0def5c723234637af1ef2a66fbc5945/cmaf/master_cl_ph.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Troy University"
   },
   "https://clips-media-fly.warnermediacdn.com/ncaa/clips/2026-10/2416700-c0def5c723234637af1ef2a66fbc5945/cmaf/master_cl_ta.m3u8": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Troy University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WTKAAMAAC.aac": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Michigan"
   },
   "https://live.amperwave.net/direct/audacy-wtemamaac-imc": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Maryland"
   },
   "http://live.amperwave.net/direct/audacy-wtemamaac-imc": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Maryland"
   },
   "https://stream.wusb.stonybrook.edu:8092/listen.pl": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Stony Brook University"
   },
   "https://stream.wusb.stonybrook.edu:8092/listen.pl/relay": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Stony Brook University"
   },
   "https://playerservices.streamtheworld.com/api/livestream-redirect/WEEXAM.mp3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Lehigh University"
   },
   "https://wjab.streamguys1.com/": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Alabama A&M University"
   },
   "https://img.leanstream.co/IM7201-MP3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Oregon State University"
   },
   "https://live.amperwave.net/direct/townsquare-krodamaac-ibc3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Texas at El Paso"
   },
   "https://live.amperwave.net/manifest/townsquare-krodamaac-ibc3": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Texas at El Paso"
   },
   "https://ice6.securenetsystems.net/WBRR": {
    "ok": true,
    "why": "playing",
-   "at": "2026-11-02T20:21:14Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "St. Bonaventure University"
   },
   "https://live.amperwave.net/manifest/goodkarma-wtlxfmaac-hlsc2.m3u8?source=v7player": {
-   "ok": false,
-   "why": "media error 4",
-   "at": "2026-11-02T20:29:55Z",
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
    "school": "University of Wisconsin-Madison"
   },
   "https://stream.revma.ihrhls.com/zc5252": {
    "ok": false,
    "why": "media error 4",
-   "at": "2026-11-02T20:29:55Z",
+   "at": "2026-11-02T20:33:55Z",
    "school": "Seton Hall University"
+  },
+  "https://kzsu-streams.stanford.edu/kzsu-1-128.mp3": {
+   "ok": true,
+   "why": "playing",
+   "at": "2026-11-02T20:33:55Z",
+   "school": "Stanford University"
   }
  },
  "teams": {
   "University of North Carolina at Charlotte": {
    "inpage": [],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Tulane University": {
    "inpage": [
@@ -3835,49 +3841,51 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Baylor University": {
    "inpage": [
     "https://ais-sa1.streamon.fm/7050_24k.aac"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Central Florida": {
    "inpage": [
-    "https://stream.revma.ihrhls.com/zc601"
+    "https://stream.revma.ihrhls.com/zc601",
+    "https://stream.revma.ihrhls.com/zc601/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Dartmouth College": {
    "inpage": [
     "https://ice24.securenetsystems.net/WDCR"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Harvard University": {
    "inpage": [
     "https://stream.whrb.org/whrb-mp3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Kent State University": {
    "inpage": [
-    "https://stream.revma.ihrhls.com/zc3455"
+    "https://stream.revma.ihrhls.com/zc3455",
+    "https://stream.revma.ihrhls.com/zc3455/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "California State University, Sacramento": {
    "inpage": [
     "https://live.amperwave.net/direct/audacy-kifmamaac-imc"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Boston College": {
    "inpage": [
@@ -3885,27 +3893,28 @@
     "https://live.amperwave.net/direct/audacy-weeifmaac-imc"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Clemson University": {
    "inpage": [],
    "external": "http://s2.radioreformation.com:8060/;stream.mp3",
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Duke University": {
    "inpage": [
     "https://img.leanstream.co/IM3501-MP3"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Florida State University": {
    "inpage": [
     "https://fsu.leanstream.co/FS0101-MP3",
-    "https://stream.revma.ihrhls.com/zc661"
+    "https://stream.revma.ihrhls.com/zc661",
+    "https://stream.revma.ihrhls.com/zc661/hls.m3u8?hls=true"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Georgia Institute of Technology": {
    "inpage": [
@@ -3913,7 +3922,7 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/WCNNAM.mp3"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Louisville": {
    "inpage": [
@@ -3921,22 +3930,23 @@
     "https://live.amperwave.net/direct/unionbroadcasting-wlclamaac-ibc2"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Miami": {
    "inpage": [
     "https://live.amperwave.net/manifest/audacy-wqamamaac-imc",
+    "https://live.amperwave.net/manifest/audacy-wqamamaac-hlsc.m3u8",
     "https://live.amperwave.net/direct/audacy-wqamamaac-imc"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "North Carolina State University": {
    "inpage": [
     "https://img.leanstream.co/IM9301-MP3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of North Carolina at Chapel Hill": {
    "inpage": [
@@ -3944,7 +3954,7 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/WPTFAM.mp3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Pittsburgh": {
    "inpage": [
@@ -3952,7 +3962,7 @@
     "https://live.amperwave.net/manifest/audacy-kdkafmaac-imc"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Southern Methodist University": {
    "inpage": [
@@ -3961,15 +3971,16 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Stanford University": {
    "inpage": [
     "https://playerservices.streamtheworld.com/api/livestream-redirect/KNBRAMAAC.aac",
-    "https://playerservices.streamtheworld.com/api/livestream-redirect/KNBRAMAAC.m3u8"
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/KNBRAMAAC.m3u8",
+    "https://kzsu-streams.stanford.edu/kzsu-1-128.mp3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Syracuse University": {
    "inpage": [
@@ -3977,19 +3988,23 @@
     "https://live.amperwave.net/manifest/galaxy-wtkwfmaac-hlsc1.m3u8?source=v7player"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Virginia": {
-   "inpage": [],
+   "inpage": [
+    "https://live.amperwave.net/manifest/saga-winaammp3-hlsc.m3u8?source=uva",
+    "https://live.amperwave.net/manifest/saga-winaamaac-hlsc1.m3u8?source=v7player"
+   ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Wake Forest University": {
    "inpage": [
-    "https://img.leanstream.co/IM2401-MP3"
+    "https://img.leanstream.co/IM2401-MP3",
+    "https://live.amperwave.net/manifest/blueridgeradio-wbrffmaac-hlsc4.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Notre Dame": {
    "inpage": [
@@ -4003,18 +4018,20 @@
   "University of Connecticut": {
    "inpage": [
     "https://img.leanstream.co/IM3401-MP3",
-    "https://stream.revma.ihrhls.com/zc5238"
+    "https://stream.revma.ihrhls.com/zc5238",
+    "https://stream.revma.ihrhls.com/zc5238/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "United States Military Academy": {
    "inpage": [
     "https://img.leanstream.co/IM8601-MP3",
-    "https://stream.revma.ihrhls.com/zc1493"
+    "https://stream.revma.ihrhls.com/zc1493",
+    "https://stream.revma.ihrhls.com/zc1493/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "East Carolina University": {
    "inpage": [
@@ -4022,7 +4039,7 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/WNCTAM.mp3"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Memphis": {
    "inpage": [
@@ -4031,14 +4048,14 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/WKIMFMAAC.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "United States Naval Academy": {
    "inpage": [
     "https://crystalout.surfernetwork.com:8001/WNAV-AM_MP3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of South Florida": {
    "inpage": [
@@ -4046,7 +4063,7 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/WRBQFM.mp3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Alabama at Birmingham": {
    "inpage": [
@@ -4055,19 +4072,20 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/WJOXFMAAC.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Appalachian State University": {
    "inpage": [],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Coastal Carolina University": {
    "inpage": [
-    "https://stream.revma.ihrhls.com/zc6849"
+    "https://stream.revma.ihrhls.com/zc6849",
+    "https://stream.revma.ihrhls.com/zc6849/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Georgia State University": {
    "inpage": [
@@ -4076,28 +4094,28 @@
     "https://gpb.streamguys1.com/gpb-atlanta-aac-website"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Louisiana Tech University": {
    "inpage": [
     "https://img.leanstream.co/LF2701-MP3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Marshall University": {
    "inpage": [
     "https://img.leanstream.co/IM1601-MP3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Old Dominion University": {
    "inpage": [
     "https://ais-sa1.streamon.fm/7851_128k.aac/playlist.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of South Alabama": {
    "inpage": [
@@ -4105,21 +4123,21 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/WMEZFMAAC.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Southern Mississippi": {
    "inpage": [
     "https://img.leanstream.co/IM1801-MP3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Louisiana Monroe": {
    "inpage": [
     "https://ice66.securenetsystems.net/KLIP"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Arizona": {
    "inpage": [
@@ -4127,51 +4145,56 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/KCUBAMAAC.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Arizona State University": {
    "inpage": [
-    "https://bonneville.cdnstream1.com/2699_48.aac?aw_0_1st.playerid=IHM"
+    "https://bonneville.cdnstream1.com/2699_48.aac?aw_0_1st.playerid=IHM",
+    "https://bonneville.cdnstream1.com/2699_48.aac/playlist.m3u8?aw_0_1st.playerid=IHM"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Brigham Young University": {
    "inpage": [
-    "https://bonneville.cdnstream1.com/2704_48.aac?aw_0_1st.playerid=IHM"
+    "https://bonneville.cdnstream1.com/2704_48.aac?aw_0_1st.playerid=IHM",
+    "https://bonneville.cdnstream1.com/2704_48.aac/playlist.m3u8?aw_0_1st.playerid=IHM"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Cincinnati": {
    "inpage": [
-    "https://stream.revma.ihrhls.com/zc1713"
+    "https://stream.revma.ihrhls.com/zc1713",
+    "https://stream.revma.ihrhls.com/zc1713/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Colorado Boulder": {
    "inpage": [
     "https://img.leanstream.co/IM7101-MP3",
-    "https://stream.revma.ihrhls.com/zc389"
+    "https://stream.revma.ihrhls.com/zc389",
+    "https://stream.revma.ihrhls.com/zc389/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Iowa State University": {
    "inpage": [
     "https://img.leanstream.co/IM7901-MP3",
-    "https://stream.revma.ihrhls.com/zc913"
+    "https://stream.revma.ihrhls.com/zc913",
+    "https://stream.revma.ihrhls.com/zc913/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Kansas": {
    "inpage": [
     "https://ice23.securenetsystems.net/KLWNAM"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Kansas State University": {
    "inpage": [
@@ -4179,23 +4202,24 @@
     "https://stream-02.surfernetwork.com/drscz5r6naxuv"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Oklahoma State University": {
    "inpage": [
     "https://img.leanstream.co/IM9101-MP3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Texas Christian University": {
    "inpage": [
     "https://img.leanstream.co/IM4901-MP3",
     "https://img.leanstream.co/IM4903-MP3",
-    "https://stream.revma.ihrhls.com/zc3379"
+    "https://stream.revma.ihrhls.com/zc3379",
+    "https://stream.revma.ihrhls.com/zc3379/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Texas Tech University": {
    "inpage": [
@@ -4204,14 +4228,14 @@
     "https://ais-sa1.streamon.fm/7001_48k.aac"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Utah": {
    "inpage": [
     "https://ais-sa1.streamon.fm/7349_48k.aac"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Ohio State University": {
    "inpage": [
@@ -4220,7 +4244,7 @@
     "https://oom-radiohio.streamguys1.com/cols/wbnsfm.mp3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Michigan": {
    "inpage": [
@@ -4229,14 +4253,14 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/WTKAAMAAC.aac"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Pennsylvania State University": {
    "inpage": [
     "https://ice25.securenetsystems.net/WBUS"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Illinois Urbana-Champaign": {
    "inpage": [
@@ -4245,7 +4269,7 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/WSOYAMAAC.aac"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Indiana University": {
    "inpage": [
@@ -4253,14 +4277,15 @@
     "https://soundmanagement.streamguys1.com/WHCC"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Iowa": {
    "inpage": [
-    "https://stream.revma.ihrhls.com/zc925"
+    "https://stream.revma.ihrhls.com/zc925",
+    "https://stream.revma.ihrhls.com/zc925/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Maryland": {
    "inpage": [
@@ -4268,15 +4293,16 @@
     "https://live.amperwave.net/direct/audacy-wtemamaac-imc"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Minnesota": {
    "inpage": [
     "https://img.leanstream.co/IM8401-MP3",
-    "https://stream.revma.ihrhls.com/zc1209"
+    "https://stream.revma.ihrhls.com/zc1209",
+    "https://stream.revma.ihrhls.com/zc1209/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Nebraska-Lincoln": {
    "inpage": [
@@ -4284,14 +4310,14 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/KLINAM.mp3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Northwestern University": {
    "inpage": [
     "https://live.amperwave.net/direct/wgnam-wgnamaac-imc2"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Oregon": {
    "inpage": [
@@ -4300,14 +4326,14 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAMAAC.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Purdue University": {
    "inpage": [
     "https://cp9.serverse.com/proxy/neiqvqnd?mp=/stream"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Rutgers University": {
    "inpage": [
@@ -4316,7 +4342,7 @@
     "https://live.amperwave.net/manifest/audacy-wfanamaac-imc"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of California, Los Angeles": {
    "inpage": [
@@ -4324,7 +4350,7 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/KABCAMAAC.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Southern California": {
    "inpage": [
@@ -4333,28 +4359,31 @@
     "https://live.amperwave.net/direct/goodkarma-kspnamaac-ibc"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Washington": {
    "inpage": [
-    "https://stream.revma.ihrhls.com/zc2577"
+    "https://stream.revma.ihrhls.com/zc2577",
+    "https://stream.revma.ihrhls.com/zc2577/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Wisconsin-Madison": {
    "inpage": [
-    "https://stream.revma.ihrhls.com/zc2661"
+    "https://stream.revma.ihrhls.com/zc2661",
+    "https://stream.revma.ihrhls.com/zc2661/hls.m3u8",
+    "https://live.amperwave.net/manifest/goodkarma-wtlxfmaac-hlsc2.m3u8?source=v7player"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Bryant University": {
    "inpage": [
     "https://playerservices.streamtheworld.com/api/livestream-redirect/WJMFFMAAC.aac"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Hampton University": {
    "inpage": [
@@ -4370,7 +4399,7 @@
     "https://live.amperwave.net/manifest/townsquare-wwmjfmaac-ibc3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Monmouth University": {
    "inpage": [
@@ -4390,19 +4419,21 @@
     "https://stream.wusb.stonybrook.edu:8092/listen.pl/relay"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Towson University": {
    "inpage": [
     "https://ice6.securenetsystems.net/WNST"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Bucknell University": {
-   "inpage": [],
-   "external": "http://live.amperwave.net/playlist/sunbury-wkokamaac-ibc1.pls?source=airkast",
-   "at": "2026-11-02T20:21:14Z"
+   "inpage": [
+    "https://live.amperwave.net/manifest/sunbury-wkokamaac-hlsc2.m3u8?source=sidearm"
+   ],
+   "external": null,
+   "at": "2026-11-02T20:33:55Z"
   },
   "Colgate University": {
    "inpage": [
@@ -4410,14 +4441,14 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/WRCUFM.mp3"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Lehigh University": {
    "inpage": [
     "https://playerservices.streamtheworld.com/api/livestream-redirect/WEEXAM.mp3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Villanova University": {
    "inpage": [
@@ -4433,28 +4464,30 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/WTYDFM.mp3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Columbia University": {
    "inpage": [
     "https://wkcr.streamguys1.com/live"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Yale University": {
    "inpage": [
-    "https://stream.revma.ihrhls.com/zc453"
+    "https://stream.revma.ihrhls.com/zc453",
+    "https://stream.revma.ihrhls.com/zc453/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Duquesne University": {
    "inpage": [
-    "https://stream.revma.ihrhls.com/zc4870"
+    "https://stream.revma.ihrhls.com/zc4870",
+    "https://stream.revma.ihrhls.com/zc4870/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Alabama A&M University": {
    "inpage": [
@@ -4463,21 +4496,21 @@
     "https://wjab.streamguys1.com/?uuid=vm1k8lr5&dist=nprgrove"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Alabama State University": {
    "inpage": [
     "https://stream-02.surfernetwork.com/i37k5l981vjtv"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Bethune-Cookman University": {
    "inpage": [
     "https://ice41.securenetsystems.net/WELE"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Florida A&M University": {
    "inpage": [
@@ -4485,28 +4518,28 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/WHBXFMAAC.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Alcorn State University": {
    "inpage": [
     "https://ice41.securenetsystems.net/WPRL"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Grambling State University": {
    "inpage": [
     "https://ice41.securenetsystems.net/KGRM?playSessionID=27007793-697E-4C07-A287049708D476F7"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Texas Southern University": {
    "inpage": [
     "https://centova87.instainternet.com/proxy/ktsuradio?mp=/stream"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Norfolk State University": {
    "inpage": [
@@ -4514,14 +4547,14 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/WNSBFM.mp3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Tennessee at Chattanooga": {
    "inpage": [
     "https://ice41.securenetsystems.net/WFLI"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "East Tennessee State University": {
    "inpage": [
@@ -4529,42 +4562,43 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/WXSMAMAAC.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Furman University": {
    "inpage": [
+    "https://live.amperwave.net/manifest/audacy-wordamaac-hlsc.m3u8",
     "https://live.amperwave.net/manifest/audacy-wordamaac-imc"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Mercer University": {
    "inpage": [
     "https://live.amperwave.net/direct/creekmedia-wnexfmaac-ibc1"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "The Citadel": {
    "inpage": [
     "https://ice5.securenetsystems.net/WQNT"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Virginia Military Institute": {
    "inpage": [
     "https://ice41.securenetsystems.net/WWZW"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Western Carolina University": {
    "inpage": [
     "https://ice24.securenetsystems.net/WRGC"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "East Texas A&M University": {
    "inpage": [
@@ -4572,88 +4606,86 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/KETRFM.mp3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Houston Christian University": {
    "inpage": [
     "https://listen.radioking.com/radio/760748/stream/827744"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Lamar University": {
    "inpage": [
-    "https://stream.revma.ihrhls.com/zc2197"
+    "https://stream.revma.ihrhls.com/zc2197",
+    "https://stream.revma.ihrhls.com/zc2197/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "McNeese State University": {
    "inpage": [
     "https://live.amperwave.net/manifest/townsquare-khlafmaac-ibc3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Nicholls State University": {
    "inpage": [
     "https://ice42.securenetsystems.net/KCIL"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Northwestern State University": {
    "inpage": [],
    "external": "http://104.243.173.42:88/broadwave.mp3",
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Southeastern Louisiana University": {
    "inpage": [
     "https://ice41.securenetsystems.net/WFPR"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Stephen F. Austin State University": {
-   "inpage": [
-    "https://img.leanstream.co/LF8101-MP3",
-    "https://live.amperwave.net/manifest/townsquare-ktbqfmaac-ibc3"
-   ],
+   "inpage": [],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Gardner-Webb University": {
    "inpage": [
     "https://sh.fl-us.audio-stream.com/proxy/sneisl01?mp=/stream"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Lindenwood University": {
    "inpage": [
     "https://ice6.securenetsystems.net/KCLC"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Southeast Missouri State University": {
    "inpage": [
     "https://ice23.securenetsystems.net/KCGQ"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Tennessee State University": {
    "inpage": [],
    "external": "http://shout.wnsr.com:8989/;",
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Tennessee at Martin": {
    "inpage": [
     "https://ice64.securenetsystems.net/WUTM"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Dayton": {
    "inpage": [
@@ -4662,7 +4694,7 @@
     "https://oom-cmg.streamguys1.com/day957/day957-sgplayer-mp3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Morehead State University": {
    "inpage": [
@@ -4670,14 +4702,14 @@
     "https://ice5.securenetsystems.net/WIVY"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Presbyterian College": {
    "inpage": [
     "https://ice26.securenetsystems.net/WPCC"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of St. Thomas (Minnesota)": {
    "inpage": [
@@ -4685,7 +4717,7 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/KSTPAMAAC.aac"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Montana": {
    "inpage": [
@@ -4693,7 +4725,7 @@
     "https://live.amperwave.net/manifest/townsquare-kgvoamaac-ibc3"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Montana State University": {
    "inpage": [
@@ -4701,7 +4733,7 @@
     "https://live.amperwave.net/manifest/townsquare-kmptamaac-ibc3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Eastern Washington University": {
    "inpage": [
@@ -4710,21 +4742,21 @@
     "https://17643.live.streamtheworld.com/KXLXAMAAC_SC"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Idaho": {
    "inpage": [
     "https://live.amperwave.net/direct/horizonbroadcasting-kbnwammp3-ibc1"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Idaho State University": {
    "inpage": [
     "https://kisufm.isu.edu:8443/kisufm"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Northern Arizona University": {
    "inpage": [
@@ -4738,22 +4770,23 @@
     "https://das-edge29-sa27-lax02.cdnstream.com/2284_96.aac"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of California, Davis": {
    "inpage": [
     "https://bonneville.cdnstream1.com/2799_64.mp3",
-    "https://bonneville.cdnstream1.com/2616_48.aac?aw_0_1st.playerid=IHM"
+    "https://bonneville.cdnstream1.com/2616_48.aac?aw_0_1st.playerid=IHM",
+    "https://bonneville.cdnstream1.com/2616_48.aac/playlist.m3u8?aw_0_1st.playerid=IHM"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Southern Utah University": {
    "inpage": [
     "https://live.amperwave.net/manifest/townsquare-ksubamaac-ibc3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Illinois State University": {
    "inpage": [
@@ -4762,40 +4795,45 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/WJBCAMAAC.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Murray State University": {
-   "inpage": [],
+   "inpage": [
+    "https://live.amperwave.net/manifest/forevercomm-wfgsfmaac-hlsc4.m3u8"
+   ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of North Dakota": {
    "inpage": [
-    "https://stream.revma.ihrhls.com/zc1681"
+    "https://stream.revma.ihrhls.com/zc1681",
+    "https://stream.revma.ihrhls.com/zc1681/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of South Dakota": {
    "inpage": [
     "https://img.leanstream.co/LF5201-MP3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "South Dakota State University": {
    "inpage": [
-    "https://img.leanstream.co/LF6801-MP3"
+    "https://img.leanstream.co/LF6801-MP3",
+    "https://live.amperwave.net/manifest/saga-wnaxamaac-hlsc1.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Youngstown State University": {
    "inpage": [
-    "https://stream.revma.ihrhls.com/zc1869"
+    "https://stream.revma.ihrhls.com/zc1869",
+    "https://stream.revma.ihrhls.com/zc1869/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Abilene Christian University": {
    "inpage": [
@@ -4803,21 +4841,21 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/KHXSFMAAC.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Tarleton State University": {
    "inpage": [
     "https://kxtr.streamguys1.com/live2-aac"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Bowling Green State University": {
    "inpage": [
     "https://ice41.securenetsystems.net/WFRO"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Western Michigan University": {
    "inpage": [
@@ -4826,19 +4864,19 @@
     "https://18493.live.streamtheworld.com/WVFMFMAAC_SC"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Florida International University": {
    "inpage": [],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Liberty University": {
    "inpage": [
     "https://ic.liberty.edu:8443/WRVL"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Boise State University": {
    "inpage": [
@@ -4846,42 +4884,46 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAMAAC.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Colorado State University": {
    "inpage": [
     "https://img.leanstream.co/LF1701-MP3",
-    "https://bonneville.cdnstream1.com/2612_48.aac?aw_0_1st.playerid=IHM"
+    "https://bonneville.cdnstream1.com/2612_48.aac?aw_0_1st.playerid=IHM",
+    "https://bonneville.cdnstream1.com/2612_48.aac/playlist.m3u8?aw_0_1st.playerid=IHM"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "California State University, Fresno": {
    "inpage": [
     "https://ice5.securenetsystems.net/KFIG"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Oregon State University": {
    "inpage": [
     "https://img.leanstream.co/IM7201-MP3",
-    "https://stream.revma.ihrhls.com/zc1949"
+    "https://stream.revma.ihrhls.com/zc1949",
+    "https://stream.revma.ihrhls.com/zc1949/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "San Diego State University": {
-   "inpage": [],
+   "inpage": [
+    "https://stream.revma.ihrhls.com/zc8528/hls.m3u8"
+   ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Texas State University": {
    "inpage": [
     "https://ktswlive.txstate.edu:8102/listen"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Utah State University": {
    "inpage": [
@@ -4889,14 +4931,15 @@
     "https://bonneville.cdnstream1.com/2706_48.aac"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Washington State University": {
    "inpage": [
-    "https://bonneville.cdnstream1.com/2642_48.aac?aw_0_1st.playerid=IHM"
+    "https://bonneville.cdnstream1.com/2642_48.aac?aw_0_1st.playerid=IHM",
+    "https://bonneville.cdnstream1.com/2642_48.aac/playlist.m3u8?aw_0_1st.playerid=IHM"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "United States Air Force Academy": {
    "inpage": [
@@ -4905,7 +4948,7 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/KVORAMAAC.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Nevada, Reno": {
    "inpage": [
@@ -4913,7 +4956,7 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/KOZZFM.mp3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of New Mexico": {
    "inpage": [
@@ -4921,14 +4964,14 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/KKOBAMAAC.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "North Dakota State University": {
    "inpage": [
     "https://img.leanstream.co/LF7501-MP3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Northern Illinois University": {
    "inpage": [
@@ -4936,7 +4979,7 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/WDKBFM.mp3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "San Jos\u00e9 State University": {
    "inpage": [
@@ -4944,14 +4987,14 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/KTRBAM.mp3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Nevada, Las Vegas": {
    "inpage": [
     "https://playerservices.streamtheworld.com/api/livestream-redirect/KOMPHD2AAC.aac"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Texas at El Paso": {
    "inpage": [
@@ -4959,21 +5002,21 @@
     "https://live.amperwave.net/manifest/townsquare-krodamaac-ibc3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Arkansas": {
    "inpage": [
     "https://oom-signalmedia.streamguys1.com/signalmedia/kabz-aac?aw_0_req.gdpr=true"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Auburn University": {
    "inpage": [
     "https://ice25.securenetsystems.net/WGZZ"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Florida": {
    "inpage": [
@@ -4982,30 +5025,33 @@
     "https://ais-sa1.streamon.fm/7644_48k.aac/playlist.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Georgia": {
    "inpage": [
-    "https://img.leanstream.co/IM5001-MP3"
+    "https://img.leanstream.co/IM5001-MP3",
+    "https://cmg.streamguys1.com/atl750/atl750-encoder.aac/playlist.m3u8?aw_0_1st.playerId=cmg_iheart"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Mississippi": {
    "inpage": [
-    "https://img.leanstream.co/IM4101-MP3"
+    "https://img.leanstream.co/IM4101-MP3",
+    "https://live.amperwave.net/manifest/telesouth-wqljfmaac-hlsc1.m3u8?source=v7player"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Mississippi State University": {
    "inpage": [
     "https://img.leanstream.co/IM8301-MP3",
+    "https://live.amperwave.net/manifest/telesouth-wkbbfmaac-hlsc1.m3u8?source=v7player",
     "https://live.amperwave.net/manifest/telesouth-wkbbfmaac-imc1",
     "https://live.amperwave.net/manifest/telesouth-wzkrfmaac-imc"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Missouri": {
    "inpage": [
@@ -5013,7 +5059,7 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/KCMOAM.mp3"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Oklahoma": {
    "inpage": [
@@ -5021,7 +5067,7 @@
     "https://das-edge59-sa48-futuri-lax02.cdnstream.com/11317_96k.aac?listeningSessionId=QjdWS0FUT0tQSVFOUERONUlNRkhXSTI0NklfZGFzLWVkZ2U1OS1zYTQ4LWZ1dHVyaS1sYXgwMi5jZG5zdHJlYW0uY29tOjgxODY.&playerid=esPlayer"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of South Carolina": {
    "inpage": [
@@ -5029,14 +5075,15 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/WNKTFMAAC.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Texas at Austin": {
    "inpage": [
-    "https://stream.revma.ihrhls.com/zc2181"
+    "https://stream.revma.ihrhls.com/zc2181",
+    "https://stream.revma.ihrhls.com/zc2181/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of California, Berkeley": {
    "inpage": [
@@ -5045,77 +5092,77 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/KSFOAMAAC.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University at Albany": {
    "inpage": [
     "https://live.amperwave.net/manifest/townsquare-wtmmfmaac-ibc3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Richmond": {
    "inpage": [
     "https://stream.rcs.revma.com/x4q6k4dw57uvv"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Robert Morris University": {
    "inpage": [
     "https://stream.radio.co/s521a8e223/listen"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Tennessee Technological University": {
    "inpage": [
     "https://ice42.securenetsystems.net/WPTNAM"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Northern Iowa": {
    "inpage": [
     "https://img.leanstream.co/LF4601-MP3"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Central Arkansas": {
    "inpage": [
     "https://us2.maindigitalstream.com/ssl/KUCA"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Eastern Kentucky University": {
    "inpage": [
     "https://streams.radio.co/sd1bcd1376/listen#.mp3"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of North Alabama": {
    "inpage": [
     "https://ice64.securenetsystems.net/WLLX"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of West Georgia": {
    "inpage": [
     "https://ice66.securenetsystems.net/WCKS"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Virginia Tech": {
    "inpage": [
     "https://ice26.securenetsystems.net/WBRW"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Florida Atlantic University": {
    "inpage": [
@@ -5123,54 +5170,57 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/WMENAM.mp3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of North Texas": {
    "inpage": [
-    "https://stream.revma.ihrhls.com/zc4276"
+    "https://stream.revma.ihrhls.com/zc4276",
+    "https://stream.revma.ihrhls.com/zc4276/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Temple University": {
    "inpage": [],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Tulsa": {
    "inpage": [
     "https://live.amperwave.net/manifest//griffin-kxblfmaac-imc2"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Texas at San Antonio": {
    "inpage": [
-    "https://stream.revma.ihrhls.com/zc2353"
+    "https://stream.revma.ihrhls.com/zc2353",
+    "https://stream.revma.ihrhls.com/zc2353/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Arkansas State University": {
    "inpage": [
     "https://ais-sa8.cdnstream1.com/1416_64"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Georgia Southern University": {
    "inpage": [
     "https://img.leanstream.co/LF2401-MP3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "James Madison University": {
    "inpage": [
+    "https://live.amperwave.net/manifest/saga-wsvaamaac-hlsc2.m3u8?source=v7player",
     "https://live.amperwave.net/direct/saga-wsvaammp3-ibc2"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Louisiana at Lafayette": {
    "inpage": [
@@ -5178,7 +5228,7 @@
     "https://live.amperwave.net/manifest/townsquare-kpelamaac-ibc3"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Troy University": {
    "inpage": [
@@ -5187,19 +5237,22 @@
     "https://clips-media-fly.warnermediacdn.com/ncaa/clips/2026-10/2416700-c0def5c723234637af1ef2a66fbc5945/cmaf/master_cl_ta.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Houston": {
    "inpage": [
-    "https://stream.revma.ihrhls.com/zc2277"
+    "https://stream.revma.ihrhls.com/zc2277",
+    "https://stream.revma.ihrhls.com/zc2277/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "West Virginia University": {
-   "inpage": [],
+   "inpage": [
+    "https://prod-100-53-217-72.amperwave.net/wvradio-wvaqfmaac-hlsc2.m3u8"
+   ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Michigan State University": {
    "inpage": [
@@ -5208,7 +5261,7 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/WJRAMAAC.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Campbell University": {
    "inpage": [],
@@ -5220,40 +5273,41 @@
     "https://img.leanstream.co/IM7401-MP3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of New Hampshire": {
    "inpage": [
-    "https://stream.revma.ihrhls.com/zc2752"
+    "https://stream.revma.ihrhls.com/zc2752",
+    "https://stream.revma.ihrhls.com/zc2752/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Fordham University": {
    "inpage": [
     "https://onair.wfuv.org/onair-aacplus"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Jackson State University": {
    "inpage": [
     "https://streaming.live365.com/a60611"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Morgan State University": {
    "inpage": [],
    "external": "http://amber.streamguys.com:4020/live",
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "South Carolina State University": {
    "inpage": [
     "https://stream.zeno.fm/71u92uesqp8uv"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Wofford College": {
    "inpage": [],
@@ -5262,10 +5316,11 @@
   },
   "University of Texas Rio Grande Valley": {
    "inpage": [
+    "https://live.amperwave.net/manifest/rcomm-xhrysfmaac-hlsc4.m3u8?source=v7player",
     "https://live.amperwave.net/direct/rcomm-xhrysfmaac-imc4"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Eastern Illinois University": {
    "inpage": [],
@@ -5277,71 +5332,77 @@
     "https://ice64.securenetsystems.net/WBYSAM"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Marist University": {
    "inpage": [],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Northern Colorado": {
    "inpage": [
     "https://stream.radiojar.com/38vtv55ez38uv"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Utah Tech University": {
    "inpage": [
     "https://ice6.securenetsystems.net/KAZZ"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Indiana State University": {
-   "inpage": [],
+   "inpage": [
+    "https://live.amperwave.net/manifest/jdl-wvigfmaac-hlsc.m3u8"
+   ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Southern Illinois University": {
    "inpage": [
     "https://ice23.securenetsystems.net/WCIL"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Austin Peay State University": {
    "inpage": [
-    "https://live.amperwave.net/direct/saga-wkfnamaac-ibc2"
+    "https://live.amperwave.net/direct/saga-wkfnamaac-ibc2",
+    "https://live.amperwave.net/manifest/saga-wkfnamaac-hlsc2.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Akron": {
    "inpage": [
-    "https://stream.revma.ihrhls.com/zc3520"
+    "https://stream.revma.ihrhls.com/zc3520",
+    "https://stream.revma.ihrhls.com/zc3520/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Ball State University": {
    "inpage": [
     "https://mcdn.podbean.com/mf/web/bbpqs4dqujrzda92/power_hour_oct_29b68ok.mp3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University at Buffalo": {
-   "inpage": [],
+   "inpage": [
+    "https://live.amperwave.net/manifest/audacy-wwkbamaac-hlsc.m3u8?dist=Audacy&source=webA2"
+   ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Central Michigan University": {
    "inpage": [
     "https://live.amperwave.net/manifest/northernstarbroadcasting-wupsfmaac-ibc2"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Eastern Michigan University": {
    "inpage": [
@@ -5349,54 +5410,58 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/WEMUFMAAC.aac"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Miami University": {
    "inpage": [
     "https://ice3.securenetsystems.net/WMOH"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Ohio University": {
    "inpage": [
     "https://ice6.securenetsystems.net/WXTQ"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Toledo": {
    "inpage": [
-    "https://stream.revma.ihrhls.com/zc1857"
+    "https://stream.revma.ihrhls.com/zc1857",
+    "https://stream.revma.ihrhls.com/zc1857/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Massachusetts Amherst": {
-   "inpage": [],
+   "inpage": [
+    "https://live.amperwave.net/manifest/saga-whmpamaac-hlsc1.m3u8?source=v7player"
+   ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Delaware": {
    "inpage": [
-    "https://stream.revma.ihrhls.com/zc461"
+    "https://stream.revma.ihrhls.com/zc461",
+    "https://stream.revma.ihrhls.com/zc461/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Jacksonville State University": {
    "inpage": [
     "https://s8.yesstreaming.net:7014/stream"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Kennesaw State University": {
    "inpage": [
     "https://edge.mixlr.com/channel/iryqq"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Middle Tennessee State University": {
    "inpage": [
@@ -5410,21 +5475,21 @@
     "https://ais-sa1.streamon.fm/7678_48k.aac/playlist.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "New Mexico State University": {
    "inpage": [
     "https://ice42.securenetsystems.net/KXPZ"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Western Kentucky University": {
    "inpage": [
     "https://ice25.securenetsystems.net/WPTQ"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Hawai'i at Manoa": {
    "inpage": [
@@ -5432,14 +5497,14 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/KKEAAM_MP3.mp3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Wyoming": {
    "inpage": [
     "https://live.amperwave.net/manifest/townsquare-kowbamaac-ibc3"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Alabama": {
    "inpage": [
@@ -5447,21 +5512,22 @@
     "https://stream.rcs.revma.com/fyk48ahxu7uvv/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Kentucky": {
    "inpage": [
-    "https://stream.revma.ihrhls.com/zc965"
+    "https://stream.revma.ihrhls.com/zc965",
+    "https://stream.revma.ihrhls.com/zc965/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Louisiana State University": {
    "inpage": [
     "https://live.amperwave.net/direct/guaranty-wdglfmaac-ibc1"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Tennessee": {
    "inpage": [
@@ -5469,21 +5535,21 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/WIVKFMAAC.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Texas A&M University": {
    "inpage": [
     "https://ice42.securenetsystems.net/WTAWAM"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Vanderbilt University": {
    "inpage": [
     "https://cromwell-ice.streamguys1.com/WPRTFM"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Bellarmine University": {
    "inpage": [
@@ -5491,7 +5557,7 @@
     "https://live.amperwave.net/manifest/unionbroadcasting-whbeamaac-ibc2"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Binghamton University": {
    "inpage": [
@@ -5499,7 +5565,7 @@
     "https://stream.abacast.net/direct/townsquare-wnbfamaac-ibc3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Bradley University": {
    "inpage": [
@@ -5508,38 +5574,43 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/WMBDAMAAC_SC?wmbd"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Canisius University": {
-   "inpage": [],
-   "external": "http://live.amperwave.net/manifest/radioonebuffalo-weckamaac-hlsc3.m3u8",
-   "at": "2026-11-02T20:21:14Z"
+   "inpage": [
+    "https://live.amperwave.net/manifest/radioonebuffalo-weckamaac-hlsc3.m3u8"
+   ],
+   "external": null,
+   "at": "2026-11-02T20:33:55Z"
   },
   "Cleveland State University": {
    "inpage": [
     "https://stream.revma.ihrhls.com/zc5382"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Creighton University": {
    "inpage": [
     "https://ice26.securenetsystems.net/KOZN"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Denver": {
-   "inpage": [],
+   "inpage": [
+    "https://d834c7343c8a4d208b4df6b78180ebc9.mediatailor.us-west-2.amazonaws.com/v1/master/cbadc959d0c9b4829831c664f5ec02b07c91d8a1/KKFN-FM/playlist.m3u8"
+   ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Gonzaga University": {
    "inpage": [
-    "https://stream.revma.ihrhls.com/zc4952"
+    "https://stream.revma.ihrhls.com/zc4952",
+    "https://stream.revma.ihrhls.com/zc4952/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Indiana University Indianapolis": {
    "inpage": [
@@ -5547,7 +5618,7 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/WXNTAMAAC.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of New Orleans": {
    "inpage": [
@@ -5555,33 +5626,35 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/WRKNFMAAC.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Le Moyne College": {
    "inpage": [
     "https://ice5.securenetsystems.net/WOLF"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Arkansas at Little Rock": {
    "inpage": [
     "https://14933.live.streamtheworld.com/KRSTFMAAC.aac"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Marquette University": {
-   "inpage": [],
+   "inpage": [
+    "https://live.amperwave.net/manifest/goodkarma-wktifmaac-hlsc2.m3u8?source=radiobox"
+   ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Wisconsin-Milwaukee": {
    "inpage": [
     "https://live.amperwave.net/direct/goodkarma-wgkbammp3-ibc1?source=radiobox"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Mount St. Mary's University": {
    "inpage": [
@@ -5589,28 +5662,30 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/WFMDAM.mp3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Northeastern University": {
    "inpage": [
     "https://audio-edge-qse4n.yyz.g.radiomast.io/dafd1179-5404-4939-9c1c-a014c6964254"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Northern Kentucky University": {
    "inpage": [
-    "https://stream.revma.ihrhls.com/zc1697"
+    "https://stream.revma.ihrhls.com/zc1697",
+    "https://stream.revma.ihrhls.com/zc1697/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of the Pacific": {
    "inpage": [
-    "https://stream.revma.ihrhls.com/zc5236"
+    "https://stream.revma.ihrhls.com/zc5236",
+    "https://stream.revma.ihrhls.com/zc5236/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Providence College": {
    "inpage": [
@@ -5618,7 +5693,7 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/WPROAMAAC.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Purdue University Fort Wayne": {
    "inpage": [
@@ -5626,7 +5701,7 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/WKJGAM.mp3"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Radford University": {
    "inpage": [
@@ -5634,21 +5709,22 @@
     "https://crystalout.surfernetwork.com:8001/WFJX_MP3"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Rider University": {
    "inpage": [
     "https://ice5.securenetsystems.net/WRRC2?playSessionID=F6849833-0B1F-0669-756651DDD0214A8C"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Saint Louis University": {
    "inpage": [
-    "https://live.amperwave.net/direct/audacy-kmoxfmaac-imc"
+    "https://live.amperwave.net/direct/audacy-kmoxfmaac-imc",
+    "https://live.amperwave.net/manifest/audacy-kmoxamaac-hlsc.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Seton Hall University": {
    "inpage": [
@@ -5656,56 +5732,59 @@
     "https://stream.surfernetwork.com/hls/1fvoynxxaqduv"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Siena University": {
    "inpage": [
     "https://ais-sa1.streamon.fm/7816_128k.aac"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Southern Indiana": {
    "inpage": [
     "https://ice3.securenetsystems.net/WSWI?playSessionID=F5970050-98EE-49C6-FFC61E1599560DD6"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "St. John's University": {
    "inpage": [
-    "https://live.amperwave.net/direct/goodkarma-whsqamaac-ibc"
+    "https://live.amperwave.net/direct/goodkarma-whsqamaac-ibc",
+    "https://live.amperwave.net/manifest/goodkarma-whsqamaac-hlsc.m3u8?source=iheart"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of North Carolina Asheville": {
    "inpage": [
-    "https://stream.revma.ihrhls.com/zc1593"
+    "https://stream.revma.ihrhls.com/zc1593",
+    "https://stream.revma.ihrhls.com/zc1593/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Utah Valley University": {
    "inpage": [
     "https://ais-sa1.streamon.fm/7348_48k.aac"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of Vermont": {
    "inpage": [
-    "https://live.amperwave.net/direct/vox-weavamaac-imc?source=website"
+    "https://live.amperwave.net/direct/vox-weavamaac-imc?source=website",
+    "https://live.amperwave.net/manifest/vox-weavamaac-hlsc.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Winthrop University": {
    "inpage": [
     "https://sh.fl-us.audio-stream.com/proxy/sneisl01?mp=/stream;audio.mp3?hash=1635404224535"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Wright State University": {
    "inpage": [
@@ -5713,14 +5792,15 @@
     "https://live.amperwave.net/direct/alphacorporate-wclifmmp3-ibc4"
    ],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Xavier University": {
    "inpage": [
-    "https://stream.revma.ihrhls.com/zc1713"
+    "https://stream.revma.ihrhls.com/zc1713",
+    "https://stream.revma.ihrhls.com/zc1713/hls.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of San Francisco": {
    "inpage": [
@@ -5728,7 +5808,7 @@
     "https://playerservices.streamtheworld.com/api/livestream-redirect/KTCTAMAAC.m3u8"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of California, San Diego": {
    "inpage": [
@@ -5736,7 +5816,7 @@
     "https://live.amperwave.net/manifest/audacy-kwfnfmaac-imc"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Wichita State University": {
    "inpage": [
@@ -5744,12 +5824,12 @@
     "https://live.amperwave.net/manifest/audacy-keynfmaac-imc"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "Oral Roberts University": {
    "inpage": [],
    "external": null,
-   "at": "2026-11-02T20:29:55Z"
+   "at": "2026-11-02T20:33:55Z"
   },
   "University of California, Irvine": {
    "inpage": [
@@ -5764,8 +5844,8 @@
     "https://ice6.securenetsystems.net/WBRR"
    ],
    "external": null,
-   "at": "2026-11-02T20:21:14Z"
+   "at": "2026-11-02T20:33:55Z"
   }
  },
- "tested": "2026-11-02T20:29:55Z"
+ "tested": "2026-11-02T20:33:55Z"
 }
