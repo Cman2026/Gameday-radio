@@ -16,7 +16,6 @@ No user sessions are running outdated binaries.
 No VM guests are running outdated hypervisor (qemu) binaries on this host.
 allaccess error https://miamihurricanes.com HTTP Error 404: Not Found
 allaccess error https://odusports.com HTTP Error 404: Not Found
-allaccess error https://goccusports.com The read operation timed out
 allaccess error https://gobearcats.com HTTP Error 404: Not Found
 allaccess error https://clemsontigers.com HTTP Error 404: Not Found
 allaccess error https://lrtrojans.com HTTP Error 404: Not Found
@@ -38,26 +37,23 @@ allaccess error https://arkansasrazorbacks.com HTTP Error 404: Not Found
 allaccess error https://mutigers.com HTTP Error 404: Not Found
 allaccess error https://12thman.com HTTP Error 404: Not Found
 allaccess error https://hawkeyesports.com HTTP Error 404: Not Found
-official feeds added for: University of Alabama at Birmingham (mbb), University of South Dakota (mbb), University of Michigan (mbb), University of Florida (mbb), Rice University (mbb), St. John's University (mbb), Monmouth University (mbb), Duke University (mbb), University of Maine (mbb), University of Pittsburgh (mbb), Syracuse University (mbb), Marshall University (mbb), James Madison University (mbb), Georgia Southern University (mbb), St. Bonaventure University (mbb), United States Air Force Academy (mbb), University of North Carolina at Chapel Hill (mbb), Indiana University (mbb), Bucknell University (mbb), Virginia Commonwealth University (mbb), University of St. Thomas (Minnesota) (mbb), West Virginia University (mbb), Indiana State University (mbb), Eastern Kentucky University (mbb), Texas Tech University (mbb), Iowa State University (mbb), University of Memphis (mbb), Michigan State University (mbb), University of Georgia (mbb), Mississippi State University (mbb), Louisiana Tech University (mbb), North Carolina State University (mbb), University of Wisconsin-Madison (mbb), Western Kentucky University (mbb), Stephen F. Austin State University (mbb), Gonzaga University (mbb), Southern Illinois University (mbb), Bradley University (mbb), University of Illinois Urbana-Champaign (mbb), University of Connecticut (wbb), University of Southern California (wbb), Florida State University (wbb), University of Oregon (wbb), University of Tennessee at Chattanooga (wbb), Utah State University (wbb), Oklahoma State University (wbb), University of Minnesota (wbb), University of Tennessee (wbb), University of North Texas (wbb), Ohio State University (wbb), Liberty University (wbb), University of Alabama (wbb), Baylor University (wbb), University of Northern Iowa (wbb), Murray State University (wbb), Kansas State University (wbb), Illinois State University (wbb), Colorado State University (wbb)
+official feeds added for: University of Alabama at Birmingham (mbb), University of South Dakota (mbb), University of Michigan (mbb), University of Florida (mbb), Rice University (mbb), St. John's University (mbb), Monmouth University (mbb), Duke University (mbb), Butler University (mbb), University of Maine (mbb), University of Pittsburgh (mbb), Syracuse University (mbb), Marshall University (mbb), James Madison University (mbb), Georgia Southern University (mbb), St. Bonaventure University (mbb), United States Air Force Academy (mbb), University of North Carolina at Chapel Hill (mbb), Indiana University (mbb), Bucknell University (mbb), Virginia Commonwealth University (mbb), University of St. Thomas (Minnesota) (mbb), West Virginia University (mbb), Indiana State University (mbb), Eastern Kentucky University (mbb), Texas Tech University (mbb), Iowa State University (mbb), University of Memphis (mbb), Michigan State University (mbb), University of Georgia (mbb), Mississippi State University (mbb), Central Michigan University (mbb), Louisiana Tech University (mbb), North Carolina State University (mbb), Seton Hall University (mbb), University of Wisconsin-Madison (mbb), Western Kentucky University (mbb), Stephen F. Austin State University (mbb), College of Charleston (mbb), Gonzaga University (mbb), Wake Forest University (mbb), University of Louisiana at Lafayette (mbb), Arkansas State University (mbb), University of Toledo (mbb), University of South Alabama (mbb), Ohio University (mbb), Saint Louis University (mbb), University of California, Berkeley (mbb), Southern Methodist University (mbb), Tulane University (mbb), Texas Christian University (mbb), Southern Illinois University (mbb), Texas State University (mbb), University of Tulsa (mbb), Bradley University (mbb), Tarleton State University (mbb), North Dakota State University (mbb), University of Southern Mississippi (mbb), University of Illinois Urbana-Champaign (mbb), University of Connecticut (wbb), University of Southern California (wbb), University of Oregon (wbb), University of Tennessee at Chattanooga (wbb), Utah State University (wbb), Oklahoma State University (wbb), University of Minnesota (wbb), University of Tennessee (wbb), Ohio State University (wbb), Liberty University (wbb), University of Alabama (wbb), Baylor University (wbb), University of Northern Iowa (wbb), Murray State University (wbb), Kansas State University (wbb), Illinois State University (wbb), Middle Tennessee State University (wbb), Colorado State University (wbb), South Dakota State University (wbb), University of Wyoming (wbb)
 Temple University mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/ETU2ZNtX.m3u8']
 allaccess error https://ccsubluedevils.com HTTP Error 405: Not Allowed
-Butler University mbb -> (feed) ['https://playerservices.streamtheworld.com/api/livestream-redirect/BUTLER_UNIVERSITY.mp3']
 Troy University mbb -> (feed) ['https://ice6.securenetsystems.net/WTXK']
 University of Richmond mbb -> (feed) ['https://stream.rcs.revma.com/x4q6k4dw57uvv']
 Marist University mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/PjPtLeXO.m3u8']
 Boston University mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/zfJ4nFKZ.m3u8']
 University of North Carolina at Charlotte mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/kDNzJYGH.m3u8']
 Campbell University mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/PO7HBqwR.m3u8']
-College of Charleston mbb -> (feed) ['https://ice5.securenetsystems.net/WTMZ']
-Middle Tennessee State University wbb -> (feed) ['https://streaming2.tux-support.com:8096/source']
+Belmont University mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/I0QkbOOf.m3u8']
+DePaul University mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/9x7sNmnb.m3u8']
+Loyola University Chicago mbb -> (feed) ['https://img.leanstream.co/LF7301-MP3']
+University of Portland mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/Fc4UeWQ2.m3u8']
+University of Texas at Arlington mbb -> (feed) ['https://img.leanstream.co/LF8001-MP3']
 Sam Houston State University wbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/yrAF87kh.m3u8']
 leanplayer xml https://wofford.leanplayer.com/ <?xml version="1.0"?> <main><sports><sport><id>1</id><name>Football</name><is_show>0</is_show></sport><sport><id>2</id><name>Men&#x2019;s Basketball</name><is_show>0</is_show></sport><sport><id>3</id><name>Women&#x2019;s Basketball</name><is_show>0</is_show></sport></sports><events><current_ev/><upcoming_ev><event><id>116706</id><start_timestamp>1793745900</start_timestamp><start>2026-11-03 22:45:00</start><end>2026-11-04 02:45:00</end><sport_id>2</sport_id><opponent>Tennessee</opponent><url>https://peaksports.leanstream.co/PS0101-MP3</url></event><event><id>116707</id><start_timestamp>1794008
 Wofford College wbb -> (leanplayer) ['https://peaksports.leanstream.co/PS0101-MP3']
-Princeton University mbb -> []
-Princeton University mbb -> []
-George Mason University mbb -> []
-George Mason University mbb -> []
-University of Maryland, Baltimore County mbb -> []
 University of Illinois Chicago mbb -> []
 University of Illinois Chicago mbb -> []
 University of West Florida mbb -> []
@@ -65,8 +61,14 @@ Cornell University mbb -> []
 Pepperdine University mbb -> []
 Pepperdine University mbb -> []
 Oakland University mbb -> []
+Georgetown University mbb -> []
+Loyola University Maryland mbb -> []
+Central Connecticut State University mbb -> []
 College of the Holy Cross wbb -> []
 Merrimack College wbb -> []
+University of Maryland, Baltimore County wbb -> []
 Drexel University wbb -> []
 Coppin State University wbb -> []
+Appalachian State University wbb -> ['https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3', 'https://18533.live.streamtheworld.com/APP_STATE_UNIVERSITY.mp3', 'https://14623.live.streamtheworld.com/APP_STATE_UNIVERSITY.mp3']
+Appalachian State University wbb -> []
 other SIDEARM sport names seen: basketball-women, fb, fitzgeraldshow, flames-sports-network, football, general, izzoshow, m_bkb, mbb, mbball, mhockey, msoc, nightingaleshow, vol-network, volleyball, w_bkb, wbasket, wbball, whockey, wrestling, wsoc, wvball
