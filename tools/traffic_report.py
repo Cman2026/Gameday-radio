@@ -108,6 +108,11 @@ def main():
     def fmt_day(d):
         return dt.date.fromisoformat(d).strftime("%A, %b %-d")
 
+    lis1 = sum(n(h) for h in listens)
+    J = {"week_start": this["_first"].isoformat(), "week_end": this["_last"].isoformat(),
+         "visits": visits1, "visits_prev": visits0, "listens": lis1, "listens_prev": listens0,
+         "days": [{"date": d, "visits": v} for d, v in sorted(days.items())],
+         "sports": [], "teams": [], "taps": [], "walls": [], "referrers": [], "devices": [], "countries": []}
     L = []
     L.append(f"## Gameday Radio Live: week of {this['_first'].strftime('%b %-d')} – {this['_last'].strftime('%b %-d')}")
     L.append("")
@@ -120,6 +125,13 @@ def main():
     for h in listens:
         sp = h["path"].split("/")[1]
         by_sport[sp] = by_sport.get(sp, 0) + n(h)
+    J["sports"] = [{"sport": SPORT.get(k, k), "listens": v} for k, v in sorted(by_sport.items(), key=lambda kv: -kv[1])]
+    for h in sorted(listens, key=lambda h: -n(h)):
+        _, sp, team = h["path"].split("/", 2); J["teams"].append({"team": team, "sport": SPORT.get(sp, sp), "listens": n(h)})
+    J["taps"] = [{"sport": SPORT.get(h["path"].split("/")[1], h["path"]), "taps": n(h)} for h in sorted(taps, key=lambda h: -n(h))]
+    for kind, hs in (("Didn't connect", fails), ("No radio", norad)):
+        for h in hs:
+            _, sp, team = h["path"].split("/", 2); J["walls"].append({"team": team, "sport": SPORT.get(sp, sp), "problem": kind, "count": n(h)})
     if by_sport:
         L.append("")
         L.append("**Listens by sport:** " + " · ".join(f"{SPORT.get(k, k)} {v:,}" for k, v in sorted(by_sport.items(), key=lambda kv: -kv[1])))
@@ -144,6 +156,7 @@ def main():
         refs = [r for r in refs if r.get("name")]
         if refs:
             L.append("")
+            J["referrers"] = [{"name": r["name"], "visits": n(r)} for r in refs]
             L.append("**Where visitors came from:** " + " · ".join(f"{r['name']} {n(r):,}" for r in refs))
     except Exception as e:
         print("referrers:", e, file=sys.stderr)
@@ -151,12 +164,15 @@ def main():
         try:
             st = api(f"stats/{page}", **rng(this), limit=5).get("stats") or []
             tot = sum(n(x) for x in st) or 1
+            J[page.replace("systems", "devices").replace("locations", "countries")] = [
+                {"name": x.get("name") or "Unknown", "visits": n(x), "share": round(n(x) / tot * 100)} for x in st]
             if st:
                 L.append(f"**{label}:** " + " · ".join(f"{x.get('name') or 'Unknown'} {round(n(x) / tot * 100)}%" for x in st))
         except Exception as e:
             print(page, e, file=sys.stderr)
     report = "\n".join(L)
     print(report)
+    print("\nJSON " + json.dumps(J))  # one line for the dashboard update
     if os.environ.get("GITHUB_STEP_SUMMARY"):
         open(os.environ["GITHUB_STEP_SUMMARY"], "a").write(report + "\n")
 
