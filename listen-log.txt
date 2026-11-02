@@ -1,58 +1,44 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-[0;93m2026-11-02 19:57:03.674804712 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-[in#0/aac @ 0x5905fb3a2cc0] Error during demuxing: Connection timed out
-[tls @ 0x634f93403300] Error in the pull function.
-[tls @ 0x634f93403300] IO error: Connection timed out
-[in#0/mp3 @ 0x634f933ffcc0] Error during demuxing: Connection timed out
-[tls @ 0x60191ade1300] Error in the pull function.
-[tls @ 0x60191ade1300] IO error: Connection timed out
-[in#0/aac @ 0x60191adddcc0] Error during demuxing: Connection timed out
-listening to 47 streams in 12 live games
-maybe_not  mbb  Northern Kentucky University   "Whether it's baked with love, packed with love, or shipped with love right from home.  Thi"
-maybe_not  mbb  Northern Kentucky University   "I'm heart radio app free never sounded so good ESPN 1530 Oakley Greens is Cincinnati's  ga"
-maybe_not  mbb  Northern Kentucky University   "Whether it's baked with love, packed with love, or shipped with love right from home.  Thi"
-game       mbb  University of Texas at El Paso "the  north with it.  McDaniel's with it on  right wing.  One bounce dribble right  side of"
-quiet      mbb  University of Texas at El Paso ''
-quiet      mbb  University of Texas at El Paso 'on the wall.'
-game       wbb  University of Washington       'to the Husky logo at mid court.  Tina Langley on the sideline,  head coach directing traff'
-quiet      wbb  University of Washington       'up next on 93.3 KGRF.'
-quiet      wbb  University of Washington       ''
-maybe_not  wbb  University of California, San  "this is a good thing to see.  I'm going to be honest with you,  I'm going to see you guys "
-maybe_not  wbb  University of California, San  'What if it could play uninterrupted from room to room on Sonos?  What if you start with tw'
-game       wbb  University of California, San  'Real takes no wasted time.  It has been the little things that have outdone San Diego Stat'
+[0;93m2026-11-02 20:49:51.509292831 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+listening to 40 streams in 9 live games
+game       mbb  University of Texas at El Paso "Here's Foster shot when in and came out.  The long rebound, though, is chased down by Racc"
+game       mbb  University of Texas at El Paso "Here's Foster shot when in and came out.  The long rebound, though, is chased down by Racc"
+game       mbb  San José State University      'Johnma Cook and Mason are the five for head coach Tim Miles.  Johnma over to Mason. Mason '
+game       mbb  San José State University      "They in the 1-3-1 zone.  Mason's up top, Bajrie is down near the basket.  Tanner's gonna c"
+game       mbb  San José State University      'Johnma Cook and Mason are the five for head coach Tim Miles.  Johnma over to Mason. Mason '
+game       mbb  University of Texas at San Ant "the line still a 1 3 1 defense.  UTSA needs to stop this  drought in a hurry.  It's approa"
+game       mbb  University of Texas at San Ant 'jump set on him swing it back top of the circle three ball rimming no rebound San Jose.  K'
+game       mbb  University of Texas at San Ant "the time line still a 1 3 1  defense.  UTSA needs to stop this  drought in a hurry.  It's "
+maybe_not  wbb  Lehigh University              "can't handle the crew that absolutely do not matter and are completely subjected.  This is"
+game       wbb  University of North Carolina a 'what makes them mean everything. Read Stulers, an official partner of Tar Heel Sports.  Vi'
+game       wbb  University of North Carolina a 'in Rock Hill, South Carolina, Jalen Coleman led them out years with 14 points.  Queens Uni'
+game       wbb  University of North Carolina a 'in Rock Hill, South Carolina, Jalen Cohen led the Mount Ears with 14 points.  Queens Unive'
+maybe_not  wbb  University of Oklahoma         'more justify the firing. My guess would be not because beyond all logic in games where you'
+game       wbb  University of Oklahoma         "my personal weather team, I'll be providing weather updates every hour on all  Tyler media"
+maybe_not  wbb  University of Oklahoma         'more justify the firing. My guess would be not because beyond all logic in games where you'
 quiet      wbb  University of Idaho            ''
-maybe_not  wbb  University of Idaho            "Simply say, earns your business by keeping you safe and satisfied.  That's why they never "
-maybe_not  wbb  St. John's University          "That's when the problems begin.  Your doctor's booked, urgent care is packed.  And then th"
-maybe_not  wbb  St. John's University          "doesn't like Brian doesn't like the people I work in the front office and I don't think  t"
-maybe_not  wbb  St. John's University          'in your name for over 30 common conditions, including strep throat, sinus infections,  pne'
+maybe_not  wbb  South Carolina State Universit "Like if I were to say to you,  Ma'am, what's your favorite show of all time?  Like I did w"
+not_game   mbb  Northern Kentucky University   'this there seems to be no update i know mike pattrelia said last week that  that uh... on '
+not_game   mbb  Northern Kentucky University   'lot against Jacksonville as well from what I remember. So they got to the point  where the'
+not_game   mbb  Northern Kentucky University   "the guys that could potentially be coming to help that room.  It's mom is the word.  It's "
+maybe_not  mbb  University of Texas at El Paso "For more trash collection tips or collection schedule info, call 212-6000.  That's 212-600"
 game       wbb  University of California, Los  'the absence of the connection and the purpose that can really drive a lot of veterans to s'
+maybe_not  wbb  University of California, Los  'is very short. Our duty is to protect ourselves and protect our families and one way you c'
 game       wbb  University of California, Los  "distracted driving is what's really scary and even deadly.  Eyes forward, don't drive dist"
-game       wbb  University of California, Los  'the absence of the connection and the purpose that can really drive a lot of veterans to s'
-quiet      wbb  Lehigh University              'at cintosh.com and get ready for the workday.'
-quiet      wbb  Lehigh University              'and get ready for the workday.'
-quiet      wbb  Lehigh University              'for the work day.'
-maybe_not  wbb  Boise State University         'is the Markable fighter.  The trick is possible to be  being imported by Crown and Port Ch'
-quiet      wbb  Boise State University         "I don't really feel."
-game       wbb  Boise State University         'Losing 84 to 48 victory for Boise State led by 21 points from CJ Lottin who is seven of ei'
-quiet      wbb  Utah Tech University           "I'm from Southern California."
-maybe_not  wbb  Montana State University       '38 win over Black Hill State. Bob Gatswin their season opener for the third  straight year'
-quiet      wbb  Montana State University       ''
-not_game   wbb  Montana State University       'And want to tell everyone about it?  Yeah, so do we.  Here at Designer Shoe Warehouse,  we'
-game       wbb  University of Houston          "Central start here 645 with the pregame show.  It's a crucial host of Sam Houston State Be"
-not_game   wbb  University of Houston          "constitutional rights and keeping them from passing.  So we don't think they're legal in a"
-not_game   wbb  University of Houston          'and at the end of the day we think they only to come down to legislation needs to do somet'
-maybe_not  wbb  University of Nebraska-Lincoln "It's a connected approach that brings together investment insight, banking capabilities, a"
-maybe_not  wbb  University of Nebraska-Lincoln "for what's next, every decision supports a larger strategy built around your goals.  Since"
-game       wbb  San José State University      'and five freshman says the  Spartans take the floor here for  the first time in front of t'
-game       wbb  San José State University      'Number 4 with UTSA also rebuilding its roster.  How important is it for San Jose State to '
-game       wbb  San José State University      'the Spartans take the floor here for the first time in front of the home fans.  He looking'
-quiet      wbb  University of New Mexico       ''
-quiet      wbb  University of New Mexico       ''
-quiet      wbb  University of New Mexico       ''
-not_game   wbb  Stanford University            'only in the Marines Memorial Theater to benefit the California Historical Radio Society.  '
-not_game   wbb  Stanford University            'only the Marines Memorial Theater to benefit the California Historical Radio Society.  Tic'
-not_game   wbb  Stanford University            "down and they'd be five and three to be a couple of games clear of them. I don't think Sea"
-not_game   wbb  University of Arizona          'First Chiropractic is pleased to announce that access health plans now cover Chiropractic '
-not_game   wbb  University of Arizona          "companies.  Hey, stock, those guys don't scare me.  Fall is termite season.  Go blue with "
-not_game   wbb  University of Arizona          'For over 40 years, Tucson has been putting its trust in first chiropractic for auto and on'
-{'maybe_not': 13, 'game': 11, 'quiet': 14, 'not_game': 9}
+game       wbb  University of Washington       'All on the Washington Sports Network from Learfield.  Tune in all seasonous Tina Langley a'
+maybe_not  wbb  University of Washington       'apeless systems are up to 30% more efficient than traditional HVAC.  Saving you money ever'
+game       wbb  University of Washington       'to member third. Make sure you return your ballot on time by using an official drop box.  '
+not_game   wbb  University of California, San  "not so long ago. I'm going to go with the Purdue boiler makers.  The per doofs are number "
+not_game   wbb  University of California, San  "not so long ago. I'm going to go with the Purdue boiler makers.  The per doofs are number "
+maybe_not  wbb  University of California, San  "Number 10 on this list at 1,983 wins.  So now we're all tied up again, John.  Okay, hold o"
+not_game   wbb  Stanford University            'only at the Marines Memorial Theater to benefit the California Historical Radio Society.  '
+not_game   wbb  Stanford University            'Quick wrap up the regular season when they visit Minnesota United.  Coverage begins Saturd'
+not_game   wbb  Stanford University            'Quick wrap up the regular season when they visit Minnesota United.  Coverage begins Saturd'
+not_game   wbb  University of Arizona          "So those two things it got out. Now I've got to answer questions about Jordan again.  And "
+not_game   wbb  University of Arizona          "It got out. Now I've got to answer questions about Jordan again. And we were this close,  "
+not_game   wbb  University of Arizona          "It got out. Now I've got to answer questions about Jordan again. And we were this close,  "
+not_game   wbb  University of Idaho            "it's probably going to be a right around thirty thousand votes uh... that we're  going to "
+not_game   wbb  St. John's University          'You can pay higher onboard and support your team from anywhere with unlimited payroll runs'
+not_game   wbb  St. John's University          'want weather check for American made floor liners in a cargo liner that laugh in the face '
+not_game   wbb  St. John's University          'You can pay higher onboard and support your team from anywhere with unlimited payroll runs'
+{'game': 16, 'maybe_not': 8, 'quiet': 1, 'not_game': 15}
