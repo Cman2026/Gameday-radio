@@ -9,6 +9,11 @@ import datetime as dt, json, os, sys, time, urllib.error, urllib.parse, urllib.r
 
 SITE = "https://gamedayradiolive.goatcounter.com/api/v0"
 TOKEN = os.environ.get("GOATCOUNTER_TOKEN")
+try:
+    from zoneinfo import ZoneInfo
+    ET = ZoneInfo("America/New_York")
+except Exception:
+    ET = dt.timezone(dt.timedelta(hours=-5))
 SPORT = {"fb": "Football", "mbb": "Men's basketball", "wbb": "Women's basketball", "mhk": "Men's hockey",
          "whk": "Women's hockey", "wvb": "Volleyball", "bsb": "Baseball", "sb": "Softball"}
 
@@ -23,6 +28,8 @@ def api(path, **q):
         except urllib.error.HTTPError as e:
             if e.code == 429:  # rate limited: wait and retry
                 time.sleep(5 * (attempt + 1)); continue
+            if e.code == 404:  # a period before the site existed: nothing counted
+                return {}
             body = e.read().decode("utf-8", "ignore")[:300]
             raise RuntimeError(f"GoatCounter {e.code} for {path} {q}: {body}") from None
     raise RuntimeError("GoatCounter kept rate-limiting")
@@ -33,8 +40,10 @@ def n(x):
 
 
 def week(end):
+    """Monday 12 AM to the next Monday 12 AM, Eastern time (GoatCounter wants full timestamps)."""
     start = end - dt.timedelta(days=7)
-    return {"start": start.strftime("%Y-%m-%d"), "end": (end - dt.timedelta(days=1)).strftime("%Y-%m-%d")}
+    utc = lambda d: dt.datetime(d.year, d.month, d.day, tzinfo=ET).astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    return {"start": utc(start), "end": utc(end), "_first": start, "_last": end - dt.timedelta(days=1)}
 
 
 def hits(rng):
@@ -69,11 +78,14 @@ def main():
         return probe()
     if not TOKEN:
         print("GOATCOUNTER_TOKEN secret is not set. Add it in the repo: Settings → Secrets and variables → Actions."); sys.exit(0)
-    today = dt.datetime.now(dt.timezone(dt.timedelta(hours=-5))).date()
+    today = dt.datetime.now(ET).date()
     end = today - dt.timedelta(days=today.weekday())          # this Monday
+    if os.environ.get("CURRENT_WEEK"):                         # test run: the week in progress
+        end += dt.timedelta(days=7)
     this, last = week(end), week(end - dt.timedelta(days=7))
-    t1, t0 = api("stats/total", **this), api("stats/total", **last)
-    h1, h0 = hits(this), hits(last)
+    rng = lambda w: {"start": w["start"], "end": w["end"]}
+    t1, t0 = api("stats/total", **rng(this)), api("stats/total", **rng(last))
+    h1, h0 = hits(rng(this)), hits(rng(last))
     pages = [h for h in h1 if not h.get("event")]
     events = [h for h in h1 if h.get("event")]
     ev0 = [h for h in h0 if h.get("event")]
@@ -87,14 +99,17 @@ def main():
                        n(t0.get("total", t0)) if isinstance(t0.get("total"), dict) else t0.get("total", 0)
     days = {}
     for s in t1.get("stats") or []:
-        days[s.get("day")] = s.get("daily", 0)
+        try: d = dt.date.fromisoformat(s.get("day", ""))
+        except Exception: continue
+        if this["_first"] <= d <= this["_last"]:
+            days[s["day"]] = s.get("daily", 0)
     busiest = max(days.items(), key=lambda kv: kv[1]) if days else None
 
     def fmt_day(d):
         return dt.date.fromisoformat(d).strftime("%A, %b %-d")
 
     L = []
-    L.append(f"## Gameday Radio Live: week of {dt.date.fromisoformat(this['start']).strftime('%b %-d')} – {dt.date.fromisoformat(this['end']).strftime('%b %-d')}")
+    L.append(f"## Gameday Radio Live: week of {this['_first'].strftime('%b %-d')} – {this['_last'].strftime('%b %-d')}")
     L.append("")
     L.append(f"- **Visits:** {visits1:,} ({pct(visits1, visits0)} vs. the week before: {visits0:,})")
     L.append(f"- **Listens started:** {sum(n(h) for h in listens):,} ({pct(sum(n(h) for h in listens), listens0)} vs. {listens0:,})")
@@ -125,7 +140,7 @@ def main():
         for h in sorted(norad, key=lambda h: -n(h))[:6]:
             _, sp, team = h["path"].split("/", 2); L.append(f"- {team} ({SPORT.get(sp, sp)}): tapped with no radio ×{n(h)}")
     try:
-        refs = api("stats/toprefs", **this, limit=6).get("stats") or []
+        refs = api("stats/toprefs", **rng(this), limit=6).get("stats") or []
         refs = [r for r in refs if r.get("name")]
         if refs:
             L.append("")
@@ -134,7 +149,7 @@ def main():
         print("referrers:", e, file=sys.stderr)
     for page, label in (("systems", "Devices"), ("locations", "Countries")):
         try:
-            st = api(f"stats/{page}", **this, limit=5).get("stats") or []
+            st = api(f"stats/{page}", **rng(this), limit=5).get("stats") or []
             tot = sum(n(x) for x in st) or 1
             if st:
                 L.append(f"**{label}:** " + " · ".join(f"{x.get('name') or 'Unknown'} {round(n(x) / tot * 100)}%" for x in st))
