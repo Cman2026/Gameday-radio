@@ -68,6 +68,9 @@ h1 span{color:inherit}
   .grid > div:first-child{position:sticky;top:96px;display:flex;flex-direction:column;max-height:calc(100vh - 112px)}
   .grid > div:first-child .list{flex:1 1 auto;min-height:0;overflow-y:auto;overscroll-behavior:contain;padding-right:6px;scrollbar-width:thin;scrollbar-color:var(--line-2) transparent}
   .grid > div:first-child .list::-webkit-scrollbar{width:8px} .grid > div:first-child .list::-webkit-scrollbar-thumb{background:var(--line-2);border-radius:4px}
+  .grid.solo{grid-template-columns:minmax(0,1fr)}
+  .grid.solo > div:first-child{position:static;max-height:none;width:100%;max-width:900px;margin:0 auto}
+  .grid.solo > div:first-child .list{overflow:visible;padding-right:0}
 }
 
 /* ---------- Search + segmented filter ---------- */
@@ -1004,13 +1007,15 @@ function setList(html){
 // When the game you have open ends, its final stays up (with its details) for 10 minutes.
 const lastLiveAt = {};
 const justEnded = e => e.status.type.state==="post" && lastLiveAt[e.id] && Date.now() - lastLiveAt[e.id] < 10*60e3;
+// Wide screens: with no game to show beside the list (nothing live), the list uses the full width.
+function syncLayout(){ document.querySelector(".grid")?.classList.toggle("solo", $("#board").hidden); }
 function render(){
   const s = snap(history); events = s ? s.evs : []; events.forEach(e=>{ if(e.status?.type?.state==='in'){ trackClock(e, s.t); lastLiveAt[e.id] = Date.now(); } });
   const order = {in:0, pre:1, post:2};
   const kept = events.filter(e=>e.id===selected && justEnded(e));
   const live = events.filter(e=>e.status.type.state==="in").concat(kept);
-  if(!live.length && !history.length){ setList(`<div class="empty">Loading today's games…</div>`); $("#board").hidden = true; updateDeck(); return; }
-  if(!live.length){ renderUpcoming(); updateDeck(); return; }
+  if(!live.length && !history.length){ setList(`<div class="empty">Loading today's games…</div>`); $("#board").hidden = true; syncLayout(); updateDeck(); return; }
+  if(!live.length){ renderUpcoming(); syncLayout(); updateDeck(); return; }
   if(!selected || !live.some(e=>e.id===selected)){
     if(selected && NARROW.matches){ boardOpen = false; store.set("openGame", ""); } // the open game ended
     selected = (live.find(isFavGame) || live[0])?.id || null;
@@ -1041,7 +1046,7 @@ function render(){
     }; b.onclick=ev=>{ if(ev.target.closest(".ear,.fav")) return; go(); }; b.onkeydown=ev=>{ if(ev.target!==b) return; if(ev.key==="Enter"||ev.key===" "){ ev.preventDefault(); go(); } }; });
   renderBoard();
   placeBoard();
-  updateDeck();
+  syncLayout(); updateDeck();
 }
 // On phones the game details open right under the game you tapped; on wide screens they sit beside the list.
 const NARROW = matchMedia("(max-width: 860px)");
