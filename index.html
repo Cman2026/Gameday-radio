@@ -136,6 +136,25 @@ h1 span{color:inherit}
 .court .shot{position:absolute;width:13px;height:13px;margin:-6.5px 0 0 -6.5px;border-radius:50%;box-sizing:border-box;border:2.5px solid var(--c)}
 .court .shot.made{background:var(--c)}
 .court .key{position:absolute;left:10px;bottom:8px;font:600 11px var(--num);color:#fff;letter-spacing:.04em;text-shadow:0 1px 2px rgba(0,0,0,.5)}
+/* Hockey rink: each team's end in its colors with its logo, a puck per goal (numbered by period),
+   the period at center ice and how much of it has been played along the bottom boards. */
+.rink{--ice:#EEF4F9;--ice-line:#C9D6E0;--red:#D94A4A;--blue:#3B6FD8;position:relative;height:150px;border-radius:56px;overflow:hidden;background:var(--ice);border:3px solid var(--ice-line);box-sizing:border-box}
+@media (prefers-color-scheme:dark){.rink{--ice:#DCE6EE;--ice-line:#9FB1C1}}
+.rink .zone{position:absolute;top:0;bottom:0;width:34%;background:color-mix(in srgb,var(--c) 22%,transparent)}
+.rink .zone.l{left:0}.rink .zone.r{right:0}
+.rink .ln{position:absolute;top:0;bottom:0;width:4px;margin-left:-2px}
+.rink .gl{position:absolute;top:10%;bottom:10%;width:2px;background:var(--red);opacity:.8}
+.rink .crease{position:absolute;top:50%;width:18px;height:34px;margin-top:-17px;background:color-mix(in srgb,#5AA0E6 45%,transparent);border:2px solid var(--red);box-sizing:border-box}
+.rink .crease.l{left:7%;border-left:0;border-radius:0 18px 18px 0}.rink .crease.r{right:7%;border-right:0;border-radius:18px 0 0 18px}
+.rink .cc{position:absolute;left:50%;top:50%;width:62px;height:62px;margin:-31px 0 0 -31px;border-radius:50%;border:2px solid var(--blue);background:var(--ice);display:grid;place-items:center;text-align:center;font:700 15px/1.05 var(--num);color:#11161D}
+.rink .cc small{display:block;font:600 10px var(--num);color:#4B5866;letter-spacing:.04em}
+.rink .side{position:absolute;top:12px;bottom:12px;width:30%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px}
+.rink .side.l{left:10%}.rink .side.r{right:10%}
+.rink .side img{width:34px;height:34px;object-fit:contain}
+.rink .pucks{display:flex;flex-wrap:wrap;justify-content:center;gap:3px;max-width:100%}
+.rink .puck{width:17px;height:17px;border-radius:50%;background:#11161D;color:#fff;font:700 10px/17px var(--num);text-align:center;box-shadow:0 0 0 2px var(--c)}
+.rink .prog{position:absolute;left:12%;right:12%;bottom:6px;height:4px;border-radius:2px;background:rgba(17,22,29,.15);overflow:hidden}
+.rink .prog i{position:absolute;left:0;top:0;bottom:0;background:#11161D;opacity:.55}
 
 /* ---------- Grouped game list ---------- */
 .list{display:flex;flex-direction:column}
@@ -1548,9 +1567,30 @@ function otherDetails(e, sum, a, h, bc){
         ${dots}<span class="key">LAST ${shots.length} SHOTS · ● MADE ○ MISSED</span></div>`;
     }
   }
+  if(SPORT.tile==="hk" && e.status.type.state!=="pre") html += rinkView(e, a, h, bc);
   html += lineScore(e, a, h);
   html += statBars(sum, a, h, bc);
   return html;
+}
+// Hockey: ESPN only has goals per period and the clock for college hockey, so the rink shows those.
+function rinkView(e, a, h, bc){
+  const st = e.status, per = st.period || 0, live = st.type.state === "in";
+  const pName = i => i < 3 ? String(i+1) : (i === 3 ? "OT" : `${i-2}OT`);
+  const pucks = (t, c) => (t.linescores||[]).flatMap((l, i) => Array.from({length: Math.max(0, Math.round(+l.value || 0))}, () =>
+    `<span class="puck" style="--c:${c}" title="Goal in period ${pName(i)}">${pName(i)}</span>`)).join("");
+  const sec = toSec(st.displayClock), len = per > 3 ? 5*60 : 20*60;
+  const done = live && sec != null ? Math.min(100, Math.max(0, (len - sec) / len * 100)) : (live ? 0 : 100);
+  const mid = live ? (/intermission|end of/i.test(st.type.shortDetail||"") ? `<small>INT</small>${esc(st.type.shortDetail.replace(/\s*intermission/i,""))}` : `<small>PERIOD</small>${per > 3 ? pName(per-1) : ordN(per)}`) : `<small>FINAL</small>${per > 3 ? pName(per-1) : ""}`;
+  const side = (t, c, k) => `<div class="side ${k}">${t.team.logo ? `<img src="${logoSrc(t.team)}" alt="">` : ""}<div class="pucks">${pucks(t, c)}</div></div>`;
+  return `<div class="rink" role="img" aria-label="Goals by period: ${esc(a.team.abbreviation||"")} ${esc(a.score)}, ${esc(h.team.abbreviation||"")} ${esc(h.score)}">
+    <i class="zone l" style="--c:${bc[0]}"></i><i class="zone r" style="--c:${bc[1]}"></i>
+    <i class="gl" style="left:9%"></i><i class="gl" style="right:9%"></i>
+    <i class="ln" style="left:34%;background:var(--blue)"></i><i class="ln" style="left:66%;background:var(--blue)"></i><i class="ln" style="left:50%;background:var(--red)"></i>
+    <i class="crease l"></i><i class="crease r"></i>
+    ${side(a, bc[0], "l")}${side(h, bc[1], "r")}
+    <div class="cc">${mid}</div>
+    ${live ? `<div class="prog" aria-hidden="true"><i style="width:${done.toFixed(0)}%"></i></div>` : ""}
+  </div>`;
 }
 // Points per half / quarter / period / set / inning, with the total.
 function lineScore(e, a, h){
