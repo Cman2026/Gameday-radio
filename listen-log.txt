@@ -1,25 +1,17 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-[mp3 @ 0x653206513f80] Failed to find two consecutive MPEG audio frames.
-[in#0 @ 0x653206513cc0] Error opening input: Invalid data found when processing input
+[mp3 @ 0x6499d6639f80] Failed to find two consecutive MPEG audio frames.
+[in#0 @ 0x6499d6639cc0] Error opening input: Invalid data found when processing input
 Error opening input file https://player.amperwave.net/1e76912450470b8c0c7c64cbc7a1bb80.mp3.
 Error opening input files: Invalid data found when processing input
-[0;93m2026-11-01 23:39:42.499108935 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-[in#0 @ 0x5b2c1b788cc0] Error opening input: Invalid data found when processing input
+[0;93m2026-11-02 00:14:10.994355169 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[in#0 @ 0x600a51251cc0] Error opening input: Invalid data found when processing input
 Error opening input file https://yield-op-idsync.live.streamtheworld.com/partnerIds.
 Error opening input files: Invalid data found when processing input
-[AVFormatContext @ 0x5aef81ec8fc0] Invalid HLS ID3 audio timestamp 17001318400
-[hls @ 0x5f0c6074af80] URL https://prod-34-201-70-233.amperwave.net/a/?lid=6496d2a3-7ad3-424e-8553-75a2faf9dc25&u=https%3A%2F%2Fd25j5qm9y8ulag.cloudfront.net%2Fc%2Fad%2Fa%2F504cf6ace00e2e0a17e4b6360dac19ad_0.aac%3Fsid%3D8206 is not in allowed_segment_extensions, consider updating hls.c and submitting a patch to ffmpeg-devel, if this should be added
-[out#0/wav @ 0x5f0c60a62880] Output file does not contain any stream
-Error opening output file /tmp/tmp7tkko4iy.wav.
+[hls @ 0x56e0589f0f80] URL https://prod-23-20-60-37.amperwave.net/a/?lid=f71fad33-cfcc-4a3e-9b11-85209ccbacc6&u=https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Forigin.cis.abacast.net%2Fc%2Fad%2Fa%2F76edcf75519bce7569239f69ca270c37_0.aac%3Fsid%3D8206 is not in allowed_segment_extensions, consider updating hls.c and submitting a patch to ffmpeg-devel, if this should be added
+[out#0/wav @ 0x56e058d08880] Output file does not contain any stream
+Error opening output file /tmp/tmp4f49xoch.wav.
 Error opening output files: Invalid argument
-[AVFormatContext @ 0x5b2eb29b35c0] Invalid HLS ID3 audio timestamp 17010304000
-listening to 11 streams in 2 live games
-maybe_not  wvb  University of Alabama          "That's newly inaugurated Oklahoma governor Amanda Clark on Tulsa King and she's cracking d"
-not_game   wvb  University of California, Los  "It's gotten really complicated.  The experts at Amkill undergo the most rigorous training "
-not_game   wvb  University of California, Los  "We've been the trusted experts in transmission repair.  Check out AMCO's Multiple Financin"
-not_game   wvb  University of California, Los  "and nothing we can't fix.  It's going, gee!  What's that?  From transmissions to breaks, a"
-quiet      wvb  University of Wisconsin-Madiso ''
-not_game   wvb  University of Wisconsin-Madiso 'many to drive. Never underestimate just a few. Buzz driving is drunk driving. A public  se'
-not_game   wvb  University of Wisconsin-Madiso 'One too many to drive. Never underestimate just a few.  Buzz driving is drunk driving.  A '
+listening to 5 streams in 1 live games
+not_game   wvb  University of Alabama          "That's newly inaugurated Oklahoma governor Amanda Clark on Tulsa King and she's cracking d"
 quiet      wvb  Mississippi State University   ''
-{'no_audio': 3, 'maybe_not': 1, 'not_game': 5, 'quiet': 2}
+{'no_audio': 3, 'not_game': 1, 'quiet': 1}
