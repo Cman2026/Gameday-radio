@@ -17,22 +17,41 @@ No VM guests are running outdated hypervisor (qemu) binaries on this host.
 allaccess error https://sjsuspartans.com HTTP Error 404: Not Found
 allaccess error https://goutsa.com HTTP Error 404: Not Found
 allaccess error https://miamihurricanes.com HTTP Error 404: Not Found
+allaccess error https://odusports.com HTTP Error 404: Not Found
+allaccess error https://gseagles.com The read operation timed out
+allaccess error https://gobearcats.com HTTP Error 404: Not Found
+allaccess error https://clemsontigers.com HTTP Error 404: Not Found
+allaccess error https://lrtrojans.com HTTP Error 404: Not Found
+allaccess error https://ucfknights.com HTTP Error 404: Not Found
+allaccess error https://vucommodores.com HTTP Error 404: Not Found
 allaccess error https://uclabruins.com HTTP Error 404: Not Found
-allaccess error https://gostanford.com HTTP Error 404: Not Found
 allaccess error https://gopsusports.com HTTP Error 404: Not Found
 allaccess error https://virginiasports.com HTTP Error 404: Not Found
 allaccess error https://hokiesports.com HTTP Error 404: Not Found
 allaccess error https://ukathletics.com HTTP Error 404: Not Found
-official feeds added for: University of Texas at El Paso (mbb), University of Alabama at Birmingham (mbb), University of South Dakota (mbb), University of Michigan (mbb), University of Florida (mbb), Duke University (mbb), University of North Carolina at Chapel Hill (wbb), University of Washington (wbb), University of Idaho (wbb), University of Southern California (wbb), Wake Forest University (wbb), University of Georgia (wbb), Tulane University (wbb), North Carolina State University (wbb), University of Connecticut (wbb), University of Oregon (wbb), University of Tennessee at Chattanooga (wbb), Western Carolina University (wbb), Oklahoma State University (wbb), University of Minnesota (wbb)
+allaccess error https://thesundevils.com HTTP Error 404: Not Found
+allaccess error https://auburntigers.com HTTP Error 404: Not Found
+allaccess error https://purduesports.com HTTP Error 404: Not Found
+allaccess error https://lsusports.net HTTP Error 404: Not Found
+official feeds added for: University of Texas at El Paso (mbb), University of Alabama at Birmingham (mbb), University of South Dakota (mbb), University of Michigan (mbb), University of Florida (mbb), St. John's University (mbb), Duke University (mbb), Syracuse University (mbb), University of North Carolina at Chapel Hill (mbb), Indiana University (mbb), Bucknell University (mbb), West Virginia University (mbb), Indiana State University (mbb), Texas Tech University (mbb), Iowa State University (mbb), University of Memphis (mbb), Michigan State University (mbb), University of Southern California (wbb), Wake Forest University (wbb), University of Georgia (wbb), Tulane University (wbb), North Carolina State University (wbb), University of Connecticut (wbb), Florida State University (wbb), Austin Peay State University (wbb), University of Oregon (wbb), University of Tennessee at Chattanooga (wbb), Utah State University (wbb), Oklahoma State University (wbb), University of Minnesota (wbb), University of Tennessee (wbb), Arkansas State University (wbb), University of North Texas (wbb), Ohio State University (wbb)
+Rice University mbb -> (feed) ['https://img.leanstream.co/IM4501-MP3']
+Temple University mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/ETU2ZNtX.m3u8']
 allaccess error https://ccsubluedevils.com HTTP Error 405: Not Allowed
+Monmouth University mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/5LRdjeOM.m3u8']
+Virginia Commonwealth University mbb -> (feed) ['https://img.leanstream.co/LF6501-MP3']
+University of North Carolina at Charlotte mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/kDNzJYGH.m3u8']
 leanplayer xml https://wofford.leanplayer.com/ <?xml version="1.0"?> <main><sports><sport><id>1</id><name>Football</name><is_show>0</is_show></sport><sport><id>2</id><name>Men&#x2019;s Basketball</name><is_show>0</is_show></sport><sport><id>3</id><name>Women&#x2019;s Basketball</name><is_show>0</is_show></sport></sports><events><current_ev/><upcoming_ev><event><id>116706</id><start_timestamp>1793745900</start_timestamp><start>2026-11-03 22:45:00</start><end>2026-11-04 02:45:00</end><sport_id>2</sport_id><opponent>Tennessee</opponent><url>https://peaksports.leanstream.co/PS0101-MP3</url></event><event><id>116707</id><start_timestamp>1794008
 Wofford College wbb -> (leanplayer) ['https://peaksports.leanstream.co/PS0101-MP3']
+Princeton University mbb -> []
+Princeton University mbb -> []
 George Mason University mbb -> []
 George Mason University mbb -> []
 University of Maryland, Baltimore County mbb -> []
-Princeton University mbb -> []
-Princeton University mbb -> []
-Lafayette College wbb -> []
-University of Massachusetts Lowell wbb -> ['https://cdn.jwplayer.com/live/broadcast/LCyNyoBI.m3u8', 'https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/LCyNyoBI.m3u8?exp=1793652480&sig=05b10af1f9806074831e69153f5827b5']
-University of Massachusetts Lowell wbb -> []
-other SIDEARM sport names seen: basketball-women, fb, football, general, mbb, mbball, mhockey, msoc, vol-network, volleyball, wbball, whockey, wrestling, wsoc, wvball
+University of Illinois Chicago mbb -> []
+University of Illinois Chicago mbb -> []
+The George Washington University wbb -> []
+Longwood University wbb -> []
+College of Charleston wbb -> ['https://ice5.securenetsystems.net/WTMZ']
+Samford University wbb -> []
+Samford University wbb -> []
+other SIDEARM sport names seen: basketball-women, fb, fitzgeraldshow, flames-sports-network, football, general, izzoshow, mbb, mbball, mhockey, msoc, nightingaleshow, vol-network, volleyball, wbasket, wbball, whockey, wrestling, wsoc, wvball
