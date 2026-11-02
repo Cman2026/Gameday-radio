@@ -1,5 +1,5 @@
 {
-"built": "2026-11-02T20:06:13Z",
+"built": "2026-11-02T20:10:30Z",
 "teams": [
 {
 "school": "Boston College",
@@ -5430,12 +5430,10 @@
 ],
 "game_only": null,
 "no_radio": null,
-"notes": "https stream on port 8443 confirmed audio Nov 2026; the http port 8000 copy cannot play on the https site.",
-"streams": [
-"https://cpa.ds.npr.org/s767/audio/2026/10/dcij-voluntary-breath-with-nell-and-logan-full-show.mp3"
-],
+"notes": "https stream on port 8443 plays audio (curl, Nov 2026) but the resolver's Python TLS can't handshake with it; the http port 8000 copy is kept as the outside link.",
+"streams": [],
 "misses": 0,
-"miss_day": null,
+"miss_day": "2026-11-02",
 "last_ok": "2026-11-02",
 "athletics_site": "https://isubengals.com",
 "station_sports": null,
@@ -9585,8 +9583,8 @@
 "streams": [
 "https://ice6.securenetsystems.net/KYAL"
 ],
-"misses": 0,
-"miss_day": null,
+"misses": 1,
+"miss_day": "2026-11-02",
 "last_ok": "2026-11-02",
 "athletics_site": "https://oruathletics.com",
 "station_sports": null,
