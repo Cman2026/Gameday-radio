@@ -1,33 +1,62 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-[in#0 @ 0x564f05270cc0] Error opening input: Server returned 404 Not Found
-Error opening input file https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/LCyNyoBI.m3u8?exp=1793652480&sig=05b10af1f9806074831e69153f5827b5.
-Error opening input files: Server returned 404 Not Found
-[in#0 @ 0x5f8b797e9cc0] Error opening input: Server returned 404 Not Found
+[0;93m2026-11-02 22:46:59.465839576 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[in#0 @ 0x56be49708cc0] Error opening input: Server returned 403 Forbidden (access denied)
+Error opening input file https://peaksports.leanstream.co/PS0101-MP3.
+Error opening input files: Server returned 403 Forbidden (access denied)
+[hls @ 0x5880484bcf80] URL https://prod-18-234-58-253.amperwave.net/a/?lid=b243b74d-3ea1-4b07-b931-4083e0bed72a&u=https%3A%2F%2Fd25j5qm9y8ulag.cloudfront.net%2Fc%2Fad%2Fa%2Fb51aa8ff73d58b936e511cbb17cbf0ad_0.aac%3Fsid%3D15095 is not in allowed_segment_extensions, consider updating hls.c and submitting a patch to ffmpeg-devel, if this should be added
+[out#0/wav @ 0x5880485099c0] Output file does not contain any stream
+Error opening output file /tmp/tmpvhla3w3r.wav.
+Error opening output files: Invalid argument
+[in#0 @ 0x5d2c9ab61cc0] Error opening input: Server returned 404 Not Found
 Error opening input file https://cdn.jwplayer.com/live/broadcast/LCyNyoBI.m3u8.
 Error opening input files: Server returned 404 Not Found
-[0;93m2026-11-02 21:45:50.850871182 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-listening to 25 streams in 10 live games
-maybe_not  wbb  University of Nevada, Las Vega "Come back starts with the right team by your side.  At Decaster Verde Law, we've spent dec"
-game       wbb  University of Southern Califor 'UNLV and the bonus the rest of the way.  Here in this first half, as Kenny Brue to the lin'
-maybe_not  wbb  University of Southern Califor 'delivery and pick up. And right now, you can save $20 on your first delivery or pick up or'
-game       wbb  University of Southern Califor 'So you know UNLV and the bonus the rest of the way.  Here in this first half, as Kenny Bru'
-quiet      wbb  William & Mary                 ''
-quiet      wbb  William & Mary                 'Stand up for your right  Get up!'
-maybe_not  wbb  Stony Brook University         "If I don't wear, maybe the last one by and two things. || I put that fire address in Azure"
-maybe_not  wbb  Stony Brook University         "If I don't wear, maybe the last one by an inch of things. || I put that fire address in Az"
+[in#0 @ 0x5ce006f6acc0] Error opening input: Server returned 404 Not Found
+Error opening input file https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/LCyNyoBI.m3u8?exp=1793652480&sig=05b10af1f9806074831e69153f5827b5.
+Error opening input files: Server returned 404 Not Found
+[aac @ 0x626567f084c0] env_facs_q 255 is invalid
+listening to 48 streams in 23 live games
+quiet      mbb  McNeese State University       "Southwest Louisiana's greatest hits of the 80s, 90s, and more."
+maybe_not  mbb  McNeese State University       'The fall trends are obsessed with and prices you love.  All a designer shoe warehouse, eve'
+game       mbb  University of Alabama at Birmi 'Just an end of the lineup for UAB.  As Ellie\'s a, will head to the bench.  Austin\'s 6\'10",'
+maybe_not  mbb  University of Alabama at Birmi 'music GMC.com. We are professional grade. J.M. What auction has been the leader in the  So'
+maybe_not  mbb  University of Alabama at Birmi 'music GMC.com. We are professional grade. J.M. What auction has been the leader in the  So'
+game       wbb  University of Connecticut      "off to Arnold and the Husky is going to effectively hold for one but they won't  Zabelle f"
+game       wbb  University of Connecticut      "to get it off to Arnold and the Husky is going to effectively hold for one, but they won't"
+game       wbb  University of Connecticut      'three-pounder by Vukosa gets it off to Arnold.  And the Husky is going to effectively  hop'
+quiet      wbb  University of Louisville       ''
+game       wbb  University of Louisville       'around the screen to the right from out to all stops, pitches it left wing to  highman, ri'
+game       wbb  University of Louisville       'the first half Louisville 57  Bellarmine 18 or to come. This is Louisville Cardinals  wome'
+maybe_not  wbb  Bellarmine University          'some awesome. There was a picture that emerged this week in the March 2. Wow. Yeah. Yeah. '
+maybe_not  wbb  Bellarmine University          'some awesome. There was a picture that emerged this week in the March 2. Wow. Yeah. Yeah. '
+quiet      wbb  Bellarmine University          ''
+maybe_not  wbb  Pennsylvania State University  'We have forecast the rest of the night, part of the cloudy tonight, low 45 tomorrow, some '
+maybe_not  wbb  Cleveland State University     "2011. The jury was left with no alternative and in most people's words, the husband did it"
+game       wbb  Tulane University              'Passion and Brown and Double figures,  hint a piece for the wave to lead all scores.  Taxi'
+maybe_not  wbb  Tulane University              "for me i'm sure that's a triple the pick up like all the duties away from  uh... from from"
+maybe_not  wbb  Tulane University              "the pick up like all the duties away from from from from from that that that that that's s"
+quiet      wbb  Texas Southern University      ''
+quiet      wbb  University of South Florida    ''
+quiet      wbb  University of South Florida    ''
+maybe_not  wbb  Furman University              "If there's a general racial shift, I mean, there's a whole group of people that don't unde"
+maybe_not  wbb  Furman University              "but you know look it's you got two very important races tomorrow. There's one thing I'm go"
+quiet      wbb  Bryant University              ''
+maybe_not  wbb  University of Georgia          'an on-handed inventory, Granger delivers the product she needs fast, helping her stay stoc'
+maybe_not  wbb  University of Georgia          "Stay ready from shipping supplies to PPE to hand tools so when the doors roll up  He's rea"
+quiet      wbb  University of West Georgia     ''
+game       wbb  Wake Forest University         'the rim. Booth gets it. Bounce pass somehow trickled to Hudson. Hudson for three  and she '
+quiet      wbb  Wake Forest University         ''
+quiet      wbb  Wake Forest University         ''
+quiet      wbb  Norfolk State University       'Put that outside, then outside, keep them thick, light.'
+quiet      wbb  Norfolk State University       'I was like dead outside, keep them thick like me'
+not_game   wbb  University of Nevada, Las Vega 'key to Kucharov and form the lightning that he will not be resigning with the  organizatio'
+game       wbb  University of Southern Califor 'screen to the right gets to the nail rises up over a defender and draws the foul on  const'
+quiet      wbb  University of Southern Califor ''
+game       wbb  University of Southern Califor 'So, fine, Steve is down the right side of the lane.  She misses the layup, able to get her'
+quiet      wbb  William & Mary                 'They say you know'
+quiet      wbb  William & Mary                 'They say you know'
+not_game   wbb  Stony Brook University         'And it was initially very strange and odd,  and I was dubious in certain ways.  What happe'
+not_game   wbb  Stony Brook University         'And it was initially very strange and odd,  and I was dubious in certain ways.  What happe'
 quiet      wbb  Yale University                'feed of the strong.'
-maybe_not  wbb  Yale University                "on the Sean Hannity Show.  New Haven's news, weather and traffic station.  News radio, 960"
-quiet      wbb  Yale University                'the speed of the strong.'
-game       mbb  San José State University      'it 76 to 62. UTSA has actually outscored the Spartans here in the second half. 35 to 31.  '
-game       mbb  San José State University      'in the front core, Hannah Lombs it underneath and laying it off the glass for two.  H.A. M'
-game       mbb  San José State University      '10 or press and gives him a screen.  10 or into the lane pulls up over  Pull him in hits i'
-game       mbb  University of Texas at San Ant 'the corner. Hannah on the  drive. Lobs it for Martin  Esports. 76 to 60.  Tinner across th'
-game       mbb  University of Texas at San Ant 'Well, dribble hand off to Tanner.  Tanner trying to drive all the way  to the right lane l'
-game       mbb  University of Texas at San Ant 'J10er because the last thing they want is chamaet the free throw line.  UTSA will lose the'
-maybe_not  wbb  University of North Carolina a "has landlines. And so they're hoping to get mobile phones. Well, you don't know who you're"
-maybe_not  wbb  University of North Carolina a "And so they're hoping to get mobile phones.  Well, you don't know who you're getting,  or "
-quiet      wbb  University of Oklahoma         ''
-maybe_not  wbb  University of Oklahoma         "So that's where I mean I don't know what the what the solution is or was or why it has fal"
-quiet      wbb  University of Oklahoma         ''
-not_game   wbb  South Carolina State Universit 'benefits and HR designed and built for small businesses.  Choose a future with gusto.  Les'
-{'maybe_not': 8, 'game': 8, 'quiet': 6, 'no_audio': 2, 'not_game': 1}
+quiet      wbb  Yale University                "New Haven's news, weather and traffic station.  News radio, 960."
+quiet      wbb  Yale University                ''
+{'quiet': 18, 'maybe_not': 13, 'game': 10, 'no_audio': 4, 'not_game': 3}
