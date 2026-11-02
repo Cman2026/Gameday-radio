@@ -135,6 +135,17 @@ h1 span{color:inherit}
 .diamond .cnt b.on{background:var(--accent)}
 .diamond .who{display:flex;flex-direction:column;gap:6px;font-size:13px;color:var(--muted);min-width:0}
 .diamond .who b{color:var(--text);font-weight:600}
+.court2{margin:0;display:grid;gap:8px}
+.court2 svg{display:block;width:100%;height:auto;border-radius:var(--r-md);box-shadow:0 1px 0 rgba(255,255,255,.04),0 6px 18px rgba(0,0,0,.25)}
+@media (min-width:861px){.court2{max-width:560px;width:100%;margin:0 auto}}
+.court2 .halo{transform-box:fill-box;transform-origin:center;animation:halo 1.6s ease-out infinite}
+@keyframes halo{from{transform:scale(1);opacity:.9}to{transform:scale(2.4);opacity:0}}
+@media (prefers-reduced-motion:reduce){.court2 .halo{animation:none;opacity:0}}
+.courtkey{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 14px;font:600 12px var(--ui);color:var(--muted);letter-spacing:.02em}
+.courtkey .mk,.courtkey .tm{display:inline-flex;align-items:center;gap:6px}
+.courtkey b{width:10px;height:10px;border-radius:50%;display:inline-block}
+.courtkey b.m{background:var(--muted)} .courtkey b.x{border:2.5px solid var(--muted);box-sizing:border-box;margin-left:6px}
+.courtkey .tm i{width:10px;height:10px;border-radius:50%;display:inline-block;margin-left:6px}
 .court{position:relative;height:150px;border-radius:var(--r-md);overflow:hidden;background:repeating-linear-gradient(90deg,#9B6633 0 18px,#8F5E2E 18px 36px)}
 .court i.ln{position:absolute;border:2px solid rgba(255,255,255,.75)}
 .court .shot{position:absolute;width:13px;height:13px;margin:-6.5px 0 0 -6.5px;border-radius:50%;box-sizing:border-box;border:2.5px solid var(--c)}
@@ -1763,20 +1774,8 @@ function otherDetails(e, sum, a, h, bc){
     html += `<div class="diamond"><div class="bases" role="img" aria-label="Runners: ${[sit.onFirst&&"first",sit.onSecond&&"second",sit.onThird&&"third"].filter(Boolean).join(", ")||"none"}">${b(sit.onSecond,28,4)}${b(sit.onThird,5,27)}${b(sit.onFirst,51,27)}</div>
       <div class="cnt"><span>B ${dots(sit.balls||0, 3)}</span><span>S ${dots(sit.strikes||0, 2)}</span><span>O ${dots(sit.outs||0, 2)}</span></div>${who?`<div class="who">${who}</div>`:""}</div>`;
   }
-  // Basketball: the last few shots on a half court (filled = made, ring = missed).
-  if(SPORT.court && live && sum){
-    const shots = realPlays(sum).filter(p=>p.shootingPlay && !/free throw/i.test((p.type?.text||"")+" "+(p.text||"")) && p.coordinate && p.coordinate.x>=0 && p.coordinate.x<=50 && p.coordinate.y>=0 && p.coordinate.y<=94).slice(-6);
-    if(shots.length){
-      const dots = shots.map(p=>{ const y = p.coordinate.y > 47 ? 94 - p.coordinate.y : p.coordinate.y; const col = String(p.team?.id)===String(h.team.id) ? bc[1] : bc[0];
-        return `<span class="shot ${p.scoringPlay?"made":""}" style="--c:${col};left:${(p.coordinate.x/50*100).toFixed(1)}%;top:${Math.min(97, y/47*100).toFixed(1)}%" title="${esc(p.text||"")}"></span>`; }).join("");
-      html += `<div class="court" role="img" aria-label="Last ${shots.length} shots">
-        <i class="ln" style="left:38%;width:24%;top:-2px;height:40%"></i>
-        <i class="ln" style="left:5.7%;width:88.6%;top:-54px;height:141px;border-radius:50%"></i>
-        <i class="ln" style="left:38%;width:24%;top:131px;height:38px;border-radius:50%"></i>
-        <i class="ln" style="left:calc(50% - 5px);top:12px;width:10px;height:10px;border-radius:50%;border-color:#FF8A3D"></i>
-        ${dots}<span class="key">LAST ${shots.length} SHOTS · ● MADE ○ MISSED</span><span class="key r"><i style="background:${bc[0]}"></i>${esc(a.team.abbreviation||"")}<i style="background:${bc[1]}"></i>${esc(h.team.abbreviation||"")}</span></div>`;
-    }
-  }
+  // Basketball: the last few shots on a real half court.
+  if(SPORT.court && live && sum) html += courtView(sum, a, h, bc);
   if(SPORT.tile==="hk" && e.status.type.state!=="pre") html += rinkView(e, a, h, bc);
   html += lineScore(e, a, h);
   html += statBars(sum, a, h, bc);
@@ -1801,6 +1800,68 @@ function rinkView(e, a, h, bc){
     <div class="cc">${mid}</div>
     ${live ? `<div class="prog" aria-hidden="true"><i style="width:${done.toFixed(0)}%"></i></div>` : ""}
   </div>`;
+}
+/* Basketball court: drawn to NCAA dimensions (10 units = 1 foot), the home team's floor (lane in
+   their color, their name on the baseline, their logo on the floor). The last 8 shots: solid = made,
+   ring = missed, in each team's color; older shots fade and the newest one is labeled.
+   ESPN's shot coordinates are in feet: x across the court (0-50), y out from the rim. */
+function courtView(sum, a, h, bc){
+  const shots = realPlays(sum).filter(p=>p.shootingPlay && !/free throw/i.test(`${p.type?.text||""} ${p.text||""}`) && p.coordinate &&
+    p.coordinate.x>=-1 && p.coordinate.x<=51 && p.coordinate.y>=-3 && p.coordinate.y<=60).slice(-8);
+  if(!shots.length) return "";
+  const RIM = 52.5, home = bc[1], dark = `color-mix(in srgb, ${home} 78%, #000)`;
+  const X = x => Math.max(8, Math.min(492, x*10)), Y = y => Math.max(-4, Math.min(326, RIM + y*10));
+  const col = p => String(p.team?.id)===String(h.team.id) ? bc[1] : bc[0];
+  const L = 'stroke="#fff" stroke-opacity=".92" stroke-width="3" fill="none"';
+  const n = shots.length;
+  const marks = shots.map((p, i)=>{
+    const x = X(p.coordinate.x), y = Y(p.coordinate.y), c = col(p), op = (0.4 + 0.6*(i+1)/n).toFixed(2), last = i === n-1;
+    const halo = last ? `<circle class="halo" cx="${x}" cy="${y}" r="10" fill="none" stroke="${c}" stroke-width="3"/>` : "";
+    const dot = p.scoringPlay
+      ? `<circle cx="${x}" cy="${y}" r="${last?11:9}" fill="${c}" stroke="#fff" stroke-width="2.5" opacity="${op}"/>`
+      : `<circle cx="${x}" cy="${y}" r="${last?10:8}" fill="rgba(0,0,0,.28)" stroke="${c}" stroke-width="3.5" opacity="${op}"/>`;
+    return `<g><title>${esc(p.text||"")}</title>${halo}${dot}</g>`;
+  }).join("");
+  // Label the newest shot: "Hidalgo 3PT ✓" / "Bascoe 12-ft ✗"
+  const lp = shots[n-1], words = String(lp.text||"").split(/\s+(?:makes|misses|blocks)\b/i)[0].trim().split(/\s+/);
+  const last = /^(jr\.?|sr\.?|ii|iii|iv)$/i.test(words[words.length-1]||"") ? words[words.length-2] : words[words.length-1];
+  const ft = /(\d+)-foot/i.exec(lp.text||""), three = /three point/i.test(lp.text||"");
+  const label = `${last||""} ${three ? "3PT" : ft ? ft[1]+"-ft" : ""} ${lp.scoringPlay ? "✓" : "✗"}`.replace(/\s+/g," ").trim();
+  const lw = label.length*8.6 + 20, lx = Math.max(lw/2 + 6, Math.min(494 - lw/2, X(lp.coordinate.x)));
+  const ly = Y(lp.coordinate.y) < 46 ? Y(lp.coordinate.y) + 30 : Y(lp.coordinate.y) - 28;
+  const tag = `<g transform="translate(${lx.toFixed(1)},${ly.toFixed(1)})"><rect x="${(-lw/2).toFixed(1)}" y="-13" width="${lw.toFixed(1)}" height="26" rx="13" fill="rgba(15,20,26,.86)"/><rect x="${(-lw/2).toFixed(1)}" y="-13" width="5" height="26" rx="2.5" fill="${col(lp)}"/><text x="3" y="5" text-anchor="middle" fill="#fff" font-family="Barlow Condensed, Barlow, sans-serif" font-weight="700" font-size="16" letter-spacing=".3">${esc(label)}</text></g>`;
+  const name = esc(String(nameOf(h.team)||h.team.location||"").toUpperCase());
+  const logo = h.team.logo ? `<image href="${esc(logoSrc(h.team))}" x="200" y="205" width="100" height="100" opacity=".2" preserveAspectRatio="xMidYMid meet"/>` : "";
+  const hash = [70,110,140,170].map(y=>`<line x1="178" y1="${y}" x2="190" y2="${y}" ${L}/><line x1="310" y1="${y}" x2="322" y2="${y}" ${L}/>`).join("");
+  return `<figure class="court2"><svg viewBox="0 -30 500 365" role="img" aria-label="Last ${n} shots on the court">
+    <defs>
+      <pattern id="planks" width="40" height="365" patternUnits="userSpaceOnUse" y="-30">
+        <rect width="40" height="365" fill="#C48650"/><rect x="20" width="20" height="340" fill="#BE7F49"/>
+        <line x1="20" y1="0" x2="20" y2="340" stroke="rgba(80,40,10,.18)" stroke-width="1"/><line x1="40" y1="0" x2="40" y2="340" stroke="rgba(80,40,10,.18)" stroke-width="1"/>
+        <line x1="0" y1="90" x2="20" y2="90" stroke="rgba(80,40,10,.16)"/><line x1="20" y1="210" x2="40" y2="210" stroke="rgba(80,40,10,.16)"/><line x1="0" y1="300" x2="20" y2="300" stroke="rgba(80,40,10,.16)"/>
+      </pattern>
+      <radialGradient id="courtVig" cx="50%" cy="25%" r="80%"><stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".32"/></radialGradient>
+      <linearGradient id="courtGloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".14"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    </defs>
+    <rect x="0" y="-30" width="500" height="365" fill="url(#planks)"/>
+    <rect x="0" y="-30" width="500" height="30" style="fill:${dark}"/>
+    <text x="250" y="-9" text-anchor="middle" fill="#fff" font-family="Barlow Condensed, Barlow, sans-serif" font-weight="700" font-size="17" letter-spacing="7" opacity=".95">${name}</text>
+    <rect x="190" y="0" width="120" height="190" style="fill:${home}" opacity=".62"/>
+    ${logo}
+    <rect x="1.5" y="0" width="497" height="345" ${L}/>
+    <rect x="190" y="0" width="120" height="190" ${L}/>
+    <path d="M190 190 A60 60 0 0 0 310 190" ${L}/>
+    <path d="M190 190 A60 60 0 0 1 310 190" ${L} stroke-dasharray="9 8"/>
+    <path d="M210 ${RIM} A40 40 0 0 0 290 ${RIM}" ${L}/>
+    <path d="M33.5 0 V99.1 A221.5 221.5 0 0 0 466.5 99.1 V0" ${L}/>
+    ${hash}
+    <line x1="220" y1="40" x2="280" y2="40" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="250" cy="${RIM}" r="8" fill="none" stroke="#FF6A1A" stroke-width="3.5"/>
+    <rect x="0" y="-30" width="500" height="365" fill="url(#courtVig)"/>
+    <rect x="0" y="-30" width="500" height="365" fill="url(#courtGloss)"/>
+    ${marks}${tag}
+  </svg>
+  <figcaption class="courtkey"><span>Last ${n} shots</span><span class="mk"><b class="m"></b>Made<b class="x"></b>Missed</span><span class="tm"><i style="background:${bc[0]}"></i>${esc(a.team.abbreviation||"")}<i style="background:${bc[1]}"></i>${esc(h.team.abbreviation||"")}</span></figcaption></figure>`;
 }
 // Points per half / quarter / period / set / inning, with the total.
 function lineScore(e, a, h){
