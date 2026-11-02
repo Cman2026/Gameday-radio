@@ -1,0 +1,12 @@
+name: Research pages (one-off fetch)
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - run: python3 tools/research_fetch.py research-urls.txt
+      - run: tools/publish.sh "Research pages" research-pages.json
