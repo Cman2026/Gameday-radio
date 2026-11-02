@@ -11,7 +11,7 @@ jobs:
           def g(u):
               t=time.time(); r=urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent":"Mozilla/5.0","Origin":"https://gamedayradiolive.com"}), timeout=30); b=r.read()
               return json.loads(b), len(b), round(time.time()-t,2), r.headers.get("access-control-allow-origin")
-          d,n,t,c=g(B+"scoreboard?groups=50&limit=900")
+          d,n,t,c=g(B+"scoreboard?groups=50&dates=20261102&limit=900")
           ev=d.get("events",[]); print("default scoreboard: events",len(ev),"bytes",n,"secs",t,"cors",c, "dates", sorted({e['date'][:10] for e in ev}))
           print("day param", (d.get('day') or {}), "states", {s: sum(1 for e in ev if e['status']['type']['state']==s) for s in ('pre','in','post')})
           live=[e for e in ev if e['status']['type']['state']=='in']
