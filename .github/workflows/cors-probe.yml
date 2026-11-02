@@ -1,0 +1,10 @@
+name: CORS probe (one-off)
+on: workflow_dispatch
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          for u in https://a.espncdn.com/i/teamlogos/ncaa/500/2514.png https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2514.png; do
+            echo "== $u"; curl -sS -D - -o /dev/null -H "Origin: https://gamedayradiolive.com" "$u" | grep -i "access-control\|content-type\|HTTP/"
+          done
