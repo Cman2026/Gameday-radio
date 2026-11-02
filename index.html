@@ -139,6 +139,8 @@ h1 span{color:inherit}
 .court i.ln{position:absolute;border:2px solid rgba(255,255,255,.75)}
 .court .shot{position:absolute;width:13px;height:13px;margin:-6.5px 0 0 -6.5px;border-radius:50%;box-sizing:border-box;border:2.5px solid var(--c)}
 .court .shot.made{background:var(--c)}
+.court .key.r{left:auto;right:10px;display:flex;align-items:center;gap:5px}
+.court .key.r i{width:10px;height:10px;border-radius:50%;box-shadow:0 0 0 1.5px #fff;margin-left:6px}
 .court .key{position:absolute;left:10px;bottom:8px;font:600 11px var(--num);color:#fff;letter-spacing:.04em;text-shadow:0 1px 2px rgba(0,0,0,.5)}
 /* Hockey rink: each team's end in its colors with its logo, a puck per goal (numbered by period),
    the period at center ice and how much of it has been played along the bottom boards. */
@@ -313,6 +315,8 @@ h1 span{color:inherit}
 .side{position:relative;display:flex;flex-direction:column;align-items:center;gap:4px;text-align:center;min-width:0}
 .side img{width:56px;height:56px;object-fit:contain;margin-bottom:4px}
 .side .nm{font:600 18px/1.15 var(--ui);text-wrap:balance;display:flex;align-items:center;justify-content:center;min-height:2.3em}
+.side.poss.hoops::before{width:16px;height:16px;background:#E8762B;-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='11' fill='black'/%3E%3C/svg%3E") center/contain no-repeat;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='11' fill='black'/%3E%3C/svg%3E") center/contain no-repeat;box-shadow:inset 0 0 0 1px rgba(0,0,0,.35)}
+.side.poss.hoops::after{content:"";position:absolute;left:calc(50% + 34px);top:21px;width:16px;height:16px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.6' stroke-opacity='.55'%3E%3Cpath d='M1 12h22M12 1v22M4.2 4.2c3.3 2.9 3.3 12.7 0 15.6M19.8 4.2c-3.3 2.9-3.3 12.7 0 15.6'/%3E%3C/svg%3E") center/contain no-repeat;pointer-events:none}
 .side.poss::before{content:"";position:absolute;left:calc(50% + 34px);top:21px;width:20px;height:14px;background:var(--ball);-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 16'%3E%3Cpath fill-rule='evenodd' d='M12 1C5 1 1 6 1 8s4 7 11 7 11-5 11-7-4-7-11-7zM8 7.2h8v1.6H8zM9.5 5.5h1.4v5H9.5zM11.3 5.5h1.4v5h-1.4zM13.1 5.5h1.4v5h-1.4z'/%3E%3C/svg%3E") center/contain no-repeat;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 16'%3E%3Cpath fill-rule='evenodd' d='M12 1C5 1 1 6 1 8s4 7 11 7 11-5 11-7-4-7-11-7zM8 7.2h8v1.6H8zM9.5 5.5h1.4v5H9.5zM11.3 5.5h1.4v5h-1.4zM13.1 5.5h1.4v5h-1.4z'/%3E%3C/svg%3E") center/contain no-repeat}
 .side .rec{font-size:13px;color:var(--muted)}
 .side .big{font:700 64px/1 var(--num);font-variant-numeric:tabular-nums;color:var(--text);margin:6px 0 4px;letter-spacing:-.01em}
@@ -320,6 +324,8 @@ h1 span{color:inherit}
 .to{display:flex;gap:4px;justify-content:center;margin-top:6px}
 .to i{width:12px;height:3px;border-radius:2px;background:var(--text);opacity:.85} .to i.used{background:var(--line-2);opacity:1}
 .mid{text-align:center;display:grid;gap:2px;padding-top:30px;min-width:76px}
+.balltag{justify-self:center;margin-top:8px;display:inline-flex;align-items:center;justify-content:center;gap:6px;font:600 13px var(--ui);color:var(--text);padding:4px 10px;border-radius:999px;background:var(--surface-2);border:1px solid var(--line-2);white-space:nowrap}
+.balltag i{width:11px;height:11px;border-radius:50%;background:#E8762B;box-shadow:inset 0 0 0 1px rgba(0,0,0,.3)}
 /* Phones: a shorter header so the field, court or rink comes into view sooner (scores stay big) */
 @media (max-width:860px){
   .score{padding-top:14px}
@@ -1244,6 +1250,7 @@ function gameLine(loc){
     const parts = [score, stx.short];
     if(SPORT.sets){ const s = setPoints(e); if(s) parts.push(`Set ${s.n}: ${s.a}–${s.h}`); }
     if(SPORT.diamond && sit.outs!=null) parts.push(`${sit.outs} out${sit.outs==1?"":"s"}`);
+    if(SPORT.tile==="bb" && !stx.brk){ const pid = possId(e), pos = [a,h].find(t=>t.team.id===pid); if(pos) parts.push(`${ab(pos)} ball`); }
     return parts.join('<span class="dsep"></span>');
   }
   const clock = stx.brk ? esc(stx.short) : `<span data-clk="${e.id}">${liveClock(e)}</span> ${esc(qName(e.status.period))}`;
@@ -1540,7 +1547,7 @@ function renderBoard(){
   if(!sit.possessionText && st.type.state==="in") sit.possessionText = lastP?.end?.possessionText || lastP?.start?.possessionText || "";
   const side = (t, cls) => {
     const tos = cls==="home"?sit.homeTimeouts:sit.awayTimeouts;
-    return `<div class="side ${pid===t.team.id?"poss":""}">${logoImg(t.team)}
+    return `<div class="side ${pid===t.team.id?(isFB()?"poss":"poss hoops"):""}">${logoImg(t.team)}
     <div class="nm">${t.team.location}</div><div class="rec">${t.records?.[0]?.summary||""}${cls==="home"?" · Home":""}</div>
     <div class="big">${st.type.state==="pre"?"–":t.score}</div>${ear(t.team.location, "Listen")}
     ${tos!=null?`<div class="to" aria-label="${tos} timeouts left">${[0,1,2].map(i=>`<i class="${i<tos?"":"used"}"></i>`).join("")}</div>`:""}</div>`;
@@ -1548,7 +1555,10 @@ function renderBoard(){
   const stx = statusText(e), per = isFB() ? stx.long : (stx.per ? stx.long : (st.type.detail || st.type.shortDetail || ""));
   const bc = barColors(a,h);
   const ticking = st.type.state==="in" && !stx.brk && (isFB() || !!stx.per);
-  let html = `<div class="score" style="--away:${bc[0]};--home:${bc[1]}">${side(a,"away")}<div class="mid"><div class="clock">${ticking?`<span data-clk="${e.id}">${liveClock(e)}</span>`:""}</div><div class="per">${st.type.state==="pre"?fmtTime(e.date):esc(per)}</div></div>${side(h,"home")}</div>`;
+  // Basketball: who has the ball, under the clock (worked out from the latest plays).
+  const bt = SPORT.tile==="bb" && st.type.state==="in" && !stx.brk ? [a,h].find(t=>t.team.id===pid) : null;
+  const ballTag = bt ? `<div class="balltag"><i aria-hidden="true"></i>${esc(nameOf(bt.team))} ball</div>` : "";
+  let html = `<div class="score" style="--away:${bc[0]};--home:${bc[1]}">${side(a,"away")}<div class="mid"><div class="clock">${ticking?`<span data-clk="${e.id}">${liveClock(e)}</span>`:""}</div><div class="per">${st.type.state==="pre"?fmtTime(e.date):esc(per)}</div>${ballTag}</div>${side(h,"home")}</div>`;
   if(!isFB()) html += otherDetails(e, sum, a, h, bc);
   else if(st.type.state==="in"){
     const pills = [];
@@ -1648,10 +1658,34 @@ function setPoints(e){
 }
 // Who has the ball. ESPN often leaves situation.possession empty (common right after
 // kickoffs and in some games all night), so fall back to the current drive, then the last play.
+// Basketball: ESPN doesn't say who has the ball, so work it out from the latest plays. A rebound or
+// steal gives the ball to that team; a made basket (or last free throw) or a turnover gives it to
+// the other team; after a miss the ball is loose until someone rebounds it.
+function hoopsPoss(e, ids){
+  const plays = snap(summaryHist, x=>x.id===e.id)?.s?.plays || [];
+  for(let i = plays.length - 1; i >= Math.max(0, plays.length - 15); i--){
+    const p = plays[i], t = String(p.team?.id || ""), txt = `${p.type?.text||""} ${p.text||""}`;
+    if(/end of (the )?(1st|2nd|3rd|4th|first|second|half|game|quarter|period)|end period|end game/i.test(txt)) return null;
+    if(!ids.includes(t)) continue;
+    const other = ids.find(x=>x!==t);
+    if(/rebound|steal/i.test(txt)) return t;
+    if(/turnover|offensive foul|charge/i.test(txt)) return other;
+    if(/free throw/i.test(txt)){
+      const m = /(\d)\s*of\s*(\d)/i.exec(p.text||"");
+      if(m && m[1] !== m[2]) return t;          // more free throws to come
+      if(p.scoringPlay) return other;           // last one made
+      return null;                              // last one missed: loose ball
+    }
+    if(p.scoringPlay) return other;
+    if(/miss|block/i.test(txt)) return null;
+    if(/timeout|foul|substitution|jump ball/i.test(txt)) continue;
+  }
+  return null;
+}
 function possId(e){
   const c = e.competitions[0], sit = c.situation||{}, ids = c.competitors.map(x=>x.team.id);
   if(sit.possession && ids.includes(sit.possession)) return sit.possession;
-  if(!isFB()) return null;
+  if(!isFB()) return SPORT.tile==="bb" ? hoopsPoss(e, ids) : null;
   const sum = snap(summaryHist, x=>x.id===e.id)?.s, cur = sum?.drives?.current;
   const dt = cur?.team?.id || cur?.team;
   if(cur && !cur.end?.text && dt && ids.includes(String(dt))) return String(dt);
@@ -1740,7 +1774,7 @@ function otherDetails(e, sum, a, h, bc){
         <i class="ln" style="left:5.7%;width:88.6%;top:-54px;height:141px;border-radius:50%"></i>
         <i class="ln" style="left:38%;width:24%;top:131px;height:38px;border-radius:50%"></i>
         <i class="ln" style="left:calc(50% - 5px);top:12px;width:10px;height:10px;border-radius:50%;border-color:#FF8A3D"></i>
-        ${dots}<span class="key">LAST ${shots.length} SHOTS · ● MADE ○ MISSED</span></div>`;
+        ${dots}<span class="key">LAST ${shots.length} SHOTS · ● MADE ○ MISSED</span><span class="key r"><i style="background:${bc[0]}"></i>${esc(a.team.abbreviation||"")}<i style="background:${bc[1]}"></i>${esc(h.team.abbreviation||"")}</span></div>`;
     }
   }
   if(SPORT.tile==="hk" && e.status.type.state!=="pre") html += rinkView(e, a, h, bc);
