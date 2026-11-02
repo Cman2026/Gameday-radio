@@ -1,8 +1,9 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-[0;93m2026-11-02 01:04:57.458235215 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[aac @ 0x61ba42de1440] No quantized data read for sbr_dequant.
+[0;93m2026-11-02 02:07:14.163456883 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 listening to 4 streams in 1 live games
-game       mhk  Ohio State University          "5 face-offs to Michigan's.  Nesbit takes the Dragons Ryan Gordon.  Gordon wins this one fo"
-maybe_not  mhk  Ohio State University          "5 cents per gallon bonus on your first tank.  That's code turbo for 25 cents per gallon bo"
-game       mhk  Ohio State University          "6 to 10 Lamar Jackson injured and when we put on IR.  Then we're scored late in health Kan"
-game       mhk  University of Michigan         '0.9 seconds left now in the opening period and it has been a struggle for the visitors to '
-{'game': 3, 'maybe_not': 1}
+game       mhk  Ohio State University          'Schedule at safelight.com.  Safelight autoglass is a proud sponsor of Ohio State Athletics'
+not_game   mhk  Ohio State University          "he's fortunate he held on to the  football.  Let's check the drive summary  sponsored by V"
+maybe_not  mhk  Ohio State University          'every chapter of your life. From your first yes to your forever I do, trust that Julie  ca'
+game       mhk  University of Michigan         "only Michigan Answers. With specialized treatment options that aren't available  anywhere "
+{'game': 2, 'not_game': 1, 'maybe_not': 1}
