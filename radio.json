@@ -316,7 +316,11 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM9201-MP3"
+],
+"game_feeds_at": "2026-11-02T17:44:45Z",
+"game_feeds_sport": "wbb"
 },
 {
 "school": "University of Pittsburgh",
@@ -1387,7 +1391,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM1802-MP3"
 ],
-"game_feeds_at": "2026-11-02T16:49:35Z",
+"game_feeds_at": "2026-11-02T17:44:45Z",
 "game_feeds_sport": "wbb"
 },
 {
@@ -1666,7 +1670,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM1502-MP3"
 ],
-"game_feeds_at": "2026-11-02T16:49:35Z",
+"game_feeds_at": "2026-11-02T17:44:45Z",
 "game_feeds_sport": "wbb",
 "live_only": true
 },
@@ -2496,7 +2500,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM1001-MP3"
 ],
-"game_feeds_at": "2026-11-02T16:49:35Z",
+"game_feeds_at": "2026-11-02T17:44:45Z",
 "game_feeds_sport": "wbb"
 },
 {
@@ -5324,7 +5328,7 @@
 "game_feeds": [
 "https://img.leanstream.co/LF3701-MP3"
 ],
-"game_feeds_at": "2026-11-02T16:49:35Z",
+"game_feeds_at": "2026-11-02T17:44:45Z",
 "game_feeds_sport": "wbb"
 },
 {
@@ -5392,7 +5396,7 @@
 "game_feeds": [
 "https://img.leanstream.co/LF2502-MP3"
 ],
-"game_feeds_at": "2026-11-02T16:49:35Z",
+"game_feeds_at": "2026-11-02T17:44:45Z",
 "game_feeds_sport": "wbb"
 },
 {
@@ -5756,7 +5760,7 @@
 "game_feeds": [
 "https://img.leanstream.co/LF8302-MP3"
 ],
-"game_feeds_at": "2026-11-02T16:49:35Z",
+"game_feeds_at": "2026-11-02T17:44:45Z",
 "game_feeds_sport": "mbb"
 },
 {
@@ -6750,7 +6754,7 @@
 "game_feeds": [
 "https://streaming2.tux-support.com:8098/source"
 ],
-"game_feeds_at": "2026-11-02T16:49:35Z",
+"game_feeds_at": "2026-11-02T17:44:45Z",
 "game_feeds_sport": "mbb",
 "live_only": true
 },
@@ -6903,7 +6907,7 @@
 "game_feeds": [
 "https://img.leanstream.co/LF0402-MP3"
 ],
-"game_feeds_at": "2026-11-02T16:49:35Z",
+"game_feeds_at": "2026-11-02T17:44:45Z",
 "game_feeds_sport": "wbb"
 },
 {
@@ -7412,7 +7416,7 @@
 "game_feeds": [
 "https://cdn.jwplayer.com/live/broadcast/qyhhpN0D.m3u8"
 ],
-"game_feeds_at": "2026-11-02T16:49:35Z",
+"game_feeds_at": "2026-11-02T17:44:45Z",
 "game_feeds_sport": "mbb"
 },
 {
@@ -7695,7 +7699,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM4102-MP3"
 ],
-"game_feeds_at": "2026-11-02T16:49:35Z",
+"game_feeds_at": "2026-11-02T17:44:45Z",
 "game_feeds_sport": "wbb"
 },
 {
