@@ -101,6 +101,9 @@ def main():
         pages = []
         for _ in range(6):
             pg = b.new_page(); pg.goto(SITE, wait_until="load", timeout=45000); pages.append(pg)
+            # The page loads hls.js on first use; load it now so HLS streams are tested the way the page plays them.
+            try: pg.evaluate("() => (typeof loadHls === 'function' ? loadHls() : null)")
+            except Exception as ex: print('hls.js did not load:', str(ex)[:120])
         jobs = [(t, u) for t in teams for s in t["streams"] for u in variants(s)]
         results = {}
         i = 0
