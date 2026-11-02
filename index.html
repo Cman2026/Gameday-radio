@@ -91,9 +91,10 @@ h1 span{color:inherit}
 .chip[hidden]{display:none}
 .chips.three{grid-template-columns:repeat(3,minmax(0,1fr))}
 /* Sport tiles: only sports in season (or starting within a week) are shown. */
+.sports,#gender,.filters{flex:none} /* never squeezed by the scrolling list on wide screens */
 .sports{display:flex;gap:8px;overflow-x:auto;padding:2px 2px 10px;margin:0 0 2px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
 .sports::-webkit-scrollbar{display:none}
-.sport{flex:1 0 88px;max-width:132px;height:72px;border-radius:var(--r-lg);border:1px solid var(--line-2);background:var(--surface);color:var(--muted);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;cursor:pointer;font:600 13px var(--ui);-webkit-tap-highlight-color:transparent;padding:0 6px}
+.sport{flex:1 1 0;min-width:76px;max-width:132px;height:72px;border-radius:var(--r-lg);border:1px solid var(--line-2);background:var(--surface);color:var(--muted);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;cursor:pointer;font:600 13px var(--ui);-webkit-tap-highlight-color:transparent;padding:0 6px}
 .sport svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .sport .nm{color:var(--text)}
 .sport .sub{font:600 11px var(--num);color:var(--faint);white-space:nowrap}
@@ -227,6 +228,10 @@ h1 span{color:inherit}
 #toast.show{opacity:1;transform:translate(-50%,0);pointer-events:auto}
 .soon-note{display:flex;align-items:flex-start;gap:8px;margin-top:10px;padding:8px 10px;border-radius:10px;background:var(--accent-soft);color:var(--text);font-size:13px;line-height:1.35}
 .soon-note.off{background:var(--surface-2);color:var(--muted)}
+.more-confs{padding-left:12px;border-left:2px solid var(--line);margin-left:6px}
+.soon-note.slim{background:none;padding:0;margin-top:2px;font-size:12px;color:var(--muted);align-items:center}
+.soon-note.slim svg{width:14px;height:14px;margin:0}
+.ear.ghost{visibility:hidden}
 .soon-note.off svg{color:var(--muted)}
 .soon-note svg{width:16px;height:16px;flex:none;margin-top:1px;color:var(--accent)}
 .ear:not([disabled]):hover{border-color:var(--accent)}
@@ -266,8 +271,10 @@ h1 span{color:inherit}
 .legal{margin:6px 0 0;font-size:12px;line-height:1.5;color:var(--faint)}
 .foot{max-width:1120px;margin:8px auto 0;padding:18px max(16px,env(safe-area-inset-right,0px)) calc(28px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));border-top:1px solid var(--line);font-size:12px;line-height:1.55;color:var(--faint);display:grid;gap:6px}
 .foot p{margin:0;max-width:72ch}
-.foot .bugs{color:var(--muted);padding-top:6px;border-top:1px dashed var(--line)}
-.foot .bugs a{color:var(--accent);font-weight:600}
+.foot .mini a{color:var(--accent);font-weight:600}
+.foot details{margin-top:6px} .foot details p{margin-top:8px}
+.foot summary{cursor:pointer;color:var(--muted);font-weight:600;font-size:13px;width:max-content}
+.foot summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .empty{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:18px 16px;color:var(--muted);line-height:1.5}
 
 /* ---------- Scoreboard ---------- */
@@ -308,6 +315,14 @@ h1 span{color:inherit}
 .to{display:flex;gap:4px;justify-content:center;margin-top:6px}
 .to i{width:12px;height:3px;border-radius:2px;background:var(--text);opacity:.85} .to i.used{background:var(--line-2);opacity:1}
 .mid{text-align:center;display:grid;gap:2px;padding-top:30px;min-width:76px}
+/* Phones: a shorter header so the field, court or rink comes into view sooner (scores stay big) */
+@media (max-width:860px){
+  .score{padding-top:14px}
+  .side img{width:42px;height:42px;margin-bottom:2px}
+  .side .nm{font-size:17px;min-height:0}
+  .side .big{font-size:58px;margin:4px 0 2px}
+  .mid{padding-top:16px}
+}
 .clock{font:600 28px/1 var(--num);font-variant-numeric:tabular-nums}
 .per{font:500 14px var(--ui);color:var(--muted)}
 .sit{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
@@ -328,6 +343,14 @@ h1 span{color:inherit}
 .play .dd{display:block;font-size:12px;color:var(--faint);margin-top:2px}
 .radio-info{font-size:14px;color:var(--muted);display:grid;gap:6px;border-top:1px solid var(--line);padding-top:14px}
 .radio-info ul{margin:0;padding-left:18px;color:var(--text)}
+.radio-info .ri{display:grid;gap:3px;padding:10px 0;border-top:1px solid var(--line)}
+.radio-info .ri:first-of-type{border-top:0}
+.radio-info .rh{display:flex;align-items:center;gap:10px}
+.radio-info .ri b{color:var(--text);font-size:15px}
+.radio-info .ri span{font-size:13px;line-height:1.35}
+.radio-info .rchip{flex:none;font:600 11px var(--ui);padding:3px 8px;border-radius:999px;background:var(--surface-2);color:var(--muted);white-space:nowrap}
+.radio-info .rchip.ok{background:color-mix(in srgb,#2FA36B 18%,transparent);color:#1E8A55}
+@media (prefers-color-scheme:dark){.radio-info .rchip.ok{color:#5FD39A}}
 .radio-info li{margin:2px 0}
 .note{color:var(--faint);font-size:13px}
 
@@ -460,9 +483,11 @@ h1 span{color:inherit}
 </div>
 
 <footer class="foot">
+  <p class="mini">Independent fan project · Scores from ESPN · <a href="https://github.com/Cman2026/Gameday-radio/issues/new?title=Bug%3A%20&body=What%20happened%3F%0A%0AWhich%20game%20or%20team%3F%0A%0APhone%20or%20computer%3F%0A" target="_blank" rel="noopener">Report a bug</a></p>
+  <details><summary>Details</summary>
   <p>Gameday Radio Live is an independent fan project. It is not affiliated with or endorsed by any school, conference, network, radio station or ESPN.</p>
   <p>Radio broadcasts play directly from each station's own stream and remain the property of their owners. Team names and logos are trademarks of their respective owners. Scores and game data from ESPN. No copyright infringement is intended; rights holders can <a href="https://github.com/Cman2026/Gameday-radio/issues" target="_blank" rel="noopener">request removal</a> and we'll take it down.</p>
-  <p class="bugs">Spotted a bug, or a station that isn't carrying its game? <a href="https://github.com/Cman2026/Gameday-radio/issues/new?title=Bug%3A%20&body=What%20happened%3F%0A%0AWhich%20game%20or%20team%3F%0A%0APhone%20or%20computer%3F%0A" target="_blank" rel="noopener">Report it here</a> and it gets looked at before the next game day.</p>
+  </details>
 </footer>
 <audio id="audio" preload="none"></audio>
 
@@ -753,7 +778,7 @@ function soonNote(e){
   const soon = ts.filter(t=>waitsForFeed(t.location) && !feedLate(e));
   if(soon.length){ const live = e.status.type.state==="in", txt = [...new Set(soon.map(t=>feedText(t.location, live)))];
     return note(txt.length===1 ? `${soon.map(t=>esc(nameOf(t))).join(" and ")} radio ${txt[0]}.` : soon.map(t=>`${esc(nameOf(t))} radio ${feedText(t.location, live)}.`).join(" "), gameTimeOnly(soon[0].location) ? "" : "maybe"); }
-  return note("Radio unavailable for this game. Neither school has a free broadcast we can play.", "off");
+  return note("No free radio for this game", "off slim");
 }
 // School feeds that still haven't shown up 25 minutes after kickoff probably aren't coming.
 function lateFor(loc){ const e = events.find(x=>x.competitions[0].competitors.some(c=>c.team.location===loc)); return !!(e && feedLate(e)); }
@@ -761,7 +786,7 @@ function lateFor(loc){ const e = events.find(x=>x.competitions[0].competitors.so
 function goodDD(t){ return /^(1st|2nd|3rd|4th)\b/i.test((t||"").trim()); }
 function feedLate(e){ return e.status.type.state==="in" && Date.now() - Date.parse(e.date) > 25*60e3; }
 function note(text, kind){
-  const icon = kind==="off"
+  const icon = String(kind||"").includes("off")
     ? `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 15v-3a8 8 0 0 1 13.7-5.6M20 12v3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M3 3l18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>`
     : `<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>`;
   return `<div class="soon-note ${kind||""}">${icon}<span>${text}</span></div>`;
@@ -1039,6 +1064,7 @@ function ear(loc, label){
   const icon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="5" height="7" rx="2"/><rect x="16" y="14" width="5" height="7" rx="2"/></svg><span class="bars" aria-hidden="true"><i></i><i></i><i></i></span>`;
   const text = label ? `<span>${esc(label)}</span>` : "";
   if(!has && waitsForFeed(loc) && !lateFor(loc)) return `<button class="ear soon" data-off="${esc(loc)}" aria-disabled="true" title="${esc(loc)} radio ${feedText(loc, false)}" aria-label="${esc(loc)} radio ${feedText(loc, false)}">${icon}${text}</button>`;
+  if(!has && !label) return `<span class="ear ghost" aria-hidden="true"></span>`; // no dead buttons in the list
   if(!has) return `<button class="ear off" data-off="${esc(loc)}" aria-disabled="true" title="${esc(loc)} radio unavailable" aria-label="${esc(loc)} radio unavailable">${icon}${text}</button>`;
   const on = currentTeam===loc && !audio.paused, wait = connecting===loc;
   return `<button class="ear ${on?"on":""} ${wait?"wait":""}" data-team="${esc(loc)}" title="${on?"Pause":"Listen to"} ${esc(loc)} radio" aria-label="${on?"Pause":"Listen to"} ${esc(loc)} radio">${icon}${text}</button>`;
@@ -1442,12 +1468,23 @@ function renderUpcoming(embed){
     }
     const allShut = names.every(n=>isShut(n, day));
     const label = dayName(day)==="Today" ? "Later today" : new Date(day).toLocaleDateString([], {weekday:"long", month:"short", day:"numeric"});
-    return `<div class="sect">${esc(label)}${names.length>1 && !q ? `<button class="lnk" data-confall="${allShut?"open":"shut"}" data-cday="${esc(day)}">${allShut?"Expand all":"Collapse all"}</button>` : ""}</div>` + names.map((n, i)=>{
+    const bar = (n, i, list) => {
       const gs = groups.get(n), closed = !q && isShut(n, day);
       if(!closed) vis.push(...gs);
-      const gap = i > 0 && rankC(names[i-1]) < 1e3 && rankC(n) >= 1e3 ? `<div class="cgap"></div>` : "";
+      const gap = i > 0 && rankC(list[i-1]) < 1e3 && rankC(n) >= 1e3 ? `<div class="cgap"></div>` : "";
       return gap + confHead(n, gs.length, closed, day) + (closed ? "" : gs.sort((x,y)=>new Date(x.date)-new Date(y.date) || x.id.localeCompare(y.id)).map(upCard).join(""));
-    }).join("");
+    };
+    // Big basketball days list 30+ conferences: show the major ones (and any with a saved team),
+    // and fold the rest into one "More conferences" bar.
+    const main = names.filter(n => rankC(n) < 1e3 || groups.get(n).some(isFavGame));
+    const rest = names.filter(n => !main.includes(n));
+    const fold = !q && !isFB() && rest.length > 6;
+    const head = `<div class="sect">${esc(label)}${names.length>1 && !q ? `<button class="lnk" data-confall="${allShut?"open":"shut"}" data-cday="${esc(day)}">${allShut?"Expand all":"Collapse all"}</button>` : ""}</div>`;
+    if(!fold) return head + names.map((n, i)=>bar(n, i, names)).join("");
+    const moreShut = isShut("More conferences", day);
+    return head + main.map((n, i)=>bar(n, i, main)).join("") + `<div class="cgap"></div>` +
+      confHead("More conferences", rest.reduce((t, n)=>t + groups.get(n).length, 0), moreShut, day) +
+      (moreShut ? "" : `<div class="more-confs">${rest.map((n, i)=>bar(n, i, rest)).join("")}</div>`);
   }).join("");
   if(embed){ loadPredictions(isFB() ? shown : vis.slice(0, 40)); return `<div class="sect upnext">Coming up</div>` + (q ? "" : tabs) + sections; }
   setList((q ? "" : tabs) + sections + finalsToday());
@@ -1492,7 +1529,8 @@ function renderBoard(){
     html += `<div class="wp"><p class="label">Win probability</p><div class="wpbar"><span style="width:${100-hp}%;background:${bc[0]}"></span><span style="width:${hp}%;background:${bc[1]}"></span></div><div class="wpl"><span>${a.team.abbreviation} ${(100-hp).toFixed(1)}%</span><span>${h.team.abbreviation} ${hp.toFixed(1)}%</span></div></div>`; }
   html += isFB() ? playsView(sum) : otherPlays(sum);
   const r = radioFor(e);
-  html += `<div class="radio-info"><p class="label">Radio for this game</p><ul>${r.map(x=>`<li><b>${esc(x.team)}</b> ${esc(x.net||"")}${x.station && !/radio$/i.test(x.net||"") ? `, ${esc(String(x.station).replace(/\s*\(no free online stream found\)/,""))}` : ""}${x.stream ? "" : ` <span class="note">(no free stream)</span>`}</li>`).join("")}</ul>
+  html += `<div class="radio-info"><p class="label">Radio for this game</p>${r.map(x=>{ const st = x.station && !/radio$/i.test(x.net||"") ? String(x.station).replace(/\s*\(no free online stream found\)/,"") : "";
+    return `<div class="ri"><div class="rh"><b>${esc(x.team)}</b><span class="rchip ${x.stream ? "ok" : ""}">${x.stream ? "Free stream" : "No free stream"}</span></div><span>${esc(x.net||"")}${st ? ` · ${esc(st)}` : ""}</span></div>`; }).join("")}
   <span class="note">${isFB() ? "Each team's own radio broadcast. If one won't connect, try the other team's call." : SPORT.tile==="bb" ? "Each school's sports radio station, which carries basketball for most teams. If one isn't on the game, try the other team's." : `Each school's main sports radio station. Many carry ${SPORT.name.toLowerCase()}, but some are on a different game or show, so try the other team's if one isn't.`}</span></div>`;
   const same = html.replace(/(<span data-clk="[^"]*">)[^<]*/g, "$1") === (renderBoard.last||"");
   renderBoard.last = html.replace(/(<span data-clk="[^"]*">)[^<]*/g, "$1");
