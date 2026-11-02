@@ -1,43 +1,58 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-[0;93m2026-11-02 18:58:43.234164196 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-[hls @ 0x5ff00dc96f80] URL https://prod-34-201-70-233.amperwave.net/a/?lid=8e2ef661-9b9a-41b6-9c24-785ddb2e448c&u=https%3A%2F%2Fd25j5qm9y8ulag.cloudfront.net%2Fc%2Fad%2Fa%2Fface1886e339d40ae325ce58ff6432f5_0.aac%3Fsid%3D8242 is not in allowed_segment_extensions, consider updating hls.c and submitting a patch to ffmpeg-devel, if this should be added
-[out#0/wav @ 0x5ff00dfae880] Output file does not contain any stream
-Error opening output file /tmp/tmpmog0atv1.wav.
-Error opening output files: Invalid argument
-listening to 36 streams in 12 live games
-game       wbb  Boise State University         'right hand runner off glass and in for two Z a day Anderson exposing the four Arsenal toda'
-maybe_not  wbb  Boise State University         'Iron Ball is in for Matt Stell just to 59% field goes to you actually really strong number'
-maybe_not  wbb  Boise State University         'Iron Ball is in for Matt Stell just to 59% field goes to you actually really strong number'
-maybe_not  wbb  Utah Tech University           "action button and redesign dynamic island. With all that technology, don't forget the prot"
-game       wbb  Montana State University       "Montana State leading Black Hill State in their season opener.  Let's go ahead and pause r"
-maybe_not  wbb  Montana State University       "I'm gonna go back to you  Tell folks you know I know all about  Some new guy taking you ou"
-maybe_not  wbb  Montana State University       'Wedding professionals want to book more clients this year, elevate your brand at the  Miss'
-maybe_not  wbb  University of Houston          'discussion about some of the opponents we may see down the road Oklahoma State has  done a'
-maybe_not  wbb  University of Houston          "people's court murder and what happens next with Christophike?  And you can start your mor"
-maybe_not  wbb  University of Houston          'Every line drawn in the history of humanity is being swept away, being blurred, being eras'
-quiet      wbb  University of Nebraska-Lincoln 'dot org tunnel the towers do good and never'
-quiet      wbb  University of Nebraska-Lincoln '.'
-maybe_not  wbb  San José State University      "at some point you were using your time share,  but now you're not in your time to waste th"
-maybe_not  wbb  San José State University      "It's a free consultation. 800-93 to 1809, 800-93 to 1809.  800-93 to 1809. That's 800-93 t"
-maybe_not  wbb  San José State University      'Before you go to the poor house, call right now and learn how you can stop the maintenance'
-maybe_not  wbb  University of New Mexico       'for they disappear.  Did you know your vision insurance benefits, FSA,  and HSA dalers usu'
-maybe_not  wbb  University of New Mexico       'for they disappear.  Did you know your vision insurance benefits, FSA,  and HSA dalers usu'
-maybe_not  wbb  University of New Mexico       'for they disappear.  Did you know your vision insurance benefits, FSA,  and HSA dalers usu'
-maybe_not  wbb  Stanford University            'only in the Marines Memorial Theater to benefit the California Historical Radio Society.  '
-maybe_not  wbb  Stanford University            'only in the Marines Memorial Theater to benefit the California Historical Radio Society.  '
-maybe_not  wbb  Stanford University            'only in the Marines Memorial Theater to benefit the California Historical Radio Society.  '
-maybe_not  wbb  University of Arizona          'his family gives him hope, whether at the family business, or at home with his wife and so'
-maybe_not  wbb  University of Arizona          "whether at the family business or at home with his wife and sons.  He knows he's not fight"
-maybe_not  wbb  University of Arizona          'give some help, whether at the family business or at home with his wife and sons.  He know'
-not_game   mbb  South Carolina State Universit "two diabetes. It's easy to learn your risk. Take a one-minute test today at  DoIHavePredia"
-game       wbb  University of South Carolina   "We're at the center with brunch on Sundays at 1130.  We've had back streets, catering your"
-game       wbb  University of South Carolina   'Maryland 89 to 80. Game cuts at a 31 point lead early in the third quarter,  seemingly blo'
-game       wbb  University of South Carolina   'back streets cater your next tailgate. More 30 to go here in the fourth quarter in  Paris '
-quiet      wbb  University of Maryland         'you can get up to $3 million worth of coverage.'
-not_game   wbb  Vanderbilt University          "the game's on and slider house on division street is ready.  Grab gourmet sliders, Parmesa"
-game       wbb  University of Mississippi      '14 14 9 8. You take the kind of balance every game if you want to win the games. Yeah  Onc'
-quiet      wbb  University of Mississippi      ''
-game       wbb  Alcorn State University        "Final score. Lady braise fall 82 38th and then we'll be here later tonight at 715.  The Ce"
-game       wbb  University of Southern Mississ "three.  Now let's see him, ladies.  He goes with it.  85.59.  Jason Baker joined by our co"
-quiet      wbb  University of Southern Mississ ''
-{'game': 8, 'maybe_not': 20, 'quiet': 5, 'not_game': 2, 'no_audio': 1}
+[0;93m2026-11-02 19:57:03.674804712 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[in#0/aac @ 0x5905fb3a2cc0] Error during demuxing: Connection timed out
+[tls @ 0x634f93403300] Error in the pull function.
+[tls @ 0x634f93403300] IO error: Connection timed out
+[in#0/mp3 @ 0x634f933ffcc0] Error during demuxing: Connection timed out
+[tls @ 0x60191ade1300] Error in the pull function.
+[tls @ 0x60191ade1300] IO error: Connection timed out
+[in#0/aac @ 0x60191adddcc0] Error during demuxing: Connection timed out
+listening to 47 streams in 12 live games
+maybe_not  mbb  Northern Kentucky University   "Whether it's baked with love, packed with love, or shipped with love right from home.  Thi"
+maybe_not  mbb  Northern Kentucky University   "I'm heart radio app free never sounded so good ESPN 1530 Oakley Greens is Cincinnati's  ga"
+maybe_not  mbb  Northern Kentucky University   "Whether it's baked with love, packed with love, or shipped with love right from home.  Thi"
+game       mbb  University of Texas at El Paso "the  north with it.  McDaniel's with it on  right wing.  One bounce dribble right  side of"
+quiet      mbb  University of Texas at El Paso ''
+quiet      mbb  University of Texas at El Paso 'on the wall.'
+game       wbb  University of Washington       'to the Husky logo at mid court.  Tina Langley on the sideline,  head coach directing traff'
+quiet      wbb  University of Washington       'up next on 93.3 KGRF.'
+quiet      wbb  University of Washington       ''
+maybe_not  wbb  University of California, San  "this is a good thing to see.  I'm going to be honest with you,  I'm going to see you guys "
+maybe_not  wbb  University of California, San  'What if it could play uninterrupted from room to room on Sonos?  What if you start with tw'
+game       wbb  University of California, San  'Real takes no wasted time.  It has been the little things that have outdone San Diego Stat'
+quiet      wbb  University of Idaho            ''
+maybe_not  wbb  University of Idaho            "Simply say, earns your business by keeping you safe and satisfied.  That's why they never "
+maybe_not  wbb  St. John's University          "That's when the problems begin.  Your doctor's booked, urgent care is packed.  And then th"
+maybe_not  wbb  St. John's University          "doesn't like Brian doesn't like the people I work in the front office and I don't think  t"
+maybe_not  wbb  St. John's University          'in your name for over 30 common conditions, including strep throat, sinus infections,  pne'
+game       wbb  University of California, Los  'the absence of the connection and the purpose that can really drive a lot of veterans to s'
+game       wbb  University of California, Los  "distracted driving is what's really scary and even deadly.  Eyes forward, don't drive dist"
+game       wbb  University of California, Los  'the absence of the connection and the purpose that can really drive a lot of veterans to s'
+quiet      wbb  Lehigh University              'at cintosh.com and get ready for the workday.'
+quiet      wbb  Lehigh University              'and get ready for the workday.'
+quiet      wbb  Lehigh University              'for the work day.'
+maybe_not  wbb  Boise State University         'is the Markable fighter.  The trick is possible to be  being imported by Crown and Port Ch'
+quiet      wbb  Boise State University         "I don't really feel."
+game       wbb  Boise State University         'Losing 84 to 48 victory for Boise State led by 21 points from CJ Lottin who is seven of ei'
+quiet      wbb  Utah Tech University           "I'm from Southern California."
+maybe_not  wbb  Montana State University       '38 win over Black Hill State. Bob Gatswin their season opener for the third  straight year'
+quiet      wbb  Montana State University       ''
+not_game   wbb  Montana State University       'And want to tell everyone about it?  Yeah, so do we.  Here at Designer Shoe Warehouse,  we'
+game       wbb  University of Houston          "Central start here 645 with the pregame show.  It's a crucial host of Sam Houston State Be"
+not_game   wbb  University of Houston          "constitutional rights and keeping them from passing.  So we don't think they're legal in a"
+not_game   wbb  University of Houston          'and at the end of the day we think they only to come down to legislation needs to do somet'
+maybe_not  wbb  University of Nebraska-Lincoln "It's a connected approach that brings together investment insight, banking capabilities, a"
+maybe_not  wbb  University of Nebraska-Lincoln "for what's next, every decision supports a larger strategy built around your goals.  Since"
+game       wbb  San José State University      'and five freshman says the  Spartans take the floor here for  the first time in front of t'
+game       wbb  San José State University      'Number 4 with UTSA also rebuilding its roster.  How important is it for San Jose State to '
+game       wbb  San José State University      'the Spartans take the floor here for the first time in front of the home fans.  He looking'
+quiet      wbb  University of New Mexico       ''
+quiet      wbb  University of New Mexico       ''
+quiet      wbb  University of New Mexico       ''
+not_game   wbb  Stanford University            'only in the Marines Memorial Theater to benefit the California Historical Radio Society.  '
+not_game   wbb  Stanford University            'only the Marines Memorial Theater to benefit the California Historical Radio Society.  Tic'
+not_game   wbb  Stanford University            "down and they'd be five and three to be a couple of games clear of them. I don't think Sea"
+not_game   wbb  University of Arizona          'First Chiropractic is pleased to announce that access health plans now cover Chiropractic '
+not_game   wbb  University of Arizona          "companies.  Hey, stock, those guys don't scare me.  Fall is termite season.  Go blue with "
+not_game   wbb  University of Arizona          'For over 40 years, Tucson has been putting its trust in first chiropractic for auto and on'
+{'maybe_not': 13, 'game': 11, 'quiet': 14, 'not_game': 9}
