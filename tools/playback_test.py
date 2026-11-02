@@ -78,6 +78,9 @@ def main():
     scope = (sys.argv[1] if len(sys.argv) > 1 else "tomorrow").lower()
     want = teams_in_games(scope)
     radio = json.load(open("radio.json"))["teams"]
+    for t in radio:  # sport-specific stations (sport_streams) play in the page too, so test them as well
+        extra = [u for us in (t.get("sport_streams") or {}).values() for u in us]
+        t["streams"] = list(dict.fromkeys((t.get("streams") or []) + extra))
     teams = [t for t in radio if t.get("streams") and (want is None or any(norm(n) in want for n in [t["school"]] + (t.get("names") or [])))]
     # School game feeds are only on the air during a game; testing them any other time just records a failure.
     if scope != "live":
