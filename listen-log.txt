@@ -1,33 +1,54 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-[0;93m2026-11-02 17:07:30.061275312 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-listening to 29 streams in 18 live games
-quiet      mbb  Mercer University              ''
-game       mbb  Indiana University Indianapoli 'raids symbolized when they happened. Okay. It is not surprising that this team responded  '
-game       mbb  Indiana University Indianapoli 'raids symbolized when they happened. Okay. It is not surprising that this team responded  '
-game       mbb  Indiana University Indianapoli 'raids symbolized when they happened. Okay. It is not surprising that this team responded  '
-quiet      mbb  Middle Tennessee State Univers '7-2025 CY industry reported total sales.'
-game       mbb  Middle Tennessee State Univers '1877 to 2025 CY industry reported total sales.  WGNS, the flagship station for Blue Raider'
-maybe_not  mbb  Tennessee State University     "is an anomaly right now. If you watch them and you see how they are winning, they  can't t"
-game       mbb  Murray State University        "In the back court, it's Johnson who gets the ball.  Looks like Caden Magwood will check in"
-quiet      mbb  Murray State University        ''
-maybe_not  mbb  South Carolina State Universit 'day, which is Lamar Jackson hitting his hand on a helmet, breaking his thumb that requires'
-quiet      mbb  Nicholls State University      'Thank you.'
-maybe_not  wbb  Georgia Institute of Technolog 'exceptional well. So our guys will be excited for the challenge. Another opportunity,  ano'
-maybe_not  wbb  Georgia Institute of Technolog "for the challenge another opportunity another week in the SEC as it always is it'll be a g"
-maybe_not  wbb  Morgan State University        'the WEAa. The support tab on the WEAa.org website has the details. Also, if you have been '
-quiet      wbb  Central Michigan University    "Don't know how to"
-game       wbb  Central Michigan University    "The old Dominion monarchs have a left to our left.  I have in just a moment.  Let's resume"
-maybe_not  wbb  Old Dominion University        'all to basically do with it on game day.  I took it over.  After all of that.  I hate all '
-quiet      wbb  Kennesaw State University      ''
-quiet      wbb  Tennessee Technological Univer ''
-quiet      wbb  Columbia University            ''
-quiet      wbb  Columbia University            ''
-game       wbb  Western Michigan University    "Big, big difference.  Sure is.  Jim Hadsma, he's on our side.  Paid for with regulated fun"
-game       wbb  Western Michigan University    'with regulated funds by Michigan Citizens for Better Health, PO Box 11075, Lansing,  Michi'
-game       wbb  Western Michigan University    'Michigan 48-901, not authorized by any candidate committee.'
-quiet      wbb  Coastal Carolina University    ''
-quiet      wbb  Coastal Carolina University    ''
-quiet      wbb  Coastal Carolina University    'and champion.'
-quiet      wbb  East Texas A&M University      ''
-game       wbb  East Texas A&M University      'There are times when angels move, all in drive, long before she live, lost and released  M'
-{'quiet': 13, 'game': 10, 'maybe_not': 6}
+[hls @ 0x594463476f80] URL https://prod-23-20-60-37.amperwave.net/a/?lid=54a1ebd8-da0f-42d5-82eb-f2d0fff804f5&u=https%3A%2F%2Fd25j5qm9y8ulag.cloudfront.net%2Fc%2Fad%2Fa%2Fface1886e339d40ae325ce58ff6432f5_0.aac%3Fsid%3D8242 is not in allowed_segment_extensions, consider updating hls.c and submitting a patch to ffmpeg-devel, if this should be added
+[out#0/wav @ 0x59446378e880] Output file does not contain any stream
+Error opening output file /tmp/tmpjjv395w3.wav.
+Error opening output files: Invalid argument
+[0;93m2026-11-02 18:02:10.453673871 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[tcp @ 0x587d0b851680] Connection to tcp://ice41.securenetsystems.net:443 failed: Connection timed out
+[in#0 @ 0x587d0b84dcc0] Error opening input: Connection timed out
+Error opening input file https://ice41.securenetsystems.net/WPRL?playSessionID=4F3A8D4F-9973-46B8-B49D-746D7ABAA15C.
+Error opening input files: Connection timed out
+[tcp @ 0x64aa42ac3680] Connection to tcp://ice3.securenetsystems.net:443 failed: Connection timed out
+[in#0 @ 0x64aa42abfcc0] Error opening input: Connection timed out
+Error opening input file https://ice3.securenetsystems.net/WGNS?playSessionID=2F1D1F25-9B87-4E62-8384-979E8EE5F3D4.
+Error opening input files: Connection timed out
+[tcp @ 0x5968c84cb680] Connection to tcp://ice42.securenetsystems.net:443 failed: Connection timed out
+[in#0 @ 0x5968c84c7cc0] Error opening input: Connection timed out
+Error opening input file https://ice42.securenetsystems.net/KCIL?playSessionID=9BBA10F8-C5FE-47EA-A5C8-B40F8CA62819.
+Error opening input files: Connection timed out
+[tcp @ 0x5d6f915a1680] Connection to tcp://ice42.securenetsystems.net:443 failed: Connection timed out
+[in#0 @ 0x5d6f9159dcc0] Error opening input: Connection timed out
+Error opening input file https://ice42.securenetsystems.net/WPTNAM?playSessionID=E2D9C5A8-12F4-4125-AE70-ABC6B880F350.
+Error opening input files: Connection timed out
+listening to 35 streams in 18 live games
+maybe_not  wbb  University of South Carolina   "campaign-generated clicks, but didn't deliver any business results. LinkedIn is a name for"
+maybe_not  wbb  University of South Carolina   "campaign-generated clicks, but didn't deliver any business results. LinkedIn is a name for"
+maybe_not  wbb  University of South Carolina   "campaign-generated clicks, but didn't deliver any business results. LinkedIn is a name for"
+maybe_not  wbb  University of Maryland         "Lamar Jackson's much-anticipated return was spoiled after just one play when he suffered  "
+maybe_not  wbb  Vanderbilt University          "And the news yesterday that Rick Stock still took over for Florida State made my day.  He'"
+maybe_not  wbb  University of Mississippi      "University Avenue next to Dunkin' Donuts,  locally owned and operated by Susan Ann Smith. "
+quiet      wbb  University of Mississippi      ''
+game       wbb  University of Southern Mississ 'They held Mississippi Christian to 9-31 shooting 29% from the floor.  5-13 from beyond a p'
+quiet      wbb  University of Southern Mississ ''
+quiet      wbb  McNeese State University       ''
+quiet      wbb  McNeese State University       'two'
+game       wbb  Clemson University             "for Clark here with 6'10 left in the third quarter,  Radford up a 0.35 34 after 2'3 throw "
+game       wbb  Clemson University             'third quarter, Radford up a point 35, 34 after two free throw makes.  The green on the pol'
+maybe_not  wbb  Radford University             'Now, dented people\'s confidence in that system."  Russia has resumed its attacks on Ukrain'
+quiet      wbb  Radford University             'some restrictions apply. See pure talk.com for details.'
+maybe_not  mbb  Indiana University Indianapoli "campaign-generated clicks, but didn't deliver any business results. LinkedIn is a name for"
+maybe_not  mbb  Indiana University Indianapoli 'delivers the highest row as of all major ad net  levels. Spend $250 with LinkedIn ads and '
+maybe_not  mbb  Indiana University Indianapoli "campaign-generated clicks, but didn't deliver any business results. LinkedIn is a name for"
+game       mbb  Middle Tennessee State Univers 'and it wedged between the rim and the glass.  That saved us from giving up a fast break ba'
+not_game   mbb  Tennessee State University     'in November, yesterday being November 1st.  So like a moment. Like this is like, yeah, I k'
+game       mbb  Murray State University        'You hit all green lights on your way home.  The person in front of you at the drive-thru j'
+quiet      mbb  Murray State University        "Remember, it's just a game."
+not_game   mbb  South Carolina State Universit "I don't know where I go from here.  Listen, like, but killing, I mean,  I mean, I mean, ha"
+quiet      wbb  Central Michigan University    ''
+game       wbb  Central Michigan University    'one remaining and with 108 to go the players return to the sidelines.  58 54 old Dominion.'
+not_game   wbb  Old Dominion University        "is that let's go to uh... kelen in austin texas on the weather tech fan line  what's up  k"
+maybe_not  wbb  Columbia University            "provides. It's a rather amazing group. It is able to continue its excellence through ever-"
+maybe_not  wbb  Columbia University            "continue its excellence through ever-changing personnel and the way we're listening to it "
+game       wbb  East Texas A&M University      'the answer, 30 countries for continents and a life-changing journey.  The album by my chem'
+game       wbb  East Texas A&M University      'riddled with critical mistakes and time to coincide with the midterm elections.  Ruling fr'
+{'maybe_not': 12, 'quiet': 7, 'no_audio': 5, 'game': 8, 'not_game': 3}
