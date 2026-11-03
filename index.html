@@ -467,6 +467,8 @@ h1 span{color:inherit}
 .card .why{font:600 11px var(--ui);letter-spacing:.04em;text-transform:uppercase;color:var(--accent);background:var(--accent-soft);border-radius:999px;padding:2px 8px;white-space:nowrap}
 .best{margin-bottom:6px}
 .best > .card{border-color:color-mix(in srgb,var(--accent) 35%,var(--line))}
+.foldall{flex:none;width:34px;height:34px;border-radius:50%;border:2px solid var(--accent);background:var(--surface);color:var(--accent);font:700 22px/1 var(--ui);display:inline-flex;align-items:center;justify-content:center;padding:0 0 2px;cursor:pointer;align-self:center}
+.foldall:active{transform:scale(.94)}
 </style>
 </head>
 <body>
@@ -1148,16 +1150,17 @@ function liveSection(shown, q){
   if(grouped) for(const e of rest){ const c = groupConf(e); if(!groups.has(c)) groups.set(c, []); groups.get(c).push(e); }
   const names = [...groups.keys()].sort(byConf);
   const useBars = grouped && !(names.length===1 && names[0]==="Other games");
-  const allShut = names.every(liveShut);
-  let html = best.length ? `<div class="sect big"><span>Featured</span></div><div class="flat best">${best.map(e=>card(e)).join("")}</div>` : "";
-  html += `<div class="sect big${best.length ? "" : ""}"><span>Live<span class="sn lv">${best.length ? rest.length+" more" : shown.length}</span></span>${useBars && names.length > 1 ? `<button class="lnk" data-confall="${allShut?"open":"shut"}" data-cday="live">${allShut?"Expand all":"Collapse all"}</button>` : ""}</div>`;
-  if(!useBars) return html + `<div class="flat">${rest.map(e=>card(e)).join("")}</div>`;
-  const bar = n => { const gs = groups.get(n), shut = liveShut(n); return confHead(n, gs.length, shut, "live") + (shut ? "" : gs.map(e=>card(e)).join("")); };
   // Many conferences live (basketball nights, football Saturdays): the major ones and any with a
   // saved team stay out; the rest fold into one "More conferences" bar.
   const main = names.filter(n => confRank(n) < 1e3 || groups.get(n).some(isFavGame));
   const more = names.filter(n => !main.includes(n));
-  if(names.length <= 6 || more.length < 3) return html + names.map(bar).join("");
+  const fold = !(names.length <= 6 || more.length < 3);
+  const allShut = (fold ? [...main, "More conferences"] : names).every(liveShut);
+  let html = best.length ? `<div class="sect big"><span>Featured</span></div><div class="flat best">${best.map(e=>card(e)).join("")}</div>` : "";
+  html += `<div class="sect big${best.length ? "" : ""}"><span>Live<span class="sn lv">${best.length ? rest.length+" more" : shown.length}</span></span>${useBars && names.length > 1 ? `<button class="foldall" aria-label="${allShut?"Expand all":"Collapse all"}" data-confall="${allShut?"open":"shut"}" data-cday="live">${allShut?"+":"−"}</button>` : ""}</div>`;
+  if(!useBars) return html + `<div class="flat">${rest.map(e=>card(e)).join("")}</div>`;
+  const bar = n => { const gs = groups.get(n), shut = liveShut(n); return confHead(n, gs.length, shut, "live") + (shut ? "" : gs.map(e=>card(e)).join("")); };
+  if(!fold) return html + names.map(bar).join("");
   const shutMore = liveShut("More conferences");
   return html + main.map(bar).join("") + `<div class="cgap"></div>` + confHead("More conferences", more.reduce((t, n)=>t + groups.get(n).length, 0), shutMore, "live")
     + (shutMore ? "" : `<div class="more-confs">${more.map(bar).join("")}</div>`);
@@ -1600,7 +1603,7 @@ function renderUpcoming(embed){
     const main = names.filter(n => rankC(n) < 1e3 || groups.get(n).some(isFavGame));
     const rest = names.filter(n => !main.includes(n));
     const fold = !q && !isFB() && rest.length > 6;
-    const head = `<div class="sect">${esc(label)}${names.length>1 && !q ? `<button class="lnk" data-confall="${allShut?"open":"shut"}" data-cday="${esc(day)}">${allShut?"Expand all":"Collapse all"}</button>` : ""}</div>`;
+    const head = `<div class="sect">${esc(label)}${names.length>1 && !q ? `<button class="foldall" aria-label="${allShut?"Expand all":"Collapse all"}" data-confall="${allShut?"open":"shut"}" data-cday="${esc(day)}">${allShut?"+":"−"}</button>` : ""}</div>`;
     if(!fold) return head + names.map((n, i)=>bar(n, i, names)).join("");
     const moreShut = isShut("More conferences", day);
     return head + main.map((n, i)=>bar(n, i, main)).join("") + `<div class="cgap"></div>` +
@@ -2016,20 +2019,21 @@ async function resolveCandidate(c){
   }
   return [];
 }
+let pending = null; // the station being connected: {token, loc, sub}
 async function playList(list, name, sub, loc){
-  const token = ++tryToken;
+  const token = ++tryToken; pending = {token, loc, sub};
   $("#nowName").textContent = name; $("#nowSub").textContent = "Connecting…";
   for(const c of list){
     for(const url of await resolveCandidate(c)){
-      if(token !== tryToken) return;
+      if(token !== tryToken || deck) return;
       const ok = await tryUrl(url);
-      if(token !== tryToken) return;
+      if(token !== tryToken || deck) return;
       if(ok){ connected(loc, url, sub); return; }
     }
   }
   // Nothing answered within the timer, but the last stream is still loading: if it starts in the
   // next 20 seconds, treat that as success instead of leaving it playing behind an error message.
-  const late = ()=>{ audio.removeEventListener("playing", late); if(token===tryToken){ const u = lastTried; connected(loc, u, sub); } };
+  const late = ()=>{ audio.removeEventListener("playing", late); if(token===tryToken && !deck){ const u = lastTried; connected(loc, u, sub); } };
   audio.addEventListener("playing", late);
   const giveUp = ()=>{
     const ext = loc && RADIO[loc]?.external;
@@ -2044,7 +2048,7 @@ async function playList(list, name, sub, loc){
 }
 let lastTried = null;
 function connected(loc, url, sub){
-  lastProgress = Date.now();
+  pending = null; lastProgress = Date.now();
   if(loc) track(`listen/${SPORT.id}/${loc}`, `Listen: ${loc} (${SPORT.g ? SPORT.g + " " : ""}${SPORT.name})`);
   deck = {loc, url, sub}; syncOnAir();
   // Each station keeps its own score delay: start from its saved value, or live, then let auto-sync refine it.
@@ -2057,9 +2061,10 @@ function connected(loc, url, sub){
 function tryUrl(url){
   lastTried = url;
   return new Promise(res=>{
-    let done = false; const fin = v=>{ if(done) return; done = true; clearTimeout(tm); audio.removeEventListener("playing", onOk); audio.removeEventListener("error", onErr); res(v); };
+    let done = false; const fin = v=>{ if(done) return; done = true; clearTimeout(tm); audio.removeEventListener("playing", onOk); audio.removeEventListener("error", onErr); audio.removeEventListener("timeupdate", onTime); res(v); };
     const onOk = ()=>fin(true), onErr = ()=>fin(false), tm = setTimeout(()=>fin(false), 8000);
-    audio.addEventListener("playing", onOk); audio.addEventListener("error", onErr);
+    const onTime = ()=>{ if(audio.currentTime > 0 && !audio.paused){ audio.removeEventListener("timeupdate", onTime); fin(true); } };
+    audio.addEventListener("playing", onOk); audio.addEventListener("error", onErr); audio.addEventListener("timeupdate", onTime);
     play(url, $("#nowName").textContent, "Connecting…");
   });
 }
@@ -2107,6 +2112,7 @@ audio.onerror = ()=>{ if(connecting) return; if(deck) reconnect(); else $("#nowS
    try the same stream again, then the team's other streams. Gives up after 4 tries in a row. */
 let lastProgress = 0, lastTime = -1, reconnects = 0, reconnectAt = 0;
 audio.addEventListener("timeupdate", ()=>{
+  if(pending && pending.token===tryToken && !deck && !audio.paused && audio.currentTime > 0.5){ const p = pending; connected(p.loc, lastTried, p.sub); }
   if(audio.currentTime !== lastTime){ lastTime = audio.currentTime; lastProgress = Date.now(); }
   if(reconnects && Date.now() - reconnectAt > 60000) reconnects = 0; // a minute of good audio resets the count
 });
