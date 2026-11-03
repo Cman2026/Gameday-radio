@@ -494,6 +494,14 @@ h1 span{color:inherit}
 .syncrow .val{min-width:0!important;white-space:nowrap;padding:0 2px}
 .syncrow .btn.sm{padding-inline:10px;white-space:nowrap}
 @media (max-width:380px){.syncrow .lab{display:none}}
+.syncpill{flex:none;display:inline-flex;flex-direction:column;align-items:center;justify-content:center;gap:0;height:40px;padding:0 12px;border-radius:12px;border:0;background:var(--accent);color:var(--accent-ink);font:700 12.5px/1.1 var(--ui);letter-spacing:.01em;cursor:pointer;box-shadow:0 0 12px color-mix(in srgb,var(--accent) 40%,transparent)}
+.syncpill span{display:block;white-space:nowrap}
+.syncpill.done{font-size:13.5px;box-shadow:none}
+.syncpill:active{transform:scale(.96)}
+.deck.idle .syncpill{display:none!important}
+.deck.min .syncpill{height:34px}
+.deck .now{flex-basis:90px}
+.syncpill{padding:0 10px}
 </style>
 </head>
 <body>
@@ -501,6 +509,7 @@ h1 span{color:inherit}
   <div class="deck-in">
     <button class="play-btn" id="pp" aria-label="Play radio"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.4-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg></button>
     <div class="now"><b id="nowName">Radio off</b><small id="nowSub">Tap Listen next to a team</small></div>
+    <button class="syncpill" id="syncPill" hidden><span>Radio-Score</span><span>Sync</span></button>
     <button class="btn sm minbtn" id="deckMin" aria-expanded="true" aria-label="Minimize radio controls" title="Minimize"><svg viewBox="0 0 24 24" width="32" height="32" aria-hidden="true"><path d="M5 9l7 7 7-7" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
     <select id="station" aria-label="Station" hidden></select>
     <div class="syncrow" role="group" aria-label="Sync scores with the radio">
@@ -2323,6 +2332,11 @@ function syncLabel(){
   $("#delayV").textContent = (delay ? `Held ${delay}s` : "Live") + (syncMode==="heard" || syncMode==="stream" ? " ✓" : "");
   $("#delayV").title = (delay ? `Scores held ${delay} seconds` : "Scores live") + tag;
   $("#syncHeard").classList.toggle("hint", !!deck && syncMode==="off");
+  // The bold "Radio-Score Sync" button in the radio bar: gold until this station is lined up, then a quiet "Synced ✓".
+  const pill = $("#syncPill"), on = !!deck && !!onAirGame(), done = syncMode==="heard" || syncMode==="stream";
+  pill.hidden = !on; pill.classList.toggle("done", done);
+  pill.innerHTML = done ? "<span>Synced ✓</span>" : "<span>Radio-Score</span><span>Sync</span>";
+  pill.setAttribute("aria-label", done ? "Radio and scores are synced. Tap to sync again." : "Radio-Score Sync: line the scores up with the radio");
 }
 // − / +: move the radio's lag by 2 seconds and remember it for this station.
 function nudgeSync(by){
@@ -2344,6 +2358,7 @@ function syncPicker(){
       : `<p class="sp-none">${g ? "No play-by-play for this game yet. Use − and + to line it up." : "Start a game's radio first."}</p>`);
 }
 $("#syncHeard").onclick = ()=>{ const box = $("#syncPick"); box.hidden = !box.hidden; syncPicker(); };
+$("#syncPill").onclick = ()=>{ if(document.querySelector(".deck").classList.contains("min")) setDeckMin(false); $("#syncPick").hidden = false; syncPicker(); };
 setInterval(syncPicker, 3000);
 document.addEventListener("click", ev=>{
   if(ev.target.closest("#syncClose")){ $("#syncPick").hidden = true; return; }
