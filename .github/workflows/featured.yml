@@ -1,0 +1,16 @@
+name: Featured picks report
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 11 * * *"   # every morning, about 6-7 AM Eastern, after the night's games
+permissions:
+  contents: write
+concurrency: featured-report
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: python3 tools/featured_report.py
+        env: { GOATCOUNTER_TOKEN: "${{ secrets.GOATCOUNTER_TOKEN }}" }
+      - run: tools/publish.sh "Featured picks report" reports/featured.html featured-log.json

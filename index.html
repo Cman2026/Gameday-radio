@@ -1298,22 +1298,32 @@ const hotStreak = e => e.competitions[0].competitors.some(t=>streakOf(t.team) >=
      Win streak 6+ (basketball) .......................... 10   (+2 per extra win, up to 25)
      One Top 25 team ...................................... 5   (+5 if top 10) */
 const FEAT_IN = 40, FEAT_FIFTH = 60, FEAT_MAX = 5, FEAT_USUAL = 4;
-function featureScore(e){
+// Points for a game, itemized: [[reason, points], ...].
+function featureBreakdown(e){
   const cs = e.competitions[0].competitors, rk = t => (rankedT(t) ? t.curatedRank.current : 99);
-  const ranked = cs.filter(rankedT), top10 = cs.filter(t=>rk(t) <= 10);
-  let pts = 0;
-  if(overtime(e)) pts += 50;
-  else if(crunch(e)) pts += 40;
-  else { const [x, y] = scoresOf(e), cb = COMEBACK[SPORT.id]; if(cb && (e.status?.period||0) >= (HALF2[SPORT.id]||99) && Math.abs(x - y) <= cb[1]) pts += 10; }
-  if(ranked.length === 2) pts += 30 + (top10.length === 2 ? 10 : 0);
-  else if(ranked.length === 1) pts += 5 + (top10.length ? 5 : 0);
-  if(comeback(e)) pts += 30;
-  if(upset(e)){ const trail = cs.find(t=>rankedT(t)); pts += 25 + (trail && rk(trail) <= 10 ? 10 : 0); }
-  if(rivalry(e)) pts += 20;
-  if(unbeaten(e)) pts += 15;
+  const ranked = cs.filter(rankedT), top10 = cs.filter(t=>rk(t) <= 10), out = [];
+  if(overtime(e)) out.push(["Overtime", 50]);
+  else if(crunch(e)) out.push(["Close finish", 40]);
+  else { const [x, y] = scoresOf(e), cb = COMEBACK[SPORT.id]; if(cb && (e.status?.period||0) >= (HALF2[SPORT.id]||99) && Math.abs(x - y) <= cb[1]) out.push(["Close in the second half", 10]); }
+  if(ranked.length === 2) out.push([top10.length === 2 ? "Top 10 vs top 10" : "Ranked vs ranked", 30 + (top10.length === 2 ? 10 : 0)]);
+  else if(ranked.length === 1) out.push([top10.length ? "Top 10 team" : "Top 25 team", 5 + (top10.length ? 5 : 0)]);
+  if(comeback(e)) out.push(["Comeback", 30]);
+  if(upset(e)){ const trail = cs.find(t=>rankedT(t)), big = trail && rk(trail) <= 10; out.push([big ? "Upset watch (top 10 trailing)" : "Upset watch", 25 + (big ? 10 : 0)]); }
+  if(rivalry(e)) out.push(["Rivalry", 20]);
+  if(unbeaten(e)) out.push(["Unbeaten late in the season", 15]);
   // Longer streaks count more: 6 wins = 10, +2 per extra win, up to 25 (a 14-game streak).
-  const st = Math.max(...cs.map(t=>streakOf(t.team))); if(st >= 6) pts += Math.min(25, 10 + 2*(st - 6));
-  return pts;
+  const st = Math.max(...cs.map(t=>streakOf(t.team))); if(st >= 6) out.push([`${st}-game win streak`, Math.min(25, 10 + 2*(st - 6))]);
+  return out;
+}
+function featureScore(e){ return featureBreakdown(e).reduce((t, [, p])=>t + p, 0); }
+// Every pick is recorded, itemized, so it can be reviewed later: an analytics event the daily
+// Featured report reads ("featured/<sport>/<game id>"), plus a log on this device.
+function logFeatured(e, slot){
+  const c = e.competitions[0], a = team(c,"away"), h = team(c,"home"), items = featureBreakdown(e), pts = items.reduce((t, [, p])=>t + p, 0);
+  const rk = t => rankedT(t) ? `#${t.curatedRank.current} ` : "";
+  const title = `${slot} | ${rk(a)}${a.team.location} ${a.score} at ${rk(h)}${h.team.location} ${h.score} | ${statusText(e).short} | ${pts} pts: ${items.map(([r, p])=>`${r} +${p}`).join(", ")}`;
+  track(`featured/${SPORT.id}/${e.id}`, title);
+  try{ const log = JSON.parse(store.get("featuredLog")||"[]").filter(x=>Date.now() - x.at < 3*864e5); log.push({at: Date.now(), sport: SPORT.id, id: e.id, title}); store.set("featuredLog", JSON.stringify(log)); }catch(err){}
 }
 // The featured games for each sport, kept on this device for the day so a refresh doesn't reshuffle them.
 const FEAT = (()=>{ try{ const o = JSON.parse(store.get("featured")||"{}"); return o.day === new Date().toDateString() ? o : {day: new Date().toDateString()}; }catch(e){ return {day: new Date().toDateString()}; } })();
@@ -1326,8 +1336,8 @@ function updateFeatured(live){
   const cands = live.filter(e=>e.status.type.state==="in" && !keep.includes(e.id) && e.id !== pick).map(e=>[e, featureScore(e)])
     .filter(([, p])=>p >= FEAT_IN).sort((x, y)=>y[1]-x[1]);
   for(const [e, p] of cands){
-    if(keep.length < FEAT_USUAL) keep.push(e.id);
-    else if(!pick && p >= FEAT_FIFTH) pick = e.id;
+    if(keep.length < FEAT_USUAL){ keep.push(e.id); logFeatured(e, "Featured"); }
+    else if(!pick && p >= FEAT_FIFTH){ pick = e.id; logFeatured(e, "Editor's Pick"); }
   }
   if(keep.join() !== ids.join() || pick !== pick0){ FEAT[key] = keep; FEAT[key + "|pick"] = pick; FEAT.day = new Date().toDateString(); store.set("featured", JSON.stringify(FEAT)); }
 }
