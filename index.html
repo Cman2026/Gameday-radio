@@ -832,6 +832,22 @@ const favs = new Set((()=>{try{return JSON.parse(store.get("favs")||"[]")}catch(
 function saveFavs(){ store.set("favs", JSON.stringify([...favs])); }
 const isFavGame = e => e.competitions[0].competitors.some(t=>favs.has(t.team.location));
 const isTop25 = e => e.competitions[0].competitors.some(t=>t.curatedRank?.current && t.curatedRank.current < 26);
+/* Live list order: close games near the end first, then games with a Top 25 team, then the rest
+   (each group by start time). A game only moves when it crosses one of these lines. */
+function crunch(e){
+  const st = e.status||{}, p = st.period||0, clk = st.clock||0, [x,y] = e.competitions[0].competitors.map(t=>Number(t.score)||0), d = Math.abs(x-y);
+  switch(SPORT.id){
+    case "fb":  return p>=4 && d<=8;
+    case "mbb": return (p>2 || (p===2 && clk<=300)) && d<=8;
+    case "wbb": return (p>4 || (p===4 && clk<=300)) && d<=8;
+    case "mhk": case "whk": return p>=3 && d<=1;
+    case "wvb": return p>=4 && d<=1;
+    case "bsb": return p>=7 && d<=2;
+    case "sb":  return p>=5 && d<=2;
+  }
+  return false;
+}
+const liveRank = e => crunch(e) ? 0 : isTop25(e) ? 1 : 2;
 const divOK = e => divFilter==="all" || (divFilter==="fav" ? isFavGame(e) : divFilter==="T25" ? isTop25(e) : e._div===divFilter);
 function fmtTime(d){return new Date(d).toLocaleString([], {weekday:"short", hour:"numeric", minute:"2-digit", hour12:true})}
 function now12(){return new Date().toLocaleTimeString([], {hour:"numeric",minute:"2-digit",second:"2-digit",hour12:true})}
@@ -1071,7 +1087,7 @@ function render(){
   const q = query.trim().toLowerCase();
   let shown = live.filter(e=> divOK(e))
     .filter(e=> !q || e.competitions[0].competitors.some(t=>[t.team.location,t.team.displayName,t.team.shortDisplayName,t.team.abbreviation].join(" ").toLowerCase().includes(q)))
-    .sort((a,b)=> (isFavGame(b)-isFavGame(a)) || new Date(a.date)-new Date(b.date) || a.id.localeCompare(b.id));
+    .sort((a,b)=> liveRank(a)-liveRank(b) || new Date(a.date)-new Date(b.date) || a.id.localeCompare(b.id));
     const list = $("#list");
   let changed;
   if(!shown.length){
