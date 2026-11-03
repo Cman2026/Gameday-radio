@@ -1119,6 +1119,7 @@ function render(){
   if(selected && boardOpen && live.some(e=>e.id===selected && e.status.type.state==="in")) pollSummary(selected, 6000);
   const q = query.trim().toLowerCase();
   renderChips(events.filter(e=>isToday(e.date) || e.status.type.state==="in"), live);
+  trackLeads(live);
   let shown = live.filter(e=> divOK(e))
     .filter(e=> !q || e.competitions[0].competitors.some(t=>[t.team.location,t.team.displayName,t.team.shortDisplayName,t.team.abbreviation].join(" ").toLowerCase().includes(q)))
     .sort((a,b)=> liveRank(a)-liveRank(b) || new Date(a.date)-new Date(b.date) || a.id.localeCompare(b.id));
@@ -1143,15 +1144,65 @@ function render(){
   placeBoard();
   syncLayout(); updateDeck();
 }
+/* Featured games. In order: overtime, close finishes, comebacks, upset watch, ranked vs ranked,
+   rivalries, unbeaten teams late in the season, basketball win streaks of 6+. */
+const REG = {fb:4, mbb:2, wbb:4, mhk:3, whk:3, bsb:9, sb:7};             // regulation periods / innings
+const HALF2 = {fb:3, mbb:2, wbb:3, mhk:2, whk:2, bsb:5, sb:4};          // "second half" for upset watch
+const COMEBACK = {fb:[17,8], mbb:[15,4], wbb:[15,4], mhk:[3,1], whk:[3,1], bsb:[5,1], sb:[5,1]}; // [was down, now within]
+const scoresOf = e => { const c = e.competitions[0]; return [Number(team(c,"home").score)||0, Number(team(c,"away").score)||0]; };
+const rankedT = t => t.curatedRank?.current && t.curatedRank.current < 26;
+const overtime = e => (e.status?.period||0) > (REG[SPORT.id] || 99);
+// Biggest lead each side has had: watched while the page is open, plus the score at the end of each period.
+const LEADS = (()=>{ try{ const o = JSON.parse(store.get("leads")||"{}"), cut = Date.now() - 2*864e5; for(const k in o) if(o[k].t < cut) delete o[k]; return o; }catch(e){ return {}; } })();
+function trackLeads(live){
+  let dirty = false;
+  for(const e of live){
+    if(e.status.type.state!=="in") continue;
+    const c = e.competitions[0], h = team(c,"home"), a = team(c,"away"), L = LEADS[e.id] || (LEADS[e.id] = {h:0, a:0, t:Date.now()});
+    const marks = [scoresOf(e)];
+    let hs = 0, as = 0; (h.linescores||[]).forEach((l, i)=>{ hs += +l.value||0; as += +(a.linescores||[])[i]?.value||0; marks.push([hs, as]); });
+    for(const [x, y] of marks){ if(x-y > L.h){ L.h = x-y; dirty = true; } if(y-x > L.a){ L.a = y-x; dirty = true; } }
+    L.t = Date.now();
+  }
+  if(dirty) store.set("leads", JSON.stringify(LEADS));
+}
+function comeback(e){
+  const L = LEADS[e.id], cb = COMEBACK[SPORT.id]; if(!L || !cb) return false;
+  const [x, y] = scoresOf(e);
+  return (L.h >= cb[0] && x - y <= cb[1]) || (L.a >= cb[0] && y - x <= cb[1]);
+}
+function upset(e){
+  if((e.status?.period||0) < (HALF2[SPORT.id] || 99)) return false;
+  const c = e.competitions[0], h = team(c,"home"), a = team(c,"away"), [x, y] = scoresOf(e);
+  const lead = x > y ? h : y > x ? a : null, trail = lead===h ? a : h;
+  return !!lead && !rankedT(lead) && rankedT(trail);
+}
+const RIVALS = {
+  fb: [["Ohio State","Michigan"],["Alabama","Auburn"],["Army","Navy"],["Georgia","Florida"],["Texas","Oklahoma"],["Oregon","Washington"],["USC","UCLA"],["Notre Dame","USC"],["Clemson","South Carolina"],["Florida","Florida State"],["Ole Miss","Mississippi State"],["Texas","Texas A&M"],["Michigan","Michigan State"],["Minnesota","Wisconsin"],["Iowa","Iowa State"],["Kansas","Kansas State"],["Oklahoma","Oklahoma State"],["BYU","Utah"],["Auburn","Georgia"],["Alabama","Tennessee"],["Pittsburgh","West Virginia"],["California","Stanford"],["Oregon","Oregon State"],["Washington","Washington State"],["Arizona","Arizona State"],["Miami","Florida State"],["Virginia","Virginia Tech"],["North Carolina","NC State"],["Louisville","Kentucky"],["Indiana","Purdue"],["Harvard","Yale"],["Lehigh","Lafayette"],["Grambling","Southern"],["Texas Tech","TCU"],["Baylor","TCU"],["Nebraska","Iowa"],["Penn State","Ohio State"],["Colorado","Colorado State"],["Utah","Utah State"]],
+  bb: [["Duke","North Carolina"],["Kentucky","Louisville"],["Kansas","Kansas State"],["Kansas","Missouri"],["Indiana","Purdue"],["Michigan","Michigan State"],["Arizona","Arizona State"],["UCLA","USC"],["Syracuse","Georgetown"],["Villanova","Georgetown"],["Gonzaga","Saint Mary's"],["Cincinnati","Xavier"],["Alabama","Auburn"],["Kentucky","Tennessee"],["UConn","Tennessee"],["UConn","South Carolina"],["UConn","Villanova"],["Texas","Oklahoma"],["Ohio State","Michigan"],["Iowa","Iowa State"],["North Carolina","NC State"],["Virginia","Virginia Tech"],["Florida","Florida State"],["Oregon","Oregon State"],["Washington","Washington State"],["BYU","Utah"],["Memphis","Louisville"],["Marquette","Wisconsin"],["Kentucky","Indiana"],["Stanford","California"]],
+  hk: [["Minnesota","Wisconsin"],["Michigan","Michigan State"],["North Dakota","Minnesota"],["Denver","Colorado College"],["Boston College","Boston University"],["Harvard","Cornell"],["Minnesota","Minnesota Duluth"],["North Dakota","Denver"],["Michigan","Notre Dame"],["Boston University","Northeastern"]],
+  bs: [["Florida","Florida State"],["LSU","Ole Miss"],["Texas","Texas A&M"],["Arkansas","Missouri"],["Stanford","California"],["UCLA","USC"]],
+  sb: [["Oklahoma","Texas"],["Florida","Florida State"],["UCLA","Arizona"],["Alabama","Auburn"]],
+};
+const rivalSet = {}; for(const [k, list] of Object.entries(RIVALS)) rivalSet[k] = new Set(list.map(p=>p.map(normName).sort().join("|")));
+const rivalry = e => { const c = e.competitions[0]; const key = [team(c,"home").team, team(c,"away").team].map(t=>normName(t.location || t.shortDisplayName)).sort().join("|");
+  return !!rivalSet[isFB() ? "fb" : SPORT.tile]?.has(key); };
+// Unbeaten late in the season: basketball from January with 10+ wins, football from October with 6+.
+function unbeaten(e){
+  const m = new Date().getMonth(), late = isFB() ? (m >= 9 || m === 0) : SPORT.court ? m <= 3 : false, need = isFB() ? 6 : 10;
+  return late && e.competitions[0].competitors.some(t=>{ const [w, l, tie] = String(t.records?.[0]?.summary||"").split("-").map(Number); return w >= need && l === 0 && !tie; });
+}
+const hotStreak = e => e.competitions[0].competitors.some(t=>streakOf(t.team) >= 6);
+function featureTier(e, both){
+  return overtime(e) ? 0 : crunch(e) ? 1 : comeback(e) ? 2 : upset(e) ? 3 : both(e) ? 4 : rivalry(e) ? 5 : unbeaten(e) ? 6 : hotStreak(e) ? 7 : 9;
+}
 // Live games: a few standout games on top (close finishes, ranked matchups), then the rest under
 // conference bars you can fold. A filter or a search shows one plain list instead.
 function liveSection(shown, q){
   const both = e => e.competitions[0].competitors.every(t=>t.curatedRank?.current && t.curatedRank.current < 26);
   const grouped = !q && ["all","T25"].includes(divFilter) && shown.length > 4;
-  const hot = e => e.competitions[0].competitors.some(t=>streakOf(t.team) >= 6);
-  const tier = e => crunch(e) ? 0 : both(e) ? 1 : hot(e) ? 2 : 9;
-  const best = grouped ? shown.filter(e=>tier(e) < 9).sort((x, y)=>tier(x)-tier(y)).slice(0, 3) : [];
-  const why = e => crunch(e) ? (isTop25(e) ? "Top 25 · Close" : "Close finish") : "Ranked matchup";
+  const tiers = new Map(shown.map(e=>[e, featureTier(e, both)]));
+  const best = grouped ? shown.filter(e=>tiers.get(e) < 9).sort((x, y)=>tiers.get(x)-tiers.get(y)).slice(0, 3) : [];
   const rest = shown.filter(e=>!best.includes(e));
   const groups = new Map();
   if(grouped) for(const e of rest){ const c = groupConf(e); if(!groups.has(c)) groups.set(c, []); groups.get(c).push(e); }
