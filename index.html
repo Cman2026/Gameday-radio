@@ -1149,7 +1149,7 @@ function liveSection(shown, q){
   const names = [...groups.keys()].sort(byConf);
   const useBars = grouped && !(names.length===1 && names[0]==="Other games");
   const allShut = names.every(liveShut);
-  let html = best.length ? `<div class="sect big"><span>Best right now</span></div><div class="flat best">${best.map(e=>card(e, why(e))).join("")}</div>` : "";
+  let html = best.length ? `<div class="sect big"><span>Featured</span></div><div class="flat best">${best.map(e=>card(e, why(e))).join("")}</div>` : "";
   html += `<div class="sect big${best.length ? "" : ""}"><span>Live<span class="sn lv">${best.length ? rest.length+" more" : shown.length}</span></span>${useBars && names.length > 1 ? `<button class="lnk" data-confall="${allShut?"open":"shut"}" data-cday="live">${allShut?"Expand all":"Collapse all"}</button>` : ""}</div>`;
   if(!useBars) return html + `<div class="flat">${rest.map(e=>card(e)).join("")}</div>`;
   const bar = n => { const gs = groups.get(n), shut = liveShut(n); return confHead(n, gs.length, shut, "live") + (shut ? "" : gs.map(e=>card(e)).join("")); };
