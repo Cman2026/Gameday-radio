@@ -1,5 +1,5 @@
 {
-"built": "2026-11-03T20:19:56Z",
+"built": "2026-11-03T20:27:29Z",
 "teams": [
 {
 "school": "Boston College",
@@ -663,8 +663,8 @@
 "https://ice64.securenetsystems.net/WZGV2",
 "https://cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8"
 ],
-"misses": 0,
-"miss_day": null,
+"misses": 1,
+"miss_day": "2026-11-03",
 "last_ok": "2026-11-03",
 "live_only": false,
 "athletics_site": "https://charlotte49ers.com",
@@ -4348,7 +4348,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://ice5.securenetsystems.net/WQNT?playSessionID=5E69434F-F77A-448E-350C666945953317"
+"https://ice5.securenetsystems.net/WQNT?playSessionID=5ECE3E4D-B7EC-2495-C9F0EC24D14FEB55"
 ],
 "misses": 0,
 "miss_day": null,
@@ -5545,8 +5545,8 @@
 "streams": [
 "https://das-edge29-sa27-lax02.cdnstream.com/2284_96.aac"
 ],
-"misses": 1,
-"miss_day": "2026-11-03",
+"misses": 0,
+"miss_day": null,
 "last_ok": "2026-11-03",
 "athletics_site": "https://weberstatesports.com",
 "station_sports": null,
@@ -5730,7 +5730,9 @@
 "game_only": null,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://live.amperwave.net/manifest/jdl-wvigfmaac-hlsc.m3u8"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-03",
@@ -6453,7 +6455,7 @@
 ],
 "game_only": null,
 "no_radio": null,
-"notes": "Nov 2026: WXTQ SecureNet stream returns 403. Affiliates per ohiobobcats.com coaches-shows page (Apr 2026): WMNI 920 Columbus, WYPC 105.3/1330 Jackson, WJAW 630/92.9 Marietta-Parkersburg. Added JAWCO WJAW-FM 100.9 stream (us7.maindigitalstream.com/2174, from wmoa1490.com/89; carried games in the 2021 network list). Free school audio: ohiobobcats.com / Varsity app (found at game time).",
+"notes": "Nov 2026: WXTQ SecureNet stream sometimes returns 403 to the resolver; it played again on Nov 3. Affiliates per ohiobobcats.com coaches-shows page (Apr 2026): WMNI 920 Columbus, WYPC 105.3/1330 Jackson, WJAW 630/92.9 Marietta-Parkersburg. WJAW-FM 100.9 player (us7.maindigitalstream.com/2174) is an HTML page, not a stream. Free school audio: ohiobobcats.com / Varsity app (found at game time).",
 "streams": [
 "https://ice6.securenetsystems.net/WXTQ"
 ],
@@ -6637,8 +6639,8 @@
 "streams": [
 "https://cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8"
 ],
-"misses": 0,
-"miss_day": null,
+"misses": 1,
+"miss_day": "2026-11-03",
 "last_ok": "2026-11-03",
 "live_only": false,
 "athletics_site": "https://fiusports.com",
