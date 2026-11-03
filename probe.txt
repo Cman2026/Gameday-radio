@@ -1,93 +1,12 @@
-===== https://s2.radioreformation.com:8060/stream
+===== https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?groups=50&limit=900
+HTTP/2 200 
+content-type: application/json;charset=UTF-8
+access-control-allow-origin: *
+access-control-allow-methods: GET,PUT,POST,DELETE,OPTIONS,HEAD
+access-control-expose-headers: content-length,location
+link: <scoreboard.json#>; rel="describedby"
+cache-control: max-age=6
+date: Tue, 03 Nov 2026 02:08:19 GMT
 
-===== https://s2.radioreformation.com/8060/stream
-
-===== http://opml.radiotime.com/Tune.ashx?id=s23659
-HTTP/1.1 200 OK
-Date: Mon, 02 Nov 2026 19:58:03 GMT
-Content-Type: audio/x-mpegurl
-Content-Length: 74
-Connection: keep-alive
-set-cookie: __cf_bm=9YApMrdVB0TY3D_plbgaADx4WAtja0cuiJpQBRZnZIw-1793649483.8685167-1.0.1.1-A47RtZ1rrGp.hUSbf8AkKI8HLTbqfFiELmUWYcOdoH1RY7w67JTSPIiVFHDph9DlEbldh8En3JvgSLcjFJFxzahPjGhUk55OmITg6.oL9WOUr50B0GfZ7u0Vi1ocjRZY; HttpOnly; Path=/; Domain=radiotime.com; Expires=Mon, 02 Nov 2026 20:28:03 GMT
-server: cloudflare
-x-tunein-dc: us-west-2
-x-tunein-trace-id: e1cc1454db014725ae22ee0c680405d5
-x-tunein-span-id: 1277c130bd1aadfb
-x-envoy-upstream-service-time: 7
-cf-cache-status: DYNAMIC
-CF-RAY: a545b63a289883b0-MSP
-
-http://tesla.whiteaudio.com:8138/stream
-http://67.212.165.106:8181/stream
-
-===== http://opml.radiotime.com/Tune.ashx?id=s28462
-HTTP/1.1 200 OK
-Date: Mon, 02 Nov 2026 19:58:04 GMT
-Content-Type: audio/x-mpegurl
-Content-Length: 344
-Connection: keep-alive
-set-cookie: __cf_bm=kS_axiqmK.QKEb.EH5_CM7fSo3xMhQ8gjyT_IT1F3x8-1793649483.9789414-1.0.1.1-hFDPLERPfqFVLuhoNpWf4WA4F9HuH2ARliZgWevGwMzUc95q07tcg_9yDq7PvbiBTRT1EWocj.5ZBMKzhqsO6ycg7R.wCH5w_Vg_8pALeKaCUfI8jHWZu.yJJb68FvrP; HttpOnly; Path=/; Domain=radiotime.com; Expires=Mon, 02 Nov 2026 20:28:04 GMT
-server: cloudflare
-x-tunein-dc: us-west-2
-x-tunein-trace-id: 5c5e7a07d55737ebdaaf46b2e2c081e1
-x-tunein-span-id: 2b1ec1d2f33027c8
-x-envoy-upstream-service-time: 8
-cf-cache-status: DYNAMIC
-CF-RAY: a545b63adad283b0-MSP
-
-http://playerservices.streamtheworld.com/pls/WEEXAM.pls?tdtok=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6ImZTeXA4In0.eyJpc3MiOiJ0aXNydiIsInN1YiI6IjIxMDY0IiwiaWF0IjoxNzkzNjQ5NDg0LCJ0ZC1yZWciOmZhbHNlfQ.CZ1VOl1G5vC80EEUjKd5_QSnO3lPYuKCoM-laj18nLQ&source=TuneIn&gdpr=0
-https://playerservices.streamtheworld.com/pls/WEEXAM.pls?source=TuneIn&gdpr=0
-
-===== http://opml.radiotime.com/Search.ashx?query=KXTK
-HTTP/1.1 200 OK
-Date: Mon, 02 Nov 2026 19:58:04 GMT
-Content-Type: text/xml
-Transfer-Encoding: chunked
-Connection: keep-alive
-set-cookie: __cf_bm=LwO0RDiNvMpDQzwVRWAc3PyOiA9T4_Ek0_XoL9VjEYk-1793649484.0873172-1.0.1.1-pUaXebm9YHANB_WCFdF859gfek.QYYiZhXoOulEQ9stgiFE6rHrQ1WwqaV3wVq6HPk4wpyjFZYQJx6B.cwOcMddsHq2ZsP9nxjTEqyhvN5cKVq3S0Rb90MpReBlRjFnf; HttpOnly; Path=/; Domain=radiotime.com; Expires=Mon, 02 Nov 2026 20:28:04 GMT
-server: cloudflare
-vary: Accept-Encoding
-x-tunein-dc: us-west-2
-x-tunein-trace-id: 139117ec6e51c68e17be93748856850c
-x-tunein-span-id: 61403e6cefe50137
-x-envoy-upstream-service-time: 89
-cf-cache-status: DYNAMIC
-CF-RAY: a545b63b8a14acf0-MSP
-
-<?xml version="1.0" encoding="UTF-8"?>
-<opml version="1">
-	<head>
-	<title>Search Results: kxtk</title>
-	<status>200</status>
-
-	</head>
-	<body>
-<outline type="audio" text="KXT" URL="http://opml.radiotime.com/Tune.ashx?id=s26180" bitrate="128" reliability="99" guide_id="s26180" subtext="The Republic of Music" genre_id="g4151" formats="mp3" item="station" image="http://cdn-profiles.tunein.com/s26180/images/logoq.png?t=1762545800000" now_playing_id="s26180" preset_id="s26180"/>
-<outline type="link" text="CXOTalk" URL="http://opml.radiotime.com/Tune.ashx?c=pbrowse&amp;id=p1160803" guide_id="p1160803" subtext="C-Suite Conversations on AI and Strategy." genre_id="g3400" key="topics" item="show" image="http://cdn-profiles.tunein.com/p1160803/images/logoq.png?t=11" current_track="C-Suite Conversations on AI and Strateg
-===== http://opml.radiotime.com/Search.ashx?query=ESPN%20Des%20Moines
-HTTP/1.1 200 OK
-Date: Mon, 02 Nov 2026 19:58:04 GMT
-Content-Type: text/xml
-Transfer-Encoding: chunked
-Connection: keep-alive
-set-cookie: __cf_bm=4zg9IkuafY.iLlNAW61U3yAHFfMngcapi7X1mmlAE.I-1793649484.2948022-1.0.1.1-XaLukseD4g6fFPumL3ruLI2u8clDCqayafjw8mQwav_NRvoUBEFilK9km0VLYZMywMImU.X9csA3aHB2q6mjJruy1Bqv4Bpdee2KBo7b1nZELCjMkyHZcYSfgGtSar1Q; HttpOnly; Path=/; Domain=radiotime.com; Expires=Mon, 02 Nov 2026 20:28:04 GMT
-server: cloudflare
-vary: Accept-Encoding
-x-tunein-dc: us-west-2
-x-tunein-trace-id: 9c47d4a4d9906c7561e2ad84d66d3923
-x-tunein-span-id: de3dcfa3681d740d
-x-envoy-upstream-service-time: 201
-cf-cache-status: DYNAMIC
-CF-RAY: a545b63ccbc5acf0-MSP
-
-<?xml version="1.0" encoding="UTF-8"?>
-<opml version="1">
-	<head>
-	<title>Search Results: espn des moines</title>
-	<status>200</status>
-
-	</head>
-	<body>
-<outline type="link" text="ESPN Des Moines" URL="http://opml.radiotime.com/Tune.ashx?c=pbrowse&amp;id=p1839942" guide_id="p1839942" subtext="Des Moines&apos; Sports Leader" key="topics" item="show" image="http://cdn-profiles.tunein.com/p1839942/images/logoq.png?t=1" current_track="Des Moines&apos; Sports Leader" preset_id="p1839942"/>
-<outline type="link" text="The Lunch Rush with Trent Condon" URL="http://opml.radiotime.com/Tune.ashx?c=pbrowse&amp;id=p1839681" guide_id="p1839681" subtext="Trent Condon is on Monday - Friday from 11:00..." key="topics" item="show" image="http://cdn-profiles.tunein.com/p1839681/images/logoq.png?t=2" current_track="Trent Condoncurl: (23) Failure writing output to destination, passed 4284 returned 1174
+{"leagues":[{"id":"41","uid":"s:40~l:41","name":"NCAA Men's Basketball","abbreviation":"NCAAM","midsizeName":"NCAAM Basketball","slug":"mens-college-basketball","season":{"year":2027,"startDate":"2026-07-13T07:00Z","endDate":"2027-04-07T06:59Z","displayName":"2026-27","type":{"id":"2","type":2,"name":"Regular Season","abbreviation":"reg"}},"logos":[{"href":"https://a.espncdn.com/redesign/assets/img/icons/NCAASports_MensBasketball.png","width":500,"height":500,"alt":"","rel":["full","default"],"lastUpdated":"2026-09-17T20:36Z"},{"href":"https://a.espncdn.com/redesign/assets/img/icons/NCAASports_MensBasketball.png","width":500,"height":500,"alt":"","rel":["full","dark"],"lastUpdated":"2026-09-17T20:36Z"}],"calendarType":"day","calendarIsWhitelist":true,"calendarStartDate":"2026-07-13T07:00Z","calendarEndDate":"2027-04-07T06:59Z","calendar":["2026-11-01T07:00Z","2026-11-02T08:00Z","2026-11-03T08:00Z","2026-11-04T08:00Z","2026-11-05T08:00Z","2026-11-06T08:00Z","2026-11-07T08:00Z","2026-11-08T08:00Z","2026-11-09T08:00Z","2026-11-10T08:00Z","2026-11-11T08:00Z","2026-11-12T08:00Z","2026-11-13T08:00Z","2026-11-14T08:00Z","2026-11-15T08:00Z","2026-11-16T08:00Z","2026-11-17T08:00Z","2026-11-18T08:00Z","2026-11-19T08:00Z","2026-11-20T08:00Z","2026-11-21T08:00Z","2026-11-22T08:00Z","2026-11-23T08:00Z","2026-11-24T08:00Z","2026-11-25T08:00Z","2026-11-26T08:00Z","2026-11-27T08:00Z","2026-11-28T08:00Z","2026-11-29T08:00Z","2026-11-30T08:00Z","2026-12-01T08:00Z","2026-12-02T08:00Z","2026-12-03T08:00Z","2026-12-04T08:00Z","2026-12-05T08:00Z","2026-12-06T08:00Z","2026-12-07T08:00Z","2026-12-08T08:00Z","2026-12-09T08:00Z","2026-12-10T08:00Z","2026-12-11T08:00Z","2026-12-12T08:00Z","2026-12-13T08:00Z","2026-12-14T08:00Z","2026-12-15T08:00Z","2026-12-16T08:00Z","2026-12-17T08:00Z","2026-12-18T08:00Z","2026-12-19T08:00Z","2026-12-20T08:00Z","2026-12-21T08:00Z","2026-12-22T08:00Z","2026-12-23T08:00Z","2026-12-27T08:00Z","2026-12-28T08:00Z","2026-12-29T08:00Z","2026-12-30T08:00Z","2026-12-31T08:00Z","2027-01-01T08:00Z","2027-01-02T08:00Z","2027-01-03T08:00Z","2027-01-04T08:00Z","2027-01-05T08:00Z","2027-01-06T08:00Z","2027-01-07T08:00Z","2027-01-08T08:00Z","2027-01curl: (23) Failure writing output to destination, passed 16375 returned 0
 
