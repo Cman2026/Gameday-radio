@@ -14,8 +14,6 @@ No containers need to be restarted.
 No user sessions are running outdated binaries.
 
 No VM guests are running outdated hypervisor (qemu) binaries on this host.
-allaccess error https://gopsusports.com HTTP Error 404: Not Found
-allaccess error https://miamihurricanes.com HTTP Error 404: Not Found
 allaccess error https://purduesports.com HTTP Error 404: Not Found
 allaccess error https://vucommodores.com HTTP Error 404: Not Found
 allaccess error https://ucfknights.com HTTP Error 404: Not Found
@@ -25,6 +23,7 @@ allaccess error https://gobearcats.com HTTP Error 404: Not Found
 allaccess error https://odusports.com HTTP Error 404: Not Found
 allaccess error https://gosoutheast.com HTTP Error 404: Not Found
 allaccess error https://huskers.com HTTP Error 404: Not Found
+allaccess error https://gopsusports.com HTTP Error 404: Not Found
 allaccess error https://ttusports.com HTTP Error 405: Not Allowed
 allaccess error https://nusports.com HTTP Error 404: Not Found
 allaccess error https://golobos.com HTTP Error 404: Not Found
@@ -35,54 +34,51 @@ allaccess error https://gocolgateraiders.com <urlopen error [Errno 104] Connecti
 allaccess error https://thesundevils.com HTTP Error 404: Not Found
 allaccess error https://uclabruins.com HTTP Error 404: Not Found
 allaccess error https://lsusports.net HTTP Error 404: Not Found
-allaccess error https://ukathletics.com HTTP Error 404: Not Found
-allaccess error https://hokiesports.com HTTP Error 404: Not Found
-allaccess error https://virginiasports.com HTTP Error 404: Not Found
+allaccess error https://hawkeyesports.com HTTP Error 404: Not Found
 allaccess error https://auburntigers.com HTTP Error 404: Not Found
+allaccess error https://miamihurricanes.com HTTP Error 404: Not Found
 allaccess error https://mutigers.com HTTP Error 404: Not Found
 allaccess error https://arkansasrazorbacks.com HTTP Error 404: Not Found
-allaccess error https://kstatesports.com Remote end closed connection without response
 allaccess error https://12thman.com HTTP Error 404: Not Found
-allaccess error https://hawkeyesports.com HTTP Error 404: Not Found
 allaccess error https://goaztecs.com HTTP Error 404: Not Found
-official feeds added for: University of Florida (mbb), Duke University (mbb), Michigan State University (mbb), St. John's University (mbb), Monmouth University (mbb), Gonzaga University (mbb), University of Michigan (mbb), Iowa State University (mbb), University of Memphis (mbb), Texas Tech University (mbb), University of South Dakota (mbb), Rice University (mbb), Eastern Kentucky University (mbb), Indiana State University (mbb), West Virginia University (mbb), University of St. Thomas (Minnesota) (mbb), Virginia Commonwealth University (mbb), Bucknell University (mbb), Indiana University (mbb), University of North Carolina at Chapel Hill (mbb), United States Air Force Academy (mbb), St. Bonaventure University (mbb), Georgia Southern University (mbb), James Madison University (mbb), Marshall University (mbb), Syracuse University (mbb), University of Pittsburgh (mbb), University of Maine (mbb), Butler University (mbb), College of Charleston (mbb), Stephen F. Austin State University (mbb), Western Kentucky University (mbb), Morehead State University (mbb), University of Wisconsin-Madison (mbb), Seton Hall University (mbb), North Carolina State University (mbb), Louisiana Tech University (mbb), Central Michigan University (mbb), Mississippi State University (mbb), University of Georgia (mbb), DePaul University (mbb), Wake Forest University (mbb), University of Louisiana at Lafayette (mbb), Arkansas State University (mbb), University of Toledo (mbb), University of South Alabama (mbb), Ohio University (mbb), Saint Louis University (mbb), University of California, Berkeley (mbb), Southern Methodist University (mbb), Tulane University (mbb), Texas Christian University (mbb), Southern Illinois University (mbb), Texas State University (mbb), University of Tulsa (mbb), Bradley University (mbb), Tarleton State University (mbb), North Dakota State University (mbb), University of Southern Mississippi (mbb), University of Illinois Urbana-Champaign (mbb), Florida State University (mbb), University of Mississippi (mbb), University of North Texas (mbb), University of Colorado Boulder (mbb), Abilene Christian University (mbb), University of Minnesota (mbb), Oklahoma State University (mbb), Ohio State University (mbb), University of Louisville (mbb), University of Tennessee at Chattanooga (mbb), University of Houston (mbb), University of Connecticut (mbb), Baylor University (mbb), Utah State University (mbb), Oregon State University (mbb), University of California, Davis (mbb), Illinois State University (mbb), University of Washington (mbb), University of Oregon (mbb), University of Montana (mbb), University of Idaho (mbb), Montana State University (mbb), University of Tennessee (wbb), Murray State University (wbb), University of Northern Iowa (wbb), University of Alabama (wbb), Liberty University (wbb), Middle Tennessee State University (wbb), South Dakota State University (wbb), University of Wyoming (wbb)
-Temple University mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/ETU2ZNtX.m3u8']
-allaccess error https://ccsubluedevils.com HTTP Error 405: Not Allowed
+official feeds added for: University of Illinois Urbana-Champaign (mbb), Michigan State University (mbb), Gonzaga University (mbb), Iowa State University (mbb), University of Memphis (mbb), Texas Tech University (mbb), Indiana State University (mbb), West Virginia University (mbb), University of St. Thomas (Minnesota) (mbb), Virginia Commonwealth University (mbb), Bucknell University (mbb), Indiana University (mbb), University of North Carolina at Chapel Hill (mbb), United States Air Force Academy (mbb), St. Bonaventure University (mbb), Georgia Southern University (mbb), James Madison University (mbb), Marshall University (mbb), Syracuse University (mbb), University of Pittsburgh (mbb), University of Maine (mbb), Butler University (mbb), College of Charleston (mbb), Stephen F. Austin State University (mbb), Western Kentucky University (mbb), Morehead State University (mbb), University of Wisconsin-Madison (mbb), Seton Hall University (mbb), North Carolina State University (mbb), Louisiana Tech University (mbb), Central Michigan University (mbb), Mississippi State University (mbb), University of Georgia (mbb), University of Southern Mississippi (mbb), North Dakota State University (mbb), Tarleton State University (mbb), Bradley University (mbb), University of Tulsa (mbb), Texas State University (mbb), Southern Illinois University (mbb), Texas Christian University (mbb), Tulane University (mbb), Southern Methodist University (mbb), University of California, Berkeley (mbb), Saint Louis University (mbb), University of South Alabama (mbb), Ohio University (mbb), Arkansas State University (mbb), University of Toledo (mbb), University of Louisiana at Lafayette (mbb), Wake Forest University (mbb), DePaul University (mbb), University of Mississippi (mbb), University of Colorado Boulder (mbb), Abilene Christian University (mbb), University of Minnesota (mbb), Oklahoma State University (mbb), Ohio State University (mbb), University of Louisville (mbb), University of Tennessee at Chattanooga (mbb), University of Houston (mbb), University of Connecticut (mbb), Florida State University (mbb), University of North Texas (mbb), Baylor University (mbb), Utah State University (mbb), Oregon State University (mbb), University of California, Davis (mbb), Illinois State University (mbb), University of Washington (mbb), University of Oregon (mbb), University of Montana (mbb), University of Idaho (mbb), Colorado State University (mbb), Montana State University (mbb), University of Southern California (mbb), University of Wisconsin-Milwaukee (mbb), Murray State University (wbb), University of Northern Iowa (wbb), Eastern Kentucky University (wbb), University of Alabama (wbb), Liberty University (wbb), Middle Tennessee State University (wbb), Kansas State University (wbb), South Dakota State University (wbb), University of Wyoming (wbb)
 University of North Carolina at Charlotte mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/kDNzJYGH.m3u8']
 Boston University mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/zfJ4nFKZ.m3u8']
 Marist University mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/PjPtLeXO.m3u8']
 University of Richmond mbb -> (feed) ['https://stream.rcs.revma.com/x4q6k4dw57uvv']
-Troy University mbb -> (feed) ['https://ice6.securenetsystems.net/WTXK']
 Belmont University mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/I0QkbOOf.m3u8']
 Campbell University mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/PO7HBqwR.m3u8']
-Loyola University Chicago mbb -> (feed) ['https://img.leanstream.co/LF7301-MP3']
-University of Portland mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/Fc4UeWQ2.m3u8']
 University of Texas at Arlington mbb -> (feed) ['https://img.leanstream.co/LF8001-MP3']
+University of Portland mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/Fc4UeWQ2.m3u8']
+Loyola University Chicago mbb -> (feed) ['https://img.leanstream.co/LF7301-MP3']
 Grand Canyon University mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/rPngYlPS.m3u8']
 La Salle University mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/dPKDCwvL.m3u8']
+Temple University wbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/lvwSsBi8.m3u8']
 Sam Houston State University wbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/yrAF87kh.m3u8']
-The George Washington University mbb -> []
+University of South Dakota wbb -> (feed) ['https://img.leanstream.co/LF5201-MP3']
+Rice University wbb -> (feed) ['https://img.leanstream.co/IM4503-MP3']
+Fairleigh Dickinson University mbb -> []
+Fairleigh Dickinson University mbb -> []
 Quinnipiac University mbb -> []
-Oakland University mbb -> []
-Cornell University mbb -> []
-Pepperdine University mbb -> []
-Pepperdine University mbb -> []
-Central Connecticut State University mbb -> []
-Georgetown University mbb -> []
-Loyola University Maryland mbb -> []
-Florida International University mbb -> []
-Florida International University mbb -> ['https://cdn.jwplayer.com/live/broadcast/WEDSYXuK.m3u8', 'https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/WEDSYXuK.m3u8?exp=1793667600&sig=2c19138900a52acfdbdd0ef19f1d0754']
-Delaware State University mbb -> []
-Southern Illinois University Edwardsville mbb -> []
-Southern Illinois University Edwardsville mbb -> ['https://siue-cougars.mixlr.com/', 'https://apicdn.mixlr.com/v3/channel_view/siue-cougars', 'https://apicdn.mixlr.com/v3/channel_me']
+Florida International University mbb -> ['https://cdn.jwplayer.com/live/broadcast/WEDSYXuK.m3u8', 'https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/WEDSYXuK.m3u8?exp=1793671680&sig=419b7e59e9c7913ddc0fcb20f86cae4b']
+Florida International University mbb -> ['https://cdn.jwplayer.com/live/broadcast/WEDSYXuK.m3u8', 'https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/WEDSYXuK.m3u8?exp=1793671680&sig=419b7e59e9c7913ddc0fcb20f86cae4b']
 Prairie View A&M University mbb -> []
 Sacred Heart University mbb -> []
 Howard University mbb -> []
-University of West Florida mbb -> []
 Niagara University mbb -> []
-Florida Gulf Coast University mbb -> []
-Florida Gulf Coast University mbb -> ['https://synchroscript.deliveryengine.adswizz.com/getUID?curl=https%3A%2F%2Fyield-op-idsync.live.streamtheworld.com%2Fpixel.gif%3Fpartner%3Daw%26uid%3D%24%7BUID%7D%26pubId%3D21313', 'https://ums.acuityplatform.com/tum?umid=133&uid=a58fe298-56f2-41ff-a2bd-2fd00f4aaf47&rurl=https%3A%2F%2Fyield-op-idsync.live.streamtheworld.com%2Fpixel.gif%3Fpartner%3Dacu%26uid%3D___AUID___%26pubId%3D21313', 'https://rtb.adentifi.com/CookieSyncTriton?redirect=https%3A%2F%2Fyield-op-idsync.live.streamtheworld.com%2Fpixel.gif%3Fpartner%3Dadt%26uid%3D%24UID%26pubId%3D21313']
-Jacksonville University mbb -> []
-Jacksonville University mbb -> []
-Iona University mbb -> ['https://cdn.jwplayer.com/live/broadcast/aRSHQZWq.m3u8', 'https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/aRSHQZWq.m3u8?exp=1793667840&sig=c4ee4ce3fa4ffdb4575082921682dd0f']
-other SIDEARM sport names seen: basketball-women, fb, fitzgeraldshow, flames-sports-network, football, general, izzoshow, m_bkb, mbball, mhockey, msoc, nightingaleshow, vol-network, volleyball, w_bkb, wbasket, wbb, wbball, whockey, wrestling, wsoc, wvball
+Dartmouth College mbb -> []
+Stonehill College mbb -> []
+Long Island University mbb -> []
+Long Island University mbb -> []
+Stetson University mbb -> []
+Eastern Illinois University mbb -> []
+Eastern Illinois University mbb -> []
+American University mbb -> []
+Brown University mbb -> []
+Brown University mbb -> []
+New Jersey Institute of Technology mbb -> []
+University of New Haven mbb -> []
+Lafayette College mbb -> []
+University of Wisconsin-Green Bay mbb -> []
+University of Wisconsin-Green Bay mbb -> ['https://greenbayphoenix.mixlr.com/', 'https://apicdn.mixlr.com/v3/channel_view/greenbayphoenix', 'https://apicdn.mixlr.com/v3/channel_me']
+other SIDEARM sport names seen: fb, fitzgeraldshow, flames-sports-network, football, general, izzoshow, m_bkb, mbball, mhockey, msoc, nightingaleshow, w_bkb, wbasket, wbb, wbball, whockey, wrestling, wsoc, wvball

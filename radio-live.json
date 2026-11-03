@@ -1,25 +1,5 @@
 {
  "streams": {
-  "https://img.leanstream.co/LF2401-MP3": {
-   "school": "Georgia Southern University",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "",
-   "at": "2026-11-01T01:45:12Z",
-   "ad_hits": 0,
-   "checks": 5,
-   "preroll": false
-  },
-  "https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3": {
-   "school": "Appalachian State University",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "Appalachian State University",
-   "at": "2026-11-01T01:45:12Z",
-   "ad_hits": 0,
-   "checks": 5,
-   "preroll": false
-  },
   "https://img.leanstream.co/IM7901-MP3": {
    "school": "Iowa State University",
    "verdict": "unknown",
@@ -128,126 +108,6 @@
    "at": "2026-11-01T02:38:30Z",
    "ad_hits": 0,
    "checks": 5,
-   "preroll": false
-  },
-  "https://stream.revma.ihrhls.com/zc8528": {
-   "school": "San Diego State University",
-   "verdict": "unknown",
-   "title": "Yes Owner Of A Lonely Heart",
-   "icy_name": "KGB-AM",
-   "at": "2026-11-01T01:45:12Z",
-   "ad_hits": 1,
-   "checks": 4,
-   "preroll": false
-  },
-  "https://stream.revma.ihrhls.com/zc8528/hls.m3u8": {
-   "school": "San Diego State University",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "",
-   "at": "2026-11-01T01:45:12Z",
-   "ad_hits": 0,
-   "checks": 4,
-   "preroll": false
-  },
-  "http://stream.revma.ihrhls.com/zc8528": {
-   "school": "San Diego State University",
-   "verdict": "unknown",
-   "title": "Yes Owner Of A Lonely Heart",
-   "icy_name": "KGB-AM",
-   "at": "2026-11-01T01:45:12Z",
-   "ad_hits": 1,
-   "checks": 4,
-   "preroll": false
-  },
-  "https://bonneville.cdnstream1.com/2642_48.aac?aw_0_1st.playerid=IHM": {
-   "school": "Washington State University",
-   "verdict": "game",
-   "title": "Seattle Sports is the home of the Mariners and Seahawks.  - Seattle Sports Programming",
-   "icy_name": "Bonneville - KIROAM OOM",
-   "at": "2026-11-01T01:45:12Z",
-   "ad_hits": 1,
-   "checks": 4,
-   "preroll": false
-  },
-  "https://bonneville.cdnstream1.com/2642_48.aac/playlist.m3u8?aw_0_1st.playerid=IHM": {
-   "school": "Washington State University",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "",
-   "at": "2026-11-01T01:45:12Z",
-   "ad_hits": 0,
-   "checks": 4,
-   "preroll": false
-  },
-  "http://bonneville.cdnstream1.com/2642_48.aac?aw_0_1st.playerid=IHM": {
-   "school": "Washington State University",
-   "verdict": "game",
-   "title": "Seattle Sports is the home of the Mariners and Seahawks.  - Seattle Sports Programming",
-   "icy_name": "Bonneville - KIROAM OOM",
-   "at": "2026-11-01T01:45:12Z",
-   "ad_hits": 1,
-   "checks": 4,
-   "preroll": false
-  },
-  "https://cdn.jwplayer.com/live/broadcast/hK6GexdJ.m3u8": {
-   "school": "Tarleton State University",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "",
-   "at": "2026-11-01T01:45:12Z",
-   "ad_hits": 0,
-   "checks": 4,
-   "preroll": false
-  },
-  "https://kxtr.streamguys1.com/live2-aac": {
-   "school": "Tarleton State University",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "My Station name",
-   "at": "2026-11-01T01:45:12Z",
-   "ad_hits": 0,
-   "checks": 4,
-   "preroll": false
-  },
-  "http://kxtr.streamguys1.com/live2-aac": {
-   "school": "Tarleton State University",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "My Station name",
-   "at": "2026-11-01T01:45:12Z",
-   "ad_hits": 0,
-   "checks": 4,
-   "preroll": false
-  },
-  "https://cdn.jwplayer.com/live/broadcast/ponkU2La.m3u8": {
-   "school": "Eastern Kentucky University",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "",
-   "at": "2026-11-01T01:45:12Z",
-   "ad_hits": 0,
-   "checks": 4,
-   "preroll": false
-  },
-  "https://streams.radio.co/sd1bcd1376/listen#.mp3": {
-   "school": "Eastern Kentucky University",
-   "verdict": "game",
-   "title": "Samie Bower - Talk a Little",
-   "icy_name": "Qantum Themes Test Channel",
-   "at": "2026-11-01T01:45:12Z",
-   "ad_hits": 0,
-   "checks": 4,
-   "preroll": false
-  },
-  "https://peaksports.leanstream.co/PS0101-MP3": {
-   "school": "Wofford College",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "no name",
-   "at": "2026-11-01T01:45:12Z",
-   "ad_hits": 0,
-   "checks": 4,
    "preroll": false
   },
   "https://img.leanstream.co/IM9201-MP3": {
@@ -6084,9 +5944,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "Michigan State University 2",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://live.amperwave.net/manifest/townsquare-wjimamaac-ibc3": {
@@ -6095,9 +5955,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "1240 WJIM - Lansings BIG Talker",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WJRAMAAC.aac": {
@@ -6106,9 +5966,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "WJRAM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WJRAMAAC.m3u8": {
@@ -6117,9 +5977,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://img.leanstream.co/IM7901-MP3": {
@@ -6128,20 +5988,20 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://stream.revma.ihrhls.com/zc913": {
    "school": "Iowa State University",
    "sport": "mbb",
    "verdict": "unknown",
-   "title": "Ghost",
+   "title": "Bring Me To Life",
    "icy_name": "NOW1051",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://stream.revma.ihrhls.com/zc913/hls.m3u8": {
@@ -6150,20 +6010,20 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|http://stream.revma.ihrhls.com/zc913": {
    "school": "Iowa State University",
    "sport": "mbb",
    "verdict": "unknown",
-   "title": "Ghost",
+   "title": "Bring Me To Life",
    "icy_name": "NOW1051",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://img.leanstream.co/LF3101-MP3": {
@@ -6172,9 +6032,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WKIMFMAAC.aac": {
@@ -6183,9 +6043,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "WKIMFM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WKIMFMAAC.m3u8": {
@@ -6194,9 +6054,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|http://playerservices.streamtheworld.com/api/livestream-redirect/WKIMFMAAC.aac": {
@@ -6205,9 +6065,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "WKIMFM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://img.leanstream.co/IM8101-MP3": {
@@ -6216,20 +6076,20 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://ais-sa1.streamon.fm/7197_48k.aac": {
    "school": "Texas Tech University",
    "sport": "mbb",
    "verdict": "music",
-   "title": "Jessica Simpson & Rosie O`Donnell - Rockin` Around the Christmas Tree",
+   "title": "Brenda Lee - Jingle Bell Rock",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://ais-sa1.streamon.fm/7001_48k.aac": {
@@ -6238,9 +6098,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://streaming.live365.com/a60611": {
@@ -6249,20 +6109,20 @@
    "verdict": "unknown",
    "title": "Unknown",
    "icy_name": "wjsu-fm",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://cromwell-ice.streamguys1.com/WPRTFM": {
    "school": "Vanderbilt University",
    "sport": "mbb",
-   "verdict": "unknown",
-   "title": "error: HTTP Error 404: Not Available",
-   "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "verdict": "music",
+   "title": " - ",
+   "icy_name": "WPRT-FM AAC",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://live.amperwave.net/direct/unionbroadcasting-whbeamaac-ibc2": {
@@ -6271,9 +6131,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "ESPN Louisville 680",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://live.amperwave.net/manifest/unionbroadcasting-whbeamaac-ibc2": {
@@ -6282,9 +6142,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "ESPN Louisville 680",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|http://live.amperwave.net/direct/unionbroadcasting-whbeamaac-ibc2": {
@@ -6293,9 +6153,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "ESPN Louisville 680",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://stream.wusb.stonybrook.edu:8092/listen.pl": {
@@ -6348,9 +6208,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "Live",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://cdn.jwplayer.com/live/broadcast/WEDSYXuK.m3u8": {
@@ -6392,20 +6252,20 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://das-edge52-sa28-dal03.cdnstream.com/2758_64.aac?listeningSessionId=V0pETFFKUDdVUVU0M0lYVTQzNlBCT1I3SVVfZGFzLWVkZ2U1Mi1zYTI4LWRhbDAzLmNkbnN0cmVhbS5jb206ODE4Ng..&playerid=esPlayer": {
    "school": "University of North Carolina Wilmington",
    "sport": "mbb",
-   "verdict": "unknown",
-   "title": "",
+   "verdict": "music",
+   "title": "Queen - Crazy Little Thing Called Love",
    "icy_name": "WKXB-HD2 - 95.9 The Breeze",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://edge.mixlr.com/channel/iryqq": {
@@ -6442,14 +6302,14 @@
    "preroll": false
   },
   "mbb|https://apicdn.mixlr.com/v3/channel_me": {
-   "school": "Southern Illinois University Edwardsville",
+   "school": "University of Wisconsin-Green Bay",
    "sport": "mbb",
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://live.amperwave.net/manifest/jdl-wvigfmaac-hlsc.m3u8": {
@@ -6502,9 +6362,9 @@
    "verdict": "ad",
    "title": "Spot Block End",
    "icy_name": "960 WELI",
-   "at": "2026-11-03T00:51:17Z",
-   "ad_hits": 2,
-   "checks": 2,
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 3,
+   "checks": 3,
    "preroll": true
   },
   "mbb|https://stream.revma.ihrhls.com/zc453/hls.m3u8": {
@@ -6513,9 +6373,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|http://stream.revma.ihrhls.com/zc453": {
@@ -6524,9 +6384,9 @@
    "verdict": "ad",
    "title": "Spot Block End",
    "icy_name": "960 WELI",
-   "at": "2026-11-03T00:51:17Z",
-   "ad_hits": 2,
-   "checks": 2,
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 3,
+   "checks": 3,
    "preroll": true
   },
   "mbb|https://cdn.jwplayer.com/live/broadcast/LCyNyoBI.m3u8": {
@@ -6579,9 +6439,9 @@
    "verdict": "ad",
    "title": "Spot Block End",
    "icy_name": "96.9 The Game",
-   "at": "2026-11-03T00:51:17Z",
-   "ad_hits": 2,
-   "checks": 2,
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 3,
+   "checks": 3,
    "preroll": true
   },
   "mbb|https://stream.revma.ihrhls.com/zc601/hls.m3u8": {
@@ -6590,9 +6450,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|http://stream.revma.ihrhls.com/zc601": {
@@ -6601,9 +6461,9 @@
    "verdict": "ad",
    "title": "Spot Block End",
    "icy_name": "96.9 The Game",
-   "at": "2026-11-03T00:51:17Z",
-   "ad_hits": 2,
-   "checks": 2,
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 3,
+   "checks": 3,
    "preroll": true
   },
   "mbb|https://wkcr.streamguys1.com/live": {
@@ -6612,9 +6472,9 @@
    "verdict": "unknown",
    "title": "Space 8 by Nala Sinephro on Afternoon New Music",
    "icy_name": "WKCR",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|http://wkcr.streamguys1.com/live": {
@@ -6623,20 +6483,20 @@
    "verdict": "unknown",
    "title": "Space 8 by Nala Sinephro on Afternoon New Music",
    "icy_name": "WKCR",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://img.leanstream.co/IM7401-MP3": {
-   "school": "Elon University",
+   "school": "University of Illinois Urbana-Champaign",
    "sport": "mbb",
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://stream.revma.ihrhls.com/zc461": {
@@ -6678,9 +6538,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "Streaming by Securenet Systems Cirrus(R)",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://img.leanstream.co/LF7801-MP3": {
@@ -6689,9 +6549,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KSTPAM.mp3": {
@@ -6700,9 +6560,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "1500 ESPN",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KSTPAMAAC.aac": {
@@ -6711,9 +6571,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "1500 ESPN",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://cdn.jwplayer.com/live/broadcast/zfJ4nFKZ.m3u8": {
@@ -6722,32 +6582,32 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://audio-edge-qse4n.yyz.g.radiomast.io/dafd1179-5404-4939-9c1c-a014c6964254": {
    "school": "Northeastern University",
    "sport": "mbb",
    "verdict": "music",
-   "title": "Verde 70 - Ruta Melancol\u00eda (A 1000km)",
+   "title": "MJ Lenderman - My Voice is a Little Horse",
    "icy_name": "WRBB 104.9FM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://live.amperwave.net/direct/vox-weavamaac-imc?source=website": {
    "school": "University of Vermont",
    "sport": "mbb",
-   "verdict": "ad",
-   "title": "ad|main - Commercial Break -",
+   "verdict": "unknown",
+   "title": "",
    "icy_name": "The Game",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 1,
-   "checks": 2,
-   "preroll": true
+   "checks": 3,
+   "preroll": false
   },
   "mbb|https://live.amperwave.net/manifest/vox-weavamaac-hlsc.m3u8": {
    "school": "University of Vermont",
@@ -6755,9 +6615,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|http://stream.whrb.org:8000/whrb-mp3": {
@@ -6777,9 +6637,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://cdn.jwplayer.com/live/broadcast/3TH9Dtwc.m3u8": {
@@ -6788,20 +6648,20 @@
    "verdict": "unknown",
    "title": "error: HTTP Error 404: Not Found",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://ice24.securenetsystems.net/WDCR": {
    "school": "Dartmouth College",
    "sport": "mbb",
    "verdict": "music",
-   "title": "Penny Weave / New Life Pregnancy Center - 60Sec NLPC Post Abortion",
+   "title": "Heather Bright / WDCR - 15Sec Pro Life Station ID (Rec 1/4/19)",
    "icy_name": "Streaming by Securenet Systems Cirrus(R)",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://img.leanstream.co/LF6501-MP3": {
@@ -6810,64 +6670,64 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://14933.live.streamtheworld.com/KRSTFMAAC.aac": {
    "school": "University of Arkansas at Little Rock",
    "sport": "mbb",
-   "verdict": "unknown",
-   "title": "",
+   "verdict": "music",
+   "title": "Luke Bryan - Roller Coaster",
    "icy_name": "KRSTFM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WMENAMAAC.aac": {
    "school": "Florida Atlantic University",
    "sport": "mbb",
    "verdict": "game",
-   "title": "Rick DiFonzo [BMI],John K Sands [BMI] - FAU Bumper 2 (2025)",
+   "title": "Rick DiFonzo [BMI],John K Sands [BMI] - FAU Bumper 6 (2025)",
    "icy_name": "WMENAM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WMENAM.mp3": {
    "school": "Florida Atlantic University",
    "sport": "mbb",
    "verdict": "game",
-   "title": "Rick DiFonzo [BMI],John K Sands [BMI] - FAU Bumper 2 (2025)",
+   "title": "Rick DiFonzo [BMI],John K Sands [BMI] - FAU Bumper 6 (2025)",
    "icy_name": "WMENAM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WNCTAMAAC.aac": {
    "school": "East Carolina University",
    "sport": "mbb",
-   "verdict": "unknown",
-   "title": "",
+   "verdict": "music",
+   "title": "JACKSON 5 - ABC",
    "icy_name": "WNCTAM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WNCTAM.mp3": {
    "school": "East Carolina University",
    "sport": "mbb",
-   "verdict": "unknown",
-   "title": "",
+   "verdict": "music",
+   "title": "JACKSON 5 - ABC",
    "icy_name": "WNCTAM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://www.spartanburgsportsradio.com/": {
@@ -6876,9 +6736,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WTYDFMAAC.aac": {
@@ -6887,9 +6747,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "WTYDFM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WTYDFM.mp3": {
@@ -6898,9 +6758,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "WTYDFM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|http://s2.radioreformation.com:8060/;stream.mp3": {
@@ -6931,9 +6791,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "105.7 The Fan",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://live.amperwave.net/direct/audacy-wtemamaac-imc": {
@@ -6941,10 +6801,10 @@
    "sport": "mbb",
    "verdict": "unknown",
    "title": "",
-   "icy_name": "Westwood One Sports",
-   "at": "2026-11-03T00:51:17Z",
+   "icy_name": "The Team 980",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|http://live.amperwave.net/direct/audacy-wtemamaac-imc": {
@@ -6952,10 +6812,10 @@
    "sport": "mbb",
    "verdict": "unknown",
    "title": "",
-   "icy_name": "Westwood One Sports",
-   "at": "2026-11-03T00:51:17Z",
+   "icy_name": "The Team 980",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://cdn.jwplayer.com/live/broadcast/KflhAkXr.m3u8": {
@@ -6964,9 +6824,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://live.amperwave.net/manifest/sunbury-wkokamaac-hlsc2.m3u8?source=sidearm": {
@@ -6975,9 +6835,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://live.amperwave.net/playlist/sunbury-wkokamaac-ibc1.pls?source=airkast": {
@@ -6986,9 +6846,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|http://live.amperwave.net/playlist/sunbury-wkokamaac-ibc1.pls?source=airkast": {
@@ -6997,9 +6857,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://img.leanstream.co/IM7301-MP3": {
@@ -7030,9 +6890,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WPTFAMAAC.aac": {
@@ -7041,9 +6901,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "WPTFAM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WPTFAM.mp3": {
@@ -7052,20 +6912,20 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "WPTFAM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://ice24.securenetsystems.net/WRGC": {
    "school": "Western Carolina University",
    "sport": "mbb",
    "verdict": "music",
-   "title": "ADELA - Nicole Kidman",
+   "title": "TLC - No Scrubs",
    "icy_name": "WRGC",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://stream.revma.ihrhls.com/zc1713": {
@@ -7073,10 +6933,10 @@
    "sport": "mbb",
    "verdict": "ad",
    "title": "Spot Block End",
-   "icy_name": "WLW-AM ZC Backup",
-   "at": "2026-11-03T00:51:17Z",
-   "ad_hits": 2,
-   "checks": 2,
+   "icy_name": "WLW-AM ZC Main",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 3,
+   "checks": 3,
    "preroll": true
   },
   "mbb|https://stream.revma.ihrhls.com/zc1713/hls.m3u8": {
@@ -7085,9 +6945,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|http://stream.revma.ihrhls.com/zc1713": {
@@ -7096,64 +6956,64 @@
    "verdict": "ad",
    "title": "Spot Block End",
    "icy_name": "WLW-AM ZC Backup",
-   "at": "2026-11-03T00:51:17Z",
-   "ad_hits": 2,
-   "checks": 2,
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 3,
+   "checks": 3,
    "preroll": true
   },
   "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WRBQFMAAC.aac": {
    "school": "University of South Florida",
    "sport": "mbb",
-   "verdict": "unknown",
-   "title": "",
+   "verdict": "music",
+   "title": "Guns N&apos; Roses - Welcome To The Jungle",
    "icy_name": "Q105 Tampa Bay",
-   "at": "2026-11-03T00:20:18Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WRBQFM.mp3": {
    "school": "University of South Florida",
    "sport": "mbb",
-   "verdict": "unknown",
-   "title": "",
+   "verdict": "music",
+   "title": "Guns N&apos; Roses - Welcome To The Jungle",
    "icy_name": "Q105 Tampa Bay",
-   "at": "2026-11-03T00:20:18Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://live.amperwave.net/direct/alphacorporate-wclifmaac-ibc4": {
    "school": "Wright State University",
    "sport": "mbb",
-   "verdict": "unknown",
-   "title": "",
+   "verdict": "ad",
+   "title": "ad|main - Commercial Break - https://prod-44-203-14-63.amperwave.net/b/b78b193c4824007ba4842c7b392f015a",
    "icy_name": "Playing the icons of country",
-   "at": "2026-11-03T00:51:17Z",
-   "ad_hits": 1,
-   "checks": 2,
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 2,
+   "checks": 3,
    "preroll": true
   },
   "mbb|https://live.amperwave.net/direct/alphacorporate-wclifmmp3-ibc4": {
    "school": "Wright State University",
    "sport": "mbb",
-   "verdict": "unknown",
-   "title": "",
+   "verdict": "ad",
+   "title": "ad|main - Commercial Break - https://prod-52-87-198-201.amperwave.net/b/b78b193c4824007ba4842c7b392f015a",
    "icy_name": "Playing the icons of country",
-   "at": "2026-11-03T00:51:17Z",
-   "ad_hits": 1,
-   "checks": 2,
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 2,
+   "checks": 3,
    "preroll": true
   },
   "mbb|http://live.amperwave.net/direct/alphacorporate-wclifmaac-ibc4": {
    "school": "Wright State University",
    "sport": "mbb",
-   "verdict": "unknown",
-   "title": "",
+   "verdict": "ad",
+   "title": "ad|main - Commercial Break - http://52.87.198.201/b/b78b193c4824007ba4842c7b392f015a",
    "icy_name": "Playing the icons of country",
-   "at": "2026-11-03T00:51:17Z",
-   "ad_hits": 1,
-   "checks": 2,
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 2,
+   "checks": 3,
    "preroll": true
   },
   "mbb|https://img.leanstream.co/IM2601-MP3": {
@@ -7162,9 +7022,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KVORAMAAC.aac": {
@@ -7173,9 +7033,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "KVORAM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KVORAMAAC.m3u8": {
@@ -7184,9 +7044,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|http://playerservices.streamtheworld.com/api/livestream-redirect/KVORAMAAC.aac": {
@@ -7195,9 +7055,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "KVORAM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://stream.revma.ihrhls.com/zc2752": {
@@ -7206,9 +7066,9 @@
    "verdict": "ad",
    "title": "Spot Block End",
    "icy_name": "News Radio 610",
-   "at": "2026-11-03T00:51:17Z",
-   "ad_hits": 2,
-   "checks": 2,
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 3,
+   "checks": 3,
    "preroll": true
   },
   "mbb|https://stream.revma.ihrhls.com/zc2752/hls.m3u8": {
@@ -7217,9 +7077,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|http://stream.revma.ihrhls.com/zc2752": {
@@ -7228,9 +7088,9 @@
    "verdict": "ad",
    "title": "Spot Block End",
    "icy_name": "News Radio 610",
-   "at": "2026-11-03T00:51:17Z",
-   "ad_hits": 2,
-   "checks": 2,
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 3,
+   "checks": 3,
    "preroll": true
   },
   "mbb|https://ice66.securenetsystems.net/BOR": {
@@ -7335,34 +7195,34 @@
   "mbb|https://oom-cmg.streamguys1.com/day957/day957-sgplayer-aac?": {
    "school": "University of Dayton",
    "sport": "mbb",
-   "verdict": "game",
-   "title": "   - Dayton News, Weather & Traffic",
+   "verdict": "unknown",
+   "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://oom-cmg.streamguys1.com/day957/day957-sgplayer-aac": {
    "school": "University of Dayton",
    "sport": "mbb",
-   "verdict": "game",
-   "title": "   - Dayton News, Weather & Traffic",
+   "verdict": "unknown",
+   "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://oom-cmg.streamguys1.com/day957/day957-sgplayer-mp3": {
    "school": "University of Dayton",
    "sport": "mbb",
-   "verdict": "game",
-   "title": "   - Dayton News, Weather & Traffic",
+   "verdict": "unknown",
+   "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://img.leanstream.co/LF2401-MP3": {
@@ -7371,9 +7231,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://mcdn.podbean.com/mf/web/bbpqs4dqujrzda92/power_hour_oct_29b68ok.mp3": {
@@ -7382,9 +7242,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://img.leanstream.co/LF7101-MP3": {
@@ -7393,9 +7253,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://live.amperwave.net/manifest/saga-wsvaamaac-hlsc2.m3u8?source=v7player": {
@@ -7404,9 +7264,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://live.amperwave.net/direct/saga-wsvaammp3-ibc2": {
@@ -7415,9 +7275,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "Newsradio WSVA",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://ice3.securenetsystems.net/WMOH": {
@@ -7426,9 +7286,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "This is my server name",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://ice6.securenetsystems.net/WTXK": {
@@ -7492,9 +7352,9 @@
    "verdict": "ad",
    "title": "Spot Block End",
    "icy_name": "Rock 107",
-   "at": "2026-11-03T00:51:17Z",
-   "ad_hits": 2,
-   "checks": 2,
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 3,
+   "checks": 3,
    "preroll": true
   },
   "mbb|https://stream.revma.ihrhls.com/zc6849/hls.m3u8": {
@@ -7503,9 +7363,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|http://stream.revma.ihrhls.com/zc6849": {
@@ -7514,9 +7374,9 @@
    "verdict": "ad",
    "title": "Spot Block End",
    "icy_name": "Rock 107",
-   "at": "2026-11-03T00:51:17Z",
-   "ad_hits": 2,
-   "checks": 2,
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 3,
+   "checks": 3,
    "preroll": true
   },
   "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WEMUFM.mp3": {
@@ -7525,9 +7385,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "WEMU-FM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WEMUFMAAC.aac": {
@@ -7536,9 +7396,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "WEMU-FM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|http://playerservices.streamtheworld.com/api/livestream-redirect/WEMUFM.mp3": {
@@ -7547,9 +7407,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "WEMU-FM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://ais-sa1.streamon.fm/7851_128k.aac/playlist.m3u8": {
@@ -7558,42 +7418,42 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WVFMFMAAC.aac": {
    "school": "Western Michigan University",
    "sport": "mbb",
    "verdict": "music",
-   "title": "WEEZER - Beverly Hills",
+   "title": "CARS - Dangerous Type",
    "icy_name": "WVFMFM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WVFMFM.mp3": {
    "school": "Western Michigan University",
    "sport": "mbb",
    "verdict": "music",
-   "title": "WEEZER - Beverly Hills",
+   "title": "CARS - Dangerous Type",
    "icy_name": "WVFMFM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|http://18493.live.streamtheworld.com/WVFMFMAAC_SC": {
    "school": "Western Michigan University",
    "sport": "mbb",
    "verdict": "music",
-   "title": "WEEZER - Beverly Hills",
+   "title": "CARS - Dangerous Type",
    "icy_name": "WVFMFM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://img.leanstream.co/IM1601-MP3": {
@@ -7602,9 +7462,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://live.amperwave.net/manifest/audacy-wwkbamaac-hlsc.m3u8?dist=Audacy&source=webA2": {
@@ -7613,9 +7473,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://img.leanstream.co/IM4801-MP3": {
@@ -7646,9 +7506,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://live.amperwave.net/direct/audacy-kdkafmaac-imc": {
@@ -7657,9 +7517,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "93.7 The Fan",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://live.amperwave.net/manifest/audacy-kdkafmaac-imc": {
@@ -7668,9 +7528,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "93.7 The Fan",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|http://live.amperwave.net/direct/audacy-kdkafmaac-imc": {
@@ -7679,20 +7539,20 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "93.7 The Fan",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://ice5.securenetsystems.net/WRRC2?playSessionID=F6849833-0B1F-0669-756651DDD0214A8C": {
    "school": "Rider University",
    "sport": "mbb",
    "verdict": "music",
-   "title": "Nolan McCaffrey               - Jordan Barnes WBB Bumper    ",
+   "title": "Ellis Foreman                 - Like it TOH Retro           ",
    "icy_name": "Streaming by Securenet Systems Cirrus(R)",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WFMDAMAAC.aac": {
@@ -7701,9 +7561,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "WFMDAM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WFMDAM.mp3": {
@@ -7712,9 +7572,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "WFMDAM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WPROAMAAC.aac": {
@@ -7723,9 +7583,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "WPRO-AM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WPROAMAAC.m3u8": {
@@ -7734,9 +7594,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|http://playerservices.streamtheworld.com/api/livestream-redirect/WPROAMAAC.aac": {
@@ -7745,9 +7605,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "WPRO-AM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://cdn.jwplayer.com/live/broadcast/f1AzDU8S.m3u8": {
@@ -7756,9 +7616,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://live.amperwave.net/manifest/townsquare-wezqfmaac-ibc3": {
@@ -7767,9 +7627,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "92.9 The Ticket",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://live.amperwave.net/manifest/townsquare-wwmjfmaac-ibc3": {
@@ -7778,9 +7638,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "I-95 FM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/BUTLER_UNIVERSITY.mp3": {
@@ -7797,23 +7657,23 @@
   "wbb|https://live.amperwave.net/direct/guaranty-wdglfmaac-ibc1": {
    "school": "Louisiana State University",
    "sport": "wbb",
-   "verdict": "music",
-   "title": "PEARL JAM - BETTER MAN",
+   "verdict": "unknown",
+   "title": "",
    "icy_name": "Eagle 98.1 The Rock Station",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|http://live.amperwave.net/direct/guaranty-wdglfmaac-ibc1": {
    "school": "Louisiana State University",
    "sport": "wbb",
-   "verdict": "music",
-   "title": "PEARL JAM - BETTER MAN",
+   "verdict": "unknown",
+   "title": "",
    "icy_name": "Eagle 98.1 The Rock Station",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://ice41.securenetsystems.net/WFPR": {
@@ -7822,9 +7682,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "Streaming by Securenet Systems Cirrus(R)",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://stream.revma.ihrhls.com/zc965": {
@@ -8229,9 +8089,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "WNSR Networks",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://live.amperwave.net/direct/creekmedia-wnexfmaac-ibc1": {
@@ -8251,9 +8111,9 @@
    "verdict": "game",
    "title": "Toledo Rockets Men's Basketball",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://stream.revma.ihrhls.com/zc1857/hls.m3u8": {
@@ -8262,9 +8122,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|http://stream.revma.ihrhls.com/zc1857": {
@@ -8273,9 +8133,9 @@
    "verdict": "game",
    "title": "Toledo Rockets Men's Basketball",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://img.leanstream.co/IM7401-MP3": {
@@ -8292,12 +8152,12 @@
   "wbb|https://stream.revma.ihrhls.com/zc3455": {
    "school": "Kent State University",
    "sport": "wbb",
-   "verdict": "unknown",
-   "title": "Fairpainters.mp3",
+   "verdict": "game",
+   "title": "KSUBB - KENT REJOIN 1350 26-27",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://stream.revma.ihrhls.com/zc3455/hls.m3u8": {
@@ -8306,20 +8166,20 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|http://stream.revma.ihrhls.com/zc3455": {
    "school": "Kent State University",
    "sport": "wbb",
-   "verdict": "unknown",
-   "title": "Fairpainters.mp3",
+   "verdict": "game",
+   "title": "KSUBB - KENT REJOIN 1350 26-27",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://clips-media-fly.warnermediacdn.com/ncaa/clips/2026-10/2416700-c0def5c723234637af1ef2a66fbc5945/cmaf/master_cl_de.m3u8": {
@@ -8328,9 +8188,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://clips-media-fly.warnermediacdn.com/ncaa/clips/2026-10/2416700-c0def5c723234637af1ef2a66fbc5945/cmaf/master_cl_ph.m3u8": {
@@ -8339,9 +8199,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://clips-media-fly.warnermediacdn.com/ncaa/clips/2026-10/2416700-c0def5c723234637af1ef2a66fbc5945/cmaf/master_cl_ta.m3u8": {
@@ -8350,9 +8210,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://ice26.securenetsystems.net/WPCC": {
@@ -8361,9 +8221,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "Streaming by Securenet Systems Cirrus(R)",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://live.amperwave.net/manifest/townsquare-ksubamaac-ibc3": {
@@ -8438,9 +8298,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "KSST Primary Stream",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WXNTAMAAC.aac": {
@@ -8449,9 +8309,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "CBS Sports 1430 AM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WXNTAMAAC.m3u8": {
@@ -8460,9 +8320,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|http://playerservices.streamtheworld.com/api/livestream-redirect/WXNTAMAAC.aac": {
@@ -8471,9 +8331,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "CBS Sports 1430 AM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://cdn.jwplayer.com/live/broadcast/3j2GACVG.m3u8": {
@@ -8482,9 +8342,9 @@
    "verdict": "unknown",
    "title": "error: HTTP Error 404: Not Found",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://bonneville.cdnstream1.com/2799_64.mp3": {
@@ -8501,12 +8361,12 @@
   "wbb|https://bonneville.cdnstream1.com/2616_48.aac?aw_0_1st.playerid=IHM": {
    "school": "University of California, Davis",
    "sport": "wbb",
-   "verdict": "game",
-   "title": "Your Local Sports Leader. - Sactown Sports 1140 ",
+   "verdict": "unknown",
+   "title": "",
    "icy_name": "Bonneville - KHTKAM OOM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://bonneville.cdnstream1.com/2616_48.aac/playlist.m3u8?aw_0_1st.playerid=IHM": {
@@ -8515,20 +8375,20 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|http://bonneville.cdnstream1.com/2616_48.aac?aw_0_1st.playerid=IHM": {
    "school": "University of California, Davis",
    "sport": "wbb",
-   "verdict": "game",
-   "title": "Your Local Sports Leader. - Sactown Sports 1140 ",
+   "verdict": "unknown",
+   "title": "",
    "icy_name": "Bonneville - KHTKAM OOM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://ice3.securenetsystems.net/WSWI?playSessionID=F5970050-98EE-49C6-FFC61E1599560DD6": {
@@ -8537,9 +8397,9 @@
    "verdict": "music",
    "title": "YUNGBLUD                      - ZOMBIE                      ",
    "icy_name": "Streaming by Securenet Systems Cirrus(R)",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://img.leanstream.co/LF8303-MP3": {
@@ -8548,9 +8408,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://live.amperwave.net/manifest/forevercomm-wfgsfmaac-hlsc4.m3u8": {
@@ -8559,9 +8419,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WDKBFMAAC.aac": {
@@ -8570,9 +8430,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "WDKBFM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WDKBFM.mp3": {
@@ -8581,9 +8441,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "WDKBFM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://img.leanstream.co/LF4602-MP3": {
@@ -8634,11 +8494,11 @@
    "school": "Bowling Green State University",
    "sport": "wbb",
    "verdict": "music",
-   "title": "Sinead O'Connor - Nothing Compares 2 U",
+   "title": "OneRepublic - Secrets",
    "icy_name": "WFRO",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://ice3.securenetsystems.net/WMOH": {
@@ -8647,9 +8507,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "This is my server name",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://live.amperwave.net/manifest/saga-wsvaamaac-hlsc2.m3u8?source=v7player": {
@@ -8658,9 +8518,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://live.amperwave.net/direct/saga-wsvaammp3-ibc2": {
@@ -8669,9 +8529,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "Newsradio WSVA",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://ice6.securenetsystems.net/WXTQ": {
@@ -8680,9 +8540,9 @@
    "verdict": "unknown",
    "title": "error: HTTP Error 403: Stream not available 7641",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://ice66.securenetsystems.net/KLIP": {
@@ -8691,9 +8551,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "no name",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://ice25.securenetsystems.net/WGZZ": {
@@ -8702,9 +8562,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "Barix Instreamer ICE",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://stream-02.surfernetwork.com/i37k5l981vjtv": {
@@ -8713,9 +8573,9 @@
    "verdict": "music",
    "title": " - ",
    "icy_name": "WVAS-FM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://ice41.securenetsystems.net/WELE": {
@@ -8724,9 +8584,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "Streaming by Securenet Systems Cirrus(R)",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KHXSFMAAC.aac": {
@@ -8790,20 +8650,20 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://streams.radio.co/sd1bcd1376/listen#.mp3": {
    "school": "Eastern Kentucky University",
    "sport": "wbb",
    "verdict": "music",
-   "title": "Le_J_James - Lady (feat Kid Randie &amp; Myster Sandman)",
+   "title": "Cole Powell - Not the One to Say (I Told You So) (24-bit Master)",
    "icy_name": "Qantum Themes Test Channel",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WFMDAMAAC.aac": {
@@ -8812,9 +8672,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "WFMDAM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WFMDAM.mp3": {
@@ -8823,9 +8683,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "WFMDAM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://crystalout.surfernetwork.com:8001/WNAV-AM_MP3": {
@@ -8834,9 +8694,9 @@
    "verdict": "music",
    "title": " - ",
    "icy_name": "WNAV-AM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://bonneville.cdnstream1.com/2699_48.aac?aw_0_1st.playerid=IHM": {
@@ -8966,9 +8826,9 @@
    "verdict": "unknown",
    "title": "error: HTTP Error 404: Not Available",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8": {
@@ -8977,9 +8837,9 @@
    "verdict": "unknown",
    "title": "error: HTTP Error 404: Not Found",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WKJGAMAAC.aac": {
@@ -9054,9 +8914,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://live.amperwave.net/direct/audacy-wfanamaac-imc": {
@@ -9065,9 +8925,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "WFAN Sports Radio 101.9 FM/66AM New York",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://live.amperwave.net/manifest/audacy-wfanamaac-imc": {
@@ -9076,9 +8936,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "WFAN Sports Radio 101.9 FM/66AM New York",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|http://live.amperwave.net/direct/audacy-wfanamaac-imc": {
@@ -9087,9 +8947,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "WFAN Sports Radio 101.9 FM/66AM New York",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|https://img.leanstream.co/IM7001-MP3": {
@@ -9162,22 +9022,22 @@
    "school": "Gonzaga University",
    "sport": "mbb",
    "verdict": "unknown",
-   "title": "LFEND",
+   "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://stream.revma.ihrhls.com/zc4952": {
    "school": "Gonzaga University",
    "sport": "mbb",
    "verdict": "unknown",
-   "title": "The Jesse Kelly Show",
+   "title": "Washington FB Coaches Show",
    "icy_name": "590 KQNT",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://stream.revma.ihrhls.com/zc4952/hls.m3u8": {
@@ -9186,20 +9046,20 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|http://stream.revma.ihrhls.com/zc4952": {
    "school": "Gonzaga University",
    "sport": "mbb",
    "verdict": "unknown",
-   "title": "The Jesse Kelly Show",
+   "title": "Washington FB Coaches Show",
    "icy_name": "590 KQNT",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://cp9.serverse.com/proxy/neiqvqnd?mp=/stream": {
@@ -9208,9 +9068,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "KSST Primary Stream",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/WEDSYXuK.m3u8?exp=1793667600&sig=2c19138900a52acfdbdd0ef19f1d0754": {
@@ -9230,9 +9090,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://ums.acuityplatform.com/tum?umid=133&uid=a58fe298-56f2-41ff-a2bd-2fd00f4aaf47&rurl=https%3A%2F%2Fyield-op-idsync.live.streamtheworld.com%2Fpixel.gif%3Fpartner%3Dacu%26uid%3D___AUID___%26pubId%3D21313": {
@@ -9241,9 +9101,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://rtb.adentifi.com/CookieSyncTriton?redirect=https%3A%2F%2Fyield-op-idsync.live.streamtheworld.com%2Fpixel.gif%3Fpartner%3Dadt%26uid%3D%24UID%26pubId%3D21313": {
@@ -9252,9 +9112,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://cdn.jwplayer.com/live/broadcast/aRSHQZWq.m3u8": {
@@ -9263,9 +9123,9 @@
    "verdict": "unknown",
    "title": "error: HTTP Error 404: Not Found",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/aRSHQZWq.m3u8?exp=1793667840&sig=c4ee4ce3fa4ffdb4575082921682dd0f": {
@@ -9274,9 +9134,9 @@
    "verdict": "unknown",
    "title": "error: HTTP Error 404: Not Found",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://ice5.securenetsystems.net/WTMZ": {
@@ -9285,9 +9145,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "Streaming by Securenet Systems Cirrus(R)",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://img.leanstream.co/LF8102-MP3": {
@@ -9296,9 +9156,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://img.leanstream.co/LF8101-MP3": {
@@ -9307,9 +9167,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://live.amperwave.net/manifest/townsquare-ktbqfmaac-ibc3": {
@@ -9318,9 +9178,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "Classic Rock Q107",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://img.leanstream.co/IM2501-MP3": {
@@ -9329,9 +9189,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://ice25.securenetsystems.net/WPTQ": {
@@ -9340,9 +9200,9 @@
    "verdict": "music",
    "title": "Rolling Stones - Bitch",
    "icy_name": "Streaming by Securenet Systems Cirrus(R)",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://ice5.securenetsystems.net/WIVY?playSessionID=CAD94437-8A97-4B89-A64B6786D95C079F": {
@@ -9351,9 +9211,9 @@
    "verdict": "game",
    "title": "\rWIVY - MSU Eagle Basketball",
    "icy_name": "Streaming by Securenet Systems Cirrus(R)",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://ice5.securenetsystems.net/WIVY": {
@@ -9362,9 +9222,9 @@
    "verdict": "game",
    "title": "\rWIVY - MSU Eagle Basketball",
    "icy_name": "Streaming by Securenet Systems Cirrus(R)",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://img.leanstream.co/IM8501-MP3": {
@@ -9373,20 +9233,20 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://stream.revma.ihrhls.com/zc2661": {
    "school": "University of Wisconsin-Madison",
    "sport": "mbb",
-   "verdict": "unknown",
-   "title": "Unbranded 2:00  11-02  19:47",
+   "verdict": "music",
+   "title": "Unbranded - Segment B  11-02  20:41",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://stream.revma.ihrhls.com/zc2661/hls.m3u8": {
@@ -9395,20 +9255,20 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|http://stream.revma.ihrhls.com/zc2661": {
    "school": "University of Wisconsin-Madison",
    "sport": "mbb",
-   "verdict": "unknown",
-   "title": "Unbranded 2:00  11-02  19:47",
+   "verdict": "music",
+   "title": "Unbranded - Segment B  11-02  20:41",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://d834c7343c8a4d208b4df6b78180ebc9.mediatailor.us-west-2.amazonaws.com/v1/master/cbadc959d0c9b4829831c664f5ec02b07c91d8a1/KKFN-FM/playlist.m3u8": {
@@ -9417,9 +9277,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://img.leanstream.co/LF5101-MP3": {
@@ -9428,9 +9288,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://stream.surfernetwork.com/1fvoynxxaqduv": {
@@ -9439,9 +9299,9 @@
    "verdict": "music",
    "title": " - ",
    "icy_name": "WSOU",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://stream.surfernetwork.com/hls/1fvoynxxaqduv": {
@@ -9450,9 +9310,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|http://stream.surfernetwork.com/1fvoynxxaqduv": {
@@ -9461,9 +9321,9 @@
    "verdict": "music",
    "title": " - ",
    "icy_name": "WSOU",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://cdn.jwplayer.com/live/broadcast/I0QkbOOf.m3u8": {
@@ -9472,9 +9332,9 @@
    "verdict": "unknown",
    "title": "error: HTTP Error 404: Not Found",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://ice3.securenetsystems.net/WSWI?playSessionID=F5970050-98EE-49C6-FFC61E1599560DD6": {
@@ -9483,9 +9343,9 @@
    "verdict": "music",
    "title": "YUNGBLUD                      - ZOMBIE                      ",
    "icy_name": "Streaming by Securenet Systems Cirrus(R)",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://ice23.securenetsystems.net/KCGQ": {
@@ -9494,10 +9354,10 @@
    "verdict": "ad",
    "title": "                              - 2026 SEMO SPONSORS          ",
    "icy_name": "KCGQ",
-   "at": "2026-11-03T00:51:17Z",
-   "ad_hits": 1,
-   "checks": 1,
-   "preroll": false
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 2,
+   "checks": 2,
+   "preroll": true
   },
   "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KLINAMAAC.aac": {
    "school": "University of Nebraska-Lincoln",
@@ -9505,9 +9365,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "KLINAM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KLINAM.mp3": {
@@ -9516,9 +9376,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "KLINAM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://ice5.securenetsystems.net/WOLF": {
@@ -9527,9 +9387,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "The Beat",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://img.leanstream.co/IM9301-MP3": {
@@ -9538,9 +9398,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://cdn.jwplayer.com/live/broadcast/PO7HBqwR.m3u8": {
@@ -9549,9 +9409,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://ice25.securenetsystems.net/WBUS": {
@@ -9560,9 +9420,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "Streaming by Securenet Systems Cirrus(R)",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://live.amperwave.net/manifest/radioonebuffalo-weckamaac-hlsc3.m3u8": {
@@ -9571,9 +9431,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|http://live.amperwave.net/manifest/radioonebuffalo-weckamaac-hlsc3.m3u8": {
@@ -9582,9 +9442,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://crystalout.surfernetwork.com:8001/WNAV-AM_MP3": {
@@ -9593,9 +9453,9 @@
    "verdict": "music",
    "title": " - ",
    "icy_name": "WNAV-AM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://img.leanstream.co/LF2701-MP3": {
@@ -9604,20 +9464,20 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://stream.revma.ihrhls.com/zc3455": {
    "school": "Kent State University",
    "sport": "mbb",
-   "verdict": "unknown",
-   "title": "Fairpainters.mp3",
+   "verdict": "game",
+   "title": "KSUBB - KENT REJOIN 1350 26-27",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://stream.revma.ihrhls.com/zc3455/hls.m3u8": {
@@ -9626,20 +9486,20 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|http://stream.revma.ihrhls.com/zc3455": {
    "school": "Kent State University",
    "sport": "mbb",
-   "verdict": "unknown",
-   "title": "Fairpainters.mp3",
+   "verdict": "game",
+   "title": "KSUBB - KENT REJOIN 1350 26-27",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://ice66.securenetsystems.net/KLIP": {
@@ -9648,9 +9508,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "no name",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://live.amperwave.net/manifest/northernstarbroadcasting-wupsfmaac-hlsc2.m3u8": {
@@ -9659,20 +9519,20 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://live.amperwave.net/manifest/northernstarbroadcasting-wupsfmaac-ibc2": {
    "school": "Central Michigan University",
    "sport": "mbb",
-   "verdict": "game",
-   "title": "Men At Work - Down Under",
+   "verdict": "music",
+   "title": "Gin Blossoms - Hey Jealousy",
    "icy_name": "98.5 UPS - The Classic Hits Station",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|http://www.wmhw.cmich.edu:915/live.mp3": {
@@ -9681,9 +9541,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "Mountain 91.5",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://live.amperwave.net/manifest/goodkarma-wktifmaac-hlsc2.m3u8?source=radiobox": {
@@ -9692,9 +9552,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://img.leanstream.co/IM8301-MP3": {
@@ -9703,9 +9563,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://live.amperwave.net/manifest/telesouth-wkbbfmaac-hlsc1.m3u8?source=v7player": {
@@ -9714,9 +9574,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://live.amperwave.net/manifest/telesouth-wkbbfmaac-imc1": {
@@ -9725,9 +9585,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "SuperTalk Golden Triangle",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://live.amperwave.net/manifest/telesouth-wzkrfmaac-imc": {
@@ -9736,20 +9596,20 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "SuperTalk Meridian",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://ice42.securenetsystems.net/WPTNAM": {
    "school": "Tennessee Technological University",
    "sport": "mbb",
    "verdict": "music",
-   "title": " - PCSO EDDIE FARRIS MAKE A DIFFERENCE",
+   "title": " - THE EAGLE",
    "icy_name": "Streaming by Securenet Systems Cirrus(R)",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://img.leanstream.co/IM5001-MP3": {
@@ -9758,9 +9618,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://cmg.streamguys1.com/atl750/atl750-encoder.aac/playlist.m3u8?aw_0_1st.playerId=cmg_iheart": {
@@ -9769,9 +9629,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|http://cmg.streamguys1.com/atl750/atl750-encoder.aac/playlist.m3u8?aw_0_1st.playerId=cmg_iheart": {
@@ -9780,9 +9640,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KCMOAMAAC.aac": {
@@ -9791,9 +9651,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "KCMOAM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KCMOAM.mp3": {
@@ -9802,9 +9662,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "KCMOAM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wbb|https://cdn.jwplayer.com/live/broadcast/yrAF87kh.m3u8": {
@@ -9813,9 +9673,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wbb|https://ais-sa1.streamon.fm/7678_48k.aac/playlist.m3u8": {
@@ -9824,9 +9684,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wbb|https://ice23.securenetsystems.net/KCGQ": {
@@ -9835,10 +9695,10 @@
    "verdict": "ad",
    "title": "                              - 2026 SEMO SPONSORS          ",
    "icy_name": "KCGQ",
-   "at": "2026-11-03T00:51:17Z",
-   "ad_hits": 1,
-   "checks": 1,
-   "preroll": false
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 2,
+   "checks": 2,
+   "preroll": true
   },
   "wbb|https://img.leanstream.co/LF1701-MP3": {
    "school": "Colorado State University",
@@ -9857,9 +9717,9 @@
    "verdict": "game",
    "title": "DenverSports.com - Denver Sports",
    "icy_name": "Bonneville - KKFNFM OOM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wbb|https://bonneville.cdnstream1.com/2612_48.aac/playlist.m3u8?aw_0_1st.playerid=IHM": {
@@ -9868,20 +9728,20 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wbb|https://ice6.securenetsystems.net/KCLC": {
    "school": "Lindenwood University",
    "sport": "wbb",
-   "verdict": "music",
-   "title": "Adult Leisure                 - Kiss Me Like You Miss Her   ",
+   "verdict": "game",
+   "title": "Panic at the Disco            - Death Of A Bachelor         ",
    "icy_name": "KCLC",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wbb|http://104.243.173.42:88/broadwave.mp3": {
@@ -9890,9 +9750,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wbb|https://streaming2.tux-support.com:8096/source": {
@@ -9901,21 +9761,21 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "mtsuwbb",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wbb|https://live.amperwave.net/direct/audacy-kmoxfmaac-imc": {
    "school": "Saint Louis University",
    "sport": "wbb",
-   "verdict": "ad",
-   "title": "ad|main - Commercial Break - https://d3d86ekqlyggds.cloudfront.net/banner/1/1/147262/0/15597/0/0/banner.html?bid=147262&",
+   "verdict": "unknown",
+   "title": "",
    "icy_name": "104.1 KMOX",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 1,
-   "checks": 1,
-   "preroll": false
+   "checks": 2,
+   "preroll": true
   },
   "wbb|https://live.amperwave.net/manifest/audacy-kmoxamaac-hlsc.m3u8": {
    "school": "Saint Louis University",
@@ -9923,42 +9783,42 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wbb|https://oom-signalmedia.streamguys1.com/signalmedia/kabz-aac?aw_0_req.gdpr=true": {
    "school": "University of Arkansas",
    "sport": "wbb",
    "verdict": "music",
-   "title": "LINER C -  (NEW) BLACK OR WHITE - LINK",
+   "title": "RAY TUCKER'S OUTDOOR OPEN (2025) - LINK",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wbb|http://oom-signalmedia.streamguys1.com/signalmedia/kabz-aac?aw_0_req.gdpr=true": {
    "school": "University of Arkansas",
    "sport": "wbb",
-   "verdict": "music",
-   "title": "LINER C -  (NEW) BLACK OR WHITE - LINK",
+   "verdict": "unknown",
+   "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WRKNFMAAC.aac": {
    "school": "University of New Orleans",
    "sport": "wbb",
-   "verdict": "unknown",
-   "title": "",
+   "verdict": "music",
+   "title": "Jekalyn Carr f/Karen Clark-Sheard, Shirley Caesar & Harvey Watki - History",
    "icy_name": "Heaven 106.1",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WRKNFMAAC.m3u8": {
@@ -9967,31 +9827,31 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wbb|http://playerservices.streamtheworld.com/api/livestream-redirect/WRKNFMAAC.aac": {
    "school": "University of New Orleans",
    "sport": "wbb",
-   "verdict": "unknown",
-   "title": "",
+   "verdict": "music",
+   "title": "Jekalyn Carr f/Karen Clark-Sheard, Shirley Caesar & Harvey Watki - History",
    "icy_name": "Heaven 106.1",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wbb|https://stream.revma.ihrhls.com/zc913": {
    "school": "Iowa State University",
    "sport": "wbb",
    "verdict": "unknown",
-   "title": "Ghost",
+   "title": "Bring Me To Life",
    "icy_name": "NOW1051",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wbb|https://stream.revma.ihrhls.com/zc913/hls.m3u8": {
@@ -10000,20 +9860,20 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wbb|http://stream.revma.ihrhls.com/zc913": {
    "school": "Iowa State University",
    "sport": "wbb",
    "verdict": "unknown",
-   "title": "Ghost",
+   "title": "Bring Me To Life",
    "icy_name": "NOW1051",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wbb|https://ice41.securenetsystems.net/KGRM?playSessionID=27007793-697E-4C07-A287049708D476F7": {
@@ -10022,9 +9882,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "Streaming by Securenet Systems Cirrus(R)",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wbb|https://img.leanstream.co/IM8001-MP3": {
@@ -10033,54 +9893,54 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wbb|https://stream-02.surfernetwork.com/drscz5r6naxuv": {
    "school": "Kansas State University",
    "sport": "wbb",
    "verdict": "music",
-   "title": "Pearl Jam - Better Man",
+   "title": "Cinderella - Nobody's Fool",
    "icy_name": "KMKF",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wbb|https://live.amperwave.net/direct/audacy-keynfmaac-imc": {
    "school": "Wichita State University",
    "sport": "wbb",
-   "verdict": "ad",
-   "title": "ad|main - Commercial Break - https://d3d86ekqlyggds.cloudfront.net/banner/1/1/147262/0/9266/0/0/banner.html?bid=147262&m",
+   "verdict": "unknown",
+   "title": "",
    "icy_name": "103.7 KEYN",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 1,
-   "checks": 1,
-   "preroll": false
+   "checks": 2,
+   "preroll": true
   },
   "wbb|https://live.amperwave.net/manifest/audacy-keynfmaac-imc": {
    "school": "Wichita State University",
    "sport": "wbb",
-   "verdict": "ad",
-   "title": "ad|main - Commercial Break - https://d3d86ekqlyggds.cloudfront.net/banner/1/1/147262/0/9266/0/0/banner.html?bid=147262&m",
+   "verdict": "unknown",
+   "title": "",
    "icy_name": "103.7 KEYN",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 1,
-   "checks": 1,
-   "preroll": false
+   "checks": 2,
+   "preroll": true
   },
   "wbb|http://live.amperwave.net/direct/audacy-keynfmaac-imc": {
    "school": "Wichita State University",
    "sport": "wbb",
-   "verdict": "ad",
-   "title": "ad|main - Commercial Break - http://d3d86ekqlyggds.cloudfront.net/banner/1/1/147262/0/9266/0/0/banner.html?bid=147262&mi",
+   "verdict": "unknown",
+   "title": "",
    "icy_name": "103.7 KEYN",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 1,
-   "checks": 1,
-   "preroll": false
+   "checks": 2,
+   "preroll": true
   },
   "wbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WJBCAMAAC.aac": {
    "school": "Illinois State University",
@@ -10088,9 +9948,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "WJBCAM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WJBCAMAAC.m3u8": {
@@ -10099,9 +9959,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wbb|http://playerservices.streamtheworld.com/api/livestream-redirect/WJBCAMAAC.aac": {
@@ -10110,11 +9970,1375 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "WJBCAM",
-   "at": "2026-11-03T00:51:17Z",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 2,
+   "preroll": false
+  },
+  "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WSOYAM.mp3": {
+   "school": "University of Illinois Urbana-Champaign",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "WSOYAM",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WSOYAMAAC.aac": {
+   "school": "University of Illinois Urbana-Champaign",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "WSOYAM",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://ice23.securenetsystems.net/KLWNAM": {
+   "school": "University of Kansas",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "Streaming by Securenet Systems Cirrus(R)",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://onair.wfuv.org/onair-aacplus": {
+   "school": "Fordham University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "WFUV",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|http://onair.wfuv.org/onair-aacplus": {
+   "school": "Fordham University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "WFUV",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|http://wfuv-onair.streamguys.org/onair-hi": {
+   "school": "Fordham University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "WFUV",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://greenbayphoenix.mixlr.com/": {
+   "school": "University of Wisconsin-Green Bay",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://apicdn.mixlr.com/v3/channel_view/greenbayphoenix": {
+   "school": "University of Wisconsin-Green Bay",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "error: HTTP Error 404: Not Found",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://img.leanstream.co/IM1801-MP3": {
+   "school": "University of Southern Mississippi",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://img.leanstream.co/LF7502-MP3": {
+   "school": "North Dakota State University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://img.leanstream.co/LF7501-MP3": {
+   "school": "North Dakota State University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://cdn.jwplayer.com/live/broadcast/oTL3cBju.m3u8": {
+   "school": "Tarleton State University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://kxtr.streamguys1.com/live2-aac": {
+   "school": "Tarleton State University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "My Station name",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|http://kxtr.streamguys1.com/live2-aac": {
+   "school": "Tarleton State University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "My Station name",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://img.leanstream.co/LF8001-MP3": {
+   "school": "University of Texas at Arlington",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://ice64.securenetsystems.net/WBYSAM": {
+   "school": "Western Illinois University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "error: HTTP Error 403: Stream not available 7641",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WMBDAM.mp3": {
+   "school": "Bradley University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "WMBDAM",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WMBDAMAAC.aac": {
+   "school": "Bradley University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "WMBDAM",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WMBDAMAAC_SC?wmbd": {
+   "school": "Bradley University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "WMBDAM",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WNSBFMAAC.aac": {
+   "school": "Norfolk State University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "WNSBFM",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WNSBFM.mp3": {
+   "school": "Norfolk State University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "WNSBFM",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://img.leanstream.co/LF6001-MP3": {
+   "school": "University of Tulsa",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://live.amperwave.net/manifest//griffin-kxblfmaac-imc2": {
+   "school": "University of Tulsa",
+   "sport": "mbb",
+   "verdict": "music",
+   "title": "Jason Aldean - Anytime Soon",
+   "icy_name": "98.5 The Bull",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://img.leanstream.co/LF5801-MP3": {
+   "school": "Texas State University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://ktswlive.txstate.edu:8102/listen": {
+   "school": "Texas State University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "KTSW Stream",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WJMFFMAAC.aac": {
+   "school": "Bryant University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "WJMFFM",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://ais-sa1.streamon.fm/7816_128k.aac": {
+   "school": "Siena University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://ice41.securenetsystems.net/WELE": {
+   "school": "Bethune-Cookman University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "Streaming by Securenet Systems Cirrus(R)",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://live.amperwave.net/manifest/audacy-wordamaac-hlsc.m3u8": {
+   "school": "Furman University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://live.amperwave.net/manifest/audacy-wordamaac-imc": {
+   "school": "Furman University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "Upstate Red",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|http://live.amperwave.net/manifest/audacy-wordamaac-hlsc.m3u8": {
+   "school": "Furman University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://img.leanstream.co/LF5301-MP3": {
+   "school": "Southern Illinois University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://ice23.securenetsystems.net/WCIL": {
+   "school": "Southern Illinois University",
+   "sport": "mbb",
+   "verdict": "game",
+   "title": "from Learfield                - SIU Basketball vs Maryville ",
+   "icy_name": "WCIL",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://live.amperwave.net/direct/wgnam-wgnamaac-imc2": {
+   "school": "Northwestern University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "WGN-AM",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|http://live.amperwave.net/direct/wgnam-wgnamaac-imc2": {
+   "school": "Northwestern University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "WGN-AM",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|http://18.204.34.32/wgnam-wgnammp3-ibc2?session-id=611cbf2ae655692204b4a6d45fef29e7": {
+   "school": "Northwestern University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "WGN-AM",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://live.amperwave.net/manifest/townsquare-wnbfamaac-ibc3": {
+   "school": "Binghamton University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "WNBF News Radio 1290",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|http://stream.abacast.net/direct/townsquare-wnbfamaac-ibc3": {
+   "school": "Binghamton University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "WNBF News Radio 1290",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://ais-sa1.streamon.fm/7348_48k.aac": {
+   "school": "Utah Valley University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://img.leanstream.co/IM4901-MP3": {
+   "school": "Texas Christian University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://img.leanstream.co/IM4903-MP3": {
+   "school": "Texas Christian University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://stream.revma.ihrhls.com/zc3379": {
+   "school": "Texas Christian University",
+   "sport": "mbb",
+   "verdict": "game",
+   "title": "title=\"Dancing With Myself\",artist=\"BILLY IDOL\",url=\"song_spot=\"F\" MediaBaseId=\"0\" itunesTrackId=\"0\" amgTrackId=\"-1\" amg",
+   "icy_name": "Lone Star 92.5",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://stream.revma.ihrhls.com/zc3379/hls.m3u8": {
+   "school": "Texas Christian University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://ice6.securenetsystems.net/KCLC": {
+   "school": "Lindenwood University",
+   "sport": "mbb",
+   "verdict": "game",
+   "title": "Panic at the Disco            - Death Of A Bachelor         ",
+   "icy_name": "KCLC",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://img.leanstream.co/IM5701-MP3": {
+   "school": "Tulane University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.aac": {
+   "school": "Tulane University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "The Ticket 106.7",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.m3u8": {
+   "school": "Tulane University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|http://playerservices.streamtheworld.com/api/livestream-redirect/KKNDFMAAC.aac": {
+   "school": "Tulane University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "The Ticket 106.7",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://ice64.securenetsystems.net/WUTM": {
+   "school": "University of Tennessee at Martin",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://img.leanstream.co/LF5402-MP3": {
+   "school": "Southern Methodist University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://img.leanstream.co/LF5401-MP3": {
+   "school": "Southern Methodist University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.aac": {
+   "school": "Southern Methodist University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "The Ticket",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KTCKAMAAC.m3u8": {
+   "school": "Southern Methodist University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://img.leanstream.co/LF1001-MP3": {
+   "school": "University of California, Berkeley",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KSFOAMAAC.aac": {
+   "school": "University of California, Berkeley",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "KSFOAM",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KSFOAMAAC.m3u8": {
+   "school": "University of California, Berkeley",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|http://playerservices.streamtheworld.com/api/livestream-redirect/KSFOAMAAC.aac": {
+   "school": "University of California, Berkeley",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "KSFOAM",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://live.amperwave.net/direct/saga-wkfnamaac-ibc2": {
+   "school": "Austin Peay State University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "ESPN Clarksville",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://live.amperwave.net/manifest/saga-wkfnamaac-hlsc2.m3u8": {
+   "school": "Austin Peay State University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://cdn.jwplayer.com/live/broadcast/Fc4UeWQ2.m3u8": {
+   "school": "University of Portland",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://img.leanstream.co/LF5001-MP3": {
+   "school": "Saint Louis University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://live.amperwave.net/direct/audacy-kmoxfmaac-imc": {
+   "school": "Saint Louis University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "104.1 KMOX",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://live.amperwave.net/manifest/audacy-kmoxamaac-hlsc.m3u8": {
+   "school": "Saint Louis University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WEEXAM.mp3": {
+   "school": "Lehigh University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "WEEXAM",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://img.leanstream.co/LF7301-MP3": {
+   "school": "Loyola University Chicago",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://ice5.securenetsystems.net/WQNT": {
+   "school": "The Citadel",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "Streaming by Securenet Systems Cirrus(R)",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://cdn.jwplayer.com/live/broadcast/drxr54ws.m3u8": {
+   "school": "University of South Alabama",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WMEZFMAAC.aac": {
+   "school": "University of South Alabama",
+   "sport": "mbb",
+   "verdict": "music",
+   "title": "Drake - Janice",
+   "icy_name": "WMEZFM",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WMEZFMAAC.m3u8": {
+   "school": "University of South Alabama",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|http://playerservices.streamtheworld.com/api/livestream-redirect/WMEZFMAAC.aac": {
+   "school": "University of South Alabama",
+   "sport": "mbb",
+   "verdict": "music",
+   "title": "Drake - Janice",
+   "icy_name": "WMEZFM",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://img.leanstream.co/IM4301-MP3": {
+   "school": "Ohio University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://ice6.securenetsystems.net/WXTQ": {
+   "school": "Ohio University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "error: HTTP Error 403: Stream not available 7641",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://ais-sa8.cdnstream1.com/1416_64/playlist.m3u8": {
+   "school": "Arkansas State University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://ais-sa8.cdnstream1.com/1416_64": {
+   "school": "Arkansas State University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": " 107.9 KFIN ",
+   "icy_name": "KFIN",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://img.leanstream.co/LF5901-MP3": {
+   "school": "University of Toledo",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://stream.revma.ihrhls.com/zc1857": {
+   "school": "University of Toledo",
+   "sport": "mbb",
+   "verdict": "game",
+   "title": "Toledo Rockets Men's Basketball",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://stream.revma.ihrhls.com/zc1857/hls.m3u8": {
+   "school": "University of Toledo",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|http://stream.revma.ihrhls.com/zc1857": {
+   "school": "University of Toledo",
+   "sport": "mbb",
+   "verdict": "game",
+   "title": "Toledo Rockets Men's Basketball",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://img.leanstream.co/LF2803-MP3": {
+   "school": "University of Louisiana at Lafayette",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://live.amperwave.net/manifest/townsquare-khxtfmaac-ibc3": {
+   "school": "University of Louisiana at Lafayette",
+   "sport": "mbb",
+   "verdict": "music",
+   "title": "JHENE AIKO - SO GOOD (FEAT. KENDRICK LAMAR)",
+   "icy_name": "HOT 107.9",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://live.amperwave.net/manifest/townsquare-kpelamaac-ibc3": {
+   "school": "University of Louisiana at Lafayette",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "SPORTS RADIO ESPN 1420",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://stream.revma.ihrhls.com/zc3520": {
+   "school": "University of Akron",
+   "sport": "mbb",
+   "verdict": "ad",
+   "title": "Spot Block End",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 1,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://stream.revma.ihrhls.com/zc3520/hls.m3u8": {
+   "school": "University of Akron",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|http://stream.revma.ihrhls.com/zc3520": {
+   "school": "University of Akron",
+   "sport": "mbb",
+   "verdict": "ad",
+   "title": "Spot Block End",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 1,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://img.leanstream.co/IM2401-MP3": {
+   "school": "Wake Forest University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://live.amperwave.net/manifest/blueridgeradio-wbrffmaac-hlsc4.m3u8": {
+   "school": "Wake Forest University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://cdn.jwplayer.com/live/broadcast/9x7sNmnb.m3u8": {
+   "school": "DePaul University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://ice66.securenetsystems.net/WCKS": {
+   "school": "University of West Georgia",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "Now Playing info goes here",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://ice26.securenetsystems.net/KOZN": {
+   "school": "Creighton University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "John Bishop ",
+   "icy_name": "KOZN",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://ais-sa1.streamon.fm/11317_96k.aac": {
+   "school": "University of Oklahoma",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://das-edge59-sa48-futuri-lax02.cdnstream.com/11317_96k.aac?listeningSessionId=QjdWS0FUT0tQSVFOUERONUlNRkhXSTI0NklfZGFzLWVkZ2U1OS1zYTQ4LWZ1dHVyaS1sYXgwMi5jZG5zdHJlYW0uY29tOjgxODY.&playerid=esPlayer": {
+   "school": "University of Oklahoma",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|http://ais-sa1.streamon.fm/11317_96k.aac": {
+   "school": "University of Oklahoma",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KETRFMAAC.aac": {
+   "school": "East Texas A&M University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "KETR-FM",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KETRFM.mp3": {
+   "school": "East Texas A&M University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "KETR-FM",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|http://s8.yesstreaming.net:7014/stream": {
+   "school": "Jacksonville State University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "WLJS 91.9",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://img.leanstream.co/IM4101-MP3": {
+   "school": "University of Mississippi",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://live.amperwave.net/manifest/telesouth-wqljfmaac-hlsc1.m3u8?source=v7player": {
+   "school": "University of Mississippi",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://ice41.securenetsystems.net/WPRL": {
+   "school": "Alcorn State University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "WPRL91.7",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://live.amperwave.net/manifest/rcomm-xhrysfmaac-hlsc4.m3u8?source=v7player": {
+   "school": "University of Texas Rio Grande Valley",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://live.amperwave.net/direct/rcomm-xhrysfmaac-imc4": {
+   "school": "University of Texas Rio Grande Valley",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "ULTRA 90.1",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://us2.maindigitalstream.com/ssl/KUCA": {
+   "school": "University of Central Arkansas",
+   "sport": "mbb",
+   "verdict": "ad",
+   "title": "--30 PSA - U.S. COAST GUARD 1 30PSA",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 1,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://ice6.securenetsystems.net/KYAL": {
+   "school": "Oral Roberts University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "error: HTTP Error 404: Not Available",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://stream.revma.ihrhls.com/zc925": {
+   "school": "University of Iowa",
+   "sport": "wbb",
+   "verdict": "blocked",
+   "title": "Default Geofence Loop Audio",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://stream.revma.ihrhls.com/zc925/hls.m3u8": {
+   "school": "University of Iowa",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|http://stream.revma.ihrhls.com/zc925": {
+   "school": "University of Iowa",
+   "sport": "wbb",
+   "verdict": "blocked",
+   "title": "Default Geofence Loop Audio",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://ice6.securenetsystems.net/WNST": {
+   "school": "Towson University",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "Streaming by Securenet Systems Cirrus(R)",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://cdn.jwplayer.com/live/broadcast/lvwSsBi8.m3u8": {
+   "school": "Temple University",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://cdn.jwplayer.com/live/broadcast/Y5Ie0ds3.m3u8": {
+   "school": "Eastern Kentucky University",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://14933.live.streamtheworld.com/KRSTFMAAC.aac": {
+   "school": "University of Arkansas at Little Rock",
+   "sport": "wbb",
+   "verdict": "music",
+   "title": "Luke Bryan - Roller Coaster",
+   "icy_name": "KRSTFM",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|http://ice42.securenetsystems.net/WTAWAM": {
+   "school": "Texas A&M University",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "Streaming by Securenet Systems Cirrus(R)",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://stream.revma.ihrhls.com/zc1681": {
+   "school": "University of North Dakota",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "Faith",
+   "icy_name": "96.1 The Fox",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://stream.revma.ihrhls.com/zc1681/hls.m3u8": {
+   "school": "University of North Dakota",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|http://stream.revma.ihrhls.com/zc1681": {
+   "school": "University of North Dakota",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "Faith",
+   "icy_name": "96.1 The Fox",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://ice42.securenetsystems.net/KXPZ": {
+   "school": "New Mexico State University",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "no name",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://img.leanstream.co/LF6801-MP3": {
+   "school": "South Dakota State University",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://live.amperwave.net/manifest/saga-wnaxamaac-hlsc1.m3u8": {
+   "school": "South Dakota State University",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://ice26.securenetsystems.net/KOZN": {
+   "school": "Creighton University",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "John Bishop ",
+   "icy_name": "KOZN",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KVORAMAAC.aac": {
+   "school": "United States Air Force Academy",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "KVORAM",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KVORAMAAC.m3u8": {
+   "school": "United States Air Force Academy",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|http://playerservices.streamtheworld.com/api/livestream-redirect/KVORAMAAC.aac": {
+   "school": "United States Air Force Academy",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "KVORAM",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://d834c7343c8a4d208b4df6b78180ebc9.mediatailor.us-west-2.amazonaws.com/v1/master/cbadc959d0c9b4829831c664f5ec02b07c91d8a1/KKFN-FM/playlist.m3u8": {
+   "school": "University of Denver",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://img.leanstream.co/LF5201-MP3": {
+   "school": "University of South Dakota",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://img.leanstream.co/IM8202-MP3": {
+   "school": "University of Wyoming",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-03T02:02:00Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://live.amperwave.net/manifest/townsquare-kowbamaac-ibc3": {
+   "school": "University of Wyoming",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "KOWB 1290",
+   "at": "2026-11-03T02:02:00Z",
    "ad_hits": 0,
    "checks": 1,
    "preroll": false
   }
  },
- "checked": "2026-11-03T00:51:17Z"
+ "checked": "2026-11-03T02:02:00Z"
 }
