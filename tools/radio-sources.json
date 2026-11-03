@@ -245,13 +245,18 @@
    ],
    "bsb": [
     "https://kzsu-streams.stanford.edu/kzsu-1-128.mp3"
+   ],
+   "wbb": [
+    "https://kzsu-streams.stanford.edu/kzsu-1-256.mp3",
+    "https://kzsu-streams.stanford.edu/kzsu-1-128.mp3"
    ]
   },
   "sport_station": {
    "wvb": "KZSU 90.1 FM (Stanford)",
-   "bsb": "KZSU 90.1 FM (Stanford)"
+   "bsb": "KZSU 90.1 FM (Stanford)",
+   "wbb": "KZSU 90.1 FM (Stanford)"
   },
-  "notes": "KZSU 90.1 (campus station) is the exclusive radio home for Stanford volleyball and baseball (kzsu.stanford.edu/sports)."
+  "notes": "KZSU 90.1 (campus station) is the exclusive radio home for Stanford volleyball and baseball (kzsu.stanford.edu/sports). KZSU is also the exclusive radio home for women's basketball (kzsu.stanford.edu/sports, 2026-27); simultaneous games may move to KZSU-2 (kzsu-2-256.mp3)."
  },
  {
   "school": "Syracuse University",
@@ -306,7 +311,8 @@
    "WBRW-FM"
   ],
   "streams": [],
-  "athletics_site": "https://hokiesports.com"
+  "athletics_site": "https://hokiesports.com",
+  "notes": "WVXL 100.7 FM is the alternate women's basketball station when WBRW has a conflict (hokiesports.com/virginia-tech-sports-network)."
  },
  {
   "school": "Wake Forest University",
@@ -944,7 +950,8 @@
    "K231AA"
   ],
   "streams": [],
-  "athletics_site": "https://cubuffs.com"
+  "athletics_site": "https://cubuffs.com",
+  "notes": "Women's basketball is on KHOW 630 AM (iHeart Denver), plus SiriusXM and Varsity app (cubuffs.com 2025-26 notes)."
  },
  {
   "school": "University of Houston",
@@ -1210,7 +1217,8 @@
   ],
   "streams": [],
   "station_website": "https://whcc105.com",
-  "athletics_site": "https://iuhoosiers.com"
+  "athletics_site": "https://iuhoosiers.com",
+  "notes": "Women's basketball is on B97 WBWB 96.7 FM Bloomington, not WHCC (iuhoosiers.com, 2023 and Nov 2025)."
  },
  {
   "school": "University of Iowa",
@@ -1449,7 +1457,7 @@
   "sport_station": {
    "wvb": "ESPN Madison 100.5 FM (WTLX)"
   },
-  "notes": "Volleyball on ESPN Madison WTLX 100.5 (and 620 WTMJ); the 2026 volleyball schedule links every match to ESPN Madison."
+  "notes": "Volleyball on ESPN Madison WTLX 100.5 (and 620 WTMJ); the 2026 volleyball schedule links every match to ESPN Madison. Women's basketball is on WTSO 1070 AM Fox Sports Madison (iHeart), not WIBA (uwbadgers.com game notes)."
  },
  {
   "school": "University at Albany",
@@ -3875,15 +3883,18 @@
    "Ohio",
    "Ohio Bobcats"
   ],
-  "network": "Ohio Bobcats Radio Network",
+  "network": "Ohio Sports Network from Learfield",
   "flagship": "WXTQ 105.5 FM (Athens, OH)",
   "listen_page": "https://ohiobobcats.com",
   "conference": "Mid-American Conference",
   "calls": [
    "WXTQ-FM"
   ],
-  "streams": [],
-  "athletics_site": "https://ohiobobcats.com"
+  "streams": [
+   "https://us7.maindigitalstream.com/2174/"
+  ],
+  "athletics_site": "https://ohiobobcats.com",
+  "notes": "Nov 2026: WXTQ SecureNet stream returns 403. Affiliates per ohiobobcats.com coaches-shows page (Apr 2026): WMNI 920 Columbus, WYPC 105.3/1330 Jackson, WJAW 630/92.9 Marietta-Parkersburg. Added JAWCO WJAW-FM 100.9 stream (us7.maindigitalstream.com/2174, from wmoa1490.com/89; carried games in the 2021 network list). Free school audio: ohiobobcats.com / Varsity app (found at game time)."
  },
  {
   "school": "University of Toledo",
@@ -4751,7 +4762,8 @@
    "WPRT-FM"
   ],
   "streams": [],
-  "athletics_site": "https://vucommodores.com"
+  "athletics_site": "https://vucommodores.com",
+  "notes": "Women's basketball is on 94.9 The Fan (W235BW / WBUZ-HD3), not WPRT 102.5 (vucommodores.com/radio-network, Aug 2026); free school audio at vanderbilt.leanplayer.com."
  },
  {
   "school": "American University",
