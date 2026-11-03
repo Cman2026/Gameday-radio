@@ -2079,7 +2079,7 @@ function rinkView(e, a, h, bc){
     `<span class="puck" style="--c:${c}" title="Goal in period ${pName(i)}">${pName(i)}</span>`)).join("");
   const sec = toSec(st.displayClock), len = per > 3 ? 5*60 : 20*60;
   const done = live && sec != null ? Math.min(100, Math.max(0, (len - sec) / len * 100)) : (live ? 0 : 100);
-  const mid = live ? (/intermission|end of/i.test(st.type.shortDetail||"") ? `<small>INT</small>${esc(st.type.shortDetail.replace(/\s*intermission/i,""))}` : `<small>PERIOD</small>${per > 3 ? pName(per-1) : ordN(per)}`) : `<small>FINAL</small>${per > 3 ? pName(per-1) : ""}`;
+  const mid = live ? (/intermission|end of/i.test(st.type.shortDetail||"") ? `<small>INT</small>${esc(st.type.shortDetail.replace(/\s*intermission/i,"")).replace(/^end of\s+/i, "End of<br>")}` : `<small>PERIOD</small>${per > 3 ? pName(per-1) : ordN(per)}`) : `<small>FINAL</small>${per > 3 ? pName(per-1) : ""}`;
   const side = (t, c, k) => `<div class="side ${k}">${t.team.logo ? `<img src="${logoSrc(t.team)}" alt="">` : ""}<div class="pucks">${pucks(t, c)}</div></div>`;
   return `<div class="rink" role="img" aria-label="Goals by period: ${esc(a.team.abbreviation||"")} ${esc(a.score)}, ${esc(h.team.abbreviation||"")} ${esc(h.score)}">
     <i class="zone l" style="--c:${bc[0]}"></i><i class="zone r" style="--c:${bc[1]}"></i>
