@@ -1150,7 +1150,7 @@ function radioLag(){ // from the stream's own clock times, when it has them
   return null;
 }
 const streamKey = u => { try{ const x = new URL(u); return x.host + x.pathname; }catch(e){ return u; } };
-let syncMode = "off", delayP = 0, pauseAdd = 0;
+let syncMode = "off", delayP = 0, pauseAdd = 0, matchedAt = 0, connectedAt = 0;
 const stationSync = () => { if(!deck) return null; try{ return JSON.parse(store.get("rl@" + streamKey(deck.url)) || "null"); }catch(e){ return null; } };
 const saveStationSync = (rl, src) => { if(deck) store.set("rl@" + streamKey(deck.url), JSON.stringify({rl: Math.round(rl*10)/10, src, at: Date.now()})); };
 function radioLagNow(){
@@ -2228,7 +2228,7 @@ function connected(loc, url, sub){
   if(loc) track(`listen/${SPORT.id}/${loc}`, `Listen: ${loc} (${SPORT.g ? SPORT.g + " " : ""}${SPORT.name})`);
   deck = {loc, url, sub}; syncOnAir();
   // Each station keeps its own score delay: start from its saved value, or live, then let auto-sync refine it.
-  pauseAdd = 0; syncPausedAt = 0; autoSync(); setTimeout(autoSync, 3000);
+  pauseAdd = 0; syncPausedAt = 0; connectedAt = Date.now(); autoSync(); setTimeout(autoSync, 3000);
   $("#nowSub").textContent = sub;
   // Some streams play an ad to every new listener before the broadcast picks up.
   if(liveInfo[vKey(url)]?.preroll || /leanstream|ihrhls|revma/.test(url)) toast("The broadcast will start after a short ad.");
@@ -2329,11 +2329,13 @@ const setDelay = d => setDelays(d, d);
 function syncLabel(){
   const tag = syncMode==="heard" ? " · matched" : syncMode==="stream" ? " · auto" : syncMode==="adjusted" ? " · set" : "";
   // Short enough to share one row with the buttons on a phone: "Held 29s ✓" / "Live".
-  $("#delayV").textContent = (delay ? `Held ${delay}s` : "Live") + (syncMode==="heard" || syncMode==="stream" ? " ✓" : "");
+  $("#delayV").textContent = (delay ? `Held ${delay}s` : "Live") + (matchedAt && matchedAt >= connectedAt ? " ✓" : "");
   $("#delayV").title = (delay ? `Scores held ${delay} seconds` : "Scores live") + tag;
   $("#syncHeard").classList.toggle("hint", !!deck && syncMode==="off");
   // The bold "Radio-Score Sync" button in the radio bar: gold until this station is lined up, then a quiet "Synced ✓".
-  const pill = $("#syncPill"), on = !!deck && !!onAirGame(), done = syncMode==="heard" || syncMode==="stream";
+  // "Synced" only after you matched a play since this stream started: a saved setting from another
+  // day or the stream's own clock is a starting guess, not a confirmed match.
+  const pill = $("#syncPill"), on = !!deck && !!onAirGame(), done = !!matchedAt && matchedAt >= connectedAt;
   pill.hidden = !on; pill.classList.toggle("done", done);
   pill.innerHTML = done ? "<span>Synced ✓</span>" : "<span>Radio-Score</span><span>Sync</span>";
   pill.setAttribute("aria-label", done ? "Radio and scores are synced. Tap to sync again." : "Radio-Score Sync: line the scores up with the radio");
@@ -2365,7 +2367,7 @@ document.addEventListener("click", ev=>{
   const r = ev.target.closest(".sp-row[data-w]"); if(!r || !deck) return;
   const R = (Date.now() - Date.parse(r.dataset.w))/1000;
   if(!(R > 0 && R < 300)) return;
-  saveStationSync(R - pauseAdd, "heard"); $("#syncPick").hidden = true; autoSync();
+  saveStationSync(R - pauseAdd, "heard"); matchedAt = Date.now(); $("#syncPick").hidden = true; autoSync(); syncLabel();
   toast(`Synced: the radio is ${Math.round(R)}s behind live. Scores and plays now follow it.`);
 });
 document.addEventListener("click", ev=>{
