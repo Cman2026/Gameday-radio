@@ -1176,7 +1176,7 @@ function liveSection(shown, q){
 const NARROW = matchMedia("(max-width: 860px)");
 const boardHome = (()=>{ const b = document.getElementById("board"); return {parent: b.parentNode, next: b.nextSibling}; })();
 // The game details live inside the list on phones; put them back before the list is replaced.
-function homeBoard(){ const B = $("#board"); if(B && B.parentNode === $("#list")) boardHome.parent.insertBefore(B, boardHome.next); }
+function homeBoard(){ const B = $("#board"); if(B && $("#list").contains(B)) boardHome.parent.insertBefore(B, boardHome.next); }
 function placeBoard(){
   const B = $("#board"), card = selected && $(`#list .card[data-id="${CSS.escape(selected)}"]`);
   if(NARROW.matches && card && boardOpen){ if(card.nextSibling !== B) card.after(B); }
