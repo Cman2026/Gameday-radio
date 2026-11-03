@@ -1317,17 +1317,19 @@ function featureScore(e){
 }
 // The featured games for each sport, kept on this device for the day so a refresh doesn't reshuffle them.
 const FEAT = (()=>{ try{ const o = JSON.parse(store.get("featured")||"{}"); return o.day === new Date().toDateString() ? o : {day: new Date().toDateString()}; }catch(e){ return {day: new Date().toDateString()}; } })();
+// FEAT[sport] = the 4 Featured games; FEAT[sport + "|pick"] = the Editor's Pick (the 5th spot, 60+ points only).
 function updateFeatured(live){
-  const key = SPORT.id, ids = FEAT[key] || [];
+  const key = SPORT.id, ids = FEAT[key] || [], pick0 = FEAT[key + "|pick"] || "";
   const byId = new Map(events.map(e=>[e.id, e]));
-  // A featured game leaves only when it's over.
-  let keep = ids.filter(id=>{ const e = byId.get(id); return !e || e.status.type.state !== "post"; });
-  const cands = live.filter(e=>e.status.type.state==="in" && !keep.includes(e.id)).map(e=>[e, featureScore(e)])
+  const alive = id => { const e = byId.get(id); return !!id && (!e || e.status.type.state !== "post"); }; // a pick leaves only when it's over
+  const keep = ids.filter(alive); let pick = alive(pick0) ? pick0 : "";
+  const cands = live.filter(e=>e.status.type.state==="in" && !keep.includes(e.id) && e.id !== pick).map(e=>[e, featureScore(e)])
     .filter(([, p])=>p >= FEAT_IN).sort((x, y)=>y[1]-x[1]);
   for(const [e, p] of cands){
-    if(keep.length < FEAT_USUAL || (keep.length < FEAT_MAX && p >= FEAT_FIFTH)) keep.push(e.id);
+    if(keep.length < FEAT_USUAL) keep.push(e.id);
+    else if(!pick && p >= FEAT_FIFTH) pick = e.id;
   }
-  if(keep.join() !== ids.join()){ FEAT[key] = keep; FEAT.day = new Date().toDateString(); store.set("featured", JSON.stringify(FEAT)); }
+  if(keep.join() !== ids.join() || pick !== pick0){ FEAT[key] = keep; FEAT[key + "|pick"] = pick; FEAT.day = new Date().toDateString(); store.set("featured", JSON.stringify(FEAT)); }
 }
 // Live games: a few standout games on top (close finishes, ranked matchups), then the rest under
 // conference bars you can fold. A filter or a search shows one plain list instead.
@@ -1336,7 +1338,8 @@ function liveSection(shown, q){
   const grouped = !q && divFilter==="all" && shown.length > 4; // Top 25 and Saved are short lists: no conference bars
   // Featured games, in the order they were picked (they stay until they're final).
   const best = grouped ? (FEAT[SPORT.id] || []).map(id=>shown.find(e=>e.id===id)).filter(Boolean) : [];
-  const rest = shown.filter(e=>!best.includes(e));
+  const pick = grouped ? shown.find(e=>e.id===FEAT[SPORT.id + "|pick"]) : null;
+  const rest = shown.filter(e=>!best.includes(e) && e !== pick);
   const groups = new Map();
   if(grouped) for(const e of rest){ const c = groupConf(e); if(!groups.has(c)) groups.set(c, []); groups.get(c).push(e); }
   const names = [...groups.keys()].sort(byConf);
@@ -1347,8 +1350,10 @@ function liveSection(shown, q){
   const more = names.filter(n => !main.includes(n));
   const fold = !(names.length <= 6 || more.length < 3);
   const allShut = (fold ? [...main, "More conferences"] : names).every(liveShut);
-  let html = best.length ? `<div class="sect big"><span>Featured</span></div><div class="flat best">${best.map(e=>card(e)).join("")}</div>` : "";
-  html += `<div class="sect big${best.length ? "" : ""}"><span>Live<span class="sn lv">${best.length ? rest.length+" more" : shown.length}</span></span>${useBars && names.length > 1 ? `<button class="lnk" data-confall="${allShut?"open":"shut"}" data-cday="live">${allShut?"Expand all":"Collapse all"}</button>` : ""}</div>`;
+  // The Editor's Pick (a 5th game worth 60+ points) goes on top, above the Featured games.
+  let html = pick ? `<div class="sect big"><span>Editor's Pick</span></div><div class="flat best">${card(pick)}</div>` : "";
+  if(best.length) html += `<div class="sect big${pick ? " sub" : ""}"><span>Featured</span></div><div class="flat best">${best.map(e=>card(e)).join("")}</div>`;
+  html += `<div class="sect big${best.length ? "" : ""}"><span>Live<span class="sn lv">${best.length || pick ? rest.length+" more" : shown.length}</span></span>${useBars && names.length > 1 ? `<button class="lnk" data-confall="${allShut?"open":"shut"}" data-cday="live">${allShut?"Expand all":"Collapse all"}</button>` : ""}</div>`;
   if(!useBars) return html + `<div class="flat">${rest.map(e=>card(e)).join("")}</div>`;
   const bar = n => { const gs = groups.get(n), shut = liveShut(n); return confHead(n, gs.length, shut, "live") + (shut ? "" : gs.map(e=>card(e)).join("")); };
   if(!fold) return html + names.map(bar).join("");
