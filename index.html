@@ -479,6 +479,15 @@ h1 span{color:inherit}
 .deck.idle .syncpick,.deck.min .syncpick{display:none!important}
 .syncbtns{display:inline-flex;gap:6px;flex:none;white-space:nowrap}
 .card .lpct{font:600 16px var(--num);color:var(--muted);min-width:38px;text-align:right;font-variant-numeric:tabular-nums}
+/* Phones: the open game's details hang straight off its card (one outlined piece), and the next
+   game starts a fresh card below with a little space, instead of borders running into each other. */
+@media (max-width:860px){
+  #list .card[aria-expanded="true"]{border-bottom-left-radius:0!important;border-bottom-right-radius:0!important;box-shadow:inset 1.5px 0 0 var(--open-line),inset -1.5px 0 0 var(--open-line),inset 0 1.5px 0 var(--open-line)}
+  #list #board{margin:0!important;border:1.5px solid var(--open-line);border-top:1px solid var(--line);border-radius:0 0 var(--r-lg) var(--r-lg);background:var(--surface-2);padding-top:14px}
+  #list #board + .card,#list #board + .fin{margin-top:12px;border-top:1px solid var(--line);border-top-left-radius:var(--r-lg);border-top-right-radius:var(--r-lg)}
+  #list .best > #board + .card{border-top-color:color-mix(in srgb,var(--accent) 35%,var(--line))}
+}
+:root{--open-line:color-mix(in srgb,var(--accent) 70%,transparent)}
 </style>
 </head>
 <body>
@@ -1793,6 +1802,7 @@ function renderBoard(){
   const keep = B.querySelector(".plays")?.scrollTop || 0;
   B.innerHTML = html;
   const pl = B.querySelector(".plays"); if(pl && keep) pl.scrollTop = keep;
+  const stt = $("#statsToggle"); if(stt) stt.onclick = ()=>{ const open = stt.getAttribute("aria-expanded")!=="true"; store.set("stats", open?"1":"0"); stt.setAttribute("aria-expanded", String(open)); stt.nextElementSibling.hidden = !open; };
   const pt = $("#pbpToggle"); if(pt) pt.onclick = ()=>{ const open = pt.getAttribute("aria-expanded")!=="true"; store.set("pbp", open?"1":"0"); pt.setAttribute("aria-expanded", String(open)); pt.nextElementSibling.hidden = !open; };
   B.querySelectorAll("[data-play]").forEach(l=>l.onclick=ev=>{ev.preventDefault(); $("#station").value = "team:"+l.dataset.play; startStation();});
 }
@@ -2110,7 +2120,9 @@ function statBars(sum, a, h, bc){
   const rows = want.map(([k, label])=>{ const x = sa.find(s=>s.name===k), y = sh.find(s=>s.name===k); if(!x || !y) return "";
     const p = num(x.displayValue), q = num(y.displayValue);
     return `<span>${esc(x.displayValue)}</span><span class="sl">${label}<span class="sb"><span style="flex:${p||0.01};background:${bc[0]}"></span><span style="flex:${q||0.01};background:${bc[1]}"></span></span></span><span class="r">${esc(y.displayValue)}</span>`; }).join("");
-  return rows ? `<div><p class="label">Team stats</p><div class="stats">${rows}</div></div>` : "";
+  // Starts folded (like play-by-play, it's extra detail); opening it is remembered.
+  const open = store.get("stats") === "1";
+  return rows ? `<div><button class="label pbp-toggle" id="statsToggle" aria-expanded="${open}">Team stats<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="stats"${open ? "" : " hidden"}>${rows}</div></div>` : "";
 }
 function otherPlays(sum){
   const plays = realPlays(sum).slice(-40).reverse(); if(!plays.length) return "";
