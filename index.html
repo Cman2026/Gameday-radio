@@ -952,7 +952,7 @@ async function poll(){
       poll.ahead.c.forEach(e=>{ if(!byId.has(e.id)){ e._div = "FCS"; byId.set(e.id, e); } });
     }
     if(tok !== sportTok) return; // switched sports while this was loading
-    const evs = [...byId.values()];
+    const evs = freshen([...byId.values()]);
     evs.forEach(e=>e.competitions[0].competitors.forEach(c=>attachRadio(c.team)));
     history.push({t:Date.now(), evs}); history = history.filter(h => Date.now()-h.t < (delay+20)*1000);
     scoresOk();
@@ -1003,7 +1003,7 @@ async function pollOther(){
         .finally(()=>{ poll.loading = false; });
     }
     Object.values(poll.ahead?.byDay||{}).flat().forEach(e=>{ if(!byId.has(e.id)){ e._div = ""; byId.set(e.id, e); } });
-    const evs = [...byId.values()];
+    const evs = freshen([...byId.values()]);
     evs.forEach(e=>e.competitions[0].competitors.forEach(c=>attachRadio(c.team)));
     history.push({t:Date.now(), evs}); history = history.filter(h => Date.now()-h.t < (delay+20)*1000);
     scoresOk();
@@ -1029,6 +1029,38 @@ function addAhead(more){
   history.push({t: Date.now(), evs: [...last.evs, ...add]});
   render();
 }
+/* Faster updates for the game you have open and the one on the radio. ESPN's single-game feed is
+   small (about 9 KB) and refreshed every second, while the full scoreboard is large and cached for
+   about 6 seconds. So those one or two games are checked every 2.5 seconds on their own, and the
+   full scoreboard keeps the fresher copy when it arrives a little behind. */
+const FAST = {}; // game id -> {t, ev}
+let fastBusy = false;
+function freshen(evs){
+  return evs.map(e=>{ const f = FAST[e.id]; if(!f || Date.now() - f.t > 6000) return e; f.ev._div = e._div; return f.ev; });
+}
+async function fastPoll(){
+  if(document.hidden || fastBusy) return;
+  const live = events.filter(e=>e.status.type.state==="in"), ids = new Set();
+  if(selected && boardOpen && live.some(e=>e.id===selected)) ids.add(selected);
+  if(deck){ const g = live.find(e=>e.competitions[0].competitors.some(c=>c.team.location===deck.loc)); if(g) ids.add(g.id); }
+  if(!ids.size) return;
+  fastBusy = true; const tok = sportTok;
+  try{
+    for(const id of ids){
+      const ev = await getJSON(`${base}/scoreboard/${id}`, 5000);
+      if(tok !== sportTok || !ev?.competitions) return;
+      const last = history[history.length-1], old = last?.evs.find(x=>x.id===id); if(!old) continue;
+      FAST[id] = {t: Date.now(), ev};
+      const sig = x => JSON.stringify([x.status, x.competitions[0].situation, x.competitions[0].competitors.map(c=>[c.score, c.linescores])]);
+      if(sig(old) === sig(ev)) continue;
+      ev._div = old._div; ev.competitions[0].competitors.forEach(c=>attachRadio(c.team));
+      history.push({t: Date.now(), evs: last.evs.map(x=>x.id===id ? ev : x)});
+      history = history.filter(h => Date.now()-h.t < (delay+20)*1000);
+      render();
+    }
+  }catch(e){} finally{ fastBusy = false; }
+}
+setInterval(fastPoll, 2500);
 const sumAt = {};
 async function pollSummary(id, gap=9000){
   if(Date.now() - (sumAt[id]||0) < gap) return; sumAt[id] = Date.now();
