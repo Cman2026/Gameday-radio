@@ -1210,6 +1210,7 @@ function render(){
   const q = query.trim().toLowerCase();
   renderChips(events.filter(e=>isToday(e.date) || e.status.type.state==="in"), live);
   trackLeads(live);
+  updateFeatured(live);
   let shown = live.filter(e=> divOK(e))
     .filter(e=> !q || e.competitions[0].competitors.some(t=>[t.team.location,t.team.displayName,t.team.shortDisplayName,t.team.abbreviation].join(" ").toLowerCase().includes(q)))
     .sort((a,b)=> liveRank(a)-liveRank(b) || new Date(a.date)-new Date(b.date) || a.id.localeCompare(b.id));
@@ -1283,16 +1284,57 @@ function unbeaten(e){
   return late && e.competitions[0].competitors.some(t=>{ const [w, l, tie] = String(t.records?.[0]?.summary||"").split("-").map(Number); return w >= need && l === 0 && !tie; });
 }
 const hotStreak = e => e.competitions[0].competitors.some(t=>streakOf(t.team) >= 6);
-function featureTier(e, both){
-  return overtime(e) ? 0 : crunch(e) ? 1 : comeback(e) ? 2 : upset(e) ? 3 : both(e) ? 4 : rivalry(e) ? 5 : unbeaten(e) ? 6 : hotStreak(e) ? 7 : 9;
+/* Featured: a points system. A game earns points for what makes it worth tuning in to right now;
+   once it's featured it stays until it's final. Up to 4 games are featured at 40+ points; a 5th spot
+   opens only for a game worth 60+. When several qualify at once, the highest scores go in first.
+     Overtime ............................................ 50
+     Close finish (close, late) .......................... 40
+     Ranked vs ranked .................................... 30   (+10 if both are top 10)
+     Comeback (was way down, now within one score) ....... 30
+     Upset watch (unranked leading ranked, 2nd half) ..... 25   (+10 if the ranked team is top 10)
+     Rivalry ............................................. 20
+     Close in the second half (within one score) ......... 10
+     Unbeaten late in the season ......................... 15
+     Win streak 6+ (basketball) .......................... 10   (+5 at 10+)
+     One Top 25 team ...................................... 5   (+5 if top 10) */
+const FEAT_IN = 40, FEAT_FIFTH = 60, FEAT_MAX = 5, FEAT_USUAL = 4;
+function featureScore(e){
+  const cs = e.competitions[0].competitors, rk = t => (rankedT(t) ? t.curatedRank.current : 99);
+  const ranked = cs.filter(rankedT), top10 = cs.filter(t=>rk(t) <= 10);
+  let pts = 0;
+  if(overtime(e)) pts += 50;
+  else if(crunch(e)) pts += 40;
+  else { const [x, y] = scoresOf(e), cb = COMEBACK[SPORT.id]; if(cb && (e.status?.period||0) >= (HALF2[SPORT.id]||99) && Math.abs(x - y) <= cb[1]) pts += 10; }
+  if(ranked.length === 2) pts += 30 + (top10.length === 2 ? 10 : 0);
+  else if(ranked.length === 1) pts += 5 + (top10.length ? 5 : 0);
+  if(comeback(e)) pts += 30;
+  if(upset(e)){ const trail = cs.find(t=>rankedT(t)); pts += 25 + (trail && rk(trail) <= 10 ? 10 : 0); }
+  if(rivalry(e)) pts += 20;
+  if(unbeaten(e)) pts += 15;
+  const st = Math.max(...cs.map(t=>streakOf(t.team))); if(st >= 6) pts += 10 + (st >= 10 ? 5 : 0);
+  return pts;
+}
+// The featured games for each sport, kept on this device for the day so a refresh doesn't reshuffle them.
+const FEAT = (()=>{ try{ const o = JSON.parse(store.get("featured")||"{}"); return o.day === new Date().toDateString() ? o : {day: new Date().toDateString()}; }catch(e){ return {day: new Date().toDateString()}; } })();
+function updateFeatured(live){
+  const key = SPORT.id, ids = FEAT[key] || [];
+  const byId = new Map(events.map(e=>[e.id, e]));
+  // A featured game leaves only when it's over.
+  let keep = ids.filter(id=>{ const e = byId.get(id); return !e || e.status.type.state !== "post"; });
+  const cands = live.filter(e=>e.status.type.state==="in" && !keep.includes(e.id)).map(e=>[e, featureScore(e)])
+    .filter(([, p])=>p >= FEAT_IN).sort((x, y)=>y[1]-x[1]);
+  for(const [e, p] of cands){
+    if(keep.length < FEAT_USUAL || (keep.length < FEAT_MAX && p >= FEAT_FIFTH)) keep.push(e.id);
+  }
+  if(keep.join() !== ids.join()){ FEAT[key] = keep; FEAT.day = new Date().toDateString(); store.set("featured", JSON.stringify(FEAT)); }
 }
 // Live games: a few standout games on top (close finishes, ranked matchups), then the rest under
 // conference bars you can fold. A filter or a search shows one plain list instead.
 function liveSection(shown, q){
   const both = e => e.competitions[0].competitors.every(t=>t.curatedRank?.current && t.curatedRank.current < 26);
   const grouped = !q && divFilter==="all" && shown.length > 4; // Top 25 and Saved are short lists: no conference bars
-  const tiers = new Map(shown.map(e=>[e, featureTier(e, both)]));
-  const best = grouped ? shown.filter(e=>tiers.get(e) < 9).sort((x, y)=>tiers.get(x)-tiers.get(y)).slice(0, 3) : [];
+  // Featured games, in the order they were picked (they stay until they're final).
+  const best = grouped ? (FEAT[SPORT.id] || []).map(id=>shown.find(e=>e.id===id)).filter(Boolean) : [];
   const rest = shown.filter(e=>!best.includes(e));
   const groups = new Map();
   if(grouped) for(const e of rest){ const c = groupConf(e); if(!groups.has(c)) groups.set(c, []); groups.get(c).push(e); }
