@@ -1792,7 +1792,7 @@ function renderBoard(){
   // Everything below (team stats, last play, win probability, play-by-play, radio) sits in one
   // "Game details" fold that starts closed; opening it is remembered.
   const detailsOpen = store.get("details") === "1";
-  html += `<div class="details"><button class="label pbp-toggle" id="detailsToggle" aria-expanded="${detailsOpen}">Game details<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="details-in"${detailsOpen ? "" : " hidden"}>`;
+  html += `<div class="details"><button class="label pbp-toggle" id="detailsToggle" aria-expanded="${detailsOpen}">Details<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="details-in"${detailsOpen ? "" : " hidden"}>`;
   if(!isFB()) html += statBars(sum, a, h, bc);
   const lp = isFB() ? (sit.lastPlay?.text || lastPlayFrom(sum)) : (st.type.state==="in" ? (lastPlayFrom(sum) || sit.lastPlay?.text) : null);
   if(lp) html += `<div class="last"><p class="label">Last play</p>${esc(lp)}</div>`;
