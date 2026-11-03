@@ -912,6 +912,8 @@ function renderChips(pool, live){
   let confs = [...new Set(pool.map(groupConf))].sort((x, y)=> (major(y)-major(x)) || (major(x) ? 0 : liveIn(y)-liveIn(x)) || byConf(x, y));
   if(confs.length===1 && /^Other/.test(confs[0])) confs = [];
   if(divFilter.startsWith("c:")) divFilter = "all"; // conference chips were removed; conferences are the bars below
+  // Top 25 picked in another sport (or another day) but this list has no ranked games: the chip isn't shown, so fall back to All.
+  if(divFilter==="T25" && pool.length && !pool.some(isTop25)) divFilter = "all";
   const chip = (div, label, count, aria) => `<button class="chip" data-div="${esc(div)}" aria-pressed="${divFilter===div}"${aria?` aria-label="${aria}"`:""}>${esc(label)}<span class="n">${count}</span></button>`;
   const html = chip("all", "All", String(base.length||"")) + (pool.some(isTop25) ? chip("T25", "Top 25", n(isTop25)) : "") + chip("fav", "★ Saved", n(isFavGame), "Saved teams")
 ;
