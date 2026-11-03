@@ -914,8 +914,8 @@ function renderChips(pool, live){
   let confs = [...new Set(pool.map(groupConf))].sort((x, y)=> (major(y)-major(x)) || (major(x) ? 0 : liveIn(y)-liveIn(x)) || byConf(x, y));
   if(confs.length===1 && /^Other/.test(confs[0])) confs = [];
   if(divFilter.startsWith("c:")) divFilter = "all"; // conference chips were removed; conferences are the bars below
-  // Top 25 carried over from another sport or day, but this day has no ranked games: fall back to All.
-  if(divFilter==="T25" && pool.length && !pool.some(isTop25)) divFilter = "all";
+  // Top 25 carried over from another sport, but no ranked games here this week (no Top 25 chip): fall back to All.
+  if(divFilter==="T25" && pool.length && !pool.some(isTop25) && (live.length || !upcomingTop25().length)) divFilter = "all";
   const chip = (div, label, count, aria) => `<button class="chip" data-div="${esc(div)}" aria-pressed="${divFilter===div}"${aria?` aria-label="${aria}"`:""}>${esc(label)}<span class="n">${count}</span></button>`;
   const html = chip("all", "All", String(base.length||"")) + (pool.some(isTop25) || (!live.length && upcomingTop25().length) ? chip("T25", "Top 25", n(isTop25)) : "") + chip("fav", "★ Saved", n(isFavGame), "Saved teams")
 ;
@@ -1765,7 +1765,8 @@ function renderUpcoming(embed){
   const pre = events.filter(e=>e.status.type.state==="pre" && new Date(e.date) - Date.now() < 8*864e5);
   const dayKey = d => new Date(d).toDateString();
   const days = [...new Set(pre.sort((a,b)=>new Date(a.date)-new Date(b.date)).map(e=>dayKey(e.date)))];
-  if(upDay!=="all" && !days.includes(upDay)) upDay = days[0] || "";
+  if(upDay!=="all" && !days.includes(upDay)){ const r = divFilter==="T25" && !q ? upcomingTop25() : [];
+    upDay = r.length ? dayKey(r[0].date) : days[0] || ""; } // with Top 25 on, open on the first day that has ranked games
   // upDay "all" (tap the selected day again) shows every day in the next week, one section per day.
   const viewDays = upDay==="all" ? days : [upDay];
   const today = pre.filter(e=>viewDays.includes(dayKey(e.date)));
@@ -1780,7 +1781,7 @@ function renderUpcoming(embed){
   if(!embed) $("#board").hidden = true;
   if(!shown.length){
     if(embed) return "";
-    setList(`<div class="sect big"><span>Up next</span></div>` + (q ? "" : tabs) + `<div class="empty">${q ? `No upcoming games this week match “${esc(query.trim())}”.` : today.length ? "No games that day match that filter." : "No games scheduled in the next week."}</div>` + finalsToday());
+    setList(`<div class="sect big"><span>Up next</span></div>` + (q ? "" : tabs) + `<div class="empty">${q ? `No upcoming games this week match “${esc(query.trim())}”.` : today.length ? (divFilter==="T25" ? "No Top 25 games that day." : "No games that day match that filter.") : "No games scheduled in the next week."}</div>` + finalsToday());
     return;
   }
   const vis = []; // games in open conference bars (other sports only look up odds for these)
