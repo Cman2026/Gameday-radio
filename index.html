@@ -1290,7 +1290,7 @@ function featureTier(e, both){
 // conference bars you can fold. A filter or a search shows one plain list instead.
 function liveSection(shown, q){
   const both = e => e.competitions[0].competitors.every(t=>t.curatedRank?.current && t.curatedRank.current < 26);
-  const grouped = !q && ["all","T25"].includes(divFilter) && shown.length > 4;
+  const grouped = !q && divFilter==="all" && shown.length > 4; // Top 25 and Saved are short lists: no conference bars
   const tiers = new Map(shown.map(e=>[e, featureTier(e, both)]));
   const best = grouped ? shown.filter(e=>tiers.get(e) < 9).sort((x, y)=>tiers.get(x)-tiers.get(y)).slice(0, 3) : [];
   const rest = shown.filter(e=>!best.includes(e));
@@ -1736,9 +1736,9 @@ function renderUpcoming(embed){
     const power = n => POWER[isFB() ? "fb" : SPORT.tile]?.indexOf(n) ?? -1;
     const rankC = n => n==="Other games" || n==="Other" ? 2e3 : power(n) >= 0 ? power(n) : 1e3;
     const names = [...groups.keys()].sort((x,y)=>rankC(x)-rankC(y) || x.localeCompare(y));
-    // No conference info at all (some hockey days): just list the games by time, no bars.
-    if(names.length===1 && names[0]==="Other games"){
-      const gs = groups.get(names[0]).sort((x,y)=>new Date(x.date)-new Date(y.date) || x.id.localeCompare(y.id)); vis.push(...gs);
+    // No conference info at all (some hockey days), or a short filtered list (Top 25, Saved): just the games by time, no bars.
+    if((names.length===1 && names[0]==="Other games") || ["T25","fav"].includes(divFilter)){
+      const gs = dayGames.slice().sort((x,y)=>new Date(x.date)-new Date(y.date) || x.id.localeCompare(y.id)); vis.push(...gs);
       const label = dayName(day)==="Today" ? "Later today" : new Date(day).toLocaleDateString([], {weekday:"long", month:"short", day:"numeric"});
       return `<div class="sect">${esc(label)}</div><div class="flat">${gs.map(upCard).join("")}</div>`;
     }
