@@ -469,6 +469,14 @@ h1 span{color:inherit}
 .best > .card{border-color:color-mix(in srgb,var(--accent) 35%,var(--line))}
 .foldall{flex:none;width:34px;height:34px;border-radius:50%;border:2px solid var(--accent);background:var(--surface);color:var(--accent);font:700 22px/1 var(--ui);display:inline-flex;align-items:center;justify-content:center;padding:0 0 2px;cursor:pointer;align-self:center}
 .foldall:active{transform:scale(.94)}
+.syncpick{flex:1 1 100%;background:var(--surface);border:1px solid var(--line-2);border-radius:var(--r-lg);padding:8px;display:grid;gap:4px;max-height:50vh;overflow:auto}
+.syncpick .sp-head{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:4px 6px 6px;font-size:14px}
+.syncpick .sp-row{display:grid;grid-template-columns:56px 1fr;gap:10px;text-align:left;background:var(--surface-2);border:1px solid var(--line);border-radius:10px;padding:10px 12px;color:var(--text);font:500 14px/1.3 var(--ui);cursor:pointer}
+.syncpick .sp-row:active{border-color:var(--accent)}
+.syncpick .sp-t{font:600 14px var(--num);color:var(--muted);font-variant-numeric:tabular-nums}
+.syncpick .sp-none{margin:4px 6px 8px;color:var(--muted);font-size:14px}
+#syncHeard.hint{border-color:var(--accent);color:var(--accent)}
+.deck.idle .syncpick,.deck.min .syncpick{display:none!important}
 </style>
 </head>
 <body>
@@ -483,8 +491,10 @@ h1 span{color:inherit}
       <button class="btn sm" id="scoresLess" aria-label="Show scores 2 seconds sooner">−</button>
       <span class="val" id="delayV">Scores live</span>
       <button class="btn sm" id="scoresMore" aria-label="Hold scores 2 seconds longer">+</button>
+      <button class="btn sm" id="syncHeard" title="Line the scores up with what you're hearing">Match radio</button>
       <button class="btn sm" id="nudge" title="Pause the radio 5 seconds so it falls further behind">Radio −5s</button>
     </div>
+    <div class="syncpick" id="syncPick" hidden></div>
     <button class="btn" id="moreBtn" aria-expanded="false">More</button>
     <span class="more" id="more" hidden><input type="url" id="custom" placeholder="Or paste a stream URL (.mp3, .aac, .m3u8)" aria-label="Custom stream URL">
     <button class="btn" id="useCustom">Use URL</button>
@@ -953,7 +963,7 @@ async function poll(){
     }
     if(tok !== sportTok) return; // switched sports while this was loading
     const evs = freshen([...byId.values()]);
-    evs.forEach(e=>e.competitions[0].competitors.forEach(c=>attachRadio(c.team)));
+    evs.forEach(e=>e.competitions[0].competitors.forEach(c=>attachRadio(c.team))); noteScores(evs);
     history.push({t:Date.now(), evs}); history = history.filter(h => Date.now()-h.t < (delay+20)*1000);
     scoresOk();
     const live = evs.filter(e=>e.status.type.state==="in");
@@ -1004,7 +1014,7 @@ async function pollOther(){
     }
     Object.values(poll.ahead?.byDay||{}).flat().forEach(e=>{ if(!byId.has(e.id)){ e._div = ""; byId.set(e.id, e); } });
     const evs = freshen([...byId.values()]);
-    evs.forEach(e=>e.competitions[0].competitors.forEach(c=>attachRadio(c.team)));
+    evs.forEach(e=>e.competitions[0].competitors.forEach(c=>attachRadio(c.team))); noteScores(evs);
     history.push({t:Date.now(), evs}); history = history.filter(h => Date.now()-h.t < (delay+20)*1000);
     scoresOk();
     // Only the open game and the one on the radio get play-by-play (a basketball night can have 150 games).
@@ -1053,7 +1063,7 @@ async function fastPoll(){
       FAST[id] = {t: Date.now(), ev};
       const sig = x => JSON.stringify([x.status, x.competitions[0].situation, x.competitions[0].competitors.map(c=>[c.score, c.linescores])]);
       if(sig(old) === sig(ev)) continue;
-      ev._div = old._div; ev.competitions[0].competitors.forEach(c=>attachRadio(c.team));
+      ev._div = old._div; ev.competitions[0].competitors.forEach(c=>attachRadio(c.team)); noteScores([ev]);
       history.push({t: Date.now(), evs: last.evs.map(x=>x.id===id ? ev : x)});
       history = history.filter(h => Date.now()-h.t < (delay+20)*1000);
       render();
@@ -1065,22 +1075,34 @@ const sumAt = {};
 async function pollSummary(id, gap=9000){
   if(Date.now() - (sumAt[id]||0) < gap) return; sumAt[id] = Date.now();
   const tok = sportTok;
-  try{ const s = await getJSON(`${base}/summary?event=${id}`); if(tok !== sportTok) return; notePlays(id, s); summaryHist.push({t:Date.now(), id, s}); summaryHist = summaryHist.filter(h=>Date.now()-h.t<(delay+20)*1000);
+  try{ const s = await getJSON(`${base}/summary?event=${id}`); if(tok !== sportTok) return; notePlays(id, s); summaryHist.push({t:Date.now(), id, s}); summaryHist = summaryHist.filter(h=>Date.now()-h.t<(Math.max(delay, delayP)+20)*1000);
     // Only redraw for the game on screen or the one on the radio; the rest are just being kept warm.
     if(id===selected || (deck && events.find(x=>x.id===id)?.competitions[0].competitors.some(c=>c.team.location===deck.loc))) render(); }catch(e){}
 }
-/* ---------- automatic score/radio sync ----------
-   How far behind real time the radio is: HLS streams carry the wall-clock time of the audio
-   (EXT-X-PROGRAM-DATE-TIME), so lag = now - time of what you're hearing.
-   How far behind ESPN is: each play has the time it happened (wallclock); when a play first
-   shows up in the feed, lag = now - that time.
-   Scores are held by the difference. Streams without timestamps fall back to whatever you
-   set by hand for that station last time. */
-const espnLag = {}; const seenPlays = new Set();
+/* ---------- keeping scores and plays in step with the radio ----------
+   Radio lag: how many seconds the audio is behind real life. It comes from, in order:
+     1. you: "Match radio" -> tap the play the announcer just called; lag = now - when it happened
+        (ESPN stamps each play with the real time it happened);
+     2. the stream itself: HLS streams that carry clock times (EXT-X-PROGRAM-DATE-TIME);
+     3. the − / + buttons, 2 seconds at a time.
+   It's remembered per station. Pausing the radio adds the pause (the audio falls further behind).
+   ESPN lag: how long after something happens it reaches this page, measured on its own for the
+   score feed and for play-by-play (they arrive at different speeds).
+   Scores are then held by (radio lag - score lag) and plays by (radio lag - play lag), so the
+   score changes and the play shows up as the announcer calls it. */
+const espnLag = {}, scoreLag = {}; // game id -> {v, n}: play-by-play lag, score feed lag (seconds)
+const seenPlays = new Set(), scoreSeen = {}; // "game|home-away" -> when this page first saw that score
+const ema = (o, id, x) => { const L = o[id] || (o[id] = {v: x, n: 0}); L.v = L.n ? L.v*0.7 + x*0.3 : x; L.n++; };
+function noteScores(evs){
+  const now = Date.now();
+  for(const e of evs){ if(e.status?.type?.state!=="in") continue; const c = e.competitions[0];
+    const k = `${e.id}|${team(c,"home").score}-${team(c,"away").score}`; if(!scoreSeen[k]) scoreSeen[k] = now; }
+}
+const playsOf = s => s.drives ? (s.drives?.current?.plays||[]).concat((s.drives?.previous||[]).slice(-1).flatMap(d=>d.plays||[])) : (s.plays||[]).slice(-15);
 function notePlays(id, s){
-  const plays = s.drives ? (s.drives?.current?.plays||[]).concat((s.drives?.previous||[]).slice(-1).flatMap(d=>d.plays||[])) : (s.plays||[]).slice(-15);
-  if(!espnLag[id]){ // first look at a game: everything in it already happened, so just note what we've seen
-    espnLag[id] = {v: 0, n: 0};
+  const plays = playsOf(s);
+  if(!notePlays.seen?.has(id)){ // first look at a game: everything in it already happened, so just note what we've seen
+    (notePlays.seen || (notePlays.seen = new Set())).add(id);
     plays.forEach(p=>{ if(p.id) seenPlays.add(p.id); });
     return;
   }
@@ -1088,12 +1110,13 @@ function notePlays(id, s){
     if(!p.id || seenPlays.has(p.id)) continue; seenPlays.add(p.id);
     const w = Date.parse(p.wallclock||""); if(isNaN(w)) continue;
     const lag = (Date.now() - w)/1000;
-    if(lag < 0 || lag > 120) continue;
-    const L = espnLag[id];
-    L.v = L.n ? L.v*0.7 + lag*0.3 : lag; L.n++;
+    if(lag >= 0 && lag <= 120) ema(espnLag, id, lag);
+    // When did the score feed first show this play's score?
+    if(p.scoringPlay && p.homeScore != null){ const t0 = scoreSeen[`${id}|${p.homeScore}-${p.awayScore}`];
+      if(t0){ const sl = (t0 - w)/1000; if(sl >= 0 && sl <= 120) ema(scoreLag, id, sl); } }
   }
 }
-function radioLag(){
+function radioLag(){ // from the stream's own clock times, when it has them
   try{
     if(hls && hls.playingDate) return (Date.now() - hls.playingDate.getTime())/1000;
     const sd = audio.getStartDate ? audio.getStartDate() : null;
@@ -1102,21 +1125,30 @@ function radioLag(){
   return null;
 }
 const streamKey = u => { try{ const x = new URL(u); return x.host + x.pathname; }catch(e){ return u; } };
-let syncMode = "manual";
-function autoSync(){
-  if(!deck || audio.paused || syncMode==="manual") return;
-  const saved = store.get("delay@" + streamKey(deck.url));
-  const g = events.find(x=>x.status.type.state==="in" && x.competitions[0].competitors.some(c=>c.team.location===deck.loc));
-  if(saved!=null){ if(syncMode!=="saved"){ syncMode = "saved"; setDelay(+saved, true); } return; }
-  const rl = radioLag(), el = g && espnLag[g.id];
-  if(rl!=null && el && el.n >= 2 && rl > 0 && rl < 150){
-    const d = Math.round(Math.max(0, rl - el.v));
-    if(Math.abs(d - delay) >= 2 || syncMode!=="auto"){ syncMode = "auto"; setDelay(d, true); }
-  }
+let syncMode = "off", delayP = 0, pauseAdd = 0;
+const stationSync = () => { if(!deck) return null; try{ return JSON.parse(store.get("rl@" + streamKey(deck.url)) || "null"); }catch(e){ return null; } };
+const saveStationSync = (rl, src) => { if(deck) store.set("rl@" + streamKey(deck.url), JSON.stringify({rl: Math.round(rl*10)/10, src, at: Date.now()})); };
+function radioLagNow(){
+  const st = stationSync();
+  if(st && st.src !== "stream") { syncMode = st.src; return st.rl + pauseAdd; }
+  const live = radioLag(); if(live != null && live > 0 && live < 180){ syncMode = "stream"; return live; }
+  if(st){ syncMode = st.src; return st.rl + pauseAdd; }
+  syncMode = "off"; return null;
 }
-setInterval(autoSync, 5000);
-function snap(arr, match){ // newest snapshot at least `delay` seconds old
-  const cut = Date.now() - delay*1000; let pick = null;
+const onAirGame = () => deck && events.find(x=>x.status.type.state==="in" && x.competitions[0].competitors.some(c=>c.team.location===deck.loc));
+const lagsFor = g => { const pl = espnLag[g?.id]?.n ? espnLag[g.id].v : 15, sl = scoreLag[g?.id]?.n ? scoreLag[g.id].v : pl; return {pl, sl}; };
+function autoSync(){
+  if(!deck || audio.paused || connecting) return;
+  const R = radioLagNow(), g = onAirGame();
+  if(R == null || !g){ if(syncMode==="off" && (delay || delayP)) setDelays(0, 0); else syncLabel(); return; }
+  const {pl, sl} = lagsFor(g);
+  const dS = Math.round(Math.max(0, R - sl)), dP = Math.round(Math.max(0, R - pl));
+  if(Math.abs(dS - delay) >= 2 || Math.abs(dP - delayP) >= 2) setDelays(dS, dP); else syncLabel();
+}
+setInterval(autoSync, 2000);
+let syncPausedAt = 0;
+function snap(arr, match, d = delay){ // newest snapshot at least `d` seconds old
+  const cut = Date.now() - d*1000; let pick = null;
   for(const h of arr){ if(match && !match(h)) continue; if(h.t <= cut) pick = h; }
   if(!pick){ const m = arr.filter(h=>!match||match(h)); pick = m[0]; }
   return pick;
@@ -1324,7 +1356,7 @@ document.addEventListener("click", ev=>{
 });
 function stopRadio(){
   tryToken++; connecting = null; currentTeam = null; deck = null; syncOnAir();
-  syncMode = "manual"; if(delay) setDelay(0); // scores go back to live when the radio stops
+  if(delay || delayP) setDelays(0, 0); // scores go back to live when the radio stops
   try{ audio.pause(); if(hls){hls.destroy(); hls=null} audio.removeAttribute("src"); audio.load(); }catch(e){}
   $("#nowName").textContent = "Radio off"; $("#nowSub").textContent = "Tap Listen next to a team";
   render();
@@ -1344,7 +1376,7 @@ const ORD = ["","1st","2nd","3rd","4th"];
 const qName = p => p>4 ? (p===5?"OT":`${p-4}OT`) : ORD[p];
 const lastSeen = {}; // game id -> last period seen with the clock running
 function lastPlayInfo(e){
-  const sum = snap(summaryHist, x=>x.id===e.id)?.s, d = sum?.drives;
+  const sum = snap(summaryHist, x=>x.id===e.id, delayP)?.s, d = sum?.drives;
   let play = null;
   const cur = d?.current?.plays; if(cur?.length) play = cur[cur.length-1];
   if(!play){ const prev = d?.previous; const last = prev?.[prev.length-1]?.plays; if(last?.length) play = last[last.length-1]; }
@@ -1712,7 +1744,7 @@ function renderBoard(){
   if(!e || !boardOpen){B.innerHTML = ""; renderBoard.last = ""; B.hidden = true; return;}
   B.hidden = false;
   const c = e.competitions[0], a = team(c,"away"), h = team(c,"home"), st = e.status, sit0 = c.situation||{};
-  const ss = snap(summaryHist, x=>x.id===selected); const sum = ss?.s; const pid = possId(e);
+  const ss = snap(summaryHist, x=>x.id===selected, delayP); const sum = ss?.s; const pid = possId(e);
   // During timeouts and reviews the scoreboard drops down-and-distance and the spot;
   // the play-by-play still has them, so fill the gaps from the latest play.
   const lastP = (sum?.drives?.current?.plays||[]).slice(-1)[0];
@@ -1836,7 +1868,7 @@ function setPoints(e){
 // steal gives the ball to that team; a made basket (or last free throw) or a turnover gives it to
 // the other team; after a miss the ball is loose until someone rebounds it.
 function hoopsPoss(e, ids){
-  const plays = snap(summaryHist, x=>x.id===e.id)?.s?.plays || [];
+  const plays = snap(summaryHist, x=>x.id===e.id, delayP)?.s?.plays || [];
   for(let i = plays.length - 1; i >= Math.max(0, plays.length - 15); i--){
     const p = plays[i], t = String(p.team?.id || ""), txt = `${p.type?.text||""} ${p.text||""}`;
     if(/end of (the )?(1st|2nd|3rd|4th|first|second|half|game|quarter|period)|end period|end game/i.test(txt)) return null;
@@ -1860,7 +1892,7 @@ function possId(e){
   const c = e.competitions[0], sit = c.situation||{}, ids = c.competitors.map(x=>x.team.id);
   if(sit.possession && ids.includes(sit.possession)) return sit.possession;
   if(!isFB()) return SPORT.tile==="bb" ? hoopsPoss(e, ids) : null;
-  const sum = snap(summaryHist, x=>x.id===e.id)?.s, cur = sum?.drives?.current;
+  const sum = snap(summaryHist, x=>x.id===e.id, delayP)?.s, cur = sum?.drives?.current;
   const dt = cur?.team?.id || cur?.team;
   if(cur && !cur.end?.text && dt && ids.includes(String(dt))) return String(dt);
   const lp = sit.lastPlay, lt = lp?.team?.id;
@@ -1978,6 +2010,9 @@ function courtView(sum, a, h, bc){
   // The latest trip to the line, if nothing has been shot from the floor since: "Washington FT 1 of 2"
   const trip = [];
   for(const p of realPlays(sum).slice().reverse()){ if(!p.shootingPlay) continue; if(!isFT(p)) break; if(trip.length && String(p.team?.id)!==String(trip[0].team?.id)) break; trip.unshift(p); }
+  // ...and only for 30 seconds after the last one (by the game feed's clock, as you're seeing it).
+  const ftAt = Date.parse(trip[trip.length-1]?.wallclock||"");
+  if(trip.length && (isNaN(ftAt) || Date.now() - delayP*1000 - ftAt > 30000)) trip.length = 0;
   const shots = realPlays(sum).filter(p=>p.shootingPlay && !/free throw/i.test(`${p.type?.text||""} ${p.text||""}`) && p.coordinate &&
     p.coordinate.x>=-1 && p.coordinate.x<=51 && p.coordinate.y>=-3 && p.coordinate.y<=60).slice(-8);
   if(!shots.length) return "";
@@ -2146,7 +2181,7 @@ async function playList(list, name, sub, loc){
     const ext = loc && RADIO[loc]?.external;
     if(ext) $("#nowSub").innerHTML = `This station's stream won't play inside the page. <a href="${esc(ext)}" target="_blank" rel="noopener">Open it in Safari</a>`;
     else $("#nowSub").textContent = "No stream answered. The station may not be on the air right now.";
-    syncMode = "manual"; if(delay) setDelay(0);
+    if(delay || delayP) setDelays(0, 0);
     if(loc) track(`listen-failed/${SPORT.id}/${loc}`, `Didn't connect: ${loc} (${SPORT.name})`);
   };
   setTimeout(()=>{ audio.removeEventListener("playing", late); if(token===tryToken && !deck){ try{ audio.pause(); audio.removeAttribute("src"); audio.load(); }catch(e){} currentTeam = null; giveUp(); render(); } }, 20000);
@@ -2159,7 +2194,7 @@ function connected(loc, url, sub){
   if(loc) track(`listen/${SPORT.id}/${loc}`, `Listen: ${loc} (${SPORT.g ? SPORT.g + " " : ""}${SPORT.name})`);
   deck = {loc, url, sub}; syncOnAir();
   // Each station keeps its own score delay: start from its saved value, or live, then let auto-sync refine it.
-  syncMode = "manual-pending"; setDelay(+(store.get("delay@" + streamKey(url)) || 0)); setTimeout(autoSync, 4000);
+  pauseAdd = 0; syncPausedAt = 0; autoSync(); setTimeout(autoSync, 3000);
   $("#nowSub").textContent = sub;
   // Some streams play an ad to every new listener before the broadcast picks up.
   if(liveInfo[vKey(url)]?.preroll || /leanstream|ihrhls|revma/.test(url)) toast("The broadcast will start after a short ad.");
@@ -2239,6 +2274,9 @@ function reconnect(){
 // After a long pause the stream is far behind live: start it fresh instead of resuming.
 let pausedAt = 0;
 audio.addEventListener("pause", ()=>{ pausedAt = Date.now(); });
+// The audio falls behind by however long it was paused (unless it was restarted fresh).
+audio.addEventListener("pause", ()=>{ syncPausedAt = Date.now(); });
+audio.addEventListener("playing", ()=>{ if(syncPausedAt && deck){ pauseAdd += (Date.now() - syncPausedAt)/1000; } syncPausedAt = 0; });
 function resumeRadio(){
   if(deck && pausedAt && Date.now() - pausedAt > 30000){ const loc = deck.loc; listenTo(loc); return; }
   audio.play().catch(()=>{});
@@ -2256,16 +2294,45 @@ $("#useCustom").onclick = ()=>{
 $("#nudge").onclick = ()=>{ if(audio.paused) return; const tok = ++nudgeTok, was = deck; audio.pause(); $("#nudge").disabled = true;
   setTimeout(()=>{ $("#nudge").disabled = false; if(tok===nudgeTok && deck===was && audio.paused && !connecting) audio.play(); }, 5000); };
 let nudgeTok = 0;
-function setDelay(d, auto){
-  delay = Math.max(0, Math.min(120, d));
-  const tag = syncMode==="auto" ? " · auto" : syncMode==="saved" ? " · saved" : "";
-  $("#delayV").textContent = (delay ? `Scores held ${delay}s` : "Scores live") + tag;
-  store.set("delay", delay); render();
+function setDelays(dS, dP){
+  delay = Math.max(0, Math.min(150, dS)); delayP = Math.max(0, Math.min(150, dP));
+  store.set("delay", delay); syncLabel(); render();
 }
-// Adjusting by hand turns off auto for this stream and remembers your setting for it.
-function manualDelay(d){ syncMode = "manual"; setDelay(d); if(deck) store.set("delay@" + streamKey(deck.url), delay); }
-$("#scoresMore").onclick = ()=>manualDelay(delay+2);
-$("#scoresLess").onclick = ()=>manualDelay(delay-2);
+const setDelay = d => setDelays(d, d);
+function syncLabel(){
+  const tag = syncMode==="heard" ? " · matched" : syncMode==="stream" ? " · auto" : syncMode==="adjusted" ? " · set" : "";
+  $("#delayV").textContent = (delay ? `Scores held ${delay}s` : "Scores live") + tag;
+  $("#syncHeard").classList.toggle("hint", !!deck && syncMode==="off");
+}
+// − / +: move the radio's lag by 2 seconds and remember it for this station.
+function nudgeSync(by){
+  if(!deck) return;
+  const g = onAirGame(), {sl} = lagsFor(g), R = radioLagNow() ?? (sl + delay);
+  saveStationSync(Math.max(0, R + by - pauseAdd), "adjusted"); autoSync();
+  if(!g) setDelays(delay + by, delayP + by);
+}
+$("#scoresMore").onclick = ()=>nudgeSync(2);
+$("#scoresLess").onclick = ()=>nudgeSync(-2);
+// "Match radio": list the latest plays; tap the one the announcer just called.
+function syncPicker(){
+  const box = $("#syncPick"), g = onAirGame();
+  if(box.hidden) return;
+  const raw = g && [...summaryHist].reverse().find(h=>h.id===g.id)?.s;
+  const plays = raw ? playsOf(raw).filter(p=>p.wallclock && p.text).slice(-8).reverse() : [];
+  box.innerHTML = `<div class="sp-head"><b>Tap the play you just heard called</b><button class="btn sm" id="syncClose">Done</button></div>` +
+    (plays.length ? plays.map(p=>`<button class="sp-row" data-w="${esc(p.wallclock)}"><span class="sp-t">${esc(p.clock?.displayValue||"")}</span><span>${esc(p.text)}</span></button>`).join("")
+      : `<p class="sp-none">${g ? "No play-by-play for this game yet. Use − and + to line it up." : "Start a game's radio first."}</p>`);
+}
+$("#syncHeard").onclick = ()=>{ const box = $("#syncPick"); box.hidden = !box.hidden; syncPicker(); };
+setInterval(syncPicker, 3000);
+document.addEventListener("click", ev=>{
+  if(ev.target.closest("#syncClose")){ $("#syncPick").hidden = true; return; }
+  const r = ev.target.closest(".sp-row[data-w]"); if(!r || !deck) return;
+  const R = (Date.now() - Date.parse(r.dataset.w))/1000;
+  if(!(R > 0 && R < 300)) return;
+  saveStationSync(R - pauseAdd, "heard"); $("#syncPick").hidden = true; autoSync();
+  toast(`Synced: the radio is ${Math.round(R)}s behind live. Scores and plays now follow it.`);
+});
 document.addEventListener("click", ev=>{
   const f = ev.target.closest(".fav[data-fav]"); if(!f) return;
   ev.stopPropagation(); const loc = f.dataset.fav;
