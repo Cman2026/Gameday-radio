@@ -82,6 +82,38 @@ def record(url, secs=15, skip=None):
         return None
 
 
+def listened_now():
+    """(sport, team location) pairs people started listening to on the site in the last 2 hours,
+    from the site's GoatCounter "listen/<sport>/<team>" events. Those streams are checked first, so a
+    station that isn't carrying the game gets flagged while people are on it. Empty without a token."""
+    token = os.environ.get("GOATCOUNTER_TOKEN")
+    if not token:
+        return set()
+    import datetime as dt, urllib.parse
+    now = dt.datetime.now(dt.timezone.utc).replace(minute=0, second=0, microsecond=0)
+    q = {"start": (now - dt.timedelta(hours=2)).strftime("%Y-%m-%dT%H:%M:%SZ"),
+         "end": (now + dt.timedelta(hours=1)).strftime("%Y-%m-%dT%H:%M:%SZ"), "limit": 100}
+    out, seen_ids = set(), []
+    try:
+        for _ in range(10):
+            qq = dict(q, **({"exclude_paths": ",".join(seen_ids)} if seen_ids else {}))
+            req = urllib.request.Request("https://gamedayradiolive.goatcounter.com/api/v0/stats/hits?" + urllib.parse.urlencode(qq),
+                                         headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"})
+            with urllib.request.urlopen(req, timeout=30) as r:
+                d = json.loads(r.read())
+            for h in d.get("hits") or []:
+                seen_ids.append(str(h.get("path_id", "")))
+                m = re.match(r"^/?listen/([a-z]+)/(.+)$", h.get("path") or "")
+                if m:
+                    out.add((m.group(1), urllib.parse.unquote(m.group(2))))
+            if not d.get("more"):
+                break
+    except Exception as ex:
+        print("couldn't read what people are listening to:", str(ex)[:120])
+    print(f"people listened to {len(out)} team stations in the last 2 hours: {sorted(out)[:12]}")
+    return out
+
+
 def main():
     from faster_whisper import WhisperModel
     model = WhisperModel("tiny.en", device="cpu", compute_type="int8")
@@ -109,10 +141,12 @@ def main():
             for u in [u for u in SP.streams_for(t, sid) if u.startswith("http")][:3]:
                 if (sid, u) in seen: continue
                 seen.add((sid, u))
-                jobs.append((t["school"], u, words, sid))
+                jobs.append((t["school"], u, words, sid, tm.get("location") or ""))
     order = list(SP.SPORTS)
     last = lambda j: (state["streams"].get(SP.key(j[3], j[1])) or {}).get("heard_at", "")
-    jobs.sort(key=lambda j: (j[3] != "fb", last(j), order.index(j[3])))
+    # Streams people are listening to right now go first, then football, then least recently heard.
+    hot = listened_now()
+    jobs.sort(key=lambda j: ((j[3], j[4]) not in hot, j[3] != "fb", last(j), order.index(j[3])))
     skipped = max(0, len(jobs) - MAX_STREAMS)
     jobs = jobs[:MAX_STREAMS]
     if skipped:
@@ -153,7 +187,7 @@ def main():
         second = {}
     stamp = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
     summary = {}
-    for i, ((school, url, words, sid), (text, v)) in enumerate(zip(jobs, first)):
+    for i, ((school, url, words, sid, _loc), (text, v)) in enumerate(zip(jobs, first)):
         rec = state["streams"].setdefault(SP.key(sid, url), {"school": school})
         rec["sport"] = sid
         if v is None:

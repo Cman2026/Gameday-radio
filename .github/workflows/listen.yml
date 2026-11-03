@@ -19,4 +19,5 @@ jobs:
         with: { python-version: "3.12" }
       - run: sudo apt-get install -y -qq ffmpeg >/dev/null && pip install -q faster-whisper
       - run: python tools/listen_check.py 2>&1 | tee listen-log.txt
+        env: { GOATCOUNTER_TOKEN: "${{ secrets.GOATCOUNTER_TOKEN }}" }
       - run: tools/publish.sh "Listen to live streams" radio-heard.json listen-log.txt
