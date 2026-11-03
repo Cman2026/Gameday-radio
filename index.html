@@ -88,7 +88,7 @@ h1 span{color:inherit}
 :is(.chip,.conf,.pbp-toggle,.btn,.daytab):active{border-color:var(--accent)!important;box-shadow:0 0 0 1.5px var(--accent),0 0 10px color-mix(in srgb,var(--accent) 35%,transparent)}
 .daytab[aria-selected="true"]{box-shadow:0 0 10px color-mix(in srgb,var(--accent) 45%,transparent)}
 .conf[aria-expanded="true"],.pbp-toggle[aria-expanded="true"]{border-color:color-mix(in srgb,var(--accent) 70%,var(--line-2))}
-.card[aria-current="true"]{box-shadow:inset 0 0 0 1.5px color-mix(in srgb,var(--accent) 70%,transparent)}
+.card[aria-current="true"],.card.onair{box-shadow:inset 0 0 0 1.5px color-mix(in srgb,var(--accent) 70%,transparent)}
 .chip .n{font:600 12px var(--num);color:var(--faint);font-variant-numeric:tabular-nums}
 .chip .n:empty{display:none}
 .chip[hidden]{display:none}
@@ -204,10 +204,10 @@ h1 span{color:inherit}
 .flat > .up:first-child{border-top:1px solid var(--line);border-top-left-radius:var(--r-lg);border-top-right-radius:var(--r-lg)}
 .flat > .up:last-child{border-bottom-left-radius:var(--r-lg);border-bottom-right-radius:var(--r-lg)}
 .card{cursor:pointer;position:relative}
-.card[aria-current="true"]{background:var(--surface-2)}
+.card[aria-current="true"],.card.onair{background:var(--surface-2)}
 .card .meta .gchev{width:26px;height:26px;padding:4px;margin-left:4px;flex:none;box-sizing:border-box;color:var(--text);background:var(--surface);border:1px solid var(--line-2);border-radius:7px;transition:transform .2s}
 .card[aria-expanded="true"] .meta .gchev{transform:rotate(180deg)}
-.card[aria-current="true"]::before{content:"";position:absolute;left:0;top:10px;bottom:10px;width:3px;border-radius:0 3px 3px 0;background:var(--accent)}
+.card[aria-current="true"]::before,.card.onair::before{content:"";position:absolute;left:0;top:10px;bottom:10px;width:3px;border-radius:0 3px 3px 0;background:var(--accent)}
 .card .row{display:flex;justify-content:space-between;align-items:center;gap:10px;min-height:30px}
 .card .tm{display:flex;align-items:center;gap:9px;min-width:0;font-weight:500;font-size:16px}
 .card .tm img,.up .tr img,.fin .tr img{width:24px;height:24px;object-fit:contain;flex:none}
@@ -544,7 +544,6 @@ const LEAGUES = {
   wbb: {tile:"bb", name:"Basketball", g:"Women's", path:"basketball/womens-college-basketball", groups:50, start:"tip-off", sigma:11, model:"ESPN BPI model", per:"Q", clock:true, court:true},
   mhk: {tile:"hk", name:"Hockey", g:"Men's", path:"hockey/mens-college-hockey", start:"puck drop", per:"P", clock:true},
   whk: {tile:"hk", name:"Hockey", g:"Women's", path:"hockey/womens-college-hockey", start:"puck drop", per:"P", clock:true},
-  wvb: {tile:"vb", name:"Volleyball", path:"volleyball/womens-college-volleyball", start:"first serve", sets:true},
   bsb: {tile:"bs", name:"Baseball", path:"baseball/college-baseball", start:"first pitch", diamond:true},
   sb:  {tile:"sb", name:"Softball", path:"baseball/college-softball", start:"first pitch", diamond:true},
 };
@@ -553,7 +552,6 @@ const TILES = [
   {id:"fb", name:"Football", icon:'<ellipse cx="12" cy="12" rx="9.5" ry="6" transform="rotate(-35 12 12)"/><path d="M9.5 14.5l5-5M10.5 11.5l2 2M12 10l2 2"/>'},
   {id:"bb", name:"Basketball", icon:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3v18M5.6 5.6c3 2.6 3 10.2 0 12.8M18.4 5.6c-3 2.6-3 10.2 0 12.8"/>'},
   {id:"hk", name:"Hockey", icon:'<path d="M5 3l6 14h7M19 3l-6 14"/><ellipse cx="7" cy="19.5" rx="3" ry="1.3"/>'},
-  {id:"vb", name:"Volleyball", icon:'<circle cx="12" cy="12" r="9"/><path d="M12 3c-1 4 0 8 4 10.5M3.6 9.5c4-1 8 .5 10.5 4.5M7 19.5c3-3 7-4 13.6-2.5"/>'},
   {id:"bs", name:"Baseball", icon:'<circle cx="12" cy="12" r="9"/><path d="M7 4.5c2 2 2.6 4.5 2.6 7.5S9 17.5 7 19.5M17 4.5c-2 2-2.6 4.5-2.6 7.5s.6 5.5 2.6 7.5"/>'},
   {id:"sb", name:"Softball", icon:'<circle cx="12" cy="12" r="9"/><path d="M6 5c2.5 2 3.4 4.4 3.4 7S8.5 17 6 19M18 5c-2.5 2-3.4 4.4-3.4 7s.9 5 3.4 7"/>'},
 ];
@@ -841,7 +839,6 @@ function crunch(e){
     case "mbb": return (p>2 || (p===2 && clk<=300)) && d<=8;
     case "wbb": return (p>4 || (p===4 && clk<=300)) && d<=8;
     case "mhk": case "whk": return p>=3 && d<=1;
-    case "wvb": return p>=4 && d<=1;
     case "bsb": return p>=7 && d<=2;
     case "sb":  return p>=5 && d<=2;
   }
@@ -1178,7 +1175,7 @@ document.addEventListener("click", ev=>{
   listenTo(loc);
 });
 function stopRadio(){
-  tryToken++; connecting = null; currentTeam = null; deck = null;
+  tryToken++; connecting = null; currentTeam = null; deck = null; syncOnAir();
   syncMode = "manual"; if(delay) setDelay(0); // scores go back to live when the radio stops
   try{ audio.pause(); if(hls){hls.destroy(); hls=null} audio.removeAttribute("src"); audio.load(); }catch(e){}
   $("#nowName").textContent = "Radio off"; $("#nowSub").textContent = "Tap Listen next to a team";
@@ -1186,7 +1183,7 @@ function stopRadio(){
 }
 function listenTo(loc){
   const r = RADIO[loc]||{};
-  currentTeam = loc; connecting = loc; deck = null;
+  currentTeam = loc; connecting = loc; deck = null; syncOnAir();
   const sel = $("#station"); if([...sel.options].some(o=>o.value==="team:"+loc)) sel.value = "team:"+loc;
   const list = [store.get("stream:"+loc), ...(r.streams||[])].filter(Boolean);
   playList(list, r.net||loc+" radio", r.station||"", loc);
@@ -1342,11 +1339,14 @@ function updateLockScreen(){
   set("nexttrack", other); set("previoustrack", other);
 })();
 function team(c, side){return c.competitors.find(t=>t.homeAway===side)}
+// The game you're listening to gets the same outline as the open game, whichever team's radio it is.
+const onAir = e => !!currentTeam && e.competitions[0].competitors.some(t=>t.team.location===currentTeam);
+function syncOnAir(){ for(const c of document.querySelectorAll("#list .card")){ const e = events.find(x=>x.id===c.dataset.id); c.classList.toggle("onair", !!e && onAir(e)); } }
 function card(e){
   const c = e.competitions[0], a = team(c,"away"), h = team(c,"home"), st = e.status.type;
   const showScore = st.state!=="pre";
   const row = t => `<div class="row"><span class="tm"><button class="fav ${favs.has(t.team.location)?"on":""}" data-fav="${esc(t.team.location)}" aria-label="${favs.has(t.team.location)?"Remove":"Add"} ${esc(t.team.location)} ${favs.has(t.team.location)?"from":"to"} saved teams">${favs.has(t.team.location)?'<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>':'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>'}</button>${logoImg(t.team)}<span>${t.curatedRank?.current<26?`<small>${t.curatedRank.current}</small> `:""}${esc(nameOf(t.team))}</span></span><span class="right">${ear(t.team.location, "")}<span class="sc">${showScore?t.score:""}</span></span></div>`;
-  return `<div class="card" role="button" tabindex="0" data-id="${e.id}" aria-current="${e.id===selected && boardOpen}" aria-expanded="${e.id===selected && boardOpen}">${row(a)}${row(h)}
+  return `<div class="card${onAir(e)?" onair":""}" role="button" tabindex="0" data-id="${e.id}" aria-current="${e.id===selected && boardOpen}" aria-expanded="${e.id===selected && boardOpen}">${row(a)}${row(h)}
   <div class="meta"><span class="${st.state==="in"?"live":""}">${st.state==="pre"?fmtTime(e.date):statusText(e).short}</span><span>${esc((c.broadcasts||[]).flatMap(b=>b.names).join(", "))}<span class="div">${e._div||""}</span><svg class="gchev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>${soonNote(e)}</div>`;
 }
 
@@ -1992,7 +1992,7 @@ let lastTried = null;
 function connected(loc, url, sub){
   lastProgress = Date.now();
   if(loc) track(`listen/${SPORT.id}/${loc}`, `Listen: ${loc} (${SPORT.g ? SPORT.g + " " : ""}${SPORT.name})`);
-  deck = {loc, url, sub};
+  deck = {loc, url, sub}; syncOnAir();
   // Each station keeps its own score delay: start from its saved value, or live, then let auto-sync refine it.
   syncMode = "manual-pending"; setDelay(+(store.get("delay@" + streamKey(url)) || 0)); setTimeout(autoSync, 4000);
   $("#nowSub").textContent = sub;
@@ -2064,7 +2064,7 @@ function reconnect(){
   reconnects++; reconnectAt = Date.now();
   const {loc, url} = deck, r = RADIO[loc] || {};
   const rest = [...(ready[loc]||[]), ...(r.streams||[])].filter(u=>u && u!==url);
-  currentTeam = loc; connecting = loc; deck = null; lastProgress = Date.now();
+  currentTeam = loc; connecting = loc; deck = null; lastProgress = Date.now(); syncOnAir();
   playList([url, ...new Set(rest)], r.net || `${loc} radio`, r.station || "", loc);
   $("#nowSub").textContent = "Reconnecting…";
   render();
@@ -2083,7 +2083,7 @@ $("#useCustom").onclick = ()=>{
   const u = $("#custom").value.trim(); if(!u) return;
   const v = $("#station").value;
   if(v){ store.set("stream:"+v.slice(5), u); fillStations(); $("#station").value = v; listenTo(v.slice(5)); return; }
-  tryToken++; currentTeam = null; connecting = null; deck = null;
+  tryToken++; currentTeam = null; connecting = null; deck = null; syncOnAir();
   playList([u], "Custom stream", u, null);
 };
 $("#nudge").onclick = ()=>{ if(audio.paused) return; const tok = ++nudgeTok, was = deck; audio.pause(); $("#nudge").disabled = true;

@@ -1,5 +1,5 @@
 """The sports the site covers, for the game-time jobs (school feed finder, now-playing check,
-listening check). Ids match the page's: fb, mbb, wbb, mhk, whk, wvb, bsb, sb.
+listening check). Ids match the page's: fb, mbb, wbb, mhk, whk, bsb, sb (volleyball dropped Nov 2026: no stations).
 
 Results for football are stored under the stream URL (as before); other sports under
 "<sport>|<url>", since one station can carry football on Saturday and basketball that night.
@@ -16,7 +16,6 @@ SPORTS = {
     "wbb": ("basketball/womens-college-basketball", ["groups=50&"]),
     "mhk": ("hockey/mens-college-hockey", [""]),
     "whk": ("hockey/womens-college-hockey", [""]),
-    "wvb": ("volleyball/womens-college-volleyball", [""]),
     "bsb": ("baseball/college-baseball", [""]),
     "sb":  ("baseball/college-softball", [""]),
 }
