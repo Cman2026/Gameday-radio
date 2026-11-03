@@ -8200,17 +8200,11 @@
 "flagship": "107.7 The Franchise KRXO-FM (OKC); also AM 1520 OKC, 97.5 FM / AM 1430 Tulsa",
 "listen_page": "",
 "conference": "SEC",
-"calls": [
-"KRXO-FM"
-],
+"calls": [],
 "game_only": null,
-"no_radio": null,
-"notes": null,
-"streams": [
-"https://ais-sa1.streamon.fm/11317_96k.aac",
-"https://das-edge59-sa48-futuri-lax02.cdnstream.com/11317_96k.aac?listeningSessionId=QjdWS0FUT0tQSVFOUERONUlNRkhXSTI0NklfZGFzLWVkZ2U1OS1zYTQ4LWZ1dHVyaS1sYXgwMi5jZG5zdHJlYW0uY29tOjgxODY.&playerid=esPlayer",
-"http://ais-sa1.streamon.fm/11317_96k.aac"
-],
+"no_radio": true,
+"notes": "107.7 The Franchise's web stream plays talk instead of OU games (heard during OU games Nov 2026); game audio online is TuneIn Premium / the Sooner Sports app only",
+"streams": [],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-02",

@@ -517,7 +517,6 @@ h1 span{color:inherit}
       <button class="btn sm" id="scoresLess" aria-label="Show scores 2 seconds sooner">−</button>
       <span class="val" id="delayV">Live</span>
       <button class="btn sm" id="scoresMore" aria-label="Hold scores 2 seconds longer">+</button>
-      <button class="btn sm" id="syncHeard" title="Line the scores up with what you're hearing" aria-label="Match radio">Match</button>
       <button class="btn sm" id="nudge" title="Pause the radio 5 seconds so it falls further behind" aria-label="Radio 5 seconds later">Radio −5s</button>
     </div>
     <div class="syncpick" id="syncPick" hidden></div>
@@ -2331,7 +2330,6 @@ function syncLabel(){
   // Short enough to share one row with the buttons on a phone: "Held 29s ✓" / "Live".
   $("#delayV").textContent = (delay ? `Held ${delay}s` : "Live") + (matchedAt && matchedAt >= connectedAt ? " ✓" : "");
   $("#delayV").title = (delay ? `Scores held ${delay} seconds` : "Scores live") + tag;
-  $("#syncHeard").classList.toggle("hint", !!deck && syncMode==="off");
   // The bold "Radio-Score Sync" button in the radio bar: gold until this station is lined up, then a quiet "Synced ✓".
   // "Synced" only after you matched a play since this stream started: a saved setting from another
   // day or the stream's own clock is a starting guess, not a confirmed match.
@@ -2359,7 +2357,6 @@ function syncPicker(){
     (plays.length ? plays.map(p=>`<button class="sp-row" data-w="${esc(p.wallclock)}"><span class="sp-t">${esc(p.clock?.displayValue||"")}</span><span>${esc(p.text)}</span></button>`).join("")
       : `<p class="sp-none">${g ? "No play-by-play for this game yet. Use − and + to line it up." : "Start a game's radio first."}</p>`);
 }
-$("#syncHeard").onclick = ()=>{ const box = $("#syncPick"); box.hidden = !box.hidden; syncPicker(); };
 $("#syncPill").onclick = ()=>{ if(document.querySelector(".deck").classList.contains("min")) setDeckMin(false); $("#syncPick").hidden = false; syncPicker(); };
 setInterval(syncPicker, 3000);
 document.addEventListener("click", ev=>{

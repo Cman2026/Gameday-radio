@@ -4657,12 +4657,12 @@
   "flagship": "107.7 The Franchise KRXO-FM (OKC); also AM 1520 OKC, 97.5 FM / AM 1430 Tulsa",
   "listen_page": "",
   "conference": "SEC",
-  "calls": [
-   "KRXO-FM"
-  ],
+  "calls": [],
   "streams": [],
   "station_website": "https://thefranchiseok.com",
-  "athletics_site": "https://soonersports.com"
+  "athletics_site": "https://soonersports.com",
+  "no_radio": true,
+  "notes": "107.7 The Franchise's web stream plays talk instead of OU games (heard during OU games Nov 2026); game audio online is TuneIn Premium / the Sooner Sports app only"
  },
  {
   "school": "University of South Carolina",
