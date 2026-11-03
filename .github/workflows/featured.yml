@@ -13,7 +13,6 @@ jobs:
       - uses: actions/checkout@v5
       - run: python3 tools/featured_report.py
         env: { GOATCOUNTER_TOKEN: "${{ secrets.GOATCOUNTER_TOKEN }}" }
-      # Kept as a download on the run (not committed, so it isn't on the website); a scheduled task
-      # copies it into Connor's private report page.
-      - uses: actions/upload-artifact@v4
-        with: { name: featured-report, path: out/, retention-days: 7 }
+      # Not committed, so it isn't on the website. The picks go into this run's log between markers;
+      # a scheduled task reads them and rebuilds Connor's private report page with tools/featured_report.py.
+      - run: echo "=====FEATURED-LOG-START====="; cat out/featured-log.json; echo; echo "=====FEATURED-LOG-END====="

@@ -116,5 +116,17 @@ def main():
     json.dump([{"day": str(d), "picks": p} for d, p in days if p], open("out/featured-log.json", "w"), indent=1)
 
 
+def from_log(path, out):
+    """Rebuild the page from a saved featured-log.json (used to fill Connor's private report page)."""
+    data = json.load(open(path))
+    days = [(dt.date.fromisoformat(d["day"]), d["picks"]) for d in data]
+    for p in (x for _, ps in days for x in ps):
+        p["items"] = [tuple(i) for i in p["items"]]
+    open(out, "w").write(page(days))
+
+
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) == 3:
+        from_log(sys.argv[1], sys.argv[2])
+    else:
+        main()
