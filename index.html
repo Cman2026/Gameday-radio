@@ -488,6 +488,8 @@ h1 span{color:inherit}
   #list .best > #board + .card{border-top-color:color-mix(in srgb,var(--accent) 35%,var(--line))}
 }
 :root{--open-line:color-mix(in srgb,var(--accent) 70%,transparent)}
+.details{display:grid;gap:0}
+.details-in{display:grid;gap:16px;padding-top:8px}
 </style>
 </head>
 <body>
@@ -1787,6 +1789,11 @@ function renderBoard(){
     if(pills.length) html += `<div class="sit">${pills.join("")}</div>`;
     html += fieldView(sit, a, h, pid, e.id);
   }
+  // Everything below (team stats, last play, win probability, play-by-play, radio) sits in one
+  // "Game details" fold that starts closed; opening it is remembered.
+  const detailsOpen = store.get("details") === "1";
+  html += `<div class="details"><button class="label pbp-toggle" id="detailsToggle" aria-expanded="${detailsOpen}">Game details<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="details-in"${detailsOpen ? "" : " hidden"}>`;
+  if(!isFB()) html += statBars(sum, a, h, bc);
   const lp = isFB() ? (sit.lastPlay?.text || lastPlayFrom(sum)) : (st.type.state==="in" ? (lastPlayFrom(sum) || sit.lastPlay?.text) : null);
   if(lp) html += `<div class="last"><p class="label">Last play</p>${esc(lp)}</div>`;
   const wp = sum?.winprobability; if(wp?.length){ const hp = wp[wp.length-1].homeWinPercentage*100;
@@ -1795,14 +1802,14 @@ function renderBoard(){
   const r = radioFor(e);
   html += `<div class="radio-info"><p class="label">Radio for this game</p>${r.map(x=>{ const st = x.station && !/radio$/i.test(x.net||"") ? String(x.station).replace(/\s*\(no free online stream found\)/,"") : "";
     return `<div class="ri"><div class="rh"><b>${esc(x.team)}</b><span class="rchip ${x.stream ? "ok" : ""}">${x.stream ? "Free stream" : "No free stream"}</span></div><span>${esc(x.net||"")}${st ? ` · ${esc(st)}` : ""}</span></div>`; }).join("")}
-  <span class="note">${isFB() ? "Each team's own radio broadcast. If one won't connect, try the other team's call." : SPORT.tile==="bb" ? "Each school's sports radio station, which carries basketball for most teams. If one isn't on the game, try the other team's." : `Each school's main sports radio station. Many carry ${SPORT.name.toLowerCase()}, but some are on a different game or show, so try the other team's if one isn't.`}</span></div>`;
+  <span class="note">${isFB() ? "Each team's own radio broadcast. If one won't connect, try the other team's call." : SPORT.tile==="bb" ? "Each school's sports radio station, which carries basketball for most teams. If one isn't on the game, try the other team's." : `Each school's main sports radio station. Many carry ${SPORT.name.toLowerCase()}, but some are on a different game or show, so try the other team's if one isn't.`}</span></div></div></div>`;
   const same = html.replace(/(<span data-clk="[^"]*">)[^<]*/g, "$1") === (renderBoard.last||"");
   renderBoard.last = html.replace(/(<span data-clk="[^"]*">)[^<]*/g, "$1");
   if(same && B.innerHTML){ B.querySelectorAll("[data-clk]").forEach(el=>{ const g = events.find(x=>x.id===el.dataset.clk); if(g) el.textContent = liveClock(g); }); return; }
   const keep = B.querySelector(".plays")?.scrollTop || 0;
   B.innerHTML = html;
   const pl = B.querySelector(".plays"); if(pl && keep) pl.scrollTop = keep;
-  const stt = $("#statsToggle"); if(stt) stt.onclick = ()=>{ const open = stt.getAttribute("aria-expanded")!=="true"; store.set("stats", open?"1":"0"); stt.setAttribute("aria-expanded", String(open)); stt.nextElementSibling.hidden = !open; };
+  const dt = $("#detailsToggle"); if(dt) dt.onclick = ()=>{ const open = dt.getAttribute("aria-expanded")!=="true"; store.set("details", open?"1":"0"); dt.setAttribute("aria-expanded", String(open)); dt.nextElementSibling.hidden = !open; };
   const pt = $("#pbpToggle"); if(pt) pt.onclick = ()=>{ const open = pt.getAttribute("aria-expanded")!=="true"; store.set("pbp", open?"1":"0"); pt.setAttribute("aria-expanded", String(open)); pt.nextElementSibling.hidden = !open; };
   B.querySelectorAll("[data-play]").forEach(l=>l.onclick=ev=>{ev.preventDefault(); $("#station").value = "team:"+l.dataset.play; startStation();});
 }
@@ -1988,7 +1995,6 @@ function otherDetails(e, sum, a, h, bc){
   if(SPORT.court && live && sum) html += courtView(sum, a, h, bc);
   if(SPORT.tile==="hk" && e.status.type.state!=="pre") html += rinkView(e, a, h, bc);
   html += lineScore(e, a, h);
-  html += statBars(sum, a, h, bc);
   return html;
 }
 // Hockey: ESPN only has goals per period and the clock for college hockey, so the rink shows those.
@@ -2120,9 +2126,7 @@ function statBars(sum, a, h, bc){
   const rows = want.map(([k, label])=>{ const x = sa.find(s=>s.name===k), y = sh.find(s=>s.name===k); if(!x || !y) return "";
     const p = num(x.displayValue), q = num(y.displayValue);
     return `<span>${esc(x.displayValue)}</span><span class="sl">${label}<span class="sb"><span style="flex:${p||0.01};background:${bc[0]}"></span><span style="flex:${q||0.01};background:${bc[1]}"></span></span></span><span class="r">${esc(y.displayValue)}</span>`; }).join("");
-  // Starts folded (like play-by-play, it's extra detail); opening it is remembered.
-  const open = store.get("stats") === "1";
-  return rows ? `<div><button class="label pbp-toggle" id="statsToggle" aria-expanded="${open}">Team stats<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="stats"${open ? "" : " hidden"}>${rows}</div></div>` : "";
+  return rows ? `<div><p class="label">Team stats</p><div class="stats">${rows}</div></div>` : "";
 }
 function otherPlays(sum){
   const plays = realPlays(sum).slice(-40).reverse(); if(!plays.length) return "";
