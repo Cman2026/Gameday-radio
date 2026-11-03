@@ -477,6 +477,7 @@ h1 span{color:inherit}
 .syncpick .sp-none{margin:4px 6px 8px;color:var(--muted);font-size:14px}
 #syncHeard.hint{border-color:var(--accent);color:var(--accent)}
 .deck.idle .syncpick,.deck.min .syncpick{display:none!important}
+.syncbtns{display:inline-flex;gap:6px;flex:none;white-space:nowrap}
 </style>
 </head>
 <body>
@@ -491,13 +492,12 @@ h1 span{color:inherit}
       <button class="btn sm" id="scoresLess" aria-label="Show scores 2 seconds sooner">−</button>
       <span class="val" id="delayV">Scores live</span>
       <button class="btn sm" id="scoresMore" aria-label="Hold scores 2 seconds longer">+</button>
-      <button class="btn sm" id="syncHeard" title="Line the scores up with what you're hearing">Match radio</button>
-      <button class="btn sm" id="nudge" title="Pause the radio 5 seconds so it falls further behind">Radio −5s</button>
+      <span class="syncbtns"><button class="btn sm" id="syncHeard" title="Line the scores up with what you're hearing">Match radio</button>
+      <button class="btn sm" id="nudge" title="Pause the radio 5 seconds so it falls further behind">Radio −5s</button></span>
     </div>
     <div class="syncpick" id="syncPick" hidden></div>
     <button class="btn" id="moreBtn" aria-expanded="false">More</button>
-    <span class="more" id="more" hidden><input type="url" id="custom" placeholder="Or paste a stream URL (.mp3, .aac, .m3u8)" aria-label="Custom stream URL">
-    <button class="btn" id="useCustom">Use URL</button>
+    <span class="more" id="more" hidden>
     <input type="range" id="delay" min="0" max="120" step="1" value="0" aria-label="Score delay" hidden>
     <input type="range" id="vol" class="vol" min="0" max="1" step="0.05" value="0.9" aria-label="Volume"></span>
   </div>
@@ -2146,7 +2146,7 @@ function startStation(){
   const list = saved ? [saved, ...(r.streams||[])] : (r.streams||[]);
   if(list.length){ playList(list, r.net||t+" radio", r.station||""); return; }
   const url = null;
-  if(!url){ $("#nowName").textContent = t; $("#nowSub").innerHTML = `No direct stream saved. Paste one below, or <a href="${r.listen||"https://tunein.com/search/?query="+encodeURIComponent(t+" football")}" target="_blank" rel="noopener">open the official listen page</a>.`; $("#custom").focus(); return; }
+  if(!url){ $("#nowName").textContent = t; $("#nowSub").innerHTML = `No direct stream saved. <a href="${r.listen||"https://tunein.com/search/?query="+encodeURIComponent(t+" football")}" target="_blank" rel="noopener">Open the official listen page</a>.`; return; }
   play(url, r.net||t+" radio", r.station||url);
 }
 // Try each candidate stream in turn until one starts playing.
@@ -2283,14 +2283,7 @@ function resumeRadio(){
 }
 $("#vol").oninput = e=> audio.volume = e.target.value;
 // iPhones and iPads ignore volume set by a web page; use the phone's buttons instead.
-if(/iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform==="MacIntel" && navigator.maxTouchPoints > 1)) $("#vol").hidden = true;
-$("#useCustom").onclick = ()=>{
-  const u = $("#custom").value.trim(); if(!u) return;
-  const v = $("#station").value;
-  if(v){ store.set("stream:"+v.slice(5), u); fillStations(); $("#station").value = v; listenTo(v.slice(5)); return; }
-  tryToken++; currentTeam = null; connecting = null; deck = null; syncOnAir();
-  playList([u], "Custom stream", u, null);
-};
+if(/iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform==="MacIntel" && navigator.maxTouchPoints > 1)){ $("#vol").hidden = true; $("#moreBtn").hidden = true; }
 $("#nudge").onclick = ()=>{ if(audio.paused) return; const tok = ++nudgeTok, was = deck; audio.pause(); $("#nudge").disabled = true;
   setTimeout(()=>{ $("#nudge").disabled = false; if(tok===nudgeTok && deck===was && audio.paused && !connecting) audio.play(); }, 5000); };
 let nudgeTok = 0;
