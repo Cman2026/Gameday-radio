@@ -3890,11 +3890,9 @@
   "calls": [
    "WXTQ-FM"
   ],
-  "streams": [
-   "https://us7.maindigitalstream.com/2174/"
-  ],
+  "streams": [],
   "athletics_site": "https://ohiobobcats.com",
-  "notes": "Nov 2026: WXTQ SecureNet stream returns 403. Affiliates per ohiobobcats.com coaches-shows page (Apr 2026): WMNI 920 Columbus, WYPC 105.3/1330 Jackson, WJAW 630/92.9 Marietta-Parkersburg. Added JAWCO WJAW-FM 100.9 stream (us7.maindigitalstream.com/2174, from wmoa1490.com/89; carried games in the 2021 network list). Free school audio: ohiobobcats.com / Varsity app (found at game time)."
+  "notes": "Nov 2026: WXTQ SecureNet stream sometimes returns 403 to the resolver; it played again on Nov 3. Affiliates per ohiobobcats.com coaches-shows page (Apr 2026): WMNI 920 Columbus, WYPC 105.3/1330 Jackson, WJAW 630/92.9 Marietta-Parkersburg. WJAW-FM 100.9 player (us7.maindigitalstream.com/2174) is an HTML page, not a stream. Free school audio: ohiobobcats.com / Varsity app (found at game time)."
  },
  {
   "school": "University of Toledo",
