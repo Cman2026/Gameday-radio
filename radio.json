@@ -1,5 +1,5 @@
 {
-"built": "2026-11-03T20:08:29Z",
+"built": "2026-11-03T20:19:56Z",
 "teams": [
 {
 "school": "Boston College",
@@ -86,6 +86,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://ice5.securenetsystems.net/WQSC",
 "http://s2.radioreformation.com:8060/;stream.mp3",
 "http://s2.radioreformation.com:8060/stream"
 ],
@@ -114,7 +115,10 @@
 "game_only": null,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://ais-sa8.cdnstream1.com/2750_64.aac",
+"https://ais-sa8.cdnstream1.com/2751_64.aac"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-03",
@@ -267,7 +271,11 @@
 "game_only": null,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://ais-sa8.cdnstream1.com/2750_64.aac?aw_0_1st.playerid=iHeart",
+"https://ais-sa8.cdnstream1.com/2750_64.aac",
+"http://ais-sa8.cdnstream1.com/2750_64.aac?aw_0_1st.playerid=iHeart"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-03",
@@ -651,9 +659,12 @@
 "game_only": true,
 "no_radio": null,
 "notes": null,
-"streams": [],
-"misses": 1,
-"miss_day": "2026-11-03",
+"streams": [
+"https://ice64.securenetsystems.net/WZGV2",
+"https://cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8"
+],
+"misses": 0,
+"miss_day": null,
 "last_ok": "2026-11-03",
 "live_only": false,
 "athletics_site": "https://charlotte49ers.com",
@@ -830,8 +841,8 @@
 "no_radio": true,
 "notes": "2026-27 riceowls.com schedule links every game's live audio to The Varsity Network app (thevarsitynetwork.com audioapplink); no free web stream.",
 "streams": [],
-"misses": 1,
-"miss_day": "2026-11-03",
+"misses": 0,
+"miss_day": null,
 "last_ok": "2026-11-03",
 "athletics_site": "https://riceowls.com",
 "station_sports": null,
@@ -1036,8 +1047,8 @@
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3"
 ],
-"misses": 0,
-"miss_day": null,
+"misses": 1,
+"miss_day": "2026-11-03",
 "last_ok": "2026-11-03",
 "live_only": false,
 "athletics_site": "https://appstatesports.com",
@@ -1244,7 +1255,9 @@
 "game_only": null,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://ice7.securenetsystems.net/KXKZ"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-03",
@@ -1272,7 +1285,9 @@
 "game_only": null,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://ice23.securenetsystems.net/WDGG"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-03",
@@ -1361,7 +1376,9 @@
 "game_only": null,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://ice64.securenetsystems.net/WXRR"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-03",
@@ -1389,9 +1406,9 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://clips-media-fly.warnermediacdn.com/ncaa/clips/2026-10/2416700-c0def5c723234637af1ef2a66fbc5945/cmaf/master_cl_de.m3u8",
-"https://clips-media-fly.warnermediacdn.com/ncaa/clips/2026-10/2416700-c0def5c723234637af1ef2a66fbc5945/cmaf/master_cl_ph.m3u8",
-"https://clips-media-fly.warnermediacdn.com/ncaa/clips/2026-10/2416700-c0def5c723234637af1ef2a66fbc5945/cmaf/master_cl_ta.m3u8"
+"https://ice6.securenetsystems.net/WTXK",
+"https://clips-media-aka.warnermediacdn.com/ncaa/clips/2026-10/2411550-236f61fe0f054c37a999f7ee2df63286/cmaf/master_cl_de.m3u8",
+"https://clips-media-aka.warnermediacdn.com/ncaa/clips/2026-10/2411550-236f61fe0f054c37a999f7ee2df63286/cmaf/master_cl_ph.m3u8"
 ],
 "misses": 0,
 "miss_day": null,
@@ -1761,7 +1778,9 @@
 "game_only": null,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://ice42.securenetsystems.net/KSPI"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-03",
@@ -2102,9 +2121,9 @@
 "no_radio": null,
 "notes": " KUOO 103.9 Spirit Lake (Community First Broadcasting, non-iHeart Hawkeye affiliate) added because iHeart streams are geofenced.",
 "streams": [
+"https://ice23.securenetsystems.net/KUOO",
 "https://stream.revma.ihrhls.com/zc925",
-"https://stream.revma.ihrhls.com/zc925/hls.m3u8",
-"http://stream.revma.ihrhls.com/zc925"
+"https://stream.revma.ihrhls.com/zc925/hls.m3u8"
 ],
 "misses": 0,
 "miss_day": null,
@@ -2586,8 +2605,8 @@
 "no_radio": null,
 "notes": "School audio on GoCamels.com, game days only",
 "streams": [],
-"misses": 1,
-"miss_day": "2026-11-03",
+"misses": 0,
+"miss_day": null,
 "last_ok": "2026-11-03",
 "live_only": false,
 "athletics_site": "https://gocamels.com",
@@ -2890,9 +2909,9 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://live.amperwave.net/manifest/sunbury-wkokamaac-hlsc2.m3u8?source=sidearm",
-"https://live.amperwave.net/playlist/sunbury-wkokamaac-ibc1.pls?source=airkast",
-"http://live.amperwave.net/playlist/sunbury-wkokamaac-ibc1.pls?source=airkast"
+"https://live.amperwave.net/direct/sunbury-wkokamaac-ibc1",
+"https://live.amperwave.net/manifest/sunbury-wkokamaac-ibc1",
+"https://live.amperwave.net/playlist/sunbury-wkokamaac-ibc1.pls?source=airkast"
 ],
 "misses": 0,
 "miss_day": null,
@@ -3080,7 +3099,11 @@
 "game_only": true,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://stream.rcs.revma.com/uupm8cdw57uvv",
+"https://stream.rcs.revma.com/uupm8cdw57uvv/hls.m3u8",
+"http://stream.rcs.revma.com/uupm8cdw57uvv"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-03",
@@ -4325,7 +4348,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://ice5.securenetsystems.net/WQNT"
+"https://ice5.securenetsystems.net/WQNT?playSessionID=5E69434F-F77A-448E-350C666945953317"
 ],
 "misses": 0,
 "miss_day": null,
@@ -4948,8 +4971,8 @@
 "no_radio": true,
 "notes": "Varsity Network app only",
 "streams": [],
-"misses": 1,
-"miss_day": "2026-11-03",
+"misses": 0,
+"miss_day": null,
 "last_ok": "2026-11-03",
 "athletics_site": "https://butlersports.com",
 "station_sports": null,
@@ -5522,8 +5545,8 @@
 "streams": [
 "https://das-edge29-sa27-lax02.cdnstream.com/2284_96.aac"
 ],
-"misses": 0,
-"miss_day": null,
+"misses": 1,
+"miss_day": "2026-11-03",
 "last_ok": "2026-11-03",
 "athletics_site": "https://weberstatesports.com",
 "station_sports": null,
@@ -5708,8 +5731,8 @@
 "no_radio": null,
 "notes": null,
 "streams": [],
-"misses": 1,
-"miss_day": "2026-11-03",
+"misses": 0,
+"miss_day": null,
 "last_ok": "2026-11-03",
 "live_only": false,
 "athletics_site": "https://gosycamores.com",
@@ -5797,7 +5820,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://img.leanstream.co/LF4601-MP3"
+"https://ice7.securenetsystems.net/THEMIX"
 ],
 "misses": 0,
 "miss_day": null,
@@ -5827,7 +5850,9 @@
 "game_only": null,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://ice7.securenetsystems.net/KVHT"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-03",
@@ -6221,7 +6246,9 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://mcdn.podbean.com/mf/web/bbpqs4dqujrzda92/power_hour_oct_29b68ok.mp3"
+"https://ice41.securenetsystems.net/WLBC",
+"https://mcdn.podbean.com/mf/web/wzkzxjb6gudv5ut5/DCT_Nov3rd_26.mp3",
+"https://mcdn.podbean.com/mf/web/zrib2xrbm89e4v4s/MNRW_11_02_26.mp3"
 ],
 "misses": 0,
 "miss_day": null,
@@ -6427,7 +6454,9 @@
 "game_only": null,
 "no_radio": null,
 "notes": "Nov 2026: WXTQ SecureNet stream returns 403. Affiliates per ohiobobcats.com coaches-shows page (Apr 2026): WMNI 920 Columbus, WYPC 105.3/1330 Jackson, WJAW 630/92.9 Marietta-Parkersburg. Added JAWCO WJAW-FM 100.9 stream (us7.maindigitalstream.com/2174, from wmoa1490.com/89; carried games in the 2021 network list). Free school audio: ohiobobcats.com / Varsity app (found at game time).",
-"streams": [],
+"streams": [
+"https://ice6.securenetsystems.net/WXTQ"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-03",
@@ -6605,7 +6634,9 @@
 "game_only": true,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-03",
@@ -6718,7 +6749,9 @@
 "game_only": null,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://ice3.securenetsystems.net/WGNS?playSessionID=7C9260E4-7C2B-4AFA-87C6F0CA6FBE5430"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-03",
@@ -6804,8 +6837,8 @@
 "no_radio": null,
 "notes": null,
 "streams": [],
-"misses": 1,
-"miss_day": "2026-11-03",
+"misses": 0,
+"miss_day": null,
 "last_ok": "2026-11-03",
 "athletics_site": "https://gobearkats.com",
 "station_sports": null,
@@ -7245,7 +7278,9 @@
 "game_only": null,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://ice3.securenetsystems.net/KQWB"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-03",
@@ -7521,6 +7556,7 @@
 "notes": null,
 "streams": [
 "https://ais-sa1.streamon.fm/7644_64k.mp3",
+"https://ais-sa1.streamon.fm/7644_48k.aac",
 "http://ais-sa1.streamon.fm/7644_48k.aac/playlist.m3u8"
 ],
 "misses": 0,
@@ -7978,8 +8014,8 @@
 "no_radio": null,
 "notes": "Audio is the digital-only Belmont Bruins Radio (iHeartRadio app + school site); no over-the-air station found",
 "streams": [],
-"misses": 1,
-"miss_day": "2026-11-03",
+"misses": 0,
+"miss_day": null,
 "last_ok": null,
 "athletics_site": "https://belmontbruins.com",
 "station_sports": null,
@@ -8038,8 +8074,8 @@
 "no_radio": null,
 "notes": "WTBU MBB page has 2025-26 game recaps (Jan-Mar 2026) and 'Click to Listen to WTBU Men's Basketball Broadcasts' linking to Mixlr wtbusports; games appear to be on a separate Mixlr stream, so WTBU calls left out. FM carriage unverified; Mixlr page could not be fetched",
 "streams": [],
-"misses": 1,
-"miss_day": "2026-11-03",
+"misses": 0,
+"miss_day": null,
 "last_ok": null,
 "athletics_site": "https://goterriers.com",
 "station_sports": null,
@@ -8360,8 +8396,8 @@
 "no_radio": true,
 "notes": "Audio only on SiriusXM and the DePaul app; no free web stream.",
 "streams": [],
-"misses": 1,
-"miss_day": "2026-11-03",
+"misses": 0,
+"miss_day": null,
 "last_ok": "2026-11-03",
 "athletics_site": "https://depaulbluedemons.com",
 "station_sports": null,
@@ -8553,8 +8589,8 @@
 "no_radio": null,
 "notes": "Dec 2025 deal covers only 8 home games, Jan-Feb 2026 (4 MBB, 4 WBB). Station is an HD2 sub-channel plus translators, so no calls. Stream is at FOXSportsFM.com but its site could not be fetched to get a direct URL",
 "streams": [],
-"misses": 1,
-"miss_day": "2026-11-03",
+"misses": 0,
+"miss_day": null,
 "last_ok": null,
 "athletics_site": "https://fgcuathletics.com",
 "station_sports": null,
@@ -8671,8 +8707,8 @@
 "no_radio": null,
 "notes": "GCU Radio Network went fully digital in 2025-26: free audio only in the GCU Lopes app (no over-the-air station named)",
 "streams": [],
-"misses": 1,
-"miss_day": "2026-11-03",
+"misses": 0,
+"miss_day": null,
 "last_ok": "2026-11-03",
 "athletics_site": "https://gculopes.com",
 "station_sports": null,
@@ -8700,8 +8736,8 @@
 "no_radio": null,
 "notes": "Moved from WDUZ to Mixlr-only streaming in 2024-25; no over-the-air station; 2025-26 continuation not explicitly confirmed",
 "streams": [],
-"misses": 1,
-"miss_day": "2026-11-03",
+"misses": 0,
+"miss_day": null,
 "last_ok": null,
 "athletics_site": "https://greenbayphoenix.com",
 "station_sports": null,
@@ -8813,8 +8849,8 @@
 "no_radio": null,
 "notes": "2025-26 game notes (Feb 2026, Canisius) list only ESPN+, with no radio or audio line. No source shows WICR carrying games.",
 "streams": [],
-"misses": 1,
-"miss_day": "2026-11-03",
+"misses": 0,
+"miss_day": null,
 "last_ok": null,
 "athletics_site": "https://ionagaels.com",
 "station_sports": null,
@@ -8931,8 +8967,8 @@
 "no_radio": null,
 "notes": "Free audio stream on goexplorers.com showcase (Kale Beers pbp), no over-the-air station; confirmed for 2024-25",
 "streams": [],
-"misses": 1,
-"miss_day": "2026-11-03",
+"misses": 0,
+"miss_day": null,
 "last_ok": "2026-11-03",
 "athletics_site": "https://goexplorers.com",
 "station_sports": null,
@@ -9100,8 +9136,8 @@
 "no_radio": null,
 "notes": "Audio stream only (loyolaramblers.com/listen and Varsity Network app); no over-the-air station",
 "streams": [],
-"misses": 1,
-"miss_day": "2026-11-03",
+"misses": 0,
+"miss_day": null,
 "last_ok": "2026-11-03",
 "athletics_site": "https://loyolaramblers.com",
 "station_sports": null,
@@ -9538,8 +9574,8 @@
 "streams": [
 "https://ice6.securenetsystems.net/KYAL"
 ],
-"misses": 0,
-"miss_day": null,
+"misses": 1,
+"miss_day": "2026-11-03",
 "last_ok": "2026-11-03",
 "athletics_site": "https://oruathletics.com",
 "station_sports": null,
@@ -9842,8 +9878,8 @@
 "no_radio": null,
 "notes": "Mixlr audio is for road games only; home games are ESPN+ only (2024-25 setup)",
 "streams": [],
-"misses": 1,
-"miss_day": "2026-11-03",
+"misses": 0,
+"miss_day": null,
 "last_ok": null,
 "athletics_site": "https://siuecougars.com",
 "station_sports": null,
@@ -9959,8 +9995,8 @@
 "no_radio": null,
 "notes": "No radio or audio found for 2025-26. Student station WSPR exists, but no game carriage confirmed.",
 "streams": [],
-"misses": 1,
-"miss_day": "2026-11-03",
+"misses": 0,
+"miss_day": null,
 "last_ok": null,
 "athletics_site": "https://saintpeterspeacocks.com",
 "station_sports": null,
@@ -10331,8 +10367,8 @@
 "no_radio": null,
 "notes": "An undated KCSB sports page says it covers men's and women's basketball live on its own streams (kcsbsports.mixlr.com; backup zeno.fm/radio/kcsbsports2). Calls omitted because games are on a separate stream, not KCSB-FM main. No 2025-26 date confirmation; the school's 2025-26 release names only TV/E",
 "streams": [],
-"misses": 1,
-"miss_day": "2026-11-03",
+"misses": 0,
+"miss_day": null,
 "last_ok": null,
 "athletics_site": "https://ucsbgauchos.com",
 "station_sports": null,
@@ -10411,8 +10447,8 @@
 "no_radio": null,
 "notes": "No basketball radio found. WCAP 980 and student WUML 91.5 are both listed for River Hawks hockey only (Wikipedia); Oct 2025 MBB release has no audio",
 "streams": [],
-"misses": 1,
-"miss_day": "2026-11-03",
+"misses": 0,
+"miss_day": null,
 "last_ok": null,
 "athletics_site": "https://goriverhawks.com",
 "station_sports": null,
@@ -10525,8 +10561,8 @@
 "no_radio": null,
 "notes": "2025-26 men's schedule has 'Listen' links to utamavs.com/showcase; no OTA station named; women's has no audio links",
 "streams": [],
-"misses": 1,
-"miss_day": "2026-11-03",
+"misses": 0,
+"miss_day": null,
 "last_ok": "2026-11-03",
 "athletics_site": "https://utamavs.com",
 "station_sports": null,
