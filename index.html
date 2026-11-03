@@ -453,7 +453,7 @@ h1 span{color:inherit}
    sections in every sport: Best right now, Live, Up next, Final. */
 .chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:2px;background:none;border:0;border-radius:0;-webkit-overflow-scrolling:touch}
 .chips::-webkit-scrollbar{display:none}
-.chips .chip{flex:none;height:36px;padding:0 14px;border:1px solid var(--line-2);border-radius:999px;background:var(--surface);color:var(--text);font-weight:600;box-shadow:none}
+.chips .chip{flex:1 1 0;justify-content:center;height:36px;padding:0 14px;border:1px solid var(--line-2);border-radius:999px;background:var(--surface);color:var(--text);font-weight:600;box-shadow:none}
 .chips .chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);box-shadow:none}
 .chips .chip[aria-pressed="true"] .n{color:var(--accent-ink);opacity:.8}
 .sect.big{font:700 22px/1.1 var(--num);color:var(--text);margin:22px 4px 8px;padding-top:16px;border-top:1px solid var(--line);display:flex;align-items:baseline;justify-content:space-between;gap:10px;text-transform:none;letter-spacing:.01em}
@@ -871,10 +871,10 @@ function renderChips(pool, live){
   const liveIn = c => live.filter(e=>groupConf(e)===c).length, major = c => confRank(c) < 1e3;
   let confs = [...new Set(pool.map(groupConf))].sort((x, y)=> (major(y)-major(x)) || (major(x) ? 0 : liveIn(y)-liveIn(x)) || byConf(x, y));
   if(confs.length===1 && /^Other/.test(confs[0])) confs = [];
-  if(divFilter.startsWith("c:") && !confs.includes(divFilter.slice(2))) divFilter = "all";
+  if(divFilter.startsWith("c:")) divFilter = "all"; // conference chips were removed; conferences are the bars below
   const chip = (div, label, count, aria) => `<button class="chip" data-div="${esc(div)}" aria-pressed="${divFilter===div}"${aria?` aria-label="${aria}"`:""}>${esc(label)}<span class="n">${count}</span></button>`;
   const html = chip("all", "All", String(base.length||"")) + (pool.some(isTop25) ? chip("T25", "Top 25", n(isTop25)) : "") + chip("fav", "★ Saved", n(isFavGame), "Saved teams")
-    + confs.map(c=>chip("c:"+c, c==="Other games" ? "Other" : c, n(e=>gameConfs(e).includes(c)))).join("");
+;
   const box = $("#chips"); if(box.dataset.html !== html){ const x = box.scrollLeft; box.innerHTML = html; box.dataset.html = html; box.scrollLeft = x; }
 }
 // Live conference bars start open (and "More conferences" closed); folding one is remembered.
