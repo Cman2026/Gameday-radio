@@ -1,164 +1,219 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-[hls @ 0x5aa2a1670f80] URL https://prod-100-54-247-170.amperwave.net/a/?lid=582c6751-bf5e-4423-ba7e-1b6dd79ea2ef&u=https%3A%2F%2Fd25j5qm9y8ulag.cloudfront.net%2Fc%2Fad%2Fa%2F54d679ccd7b10fbac20903ef1b90369d_0.aac%3Fsid%3D9184 is not in allowed_segment_extensions, consider updating hls.c and submitting a patch to ffmpeg-devel, if this should be added
-[out#0/wav @ 0x5aa2a190af80] Output file does not contain any stream
-Error opening output file /tmp/tmp_0t9ijbw.wav.
-Error opening output files: Invalid argument
-[0;93m2026-11-03 02:02:40.398947137 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-[in#0 @ 0x603d92dafcc0] Error opening input: Invalid data found when processing input
-Error opening input file https://greenbayphoenix.mixlr.com/.
+[AVFormatContext @ 0x64fafacb2440] Invalid HLS ID3 audio timestamp 8652496896
+[AVFormatContext @ 0x5cf27e2377c0] Invalid HLS ID3 audio timestamp 8652496896
+[AVFormatContext @ 0x591257352440] Invalid HLS ID3 audio timestamp 8656091136
+[tcp @ 0x55d462895680] Connection to tcp://ice41.securenetsystems.net:443 failed: Connection timed out
+[in#0 @ 0x55d462891cc0] Error opening input: Connection timed out
+Error opening input file https://ice41.securenetsystems.net/WFLI?playSessionID=B4D1D769-527F-45C3-8932-D5A09FF14966.
+Error opening input files: Connection timed out
+[aac @ 0x64250f3a9940] No quantized data read for sbr_dequant.
+[tcp @ 0x58f0d62dd680] Connection to tcp://ice26.securenetsystems.net:443 failed: Connection timed out
+[in#0 @ 0x58f0d62d9cc0] Error opening input: Connection timed out
+Error opening input file https://ice26.securenetsystems.net/KOZN?playSessionID=238DBCA9-4509-4B09-BB5A-C33027B91F7E.
+Error opening input files: Connection timed out
+[tcp @ 0x5bd662347680] Connection to tcp://ice41.securenetsystems.net:443 failed: Connection timed out
+[in#0 @ 0x5bd662343cc0] Error opening input: Connection timed out
+Error opening input file https://ice41.securenetsystems.net/WPRL?playSessionID=9F266667-B315-45A2-85AF-A6CCC824E726.
+Error opening input files: Connection timed out
+[aac @ 0x61cfbe9d8900] TYPE_FIL: Input buffer exhausted before END element found
+[aist#0:0/aac @ 0x61cfbea6c380] [dec:aac @ 0x61cfbe9db0c0] Error submitting packet to decoder: Invalid data found when processing input
+[AVFormatContext @ 0x6487648b17c0] Invalid HLS ID3 audio timestamp 8662381056
+[tcp @ 0x5d59aa83d680] Connection to tcp://ice6.securenetsystems.net:443 failed: Connection timed out
+[in#0 @ 0x5d59aa839cc0] Error opening input: Connection timed out
+Error opening input file https://ice6.securenetsystems.net/KYAL?playSessionID=505672E6-4279-45CA-A7D8-93B7D318D33F.
+Error opening input files: Connection timed out
+[in#0 @ 0x5ec962de7cc0] Error opening input: Invalid data found when processing input
+Error opening input file https://kcsbsports.mixlr.com/.
 Error opening input files: Invalid data found when processing input
-[in#0 @ 0x570119084cc0] Error opening input: Server returned 404 Not Found
-Error opening input file https://apicdn.mixlr.com/v3/channel_view/greenbayphoenix.
-Error opening input files: Server returned 404 Not Found
-[in#0 @ 0x55a315d67cc0] Error opening input: Server returned 404 Not Found
-Error opening input file https://cdn.jwplayer.com/live/broadcast/I0QkbOOf.m3u8.
-Error opening input files: Server returned 404 Not Found
-[in#0 @ 0x61078b090cc0] Error opening input: Server returned 403 Forbidden (access denied)
-Error opening input file https://ice6.securenetsystems.net/WXTQ?playSessionID=EB5D6CA6-F157-4871-8595-A6007DE46941.
-Error opening input files: Server returned 403 Forbidden (access denied)
-[mp3float @ 0x5e98c6f5a300] Header missing
-[aist#0:0/mp3 @ 0x5e98c6f5c180] [dec:mp3float @ 0x5e98c6f59d80] Error submitting packet to decoder: Invalid data found when processing input
-[mp3float @ 0x5e98c6f5a300] Header missing
-[aist#0:0/mp3 @ 0x5e98c6f5c180] [dec:mp3float @ 0x5e98c6f59d80] Error submitting packet to decoder: Invalid data found when processing input
-[mp3float @ 0x5e98c6f5a300] Header missing
-[aist#0:0/mp3 @ 0x5e98c6f5c180] [dec:mp3float @ 0x5e98c6f59d80] Error submitting packet to decoder: Invalid data found when processing input
-[mp3float @ 0x5e98c6f5a300] Header missing
-[aist#0:0/mp3 @ 0x5e98c6f5c180] [dec:mp3float @ 0x5e98c6f59d80] Error submitting packet to decoder: Invalid data found when processing input
-213 more streams wait for the next run
-listening to 140 streams in 131 live games
-maybe_not  mbb  University of Illinois Urbana- 'Our investment in Decatur is an investment in everyone who calls Decatur Home. || Our inve'
-maybe_not  mbb  University of Illinois Urbana- 'Our investment in Decatur is an investment in everyone who calls Decatur Home. || Our inve'
-game       mbb  University of Kansas           "Johnny's is proud to be involved. If you're looking for another amateur sport, check out t"
-quiet      mbb  Fordham University             "I'll see you in New York.  Public media."
-quiet      mbb  Fordham University             'You see New York public'
-quiet      mbb  Fordham University             'You see New York public'
-game       mbb  University of Pittsburgh       "He's a transfer from Concord. 85-52. The end one is up and good. 85-53.  Farmer hits."
-game       mbb  University of Pittsburgh       "85-52. The end one is up and good 85-53.  As Farmer Hitsburg.  That's it."
-game       mbb  University of Pittsburgh       "85-52. The end one is up and good 85-53.  As Farmer Hitsburg.  That's it."
-quiet      mbb  Rider University               ''
-game       mbb  Mount St. Mary's University    "here running Michael Wolf as well.  That's home from Wolf 3, the right side off the A&O.  "
-game       mbb  Mount St. Mary's University    "Wolf as well.  That's home from Wolf 3, the right side off the A&O.  That's home's got the"
-maybe_not  mbb  Providence College             'be up to the official but you know the officials are going to get on television  more this'
-maybe_not  mbb  Providence College             'You know the officials are gonna get on television more this way. Well, they should put th'
-maybe_not  mbb  Providence College             "television more this way well they should put that rule in  it's 79 to 53 and a challenge "
-maybe_not  mbb  University of Maine            "He's going to ask you to think.  Yeah, he would have been on that team, I believe.  Andy g"
-game       mbb  University of Maine            'believe in you. We do. Bank where you matter more. Bank or savings bank.  Number FDIC, equ'
-quiet      mbb  University of Maine            ''
-maybe_not  mbb  College of Charleston          'help you understand your coverage options and choose the protection that meets your needs,'
-game       mbb  Stephen F. Austin State Univer "on the clock. Finds his teammate. It's Gonzalez check again for the first time.  This one "
-quiet      mbb  Stephen F. Austin State Univer ''
-quiet      mbb  Stephen F. Austin State Univer ''
-game       mbb  Western Kentucky University    'the young right side guard jumping  shooting low in the rim and is  pulled down by Jarvis '
-quiet      mbb  Western Kentucky University    ''
-game       mbb  Morehead State University      'right baseline toward the right elbow.  Alibi, oh, back behind him for it, young.  Straigh'
-game       mbb  Morehead State University      'right elbow.  Crip Dawson down low.  Chi-rel shot.  Tries to reverse left.  Parsley tip.  '
-game       mbb  University of Wisconsin-Madiso 'Treating the most complex conditions.  So Wisconsin is raising the bar on the court, on th'
-maybe_not  mbb  University of Wisconsin-Madiso 'in token assets stolen from its hot wallets.  Jim Forbes with more.  Binance said it will '
-maybe_not  mbb  University of Wisconsin-Madiso "opportunity that's going to make the Seahawks better.  Seattle host Chicago. Their newest "
-game       mbb  University of Denver           'than last year and that to me has been the key to Steelers this year is the play of the of'
-maybe_not  mbb  Seton Hall University          'Coverage for prescriptions, emergency services and more.  Plus you may qualify for financi'
-game       mbb  Seton Hall University          "Fm WSO you back here at the rock where the pirates hold on to a 19 point lead and we'll se"
-game       mbb  Seton Hall University          "Back here at the rock where the pirates hold on to a 19 point lead and we'll see whose pos"
-quiet      mbb  University of Southern Indiana ''
-game       mbb  Southeast Missouri State Unive 'for 12 from the free throw line.  Seemo has only shot four free throws.  This will be the '
-maybe_not  mbb  University of Nebraska-Lincoln 'to the Coraville extra pass a  season three got it.  Connor my boy.  Yeah.  Connor a seaso'
-maybe_not  mbb  University of Nebraska-Lincoln 'the season three got it on her my boy.  Yes.  On her a season first points of the year.  s'
-quiet      mbb  Le Moyne College               ''
-maybe_not  mbb  North Carolina State Universit "for all visit us at Lenovo.com.  Pay let's pause 10 seconds for station identification.  Y"
-game       mbb  Campbell University            "team in their home stadium. You've got to hit those threes that are fallen. But look, this"
-quiet      mbb  Pennsylvania State University  ''
-quiet      mbb  Canisius University            ''
-quiet      mbb  Canisius University            ''
-quiet      mbb  United States Naval Academy    ''
-game       mbb  Louisiana Tech University      'get out there and try to squeeze you and dry out that area in the right low block.  This h'
-game       mbb  Kent State University          'Francis with a right handed dribble gives the Tyler curls around left side, tries to get b'
-game       mbb  Kent State University          "Someone's out of the arc, little ball fake.  Kent State needs a bucket.  Why, Key wide ope"
-game       mbb  Kent State University          '2. Step back, made range jumper way too strong off the right side of the glass.  Off its a'
-game       mbb  University of Louisiana Monroe 'goes over to the left to scream from the floor. It takes it to the right.  Steps back in t'
-game       mbb  Central Michigan University    "Jump her up in its an air ball.  Didn't take it with confidence right there.  White grabs "
-game       mbb  Central Michigan University    'power. Hey, Jalen Kippen, this is your home all season long for  Central Michigan basketba'
-quiet      mbb  Central Michigan University    "Don't make me wonder"
-game       mbb  Marquette University           'Radio Network by Learfield. For NCAA rules, this market broadcast is unavailable on stream'
-maybe_not  mbb  Mississippi State University   'applying high efficiency natural gas appliances, smart thermostats, and weatherization upg'
-maybe_not  mbb  Mississippi State University   'multiple treatment options and their biotech certified providers.  Starful clinic for wome'
-maybe_not  mbb  Mississippi State University   'As well as Hunter Orange Gear and other hunting supplies.  As always, we offer on the spot'
-game       mbb  Tennessee Technological Univer 'Bank is a proud supporter of Tennessee Tech basketball, where your financial success is ou'
-maybe_not  mbb  University of Georgia          'And if you want inside access to breaking news...  Sorry, I talked over Joe Lindsey there,'
-maybe_not  mbb  University of Georgia          "anytime anywhere with the WSB Radio app.  It's all there.  The latest news and traffic on "
-maybe_not  mbb  University of Georgia          "anytime anywhere with the WSB Radio app.  It's all there.  The latest news and traffic on "
+[tedcaptions @ 0x5ffead874f80] Syntax error near offset 9.
+[in#0 @ 0x5ffead874cc0] Error opening input: Invalid data found when processing input
+Error opening input file https://apicdn.mixlr.com/v3/channel_view/kcsbsports.
+Error opening input files: Invalid data found when processing input
+[tcp @ 0x5ec175dbb680] Connection to tcp://ice5.securenetsystems.net:443 failed: Connection timed out
+[in#0 @ 0x5ec175db7cc0] Error opening input: Connection timed out
+Error opening input file https://ice5.securenetsystems.net/KFIG?playSessionID=D62F1C0E-7FBC-469C-BB8E-629C76C28B27.
+Error opening input files: Connection timed out
+[tcp @ 0x65291f688680] Connection to tcp://ice6.securenetsystems.net:443 failed: Connection timed out
+[in#0 @ 0x65291f684cc0] Error opening input: Connection timed out
+Error opening input file https://ice6.securenetsystems.net/KAZZ?playSessionID=A5E1C01A-00C6-4170-88BB-DA68A7C7007E.
+Error opening input files: Connection timed out
+[AVFormatContext @ 0x583f4fd887c0] Invalid HLS ID3 audio timestamp 8664178176
+[AVFormatContext @ 0x591bcc1b0440] Invalid HLS ID3 audio timestamp 8665975296
+[AVFormatContext @ 0x633517d13800] Invalid HLS ID3 audio timestamp 8668670976
+[AVFormatContext @ 0x5fcd57880440] Invalid HLS ID3 audio timestamp 8670468096
+[in#0 @ 0x5f288b7e6cc0] Error opening input: Server returned 5XX Server Error reply
+Error opening input file https://fsu.leanstream.co/FS0101-MP3.
+Error opening input files: Server returned 5XX Server Error reply
+[AVFormatContext @ 0x5cd0cb3e3440] Invalid HLS ID3 audio timestamp 8673163776
+[hls @ 0x65071a40ff80] URL https://prod-98-93-169-65.amperwave.net/a/?lid=4f7d6a28-54e0-4df3-acd6-959de9af4f94&u=https%3A%2F%2Fd25j5qm9y8ulag.cloudfront.net%2Fc%2Fad%2Fa%2F883859dddfa2a84f4f7657d32b86118f_0.aac%3Fsid%3D9116 is not in allowed_segment_extensions, consider updating hls.c and submitting a patch to ffmpeg-devel, if this should be added
+[out#0/wav @ 0x65071a73e900] Output file does not contain any stream
+Error opening output file /tmp/tmpwjto1aqo.wav.
+Error opening output files: Invalid argument
+[AVFormatContext @ 0x5a2fbd747440] Invalid HLS ID3 audio timestamp 8676758016
+[tcp @ 0x5b5fcf5483c0] Connection to tcp://ice42.securenetsystems.net:80 failed: Connection timed out
+[in#0 @ 0x5b5fcf544cc0] Error opening input: Connection timed out
+Error opening input file http://ice42.securenetsystems.net/WTAWAM?playSessionID=DC41F2FE-9163-4286-96A5-797EDF019BA9.
+Error opening input files: Connection timed out
+[tcp @ 0x5f909b86c680] Connection to tcp://ice42.securenetsystems.net:443 failed: Connection timed out
+[in#0 @ 0x5f909b868cc0] Error opening input: Connection timed out
+Error opening input file https://ice42.securenetsystems.net/KXPZ?playSessionID=12B8AEEF-8D0D-4CB1-AE10-F9DC934A4268.
+Error opening input files: Connection timed out
+[tcp @ 0x648710c8a680] Connection to tcp://ice26.securenetsystems.net:443 failed: Connection timed out
+[in#0 @ 0x648710c86cc0] Error opening input: Connection timed out
+Error opening input file https://ice26.securenetsystems.net/KOZN?playSessionID=5947C46D-5EA3-420B-B28A-F223CC266E53.
+Error opening input files: Connection timed out
+[AVFormatContext @ 0x5719c536b440] Invalid HLS ID3 audio timestamp 8680352256
+[AVFormatContext @ 0x5d3d4871d440] Invalid HLS ID3 audio timestamp 8683047936
+[AVFormatContext @ 0x62d894150440] Invalid HLS ID3 audio timestamp 8683047936
+[https @ 0x57d848b43580] Stream ends prematurely at 0, should be 18446744073709551615
+[in#0 @ 0x57d848b42cc0] Error opening input: Input/output error
+Error opening input file https://apicdn.mixlr.com/v3/channel_me.
+Error opening input files: Input/output error
+[tcp @ 0x6367beafb680] Connection to tcp://ice23.securenetsystems.net:443 failed: Connection timed out
+[in#0 @ 0x6367beaf7cc0] Error opening input: Connection timed out
+Error opening input file https://ice23.securenetsystems.net/KLWNAM?playSessionID=E8AF1748-F486-4BA2-80D6-35EEA0FE8513.
+Error opening input files: Connection timed out
+[aac @ 0x5a2adb50f640] env_facs_q 254 is invalid
+[tcp @ 0x5a1291f99680] Connection to tcp://ice64.securenetsystems.net:443 failed: Connection timed out
+[in#0 @ 0x5a1291f95cc0] Error opening input: Connection timed out
+Error opening input file https://ice64.securenetsystems.net/WBYSAM?playSessionID=B3CFFD17-20D7-4E66-9B97-0FCAF4C22F2B.
+Error opening input files: Connection timed out
+[tcp @ 0x624a4c093680] Connection to tcp://ice41.securenetsystems.net:443 failed: Connection timed out
+[in#0 @ 0x624a4c08fcc0] Error opening input: Connection timed out
+Error opening input file https://ice41.securenetsystems.net/WELE?playSessionID=77CD7356-675D-46E2-932B-DDFDD1A59C0B.
+Error opening input files: Connection timed out
+[AVFormatContext @ 0x568c2c97d440] Invalid HLS ID3 audio timestamp 8697424896
+[AVFormatContext @ 0x6159bbd76440] Invalid HLS ID3 audio timestamp 8697424896
+[AVFormatContext @ 0x57376d7857c0] Invalid HLS ID3 audio timestamp 8700120576
+[AVFormatContext @ 0x5bef3bc4a7c0] Invalid HLS ID3 audio timestamp 8700120576
+[AVFormatContext @ 0x616b890ca440] Invalid HLS ID3 audio timestamp 8701917696
+[AVFormatContext @ 0x5ac5c899c440] Invalid HLS ID3 audio timestamp 8703714816
+[AVFormatContext @ 0x635251e0c440] Invalid HLS ID3 audio timestamp 8704613376
+[AVFormatContext @ 0x5ae5fc585440] Invalid HLS ID3 audio timestamp 8707309056
+[AVFormatContext @ 0x57d4b3357440] Invalid HLS ID3 audio timestamp 8709106176
+couldn't read what people are listening to: HTTP Error 404: Not Found
+people listened to 0 team stations in the last 2 hours: []
+50 more streams wait for the next run
+listening to 140 streams in 69 live games
+game       mbb  University of Connecticut      'The ATM&T Bank, the official bank of the Yukon Huskies, Visa is a registered trademark  of'
+quiet      mbb  University of Connecticut      'xm.com slash colors sports radio in 2026.'
+game       mbb  University of Connecticut      'The official bank of the Yukon Huskies, Visa is a registered trademark of Visa Internation'
+maybe_not  mbb  Gardner-Webb University        'He finished with seven points.  It is two of six.  From the field.  Again, the Wildcats.  '
+game       mbb  University of Texas at Austin  'in Austin with a score of the Texas Longworth 56 and the Chicago State Cougars 30.  Coming'
+game       mbb  University of Texas at Austin  'Illinois had their way with barely Dickinson. 125 to 45 the final score from Champagne. Nu'
+quiet      mbb  University of Texas at Austin  'in Austin with a score of the Texas Long'
+game       mbb  University of Houston          'right side line Moss bounce pass leads  Zonky too far but it bounces to  Burton to the rig'
+maybe_not  mbb  University of Houston          'Initially purchased for, Hello Sunshine will now focus primarily on film and TV projects  '
+maybe_not  mbb  University of Houston          "on film and TV projects and Reese's book club brand.  In SpaceX president, Gwen Shotwell s"
+quiet      mbb  La Salle University            ''
+game       mbb  University of Louisville       'The broadcast is an exclusive presentation of Learfield, under the broadcasting rights gra'
+game       mbb  University of Louisville       'This copyrighted broadcast is an exclusive presentation of Learfield, under the broadcasti'
+game       mbb  University of Louisville       'This copyrighted broadcast is an exclusive presentation of Learfield, under the broadcasti'
+game       mbb  University of Tennessee at Cha 'just over a minute to play in the first hand.  Two TC basketball.  The down white has cont'
+game       mbb  Brigham Young University       "But the Cubs only have two points off the five previous.  We're preceding Buckeye turnover"
+game       mbb  Brigham Young University       'see Bruce Branch maybe trying to get him to paint from the point guard position.  I get Co'
+game       mbb  Brigham Young University       'But the Cougs only have two points off the five previous or preceding Buckeye turnovers lo'
+maybe_not  mbb  Ohio State University          'the  class.  The future is bright for  Bruce Branch.  26-22.  The fans have been  relative'
+game       mbb  Ohio State University          'lead all scores 28 26 and the 25th ranked team at the start of the season is  back within '
+game       mbb  Ohio State University          "That's when you're the garden you're thinking. Yeah, it's probably my fault  But nanny sho"
+game       mbb  East Texas A&M University      'Texas A&M in a season opener against the sooners of the University of Oklahoma.  And if I '
+game       mbb  East Texas A&M University      'day night at 7 on 88 9 K E T R.  Top plane from the BBC.  The rest of your operation is st'
+quiet      mbb  Jacksonville State University  'So we call the T put one on each guy.'
+game       mbb  University of Mississippi      'three off the left wing off the  back-round no rebound taken by  Felton and here comes the'
+maybe_not  mbb  University of Mississippi      "Good court Adam Tockeba.  Jay-In Walker.  First time we're seeing Jay-In Crane,  6-1 fresh"
+quiet      mbb  Alabama A&M University         ''
+quiet      mbb  Alabama A&M University         ''
+quiet      mbb  Alabama A&M University         ''
+quiet      mbb  University of Texas Rio Grande ''
+game       mbb  Lamar University               'Going around at the free throw line up, dubbing down low.  Good job there.  By Hyman, the '
+maybe_not  mbb  Lamar University               "Dominik Easton with the tip and he's in double figures with 10 61 30 23 || for a big God. "
+game       mbb  Lamar University               'coming down low. Good job there by  Hyman the fine.  Nitto for.  For the Shriner bucket.  '
+game       mbb  University of Central Arkansas "away from his career high 28 and he'll have two free throws here with 11.53 to go.  First "
+blocked    mbb  Washington State University    "location services on your device and try again. We're sorry, due to content  restrictions,"
+blocked    mbb  Washington State University    "again. We're sorry, due to content restrictions, this stream is not available in your area"
+game       mbb  University of New Mexico       'The excitement of real fans watching the biggest season yet.  This is better than the stad'
+game       mbb  University of New Mexico       'excitement of real fans watching the biggest season yet. This is better than the  stadium.'
+game       mbb  University of New Mexico       "Fans watching the biggest season yet, this is better than the stadium.  It's how game day "
+game       mbb  University of Utah             'Utah basketball trails 40 to 28 at the half against Long Beach State right now'
+game       mbb  Oklahoma State University      "Where Cowboys keep bargaining.  Hey! What kind of number 17?  Uh, I don't think he can hea"
+game       mbb  University of Minnesota        "Some of these should be interesting.  Norstick Coda State last year's champion.  Pick firs"
+maybe_not  mbb  University of Minnesota        'over the fourth. Boy, the offense looked really good, right? We started to make some shots'
+game       mbb  University of Minnesota        'Winkle gives it in with a basketball now is in copier is up front to Jones back to  him co'
+quiet      mbb  University of North Dakota     ''
+quiet      mbb  University of North Dakota     ''
+quiet      mbb  University of North Dakota     '7 minutes'
+game       mbb  Grand Canyon University        "Welcome to the Loeb's halftime show presented by Dignity Health.  With highlights, intervi"
+quiet      mbb  Texas Southern University      ''
+game       mbb  University of Colorado Boulder "I think I mentioned this already, but we'll say it again.  Memphis is upset Iowa State in "
+game       mbb  University of Colorado Boulder 'The 76th tonight.  Texas Tech is front final meeting.  Jackson State 76 to 42.  West Virgi'
+maybe_not  mbb  University of Colorado Boulder 'the bottom way through that first half 32 11 over Northwestern State again later on tonigh'
+game       mbb  Abilene Christian University   '31 to 21 then it was 33 24 before this Court 10 at a row and then in transition  Darringto'
+quiet      mbb  Abilene Christian University   ''
+quiet      mbb  Abilene Christian University   ''
+game       mbb  University of North Texas      'to come away with it. His pass intended for Jenkins in the quarter, not got a balance by  '
+maybe_not  mbb  University of North Texas      'puts it on the deck, picked it up.  Archie comes over to get it in front of the bench.  Sh'
+maybe_not  mbb  University of North Texas      'figure may have seen the last  of broad carding tonight. Thomas  makes them both. Ninety o'
+game       mbb  Florida A&M University         'on our 96.1 app.  And on Alexa,  get along the 96.1 Jams app today  and listen to us live '
+game       mbb  Florida A&M University         'on our 96.1 app.  And on Alexa,  get along the 96.1 Jams app today  and listen to us live '
+game       mbb  Florida A&M University         'on our 96.1 app.  And on Alexa,  get along the 96.1 Jams app today  and listen to us live '
+game       mbb  Florida State University       "back out to Duar in the corner now.  Top three on the way.  That's good.  I can it down.  "
+quiet      mbb  Florida State University       ''
+game       mbb  Oregon State University        '9.28 to go in the first half of the 2627 season opener.  The beavers leading at Weber Stat'
+game       mbb  Oregon State University        'credit union that was born a beaver just like you.  Open an account online at Oregon State'
+game       mbb  Oregon State University        'If you can think of it, we can build it.  Visit infinityimages.com to learn more.  Infinit'
+maybe_not  mbb  Weber State University         "you know what's worse than a Utah  winner finding out your  furnace quit in the middle of "
+maybe_not  mbb  University of Northern Colorad 'For example, a man H-45 non-smoker can get $1 million of coverage for $75 per month,  leve'
+game       mbb  Utah State University          'Yeah, we rock hard the same club.  All right, Morris again, the ball handler for Idaho Sta'
+game       mbb  Utah State University          "That's tonight is the Aggies lead to 22 16.  Al Lewis in again for Scott Girard.  If you'r"
+game       mbb  Idaho State University         'So Quinn Patterson free throw rattles in and out not good and  The bingles miss an opportu'
+game       mbb  Idaho State University         'And the bingles miss an opportunity to score and cut into that six point Aggie lead.  Here'
+maybe_not  mbb  Baylor University              'golf balls gearing up for another season at Foster Pavilion, and the schedule is loaded  w'
+game       mbb  Baylor University              'And more of the moment, food deserves Pepsi. Grab a Pepsi Zero Sugar today.  Tip off is co'
+game       mbb  Northwestern State University  'and to the free throw line, the bears go. 35, 17 hour score, demons trailing, just every t'
+maybe_not  wbb  University of Missouri         "Fun safe? Think again. Fencing is taking the nation by storm and it's a safe, fun engaging"
+maybe_not  wbb  University of Missouri         "safe, think again. Fencing is taking the nation by storm and it's a safe, fun  engaging sp"
+game       wbb  Middle Tennessee State Univers 'answered out.  Bogus Burles, Kone, with field.  Bogus, St. Louis inbounding underneath his'
+maybe_not  wbb  Saint Louis University         "and hit you and shot right there.  There we go, smooth that out, KT.  Yep.  As he's, as he"
+quiet      wbb  University of North Dakota     ''
+quiet      wbb  University of North Dakota     ''
+quiet      wbb  University of North Dakota     ''
+game       wbb  South Dakota State University  "It's a buzzer beater as the horn sound 73 71 Creighton.  A victory here to open up the sea"
+maybe_not  wbb  South Dakota State University  "Call to make an appointment ready for the Case IH Red Zone recap, whether it's on the cour"
+quiet      wbb  United States Air Force Academ 'and great benefits.'
+quiet      wbb  United States Air Force Academ 'MargousSolutions.net'
+quiet      wbb  United States Air Force Academ 'For more information, go to www.margibsolutions.net.'
+maybe_not  wbb  University of Denver           'in a car accident or property damage you need our help. I handle all my cases personally. '
+game       wbb  University of South Dakota     'the left side corner with  downs this time dribbles in  fires a shot from the pain  dances'
+game       wbb  University of Wyoming          'to Johnson on the baseline.  Fumbled it back out.  Blackwell fakes a shot.  Drives middle.'
+game       wbb  University of Wyoming          'the first half and then with 30 seconds to go till halftime, Sam Darnold is  Seattle with '
+maybe_not  wbb  University of Texas at El Paso 'Visit one of our seven locations in El Paso and Las Cruces locally owned since 1945.  Do n'
+maybe_not  wbb  University of Texas at El Paso 'Visit one of our seven locations in El Paso and Las Cruces locally owned since 1945.  Do n'
+maybe_not  wbb  San Diego State University     "improve overall health and wellness, celebrate Earth Day, and take advantage of nature's  "
+game       wbb  Gonzaga University             'your next ride at Dave Smith dot com. Dave Smith,  Motors and Kellogg Idaho proud support '
+maybe_not  wbb  Gonzaga University             'Train is helping the cleft lip and palate community at smiletrain.org-learn.  Smile Train.'
+maybe_not  wbb  Gonzaga University             'countries. Patients, doctors, advocates, fundraisers. Collectively, our smiles are a  cele'
+maybe_not  wbb  North Dakota State University  'And a loss as well for St. Thomas on the road at Northern Iowa.  Northern Iowa gets the wi'
+maybe_not  wbb  University of the Pacific      'a wide receiver Kendrick Bourne is out for the year with a broken leg.  Busy night in the '
+game       wbb  University of the Pacific      'The Kago playing at Seattle tonight and the Bears are in the lead 13-9.  It was 13-3 in la'
+maybe_not  wbb  University of the Pacific      'the year with a broken leg.  Busy night in the NBA, Oklahoma City is one at Cleveland 117 '
+maybe_not  wbb  Rice University                "It's been another field goal trout for Houston Christian. They have not made a shot from t"
+quiet      wbb  Houston Christian University   'be turned alive, bound in his sacrifice for their sins.'
+quiet      mbb  Fordham University             ''
+quiet      mbb  Fordham University             ''
+quiet      mbb  Fordham University             ''
 quiet      mbb  University of South Florida    ''
 quiet      mbb  University of South Florida    ''
-game       mbb  University of Southern Mississ 'the ball is returned to action and  do they miss a shot? Get a rebound  and get a lay up s'
-game       mbb  North Dakota State University  '39-31. Andrew Degy out top. Diaz, good shopping to get Washington in the air on the right '
-game       mbb  North Dakota State University  'to turn her around a Whitaker screen.  Over the right now for Smith.  Fakes a hand-off wit'
-game       mbb  Tarleton State University      "right wing pulls it back out and out, loses his dribble,  he'll give it over.  There's Kei"
-game       mbb  Tarleton State University      "That's cornering the catch by Keisha on shield.  We're on the jab step, giving back on top"
-game       mbb  Tarleton State University      'Kishon Shield works on the Jaff step, give it back on top Xavier Harris.  Give it to Kelom'
-quiet      mbb  University of Texas at Arlingt "That's an average basketball game, is..."
-quiet      mbb  Western Illinois University    ''
-maybe_not  mbb  Bradley University             "John Appley and that's he.  That he's a he'll legend one of two to ever lead the nation in"
-game       mbb  Bradley University             "That he's a he'll legend one of two to ever lead the nation in  Hitting here comes Richard"
-game       mbb  Bradley University             'the new legend. One of two to ever lead the nation in hitting. Here comes Richardson with '
-quiet      mbb  Norfolk State University       "Number 7  Don't talk to shit  Show"
-quiet      mbb  Norfolk State University       'Mm-hmm.  Yeah.'
-game       mbb  University of Tulsa            'up front to Willis. Willis backing up on the dribble. Now he picks up his dribble and  Rig'
-quiet      mbb  University of Tulsa            ''
-maybe_not  mbb  Texas State University         'Taking away and here comes Texas State.  Cating gums in transitional dribble of back out. '
-game       mbb  Texas State University         'Going a bit quieter than in the first half  No point in the last four and a half minutes a'
-quiet      mbb  Bryant University              ''
-game       mbb  Siena University               "things so I'll go on deviation and maybe on the Brian side because we know  CNN is going t"
-maybe_not  mbb  Bethune-Cookman University     "to go maybe I thought the bar kind of played a little better than they did but you can't  "
-maybe_not  mbb  Furman University              "share data across any of the three networks, there's more coverage than any single carrier"
-maybe_not  mbb  Furman University              "that lets you share data across any of the three networks,  there's more coverage than any"
-maybe_not  mbb  Furman University              "share data across any of the three networks, there's more coverage than any single carrier"
-game       mbb  Southern Illinois University   "We got to be careful. We got to watch what they're doing defensively.  They don't get gass"
-game       mbb  Southern Illinois University   "a nice job on that offensive end. I think we got to be careful. We got to watch what they'"
-game       mbb  Northwestern University        "it over the Kaiser along the left-wing side, Hoxo.  You'll send a pass to Nazar at the Ava"
-game       mbb  Northwestern University        "it over the Kaiser along the left-wing side, Hoxo.  You'll send a pass to Nazar at the Ava"
-game       mbb  Northwestern University        'challenge that Marty Natures thought that he scored but the black  hocks throw the red fla'
-game       mbb  Binghamton University          'at ongoing series for several years, two of which will occur this year,  writer and say, P'
-game       mbb  Binghamton University          "There's Wes.  So for first half for Northwestern,  crossover's step down back at O'Come,  "
-maybe_not  mbb  Utah Valley University         'Jordy Barnes gonna pick up the foul because he clipped him on the wrist just should not ha'
-game       mbb  Texas Christian University     'It all adds up to a 57 to 37 lead for the Hornfrogs.  Their largest lead of the ball game '
-quiet      mbb  Texas Christian University     ''
-quiet      mbb  Texas Christian University     '192.5.'
-quiet      mbb  Lindenwood University          "It's gonna be..."
-game       mbb  Tulane University              'to a competitive advantage.  FOGO Solutions, your business, built better.  Visit FOGOSolut'
-game       mbb  Tulane University              'Mr. Wade, TJ Naidu is on the floor here to start things off.  So, a ye in place of Josiah '
-game       mbb  Tulane University              'Mr. Wade, TJ Naidu is on the floor here to start things off.  So, a ye in place of Josiah '
-quiet      mbb  University of Tennessee at Mar ''
-game       mbb  Southern Methodist University  'on two of six shooting miss both three attempts in that first half.  It did have three ass'
-maybe_not  mbb  Southern Methodist University  "But didn't deliver any business results.  LinkedIn is a name for that.  Bull spend.  Cut t"
-maybe_not  mbb  Southern Methodist University  'Real business results.  Choose LinkedIn ads and get the highest row ads for all major ad n'
-game       mbb  University of California, Berk '56 to 28. Yeah, Sammy and A really took over the first part of that first half for the  be'
-maybe_not  mbb  University of California, Berk "experience. Greg O'Donnell and his expert team are here to help you turn financial uncerta"
-maybe_not  mbb  University of California, Berk "experience. Greg O'Donnell and his expert team are here to help you turn financial uncerta"
-game       mbb  Austin Peay State University   "Floyd up the right wing, not there.  He'll wait for Marshall to screen through.  Now kicks"
-game       mbb  Austin Peay State University   "Felipe Menser inside the shot back over to huge he'll launch for three left wing rattles d"
-maybe_not  mbb  University of Portland         'of mechanic. Our job is to get you going again. So you can get back to life. Join us at  t'
-maybe_not  mbb  Saint Louis University         'will be awarded in June 2027 to the winning institutions in all college sports divisions. '
-game       mbb  Saint Louis University         'defense from the Billican St. Louis.  Kellent Thames leads the way with 11.  Alon McAiley '
-maybe_not  mbb  Saint Louis University         "and follow the year-long standings of your favorite team at Elle Director's Cup on the X p"
-maybe_not  mbb  Lehigh University              'real business results. Choose LinkedIn ads and get the highest  roas for all major ad netw'
-game       mbb  Loyola University Chicago      'turn over five for the Ramblers nine for the Bulldogs.  6-1 second chance points, 5-0 poin'
-game       mbb  The Citadel                    'three seconds to shoot and will maintain possession of the basketball here.  Gonna be grud'
-game       mbb  University of South Alabama    "basketball program, they lead 69 52 over the Golden Wholash's of Kent State 655 to go  wit"
-maybe_not  mbb  University of South Alabama    "the system can be confusing and the benefits you're entitled to aren't always easy to get."
-maybe_not  mbb  University of South Alabama    "the system can be confusing and the benefits you're entitled to aren't always easy to get."
-game       mbb  Ohio University                'stretch out the zone near side  the Augustino.  Tyler gets it back up top have  less you k'
-game       mbb  Arkansas State University      "three of five from distance.  It's nine points and a game high four assists.  No turnovers"
-maybe_not  mbb  Arkansas State University      "by Mr. T's at Riverside as we took a look at the first half team totals just a  moment ago"
-maybe_not  mbb  University of Toledo           'We do breakthrough treatments and innovative procedures to do life-saving kidney transplan'
-maybe_not  mbb  University of Toledo           'to go the distance, to do breakthrough treatments and innovative procedures, to do life-sa'
-game       mbb  University of Toledo           'in the rain surviving Georgia Tech 76 to 73.  Our score at the break.  It is Arkansas Stat'
-game       mbb  University of Louisiana at Laf '20 minutes of basketball left.  Macaron in control as we get ready to start the second hal'
-quiet      mbb  University of Louisiana at Laf ''
-game       mbb  University of Louisiana at Laf 'next with you. 877-99 on Fox. It is the odd couple Fox Sports radio. By the way, from tip '
-game       mbb  University of Akron            'Volgles out of bounds just Akron ball Wow  Akron keeps possession despite the contact  Coo'
-game       mbb  University of Akron            '17-10 to play in the ballgame.  Hammer and halogen about to come back with these zips.  Ke'
-game       mbb  University of Akron            'Wow.  Akron keeps the vet in his bike the contact.  Cooper back for the cage in his.  Whit'
-game       mbb  Wake Forest University         "the city would and he has.  It'll be Eastern shores ball to start the second half.  Wake i"
-quiet      mbb  Wake Forest University         ''
-game       mbb  DePaul University              'is Dixon.  Musen, looking for a straight line drive and stay cut off by Lula, so get it ba'
-quiet      mbb  University of West Georgia     'Any question?  Will anybody stay?  So many nights and tears are...'
-{'maybe_not': 39, 'game': 66, 'quiet': 30, 'no_audio': 5}
+game       mbb  Tarleton State University      'up tempo. We just got to play a little bit smarter. You know, I thought we left some point'
+maybe_not  mbb  Tarleton State University      "It's fun to watch.  It's really fun.  No.  This is the radio show.  I don't know if they s"
+maybe_not  mbb  Tarleton State University      "It's fun to watch.  It's really fun.  No.  This is the radio show.  I don't know if they s"
+quiet      mbb  Norfolk State University       "I came to some food and it's time to do that"
+quiet      mbb  Norfolk State University       ''
+game       mbb  University of Tulsa            'certainly coming up on Thursday when northern Illinois comes into town and they will take '
+maybe_not  mbb  University of Tulsa            'Just barely throwing up friends like hell marries if you still there  Lost by me. Oh my go'
+game       mbb  Texas State University         'double digits for most of the  first half. I want to press  where you with your team in th'
+maybe_not  mbb  Texas State University         "And field tonight, who is two or four at the stripe, and we'll shoot two here. || chemistr"
+maybe_not  mbb  Bryant University              "I ain't ever seen it get crazy on it gotta chip them on quits a crush  I won't furs, even "
+maybe_not  mbb  Siena University               'Because you use one to review the code. Exactly and you and you all inside of two minutes '
+quiet      mbb  Furman University              'It is election now.'
+not_game   mbb  Furman University              'and you may even have type 2 diabetes, a million dollars of term insurance may only cost y'
+{'game': 55, 'quiet': 30, 'maybe_not': 33, 'no_audio': 19, 'blocked': 2, 'not_game': 1}
