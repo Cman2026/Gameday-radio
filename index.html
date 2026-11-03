@@ -478,6 +478,7 @@ h1 span{color:inherit}
 #syncHeard.hint{border-color:var(--accent);color:var(--accent)}
 .deck.idle .syncpick,.deck.min .syncpick{display:none!important}
 .syncbtns{display:inline-flex;gap:6px;flex:none;white-space:nowrap}
+.card .lpct{font:600 16px var(--num);color:var(--muted);min-width:38px;text-align:right;font-variant-numeric:tabular-nums}
 </style>
 </head>
 <body>
@@ -1525,8 +1526,12 @@ function syncOnAir(){ for(const c of document.querySelectorAll("#list .card")){ 
 function card(e, why){
   const c = e.competitions[0], a = team(c,"away"), h = team(c,"home"), st = e.status.type;
   const showScore = st.state!=="pre";
-  const row = t => `<div class="row"><span class="tm"><button class="fav ${favs.has(t.team.location)?"on":""}" data-fav="${esc(t.team.location)}" aria-label="${favs.has(t.team.location)?"Remove":"Add"} ${esc(t.team.location)} ${favs.has(t.team.location)?"from":"to"} saved teams">${favs.has(t.team.location)?'<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>':'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>'}</button>${logoImg(t.team)}<span>${t.curatedRank?.current<26?`<small>${t.curatedRank.current}</small> `:""}${esc(nameOf(t.team))}</span></span><span class="right">${ear(t.team.location, "")}<span class="sc">${showScore?t.score:""}</span></span></div>`;
-  return `<div class="card${onAir(e)?" onair":""}" role="button" tabindex="0" data-id="${e.id}" aria-current="${e.id===selected && boardOpen}" aria-expanded="${e.id===selected && boardOpen}">${row(a)}${row(h)}
+  // Live win probability (ESPN's model, on the scoreboard for football and basketball), shown like upcoming games' odds.
+  const prob = st.state==="in" ? c.situation?.lastPlay?.probability : null, hw = prob?.homeWinPercentage;
+  const pctOf = t => { if(hw==null) return ""; const v = hw*100; const hv = v < 1 ? 0 : v > 99 ? 100 : Math.round(v), x = t.homeAway==="home" ? hv : 100 - hv;
+    return x === 0 ? "<1%" : x === 100 ? ">99%" : x + "%"; };
+  const row = t => `<div class="row"><span class="tm"><button class="fav ${favs.has(t.team.location)?"on":""}" data-fav="${esc(t.team.location)}" aria-label="${favs.has(t.team.location)?"Remove":"Add"} ${esc(t.team.location)} ${favs.has(t.team.location)?"from":"to"} saved teams">${favs.has(t.team.location)?'<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>':'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>'}</button>${logoImg(t.team)}<span>${t.curatedRank?.current<26?`<small>${t.curatedRank.current}</small> `:""}${esc(nameOf(t.team))}</span></span><span class="right">${hw!=null?`<span class="lpct">${pctOf(t)}</span>`:""}${ear(t.team.location, "")}<span class="sc">${showScore?t.score:""}</span></span></div>`;
+  return `<div class="card${onAir(e)?" onair":""}" role="button" tabindex="0" data-id="${e.id}" aria-current="${e.id===selected && boardOpen}" aria-expanded="${e.id===selected && boardOpen}">${row(a)}${row(h)}${hw!=null ? (([ca, ch])=>`<div class="wpbar" aria-label="Win probability: ${esc(a.team.abbreviation)} ${pctOf(a)}, ${esc(h.team.abbreviation)} ${pctOf(h)}"><span style="width:${((1-hw)*100).toFixed(1)}%;background:${ca}"></span><span style="width:${(hw*100).toFixed(1)}%;background:${ch}"></span></div>`)(barColors(a, h)) : ""}
   <div class="meta"><span class="${st.state==="in"?"live":""}">${st.state==="pre"?fmtTime(e.date):statusText(e).short}</span><span>${why ? `<span class="why">${esc(why)}</span>` : ""}${esc((c.broadcasts||[]).flatMap(b=>b.names).join(", "))}<span class="div">${e._div||""}</span><svg class="gchev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>${soonNote(e)}</div>`;
 }
 
