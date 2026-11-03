@@ -717,6 +717,10 @@ const oddsKey = n => (n||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toL
 async function loadOdds(){
   try{ const d = await getJSON("odds.json?t=" + Math.floor(Date.now()/600000)); ODDS = d.games || []; render(); }catch(e){}
 }
+// Basketball win streaks (team id -> games won in a row), saved once a day by a background job.
+let STREAKS = {};
+async function loadStreaks(){ try{ STREAKS = await getJSON("streaks.json?t=" + Math.floor(Date.now()/3600000)); render(); }catch(e){} }
+const streakOf = t => (SPORT.court && STREAKS[SPORT.id]?.[String(t.id)]) || 0;
 function oddsFor(e){
   const c = e.competitions[0], h = team(c,"home").team, a = team(c,"away").team, t0 = Date.parse(e.date);
   const H = oddsKey(h.displayName), A = oddsKey(a.displayName);
@@ -744,6 +748,7 @@ async function refreshDirectory(){
 async function loadDirectory(){
   await loadLive(); setInterval(loadLive, 10*60*1000);
   loadOdds(); setInterval(loadOdds, 15*60*1000);
+  loadStreaks(); setInterval(loadStreaks, 60*60*1000);
   try{
     try{ playback = await getJSON("playback.json?t=" + Math.floor(Date.now()/300000)); }catch(e){}
     const d = await getJSON("radio.json?t=" + Math.floor(Date.now()/120000));
@@ -1143,7 +1148,9 @@ function render(){
 function liveSection(shown, q){
   const both = e => e.competitions[0].competitors.every(t=>t.curatedRank?.current && t.curatedRank.current < 26);
   const grouped = !q && ["all","T25"].includes(divFilter) && shown.length > 4;
-  const best = grouped ? shown.filter(e=>crunch(e) || both(e)).slice(0, 3) : [];
+  const hot = e => e.competitions[0].competitors.some(t=>streakOf(t.team) >= 6);
+  const tier = e => crunch(e) ? 0 : both(e) ? 1 : hot(e) ? 2 : 9;
+  const best = grouped ? shown.filter(e=>tier(e) < 9).sort((x, y)=>tier(x)-tier(y)).slice(0, 3) : [];
   const why = e => crunch(e) ? (isTop25(e) ? "Top 25 · Close" : "Close finish") : "Ranked matchup";
   const rest = shown.filter(e=>!best.includes(e));
   const groups = new Map();

@@ -1,0 +1,15 @@
+name: Basketball win streaks
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 10 * * *"   # every morning, about 5-6 AM Eastern, after the night's games are final
+permissions:
+  contents: write
+concurrency: streaks
+jobs:
+  streaks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: python tools/streaks.py
+      - run: tools/publish.sh "Basketball win streaks" streaks.json
