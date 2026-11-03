@@ -15,33 +15,22 @@ No user sessions are running outdated binaries.
 
 No VM guests are running outdated hypervisor (qemu) binaries on this host.
 allaccess error https://uclabruins.com HTTP Error 404: Not Found
-allaccess error https://byucougars.com HTTP Error 404: Not Found
-allaccess error https://wsucougars.com HTTP Error 404: Not Found
-allaccess error https://golobos.com HTTP Error 404: Not Found
 allaccess error https://thesundevils.com HTTP Error 404: Not Found
 allaccess error https://gocolgateraiders.com <urlopen error [Errno 104] Connection reset by peer>
 allaccess error https://gostanford.com HTTP Error 404: Not Found
-allaccess error https://goaztecs.com HTTP Error 404: Not Found
-official feeds added for: University of Connecticut (mbb), University of Houston (mbb), University of Louisville (mbb), University of Tennessee at Chattanooga (mbb), Ohio State University (mbb), Tulane University (mbb), University of Mississippi (mbb), Oklahoma State University (mbb), University of Minnesota (mbb), University of Colorado Boulder (mbb), Abilene Christian University (mbb), University of North Texas (mbb), Florida State University (mbb), Oregon State University (mbb), Utah State University (mbb), Baylor University (mbb), Colorado State University (mbb), Montana State University (mbb), University of Idaho (mbb), University of Oregon (mbb), University of Montana (mbb), University of Washington (mbb), Illinois State University (mbb), University of California, Davis (mbb), University of Southern California (mbb), University of Wisconsin-Milwaukee (mbb), Gonzaga University (wbb), North Dakota State University (wbb), Rice University (wbb)
-La Salle University mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/dPKDCwvL.m3u8']
-Grand Canyon University mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/rPngYlPS.m3u8']
+allaccess error https://wsucougars.com HTTP Error 404: Not Found
+official feeds added for: University of Southern California (mbb), University of Wisconsin-Milwaukee (mbb), Baylor University (mbb), Colorado State University (mbb), Montana State University (mbb), University of Idaho (mbb), University of Oregon (mbb), University of Montana (mbb), University of Washington (mbb), Illinois State University (mbb), University of California, Davis (mbb)
 allaccess error https://goseattleu.com HTTP Error 404: Not Found
 University of Portland wbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/gHGkMnnD.m3u8']
-Chicago State University mbb -> []
-Davidson College mbb -> []
-Davidson College mbb -> []
-California State University, Long Beach mbb -> []
-University of the Incarnate Word mbb -> []
-University of San Diego mbb -> []
 University of California, Riverside mbb -> []
 Santa Clara University mbb -> []
 Saint Mary's College of California mbb -> []
 Robert Morris University mbb -> []
 Robert Morris University mbb -> []
 California Polytechnic State University mbb -> []
-California State University, Fullerton wbb -> []
+Seattle University mbb -> []
 Portland State University wbb -> []
 Pepperdine University wbb -> []
 Pepperdine University wbb -> []
 Loyola Marymount University wbb -> []
-other SIDEARM sport names seen: fb, football, general, mbball, mhockey, wbb, wbball, wrestling, wsoc, wvball
+other SIDEARM sport names seen: football, general, mbball, wbball
