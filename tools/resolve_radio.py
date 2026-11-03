@@ -234,8 +234,12 @@ def resolve(team):
     tried, good = [], []
     # Fast path: if the stream we found last time still plays and the station hasn't changed, keep it.
     old = PREV.get(team.get("school"), {})
-    if old.get("streams") and old.get("calls") == team.get("calls"):
-        for u in old["streams"]:
+    # Yesterday's school game feed isn't a station stream (it's dropped once stale), and a stream
+    # newly added to radio-sources.json must get tested, so neither may take the fast path.
+    remembered = [u for u in old.get("streams") or [] if u not in (old.get("game_feeds") or [])]
+    new_given = [u for u in team.get("streams") or [] if u not in remembered]
+    if remembered and old.get("calls") == team.get("calls") and not new_given:
+        for u in remembered:
             # A junk URL (news clip, on-demand file, tracking beacon) can "play" for the probe forever; don't keep it.
             if is_bad(team.get("school", ""), u, SOURCES) or JUNK.search(u):
                 continue
