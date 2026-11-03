@@ -1295,7 +1295,7 @@ const hotStreak = e => e.competitions[0].competitors.some(t=>streakOf(t.team) >=
      Rivalry ............................................. 20
      Close in the second half (within one score) ......... 10
      Unbeaten late in the season ......................... 15
-     Win streak 6+ (basketball) .......................... 10   (+5 at 10+)
+     Win streak 6+ (basketball) .......................... 10   (+2 per extra win, up to 25)
      One Top 25 team ...................................... 5   (+5 if top 10) */
 const FEAT_IN = 40, FEAT_FIFTH = 60, FEAT_MAX = 5, FEAT_USUAL = 4;
 function featureScore(e){
@@ -1311,7 +1311,8 @@ function featureScore(e){
   if(upset(e)){ const trail = cs.find(t=>rankedT(t)); pts += 25 + (trail && rk(trail) <= 10 ? 10 : 0); }
   if(rivalry(e)) pts += 20;
   if(unbeaten(e)) pts += 15;
-  const st = Math.max(...cs.map(t=>streakOf(t.team))); if(st >= 6) pts += 10 + (st >= 10 ? 5 : 0);
+  // Longer streaks count more: 6 wins = 10, +2 per extra win, up to 25 (a 14-game streak).
+  const st = Math.max(...cs.map(t=>streakOf(t.team))); if(st >= 6) pts += Math.min(25, 10 + 2*(st - 6));
   return pts;
 }
 // The featured games for each sport, kept on this device for the day so a refresh doesn't reshuffle them.
