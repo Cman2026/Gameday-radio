@@ -878,6 +878,8 @@ const favs = new Set((()=>{try{return JSON.parse(store.get("favs")||"[]")}catch(
 function saveFavs(){ store.set("favs", JSON.stringify([...favs])); }
 const isFavGame = e => e.competitions[0].competitors.some(t=>favs.has(t.team.location));
 const isTop25 = e => e.competitions[0].competitors.some(t=>t.curatedRank?.current && t.curatedRank.current < 26);
+// Ranked games still to come this week (the same window as the day tabs), soonest first.
+const upcomingTop25 = () => events.filter(e=>e.status.type.state==="pre" && new Date(e.date) - Date.now() < 8*864e5 && isTop25(e)).sort((a,b)=>new Date(a.date)-new Date(b.date));
 /* Live list order: close games near the end first, then games with a Top 25 team, then the rest
    (each group by start time). A game only moves when it crosses one of these lines. */
 function crunch(e){
@@ -912,10 +914,10 @@ function renderChips(pool, live){
   let confs = [...new Set(pool.map(groupConf))].sort((x, y)=> (major(y)-major(x)) || (major(x) ? 0 : liveIn(y)-liveIn(x)) || byConf(x, y));
   if(confs.length===1 && /^Other/.test(confs[0])) confs = [];
   if(divFilter.startsWith("c:")) divFilter = "all"; // conference chips were removed; conferences are the bars below
-  // Top 25 picked in another sport (or another day) but this list has no ranked games: the chip isn't shown, so fall back to All.
+  // Top 25 carried over from another sport or day, but this day has no ranked games: fall back to All.
   if(divFilter==="T25" && pool.length && !pool.some(isTop25)) divFilter = "all";
   const chip = (div, label, count, aria) => `<button class="chip" data-div="${esc(div)}" aria-pressed="${divFilter===div}"${aria?` aria-label="${aria}"`:""}>${esc(label)}<span class="n">${count}</span></button>`;
-  const html = chip("all", "All", String(base.length||"")) + (pool.some(isTop25) ? chip("T25", "Top 25", n(isTop25)) : "") + chip("fav", "★ Saved", n(isFavGame), "Saved teams")
+  const html = chip("all", "All", String(base.length||"")) + (pool.some(isTop25) || (!live.length && upcomingTop25().length) ? chip("T25", "Top 25", n(isTop25)) : "") + chip("fav", "★ Saved", n(isFavGame), "Saved teams")
 ;
   const box = $("#chips"); if(box.dataset.html !== html){ const x = box.scrollLeft; box.innerHTML = html; box.dataset.html = html; box.scrollLeft = x; }
 }
@@ -2435,7 +2437,10 @@ document.addEventListener("click", ev=>{
   ev.stopPropagation(); const loc = f.dataset.fav;
   favs.has(loc) ? favs.delete(loc) : favs.add(loc); saveFavs(); render();
 }, true);
-$("#chips").addEventListener("click", ev=>{ const c = ev.target.closest(".chip[data-div]"); if(!c) return; divFilter = c.dataset.div; store.set("div", divFilter); render(); });
+$("#chips").addEventListener("click", ev=>{ const c = ev.target.closest(".chip[data-div]"); if(!c) return; divFilter = c.dataset.div; store.set("div", divFilter);
+  // Top 25 on a day with no ranked games (a MAC Tuesday in football): open the next day that has some.
+  if(divFilter==="T25" && upDay!=="all"){ const r = upcomingTop25(); if(r.length && !r.some(e=>new Date(e.date).toDateString()===upDay)) upDay = new Date(r[0].date).toDateString(); }
+  render(); });
 $("#q").addEventListener("input", e=>{ query = e.target.value; render(); });
 function setDeckMin(on){
   const d = document.querySelector(".deck"), b = $("#deckMin");
