@@ -448,6 +448,25 @@ h1 span{color:inherit}
   .wrap,.foot,.deck-in{max-width:1360px}
   .grid{grid-template-columns:minmax(0,440px) minmax(0,1fr);gap:32px}
 }
+
+/* Game list: one scrolling row of filter chips (All, Top 25, Saved, then conferences) and the same
+   sections in every sport: Best right now, Live, Up next, Final. */
+.chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:2px;background:none;border:0;border-radius:0;-webkit-overflow-scrolling:touch}
+.chips::-webkit-scrollbar{display:none}
+.chips .chip{flex:none;height:36px;padding:0 14px;border:1px solid var(--line-2);border-radius:999px;background:var(--surface);color:var(--text);font-weight:600;box-shadow:none}
+.chips .chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);box-shadow:none}
+.chips .chip[aria-pressed="true"] .n{color:var(--accent-ink);opacity:.8}
+.sect.big{font:700 22px/1.1 var(--num);color:var(--text);margin:22px 4px 8px;padding-top:16px;border-top:1px solid var(--line);display:flex;align-items:baseline;justify-content:space-between;gap:10px;text-transform:none;letter-spacing:.01em}
+#list > .sect.big:first-child{border-top:0;padding-top:0;margin-top:4px}
+.sect.big .sn{font:600 14px var(--ui);color:var(--muted);margin-left:8px;letter-spacing:0}
+.sect.big .sn.lv{color:var(--live)}
+.sect.big .sn.lv::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--live);margin-right:6px;vertical-align:1px}
+.sect.big.sub{border-top:0;padding-top:0;margin-top:4px}
+.flat > .card:first-child,.flat > .fin:first-child{border-top:1px solid var(--line);border-top-left-radius:var(--r-lg);border-top-right-radius:var(--r-lg)}
+.flat > .card:last-child,.flat > .fin:last-child,.flat > #board:last-child{border-bottom-left-radius:var(--r-lg);border-bottom-right-radius:var(--r-lg)}
+.card .why{font:600 11px var(--ui);letter-spacing:.04em;text-transform:uppercase;color:var(--accent);background:var(--accent-soft);border-radius:999px;padding:2px 8px;white-space:nowrap}
+.best{margin-bottom:6px}
+.best > .card{border-color:color-mix(in srgb,var(--accent) 35%,var(--line))}
 </style>
 </head>
 <body>
@@ -504,12 +523,7 @@ h1 span{color:inherit}
       <div class="seg" id="gender" role="group" aria-label="Men's or women's" hidden></div>
       <div class="filters">
         <input type="search" id="q" placeholder="Find a team" aria-label="Find a team" autocomplete="off">
-        <div class="chips" role="group" aria-label="Filter games">
-          <button class="chip" data-div="all" aria-pressed="true">All<span class="n" id="nAll"></span></button>
-          <button class="chip" data-div="FBS" aria-pressed="false">FBS<span class="n" id="nFBS"></span></button>
-          <button class="chip" data-div="FCS" aria-pressed="false">FCS<span class="n" id="nFCS"></span></button>
-          <button class="chip" data-div="fav" aria-pressed="false" aria-label="Saved teams">★ Saved<span class="n" id="nFav"></span></button>
-        </div>
+        <div class="chips" id="chips" role="group" aria-label="Filter games"></div>
       </div>
       <div class="list" id="list"></div>
     </div>
@@ -653,14 +667,6 @@ function setSport(id, quiet){
   for(const k of Object.keys(RADIO)) delete RADIO[k];
   for(const k of Object.keys(RADIO_INFO)) delete RADIO_INFO[k];
   for(const k of Object.keys(ready)) delete ready[k];
-  // Football filters by FBS/FCS; the other sports by Top 25.
-  const c1 = document.querySelector('.chip[data-div="FBS"], .chip[data-div="T25"]'), c2 = document.querySelector('.chip[data-div="FCS"]');
-  if(isFB()){ c1.dataset.div = "FBS"; c1.firstChild.textContent = "FBS"; c2.hidden = false; }
-  else { c1.dataset.div = "T25"; c1.firstChild.textContent = "Top 25"; c2.hidden = true; }
-  c1.parentNode.classList.toggle("three", !isFB());
-  if(!["all","fav"].includes(divFilter) && !(isFB() && ["FBS","FCS"].includes(divFilter)) && !(!isFB() && divFilter==="T25")){
-    divFilter = "all"; document.querySelectorAll(".chip[data-div]").forEach(x=>x.setAttribute("aria-pressed", String(x.dataset.div==="all")));
-  }
   if(!isFB()) loadConfs(id);
   homeBoard();
   setList(`<div class="empty">Loading ${SPORT.g ? SPORT.g.toLowerCase()+" " : ""}${SPORT.name.toLowerCase()}…</div>`);
@@ -825,7 +831,7 @@ function note(text, kind){
     : `<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>`;
   return `<div class="soon-note ${kind||""}">${icon}<span>${text}</span></div>`;
 }
-let divFilter = "all", query = "";
+let divFilter = /^(all|T25|fav|c:.+)$/.test(store.get("div")||"") ? store.get("div") : "all", query = "";
 const favs = new Set((()=>{try{return JSON.parse(store.get("favs")||"[]")}catch(e){return []}})());
 function saveFavs(){ store.set("favs", JSON.stringify([...favs])); }
 const isFavGame = e => e.competitions[0].competitors.some(t=>favs.has(t.team.location));
@@ -845,7 +851,33 @@ function crunch(e){
   return false;
 }
 const liveRank = e => crunch(e) ? 0 : isTop25(e) ? 1 : 2;
-const divOK = e => divFilter==="all" || (divFilter==="fav" ? isFavGame(e) : divFilter==="T25" ? isTop25(e) : e._div===divFilter);
+const divOK = e => divFilter==="all" || (divFilter==="fav" ? isFavGame(e) : divFilter==="T25" ? isTop25(e)
+  : divFilter.startsWith("c:") ? gameConfs(e).includes(divFilter.slice(2)) : true);
+// A game's conference for grouping (the home team's, else the visitor's), and every conference it counts for in a filter.
+function groupConf(e){
+  const c = e.competitions[0], h = team(c,"home"), a = team(c,"away");
+  return confOf(h.team) || confOf(a.team) || (e._div==="FCS" ? "FCS" : isFB() ? "Other" : "Other games");
+}
+const gameConfs = e => { const c = e.competitions[0]; return [...new Set([confOf(team(c,"home").team), confOf(team(c,"away").team), groupConf(e)].filter(Boolean))]; };
+// Major conferences first, then the rest A-Z, games with no conference last.
+const confRank = n => { const i = POWER[isFB() ? "fb" : SPORT.tile]?.indexOf(n) ?? -1; return n==="Other games" || n==="Other" ? 2e3 : i >= 0 ? i : 1e3; };
+const byConf = (x, y) => confRank(x)-confRank(y) || x.localeCompare(y);
+// Chips: All, Top 25, Saved, then each conference playing today (or on the day being shown).
+function renderChips(pool, live){
+  const base = live.length ? live : pool, n = f => { const k = base.filter(f).length; return k ? String(k) : ""; };
+  // Major conferences, then ones with games live now (busiest first), then the rest A-Z.
+  const liveIn = c => live.filter(e=>groupConf(e)===c).length, major = c => confRank(c) < 1e3;
+  let confs = [...new Set(pool.map(groupConf))].sort((x, y)=> (major(y)-major(x)) || (major(x) ? 0 : liveIn(y)-liveIn(x)) || byConf(x, y));
+  if(confs.length===1 && /^Other/.test(confs[0])) confs = [];
+  if(divFilter.startsWith("c:") && !confs.includes(divFilter.slice(2))) divFilter = "all";
+  const chip = (div, label, count, aria) => `<button class="chip" data-div="${esc(div)}" aria-pressed="${divFilter===div}"${aria?` aria-label="${aria}"`:""}>${esc(label)}<span class="n">${count}</span></button>`;
+  const html = chip("all", "All", String(base.length||"")) + (pool.some(isTop25) ? chip("T25", "Top 25", n(isTop25)) : "") + chip("fav", "★ Saved", n(isFavGame), "Saved teams")
+    + confs.map(c=>chip("c:"+c, c==="Other games" ? "Other" : c, n(e=>gameConfs(e).includes(c)))).join("");
+  const box = $("#chips"); if(box.dataset.html !== html){ const x = box.scrollLeft; box.innerHTML = html; box.dataset.html = html; box.scrollLeft = x; }
+}
+// Live conference bars start open (and "More conferences" closed); folding one is remembered.
+const liveShut = n => confOpen.has(confKey(n, "live")) !== (n === "More conferences");
+const setLiveShut = (n, shut) => { if(shut !== (n === "More conferences")) confOpen.add(confKey(n, "live")); else confOpen.delete(confKey(n, "live")); };
 function fmtTime(d){return new Date(d).toLocaleString([], {weekday:"short", hour:"numeric", minute:"2-digit", hour12:true})}
 function now12(){return new Date().toLocaleTimeString([], {hour:"numeric",minute:"2-digit",second:"2-digit",hour12:true})}
 
@@ -1078,20 +1110,17 @@ function render(){
   $("#board").hidden = false;
   // Fetch the open game's details right away instead of waiting for the next refresh.
   if(selected && boardOpen && live.some(e=>e.id===selected && e.status.type.state==="in")) pollSummary(selected, 6000);
-  const count = f => live.filter(f).length;
-  $("#nAll").textContent = live.length; $("#nFBS").textContent = count(isFB() ? e=>e._div==="FBS" : isTop25);
-  $("#nFCS").textContent = count(e=>e._div==="FCS"); $("#nFav").textContent = count(isFavGame);
   const q = query.trim().toLowerCase();
+  renderChips(events.filter(e=>isToday(e.date) || e.status.type.state==="in"), live);
   let shown = live.filter(e=> divOK(e))
     .filter(e=> !q || e.competitions[0].competitors.some(t=>[t.team.location,t.team.displayName,t.team.shortDisplayName,t.team.abbreviation].join(" ").toLowerCase().includes(q)))
     .sort((a,b)=> liveRank(a)-liveRank(b) || new Date(a.date)-new Date(b.date) || a.id.localeCompare(b.id));
-    const list = $("#list");
+  const list = $("#list");
   let changed;
   if(!shown.length){
-    const next = events.filter(e=>e.status.type.state==="pre").sort((a,b)=>new Date(a.date)-new Date(b.date))[0];
-    const why = !live.length ? "No Division I games are live right now." : (q ? `No live games match “${esc(query.trim())}”.` : divFilter==="fav" ? "None of your teams are playing right now. Tap ☆ on a team to add it." : `No ${divFilter==="T25" ? "Top 25" : divFilter} games are live right now.`);
-    changed = setList(`<div class="empty">${why}${!live.length && next ? `<br>Next up: ${esc(next.shortName)}, ${fmtTime(next.date)}.` : ""}</div>` + renderUpcoming(true) + finalsToday());
-  } else changed = setList(shown.map(card).join("") + renderUpcoming(true) + finalsToday());
+    const why = q ? `No live games match “${esc(query.trim())}”.` : divFilter==="fav" ? "None of your teams are playing right now. Tap ☆ on a team to add it." : `No ${divFilter==="T25" ? "Top 25" : esc(divFilter.replace(/^c:/,""))} games are live right now.`;
+    changed = setList(`<div class="sect big"><span>Live</span></div><div class="empty">${why}</div>` + renderUpcoming(true) + finalsToday());
+  } else changed = setList(liveSection(shown, q) + renderUpcoming(true) + finalsToday());
   if(changed) list.querySelectorAll(".card").forEach(b=>{ const go=()=>{
       // Tapping the open game folds its details away; tapping another opens it, keeping that game where it was on screen.
       const id = b.dataset.id, y0 = b.getBoundingClientRect().top;
@@ -1106,6 +1135,32 @@ function render(){
   renderBoard();
   placeBoard();
   syncLayout(); updateDeck();
+}
+// Live games: a few standout games on top (close finishes, ranked matchups), then the rest under
+// conference bars you can fold. A filter or a search shows one plain list instead.
+function liveSection(shown, q){
+  const both = e => e.competitions[0].competitors.every(t=>t.curatedRank?.current && t.curatedRank.current < 26);
+  const grouped = !q && ["all","T25"].includes(divFilter) && shown.length > 4;
+  const best = grouped ? shown.filter(e=>crunch(e) || both(e)).slice(0, 3) : [];
+  const why = e => crunch(e) ? (isTop25(e) ? "Top 25 · Close" : "Close finish") : "Ranked matchup";
+  const rest = shown.filter(e=>!best.includes(e));
+  const groups = new Map();
+  if(grouped) for(const e of rest){ const c = groupConf(e); if(!groups.has(c)) groups.set(c, []); groups.get(c).push(e); }
+  const names = [...groups.keys()].sort(byConf);
+  const useBars = grouped && !(names.length===1 && names[0]==="Other games");
+  const allShut = names.every(liveShut);
+  let html = best.length ? `<div class="sect big"><span>Best right now</span></div><div class="flat best">${best.map(e=>card(e, why(e))).join("")}</div>` : "";
+  html += `<div class="sect big${best.length ? "" : ""}"><span>Live<span class="sn lv">${best.length ? rest.length+" more" : shown.length}</span></span>${useBars && names.length > 1 ? `<button class="lnk" data-confall="${allShut?"open":"shut"}" data-cday="live">${allShut?"Expand all":"Collapse all"}</button>` : ""}</div>`;
+  if(!useBars) return html + `<div class="flat">${rest.map(e=>card(e)).join("")}</div>`;
+  const bar = n => { const gs = groups.get(n), shut = liveShut(n); return confHead(n, gs.length, shut, "live") + (shut ? "" : gs.map(e=>card(e)).join("")); };
+  // Many conferences live (basketball nights, football Saturdays): the major ones and any with a
+  // saved team stay out; the rest fold into one "More conferences" bar.
+  const main = names.filter(n => confRank(n) < 1e3 || groups.get(n).some(isFavGame));
+  const more = names.filter(n => !main.includes(n));
+  if(names.length <= 6 || more.length < 3) return html + names.map(bar).join("");
+  const shutMore = liveShut("More conferences");
+  return html + main.map(bar).join("") + `<div class="cgap"></div>` + confHead("More conferences", more.reduce((t, n)=>t + groups.get(n).length, 0), shutMore, "live")
+    + (shutMore ? "" : `<div class="more-confs">${more.map(bar).join("")}</div>`);
 }
 // On phones the game details open right under the game you tapped; on wide screens they sit beside the list.
 const NARROW = matchMedia("(max-width: 860px)");
@@ -1342,12 +1397,12 @@ function team(c, side){return c.competitors.find(t=>t.homeAway===side)}
 // The game you're listening to gets the same outline as the open game, whichever team's radio it is.
 const onAir = e => !!currentTeam && e.competitions[0].competitors.some(t=>t.team.location===currentTeam);
 function syncOnAir(){ for(const c of document.querySelectorAll("#list .card")){ const e = events.find(x=>x.id===c.dataset.id); c.classList.toggle("onair", !!e && onAir(e)); } }
-function card(e){
+function card(e, why){
   const c = e.competitions[0], a = team(c,"away"), h = team(c,"home"), st = e.status.type;
   const showScore = st.state!=="pre";
   const row = t => `<div class="row"><span class="tm"><button class="fav ${favs.has(t.team.location)?"on":""}" data-fav="${esc(t.team.location)}" aria-label="${favs.has(t.team.location)?"Remove":"Add"} ${esc(t.team.location)} ${favs.has(t.team.location)?"from":"to"} saved teams">${favs.has(t.team.location)?'<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>':'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>'}</button>${logoImg(t.team)}<span>${t.curatedRank?.current<26?`<small>${t.curatedRank.current}</small> `:""}${esc(nameOf(t.team))}</span></span><span class="right">${ear(t.team.location, "")}<span class="sc">${showScore?t.score:""}</span></span></div>`;
   return `<div class="card${onAir(e)?" onair":""}" role="button" tabindex="0" data-id="${e.id}" aria-current="${e.id===selected && boardOpen}" aria-expanded="${e.id===selected && boardOpen}">${row(a)}${row(h)}
-  <div class="meta"><span class="${st.state==="in"?"live":""}">${st.state==="pre"?fmtTime(e.date):statusText(e).short}</span><span>${esc((c.broadcasts||[]).flatMap(b=>b.names).join(", "))}<span class="div">${e._div||""}</span><svg class="gchev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>${soonNote(e)}</div>`;
+  <div class="meta"><span class="${st.state==="in"?"live":""}">${st.state==="pre"?fmtTime(e.date):statusText(e).short}</span><span>${why ? `<span class="why">${esc(why)}</span>` : ""}${esc((c.broadcasts||[]).flatMap(b=>b.names).join(", "))}<span class="div">${e._div||""}</span><svg class="gchev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>${soonNote(e)}</div>`;
 }
 
 // ---------- Today's upcoming games (shown when nothing is live) ----------
@@ -1464,7 +1519,7 @@ function finalsToday(){
     .filter(e=> !q || e.competitions[0].competitors.some(t=>[t.team.location,t.team.displayName,t.team.shortDisplayName,t.team.abbreviation].join(" ").toLowerCase().includes(q)))
     .sort((x,y)=>new Date(y.date)-new Date(x.date));
   const closed = !q && isShut("Final", "");
-  return fin.length ? confHead("Final", fin.length, closed) + (closed ? "" : fin.map(finCard).join("")) : "";
+  return fin.length ? `<div class="sect big"><span>Final<span class="sn">${fin.length}</span></span><button class="lnk" data-conf="Final" data-cday="">${closed ? "Show" : "Hide"}</button></div>` + (closed ? "" : `<div class="flat">${fin.map(finCard).join("")}</div>`) : "";
 }
 // Conference headers fold their games away; which ones are folded is remembered on this device.
 function confHead(name, n, closed, day){
@@ -1475,6 +1530,7 @@ document.addEventListener("click", ev=>{
   if(b.dataset.conf){ const k = confKey(b.dataset.conf, b.dataset.cday); confOpen.has(k) ? confOpen.delete(k) : confOpen.add(k); }
   else { const names = [...document.querySelectorAll("#list [data-conf]")].map(x=>x.dataset.conf).filter(n=>n!=="Final");
     const day = b.dataset.cday;
+    if(day==="live"){ [...document.querySelectorAll('#list [data-conf][data-cday="live"]')].forEach(x=>setLiveShut(x.dataset.conf, b.dataset.confall==="shut")); saveConf(); render(); return; }
     [...document.querySelectorAll(`#list [data-conf][data-cday="${CSS.escape(day)}"]`)].map(x=>x.dataset.conf)
       .forEach(n=> b.dataset.confall==="shut" ? confOpen.delete(confKey(n, day)) : confOpen.add(confKey(n, day))); void names; }
   saveConf(); render();
@@ -1500,17 +1556,14 @@ function renderUpcoming(embed){
     return d.toDateString()===t.toDateString() ? "Today" : d.toDateString()===tm.toDateString() ? "Tomorrow" : d.toLocaleDateString([], {weekday:"short", month:"short", day:"numeric"}); };
   const tabs = days.length > 1 ? `<div class="daytabs" role="tablist" aria-label="Pick a day (tap it again to see the whole week)">${days.map(k=>`<button class="daytab" role="tab" data-day="${esc(k)}" aria-selected="${k===upDay}">${esc(dayName(k))}<span class="n">${pre.filter(e=>dayKey(e.date)===k).length}</span></button>`).join("")}</div>` : "";
   const count = f => today.filter(f).length;
-  if(!embed){
-    $("#nAll").textContent = today.length; $("#nFBS").textContent = count(isFB() ? e=>e._div==="FBS" : isTop25);
-    $("#nFCS").textContent = count(e=>e._div==="FCS"); $("#nFav").textContent = count(isFavGame);
-  }
+  if(!embed) renderChips(today.concat(events.filter(e=>e.status.type.state==="post" && isToday(e.date))), []);
   // Searching for a team looks across the whole week, not just the selected day.
   const shown = (q ? pre : today).filter(e=> divOK(e))
     .filter(e=> !q || e.competitions[0].competitors.some(t=>[t.team.location,t.team.displayName,t.team.shortDisplayName,t.team.abbreviation].join(" ").toLowerCase().includes(q)));
   if(!embed) $("#board").hidden = true;
   if(!shown.length){
     if(embed) return "";
-    setList((q ? "" : tabs) + `<div class="empty">${q ? `No upcoming games this week match “${esc(query.trim())}”.` : today.length ? "No games that day match that filter." : "No games scheduled in the next week."}</div>` + finalsToday());
+    setList(`<div class="sect big"><span>Up next</span></div>` + (q ? "" : tabs) + `<div class="empty">${q ? `No upcoming games this week match “${esc(query.trim())}”.` : today.length ? "No games that day match that filter." : "No games scheduled in the next week."}</div>` + finalsToday());
     return;
   }
   const vis = []; // games in open conference bars (other sports only look up odds for these)
@@ -1554,8 +1607,9 @@ function renderUpcoming(embed){
       confHead("More conferences", rest.reduce((t, n)=>t + groups.get(n).length, 0), moreShut, day) +
       (moreShut ? "" : `<div class="more-confs">${rest.map((n, i)=>bar(n, i, rest)).join("")}</div>`);
   }).join("");
-  if(embed){ loadPredictions(isFB() ? shown : vis.slice(0, 40)); return `<div class="sect upnext">Coming up</div>` + (q ? "" : tabs) + sections; }
-  setList((q ? "" : tabs) + sections + finalsToday());
+  const head = `<div class="sect big"><span>Up next<span class="sn">${shown.length}</span></span></div>`;
+  if(embed){ loadPredictions(isFB() ? shown : vis.slice(0, 40)); return head + (q ? "" : tabs) + sections; }
+  setList(head + (q ? "" : tabs) + sections + finalsToday());
   // Football looks up every game's odds; a basketball night has far more games, so only the ones you've opened.
   loadPredictions(isFB() ? shown : vis.slice(0, 40));
 }
@@ -2104,7 +2158,7 @@ document.addEventListener("click", ev=>{
   ev.stopPropagation(); const loc = f.dataset.fav;
   favs.has(loc) ? favs.delete(loc) : favs.add(loc); saveFavs(); render();
 }, true);
-document.querySelectorAll(".chip[data-div]").forEach(c=>c.onclick=()=>{ divFilter = c.dataset.div; document.querySelectorAll(".chip[data-div]").forEach(x=>x.setAttribute("aria-pressed", String(x===c))); store.set("div", divFilter); render(); });
+$("#chips").addEventListener("click", ev=>{ const c = ev.target.closest(".chip[data-div]"); if(!c) return; divFilter = c.dataset.div; store.set("div", divFilter); render(); });
 $("#q").addEventListener("input", e=>{ query = e.target.value; render(); });
 function setDeckMin(on){
   const d = document.querySelector(".deck"), b = $("#deckMin");
@@ -2149,7 +2203,6 @@ $("#moreBtn").onclick = ()=>{ const m=$("#more"); m.hidden=!m.hidden; $("#moreBt
 })();
 (function init(){
   setDelay(0);
-  const dv = store.get("div"); if(dv && document.querySelector(`.chip[data-div="${dv}"]`)) document.querySelector(`.chip[data-div="${dv}"]`).click();
   loadDirectory();
   // Which sports are in season (and how many games each has live), every 5 minutes.
   checkSeasons(); setInterval(()=>{ if(!document.hidden) checkSeasons(); }, 15*60*1000);
