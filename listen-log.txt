@@ -1,247 +1,164 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-[in#0 @ 0x613572f28cc0] Error opening input: Server returned 404 Not Found
-Error opening input file https://cdn.jwplayer.com/live/broadcast/WEDSYXuK.m3u8.
-Error opening input files: Server returned 404 Not Found
-[in#0 @ 0x5cbe3dd94cc0] Error opening input: Server returned 404 Not Found
-Error opening input file https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/WEDSYXuK.m3u8?exp=1793667600&sig=2c19138900a52acfdbdd0ef19f1d0754.
-Error opening input files: Server returned 404 Not Found
-[in#0 @ 0x56b35f393cc0] Error opening input: Server returned 404 Not Found
-Error opening input file https://cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8.
-Error opening input files: Server returned 404 Not Found
-[in#0 @ 0x5ba285be0cc0] Error opening input: Invalid data found when processing input
-Error opening input file https://ais-sa8.cdnstream1.com/2758_64.aac/start-session.
-Error opening input files: Invalid data found when processing input
-[in#0 @ 0x5bf2c0081cc0] Error opening input: Invalid data found when processing input
-Error opening input file https://siue-cougars.mixlr.com/.
-Error opening input files: Invalid data found when processing input
-[in#0 @ 0x5601f2e86cc0] Error opening input: Server returned 4XX Client Error, but not one of 40{0,1,3,4}
-Error opening input file https://apicdn.mixlr.com/v3/channel_view/siue-cougars.
-Error opening input files: Server returned 4XX Client Error, but not one of 40{0,1,3,4}
-[https @ 0x5ebd7020d580] Stream ends prematurely at 0, should be 18446744073709551615
-[in#0 @ 0x5ebd7020ccc0] Error opening input: Input/output error
-Error opening input file https://apicdn.mixlr.com/v3/channel_me.
-Error opening input files: Input/output error
-[in#0 @ 0x62981b666cc0] Error opening input: Server returned 404 Not Found
-Error opening input file https://ice64.securenetsystems.net/WZGV2?playSessionID=2EDEC200-0D70-4D65-85B0-A9630A19C0F8.
-Error opening input files: Server returned 404 Not Found
-[in#0 @ 0x629612849cc0] Error opening input: Server returned 404 Not Found
-Error opening input file https://cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8.
-Error opening input files: Server returned 404 Not Found
-[in#0 @ 0x5a1a0bf4acc0] Error opening input: Server returned 404 Not Found
-Error opening input file https://cdn.jwplayer.com/live/broadcast/LCyNyoBI.m3u8.
-Error opening input files: Server returned 404 Not Found
-[in#0 @ 0x5e2cd5207cc0] Error opening input: Server returned 404 Not Found
-Error opening input file https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/LCyNyoBI.m3u8?exp=1793665920&sig=0fb23863affd5fc3fd77991bb7271b77.
-Error opening input files: Server returned 404 Not Found
-[out#0/wav @ 0x6196070dd740] Output file does not contain any stream
-Error opening output file /tmp/tmpv0honi1o.wav.
+[hls @ 0x5aa2a1670f80] URL https://prod-100-54-247-170.amperwave.net/a/?lid=582c6751-bf5e-4423-ba7e-1b6dd79ea2ef&u=https%3A%2F%2Fd25j5qm9y8ulag.cloudfront.net%2Fc%2Fad%2Fa%2F54d679ccd7b10fbac20903ef1b90369d_0.aac%3Fsid%3D9184 is not in allowed_segment_extensions, consider updating hls.c and submitting a patch to ffmpeg-devel, if this should be added
+[out#0/wav @ 0x5aa2a190af80] Output file does not contain any stream
+Error opening output file /tmp/tmp_0t9ijbw.wav.
 Error opening output files: Invalid argument
-[https @ 0x56d090fe0640] Stream ends prematurely at 0, should be 18446744073709551615
-[in#0 @ 0x56d090fdfcc0] Error opening input: Input/output error
-Error opening input file https://ums.acuityplatform.com/tum?umid=133&uid=a58fe298-56f2-41ff-a2bd-2fd00f4aaf47&rurl=https%3A%2F%2Fyield-op-idsync.live.streamtheworld.com%2Fpixel.gif%3Fpartner%3Dacu%26uid%3D___AUID___%26pubId%3D21313.
-Error opening input files: Input/output error
-[tls @ 0x6345e3483540] Error in the pull function.
-[tls @ 0x6345e3483540] IO error: End of file
-[https @ 0x6345e3480640] Stream ends prematurely at 0, should be 18446744073709551615
-[in#0 @ 0x6345e347fcc0] Error opening input: Input/output error
-Error opening input file https://rtb.adentifi.com/CookieSyncTriton?redirect=https%3A%2F%2Fyield-op-idsync.live.streamtheworld.com%2Fpixel.gif%3Fpartner%3Dadt%26uid%3D%24UID%26pubId%3D21313.
-Error opening input files: Input/output error
-[in#0 @ 0x57ec2b03fcc0] Error opening input: Server returned 404 Not Found
-Error opening input file https://cdn.jwplayer.com/live/broadcast/aRSHQZWq.m3u8.
-Error opening input files: Server returned 404 Not Found
-[in#0 @ 0x6552fa941cc0] Error opening input: Server returned 404 Not Found
-Error opening input file https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/aRSHQZWq.m3u8?exp=1793667840&sig=c4ee4ce3fa4ffdb4575082921682dd0f.
-Error opening input files: Server returned 404 Not Found
-[in#0 @ 0x606063174cc0] Error opening input: Server returned 404 Not Found
-Error opening input file https://cdn.jwplayer.com/live/broadcast/3TH9Dtwc.m3u8.
-Error opening input files: Server returned 404 Not Found
-[in#0 @ 0x607e71406cc0] Error opening input: Invalid data found when processing input
-Error opening input file https://www.spartanburgsportsradio.com/.
+[0;93m2026-11-03 02:02:40.398947137 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[in#0 @ 0x603d92dafcc0] Error opening input: Invalid data found when processing input
+Error opening input file https://greenbayphoenix.mixlr.com/.
 Error opening input files: Invalid data found when processing input
-[out#0/wav @ 0x5c2874b49ac0] Output file does not contain any stream
-Error opening output file /tmp/tmpr3r_mxq3.wav.
-Error opening output files: Invalid argument
-[aac @ 0x6262efada300] env_facs_q 254 is invalid
-[NULL @ 0x5a938158c100] Invalid NAL unit size (32992 > 16839).
-[NULL @ 0x5a938158c100] missing picture in access unit with size 16943
-[NULL @ 0x5a9381f06740] Invalid NAL unit size (15557 > 8609).
-[NULL @ 0x5a9381f06740] missing picture in access unit with size 8713
-[NULL @ 0x5a9382b6cb40] Invalid NAL unit size (46996 > 17940).
-[NULL @ 0x5a9382b6cb40] missing picture in access unit with size 18044
-[NULL @ 0x5a93831a4380] Invalid NAL unit size (85230 > 11376).
-[NULL @ 0x5a93831a4380] missing picture in access unit with size 11480
-[NULL @ 0x5a9383e13940] Invalid NAL unit size (6949 > 6306).
-[NULL @ 0x5a9383e13940] missing picture in access unit with size 6410
-[NULL @ 0x5a93825355c0] Invalid NAL unit size (2052 > 679).
-[NULL @ 0x5a93825355c0] missing picture in access unit with size 784
-[NULL @ 0x5a93837dbb40] Invalid NAL unit size (75 > 3).
-[NULL @ 0x5a93837dbb40] missing picture in access unit with size 29
-[NULL @ 0x5cb7c0875f40] Invalid NAL unit size (32992 > 16839).
-[NULL @ 0x5cb7c0875f40] missing picture in access unit with size 16943
-[NULL @ 0x5cb7c11ef200] Invalid NAL unit size (15557 > 8609).
-[NULL @ 0x5cb7c11ef200] missing picture in access unit with size 8713
-[NULL @ 0x5cb7c1e56500] Invalid NAL unit size (46996 > 17940).
-[NULL @ 0x5cb7c1e56500] missing picture in access unit with size 18044
-[NULL @ 0x5cb7c248df00] Invalid NAL unit size (85230 > 11376).
-[NULL @ 0x5cb7c248df00] missing picture in access unit with size 11480
-[NULL @ 0x5cb7c30fd900] Invalid NAL unit size (6949 > 6306).
-[NULL @ 0x5cb7c30fd900] missing picture in access unit with size 6410
-[NULL @ 0x5cb7c181eec0] Invalid NAL unit size (2052 > 679).
-[NULL @ 0x5cb7c181eec0] missing picture in access unit with size 784
-[NULL @ 0x5cb7c2ac6000] Invalid NAL unit size (75 > 3).
-[NULL @ 0x5cb7c2ac6000] missing picture in access unit with size 29
-[hls @ 0x5f40c59aff80] URL https://prod-54-227-167-196.amperwave.net/a/?lid=04fcc0d3-0961-4fca-8b5d-a0f91277d9a7&u=https%3A%2F%2Fd25j5qm9y8ulag.cloudfront.net%2Fc%2Fad%2Fa%2Fe4b2662d209fc6667625331c5179d01a_0.aac%3Fsid%3D7907 is not in allowed_segment_extensions, consider updating hls.c and submitting a patch to ffmpeg-devel, if this should be added
-[out#0/wav @ 0x5f40c5c94ac0] Output file does not contain any stream
-Error opening output file /tmp/tmp30ax7uva.wav.
-Error opening output files: Invalid argument
-[NULL @ 0x5a6963f58f40] Invalid NAL unit size (32992 > 16839).
-[NULL @ 0x5a6963f58f40] missing picture in access unit with size 16943
-[NULL @ 0x5a69648d2100] Invalid NAL unit size (15557 > 8609).
-[NULL @ 0x5a69648d2100] missing picture in access unit with size 8713
-[NULL @ 0x5a6965539580] Invalid NAL unit size (46996 > 17940).
-[NULL @ 0x5a6965539580] missing picture in access unit with size 18044
-[NULL @ 0x5a6965b70e00] Invalid NAL unit size (85230 > 11376).
-[NULL @ 0x5a6965b70e00] missing picture in access unit with size 11480
-[NULL @ 0x5a69667e0840] Invalid NAL unit size (6949 > 6306).
-[NULL @ 0x5a69667e0840] missing picture in access unit with size 6410
-[NULL @ 0x5a6964f02380] Invalid NAL unit size (2052 > 679).
-[NULL @ 0x5a6964f02380] missing picture in access unit with size 784
-[NULL @ 0x5a69661a9340] Invalid NAL unit size (75 > 3).
-[NULL @ 0x5a69661a9340] missing picture in access unit with size 29
-[NULL @ 0x5a64afe19a80] Invalid NAL unit size (32992 > 16839).
-[NULL @ 0x5a64afe19a80] missing picture in access unit with size 16943
-[NULL @ 0x5a64afe154c0] Invalid NAL unit size (15557 > 8609).
-[NULL @ 0x5a64afe154c0] missing picture in access unit with size 8713
-[NULL @ 0x5a64b0a7c580] Invalid NAL unit size (46996 > 17940).
-[NULL @ 0x5a64b0a7c580] missing picture in access unit with size 18044
-[NULL @ 0x5a64b10b3b40] Invalid NAL unit size (85230 > 11376).
-[NULL @ 0x5a64b10b3b40] missing picture in access unit with size 11480
-[NULL @ 0x5a64b1d237c0] Invalid NAL unit size (6949 > 6306).
-[NULL @ 0x5a64b1d237c0] missing picture in access unit with size 6410
-[NULL @ 0x5a64b0445380] Invalid NAL unit size (2052 > 679).
-[NULL @ 0x5a64b0445380] missing picture in access unit with size 784
-[NULL @ 0x5a64b16ec1c0] Invalid NAL unit size (75 > 3).
-[NULL @ 0x5a64b16ec1c0] missing picture in access unit with size 29
-306 more streams wait for the next run
-listening to 140 streams in 182 live games
-game       mbb  Michigan State University      'state.  Jarvis with the basketball.  Is that my shoe working around?  Being outscored this'
-maybe_not  mbb  Michigan State University      "Progressive keys to progress program serving veterans.  You're listening to Amber and Ian "
-maybe_not  mbb  Michigan State University      'It also drives real business results.  Choose LinkedIn ads and get the highest row ads for'
-game       mbb  Gonzaga University             "Don't think he's quite ready for it.  I think he should be a two, three dribble pickup  an"
-maybe_not  mbb  Gonzaga University             'Big tech shifts, market swings, massive mergers.  It all hits your wallet, but keeping up '
-maybe_not  mbb  Gonzaga University             'University of what the Justice Department says is a failure to provide admissions records '
-quiet      mbb  Purdue University              ''
-maybe_not  mbb  Iowa State University          "ball which 22 seconds to go on the half.  Yeah, it's like one's eight turnovers a couple a"
-quiet      mbb  Iowa State University          ''
-quiet      mbb  Iowa State University          ''
-game       mbb  University of Memphis          'Iowa State will trigger it in.  They got 12 in the shot clock.  10 seconds differential ga'
-maybe_not  mbb  University of Memphis          'still local still here when you need a  michryte plumbing heating an air you  call and my '
-game       mbb  University of Memphis          'still local still here when you  need a mid-right plumbing heating  an air you call and my'
-game       mbb  Texas Tech University          'Unnouncers are provided by Learfield and approved by the University.  18th you have time t'
-quiet      mbb  Texas Tech University          ''
-game       mbb  Texas Tech University          "Now with the call of the second half, here's the voice of Red Raider basketball,  Jeff Hax"
-quiet      mbb  Jackson State University       ''
-game       mbb  Vanderbilt University          '30-3 run that close out the first half. Vanderbilt leads  Bellarmine at the break. 44-17 h'
-quiet      mbb  Bellarmine University          ''
-quiet      mbb  Bellarmine University          ''
-quiet      mbb  Bellarmine University          ''
-quiet      mbb  Stony Brook University         ''
-quiet      mbb  Stony Brook University         ''
-game       mbb  Eastern Kentucky University    'Easter Kentucky on top of Kentucky Christian 55-22 and behalf.'
-quiet      mbb  Eastern Kentucky University    ''
-maybe_not  mbb  Morgan State University        'to WEAA. The support tab on the WEAA.org website has the details. Also, if you have been  '
-maybe_not  mbb  University of North Carolina W 'We understand your time is important, and so is how you measure it.  You may want a beauti'
-quiet      mbb  Kennesaw State University      ''
-game       mbb  Indiana State University       "Now, Tillery picking pop the wall.  It's now right when he goes to the Gucci.  Drives on t"
-game       mbb  University of North Carolina a 'the front court guarded by  Hillary gets it in the quillant  top of the key minister check'
-maybe_not  mbb  Yale University                "assuming based on what I know they're predominantly a run first team.  So they like to run"
-maybe_not  mbb  Yale University                "little sophomore, you know, it becomes a whole different thing.  Yeah, you know, that's no"
-maybe_not  mbb  Yale University                "when I know they're predominantly a run first team.  So they like your run the ball.  OK. "
-game       mbb  West Virginia University       'five stars makes the first free throw 9th point now in his opening game as a  mount here h'
-game       mbb  West Virginia University       'Time out.  15-22 to go here in our second half. West Virginia.  And Niagara have each scor'
-maybe_not  mbb  University of Central Florida  'Must have been hungry for the Serento and Serento Turbo High brand.  Their 3-row seating a'
-maybe_not  mbb  University of Central Florida  "There's only two words you need to remember.  Dan Newlin.  Just Google me.  It Dan Newlin."
-game       mbb  University of Central Florida  "It's the right way.  Visit your local key dealer today.  Kia, move it then inspires.  Call"
-quiet      mbb  Columbia University            ''
-quiet      mbb  Columbia University            ''
-game       mbb  Elon University                'Do you and the Alana win the tap goes into the backguard?  Here we go from right to left a'
-game       mbb  University of Delaware         "contested shot. That's a tough one shot to  flex it. It's up in the air. He gets it  back "
-maybe_not  mbb  University of Delaware         "A leaker up ahead and teach on her.  Smith didn't have the numbers.  It was not that a boy"
-maybe_not  mbb  University of Delaware         'to play the right way.  Because you can start to form some bad habits  and against the bad'
-quiet      mbb  Presbyterian College           ''
-game       mbb  University of St. Thomas (Minn "It's a parish free through like it's an up to Wilson drives the baseline dumps underneath "
-game       mbb  University of St. Thomas (Minn "right side. Now we're slow  things down for the Thomas.  Wilkins left wing to Lorenz.  Lef"
-game       mbb  University of St. Thomas (Minn 'Johnny is to open up the second half of the score.  40 to 36 they lead.  1905 to play in h'
-game       mbb  Boston University              "and we'll now try to dribble around our eastern switches.  O'Barrity outside the three poi"
-quiet      mbb  Northeastern University        ''
-game       mbb  University of Vermont          'the score. John Broome just  telling his teammates after the  last whistle settled down a '
-game       mbb  University of Vermont          "They're fouled.  And they just got a half step on the Alden and Alden caught in that time."
-quiet      mbb  Harvard University             ''
-maybe_not  mbb  Marist University              'that can make or break a restaurant.  Location are the little suss.  Parking, we really do'
-maybe_not  mbb  Dartmouth College              "always move to hospice.  Mm jee, we'll pray for that.  And everybody deal with Alzheimer's"
-game       mbb  Virginia Commonwealth Universi 'Rams will inbound it. Lewis, Bayer, Alston, Joe Kovich and Harper.  Love to see Blake Harp'
-quiet      mbb  University of Arkansas at Litt ''
-game       mbb  Florida Atlantic University    'This is the Florida Atlantic Basketball halftime show presented by Baptist Health the offi'
-game       mbb  Florida Atlantic University    'This is the Florida Atlantic Basketball halftime show presented by Baptist Health,  the of'
-quiet      mbb  East Carolina University       ''
-maybe_not  mbb  East Carolina University       "each boogie in blues. Just what the doctor ordered. And that'll be a 20. || So where the S"
-game       mbb  William & Mary                 '8 points to the first half from Ethan Connery.  No players and double figures for the trib'
-game       mbb  William & Mary                 "from Ethan Connery. No players and double figures for the drive. He's got three rebounds t"
-game       mbb  Clemson University             "If you're not down a little to the official Clemson Tigers app in the app store, you need "
-game       mbb  Clemson University             "You're not down low to the official Clemson Tigers app in the App Store.  You need to do s"
-game       mbb  University of Maryland         'So it come in.  Hold in five and now.  Five for five.  What have you got?  You got these g'
-game       mbb  University of Maryland         'last two or three possessions last bucket for Maryland we were talking about  sesame b and'
-game       mbb  University of Maryland         'last two or three possessions last bucket for Maryland we were talking about  sesame b and'
-game       mbb  Bucknell University            'the last exhibition for Maryland  that was against West Virginia  University.  He had four'
-maybe_not  mbb  Bucknell University            'too often and he did not miss that. A lot of offensive rebound put backs of this game,  St'
-game       mbb  Indiana University             "It's 44 to 23 over Eastern Illinois as we get ready to start the second half of this  cont"
-game       mbb  Indiana University             "in our oriented and Indiana's length and athleticism really just took over  I'll be on the"
-maybe_not  mbb  University of North Carolina a 'We love to make you smile.  Is that Tacoma telling a pink, mechanical bull?  Sure seems li'
-game       mbb  University of North Carolina a 'the game.  Cross you by trusted choice independent insurance agent to the North Carolina. '
-game       mbb  University of North Carolina a 'the North Carolina wants you to stay safe behind the wheel.  Put down your phone while dri'
-quiet      mbb  Western Carolina University    ''
-game       mbb  University of Cincinnati       'nine first half turnovers for the Barakats.  And number two, those seven three pointers  t'
-maybe_not  mbb  University of Cincinnati       'the Cats 35.7 for the Eagles, but American shot as well from outside the arc 7 for  17 tha'
-game       mbb  University of Cincinnati       'two those seven three pointers that american made in the first half  absolutely turnovers '
-quiet      mbb  Wright State University        ''
-quiet      mbb  Wright State University        "So I've been..."
-quiet      mbb  Wright State University        ''
-game       mbb  United States Air Force Academ "seconds go big to start the second half.  Trailer, O'Hara, Holden, pick it.  And number th"
-maybe_not  mbb  United States Air Force Academ "Mark, it's a good solution.  Scott.  Elohoski starts the half.  He throws it away into the"
-game       mbb  United States Air Force Academ 'Morgan Solutions dot net.  And auspicious start.  Celahoski, Holbin, Caleb Walker, Sanders'
-maybe_not  mbb  University of New Hampshire    "I've become very, I guess kind of bitter towards my husband.  Only an ascent last year I h"
-maybe_not  mbb  University of New Hampshire    'And a lot of debt over the last year and a half have been trying to grow spiritually.  I t'
-maybe_not  mbb  University of New Hampshire    'In a sense, last year I had a heart surgery in December, came back to January, started  wo'
-game       mbb  St. Bonaventure University     'Still working against this man kicks it back out to Waduk.  10 on the shot clock for the b'
-game       mbb  St. Bonaventure University     'against this man kicks it back  down to Wadu. 10 on the shot clock  for the bunnies out Du'
-game       mbb  Youngstown State University    "Hooks it up on the rim roll-off.  While grabbed by Bill of the ball,  he's got the oddsuit"
-game       mbb  Youngstown State University    'The rim sales over the basket.  Rebound off the rim to noonku.  Upwise as you rip up the n'
-game       mbb  Youngstown State University    'Rolled off, well grabbed by Bill of the body,  Scott to Audrey, clears it now to Yermokov.'
-game       mbb  University of Richmond         'longs go to work, Fips top of the art. As Kaiser on him from a distance, Fips works  the d'
-game       mbb  University of North Carolina A 'for Waddles crossover right hand drives in on him and falls down.  Now shot is up, swatted'
-game       mbb  University of North Carolina A 'the front and the scoring.  Technical foul.  Let Gerber shoot the free throw.  Then that a'
-game       mbb  University of North Carolina A 'throws it up top to McNeil.  Babbles the ball now.  Lought sit right elbow for Wilkins.  A'
-game       mbb  University of Dayton           "You haven't scored that much.  Drop it off to the big guy.  Easy play for a sure bucket.  "
-game       mbb  University of Dayton           'Big guy easy play for a sure bucket.  Bold and very quiet in that first half.  And then th'
-game       mbb  University of Dayton           "It's it off. Three is no good by stores and rebounded by Dayton. Still 49-23  fliers on to"
-maybe_not  mbb  Georgia Southern University    "Keeping your workshop awake.  With New Deal's Daily, you'll check off that list fast.  Sho"
-maybe_not  mbb  Ball State University          "in an area live at 4 o'clock each day on 925 FM or 1340 AM and always on the free streamin"
-game       mbb  James Madison University       'A tough for Wolf Wolf.  Back for Skull Chat, takes a three on the drive.  Step back, 16 fo'
-game       mbb  James Madison University       "And from C you'll see exactly what you'll see before you buy.  Seatcake, the official tick"
-maybe_not  mbb  James Madison University       'Atlantic Union Bank branch to learn more.  Atlantic Union Bank.  Anyway, you bank. || That'
-game       mbb  Miami University               'the first or the half. Scality set it tough time being able to get the ball to go to the r'
-game       mbb  Troy University                'up just misses on the lay.  Fortunately, no foul there is  Troy comes back around in trans'
-maybe_not  mbb  Troy University                "Let's let the flat down.  Garrett Oakley as time expires.  A decision for Klein if it coun"
-maybe_not  mbb  Troy University                "Let's let the flat down.  Garrett Oakley as time expires.  A decision for Klein if it coun"
-game       mbb  Coastal Carolina University    'Alright, we begin the second half of the accident of the coastal basketball to begin the s'
-game       mbb  Coastal Carolina University    "out of Dearborn, Michigan. As  Derek Green's going to come in.  May this is a route you go"
-game       mbb  Coastal Carolina University    'the second half of the  action to be coastal basketball  to begin the second half  shall n'
-game       mbb  Eastern Michigan University    'Martin and Fitzpatrick  Close the car line with the ball pass intercepted coming out of th'
-maybe_not  mbb  Eastern Michigan University    "for Costa Carolina here in the second half.  I'm Tom Helmer, John Patuck, a back-under W.E"
-game       mbb  Eastern Michigan University    'intercepted coming out of the way.  Fits Patrick with it.  Drives, loops around, throws th'
-maybe_not  mbb  Old Dominion University        "Oh, I'm losing confidence in the zebras, Dennis.  Well, I also, you know, I thought that w"
-quiet      mbb  Western Michigan University    ''
-quiet      mbb  Western Michigan University    ''
-quiet      mbb  Western Michigan University    ''
-maybe_not  mbb  Marshall University            'hiring pro screens candidates for you, putting the people who truly fit right in front  of'
-{'game': 61, 'maybe_not': 33, 'quiet': 26, 'no_audio': 20}
+[in#0 @ 0x570119084cc0] Error opening input: Server returned 404 Not Found
+Error opening input file https://apicdn.mixlr.com/v3/channel_view/greenbayphoenix.
+Error opening input files: Server returned 404 Not Found
+[in#0 @ 0x55a315d67cc0] Error opening input: Server returned 404 Not Found
+Error opening input file https://cdn.jwplayer.com/live/broadcast/I0QkbOOf.m3u8.
+Error opening input files: Server returned 404 Not Found
+[in#0 @ 0x61078b090cc0] Error opening input: Server returned 403 Forbidden (access denied)
+Error opening input file https://ice6.securenetsystems.net/WXTQ?playSessionID=EB5D6CA6-F157-4871-8595-A6007DE46941.
+Error opening input files: Server returned 403 Forbidden (access denied)
+[mp3float @ 0x5e98c6f5a300] Header missing
+[aist#0:0/mp3 @ 0x5e98c6f5c180] [dec:mp3float @ 0x5e98c6f59d80] Error submitting packet to decoder: Invalid data found when processing input
+[mp3float @ 0x5e98c6f5a300] Header missing
+[aist#0:0/mp3 @ 0x5e98c6f5c180] [dec:mp3float @ 0x5e98c6f59d80] Error submitting packet to decoder: Invalid data found when processing input
+[mp3float @ 0x5e98c6f5a300] Header missing
+[aist#0:0/mp3 @ 0x5e98c6f5c180] [dec:mp3float @ 0x5e98c6f59d80] Error submitting packet to decoder: Invalid data found when processing input
+[mp3float @ 0x5e98c6f5a300] Header missing
+[aist#0:0/mp3 @ 0x5e98c6f5c180] [dec:mp3float @ 0x5e98c6f59d80] Error submitting packet to decoder: Invalid data found when processing input
+213 more streams wait for the next run
+listening to 140 streams in 131 live games
+maybe_not  mbb  University of Illinois Urbana- 'Our investment in Decatur is an investment in everyone who calls Decatur Home. || Our inve'
+maybe_not  mbb  University of Illinois Urbana- 'Our investment in Decatur is an investment in everyone who calls Decatur Home. || Our inve'
+game       mbb  University of Kansas           "Johnny's is proud to be involved. If you're looking for another amateur sport, check out t"
+quiet      mbb  Fordham University             "I'll see you in New York.  Public media."
+quiet      mbb  Fordham University             'You see New York public'
+quiet      mbb  Fordham University             'You see New York public'
+game       mbb  University of Pittsburgh       "He's a transfer from Concord. 85-52. The end one is up and good. 85-53.  Farmer hits."
+game       mbb  University of Pittsburgh       "85-52. The end one is up and good 85-53.  As Farmer Hitsburg.  That's it."
+game       mbb  University of Pittsburgh       "85-52. The end one is up and good 85-53.  As Farmer Hitsburg.  That's it."
+quiet      mbb  Rider University               ''
+game       mbb  Mount St. Mary's University    "here running Michael Wolf as well.  That's home from Wolf 3, the right side off the A&O.  "
+game       mbb  Mount St. Mary's University    "Wolf as well.  That's home from Wolf 3, the right side off the A&O.  That's home's got the"
+maybe_not  mbb  Providence College             'be up to the official but you know the officials are going to get on television  more this'
+maybe_not  mbb  Providence College             'You know the officials are gonna get on television more this way. Well, they should put th'
+maybe_not  mbb  Providence College             "television more this way well they should put that rule in  it's 79 to 53 and a challenge "
+maybe_not  mbb  University of Maine            "He's going to ask you to think.  Yeah, he would have been on that team, I believe.  Andy g"
+game       mbb  University of Maine            'believe in you. We do. Bank where you matter more. Bank or savings bank.  Number FDIC, equ'
+quiet      mbb  University of Maine            ''
+maybe_not  mbb  College of Charleston          'help you understand your coverage options and choose the protection that meets your needs,'
+game       mbb  Stephen F. Austin State Univer "on the clock. Finds his teammate. It's Gonzalez check again for the first time.  This one "
+quiet      mbb  Stephen F. Austin State Univer ''
+quiet      mbb  Stephen F. Austin State Univer ''
+game       mbb  Western Kentucky University    'the young right side guard jumping  shooting low in the rim and is  pulled down by Jarvis '
+quiet      mbb  Western Kentucky University    ''
+game       mbb  Morehead State University      'right baseline toward the right elbow.  Alibi, oh, back behind him for it, young.  Straigh'
+game       mbb  Morehead State University      'right elbow.  Crip Dawson down low.  Chi-rel shot.  Tries to reverse left.  Parsley tip.  '
+game       mbb  University of Wisconsin-Madiso 'Treating the most complex conditions.  So Wisconsin is raising the bar on the court, on th'
+maybe_not  mbb  University of Wisconsin-Madiso 'in token assets stolen from its hot wallets.  Jim Forbes with more.  Binance said it will '
+maybe_not  mbb  University of Wisconsin-Madiso "opportunity that's going to make the Seahawks better.  Seattle host Chicago. Their newest "
+game       mbb  University of Denver           'than last year and that to me has been the key to Steelers this year is the play of the of'
+maybe_not  mbb  Seton Hall University          'Coverage for prescriptions, emergency services and more.  Plus you may qualify for financi'
+game       mbb  Seton Hall University          "Fm WSO you back here at the rock where the pirates hold on to a 19 point lead and we'll se"
+game       mbb  Seton Hall University          "Back here at the rock where the pirates hold on to a 19 point lead and we'll see whose pos"
+quiet      mbb  University of Southern Indiana ''
+game       mbb  Southeast Missouri State Unive 'for 12 from the free throw line.  Seemo has only shot four free throws.  This will be the '
+maybe_not  mbb  University of Nebraska-Lincoln 'to the Coraville extra pass a  season three got it.  Connor my boy.  Yeah.  Connor a seaso'
+maybe_not  mbb  University of Nebraska-Lincoln 'the season three got it on her my boy.  Yes.  On her a season first points of the year.  s'
+quiet      mbb  Le Moyne College               ''
+maybe_not  mbb  North Carolina State Universit "for all visit us at Lenovo.com.  Pay let's pause 10 seconds for station identification.  Y"
+game       mbb  Campbell University            "team in their home stadium. You've got to hit those threes that are fallen. But look, this"
+quiet      mbb  Pennsylvania State University  ''
+quiet      mbb  Canisius University            ''
+quiet      mbb  Canisius University            ''
+quiet      mbb  United States Naval Academy    ''
+game       mbb  Louisiana Tech University      'get out there and try to squeeze you and dry out that area in the right low block.  This h'
+game       mbb  Kent State University          'Francis with a right handed dribble gives the Tyler curls around left side, tries to get b'
+game       mbb  Kent State University          "Someone's out of the arc, little ball fake.  Kent State needs a bucket.  Why, Key wide ope"
+game       mbb  Kent State University          '2. Step back, made range jumper way too strong off the right side of the glass.  Off its a'
+game       mbb  University of Louisiana Monroe 'goes over to the left to scream from the floor. It takes it to the right.  Steps back in t'
+game       mbb  Central Michigan University    "Jump her up in its an air ball.  Didn't take it with confidence right there.  White grabs "
+game       mbb  Central Michigan University    'power. Hey, Jalen Kippen, this is your home all season long for  Central Michigan basketba'
+quiet      mbb  Central Michigan University    "Don't make me wonder"
+game       mbb  Marquette University           'Radio Network by Learfield. For NCAA rules, this market broadcast is unavailable on stream'
+maybe_not  mbb  Mississippi State University   'applying high efficiency natural gas appliances, smart thermostats, and weatherization upg'
+maybe_not  mbb  Mississippi State University   'multiple treatment options and their biotech certified providers.  Starful clinic for wome'
+maybe_not  mbb  Mississippi State University   'As well as Hunter Orange Gear and other hunting supplies.  As always, we offer on the spot'
+game       mbb  Tennessee Technological Univer 'Bank is a proud supporter of Tennessee Tech basketball, where your financial success is ou'
+maybe_not  mbb  University of Georgia          'And if you want inside access to breaking news...  Sorry, I talked over Joe Lindsey there,'
+maybe_not  mbb  University of Georgia          "anytime anywhere with the WSB Radio app.  It's all there.  The latest news and traffic on "
+maybe_not  mbb  University of Georgia          "anytime anywhere with the WSB Radio app.  It's all there.  The latest news and traffic on "
+quiet      mbb  University of South Florida    ''
+quiet      mbb  University of South Florida    ''
+game       mbb  University of Southern Mississ 'the ball is returned to action and  do they miss a shot? Get a rebound  and get a lay up s'
+game       mbb  North Dakota State University  '39-31. Andrew Degy out top. Diaz, good shopping to get Washington in the air on the right '
+game       mbb  North Dakota State University  'to turn her around a Whitaker screen.  Over the right now for Smith.  Fakes a hand-off wit'
+game       mbb  Tarleton State University      "right wing pulls it back out and out, loses his dribble,  he'll give it over.  There's Kei"
+game       mbb  Tarleton State University      "That's cornering the catch by Keisha on shield.  We're on the jab step, giving back on top"
+game       mbb  Tarleton State University      'Kishon Shield works on the Jaff step, give it back on top Xavier Harris.  Give it to Kelom'
+quiet      mbb  University of Texas at Arlingt "That's an average basketball game, is..."
+quiet      mbb  Western Illinois University    ''
+maybe_not  mbb  Bradley University             "John Appley and that's he.  That he's a he'll legend one of two to ever lead the nation in"
+game       mbb  Bradley University             "That he's a he'll legend one of two to ever lead the nation in  Hitting here comes Richard"
+game       mbb  Bradley University             'the new legend. One of two to ever lead the nation in hitting. Here comes Richardson with '
+quiet      mbb  Norfolk State University       "Number 7  Don't talk to shit  Show"
+quiet      mbb  Norfolk State University       'Mm-hmm.  Yeah.'
+game       mbb  University of Tulsa            'up front to Willis. Willis backing up on the dribble. Now he picks up his dribble and  Rig'
+quiet      mbb  University of Tulsa            ''
+maybe_not  mbb  Texas State University         'Taking away and here comes Texas State.  Cating gums in transitional dribble of back out. '
+game       mbb  Texas State University         'Going a bit quieter than in the first half  No point in the last four and a half minutes a'
+quiet      mbb  Bryant University              ''
+game       mbb  Siena University               "things so I'll go on deviation and maybe on the Brian side because we know  CNN is going t"
+maybe_not  mbb  Bethune-Cookman University     "to go maybe I thought the bar kind of played a little better than they did but you can't  "
+maybe_not  mbb  Furman University              "share data across any of the three networks, there's more coverage than any single carrier"
+maybe_not  mbb  Furman University              "that lets you share data across any of the three networks,  there's more coverage than any"
+maybe_not  mbb  Furman University              "share data across any of the three networks, there's more coverage than any single carrier"
+game       mbb  Southern Illinois University   "We got to be careful. We got to watch what they're doing defensively.  They don't get gass"
+game       mbb  Southern Illinois University   "a nice job on that offensive end. I think we got to be careful. We got to watch what they'"
+game       mbb  Northwestern University        "it over the Kaiser along the left-wing side, Hoxo.  You'll send a pass to Nazar at the Ava"
+game       mbb  Northwestern University        "it over the Kaiser along the left-wing side, Hoxo.  You'll send a pass to Nazar at the Ava"
+game       mbb  Northwestern University        'challenge that Marty Natures thought that he scored but the black  hocks throw the red fla'
+game       mbb  Binghamton University          'at ongoing series for several years, two of which will occur this year,  writer and say, P'
+game       mbb  Binghamton University          "There's Wes.  So for first half for Northwestern,  crossover's step down back at O'Come,  "
+maybe_not  mbb  Utah Valley University         'Jordy Barnes gonna pick up the foul because he clipped him on the wrist just should not ha'
+game       mbb  Texas Christian University     'It all adds up to a 57 to 37 lead for the Hornfrogs.  Their largest lead of the ball game '
+quiet      mbb  Texas Christian University     ''
+quiet      mbb  Texas Christian University     '192.5.'
+quiet      mbb  Lindenwood University          "It's gonna be..."
+game       mbb  Tulane University              'to a competitive advantage.  FOGO Solutions, your business, built better.  Visit FOGOSolut'
+game       mbb  Tulane University              'Mr. Wade, TJ Naidu is on the floor here to start things off.  So, a ye in place of Josiah '
+game       mbb  Tulane University              'Mr. Wade, TJ Naidu is on the floor here to start things off.  So, a ye in place of Josiah '
+quiet      mbb  University of Tennessee at Mar ''
+game       mbb  Southern Methodist University  'on two of six shooting miss both three attempts in that first half.  It did have three ass'
+maybe_not  mbb  Southern Methodist University  "But didn't deliver any business results.  LinkedIn is a name for that.  Bull spend.  Cut t"
+maybe_not  mbb  Southern Methodist University  'Real business results.  Choose LinkedIn ads and get the highest row ads for all major ad n'
+game       mbb  University of California, Berk '56 to 28. Yeah, Sammy and A really took over the first part of that first half for the  be'
+maybe_not  mbb  University of California, Berk "experience. Greg O'Donnell and his expert team are here to help you turn financial uncerta"
+maybe_not  mbb  University of California, Berk "experience. Greg O'Donnell and his expert team are here to help you turn financial uncerta"
+game       mbb  Austin Peay State University   "Floyd up the right wing, not there.  He'll wait for Marshall to screen through.  Now kicks"
+game       mbb  Austin Peay State University   "Felipe Menser inside the shot back over to huge he'll launch for three left wing rattles d"
+maybe_not  mbb  University of Portland         'of mechanic. Our job is to get you going again. So you can get back to life. Join us at  t'
+maybe_not  mbb  Saint Louis University         'will be awarded in June 2027 to the winning institutions in all college sports divisions. '
+game       mbb  Saint Louis University         'defense from the Billican St. Louis.  Kellent Thames leads the way with 11.  Alon McAiley '
+maybe_not  mbb  Saint Louis University         "and follow the year-long standings of your favorite team at Elle Director's Cup on the X p"
+maybe_not  mbb  Lehigh University              'real business results. Choose LinkedIn ads and get the highest  roas for all major ad netw'
+game       mbb  Loyola University Chicago      'turn over five for the Ramblers nine for the Bulldogs.  6-1 second chance points, 5-0 poin'
+game       mbb  The Citadel                    'three seconds to shoot and will maintain possession of the basketball here.  Gonna be grud'
+game       mbb  University of South Alabama    "basketball program, they lead 69 52 over the Golden Wholash's of Kent State 655 to go  wit"
+maybe_not  mbb  University of South Alabama    "the system can be confusing and the benefits you're entitled to aren't always easy to get."
+maybe_not  mbb  University of South Alabama    "the system can be confusing and the benefits you're entitled to aren't always easy to get."
+game       mbb  Ohio University                'stretch out the zone near side  the Augustino.  Tyler gets it back up top have  less you k'
+game       mbb  Arkansas State University      "three of five from distance.  It's nine points and a game high four assists.  No turnovers"
+maybe_not  mbb  Arkansas State University      "by Mr. T's at Riverside as we took a look at the first half team totals just a  moment ago"
+maybe_not  mbb  University of Toledo           'We do breakthrough treatments and innovative procedures to do life-saving kidney transplan'
+maybe_not  mbb  University of Toledo           'to go the distance, to do breakthrough treatments and innovative procedures, to do life-sa'
+game       mbb  University of Toledo           'in the rain surviving Georgia Tech 76 to 73.  Our score at the break.  It is Arkansas Stat'
+game       mbb  University of Louisiana at Laf '20 minutes of basketball left.  Macaron in control as we get ready to start the second hal'
+quiet      mbb  University of Louisiana at Laf ''
+game       mbb  University of Louisiana at Laf 'next with you. 877-99 on Fox. It is the odd couple Fox Sports radio. By the way, from tip '
+game       mbb  University of Akron            'Volgles out of bounds just Akron ball Wow  Akron keeps possession despite the contact  Coo'
+game       mbb  University of Akron            '17-10 to play in the ballgame.  Hammer and halogen about to come back with these zips.  Ke'
+game       mbb  University of Akron            'Wow.  Akron keeps the vet in his bike the contact.  Cooper back for the cage in his.  Whit'
+game       mbb  Wake Forest University         "the city would and he has.  It'll be Eastern shores ball to start the second half.  Wake i"
+quiet      mbb  Wake Forest University         ''
+game       mbb  DePaul University              'is Dixon.  Musen, looking for a straight line drive and stay cut off by Lula, so get it ba'
+quiet      mbb  University of West Georgia     'Any question?  Will anybody stay?  So many nights and tears are...'
+{'maybe_not': 39, 'game': 66, 'quiet': 30, 'no_audio': 5}
