@@ -1,55 +1,5 @@
 {
  "streams": {
-  "https://ice5.securenetsystems.net/KFIG": {
-   "school": "California State University, Fresno",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "KFIG",
-   "at": "2026-11-01T06:19:30Z",
-   "ad_hits": 0,
-   "checks": 4,
-   "preroll": false
-  },
-  "https://img.leanstream.co/IM7201-MP3": {
-   "school": "Oregon State University",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "",
-   "at": "2026-11-01T06:19:30Z",
-   "ad_hits": 0,
-   "checks": 4,
-   "preroll": false
-  },
-  "https://stream.revma.ihrhls.com/zc1949": {
-   "school": "Oregon State University",
-   "verdict": "game",
-   "title": "Oregon State Beaver Football",
-   "icy_name": "",
-   "at": "2026-11-01T06:19:30Z",
-   "ad_hits": 0,
-   "checks": 4,
-   "preroll": false
-  },
-  "https://stream.revma.ihrhls.com/zc1949/hls.m3u8": {
-   "school": "Oregon State University",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "",
-   "at": "2026-11-01T06:19:30Z",
-   "ad_hits": 0,
-   "checks": 4,
-   "preroll": false
-  },
-  "http://stream.revma.ihrhls.com/zc1949": {
-   "school": "Oregon State University",
-   "verdict": "game",
-   "title": "Oregon State Beaver Football",
-   "icy_name": "",
-   "at": "2026-11-01T06:19:30Z",
-   "ad_hits": 0,
-   "checks": 4,
-   "preroll": false
-  },
   "wbb|https://stream.revma.ihrhls.com/zc3405": {
    "school": "Villanova University",
    "sport": "wbb",
@@ -12563,9 +12513,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "KKEAAM",
-   "at": "2026-11-03T05:44:12Z",
+   "at": "2026-11-03T06:52:29Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KKEAAM_MP3.mp3": {
@@ -12574,11 +12524,11 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "KKEAAM",
-   "at": "2026-11-03T05:44:12Z",
+   "at": "2026-11-03T06:52:29Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   }
  },
- "checked": "2026-11-03T05:44:12Z"
+ "checked": "2026-11-03T06:52:29Z"
 }

@@ -2,22 +2,6 @@
 "log": [
 {
 "at": "2026-11-03T00:51:17Z",
-"school": "University of Vermont",
-"game": "Men's Basketball: UVM @ IONA",
-"url": "https://live.amperwave.net/manifest/vox-weavamaac-hlsc.m3u8",
-"verdict": "unknown",
-"title": ""
-},
-{
-"at": "2026-11-03T00:51:17Z",
-"school": "Harvard University",
-"game": "Men's Basketball: MIT @ HARV",
-"url": "http://stream.whrb.org:8000/whrb-mp3",
-"verdict": "music",
-"title": "Carwood, Cardinal's Musick - Fayrfax Fayrfax - Lauda Vivi Alpha Et O"
-},
-{
-"at": "2026-11-03T00:51:17Z",
 "school": "Marist University",
 "game": "Men's Basketball: DART @ MRST",
 "url": "https://cdn.jwplayer.com/live/broadcast/PjPtLeXO.m3u8",
@@ -9594,6 +9578,22 @@
 },
 {
 "at": "2026-11-03T05:44:12Z",
+"school": "University of Hawai'i at Manoa",
+"game": "Men's Basketball: SEA @ HAW",
+"url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKEAAM_MP3.mp3",
+"verdict": "unknown",
+"title": ""
+},
+{
+"at": "2026-11-03T06:52:29Z",
+"school": "University of Hawai'i at Manoa",
+"game": "Men's Basketball: SEA @ HAW",
+"url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKEAAM_AAC.aac",
+"verdict": "unknown",
+"title": ""
+},
+{
+"at": "2026-11-03T06:52:29Z",
 "school": "University of Hawai'i at Manoa",
 "game": "Men's Basketball: SEA @ HAW",
 "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKEAAM_MP3.mp3",
