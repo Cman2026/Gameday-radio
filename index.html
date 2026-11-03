@@ -1936,7 +1936,16 @@ function rinkView(e, a, h, bc){
    their color, their name on the baseline, their logo on the floor). The last 8 shots: solid = made,
    ring = missed, in each team's color; older shots fade and the newest one is labeled.
    ESPN's shot coordinates are in feet: x across the court (0-50), y out from the rim. */
+// "Darius Washington III makes free throw 2 of 2" -> "Washington"
+function shooterName(text){
+  const w = String(text||"").split(/\s+(?:makes|misses|blocks)\b/i)[0].trim().split(/\s+/);
+  return /^(jr\.?|sr\.?|ii|iii|iv)$/i.test(w[w.length-1]||"") ? w[w.length-2] : w[w.length-1];
+}
 function courtView(sum, a, h, bc){
+  const isFT = p => /free throw/i.test(`${p.type?.text||""} ${p.text||""}`);
+  // The latest trip to the line, if nothing has been shot from the floor since: "Washington FT 1 of 2"
+  const trip = [];
+  for(const p of realPlays(sum).slice().reverse()){ if(!p.shootingPlay) continue; if(!isFT(p)) break; if(trip.length && String(p.team?.id)!==String(trip[0].team?.id)) break; trip.unshift(p); }
   const shots = realPlays(sum).filter(p=>p.shootingPlay && !/free throw/i.test(`${p.type?.text||""} ${p.text||""}`) && p.coordinate &&
     p.coordinate.x>=-1 && p.coordinate.x<=51 && p.coordinate.y>=-3 && p.coordinate.y<=60).slice(-8);
   if(!shots.length) return "";
@@ -1946,7 +1955,7 @@ function courtView(sum, a, h, bc){
   const L = 'stroke="#fff" stroke-opacity=".92" stroke-width="3" fill="none"';
   const n = shots.length;
   const marks = shots.map((p, i)=>{
-    const x = X(p.coordinate.x), y = Y(p.coordinate.y), c = col(p), op = (0.4 + 0.6*(i+1)/n).toFixed(2), last = i === n-1;
+    const x = X(p.coordinate.x), y = Y(p.coordinate.y), c = col(p), op = (0.4 + 0.6*(i+1)/n).toFixed(2), last = i === n-1 && !trip.length;
     const halo = last ? `<circle class="halo" cx="${x}" cy="${y}" r="10" fill="none" stroke="${c}" stroke-width="3"/>` : "";
     const dot = p.scoringPlay
       ? `<circle cx="${x}" cy="${y}" r="${last?11:9}" fill="${c}" stroke="#fff" stroke-width="2.5" opacity="${op}"/>`
@@ -1954,13 +1963,21 @@ function courtView(sum, a, h, bc){
     return `<g><title>${esc(p.text||"")}</title>${halo}${dot}</g>`;
   }).join("");
   // Label the newest shot: "Hidalgo 3PT ✓" / "Bascoe 12-ft ✗"
-  const lp = shots[n-1], words = String(lp.text||"").split(/\s+(?:makes|misses|blocks)\b/i)[0].trim().split(/\s+/);
-  const last = /^(jr\.?|sr\.?|ii|iii|iv)$/i.test(words[words.length-1]||"") ? words[words.length-2] : words[words.length-1];
+  const lp = shots[n-1], last = shooterName(lp.text);
   const ft = /(\d+)-foot/i.exec(lp.text||""), three = /three point/i.test(lp.text||"");
   const label = `${last||""} ${three ? "3PT" : ft ? ft[1]+"-ft" : ""} ${lp.scoringPlay ? "✓" : "✗"}`.replace(/\s+/g," ").trim();
   const lw = label.length*8.6 + 20, lx = Math.max(lw/2 + 6, Math.min(494 - lw/2, X(lp.coordinate.x)));
   const ly = Y(lp.coordinate.y) < 46 ? Y(lp.coordinate.y) + 30 : Y(lp.coordinate.y) - 28;
   const tag = `<g transform="translate(${lx.toFixed(1)},${ly.toFixed(1)})"><rect x="${(-lw/2).toFixed(1)}" y="-13" width="${lw.toFixed(1)}" height="26" rx="13" fill="rgba(15,20,26,.86)"/><rect x="${(-lw/2).toFixed(1)}" y="-13" width="5" height="26" rx="2.5" fill="${col(lp)}"/><text x="3" y="5" text-anchor="middle" fill="#fff" font-family="Barlow Condensed, Barlow, sans-serif" font-weight="700" font-size="16" letter-spacing=".3">${esc(label)}</text></g>`;
+  let ftMark = "";
+  if(trip.length){
+    const c = col(trip[0]), made = trip.filter(p=>p.scoringPlay).length, of = +(/of\s+(\d)/i.exec(trip[trip.length-1].text||"")||[])[1] || trip.length;
+    const label = `${shooterName(trip[0].text)||""} FT ${made} of ${Math.max(of, trip.length)}`;
+    const w = label.length*8.6 + 20;
+    const dots = trip.map((p, i)=>{ const x = 250 + (i - (trip.length-1)/2)*26;
+      return p.scoringPlay ? `<circle cx="${x}" cy="190" r="9" fill="${c}" stroke="#fff" stroke-width="2.5"/>` : `<circle cx="${x}" cy="190" r="8" fill="rgba(0,0,0,.28)" stroke="${c}" stroke-width="3.5"/>`; }).join("");
+    ftMark = `<g><title>${esc(trip.map(p=>p.text||"").join(" · "))}</title>${dots}<g transform="translate(250,224)"><rect x="${(-w/2).toFixed(1)}" y="-13" width="${w.toFixed(1)}" height="26" rx="13" fill="rgba(15,20,26,.86)"/><rect x="${(-w/2).toFixed(1)}" y="-13" width="5" height="26" rx="2.5" fill="${c}"/><text x="3" y="5" text-anchor="middle" fill="#fff" font-family="Barlow Condensed, Barlow, sans-serif" font-weight="700" font-size="16" letter-spacing=".3">${esc(label)}</text></g></g>`;
+  }
   const name = esc(String(nameOf(h.team)||h.team.location||"").toUpperCase());
   const logo = h.team.logo ? `<image href="${esc(logoSrc(h.team))}" x="200" y="205" width="100" height="100" opacity=".2" preserveAspectRatio="xMidYMid meet"/>` : "";
   const hash = [70,110,140,170].map(y=>`<line x1="178" y1="${y}" x2="190" y2="${y}" ${L}/><line x1="310" y1="${y}" x2="322" y2="${y}" ${L}/>`).join("");
@@ -1990,7 +2007,7 @@ function courtView(sum, a, h, bc){
     <circle cx="250" cy="${RIM}" r="8" fill="none" stroke="#FF6A1A" stroke-width="3.5"/>
     <rect x="0" y="-30" width="500" height="365" fill="url(#courtVig)"/>
     <rect x="0" y="-30" width="500" height="365" fill="url(#courtGloss)"/>
-    ${marks}${tag}
+    ${marks}${trip.length ? ftMark : tag}
   </svg>
   <figcaption class="courtkey"><span>Last ${n} shots</span><span class="mk"><b class="m"></b>Made<b class="x"></b>Missed</span><span class="tm"><i style="background:${bc[0]}"></i>${esc(a.team.abbreviation||"")}<i style="background:${bc[1]}"></i>${esc(h.team.abbreviation||"")}</span></figcaption></figure>`;
 }
