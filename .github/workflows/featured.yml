@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: "23 11 * * *"   # every morning, about 6-7 AM Eastern, after the night's games
 permissions:
-  contents: write
+  contents: read
 concurrency: featured-report
 jobs:
   report:
@@ -13,4 +13,7 @@ jobs:
       - uses: actions/checkout@v5
       - run: python3 tools/featured_report.py
         env: { GOATCOUNTER_TOKEN: "${{ secrets.GOATCOUNTER_TOKEN }}" }
-      - run: tools/publish.sh "Featured picks report" reports/featured.html featured-log.json
+      # Kept as a download on the run (not committed, so it isn't on the website); a scheduled task
+      # copies it into Connor's private report page.
+      - uses: actions/upload-artifact@v4
+        with: { name: featured-report, path: out/, retention-days: 7 }

@@ -1,4 +1,4 @@
-"""Featured / Editor's Pick report -> reports/featured.html and featured-log.json.
+"""Featured / Editor's Pick report -> out/featured-report.html (a private page, not on the website).
 
 Every time the page features a game it records an analytics event "featured/<sport>/<game id>" whose
 title carries the reason, itemized, e.g.
@@ -59,26 +59,29 @@ def page(days):
 </article>''')
     body = "\n".join(rows) or '<p class="empty">No games have been featured in this period yet.</p>'
     updated = dt.datetime.now(ET).strftime("%B %-d, %-I:%M %p ET")
-    return f'''<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex"><title>Featured Picks Report</title>
+    return f'''<title>Featured Picks Report</title>
+<meta name="claude:viewport-fit-sides" content="cover">
 <style>
-:root{{--bg:#F2F3F5;--surface:#fff;--line:#E2E5EA;--text:#11161D;--muted:#5F6B7A;--accent:#C77700;--soft:#FFF3DF}}
-@media (prefers-color-scheme:dark){{:root{{--bg:#0F141A;--surface:#171D25;--line:#29313B;--text:#ECEFF3;--muted:#9AA5B2;--accent:#F2A93B;--soft:#2A2110}}}}
-body{{margin:0;background:var(--bg);color:var(--text);font:400 15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}}
-main{{max-width:760px;margin:0 auto;padding:24px 16px 48px}}
-h1{{margin:0 0 4px;font-size:26px}} .sub{{color:var(--muted);margin:0 0 18px}}
+/* One reading column of pick cards, grouped by day; Editor's Picks outlined in the site's gold. */
+:root{{--bg:#F2F3F5;--surface:#fff;--line:#E2E5EA;--text:#11161D;--muted:#5F6B7A;--accent:#A86400;--soft:#FFF3DF}}
+@media (prefers-color-scheme:dark){{:root:not([data-theme="light"]){{--bg:#0F141A;--surface:#171D25;--line:#29313B;--text:#ECEFF3;--muted:#9AA5B2;--accent:#F2A93B;--soft:#2A2110;color-scheme:dark}}}}
+:root[data-theme="dark"]{{--bg:#0F141A;--surface:#171D25;--line:#29313B;--text:#ECEFF3;--muted:#9AA5B2;--accent:#F2A93B;--soft:#2A2110;color-scheme:dark}}
+body{{background:var(--bg);color:var(--text);font:400 15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}}
+main{{max-width:760px;margin:0 auto;padding-block:24px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}}
+h1{{margin:0 0 4px;font-size:26px;text-wrap:balance}} .sub{{color:var(--muted);margin:0 0 18px;max-width:65ch}}
 details{{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin-bottom:18px}}
 summary{{font-weight:600;cursor:pointer}} table{{border-collapse:collapse;margin-top:8px;font-size:14px}} td{{padding:3px 12px 3px 0}} td+td{{text-align:right;font-variant-numeric:tabular-nums}}
 h2{{font-size:18px;margin:26px 0 10px;display:flex;gap:10px;align-items:baseline}} h2 .n{{font-size:13px;color:var(--muted);font-weight:500}}
-.pick{{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:10px;display:grid;gap:6px}}
+.pick{{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:10px;display:grid;gap:6px;min-width:0}}
 .pick.ed{{border-color:var(--accent)}}
 .top{{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:13px}}
-.slot{{font-weight:700;color:var(--accent)}} .sp{{color:var(--muted)}} .pts{{margin-left:auto;font-weight:700}}
+.slot{{font-weight:700;color:var(--accent)}} .sp{{color:var(--muted)}} .pts{{margin-left:auto;font-weight:700;font-variant-numeric:tabular-nums}}
 .game{{font-weight:600;font-size:16px}} .when{{color:var(--muted);font-size:13px}} .when a{{color:var(--accent)}}
 .items{{display:flex;flex-wrap:wrap;gap:6px}} .it{{background:var(--soft);border-radius:999px;padding:2px 10px;font-size:13px}}
 .empty{{color:var(--muted)}}
-</style></head><body><main>
+a:focus-visible,summary:focus-visible{{outline:2px solid var(--accent);outline-offset:2px}}
+</style>
+<main>
 <h1>Featured Picks Report</h1>
 <p class="sub">Every game the site featured, and why, for the last {DAYS} days. Updated {esc(updated)}. "Picked at" is the game clock when it first qualified; points are what it had then.</p>
 <details><summary>How games are picked</summary>
@@ -91,7 +94,7 @@ h2{{font-size:18px;margin:26px 0 10px;display:flex;gap:10px;align-items:baseline
 <tr><td>Win streak of 6+ (basketball; +2 per extra win)</td><td>10–25</td></tr><tr><td>One Top 25 team (top 10)</td><td>5 (10)</td></tr>
 </table></details>
 {body}
-</main></body></html>
+</main>
 '''
 
 
@@ -107,9 +110,10 @@ def main():
                 picks.setdefault((p["sport"], p["id"]), p)  # one line per game per day
         days.append((day, list(picks.values())))
         print(day, len(picks), "picks")
-    os.makedirs("reports", exist_ok=True)
-    open("reports/featured.html", "w").write(page(days))
-    json.dump([{"day": str(d), "picks": p} for d, p in days if p], open("featured-log.json", "w"), indent=1)
+    # Written for the private report only; nothing here is published on the website.
+    os.makedirs("out", exist_ok=True)
+    open("out/featured-report.html", "w").write(page(days))
+    json.dump([{"day": str(d), "picks": p} for d, p in days if p], open("out/featured-log.json", "w"), indent=1)
 
 
 if __name__ == "__main__":
