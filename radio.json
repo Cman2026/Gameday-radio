@@ -1127,26 +1127,16 @@
 "game_only": true,
 "no_radio": null,
 "notes": null,
-"streams": [
-"https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3",
-"https://18533.live.streamtheworld.com/APP_STATE_UNIVERSITY.mp3",
-"https://14623.live.streamtheworld.com/APP_STATE_UNIVERSITY.mp3"
-],
+"streams": [],
 "misses": 3,
 "miss_day": "2026-11-03",
 "last_ok": "2026-11-01",
-"live_only": true,
+"live_only": false,
 "athletics_site": "https://appstatesports.com",
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"game_feeds": [
-"https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3",
-"https://18533.live.streamtheworld.com/APP_STATE_UNIVERSITY.mp3",
-"https://14623.live.streamtheworld.com/APP_STATE_UNIVERSITY.mp3"
-],
-"game_feeds_at": "2026-11-02T22:56:40Z",
-"game_feeds_sport": "wbb"
+"game_feeds": null
 },
 {
 "school": "Arkansas State University",
@@ -4642,7 +4632,6 @@
 "no_radio": null,
 "notes": "WRGC (Sylva) streams on SecureNet (WRGC); free school audio also on CatamountSports.com. WVTF/RadioIQ streams were a wrong match.",
 "streams": [
-"https://cdn.jwplayer.com/live/broadcast/I1C1UhzW.m3u8",
 "https://ice24.securenetsystems.net/WRGC"
 ],
 "misses": 0,
@@ -4652,12 +4641,8 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"game_feeds": [
-"https://cdn.jwplayer.com/live/broadcast/I1C1UhzW.m3u8"
-],
-"game_feeds_at": "2026-11-02T20:33:23Z",
-"game_feeds_sport": "wbb",
-"live_only": true
+"live_only": true,
+"game_feeds": null
 },
 {
 "school": "Wofford College",
@@ -6317,7 +6302,6 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://cdn.jwplayer.com/live/broadcast/JpjCn1iT.m3u8",
 "https://live.amperwave.net/direct/saga-wkfnamaac-ibc2",
 "https://live.amperwave.net/manifest/saga-wkfnamaac-hlsc2.m3u8"
 ],
@@ -6328,12 +6312,8 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"game_feeds": [
-"https://cdn.jwplayer.com/live/broadcast/JpjCn1iT.m3u8"
-],
-"game_feeds_at": "2026-11-02T21:20:57Z",
-"game_feeds_sport": "wbb",
-"live_only": true
+"live_only": true,
+"game_feeds": null
 },
 {
 "school": "University of Central Arkansas",
@@ -7261,7 +7241,6 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://img.leanstream.co/LF0402-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAMAAC.m3u8",
 "http://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAMAAC.aac"
@@ -7274,11 +7253,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"game_feeds": [
-"https://img.leanstream.co/LF0402-MP3"
-],
-"game_feeds_at": "2026-11-02T18:41:13Z",
-"game_feeds_sport": "wbb"
+"game_feeds": null
 },
 {
 "school": "Colorado State University",
@@ -7795,7 +7770,6 @@
 "no_radio": null,
 "notes": "600 ESPN El Paso has been the flagship for football and men's basketball since 2019 (utepminers.com). KLAQ (rock) was heard playing music during the Nov 2 2026 men's basketball game, so it was dropped.",
 "streams": [
-"https://cdn.jwplayer.com/live/broadcast/qyhhpN0D.m3u8",
 "https://live.amperwave.net/direct/townsquare-krodamaac-ibc3",
 "https://live.amperwave.net/manifest/townsquare-krodamaac-ibc3"
 ],
@@ -7807,11 +7781,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"game_feeds": [
-"https://cdn.jwplayer.com/live/broadcast/qyhhpN0D.m3u8"
-],
-"game_feeds_at": "2026-11-02T21:20:57Z",
-"game_feeds_sport": "mbb"
+"game_feeds": null
 },
 {
 "school": "University of Wyoming",
@@ -10692,9 +10662,7 @@
 "game_only": null,
 "no_radio": null,
 "notes": "July 2026 release reaffirms WSPG as flagship. Live audio is at SpartanburgSportsRadio.com, the Fox Sports Spartanburg app, and TuneIn 'WSPG-AM'. No direct stream URL found (site not fetchable, Streema shows none). Per 2023 deal, all MBB and only some WBB",
-"streams": [
-"https://www.spartanburgsportsradio.com/"
-],
+"streams": [],
 "misses": 1,
 "miss_day": "2026-11-03",
 "last_ok": null,
@@ -10702,12 +10670,8 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"game_feeds": [
-"https://www.spartanburgsportsradio.com/"
-],
-"game_feeds_at": "2026-11-02T23:28:17Z",
-"game_feeds_sport": "mbb",
-"live_only": true
+"live_only": false,
+"game_feeds": null
 },
 {
 "school": "University of Southern Indiana",
