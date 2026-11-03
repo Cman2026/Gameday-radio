@@ -1,115 +1,5 @@
 {
  "streams": {
-  "https://img.leanstream.co/LF0401-MP3": {
-   "school": "Boise State University",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "",
-   "at": "2026-11-01T05:23:34Z",
-   "ad_hits": 0,
-   "checks": 4,
-   "preroll": false
-  },
-  "https://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAMAAC.aac": {
-   "school": "Boise State University",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "KBOIAM",
-   "at": "2026-11-01T05:23:34Z",
-   "ad_hits": 0,
-   "checks": 4,
-   "preroll": false
-  },
-  "https://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAMAAC.m3u8": {
-   "school": "Boise State University",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "",
-   "at": "2026-11-01T05:23:34Z",
-   "ad_hits": 0,
-   "checks": 4,
-   "preroll": false
-  },
-  "http://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAMAAC.aac": {
-   "school": "Boise State University",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "KBOIAM",
-   "at": "2026-11-01T05:23:34Z",
-   "ad_hits": 0,
-   "checks": 4,
-   "preroll": false
-  },
-  "https://img.leanstream.co/LF5801-MP3": {
-   "school": "Texas State University",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "",
-   "at": "2026-11-01T05:23:34Z",
-   "ad_hits": 0,
-   "checks": 4,
-   "preroll": false
-  },
-  "https://ktswlive.txstate.edu:8102/listen": {
-   "school": "Texas State University",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "KTSW Stream",
-   "at": "2026-11-01T05:23:34Z",
-   "ad_hits": 0,
-   "checks": 4,
-   "preroll": false
-  },
-  "https://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAMAAC.aac": {
-   "school": "University of Nevada, Las Vegas",
-   "verdict": "unknown",
-   "title": "error: HTTP Error 404: Not Found",
-   "icy_name": "",
-   "at": "2026-11-01T05:23:34Z",
-   "ad_hits": 0,
-   "checks": 4,
-   "preroll": false
-  },
-  "https://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAM.mp3": {
-   "school": "University of Nevada, Las Vegas",
-   "verdict": "unknown",
-   "title": "error: HTTP Error 404: Not Found",
-   "icy_name": "",
-   "at": "2026-11-01T05:23:34Z",
-   "ad_hits": 0,
-   "checks": 4,
-   "preroll": false
-  },
-  "http://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAMAAC.aac": {
-   "school": "University of Nevada, Las Vegas",
-   "verdict": "unknown",
-   "title": "error: HTTP Error 404: Not Found",
-   "icy_name": "",
-   "at": "2026-11-01T05:23:34Z",
-   "ad_hits": 0,
-   "checks": 4,
-   "preroll": false
-  },
-  "https://playerservices.streamtheworld.com/api/livestream-redirect/WDKBFMAAC.aac": {
-   "school": "Northern Illinois University",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "WDKBFM",
-   "at": "2026-11-01T05:23:34Z",
-   "ad_hits": 0,
-   "checks": 4,
-   "preroll": false
-  },
-  "https://playerservices.streamtheworld.com/api/livestream-redirect/WDKBFM.mp3": {
-   "school": "Northern Illinois University",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "WDKBFM",
-   "at": "2026-11-01T05:23:34Z",
-   "ad_hits": 0,
-   "checks": 4,
-   "preroll": false
-  },
   "https://ice5.securenetsystems.net/KFIG": {
    "school": "California State University, Fresno",
    "verdict": "unknown",
@@ -12666,7 +12556,29 @@
    "ad_hits": 0,
    "checks": 1,
    "preroll": false
+  },
+  "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KKEAAM_AAC.aac": {
+   "school": "University of Hawai'i at Manoa",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "KKEAAM",
+   "at": "2026-11-03T05:44:12Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KKEAAM_MP3.mp3": {
+   "school": "University of Hawai'i at Manoa",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "KKEAAM",
+   "at": "2026-11-03T05:44:12Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
   }
  },
- "checked": "2026-11-03T04:46:14Z"
+ "checked": "2026-11-03T05:44:12Z"
 }

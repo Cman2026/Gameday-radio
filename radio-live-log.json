@@ -2,22 +2,6 @@
 "log": [
 {
 "at": "2026-11-03T00:51:17Z",
-"school": "Iona University",
-"game": "Men's Basketball: UVM @ IONA",
-"url": "https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/aRSHQZWq.m3u8?exp=1793667840&sig=c4ee4ce3fa4ffdb4575082921682dd0f",
-"verdict": "unknown",
-"title": "error: HTTP Error 404: Not Found"
-},
-{
-"at": "2026-11-03T00:51:17Z",
-"school": "University of Vermont",
-"game": "Men's Basketball: UVM @ IONA",
-"url": "https://live.amperwave.net/direct/vox-weavamaac-imc?source=website",
-"verdict": "ad",
-"title": "ad|main - Commercial Break -"
-},
-{
-"at": "2026-11-03T00:51:17Z",
 "school": "University of Vermont",
 "game": "Men's Basketball: UVM @ IONA",
 "url": "https://live.amperwave.net/manifest/vox-weavamaac-hlsc.m3u8",
@@ -9597,6 +9581,22 @@
 "school": "University of Portland",
 "game": "Women's Basketball: WLMT @ PORT",
 "url": "https://cdn.jwplayer.com/live/broadcast/gHGkMnnD.m3u8",
+"verdict": "unknown",
+"title": ""
+},
+{
+"at": "2026-11-03T05:44:12Z",
+"school": "University of Hawai'i at Manoa",
+"game": "Men's Basketball: SEA @ HAW",
+"url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKEAAM_AAC.aac",
+"verdict": "unknown",
+"title": ""
+},
+{
+"at": "2026-11-03T05:44:12Z",
+"school": "University of Hawai'i at Manoa",
+"game": "Men's Basketball: SEA @ HAW",
+"url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKEAAM_MP3.mp3",
 "verdict": "unknown",
 "title": ""
 }
