@@ -1,13 +1,65 @@
-allaccess error https://ramblinwreck.com HTTP Error 404: Not Found
-allaccess error https://hokiesports.com HTTP Error 404: Not Found
-allaccess error https://gamecocksonline.com HTTP Error 404: Not Found
+
+[notice] A new release of pip is available: 26.2.2 -> 26.3
+[notice] To update, run: pip install --upgrade pip
+
+Running kernel seems to be up-to-date.
+
+Restarting services...
+
+Service restarts being deferred:
+ systemctl restart hosted-compute-agent.service
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
 allaccess error https://ukathletics.com HTTP Error 404: Not Found
+allaccess error https://gamecocksonline.com HTTP Error 404: Not Found
+allaccess error https://hokiesports.com HTTP Error 404: Not Found
+allaccess error https://ramblinwreck.com HTTP Error 404: Not Found
+allaccess error https://virginiasports.com HTTP Error 404: Not Found
+allaccess error https://hawkeyesports.com HTTP Error 404: Not Found
+allaccess error https://12thman.com HTTP Error 404: Not Found
+allaccess error https://mutigers.com HTTP Error 404: Not Found
+allaccess error https://lsusports.net HTTP Error 404: Not Found
+allaccess error https://arkansasrazorbacks.com HTTP Error 404: Not Found
+allaccess error https://goaztecs.com HTTP Error 404: Not Found
 allaccess error https://gocolgateraiders.com <urlopen error [Errno 104] Connection reset by peer>
 allaccess error https://ucfknights.com HTTP Error 404: Not Found
-official feeds added for: Ohio University (fb), University of Tennessee (mbb), Syracuse University (wbb), Michigan State University (wbb), Duke University (wbb)
+allaccess error https://nusports.com HTTP Error 404: Not Found
+allaccess error https://byucougars.com HTTP Error 404: Not Found
+official feeds added for: Ohio University (fb), University of Alabama (mbb), University of Tennessee (mbb), Kansas State University (mbb), South Dakota State University (mbb), University of Northern Iowa (mbb), University of Wyoming (mbb), Northern Arizona University (mbb), Southern Methodist University (wbb), Mississippi State University (wbb), University of North Alabama (wbb), Bradley University (wbb), Syracuse University (wbb), Michigan State University (wbb), Duke University (wbb), West Virginia University (wbb), Southern Illinois University (wbb), Indiana University (wbb), University of Louisiana at Lafayette (wbb), University of Pittsburgh (wbb), University of Montana (wbb)
+North Carolina A&T State University mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/3lwE0MIj.m3u8']
+Sam Houston State University mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/Brj5cPxa.m3u8']
+Drexel University mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/wNAweHo8.m3u8']
 allaccess error https://ccsubluedevils.com HTTP Error 405: Not Allowed
-leanplayer xml https://wofford.leanplayer.com/ <?xml version="1.0"?> <main><sports><sport><id>1</id><name>Football</name><is_show>0</is_show></sport><sport><id>2</id><name>Men&#x2019;s Basketball</name><is_show>0</is_show></sport><sport><id>3</id><name>Women&#x2019;s Basketball</name><is_show>0</is_show></sport></sports><events><current_ev/><upcoming_ev><event><id>116706</id><start_timestamp>1793745900</start_timestamp><start>2026-11-03 22:45:00</start><end>2026-11-04 02:45:00</end><sport_id>2</sport_id><opponent>Tennessee</opponent><url>https://peaksports.leanstream.co/PS0101-MP3</url></event><event><id>116707</id><start_timestamp>1794008
+leanplayer xml https://wofford.leanplayer.com/ <?xml version="1.0"?> <main><sports><sport><id>1</id><name>Football</name><is_show>0</is_show></sport><sport><id>2</id><name>Men&#x2019;s Basketball</name><is_show>0</is_show></sport><sport><id>3</id><name>Women&#x2019;s Basketball</name><is_show>0</is_show></sport></sports><events><current_ev><event><id>116706</id><start_timestamp>1793745900</start_timestamp><start>2026-11-03 22:45:00</start><end>2026-11-04 02:45:00</end><sport_id>2</sport_id><opponent>Tennessee</opponent><url>https://peaksports.leanstream.co/PS0101-MP3</url></event></current_ev><upcoming_ev><event><id>116707</id><start_times
 Wofford College mbb -> (leanplayer) ['https://peaksports.leanstream.co/PS0101-MP3']
 leanplayer xml https://rhody.leanplayer.com/ <?xml version="1.0"?> <main><sports><sport><id>1579</id><name>Rhode Island Football Coachs Show</name><is_show>1</is_show></sport><sport><id>1</id><name>Football</name><is_show>0</is_show></sport><sport><id>1597</id><name>The Archie Miller + Tammi Reiss Show</name><is_show>1</is_show></sport><sport><id>888</id><name>Rhode Island Football Coach's Show</name><is_show>1</is_show></sport><sport><id>441</id><name>Archie Miller Show</name><is_show>1</is_show></sport><sport><id>3</id><name>Women&#x2019;s Basketball</name><is_show>0</is_show></sport><sport><id>2</id><name>Men&#x2019;s Basketball</name
 University of Rhode Island mbb -> (leanplayer) ['https://learfield-gd.leanstream.co/LF4901-MP3?sport=MBB', 'https://learfield-gd.leanstream.co/LF4902-MP3?sport=MBB']
-other SIDEARM sport names seen: fitzgeraldshow, football, izzoshow, kelsayshow, mbasket, mbball, mhockey, nightingaleshow, vol-network, wbball, wvball
+Manhattan University mbb -> []
+University of North Carolina at Greensboro mbb -> []
+Stetson University mbb -> []
+Coppin State University mbb -> []
+Hampton University mbb -> []
+College of the Holy Cross mbb -> []
+Wagner College mbb -> []
+Lipscomb University mbb -> []
+University of Arkansas at Pine Bluff mbb -> []
+University of Nebraska Omaha wbb -> []
+Mississippi Valley State University wbb -> []
+University of Texas at Arlington wbb -> ['https://img.leanstream.co/LF8001-MP3']
+University of Texas at Arlington wbb -> []
+University of the Incarnate Word wbb -> []
+University of Pennsylvania wbb -> []
+University of Pennsylvania wbb -> []
+University of North Carolina Wilmington wbb -> []
+University of North Carolina Wilmington wbb -> ['https://ais-sa8.cdnstream1.com/2758_64.aac/start-session', 'https://das-edge54-sa28-lax02.cdnstream.com/2758_64.aac?listeningSessionId=NlIzVkpGVllYRlhHUUNBQU1UTFFBVzQ2TzRfZGFzLWVkZ2U1NC1zYTI4LWxheDAyLmNkbnN0cmVhbS5jb206ODE4Ng..&playerid=esPlayer']
+Sacred Heart University wbb -> []
+Virginia Commonwealth University wbb -> ['https://img.leanstream.co/LF6501-MP3']
+Central Connecticut State University wbb -> []
+Valparaiso University wbb -> []
+University of Wisconsin-Green Bay wbb -> []
+University of Wisconsin-Green Bay wbb -> ['https://greenbayphoenix.mixlr.com/', 'https://apicdn.mixlr.com/v3/channel_view/greenbayphoenix', 'https://apicdn.mixlr.com/v3/channel_me']
+other SIDEARM sport names seen: fitzgeraldshow, football, general, izzoshow, kelsayshow, mbasket, mbball, mhockey, nightingaleshow, vol-network, wbball, wvball
