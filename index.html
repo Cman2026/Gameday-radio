@@ -108,7 +108,7 @@ h1 span{color:inherit}
 .seg{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2px;padding:3px;margin:0 0 10px;background:var(--surface-2);border:1px solid var(--line);border-radius:var(--r-md)}
 .seg[hidden]{display:none}
 .seg button{border:0;background:transparent;border-radius:7px;height:34px;font:500 14px var(--ui);color:var(--muted);cursor:pointer}
-.seg button .lv{margin-left:8px;color:var(--live);font-weight:600;font-size:13px} /* "● 1 live": which side the live game is on */
+.seg button .lv{margin-left:6px;color:var(--live);font:600 11px var(--num);white-space:nowrap} /* "● 1 live": which side the live game is on */
 .seg button[aria-pressed="true"]{background:var(--surface);color:var(--text);font-weight:600;box-shadow:0 0 0 1.5px var(--accent),0 0 10px color-mix(in srgb,var(--accent) 35%,transparent)}
 :is(.sport,.seg button):focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 :is(.sport,.seg button):active{box-shadow:0 0 0 1.5px var(--accent),0 0 10px color-mix(in srgb,var(--accent) 35%,transparent)}
