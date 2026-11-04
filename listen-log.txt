@@ -1,172 +1,78 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-[AVFormatContext @ 0x61ae03aa3fc0] Invalid HLS ID3 audio timestamp 15830194176
-[in#0 @ 0x5f38539eacc0] Error opening input: Server returned 403 Forbidden (access denied)
-Error opening input file https://ice6.securenetsystems.net/WXTQ?playSessionID=8F1B4343-BF38-4893-8CA6-6F42E506C814.
+[hls @ 0x5e5a3cfcaf80] URL https://prod-44-192-98-215.amperwave.net/a/?lid=13b16d63-6fea-42d3-81f7-68de32786e5e&u=https%3A%2F%2Fd25j5qm9y8ulag.cloudfront.net%2Fc%2Fad%2Fa%2F099aa12a02410d55817d68cf5361c1bc_0.aac%3Fsid%3D9184 is not in allowed_segment_extensions, consider updating hls.c and submitting a patch to ffmpeg-devel, if this should be added
+[out#0/wav @ 0x5e5a3d264f80] Output file does not contain any stream
+Error opening output file /tmp/tmpt1yb753h.wav.
+Error opening output files: Invalid argument
+[in#0 @ 0x5a0eaa683cc0] Error opening input: Server returned 403 Forbidden (access denied)
+Error opening input file https://ice6.securenetsystems.net/WXTQ?playSessionID=1EE0B67D-CCF2-4454-882E-BF8C2E981F1C.
 Error opening input files: Server returned 403 Forbidden (access denied)
-[0;93m2026-11-04 01:04:53.828024681 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-[AVFormatContext @ 0x607e60eb0e80] Invalid HLS ID3 audio timestamp 15832463903
-[AVFormatContext @ 0x5c0f3aa18fc0] Invalid HLS ID3 audio timestamp 15834686976
-[AVFormatContext @ 0x55988b831fc0] Invalid HLS ID3 audio timestamp 15834686976
-[AVFormatContext @ 0x5bb320217fc0] Invalid HLS ID3 audio timestamp 15842774016
-[hls @ 0x5ffe27efaf80] URL https://prod-44-195-61-138.amperwave.net/a/?lid=d9d6bc2e-20aa-4e0e-a171-68f35b8f4120&u=https%3A%2F%2Fd25j5qm9y8ulag.cloudfront.net%2Fc%2Fad%2Fa%2F9c11bbb880ff6ec74807c53904f116ea_2.aac%3Fsid%3D7925 is not in allowed_segment_extensions, consider updating hls.c and submitting a patch to ffmpeg-devel, if this should be added
-[hls @ 0x5ffe27efaf80] Error when loading first segment 'https://prod-44-195-61-138.amperwave.net/a/?lid=f6ef4334-ecd1-4b73-a1cd-3b7ece95c1f0&u=https%3A%2F%2Fprod-44-195-61-138.amperwave.net%2Fid3%2F1%2F0%2Fa%2F40%2F9c11bbb880ff6ec74807c53904f116ea_0.aac'
-[in#0 @ 0x5ffe27efacc0] Error opening input: Invalid data found when processing input
-Error opening input file https://live.amperwave.net/manifest/saga-wnaxamaac-hlsc1.m3u8.
-Error opening input files: Invalid data found when processing input
-[in#0 @ 0x5819c712ccc0] Error opening input: Server returned 5XX Server Error reply
-Error opening input file https://ais-sa8.cdnstream1.com/2750_64.aac.
-Error opening input files: Server returned 5XX Server Error reply
-[in#0 @ 0x57fdc932bcc0] Error opening input: Invalid data found when processing input
-Error opening input file https://greenbayphoenix.mixlr.com/.
-Error opening input files: Invalid data found when processing input
-[in#0 @ 0x596ed8058cc0] Error opening input: Server returned 404 Not Found
-Error opening input file https://apicdn.mixlr.com/v3/channel_view/greenbayphoenix.
-Error opening input files: Server returned 404 Not Found
-[https @ 0x5bab611f5580] Stream ends prematurely at 0, should be 18446744073709551615
-[in#0 @ 0x5bab611f4cc0] Error opening input: Input/output error
-Error opening input file https://apicdn.mixlr.com/v3/channel_me.
-Error opening input files: Input/output error
-[AVFormatContext @ 0x63f900269fc0] Invalid HLS ID3 audio timestamp 15845469696
-[AVFormatContext @ 0x5b55ce5915c0] Invalid HLS ID3 audio timestamp 15849063936
-[in#0 @ 0x568d7e22dcc0] Error opening input: Server returned 403 Forbidden (access denied)
-Error opening input file https://ice64.securenetsystems.net/WBYSAM?playSessionID=F8CDB7E1-16E3-4AD3-A451-0101D6A3F673.
-Error opening input files: Server returned 403 Forbidden (access denied)
-[in#0 @ 0x615f0b3efcc0] Error opening input: Server returned 404 Not Found
-Error opening input file https://cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8.
-Error opening input files: Server returned 404 Not Found
-[in#0 @ 0x5fd7fe0bdcc0] Error opening input: Server returned 5XX Server Error reply
+[AVFormatContext @ 0x5bd49e751600] Invalid HLS ID3 audio timestamp 16356750336
+[0;93m2026-11-04 02:41:56.461379988 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[AVFormatContext @ 0x5c9536517fc0] Invalid HLS ID3 audio timestamp 16363938816
+[in#0 @ 0x5d13d6109cc0] Error opening input: Server returned 5XX Server Error reply
 Error opening input file https://img.leanstream.co/LF8001-MP3.
 Error opening input files: Server returned 5XX Server Error reply
-[hls @ 0x5a8842ec5f80] URL https://prod-34-227-171-136.amperwave.net/a/?lid=71ccc8ca-b26a-4088-a982-cfba263b8d4f&u=https%3A%2F%2Fd25j5qm9y8ulag.cloudfront.net%2Fc%2Fad%2Fa%2Fa1265ecd4e97b22d3ba50f6ef113ef37_0.aac%3Fsid%3D7337 is not in allowed_segment_extensions, consider updating hls.c and submitting a patch to ffmpeg-devel, if this should be added
-[out#0/wav @ 0x5a88431dd880] Output file does not contain any stream
-Error opening output file /tmp/tmpoz26cu02.wav.
-Error opening output files: Invalid argument
-[AVFormatContext @ 0x620fad96bfc0] Invalid HLS ID3 audio timestamp 15856252416
-[in#0 @ 0x600952da4cc0] Error opening input: Server returned 404 Not Found
-Error opening input file https://cdn.jwplayer.com/live/broadcast/oSwCUWZ2.m3u8.
-Error opening input files: Server returned 404 Not Found
-[AVFormatContext @ 0x59651e33efc0] Invalid HLS ID3 audio timestamp 15868832256
-[aac @ 0x6497b841c280] env_facs_q 255 is invalid
-[AVFormatContext @ 0x5e3ba1f115c0] Invalid HLS ID3 audio timestamp 15875122176
-[AVFormatContext @ 0x5b857abadfc0] Invalid HLS ID3 audio timestamp 15878716416
-people listened to 2 team stations in the last 2 hours: [('fb', 'Ohio'), ('mbb', 'Tennessee')]
-listening to 130 streams in 49 live games
-maybe_not  fb   Ohio University                "and Gantz 9 for 64 running the ball. He's going to be fine.  5 10, 205 pound senior gettin"
-game       fb   University of Akron            "one. And as it's too obvious to just run  gantt again right here. We will see two receiver"
-game       fb   University of Akron            'the 19th. So a five yard pickup  second down in five for the zips.  807 to go second quart'
-game       fb   University of Akron            'one. And is it too obvious to just run  Gantt again right here? We will see two receivers '
-game       mbb  University of Virginia         "anywhere. Multiple locations  across grounds and they're open  seven days a week. Visit th"
-game       mbb  University of Virginia         'and their open seven days a week.  Visit them today or online at uvbookstores.com.  Your p'
-game       mbb  Drexel University              'as the Ritter had a wide open three.  Now what it got him to 19 first half points.  Read p'
-game       mbb  University of Alabama          "physicality and toughness and that's affected.  Alabama especially shooting the ball takin"
-quiet      mbb  University of Alabama          ''
-quiet      mbb  University of Alabama          'time'
-game       mbb  University of Kentucky         "the second half. We're  Manhattan 53 24 Wilkins front  court. Three ball. No good off  the"
-game       mbb  University of Kentucky         "It's a zoom in the left corner.  Zoom penetrates, gets to the rim, leader good.  Nice.  I "
-game       mbb  University of Kentucky         "the right side.  Caram's out.  Come on, Sheila.  She gets into the lane, throws it out to "
-maybe_not  mbb  Duquesne University            "What's his summer to you?  Sunshine road trips, camping, and...  Ford being number one in "
-maybe_not  mbb  Duquesne University            'thousands of miles of pipelines throughout Western Pennsylvania.  Replacing aged infrastru'
-maybe_not  mbb  Duquesne University            'My kind of summer.  For APR, offer information visit 4.com or your local 4-dealer.  For JD'
-game       mbb  Purdue University Fort Wayne   'from the hoop gives it off to  Berman.  Berman there made court with  a crossover against '
-game       mbb  Purdue University Fort Wayne   "Now back to Mastodon's basketball on Fort Wayne's sports station.  In the first half, Mast"
-game       mbb  Purdue University Fort Wayne   'from the hoop gives it off to  Berman.  Berman there made court with  a crossover against '
-maybe_not  mbb  University of South Carolina   'to start the season right well you went to moshland said 92 was that when you  first met d'
-maybe_not  mbb  University of South Carolina   'And that staff lost his job and then Billy Donovan was hired.  A very young Billy Donovan '
-maybe_not  mbb  University of South Carolina   'with the marshland set 92 was that when you first met dottie jones  it was around 92 yeah '
-game       mbb  Virginia Tech                  "It's Game On.  Visit your Southern Virginia Foothill dealer,  proud sponsor of Virginia Te"
-maybe_not  mbb  Georgia Institute of Technolog 'As provider, with great options fit for every home,  Ms. Ganah gives Mama Bear and I peace'
-maybe_not  mbb  Georgia Institute of Technolog 'As provider, with great options fit for every home,  scanner gives Mama Bear and I peace o'
-game       mbb  University of Rhode Island     '27. You are ahead at the half. Chris, you take away from the first half of play.  Very eff'
-game       mbb  University of Rhode Island     "It's wide of the mark out of bounds and it'll be Rhode Island ball.  Alex Nusen's gone aga"
-game       mbb  Boston College                 'Punkers swings it left side to Shelton and a ball.  About 15 feet away for the bucket driv'
-maybe_not  mbb  Boston College                 'that thing was ridiculous.  They messed up with the athletes more than they do  with the p'
-game       mbb  Boston College                 "record.  The record of the  sobiety six six two hundred  five pounds.  He's grabbing his j"
-game       mbb  University of Arkansas         'in the exhibition opener against Gonzaga.  Trying to increase the Razorback lead to 4-2.  '
-game       mbb  University of Arkansas         'I know increased the Razorback lead to 4-2.  Two minutes and 10 seconds gone.  Second free'
-maybe_not  mbb  University of Northern Iowa    'who fits best where now we get our first two  substitutes into the game is Carson Viss and'
-quiet      mbb  University of Northern Iowa    'Market Grill. Open daily 6 AM to 2 PM.'
-maybe_not  mbb  Houston Christian University   "having some fun lighting and precious is it the Markley band camp and Robin  Stroke || It'"
-game       mbb  Louisiana State University     "Here's the abate working short corner right side of the floor steps into the paint goes up"
-game       mbb  Louisiana State University     "have to have wide open three  rounded down it's good from  Donovan Dent that'll make it  s"
-quiet      mbb  University of New Orleans      ''
-quiet      mbb  University of New Orleans      ''
-quiet      mbb  University of New Orleans      ''
-maybe_not  mbb  University of Missouri         "be a lot of fun. And hopefully by the end of the night, we've got good news for at least m"
-game       mbb  University of Missouri         "tonight.  Kansas, Missouri, either or, but it's not good. Oh, man. You know, I know in the"
-maybe_not  mbb  Cleveland State University     'the field goal. 10 nothing  Missouri. Two minutes 20 seconds  go on here in Columbia.  Int'
-game       mbb  Texas A&M University           'Rhode Island and Tennessee, a lot of states there where results will start to come in.  Al'
-maybe_not  mbb  Alabama State University       'her endorsement to Maga Republican Mike Rogers who she had been criticizing for months.  T'
-quiet      mbb  University of Iowa             "Let's forget about it"
-blocked    mbb  University of Iowa             "and podcasts. Thanks for listening to The IHeart Radio app. You're currently  outside the "
-blocked    mbb  University of Iowa             'Currently outside the approved area to stream this play-by-play event.  To ensure you have'
-game       mbb  Kansas State University        'the ball into Rex Steiner on the right side.  Here is shoot up top.  Right side to Gilhoo.'
-game       mbb  Kansas State University        'missed the tip but then  her house and scores it nice play  by pop there he has his first '
-game       mbb  South Dakota State University  'first half Brandon Rex  daughter the six one senior  guard.  Nice as way down the lane.  H'
-maybe_not  wbb  Duke University                'the ball.  The ball is really going to  steal.  Whitman has to run it down near  the make '
-maybe_not  wbb  Duke University                "us to. I'm Brandon giggling president of Parkway Sleep Health Centers. At Parkway, we make"
-quiet      wbb  Texas Christian University     ''
-quiet      wbb  Texas Christian University     ''
-quiet      wbb  Texas Christian University     ''
-maybe_not  wbb  Oral Roberts University        "because it's a reality that that game could be for a great deal. No longer for the ease,  "
-game       wbb  West Virginia University       "the ball's in the air and not caught.  It still counts against them.  Here's the right sid"
-maybe_not  wbb  West Virginia University       "to.  What's Virginia?  Nice thing about this.  He has options.  He has different ways he c"
-game       wbb  Michigan State University      "3-pointers from Amy Terry.  I think it's a pretty good mention there partner is.  Brawler "
-maybe_not  wbb  Michigan State University      'and their polls and the coaches poll has zero and I do mean zero bearing or implications  '
-maybe_not  wbb  Michigan State University      'that you need to recover from.  And classes where it feels like everyone already knows wha'
-maybe_not  wbb  University of Central Florida  "final to wait. No, but I'm just saying, G.A. wasn't in the finals. What's that? SGA wasn't"
-maybe_not  wbb  University of Central Florida  "a lot of points that really don't factor in because somebody needs to score and that  LeBr"
-maybe_not  wbb  University of Central Florida  "G8 wasn't in the finals as long as you at first if as long as he's not a first round exit "
-game       wbb  Florida A&M University         'on our 96.1 app.  And on Alexa,  get along the 96.1 Jams app today  and listen to us live '
-game       wbb  Florida A&M University         'on our 96.1 app.  And on Alexa,  get along the 96.1 Jams app today  and listen to us live '
-game       wbb  Florida A&M University         'on our 96.1 app.  And on Alexa,  get along the 96.1 Jams app today  and listen to us live '
-game       wbb  Southern Illinois University   "You're listening to the Billboard Tough Half-Time Show powered by Mediacom and Saluki Spor"
-quiet      wbb  Southern Illinois University   ''
-game       wbb  Indiana University             'Second bucket of the day 36-22 Indiana with eight and a half to go in the third  Douglas t'
-quiet      wbb  Indiana University             ''
-game       wbb  University of Louisiana at Laf 'up. Cajuns cannot afford to lose another forward after already losing low and earlier toni'
-quiet      wbb  University of Louisiana at Laf ''
-game       wbb  University of Louisiana at Laf 'Good for her to be back up.  Cajuns cannot afford to lose another forward after already lo'
-game       wbb  East Tennessee State Universit "for for Tennessee. Yeah,  there's no doubt about it.  Tennessee has been a bit of a  left "
-game       wbb  East Tennessee State Universit "implications for for Tennessee.  Yeah, there's no doubt about it.  And Tennessee has been "
-game       wbb  East Tennessee State Universit "Yeah, there's no doubt about it.  And Tennessee's been a bit of a  left down this season. "
-game       wbb  University of Pittsburgh       "It's still a turnover because St. Peter's never crossed the midline.  The clock was actual"
-game       wbb  University of Pittsburgh       'Sports Radio 93 7 The Fan gets your day started with the latest in Pittsburgh Sports with '
-maybe_not  wbb  University of Pittsburgh       'The second period, trail the Golden Knights won nothing.  Van Headlands are powered by Bow'
-maybe_not  wbb  Providence College             "Jonathan O'Brien, he's in Georgia tonight. And Jonathan, this is a major hold for Democrat"
-maybe_not  wbb  Providence College             "He's in Georgia tonight.  And Jonathan, this is a major hold for Democrats for one of the "
-maybe_not  wbb  Providence College             'for one of the the most closely divided battleground states in the the country that this i'
-game       wbb  Seton Hall University          "Fire saying they're offensive look so much calls receives  How does it happen to keep goin"
-game       wbb  Seton Hall University          "That's the topic you go to by two.  Finds catalog around the perimeter.  This is the free "
-game       wbb  Seton Hall University          "That's the topic you go to by two.  Finds catalog around the perimeter.  This is the free "
-quiet      wbb  University of Tulsa            ''
-game       wbb  California State University, S "He's one of the games great, but you know if that makes a butcher boy feel better and he c"
-maybe_not  wbb  California State University, S "But after what we've seen over the course of like the last two weeks I had on Monday last "
-maybe_not  wbb  University of Wisconsin-Madiso "with the current ones being term limited.  I'm at Matinson in the Rockies.  Let's check wi"
-maybe_not  wbb  University of Wisconsin-Madiso "the other central states are just closing right now.  I'm Brian Combs with the Midwest.  L"
-maybe_not  wbb  University of Wisconsin-Madiso "the first one's being term  limited. I'm at Matinson in  the Rockies. Let's check with  Ja"
-maybe_not  wbb  Bradley University             "neighbors taken a schoolmate of my sons from the soccer team was abducted so I  say that's"
-maybe_not  wbb  Bradley University             "neighbors taken a schoolmate of my sons from the soccer team was abducted so I  say that's"
-game       wbb  Mississippi State University   "down run their offense and do their thing that's the only thing keeping this from  being a"
-maybe_not  wbb  Mississippi State University   'While the rest of us are told, if you own a vehicle, you have to license it.  Homeless peo'
-maybe_not  wbb  Mississippi State University   "have a good time.  Well you're conflating a couple of times.  You're not letting me finish"
-game       wbb  University of North Alabama    'another turnover for the force pass for the Lions.  Make it now 16 turnovers, four north A'
-maybe_not  wbb  University of North Alabama    "Okay, so it's seven. That's pretty close. Yeah, so that's retail beer. It's not the liquor"
-game       wbb  Southern Methodist University  'back it up. On the right wing, looking, now pass to the left side the cane. To the corner,'
-maybe_not  wbb  Southern Methodist University  'out of puck length away from the goal line and  underengt desperation was able to claim it'
-maybe_not  wbb  Southern Methodist University  'The phone is credit to reduce daytime energy cost every summer, so the more free energy  y'
-quiet      wbb  Le Moyne College               "What's your name?  Cause 96.5  The beat"
-game       wbb  University of Kansas           'Going through traffic on that fast break and gets it to go down.  Jayhawks on the 6-0 run,'
-quiet      wbb  Weber State University         ''
-maybe_not  wbb  Utah Valley University         'your hacked off of being number 11.  Is it have a lot of ball left to be played?  You play'
-maybe_not  wbb  Northwestern University        "in Micah. Thank you Jenna. Now to the Jessica Biggs campaign that's where WGN's  Dana Rebe"
-maybe_not  wbb  Northwestern University        "in Micah. Thank you Jenna. Now to the Jessica Biggs campaign that's where WGN's  Dana Rebe"
-maybe_not  wbb  Northwestern University        "and the sun times reporting $3.5 million spent just on opposing Deminga's alone.  But one "
-maybe_not  wbb  University of Wisconsin-Milwau "understand what we do. So I've been saying this today and actually have been saying this f"
-maybe_not  wbb  University of Utah             'I did. So I had a road team from the stuff that I ate, you know, the whole 48 hour rule.  '
-maybe_not  wbb  Eastern Washington University  "the, as the day goes on, it's been, uh, it's been kind of cool to see that he seems like a"
-maybe_not  wbb  Eastern Washington University  "And it's been kind of cool to see that.  He seems like a good guy, but I think everybody l"
-maybe_not  wbb  Eastern Washington University  "And it's been kind of cool to see that.  He seems like a good guy, but I think everybody l"
+[in#0 @ 0x610daa82ccc0] Error opening input: Server returned 5XX Server Error reply
+Error opening input file https://das-edge29-sa27-lax02.cdnstream.com/2284_96.aac.
+Error opening input files: Server returned 5XX Server Error reply
+[aac @ 0x6070bc7da140] env_facs_q 251 is invalid
+[aac @ 0x567e9ad34cc0] env_facs_q 252 is invalid
+[AVFormatContext @ 0x5831b70bffc0] Invalid HLS ID3 audio timestamp 16378315776
+people listened to 1 team stations in the last 2 hours: [('fb', 'Ohio')]
+listening to 59 streams in 25 live games
+game       fb   Ohio University                'back in terms of pitch phase just  kind of run right at the back of that  tight end is out'
+game       fb   Miami University               'going to half. They move the ball very well as they move at 14 plays 58 yards  in at two m'
+game       fb   University of Akron            'got a yard for two more but now this third and the back three.  I think a lot of that self'
+game       fb   University of Akron            "for the Ohio 11. Here's the snap. Here's a run play.  Broton left side. Tanny's got blocke"
+game       fb   University of Akron            "got a yard or two more but now there's third and the back three. I think a lot of  that se"
+quiet      mbb  Missouri State University      'See you soon.'
+game       mbb  New Mexico State University    'guard by Jeremy P. R.O. Robinson kicks it back out, Dudley wants us straight away.  Three '
+game       mbb  University of Wyoming          "The front row seat to growing up brown and gold.  It's more than a fan club.  It's their f"
+game       mbb  University of Wyoming          'wide open for the cowboys to win. How do they lose that game?  That was a tough one. Right'
+maybe_not  wbb  University of Montana          'at the stripe this season.  These are perfect two for two so far.  Westerner team that sho'
+maybe_not  wbb  University of Montana          'that get knocked down, knocked down, knocked down, more is going to principal and interest'
+maybe_not  wbb  Brigham Young University       'notice requirements up to speed up to where we are and with respect to information and  ne'
+maybe_not  wbb  Brigham Young University       "I can understand that. I mean, if that's the way that people want to look at things,  but "
+maybe_not  wbb  Brigham Young University       "Yeah.  Yeah.  So that's more consistent with where people get their information instead of"
+game       wbb  Idaho State University         'shuffled her feet as battle for the rebound.  And believe it should be a jump ball and it '
+game       wbb  Idaho State University         'rebound is believe it should be a jump ball and it will be.  Brindley Cannon wanted a foul'
+game       mbb  University of Virginia         "You're own floor to it.  I was porn in it.  It really did.  I had another 40-pointer.  Tha"
+game       mbb  University of Virginia         "and off your entire Domino's order.  You're locally owned Domino's, delivering free kindne"
+game       mbb  Drexel University              'You can wrap this one up.  Dragons, O and one, of course UVA, one and O.  The season has j'
+maybe_not  mbb  University of Arkansas         'you need more than just any connection. You need fast, reliable business  internet and 20%'
+game       mbb  University of Arkansas         "the on Thompson with a bucket puts the  arms up by 28 and he's headed to  the foul line tw"
+game       mbb  University of Northern Iowa    'over Cornell. Take the Panthers with you wherever you go with the  Bar St. Network app liv'
+maybe_not  mbb  University of Northern Iowa    'Just about everywhere, unfortunately neither one of us is going to be able to be at  Fermi'
+not_game   mbb  Houston Christian University   'care age or getting close or you have a loved one that is. Be careful with those  unsolici'
+game       mbb  Louisiana State University     "get another three this time Parsons can't find the accuracy unless you come  see other way"
+game       mbb  Louisiana State University     "get another three this time Parsons can't find the accuracy unless you come  see other way"
+maybe_not  mbb  University of New Orleans      'birth date reward and get exclusive access to new items and special events.  Nick the Gree'
+maybe_not  mbb  University of New Orleans      'birth date reward and get exclusive access to new items and special events.  Nick the Gree'
+maybe_not  mbb  University of New Orleans      'birth date reward and get exclusive access to new items and special events.  Nick the Gree'
+not_game   mbb  University of Missouri         'birthday reward and get exclusive access to new items and special events.  Nick the Greek '
+maybe_not  mbb  University of Missouri         'favorite board and get exclusive access to new items and special events.  Nick the Greek r'
+game       mbb  Cleveland State University     'the other Jones got peers.  Third foul on Jones,  fourth against Cleveland State,  440 to '
+game       mbb  Texas A&M University           'said of incentivized automakers to expand in Michigan and in other places. But is that  st'
+quiet      mbb  Alabama State University       ''
+quiet      mbb  University of Iowa             ''
+maybe_not  mbb  University of Iowa             'During events, please ensure your location services are enabled on your mobile device.  Fo'
+blocked    mbb  University of Iowa             "Radio app.  You're currently outside of the approved area to stream this play-by-play even"
+maybe_not  mbb  Kansas State University        "Yes, he is.  14 for Rex Diner, who's back in.  Abraham with 12.  Pop's next one.  Oh, that"
+maybe_not  mbb  Kansas State University        "K-State's leading scorer with 15.  Yes, he is.  14 for Rex Diner, who's back in.  Abraham "
+maybe_not  mbb  South Dakota State University  'State lead is won.  And Jai from the Ivory Coast  Kentai it and he does with that  free pr'
+maybe_not  mbb  South Dakota State University  "It's better than Doug by slapping the ball away,  but he also is calling for his first.  A"
+game       wbb  California State University, S 'league with talented players is it got to be more than one guy. You got a piece. I guess  '
+game       wbb  California State University, S 'Sacramento Kings. Who else is going to be on this roster? Who else can you say 100% for  c'
+not_game   wbb  Utah Valley University         "I think Missouri is the team that sneaks in and the college football playoff.  It's not in"
+not_game   wbb  Northwestern University        'for change. Well thank you so much for joining us we appreciate it and you heard it here  '
+not_game   wbb  Northwestern University        'for change. Well thank you so much for joining us we appreciate it and you heard it here  '
+not_game   wbb  Northwestern University        'a lot of backing on the Republican side for her. This congressional district has been  int'
+not_game   wbb  University of Wisconsin-Milwau "reading and rhythm to the world you've created.  But every time you drive after drinking, "
+not_game   wbb  University of Utah             'and one of the best defense of players in college football comes back.  There are offensiv'
+not_game   wbb  Eastern Washington University  "You're G-Coss, don't worry, at the Solar Exit Hotline.  We can help you cancel your Solar "
+not_game   wbb  Eastern Washington University  "Don't worry, at the Solar Exit Hotline, we can help you cancel your solar contract.  Even "
+not_game   wbb  Eastern Washington University  'Solar Exit Hotline.  We can help you cancel your solar contract.  Even if the panels are a'
 quiet      wbb  Wright State University        ''
-quiet      wbb  Wright State University        ''
-quiet      wbb  Wright State University        ''
-{'maybe_not': 48, 'no_audio': 12, 'game': 49, 'quiet': 19, 'blocked': 2}
+quiet      wbb  Wright State University        '1-1-5 to fridge.'
+quiet      wbb  Wright State University        'here. 1015 to fridge.'
+{'game': 21, 'no_audio': 4, 'quiet': 6, 'maybe_not': 16, 'not_game': 11, 'blocked': 1}
