@@ -388,18 +388,21 @@
    "Charlotte 49ers"
   ],
   "network": "49ers Sports Network (IMG/Learfield)",
-  "flagship": "730 The Game ESPN Charlotte (WZGV)",
+  "flagship": "Sportsradio 92.7 WFNZ-FM (Charlotte Radio Network); WZGV 730 dropped ESPN/Charlotte in 2025",
   "listen_page": "",
   "conference": "American Conference",
   "calls": [
-   "WZGV"
+   "WFNZ-FM"
   ],
-  "streams": [
-   "https://ice64.securenetsystems.net/WZGV2",
-   "https://cdn.jwplayer.com/live/broadcast/ncAcaXBq.m3u8"
-  ],
+  "streams": [],
   "game_only": true,
-  "athletics_site": "https://charlotte49ers.com"
+  "athletics_site": "https://charlotte49ers.com",
+  "station_website": "https://wfnz.com",
+  "notes": "2025 football notes: Charlotte Radio Network - WFNZ 92.7, also free on Charlotte49ers.com. Old WZGV streams 404.",
+  "bad_streams": [
+   "securenetsystems.net/WZGV",
+   "ncAcaXBq"
+  ]
  },
  {
   "school": "East Carolina University",
@@ -662,14 +665,15 @@
    "Georgia Southern Eagles"
   ],
   "network": "Georgia Southern Sports Network",
-  "flagship": "94.9 FM Statesboro",
+  "flagship": "Eagle 94.9 WPMX-FM (Statesboro/Millen) - flagship for GS Athletics (Georgia Southern Sports Network)",
   "listen_page": "",
   "conference": "Sun Belt Conference",
   "calls": [
-   "WHKN-FM"
+   "WPMX-FM"
   ],
   "streams": [],
-  "athletics_site": "https://gseagles.com"
+  "athletics_site": "https://gseagles.com",
+  "notes": "94.9 is WPMX, not WHKN (old note had the wrong call sign). Also The Varsity Network."
  },
  {
   "school": "Georgia State University",
@@ -1944,8 +1948,12 @@
   "calls": [
    "WHRB-FM"
   ],
-  "streams": [],
-  "athletics_site": "https://gocrimson.com"
+  "streams": [
+   "https://stream.whrb.org/whrb-mp3",
+   "https://stream.whrb.org/whrb-he-aac"
+  ],
+  "athletics_site": "https://gocrimson.com",
+  "notes": "WHRB gives select coverage of men's and women's basketball (not every game)."
  },
  {
   "school": "University of Pennsylvania",
@@ -2378,16 +2386,20 @@
    "Howard Bison"
   ],
   "network": "",
-  "flagship": "WHBC student station (WHUR 96.3 HD3, Washington DC)",
-  "listen_page": "",
+  "flagship": "WHBC 96.3 HD3 (WHUR-HD3, Washington DC) - Howard student station; 2025 game notes list 'Radio: WHBC'",
+  "listen_page": "https://www.whbc963hd3.com/",
   "conference": "MEAC",
   "calls": [],
-  "streams": [],
+  "streams": [
+   "https://whurhd3.streamon.fm/WHURHD3-48k.aac",
+   "https://ais-sa1.streamon.fm/7165_48k.aac"
+  ],
   "athletics_site": "https://hubison.com",
   "station_website": "http://www.whbc963hd3.com/welcomehome/",
   "bad_streams": [
    "alphacorporate-whbc"
-  ]
+  ],
+  "notes": "WHBC streams via StreamOn (radio-browser: whurhd3.streamon.fm WHURHD3-48k.aac, redirects to ais-sa1.streamon.fm/7165_48k.aac). Football and basketball called by WHBC student crew."
  },
  {
   "school": "Morgan State University",
@@ -2403,7 +2415,9 @@
   "calls": [
    "WEAA-FM"
   ],
-  "streams": [],
+  "streams": [
+   "https://amber.streamguys1.com:4025/live"
+  ],
   "athletics_site": "https://morganstatebears.com"
  },
  {
@@ -7153,5 +7167,32 @@
   "streams": [],
   "athletics_site": "https://rpiathletics.com",
   "notes": "Hockey-only Division I school (added Nov 2026). WRPI streams are http only (icecast1.wrpi.org:8000), so they can't play on the https site; women's hockey audio, if any, is on the school site."
+ },
+ {
+  "school": "Lake Superior State University",
+  "names": [
+   "Lake Superior State",
+   "Lake Superior State Lakers",
+   "LSSU",
+   "Lake Superior St.",
+   "Lake Superior"
+  ],
+  "network": "Laker Hockey on 99.5 YES FM",
+  "flagship": "WYSS 99.5 YES FM (Sault Ste. Marie, MI) - home of Lakers hockey since 2009",
+  "listen_page": "https://yesfm.net/?path=mhockey",
+  "conference": "CCHA",
+  "calls": [
+   "WYSS-FM"
+  ],
+  "securenet": "WYSS",
+  "streams": [
+   "https://ice24.securenetsystems.net/WYSS"
+  ],
+  "athletics_site": "https://lssulakers.com",
+  "notes": "Hockey-only D1 school. WYSS carries men's hockey; sister WKNW 1400 has the coach's show.",
+  "sports": [
+   "mhk"
+  ],
+  "source": "https://lssulakers.com/sports/2024/6/12/information-broadcast-team.aspx"
  }
 ]
