@@ -102,8 +102,8 @@ h1 span{color:inherit}
 .sport .nm{color:var(--text)}
 .sport .sub{font:600 11px var(--num);color:var(--faint);white-space:nowrap}
 .sport .sub.lv{color:var(--live)}
-/* Live games: the count, then LIVE in a slanted box like the logo's (the text itself stays upright) */
-.lvc{display:inline-flex;align-items:center;gap:5px;font:700 12px/1 var(--num);color:var(--logo-red)}
+/* Live games: "1 LIVE" in a slanted box like the logo's (the text itself stays upright) */
+.lvc{display:inline-flex;align-items:center;color:var(--logo-red)}
 .lbox{display:inline-flex;align-items:center;height:16px;padding:0 6px;border:1.5px solid var(--logo-red);border-radius:3px;transform:skewX(-14deg)}
 .lbox>span{display:inline-block;transform:skewX(14deg);font:700 11px/1 var(--num);letter-spacing:.08em}
 .sport[aria-selected="true"]{border:1.5px solid var(--accent);background:var(--surface-2);box-shadow:0 0 12px color-mix(in srgb,var(--accent) 35%,transparent)}
@@ -658,7 +658,7 @@ async function checkSeasons(){
   renderSports();
 }
 function tileLeagues(tid){ return Object.values(LEAGUES).filter(L=>L.tile===tid && (SEASON[L.id]?.on || L.id===SPORT.id)); }
-const liveTag = n => `<span class="lvc" aria-label="${n} live">${n}<span class="lbox"><span>LIVE</span></span></span>`;
+const liveTag = n => `<span class="lvc" aria-label="${n} live"><span class="lbox"><span>${n} LIVE</span></span></span>`;
 function renderSports(){
   const box = $("#sports"), seg = $("#gender");
   const tiles = TILES.map(t=>({...t, leagues: tileLeagues(t.id)})).filter(t=>t.leagues.length);
