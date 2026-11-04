@@ -1,2 +1,14 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-no live games
+[in#0 @ 0x55717057fcc0] Error opening input: Server returned 404 Not Found
+Error opening input file https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3.
+Error opening input files: Server returned 404 Not Found
+[0;93m2026-11-04 22:11:37.948703549 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+people listened to 0 team stations in the last 2 hours: []
+listening to 7 streams in 3 live games
+quiet      wbb  University of North Carolina A 'as your Senator-elect from the Great St'
+maybe_not  wbb  University of North Carolina A 'Oh, pretty amazing. Now, so last night, he says this full name in Arabic, and then later g'
+quiet      wbb  University of North Carolina A 'as your Senator-elect from the Great St'
+maybe_not  wbb  Furman University              'As a rat-  F***!  And as a spoiler!  Making ridiculous demands!  Like a petulant child!  W'
+not_game   wbb  Furman University              'Oh, pretty amazing now. So last night, he says his full name in Arabic and then later goes'
+not_game   wbb  Furman University              'As a rat-  F***!  And as a spoiler!  Making ridiculous demands!  Like a petulant child!  W'
+{'quiet': 2, 'maybe_not': 2, 'not_game': 2, 'no_audio': 1}
