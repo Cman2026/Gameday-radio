@@ -108,6 +108,7 @@ h1 span{color:inherit}
 .seg{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2px;padding:3px;margin:0 0 10px;background:var(--surface-2);border:1px solid var(--line);border-radius:var(--r-md)}
 .seg[hidden]{display:none}
 .seg button{border:0;background:transparent;border-radius:7px;height:34px;font:500 14px var(--ui);color:var(--muted);cursor:pointer}
+.seg button .lv{margin-left:8px;color:var(--live);font-weight:600;font-size:13px} /* "● 1 live": which side the live game is on */
 .seg button[aria-pressed="true"]{background:var(--surface);color:var(--text);font-weight:600;box-shadow:0 0 0 1.5px var(--accent),0 0 10px color-mix(in srgb,var(--accent) 35%,transparent)}
 :is(.sport,.seg button):focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 :is(.sport,.seg button):active{box-shadow:0 0 0 1.5px var(--accent),0 0 10px color-mix(in srgb,var(--accent) 35%,transparent)}
@@ -671,7 +672,8 @@ function renderSports(){
   // Men's / women's, for sports that have both in season.
   const both = tileLeagues(SPORT.tile).filter(L=>L.g);
   seg.hidden = both.length < 2;
-  seg.innerHTML = both.map(L=>`<button data-league="${L.id}" aria-pressed="${L.id===SPORT.id}">${L.g}</button>`).join("");
+  seg.innerHTML = both.map(L=>{ const n = SEASON[L.id]?.live || 0;
+    return `<button data-league="${L.id}" aria-pressed="${L.id===SPORT.id}">${L.g}${n ? `<span class="lv">● ${n} live</span>` : ""}</button>`; }).join("");
 }
 document.addEventListener("click", ev=>{
   const t = ev.target.closest(".sport[data-tile]");
@@ -2503,6 +2505,10 @@ $("#moreBtn").onclick = ()=>{ const m=$("#more"); m.hidden=!m.hidden; $("#moreBt
   loadDirectory();
   // Which sports are in season (and how many games each has live), every 5 minutes.
   checkSeasons(); setInterval(()=>{ if(!document.hidden) checkSeasons(); }, 15*60*1000);
+  // The side you're on updates with every refresh; check the other side (women's while on men's) every 2 minutes,
+  // so its "● live" count on the Men's / Women's switch stays current.
+  setInterval(()=>{ if(document.hidden) return; const other = tileLeagues(SPORT.tile).filter(L=>L.id!==SPORT.id);
+    if(other.length) Promise.all(other.map(L=>checkSeason(L.id))).then(renderSports); }, 2*60*1000);
   pollLoop();
   setInterval(()=>{ if(delay) render(); }, 1000); // step through held-back scores
 })();
