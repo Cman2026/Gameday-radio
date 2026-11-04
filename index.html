@@ -964,14 +964,26 @@ async function pollLoop(){
 }
 document.addEventListener("visibilitychange", ()=>{ if(!document.hidden && Date.now() - lastOk > 5000) pollLoop(); });
 
+// ESPN's football scoreboard sometimes lists every team as unranked (rank 99) while its rankings feed
+// has the week's poll, so ranks are filled in from there: the CFP rankings when out, else the AP Top 25.
+async function fbRanks(){
+  if(fbRanks.at && Date.now()-fbRanks.at < 30*60e3) return fbRanks.map || new Map();
+  try{
+    const rs = (await getJSON(`${ESPN}football/college-football/rankings`)).rankings || [];
+    const pick = rs.find(r=>r.type==="cfp" || /playoff/i.test(r.name||"")) || rs.find(r=>r.type==="ap");
+    fbRanks.map = new Map((pick?.ranks||[]).map(x=>[String(x.team.id), x.current])); fbRanks.at = Date.now();
+  }catch(e){ fbRanks.at = Date.now() - 25*60e3; } // try again in 5 minutes
+  return fbRanks.map || new Map();
+}
 async function poll(){
   if(!isFB()) return pollOther();
   const tok = sportTok;
   try{
-    const [fbs, fcs] = await Promise.all([
+    const [fbs, fcs, ranks] = await Promise.all([
       getJSON(`${base}/scoreboard?groups=80&limit=400`),
       // If FCS fails once, keep the last good list rather than having every FCS game vanish.
       getJSON(`${base}/scoreboard?groups=81&limit=400`).then(x=>(poll.lastFcs = x)).catch(()=>poll.lastFcs || {events:[]}),
+      fbRanks(),
     ]);
     const byId = new Map();
     (fbs.events||[]).forEach(e=>{ e._div = "FBS"; byId.set(e.id, e); });
@@ -992,6 +1004,8 @@ async function poll(){
     }
     if(tok !== sportTok) return; // switched sports while this was loading
     const evs = freshen([...byId.values()]);
+    if(ranks.size) evs.forEach(e=>e.competitions[0].competitors.forEach(c=>{
+      if(!(c.curatedRank?.current < 26)){ const r = ranks.get(String(c.team.id)); if(r) c.curatedRank = {...c.curatedRank, current: r}; } }));
     evs.forEach(e=>e.competitions[0].competitors.forEach(c=>attachRadio(c.team))); noteScores(evs);
     history.push({t:Date.now(), evs}); history = history.filter(h => Date.now()-h.t < (delay+20)*1000);
     scoresOk();
