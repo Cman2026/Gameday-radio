@@ -1113,7 +1113,10 @@ async function fastPoll(){
       FAST[id] = {t: Date.now(), ev};
       const sig = x => JSON.stringify([x.status, x.competitions[0].situation, x.competitions[0].competitors.map(c=>[c.score, c.linescores])]);
       if(sig(old) === sig(ev)) continue;
-      ev._div = old._div; ev.competitions[0].competitors.forEach(c=>attachRadio(c.team)); noteScores([ev]);
+      ev._div = old._div; ev.competitions[0].competitors.forEach(c=>{ attachRadio(c.team);
+        // keep the Top 25 ranks football fills in from the rankings feed (the single-game feed lacks them)
+        if(isFB() && !(c.curatedRank?.current < 26)){ const r = fbRanks.map?.get(String(c.team.id)); if(r) c.curatedRank = {...c.curatedRank, current: r}; } });
+      noteScores([ev]);
       history.push({t: Date.now(), evs: last.evs.map(x=>x.id===id ? ev : x)});
       history = history.filter(h => Date.now()-h.t < (delay+20)*1000);
       render();
@@ -2510,10 +2513,11 @@ $("#moreBtn").onclick = ()=>{ const m=$("#more"); m.hidden=!m.hidden; $("#moreBt
   loadDirectory();
   // Which sports are in season (and how many games each has live), every 5 minutes.
   checkSeasons(); setInterval(()=>{ if(!document.hidden) checkSeasons(); }, 15*60*1000);
-  // The side you're on updates with every refresh; check the other side (women's while on men's) every 2 minutes,
-  // so its "● live" count on the Men's / Women's switch stays current.
-  setInterval(()=>{ if(document.hidden) return; const other = tileLeagues(SPORT.tile).filter(L=>L.id!==SPORT.id);
-    if(other.length) Promise.all(other.map(L=>checkSeason(L.id))).then(renderSports); }, 2*60*1000);
+  // The side you're on updates with every refresh; check the other side (women's while on men's) every 5 minutes,
+  // so its live count on the Men's / Women's switch stays current. (That's a full scoreboard, 1-3 MB on a busy
+  // basketball night, so not more often than this; and only while that side has games today.)
+  setInterval(()=>{ if(document.hidden) return; const other = tileLeagues(SPORT.tile).filter(L=>L.id!==SPORT.id && (SEASON[L.id]?.today || SEASON[L.id]?.live));
+    if(other.length) Promise.all(other.map(L=>checkSeason(L.id))).then(renderSports); }, 5*60*1000);
   pollLoop();
   setInterval(()=>{ if(delay) render(); }, 1000); // step through held-back scores
 })();
