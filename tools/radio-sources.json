@@ -7227,18 +7227,21 @@
   ],
   "network": "Wildcat Hockey on 100.3 The Point",
   "flagship": "WUPT 100.3 The Point (Gwinn/Marquette, MI)",
-  "listen_page": "https://radioresultsnetwork.com",
+  "listen_page": "https://www.radioresultsnetwork.com/thepoint/",
   "conference": "CCHA",
   "calls": [
    "WUPT-FM"
   ],
   "streams": [],
   "athletics_site": "https://nmuwildcats.com",
-  "notes": "Hockey-only D1 school (added Nov 2026). WUPT is NMU's sports flagship (Nov 2025 notes, Wikipedia).",
+  "notes": "Hockey-only D1 school (added Nov 2026). WUPT is NMU's sports flagship (Nov 2025 notes, Wikipedia). radioresultsnetwork.com's main listen page plays sister station WLST, so WLST is marked bad.",
   "sports": [
    "mhk"
   ],
-  "source": "https://nmuwildcats.com/news/2025/11/5/hockey-preview-wildcats-vs-huskies.aspx"
+  "source": "https://nmuwildcats.com/news/2025/11/5/hockey-preview-wildcats-vs-huskies.aspx",
+  "bad_streams": [
+   "WLST"
+  ]
  },
  {
   "school": "University of Minnesota Duluth",
@@ -7353,11 +7356,14 @@
   ],
   "streams": [],
   "athletics_site": "https://cctigers.com",
-  "notes": "Hockey-only D1 school (added Nov 2026). Men's hockey on KRDO NewsRadio (Feb 2026).",
+  "notes": "Hockey-only D1 school (added Nov 2026). Men's hockey on KRDO NewsRadio (Feb 2026). KRDO's site also has a TV video stream (syncbak, expiring token); marked bad.",
   "sports": [
    "mhk"
   ],
-  "source": "https://cctigers.com"
+  "source": "https://cctigers.com",
+  "bad_streams": [
+   "syncbak.com"
+  ]
  },
  {
   "school": "Clarkson University",
