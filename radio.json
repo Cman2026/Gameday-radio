@@ -1,5 +1,5 @@
 {
-"built": "2026-11-05T20:14:15Z",
+"built": "2026-11-05T22:19:09Z",
 "teams": [
 {
 "school": "Boston College",
@@ -30,6 +30,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -63,6 +64,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -97,6 +99,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -127,6 +130,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -159,6 +163,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -189,6 +194,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -220,6 +226,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -252,6 +259,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -284,6 +292,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -316,6 +325,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -348,6 +358,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -381,6 +392,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -428,6 +440,7 @@
 "bsb": "KZSU 90.1 FM (Stanford)",
 "wbb": "KZSU 90.1 FM (Stanford)"
 },
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -462,7 +475,8 @@
 "https://img.leanstream.co/IM4801-MP3"
 ],
 "game_feeds_at": "2026-11-05T21:17:34Z",
-"game_feeds_sport": "mbb"
+"game_feeds_sport": "mbb",
+"station_skips": null
 },
 {
 "school": "University of Virginia",
@@ -492,6 +506,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -521,6 +536,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -555,7 +571,8 @@
 "https://img.leanstream.co/IM2401-MP3"
 ],
 "game_feeds_at": "2026-11-05T21:17:34Z",
-"game_feeds_sport": "mbb"
+"game_feeds_sport": "mbb",
+"station_skips": null
 },
 {
 "school": "University of Notre Dame",
@@ -586,6 +603,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -623,7 +641,8 @@
 "https://img.leanstream.co/IM3402-MP3"
 ],
 "game_feeds_at": "2026-11-05T21:17:34Z",
-"game_feeds_sport": "wbb"
+"game_feeds_sport": "wbb",
+"station_skips": null
 },
 {
 "school": "United States Military Academy",
@@ -661,7 +680,8 @@
 "https://img.leanstream.co/IM8603-MP3"
 ],
 "game_feeds_at": "2026-11-05T21:17:34Z",
-"game_feeds_sport": "mbb"
+"game_feeds_sport": "mbb",
+"station_skips": null
 },
 {
 "school": "University of North Carolina at Charlotte",
@@ -696,7 +716,8 @@
 "https://cdn.jwplayer.com/live/broadcast/k5UnJHOy.m3u8"
 ],
 "game_feeds_at": "2026-11-05T21:17:34Z",
-"game_feeds_sport": "mbb"
+"game_feeds_sport": "mbb",
+"station_skips": null
 },
 {
 "school": "East Carolina University",
@@ -726,6 +747,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -756,6 +778,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -787,6 +810,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -817,6 +841,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -854,7 +879,8 @@
 "https://img.leanstream.co/LF4301-MP3"
 ],
 "game_feeds_at": "2026-11-05T21:17:34Z",
-"game_feeds_sport": "mbb"
+"game_feeds_sport": "mbb",
+"station_skips": null
 },
 {
 "school": "Rice University",
@@ -879,6 +905,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": false,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -909,6 +936,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -934,6 +962,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -965,6 +994,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": true,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -994,6 +1024,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": true,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -1025,6 +1056,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -1055,6 +1087,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -1077,14 +1110,15 @@
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3"
 ],
-"misses": 0,
-"miss_day": null,
+"misses": 1,
+"miss_day": "2026-11-05",
 "last_ok": "2026-11-05",
 "live_only": false,
 "athletics_site": "https://appstatesports.com",
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -1115,6 +1149,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": true,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -1146,6 +1181,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -1175,6 +1211,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -1203,6 +1240,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -1239,7 +1277,8 @@
 "https://img.leanstream.co/LF7102-MP3"
 ],
 "game_feeds_at": "2026-11-05T21:17:34Z",
-"game_feeds_sport": "wbb"
+"game_feeds_sport": "wbb",
+"station_skips": null
 },
 {
 "school": "University of Louisiana at Lafayette",
@@ -1271,6 +1310,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": true,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -1301,6 +1341,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -1331,6 +1372,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -1360,6 +1402,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -1392,6 +1435,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -1422,6 +1466,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -1453,6 +1498,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": true,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -1483,6 +1529,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -1514,6 +1561,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -1545,6 +1593,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -1574,6 +1623,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": true,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -1604,6 +1654,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -1635,6 +1686,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -1667,6 +1719,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -1698,6 +1751,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": true,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -1729,6 +1783,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -1758,6 +1813,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -1789,6 +1845,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -1819,6 +1876,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -1851,6 +1909,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -1886,7 +1945,8 @@
 "https://img.leanstream.co/IM8101-MP3"
 ],
 "game_feeds_at": "2026-11-05T21:17:34Z",
-"game_feeds_sport": "wbb"
+"game_feeds_sport": "wbb",
+"station_skips": null
 },
 {
 "school": "University of Central Florida",
@@ -1916,6 +1976,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -1944,6 +2005,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -1975,6 +2037,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": true,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -2013,7 +2076,8 @@
 "https://img.leanstream.co/IM5802-MP3"
 ],
 "game_feeds_at": "2026-11-05T21:17:34Z",
-"game_feeds_sport": "wbb"
+"game_feeds_sport": "wbb",
+"station_skips": null
 },
 {
 "school": "University of Michigan",
@@ -2051,7 +2115,8 @@
 "https://img.leanstream.co/IM4002-MP3"
 ],
 "game_feeds_at": "2026-11-05T21:17:34Z",
-"game_feeds_sport": "wbb"
+"game_feeds_sport": "wbb",
+"station_skips": null
 },
 {
 "school": "Pennsylvania State University",
@@ -2084,6 +2149,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -2116,6 +2182,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -2151,7 +2218,8 @@
 "https://img.leanstream.co/IM7301-MP3"
 ],
 "game_feeds_at": "2026-11-05T21:17:34Z",
-"game_feeds_sport": "mbb"
+"game_feeds_sport": "mbb",
+"station_skips": null
 },
 {
 "school": "University of Iowa",
@@ -2182,6 +2250,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -2214,6 +2283,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -2247,6 +2317,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": true,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -2279,6 +2350,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -2311,6 +2383,7 @@
 ],
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -2341,6 +2414,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -2373,6 +2447,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -2401,6 +2476,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -2434,6 +2510,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -2464,6 +2541,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -2496,6 +2574,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -2529,6 +2608,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -2566,6 +2646,7 @@
 "sport_station": {
 "wvb": "ESPN Madison 100.5 FM (WTLX)"
 },
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -2595,6 +2676,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -2623,6 +2705,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -2648,6 +2731,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -2674,6 +2758,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -2700,6 +2785,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -2732,6 +2818,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -2759,6 +2846,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": false,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -2792,6 +2880,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -2818,6 +2907,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -2844,6 +2934,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -2868,6 +2959,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -2897,6 +2989,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -2925,6 +3018,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -2956,6 +3050,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -2985,6 +3080,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3015,6 +3111,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3039,6 +3136,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3063,6 +3161,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3087,6 +3186,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3116,6 +3216,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3147,6 +3248,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3177,6 +3279,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3207,6 +3310,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3231,6 +3335,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3260,6 +3365,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3284,6 +3390,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3313,6 +3420,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3343,6 +3451,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3368,6 +3477,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3392,6 +3502,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3422,6 +3533,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3447,6 +3559,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3497,6 +3610,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3522,6 +3636,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3546,6 +3661,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3570,6 +3686,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3597,6 +3714,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3621,6 +3739,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3645,6 +3764,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3676,6 +3796,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3705,6 +3826,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3734,6 +3856,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3765,6 +3888,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3794,6 +3918,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3819,6 +3944,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3848,6 +3974,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3873,6 +4000,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3903,6 +4031,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3928,6 +4057,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3953,6 +4083,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -3982,6 +4113,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4007,6 +4139,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4034,6 +4167,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4065,6 +4199,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4095,6 +4230,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4121,6 +4257,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4150,6 +4287,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4174,6 +4312,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4198,6 +4337,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4233,7 +4373,8 @@
 "https://img.leanstream.co/LF1301-MP3"
 ],
 "game_feeds_at": "2026-11-05T21:17:34Z",
-"game_feeds_sport": "mbb"
+"game_feeds_sport": "mbb",
+"station_skips": null
 },
 {
 "school": "East Tennessee State University",
@@ -4265,6 +4406,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4296,6 +4438,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4324,6 +4467,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4348,6 +4492,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4376,6 +4521,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4395,7 +4541,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://ice5.securenetsystems.net/WQNT?playSessionID=C54E84DD-E834-76DC-BE0F4DA45A2183C9"
+"https://ice5.securenetsystems.net/WQNT?playSessionID=C9CA011C-0C5E-1741-9B35D395635A52F0"
 ],
 "misses": 0,
 "miss_day": null,
@@ -4404,6 +4550,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4432,6 +4579,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4467,7 +4615,8 @@
 "https://wcu1.mtcstream.com:8500/wcu2"
 ],
 "game_feeds_at": "2026-11-05T21:17:34Z",
-"game_feeds_sport": "wbb"
+"game_feeds_sport": "wbb",
+"station_skips": null
 },
 {
 "school": "Wofford College",
@@ -4486,8 +4635,8 @@
 "streams": [
 "https://peaksports.leanstream.co/PS0101-MP3"
 ],
-"misses": 0,
-"miss_day": null,
+"misses": 1,
+"miss_day": "2026-11-05",
 "last_ok": "2026-11-03",
 "live_only": true,
 "athletics_site": "https://woffordterriers.com",
@@ -4498,7 +4647,8 @@
 "https://peaksports.leanstream.co/PS0101-MP3"
 ],
 "game_feeds_at": "2026-11-05T21:17:34Z",
-"game_feeds_sport": "wbb"
+"game_feeds_sport": "wbb",
+"station_skips": null
 },
 {
 "school": "East Texas A&M University",
@@ -4528,6 +4678,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4557,6 +4708,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4582,6 +4734,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4612,6 +4765,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4641,11 +4795,11 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"game_feeds": null,
 "station_skips": [
 "mbb",
 "wbb"
-]
+],
+"game_feeds": null
 },
 {
 "school": "Nicholls State University",
@@ -4673,6 +4827,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4701,6 +4856,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4730,6 +4886,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4761,6 +4918,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4791,6 +4949,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4816,6 +4975,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4844,6 +5004,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4872,6 +5033,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4900,6 +5062,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4929,6 +5092,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4958,6 +5122,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -4987,6 +5152,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5016,6 +5182,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5041,6 +5208,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": false,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5065,6 +5233,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5095,6 +5264,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5121,6 +5291,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5146,6 +5317,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5180,7 +5352,8 @@
 "https://ice5.securenetsystems.net/WIVY?playSessionID=CAD94437-8A97-4B89-A64B6786D95C079F"
 ],
 "game_feeds_at": "2026-11-05T21:17:34Z",
-"game_feeds_sport": "mbb"
+"game_feeds_sport": "mbb",
+"station_skips": null
 },
 {
 "school": "Presbyterian College",
@@ -5209,6 +5382,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5240,6 +5414,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5265,6 +5440,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5289,6 +5465,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5316,6 +5493,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5350,6 +5528,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5384,6 +5563,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5416,6 +5596,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5446,6 +5627,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5486,6 +5668,7 @@
 "mbb": "KISU 91.1 FM (Pocatello, ID)",
 "wbb": "KISU 91.1 FM (Pocatello, ID)"
 },
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5521,6 +5704,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5551,6 +5735,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5577,6 +5762,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5606,6 +5792,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5633,6 +5820,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5665,6 +5853,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5695,6 +5884,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5723,6 +5913,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5755,6 +5946,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5785,6 +5977,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5815,6 +6008,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5846,6 +6040,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5876,6 +6071,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5907,6 +6103,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5937,6 +6134,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -5968,6 +6166,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": true,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6000,6 +6199,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6032,6 +6232,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": true,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6064,6 +6265,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": true,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6093,6 +6295,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6124,6 +6327,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6154,6 +6358,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6186,6 +6391,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6212,6 +6418,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6241,6 +6448,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6272,6 +6480,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6302,6 +6511,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6331,6 +6541,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6360,6 +6571,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6391,6 +6603,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": true,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6422,6 +6635,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6452,6 +6666,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6481,6 +6696,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6510,6 +6726,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": true,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6541,6 +6758,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": true,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6572,6 +6790,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6601,6 +6820,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6631,6 +6851,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6662,6 +6883,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6690,6 +6912,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6719,6 +6942,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6746,6 +6970,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6775,6 +7000,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6805,6 +7031,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": false,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6833,6 +7060,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6862,6 +7090,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6890,6 +7119,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": false,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6921,6 +7151,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": true,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6954,6 +7185,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -6985,6 +7217,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7014,6 +7247,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7046,6 +7280,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7076,6 +7311,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7107,6 +7343,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7138,6 +7375,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7170,6 +7408,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7202,6 +7441,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7233,6 +7473,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7264,6 +7505,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7297,6 +7539,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7329,6 +7572,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7360,6 +7604,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7393,6 +7638,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7422,6 +7668,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7453,6 +7700,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7483,6 +7731,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": true,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7516,6 +7765,7 @@
 "live_only": true,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7547,6 +7797,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7575,6 +7826,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7611,7 +7863,8 @@
 "https://ais-sa1.streamon.fm/7644_48k.aac"
 ],
 "game_feeds_at": "2026-11-05T21:17:34Z",
-"game_feeds_sport": "wbb"
+"game_feeds_sport": "wbb",
+"station_skips": null
 },
 {
 "school": "University of Georgia",
@@ -7643,6 +7896,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7675,6 +7929,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7704,6 +7959,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7734,6 +7990,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7766,6 +8023,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7797,6 +8055,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7822,6 +8081,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7853,6 +8113,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7886,6 +8147,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": true,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7918,6 +8180,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7949,6 +8212,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -7978,6 +8242,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8006,6 +8271,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8039,6 +8305,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8066,6 +8333,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": false,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8098,6 +8366,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8126,6 +8395,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": false,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8158,6 +8428,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": true,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8187,6 +8458,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8215,6 +8487,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8244,6 +8517,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": false,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8273,6 +8547,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8306,6 +8581,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8334,6 +8610,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": false,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8363,6 +8640,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8389,6 +8667,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8421,6 +8700,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8449,6 +8729,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": false,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8478,6 +8759,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8506,6 +8788,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8533,6 +8816,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": false,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8561,6 +8845,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8588,6 +8873,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8615,6 +8901,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8643,6 +8930,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": false,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8671,6 +8959,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8699,6 +8988,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8733,6 +9023,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": true,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8761,6 +9052,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": false,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8790,6 +9082,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": false,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8815,6 +9108,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8843,6 +9137,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8877,6 +9172,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8903,6 +9199,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": false,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8930,6 +9227,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8958,6 +9256,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -8994,6 +9293,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9021,6 +9321,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": false,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9050,6 +9351,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9076,6 +9378,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9107,6 +9410,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9135,6 +9439,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9161,6 +9466,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9190,6 +9496,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": false,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9217,6 +9524,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9243,6 +9551,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9270,6 +9579,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9300,6 +9610,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9327,6 +9638,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9360,6 +9672,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": true,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9393,6 +9706,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9418,6 +9732,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9445,6 +9760,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9472,6 +9788,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9503,6 +9820,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9537,6 +9855,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9564,6 +9883,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9592,6 +9912,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9622,6 +9943,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9655,6 +9977,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9681,6 +10004,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9709,6 +10033,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": false,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9743,6 +10068,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9776,6 +10102,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9805,6 +10132,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9832,6 +10160,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9865,6 +10194,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9893,6 +10223,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9921,6 +10252,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": false,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9950,6 +10282,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": false,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -9983,6 +10316,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": true,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10011,6 +10345,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10039,6 +10374,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": false,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10066,6 +10402,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10094,6 +10431,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10135,6 +10473,7 @@
 "wvb": "WSOU 89.5 FM (South Orange, NJ)"
 },
 "live_only": true,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10165,6 +10504,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10197,6 +10537,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": false,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10226,6 +10567,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10259,6 +10601,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": true,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10294,6 +10637,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": true,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10323,6 +10667,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10356,6 +10701,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10383,6 +10729,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10411,6 +10758,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": false,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10437,6 +10785,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10463,6 +10812,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10491,6 +10841,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": false,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10523,6 +10874,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10549,6 +10901,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10577,6 +10930,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": false,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10605,6 +10959,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": false,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10635,6 +10990,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10662,6 +11018,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": false,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10693,6 +11050,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10724,6 +11082,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10757,6 +11116,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10790,6 +11150,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10823,6 +11184,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10855,6 +11217,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10887,6 +11250,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10913,6 +11277,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10938,6 +11303,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10969,6 +11335,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-05",
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -10996,6 +11363,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -11023,6 +11391,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-05",
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -11054,6 +11423,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-05",
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -11086,6 +11456,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-05",
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -11117,6 +11488,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-05",
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -11145,6 +11517,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-05",
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -11174,6 +11547,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-05",
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -11204,6 +11578,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-05",
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -11229,6 +11604,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -11261,6 +11637,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-05",
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -11292,6 +11669,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-05",
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -11318,6 +11696,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -11342,6 +11721,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -11367,6 +11747,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -11394,6 +11775,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"station_skips": null,
 "game_feeds": null
 },
 {
@@ -11420,6 +11802,7 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
+"station_skips": null,
 "game_feeds": null
 }
 ]
