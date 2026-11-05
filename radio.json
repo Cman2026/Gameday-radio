@@ -277,7 +277,6 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://img.leanstream.co/IM9302-MP3",
 "https://ais-sa8.cdnstream1.com/2750_64.aac?aw_0_1st.playerid=iHeart",
 "https://ais-sa8.cdnstream1.com/2750_64.aac",
 "http://ais-sa8.cdnstream1.com/2750_64.aac?aw_0_1st.playerid=iHeart"
@@ -290,11 +289,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"game_feeds": [
-"https://img.leanstream.co/IM9302-MP3"
-],
-"game_feeds_at": "2026-11-04T20:59:34Z",
-"game_feeds_sport": "wbb"
+"game_feeds": null
 },
 {
 "school": "University of North Carolina at Chapel Hill",
@@ -2610,22 +2605,16 @@
 "game_only": true,
 "no_radio": null,
 "notes": "School audio on GoCamels.com, game days only",
-"streams": [
-"https://cdn.jwplayer.com/live/broadcast/MoIobYN7.m3u8"
-],
+"streams": [],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-03",
-"live_only": true,
+"live_only": false,
 "athletics_site": "https://gocamels.com",
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"game_feeds": [
-"https://cdn.jwplayer.com/live/broadcast/MoIobYN7.m3u8"
-],
-"game_feeds_at": "2026-11-04T20:59:34Z",
-"game_feeds_sport": "wbb"
+"game_feeds": null
 },
 {
 "school": "Elon University",
@@ -10301,7 +10290,6 @@
 "no_radio": null,
 "notes": "Aug 2025 extension makes WBRR the partner for 2025-26 and 2026-27: all MBB games, select WBB games. All games stream free on the Bonnies Online Network. Out-of-market affiliates for 2025-26: WKSN 1340 Jamestown, WLEA Hornell, WYSL Avon/Rochester. No direct WBRR stream URL found; the station site is ",
 "streams": [
-"https://ice66.securenetsystems.net/BOR",
 "https://ice6.securenetsystems.net/WBRR"
 ],
 "misses": 0,
@@ -10312,11 +10300,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": true,
-"game_feeds": [
-"https://ice66.securenetsystems.net/BOR"
-],
-"game_feeds_at": "2026-11-04T20:59:34Z",
-"game_feeds_sport": "wbb"
+"game_feeds": null
 },
 {
 "school": "St. John's University",
