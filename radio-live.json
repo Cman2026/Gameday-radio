@@ -517,28 +517,6 @@
    "checks": 3,
    "preroll": false
   },
-  "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KKEAAM_AAC.aac": {
-   "school": "University of Hawai'i at Manoa",
-   "sport": "mbb",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "KKEAAM",
-   "at": "2026-11-03T06:52:29Z",
-   "ad_hits": 0,
-   "checks": 2,
-   "preroll": false
-  },
-  "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KKEAAM_MP3.mp3": {
-   "school": "University of Hawai'i at Manoa",
-   "sport": "mbb",
-   "verdict": "unknown",
-   "title": "",
-   "icy_name": "KKEAAM",
-   "at": "2026-11-03T06:52:29Z",
-   "ad_hits": 0,
-   "checks": 2,
-   "preroll": false
-  },
   "https://stream.revma.ihrhls.com/zc3520": {
    "school": "University of Akron",
    "sport": "fb",
@@ -2870,7 +2848,73 @@
    "ad_hits": 0,
    "checks": 1,
    "preroll": false
+  },
+  "wbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KTCTAMAAC.aac": {
+   "school": "University of San Francisco",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "KTCTAM",
+   "at": "2026-11-05T21:21:57Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KTCTAMAAC.m3u8": {
+   "school": "University of San Francisco",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-05T21:21:57Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|http://playerservices.streamtheworld.com/api/livestream-redirect/KTCTAMAAC.aac": {
+   "school": "University of San Francisco",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "KTCTAM",
+   "at": "2026-11-05T21:21:57Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KKEAAM_AAC.aac": {
+   "school": "University of Hawai'i at Manoa",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "KKEAAM",
+   "at": "2026-11-05T21:21:57Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KKEAAM_MP3.mp3": {
+   "school": "University of Hawai'i at Manoa",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "KKEAAM",
+   "at": "2026-11-05T21:21:57Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://stream.radio.co/s521a8e223/listen": {
+   "school": "Robert Morris University",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "DRIGTB_120723__mixdown",
+   "icy_name": "RMU",
+   "at": "2026-11-05T21:21:57Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
   }
  },
- "checked": "2026-11-05T05:09:47Z"
+ "checked": "2026-11-05T21:21:57Z"
 }
