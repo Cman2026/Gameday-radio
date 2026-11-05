@@ -1,5 +1,50 @@
-allaccess error https://hokiesports.com HTTP Error 404: Not Found
+
+[notice] A new release of pip is available: 26.2.2 -> 26.3
+[notice] To update, run: pip install --upgrade pip
+
+Running kernel seems to be up-to-date.
+
+Restarting services...
+
+Service restarts being deferred:
+ systemctl restart hosted-compute-agent.service
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+allaccess error https://odusports.com HTTP Error 404: Not Found
+allaccess error https://ttusports.com HTTP Error 405: Not Allowed
+allaccess error https://gosoutheast.com HTTP Error 404: Not Found
+allaccess error https://auburntigers.com HTTP Error 404: Not Found
+allaccess error https://vucommodores.com HTTP Error 404: Not Found
 allaccess error https://gobearcats.com HTTP Error 404: Not Found
-official feeds added for: St. Bonaventure University (wbb), North Carolina State University (wbb)
-Campbell University wbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/MoIobYN7.m3u8']
-other SIDEARM sport names seen: football, general, mbball
+allaccess error https://gostanford.com HTTP Error 404: Not Found
+official feeds added for: University of Toledo (fb), Central Michigan University (fb), University of South Dakota (mbb), University of California, Berkeley (mbb), University of Montana (mbb), Boise State University (mbb), North Dakota State University (mbb), University of Wisconsin-Milwaukee (mbb), University of Illinois Urbana-Champaign (wbb), University of Alabama (wbb), Western Kentucky University (wbb), University of Tennessee at Chattanooga (wbb), University of Colorado Boulder (wbb), Oregon State University (wbb)
+Saint Joseph's University mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/WzlYkuro.m3u8']
+Butler University mbb -> (feed) ['https://playerservices.streamtheworld.com/api/livestream-redirect/BUTLER_UNIVERSITY.mp3']
+Appalachian State University mbb -> (feed) ['https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3']
+California State University, Northridge mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/1Pn7dr9L.m3u8']
+Grand Canyon University wbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/Z81fg0Bk.m3u8']
+Dartmouth College mbb -> []
+Southern Illinois University Edwardsville mbb -> []
+Southern Illinois University Edwardsville mbb -> ['https://siue-cougars.mixlr.com/', 'https://apicdn.mixlr.com/v3/channel_view/siue-cougars', 'https://apicdn.mixlr.com/v3/channel_me']
+High Point University mbb -> []
+University of Maryland Eastern Shore mbb -> []
+Longwood University mbb -> []
+Fairleigh Dickinson University mbb -> []
+Fairleigh Dickinson University mbb -> []
+Drake University mbb -> []
+Saint Mary's College of California mbb -> []
+University of Detroit Mercy wbb -> []
+University of South Carolina Upstate wbb -> []
+University of South Carolina Upstate wbb -> ['https://www.spartanburgsportsradio.com/']
+Prairie View A&M University wbb -> []
+La Salle University wbb -> ['https://cdn.jwplayer.com/live/broadcast/rtVjIj2k.m3u8', 'https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/rtVjIj2k.m3u8?exp=1793842560&sig=65920c1a2c60bddab97f7ab1cc2cffb8']
+Stetson University wbb -> []
+Texas A&M University-Corpus Christi wbb -> []
+Long Island University wbb -> []
+Long Island University wbb -> []
+California Baptist University wbb -> []
+other SIDEARM sport names seen: fb, football, general, m_bkb, mbb, mbball, mhockey, w_bkb, wbball, wvball
