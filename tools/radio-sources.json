@@ -7141,7 +7141,8 @@
   "names": [
    "Union (NY)",
    "Union Garnet Chargers",
-   "Union Dutchwomen"
+   "Union Dutchwomen",
+   "Union Dutchmen"
   ],
   "network": "",
   "flagship": "",
@@ -7194,5 +7195,369 @@
    "mhk"
   ],
   "source": "https://lssulakers.com/sports/2024/6/12/information-broadcast-team.aspx"
+ },
+ {
+  "school": "Michigan Technological University",
+  "names": [
+   "Michigan Tech",
+   "Michigan Tech Huskies",
+   "Michigan Technological"
+  ],
+  "network": "Huskies Hockey on Mix 93.5",
+  "flagship": "WKMJ Mix 93.5 FM (Hancock, MI)",
+  "listen_page": "https://themix93.com",
+  "conference": "CCHA",
+  "calls": [
+   "WKMJ-FM"
+  ],
+  "streams": [],
+  "athletics_site": "https://michigantechhuskies.com",
+  "notes": "Hockey-only D1 school (added Nov 2026). Men's hockey on WKMJ (Dec 2025 game notes).",
+  "sports": [
+   "mhk"
+  ],
+  "source": "https://michigantechhuskies.com/news/2025/12/10/mens-ice-hockey-preview-tech-travels-to-ferris-state-for-final-ccha-series-of-2025.aspx"
+ },
+ {
+  "school": "Northern Michigan University",
+  "names": [
+   "Northern Michigan",
+   "Northern Michigan Wildcats",
+   "NMU"
+  ],
+  "network": "Wildcat Hockey on 100.3 The Point",
+  "flagship": "WUPT 100.3 The Point (Gwinn/Marquette, MI)",
+  "listen_page": "https://radioresultsnetwork.com",
+  "conference": "CCHA",
+  "calls": [
+   "WUPT-FM"
+  ],
+  "streams": [],
+  "athletics_site": "https://nmuwildcats.com",
+  "notes": "Hockey-only D1 school (added Nov 2026). WUPT is NMU's sports flagship (Nov 2025 notes, Wikipedia).",
+  "sports": [
+   "mhk"
+  ],
+  "source": "https://nmuwildcats.com/news/2025/11/5/hockey-preview-wildcats-vs-huskies.aspx"
+ },
+ {
+  "school": "University of Minnesota Duluth",
+  "names": [
+   "Minnesota Duluth",
+   "Minnesota Duluth Bulldogs",
+   "Minnesota-Duluth",
+   "UMD"
+  ],
+  "network": "Bulldog Hockey on KDAL",
+  "flagship": "KDAL 610 AM / 103.9 FM (Duluth, MN)",
+  "listen_page": "https://kdal610.com",
+  "conference": "NCHC",
+  "calls": [
+   "KDAL-AM"
+  ],
+  "streams": [],
+  "athletics_site": "https://umdbulldogs.com",
+  "notes": "Hockey-only D1 school (added Nov 2026). KDAL 610 AM carries men's hockey (umdbulldogs.com/coverage, Nov 2026). Not KDAL-FM 95.7 (music). Women's games mostly video only (BTN+); some on KDAL.",
+  "sports": [
+   "mhk",
+   "whk"
+  ],
+  "source": "https://umdbulldogs.com/coverage"
+ },
+ {
+  "school": "St. Cloud State University",
+  "names": [
+   "St. Cloud State",
+   "St. Cloud State Huskies",
+   "St. Cloud St.",
+   "SCSU"
+  ],
+  "network": "Huskies Hockey on KNSI",
+  "flagship": "KNSI 99.3 FM / 1450 AM (St. Cloud, MN)",
+  "listen_page": "https://knsiradio.com",
+  "conference": "NCHC",
+  "calls": [
+   "KNSI-AM"
+  ],
+  "streams": [],
+  "athletics_site": "https://scsuhuskies.com",
+  "notes": "Hockey-only D1 school (added Nov 2026). Men's on KNSI (Oct 2025). Women's hockey on student station KVSC 88.1 FM / KVSC Sports Stream (Dec 2025).",
+  "sports": [
+   "mhk",
+   "whk"
+  ],
+  "source": "https://scsuhuskies.com",
+  "sport_station": {
+   "whk": "KVSC 88.1 FM (St. Cloud State student station)"
+  }
+ },
+ {
+  "school": "Minnesota State University, Mankato",
+  "names": [
+   "Minnesota State",
+   "Minnesota State Mavericks",
+   "Minnesota St.",
+   "Minnesota State Mankato",
+   "MSU Mankato"
+  ],
+  "network": "Mavericks Hockey on KTOE",
+  "flagship": "KTOE 1420 AM / 98.7 FM (Mankato, MN)",
+  "listen_page": "https://radiomankato.com/ktoe/",
+  "conference": "CCHA",
+  "calls": [
+   "KTOE-AM"
+  ],
+  "streams": [],
+  "athletics_site": "https://msumavericks.com",
+  "notes": "Hockey-only D1 school (added Nov 2026). Men's hockey on KTOE (Matt Dean). No women's hockey radio found for 2025-26.",
+  "sports": [
+   "mhk",
+   "whk"
+  ],
+  "source": "https://msumavericks.com/sports/2024/5/31/live-audio-broadcast-mens-hockey.aspx"
+ },
+ {
+  "school": "Bemidji State University",
+  "names": [
+   "Bemidji State",
+   "Bemidji State Beavers",
+   "Bemidji St."
+  ],
+  "network": "Beaver Radio Network",
+  "flagship": "92.1 The River (Bemidji, MN); women's on 94.3 FM",
+  "listen_page": "https://beaverradionetwork.com",
+  "conference": "CCHA",
+  "calls": [],
+  "streams": [],
+  "athletics_site": "https://bsubeavers.com",
+  "notes": "Hockey-only D1 school (added Nov 2026). Beaver Radio Network streams at beaverradionetwork.com (Feb 2026; Nov 2026 schedule lists men's and women's games). Call letters not given in sources, so calls left empty.",
+  "sports": [
+   "mhk",
+   "whk"
+  ],
+  "source": "https://beaverradionetwork.com/?p=16527"
+ },
+ {
+  "school": "Colorado College",
+  "names": [
+   "Colorado College",
+   "Colorado College Tigers",
+   "CC Tigers"
+  ],
+  "network": "CC Radio Network on KRDO NewsRadio",
+  "flagship": "KRDO NewsRadio 105.5 FM / 1240 AM (Colorado Springs)",
+  "listen_page": "https://krdo.com",
+  "conference": "NCHC",
+  "calls": [
+   "KRDO-AM"
+  ],
+  "streams": [],
+  "athletics_site": "https://cctigers.com",
+  "notes": "Hockey-only D1 school (added Nov 2026). Men's hockey on KRDO NewsRadio (Feb 2026).",
+  "sports": [
+   "mhk"
+  ],
+  "source": "https://cctigers.com"
+ },
+ {
+  "school": "Clarkson University",
+  "names": [
+   "Clarkson",
+   "Clarkson Golden Knights"
+  ],
+  "network": "Clarkson Hockey on B99.3",
+  "flagship": "WSNN B99.3 FM (Potsdam, NY)",
+  "listen_page": "https://b993.fm",
+  "conference": "ECAC Hockey",
+  "calls": [
+   "WSNN-FM"
+  ],
+  "streams": [],
+  "athletics_site": "https://clarksonathletics.com",
+  "notes": "Hockey-only D1 school (added Nov 2026). Men's on WSNN B99.3 (Jan 2026, Bob Ahlfeld). Women's (and men's home) also on student WTSC 91.1 FM, stream info at radio.clarkson.edu/stream-info/ (Oct 2025).",
+  "sports": [
+   "mhk",
+   "whk"
+  ],
+  "source": "https://clarksonathletics.com/news/2026/1/16/mens-hockey-clarkson-visits-10-dartmouth.aspx",
+  "sport_station": {
+   "whk": "WTSC 91.1 FM (Clarkson student station)"
+  }
+ },
+ {
+  "school": "St. Lawrence University",
+  "names": [
+   "St. Lawrence",
+   "St. Lawrence Saints",
+   "Saint Lawrence"
+  ],
+  "network": "Saints Hockey on 95.3 The Wolf",
+  "flagship": "95.3 The Wolf (North Country, NY)",
+  "listen_page": "https://cbogdensburg.com/thewolf/",
+  "conference": "ECAC Hockey",
+  "calls": [],
+  "streams": [],
+  "athletics_site": "https://saintsathletics.com",
+  "notes": "Hockey-only D1 school (added Nov 2026). Men's on 95.3 The Wolf per saintsathletics.com/coverage (Nov 2026); calls not confirmed (WLFK is listed for Clarkson), so calls left empty. Women's audio only on ecachockey.tv.",
+  "sports": [
+   "mhk",
+   "whk"
+  ],
+  "source": "https://saintsathletics.com/coverage"
+ },
+ {
+  "school": "Rochester Institute of Technology",
+  "names": [
+   "RIT",
+   "RIT Tigers",
+   "Rochester Institute of Technology"
+  ],
+  "network": "RIT Hockey on WITR / FOX Sports 1280",
+  "flagship": "WITR 89.7 FM (student) and FOX Sports 1280 AM WHTK (Rochester, NY)",
+  "listen_page": "https://witr.rit.edu",
+  "conference": "Atlantic Hockey America",
+  "calls": [
+   "WHTK-AM",
+   "WITR-FM"
+  ],
+  "streams": [],
+  "athletics_site": "https://ritathletics.com",
+  "notes": "Hockey-only D1 school (added Nov 2026). Men's on WITR 89.7 and FOX Sports 1280 (Oct 2025); women's on WITR (Sep 2025). WHTK is iHeart and may be geo-blocked.",
+  "sports": [
+   "mhk",
+   "whk"
+  ],
+  "source": "https://ritathletics.com"
+ },
+ {
+  "school": "University of Alaska Fairbanks",
+  "names": [
+   "Alaska",
+   "Alaska Nanooks",
+   "Alaska Fairbanks",
+   "Alaska-Fairbanks",
+   "UAF"
+  ],
+  "network": "Nanooks Hockey on KSUA",
+  "flagship": "KSUA 91.5 FM (Fairbanks, student station)",
+  "listen_page": "https://ksuaradio.com",
+  "conference": "Independent",
+  "calls": [
+   "KSUA-FM"
+  ],
+  "streams": [],
+  "athletics_site": "https://alaskananooks.com",
+  "notes": "Hockey-only D1 school (added Nov 2026). Men's hockey on KSUA 91.5 (Oct 2025, Feb 2026; Bruce Cech).",
+  "sports": [
+   "mhk"
+  ],
+  "source": "https://alaskananooks.com"
+ },
+ {
+  "school": "University of Alaska Anchorage",
+  "names": [
+   "Alaska Anchorage",
+   "Alaska Anchorage Seawolves",
+   "Alaska-Anchorage",
+   "UAA"
+  ],
+  "network": "",
+  "flagship": "",
+  "listen_page": "https://goseawolves.com",
+  "conference": "Independent",
+  "calls": [],
+  "streams": [],
+  "athletics_site": "https://goseawolves.com",
+  "notes": "Hockey-only D1 school (added Nov 2026). No radio found for 2025-26 (video only, FloHockey). Game-time finder checks the school site.",
+  "sports": [
+   "mhk"
+  ],
+  "source": "https://goseawolves.com",
+  "game_only": true
+ },
+ {
+  "school": "Bentley University",
+  "names": [
+   "Bentley",
+   "Bentley Falcons"
+  ],
+  "network": "",
+  "flagship": "",
+  "listen_page": "https://bentleyfalcons.com",
+  "conference": "Atlantic Hockey America",
+  "calls": [],
+  "streams": [],
+  "athletics_site": "https://bentleyfalcons.com",
+  "notes": "Hockey-only D1 school (added Nov 2026). No radio found; 2025-26 notes list video only (FloHockey, ESPN+).",
+  "sports": [
+   "mhk"
+  ],
+  "source": "https://bentleyfalcons.com",
+  "no_radio": true
+ },
+ {
+  "school": "Augustana University",
+  "names": [
+   "Augustana (SD)",
+   "Augustana (SD) Vikings",
+   "Augustana Vikings"
+  ],
+  "network": "Augustana Live Audio",
+  "flagship": "School audio only (goaugie.com/live)",
+  "listen_page": "https://goaugie.com/live",
+  "conference": "CCHA",
+  "calls": [],
+  "streams": [],
+  "athletics_site": "https://goaugie.com",
+  "notes": "Hockey-only D1 school (added Nov 2026). D1 in hockey only. No station named; notes list a 'Live Audio' link at goaugie.com/live (Dec 2025).",
+  "sports": [
+   "mhk"
+  ],
+  "source": "https://goaugie.com",
+  "game_only": true
+ },
+ {
+  "school": "Ferris State University",
+  "names": [
+   "Ferris State",
+   "Ferris State Bulldogs",
+   "Ferris St."
+  ],
+  "network": "Bulldog Hockey on Sunny 97.3",
+  "flagship": "WDEE Sunny 97.3 FM (Reed City/Big Rapids, MI)",
+  "listen_page": "https://ferrisstatebulldogs.com",
+  "conference": "CCHA",
+  "calls": [
+   "WDEE-FM"
+  ],
+  "streams": [],
+  "athletics_site": "https://ferrisstatebulldogs.com",
+  "notes": "Hockey-only D1 school (added Nov 2026). WDEE is the flagship (Jan 2026); also streaming audio on FerrisStateBulldogs.com.",
+  "sports": [
+   "mhk"
+  ],
+  "source": "https://ferrisstate.prestosports.com/information/audiowebcasts"
+ },
+ {
+  "school": "American International College",
+  "names": [
+   "American International",
+   "American International Yellow Jackets",
+   "AIC",
+   "AIC Yellow Jackets"
+  ],
+  "network": "",
+  "flagship": "",
+  "listen_page": "https://aicyellowjackets.com",
+  "conference": "Atlantic Hockey America",
+  "calls": [],
+  "streams": [],
+  "athletics_site": "https://aicyellowjackets.com",
+  "notes": "Hockey-only D1 school (added Nov 2026). No radio or audio found for 2025-26 (FloHockey video only).",
+  "sports": [
+   "mhk"
+  ],
+  "source": "https://aicyellowjackets.com",
+  "no_radio": true
  }
 ]
