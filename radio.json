@@ -1,5 +1,5 @@
 {
-"built": "2026-11-05T14:33:23Z",
+"built": "2026-11-05T20:07:36Z",
 "teams": [
 {
 "school": "Boston College",
@@ -51,7 +51,6 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://img.leanstream.co/LF1001-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KSFOAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KSFOAMAAC.m3u8",
 "http://playerservices.streamtheworld.com/api/livestream-redirect/KSFOAMAAC.aac"
@@ -64,11 +63,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"game_feeds": [
-"https://img.leanstream.co/LF1001-MP3"
-],
-"game_feeds_at": "2026-11-05T01:21:41Z",
-"game_feeds_sport": "mbb"
+"game_feeds": null
 },
 {
 "school": "Clemson University",
@@ -1049,22 +1044,16 @@
 "game_only": true,
 "no_radio": null,
 "notes": null,
-"streams": [
-"https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3"
-],
+"streams": [],
 "misses": 3,
 "miss_day": "2026-11-05",
 "last_ok": "2026-11-03",
-"live_only": true,
+"live_only": false,
 "athletics_site": "https://appstatesports.com",
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"game_feeds": [
-"https://playerservices.streamtheworld.com/api/livestream-redirect/APP_STATE_UNIVERSITY.mp3"
-],
-"game_feeds_at": "2026-11-05T01:21:41Z",
-"game_feeds_sport": "mbb"
+"game_feeds": null
 },
 {
 "school": "Arkansas State University",
@@ -1173,8 +1162,6 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://playerservices.streamtheworld.com/api/livestream-redirect/WRASFMAAC.aac",
-"https://playerservices.streamtheworld.com/api/livestream-redirect/WRASFM.mp3",
 "https://gpb.streamguys1.com/gpb-atlanta-aac-website"
 ],
 "misses": 0,
@@ -1269,8 +1256,8 @@
 "streams": [
 "https://ice7.securenetsystems.net/KXKZ"
 ],
-"misses": 0,
-"miss_day": null,
+"misses": 1,
+"miss_day": "2026-11-05",
 "last_ok": "2026-11-05",
 "live_only": false,
 "athletics_site": "https://latechsports.com",
@@ -1631,7 +1618,6 @@
 "no_radio": null,
 "notes": "Women's basketball is on KHOW 630 AM (iHeart Denver), plus SiriusXM and Varsity app (cubuffs.com 2025-26 notes).",
 "streams": [
-"https://img.leanstream.co/IM7102-MP3",
 "https://stream.revma.ihrhls.com/zc389",
 "https://stream.revma.ihrhls.com/zc389/hls.m3u8",
 "http://stream.revma.ihrhls.com/zc389"
@@ -1644,11 +1630,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"game_feeds": [
-"https://img.leanstream.co/IM7102-MP3"
-],
-"game_feeds_at": "2026-11-05T01:21:41Z",
-"game_feeds_sport": "wbb"
+"game_feeds": null
 },
 {
 "school": "University of Houston",
@@ -2071,7 +2053,6 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://ice25.securenetsystems.net/WDWS",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WSOYAM.mp3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WSOYAMAAC.aac"
 ],
@@ -2083,11 +2064,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"game_feeds": [
-"https://ice25.securenetsystems.net/WDWS"
-],
-"game_feeds_at": "2026-11-05T01:21:41Z",
-"game_feeds_sport": "wbb"
+"game_feeds": null
 },
 {
 "school": "Indiana University",
@@ -4184,7 +4161,6 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://img.leanstream.co/LF1301-MP3",
 "https://ice41.securenetsystems.net/WFLI"
 ],
 "misses": 0,
@@ -4195,11 +4171,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": true,
-"game_feeds": [
-"https://img.leanstream.co/LF1301-MP3"
-],
-"game_feeds_at": "2026-11-05T01:21:41Z",
-"game_feeds_sport": "wbb"
+"game_feeds": null
 },
 {
 "school": "East Tennessee State University",
@@ -4361,7 +4333,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://ice5.securenetsystems.net/WQNT?playSessionID=B927D6B3-DDC4-A6D8-302EDDC1FFAF27B9"
+"https://ice5.securenetsystems.net/WQNT?playSessionID=C507C220-FB37-8D9E-CAE8B8B1E7714FF0"
 ],
 "misses": 0,
 "miss_day": null,
@@ -4983,9 +4955,7 @@
 "game_only": null,
 "no_radio": true,
 "notes": "Varsity Network app only",
-"streams": [
-"https://playerservices.streamtheworld.com/api/livestream-redirect/BUTLER_UNIVERSITY.mp3"
-],
+"streams": [],
 "misses": 1,
 "miss_day": "2026-11-05",
 "last_ok": "2026-11-03",
@@ -4993,12 +4963,8 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"live_only": true,
-"game_feeds": [
-"https://playerservices.streamtheworld.com/api/livestream-redirect/BUTLER_UNIVERSITY.mp3"
-],
-"game_feeds_at": "2026-11-05T01:21:41Z",
-"game_feeds_sport": "mbb"
+"live_only": false,
+"game_feeds": null
 },
 {
 "school": "Davidson College",
@@ -5292,7 +5258,6 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://img.leanstream.co/IM7702-MP3",
 "https://live.amperwave.net/manifest/townsquare-kgvoamaac-ibc3"
 ],
 "misses": 0,
@@ -5303,11 +5268,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"game_feeds": [
-"https://img.leanstream.co/IM7702-MP3"
-],
-"game_feeds_at": "2026-11-05T01:21:41Z",
-"game_feeds_sport": "mbb"
+"game_feeds": null
 },
 {
 "school": "Montana State University",
@@ -5854,7 +5815,6 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://img.leanstream.co/LF5201-MP3",
 "https://ice7.securenetsystems.net/KVHT"
 ],
 "misses": 0,
@@ -5865,11 +5825,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"game_feeds": [
-"https://img.leanstream.co/LF5201-MP3"
-],
-"game_feeds_at": "2026-11-05T01:21:41Z",
-"game_feeds_sport": "mbb"
+"game_feeds": null
 },
 {
 "school": "South Dakota State University",
@@ -6342,7 +6298,6 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://live.amperwave.net/manifest/northernstarbroadcasting-wupsfmaac-hlsc2.m3u8",
 "https://live.amperwave.net/manifest/northernstarbroadcasting-wupsfmaac-ibc2",
 "http://www.wmhw.cmich.edu:915/live.mp3"
 ],
@@ -6354,11 +6309,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": true,
-"game_feeds": [
-"https://live.amperwave.net/manifest/northernstarbroadcasting-wupsfmaac-hlsc2.m3u8"
-],
-"game_feeds_at": "2026-11-05T01:21:41Z",
-"game_feeds_sport": "fb"
+"game_feeds": null
 },
 {
 "school": "Eastern Michigan University",
@@ -6496,7 +6447,6 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://img.leanstream.co/LF5901-MP3",
 "https://stream.revma.ihrhls.com/zc1857",
 "https://stream.revma.ihrhls.com/zc1857/hls.m3u8",
 "http://stream.revma.ihrhls.com/zc1857"
@@ -6509,11 +6459,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": true,
-"game_feeds": [
-"https://img.leanstream.co/LF5901-MP3"
-],
-"game_feeds_at": "2026-11-05T01:21:41Z",
-"game_feeds_sport": "fb"
+"game_feeds": null
 },
 {
 "school": "Western Michigan University",
@@ -6883,7 +6829,6 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://img.leanstream.co/IM2503-MP3",
 "https://ice25.securenetsystems.net/WPTQ"
 ],
 "misses": 0,
@@ -6894,11 +6839,7 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": true,
-"game_feeds": [
-"https://img.leanstream.co/IM2503-MP3"
-],
-"game_feeds_at": "2026-11-05T01:21:41Z",
-"game_feeds_sport": "wbb"
+"game_feeds": null
 },
 {
 "school": "Boise State University",
@@ -6919,7 +6860,6 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://img.leanstream.co/LF0402-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAMAAC.m3u8",
 "http://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAMAAC.aac"
@@ -6932,11 +6872,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"game_feeds": [
-"https://img.leanstream.co/LF0402-MP3"
-],
-"game_feeds_at": "2026-11-05T01:21:41Z",
-"game_feeds_sport": "mbb"
+"game_feeds": null
 },
 {
 "school": "Colorado State University",
@@ -7016,7 +6952,6 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://img.leanstream.co/IM7201-MP3",
 "https://stream.revma.ihrhls.com/zc1949",
 "https://stream.revma.ihrhls.com/zc1949/hls.m3u8",
 "http://stream.revma.ihrhls.com/zc1949"
@@ -7029,11 +6964,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"game_feeds": [
-"https://img.leanstream.co/IM7201-MP3"
-],
-"game_feeds_at": "2026-11-05T01:21:41Z",
-"game_feeds_sport": "wbb"
+"game_feeds": null
 },
 {
 "school": "San Diego State University",
@@ -7306,7 +7237,6 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://img.leanstream.co/LF7502-MP3",
 "https://ice3.securenetsystems.net/KQWB"
 ],
 "misses": 0,
@@ -7317,11 +7247,7 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"game_feeds": [
-"https://img.leanstream.co/LF7502-MP3"
-],
-"game_feeds_at": "2026-11-05T01:21:41Z",
-"game_feeds_sport": "mbb"
+"game_feeds": null
 },
 {
 "school": "Northern Illinois University",
@@ -7496,7 +7422,6 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://img.leanstream.co/IM7002-MP3",
 "https://stream.rcs.revma.com/fyk48ahxu7uvv",
 "https://stream.rcs.revma.com/fyk48ahxu7uvv/hls.m3u8",
 "http://stream.rcs.revma.com/fyk48ahxu7uvv"
@@ -7509,11 +7434,7 @@
 "live_only": true,
 "sport_streams": null,
 "sport_station": null,
-"game_feeds": [
-"https://img.leanstream.co/IM7002-MP3"
-],
-"game_feeds_at": "2026-11-05T01:21:41Z",
-"game_feeds_sport": "wbb"
+"game_feeds": null
 },
 {
 "school": "University of Arkansas",
@@ -8228,9 +8149,7 @@
 "game_only": true,
 "no_radio": null,
 "notes": "Free audio on GoMatadors.com/Radio and Varsity app for road games; home games are ESPN+ video",
-"streams": [
-"https://cdn.jwplayer.com/live/broadcast/1Pn7dr9L.m3u8"
-],
+"streams": [],
 "misses": 1,
 "miss_day": "2026-11-05",
 "last_ok": null,
@@ -8238,12 +8157,8 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"game_feeds": [
-"https://cdn.jwplayer.com/live/broadcast/1Pn7dr9L.m3u8"
-],
-"game_feeds_at": "2026-11-05T01:21:41Z",
-"game_feeds_sport": "mbb",
-"live_only": true
+"live_only": false,
+"game_feeds": null
 },
 {
 "school": "California Baptist University",
@@ -8751,9 +8666,7 @@
 "game_only": true,
 "no_radio": null,
 "notes": "GCU Radio Network went fully digital in 2025-26: free audio only in the GCU Lopes app (no over-the-air station named)",
-"streams": [
-"https://cdn.jwplayer.com/live/broadcast/Z81fg0Bk.m3u8"
-],
+"streams": [],
 "misses": 1,
 "miss_day": "2026-11-05",
 "last_ok": "2026-11-03",
@@ -8761,12 +8674,8 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"live_only": true,
-"game_feeds": [
-"https://cdn.jwplayer.com/live/broadcast/Z81fg0Bk.m3u8"
-],
-"game_feeds_at": "2026-11-05T01:21:41Z",
-"game_feeds_sport": "wbb"
+"live_only": false,
+"game_feeds": null
 },
 {
 "school": "University of Wisconsin-Green Bay",
@@ -9017,10 +8926,7 @@
 "game_only": true,
 "no_radio": null,
 "notes": "Free audio stream on goexplorers.com showcase (Kale Beers pbp), no over-the-air station; confirmed for 2024-25",
-"streams": [
-"https://cdn.jwplayer.com/live/broadcast/rtVjIj2k.m3u8",
-"https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/rtVjIj2k.m3u8?exp=1793842560&sig=65920c1a2c60bddab97f7ab1cc2cffb8"
-],
+"streams": [],
 "misses": 1,
 "miss_day": "2026-11-05",
 "last_ok": "2026-11-03",
@@ -9028,13 +8934,8 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"live_only": true,
-"game_feeds": [
-"https://cdn.jwplayer.com/live/broadcast/rtVjIj2k.m3u8",
-"https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/rtVjIj2k.m3u8?exp=1793842560&sig=65920c1a2c60bddab97f7ab1cc2cffb8"
-],
-"game_feeds_at": "2026-11-05T01:21:41Z",
-"game_feeds_sport": "wbb"
+"live_only": false,
+"game_feeds": null
 },
 {
 "school": "Le Moyne College",
@@ -9633,9 +9534,9 @@
 "streams": [
 "https://ice6.securenetsystems.net/KYAL"
 ],
-"misses": 1,
-"miss_day": "2026-11-05",
-"last_ok": "2026-11-04",
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-05",
 "athletics_site": "https://oruathletics.com",
 "station_sports": null,
 "sport_streams": null,
@@ -9930,11 +9831,7 @@
 "game_only": true,
 "no_radio": null,
 "notes": "Mixlr audio is for road games only; home games are ESPN+ only (2024-25 setup)",
-"streams": [
-"https://siue-cougars.mixlr.com/",
-"https://apicdn.mixlr.com/v3/channel_view/siue-cougars",
-"https://apicdn.mixlr.com/v3/channel_me"
-],
+"streams": [],
 "misses": 2,
 "miss_day": "2026-11-05",
 "last_ok": null,
@@ -9942,14 +9839,8 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"live_only": true,
-"game_feeds": [
-"https://siue-cougars.mixlr.com/",
-"https://apicdn.mixlr.com/v3/channel_view/siue-cougars",
-"https://apicdn.mixlr.com/v3/channel_me"
-],
-"game_feeds_at": "2026-11-05T01:21:41Z",
-"game_feeds_sport": "mbb"
+"live_only": false,
+"game_feeds": null
 },
 {
 "school": "Saint Joseph's University",
@@ -9969,9 +9860,7 @@
 "game_only": true,
 "no_radio": null,
 "notes": "2025-26 previews say 'Listen: sjuhawks.com'; no OTA station found (formerly 610 WIP)",
-"streams": [
-"https://cdn.jwplayer.com/live/broadcast/WzlYkuro.m3u8"
-],
+"streams": [],
 "misses": 1,
 "miss_day": "2026-11-05",
 "last_ok": null,
@@ -9979,12 +9868,8 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"game_feeds": [
-"https://cdn.jwplayer.com/live/broadcast/WzlYkuro.m3u8"
-],
-"game_feeds_at": "2026-11-05T01:21:41Z",
-"game_feeds_sport": "mbb",
-"live_only": true
+"live_only": false,
+"game_feeds": null
 },
 {
 "school": "Saint Louis University",
@@ -10222,9 +10107,7 @@
 "game_only": null,
 "no_radio": null,
 "notes": "July 2026 release reaffirms WSPG as flagship. Live audio is at SpartanburgSportsRadio.com, the Fox Sports Spartanburg app, and TuneIn 'WSPG-AM'. No direct stream URL found (site not fetchable, Streema shows none). Per 2023 deal, all MBB and only some WBB",
-"streams": [
-"https://www.spartanburgsportsradio.com/"
-],
+"streams": [],
 "misses": 1,
 "miss_day": "2026-11-05",
 "last_ok": null,
@@ -10232,12 +10115,8 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"live_only": true,
-"game_feeds": [
-"https://www.spartanburgsportsradio.com/"
-],
-"game_feeds_at": "2026-11-05T01:21:41Z",
-"game_feeds_sport": "wbb"
+"live_only": false,
+"game_feeds": null
 },
 {
 "school": "University of Southern Indiana",
@@ -10934,7 +10813,8 @@
 "names": [
 "Union (NY)",
 "Union Garnet Chargers",
-"Union Dutchwomen"
+"Union Dutchwomen",
+"Union Dutchmen"
 ],
 "network": "",
 "flagship": "",
@@ -11008,6 +10888,460 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-05",
+"game_feeds": null
+},
+{
+"school": "Michigan Technological University",
+"names": [
+"Michigan Tech",
+"Michigan Tech Huskies",
+"Michigan Technological"
+],
+"network": "Huskies Hockey on Mix 93.5",
+"flagship": "WKMJ Mix 93.5 FM (Hancock, MI)",
+"listen_page": "https://themix93.com",
+"conference": "CCHA",
+"calls": [
+"WKMJ-FM"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Hockey-only D1 school (added Nov 2026). Men's hockey on WKMJ (Dec 2025 game notes).",
+"athletics_site": "https://michigantechhuskies.com",
+"station_sports": null,
+"sport_streams": null,
+"sport_station": null,
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Northern Michigan University",
+"names": [
+"Northern Michigan",
+"Northern Michigan Wildcats",
+"NMU"
+],
+"network": "Wildcat Hockey on 100.3 The Point",
+"flagship": "WUPT 100.3 The Point (Gwinn/Marquette, MI)",
+"listen_page": "https://radioresultsnetwork.com",
+"conference": "CCHA",
+"calls": [
+"WUPT-FM"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Hockey-only D1 school (added Nov 2026). WUPT is NMU's sports flagship (Nov 2025 notes, Wikipedia).",
+"athletics_site": "https://nmuwildcats.com",
+"station_sports": null,
+"sport_streams": null,
+"sport_station": null,
+"streams": [
+"http://ice10.securenetsystems.net/WLST"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-05",
+"game_feeds": null
+},
+{
+"school": "University of Minnesota Duluth",
+"names": [
+"Minnesota Duluth",
+"Minnesota Duluth Bulldogs",
+"Minnesota-Duluth",
+"UMD"
+],
+"network": "Bulldog Hockey on KDAL",
+"flagship": "KDAL 610 AM / 103.9 FM (Duluth, MN)",
+"listen_page": "https://kdal610.com",
+"conference": "NCHC",
+"calls": [
+"KDAL-AM"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Hockey-only D1 school (added Nov 2026). KDAL 610 AM carries men's hockey (umdbulldogs.com/coverage, Nov 2026). Not KDAL-FM 95.7 (music). Women's games mostly video only (BTN+); some on KDAL.",
+"athletics_site": "https://umdbulldogs.com",
+"station_sports": null,
+"sport_streams": null,
+"sport_station": null,
+"streams": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KDALAMAAC.aac",
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KDALAM.mp3"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-05",
+"game_feeds": null
+},
+{
+"school": "St. Cloud State University",
+"names": [
+"St. Cloud State",
+"St. Cloud State Huskies",
+"St. Cloud St.",
+"SCSU"
+],
+"network": "Huskies Hockey on KNSI",
+"flagship": "KNSI 99.3 FM / 1450 AM (St. Cloud, MN)",
+"listen_page": "https://knsiradio.com",
+"conference": "NCHC",
+"calls": [
+"KNSI-AM"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Hockey-only D1 school (added Nov 2026). Men's on KNSI (Oct 2025). Women's hockey on student station KVSC 88.1 FM / KVSC Sports Stream (Dec 2025).",
+"athletics_site": "https://scsuhuskies.com",
+"station_sports": null,
+"sport_streams": null,
+"sport_station": {
+"whk": "KVSC 88.1 FM (St. Cloud State student station)"
+},
+"streams": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/KNSIAAC.aac"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-05",
+"game_feeds": null
+},
+{
+"school": "Minnesota State University, Mankato",
+"names": [
+"Minnesota State",
+"Minnesota State Mavericks",
+"Minnesota St.",
+"Minnesota State Mankato",
+"MSU Mankato"
+],
+"network": "Mavericks Hockey on KTOE",
+"flagship": "KTOE 1420 AM / 98.7 FM (Mankato, MN)",
+"listen_page": "https://radiomankato.com/ktoe/",
+"conference": "CCHA",
+"calls": [
+"KTOE-AM"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Hockey-only D1 school (added Nov 2026). Men's hockey on KTOE (Matt Dean). No women's hockey radio found for 2025-26.",
+"athletics_site": "https://msumavericks.com",
+"station_sports": null,
+"sport_streams": null,
+"sport_station": null,
+"streams": [
+"https://ice24.securenetsystems.net/KTOE?playSessionID=C50BB9FF-9E91-6E1C-39F8BC82F808DB7F"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-05",
+"game_feeds": null
+},
+{
+"school": "Bemidji State University",
+"names": [
+"Bemidji State",
+"Bemidji State Beavers",
+"Bemidji St."
+],
+"network": "Beaver Radio Network",
+"flagship": "92.1 The River (Bemidji, MN); women's on 94.3 FM",
+"listen_page": "https://beaverradionetwork.com",
+"conference": "CCHA",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "Hockey-only D1 school (added Nov 2026). Beaver Radio Network streams at beaverradionetwork.com (Feb 2026; Nov 2026 schedule lists men's and women's games). Call letters not given in sources, so calls left empty.",
+"athletics_site": "https://bsubeavers.com",
+"station_sports": null,
+"sport_streams": null,
+"sport_station": null,
+"streams": [
+"http://209.191.211.196:8001/wmis.mp3",
+"http://209.191.211.196:8001/kpmiam.mp3"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-05",
+"game_feeds": null
+},
+{
+"school": "Colorado College",
+"names": [
+"Colorado College",
+"Colorado College Tigers",
+"CC Tigers"
+],
+"network": "CC Radio Network on KRDO NewsRadio",
+"flagship": "KRDO NewsRadio 105.5 FM / 1240 AM (Colorado Springs)",
+"listen_page": "https://krdo.com",
+"conference": "NCHC",
+"calls": [
+"KRDO-AM"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Hockey-only D1 school (added Nov 2026). Men's hockey on KRDO NewsRadio (Feb 2026).",
+"athletics_site": "https://cctigers.com",
+"station_sports": null,
+"sport_streams": null,
+"sport_station": null,
+"streams": [
+"https://dai2-playlistserver.aws.syncbak.com/cpl/22144977/dai2v6/1.0/7b7d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjIwMTYwNDAxIn0.eyJtaWQiOiIyMjE0NDk3NyIsImNpZCI6MjIzNzMsInNpZCI6MTIxOSwibWQ1IjoiNDdjYWFmZDdhZjdjYmQyOTYzYjcwYzUxZDExZThjZDEiLCJpYXQiOjE3ODY1NjcwMTksImlzcyI6IlN5bmNiYWsgKFRHKSIsImp0aSI6IjJlYjdmMGQ4LTk0OWMtNDVjNC04ODc0LWUzY2Y3NmVjZTZmZSJ9.r515WvNGrTUh_4qHe9O-_frq89w3m2T1v0Y4MSvT8a8",
+"https://ice6.securenetsystems.net/KRDO"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-05",
+"game_feeds": null
+},
+{
+"school": "Clarkson University",
+"names": [
+"Clarkson",
+"Clarkson Golden Knights"
+],
+"network": "Clarkson Hockey on B99.3",
+"flagship": "WSNN B99.3 FM (Potsdam, NY)",
+"listen_page": "https://b993.fm",
+"conference": "ECAC Hockey",
+"calls": [
+"WSNN-FM"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Hockey-only D1 school (added Nov 2026). Men's on WSNN B99.3 (Jan 2026, Bob Ahlfeld). Women's (and men's home) also on student WTSC 91.1 FM, stream info at radio.clarkson.edu/stream-info/ (Oct 2025).",
+"athletics_site": "https://clarksonathletics.com",
+"station_sports": null,
+"sport_streams": null,
+"sport_station": {
+"whk": "WTSC 91.1 FM (Clarkson student station)"
+},
+"streams": [
+"https://ice66.securenetsystems.net/WSNN"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-05",
+"game_feeds": null
+},
+{
+"school": "St. Lawrence University",
+"names": [
+"St. Lawrence",
+"St. Lawrence Saints",
+"Saint Lawrence"
+],
+"network": "Saints Hockey on 95.3 The Wolf",
+"flagship": "95.3 The Wolf (North Country, NY)",
+"listen_page": "https://cbogdensburg.com/thewolf/",
+"conference": "ECAC Hockey",
+"calls": [],
+"game_only": null,
+"no_radio": null,
+"notes": "Hockey-only D1 school (added Nov 2026). Men's on 95.3 The Wolf per saintsathletics.com/coverage (Nov 2026); calls not confirmed (WLFK is listed for Clarkson), so calls left empty. Women's audio only on ecachockey.tv.",
+"athletics_site": "https://saintsathletics.com",
+"station_sports": null,
+"sport_streams": null,
+"sport_station": null,
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Rochester Institute of Technology",
+"names": [
+"RIT",
+"RIT Tigers",
+"Rochester Institute of Technology"
+],
+"network": "RIT Hockey on WITR / FOX Sports 1280",
+"flagship": "WITR 89.7 FM (student) and FOX Sports 1280 AM WHTK (Rochester, NY)",
+"listen_page": "https://witr.rit.edu",
+"conference": "Atlantic Hockey America",
+"calls": [
+"WHTK-AM",
+"WITR-FM"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Hockey-only D1 school (added Nov 2026). Men's on WITR 89.7 and FOX Sports 1280 (Oct 2025); women's on WITR (Sep 2025). WHTK is iHeart and may be geo-blocked.",
+"athletics_site": "https://ritathletics.com",
+"station_sports": null,
+"sport_streams": null,
+"sport_station": null,
+"streams": [
+"https://stream.revma.ihrhls.com/zc1509",
+"https://stream.revma.ihrhls.com/zc1509/hls.m3u8",
+"http://stream.revma.ihrhls.com/zc1509"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-05",
+"game_feeds": null
+},
+{
+"school": "University of Alaska Fairbanks",
+"names": [
+"Alaska",
+"Alaska Nanooks",
+"Alaska Fairbanks",
+"Alaska-Fairbanks",
+"UAF"
+],
+"network": "Nanooks Hockey on KSUA",
+"flagship": "KSUA 91.5 FM (Fairbanks, student station)",
+"listen_page": "https://ksuaradio.com",
+"conference": "Independent",
+"calls": [
+"KSUA-FM"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Hockey-only D1 school (added Nov 2026). Men's hockey on KSUA 91.5 (Oct 2025, Feb 2026; Bruce Cech).",
+"athletics_site": "https://alaskananooks.com",
+"station_sports": null,
+"sport_streams": null,
+"sport_station": null,
+"streams": [
+"https://stream.radio.co/se776fab22/listen"
+],
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-05",
+"game_feeds": null
+},
+{
+"school": "University of Alaska Anchorage",
+"names": [
+"Alaska Anchorage",
+"Alaska Anchorage Seawolves",
+"Alaska-Anchorage",
+"UAA"
+],
+"network": "",
+"flagship": "",
+"listen_page": "https://goseawolves.com",
+"conference": "Independent",
+"calls": [],
+"game_only": true,
+"no_radio": null,
+"notes": "Hockey-only D1 school (added Nov 2026). No radio found for 2025-26 (video only, FloHockey). Game-time finder checks the school site.",
+"athletics_site": "https://goseawolves.com",
+"station_sports": null,
+"sport_streams": null,
+"sport_station": null,
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Bentley University",
+"names": [
+"Bentley",
+"Bentley Falcons"
+],
+"network": "",
+"flagship": "",
+"listen_page": "https://bentleyfalcons.com",
+"conference": "Atlantic Hockey America",
+"calls": [],
+"game_only": null,
+"no_radio": true,
+"notes": "Hockey-only D1 school (added Nov 2026). No radio found; 2025-26 notes list video only (FloHockey, ESPN+).",
+"athletics_site": "https://bentleyfalcons.com",
+"station_sports": null,
+"sport_streams": null,
+"sport_station": null,
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Augustana University",
+"names": [
+"Augustana (SD)",
+"Augustana (SD) Vikings",
+"Augustana Vikings"
+],
+"network": "Augustana Live Audio",
+"flagship": "School audio only (goaugie.com/live)",
+"listen_page": "https://goaugie.com/live",
+"conference": "CCHA",
+"calls": [],
+"game_only": true,
+"no_radio": null,
+"notes": "Hockey-only D1 school (added Nov 2026). D1 in hockey only. No station named; notes list a 'Live Audio' link at goaugie.com/live (Dec 2025).",
+"athletics_site": "https://goaugie.com",
+"station_sports": null,
+"sport_streams": null,
+"sport_station": null,
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "Ferris State University",
+"names": [
+"Ferris State",
+"Ferris State Bulldogs",
+"Ferris St."
+],
+"network": "Bulldog Hockey on Sunny 97.3",
+"flagship": "WDEE Sunny 97.3 FM (Reed City/Big Rapids, MI)",
+"listen_page": "https://ferrisstatebulldogs.com",
+"conference": "CCHA",
+"calls": [
+"WDEE-FM"
+],
+"game_only": null,
+"no_radio": null,
+"notes": "Hockey-only D1 school (added Nov 2026). WDEE is the flagship (Jan 2026); also streaming audio on FerrisStateBulldogs.com.",
+"athletics_site": "https://ferrisstatebulldogs.com",
+"station_sports": null,
+"sport_streams": null,
+"sport_station": null,
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
+"game_feeds": null
+},
+{
+"school": "American International College",
+"names": [
+"American International",
+"American International Yellow Jackets",
+"AIC",
+"AIC Yellow Jackets"
+],
+"network": "",
+"flagship": "",
+"listen_page": "https://aicyellowjackets.com",
+"conference": "Atlantic Hockey America",
+"calls": [],
+"game_only": null,
+"no_radio": true,
+"notes": "Hockey-only D1 school (added Nov 2026). No radio or audio found for 2025-26 (FloHockey video only).",
+"athletics_site": "https://aicyellowjackets.com",
+"station_sports": null,
+"sport_streams": null,
+"sport_station": null,
+"streams": [],
+"misses": 0,
+"miss_day": null,
+"last_ok": null,
 "game_feeds": null
 }
 ]
