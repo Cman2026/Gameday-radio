@@ -14,7 +14,9 @@ No containers need to be restarted.
 No user sessions are running outdated binaries.
 
 No VM guests are running outdated hypervisor (qemu) binaries on this host.
+allaccess error https://goutsa.com HTTP Error 404: Not Found
 allaccess error https://gopsusports.com HTTP Error 404: Not Found
+allaccess error https://gomocs.com The read operation timed out
 allaccess error https://vucommodores.com HTTP Error 404: Not Found
 allaccess error https://fightingirish.com HTTP Error 404: Not Found
 allaccess error https://hokiesports.com HTTP Error 404: Not Found
@@ -28,13 +30,21 @@ allaccess error https://clemsontigers.com HTTP Error 404: Not Found
 allaccess error https://virginiasports.com HTTP Error 404: Not Found
 allaccess error https://purduesports.com HTTP Error 404: Not Found
 allaccess error https://auburntigers.com HTTP Error 404: Not Found
-official feeds added for: University of North Texas (mbb), Morehead State University (mbb), United States Military Academy (mbb), Indiana University (mbb), University of Tennessee at Chattanooga (mbb), Wake Forest University (mbb), Syracuse University (mbb), University of Florida (wbb), Western Carolina University (wbb), James Madison University (wbb), Texas Tech University (wbb), Ohio State University (wbb), University of Michigan (wbb), University of Connecticut (wbb)
+allaccess error https://ttusports.com HTTP Error 405: Not Allowed
+allaccess error https://nusports.com HTTP Error 404: Not Found
+allaccess error https://hawkeyesports.com HTTP Error 404: Not Found
+allaccess error https://lsusports.net HTTP Error 404: Not Found
+official feeds added for: University of Southern Mississippi (fb), University of North Texas (mbb), Morehead State University (mbb), United States Military Academy (mbb), Indiana University (mbb), Wake Forest University (mbb), Seton Hall University (mbb), University of Pittsburgh (mbb), Syracuse University (mbb), University of Maine (mbb), Texas State University (mbb), Mississippi State University (mbb), Tulane University (mbb), Louisiana Tech University (mbb), Western Kentucky University (mbb), University of North Alabama (mbb), Michigan State University (mbb), Duke University (mbb), Western Carolina University (wbb), Texas Tech University (wbb), Ohio State University (wbb), University of Michigan (wbb), University of Connecticut (wbb), University of Georgia (wbb), University of Tennessee (wbb), University of Alabama (wbb), West Virginia University (wbb), University of Mississippi (wbb), Kansas State University (wbb), Iowa State University (wbb), Eastern Kentucky University (wbb)
 allaccess error https://ccsubluedevils.com HTTP Error 405: Not Allowed
+Marist University mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/9ECvZVJG.m3u8']
 University of North Carolina at Charlotte mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/k5UnJHOy.m3u8']
+University of Richmond mbb -> (feed) ['https://stream.rcs.revma.com/x4q6k4dw57uvv']
 leanplayer xml https://wofford.leanplayer.com/ <?xml version="1.0"?> <main><sports><sport><id>1</id><name>Football</name><is_show>0</is_show></sport><sport><id>2</id><name>Men&#x2019;s Basketball</name><is_show>0</is_show></sport><sport><id>3</id><name>Women&#x2019;s Basketball</name><is_show>0</is_show></sport></sports><events><current_ev/><upcoming_ev><event><id>116707</id><start_timestamp>1794008700</start_timestamp><start>2026-11-06 23:45:00</start><end>2026-11-07 03:45:00</end><sport_id>2</sport_id><opponent>North Carolina</opponent><url>https://peaksports.leanstream.co/PS0101-MP3</url></event><event><id>111254</id><start_timestamp>17
 Wofford College wbb -> (leanplayer) ['https://peaksports.leanstream.co/PS0101-MP3']
+McNeese State University mbb -> []
+McNeese State University mbb -> ['https://video.primis.tech/uploads/cn11/video/users/hls/25037/video_5b18fe8a189cc100708328/vid60b74141a35e4677405822.mp4/chunklist_480.m3u8']
 Robert Morris University wbb -> []
 Robert Morris University wbb -> []
 University of Illinois Chicago wbb -> []
 University of Illinois Chicago wbb -> []
-other SIDEARM sport names seen: basketball-men, fb, football, general, mbb, mbball, mhockey, vol-network, volleyball, wbasket, wbb, wbball
+other SIDEARM sport names seen: basketball-women, fb, fitzgeraldshow, football, general, kelsayshow, mbb, mbball, mhockey, nightingaleshow, vol-network, volleyball, wbasket, wbball, wrestling, wvball

@@ -1202,12 +1202,12 @@
   "wbb|https://stream.revma.ihrhls.com/zc601": {
    "school": "University of Central Florida",
    "sport": "wbb",
-   "verdict": "ad",
-   "title": "Spot Block End",
+   "verdict": "unknown",
+   "title": "aHR0cHM6Ly9uMWViLWUyLnJldm1hLmlocmhscy5jb20vY2FjaGUvdmFzdC9iYjQ0MzViNy02MGEwLTNiNWEtOWIyOC1hOTkyNDQzMGM2ZDM=",
    "icy_name": "96.9 The Game",
-   "at": "2026-11-04T01:30:37Z",
+   "at": "2026-11-05T22:20:45Z",
    "ad_hits": 2,
-   "checks": 2,
+   "checks": 3,
    "preroll": true
   },
   "wbb|https://stream.revma.ihrhls.com/zc601/hls.m3u8": {
@@ -1216,20 +1216,20 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-04T01:30:37Z",
+   "at": "2026-11-05T22:20:45Z",
    "ad_hits": 0,
-   "checks": 2,
+   "checks": 3,
    "preroll": false
   },
   "wbb|http://stream.revma.ihrhls.com/zc601": {
    "school": "University of Central Florida",
    "sport": "wbb",
-   "verdict": "ad",
-   "title": "Spot Block End",
+   "verdict": "unknown",
+   "title": "aHR0cHM6Ly9uMTNiLWUyLnJldm1hLmlocmhscy5jb20vY2FjaGUvdmFzdC8yYjQ3ZWFmYi0wNDNmLTMxMWMtOGIzNy01MDkxZGQxZTExNjA=",
    "icy_name": "96.9 The Game",
-   "at": "2026-11-04T01:30:37Z",
+   "at": "2026-11-05T22:20:45Z",
    "ad_hits": 2,
-   "checks": 2,
+   "checks": 3,
    "preroll": true
   },
   "wbb|https://playerservices.streamtheworld.com/api/livestream-redirect/WHBXFMAAC.aac": {
@@ -2855,9 +2855,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "KTCTAM",
-   "at": "2026-11-05T21:21:57Z",
+   "at": "2026-11-05T22:20:45Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KTCTAMAAC.m3u8": {
@@ -2866,9 +2866,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "",
-   "at": "2026-11-05T21:21:57Z",
+   "at": "2026-11-05T22:20:45Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wbb|http://playerservices.streamtheworld.com/api/livestream-redirect/KTCTAMAAC.aac": {
@@ -2877,9 +2877,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "KTCTAM",
-   "at": "2026-11-05T21:21:57Z",
+   "at": "2026-11-05T22:20:45Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KKEAAM_AAC.aac": {
@@ -2888,9 +2888,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "KKEAAM",
-   "at": "2026-11-05T21:21:57Z",
+   "at": "2026-11-05T22:20:45Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KKEAAM_MP3.mp3": {
@@ -2899,9 +2899,9 @@
    "verdict": "unknown",
    "title": "",
    "icy_name": "KKEAAM",
-   "at": "2026-11-05T21:21:57Z",
+   "at": "2026-11-05T22:20:45Z",
    "ad_hits": 0,
-   "checks": 1,
+   "checks": 2,
    "preroll": false
   },
   "wbb|https://stream.radio.co/s521a8e223/listen": {
@@ -2910,11 +2910,176 @@
    "verdict": "unknown",
    "title": "DRIGTB_120723__mixdown",
    "icy_name": "RMU",
-   "at": "2026-11-05T21:21:57Z",
+   "at": "2026-11-05T22:20:45Z",
+   "ad_hits": 0,
+   "checks": 2,
+   "preroll": false
+  },
+  "mbb|https://img.leanstream.co/LF4301-MP3": {
+   "school": "University of North Texas",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-05T22:20:45Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://stream.revma.ihrhls.com/zc4276": {
+   "school": "University of North Texas",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "Guy Benson Show",
+   "icy_name": "Talk Radio 1190 AM",
+   "at": "2026-11-05T22:20:45Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://stream.revma.ihrhls.com/zc4276/hls.m3u8": {
+   "school": "University of North Texas",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-05T22:20:45Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|http://stream.revma.ihrhls.com/zc4276": {
+   "school": "University of North Texas",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "Guy Benson Show",
+   "icy_name": "Talk Radio 1190 AM",
+   "at": "2026-11-05T22:20:45Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://video.primis.tech/uploads/cn11/video/users/hls/25037/video_5b18fe8a189cc100708328/vid60b74141a35e4677405822.mp4/chunklist_480.m3u8": {
+   "school": "McNeese State University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-05T22:20:45Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://live.amperwave.net/manifest/townsquare-khlafmaac-ibc3": {
+   "school": "McNeese State University",
+   "sport": "mbb",
+   "verdict": "music",
+   "title": "FLEETWOOD MAC - GO YOUR OWN WAY",
+   "icy_name": "92.9 THE LAKE",
+   "at": "2026-11-05T22:20:45Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|http://98.86.150.170/townsquare-khlafmaac-ibc3?session-id=328b0e51282a130ff6a42131e0bba125": {
+   "school": "McNeese State University",
+   "sport": "mbb",
+   "verdict": "music",
+   "title": "FLEETWOOD MAC - GO YOUR OWN WAY",
+   "icy_name": "92.9 THE LAKE",
+   "at": "2026-11-05T22:20:45Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://ice5.securenetsystems.net/WIVY?playSessionID=CAD94437-8A97-4B89-A64B6786D95C079F": {
+   "school": "Morehead State University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "Streaming by Securenet Systems Cirrus(R)",
+   "at": "2026-11-05T22:20:45Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://ice5.securenetsystems.net/WIVY": {
+   "school": "Morehead State University",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "Streaming by Securenet Systems Cirrus(R)",
+   "at": "2026-11-05T22:20:45Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://ais-sa1.streamon.fm/7644_48k.aac": {
+   "school": "University of Florida",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-05T22:20:45Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://ais-sa1.streamon.fm/7644_64k.mp3": {
+   "school": "University of Florida",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-05T22:20:45Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|http://ais-sa1.streamon.fm/7644_48k.aac/playlist.m3u8": {
+   "school": "University of Florida",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-05T22:20:45Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://onair.wfuv.org/onair-aacplus": {
+   "school": "Fordham University",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "WFUV",
+   "at": "2026-11-05T22:20:45Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|http://onair.wfuv.org/onair-aacplus": {
+   "school": "Fordham University",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "WFUV",
+   "at": "2026-11-05T22:20:45Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|http://wfuv-onair.streamguys.org/onair-hi": {
+   "school": "Fordham University",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "WFUV",
+   "at": "2026-11-05T22:20:45Z",
    "ad_hits": 0,
    "checks": 1,
    "preroll": false
   }
  },
- "checked": "2026-11-05T21:21:57Z"
+ "checked": "2026-11-05T22:20:45Z"
 }
