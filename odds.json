@@ -1,118 +1,37 @@
 {
-"updated": "2026-11-03T21:44:58Z",
-"credits_left": "489",
+"updated": "2026-11-05T01:26:04Z",
+"credits_left": "486",
 "games": [
-{
-"sport": "fb",
-"home": "Akron Zips",
-"away": "Ohio Bobcats",
-"start": "2026-11-04T00:00:00Z",
-"books": [
-{
-"name": "FanDuel",
-"home": 390,
-"away": -520
-},
-{
-"name": "DraftKings",
-"home": 410,
-"away": -550
-},
-{
-"name": "BetRivers",
-"home": 400,
-"away": -590
-},
-{
-"name": "Hard Rock Bet",
-"home": 400,
-"away": -600
-},
-{
-"name": "theScore Bet",
-"home": 380,
-"away": -550
-},
-{
-"name": "BetMGM",
-"home": 400,
-"away": -525
-}
-]
-},
-{
-"sport": "fb",
-"home": "Miami (OH) RedHawks",
-"away": "Buffalo Bulls",
-"start": "2026-11-04T01:00:00Z",
-"books": [
-{
-"name": "FanDuel",
-"home": -235,
-"away": 190
-},
-{
-"name": "DraftKings",
-"home": -258,
-"away": 210
-},
-{
-"name": "BetRivers",
-"home": -250,
-"away": 200
-},
-{
-"name": "Hard Rock Bet",
-"home": -250,
-"away": 200
-},
-{
-"name": "theScore Bet",
-"home": -240,
-"away": 200
-},
-{
-"name": "BetMGM",
-"home": -250,
-"away": 210
-}
-]
-},
 {
 "sport": "fb",
 "home": "UMass Minutemen",
 "away": "Ball State Cardinals",
-"start": "2026-11-05T00:00:00Z",
+"start": "2026-11-05T00:02:34Z",
 "books": [
 {
 "name": "FanDuel",
-"home": -160,
-"away": 134
+"home": 126,
+"away": -158
 },
 {
 "name": "DraftKings",
-"home": -155,
-"away": 130
-},
-{
-"name": "BetRivers",
-"home": -175,
-"away": 138
+"home": 126,
+"away": -168
 },
 {
 "name": "Hard Rock Bet",
-"home": -170,
-"away": 140
+"home": 145,
+"away": -200
 },
 {
 "name": "theScore Bet",
-"home": -150,
-"away": 130
+"home": 125,
+"away": -160
 },
 {
 "name": "BetMGM",
-"home": -155,
-"away": 130
+"home": 145,
+"away": -190
 }
 ]
 },
@@ -120,27 +39,32 @@
 "sport": "fb",
 "home": "Sacramento State Hornets",
 "away": "Toledo Rockets",
-"start": "2026-11-05T00:00:00Z",
+"start": "2026-11-05T00:02:38Z",
 "books": [
 {
 "name": "FanDuel",
-"home": 1280,
-"away": -3000
+"home": 280,
+"away": -370
 },
 {
 "name": "DraftKings",
-"home": 1300,
-"away": -2800
+"home": 295,
+"away": -433
+},
+{
+"name": "Hard Rock Bet",
+"home": 325,
+"away": -500
 },
 {
 "name": "theScore Bet",
-"home": 1300,
-"away": -4000
+"home": 280,
+"away": -400
 },
 {
 "name": "BetMGM",
-"home": 1400,
-"away": -2500
+"home": 225,
+"away": -300
 }
 ]
 },
@@ -148,37 +72,32 @@
 "sport": "fb",
 "home": "Eastern Michigan Eagles",
 "away": "Central Michigan Chippewas",
-"start": "2026-11-05T00:30:00Z",
+"start": "2026-11-05T00:35:47Z",
 "books": [
 {
 "name": "FanDuel",
-"home": -113,
-"away": -106
+"home": 500,
+"away": -800
 },
 {
 "name": "DraftKings",
-"home": -118,
-"away": -102
-},
-{
-"name": "BetRivers",
-"home": -124,
-"away": 100
+"home": 513,
+"away": -880
 },
 {
 "name": "Hard Rock Bet",
-"home": -125,
-"away": 100
+"home": 550,
+"away": -1100
 },
 {
 "name": "theScore Bet",
-"home": -115,
-"away": -105
+"home": 475,
+"away": -800
 },
 {
 "name": "BetMGM",
-"home": -120,
-"away": 100
+"home": 550,
+"away": -900
 }
 ]
 },
@@ -210,13 +129,13 @@
 },
 {
 "name": "theScore Bet",
-"home": 220,
-"away": -270
+"home": 230,
+"away": -280
 },
 {
 "name": "BetMGM",
 "home": 210,
-"away": -275
+"away": -250
 }
 ]
 },
@@ -233,28 +152,28 @@
 },
 {
 "name": "FanDuel",
-"home": 470,
-"away": -650
+"home": 460,
+"away": -630
 },
 {
 "name": "BetRivers",
-"home": 575,
-"away": -1000
+"home": 480,
+"away": -715
 },
 {
 "name": "Hard Rock Bet",
-"home": 575,
-"away": -900
+"home": 475,
+"away": -700
 },
 {
 "name": "theScore Bet",
-"home": 475,
-"away": -750
+"home": 425,
+"away": -650
 },
 {
 "name": "BetMGM",
-"home": 500,
-"away": -650
+"home": 475,
+"away": -625
 }
 ]
 },
@@ -276,13 +195,13 @@
 },
 {
 "name": "BetRivers",
-"home": -250,
-"away": 195
+"home": -230,
+"away": 180
 },
 {
 "name": "Hard Rock Bet",
-"home": -250,
-"away": 195
+"home": -225,
+"away": 180
 },
 {
 "name": "theScore Bet",
@@ -291,8 +210,8 @@
 },
 {
 "name": "BetMGM",
-"home": -225,
-"away": 185
+"home": -220,
+"away": 180
 }
 ]
 },
@@ -304,8 +223,8 @@
 "books": [
 {
 "name": "DraftKings",
-"home": -125,
-"away": 105
+"home": -135,
+"away": 114
 },
 {
 "name": "BetRivers",
@@ -319,18 +238,18 @@
 },
 {
 "name": "theScore Bet",
-"home": -125,
-"away": 105
+"home": -135,
+"away": 115
 },
 {
 "name": "FanDuel",
-"home": -128,
-"away": 106
+"home": -132,
+"away": 110
 },
 {
 "name": "BetMGM",
-"home": -125,
-"away": 105
+"home": -135,
+"away": 110
 }
 ]
 },
@@ -368,7 +287,7 @@
 {
 "name": "BetMGM",
 "home": 160,
-"away": -190
+"away": -200
 }
 ]
 },
@@ -385,27 +304,27 @@
 },
 {
 "name": "FanDuel",
-"home": 320,
-"away": -410
+"home": 310,
+"away": -400
 },
 {
 "name": "BetRivers",
-"home": 325,
-"away": -455
+"home": 320,
+"away": -435
 },
 {
 "name": "Hard Rock Bet",
 "home": 325,
-"away": -450
-},
-{
-"name": "theScore Bet",
-"home": 320,
 "away": -425
 },
 {
+"name": "theScore Bet",
+"home": 300,
+"away": -400
+},
+{
 "name": "BetMGM",
-"home": 310,
+"home": 300,
 "away": -375
 }
 ]
@@ -418,33 +337,33 @@
 "books": [
 {
 "name": "DraftKings",
-"home": -345,
-"away": 275
+"home": -310,
+"away": 250
 },
 {
 "name": "FanDuel",
-"home": -320,
-"away": 260
+"home": -295,
+"away": 235
 },
 {
 "name": "BetRivers",
-"home": -315,
-"away": 240
+"home": -335,
+"away": 255
 },
 {
 "name": "Hard Rock Bet",
 "home": -325,
-"away": 240
+"away": 260
 },
 {
 "name": "theScore Bet",
-"home": -360,
-"away": 280
+"home": -290,
+"away": 240
 },
 {
 "name": "BetMGM",
-"home": -350,
-"away": 275
+"home": -300,
+"away": 240
 }
 ]
 },
@@ -456,33 +375,33 @@
 "books": [
 {
 "name": "DraftKings",
-"home": -205,
-"away": 170
+"home": -198,
+"away": 164
 },
 {
 "name": "FanDuel",
-"home": -194,
-"away": 162
+"home": -188,
+"away": 155
 },
 {
 "name": "BetRivers",
-"home": -235,
-"away": 180
+"home": -230,
+"away": 170
 },
 {
 "name": "BetMGM",
-"home": -200,
-"away": 165
+"home": -190,
+"away": 160
 },
 {
 "name": "Hard Rock Bet",
-"home": -225,
-"away": 185
+"home": -210,
+"away": 170
 },
 {
 "name": "theScore Bet",
-"home": -210,
-"away": 175
+"home": -200,
+"away": 170
 }
 ]
 },
@@ -495,7 +414,7 @@
 {
 "name": "FanDuel",
 "home": -375,
-"away": 280
+"away": 290
 },
 {
 "name": "BetRivers",
@@ -520,7 +439,7 @@
 {
 "name": "BetMGM",
 "home": -375,
-"away": 300
+"away": 290
 }
 ]
 },
@@ -532,13 +451,13 @@
 "books": [
 {
 "name": "FanDuel",
-"home": 195,
+"home": 190,
 "away": -235
 },
 {
 "name": "BetRivers",
-"home": 215,
-"away": -278
+"home": 195,
+"away": -250
 },
 {
 "name": "DraftKings",
@@ -552,8 +471,8 @@
 },
 {
 "name": "Hard Rock Bet",
-"home": 220,
-"away": -275
+"home": 195,
+"away": -240
 },
 {
 "name": "BetMGM",
@@ -570,8 +489,8 @@
 "books": [
 {
 "name": "FanDuel",
-"home": 114,
-"away": -137
+"home": 112,
+"away": -134
 },
 {
 "name": "BetRivers",
@@ -613,13 +532,13 @@
 },
 {
 "name": "FanDuel",
-"home": 176,
-"away": -215
+"home": 172,
+"away": -210
 },
 {
 "name": "BetRivers",
-"home": 165,
-"away": -210
+"home": 175,
+"away": -225
 },
 {
 "name": "theScore Bet",
@@ -628,8 +547,8 @@
 },
 {
 "name": "Hard Rock Bet",
-"home": 165,
-"away": -210
+"home": 175,
+"away": -220
 },
 {
 "name": "BetMGM",
@@ -666,8 +585,8 @@
 },
 {
 "name": "theScore Bet",
-"home": 120,
-"away": -140
+"home": 125,
+"away": -145
 },
 {
 "name": "BetMGM",
@@ -684,18 +603,18 @@
 "books": [
 {
 "name": "FanDuel",
-"home": 215,
-"away": -265
+"home": 220,
+"away": -275
 },
 {
 "name": "BetRivers",
-"home": 215,
-"away": -278
+"home": 235,
+"away": -305
 },
 {
 "name": "Hard Rock Bet",
-"home": 220,
-"away": -275
+"home": 240,
+"away": -300
 },
 {
 "name": "DraftKings",
@@ -727,8 +646,8 @@
 },
 {
 "name": "FanDuel",
-"home": 100,
-"away": -120
+"home": 106,
+"away": -128
 },
 {
 "name": "theScore Bet",
@@ -737,18 +656,18 @@
 },
 {
 "name": "BetMGM",
-"home": 100,
-"away": -120
+"home": 105,
+"away": -125
 },
 {
 "name": "BetRivers",
-"home": -103,
-"away": -121
+"home": 108,
+"away": -134
 },
 {
 "name": "Hard Rock Bet",
-"home": 100,
-"away": -120
+"home": 110,
+"away": -135
 }
 ]
 },
@@ -765,8 +684,8 @@
 },
 {
 "name": "BetRivers",
-"home": 150,
-"away": -190
+"home": 155,
+"away": -195
 },
 {
 "name": "DraftKings",
@@ -775,12 +694,12 @@
 },
 {
 "name": "theScore Bet",
-"home": 165,
-"away": -195
+"home": 160,
+"away": -190
 },
 {
 "name": "Hard Rock Bet",
-"home": 150,
+"home": 155,
 "away": -190
 },
 {
@@ -798,8 +717,8 @@
 "books": [
 {
 "name": "FanDuel",
-"home": -215,
-"away": 176
+"home": -225,
+"away": 188
 },
 {
 "name": "BetRivers",
@@ -808,13 +727,13 @@
 },
 {
 "name": "DraftKings",
-"home": -245,
-"away": 200
+"home": -225,
+"away": 185
 },
 {
 "name": "theScore Bet",
-"home": -225,
-"away": 190
+"home": -210,
+"away": 175
 },
 {
 "name": "Hard Rock Bet",
@@ -823,8 +742,8 @@
 },
 {
 "name": "BetMGM",
-"home": -235,
-"away": 190
+"home": -225,
+"away": 188
 }
 ]
 },
@@ -836,13 +755,13 @@
 "books": [
 {
 "name": "FanDuel",
-"home": -400,
+"home": -385,
 "away": 310
 },
 {
 "name": "BetRivers",
-"home": -480,
-"away": 340
+"home": -455,
+"away": 335
 },
 {
 "name": "DraftKings",
@@ -856,13 +775,13 @@
 },
 {
 "name": "Hard Rock Bet",
-"home": -475,
-"away": 350
+"home": -450,
+"away": 325
 },
 {
 "name": "BetMGM",
 "home": -400,
-"away": 320
+"away": 310
 }
 ]
 },
@@ -874,33 +793,33 @@
 "books": [
 {
 "name": "DraftKings",
-"home": -278,
-"away": 225
+"home": -250,
+"away": 205
 },
 {
 "name": "theScore Bet",
-"home": -270,
-"away": 220
+"home": -240,
+"away": 200
 },
 {
 "name": "FanDuel",
-"home": -265,
-"away": 215
+"home": -240,
+"away": 195
 },
 {
 "name": "BetMGM",
-"home": -275,
-"away": 220
+"home": -235,
+"away": 200
 },
 {
 "name": "BetRivers",
-"home": -275,
-"away": 210
+"home": -245,
+"away": 190
 },
 {
 "name": "Hard Rock Bet",
-"home": -275,
-"away": 210
+"home": -240,
+"away": 190
 }
 ]
 },
@@ -912,33 +831,33 @@
 "books": [
 {
 "name": "FanDuel",
-"home": 164,
-"away": -200
+"home": 172,
+"away": -210
 },
 {
 "name": "BetRivers",
-"home": 150,
-"away": -190
+"home": 180,
+"away": -230
 },
 {
 "name": "DraftKings",
-"home": 180,
-"away": -218
-},
-{
-"name": "theScore Bet",
-"home": 190,
+"home": 185,
 "away": -225
 },
 {
+"name": "theScore Bet",
+"home": 195,
+"away": -230
+},
+{
 "name": "Hard Rock Bet",
-"home": 150,
-"away": -190
+"home": 180,
+"away": -225
 },
 {
 "name": "BetMGM",
-"home": 170,
-"away": -210
+"home": 180,
+"away": -220
 }
 ]
 },
@@ -950,33 +869,33 @@
 "books": [
 {
 "name": "DraftKings",
-"home": -205,
-"away": 170
+"home": -230,
+"away": 190
 },
 {
 "name": "theScore Bet",
-"home": -200,
-"away": 170
+"home": -230,
+"away": 195
 },
 {
 "name": "FanDuel",
-"home": -205,
-"away": 168
+"home": -215,
+"away": 176
 },
 {
 "name": "BetMGM",
-"home": -210,
-"away": 170
+"home": -225,
+"away": 185
 },
 {
 "name": "BetRivers",
-"home": -210,
-"away": 165
+"home": -230,
+"away": 180
 },
 {
 "name": "Hard Rock Bet",
-"home": -210,
-"away": 165
+"home": -225,
+"away": 180
 }
 ]
 },
@@ -998,8 +917,8 @@
 },
 {
 "name": "theScore Bet",
-"home": -800,
-"away": 500
+"home": -750,
+"away": 475
 },
 {
 "name": "BetMGM",
@@ -1031,8 +950,8 @@
 },
 {
 "name": "FanDuel",
-"home": 106,
-"away": -128
+"home": 104,
+"away": -122
 },
 {
 "name": "BetMGM",
@@ -1059,8 +978,8 @@
 "books": [
 {
 "name": "FanDuel",
-"home": -265,
-"away": 215
+"home": -250,
+"away": 205
 },
 {
 "name": "BetRivers",
@@ -1074,8 +993,8 @@
 },
 {
 "name": "DraftKings",
-"home": -290,
-"away": 235
+"home": -278,
+"away": 225
 },
 {
 "name": "theScore Bet",
@@ -1085,7 +1004,7 @@
 {
 "name": "BetMGM",
 "home": -275,
-"away": 225
+"away": 220
 }
 ]
 },
@@ -1097,8 +1016,8 @@
 "books": [
 {
 "name": "DraftKings",
-"home": -225,
-"away": 185
+"home": -238,
+"away": 195
 },
 {
 "name": "Hard Rock Bet",
@@ -1107,8 +1026,8 @@
 },
 {
 "name": "FanDuel",
-"home": -210,
-"away": 172
+"home": -215,
+"away": 176
 },
 {
 "name": "BetRivers",
@@ -1117,13 +1036,13 @@
 },
 {
 "name": "theScore Bet",
-"home": -210,
-"away": 175
+"home": -225,
+"away": 190
 },
 {
 "name": "BetMGM",
-"home": -225,
-"away": 185
+"home": -235,
+"away": 190
 }
 ]
 },
@@ -1135,33 +1054,33 @@
 "books": [
 {
 "name": "DraftKings",
-"home": -360,
-"away": 285
+"home": -345,
+"away": 275
 },
 {
 "name": "FanDuel",
-"home": -350,
-"away": 280
+"home": -320,
+"away": 255
 },
 {
 "name": "theScore Bet",
-"home": -340,
-"away": 270
+"home": -320,
+"away": 260
 },
 {
 "name": "BetMGM",
-"home": -350,
-"away": 290
+"home": -325,
+"away": 270
 },
 {
 "name": "BetRivers",
-"home": -480,
-"away": 340
+"home": -400,
+"away": 295
 },
 {
 "name": "Hard Rock Bet",
-"home": -475,
-"away": 350
+"home": -400,
+"away": 300
 }
 ]
 },
@@ -1173,8 +1092,8 @@
 "books": [
 {
 "name": "FanDuel",
-"home": -400,
-"away": 310
+"home": -450,
+"away": 340
 },
 {
 "name": "BetRivers",
@@ -1231,12 +1150,12 @@
 },
 {
 "name": "BetRivers",
-"home": -385,
-"away": 290
+"home": -435,
+"away": 310
 },
 {
 "name": "Hard Rock Bet",
-"home": -375,
+"home": -425,
 "away": 300
 }
 ]
@@ -1249,13 +1168,13 @@
 "books": [
 {
 "name": "DraftKings",
-"home": -112,
-"away": -108
+"home": -108,
+"away": -112
 },
 {
 "name": "theScore Bet",
-"home": -115,
-"away": -105
+"home": 100,
+"away": -120
 },
 {
 "name": "FanDuel",
@@ -1269,13 +1188,13 @@
 },
 {
 "name": "BetRivers",
-"home": -115,
-"away": -108
+"home": -105,
+"away": -118
 },
 {
 "name": "Hard Rock Bet",
-"home": -115,
-"away": -110
+"home": -105,
+"away": -120
 }
 ]
 },
@@ -1292,13 +1211,13 @@
 },
 {
 "name": "theScore Bet",
-"home": -320,
-"away": 260
+"home": -280,
+"away": 230
 },
 {
 "name": "FanDuel",
-"home": -285,
-"away": 230
+"home": -275,
+"away": 225
 },
 {
 "name": "BetMGM",
@@ -1335,18 +1254,18 @@
 },
 {
 "name": "BetRivers",
-"home": -315,
-"away": 240
+"home": -360,
+"away": 265
 },
 {
 "name": "Hard Rock Bet",
-"home": -300,
-"away": 240
+"home": -350,
+"away": 275
 },
 {
 "name": "theScore Bet",
-"home": -290,
-"away": 240
+"home": -300,
+"away": 250
 },
 {
 "name": "BetMGM",
@@ -1363,8 +1282,8 @@
 "books": [
 {
 "name": "FanDuel",
-"home": -125,
-"away": 104
+"home": -132,
+"away": 110
 },
 {
 "name": "BetRivers",
@@ -1373,13 +1292,13 @@
 },
 {
 "name": "theScore Bet",
-"home": -125,
-"away": 105
+"home": -130,
+"away": 110
 },
 {
 "name": "DraftKings",
-"home": -122,
-"away": 102
+"home": -135,
+"away": 114
 },
 {
 "name": "Hard Rock Bet",
@@ -1388,8 +1307,8 @@
 },
 {
 "name": "BetMGM",
-"home": -125,
-"away": 105
+"home": -135,
+"away": 115
 }
 ]
 },
@@ -1401,13 +1320,13 @@
 "books": [
 {
 "name": "FanDuel",
-"home": -142,
-"away": 120
+"home": -146,
+"away": 122
 },
 {
 "name": "DraftKings",
-"home": -142,
-"away": 120
+"home": -148,
+"away": 124
 },
 {
 "name": "theScore Bet",
@@ -1426,8 +1345,8 @@
 },
 {
 "name": "BetMGM",
-"home": -145,
-"away": 120
+"home": -150,
+"away": 125
 }
 ]
 },
@@ -1444,18 +1363,18 @@
 },
 {
 "name": "theScore Bet",
-"home": -210,
-"away": 175
+"home": -200,
+"away": 170
 },
 {
 "name": "FanDuel",
-"home": -200,
-"away": 164
+"home": -188,
+"away": 158
 },
 {
 "name": "BetMGM",
-"home": -210,
-"away": 170
+"home": -200,
+"away": 165
 },
 {
 "name": "BetRivers",
@@ -1492,7 +1411,7 @@
 },
 {
 "name": "BetMGM",
-"home": 165,
+"home": 160,
 "away": -200
 },
 {
@@ -1525,8 +1444,8 @@
 },
 {
 "name": "FanDuel",
-"home": -950,
-"away": 640
+"home": -880,
+"away": 590
 },
 {
 "name": "BetMGM",
@@ -1558,8 +1477,8 @@
 },
 {
 "name": "FanDuel",
-"home": -385,
-"away": 310
+"home": -410,
+"away": 320
 },
 {
 "name": "theScore Bet",
@@ -1569,7 +1488,7 @@
 {
 "name": "BetMGM",
 "home": -400,
-"away": 320
+"away": 310
 },
 {
 "name": "BetRivers",
@@ -1591,8 +1510,8 @@
 "books": [
 {
 "name": "FanDuel",
-"home": -140,
-"away": 118
+"home": -156,
+"away": 130
 },
 {
 "name": "DraftKings",
@@ -1616,8 +1535,8 @@
 },
 {
 "name": "BetMGM",
-"home": -150,
-"away": 125
+"home": -160,
+"away": 130
 }
 ]
 },
@@ -1629,33 +1548,33 @@
 "books": [
 {
 "name": "FanDuel",
-"home": -1000,
-"away": 660
+"home": -1250,
+"away": 760
 },
 {
 "name": "theScore Bet",
-"home": -900,
-"away": 550
+"home": -1400,
+"away": 750
 },
 {
 "name": "BetRivers",
-"home": -1115,
-"away": 650
+"home": -1250,
+"away": 700
 },
 {
 "name": "DraftKings",
-"home": -900,
-"away": 600
+"home": -950,
+"away": 625
 },
 {
 "name": "Hard Rock Bet",
-"home": -1100,
-"away": 650
+"home": -1300,
+"away": 700
 },
 {
 "name": "BetMGM",
-"home": -900,
-"away": 625
+"home": -1000,
+"away": 675
 }
 ]
 },
@@ -1667,33 +1586,33 @@
 "books": [
 {
 "name": "DraftKings",
-"home": -325,
-"away": 260
+"home": -310,
+"away": 250
 },
 {
 "name": "theScore Bet",
-"home": -340,
-"away": 270
+"home": -280,
+"away": 230
 },
 {
 "name": "FanDuel",
-"home": -335,
-"away": 265
+"home": -300,
+"away": 245
 },
 {
 "name": "BetMGM",
-"home": -325,
-"away": 270
+"home": -300,
+"away": 250
 },
 {
 "name": "BetRivers",
-"home": -375,
-"away": 275
+"home": -335,
+"away": 250
 },
 {
 "name": "Hard Rock Bet",
-"home": -350,
-"away": 275
+"home": -325,
+"away": 250
 }
 ]
 },
@@ -1715,8 +1634,8 @@
 },
 {
 "name": "FanDuel",
-"home": 640,
-"away": -950
+"home": 610,
+"away": -900
 },
 {
 "name": "BetMGM",
@@ -1743,13 +1662,13 @@
 "books": [
 {
 "name": "FanDuel",
-"home": -240,
-"away": 198
+"home": -225,
+"away": 188
 },
 {
 "name": "BetRivers",
-"home": -250,
-"away": 195
+"home": -265,
+"away": 200
 },
 {
 "name": "DraftKings",
@@ -1758,13 +1677,13 @@
 },
 {
 "name": "theScore Bet",
-"home": -260,
-"away": 215
+"home": -250,
+"away": 210
 },
 {
 "name": "BetMGM",
 "home": -235,
-"away": 200
+"away": 195
 },
 {
 "name": "Hard Rock Bet",
@@ -1786,13 +1705,13 @@
 },
 {
 "name": "theScore Bet",
-"home": -1000,
-"away": 600
+"home": -800,
+"away": 500
 },
 {
 "name": "FanDuel",
-"home": -950,
-"away": 640
+"home": -880,
+"away": 590
 },
 {
 "name": "BetMGM",
@@ -1839,12 +1758,12 @@
 },
 {
 "name": "FanDuel",
-"home": -160,
-"away": 134
+"home": -156,
+"away": 130
 },
 {
 "name": "BetMGM",
-"home": -160,
+"home": -165,
 "away": 135
 }
 ]
@@ -1872,18 +1791,18 @@
 },
 {
 "name": "BetRivers",
-"home": -182,
-"away": 145
+"home": -165,
+"away": 133
 },
 {
 "name": "Hard Rock Bet",
-"home": -180,
-"away": 145
+"home": -165,
+"away": 135
 },
 {
 "name": "BetMGM",
 "home": -165,
-"away": 135
+"away": 138
 }
 ]
 },
@@ -1901,7 +1820,7 @@
 {
 "name": "FanDuel",
 "home": 142,
-"away": -172
+"away": -170
 },
 {
 "name": "BetRivers",
@@ -1933,8 +1852,8 @@
 "books": [
 {
 "name": "FanDuel",
-"home": 480,
-"away": -650
+"home": 490,
+"away": -670
 },
 {
 "name": "BetRivers",
@@ -1971,23 +1890,23 @@
 "books": [
 {
 "name": "DraftKings",
-"home": -135,
-"away": 114
+"home": -142,
+"away": 120
 },
 {
 "name": "FanDuel",
-"home": -134,
-"away": 112
+"home": -132,
+"away": 110
 },
 {
 "name": "BetRivers",
 "home": -143,
-"away": 116
+"away": 115
 },
 {
 "name": "Hard Rock Bet",
-"home": -145,
-"away": 120
+"home": -140,
+"away": 115
 },
 {
 "name": "theScore Bet",
@@ -1996,8 +1915,8 @@
 },
 {
 "name": "BetMGM",
-"home": -130,
-"away": 110
+"home": -135,
+"away": 115
 }
 ]
 },
@@ -2009,33 +1928,33 @@
 "books": [
 {
 "name": "FanDuel",
-"home": -215,
-"away": 176
+"home": -275,
+"away": 220
 },
 {
 "name": "Hard Rock Bet",
-"home": -220,
-"away": 180
+"home": -300,
+"away": 240
 },
 {
 "name": "BetMGM",
-"home": -210,
-"away": 175
+"home": -285,
+"away": 230
 },
 {
 "name": "BetRivers",
-"home": -230,
-"away": 180
+"home": -305,
+"away": 235
 },
 {
 "name": "DraftKings",
-"home": -205,
-"away": 170
+"home": -290,
+"away": 235
 },
 {
 "name": "theScore Bet",
-"home": -210,
-"away": 175
+"home": -290,
+"away": 240
 }
 ]
 },
@@ -2052,8 +1971,8 @@
 },
 {
 "name": "FanDuel",
-"home": -580,
-"away": 440
+"home": -650,
+"away": 470
 },
 {
 "name": "BetRivers",
@@ -2067,13 +1986,13 @@
 },
 {
 "name": "theScore Bet",
-"home": -650,
-"away": 425
+"home": -550,
+"away": 380
 },
 {
 "name": "BetMGM",
-"home": -550,
-"away": 425
+"home": -600,
+"away": 450
 }
 ]
 },
@@ -2090,8 +2009,8 @@
 },
 {
 "name": "FanDuel",
-"home": -215,
-"away": 176
+"home": -220,
+"away": 184
 },
 {
 "name": "BetRivers",
@@ -2128,18 +2047,18 @@
 },
 {
 "name": "theScore Bet",
-"home": 500,
-"away": -800
+"home": 550,
+"away": -900
 },
 {
 "name": "FanDuel",
-"home": 720,
-"away": -1100
+"home": 660,
+"away": -1000
 },
 {
 "name": "BetMGM",
-"home": 650,
-"away": -900
+"home": 600,
+"away": -800
 },
 {
 "name": "BetRivers",
@@ -2171,13 +2090,13 @@
 },
 {
 "name": "FanDuel",
-"home": 106,
-"away": -128
+"home": 100,
+"away": -120
 },
 {
 "name": "BetMGM",
-"home": 110,
-"away": -130
+"home": 105,
+"away": -125
 },
 {
 "name": "BetRivers",
@@ -2209,12 +2128,12 @@
 },
 {
 "name": "FanDuel",
-"home": 280,
-"away": -360
+"home": 275,
+"away": -345
 },
 {
 "name": "BetMGM",
-"home": 290,
+"home": 275,
 "away": -350
 },
 {
@@ -2237,13 +2156,13 @@
 "books": [
 {
 "name": "FanDuel",
-"home": -800,
-"away": 570
+"home": -880,
+"away": 590
 },
 {
 "name": "BetRivers",
-"home": -1000,
-"away": 575
+"home": -835,
+"away": 525
 },
 {
 "name": "theScore Bet",
@@ -2257,13 +2176,13 @@
 },
 {
 "name": "Hard Rock Bet",
-"home": -900,
-"away": 575
+"home": -850,
+"away": 525
 },
 {
 "name": "BetMGM",
-"home": -800,
-"away": 600
+"home": -900,
+"away": 625
 }
 ]
 },
@@ -2285,13 +2204,13 @@
 },
 {
 "name": "FanDuel",
-"home": -245,
-"away": 202
+"home": -225,
+"away": 188
 },
 {
 "name": "BetMGM",
 "home": -235,
-"away": 200
+"away": 195
 },
 {
 "name": "BetRivers",
@@ -2318,18 +2237,18 @@
 },
 {
 "name": "theScore Bet",
-"home": -225,
-"away": 190
+"home": -215,
+"away": 180
 },
 {
 "name": "FanDuel",
-"home": -235,
-"away": 190
+"home": -215,
+"away": 180
 },
 {
 "name": "BetMGM",
-"home": -235,
-"away": 190
+"home": -225,
+"away": 185
 },
 {
 "name": "BetRivers",
@@ -2344,442 +2263,230 @@
 ]
 },
 {
-"sport": "mbb",
-"home": "Tennessee Volunteers",
-"away": "Wofford Terriers",
-"start": "2026-11-03T23:00:00Z",
+"sport": "fb",
+"home": "UCLA Bruins",
+"away": "Illinois Fighting Illini",
+"start": "2026-11-14T02:00:00Z",
 "books": [
-{
-"name": "FanDuel",
-"home": -20000,
-"away": 3500
-},
-{
-"name": "theScore Bet",
-"home": -50000,
-"away": 3500
-},
-{
-"name": "DraftKings",
-"home": -9000,
-"away": 2500
-}
-]
-},
-{
-"sport": "mbb",
-"home": "Boston College Eagles",
-"away": "Wagner Seahawks",
-"start": "2026-11-04T00:00:00Z",
-"books": [
-{
-"name": "FanDuel",
-"home": -4500,
-"away": 1600
-},
-{
-"name": "DraftKings",
-"home": -4500,
-"away": 1700
-},
-{
-"name": "BetMGM",
-"home": -5000,
-"away": 1350
-},
-{
-"name": "theScore Bet",
-"home": -6000,
-"away": 1800
-},
-{
-"name": "Hard Rock Bet",
-"home": -5000,
-"away": 1600
-}
-]
-},
-{
-"sport": "mbb",
-"home": "Duquesne Dukes",
-"away": "Fort Wayne Mastodons",
-"start": "2026-11-04T00:00:00Z",
-"books": [
-{
-"name": "FanDuel",
-"home": -530,
-"away": 390
-},
-{
-"name": "theScore Bet",
-"home": -550,
-"away": 380
-},
-{
-"name": "BetMGM",
-"home": -475,
-"away": 360
-},
 {
 "name": "DraftKings",
 "home": -500,
 "away": 380
+}
+]
 },
 {
-"name": "BetRivers",
-"home": -530,
-"away": 370
+"sport": "fb",
+"home": "Arizona Wildcats",
+"away": "Utah Utes",
+"start": "2026-11-14T17:00:00Z",
+"books": [
+{
+"name": "DraftKings",
+"home": -102,
+"away": -118
+}
+]
 },
 {
-"name": "Hard Rock Bet",
-"home": -525,
-"away": 375
+"sport": "fb",
+"home": "BYU Cougars",
+"away": "Baylor Bears",
+"start": "2026-11-14T17:00:00Z",
+"books": [
+{
+"name": "DraftKings",
+"home": -305,
+"away": 245
+}
+]
+},
+{
+"sport": "fb",
+"home": "Kentucky Wildcats",
+"away": "Florida Gators",
+"start": "2026-11-14T17:00:00Z",
+"books": [
+{
+"name": "DraftKings",
+"home": -120,
+"away": 100
+}
+]
+},
+{
+"sport": "fb",
+"home": "Georgia Bulldogs",
+"away": "Missouri Tigers",
+"start": "2026-11-14T17:00:00Z",
+"books": [
+{
+"name": "DraftKings",
+"home": -470,
+"away": 360
+}
+]
+},
+{
+"sport": "fb",
+"home": "LSU Tigers",
+"away": "Texas Longhorns",
+"start": "2026-11-14T17:00:00Z",
+"books": [
+{
+"name": "DraftKings",
+"home": -192,
+"away": 160
+}
+]
+},
+{
+"sport": "fb",
+"home": "North Carolina Tar Heels",
+"away": "Louisville Cardinals",
+"start": "2026-11-14T17:00:00Z",
+"books": [
+{
+"name": "DraftKings",
+"home": 114,
+"away": -135
+}
+]
+},
+{
+"sport": "fb",
+"home": "Ohio State Buckeyes",
+"away": "Northwestern Wildcats",
+"start": "2026-11-14T17:00:00Z",
+"books": [
+{
+"name": "DraftKings",
+"home": -375,
+"away": 295
+}
+]
+},
+{
+"sport": "fb",
+"home": "Oklahoma State Cowboys",
+"away": "Texas Tech Red Raiders",
+"start": "2026-11-14T17:00:00Z",
+"books": [
+{
+"name": "DraftKings",
+"home": -102,
+"away": -118
+}
+]
+},
+{
+"sport": "fb",
+"home": "SMU Mustangs",
+"away": "Wake Forest Demon Deacons",
+"start": "2026-11-14T17:00:00Z",
+"books": [
+{
+"name": "DraftKings",
+"home": 140,
+"away": -166
+}
+]
+},
+{
+"sport": "fb",
+"home": "Indiana Hoosiers",
+"away": "USC Trojans",
+"start": "2026-11-14T20:30:00Z",
+"books": [
+{
+"name": "DraftKings",
+"home": -285,
+"away": 230
+},
+{
+"name": "FanDuel",
+"home": -255,
+"away": 210
+}
+]
+},
+{
+"sport": "fb",
+"home": "Oregon Ducks",
+"away": "Michigan Wolverines",
+"start": "2026-11-14T20:30:00Z",
+"books": [
+{
+"name": "DraftKings",
+"home": -205,
+"away": 170
+}
+]
+},
+{
+"sport": "fb",
+"home": "Boise State Broncos",
+"away": "Oregon State Beavers",
+"start": "2026-11-14T23:00:00Z",
+"books": [
+{
+"name": "DraftKings",
+"home": -180,
+"away": 150
 }
 ]
 },
 {
 "sport": "mbb",
-"home": "Georgia Tech Yellow Jackets",
-"away": "Hampton Pirates",
-"start": "2026-11-04T00:00:00Z",
+"home": "Butler Bulldogs",
+"away": "Fairleigh Dickinson Knights",
+"start": "2026-11-05T00:00:00Z",
+"books": [
+{
+"name": "BetMGM",
+"home": -10000,
+"away": 3300
+}
+]
+},
+{
+"sport": "mbb",
+"home": "High Point Panthers",
+"away": "Maryland-Eastern Shore Hawks",
+"start": "2026-11-05T00:00:00Z",
+"books": [
+{
+"name": "BetMGM",
+"home": -10000,
+"away": 3300
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Saint Joseph's Hawks",
+"away": "Longwood Lancers",
+"start": "2026-11-05T00:00:00Z",
 "books": [
 {
 "name": "FanDuel",
-"home": -1300,
-"away": 760
-},
-{
-"name": "BetMGM",
-"home": -1200,
-"away": 725
-},
-{
-"name": "theScore Bet",
-"home": -1600,
-"away": 800
+"home": -20000,
+"away": 2000
 },
 {
 "name": "DraftKings",
-"home": -1350,
-"away": 800
-},
-{
-"name": "BetRivers",
-"home": -1250,
-"away": 700
-},
-{
-"name": "Hard Rock Bet",
-"home": -1300,
-"away": 700
-}
-]
-},
-{
-"sport": "mbb",
-"home": "Rhode Island Rams",
-"away": "Holy Cross Crusaders",
-"start": "2026-11-04T00:00:00Z",
-"books": [
-{
-"name": "FanDuel",
-"home": -4500,
+"home": -4800,
 "away": 1600
 },
 {
-"name": "DraftKings",
-"home": -4500,
+"name": "BetMGM",
+"home": -10000,
 "away": 1700
 },
 {
-"name": "BetMGM",
-"home": -5000,
-"away": 1350
-},
-{
-"name": "theScore Bet",
-"home": -6000,
-"away": 1800
-},
-{
-"name": "Hard Rock Bet",
-"home": -10000,
-"away": 1750
-}
-]
-},
-{
-"sport": "mbb",
-"home": "South Carolina Gamecocks",
-"away": "Stetson Hatters",
-"start": "2026-11-04T00:00:00Z",
-"books": [
-{
-"name": "FanDuel",
-"home": -4500,
-"away": 1600
-},
-{
-"name": "DraftKings",
-"home": -5000,
-"away": 1800
-},
-{
-"name": "BetMGM",
-"home": -5000,
-"away": 1400
-},
-{
-"name": "theScore Bet",
-"home": -6000,
-"away": 1800
-},
-{
-"name": "Hard Rock Bet",
-"home": -5000,
-"away": 1600
-}
-]
-},
-{
-"sport": "mbb",
-"home": "Alabama Crimson Tide",
-"away": "Sam Houston St Bearkats",
-"start": "2026-11-04T00:30:00Z",
-"books": [
-{
 "name": "theScore Bet",
 "home": -20000,
-"away": 3000
-},
-{
-"name": "DraftKings",
-"home": -8000,
-"away": 2200
-}
-]
-},
-{
-"sport": "mbb",
-"home": "Texas A&M Aggies",
-"away": "Alabama St Hornets",
-"start": "2026-11-04T01:00:00Z",
-"books": [
-{
-"name": "theScore Bet",
-"home": -100000,
-"away": 4000
-}
-]
-},
-{
-"sport": "mbb",
-"home": "Missouri Tigers",
-"away": "Cleveland St Vikings",
-"start": "2026-11-04T01:00:00Z",
-"books": [
-{
-"name": "FanDuel",
-"home": -30000,
-"away": 4000
-},
-{
-"name": "DraftKings",
-"home": -8000,
-"away": 2200
-},
-{
-"name": "theScore Bet",
-"home": -20000,
-"away": 3000
-}
-]
-},
-{
-"sport": "mbb",
-"home": "Iowa Hawkeyes",
-"away": "Lipscomb Bisons",
-"start": "2026-11-04T01:00:00Z",
-"books": [
-{
-"name": "FanDuel",
-"home": -10000,
 "away": 2500
-},
-{
-"name": "DraftKings",
-"home": -8000,
-"away": 2200
-},
-{
-"name": "theScore Bet",
-"home": -7500,
-"away": 2000
-}
-]
-},
-{
-"sport": "mbb",
-"home": "Kansas St Wildcats",
-"away": "South Dakota St Jackrabbits",
-"start": "2026-11-04T01:00:00Z",
-"books": [
-{
-"name": "FanDuel",
-"home": -690,
-"away": 480
-},
-{
-"name": "BetMGM",
-"home": -700,
-"away": 500
-},
-{
-"name": "DraftKings",
-"home": -675,
-"away": 490
-},
-{
-"name": "theScore Bet",
-"home": -800,
-"away": 500
-},
-{
-"name": "BetRivers",
-"home": -715,
-"away": 475
-},
-{
-"name": "Hard Rock Bet",
-"home": -700,
-"away": 475
-}
-]
-},
-{
-"sport": "mbb",
-"home": "LSU Tigers",
-"away": "New Orleans Privateers",
-"start": "2026-11-04T01:00:00Z",
-"books": [
-{
-"name": "FanDuel",
-"home": -30000,
-"away": 4000
-},
-{
-"name": "DraftKings",
-"home": -10000,
-"away": 3000
-},
-{
-"name": "theScore Bet",
-"home": -50000,
-"away": 3500
-}
-]
-},
-{
-"sport": "mbb",
-"home": "San Diego St Aztecs",
-"away": "CSU Fullerton Titans",
-"start": "2026-11-04T03:00:00Z",
-"books": [
-{
-"name": "FanDuel",
-"home": -1600,
-"away": 860
-},
-{
-"name": "BetMGM",
-"home": -1200,
-"away": 725
-},
-{
-"name": "DraftKings",
-"home": -1450,
-"away": 850
-},
-{
-"name": "theScore Bet",
-"home": -1600,
-"away": 800
-},
-{
-"name": "Hard Rock Bet",
-"home": -1300,
-"away": 700
-},
-{
-"name": "BetRivers",
-"home": -1250,
-"away": 700
-}
-]
-},
-{
-"sport": "mbb",
-"home": "Cal Baptist Lancers",
-"away": "North Florida Ospreys",
-"start": "2026-11-04T03:00:00Z",
-"books": [
-{
-"name": "FanDuel",
-"home": -780,
-"away": 520
-},
-{
-"name": "DraftKings",
-"home": -650,
-"away": 470
-},
-{
-"name": "BetMGM",
-"home": -625,
-"away": 450
-},
-{
-"name": "theScore Bet",
-"home": -750,
-"away": 475
-},
-{
-"name": "Hard Rock Bet",
-"home": -650,
-"away": 450
-},
-{
-"name": "BetRivers",
-"home": -670,
-"away": 450
-}
-]
-},
-{
-"sport": "mbb",
-"home": "UNLV Rebels",
-"away": "Northern Arizona Lumberjacks",
-"start": "2026-11-04T03:00:00Z",
-"books": [
-{
-"name": "FanDuel",
-"home": -8000,
-"away": 2000
-},
-{
-"name": "BetMGM",
-"home": -5000,
-"away": 1450
-},
-{
-"name": "DraftKings",
-"home": -5000,
-"away": 1800
-},
-{
-"name": "theScore Bet",
-"home": -7500,
-"away": 2000
 }
 ]
 },
@@ -2791,23 +2498,51 @@
 "books": [
 {
 "name": "FanDuel",
-"home": -1400,
-"away": 800
+"home": -7000,
+"away": 1500
 },
 {
 "name": "DraftKings",
-"home": -1100,
-"away": 700
+"home": -2800,
+"away": 1200
 },
 {
 "name": "theScore Bet",
-"home": -1600,
-"away": 800
+"home": -5000,
+"away": 1300
 },
 {
 "name": "BetMGM",
-"home": -1200,
-"away": 725
+"home": -2500,
+"away": 950
+},
+{
+"name": "BetRivers",
+"home": -10000,
+"away": 950
+},
+{
+"name": "Hard Rock Bet",
+"home": -5000,
+"away": 1000
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Auburn Tigers",
+"away": "SE Louisiana Lions",
+"start": "2026-11-05T01:00:00Z",
+"books": [
+{
+"name": "DraftKings",
+"home": -50000,
+"away": 3500
+},
+{
+"name": "BetMGM",
+"home": -10000,
+"away": 3000
 }
 ]
 },
@@ -2815,27 +2550,108 @@
 "sport": "mbb",
 "home": "South Dakota Coyotes",
 "away": "Northern Kentucky Norse",
-"start": "2026-11-05T01:00:00Z",
+"start": "2026-11-05T01:05:00Z",
 "books": [
 {
 "name": "FanDuel",
-"home": 104,
-"away": -125
+"home": 154,
+"away": -200
 },
 {
 "name": "DraftKings",
-"home": 105,
-"away": -125
+"home": 250,
+"away": -345
 },
 {
 "name": "theScore Bet",
-"home": 105,
-"away": -125
+"home": 125,
+"away": -160
+},
+{
+"name": "BetRivers",
+"home": 138,
+"away": -210
+},
+{
+"name": "Hard Rock Bet",
+"home": 145,
+"away": -190
+}
+]
+},
+{
+"sport": "mbb",
+"home": "California Golden Bears",
+"away": "Radford Highlanders",
+"start": "2026-11-05T02:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -2500,
+"away": 1100
+},
+{
+"name": "DraftKings",
+"home": -2100,
+"away": 1100
 },
 {
 "name": "BetMGM",
-"home": 110,
-"away": -135
+"home": -2000,
+"away": 950
+},
+{
+"name": "theScore Bet",
+"home": -3000,
+"away": 1200
+},
+{
+"name": "BetRivers",
+"home": -2000,
+"away": 900
+},
+{
+"name": "Hard Rock Bet",
+"home": -2000,
+"away": 900
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Loyola Marymount Lions",
+"away": "Queens University Royals",
+"start": "2026-11-05T03:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -240,
+"away": 195
+},
+{
+"name": "DraftKings",
+"home": -245,
+"away": 200
+},
+{
+"name": "BetMGM",
+"home": -225,
+"away": 185
+},
+{
+"name": "theScore Bet",
+"home": -230,
+"away": 195
+},
+{
+"name": "BetRivers",
+"home": -245,
+"away": 190
+},
+{
+"name": "Hard Rock Bet",
+"home": -240,
+"away": 190
 }
 ]
 },
@@ -2847,23 +2663,33 @@
 "books": [
 {
 "name": "FanDuel",
+"home": -2300,
+"away": 1060
+},
+{
+"name": "DraftKings",
+"home": -1800,
+"away": 1000
+},
+{
+"name": "theScore Bet",
 "home": -3000,
 "away": 1200
 },
 {
-"name": "DraftKings",
-"home": -2400,
-"away": 1200
-},
-{
-"name": "theScore Bet",
-"home": -5000,
-"away": 1500
-},
-{
 "name": "BetMGM",
-"home": -2500,
-"away": 1050
+"home": -1600,
+"away": 900
+},
+{
+"name": "BetRivers",
+"home": -2000,
+"away": 850
+},
+{
+"name": "Hard Rock Bet",
+"home": -1600,
+"away": 850
 }
 ]
 },
@@ -2875,23 +2701,801 @@
 "books": [
 {
 "name": "FanDuel",
-"home": -1000,
-"away": 640
+"home": -1100,
+"away": 680
 },
 {
 "name": "DraftKings",
+"home": -1100,
+"away": 700
+},
+{
+"name": "theScore Bet",
+"home": -1200,
+"away": 700
+},
+{
+"name": "BetMGM",
+"home": -1100,
+"away": 675
+},
+{
+"name": "BetRivers",
+"home": -1115,
+"away": 600
+},
+{
+"name": "Hard Rock Bet",
+"home": -1100,
+"away": 600
+}
+]
+},
+{
+"sport": "mbb",
+"home": "North Texas Mean Green",
+"away": "McNeese Cowboys",
+"start": "2026-11-05T22:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": 105,
+"away": -126
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Penn State Nittany Lions",
+"away": "Chattanooga Mocs",
+"start": "2026-11-05T23:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -2100,
+"away": 1000
+},
+{
+"name": "theScore Bet",
+"home": -2500,
+"away": 1100
+},
+{
+"name": "DraftKings",
+"home": -1800,
+"away": 1000
+},
+{
+"name": "BetMGM",
+"home": -1600,
+"away": 850
+},
+{
+"name": "BetRivers",
+"home": -1667,
+"away": 750
+},
+{
+"name": "Hard Rock Bet",
+"home": -1600,
+"away": 750
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Vanderbilt Commodores",
+"away": "Wake Forest Demon Deacons",
+"start": "2026-11-05T23:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -3500,
+"away": 1280
+},
+{
+"name": "theScore Bet",
+"home": -5000,
+"away": 1500
+},
+{
+"name": "DraftKings",
+"home": -2800,
+"away": 1300
+},
+{
+"name": "BetRivers",
+"home": -3335,
+"away": 1150
+},
+{
+"name": "BetMGM",
+"home": -2500,
+"away": 1050
+},
+{
+"name": "Hard Rock Bet",
+"home": -3000,
+"away": 1200
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Seton Hall Pirates",
+"away": "LIU Sharks",
+"start": "2026-11-05T23:30:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -3500,
+"away": 1280
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Manhattan Jaspers",
+"away": "Albany Great Danes",
+"start": "2026-11-06T00:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -154,
+"away": 128
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Alcorn St Braves",
+"away": "Howard Bison",
+"start": "2026-11-06T00:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": 225,
+"away": -280
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Saint Peter's Peacocks",
+"away": "Binghamton Bearcats",
+"start": "2026-11-06T00:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -320,
+"away": 255
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Quinnipiac Bobcats",
+"away": "Bryant Bulldogs",
+"start": "2026-11-06T00:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -215,
+"away": 176
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Pittsburgh Panthers",
+"away": "Buffalo Bulls",
+"start": "2026-11-06T00:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -4000,
+"away": 1400
+},
+{
+"name": "theScore Bet",
+"home": -7500,
+"away": 2000
+},
+{
+"name": "DraftKings",
+"home": -2800,
+"away": 1300
+},
+{
+"name": "BetMGM",
+"home": -3000,
+"away": 1200
+},
+{
+"name": "BetRivers",
+"home": -10000,
+"away": 1400
+},
+{
+"name": "Hard Rock Bet",
+"home": -5000,
+"away": 1400
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Syracuse Orange",
+"away": "Central Connecticut St Blue Devils",
+"start": "2026-11-06T00:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -8000,
+"away": 2200
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Charlotte 49ers",
+"away": "Georgia St Panthers",
+"start": "2026-11-06T00:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -850,
+"away": 570
+},
+{
+"name": "theScore Bet",
+"home": -700,
+"away": 450
+},
+{
+"name": "DraftKings",
+"home": -700,
+"away": 500
+},
+{
+"name": "BetMGM",
 "home": -750,
 "away": 525
 },
 {
+"name": "BetRivers",
+"home": -715,
+"away": 460
+},
+{
+"name": "Hard Rock Bet",
+"home": -700,
+"away": 450
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Cincinnati Bearcats",
+"away": "Green Bay Phoenix",
+"start": "2026-11-06T00:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -10000,
+"away": 3000
+},
+{
 "name": "theScore Bet",
-"home": -900,
-"away": 550
+"home": -20000,
+"away": 3000
+},
+{
+"name": "DraftKings",
+"home": -10000,
+"away": 3000
 },
 {
 "name": "BetMGM",
+"home": -10000,
+"away": 2500
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Lehigh Mountain Hawks",
+"away": "Cornell Big Red",
+"start": "2026-11-06T00:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -104,
+"away": -115
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Navy Midshipmen",
+"away": "Delaware St Hornets",
+"start": "2026-11-06T00:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -450,
+"away": 340
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Fairfield Stags",
+"away": "Vermont Catamounts",
+"start": "2026-11-06T00:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -118,
+"away": -102
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Princeton Tigers",
+"away": "Hofstra Pride",
+"start": "2026-11-06T00:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -130,
+"away": 108
+},
+{
+"name": "theScore Bet",
+"home": -130,
+"away": 110
+},
+{
+"name": "DraftKings",
+"home": -130,
+"away": 110
+},
+{
+"name": "BetMGM",
+"home": -135,
+"away": 110
+},
+{
+"name": "BetRivers",
+"home": -143,
+"away": 112
+},
+{
+"name": "Hard Rock Bet",
+"home": -145,
+"away": 110
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Iona Gaels",
+"away": "NJIT Highlanders",
+"start": "2026-11-06T00:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -490,
+"away": 365
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Sacred Heart Pioneers",
+"away": "Maine Black Bears",
+"start": "2026-11-06T00:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -260,
+"away": 210
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Marist Red Foxes",
+"away": "UMBC Retrievers",
+"start": "2026-11-06T00:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -146,
+"away": 122
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Virginia Tech Hokies",
+"away": "Mercer Bears",
+"start": "2026-11-06T00:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -7000,
+"away": 2000
+},
+{
+"name": "theScore Bet",
+"home": -7500,
+"away": 2000
+},
+{
+"name": "DraftKings",
+"home": -4500,
+"away": 1700
+},
+{
+"name": "BetMGM",
+"home": -5000,
+"away": 1450
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Notre Dame Fighting Irish",
+"away": "Mercyhurst Lakers",
+"start": "2026-11-06T00:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -4500,
+"away": 1600
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Merrimack Warriors",
+"away": "UMass Lowell River Hawks",
+"start": "2026-11-06T00:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -330,
+"away": 260
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Rider Broncs",
+"away": "New Hampshire Wildcats",
+"start": "2026-11-06T00:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -125,
+"away": 104
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Fordham Rams",
+"away": "Stonehill Skyhawks",
+"start": "2026-11-06T00:30:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -3500,
+"away": 1280
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Tulane Green Wave",
+"away": "Jackson St Tigers",
+"start": "2026-11-06T00:30:00Z",
+"books": [
+{
+"name": "FanDuel",
 "home": -900,
-"away": 600
+"away": 590
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Mississippi St Bulldogs",
+"away": "Northwestern St Demons",
+"start": "2026-11-06T00:30:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -7000,
+"away": 2000
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Rice Owls",
+"away": "East Texas A&M Lions",
+"start": "2026-11-06T01:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -162,
+"away": 134
+}
+]
+},
+{
+"sport": "mbb",
+"home": "South Alabama Jaguars",
+"away": "Jacksonville St Gamecocks",
+"start": "2026-11-06T01:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -154,
+"away": 128
+},
+{
+"name": "theScore Bet",
+"home": -145,
+"away": 125
+},
+{
+"name": "DraftKings",
+"home": -148,
+"away": 124
+},
+{
+"name": "BetMGM",
+"home": -155,
+"away": 125
+},
+{
+"name": "BetRivers",
+"home": -165,
+"away": 128
+},
+{
+"name": "Hard Rock Bet",
+"home": -165,
+"away": 130
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Loyola (Chi) Ramblers",
+"away": "West Georgia Wolves",
+"start": "2026-11-06T01:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -2500,
+"away": 1100
+},
+{
+"name": "theScore Bet",
+"home": -4000,
+"away": 1300
+},
+{
+"name": "DraftKings",
+"home": -2100,
+"away": 1100
+},
+{
+"name": "BetMGM",
+"home": -2000,
+"away": 1000
+},
+{
+"name": "BetRivers",
+"home": -2500,
+"away": 1000
+},
+{
+"name": "Hard Rock Bet",
+"home": -2500,
+"away": 1000
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Michigan St Spartans",
+"away": "Toledo Rockets",
+"start": "2026-11-06T01:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -30000,
+"away": 4000
+},
+{
+"name": "theScore Bet",
+"home": -50000,
+"away": 3500
+},
+{
+"name": "DraftKings",
+"home": -10000,
+"away": 3000
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Tulsa Golden Hurricane",
+"away": "Northern Illinois Huskies",
+"start": "2026-11-06T01:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -1600,
+"away": 860
+},
+{
+"name": "theScore Bet",
+"home": -2000,
+"away": 1000
+},
+{
+"name": "DraftKings",
+"home": -1350,
+"away": 800
+},
+{
+"name": "BetMGM",
+"home": -1600,
+"away": 850
+},
+{
+"name": "BetRivers",
+"home": -1667,
+"away": 800
+},
+{
+"name": "Hard Rock Bet",
+"home": -1600,
+"away": 800
+}
+]
+},
+{
+"sport": "mbb",
+"home": "SMU Mustangs",
+"away": "VMI Keydets",
+"start": "2026-11-06T01:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -10000,
+"away": 3000
+},
+{
+"name": "theScore Bet",
+"home": -20000,
+"away": 3000
+},
+{
+"name": "DraftKings",
+"home": -8000,
+"away": 2200
+}
+]
+},
+{
+"sport": "mbb",
+"home": "DePaul Blue Demons",
+"away": "South Florida Bulls",
+"start": "2026-11-06T01:30:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -280,
+"away": 225
+},
+{
+"name": "theScore Bet",
+"home": -300,
+"away": 250
+},
+{
+"name": "DraftKings",
+"home": -285,
+"away": 230
+},
+{
+"name": "BetMGM",
+"home": -275,
+"away": 225
+},
+{
+"name": "BetRivers",
+"home": -315,
+"away": 230
+},
+{
+"name": "Hard Rock Bet",
+"home": -325,
+"away": 230
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Illinois Fighting Illini",
+"away": "Pennsylvania Quakers",
+"start": "2026-11-06T01:30:00Z",
+"books": [
+{
+"name": "theScore Bet",
+"home": -100000,
+"away": 4000
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Utah Utes",
+"away": "Towson Tigers",
+"start": "2026-11-06T02:00:00Z",
+"books": [
+{
+"name": "FanDuel",
+"home": -600,
+"away": 430
+},
+{
+"name": "theScore Bet",
+"home": -750,
+"away": 475
+},
+{
+"name": "DraftKings",
+"home": -535,
+"away": 400
+},
+{
+"name": "BetMGM",
+"home": -600,
+"away": 425
+},
+{
+"name": "BetRivers",
+"home": -670,
+"away": 440
+},
+{
+"name": "Hard Rock Bet",
+"home": -650,
+"away": 450
+}
+]
+},
+{
+"sport": "mbb",
+"home": "Arizona Wildcats",
+"away": "Cal Poly Mustangs",
+"start": "2026-11-06T03:30:00Z",
+"books": [
+{
+"name": "DraftKings",
+"home": -50000,
+"away": 4000
 }
 ]
 },
@@ -2910,57 +3514,42 @@
 "name": "theScore Bet",
 "home": 190,
 "away": -225
-}
-]
 },
 {
-"sport": "wbb",
-"home": "Duke Blue Devils",
-"away": "Green Bay Phoenix",
-"start": "2026-11-04T00:00:00Z",
-"books": [
-{
-"name": "DraftKings",
-"home": -50000,
-"away": 4000
-},
-{
-"name": "theScore Bet",
-"home": -25000,
-"away": 4000
-},
-{
-"name": "BetMGM",
-"home": -10000,
-"away": 3300
-}
-]
-},
-{
-"sport": "wbb",
-"home": "West Virginia Mountaineers",
-"away": "Rhode Island Rams",
-"start": "2026-11-04T00:00:00Z",
-"books": [
-{
-"name": "DraftKings",
-"home": -2800,
-"away": 1300
-},
-{
-"name": "theScore Bet",
-"home": -2500,
-"away": 1000
+"name": "BetRivers",
+"home": 185,
+"away": -235
 },
 {
 "name": "FanDuel",
-"home": -5000,
-"away": 1200
+"home": 210,
+"away": -260
+}
+]
 },
 {
+"sport": "wbb",
+"home": "Illinois Fighting Illini",
+"away": "Detroit Mercy Titans",
+"start": "2026-11-05T00:01:04Z",
+"books": [
+{
 "name": "BetMGM",
-"home": -5000,
-"away": 1400
+"home": -10000,
+"away": 1600
+}
+]
+},
+{
+"sport": "wbb",
+"home": "Louisville Cardinals",
+"away": "Stetson Hatters",
+"start": "2026-11-05T01:02:48Z",
+"books": [
+{
+"name": "BetMGM",
+"home": -10000,
+"away": 1600
 }
 ]
 }
