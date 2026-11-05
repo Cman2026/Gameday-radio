@@ -521,7 +521,7 @@ h1 span{color:inherit}
     <div class="syncrow" role="group" aria-label="Sync scores with the radio">
       <span class="lab">Sync</span>
       <button class="btn sm" id="scoresLess" aria-label="Show scores 2 seconds sooner">−</button>
-      <span class="val" id="delayV">Live</span>
+      <span class="val" id="delayV">No hold</span>
       <button class="btn sm" id="scoresMore" aria-label="Hold scores 2 seconds longer">+</button>
       <button class="btn sm" id="goLive" title="Show scores and plays as soon as ESPN has them (stop holding them for the radio)">Live</button>
     </div>
@@ -833,7 +833,8 @@ function attachRadio(tm){
   // Main sports stations carry football and basketball (and usually hockey), but almost never volleyball,
   // baseball or softball. For those, use the station only where we know it carries the sport;
   // otherwise only the school's own game feed.
-  const stationOK = !STATION_OPT_IN.has(SPORT.id) || (hit?.station_sports||[]).includes(SPORT.id) || !!carries[`${SPORT.id}|${hit?.school}`];
+  // station_skips: sports a school's station is known not to carry (McNeese's KHLA plays music during basketball).
+  const stationOK = !(hit?.station_skips||[]).includes(SPORT.id) && (!STATION_OPT_IN.has(SPORT.id) || (hit?.station_sports||[]).includes(SPORT.id) || !!carries[`${SPORT.id}|${hit?.school}`]);
   // Some schools put one sport on its own station (Wisconsin volleyball on ESPN Madison, Stanford's on KZSU).
   const own = hit?.sport_streams?.[SPORT.id] || [];
   const streams = [...new Set([...(feedsMine ? (hit?.game_feeds||[]) : []), ...own, ...(hit?.streams||[]).filter(u => (hit.game_feeds||[]).includes(u) ? feedsMine : stationOK && !own.length)])];
@@ -2416,7 +2417,7 @@ const setDelay = d => setDelays(d, d);
 function syncLabel(){
   const tag = syncMode==="heard" ? " · matched" : syncMode==="stream" ? " · auto" : syncMode==="adjusted" ? " · set" : "";
   // Short enough to share one row with the buttons on a phone: "Held 29s ✓" / "Live".
-  $("#delayV").textContent = (delay ? `Held ${delay}s` : "Live") + (matchedAt && matchedAt >= connectedAt ? " ✓" : "");
+  $("#delayV").textContent = (delay ? `Held ${delay}s` : "No hold") + (matchedAt && matchedAt >= connectedAt ? " ✓" : "");
   $("#delayV").title = (delay ? `Scores held ${delay} seconds` : "Scores live") + tag;
   $("#goLive").classList.toggle("on", !delay && !delayP);
   // The bold "Radio-Score Sync" button in the radio bar: gold until this station is lined up, then a quiet "Synced ✓".

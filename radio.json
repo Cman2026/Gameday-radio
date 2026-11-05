@@ -4629,7 +4629,7 @@
 ],
 "game_only": null,
 "no_radio": null,
-"notes": null,
+"notes": "KHLA 92.9 The Lake (Townsquare) carries McNeese football but plays music during basketball (heard Nov 5, 2026); basketball audio comes from the school's own feed at game time.",
 "streams": [
 "https://live.amperwave.net/manifest/townsquare-khlafmaac-ibc3",
 "http://98.86.150.170/townsquare-khlafmaac-ibc3?session-id=328b0e51282a130ff6a42131e0bba125"
@@ -4641,7 +4641,11 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"game_feeds": null
+"game_feeds": null,
+"station_skips": [
+"mbb",
+"wbb"
+]
 },
 {
 "school": "Nicholls State University",

@@ -2764,7 +2764,12 @@
    "KHLA-FM"
   ],
   "streams": [],
-  "athletics_site": "https://mcneesesports.com"
+  "athletics_site": "https://mcneesesports.com",
+  "station_skips": [
+   "mbb",
+   "wbb"
+  ],
+  "notes": "KHLA 92.9 The Lake (Townsquare) carries McNeese football but plays music during basketball (heard Nov 5, 2026); basketball audio comes from the school's own feed at game time."
  },
  {
   "school": "Nicholls State University",

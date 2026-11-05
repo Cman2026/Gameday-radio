@@ -111,6 +111,9 @@ def load_carries():
 
 
 def station_carries(team, sport, carries=None):
+    # station_skips: sports the station is known not to carry (McNeese's KHLA plays music during basketball)
+    if sport in (team.get("station_skips") or []):
+        return False
     if sport not in OPT_IN or sport in (team.get("station_sports") or []) or (team.get("sport_streams") or {}).get(sport):
         return True
     return f"{sport}|{team.get('school')}" in (carries if carries is not None else load_carries())
