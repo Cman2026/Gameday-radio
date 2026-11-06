@@ -1,15 +1,2 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-[AVFormatContext @ 0x592afcd1e5c0] Invalid HLS ID3 audio timestamp 15977257472
-[AVFormatContext @ 0x634089cf6fc0] Invalid HLS ID3 audio timestamp 15979054592
-[0;93m2026-11-06 06:33:47.341940944 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-[AVFormatContext @ 0x5b3de52bc5c0] Invalid HLS ID3 audio timestamp 15986243072
-[AVFormatContext @ 0x5fef8ea9ffc0] Invalid HLS ID3 audio timestamp 15988040192
-people listened to 0 team stations in the last 2 hours: []
-listening to 6 streams in 1 live games
-quiet      mhk  University of Minnesota        ''
-maybe_not  mhk  University of Minnesota        'on Thursday as well. In the NBA there were two games on the schedule we had  the Warriors '
-maybe_not  mhk  University of Minnesota        'or weeks elsewhere in the NFL.  We do have some injury updates.  Debo Samuel Mike Evans.  '
-maybe_not  mhk  University of Wisconsin-Madiso "Steve 2037 would just fend for himself.  Well, all right.  But don't expect me boiling my "
-maybe_not  mhk  University of Wisconsin-Madiso 'Christmas music stations like IHurt Christmas and Playlist.  Open the free IHurt Radio app'
-maybe_not  mhk  University of Wisconsin-Madiso "Steve 2037 would just fend for himself.  Well, alright, but don't expect me boiling my ant"
-{'quiet': 1, 'maybe_not': 5}
+no live games
