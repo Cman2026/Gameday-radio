@@ -1,2 +1,17 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-no live games
+[0;93m2026-11-06 21:14:55.604464768 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+people listened to 2 team stations in the last 2 hours: [('mbb', 'Boston College'), ('mbb', 'Massachusetts')]
+listening to 12 streams in 4 live games
+game       mbb  Boston College                 'little bit executing a little bit of offensive  Ziegler eventually great energy first foul'
+maybe_not  mbb  Boston College                 "to be all that dependable. Yeah, but couldn't they  restructure that or just like, you kno"
+quiet      mbb  Boston College                 ''
+maybe_not  mbb  University of Massachusetts Am 'is into the haves and the have-nots.  And the people, regardless of geography or ideology,'
+maybe_not  wbb  Eastern Washington University  "I'm not saying they hired Dion, but what he just said is why I think Dion is not out of th"
+maybe_not  wbb  Eastern Washington University  "I'm not saying they hired Dion, but what he just said is why I think Dion is not out of th"
+maybe_not  wbb  Eastern Washington University  "I'm not saying they hired Dion, but what he just said is why I think Dion is not out of th"
+maybe_not  wbb  University of California, Davi "shooters like the Spurs guys aren't and with whammy struggling to shoot the ball from  lon"
+maybe_not  wbb  University of California, Davi "not allowing them to get wins.  It's that much of a discrepancy.  Then I would say they wo"
+maybe_not  wbb  University of California, Davi "when be struggling to shoot the ball from long range  to start the season, you're not real"
+game       wbb  Utah State University          "on the court for Utah State's going to be Rookstool.  I taught a Rookstool, Nicole Berenbe"
+maybe_not  wbb  Utah State University          "i'm still not that hung up on the kickoff time honestly it would be better for  our statio"
+{'game': 2, 'maybe_not': 9, 'quiet': 1}
