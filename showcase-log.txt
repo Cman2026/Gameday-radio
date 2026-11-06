@@ -1,2 +1,26 @@
-official feeds added for: none
-no live teams without radio that have an athletics site on file
+
+[notice] A new release of pip is available: 26.2.2 -> 26.3
+[notice] To update, run: pip install --upgrade pip
+
+Running kernel seems to be up-to-date.
+
+Restarting services...
+
+Service restarts being deferred:
+ systemctl restart hosted-compute-agent.service
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+allaccess error https://virginiasports.com HTTP Error 404: Not Found
+allaccess error https://purduesports.com HTTP Error 404: Not Found
+allaccess error https://gocolgateraiders.com <urlopen error [Errno 104] Connection reset by peer>
+official feeds added for: Baylor University (mbb), University of Oregon (mbb), Utah State University (wbb), Oklahoma State University (wbb)
+leanplayer xml https://rhody.leanplayer.com/ <?xml version="1.0"?> <main><sports><sport><id>1579</id><name>Rhode Island Football Coachs Show</name><is_show>1</is_show></sport><sport><id>1</id><name>Football</name><is_show>0</is_show></sport><sport><id>1597</id><name>The Archie Miller + Tammi Reiss Show</name><is_show>1</is_show></sport><sport><id>888</id><name>Rhode Island Football Coach's Show</name><is_show>1</is_show></sport><sport><id>441</id><name>Archie Miller Show</name><is_show>1</is_show></sport><sport><id>3</id><name>Women&#x2019;s Basketball</name><is_show>0</is_show></sport><sport><id>2</id><name>Men&#x2019;s Basketball</name
+University of Rhode Island wbb -> (leanplayer) ['https://learfield-gd.leanstream.co/LF4902-MP3?sport=WBB']
+Loyola Marymount University wbb -> []
+Long Island University whk -> []
+Long Island University whk -> []
+other SIDEARM sport names seen: football, general, m_bkb, mbasket, mbball, mhockey, msoc, w_bkb, wbasket, wbb, wbball, whockey, wrestling, wsoc

@@ -1578,6 +1578,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://ais-sa1.streamon.fm/7050_24k.aac/playlist.m3u8",
 "https://ais-sa1.streamon.fm/7050_24k.aac"
 ],
 "misses": 0,
@@ -1589,7 +1590,11 @@
 "sport_station": null,
 "live_only": true,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://ais-sa1.streamon.fm/7050_24k.aac/playlist.m3u8"
+],
+"game_feeds_at": "2026-11-06T20:39:18Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "Brigham Young University",
@@ -1831,18 +1836,23 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM9102-MP3",
 "https://ice42.securenetsystems.net/KSPI"
 ],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-06",
-"live_only": false,
+"live_only": true,
 "athletics_site": "https://okstate.com",
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM9102-MP3"
+],
+"game_feeds_at": "2026-11-06T20:39:18Z",
+"game_feeds_sport": "wbb"
 },
 {
 "school": "Texas Christian University",
@@ -2380,6 +2390,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM0801-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAMAAC.m3u8",
 "http://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAMAAC.aac"
@@ -2393,7 +2404,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM0801-MP3"
+],
+"game_feeds_at": "2026-11-06T20:39:18Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "Purdue University",
@@ -2870,17 +2885,23 @@
 "game_only": true,
 "no_radio": null,
 "notes": "Free school audio (LEANplayer)",
-"streams": [],
+"streams": [
+"https://learfield-gd.leanstream.co/LF4902-MP3?sport=WBB"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-10-31",
-"live_only": false,
+"live_only": true,
 "athletics_site": "https://gorhody.com",
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://learfield-gd.leanstream.co/LF4902-MP3?sport=WBB"
+],
+"game_feeds_at": "2026-11-06T20:39:18Z",
+"game_feeds_sport": "wbb"
 },
 {
 "school": "Sacred Heart University",
@@ -7292,6 +7313,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF6302-MP3",
 "https://bonneville.cdnstream1.com/2706_48.aac"
 ],
 "misses": 0,
@@ -7303,7 +7325,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/LF6302-MP3"
+],
+"game_feeds_at": "2026-11-06T20:39:18Z",
+"game_feeds_sport": "wbb"
 },
 {
 "school": "Washington State University",
