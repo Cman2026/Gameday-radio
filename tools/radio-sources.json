@@ -6829,16 +6829,23 @@
   ],
   "listen_page": "https://goriverhawks.com",
   "conference": "America East Conference",
-  "calls": [],
+  "calls": [
+   "WCAP-AM"
+  ],
   "athletics_site": "https://goriverhawks.com",
-  "notes": "No basketball radio found. WCAP 980 and student WUML 91.5 are both listed for River Hawks hockey only (Wikipedia); Oct 2025 MBB release has no audio",
+  "notes": "No basketball radio found. WCAP 980 and student WUML 91.5 are both listed for River Hawks hockey only (Wikipedia); Oct 2025 MBB release has no audio Men's hockey: 980 WCAP (Lowell) per Wikipedia (undated; 2026-27 schedule release names no radio). Basketball still has no radio.",
   "streams": [],
   "sports": [
-   "mbb"
+   "mbb",
+   "mhk"
   ],
-  "basketball_only": true,
   "source": "https://en.wikipedia.org/wiki/WUML",
-  "research": "unknown"
+  "research": "unknown",
+  "station_website": "http://www.980wcap.com",
+  "station_skips": [
+   "mbb",
+   "wbb"
+  ]
  },
  {
   "school": "University of North Carolina Asheville",
