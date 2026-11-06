@@ -100,7 +100,10 @@ def main():
             b = p.chromium.launch(args=["--autoplay-policy=no-user-gesture-required"])
         pages = []
         for _ in range(6):
-            pg = b.new_page(); pg.goto(SITE, wait_until="load", timeout=45000); pages.append(pg)
+            pg = b.new_page()
+            pg.route("**/gc.zgo.at/**", lambda r: r.abort())  # test runs aren't visitors: keep them out of the traffic numbers
+            pg.route("**goatcounter.com/**", lambda r: r.abort())
+            pg.goto(SITE, wait_until="load", timeout=45000); pages.append(pg)
             # The page loads hls.js on first use; load it now so HLS streams are tested the way the page plays them.
             try: pg.evaluate("() => (typeof loadHls === 'function' ? loadHls() : null)")
             except Exception as ex: print('hls.js did not load:', str(ex)[:120])

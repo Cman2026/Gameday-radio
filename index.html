@@ -13,6 +13,9 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@500;600;700&display=swap">
 <!-- Visitor counts (GoatCounter: no cookies, no personal data). The page reloads itself when the
      site updates; those reloads aren't counted as new visits. -->
+<script>/* Owner's devices: open gamedayradiolive.com/#nocount once and that browser stops being counted in the
+   traffic numbers (GoatCounter skips browsers with localStorage skipgc = "t"); #count turns it back on. */
+try{ if(location.hash==="#nocount" || location.hash==="#count"){ location.hash==="#nocount" ? localStorage.setItem("skipgc","t") : localStorage.removeItem("skipgc"); history.replaceState(null, "", location.pathname + location.search); } }catch(e){}</script>
 <script>try{ if(sessionStorage.getItem("autoReload")){ sessionStorage.removeItem("autoReload"); window.goatcounter = {no_onload: true}; } }catch(e){}</script>
 <script data-goatcounter="https://gamedayradiolive.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <style>
