@@ -1,17 +1,21 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-[0;93m2026-11-06 21:14:55.604464768 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-11-06 21:28:47.716613723 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[hls @ 0x55731f2b4f80] URL https://prod-44-195-61-138.amperwave.net/a/?lid=991d25b7-377e-4afb-a7aa-f78466a6811f&u=https%3A%2F%2Fd25j5qm9y8ulag.cloudfront.net%2Fc%2Fad%2Fa%2Fcedc681d9c06586cc6134e066e52c51f_0.aac%3Fsid%3D7907 is not in allowed_segment_extensions, consider updating hls.c and submitting a patch to ffmpeg-devel, if this should be added
+[out#0/wav @ 0x55731f5cc880] Output file does not contain any stream
+Error opening output file /tmp/tmpxb8imx6o.wav.
+Error opening output files: Invalid argument
 people listened to 2 team stations in the last 2 hours: [('mbb', 'Boston College'), ('mbb', 'Massachusetts')]
 listening to 12 streams in 4 live games
-game       mbb  Boston College                 'little bit executing a little bit of offensive  Ziegler eventually great energy first foul'
-maybe_not  mbb  Boston College                 "to be all that dependable. Yeah, but couldn't they  restructure that or just like, you kno"
-quiet      mbb  Boston College                 ''
-maybe_not  mbb  University of Massachusetts Am 'is into the haves and the have-nots.  And the people, regardless of geography or ideology,'
-maybe_not  wbb  Eastern Washington University  "I'm not saying they hired Dion, but what he just said is why I think Dion is not out of th"
-maybe_not  wbb  Eastern Washington University  "I'm not saying they hired Dion, but what he just said is why I think Dion is not out of th"
-maybe_not  wbb  Eastern Washington University  "I'm not saying they hired Dion, but what he just said is why I think Dion is not out of th"
-maybe_not  wbb  University of California, Davi "shooters like the Spurs guys aren't and with whammy struggling to shoot the ball from  lon"
-maybe_not  wbb  University of California, Davi "not allowing them to get wins.  It's that much of a discrepancy.  Then I would say they wo"
-maybe_not  wbb  University of California, Davi "when be struggling to shoot the ball from long range  to start the season, you're not real"
-game       wbb  Utah State University          "on the court for Utah State's going to be Rookstool.  I taught a Rookstool, Nicole Berenbe"
-maybe_not  wbb  Utah State University          "i'm still not that hung up on the kickoff time honestly it would be better for  our statio"
-{'game': 2, 'maybe_not': 9, 'quiet': 1}
+game       mbb  Boston College                 "Yeah, that was unfortunate.  DC no one wanted to grab that rebound.  It didn't hit the rim"
+not_game   mbb  Boston College                 "of a reminder he's a good I'm I guess he's a really good and blitz pickup in protection  w"
+game       mbb  Boston College                 "Yeah, that was unfortunate.  These, no one wanted to grab that rebound.  It didn't hit the"
+not_game   mbb  University of Massachusetts Am 'you can get an extra year where you can stay in the US before you get the next job.  Well,'
+game       wbb  Eastern Washington University  "And you're the Eagles and Vandals here on 700 ESPN with coverage starting at 130.  In the "
+game       wbb  Eastern Washington University  "And you're the Eagles and Vandals here on 700 ESPN with coverage starting at 130.  In the "
+game       wbb  Eastern Washington University  'You can hear the Eagles and Vandals here on 700 ESPN with coverage starting at 130.  The C'
+not_game   wbb  University of California, Davi "it. Dylan Harper, it may not show up as it he hasn't started in the, no, no, I started  he"
+not_game   wbb  University of California, Davi "with the Andre Hunter questionable, you know, it's like what I think  light as well. Yeah,"
+not_game   wbb  University of California, Davi "And manual sharp has it he hasn't started in the no, I started he didn't even start in pre"
+game       wbb  Utah State University          'and ask specific questions.  Why not? It will likely be the most important joy purchase yo'
+not_game   wbb  Utah State University          'the amount and types of trees and leaves you have. Not our Jess Exteriors. We  understand '
+{'game': 6, 'not_game': 6}
