@@ -1620,7 +1620,9 @@
   "athletics_site": "https://ncataggies.com",
   "bad_streams": [
    "wbrf"
-  ]
+  ],
+  "game_only": true,
+  "notes": "No radio station found for 2026; the Aggie Sports Network audio is the school feed on NCATAggies.com, game days only."
  },
  {
   "school": "University of Rhode Island",
@@ -3066,7 +3068,8 @@
   ],
   "streams": [],
   "athletics_site": "https://godrakebulldogs.com",
-  "station_website": "https://espndesmoines.com"
+  "station_website": "https://espndesmoines.com",
+  "notes": "ESPN Des Moines (KRNT) still flagship. Its site's Listen Live widget is filled by script and no stream was found on StreamTheWorld, SecureNet or TuneIn (Nov 2026)."
  },
  {
   "school": "Marist University",
@@ -3181,9 +3184,12 @@
   "calls": [
    "WVUR-FM"
   ],
-  "streams": [],
+  "streams": [
+   "http://tesla.whiteaudio.com:8138/stream"
+  ],
   "athletics_site": "https://valpoathletics.com",
-  "station_website": "https://wvurthesource.com"
+  "station_website": "https://wvurthesource.com",
+  "notes": "WVUR (student station) streams via TuneIn s23659 -> tesla.whiteaudio.com:8138 (http only, Nov 2026)."
  },
  {
   "school": "University of Montana",
@@ -7210,14 +7216,16 @@
   ],
   "network": "Huskies Hockey on Mix 93.5",
   "flagship": "WKMJ Mix 93.5 FM (Hancock, MI)",
-  "listen_page": "https://themix93.com",
+  "listen_page": "https://mix93.fm",
   "conference": "CCHA",
   "calls": [
    "WKMJ-FM"
   ],
-  "streams": [],
+  "streams": [
+   "https://stream.civicmedia.us/WKMJ"
+  ],
   "athletics_site": "https://michigantechhuskies.com",
-  "notes": "Hockey-only D1 school (added Nov 2026). Men's hockey on WKMJ (Dec 2025 game notes).",
+  "notes": "Hockey-only D1 school (added Nov 2026). Men's hockey on WKMJ (Dec 2025 game notes). Stream is Civic Media's stream.civicmedia.us/WKMJ (from the mix93.fm player, Nov 2026).",
   "sports": [
    "mhk"
   ],
@@ -7237,16 +7245,19 @@
   "calls": [
    "WUPT-FM"
   ],
-  "streams": [],
+  "streams": [
+   "https://ice64.securenetsystems.net/WUPT"
+  ],
   "athletics_site": "https://nmuwildcats.com",
-  "notes": "Hockey-only D1 school (added Nov 2026). WUPT is NMU's sports flagship (Nov 2025 notes, Wikipedia). radioresultsnetwork.com's main listen page plays sister station WLST, so WLST is marked bad.",
+  "notes": "Hockey-only D1 school (added Nov 2026). WUPT is NMU's sports flagship (Nov 2025 notes, Wikipedia). radioresultsnetwork.com's main listen page plays sister station WLST, so WLST is marked bad. WUPT stream is ice64.securenetsystems.net/WUPT (SecureNet player, Nov 2026).",
   "sports": [
    "mhk"
   ],
   "source": "https://nmuwildcats.com/news/2025/11/5/hockey-preview-wildcats-vs-huskies.aspx",
   "bad_streams": [
    "WLST"
-  ]
+  ],
+  "securenet": "WUPT"
  },
  {
   "school": "University of Minnesota Duluth",
