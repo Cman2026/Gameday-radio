@@ -4641,7 +4641,139 @@
    "ad_hits": 0,
    "checks": 1,
    "preroll": false
+  },
+  "mbb|https://live.amperwave.net/direct/audacy-weeiamaac-imc": {
+   "school": "Boston College",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "850 WEEI",
+   "at": "2026-11-06T21:16:22Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://live.amperwave.net/direct/audacy-weeifmaac-imc": {
+   "school": "Boston College",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "WEEI 93.7",
+   "at": "2026-11-06T21:16:22Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|http://live.amperwave.net/direct/audacy-weeiamaac-imc": {
+   "school": "Boston College",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "850 WEEI",
+   "at": "2026-11-06T21:16:22Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://live.amperwave.net/manifest/saga-whmpamaac-hlsc1.m3u8?source=v7player": {
+   "school": "University of Massachusetts Amherst",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-06T21:16:22Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KXLXAMAAC.aac": {
+   "school": "Eastern Washington University",
+   "sport": "wbb",
+   "verdict": "game",
+   "title": "700 ESPN - ESPN Live                     ",
+   "icy_name": "KXLXAM",
+   "at": "2026-11-06T21:16:22Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://14623.live.streamtheworld.com/KXLXAMAAC.aac": {
+   "school": "Eastern Washington University",
+   "sport": "wbb",
+   "verdict": "game",
+   "title": "700 ESPN - ESPN Live                     ",
+   "icy_name": "KXLXAM",
+   "at": "2026-11-06T21:16:22Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|http://17643.live.streamtheworld.com:3690/KXLXAMAAC_SC": {
+   "school": "Eastern Washington University",
+   "sport": "wbb",
+   "verdict": "game",
+   "title": "700 ESPN - ESPN Live                     ",
+   "icy_name": "KXLXAM",
+   "at": "2026-11-06T21:16:22Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://bonneville.cdnstream1.com/2616_48.aac?aw_0_1st.playerid=IHM": {
+   "school": "University of California, Davis",
+   "sport": "wbb",
+   "verdict": "music",
+   "title": "Listen to The Matt & Kayla Show every weekday from 10 a.m. - 2 p.m. - The Matt & Kayla Show",
+   "icy_name": "Bonneville - KHTKAM OOM",
+   "at": "2026-11-06T21:16:22Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://bonneville.cdnstream1.com/2616_48.aac/playlist.m3u8?aw_0_1st.playerid=IHM": {
+   "school": "University of California, Davis",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-06T21:16:22Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|http://bonneville.cdnstream1.com/2616_48.aac?aw_0_1st.playerid=IHM": {
+   "school": "University of California, Davis",
+   "sport": "wbb",
+   "verdict": "music",
+   "title": "Listen to The Matt & Kayla Show every weekday from 10 a.m. - 2 p.m. - The Matt & Kayla Show",
+   "icy_name": "Bonneville - KHTKAM OOM",
+   "at": "2026-11-06T21:16:22Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://img.leanstream.co/LF6302-MP3": {
+   "school": "Utah State University",
+   "sport": "wbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-06T21:16:22Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "wbb|https://bonneville.cdnstream1.com/2706_48.aac": {
+   "school": "Utah State University",
+   "sport": "wbb",
+   "verdict": "game",
+   "title": "KZNS-AM - KSL Sports Zone 1280 AM",
+   "icy_name": "Bonneville - KZNSAM OOM",
+   "at": "2026-11-06T21:16:22Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
   }
  },
- "checked": "2026-11-06T20:42:05Z"
+ "checked": "2026-11-06T21:16:22Z"
 }

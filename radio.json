@@ -280,6 +280,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM9301-MP3",
 "https://ais-sa8.cdnstream1.com/2750_64.aac?aw_0_1st.playerid=iHeart",
 "https://ais-sa8.cdnstream1.com/2750_64.aac",
 "http://ais-sa8.cdnstream1.com/2750_64.aac?aw_0_1st.playerid=iHeart"
@@ -293,7 +294,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM9301-MP3"
+],
+"game_feeds_at": "2026-11-06T21:13:40Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "University of North Carolina at Chapel Hill",
@@ -314,6 +319,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM9201-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WPTFAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WPTFAM.mp3"
 ],
@@ -326,7 +332,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM9201-MP3"
+],
+"game_feeds_at": "2026-11-06T21:13:40Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "University of Pittsburgh",
@@ -1593,7 +1603,7 @@
 "game_feeds": [
 "https://ais-sa1.streamon.fm/7050_24k.aac/playlist.m3u8"
 ],
-"game_feeds_at": "2026-11-06T20:39:18Z",
+"game_feeds_at": "2026-11-06T21:13:40Z",
 "game_feeds_sport": "mbb"
 },
 {
@@ -1851,7 +1861,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM9102-MP3"
 ],
-"game_feeds_at": "2026-11-06T20:39:18Z",
+"game_feeds_at": "2026-11-06T21:13:40Z",
 "game_feeds_sport": "wbb"
 },
 {
@@ -1997,6 +2007,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM0301-MP3",
 "https://prod-100-53-217-72.amperwave.net/wvradio-wvaqfmaac-hlsc2.m3u8"
 ],
 "misses": 0,
@@ -2008,7 +2019,11 @@
 "sport_station": null,
 "live_only": true,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM0301-MP3"
+],
+"game_feeds_at": "2026-11-06T21:13:40Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "Ohio State University",
@@ -2029,6 +2044,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM5801-MP3",
 "https://radiohio.streamguys1.com/cols/wbnsfm-iheart.m4a",
 "https://oom-radiohio.streamguys1.com/cols/wbnsfm.mp3",
 "http://radiohio.streamguys1.com/cols/wbnsfm-iheart.m4a"
@@ -2042,7 +2058,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM5801-MP3"
+],
+"game_feeds_at": "2026-11-06T21:13:40Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "University of Michigan",
@@ -2407,7 +2427,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM0801-MP3"
 ],
-"game_feeds_at": "2026-11-06T20:39:18Z",
+"game_feeds_at": "2026-11-06T21:13:40Z",
 "game_feeds_sport": "mbb"
 },
 {
@@ -2900,7 +2920,7 @@
 "game_feeds": [
 "https://learfield-gd.leanstream.co/LF4902-MP3?sport=WBB"
 ],
-"game_feeds_at": "2026-11-06T20:39:18Z",
+"game_feeds_at": "2026-11-06T21:13:40Z",
 "game_feeds_sport": "wbb"
 },
 {
@@ -4588,17 +4608,23 @@
 "game_only": true,
 "no_radio": null,
 "notes": null,
-"streams": [],
+"streams": [
+"https://peaksports.leanstream.co/PS0101-MP3"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-03",
-"live_only": false,
+"live_only": true,
 "athletics_site": "https://woffordterriers.com",
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://peaksports.leanstream.co/PS0101-MP3"
+],
+"game_feeds_at": "2026-11-06T21:13:40Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "East Texas A&M University",
@@ -5920,13 +5946,17 @@
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-06",
-"live_only": false,
+"live_only": true,
 "athletics_site": "https://gosycamores.com",
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://live.amperwave.net/manifest/jdl-wvigfmaac-hlsc.m3u8"
+],
+"game_feeds_at": "2026-11-06T21:13:40Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "Murray State University",
@@ -7328,7 +7358,7 @@
 "game_feeds": [
 "https://img.leanstream.co/LF6302-MP3"
 ],
-"game_feeds_at": "2026-11-06T20:39:18Z",
+"game_feeds_at": "2026-11-06T21:13:40Z",
 "game_feeds_sport": "wbb"
 },
 {

@@ -14,13 +14,23 @@ No containers need to be restarted.
 No user sessions are running outdated binaries.
 
 No VM guests are running outdated hypervisor (qemu) binaries on this host.
+allaccess error https://hokiesports.com HTTP Error 404: Not Found
 allaccess error https://virginiasports.com HTTP Error 404: Not Found
 allaccess error https://purduesports.com HTTP Error 404: Not Found
+allaccess error https://mutigers.com HTTP Error 404: Not Found
+allaccess error https://clemsontigers.com HTTP Error 404: Not Found
+allaccess error https://ramblinwreck.com HTTP Error 404: Not Found
+allaccess error https://ucfknights.com HTTP Error 404: Not Found
+allaccess error https://ukathletics.com HTTP Error 404: Not Found
+allaccess error https://fightingirish.com HTTP Error 404: Not Found
+allaccess error https://gopsusports.com HTTP Error 404: Not Found
 allaccess error https://gocolgateraiders.com <urlopen error [Errno 104] Connection reset by peer>
-official feeds added for: Baylor University (mbb), University of Oregon (mbb), Utah State University (wbb), Oklahoma State University (wbb)
+official feeds added for: Baylor University (mbb), University of Oregon (mbb), Ohio State University (mbb), Indiana State University (mbb), University of North Carolina at Chapel Hill (mbb), North Carolina State University (mbb), West Virginia University (mbb), Utah State University (wbb), Oklahoma State University (wbb)
+leanplayer xml https://wofford.leanplayer.com/ <?xml version="1.0"?> <main><sports><sport><id>1</id><name>Football</name><is_show>0</is_show></sport><sport><id>2</id><name>Men&#x2019;s Basketball</name><is_show>0</is_show></sport><sport><id>3</id><name>Women&#x2019;s Basketball</name><is_show>0</is_show></sport></sports><events><current_ev/><upcoming_ev><event><id>116707</id><start_timestamp>1794008700</start_timestamp><start>2026-11-06 23:45:00</start><end>2026-11-07 03:45:00</end><sport_id>2</sport_id><opponent>North Carolina</opponent><url>https://peaksports.leanstream.co/PS0101-MP3</url></event><event><id>111254</id><start_timestamp>17
+Wofford College mbb -> (leanplayer) ['https://peaksports.leanstream.co/PS0101-MP3']
 leanplayer xml https://rhody.leanplayer.com/ <?xml version="1.0"?> <main><sports><sport><id>1579</id><name>Rhode Island Football Coachs Show</name><is_show>1</is_show></sport><sport><id>1</id><name>Football</name><is_show>0</is_show></sport><sport><id>1597</id><name>The Archie Miller + Tammi Reiss Show</name><is_show>1</is_show></sport><sport><id>888</id><name>Rhode Island Football Coach's Show</name><is_show>1</is_show></sport><sport><id>441</id><name>Archie Miller Show</name><is_show>1</is_show></sport><sport><id>3</id><name>Women&#x2019;s Basketball</name><is_show>0</is_show></sport><sport><id>2</id><name>Men&#x2019;s Basketball</name
 University of Rhode Island wbb -> (leanplayer) ['https://learfield-gd.leanstream.co/LF4902-MP3?sport=WBB']
 Loyola Marymount University wbb -> []
 Long Island University whk -> []
 Long Island University whk -> []
-other SIDEARM sport names seen: football, general, m_bkb, mbasket, mbball, mhockey, msoc, w_bkb, wbasket, wbb, wbball, whockey, wrestling, wsoc
+other SIDEARM sport names seen: fitzgeraldshow, football, general, kelsayshow, m_bkb, mbasket, mbball, mhockey, msoc, nightingaleshow, w_bkb, wbasket, wbb, wbball, whockey, wrestling, wsoc, wvball
