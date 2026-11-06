@@ -15,36 +15,58 @@ No user sessions are running outdated binaries.
 
 No VM guests are running outdated hypervisor (qemu) binaries on this host.
 allaccess error https://goutsa.com HTTP Error 404: Not Found
-allaccess error https://gopsusports.com HTTP Error 404: Not Found
-allaccess error https://gomocs.com The read operation timed out
-allaccess error https://vucommodores.com HTTP Error 404: Not Found
-allaccess error https://fightingirish.com HTTP Error 404: Not Found
-allaccess error https://hokiesports.com HTTP Error 404: Not Found
 allaccess error https://gobearcats.com HTTP Error 404: Not Found
-allaccess error https://ucfknights.com HTTP Error 404: Not Found
+allaccess error https://hokiesports.com HTTP Error 404: Not Found
+allaccess error https://fightingirish.com HTTP Error 404: Not Found
+allaccess error https://lsusports.net HTTP Error 404: Not Found
+allaccess error https://hawkeyesports.com HTTP Error 404: Not Found
 allaccess error https://odusports.com HTTP Error 404: Not Found
-allaccess error https://ukathletics.com HTTP Error 404: Not Found
-allaccess error https://ramblinwreck.com HTTP Error 404: Not Found
-allaccess error https://miamihurricanes.com HTTP Error 404: Not Found
-allaccess error https://clemsontigers.com HTTP Error 404: Not Found
-allaccess error https://virginiasports.com HTTP Error 404: Not Found
-allaccess error https://purduesports.com HTTP Error 404: Not Found
 allaccess error https://auburntigers.com HTTP Error 404: Not Found
+allaccess error https://purduesports.com HTTP Error 404: Not Found
+allaccess error https://virginiasports.com HTTP Error 404: Not Found
+allaccess error https://clemsontigers.com HTTP Error 404: Not Found
+allaccess error https://miamihurricanes.com HTTP Error 404: Not Found
+allaccess error https://ramblinwreck.com HTTP Error 404: Not Found
 allaccess error https://ttusports.com HTTP Error 405: Not Allowed
 allaccess error https://nusports.com HTTP Error 404: Not Found
-allaccess error https://hawkeyesports.com HTTP Error 404: Not Found
-allaccess error https://lsusports.net HTTP Error 404: Not Found
-official feeds added for: University of Southern Mississippi (fb), University of North Texas (mbb), Morehead State University (mbb), United States Military Academy (mbb), Indiana University (mbb), Wake Forest University (mbb), Seton Hall University (mbb), University of Pittsburgh (mbb), Syracuse University (mbb), University of Maine (mbb), Texas State University (mbb), Mississippi State University (mbb), Tulane University (mbb), Louisiana Tech University (mbb), Western Kentucky University (mbb), University of North Alabama (mbb), Michigan State University (mbb), Duke University (mbb), Western Carolina University (wbb), Texas Tech University (wbb), Ohio State University (wbb), University of Michigan (wbb), University of Connecticut (wbb), University of Georgia (wbb), University of Tennessee (wbb), University of Alabama (wbb), West Virginia University (wbb), University of Mississippi (wbb), Kansas State University (wbb), Iowa State University (wbb), Eastern Kentucky University (wbb)
-allaccess error https://ccsubluedevils.com HTTP Error 405: Not Allowed
-Marist University mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/9ECvZVJG.m3u8']
-University of North Carolina at Charlotte mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/k5UnJHOy.m3u8']
+allaccess error https://thesundevils.com HTTP Error 404: Not Found
+allaccess error https://byucougars.com HTTP Error 404: Not Found
+allaccess error https://12thman.com HTTP Error 404: Not Found
+allaccess error https://uclabruins.com HTTP Error 404: Not Found
+official feeds added for: University of Southern Mississippi (fb), United States Air Force Academy (mbb), University of Illinois Urbana-Champaign (mbb), University of Florida (mbb), Duke University (mbb), Michigan State University (mbb), University of Toledo (mbb), Texas State University (mbb), University of Maine (mbb), Syracuse University (mbb), University of Pittsburgh (mbb), University of North Alabama (mbb), Western Kentucky University (mbb), Louisiana Tech University (mbb), Tulane University (mbb), Mississippi State University (mbb), Illinois State University (mbb), University of South Alabama (mbb), University of Tulsa (mbb), Southern Methodist University (mbb), University of California, Davis (mbb), Texas Tech University (mbb), University of Mississippi (wbb), West Virginia University (wbb), University of Alabama (wbb), University of Tennessee (wbb), University of Georgia (wbb), Iowa State University (wbb), Kansas State University (wbb), Morehead State University (wbb), Eastern Kentucky University (wbb), University of Houston (wbb), North Dakota State University (wbb), Baylor University (wbb), University of Louisiana at Lafayette (wbb), University of Washington (wbb), University of Minnesota (mhk)
+DePaul University mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/mG4KIVtT.m3u8']
 University of Richmond mbb -> (feed) ['https://stream.rcs.revma.com/x4q6k4dw57uvv']
+University of North Carolina at Charlotte mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/k5UnJHOy.m3u8']
+Marist University mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/9ECvZVJG.m3u8']
+allaccess error https://ccsubluedevils.com HTTP Error 405: Not Allowed
+Belmont University mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/JUavIeO8.m3u8']
+Rice University mbb -> (feed) ['https://img.leanstream.co/IM4501-MP3']
+Loyola University Chicago mbb -> (feed) ['https://img.leanstream.co/LF7301-MP3']
+Sam Houston State University wbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/XUADh2qO.m3u8']
 leanplayer xml https://wofford.leanplayer.com/ <?xml version="1.0"?> <main><sports><sport><id>1</id><name>Football</name><is_show>0</is_show></sport><sport><id>2</id><name>Men&#x2019;s Basketball</name><is_show>0</is_show></sport><sport><id>3</id><name>Women&#x2019;s Basketball</name><is_show>0</is_show></sport></sports><events><current_ev/><upcoming_ev><event><id>116707</id><start_timestamp>1794008700</start_timestamp><start>2026-11-06 23:45:00</start><end>2026-11-07 03:45:00</end><sport_id>2</sport_id><opponent>North Carolina</opponent><url>https://peaksports.leanstream.co/PS0101-MP3</url></event><event><id>111254</id><start_timestamp>17
 Wofford College wbb -> (leanplayer) ['https://peaksports.leanstream.co/PS0101-MP3']
-McNeese State University mbb -> []
-McNeese State University mbb -> ['https://video.primis.tech/uploads/cn11/video/users/hls/25037/video_5b18fe8a189cc100708328/vid60b74141a35e4677405822.mp4/chunklist_480.m3u8']
-Robert Morris University wbb -> []
-Robert Morris University wbb -> []
-University of Illinois Chicago wbb -> []
-University of Illinois Chicago wbb -> []
-other SIDEARM sport names seen: basketball-women, fb, fitzgeraldshow, football, general, kelsayshow, mbb, mbball, mhockey, nightingaleshow, vol-network, volleyball, wbasket, wbball, wrestling, wvball
+University of Pennsylvania mbb -> []
+University of Pennsylvania mbb -> []
+Jacksonville University mbb -> []
+Jacksonville University mbb -> []
+Prairie View A&M University mbb -> []
+Princeton University mbb -> []
+Princeton University mbb -> []
+Hofstra University mbb -> []
+Hofstra University mbb -> []
+Cornell University mbb -> []
+University of Wisconsin-Green Bay mbb -> []
+University of Wisconsin-Green Bay mbb -> ['https://greenbayphoenix.mixlr.com/', 'https://apicdn.mixlr.com/v3/channel_view/greenbayphoenix', 'https://apicdn.mixlr.com/v3/channel_me']
+Sacred Heart University mbb -> []
+Quinnipiac University mbb -> []
+Merrimack College mbb -> []
+University of Massachusetts Lowell mbb -> ['https://cdn.jwplayer.com/live/broadcast/LCyNyoBI.m3u8', 'https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/LCyNyoBI.m3u8?exp=1793930160&sig=8dffdcdd53fcd4be1bea3aeb1e9dda95']
+University of Massachusetts Lowell mbb -> ['https://cdn.jwplayer.com/live/broadcast/LCyNyoBI.m3u8', 'https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/LCyNyoBI.m3u8?exp=1793930160&sig=8dffdcdd53fcd4be1bea3aeb1e9dda95']
+Manhattan University mbb -> []
+Delaware State University mbb -> []
+University of Maryland, Baltimore County mbb -> []
+Iona University mbb -> ['https://cdn.jwplayer.com/live/broadcast/aRSHQZWq.m3u8', 'https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/aRSHQZWq.m3u8?exp=1793930160&sig=b2478afc7e6993d739ed6dcc15428734']
+New Jersey Institute of Technology mbb -> []
+Fairfield University mbb -> []
+Mercyhurst University mbb -> []
+other SIDEARM sport names seen: basketball-women, fitzgeraldshow, football, general, kelsayshow, mbball, mhockey, nightingaleshow, vol-network, volleyball, wbasket, wbball, wrestling, wvball
