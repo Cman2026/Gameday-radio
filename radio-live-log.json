@@ -2,30 +2,6 @@
 "log": [
 {
 "at": "2026-11-03T02:02:00Z",
-"school": "Kansas State University",
-"game": "Women's Basketball: WICH @ KSU",
-"url": "https://stream-02.surfernetwork.com/drscz5r6naxuv",
-"verdict": "music",
-"title": "Cinderella - Nobody's Fool"
-},
-{
-"at": "2026-11-03T02:02:00Z",
-"school": "Wichita State University",
-"game": "Women's Basketball: WICH @ KSU",
-"url": "https://live.amperwave.net/direct/audacy-keynfmaac-imc",
-"verdict": "unknown",
-"title": ""
-},
-{
-"at": "2026-11-03T02:02:00Z",
-"school": "Wichita State University",
-"game": "Women's Basketball: WICH @ KSU",
-"url": "https://live.amperwave.net/manifest/audacy-keynfmaac-imc",
-"verdict": "unknown",
-"title": ""
-},
-{
-"at": "2026-11-03T02:02:00Z",
 "school": "Wichita State University",
 "game": "Women's Basketball: WICH @ KSU",
 "url": "http://live.amperwave.net/direct/audacy-keynfmaac-imc",
@@ -9599,6 +9575,30 @@
 "url": "http://stream.revma.ihrhls.com/zc2661",
 "verdict": "game",
 "title": "24-7 News - Weather  11-05  14:41"
+},
+{
+"at": "2026-11-06T05:08:58Z",
+"school": "University of Arizona",
+"game": "Men's Basketball: CP @ ARIZ",
+"url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KCUBAMAAC.aac",
+"verdict": "unknown",
+"title": ""
+},
+{
+"at": "2026-11-06T05:08:58Z",
+"school": "University of Arizona",
+"game": "Men's Basketball: CP @ ARIZ",
+"url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KCUBAMAAC.m3u8",
+"verdict": "unknown",
+"title": ""
+},
+{
+"at": "2026-11-06T05:08:58Z",
+"school": "University of Arizona",
+"game": "Men's Basketball: CP @ ARIZ",
+"url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KCUBAMAAC.aac",
+"verdict": "unknown",
+"title": ""
 }
 ]
 }

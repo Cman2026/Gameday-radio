@@ -4608,7 +4608,40 @@
    "ad_hits": 0,
    "checks": 1,
    "preroll": false
+  },
+  "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KCUBAMAAC.aac": {
+   "school": "University of Arizona",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "KCUBAM",
+   "at": "2026-11-06T05:08:58Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|https://playerservices.streamtheworld.com/api/livestream-redirect/KCUBAMAAC.m3u8": {
+   "school": "University of Arizona",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "",
+   "at": "2026-11-06T05:08:58Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
+  },
+  "mbb|http://playerservices.streamtheworld.com/api/livestream-redirect/KCUBAMAAC.aac": {
+   "school": "University of Arizona",
+   "sport": "mbb",
+   "verdict": "unknown",
+   "title": "",
+   "icy_name": "KCUBAM",
+   "at": "2026-11-06T05:08:58Z",
+   "ad_hits": 0,
+   "checks": 1,
+   "preroll": false
   }
  },
- "checked": "2026-11-06T01:44:01Z"
+ "checked": "2026-11-06T05:08:58Z"
 }
