@@ -1,5 +1,5 @@
 {
-"built": "2026-11-06T20:11:17Z",
+"built": "2026-11-06T20:35:04Z",
 "teams": [
 {
 "school": "Boston College",
@@ -2643,9 +2643,9 @@
 "streams": [
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WJMFFMAAC.aac"
 ],
-"misses": 1,
-"miss_day": "2026-11-06",
-"last_ok": "2026-11-05",
+"misses": 0,
+"miss_day": null,
+"last_ok": "2026-11-06",
 "athletics_site": "https://bryantbulldogs.com",
 "station_sports": null,
 "sport_streams": null,
@@ -4481,7 +4481,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://ice5.securenetsystems.net/WQNT?playSessionID=F8B4B444-90C4-5126-146CBB2D92CD6129"
+"https://ice5.securenetsystems.net/WQNT?playSessionID=F9964F09-CA10-8460-45487CD343483FE2"
 ],
 "misses": 0,
 "miss_day": null,
@@ -7746,8 +7746,8 @@
 "streams": [
 "https://ice25.securenetsystems.net/WGZZ"
 ],
-"misses": 1,
-"miss_day": "2026-11-06",
+"misses": 0,
+"miss_day": null,
 "last_ok": "2026-11-06",
 "athletics_site": "https://auburntigers.com",
 "station_sports": null,
@@ -10751,10 +10751,12 @@
 "flagship": null,
 "listen_page": "https://goriverhawks.com",
 "conference": "America East Conference",
-"calls": [],
+"calls": [
+"WCAP-AM"
+],
 "game_only": null,
 "no_radio": null,
-"notes": "No basketball radio found. WCAP 980 and student WUML 91.5 are both listed for River Hawks hockey only (Wikipedia); Oct 2025 MBB release has no audio",
+"notes": "No basketball radio found. WCAP 980 and student WUML 91.5 are both listed for River Hawks hockey only (Wikipedia); Oct 2025 MBB release has no audio Men's hockey: 980 WCAP (Lowell) per Wikipedia (undated; 2026-27 schedule release names no radio). Basketball still has no radio.",
 "streams": [],
 "misses": 0,
 "miss_day": null,
@@ -10764,7 +10766,10 @@
 "sport_streams": null,
 "sport_station": null,
 "live_only": false,
-"station_skips": null,
+"station_skips": [
+"mbb",
+"wbb"
+],
 "game_feeds": null
 },
 {
