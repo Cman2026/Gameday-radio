@@ -59,7 +59,11 @@ def page(days):
 </article>''')
     body = "\n".join(rows) or '<p class="empty">No games have been featured in this period yet.</p>'
     updated = dt.datetime.now(ET).strftime("%B %-d, %-I:%M %p ET")
-    return f'''<title>Featured Picks Report</title>
+    return f'''<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Featured Picks Report</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <style>
 /* One reading column of pick cards, grouped by day; Editor's Picks outlined in the site's gold. */
