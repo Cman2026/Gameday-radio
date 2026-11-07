@@ -1,21 +1,241 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-[0;93m2026-11-06 21:28:47.716613723 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-[hls @ 0x55731f2b4f80] URL https://prod-44-195-61-138.amperwave.net/a/?lid=991d25b7-377e-4afb-a7aa-f78466a6811f&u=https%3A%2F%2Fd25j5qm9y8ulag.cloudfront.net%2Fc%2Fad%2Fa%2Fcedc681d9c06586cc6134e066e52c51f_0.aac%3Fsid%3D7907 is not in allowed_segment_extensions, consider updating hls.c and submitting a patch to ffmpeg-devel, if this should be added
-[out#0/wav @ 0x55731f5cc880] Output file does not contain any stream
-Error opening output file /tmp/tmpxb8imx6o.wav.
+[0;93m2026-11-07 01:12:31.644359195 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[in#0 @ 0x5cc8f622ecc0] Error opening input: Server returned 403 Forbidden (access denied)
+Error opening input file https://playerservices.streamtheworld.com/api/livestream-redirect/WCSXFMAAC.aac.
+Error opening input files: Server returned 403 Forbidden (access denied)
+[in#0 @ 0x581812901cc0] Error opening input: Server returned 403 Forbidden (access denied)
+Error opening input file https://playerservices.streamtheworld.com/api/livestream-redirect/WCSXFM.mp3.
+Error opening input files: Server returned 403 Forbidden (access denied)
+[mp3float @ 0x5e720a824300] Header missing
+[aist#0:0/mp3 @ 0x5e720a826180] [dec:mp3float @ 0x5e720a823d80] Error submitting packet to decoder: Invalid data found when processing input
+[mp3float @ 0x5e720a824300] Header missing
+[aist#0:0/mp3 @ 0x5e720a826180] [dec:mp3float @ 0x5e720a823d80] Error submitting packet to decoder: Invalid data found when processing input
+[mp3float @ 0x5e720a824300] Header missing
+[aist#0:0/mp3 @ 0x5e720a826180] [dec:mp3float @ 0x5e720a823d80] Error submitting packet to decoder: Invalid data found when processing input
+[mp3float @ 0x5e720a824300] Header missing
+[aist#0:0/mp3 @ 0x5e720a826180] [dec:mp3float @ 0x5e720a823d80] Error submitting packet to decoder: Invalid data found when processing input
+[in#0 @ 0x5d1b7fbdacc0] Error opening input: Invalid data found when processing input
+Error opening input file https://www.spartanburgsportsradio.com/.
+Error opening input files: Invalid data found when processing input
+[aac @ 0x583c6c7da440] No quantized data read for sbr_dequant.
+[out#0/wav @ 0x60b8f94da400] Output file does not contain any stream
+Error opening output file /tmp/tmpr30qgrjx.wav.
 Error opening output files: Invalid argument
-people listened to 2 team stations in the last 2 hours: [('mbb', 'Boston College'), ('mbb', 'Massachusetts')]
-listening to 12 streams in 4 live games
-game       mbb  Boston College                 "Yeah, that was unfortunate.  DC no one wanted to grab that rebound.  It didn't hit the rim"
-not_game   mbb  Boston College                 "of a reminder he's a good I'm I guess he's a really good and blitz pickup in protection  w"
-game       mbb  Boston College                 "Yeah, that was unfortunate.  These, no one wanted to grab that rebound.  It didn't hit the"
-not_game   mbb  University of Massachusetts Am 'you can get an extra year where you can stay in the US before you get the next job.  Well,'
-game       wbb  Eastern Washington University  "And you're the Eagles and Vandals here on 700 ESPN with coverage starting at 130.  In the "
-game       wbb  Eastern Washington University  "And you're the Eagles and Vandals here on 700 ESPN with coverage starting at 130.  In the "
-game       wbb  Eastern Washington University  'You can hear the Eagles and Vandals here on 700 ESPN with coverage starting at 130.  The C'
-not_game   wbb  University of California, Davi "it. Dylan Harper, it may not show up as it he hasn't started in the, no, no, I started  he"
-not_game   wbb  University of California, Davi "with the Andre Hunter questionable, you know, it's like what I think  light as well. Yeah,"
-not_game   wbb  University of California, Davi "And manual sharp has it he hasn't started in the no, I started he didn't even start in pre"
-game       wbb  Utah State University          'and ask specific questions.  Why not? It will likely be the most important joy purchase yo'
-not_game   wbb  Utah State University          'the amount and types of trees and leaves you have. Not our Jess Exteriors. We  understand '
-{'game': 6, 'not_game': 6}
+[https @ 0x5cd4d8722640] Stream ends prematurely at 0, should be 18446744073709551615
+[in#0 @ 0x5cd4d8721cc0] Error opening input: Input/output error
+Error opening input file https://ums.acuityplatform.com/tum?umid=133&uid=abad29ac-a2ca-4cf8-ae18-7c56ade186ea&rurl=https%3A%2F%2Fyield-op-idsync.live.streamtheworld.com%2Fpixel.gif%3Fpartner%3Dacu%26uid%3D___AUID___%26pubId%3D21313.
+Error opening input files: Input/output error
+[tls @ 0x5584f96f6540] Error in the pull function.
+[tls @ 0x5584f96f6540] IO error: End of file
+[https @ 0x5584f96f3640] Stream ends prematurely at 0, should be 18446744073709551615
+[in#0 @ 0x5584f96f2cc0] Error opening input: Input/output error
+Error opening input file https://rtb.adentifi.com/CookieSyncTriton?redirect=https%3A%2F%2Fyield-op-idsync.live.streamtheworld.com%2Fpixel.gif%3Fpartner%3Dadt%26uid%3D%24UID%26pubId%3D21313.
+Error opening input files: Input/output error
+[in#0 @ 0x63ef6cc45cc0] Error opening input: Server returned 404 Not Found
+Error opening input file https://cdn.jwplayer.com/live/broadcast/1JloVwxJ.m3u8.
+Error opening input files: Server returned 404 Not Found
+[in#0 @ 0x603bc44d3cc0] Error opening input: Server returned 404 Not Found
+Error opening input file https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/1JloVwxJ.m3u8?exp=1794011760&sig=cbd504e8f5e6d1d40c94a41acb1889bb.
+Error opening input files: Server returned 404 Not Found
+[in#0 @ 0x6420ce733cc0] Error opening input: Invalid data found when processing input
+Error opening input file http://mixlr.com/wtbusports.
+Error opening input files: Invalid data found when processing input
+[in#0 @ 0x5f162c88bcc0] Error opening input: Invalid data found when processing input
+Error opening input file https://mixlr.com/wtbusports.
+Error opening input files: Invalid data found when processing input
+[in#0 @ 0x56956685fcc0] Error opening input: Invalid data found when processing input
+Error opening input file https://wtbusports.mixlr.com/.
+Error opening input files: Invalid data found when processing input
+[hls @ 0x556a9f65af80] URL https://prod-34-207-248-200.amperwave.net/a/?lid=d336d610-f0d5-488c-8318-0f015b0af2e5&u=https%3A%2F%2Fd25j5qm9y8ulag.cloudfront.net%2Fc%2Fad%2Fa%2Ff879e5e2739dd6c34ba1d5b10598449e_0.aac%3Fsid%3D15411 is not in allowed_segment_extensions, consider updating hls.c and submitting a patch to ffmpeg-devel, if this should be added
+[out#0/wav @ 0x556a9f6a79c0] Output file does not contain any stream
+Error opening output file /tmp/tmp9t66cqzv.wav.
+Error opening output files: Invalid argument
+[NULL @ 0x6122fd019cc0] Invalid NAL unit size (81751 > 28116).
+[NULL @ 0x6122fd019cc0] missing picture in access unit with size 28220
+[NULL @ 0x6122fd640640] Invalid NAL unit size (18435 > 7627).
+[NULL @ 0x6122fd640640] missing picture in access unit with size 7731
+[NULL @ 0x6122fdc6b400] Invalid NAL unit size (44462 > 5891).
+[NULL @ 0x6122fdc6b400] missing picture in access unit with size 5995
+[NULL @ 0x6122fe29ed80] Invalid NAL unit size (30078 > 16652).
+[NULL @ 0x6122fe29ed80] missing picture in access unit with size 16756
+[NULL @ 0x6122feee6580] Invalid NAL unit size (75 > 42).
+[NULL @ 0x6122feee6580] missing picture in access unit with size 67
+[NULL @ 0x6122fe8c8b00] Invalid NAL unit size (5542 > 4598).
+[NULL @ 0x6122fe8c8b00] missing picture in access unit with size 4702
+[NULL @ 0x6122ff514d40] Invalid NAL unit size (14115 > 728).
+[NULL @ 0x6122ff514d40] missing picture in access unit with size 848
+[NULL @ 0x6056a837e780] Invalid NAL unit size (81751 > 28116).
+[NULL @ 0x6056a837e780] missing picture in access unit with size 28220
+[NULL @ 0x6056a89a5800] Invalid NAL unit size (18435 > 7627).
+[NULL @ 0x6056a89a5800] missing picture in access unit with size 7731
+[NULL @ 0x6056a8fd18c0] Invalid NAL unit size (44462 > 5891).
+[NULL @ 0x6056a8fd18c0] missing picture in access unit with size 5995
+[NULL @ 0x6056a95f9500] Invalid NAL unit size (30078 > 16652).
+[NULL @ 0x6056a95f9500] missing picture in access unit with size 16756
+[NULL @ 0x6056aa249300] Invalid NAL unit size (75 > 42).
+[NULL @ 0x6056aa249300] missing picture in access unit with size 67
+[NULL @ 0x6056a9c29d00] Invalid NAL unit size (5542 > 4598).
+[NULL @ 0x6056a9c29d00] missing picture in access unit with size 4702
+[NULL @ 0x6056aa877ec0] Invalid NAL unit size (14115 > 728).
+[NULL @ 0x6056aa877ec0] missing picture in access unit with size 848
+[aac @ 0x644de42d0fc0] env_facs_q 252 is invalid
+[NULL @ 0x635de52a1cc0] Invalid NAL unit size (81751 > 28116).
+[NULL @ 0x635de52a1cc0] missing picture in access unit with size 28220
+[NULL @ 0x635de58cfa80] Invalid NAL unit size (18435 > 7627).
+[NULL @ 0x635de58cfa80] missing picture in access unit with size 7731
+[NULL @ 0x635de5ef6140] Invalid NAL unit size (44462 > 5891).
+[NULL @ 0x635de5ef6140] missing picture in access unit with size 5995
+[NULL @ 0x635de651eb00] Invalid NAL unit size (30078 > 16652).
+[NULL @ 0x635de651eb00] missing picture in access unit with size 16756
+[NULL @ 0x635de716bc40] Invalid NAL unit size (75 > 42).
+[NULL @ 0x635de716bc40] missing picture in access unit with size 67
+[NULL @ 0x635de6b4ad00] Invalid NAL unit size (5542 > 4598).
+[NULL @ 0x635de6b4ad00] missing picture in access unit with size 4702
+[NULL @ 0x635de7793b00] Invalid NAL unit size (14115 > 728).
+[NULL @ 0x635de7793b00] missing picture in access unit with size 848
+[NULL @ 0x5e945cc44780] Invalid NAL unit size (81751 > 28116).
+[NULL @ 0x5e945cc44780] missing picture in access unit with size 28220
+[NULL @ 0x5e945d26b800] Invalid NAL unit size (18435 > 7627).
+[NULL @ 0x5e945d26b800] missing picture in access unit with size 7731
+[NULL @ 0x5e945d8964c0] Invalid NAL unit size (44462 > 5891).
+[NULL @ 0x5e945d8964c0] missing picture in access unit with size 5995
+[NULL @ 0x5e945debbf40] Invalid NAL unit size (30078 > 16652).
+[NULL @ 0x5e945debbf40] missing picture in access unit with size 16756
+[NULL @ 0x5e945eb186c0] Invalid NAL unit size (75 > 42).
+[NULL @ 0x5e945eb186c0] missing picture in access unit with size 67
+[NULL @ 0x5e945e4edfc0] Invalid NAL unit size (5542 > 4598).
+[NULL @ 0x5e945e4edfc0] missing picture in access unit with size 4702
+[NULL @ 0x5e945f13cc40] Invalid NAL unit size (14115 > 728).
+[NULL @ 0x5e945f13cc40] missing picture in access unit with size 848
+people listened to 0 team stations in the last 2 hours: []
+150 more streams wait for the next run
+listening to 140 streams in 100 live games
+game       fb   Southern Methodist University  "I'm going to go ahead and take the home run ball.  And he did that.  That's a tough throw "
+maybe_not  fb   Southern Methodist University  'The phone is credit to reduce daytime energy cost every summer, so the more free energy  y'
+maybe_not  fb   Southern Methodist University  'The phone is credit to reduce daytime energy cost every summer, so the more free energy  y'
+game       fb   Virginia Tech                  'in will help in the block there just to keep the pressure off.  17 yards he rolled right t'
+quiet      fb   East Carolina University       ''
+quiet      fb   East Carolina University       ''
+game       fb   University of South Florida    'from Ohalaran and this is more of a line drive that Josh Porter is going to fair catch  an'
+game       fb   University of South Florida    'Halloran and this is more of a line drive that Josh Porter is going to fair catch and  div'
+game       fb   University of Illinois Urbana- "where it's down by one of the  Husker special teams but let's  check the laundry back at t"
+game       fb   University of Illinois Urbana- 'Our investment in Decatur is an investment in everyone who calls Decatur home.  That would'
+maybe_not  fb   University of Illinois Urbana- 'Our investment indicator is an investment in everyone who calls Decatur Home.  On a where '
+game       fb   University of Nebraska-Lincoln "a 39 yard boot, the market down at the 15 yard line, but let's check the flag.  This could"
+game       fb   University of Nebraska-Lincoln "one on 41 straight-eye,  harder to pull back,  keep back rules.  That's been handoff rule "
+maybe_not  mbb  University of Michigan         'Not all buyers will qualify for Fort Credit financing.  0% APR financing for 60 months at '
+game       mbb  University of Connecticut      "and performance improvement.  UConn Health.  We're delivering care that changes the game, "
+game       mbb  University of Connecticut      "and performance improvement.  UConn Health.  We're delivering care that changes the game, "
+game       mbb  University of Connecticut      "Team meets legendary service.  Visit njm.com today for a quote.  You can't fans when it co"
+game       mbb  Iowa State University          "three pointer from the other side of the floor.  But once a guy just hasn't quite gotten i"
+quiet      mbb  Iowa State University          'No, think of winter, do you feel so happy?'
+quiet      mbb  Iowa State University          'Now.'
+game       mbb  University of Southern Mississ "Not sure it's senior, knocks down his first three of the season.  Earliest steal as Max Bl"
+quiet      mbb  University of Southern Mississ 'The fewer there was flames on that ball  You'
+game       mbb  University of Alabama          'about those paint touches, Brandon Garrison was able to get it on the last possession,  tr'
+quiet      mbb  University of Alabama          ''
+quiet      mbb  University of Alabama          "I'm staying here."
+game       mbb  Arkansas State University      "will get it back that's 11 turnovers now committed by the red one.  That surpasses the num"
+game       mbb  Arkansas State University      "He's a good fielder with a triple.  It's Alabama on top 33 32.  Now, Mulan trying to give "
+game       mbb  University of Kentucky         "they really do and that's because they run their stuff so well.  53-52 James Madison 14-45"
+game       mbb  University of Kentucky         "11-3s six different players have made them.  I'm killing the play.  I've got it at the oth"
+game       mbb  University of Kentucky         'I think Brian Stitch is the rebound and a foul from behind on  Myers trying to reach the w'
+game       mbb  James Madison University       "good McBride and defensive rebound knocked away and  Sal they're gonna call a foul on Adri"
+game       mbb  James Madison University       "goes left, pulls from 18, he gets the roll.  Gage Latimore's first bucket, James Madison o"
+game       mbb  James Madison University       "three in the corner. Got a partially blocked. It's going to be picked out of there by  zoo"
+maybe_not  mbb  Purdue University              "I'm in 12, yeah, I hadn't looked at my sheep.  James James Johnson got it, and we had a co"
+maybe_not  mbb  Valparaiso University          'The first three throw is on a big underdog, comes back against the team that had a big lea'
+maybe_not  mbb  South Carolina State Universit "So that's a game of six yards there.  So now it brings up the second down and fourth comin"
+game       mbb  Ohio State University          'They lose the ball back in the go to Aiken,  Junchtown State behind the back pass.  Booper'
+game       mbb  Ohio State University          'the diamond color starting at $99.  Share your buck I love at the diamond color.  Prod spo'
+quiet      mbb  Ohio State University          'clean air. 100 bucks off. Good deal.'
+maybe_not  mbb  Youngstown State University    "First free throw for him's on the money coming up on his career best  The native of France"
+game       mbb  Youngstown State University    'So the file against Anthony Thompson his first  Penguins are already in the bonus with 547'
+game       mbb  Youngstown State University    "Pippin' now into the 4-core 3-4 to go in the game. His team leading by 16.  Pippin' right "
+maybe_not  mbb  Eastern Kentucky University    'and they get Josh Lowe for gold tending as he came in late, tipped the ball,  hit the back'
+quiet      mbb  Eastern Kentucky University    ''
+game       mbb  Kent State University          'because in this family, how do we play the college savings game?  Tacks me!  And where do '
+game       mbb  Kent State University          'the foul against Robert Twesley.  A bump inside against Vanneur Walker with 15-56 to go.  '
+game       mbb  Kent State University          "shoot a couple here. 62-22 flashes by 40. After they're up by 34 at the break.  We haven't"
+maybe_not  mbb  College of Charleston          'In addition, including relaxed dining atmosphere featuring beef steaks and burgers, had  t'
+game       mbb  The Citadel                    'This is Bulldogs basketball on the Citadel Sports Network  72 to 33 Nate just shown me dur'
+game       mbb  Rutgers University             'in for Leno Mark. Again the pressure from Rutgers in  Balboa-Loschwitz, get it to Walker W'
+maybe_not  mbb  Rutgers University             'can get something better so work for the best possible shot each time down the floor  Boll'
+maybe_not  mbb  Rutgers University             'can get something better so work for the best possible shot each time down the floor  Boll'
+maybe_not  mbb  West Virginia University       'This is MSN, the mountaineer Sports Network.  Saturdays are for college football, rivalry '
+game       mbb  West Virginia University       'At the WVU Heart and Vascular Institute, our thoracic surgeons offer advanced treatment  f'
+game       mbb  University of Central Florida  "He's passed a Lewis Walker was open underneath the basket and laid it in.  Let's walk her "
+game       mbb  University of Central Florida  'And with 17.04 to go here still in the second half.  Nice one, down underneath the basket.'
+game       mbb  University of Central Florida  "Yeah, we'll inbound the basketball.  Let's see here, tonight's inbounding the ball.  Mulle"
+maybe_not  mbb  Yale University                "He's made me close to the goal line of a brevity now.  First down 10 brevity from there on"
+maybe_not  mbb  Yale University                "And they're winning again, they're winning against 76.  So there's the snap, there's the k"
+maybe_not  mbb  Yale University                '10 prepared from there one with four fifty eight left there in the fourth quarter.  No one'
+quiet      mbb  Villanova University           'with Missouri.'
+game       mbb  Villanova University           'three left to the key.  No good by all the oceans.  Here comes all the way to the rim and '
+game       mbb  Villanova University           "When a wild cat's take to field or hit the court, I know you could feel the energy.  IBW l"
+maybe_not  mbb  Cleveland State University     'play 1353 now remains in the period and as the power play is ongoing the  medium time out '
+game       mbb  Mount St. Mary's University    "Let's start here for a second half from behind the arc and that's what the issue  Was with"
+game       mbb  Mount St. Mary's University    'was with just score of 15 in the first hand.  Is loyal in his own now?  Thompson finds D-Y'
+maybe_not  mbb  Georgia Institute of Technolog "Everybody's short on time, so convenience matters.  And when it comes to buying a vehicle,"
+maybe_not  mbb  Georgia Institute of Technolog "Everybody's short on time, so convenience matters.  And when it comes to buying a vehicle,"
+maybe_not  mbb  Georgia Southern University    'and counting. Based on 1977 at 2025, Cal into the year, industry reported total sales. || '
+maybe_not  mbb  Georgia Southern University    "That's usually not a person you're gonna get a personal file, but a personal file called j"
+game       mbb  North Carolina State Universit 'Two were at Colorado State.  His second two years were at UC Irvine.  And he makes the fre'
+maybe_not  mbb  North Carolina State Universit "us to. I'm Brandon giggling president of Parkway Sleep Health Centers. At Parkway, we make"
+game       mbb  East Tennessee State Universit 'to Evans right down the middle of the paint.  Oh, he missed his shot and a foul one in the'
+game       mbb  East Tennessee State Universit 'the paint. Oh, he missed his shot and a foul one of the bucks. Not a green was  Burke Sava'
+maybe_not  mbb  East Tennessee State Universit "four chances and finally one goes down for NC's day but  to lead down to seven.  So are th"
+quiet      mbb  Kennesaw State University      ''
+maybe_not  mbb  Austin Peay State University   'organization is here to guide you through VA benefits, disability claims,  pensionee, 2107'
+game       mbb  Austin Peay State University   'Minser gets it into Marshall.  Marshall, unfamiliar with the ball at the top of the key,  '
+game       mbb  University of North Carolina a '13 foul already of the second half for Wofford still 1650 for to go in the game.  Heels up'
+game       mbb  University of North Carolina a 'start by Flynn.  13 foul already of the second half for  Wofford still 16-50 for to go in '
+game       mbb  University of North Carolina a "which means running across the  didn't have it immediately  not able coming off a pin  dow"
+game       mbb  Wofford College                "down, fouled, bodied up, and it'll be another foul on Luke Flynn, I believe.  I think I go"
+game       mbb  Clemson University             "I'm proud to have Prisma Health doctors on our sidelines every day caring for our players."
+game       mbb  Clemson University             "thrismah health dot org slash tigers.  1554 left in the first half.  It's a 48 43.  Clemso"
+game       mbb  Clemson University             "1554 left in the first half.  It's a 48 43 Clemson lead.  William Boggamas coached Jim Dav"
+game       mbb  University of Missouri         'With the best defense starts being low the floor.  Heal your home with Hela Tech.  Say hel'
+game       mbb  University of Missouri         'through vet ticks veteran sign up at vet ticks dot org visit plan your freedom dot com to '
+maybe_not  mbb  Saint Louis University         'Missouri will have the basketball moving left to right.  Crow will bring it up against Que'
+maybe_not  mbb  Saint Louis University         "eyes or they're not starting to see them as serious as a Super Bowl contender because of t"
+game       mbb  Central Michigan University    "It's a really good toss, Bradley.  Interesting look there,  but the Chippewas coming out a"
+game       mbb  Central Michigan University    'Chipois band, letting Bradley here with their big signs and he misses the second.  It work'
+game       mbb  Central Michigan University    'Central Michigan University. This is 91.5, the mountain, the mountain.'
+quiet      mbb  Ball State University          ''
+maybe_not  mbb  Ball State University          'and local and every weekday from 8 to 9 a.m.  This is the show talking about what you want'
+quiet      mbb  Indiana State University       ''
+game       mbb  Florida State University       'Free throw line extended against ponder here. It was a late whistle and ponder gonna be gu'
+quiet      mbb  Florida State University       'Very nice.'
+quiet      mbb  Florida State University       ''
+game       mbb  Troy University                'Davis.  Add to the free throw line.  The soft spot on his own against  Diggs takes it righ'
+maybe_not  mbb  Troy University                'very fast the game with her versatility. Year one, we saw the dynamic scoring ability.  Ye'
+maybe_not  mbb  Troy University                'very fast the game with her versatility. Year one, we saw the dynamic scoring ability.  Ye'
+maybe_not  mbb  Xavier University              'your home. Speeds up to 400 MB per second. Starlink is built for reliability, even during '
+quiet      mbb  Xavier University              'from your field.'
+maybe_not  mbb  Xavier University              'also built to be extremely reliable, even during bad weather so you can finally say goodby'
+game       mbb  Eastern Michigan University    "throw line.  Hand it off to Richards.  Richards is going to step back for a three.  Can't "
+game       mbb  Eastern Michigan University    'have and they have not scored in the last five minutes and ten seconds thanks to going  ol'
+game       mbb  Eastern Michigan University    "Not a Clico, she was a pass into the right quarter, but triple knocked down as Savior's  G"
+game       mbb  University of Georgia          "rebound right to him put it right back in.  He's got six points off the bench tonight.  Di"
+maybe_not  mbb  University of Georgia          "been system plus front load washer.  So you're closed day fresh after every single wash.  "
+game       mbb  University of Georgia          "point lead over Presbyterian at the moment.  The dog's 58, the blue hose 46.  We've got 15"
+maybe_not  mbb  Presbyterian College           'will not get in. The ball is, I think, the two point conversion is no good. So, with  the '
+game       mbb  Stephen F. Austin State Univer "dunk and a three and a couple of blocks to go along with it. If that doesn't  demoralize t"
+quiet      mbb  Stephen F. Austin State Univer ''
+quiet      mbb  Stephen F. Austin State Univer "You can still hear.  You're doing it wrong."
+quiet      mbb  Wright State University        ''
+quiet      mbb  Wright State University        ''
+quiet      mbb  Wright State University        ''
+game       mbb  Florida Atlantic University    'and the Florida Atlantic Sports Network.  Reading another with a hello at Baptist Health  '
+game       mbb  Florida Atlantic University    '19.  Like Steve went on a 12-0 run.  Just ahead of the midway point of the first half that'
+game       mbb  University of Wisconsin-Madiso 'broadcast is an exclusive presentation of Learfield. Under the broadcasting rights granted'
+maybe_not  mbb  University of Wisconsin-Madiso 'Elon Musk called it the best vehicle Tesla has ever made in a post on X,  saluting the end'
+maybe_not  mbb  University of Wisconsin-Madiso 'that supporters say is designed to keep them scrolling for hours.  It bars social media si'
+game       mbb  University of Delaware         'Tuesday at Buffalo Wild Wings Newark.  Join Buffalo Wild Wings rewards and visit Buffalo W'
+game       mbb  University of Delaware         'said it was constant would not look back jumper or excuse me after a couple of free throws'
+game       mbb  University of Delaware         'and visit Buffalo Wild Wings dot com.  Sports injury got you feeling blue.  Trust your car'
+game       mbb  University of Alabama at Birmi 'Rash, the turnovers there late, the first half, and you will have to settle for a six  poi'
+maybe_not  mbb  University of Alabama at Birmi 'Bobos or bubbles bubbles right above the end we were watching the dog on the baby monitor '
+maybe_not  mbb  University of Alabama at Birmi 'or bubbles bubbles right above the end we were watching the dog on the baby monitor  where'
+{'game': 70, 'maybe_not': 37, 'quiet': 21, 'no_audio': 12}
