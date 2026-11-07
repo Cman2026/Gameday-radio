@@ -151,6 +151,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://fsu.leanstream.co/FS0102-MP3",
 "https://stream.revma.ihrhls.com/zc661",
 "https://stream.revma.ihrhls.com/zc661/hls.m3u8?hls=true",
 "http://stream.revma.ihrhls.com/zc661"
@@ -164,7 +165,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://fsu.leanstream.co/FS0102-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "Georgia Institute of Technology",
@@ -297,7 +302,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM9301-MP3"
 ],
-"game_feeds_at": "2026-11-06T21:13:40Z",
+"game_feeds_at": "2026-11-07T00:19:26Z",
 "game_feeds_sport": "mbb"
 },
 {
@@ -335,7 +340,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM9201-MP3"
 ],
-"game_feeds_at": "2026-11-06T21:13:40Z",
+"game_feeds_at": "2026-11-07T00:19:26Z",
 "game_feeds_sport": "mbb"
 },
 {
@@ -403,7 +408,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/LF5401-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "fb"
 },
 {
 "school": "Stanford University",
@@ -624,6 +633,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM3401-MP3",
 "https://stream.revma.ihrhls.com/zc5238",
 "https://stream.revma.ihrhls.com/zc5238/hls.m3u8",
 "http://stream.revma.ihrhls.com/zc5238"
@@ -637,7 +647,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM3401-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "United States Military Academy",
@@ -783,6 +797,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF3101-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WKIMFMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WKIMFMAAC.m3u8",
 "http://playerservices.streamtheworld.com/api/livestream-redirect/WKIMFMAAC.aac"
@@ -796,7 +811,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/LF3101-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "wbb"
 },
 {
 "school": "United States Naval Academy",
@@ -876,7 +895,9 @@
 "game_only": null,
 "no_radio": true,
 "notes": "2026-27 riceowls.com schedule links every game's live audio to The Varsity Network app (thevarsitynetwork.com audioapplink); no free web stream.",
-"streams": [],
+"streams": [
+"https://img.leanstream.co/IM4503-MP3"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-03",
@@ -884,9 +905,13 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"live_only": false,
+"live_only": true,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM4503-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "wbb"
 },
 {
 "school": "University of South Florida",
@@ -1024,6 +1049,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM2001-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WJOXFMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WJOXFMAAC.m3u8",
 "http://playerservices.streamtheworld.com/api/livestream-redirect/WJOXFMAAC.aac"
@@ -1037,7 +1063,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM2001-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "University of Texas at San Antonio",
@@ -1119,6 +1149,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://ais-sa8.cdnstream1.com/1416_64/playlist.m3u8",
 "https://ais-sa8.cdnstream1.com/1416_64"
 ],
 "misses": 0,
@@ -1130,7 +1161,11 @@
 "sport_station": null,
 "live_only": true,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://ais-sa8.cdnstream1.com/1416_64/playlist.m3u8"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "Coastal Carolina University",
@@ -1181,18 +1216,23 @@
 "no_radio": null,
 "notes": "94.9 is WPMX, not WHKN (old note had the wrong call sign). Also The Varsity Network.",
 "streams": [
+"https://img.leanstream.co/LF2401-MP3",
 "https://ice64.securenetsystems.net/WPMX"
 ],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-06",
-"live_only": false,
+"live_only": true,
 "athletics_site": "https://gseagles.com",
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/LF2401-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "Georgia State University",
@@ -1241,6 +1281,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF7101-MP3",
 "https://live.amperwave.net/manifest/saga-wsvaamaac-hlsc2.m3u8?source=v7player",
 "https://live.amperwave.net/direct/saga-wsvaammp3-ibc2"
 ],
@@ -1253,7 +1294,11 @@
 "sport_station": null,
 "live_only": true,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/LF7101-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "University of Louisiana at Lafayette",
@@ -1274,6 +1319,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF2801-MP3",
 "https://live.amperwave.net/manifest/townsquare-khxtfmaac-ibc3",
 "https://live.amperwave.net/manifest/townsquare-kpelamaac-ibc3"
 ],
@@ -1286,7 +1332,11 @@
 "sport_station": null,
 "live_only": true,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/LF2801-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "Louisiana Tech University",
@@ -1431,6 +1481,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM1801-MP3",
 "https://ice64.securenetsystems.net/WXRR"
 ],
 "misses": 0,
@@ -1442,7 +1493,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM1801-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "Troy University",
@@ -1474,7 +1529,11 @@
 "sport_station": null,
 "live_only": true,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://ice6.securenetsystems.net/WTXK"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "University of Louisiana Monroe",
@@ -1751,6 +1810,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM7901-MP3",
 "https://stream.revma.ihrhls.com/zc913",
 "https://stream.revma.ihrhls.com/zc913/hls.m3u8",
 "http://stream.revma.ihrhls.com/zc913"
@@ -1764,7 +1824,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM7901-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "University of Kansas",
@@ -1815,6 +1879,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM8001-MP3",
 "https://stream-02.surfernetwork.com/drscz5r6naxuv"
 ],
 "misses": 0,
@@ -1826,7 +1891,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM8001-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "Oklahoma State University",
@@ -1846,7 +1915,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://img.leanstream.co/IM9102-MP3",
+"https://img.leanstream.co/IM9101-MP3",
 "https://ice42.securenetsystems.net/KSPI"
 ],
 "misses": 0,
@@ -1859,10 +1928,10 @@
 "sport_station": null,
 "station_skips": null,
 "game_feeds": [
-"https://img.leanstream.co/IM9102-MP3"
+"https://img.leanstream.co/IM9101-MP3"
 ],
-"game_feeds_at": "2026-11-06T21:13:40Z",
-"game_feeds_sport": "wbb"
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "Texas Christian University",
@@ -1881,6 +1950,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM4901-MP3",
 "https://img.leanstream.co/IM4903-MP3",
 "https://stream.revma.ihrhls.com/zc3379",
 "https://stream.revma.ihrhls.com/zc3379/hls.m3u8",
@@ -1895,7 +1965,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM4901-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "fb"
 },
 {
 "school": "Texas Tech University",
@@ -2022,7 +2096,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM0301-MP3"
 ],
-"game_feeds_at": "2026-11-06T21:13:40Z",
+"game_feeds_at": "2026-11-07T00:19:26Z",
 "game_feeds_sport": "mbb"
 },
 {
@@ -2061,7 +2135,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM5801-MP3"
 ],
-"game_feeds_at": "2026-11-06T21:13:40Z",
+"game_feeds_at": "2026-11-07T00:19:26Z",
 "game_feeds_sport": "mbb"
 },
 {
@@ -2083,6 +2157,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM4001-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WCSXFMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WCSXFM.mp3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WTKAAMAAC.aac"
@@ -2096,7 +2171,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM4001-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "Pennsylvania State University",
@@ -2151,6 +2230,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM7401-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WSOYAM.mp3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WSOYAMAAC.aac"
 ],
@@ -2163,7 +2243,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM7401-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "fb"
 },
 {
 "school": "Indiana University",
@@ -2183,6 +2267,7 @@
 "no_radio": null,
 "notes": "Women's basketball is on B97 WBWB 96.7 FM Bloomington, not WHCC (iuhoosiers.com, 2023 and Nov 2025).",
 "streams": [
+"https://soundmanagement.streamguys1.com/WBWB",
 "https://soundmanagement.streamguys1.com/WHCC"
 ],
 "misses": 0,
@@ -2194,7 +2279,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://soundmanagement.streamguys1.com/WBWB"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "wbb"
 },
 {
 "school": "University of Iowa",
@@ -2280,6 +2369,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/MICHIGAN_STATE_UNIVERSITY_1.mp3",
 "https://live.amperwave.net/manifest/townsquare-wjimamaac-ibc3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WJRAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WJRAMAAC.m3u8"
@@ -2293,7 +2383,11 @@
 "sport_station": null,
 "live_only": true,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://playerservices.streamtheworld.com/api/livestream-redirect/MICHIGAN_STATE_UNIVERSITY_1.mp3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mhk"
 },
 {
 "school": "University of Minnesota",
@@ -2313,6 +2407,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM8401-MP3",
 "https://stream.revma.ihrhls.com/zc1209",
 "https://stream.revma.ihrhls.com/zc1209/hls.m3u8",
 "http://stream.revma.ihrhls.com/zc1209"
@@ -2326,7 +2421,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM8401-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "University of Nebraska-Lincoln",
@@ -2427,7 +2526,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM0801-MP3"
 ],
-"game_feeds_at": "2026-11-06T21:13:40Z",
+"game_feeds_at": "2026-11-07T00:19:26Z",
 "game_feeds_sport": "mbb"
 },
 {
@@ -2491,7 +2590,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM4601-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "University of California, Los Angeles",
@@ -2608,6 +2711,7 @@
 "no_radio": null,
 "notes": "Volleyball on ESPN Madison WTLX 100.5 (and 620 WTMJ); the 2026 volleyball schedule links every match to ESPN Madison. Women's basketball is on WTSO 1070 AM Fox Sports Madison (iHeart), not WIBA (uwbadgers.com game notes).",
 "streams": [
+"https://img.leanstream.co/IM8501-MP3",
 "https://stream.revma.ihrhls.com/zc2661",
 "https://stream.revma.ihrhls.com/zc2661/hls.m3u8",
 "http://stream.revma.ihrhls.com/zc2661"
@@ -2627,7 +2731,11 @@
 "wvb": "ESPN Madison 100.5 FM (WTLX)"
 },
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM8501-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "University at Albany",
@@ -2787,6 +2895,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://cdn.jwplayer.com/live/broadcast/YJcDSafV.m3u8",
 "https://live.amperwave.net/manifest/townsquare-wezqfmaac-ibc3",
 "https://live.amperwave.net/manifest/townsquare-wwmjfmaac-ibc3"
 ],
@@ -2799,7 +2908,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://cdn.jwplayer.com/live/broadcast/YJcDSafV.m3u8"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mhk"
 },
 {
 "school": "Monmouth University",
@@ -2849,6 +2962,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF4101-MP3",
 "https://stream.revma.ihrhls.com/zc2752",
 "https://stream.revma.ihrhls.com/zc2752/hls.m3u8",
 "http://stream.revma.ihrhls.com/zc2752"
@@ -2861,7 +2975,12 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/LF4101-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mhk",
+"live_only": true
 },
 {
 "school": "North Carolina A&T State University",
@@ -2920,7 +3039,7 @@
 "game_feeds": [
 "https://learfield-gd.leanstream.co/LF4902-MP3?sport=WBB"
 ],
-"game_feeds_at": "2026-11-06T21:13:40Z",
+"game_feeds_at": "2026-11-07T00:19:26Z",
 "game_feeds_sport": "wbb"
 },
 {
@@ -3396,6 +3515,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://cdn.jwplayer.com/live/broadcast/YzQ2VPMP.m3u8",
 "https://ice24.securenetsystems.net/WDCR"
 ],
 "misses": 0,
@@ -3407,7 +3527,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://cdn.jwplayer.com/live/broadcast/YzQ2VPMP.m3u8"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mhk"
 },
 {
 "school": "Harvard University",
@@ -4623,7 +4747,7 @@
 "game_feeds": [
 "https://peaksports.leanstream.co/PS0101-MP3"
 ],
-"game_feeds_at": "2026-11-06T21:13:40Z",
+"game_feeds_at": "2026-11-07T00:19:26Z",
 "game_feeds_sport": "mbb"
 },
 {
@@ -4884,6 +5008,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF8102-MP3",
 "https://img.leanstream.co/LF8101-MP3",
 "https://live.amperwave.net/manifest/townsquare-ktbqfmaac-ibc3"
 ],
@@ -4896,7 +5021,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/LF8102-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "University of Texas Rio Grande Valley",
@@ -5375,6 +5504,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF7801-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KSTPAM.mp3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KSTPAMAAC.aac"
 ],
@@ -5387,7 +5517,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/LF7801-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "University of San Diego",
@@ -5591,6 +5725,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF2501-MP3",
 "https://live.amperwave.net/direct/horizonbroadcasting-kbnwammp3-ibc1"
 ],
 "misses": 0,
@@ -5602,7 +5737,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/LF2501-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "Idaho State University",
@@ -5955,7 +6094,7 @@
 "game_feeds": [
 "https://live.amperwave.net/manifest/jdl-wvigfmaac-hlsc.m3u8"
 ],
-"game_feeds_at": "2026-11-06T21:13:40Z",
+"game_feeds_at": "2026-11-07T00:19:26Z",
 "game_feeds_sport": "mbb"
 },
 {
@@ -5976,6 +6115,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF8303-MP3",
 "https://live.amperwave.net/manifest/forevercomm-wfgsfmaac-hlsc4.m3u8"
 ],
 "misses": 0,
@@ -5987,7 +6127,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/LF8303-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "wbb"
 },
 {
 "school": "University of North Dakota",
@@ -6039,6 +6183,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF4602-MP3",
 "https://ice7.securenetsystems.net/THEMIX"
 ],
 "misses": 0,
@@ -6050,7 +6195,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/LF4602-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "wbb"
 },
 {
 "school": "University of South Dakota",
@@ -6134,6 +6283,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF5301-MP3",
 "https://ice23.securenetsystems.net/WCIL"
 ],
 "misses": 0,
@@ -6145,7 +6295,11 @@
 "sport_station": null,
 "live_only": true,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/LF5301-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "Youngstown State University",
@@ -6295,6 +6449,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://cdn.jwplayer.com/live/broadcast/YJR8eKd6.m3u8",
 "https://streams.radio.co/sd1bcd1376/listen#.mp3"
 ],
 "misses": 0,
@@ -6306,7 +6461,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://cdn.jwplayer.com/live/broadcast/YJR8eKd6.m3u8"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "University of North Alabama",
@@ -6358,6 +6517,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://cdn.jwplayer.com/live/broadcast/sjZqILXM.m3u8",
 "https://kxtr.streamguys1.com/live2-aac",
 "http://kxtr.streamguys1.com/live2-aac"
 ],
@@ -6370,7 +6530,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://cdn.jwplayer.com/live/broadcast/sjZqILXM.m3u8"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "University of West Florida",
@@ -6570,6 +6734,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://live.amperwave.net/manifest/northernstarbroadcasting-wupsfmaac-hlsc2.m3u8",
 "https://live.amperwave.net/manifest/northernstarbroadcasting-wupsfmaac-ibc2",
 "http://www.wmhw.cmich.edu:915/live.mp3"
 ],
@@ -6582,7 +6747,11 @@
 "sport_station": null,
 "live_only": true,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://live.amperwave.net/manifest/northernstarbroadcasting-wupsfmaac-hlsc2.m3u8"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "Eastern Michigan University",
@@ -6665,6 +6834,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://cdn.jwplayer.com/live/broadcast/8BA5esRw.m3u8",
 "https://ice3.securenetsystems.net/WMOH"
 ],
 "misses": 0,
@@ -6675,7 +6845,12 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://cdn.jwplayer.com/live/broadcast/8BA5esRw.m3u8"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mhk",
+"live_only": true
 },
 {
 "school": "Ohio University",
@@ -6880,6 +7055,9 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://cdn.jwplayer.com/live/broadcast/mx8xP9XL.m3u8",
+"https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/mx8xP9XL.m3u8?exp=1794011760&sig=f7c850240324c1bc0660ee3da5ae0a3c",
+"https://livecdn.use1-0009.jwplive.com/live/sites/EUlBucu3/media/mx8xP9XL/live.isml/.m3u8",
 "https://cdn.jwplayer.com/live/broadcast/shHzcg5r.m3u8"
 ],
 "misses": 4,
@@ -6891,7 +7069,13 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://cdn.jwplayer.com/live/broadcast/mx8xP9XL.m3u8",
+"https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/mx8xP9XL.m3u8?exp=1794011760&sig=f7c850240324c1bc0660ee3da5ae0a3c",
+"https://livecdn.use1-0009.jwplive.com/live/sites/EUlBucu3/media/mx8xP9XL/live.isml/.m3u8"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "Jacksonville State University",
@@ -6999,6 +7183,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://streaming2.tux-support.com:8098/source",
 "https://ice3.securenetsystems.net/WGNS?playSessionID=7C9260E4-7C2B-4AFA-87C6F0CA6FBE5430"
 ],
 "misses": 0,
@@ -7008,9 +7193,13 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"live_only": false,
+"live_only": true,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://streaming2.tux-support.com:8098/source"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "Missouri State University",
@@ -7151,6 +7340,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF0402-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAMAAC.m3u8",
 "http://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAMAAC.aac"
@@ -7164,7 +7354,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/LF0402-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "wbb"
 },
 {
 "school": "Colorado State University",
@@ -7184,6 +7378,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF1701-MP3",
 "https://bonneville.cdnstream1.com/2612_48.aac?aw_0_1st.playerid=IHM",
 "https://bonneville.cdnstream1.com/2612_48.aac/playlist.m3u8?aw_0_1st.playerid=IHM"
 ],
@@ -7196,7 +7391,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/LF1701-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "California State University, Fresno",
@@ -7246,6 +7445,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM7201-MP3",
 "https://stream.revma.ihrhls.com/zc1949",
 "https://stream.revma.ihrhls.com/zc1949/hls.m3u8",
 "http://stream.revma.ihrhls.com/zc1949"
@@ -7259,7 +7459,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM7201-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "San Diego State University",
@@ -7412,6 +7616,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM2602-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KVORAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KVORAMAAC.m3u8",
 "http://playerservices.streamtheworld.com/api/livestream-redirect/KVORAMAAC.aac"
@@ -7425,7 +7630,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM2602-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mhk"
 },
 {
 "school": "University of Hawai'i at Manoa",
@@ -7704,6 +7913,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM8201-MP3",
 "https://live.amperwave.net/manifest/townsquare-kowbamaac-ibc3"
 ],
 "misses": 0,
@@ -7715,7 +7925,11 @@
 "sport_station": null,
 "live_only": true,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM8201-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "University of Alabama",
@@ -7736,6 +7950,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM7001-MP3",
 "https://stream.rcs.revma.com/fyk48ahxu7uvv",
 "https://stream.rcs.revma.com/fyk48ahxu7uvv/hls.m3u8",
 "http://stream.rcs.revma.com/fyk48ahxu7uvv"
@@ -7749,7 +7964,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM7001-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "University of Arkansas",
@@ -7864,6 +8083,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM5001-MP3",
 "https://cmg.streamguys1.com/atl750/atl750-encoder.aac/playlist.m3u8?aw_0_1st.playerId=cmg_iheart",
 "http://cmg.streamguys1.com/atl750/atl750-encoder.aac/playlist.m3u8?aw_0_1st.playerId=cmg_iheart"
 ],
@@ -7876,7 +8096,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM5001-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "University of Kentucky",
@@ -7959,6 +8183,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/IM4101-MP3",
 "https://live.amperwave.net/manifest/telesouth-wqljfmaac-hlsc1.m3u8?source=v7player"
 ],
 "misses": 0,
@@ -7970,7 +8195,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM4101-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "Mississippi State University",
@@ -8303,7 +8532,9 @@
 "game_only": true,
 "no_radio": null,
 "notes": "Audio is the digital-only Belmont Bruins Radio (iHeartRadio app + school site); no over-the-air station found",
-"streams": [],
+"streams": [
+"https://cdn.jwplayer.com/live/broadcast/gBPpgifY.m3u8"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
@@ -8311,9 +8542,13 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"live_only": false,
+"live_only": true,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://cdn.jwplayer.com/live/broadcast/gBPpgifY.m3u8"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "wbb"
 },
 {
 "school": "Binghamton University",
@@ -8365,7 +8600,11 @@
 "game_only": true,
 "no_radio": null,
 "notes": "WTBU MBB page has 2025-26 game recaps (Jan-Mar 2026) and 'Click to Listen to WTBU Men's Basketball Broadcasts' linking to Mixlr wtbusports; games appear to be on a separate Mixlr stream, so WTBU calls left out. FM carriage unverified; Mixlr page could not be fetched",
-"streams": [],
+"streams": [
+"http://mixlr.com/wtbusports",
+"https://mixlr.com/wtbusports",
+"https://wtbusports.mixlr.com/"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
@@ -8373,9 +8612,15 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"live_only": false,
+"live_only": true,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"http://mixlr.com/wtbusports",
+"https://mixlr.com/wtbusports",
+"https://wtbusports.mixlr.com/"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "Bradley University",
@@ -8396,6 +8641,7 @@
 "no_radio": null,
 "notes": "FM translator W262BY 100.3; women's games also on WMBD",
 "streams": [
+"https://15723.live.streamtheworld.com/WPBGHD3AAC_SC?starttime=1794009906",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WMBDAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/WMBDAMAAC_SC?wmbd"
 ],
@@ -8408,7 +8654,11 @@
 "sport_station": null,
 "live_only": true,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://15723.live.streamtheworld.com/WPBGHD3AAC_SC?starttime=1794009906"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "wbb"
 },
 {
 "school": "California State University, Bakersfield",
@@ -8487,7 +8737,9 @@
 "game_only": true,
 "no_radio": null,
 "notes": "Free audio on GoMatadors.com/Radio and Varsity app for road games; home games are ESPN+ video",
-"streams": [],
+"streams": [
+"https://cdn.jwplayer.com/live/broadcast/fBfmMeSO.m3u8"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
@@ -8495,9 +8747,13 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"live_only": false,
+"live_only": true,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://cdn.jwplayer.com/live/broadcast/fBfmMeSO.m3u8"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "California Baptist University",
@@ -8580,7 +8836,9 @@
 "game_only": null,
 "no_radio": true,
 "notes": "Audio only in the Varsity Network app; no free web stream.",
-"streams": [],
+"streams": [
+"https://ice5.securenetsystems.net/WTMZ"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-03",
@@ -8588,9 +8846,13 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"live_only": false,
+"live_only": true,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://ice5.securenetsystems.net/WTMZ"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "Cleveland State University",
@@ -8900,7 +9162,11 @@
 "game_only": null,
 "no_radio": null,
 "notes": "Dec 2025 deal covers only 8 home games, Jan-Feb 2026 (4 MBB, 4 WBB). Station is an HD2 sub-channel plus translators, so no calls. Stream is at FOXSportsFM.com but its site could not be fetched to get a direct URL",
-"streams": [],
+"streams": [
+"https://synchroscript.deliveryengine.adswizz.com/getUID?curl=https%3A%2F%2Fyield-op-idsync.live.streamtheworld.com%2Fpixel.gif%3Fpartner%3Daw%26uid%3D%24%7BUID%7D%26pubId%3D21313",
+"https://ums.acuityplatform.com/tum?umid=133&uid=abad29ac-a2ca-4cf8-ae18-7c56ade186ea&rurl=https%3A%2F%2Fyield-op-idsync.live.streamtheworld.com%2Fpixel.gif%3Fpartner%3Dacu%26uid%3D___AUID___%26pubId%3D21313",
+"https://rtb.adentifi.com/CookieSyncTriton?redirect=https%3A%2F%2Fyield-op-idsync.live.streamtheworld.com%2Fpixel.gif%3Fpartner%3Dadt%26uid%3D%24UID%26pubId%3D21313"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
@@ -8908,9 +9174,15 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"live_only": false,
+"live_only": true,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://synchroscript.deliveryengine.adswizz.com/getUID?curl=https%3A%2F%2Fyield-op-idsync.live.streamtheworld.com%2Fpixel.gif%3Fpartner%3Daw%26uid%3D%24%7BUID%7D%26pubId%3D21313",
+"https://ums.acuityplatform.com/tum?umid=133&uid=abad29ac-a2ca-4cf8-ae18-7c56ade186ea&rurl=https%3A%2F%2Fyield-op-idsync.live.streamtheworld.com%2Fpixel.gif%3Fpartner%3Dacu%26uid%3D___AUID___%26pubId%3D21313",
+"https://rtb.adentifi.com/CookieSyncTriton?redirect=https%3A%2F%2Fyield-op-idsync.live.streamtheworld.com%2Fpixel.gif%3Fpartner%3Dadt%26uid%3D%24UID%26pubId%3D21313"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "George Mason University",
@@ -8930,7 +9202,10 @@
 "game_only": true,
 "no_radio": null,
 "notes": "2025-26 previews: 'Steve Kolbe will call the game on the GoMason Digital Network' with a 'LIVE AUDIO: Click here' link. The link target could not be read; the game-time job should scrape gomason.com (SIDEARM). No radio call letters given. WGMU is a student station; no game carriage confirmed.",
-"streams": [],
+"streams": [
+"https://cdn.jwplayer.com/live/broadcast/1JloVwxJ.m3u8",
+"https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/1JloVwxJ.m3u8?exp=1794011760&sig=cbd504e8f5e6d1d40c94a41acb1889bb"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
@@ -8939,7 +9214,13 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://cdn.jwplayer.com/live/broadcast/1JloVwxJ.m3u8",
+"https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/1JloVwxJ.m3u8?exp=1794011760&sig=cbd504e8f5e6d1d40c94a41acb1889bb"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb",
+"live_only": true
 },
 {
 "school": "The George Washington University",
@@ -8990,6 +9271,7 @@
 "no_radio": null,
 "notes": "Women's games on HoopTown 101.5 FM KZFS; iHeart deal announced Oct 2024 (Pac-12 from 2026-27, WCC before)",
 "streams": [
+"https://img.leanstream.co/IM3702-MP3",
 "https://stream.revma.ihrhls.com/zc4952",
 "https://stream.revma.ihrhls.com/zc4952/hls.m3u8",
 "http://stream.revma.ihrhls.com/zc4952"
@@ -9003,7 +9285,11 @@
 "sport_station": null,
 "live_only": true,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/IM3702-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "wbb"
 },
 {
 "school": "Grand Canyon University",
@@ -10284,6 +10570,7 @@
 "no_radio": null,
 "notes": "Also on the Varsity Network app; Bob Ramsey/Earl Austin Jr.",
 "streams": [
+"https://img.leanstream.co/LF5001-MP3",
 "https://live.amperwave.net/direct/audacy-kmoxfmaac-imc",
 "https://live.amperwave.net/manifest/audacy-kmoxamaac-hlsc.m3u8"
 ],
@@ -10296,7 +10583,11 @@
 "sport_station": null,
 "live_only": true,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/LF5001-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "Saint Mary's College of California",
@@ -10507,7 +10798,9 @@
 "game_only": null,
 "no_radio": null,
 "notes": "July 2026 release reaffirms WSPG as flagship. Live audio is at SpartanburgSportsRadio.com, the Fox Sports Spartanburg app, and TuneIn 'WSPG-AM'. No direct stream URL found (site not fetchable, Streema shows none). Per 2023 deal, all MBB and only some WBB",
-"streams": [],
+"streams": [
+"https://www.spartanburgsportsradio.com/"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
@@ -10515,9 +10808,13 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"live_only": false,
+"live_only": true,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://www.spartanburgsportsradio.com/"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "University of Southern Indiana",
@@ -10813,7 +11110,9 @@
 "game_only": null,
 "no_radio": null,
 "notes": "No basketball radio found. WCAP 980 and student WUML 91.5 are both listed for River Hawks hockey only (Wikipedia); Oct 2025 MBB release has no audio Men's hockey: 980 WCAP (Lowell) per Wikipedia (undated; 2026-27 schedule release names no radio). Basketball still has no radio.",
-"streams": [],
+"streams": [
+"https://cdn.jwplayer.com/live/broadcast/LCyNyoBI.m3u8"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": null,
@@ -10821,12 +11120,16 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"live_only": false,
+"live_only": true,
 "station_skips": [
 "mbb",
 "wbb"
 ],
-"game_feeds": null
+"game_feeds": [
+"https://cdn.jwplayer.com/live/broadcast/LCyNyoBI.m3u8"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mhk"
 },
 {
 "school": "University of North Carolina Asheville",
@@ -11439,13 +11742,19 @@
 "whk": "KVSC 88.1 FM (St. Cloud State student station)"
 },
 "streams": [
+"https://img.leanstream.co/LF5501-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KNSIAAC.aac"
 ],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-06",
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/LF5501-MP3"
+],
+"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_sport": "mhk",
+"live_only": true
 },
 {
 "school": "Minnesota State University, Mankato",

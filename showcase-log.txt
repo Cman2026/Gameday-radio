@@ -15,22 +15,63 @@ No user sessions are running outdated binaries.
 
 No VM guests are running outdated hypervisor (qemu) binaries on this host.
 allaccess error https://hokiesports.com HTTP Error 404: Not Found
-allaccess error https://virginiasports.com HTTP Error 404: Not Found
-allaccess error https://purduesports.com HTTP Error 404: Not Found
-allaccess error https://mutigers.com HTTP Error 404: Not Found
-allaccess error https://clemsontigers.com HTTP Error 404: Not Found
-allaccess error https://ramblinwreck.com HTTP Error 404: Not Found
-allaccess error https://ucfknights.com HTTP Error 404: Not Found
+allaccess error https://huskers.com HTTP Error 404: Not Found
+allaccess error https://golobos.com HTTP Error 404: Not Found
 allaccess error https://ukathletics.com HTTP Error 404: Not Found
+allaccess error https://purduesports.com HTTP Error 404: Not Found
+allaccess error https://ucfknights.com HTTP Error 404: Not Found
+allaccess error https://ramblinwreck.com HTTP Error 404: Not Found
+allaccess error https://clemsontigers.com HTTP Error 404: Not Found
+allaccess error https://mutigers.com HTTP Error 404: Not Found
+allaccess error https://nusports.com HTTP Error 404: Not Found
+allaccess error https://12thman.com HTTP Error 404: Not Found
+allaccess error https://lsusports.net HTTP Error 404: Not Found
+allaccess error https://hawkeyesports.com HTTP Error 404: Not Found
+allaccess error https://thesundevils.com HTTP Error 404: Not Found
+allaccess error https://byucougars.com HTTP Error 404: Not Found
+allaccess error https://miamihurricanes.com HTTP Error 404: Not Found
+allaccess error https://gostanford.com HTTP Error 404: Not Found
 allaccess error https://fightingirish.com HTTP Error 404: Not Found
+allaccess error https://lrtrojans.com HTTP Error 404: Not Found
+allaccess error https://goutsa.com HTTP Error 404: Not Found
+allaccess error https://wsucougars.com HTTP Error 404: Not Found
 allaccess error https://gopsusports.com HTTP Error 404: Not Found
 allaccess error https://gocolgateraiders.com <urlopen error [Errno 104] Connection reset by peer>
-official feeds added for: Baylor University (mbb), University of Oregon (mbb), Ohio State University (mbb), Indiana State University (mbb), University of North Carolina at Chapel Hill (mbb), North Carolina State University (mbb), West Virginia University (mbb), Utah State University (wbb), Oklahoma State University (wbb)
-leanplayer xml https://wofford.leanplayer.com/ <?xml version="1.0"?> <main><sports><sport><id>1</id><name>Football</name><is_show>0</is_show></sport><sport><id>2</id><name>Men&#x2019;s Basketball</name><is_show>0</is_show></sport><sport><id>3</id><name>Women&#x2019;s Basketball</name><is_show>0</is_show></sport></sports><events><current_ev/><upcoming_ev><event><id>116707</id><start_timestamp>1794008700</start_timestamp><start>2026-11-06 23:45:00</start><end>2026-11-07 03:45:00</end><sport_id>2</sport_id><opponent>North Carolina</opponent><url>https://peaksports.leanstream.co/PS0101-MP3</url></event><event><id>111254</id><start_timestamp>17
+official feeds added for: Southern Methodist University (fb), University of Illinois Urbana-Champaign (fb), Texas Christian University (fb), James Madison University (mbb), University of Oregon (mbb), Ohio State University (mbb), Eastern Kentucky University (mbb), Rutgers University (mbb), West Virginia University (mbb), Georgia Southern University (mbb), North Carolina State University (mbb), Central Michigan University (mbb), Indiana State University (mbb), Florida State University (mbb), University of Georgia (mbb), University of North Carolina at Chapel Hill (mbb), Saint Louis University (mbb), University of Alabama at Birmingham (mbb), University of Wisconsin-Madison (mbb), Stephen F. Austin State University (mbb), University of Alabama (mbb), Arkansas State University (mbb), University of Minnesota (mbb), University of St. Thomas (Minnesota) (mbb), University of Louisiana at Lafayette (mbb), Iowa State University (mbb), University of Southern Mississippi (mbb), University of Michigan (mbb), University of Connecticut (mbb), University of Mississippi (mbb), Southern Illinois University (mbb), University of Wyoming (mbb), Kansas State University (mbb), Oklahoma State University (mbb), Colorado State University (mbb), University of Idaho (mbb), Middle Tennessee State University (mbb), Tarleton State University (mbb), Oregon State University (mbb), University of Memphis (wbb), University of Northern Iowa (wbb), Bradley University (wbb), Indiana University (wbb), Murray State University (wbb), Boise State University (wbb), Gonzaga University (wbb), University of Maine (mhk), Michigan State University (mhk), University of New Hampshire (mhk), St. Cloud State University (mhk), Miami University (mhk), United States Air Force Academy (mhk)
+College of Charleston mbb -> (feed) ['https://ice5.securenetsystems.net/WTMZ']
+Troy University mbb -> (feed) ['https://ice6.securenetsystems.net/WTXK']
+California State University, Northridge mbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/fBfmMeSO.m3u8']
+Rice University wbb -> (feed) ['https://img.leanstream.co/IM4503-MP3']
+Belmont University wbb -> (feed) ['https://cdn.jwplayer.com/live/broadcast/gBPpgifY.m3u8']
+allaccess error https://goseattleu.com HTTP Error 404: Not Found
+Dartmouth College mhk -> (feed) ['https://cdn.jwplayer.com/live/broadcast/YzQ2VPMP.m3u8']
+University of Massachusetts Lowell mhk -> (feed) ['https://cdn.jwplayer.com/live/broadcast/LCyNyoBI.m3u8']
+leanplayer xml https://wofford.leanplayer.com/ <?xml version="1.0"?> <main><sports><sport><id>1</id><name>Football</name><is_show>0</is_show></sport><sport><id>2</id><name>Men&#x2019;s Basketball</name><is_show>0</is_show></sport><sport><id>3</id><name>Women&#x2019;s Basketball</name><is_show>0</is_show></sport></sports><events><current_ev><event><id>116707</id><start_timestamp>1794008700</start_timestamp><start>2026-11-06 23:45:00</start><end>2026-11-07 03:45:00</end><sport_id>2</sport_id><opponent>North Carolina</opponent><url>https://peaksports.leanstream.co/PS0101-MP3</url></event></current_ev><upcoming_ev><event><id>111254</id><start_
 Wofford College mbb -> (leanplayer) ['https://peaksports.leanstream.co/PS0101-MP3']
 leanplayer xml https://rhody.leanplayer.com/ <?xml version="1.0"?> <main><sports><sport><id>1579</id><name>Rhode Island Football Coachs Show</name><is_show>1</is_show></sport><sport><id>1</id><name>Football</name><is_show>0</is_show></sport><sport><id>1597</id><name>The Archie Miller + Tammi Reiss Show</name><is_show>1</is_show></sport><sport><id>888</id><name>Rhode Island Football Coach's Show</name><is_show>1</is_show></sport><sport><id>441</id><name>Archie Miller Show</name><is_show>1</is_show></sport><sport><id>3</id><name>Women&#x2019;s Basketball</name><is_show>0</is_show></sport><sport><id>2</id><name>Men&#x2019;s Basketball</name
 University of Rhode Island wbb -> (leanplayer) ['https://learfield-gd.leanstream.co/LF4902-MP3?sport=WBB']
-Loyola Marymount University wbb -> []
-Long Island University whk -> []
-Long Island University whk -> []
+Florida International University mbb -> ['https://cdn.jwplayer.com/live/broadcast/mx8xP9XL.m3u8', 'https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/mx8xP9XL.m3u8?exp=1794011760&sig=f7c850240324c1bc0660ee3da5ae0a3c', 'https://livecdn.use1-0009.jwplive.com/live/sites/EUlBucu3/media/mx8xP9XL/live.isml/.m3u8']
+Florida International University mbb -> ['https://cdn.jwplayer.com/live/broadcast/mx8xP9XL.m3u8', 'https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/mx8xP9XL.m3u8?exp=1794011760&sig=f7c850240324c1bc0660ee3da5ae0a3c', 'https://livecdn.use1-0009.jwplive.com/live/sites/EUlBucu3/media/mx8xP9XL/live.isml/.m3u8']
+University of West Florida mbb -> []
+University of South Carolina Upstate mbb -> []
+University of South Carolina Upstate mbb -> ['https://www.spartanburgsportsradio.com/']
+University of New Haven mbb -> []
+Florida Gulf Coast University mbb -> []
+Florida Gulf Coast University mbb -> ['https://synchroscript.deliveryengine.adswizz.com/getUID?curl=https%3A%2F%2Fyield-op-idsync.live.streamtheworld.com%2Fpixel.gif%3Fpartner%3Daw%26uid%3D%24%7BUID%7D%26pubId%3D21313', 'https://ums.acuityplatform.com/tum?umid=133&uid=abad29ac-a2ca-4cf8-ae18-7c56ade186ea&rurl=https%3A%2F%2Fyield-op-idsync.live.streamtheworld.com%2Fpixel.gif%3Fpartner%3Dacu%26uid%3D___AUID___%26pubId%3D21313', 'https://rtb.adentifi.com/CookieSyncTriton?redirect=https%3A%2F%2Fyield-op-idsync.live.streamtheworld.com%2Fpixel.gif%3Fpartner%3Dadt%26uid%3D%24UID%26pubId%3D21313']
+Stetson University mbb -> []
+College of the Holy Cross mbb -> []
+George Mason University mbb -> ['https://cdn.jwplayer.com/live/broadcast/1JloVwxJ.m3u8', 'https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/1JloVwxJ.m3u8?exp=1794011760&sig=cbd504e8f5e6d1d40c94a41acb1889bb']
+George Mason University mbb -> ['https://cdn.jwplayer.com/live/broadcast/1JloVwxJ.m3u8', 'https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/1JloVwxJ.m3u8?exp=1794011760&sig=cbd504e8f5e6d1d40c94a41acb1889bb']
+Coppin State University mbb -> []
+American University mbb -> []
+University of North Carolina at Greensboro mbb -> []
+Loyola University Maryland mbb -> []
+Brown University mbb -> []
+Brown University mbb -> []
+Boston University mbb -> ['https://cdn.jwplayer.com/live/broadcast/wgiZvwbT.m3u8', 'https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/wgiZvwbT.m3u8?exp=1794011760&sig=8896f84d8d22e294cb2509d77cfd891b', 'https://livecdn.use1-0009.jwplive.com/live/sites/PbcNLKOz/media/wgiZvwbT/live.isml/.m3u8']
+Boston University mbb -> ['http://mixlr.com/wtbusports', 'https://mixlr.com/wtbusports', 'https://wtbusports.mixlr.com/']
+University of Oklahoma mbb -> []
+Mississippi Valley State University mbb -> []
+University of Detroit Mercy mbb -> []
+Southern University mbb -> []
 other SIDEARM sport names seen: fitzgeraldshow, football, general, kelsayshow, m_bkb, mbasket, mbball, mhockey, msoc, nightingaleshow, w_bkb, wbasket, wbb, wbball, whockey, wrestling, wsoc, wvball
