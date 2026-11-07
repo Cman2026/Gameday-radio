@@ -1966,9 +1966,10 @@
 "sport_station": null,
 "station_skips": null,
 "game_feeds": [
-"https://img.leanstream.co/IM4901-MP3"
+"https://img.leanstream.co/IM4901-MP3",
+"https://img.leanstream.co/IM4903-MP3"
 ],
-"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_at": "2026-11-07T04:40:42Z",
 "game_feeds_sport": "fb"
 },
 {
@@ -2509,7 +2510,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://img.leanstream.co/IM0801-MP3",
+"https://img.leanstream.co/IM0802-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAMAAC.aac",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAMAAC.m3u8",
 "http://playerservices.streamtheworld.com/api/livestream-redirect/KUGNAMAAC.aac"
@@ -2524,10 +2525,10 @@
 "sport_station": null,
 "station_skips": null,
 "game_feeds": [
-"https://img.leanstream.co/IM0801-MP3"
+"https://img.leanstream.co/IM0802-MP3"
 ],
-"game_feeds_at": "2026-11-07T00:19:26Z",
-"game_feeds_sport": "mbb"
+"game_feeds_at": "2026-11-07T04:40:42Z",
+"game_feeds_sport": "wbb"
 },
 {
 "school": "Purdue University",
@@ -2978,7 +2979,7 @@
 "game_feeds": [
 "https://img.leanstream.co/LF4101-MP3"
 ],
-"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_at": "2026-11-07T04:40:42Z",
 "game_feeds_sport": "mhk",
 "live_only": true
 },
@@ -5504,7 +5505,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
-"https://img.leanstream.co/LF7801-MP3",
+"https://img.leanstream.co/LF7802-MP3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KSTPAM.mp3",
 "https://playerservices.streamtheworld.com/api/livestream-redirect/KSTPAMAAC.aac"
 ],
@@ -5518,10 +5519,10 @@
 "sport_station": null,
 "station_skips": null,
 "game_feeds": [
-"https://img.leanstream.co/LF7801-MP3"
+"https://img.leanstream.co/LF7802-MP3"
 ],
-"game_feeds_at": "2026-11-07T00:19:26Z",
-"game_feeds_sport": "mbb"
+"game_feeds_at": "2026-11-07T04:40:42Z",
+"game_feeds_sport": "mhk"
 },
 {
 "school": "University of San Diego",
@@ -6533,7 +6534,7 @@
 "game_feeds": [
 "https://cdn.jwplayer.com/live/broadcast/sjZqILXM.m3u8"
 ],
-"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_at": "2026-11-07T04:40:42Z",
 "game_feeds_sport": "mbb"
 },
 {
@@ -7633,7 +7634,7 @@
 "game_feeds": [
 "https://img.leanstream.co/IM2602-MP3"
 ],
-"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_at": "2026-11-07T04:40:42Z",
 "game_feeds_sport": "mhk"
 },
 {
@@ -7754,6 +7755,7 @@
 "no_radio": null,
 "notes": null,
 "streams": [
+"https://img.leanstream.co/LF7502-MP3",
 "https://ice3.securenetsystems.net/KQWB"
 ],
 "misses": 0,
@@ -7765,7 +7767,11 @@
 "sport_streams": null,
 "sport_station": null,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/LF7502-MP3"
+],
+"game_feeds_at": "2026-11-07T04:40:42Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "Northern Illinois University",
@@ -8619,8 +8625,8 @@
 "https://mixlr.com/wtbusports",
 "https://wtbusports.mixlr.com/"
 ],
-"game_feeds_at": "2026-11-07T00:19:26Z",
-"game_feeds_sport": "mbb"
+"game_feeds_at": "2026-11-07T04:40:42Z",
+"game_feeds_sport": "mhk"
 },
 {
 "school": "Bradley University",
@@ -10289,7 +10295,10 @@
 "game_only": true,
 "no_radio": null,
 "notes": "Since Nov 2025, free audio streams only on PortlandPilots.com All-Access (home, select road, postseason); no OTA station named",
-"streams": [],
+"streams": [
+"https://cdn.jwplayer.com/live/broadcast/ACbqK9yw.m3u8",
+"https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/ACbqK9yw.m3u8?exp=1794027360&sig=671aa51eead583a044874527c5fb0605"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-03",
@@ -10297,9 +10306,14 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"live_only": false,
+"live_only": true,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://cdn.jwplayer.com/live/broadcast/ACbqK9yw.m3u8",
+"https://broadcast-live-delivery-cdn.jwplayer.com/live/broadcast/ACbqK9yw.m3u8?exp=1794027360&sig=671aa51eead583a044874527c5fb0605"
+],
+"game_feeds_at": "2026-11-07T04:40:42Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "Providence College",
@@ -11237,7 +11251,9 @@
 "game_only": true,
 "no_radio": null,
 "notes": "2025-26 men's schedule has 'Listen' links to utamavs.com/showcase; no OTA station named; women's has no audio links",
-"streams": [],
+"streams": [
+"https://img.leanstream.co/LF8001-MP3"
+],
 "misses": 0,
 "miss_day": null,
 "last_ok": "2026-11-03",
@@ -11245,9 +11261,13 @@
 "station_sports": null,
 "sport_streams": null,
 "sport_station": null,
-"live_only": false,
+"live_only": true,
 "station_skips": null,
-"game_feeds": null
+"game_feeds": [
+"https://img.leanstream.co/LF8001-MP3"
+],
+"game_feeds_at": "2026-11-07T04:40:42Z",
+"game_feeds_sport": "mbb"
 },
 {
 "school": "Utah Valley University",
@@ -11752,7 +11772,7 @@
 "game_feeds": [
 "https://img.leanstream.co/LF5501-MP3"
 ],
-"game_feeds_at": "2026-11-07T00:19:26Z",
+"game_feeds_at": "2026-11-07T04:40:42Z",
 "game_feeds_sport": "mhk",
 "live_only": true
 },
